@@ -1,0 +1,52 @@
+# ============================================================
+# seismic-denoise-bench / .gitignore
+# 编码约定：UTF-8 无 BOM，LF 换行
+# ============================================================
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# ---- Notebook ----
+.ipynb_checkpoints/
+
+# ---- 编辑器 / 系统 ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- 运行产物（目录保留，内容不入库）----
+runs/**
+!runs/.gitkeep
+
+# ---- 数据（大文件不入库；仅保留目录占位）----
+data/**
+!data/field/
+!data/field/.gitkeep
+
+# ---- 密钥与本地环境（严禁入库）----
+.env
+.env.*
+*.key
+*.pem
+secrets*
+credentials*
+
+# ---- 临时文件 ----
+*.tmp
+*.bak
+*.log
+.openclaw/

@@ -1,0 +1,30 @@
+# ============================================================
+# seismic-denoise-bench / pyproject.toml
+#
+# 阶段：P0（脚手架）
+# 说明：本文件为骨架。依赖清单与版本锁定文件（env lock）将在
+#       数据/指标/配置/野外面板冻结节点（tag: config-frozen，P1 末）
+#       补齐，以符合协议"环境锁定文件随文开放"的要求。
+#       在正式基准运行前不得随意新增未经验证的依赖。
+# 编码约定：UTF-8 无 BOM，LF 换行
+# ============================================================
+
+[project]
+name = "seismic-denoise-bench"
+version = "0.0.0"
+description = "基于信息互补性分析的地震数据去噪基准与轻量融合方法（研究进行中）"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+# dependencies 待 P1（config-frozen）冻结后填写，避免未授权的依赖漂移
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
