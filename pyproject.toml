@@ -2,10 +2,13 @@
 # seismic-denoise-bench / pyproject.toml
 #
 # 阶段：P0.2（环境与测试基座）
-# 说明：依赖清单已在 P0.2 落定并实际安装验证；精确版本以
-#       requirements.lock（pip freeze 输出）与 docs/execution-log.md 为准。
-#       环境锁定文件将随 config-frozen（P1 末）一并固化。
-#       在正式基准运行前不得随意新增未经验证的依赖。
+# 说明：依赖清单按联合任务单（归档件 P0.1R+P0.2 第二部分第 2 条）对齐：
+#       numpy, scipy, matplotlib, pandas, pyyaml, pytest,
+#       scikit-image, scikit-learn, PyWavelets。
+#       SEG-Y 读取库（segyio/obspy）本单不装，留待 P0.6 按许可核验
+#       （官方 LICENSE + 是否允许本项目 GitHub/Zenodo 发布方式）后单独决定，
+#       结果写入 docs/license-register.csv。
+#       精确版本以 requirements.lock（pip freeze 全文）为准。
 # 编码约定：UTF-8 无 BOM，LF 换行
 # ============================================================
 
@@ -20,11 +23,11 @@ dependencies = [
     "numpy>=2.5,<3",
     "scipy>=1.18,<2",
     "matplotlib>=3.11,<4",
-    "pyyaml>=6,<7",
     "pandas>=3,<4",
-    "pyproj>=3.8,<4",
+    "pyyaml>=6,<7",
+    "scikit-image>=0.26,<1",
+    "scikit-learn>=1.9,<2",
     "PyWavelets>=1.10,<2",
-    "segyio>=1.9,<2",
 ]
 
 [project.optional-dependencies]

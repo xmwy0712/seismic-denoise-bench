@@ -9,8 +9,23 @@ docs/protocol-v5.md 第七节：
   * :func:`ricker`                  —— 生成 Ricker 子波
   * :func:`estimate_peak_frequency` —— 由振幅谱峰值回算主频（验收用）
 
-容差 5% 为**协议预注册值**，调用方不得放大。测试中的 65536 点 FFT 与抛物线
-插值仅用于把**测量**精度提高到远超判定阈值，不改变判定阈值本身。
+容差 5% 为**协议预注册值**，调用方不得放大。测试中的零填充 FFT（>=65536 点）与
+抛物线插值仅用于把**测量**精度提高到远超判定阈值，不改变判定阈值本身。
+
+归一化语义（P0.2 amendment，WorkBuddy 裁定采纳）
+------------------------------------------------
+本实现采用**解析归一化**：子波与连续解析式保持一致，在 ``tau = 0`` 处振幅精确为 1，
+**不**把离散峰值强行拉到 1。
+
+随之而来的推论（重要，供下游 Lsig / 事件窗生成参考）：
+
+    当 ``n_samples`` 为偶数时，默认 ``t0 = (n_samples - 1) * dt / 2`` 落在两个
+    样点**之间**，因而不存在样点恰好位于 ``tau = 0``，此时 ``max(w) < 1``。
+
+    例：``f_main = 25 Hz, dt = 0.002 s, n_samples = 512`` 时
+    ``max(w) = 0.98158934...``。
+
+若需要精确取到峰值 1，应显式令 ``t0`` 与某个样点对齐（例如 ``t0 = k * dt``）。
 """
 
 from __future__ import annotations
@@ -95,6 +110,12 @@ def estimate_peak_frequency(
     ----
     float
         由频谱峰值回算的主频 (Hz)。
+
+    备注
+    ----
+    零填充至 65536 点（或更多）是**必要**的：若 FFT 点数过少，
+    频率分辨率 ``df = 1 / (n_fft * dt)`` 会很大（例如 512 点时 ``df ≈ 1 Hz``，
+    101 点时 ``df ≈ 5 Hz``），量化误差可达 20%，会造成**假失败**。
     """
     w = np.asarray(w, dtype=np.float64)
     if w.ndim != 1 or w.size < 2:
@@ -104,7 +125,7 @@ def estimate_peak_frequency(
     if n_fft < max(w.size, 4):
         raise ValueError(f"n_fft ({n_fft}) 不得小于序列长度 ({w.size})")
 
-    # 零填充 FFT；子波较短，先去除均值不必要（Ricker 理论均值为 0）
+    # 零填充 FFT
     spec = np.fft.rfft(w, n=n_fft)
     amp = np.abs(spec)
     freqs = np.fft.rfftfreq(n_fft, d=dt)
@@ -115,7 +136,7 @@ def estimate_peak_frequency(
     if not interpolate or k == 0 or k == amp.size - 1:
         return f_peak
 
-    # 三点抛物线插值（log 幅值域不可用于零点附近，故在幅值域做）
+    # 三点抛物线插值（幅值域）
     y0, y1, y2 = float(amp[k - 1]), float(amp[k]), float(amp[k + 1])
     denom = y0 - 2.0 * y1 + y2
     if denom == 0.0:
