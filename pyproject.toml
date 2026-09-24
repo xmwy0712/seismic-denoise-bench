@@ -1,10 +1,10 @@
 # ============================================================
 # seismic-denoise-bench / pyproject.toml
 #
-# 阶段：P0（脚手架）
-# 说明：本文件为骨架。依赖清单与版本锁定文件（env lock）将在
-#       数据/指标/配置/野外面板冻结节点（tag: config-frozen，P1 末）
-#       补齐，以符合协议"环境锁定文件随文开放"的要求。
+# 阶段：P0.2（环境与测试基座）
+# 说明：依赖清单已在 P0.2 落定并实际安装验证；精确版本以
+#       requirements.lock（pip freeze 输出）与 docs/execution-log.md 为准。
+#       环境锁定文件将随 config-frozen（P1 末）一并固化。
 #       在正式基准运行前不得随意新增未经验证的依赖。
 # 编码约定：UTF-8 无 BOM，LF 换行
 # ============================================================
@@ -16,7 +16,19 @@ description = "基于信息互补性分析的地震数据去噪基准与轻量�
 readme = "README.md"
 requires-python = ">=3.11"
 license = { file = "LICENSE" }
-# dependencies 待 P1（config-frozen）冻结后填写，避免未授权的依赖漂移
+dependencies = [
+    "numpy>=2.5,<3",
+    "scipy>=1.18,<2",
+    "matplotlib>=3.11,<4",
+    "pyyaml>=6,<7",
+    "pandas>=3,<4",
+    "pyproj>=3.8,<4",
+    "PyWavelets>=1.10,<2",
+    "segyio>=1.9,<2",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=9,<10"]
 
 [build-system]
 requires = ["setuptools>=68"]
@@ -28,3 +40,5 @@ target-version = "py311"
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
+pythonpath = ["src"]
+addopts = "-ra"
