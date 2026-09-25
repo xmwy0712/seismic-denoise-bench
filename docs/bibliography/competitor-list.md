@@ -1,10 +1,37 @@
-# 竞争工作清单（P1.4）
+# 竞争工作清单（P1.4-Am1 修订版）
 
-> **协议要求**：对每篇「直接竞争工作」给出重叠点 / 差异点 / 新颖性收窄建议；**禁止隐瞒重叠**。
+> **来源限制声明（同前）**：本清单字段取自 `screening.csv` 的**题录元数据**（题名/年份/期刊/DOI），
+> **未逐篇读全文**；协议禁止「以 LLM 摘要替代原文核实」。
+> 标注为「签发方外部检索」的条目，其内部细节由签发方提供，本执行方**未独立读全文**，如实标注来源。
 
-## 1. 滚雪球内的直接竞争工作
+---
 
-**结论：0 篇。**
+## 1. 「直接竞争」的操作性定义（**R17 §2：先定义，后判定**）
+
+**直接竞争工作** := **同时**满足以下三条：
+
+| 编号 | 条件 |
+| :--- | :--- |
+| **D1** | 数据域为**勘探反射地震**（或等效的可控源反射地震数据） |
+| **D2** | 对 **≥3 种去噪方法**做**系统对比**（同一数据、受控、作为研究主体） |
+| **D3** | 含**互补性分析**或**融合机制** |
+
+**边缘 / 相邻竞争工作** := 满足 **D2**，但**不满足 D1 或 D3**。
+
+> **为什么必须先把定义写出来**：上一版清单直接写「0 篇」，而判定在**暗中进行、不可审计** ——
+> 签发方用外部检索立刻找到**至少 3 篇就在本语料中、被标为「相关」**的域内多方法对比工作。
+> 根因不是检索（都抓到了），而是**「直接竞争」缺操作性定义**。
+
+**判定证据级**（每条例出）：
+
+- `标题字段`：仅据题名判定，**未读摘要/全文**（与 `search-log` §11 的初筛局限同源）。
+- `签发方外部检索`：内部细节由签发方提供，本执行方未独立读全文。
+
+---
+
+## 2. 滚雪球内的直接竞争工作
+
+**结论：0 篇（按 §1 操作定义 D1 ∧ D2 ∧ D3）。**
 
 逐轮统计（停止判据：连续两轮无新直接竞争工作）：
 
@@ -15,62 +42,155 @@
 
 触发停止判据：轮 1、轮 2 均无新直接竞争工作 ⇒ 连续两轮满足 ⇒ 停止。
 
-## 2. 假阴性核验（这一步不可省）
+> ⚠️ **该判据不构成查全证明**（有界探测；见 `search-log.md` 覆盖限制）。
 
-「0 篇」是强结论，须证明**不是判据过严导致的漏检**。放宽为「域内词 + ≥1 竞争信号」后，
-滚雪球新增条目中命中者 **8 条**，逐条判定：
+---
 
-| DOI | 年份 | 题名（截断） | 判定 |
-| :--- | :--- | :--- | :--- |
-| `10.1190/1.9781560802082` | 1998 | Comparison of Seismic Inversion Methods on a Single Real Data Set | **非竞争**：对比对象是**反演**方法，非去噪 |
-| `10.1111/j.1365-246x.2009.04159.x` | 2009 | Comparison of stress-associated coda attenuation and intrinsic attenuation … | **非竞争**：衰减机制测量，非去噪 |
-| `10.1190/1.2752175` | 2007 | Vp/Vs ratio versus differential stress … A comparison between rock models … | **非竞争**：岩石物理 |
-| `10.1016/j.jappgeo.2016.11.003` | 2016 | Comparison between deterministic and statistical wavelet estimation … | **非竞争**：子波估计 |
-| `10.1111/1365-2478.12158` | 2014 | Review Paper: outlook on the future of seismic imaging, Part III: JMI | **非竞争**：成像综述 |
-| `10.1016/j.jappgeo.2026.106502` | 2026 | Physics-coherence-constrained hybrid swin-conv-Transformer … | **非竞争**：单方法（`hybrid` 指网络结构） |
-| `10.1109/tgrs.2019.2954949` | 2019 | Seismic Signal Enhancement and Noise Suppression Using Structure-Adaptive … | **非竞争**：单方法 |
-| `10.1109/tgrs.2021.3086317` | 2021 | Low-Frequency Seismic Noise Reduction Based on Deep Complex Reaction–Diffusion … | **非竞争**：单方法（`fusion` 指模型内部） |
+## 3. 假阴性核验（「0 篇」是强结论，必须先自证不是判据过严）
 
-⇒ 放宽后仍**无直接竞争工作**；「0 篇」不是判据假阴性。
+放宽为「域内词 + ≥1 竞争信号」后，滚雪球新增条目中命中 **8 条**，逐条判定：
 
-## 3. 全语料宽扫（域内词 + ≥2 竞争信号）
+| DOI | 年份 | 判定 |
+| :--- | :--- | :--- |
+| `10.1190/1.9781560802082` | 1998 | 非竞争：对比对象是**反演**方法，非去噪 |
+| `10.1111/j.1365-246x.2009.04159.x` | 2009 | 非竞争：衰减机制测量，非去噪 |
+| `10.1190/1.2752175` | 2007 | 非竞争：岩石物理 |
+| `10.1016/j.jappgeo.2016.11.003` | 2016 | 非竞争：子波估计 |
+| `10.1111/1365-2478.12158` | 2014 | 非竞争：成像综述 |
+| `10.1016/j.jappgeo.2026.106502` | 2026 | 非竞争：单方法（`hybrid` 指网络结构） |
+| `10.1109/tgrs.2019.2954949` | 2019 | 非竞争：单方法 |
+| `10.1109/tgrs.2021.3086317` | 2021 | 非竞争：单方法（`fusion` 指模型内部） |
 
-命中 42 条，**逐条核验后全部为假阳性**：绝大多数是**土木/结构抗震**领域的
-「seismic」歧义词（建筑抗震分析对比、核电站基准评估等），与本项目无重叠。
+> **本轮更正（R17 §1）**：原表中「单方法 ⇒ 非竞争」是**类推**判定。现在改为**按 §1 定义逐条判**：
+> 单方法论文若含**实质规模的多方法对比节**（如 MFIEN 2025），一律下沉为**边缘竞争**并逐条说理，不再类推排除。
 
-| DOI | 年份 | 题名（截断） | 假阳性原因 |
-| :--- | :--- | :--- | :--- |
-| `10.2172/6402312` | 1980 | Best Estimate Method vs Evaluation Method: a comparison of two techniques in evaluating seismic | 地震（核）分析评估方法对比，非勘探去噪 |
-| `10.1049/ip-f-1.1988.0045` | 1988 | Comparison of the seismic and ground probing radar methods in geological surveying | 地震与探地雷达勘探方法对比，非去噪对比 |
-| `10.32920/ryerson.14648880.v1` | 2021 | Comparison of analysis techniques for the seismic evaluation of an 88-storey concrete building | 建筑抗震分析技术对比 |
-| `10.32920/ryerson.14648880` | 2021 | Comparison of analysis techniques for the seismic evaluation of an 88-storey concrete building | （同上，重复 DOI 变体） |
-| `10.1002/essoar.10512321.2` | 2022 | Quantitative evaluation of the lunar seismic scattering and comparison between the Earth, Mars, | 月震散射定量评估（预印本） |
-| `10.1002/essoar.10512321.1` | 2022 | Quantitative evaluation of the lunar seismic scattering and comparison between the Earth, Mars, | （同上，预印本 v1） |
-| `10.1029/2022je007558` | 2022 | Quantitative Evaluation of the Lunar Seismic Scattering and Comparison Between the Earth, Mars, | 月震散射定量评估，非去噪 |
-| `10.21203/rs.3.rs-3824369/v1` | 2024 | Evaluation and Comparison of the Seismic Performance of Modern Concentrically Braces in the Nea | 建筑支撑抗震性能对比（预印本） |
-| `10.1109/icassp.1977.1170156` |  | Comparison of seismic features extracted by digital signal processing techniques | 数字信号处理地震特征对比，非去噪 |
-| `10.1190/1.9781560802082` | 1998 | Comparison of Seismic Inversion Methods on a Single Real Data Set | 域内词为歧义（土木/结构抗震）或为单方法论文 |
-| `10.1115/1.1638388` | 2004 | Insights Gleaned From NRC-BNL Benchmark Evaluation of Seismic Analysis Methods for Non-Classica | 核电站抗震分析方法基准评估 |
-| `10.1016/j.nucengdes.2003.06.019` | 2004 | A NRC-BNL benchmark evaluation of seismic analysis methods for non-classically damped coupled s | 同上（期刊版） |
-| `10.4028/www.scientific.net/amm.204-208.2387` | 2012 | The Computational Analysis and Evaluation on the Seismic Response of Base Isolated Benchmark Bu | 隔震建筑抗震响应基准 |
-| `10.1115/pvp2015-45721` | 2015 | Benchmark of Elastic Plastic Seismic Response Analysis and Fatigue Evaluation for Piping | 管道弹塑性抗震响应基准与疲劳评估 |
-| `10.1190/ice2016-6260208.1` | 2016 | Weighted stacking of seismic AVO data using hybrid AB semblance and local similarity | AVO 加权叠加（混合 AB 似然与局部相似度），**单方法** |
-| `10.1088/1742-2132/13/2/152` | 2016 | Weighted stacking of seismic AVO data using hybrid AB semblance and local similarity | 域内词为歧义（土木/结构抗震）或为单方法论文 |
-| `10.1016/j.jappgeo.2016.11.003` | 2016 | Comparison between deterministic and statistical wavelet estimation methods through predictive  | 域内词为歧义（土木/结构抗震）或为单方法论文 |
-| `10.1109/LGRS.2017.2695649` | 2017 | An Anisotropic Diffusion-Based Dynamic Combined Energy Model for Seismic Denoising | 域内词为歧义（土木/结构抗震）或为单方法论文 |
-| `10.3997/2214-4609.201800239` | 2018 | Quantitative Quality Control: a Tool for Seismic Data Processing Monitoring and Comparison | 域内词为歧义（土木/结构抗震）或为单方法论文 |
-| `10.3997/2214-4609.201801395` | 2018 | A Quantitative Comparison of Two Convolutional Neural Network Architectures - Seismic Data Inte | 域内词为歧义（土木/结构抗震）或为单方法论文 |
+全语料宽扫（域内词 + ≥2 竞争信号）命中 **42 条**，逐条核验**全部为假阳性**：
+绝大多数是**土木/结构抗震**领域的「seismic」歧义词（建筑抗震分析对比、核电站基准评估等）。
 
-## 4. 最接近的已有工作与本项目边界（诚实披露）
+---
+
+## 4. 边缘 / 相邻竞争工作（**9 篇，逐条录入**）
+
+> R17 §1 要求：DOI / 年份 / 重叠点 / 差异点 / 为何不构成「直接竞争」的理由 / 新颖性收窄建议。
+
+| # | DOI | 年份 | 来源 | 期刊/会议 |
+| ---: | :--- | :--- | :--- | :--- |
+| 1 | `10.1029/2026jh001403` | 2026 | 签发方外部检索 | Journal of Geophysical Research |
+| 2 | `10.2118/214392-ms` | 2023 | 签发方外部检索 | Day 3 Wed, June 07, 2023 |
+| 3 | `10.1038/s41598-025-87481-y` | 2025 | 签发方外部检索 | Scientific Reports |
+| 4 | `10.1016/j.aiig.2026.100219` | 2026 | 本执行方复核（标题信号） | Artificial Intelligence in Geosciences |
+| 5 | `10.22564/19cisbgf2025.028` | 2025 | 本执行方复核（标题信号） | Proceedings |
+| 6 | `10.48550/arXiv.2410.08231` | 2024 | 本执行方复核（标题信号） | arXiv.org |
+| 7 | `10.21009/spektra.112.04` | 2026 | 本执行方复核（标题信号） | SPEKTRA Jurnal Fisika dan Aplikasinya |
+| 8 | `10.1190/segam2016-13819123.1` | 2016 | 本执行方复核（标题信号） | International Meeting for Applied Geoscience |
+| 9 | `10.2172/1821851` | 2021 | 本执行方复核（标题信号） |  |
+
+### 4.1 Earthquake Seismogram Denoising Across Time, Time‐Frequency, and Hybrid Domain Approaches
+
+- **DOI**：`10.1029/2026jh001403`　**年份**：2026　**来源**：签发方外部检索
+- **台账状态**：`relevance_flag = 相关`，track = `benchmark`
+- **重叠点**：受控基准测试多个去噪架构（4 个可比 DL 架构）并与 SOTA 去噪器对拍；发表仅 6 天，审稿人几乎必然知道
+- **差异点**：数据域为**地震计 / 地震学记录**，非勘探反射地震；未含**互补性分析或融合机制**
+- **为何不构成「直接竞争」**：不满足 D1（数据域）：本基准的对象是勘探反射地震（Zenodo 浅层反射子集）；且不满足 D3
+- **新颖性收窄建议**：本项目**不得**主张「首次对多种去噪方法做受控基准」；须引用其作为**深度学习基准**最近邻，并说明差异在数据域与目标
+
+### 4.2 A Comparative Analysis of Convolutional Neural Networks for Seismic Noise Attenuation
+
+- **DOI**：`10.2118/214392-ms`　**年份**：2023　**来源**：签发方外部检索
+- **台账状态**：`relevance_flag = 相关`，track = `mechanism`
+- **重叠点**：**域内**（地震噪声衰减）的多 CNN 系统对比
+- **差异点**：只对比 CNN 一族（架构内比较），未跨方法族；未含**互补性分析或融合机制**
+- **为何不构成「直接竞争」**：不满足 D3（无互补性/融合）：本项目核心是**正交化互补性与融合保守性上界**，非架构内择优
+- **新颖性收窄建议**：不得主张「首次对比多种 CNN/去噪方法」；须引用并说明差异在**跨方法族互补性**而非架构优选
+
+### 4.3 MFIEN: multi-scale feature interactive enhancement network for seismic data denoising in desert areas
+
+- **DOI**：`10.1038/s41598-025-87481-y`　**年份**：2025　**来源**：签发方外部检索
+- **台账状态**：`relevance_flag = 相关`，track = `mechanism`
+- **重叠点**：论文内含 WT / BPF / DnCNN / cycle-GAN **四方法对比节**（沙漠地区地震数据，域内）
+- **差异点**：**单方法论文**：主体贡献是 MFIEN 网络；对比节为**附属证据**，非受控基准；未含互补性/融合机制
+- **为何不构成「直接竞争」**：不满足 D2 的「系统对比」（对比节为附属，非研究主体）且不满足 D3
+- **新颖性收窄建议**：引用其对比节作为**同类对比规模**参照；说明本项目对比是**研究主体 + 预注册判据**，非附属节
+
+### 4.4 An open benchmark dataset of synthetic seismic data and real swell noise for evaluating deep learning denoisin
+
+- **DOI**：`10.1016/j.aiig.2026.100219`　**年份**：2026　**来源**：本执行方复核（标题信号）
+- **台账状态**：`relevance_flag = 相关`，track = `benchmark`
+- **重叠点**：**开放基准数据集**（合成地震数据 + 真实涌浪噪声），用于**评估深度学习去噪**
+- **差异点**：提供数据集与评估，未做**互补性/融合**；未给融合保守性上界
+- **为何不构成「直接竞争」**：不满足 D3；定位为**基准资源**而非竞争性方法对比结论
+- **新颖性收窄建议**：本项目可引用其作为**评估资源**先例；须说明差异在**预注册判据 + 互补性度量 + 融合边界**
+
+### 4.5 A Real Benchmark Swell Noise Dataset for Performing Seismic Data Denoising via Deep Learning
+
+- **DOI**：`10.22564/19cisbgf2025.028`　**年份**：2025　**来源**：本执行方复核（标题信号）
+- **台账状态**：`relevance_flag = 相关`，track = `benchmark`
+- **重叠点**：**真实涌浪噪声基准数据集**，用于深度学习地震去噪
+- **差异点**：同：数据集/评估资源；无互补性/融合
+- **为何不构成「直接竞争」**：不满足 D3；基准资源
+- **新颖性收窄建议**：同上
+
+### 4.6 A Real Benchmark Swell Noise Dataset for Performing Seismic Data Denoising via Deep Learning
+
+- **DOI**：`10.48550/arXiv.2410.08231`　**年份**：2024　**来源**：本执行方复核（标题信号）
+- **台账状态**：`relevance_flag = 相关`，track = `benchmark`
+- **重叠点**：**同上论文的 arXiv 预印本**（与 `10.22564/19cisbgf2025.028` 同题）
+- **差异点**：同一工作的预印本版本，**非独立工作**
+- **为何不构成「直接竞争」**：重复条目：同一工作；已由上一行覆盖
+- **新颖性收窄建议**：引用时以正式版为准，避免重复计数
+
+### 4.7 Edge Seismic Denoising: Benchmarking the Hailo-8L on Raspberry Pi 5
+
+- **DOI**：`10.21009/spektra.112.04`　**年份**：2026　**来源**：本执行方复核（标题信号）
+- **台账状态**：`relevance_flag = 相关`，track = `benchmark`
+- **重叠点**：**边缘设备去噪基准**（Hailo-8L on Raspberry Pi 5）—— 对去噪做**推理性能基准**
+- **差异点**：基准对象是**硬件/推理性能**，非去噪质量对比；未含互补性/融合
+- **为何不构成「直接竞争」**：不满足 D3；且 D2 的对比对象是硬件平台而非去噪方法
+- **新颖性收窄建议**：本项目若涉算力预算，可引用为**部署侧基准**先例；与质量对比定位不同
+
+### 4.8 Signal distortion versus noise suppression in seismic data denoising
+
+- **DOI**：`10.1190/segam2016-13819123.1`　**年份**：2016　**来源**：本执行方复核（标题信号）
+- **台账状态**：`relevance_flag = 相关`，track = `mechanism_author_Chen`
+- **重叠点**：**信号失真 vs 噪声压制**的权衡 —— 与本项目**保真度判据**直接相关
+- **差异点**：未做多方法系统对比（标题未显示 ≥3 方法）；无互补性/融合
+- **为何不构成「直接竞争」**：不满足 D2（方法数未达 3）与 D3
+- **新颖性收窄建议**：**须引用**：它是「保真 vs 压制」权衡的最近邻论述，本项目的保真度判据应与之对话
+
+### 4.9 Evaluating Scalograms for Seismic Event Denoising
+
+- **DOI**：`10.2172/1821851`　**年份**：2021　**来源**：本执行方复核（标题信号）
+- **台账状态**：`relevance_flag = 相关`，track = `mechanism_author_Chen`
+- **重叠点**：评估标度图（scalograms）用于**地震事件**去噪
+- **差异点**：域为**事件/震源地震学**；方法评估单一表征
+- **为何不构成「直接竞争」**：不满足 D1 与 D3
+- **新颖性收窄建议**：作为跨域去噪先例引用，说明本项目定位在勘探反射数据
+
+---
+
+## 5. 结论（**改写：不得保留裸的「0 篇」**）
+
+> **直接竞争 0 篇（按 §1 操作定义 D1 ∧ D2 ∧ D3）；边缘竞争 9 篇**（见 §4 逐条）。
+
+**论文义务（R17 §4）**：
+
+1. 须**引用上述边缘竞争文献**作为**最近邻工作**加以讨论（不得只列不议）。
+2. **不得**主张「首次对比多种地震去噪方法」——该体裁已存在（Dahmen 2026 基准；SPE 2023 多 CNN 对比；
+   MFIEN 2025 对比节；另有两份开放基准数据集）。
+3. 可主张的是：**同一野外数据集 + 预注册判据 + 正交化互补性度量 + 融合保守性上界**这一**组合**。
+4. 措辞只能用「**在本检索边界内未发现**」，**不得**写「未发现同类工作」这类无界断言。
+
+---
+
+## 6. 最接近的已有工作与本项目边界（保留并更新）
 
 | 最接近者 | 重叠点 | 差异点 |
 | :--- | :--- | :--- |
-| 单方法去噪论文（稀疏/低秩/DL/多尺度，见 `mechanism-table.md`） | 都以地震去噪为目标、都在合成或野外面板上评估 | 本项目**不提出新去噪方法**；目标是**同一数据上多方法的可比对照 + 互补性度量 + 保守融合边界** |
-| 传统多方法对比论文（如 `10.1190/1.9781560802082` 类反演对比） | 同为「多方法对比」体裁 | 对比对象不同（反演 vs 去噪）；且本项目引入**正交化后的互补性判据**与**融合保守性上界** |
-| 去噪综述 | 覆盖同样的方法族 | 综述不给**统一基准下的可复现实验**与**融合可行域**结论 |
+| Dahmen 2026（地震计 DL 基准） | 受控基准 + SOTA 对拍 | 数据域（地震计 vs 勘探反射）；无互补性/融合 |
+| SPE 2023（多 CNN 对比） | 域内多方法对比 | 仅 CNN 族内；无互补性/融合 |
+| MFIEN 2025（单方法 + 对比节） | 域内四方法对比节 | 对比为附属；无互补性/融合 |
+| 开放基准数据集（AI in Geoscience 2026；涌浪噪声基准） | 评估资源 | 提供数据/评估，不给融合边界 |
+| 单方法去噪论文（见 `mechanism-table.md`） | 同目标（地震去噪） | 本项目**不提出新去噪方法** |
 
-**新颖性收窄建议（如实）**：
-1. **不得**主张「首次对比多种地震去噪方法」——该体裁已存在（虽非同一数据/同一判据）。
-2. 可主张的是：**同一野外数据集 + 预注册判据 + 正交化互补性度量 + 融合保守性上界**这一组合。
-3. 风险：**检索有界**（见 `search-log.md` 覆盖限制），**不构成查全证明**；
-   论文局限小节须承接，且**不得**写「未发现同类工作」这类无界断言，只能写「在本检索边界内未发现」。
+> **风险提示（保留）**：检索**有界**，**不构成查全证明**；跨域（地震计/区域地震学）查全**无保证**
+> （具名缺口见 `docs/search-log.md` §11）。
