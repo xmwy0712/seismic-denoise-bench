@@ -266,3 +266,72 @@ calibration_table:
        (uniform 0.5-1.5)，**不接受 amplitude_ratio 参数**；三档 SNR 完全相同"
     - "N2 下 M1 (11.12 dB) 与 M2 (13.90 dB) 相差 **2.78 dB** ⇒ 映射**不统一**，按裁定 E 如实并列"
   frozen_on: P1.5
+
+# ------------------------------------------------------------
+# R-N1' · 秩谱实测与判定规则（P1.3-Am2 裁定落地，2026-09-25）
+# ------------------------------------------------------------
+rn1_resolution:
+  status: "R-N1 已第四次更正并**撤回行**；本执行方原解释作废"
+  issuer_independent_measurement: >
+    签发方实测：256x16 单实现矩阵秩 16（与本执行方一致），但**家族经验维数仍为 48**
+    （60 实现 SVD：sigma48/sigma1 = 4.28e-03，sigma49 = 8.48e-16）；k=40 独立新实现回收误差 13.8323%。
+    512x64：单实现秩 44、家族维数 48、k=40 回收误差 33.3594%。
+  self_measurement:
+    family_dimension:
+      method: "80 个独立实现展平后 SVD，截断口径 rel > 1e-8"
+      grid_256x16: {dim: 48, sigma40_over_sigma1: 3.219e-04, sigma48_over_sigma1: 6.986e-08, sigma49_over_sigma1: 7.829e-16}
+      grid_512x64: {dim: 48, sigma40_over_sigma1: 3.001e-01, sigma48_over_sigma1: 1.562e-01, sigma49_over_sigma1: 2.137e-15}
+    single_implementation_rank:
+      grid_256x16: [16, 16, 16]
+      grid_512x64: [48, 48, 48]
+    conclusion: >
+      **两网格家族维数均为 48**，与本仓库配置 `dimension_per_param_set: 2 * n_components = 48` 吻合。
+      `min(n_samples, n_traces, 2*n_components)` 是**单个实现作为矩阵的秩上界**，
+      **不是家族维数**。
+  withdrawn_explanation:
+    text: >
+      **撤回**"256x16 把家族维数压到 16 使 k=40 越过族维"的解释。
+      16 是**单实现矩阵秩**；家族在**多个独立实现**下跨实现张成的仍是 48 维。
+    note: "这是同一数字的第四次解释，前三次（谱衰减 / 秩亏压缩 / 网格秩上限）均未通过独立复核。"
+  withdrawn_row:
+    claim: "256x16 上 k=40 的回收误差中位 0.0561%"
+    n_components_of_that_run: 24
+    verified_by: "src/bench/metrics 测量脚本源码 `rn1.py`（NCOMP = 24）逐字核对 + 本批复测仍得 0.0561%"
+    reason: >
+      该点值**不可在注册参数族下复现**（签发方同网格同族得 13.8323%）。
+      决定性证据：两实验的**奇异值谱相差约 500 倍**——
+      本执行方 sigma40/sigma1 = 3.219e-04，签发方 1.53e-01
+      ⇒ **两次实验抽样的族并非同一族**（差异协议尚未完全隔离）。
+    disposition: >
+      **该行已撤回（无法在注册参数族下复现）。**
+      `k >= 家族维数` 的平凡通过行另按规则 15 标记为非证据行。
+  registered_grid_interval_report:
+    grid: "512x64"
+    claim: "k=40 回收误差"
+    protocols:
+      - {name: P1, basis_seed_base: 96000, test_seed_base: 97000, median: 0.434008, max: 0.563356}
+      - {name: P2, basis_seed_base: 123000, test_seed_base: 124000, median: 0.390508, max: 0.616308}
+      - {name: P3, basis_seed_base: 555000, test_seed_base: 556000, median: 0.318262, max: 0.460455}
+      - {name: P4, basis_seed_base: 731000, test_seed_base: 732000, median: 0.372204, max: 0.455196}
+    report: {n_protocols: 4, median_of_medians: 0.381356, range: [0.318262, 0.434008]}
+    note: >
+      **点值不可跨协议引用**。签发方在同一网格测得 33.36%，落在本区间内 ⇒ 协议差异可解释。
+  k_scan:
+    note: "k >= 家族维数 => 非证据行（平凡通过），见常设规则 15"
+    rows:
+      - {grid: "256x16", k: 20, q_rank: 20, evidential: true,  median: 0.509808}
+      - {grid: "256x16", k: 40, q_rank: 40, evidential: true,  median: 0.000561, withdrawn: true}
+      - {grid: "256x16", k: 47, q_rank: 47, evidential: true,  median: 0.000000}
+      - {grid: "256x16", k: 48, q_rank: 47, evidential: false, median: 0.000000}
+      - {grid: "512x64", k: 20, q_rank: 20, evidential: true,  median: 0.745482}
+      - {grid: "512x64", k: 40, q_rank: 40, evidential: true,  median: 0.434008}
+      - {grid: "512x64", k: 47, q_rank: 47, evidential: true,  median: 0.135995}
+      - {grid: "512x64", k: 48, q_rank: 48, evidential: false, median: 0.000000}
+  standing_rule_15:
+    name: "证据性判定的四要件"
+    requirements:
+      - "该网格上**实测的家族维数**（>=60 个独立实现的 sigma 谱，写明截断口径与容差）"
+      - "**k 与家族维数的比较**；若 k >= 家族维数，该运行标记为**非证据行**（平凡通过）"
+      - "**被测对象 ∩ 建基集合 = 空集** 的断言"
+      - "**种子协议**（固定种子集合；>=3 协议报区间，不报单点）"
+    rationale: "四要件正好能提前拦住本项目已发生的全部四次误判。"

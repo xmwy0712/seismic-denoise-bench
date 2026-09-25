@@ -205,7 +205,9 @@ def _to_key(panel: dict) -> tuple:
 def main(argv: list[str] | None = None) -> int:
     ap = argparse.ArgumentParser(description="P1.3 野外面板选定（可重放）")
     ap.add_argument("--config", required=True, help="field_panels_draft.yaml 路径")
-    ap.add_argument("--data-root", required=True, help="含两个 .sgy 的目录")
+    ap.add_argument("--data-root", required=True,
+                    help="含两个 .sgy 的目录；例：data/field/zenodo-mv"
+                         "（再下一层才是 .sgy，传 data/field 会 FileNotFoundError）")
     ap.add_argument("--compare", action="store_true", help="与配置中的 panels 比对并返回退出码")
     args = ap.parse_args(argv)
 

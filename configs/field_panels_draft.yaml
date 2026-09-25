@@ -195,20 +195,62 @@ event_window_fallback:
 # 裁定 G · P2 判据修正（**不追溯**，仅用于 P1.5 冻结规范）
 # ------------------------------------------------------------
 p2_criterion_fix:
-  status: "approved-for-P1.5 (non-retroactive)"
-  original: "outlier_trace_fraction < 0.05"
-  original_verdict: "0/40 满足（实测 0.0595-0.5165）且 dead 项 40/40 满足 => 均无区分力，P2 未参与排序"
-  replacement:
+  status: "resolved -> P2 excluded from panel-quality criteria"
+  original:
+    name: "outlier_trace_fraction < 0.05"
+    verdict: "0/40 满足（实测 0.0595-0.5165）；dead_trace_fraction 40/40 满足（max 0.0010）=> 均无区分力，P2 未参与 P1.3 排序"
+  generation_1_withdrawn:
     name: adjacent_trace_waveform_correlation
-    definition: "逐道：该道与左右邻居零延迟相关系数的均值（原始数据，无滤波）"
-    bad_trace_rule: "相关系数均值 < threshold"
     threshold: -0.41076987440826274
     threshold_source: "全候选逐道值的 P5 分位"
-  discriminating_power:
-    distinct_bad_fraction_values: "34/40"
-    bad_fraction_range: [0.0015, 0.1725]
-    verdict: "有区分力（对比原判据 0/40 满足、无区分力）"
+    defect: >
+      阈值取自**同一分布的分位数**（全候选逐道值的 P5），而判据是"比例 < 0.05"。
+      按构造任一候选落在阈值以下的比例约 5% => 判据恒落在临界线上 => **自证**；
+      与 P1.2 的判据缺陷同类。**该阈值口径已撤回。**
+      （签发方 P1.3-Am2 第二节指出，本执行方接受。）
+  generation_2_decoupled_no_working_point:
+    absolute_threshold_scan:
+      note: "阈值不来自候选分布（解耦），逐候选异常道比例实测"
+      rows:
+        - {tau: 0.5,  range: [0.9430, 1.0000], median: 0.9935, distinct: 25}
+        - {tau: 0.3,  range: [0.8485, 0.9940], median: 0.9325, distinct: 38}
+        - {tau: 0.0,  range: [0.2800, 0.5605], median: 0.4633, distinct: 38}
+        - {tau: -0.3, range: [0.0070, 0.2165], median: 0.0550, distinct: 37}
+    reference_median_minus_k_mad:
+      reference_panel: "FP1 NAN traces[2000,4000] x samples[0,1000]"
+      reference_median: 0.0575
+      reference_mad: 0.1119
+      rows:
+        - {k: 3,  tau: -0.2782, range: [0.0095, 0.2265], median: 0.0620, distinct: 37}
+        - {k: 6,  tau: -0.6138, range: [0.0000, 0.0785], median: 0.0023, distinct: 21}
+        - {k: 10, tau: -1.0614, range: [0.0000, 0.0000], median: 0.0000, distinct: 1}
+    verdict: >
+      绝对阈值口径下**无可用工作点**（正阈值时几乎全部道被判异常；阈值降到负值后
+      判据的含义不再是"几何质量"）。参考面板 k*MAD 口径在 k=3 有区分力（37/40 个不同取值），
+      但"参考"本身是被 P1/P3 选出的最优面板，且该量在本数据集上不表达几何质量（见根因）。
+  root_cause_finding:
+    measurement: >
+      相邻道零延迟相关系数在本数据集上**整体接近 0**：FP1 逐道值中位仅 0.0575。
+    segy_header_evidence:
+      file: "data/field/zenodo-mv/mv1001shots_subset8000.sgy"
+      total_traces: 8000
+      field_record_unique: 41
+      trace_number_unique: 199
+      sorting_code: 6
+      interpretation: >
+        道轴 = 约 41 个炮记录 x 约 199 道；相邻道绝大多数是**同一炮内的相邻接收道**
+        （跨炮边界仅约 40/7999 ≈ 0.5%）。故近零相关**不是**跨炮拼接造成，
+        而是**该数据本身**相邻接收道波形近乎不相关。
+    conclusion: >
+      "相邻道相关系数低于阈值"在本数据上**不表达几何质量**，其语义未被建立。
+  final_ruling: >
+    **P2（几何质量）不参与面板质量判据。**
+    原判据（0/40 满足）与两代替代口径（分位阈值=自证；绝对阈值=无可用工作点）
+    均无可靠工作点，且替代量语义不成立。P1.3 的 top-3 由 P1（相干能量比）与
+    P3（横向相干）决定；**P1.5 冻结时 P2 不进入判据集合**，仅作说明性记录。
+  connected_risk_logged:
+    item: "P3 lateral_coherence 同为沿道轴的零延迟相关量（top-3 实测 0.1309/0.1787/0.2058，量级同样偏低）。"
+    handling: "P3 已冻结且签发方已验收，本批不改；该解释性风险须在 P1.5 与论文局限小节承接。"
   non_retroactive_declaration: >
-    **原 P2 判据在排序前被实测判定无区分力，未参与排序；本修正仅用于 P1.5 冻结规范与后续复现，
-    不得用于推翻或重选已冻结的 top-3 面板。**
+    以上仅用于 P1.5 冻结规范与后续复现，**不得**用于推翻或重选已冻结的 top-3 面板。
   frozen_on: P1.5
