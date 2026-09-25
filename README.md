@@ -192,3 +192,23 @@ python -m pytest
 ## 9. 许可
 
 本仓库自有代码采用 [MIT License](LICENSE)。第三方移植代码、模型权重与数据的许可另行逐项登记，以 [`docs/license-register.csv`](docs/license-register.csv) 为准。
+
+### 9.1 SEG-Y 读取库（`segyio`，LGPL-3.0-or-later）—— 四条硬约束
+
+本项目采用 **`segyio`** 作为 SEG-Y 读取依赖（P0.6 采用决定，2026-09-25）。其许可为
+**LGPL-3.0-or-later**。因本项目仅以 **pip 依赖方式调用**（不复制源码、不静态链接、
+不随仓分发其源码或二进制），**不触发对本仓库 MIT 代码的传染**。为维持该状态，以下四条为**硬约束**：
+
+1. **禁止**把 `segyio` / `obspy` 的源码复制进本仓库任何位置；
+2. **禁止** vendor / 打包其源码或二进制随 GitHub / Zenodo 发布；
+3. 依赖通过 `pyproject.toml` / `requirements.lock` 声明，由使用者自行从 PyPI 安装；
+4. 若**将来**需要分发其源码或修改版，必须**重新核验**并满足 LGPL-3.0 的
+   §2 修改标注、§3 / §4 通告与随附 GPL + LGPL 全文义务（届时另行裁定）。
+
+`obspy` 的许可**已核验**（同为 LGPL-3.0），但**本次不纳入**（体量与依赖面更大，非许可原因），
+保留为备选记录。详见 [`docs/license-register.csv`](docs/license-register.csv) 第一节。
+
+### 9.2 野外数据致谢义务
+
+若使用 Stratton 3D 数据集，须**致谢 Bureau of Economic Geology, The University of Texas at Austin**
+（原文摘录见 [`docs/license-register.csv`](docs/license-register.csv) 第三节）。

@@ -1013,3 +1013,133 @@ e9e3c9d 09:37 → c6b697a 09:38 → 9c21264 09:47
 
 **本批执行情况**：已按上述要求执行——Commit 0（`49ad2a6`）先入库本批全部 4 件 + MANIFEST v10，
 之后才动 Commit A/B/C。
+
+---
+
+### 2026-09-25 | P0.6 SEG-Y 采用决定落档（授权变更）
+
+**依据**：`P0.6-野外数据与SEGY采用决定-2026-09-27.md`
+（SHA256 `F4FD6CBA937A5BDCEC5C0F5B3BE7E6F36909A06704EE1AD402AF7045EE2B069B`，4804 B）
+第一节；及 `P0.6-Am1-三项批准与SEGY子集有效性-2026-09-25.md`
+（`AC6CBCEAD885006C37F74FB85311FB273424B188F8C11895B591B480D50B24C9`，5151 B）第三节。
+
+**采用决定**：**采用 `segyio`**（LGPL-3.0-or-later）作为本项目 SEG-Y 读取依赖；
+**`obspy` 不纳入**（保留为备选记录）。
+
+#### 授权来源必须写明（P0.6-Am1 第三节第 1 条要求，逐字记录）
+
+> **P0.2 阶段"按任务单 9 包清单"的限制，自 P0.6 采用决定起被替代；
+> 新增 `segyio` 及其传递依赖属授权变更。**
+
+依据：本批安装 `segyio` 的依据是 **P0.6 的采用决定**（签发方裁定），**而非依赖漂移**。
+此条记录的目的即在于避免后续审计将本次新增误判为"未授权的依赖漂移"（P0.2-R6 的教训）。
+
+#### 安装与依赖变更
+
+| 项 | 值 |
+| :--- | :--- |
+| 安装命令（实际执行） | `python -m pip install segyio` |
+| 安装结果 | `Successfully installed segyio-1.9.14`（退出码 0） |
+| 安装前 | venv 中**无** segyio / pyproj |
+| 传递依赖 | `Requires: numpy`（**numpy 已存在，未新增其他传递依赖**） |
+| `pyproject.toml` | 新增 `"segyio>=1.9,<2"` 至 `[project.dependencies]`，并注授权来源 |
+| `requirements.lock` | 重建为完整 `pip freeze` 全文（**33 行**） |
+| 许可登记 | `segyio` 行改为 **"已核验 → 可用作 pip 依赖（不得复制源码 / 不得 vendor）"**，核验日 2026-09-25 |
+
+> **说明**：本批**未**因 segyio 引入新的传递依赖（其唯一 requires 为 numpy，已在库中）。
+> 与 P0.2-R6 时不同，当时 `pyproj` 是 `segyio` 的旧版传递依赖；当前版本 1.9.14 不依赖 pyproj，
+> 故本次 **`pyproj` 未进入已核验表**。**如实记录该差异**，不虚增登记项。
+
+#### `license-register.csv` 更新内容
+
+1. 新建**第一节**"SEG-Y 读取库 —— 采用决定"，含：
+   - `segyio` 行：许可 LGPL-3.0-or-later、**四条硬约束**、取证字段与来源 URL；
+   - `obspy` 行："已核验许可（LGPL-3.0）；本次不纳入（非许可原因）"；
+   - LGPL-3.0 条款摘要（§2/§3/§4/§5/专利），**只描述不决策**；
+   - `segyio` 的 `external/` 子目录缺口保留，标注"**仅在 vendoring 情形下需逐项核验**"。
+2. **第二节**"已核验"表：新增 `segyio` + 全部传递依赖，**每项注明取证字段**
+   （`license_expression` / `classifier` / `license` 文本），并附来源 URL。
+3. **第三节**"野外数据"：新增 Stratton 3D 条目（含获取阻断状态）。
+
+> **取证纪律自纠（如实记录）**：本执行方在首次草拟第二节时，曾凭印象填写传递依赖的
+> 许可（如把 `cycler` / `kiwisolver` / `colorama` 写成 "BSD-3-Clause"）。**随即发现该做法
+> 违反"逐条来自官方来源，不得凭印象填写"的要求，已全部改为 PyPI API 实测值**。
+> 其中上述三项的 PyPI 元数据**仅标注 "BSD License"，未标明具体条款版本**，
+> 现已如实标注为不确定项，**不作为已确证结论**。
+
+#### README 更新
+
+许可小节新增 **9.1 SEG-Y 读取库四条硬约束**（与 license-register 第一节 1.2 一致）
+与 **9.2 野外数据致谢义务**。
+
+---
+
+### 2026-09-25 | P0.6 野外数据获取 —— **阻断，停机报告**
+
+**依据**：`P0.6-…` 第二节；`P0.6-Am1-…` 第一节（子集有效性硬要求）。
+
+#### 目标与来源核验
+
+| 项 | 内容 |
+| :--- | :--- |
+| 目标数据集 | Stratton 3D（South Texas 陆上 3D，ConocoPhillips 开放数据） |
+| 官方源（形式） | `https://s3.amazonaws.com/open.source.geoscience/open_data/stratton/segy/processed/Stratton3D_32bit.sgy` |
+| 来源核验途径 | ① SEG Wiki `Stratton_3D_survey` 页面片段（经搜索结果确认提及 "open.source.geoscience amazon server"）；② **Madagascar 官方项目** `SConstruct`（`https://raw.githubusercontent.com/ahay/src/master/book/data/stratton/fetchfinal/SConstruct`，内含逐字 URL）；③ 公开教学 notebook `yohanesnuwara/open-geoscience-repository`（含同源 URL）。 |
+| URL 形式判定 | **三者一致**，且与 SEG Wiki 所述 "open.source.geoscience amazon server" 相符 → **URL 形式正确** |
+
+#### 执行记录（P0.6-Am1 第一节步骤 1 及扩展探测）
+
+| # | 尝试 | 结果 |
+| :--- | :--- | :--- |
+| 1 | `Range: bytes=0-3599`（取 3600 B 头，HTTPS） | **HTTP 403 AccessDenied** |
+| 2 | 无 Range 的完整 GET（HTTPS） | **HTTP 403 AccessDenied** |
+| 3 | `HEAD` 请求（HTTPS） | **HTTP 403 AccessDenied** |
+| 4 | HTTP（明文）+ Range | **HTTP 403 AccessDenied** |
+| 5 | 桶根列举 `s3.amazonaws.com/open.source.geoscience/` | **HTTP 403 AccessDenied** |
+| 6 | `?delimiter=/` 列举 / `open_data/` 列举 / `stratton/` 列举 | 均 **HTTP 403** |
+| 7 | 经 `socks5h://127.0.0.1:10808` 代理（境外出口） | **HTTP 403 AccessDenied** |
+| 8 | **对照实验**：同桶另一数据集 `Mobil_Avo_Viking_Graben_Line_12/mobil_wellogs.tar.gz` | **HTTP 403 AccessDenied** |
+
+**关键判定（第 8 项）**：对照数据集**本应可访问**，却也返回 403 →
+说明**整个 `open.source.geoscience` 桶系统性拒绝访问**，**非 Stratton 特有**，
+亦**非本执行方的请求构造问题**（请求方法覆盖 GET/HEAD、有无 Range、HTTP/HTTPS、直连/代理）。
+
+#### 官方页面访问尝试（用于确认"当前有效入口"）
+
+| # | 方式 | 结果 |
+| :--- | :--- | :--- |
+| 1 | `web_fetch` `https://wiki.seg.org/wiki/Stratton_3D_survey` | **HTTP 403**（Cloudflare） |
+| 2 | 浏览器（headless）打开同 URL | **Cloudflare 挑战页**（"正在进行安全验证"，等待 8s 未通过） |
+| 3 | SEG Wiki MediaWiki API（`action=parse`、`action=raw`） | **HTTP 403**（Cloudflare） |
+| 4 | 只读文本抽取代理（`r.jina.ai`）读取同页 | **HTTP 403** |
+
+→ **无法读取官方页面的"当前入口"**，故**无法确认**官方是否已迁移下载地址。
+
+#### 未执行的动作（依 Am1 红线）
+
+- **未**改用任何**来源不明的镜像**（P0.6-Am1 第一节明令禁止）；
+- **未**下载任何第三方源码或模型权重（P0.6 第三节明令禁止）；
+- **未**写入任何野外数据文件到仓库或在 `data/field/` 落盘；
+- **未**提交 Commit C 的野外数据部分。
+
+#### 落盘状态
+
+- `data/field/stratton/` 探测目录经检查为**空目录（0 文件）**——探测脚本在首次 HTTP 403 时
+  即抛异常退出，**未落盘任何文件**（`.bin` / `.json` 均未产生）。该空目录**已删除**，
+  `data/field/` 恢复为仅含 `.gitkeep` 的初始状态。
+  即：**本次未在仓库或 `data/` 下留下任何野外数据痕迹**。
+- `data/**` 已被 `.gitignore` 覆盖，数据文件本身不入库（符合 P0.6 第三节）。
+
+#### 结论与待裁定
+
+1. **采用决定部分（本 commit 已交付）**：`segyio` 落档、依赖变更、README 硬约束 —— **完成**。
+2. **野外数据部分**：**阻断**，原因 = **上游官方数据桶拒绝访问（403，整桶）**。
+   依 Am1"如实报告"要求，**停机报告**，等待裁定。
+3. **可能的处置方向（仅列出，不擅自执行）**：
+   - (a) 由 WorkBuddy / 用户提供**当前有效的官方入口**（或确认官方迁移后的新地址）；
+   - (b) 若官方源确认已退役，考虑**延长 P0.6 交付期**或在 P1 前重新指定数据集
+     （须注意：协议第八节要求"许可合格公开数据"，更换数据集须重新核验许可）；
+   - (c) 由用户在本机（可能具备不同网络出口）侧手动获取，再行核验。
+4. **P0.6 交付日 2026-09-27 EOD**；本阻断不影响 Commit A / B 的交付。
+
+---

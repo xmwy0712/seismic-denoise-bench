@@ -1,14 +1,15 @@
 # ============================================================
 # seismic-denoise-bench / pyproject.toml
 #
-# 阶段：P0.2 / P0.3（环境与测试基座；metrics 对拍）
-# 说明：依赖清单按联合任务单（归档件 P0.1R+P0.2 第二部分第 2 条）对齐：
-#       numpy, scipy, matplotlib, pandas, pyyaml, pytest,
-#       scikit-image, scikit-learn, PyWavelets。
-#       SEG-Y 读取库（segyio/obspy）本单不装，留待 P0.6 按许可核验
-#       （官方 LICENSE + 是否允许本项目 GitHub/Zenodo 发布方式）后单独决定，
-#       结果写入 docs/license-register.csv。
-#       精确版本以 requirements.lock（pip freeze 全文）为准。
+# 阶段：P0.6（野外数据 + SEG-Y 采用决定）
+#
+# 依赖来源说明（防后续审计误判为依赖漂移）：
+#   本文件依赖项来自两个授权阶段 ——
+#     1) P0.2「9 包清单」（联合任务单第二部分第 2 条）；
+#     2) P0.6「SEG-Y 读取库采用决定」（2026-09-25，签发方裁定）新增 segyio。
+#   即：P0.2 阶段"按任务单 9 包清单"的限制，自 P0.6 采用决定起被替代；
+#   新增 segyio 及其传递依赖属**授权变更**。
+#
 # 编码约定：UTF-8 无 BOM，LF 换行
 # ============================================================
 
@@ -28,6 +29,10 @@ dependencies = [
     "scikit-image>=0.26,<1",
     "scikit-learn>=1.9,<2",
     "PyWavelets>=1.10,<2",
+    # P0.6 采用决定（2026-09-25）：SEG-Y 读取库
+    # 许可 LGPL-3.0-or-later；仅作 pip 依赖调用，禁止复制源码 / 禁止 vendor。
+    # 详见 docs/license-register.csv 第一节。
+    "segyio>=1.9,<2",
 ]
 
 [project.optional-dependencies]
@@ -45,6 +50,6 @@ target-version = "py311"
 testpaths = ["tests"]
 pythonpath = ["src"]
 # 显式声明收集模式（pytest 默认值），防止 config 漂移导致静默漏测（"假绿"）。
-# 守卫见 tests/test_naming_convention.py（P0.3-Am1 裁定 3）。
+# 守卫见 tests/test_naming_convention.py（P0.3-Am1 裁定 3 / P0.4-Am1 裁定 1）。
 python_files = ["test_*.py"]
 addopts = "-ra"
