@@ -78,6 +78,9 @@ DISP_V0, DISP_C = 500.0, 10.0        # v(f) = v0 + c·f
 DISP_NCOMP = 24
 # 预注册探测频率：覆盖频带两端与中部（共 7 点 ≥ 5）
 DISP_PROBES = np.array([5.0, 8.0, 12.0, 15.0, 18.0, 22.0, 25.0])
+DISP_A, DISP_B = 250.0, 0.5            # 幂律模型参数（必填，R15-b）
+# R15-a：解析 v(f) 在预注册频带上必须落在该物理区间内（越界即 fail）
+DISP_V_BAND_MPS = (100.0, 3000.0)
 
 
 # =============================================================================
@@ -191,7 +194,7 @@ def _dispersion_dataset(seed: int = SEED, n_components: int = DISP_NCOMP) -> np.
     base = np.zeros((DISP_NS, DISP_NTR), dtype=np.float64)
     return add_dispersive_surface_wave(
         base, DT, DX, np.random.default_rng(seed),
-        v_model="linear", v0=DISP_V0, c=DISP_C,
+        v_model="linear", v0=DISP_V0, c=DISP_C, a=DISP_A, b=DISP_B,
         f_lo=DISP_F_LO, f_hi=DISP_F_HI,
         amplitude=1.0, n_components=n_components,
     )
@@ -201,7 +204,7 @@ def test_c1_dispersion_model_formula_is_as_declared() -> None:
     """频散模型公式自检：``v(f) = v0 + c·f``（用**独立解析式**核对，非调用被测函数）。"""
     f = DISP_PROBES
     expected = DISP_V0 + DISP_C * f          # 独立写出的解析式
-    got = dispersion_velocity(f, v_model="linear", v0=DISP_V0, c=DISP_C)
+    got = dispersion_velocity(f, v_model="linear", v0=DISP_V0, c=DISP_C, a=DISP_A, b=DISP_B)
     np.testing.assert_allclose(got, expected, rtol=0, atol=1e-12)
 
 
@@ -238,6 +241,74 @@ def test_c4_dispersion_recall_stable_across_seeds() -> None:
         v_truth = DISP_V0 + DISP_C * DISP_PROBES
         median_error = float(np.median(np.abs(v_estimate - v_truth) / v_truth))
         assert median_error <= TOL_V_DISP, f"seed={seed} 中位误差 {median_error:.4%}"
+
+
+# =============================================================================
+# c-附加) R15-a · 频散解析式的物理合理性（堵"自洽即通过"的自证通道）
+# =============================================================================
+def test_c5_dispersion_truth_is_within_declared_physical_band() -> None:
+    """**R15-a**：预注册频带上，解析 v(f) 必须落在声明的物理区间内。
+
+    该断言把验收 c 从"自洽检验"升级为"自洽 + 物理"双重检验：
+    即使估计器与解析式完全自洽，只要解析式本身不物理（如历史默认值
+    ``v0=300, c=900`` 在 40 Hz 处给出 36 km/s），本项即 fail。
+    """
+    v_low, v_high = DISP_V_BAND_MPS
+    v_at_probes = dispersion_velocity(
+        DISP_PROBES, v_model="linear", v0=DISP_V0, c=DISP_C, a=DISP_A, b=DISP_B
+    )
+    vmin, vmax = float(np.min(v_at_probes)), float(np.max(v_at_probes))
+    assert vmin >= v_low, f"解析 v(f) 最小 {vmin:.1f} m/s 低于物理下限 {v_low:.1f}"
+    assert vmax <= v_high, f"解析 v(f) 最大 {vmax:.1f} m/s 超出物理上限 {v_high:.1f}"
+
+    # 幂律模型同样须落在区间内
+    v_pow = dispersion_velocity(
+        DISP_PROBES, v_model="power", v0=DISP_V0, c=DISP_C, a=DISP_A, b=DISP_B
+    )
+    assert float(np.min(v_pow)) >= v_low, "幂律模型 v(f) 低于物理下限"
+    assert float(np.max(v_pow)) <= v_high, "幂律模型 v(f) 超出物理上限"
+
+
+def test_c6_legacy_placeholder_defaults_would_fail_the_physical_band() -> None:
+    """**R15-a 反向演示**：历史上的占位参数（``v0=300, c=900``）**必定越界**。
+
+    本用例证明该物理断言**不是空转**——若仍保留那两个默认值，验收会真的 fail。
+    """
+    v_low, v_high = DISP_V_BAND_MPS
+    legacy = dispersion_velocity(
+        np.array([5.0, 25.0, 40.0]),
+        v_model="linear", v0=300.0, c=900.0, a=DISP_A, b=DISP_B,
+    )
+    assert float(np.max(legacy)) > v_high, (
+        f"占位参数本应越界（40 Hz 处 36300 m/s > 上限 {v_high}），实测 max={float(np.max(legacy)):.1f}"
+    )
+
+
+def test_c7_dispersion_parameters_are_required_no_silent_defaults() -> None:
+    """**R15-b**：频散参数**必填**——省略任一即 ``TypeError``，不得静默默认。
+
+    这是"消除静默默认值"的机械判据：任何忘记传参的调用都会立刻报错，
+    而不是产出不物理数据。
+    """
+    base = np.zeros((64, 16), dtype=np.float64)
+    rng = np.random.default_rng(SEED)
+
+    with pytest.raises(TypeError):
+        add_dispersive_surface_wave(base, DT, DX, rng)  # type: ignore[call-arg]
+
+    with pytest.raises(TypeError):
+        add_dispersive_surface_wave(  # type: ignore[call-arg]
+            base, DT, DX, rng, v_model="linear", v0=500.0, c=10.0,
+            a=DISP_A, b=DISP_B, f_lo=5.0,
+        )
+
+    with pytest.raises(TypeError):
+        dispersion_velocity(DISP_PROBES)  # type: ignore[call-arg]
+
+    with pytest.raises(TypeError):
+        dispersion_velocity(  # type: ignore[call-arg]
+            DISP_PROBES, v_model="linear", v0=500.0, c=10.0,
+        )
 
 
 # =============================================================================

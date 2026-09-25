@@ -78,9 +78,13 @@ noise_types:
   - id: N3
     name: dispersive_surface_wave
     params:
-      v_model: linear                       # v(f) = v0 + c*f
-      v0: 500.0
-      c: 10.0
+      v_model: linear                       # v(f) = v0 + c*f  （**必填**，无默认值，见 R15-b）
+      v0: 500.0                             # 必填
+      c: 10.0                               # 必填
+      # R15-a：解析 v(f) 在整个预注册频带上必须落在下列物理区间内。
+      # 该区间为**冻结参数候选值**（P1.5 冻结）。浅层近地表面波相速度经验范围约
+      # 100–3000 m/s；下限覆盖软土低速，上限覆盖硬岩/厚层高速。
+      dispersion_v_band_mps: [100.0, 3000.0]
       f_lo_hz: 5.0
       f_hi_hz: 25.0
       n_components: 24
@@ -136,3 +140,14 @@ expansion:
   configs_total: 54
   observations_total_formula: "54 configs x 5 seeds = 270 observations"
   observations_total: 270
+
+# ------------------------------------------------------------
+# R15（P1.1-Am1 整改）· 频散参数与物理区间
+# ------------------------------------------------------------
+dispersion_physics:
+  # 验收 c 的硬断言区间（越界即 fail，不得只警告）
+  v_band_mps: [100.0, 3000.0]
+  band_rationale: "浅层近地表面波相速度经验范围约 100-3000 m/s；下限覆盖软土低速、上限覆盖硬岩/厚层高速"
+  # 参数必填（无静默默认值）：v_model / v0 / c / a / b / f_lo / f_hi
+  required_params: [v_model, v0, c, a, b, f_lo, f_hi]
+  frozen_on: P1.5

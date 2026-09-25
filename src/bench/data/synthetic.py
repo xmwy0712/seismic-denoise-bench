@@ -451,17 +451,24 @@ def add_dispersive_surface_wave(
     dx: float,
     rng: np.random.Generator,
     *,
-    v_model: str = "linear",
-    v0: float = 300.0,
-    c: float = 900.0,
-    a: float = 250.0,
-    b: float = 0.5,
-    f_lo: float = 5.0,
-    f_hi: float = 40.0,
+    v_model: str,
+    v0: float,
+    c: float,
+    a: float,
+    b: float,
+    f_lo: float,
+    f_hi: float,
     amplitude: float = 1.0,
     n_components: int = 24,
 ) -> np.ndarray:
     """叠加**频散面波**（速度—频率关系 :math:`v(f)` 明确）。
+
+    **参数必填，无静默默认值（R15-a/R15-b 整改，2026-09-25）**
+        ``v_model`` / ``v0`` / ``c`` / ``a`` / ``b`` / ``f_lo`` / ``f_hi`` 均为**必填关键字参数**。
+        历史上的占位默认值（``v0=300, c=900``）在 ``f=40 Hz`` 处给出 **36300 m/s** 的"面波"
+        ——超地幔量级、物理不成立；而当时的验收只做"估计值 vs 同一解析式"的自洽比较，
+        **无法发现**该问题。移除默认值后，任何忘记传参的调用会立刻 `TypeError`，
+        不会静默产出不物理数据。
 
     **速度—频率关系（两种模型，由 ``v_model`` 选择）**
 
@@ -544,13 +551,20 @@ def add_dispersive_surface_wave(
 def dispersion_velocity(
     f: np.ndarray | float,
     *,
-    v_model: str = "linear",
-    v0: float = 300.0,
-    c: float = 900.0,
-    a: float = 250.0,
-    b: float = 0.5,
+    v_model: str,
+    v0: float,
+    c: float,
+    a: float,
+    b: float,
 ) -> np.ndarray:
     """按给定模型返回 :math:`v(f)`（m/s）。用于生成与验收的**同一公式**。
+
+    参数**必填**（R15-b）：``v_model`` / ``v0`` / ``c`` / ``a`` / ``b`` 无默认值，
+    以杜绝"忘传参 → 静默生成不物理速度"（历史占位默认值在 40 Hz 处给出 36 km/s）。
+
+    **物理合理性**：调用方应确保 :math:`v(f)` 落在浅层面波合理区间内
+    （本项目的声明区间见 ``configs/config_matrix.yaml`` 的 ``dispersion_v_band_mps``）；
+    验收 c 会对该区间做**硬断言**（R15-a）。
 
     注意：验收测试中的**期望值必须由本函数之外的解析式独立写出**
     （见 ``tests/test_data_acceptance.py`` 中硬编码的解析常量），

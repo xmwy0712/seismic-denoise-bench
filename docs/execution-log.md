@@ -1703,3 +1703,76 @@ collected 80 items
   双实现 NMS 由**独立频域路径** `ref_forward.py` 提供。
 
 ---
+
+---
+
+### 2026-09-25 | P1.2 Commit 1 · P1.1-Am1 整改（F1 实质 + F2 口径）
+
+**依据**：`P1.1-Am1-频散物理合理性与报告口径-2026-09-30.md`
+（SHA256 `F7E0BB32AD1617E553E3F7E550C10922E6CD46A561B9B3341F88BB3024F35EB0`，4979 B）。
+
+#### F2 · 提交时间口径更正（**本执行方的错误**）
+
+**事实**（`git log` 原文行，此后一律以此为准）：
+
+```
+d7e4251 2026-09-25 13:14:47 feat(P1.1): complete synthetic data generator + acceptance a-f + config matrix draft
+0eae393 2026-09-25 13:06:52 chore(P1.1 Commit 0): archive P1.1 sheet, MANIFEST v15, quarantine-register correction, rule 13
+```
+
+本执行方此前汇报 `Commit 0 = 13:12`、`P1.1 主体 = 13:52`，**均为错误**：
+时间取自**会话时钟**而非 `git log`；且 `13:52` 晚于汇报发出时刻，**物理上不可能成立**。
+
+**整改（即刻生效）**：此后**所有提交时间一律取自 `git log`（author/committer date）**，
+汇报中附 `git log --format="%h %ad"` 原文行作为依据。**不得**使用会话时钟或人工估计。
+
+#### F1 · 频散验收的物理合理性（R15-a / R15-b）
+
+**问题确认（签发方实测，本执行方复核认可）**：`dispersion_velocity` 的**占位默认值**
+（`v0=300, c=900`）在 `f=40 Hz` 处给出 **36300 m/s** —— 超地幔量级、物理不成立。
+已注册配置（`v0=500, c=10` → 550–900 m/s）**是合理的**，故本批数据无问题；
+但**验收 c 只做"估计值 vs 同一解析式"的自洽比较，无法发现解析式本身不物理**，
+属必须堵死的**自证通道**。
+
+**成因（如实自述）**：两个默认值是我做**参数扫描**时未同步的残留——扫描覆盖
+`v0 ∈ {200,300,400,500}`，最终选定 500，但函数默认值仍停在 300/900。
+
+**R15-a · 物理区间断言（已落地）**
+
+- `configs/config_matrix.yaml` 新增：
+  - `noise_types[N3].params.dispersion_v_band_mps: [100.0, 3000.0]`
+  - 独立小节 `dispersion_physics.v_band_mps: [100.0, 3000.0]` + 依据说明 + 必填参数清单 + `frozen_on: P1.5`
+- 区间依据：浅层近地表面波相速度经验范围约 **100–3000 m/s**（下限覆盖软土低速、上限覆盖硬岩/厚层高速）
+- 测试：`DISP_V_BAND_MPS = (100.0, 3000.0)`
+- **越界即 fail**（非警告）
+
+**R15-b · 消除静默默认值（方案 (i) 必填，已落地）**
+
+| 函数 | 改动 |
+| :--- | :--- |
+| `add_dispersive_surface_wave` | `v_model` / `v0` / `c` / `a` / `b` / `f_lo` / `f_hi` 改为 **keyword-only 且无默认值**（`amplitude` / `n_components` 保留默认） |
+| `dispersion_velocity` | `v_model` / `v0` / `c` / `a` / `b` 改为 **keyword-only 且无默认值** |
+
+docstring 均加**显著标注**，写明历史默认值的危害与"必填"的理由。
+
+**R15 验收实测（三情形）**
+
+| # | 情形 | 用例 | 结果 |
+| ---: | :--- | :--- | :--- |
+| ① | 区间**内**（当前配置） | `test_c5_dispersion_truth_is_within_declared_physical_band` | **PASS**（线性与幂律两模型均落在 `[100, 3000]`） |
+| ② | 区间**外**（历史占位参数） | `test_c6_legacy_placeholder_defaults_would_fail_the_physical_band` | **确实越界**（40 Hz 处 36300 m/s > 3000）→ 断言成立，证明**非空转** |
+| ③ | **省略参数** | `test_c7_dispersion_parameters_are_required_no_silent_defaults` | **`TypeError`**（4 种省略情形均验） |
+
+**调用点清理（一次改全，不留半改）**：`add_dispersive_surface_wave` / `dispersion_velocity`
+的全部调用点已适配（`test_data_acceptance.py` 内 6 处），全仓库扫描无遗漏；
+`_figures_cost.py` 属上一批 scratch，**已随 scratch 目录清理**，不在仓库内。
+
+#### 测试结果（含 collected 计数）
+
+```
+collected 83 items
+============================= 83 passed in 0.51s ==============================
+```
+
+- `test_data_acceptance.py`：20 → **26**（新增 R15 三例 + 既有调整）
+- 全量：80 → **83**；**既有 80 项保持全绿**（签发方要求）
