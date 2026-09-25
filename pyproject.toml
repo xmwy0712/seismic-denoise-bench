@@ -1,7 +1,7 @@
 # ============================================================
 # seismic-denoise-bench / pyproject.toml
 #
-# 阶段：P0.2（环境与测试基座）
+# 阶段：P0.2 / P0.3（环境与测试基座；metrics 对拍）
 # 说明：依赖清单按联合任务单（归档件 P0.1R+P0.2 第二部分第 2 条）对齐：
 #       numpy, scipy, matplotlib, pandas, pyyaml, pytest,
 #       scikit-image, scikit-learn, PyWavelets。
@@ -44,4 +44,7 @@ target-version = "py311"
 [tool.pytest.ini_options]
 testpaths = ["tests"]
 pythonpath = ["src"]
+# 显式声明收集模式（pytest 默认值），防止 config 漂移导致静默漏测（"假绿"）。
+# 守卫见 tests/test_naming_convention.py（P0.3-Am1 裁定 3）。
+python_files = ["test_*.py"]
 addopts = "-ra"
