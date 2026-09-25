@@ -58,6 +58,14 @@ matching_tolerances:
   declared_at: "2026-09-25"
   frozen_on: P1.5
 
+# 验证集噪声条件（L1：明确声明，避免论文越界表述）
+validation_noise_conditions:
+  baseline_subsets: "无噪（检出由构造直接给定）"
+  supplementary: "注册噪声档 L2（目标输入 SNR 0 dB、振幅比例 0.60）"
+  applicability_note: >
+    95% 门限的适用范围以**实测覆盖的条件**为准；若含噪条件下匹配率显著低于无噪条件，
+    论文不得表述为"在噪声数据上仍可达 95%"。
+
 # 测试集子集（由构造定义真值，非"检测后标定"）
 test_subsets:
   - id: isolated

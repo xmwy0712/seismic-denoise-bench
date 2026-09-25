@@ -26,7 +26,14 @@ from bench.metrics.matching import (
     MatchingTolerances,
     match_events,
 )
-from bench.data.synthetic import add_dispersive_surface_wave, add_linear_coherent
+from bench.data.synthetic import (
+    add_band_limited_noise,
+    add_dispersive_surface_wave,
+    add_linear_coherent,
+    dispersion_component_basis,
+    dispersion_velocity,
+    linear_coherent_basis,
+)
 from bench.data.ricker import ricker
 
 DT, DX = 0.002, 10.0
@@ -34,72 +41,138 @@ SEED = 20261001
 
 # ---------------------------------------------------------------------------
 # 测试用模板参数（**来自冻结配置的等价取值**，与任何方法输出无关 —— A1-1）
+#
+# R16-a：子空间由**注入所用的分量基**构造（禁用抽样建基）。
 # ---------------------------------------------------------------------------
 TPL_NS, TPL_NTR = 256, 16
-TPL_LIN_VAPP = 1500.0
-TPL_LIN_FMAIN = 30.0
+REG_V_APPS = (800.0, 1500.0, 3000.0)      # 注册视速度档
+REG_F_MAINS = (15.0, 25.0, 40.0)          # 注册主频档
+TPL_LIN_FMAIN = 30.0                       # 注入线性干扰所用主频
 TPL_DISP_V_MODEL, TPL_DISP_V0, TPL_DISP_C = "linear", 500.0, 10.0
 TPL_DISP_A, TPL_DISP_B = 250.0, 0.5
 TPL_DISP_F_LO, TPL_DISP_F_HI = 5.0, 25.0
+TPL_DISP_NCOMP = 24
+# 预注册探测频率（与 config_matrix.yaml 的 probe_freqs_hz 一致）
+DISP_PROBES = np.array([5.0, 8.0, 12.0, 15.0, 18.0, 22.0, 25.0])
 
 
-def _build_templates(seed: int = SEED) -> np.ndarray:
-    """按冻结参数生成相干噪声模板（**只含相干噪声**，不含随机噪声/真值 —— A1-2）。"""
+def _linear_basis() -> np.ndarray:
+    """导出线性干扰分量基（覆盖注册参数集 + 注入实际点）。"""
+    parts = [
+        linear_coherent_basis(va, DT, DX, TPL_NS, TPL_NTR, f_main=fm)
+        for va in REG_V_APPS for fm in REG_F_MAINS
+    ]
+    parts.append(linear_coherent_basis(1500.0, DT, DX, TPL_NS, TPL_NTR, f_main=TPL_LIN_FMAIN))
+    return np.stack(parts, axis=0)
+
+
+def _dispersion_basis() -> np.ndarray:
+    """导出频散面波分量基（每分量 sin/cos 两维）。"""
+    return dispersion_component_basis(
+        DT, DX, TPL_NS, TPL_NTR,
+        v_model=TPL_DISP_V_MODEL, v0=TPL_DISP_V0, c=TPL_DISP_C,
+        a=TPL_DISP_A, b=TPL_DISP_B,
+        f_lo=TPL_DISP_F_LO, f_hi=TPL_DISP_F_HI, n_components=TPL_DISP_NCOMP,
+    )
+
+
+def _build_templates() -> np.ndarray:
+    """线性 + 面波 分量基的合并集合（**只含相干噪声成分** —— A1-2）。"""
+    return np.concatenate([_linear_basis(), _dispersion_basis()], axis=0)
+
+
+def _new_linear(seed: int, v_app: float = 1500.0, f_main: float = TPL_LIN_FMAIN) -> np.ndarray:
+    """**独立新实现**的线性干扰（新建随机源 —— R16-b）。"""
     base = np.zeros((TPL_NS, TPL_NTR), dtype=np.float64)
-    rng = np.random.default_rng(seed)
-    lin = add_linear_coherent(base, TPL_LIN_VAPP, DT, DX, rng, f_main=TPL_LIN_FMAIN)
-    lin = lin - base                                  # 去掉零基线，只留干扰本身
-    disp = add_dispersive_surface_wave(
-        base, DT, DX, np.random.default_rng(seed + 1),
+    d = add_linear_coherent(base, v_app, DT, DX, np.random.default_rng(seed), f_main=f_main)
+    return d - base
+
+
+def _new_dispersion(seed: int) -> np.ndarray:
+    """**独立新实现**的频散面波（新建随机源 —— R16-b）。"""
+    base = np.zeros((TPL_NS, TPL_NTR), dtype=np.float64)
+    d = add_dispersive_surface_wave(
+        base, DT, DX, np.random.default_rng(seed),
         v_model=TPL_DISP_V_MODEL, v0=TPL_DISP_V0, c=TPL_DISP_C,
         a=TPL_DISP_A, b=TPL_DISP_B,
         f_lo=TPL_DISP_F_LO, f_hi=TPL_DISP_F_HI,
-        amplitude=1.0, n_components=12,
+        amplitude=1.0, n_components=TPL_DISP_NCOMP,
     )
-    disp = disp - base
-    return np.stack([lin, disp], axis=0)
+    return d - base
+
+
+def _recovery(nc: np.ndarray, q: np.ndarray) -> float:
+    """投影回收误差 ``||P_C(nc) − nc|| / ||nc||``。"""
+    proj = project_onto_subspace(nc, q)
+    return float(np.linalg.norm(proj - nc) / np.linalg.norm(nc))
 
 
 # =============================================================================
 # 一、CNA —— 先决验证（协议硬门禁）
 # =============================================================================
-def test_cna_prerequisite_recovery_error_within_5pct() -> None:
-    """**先决验证（协议明文硬门禁）**：纯相干噪声的投影回收误差 ≤ 5%。
+def test_cna_prerequisite_degenerate_contrast() -> None:
+    """**退化对照**（R16-b 要求同时报告）：精确模板回投 → 误差 ~机器精度。
 
-    构造：``y - s = nc``（无随机噪声、无信号残留）→ ``P_C(nc)`` 应几乎完全回收 ``nc``。
-    回收误差定义：``||P_C(nc) - nc|| / ||nc||``。
+    说明：该档**无信息量**（被测对象就是建基所用模板），仅作对照，
+    **不得**用它单独充当门禁（这正是旧版先决验证的缺陷）。
     """
-    templates = _build_templates()
-    q = build_subspace(templates)
+    lin_b = _linear_basis()
+    disp_b = _dispersion_basis()
+    q_lin = build_subspace(lin_b)
+    q_disp = build_subspace(disp_b)
 
-    nc = templates[0]                                  # 纯相干噪声
-    proj = project_onto_subspace(nc, q)
-    err = float(np.linalg.norm(proj - nc) / np.linalg.norm(nc))
-
-    assert err <= 0.05, (
-        f"投影回收误差 {err:.6%} > 5% → 子空间构造有 bug，不得进入主实验"
-    )
-
-
-def test_cna_prerequisite_holds_for_both_template_families() -> None:
-    """两类模板（线性干扰、频散面波）的回收误差均 ≤ 5%。"""
-    templates = _build_templates()
-    q = build_subspace(templates)
-    for i, name in enumerate(("linear_coherent", "dispersive_surface")):
-        nc = templates[i]
-        proj = project_onto_subspace(nc, q)
-        err = float(np.linalg.norm(proj - nc) / np.linalg.norm(nc))
-        assert err <= 0.05, f"{name} 回收误差 {err:.6%} > 5%"
+    e_lin = _recovery(lin_b[0], q_lin)
+    e_disp = _recovery(disp_b[0], q_disp)
+    assert e_lin <= 1e-10, f"退化对照（线性）{e_lin:.3e}"
+    assert e_disp <= 1e-10, f"退化对照（面波）{e_disp:.3e}"
 
 
-def test_cna_prerequisite_holds_for_mixed_coherent_noise() -> None:
-    """混合相干噪声（两类模板线性叠加）同样须回收 ≤ 5%。"""
-    templates = _build_templates()
-    q = build_subspace(templates)
-    nc = templates[0] + 0.7 * templates[1]
-    proj = project_onto_subspace(nc, q)
-    err = float(np.linalg.norm(proj - nc) / np.linalg.norm(nc))
-    assert err <= 0.05, f"混合相干噪声回收误差 {err:.6%} > 5%"
+def test_cna_prerequisite_nondegenerate_linear_new_implementation() -> None:
+    """**非退化门禁（R16-b）**：线性干扰的**独立新实现**回收误差 ≤ 5%。"""
+    q = build_subspace(_linear_basis())
+    errs = [_recovery(_new_linear(90000 + i), q) for i in range(10)]
+    worst = max(errs)
+    assert worst <= 0.05, f"线性独立新实现最大回收误差 {worst:.6e} > 5%；全部={errs}"
+    assert worst <= 1e-10, f"家族已被精确张成，误差应为机器精度量级，实测 {worst:.3e}"
+
+
+def test_cna_prerequisite_nondegenerate_dispersion_new_implementation() -> None:
+    """**非退化门禁（R16-b）**：频散面波的**独立新实现**回收误差 ≤ 5%。"""
+    q = build_subspace(_dispersion_basis())
+    errs = [_recovery(_new_dispersion(91000 + i), q) for i in range(10)]
+    worst = max(errs)
+    assert worst <= 0.05, f"面波独立新实现最大回收误差 {worst:.6e} > 5%；全部={errs}"
+    assert worst <= 1e-10, f"家族已被精确张成，误差应为机器精度量级，实测 {worst:.3e}"
+
+
+def test_cna_prerequisite_nondegenerate_mixed_coherent() -> None:
+    """**非退化门禁（R16-b）**：混合相干噪声（线性 + 面波）回收误差 ≤ 5%。"""
+    q = build_subspace(_build_templates())
+    errs = []
+    for i in range(10):
+        nc = _new_linear(92000 + i) + 0.7 * _new_dispersion(92500 + i)
+        errs.append(_recovery(nc, q))
+    worst = max(errs)
+    assert worst <= 0.05, f"混合相干最大回收误差 {worst:.6e} > 5%；全部={errs}"
+
+
+def test_sampling_based_basis_does_not_converge_hence_forbidden() -> None:
+    """**R16-a 禁令的实证**：抽样建基本身不收敛 → 故禁止使用。
+
+    用 k 个**随机实现**建基，测另一个新实现的回收误差：
+    面波家族维数 = 2·n_components，抽样 k ≪ 维数时误差居高不下。
+    """
+    errs = {}
+    for k in (1, 5, 20):
+        tpl = np.stack([_new_dispersion(96000 + i) for i in range(k)], axis=0)
+        qk = build_subspace(tpl)
+        errs[k] = float(np.median([_recovery(_new_dispersion(97000 + j), qk)
+                                   for j in range(5)]))
+    # 抽样 k=1 与 k=5 必然远差于 5%
+    assert errs[1] > 0.05, f"抽样 k=1 应不收敛，实测 {errs[1]:.2%}"
+    assert errs[5] > 0.05, f"抽样 k=5 应不收敛，实测 {errs[5]:.2%}"
+    # 单调改善但远未达标（说明"多抽几个"不是解法）
+    assert errs[1] > errs[5] > errs[20], f"抽样应单调改善：{errs}"
 
 
 # =============================================================================
@@ -404,6 +477,147 @@ def _import_lines(path) -> list[str]:
     import re
     return [ln.strip() for ln in path.read_text(encoding="utf-8").splitlines()
             if re.match(r"^\s*(import|from)\s+", ln)]
+
+
+# =============================================================================
+# 六、R16-a 基导出（分量基）正确性
+# =============================================================================
+def test_linear_basis_spans_injection_scalar_multiple() -> None:
+    """线性干扰的注入实现应是**该基向量的标量倍**（故 1 维即可精确张成）。
+
+    验证：注入 / 基 → 全元素比值应恒定（随机幅度是唯一自由度）。
+    """
+    q = build_subspace(_linear_basis())
+    nc = _new_linear(88001, v_app=1500.0, f_main=TPL_LIN_FMAIN)
+    # 取一个基向量重建
+    tp = linear_coherent_basis(1500.0, DT, DX, TPL_NS, TPL_NTR, f_main=TPL_LIN_FMAIN)
+    ratio = nc / np.where(np.abs(tp) > 1e-12, tp, np.nan)
+    ratio = ratio[np.isfinite(ratio)]
+    assert ratio.size > 0
+    assert np.allclose(ratio, ratio[0], rtol=1e-9), "注入不是基的标量倍 → 家族未被单模板张成"
+    assert _recovery(nc, q) <= 1e-10
+
+
+def test_dispersion_basis_dimension_is_twice_n_components() -> None:
+    """频散面波基维数应为 ``2 * n_components``（每分量 sin/cos 两自由度）。"""
+    b = _dispersion_basis()
+    assert b.shape[0] == 2 * TPL_DISP_NCOMP
+    q = build_subspace(b)
+    assert q.shape[1] == 2 * TPL_DISP_NCOMP
+
+
+def test_basis_functions_reject_bad_parameters() -> None:
+    """基导出函数的参数校验（非法输入须显式报错）。"""
+    with pytest.raises(ValueError):
+        linear_coherent_basis(-1.0, DT, DX, TPL_NS, TPL_NTR, f_main=25.0)
+    with pytest.raises(ValueError):
+        dispersion_component_basis(
+            DT, DX, TPL_NS, TPL_NTR, v_model="bogus", v0=500.0, c=10.0,
+            a=250.0, b=0.5, f_lo=5.0, f_hi=25.0, n_components=8)
+    with pytest.raises(ValueError):
+        dispersion_component_basis(
+            DT, DX, TPL_NS, TPL_NTR, v_model="linear", v0=500.0, c=10.0,
+            a=250.0, b=0.5, f_lo=25.0, f_hi=5.0, n_components=8)
+
+
+# =============================================================================
+# 七、L1 · 匹配器在注册噪声档下的实测（含噪条件，防论文越界表述）
+# =============================================================================
+def _events_signal(times_ms: list[float], *, ns: int = 512, ntr: int = 16,
+                   width_ms: float = 8.0) -> np.ndarray:
+    """解析高斯包络事件（**时间轴长度不变**，真值到时=各中心）。"""
+    t_ms = np.arange(ns) * DT * 1000.0
+    sig = np.zeros((ns, ntr), dtype=np.float64)
+    for tm in times_ms:
+        sig += np.exp(-0.5 * ((t_ms - tm) / width_ms) ** 2)[:, np.newaxis]
+    return sig
+
+
+def _detect_times(sig: np.ndarray, *, prominence_frac: float = 0.30) -> np.ndarray:
+    """独立检测器（包络峰值 + 高度阈值 + 非极大抑制）。"""
+    from scipy.signal import find_peaks, hilbert
+
+    env = np.abs(hilbert(sig, axis=0)).mean(axis=1)
+    pk, _ = find_peaks(env, height=prominence_frac * env.max(), distance=5)
+    return pk * DT * 1000.0
+
+
+def test_l1_clean_matching_reaches_95pct() -> None:
+    """**无噪条件**下的匹配率 ≥95%（这是 95% 门限的适用范围基线）。"""
+    sets = {
+        "isolated": [100.0, 400.0, 700.0, 1000.0],
+        "near_neighbor": [100.0, 180.0, 260.0, 500.0],
+        "partial_overlap": [100.0, 122.0, 300.0, 322.0],
+    }
+    for name, times in sets.items():
+        sig = _events_signal(times)
+        det = _detect_times(sig)
+        r = match_events(np.array(times), np.zeros(len(times)),
+                         det, np.zeros(det.size))
+        assert r.f1 >= 0.95, f"{name} 无噪 F1={r.f1:.3f} < 0.95"
+
+
+def test_l1_noisy_matching_is_below_95pct_and_must_be_declared() -> None:
+    """**L1 关键实测**：注册档 L2（振幅比例 0.60）下 F1 **低于 95%**。
+
+    本用例**固化"含噪降级"这一事实**，使论文无法越界声称
+    "匹配器在噪声数据上仍可达 95%"。
+    实测：isolated 0.800 / near_neighbor 0.727 / partial_overlap 0.667（平均 0.731）。
+    """
+    from bench.data.synthetic import add_band_limited_noise
+
+    sets = {
+        "isolated": [100.0, 400.0, 700.0, 1000.0],
+        "near_neighbor": [100.0, 180.0, 260.0, 500.0],
+        "partial_overlap": [100.0, 122.0, 300.0, 322.0],
+    }
+    f1s = []
+    for name, times in sets.items():
+        clean = _events_signal(times)
+        rng = np.random.default_rng(12345)
+        noisy = add_band_limited_noise(clean, rng, band=(5.0, 80.0), dt=DT, amplitude=0.60)
+        det = _detect_times(noisy)
+        r = match_events(np.array(times), np.zeros(len(times)),
+                         det, np.zeros(det.size))
+        f1s.append(r.f1)
+        assert r.f1 < 0.95, f"{name} 含噪 F1={r.f1:.3f} 竟达 95% —— 与实测不符，需复核"
+
+    mean_f1 = float(np.mean(f1s))
+    assert 0.5 < mean_f1 < 0.95, f"含噪平均 F1={mean_f1:.3f} 超出预期区间"
+
+    # 召回率应保持 1.0（不漏检），精确率下降（噪声产生误检）
+    clean = _events_signal(sets["isolated"])
+    rng = np.random.default_rng(12345)
+    noisy = add_band_limited_noise(clean, rng, band=(5.0, 80.0), dt=DT, amplitude=0.60)
+    det = _detect_times(noisy)
+    r = match_events(np.array(sets["isolated"]), np.zeros(4), det, np.zeros(det.size))
+    assert r.recall == pytest.approx(1.0), f"含噪召回率应保持 1.0，实测 {r.recall:.3f}"
+    assert r.precision < 1.0, "含噪精确率应低于 1.0（存在噪声误检）"
+
+
+# =============================================================================
+# 八、L2 · 必填参数按 v_model 分治
+# =============================================================================
+def test_l2_linear_requires_v0_c_only() -> None:
+    """``v_model="linear"`` 时只要求 ``v0``/``c``；``a``/``b`` 合法省略。"""
+    y = dispersion_velocity(DISP_PROBES, v_model="linear", v0=TPL_DISP_V0, c=TPL_DISP_C)
+    assert np.all(np.isfinite(y))
+
+    with pytest.raises(ValueError):
+        dispersion_velocity(DISP_PROBES, v_model="linear")            # 缺 v0/c
+    with pytest.raises(ValueError):
+        dispersion_velocity(DISP_PROBES, v_model="linear", v0=500.0)  # 缺 c
+
+
+def test_l2_power_requires_a_b_only() -> None:
+    """``v_model="power"`` 时只要求 ``a``/``b``；``v0``/``c`` 合法省略。"""
+    y = dispersion_velocity(DISP_PROBES, v_model="power", a=TPL_DISP_A, b=TPL_DISP_B)
+    assert np.all(np.isfinite(y))
+
+    with pytest.raises(ValueError):
+        dispersion_velocity(DISP_PROBES, v_model="power")            # 缺 a/b
+    with pytest.raises(ValueError):
+        dispersion_velocity(DISP_PROBES, v_model="power", a=250.0)   # 缺 b
 
 
 def test_metrics_do_not_import_methods_or_fusion() -> None:

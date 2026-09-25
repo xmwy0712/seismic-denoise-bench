@@ -285,30 +285,52 @@ def test_c6_legacy_placeholder_defaults_would_fail_the_physical_band() -> None:
 
 
 def test_c7_dispersion_parameters_are_required_no_silent_defaults() -> None:
-    """**R15-b**：频散参数**必填**——省略任一即 ``TypeError``，不得静默默认。
+    """**R15-b + L2**：频散参数自**按 v_model 分治**校验，无静默默认值。
 
-    这是"消除静默默认值"的机械判据：任何忘记传参的调用都会立刻报错，
-    而不是产出不物理数据。
+    L2 变更（2026-09-25）：`v_model="linear"` 时 `a`/`b` **合法省略**（不再强制必填，
+    以免调用方填无意义值）；但 **`v0`/`c` 仍为必填**（缺失即 `ValueError`）。
+    反之 `v_model="power"` 时 `a`/`b` 必填、`v0`/`c` 可省。
+
+    不变的是：**任何缺参都不会静默产出不物理数据**。
     """
     base = np.zeros((64, 16), dtype=np.float64)
     rng = np.random.default_rng(SEED)
 
+    # 完全不给关键字（连 v_model 都没有）→ TypeError
     with pytest.raises(TypeError):
         add_dispersive_surface_wave(base, DT, DX, rng)  # type: ignore[call-arg]
 
+    # 缺 f_lo / f_hi → TypeError（这两个始终必填）
     with pytest.raises(TypeError):
         add_dispersive_surface_wave(  # type: ignore[call-arg]
-            base, DT, DX, rng, v_model="linear", v0=500.0, c=10.0,
-            a=DISP_A, b=DISP_B, f_lo=5.0,
+            base, DT, DX, rng, v_model="linear", v0=500.0, c=10.0, f_lo=5.0,
         )
 
+    # 无 v_model → TypeError
     with pytest.raises(TypeError):
         dispersion_velocity(DISP_PROBES)  # type: ignore[call-arg]
 
-    with pytest.raises(TypeError):
-        dispersion_velocity(  # type: ignore[call-arg]
-            DISP_PROBES, v_model="linear", v0=500.0, c=10.0,
+    # L2：linear 缺 v0/c → ValueError（不是 TypeError，因为签名已接受但校验拒绝）
+    with pytest.raises(ValueError):
+        add_dispersive_surface_wave(
+            base, DT, DX, rng, v_model="linear", f_lo=5.0, f_hi=25.0,
         )
+    with pytest.raises(ValueError):
+        dispersion_velocity(DISP_PROBES, v_model="linear")
+
+    # L2：power 缺 a/b → ValueError
+    with pytest.raises(ValueError):
+        dispersion_velocity(DISP_PROBES, v_model="power")
+    with pytest.raises(ValueError):
+        add_dispersive_surface_wave(
+            base, DT, DX, rng, v_model="power", f_lo=5.0, f_hi=25.0,
+        )
+
+    # L2 反向确认：linear 下省略 a/b 是**合法**的（不报错）
+    ok = dispersion_velocity(DISP_PROBES, v_model="linear", v0=DISP_V0, c=DISP_C)
+    assert np.all(np.isfinite(ok))
+    ok2 = dispersion_velocity(DISP_PROBES, v_model="power", a=DISP_A, b=DISP_B)
+    assert np.all(np.isfinite(ok2))
 
 
 # =============================================================================

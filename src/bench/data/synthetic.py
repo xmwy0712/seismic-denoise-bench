@@ -452,10 +452,10 @@ def add_dispersive_surface_wave(
     rng: np.random.Generator,
     *,
     v_model: str,
-    v0: float,
-    c: float,
-    a: float,
-    b: float,
+    v0: float | None = None,
+    c: float | None = None,
+    a: float | None = None,
+    b: float | None = None,
     f_lo: float,
     f_hi: float,
     amplitude: float = 1.0,
@@ -522,10 +522,20 @@ def add_dispersive_surface_wave(
         raise ValueError(f"须满足 0 < f_lo < f_hi，实测 {(f_lo, f_hi)!r}")
     if n_components < 3:
         raise ValueError(f"n_components 须 >= 3，实测 {n_components!r}")
-    if v_model == "linear" and (v0 <= 0.0 or c <= 0.0):
-        raise ValueError(f"线性模型须 v0>0 且 c>0，实测 {(v0, c)!r}")
-    if v_model == "power" and (a <= 0.0 or b <= 0.0):
-        raise ValueError(f"幂律模型须 a>0 且 b>0，实测 {(a, b)!r}")
+    # L2：按 v_model **分治校验**必填集（linear 需 v0/c；power 需 a/b）。
+    # 用 None 作"未提供"哨兵：既不引入静默数字默认值，也无需调用方为无关参数填无意义值。
+    if v_model == "linear":
+        missing = [nm for nm, val in (("v0", v0), ("c", c)) if val is None]
+        if missing:
+            raise ValueError(f"v_model='linear' 需显式提供 {missing}")
+        if v0 <= 0.0 or c <= 0.0:
+            raise ValueError(f"线性模型须 v0>0 且 c>0，实测 {(v0, c)!r}")
+    else:  # power
+        missing = [nm for nm, val in (("a", a), ("b", b)) if val is None]
+        if missing:
+            raise ValueError(f"v_model='power' 需显式提供 {missing}")
+        if a <= 0.0 or b <= 0.0:
+            raise ValueError(f"幂律模型须 a>0 且 b>0，实测 {(a, b)!r}")
 
     n_samples, n_traces = arr.shape
     t = np.arange(n_samples, dtype=np.float64) * dt
@@ -552,10 +562,10 @@ def dispersion_velocity(
     f: np.ndarray | float,
     *,
     v_model: str,
-    v0: float,
-    c: float,
-    a: float,
-    b: float,
+    v0: float | None = None,
+    c: float | None = None,
+    a: float | None = None,
+    b: float | None = None,
 ) -> np.ndarray:
     """按给定模型返回 :math:`v(f)`（m/s）。用于生成与验收的**同一公式**。
 
@@ -571,11 +581,18 @@ def dispersion_velocity(
     以免自证。
     """
     f_arr = np.asarray(f, dtype=np.float64)
+    # L2：按 v_model 分治校验（同 add_dispersive_surface_wave）
+    if v_model not in ("linear", "power"):
+        raise ValueError(f"未知 v_model：{v_model!r}")
     if v_model == "linear":
+        missing = [nm for nm, val in (("v0", v0), ("c", c)) if val is None]
+        if missing:
+            raise ValueError(f"v_model='linear' 需显式提供 {missing}")
         return v0 + c * f_arr
-    if v_model == "power":
-        return a * np.power(f_arr, b)
-    raise ValueError(f"未知 v_model：{v_model!r}")
+    missing = [nm for nm, val in (("a", a), ("b", b)) if val is None]
+    if missing:
+        raise ValueError(f"v_model='power' 需显式提供 {missing}")
+    return a * np.power(f_arr, b)
 
 
 # =============================================================================
@@ -657,3 +674,146 @@ def estimate_dispersion_v(
             raise ValueError(f"f={fp} Hz 处峰落在零波数，无法回算速度")
         v_out[i] = float(fp) / abs(k_peak)
     return v_out
+
+
+# =============================================================================
+# 注入分量基（R16-a）· 供 CNA 子空间**精确张成**使用
+#
+# 背景：CNA 的子空间必须张成"注入所用的家族"，否则投影回收不足（实测抽样建基不收敛：
+# 频散面波家族维数 = 2·n_components，抽 40 个实现仍只覆盖 38%）。
+# 本组函数**导出注入的解析分量基**，使"注入 = 分量基的线性组合"成立 ⇒ 精确张成。
+#
+# 数学推导
+# --------
+# 线性干扰（``add_linear_coherent``）::
+#
+#     g = magnitude · W(t − x / v_app)      ⇒ 唯一随机量是 magnitude ⇒ **1 维**
+#
+# 频散面波（``add_dispersive_surface_wave``）::
+#
+#     w_i = A_i · sin(2π f_i τ_i + φ_i)
+#         = (A_i cos φ_i) · sin(2π f_i τ_i) + (A_i sin φ_i) · cos(2π f_i τ_i)
+#     ⇒ 每个分量贡献 **2 维**（sin 与 cos）⇒ 共 **2·n_components 维**
+#
+# 以上导出均**只依赖冻结配置参数**，不读取任何方法输出（A1-1）。
+# =============================================================================
+
+__all__ += [
+    "linear_coherent_basis",
+    "dispersion_component_basis",
+]
+
+
+def _time_offset_grid(dt: float, dx: float, n_samples: int, n_traces: int):
+    """返回 ``(t, x)`` 与归一化道号 ``xn`` 的网格辅助量。"""
+    t = np.arange(int(n_samples), dtype=np.float64) * float(dt)
+    x = np.arange(int(n_traces), dtype=np.float64) * float(dx)
+    return t, x
+
+
+def linear_coherent_basis(
+    v_app: float,
+    dt: float,
+    dx: float,
+    n_samples: int,
+    n_traces: int,
+    *,
+    f_main: float,
+) -> np.ndarray:
+    """导出**线性相干干扰**的分量基（单模板，形状 ``(n_samples, n_traces)``）。
+
+    由 ``add_linear_coherent`` 的构造式
+    ``g = magnitude · W(t − x/v_app)`` 可知，家族只有一个自由度（整体幅度），
+    故对**每一组** ``(v_app, f_main)`` 只需**一个**模板即可精确张成。
+
+    参数
+    ----
+    v_app : float
+        视速度 (m/s)（须为**注册配置**中的取值）。
+    dt, dx : float
+        采样间隔 (s) / 道间距 (m)。
+    n_samples, n_traces : int
+        输出形状。
+    f_main : float
+        子波主频 (Hz)（须为**注册配置**中的取值）。
+
+    返回
+    ----
+    numpy.ndarray
+        形状 ``(n_samples, n_traces)`` 的模板。
+
+    说明
+    ----
+    本函数使用的 Ricker 表达式与 ``add_linear_coherent`` **完全一致**
+    （同一公式，非再拟合），故注入是该返回值的**标量倍**，投影可精确回收。
+    """
+    for nm, val in (("v_app", v_app), ("dt", dt), ("dx", dx), ("f_main", f_main)):
+        if not np.isfinite(val) or val <= 0.0:
+            raise ValueError(f"{nm} 须为正有限值，实测 {val!r}")
+    if n_samples < 2 or n_traces < 1:
+        raise ValueError("n_samples >= 2 且 n_traces >= 1")
+
+    t, x = _time_offset_grid(dt, dx, n_samples, n_traces)
+    tau = t[:, np.newaxis] - x[np.newaxis, :] / float(v_app)
+    scaled = (np.pi * float(f_main)) ** 2
+    return (1.0 - 2.0 * scaled * tau**2) * np.exp(-scaled * tau**2)
+
+
+def dispersion_component_basis(
+    dt: float,
+    dx: float,
+    n_samples: int,
+    n_traces: int,
+    *,
+    v_model: str,
+    v0: float,
+    c: float,
+    a: float,
+    b: float,
+    f_lo: float,
+    f_hi: float,
+    n_components: int,
+) -> np.ndarray:
+    """导出**频散面波**的分量基，形状 ``(2·n_components, n_samples, n_traces)``。
+
+    对 ``add_dispersive_surface_wave`` 使用的每个频率分量 ``f_i``，导出其
+    **sin 与 cos 两个正交方向**（因为注入相位 φ_i 是随机的，需两维才能精确张成）：:
+
+        e_i^sin(t,x) = sin(2π f_i τ_i)
+        e_i^cos(t,x) = cos(2π f_i τ_i)
+        其中 τ_i = t − x / v(f_i)
+
+    频率轴 ``f_i`` 与相速度 ``v(f_i)`` 的取值规则**与注入实现完全一致**
+    （``np.linspace(f_lo, f_hi, n_components)`` 与同一 ``v_model`` 分支），
+    故任何注入实现都是这 ``2·n_components`` 个基的**线性组合**。
+
+    参数
+    ----
+    与 ``add_dispersive_surface_wave`` 的同名参数含义一致（**均须为注册配置取值**）。
+
+    返回
+    ----
+    numpy.ndarray
+        形状 ``(2 * n_components, n_samples, n_traces)`` 的基集合。
+    """
+    if v_model not in ("linear", "power"):
+        raise ValueError(f"v_model 须为 'linear' 或 'power'，实测 {v_model!r}")
+    if not (0.0 < f_lo < f_hi):
+        raise ValueError(f"须满足 0 < f_lo < f_hi，实测 {(f_lo, f_hi)!r}")
+    if n_components < 1:
+        raise ValueError(f"n_components 须 >= 1，实测 {n_components!r}")
+    for nm, val in (("dt", dt), ("dx", dx)):
+        if not np.isfinite(val) or val <= 0.0:
+            raise ValueError(f"{nm} 须为正有限值，实测 {val!r}")
+
+    t, x = _time_offset_grid(dt, dx, n_samples, n_traces)
+    freq_axis = np.linspace(f_lo, f_hi, int(n_components))
+
+    basis = np.empty((2 * int(n_components), int(n_samples), int(n_traces)), dtype=np.float64)
+    for k, f in enumerate(freq_axis):
+        v = (v0 + c * f) if v_model == "linear" else (a * f**b)
+        tau = t[:, np.newaxis] - x[np.newaxis, :] / v
+        arg = 2.0 * np.pi * f * tau
+        basis[2 * k] = np.sin(arg)
+        basis[2 * k + 1] = np.cos(arg)
+    return basis

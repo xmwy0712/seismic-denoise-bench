@@ -151,3 +151,35 @@ dispersion_physics:
   # 参数必填（无静默默认值）：v_model / v0 / c / a / b / f_lo / f_hi
   required_params: [v_model, v0, c, a, b, f_lo, f_hi]
   frozen_on: P1.5
+
+# ------------------------------------------------------------
+# R16（P1.2-Am2 整改）· CNA 子空间建基规则（**P1.5 冻结**）
+# ------------------------------------------------------------
+cna_subspace:
+  construction: "分量基精确张成（禁用抽样建基）"
+  rationale: >
+    抽样建基不收敛：频散面波家族维数 = 2*n_components（每分量 sin/cos 两自由度），
+    实测抽 1/5/20 个实现的回收误差中位为 98.9%/86.5%/51.0%，抽 40 个仍需 0.06%；
+    而分量基精确张成后独立新实现误差 ~1e-15。
+  basis_sources:
+    linear_coherent:
+      function: "bench.data.synthetic.linear_coherent_basis"
+      dimension_per_param_set: 1        # 唯一随机量是整体幅度
+      coverage:
+        v_app_m_s: [800.0, 1500.0, 3000.0]     # 注册视速度档
+        f_main_hz: [15.0, 25.0, 40.0]          # 注册主频档
+        plus_injection_point: true              # 另加注入实际使用的 (v_app, f_main)
+    dispersive_surface_wave:
+      function: "bench.data.synthetic.dispersion_component_basis"
+      dimension_per_param_set: "2 * n_components"   # sin 与 cos 各 1 维
+      coverage:
+        f_axis_rule: "np.linspace(f_lo, f_hi, n_components)"   # 与注入实现**同一规则**
+        v_model: linear
+        v0: 500.0
+        c: 10.0
+        n_components: 24
+  rank_tol:
+    candidate: 1.0e-8
+    semantics: "保留奇异值 >= rank_tol * sigma_max 的方向；P1.5 冻结"
+  frozen_on: P1.5
+  prohibition: "不得再用“抽 N 个随机实现”建基（已实测不收敛）"
