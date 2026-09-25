@@ -1,0 +1,71 @@
+# ============================================================
+# configs/event_table_draft.yaml
+#
+# 事件表（**草案** —— 正式冻结在 P1.5）
+# 编码约定：UTF-8 无 BOM，LF 换行
+#
+# 说明：本文件给出"事件表"的结构与候选取值，供 P1.5 冻结。
+#   事件窗来源**沿用已冻结的掩码规则**（沿时间轴膨胀 n_T、round-half-up），
+#   本草案不改动该规则。
+# ============================================================
+
+meta:
+  stage: P1.2-draft
+  frozen: false
+  frozen_on: P1.5
+  note: "事件表为草案；P1.2 不冻结、不建 tag"
+
+# 事件窗生成规则（**引用**已冻结规则，不重新定义）
+event_window_rule:
+  source: "P0.3-Am1 裁定 1 + P0.3-Am3 C5/C6"
+  detect: "|s| >= threshold（含等号）"
+  dilation_axis: "时间轴 axis=0，**不作用于道方向**"
+  n_T_rule: "half_up: math.floor(1/(f_main*dt) + 0.5)"
+  threshold: null          # 人工阈值，P1.5 冻结
+  boundary_policy: "越界即不贡献（不环绕）；事件须距边界 >= ceil(n_T/2)"
+
+# 事件表结构（候选）
+schema:
+  - field: event_id
+    type: int
+  - field: t_center_samples
+    type: int
+    note: "包络峰值所在样点"
+  - field: t_center_ms
+    type: float
+  - field: trace_range
+    type: [int, int]
+    note: "事件覆盖的道范围 [lo, hi)"
+  - field: window_start
+    type: int
+    note: "真值事件窗起点（样点）"
+  - field: window_stop
+    type: int
+    note: "真值事件窗终点（样点，半开）"
+  - field: n_T_used
+    type: int
+    note: "该配置的 n_T（逐配置不同，见 config_matrix.yaml 的 n_T_records）"
+
+# 事件匹配容差（**A2：先冻结、后测量**；详见 docs/metrics-spec.md 第 3 节）
+matching_tolerances:
+  time_tol_ms: 40.0
+  trace_tol: 2
+  allow_one_to_many: false
+  matching_rule: "greedy-nearest"
+  threshold_metric: "F1"
+  threshold_value: 0.95
+  declared_before_measurement: true
+  declared_at: "2026-09-25"
+  frozen_on: P1.5
+
+# 测试集子集（由构造定义真值，非"检测后标定"）
+test_subsets:
+  - id: isolated
+    separation_ms: "> 200"
+    purpose: "基线"
+  - id: near_neighbor
+    separation_ms: "40–120"
+    purpose: "近邻困难情形"
+  - id: partial_overlap
+    separation_ms: "< 40"
+    purpose: "时间部分重叠困难情形"
