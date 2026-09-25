@@ -1,0 +1,138 @@
+# ============================================================
+# configs/config_matrix.yaml
+#
+# 阶段：P1.1（**草案** —— 正式冻结在 P1.5，本单不冻结）
+# 依据：P1.1 任务单第三节
+# 编码约定：UTF-8 无 BOM，LF 换行
+#
+# 说明：
+#   * 本文件是**配置矩阵草案**，供 P1.5 冻结与 P2 云窗口执行预算使用。
+#   * **噪声强度档位定义方式（双口径，必须同时给出）**：
+#       (i)  target_input_snr_db —— 目标输入 SNR（dB）
+#       (ii) amplitude_ratio    —— 相干/随机噪声相对干净数据的振幅比例
+#     两种口径都写入，以免后续争议"强度是什么"。
+#   * **每配置 >= 5 个独立随机种子，且显式列出数值**。
+# ============================================================
+
+meta:
+  stage: P1.1-draft
+  frozen: false                # 正式冻结在 P1.5（tag: config-frozen）
+  note: "本文件为草案；P1.1 不冻结、不建 tag"
+
+# ------------------------------------------------------------
+# 采样与几何（书面固定）
+# ------------------------------------------------------------
+acquisition:
+  dt_s: 0.002          # 时间采样间隔 (s)  -> dt = 2 ms
+  dx_m: 10.0           # 道间距 (m)
+  n_samples: 512       # 时间样点数（主模型正演后的输出长度见 forward 约定）
+  n_traces: 64         # 道数
+
+# ------------------------------------------------------------
+# 主频档位（与已冻结的 n_T 三元组一致）
+# ------------------------------------------------------------
+wavelet:
+  kind: ricker
+  f_main_hz: [15.0, 25.0, 40.0]     # 主频档位（协议冻结值）
+  # n_T = round_half_up(1/(f_main*dt)) 的三元组（P1.5 冻结时逐配置记录）
+  n_T_records:
+    - {f_main_hz: 15.0, n_T_expr: "1/(f_main*dt)", n_T_rule: "half_up: math.floor(x + 0.5)", n_T_int: 33}
+    - {f_main_hz: 25.0, n_T_expr: "1/(f_main*dt)", n_T_rule: "half_up: math.floor(x + 0.5)", n_T_int: 20}
+    - {f_main_hz: 40.0, n_T_expr: "1/(f_main*dt)", n_T_rule: "half_up: math.floor(x + 0.5)", n_T_int: 13}
+
+# ------------------------------------------------------------
+# 模型（两个）
+# ------------------------------------------------------------
+models:
+  - id: M1
+    name: layered-horizontal        # 主模型：水平层状
+    params:
+      n_layers: 200
+      sparsity: 0.30
+  - id: M2
+    name: structure-dip-curv-fault  # 第二模型：倾斜 + 弯曲 + 断层（+可选横向变速）
+    params:
+      n_samples: 512
+      n_traces: 64
+      n_events: 6
+      dip_deg_range: [-18.0, 18.0]
+      curvature_range: [-0.35, 0.35]
+      fault_trace_fraction: 0.5
+      fault_throw_samples: 25.0
+      lateral_velocity_gradient: 0.0    # 0=关闭；可设 >0 启用横向速度变化
+      sparsity: 0.55
+
+# ------------------------------------------------------------
+# 噪声类型（三类，协议规定）
+# ------------------------------------------------------------
+noise_types:
+  - id: N1
+    name: band_limited_random
+    params:
+      band_hz: [5.0, 80.0]
+  - id: N2
+    name: linear_coherent
+    params:
+      f_main_hz: 30.0
+      v_app_m_s: [800.0, 1500.0, 3000.0]   # 参数档位（视速度）
+  - id: N3
+    name: dispersive_surface_wave
+    params:
+      v_model: linear                       # v(f) = v0 + c*f
+      v0: 500.0
+      c: 10.0
+      f_lo_hz: 5.0
+      f_hi_hz: 25.0
+      n_components: 24
+      probe_freqs_hz: [5.0, 8.0, 12.0, 15.0, 18.0, 22.0, 25.0]   # 预注册探测频率（>=5，覆盖两端与中部）
+
+# ------------------------------------------------------------
+# 噪声强度档位（>=3 档；**双口径**定义）
+# ------------------------------------------------------------
+noise_levels:
+  - id: L1
+    target_input_snr_db: 10.0     # 口径 (i)：目标输入 SNR (dB)
+    amplitude_ratio: 0.30         # 口径 (ii)：相对干净数据振幅的比例
+  - id: L2
+    target_input_snr_db: 0.0
+    amplitude_ratio: 0.60
+  - id: L3
+    target_input_snr_db: -5.0
+    amplitude_ratio: 1.00
+  # 说明：三档为 >=3 档的最小集；P1.5 可增档但不得减档。
+  # 两种口径的对应关系由实测标定（同一 amplitude_ratio 下测得的 input SNR 写入 execution-log）。
+
+# ------------------------------------------------------------
+# 随机种子（**显式列出数值**，每配置 >= 5 个）
+# ------------------------------------------------------------
+seeds:
+  - 101
+  - 202
+  - 303
+  - 404
+  - 505
+
+# ------------------------------------------------------------
+# 配置矩阵组合规则（笛卡尔积）
+# ------------------------------------------------------------
+matrix:
+  axes:
+    - models          # 2 个：M1, M2
+    - noise_types     # 3 类：N1, N2, N3
+    - noise_levels    # 3 档：L1, L2, L3
+    - param_slots     # 参数档位：见下
+  param_slots:
+    # 参数档位的具体取值（用于展开笛卡尔积的 "参数档位" 轴）
+    wavelet_f_main_hz: [15.0, 25.0, 40.0]
+    n2_v_app_m_s: [800.0, 1500.0, 3000.0]
+  seeds_per_config: 5
+  seeds: [101, 202, 303, 404, 505]
+
+# ------------------------------------------------------------
+# 展开算式（由 src/... 的成本脚本实测核对，见 execution-log）
+# ------------------------------------------------------------
+expansion:
+  formula: "(2 models) x (3 noise types) x (3 levels) x (3 f_main) = 54 configs"
+  configs_total: 54
+  observations_total_formula: "54 configs x 5 seeds = 270 observations"
+  observations_total: 270
