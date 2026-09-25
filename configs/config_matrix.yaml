@@ -168,11 +168,37 @@ cna_subspace:
     value: 48
     equals: "2 * n_components"
     verification: "60 个独立实现做 SVD：第 48 个相对奇异值 4.842e-08，第 49 个 6.782e-16（断层下跌）"
-  grid_dependency_warning: >
-    **重要（更正 1 的根因）**：家族奇异值谱**强烈依赖观测网格**。
-    在 256x16 网格上谱快速衰减（第 40 个相对奇异值 5.88e-04），抽样 k=40 的回收误差仅 0.058%；
-    而在**注册配置 512x64** 网格上谱近乎平坦（第 40 个 9.08e-01），同一 k=40 的回收误差为 **39.47%**。
-    故凡涉及回收/回放的测量，**必须使用注册配置网格**（本项写入 P1.5 冻结清单）。
+  grid_dependency_warning:
+    status: "**R-N1 已更正（2026-09-25）**"
+    mechanism: >
+      面波家族在 (n_samples x n_traces) 矩阵上的**秩上限 = min(n_samples, n_traces, 2*n_components)**。
+      当 min(n_samples, n_traces) < 2*n_components 时，家族被**秩亏压缩**；
+      若抽样数 k >= 该压缩秩，则**恰好精确张成**，回收误差趋于 0（与"谱衰减"无关）。
+    verified_config_of_the_0p058pct_row:
+      grid: [256, 16]
+      min_ns_ntr: 16
+      n_components: 24
+      theoretical_rank_cap: 16
+      measured_single_impl_matrix_rank: [16, 16, 16]
+      basis_seeds: "96000..96039"
+      test_seeds: "97000..97009"
+      k: 40
+      recovery_error_median: 0.0561
+      note: "k=40 > 秩上限 16 ⇒ 越过族维 ⇒ 精确张成 ⇒ 残差≈0"
+    rerun_with_registered_family_and_grid:
+      family: "n_components=24（注册族）"
+      grid: [512, 64]
+      seeds: "basis 96000..96039 / test 97000..97009（不相交）"
+      k40_recovery_median: 43.40
+      k47_recovery_median: 13.60
+      k48_recovery_median: 0.00
+      k20_recovery_median: 74.55
+    corrected_statement: >
+      「k=40 的回收误差随观测网格变化（本执行方实测 0.058%–43.4%；签发方实测 13.8%–34.2%）；
+       **≈0 只出现在 k >= 家族（压缩后）维数」**。
+      两方数值差异源于随机实现协议（种子/幅度相位抽样）不同，**属同一机制的不同实现细节**；
+      但**"两种网格下都对"的并列说法已撤销** —— 0.058% 只反映"256x16 把族压到 16 维"这一特例。
+    rule: "凡回收/回放类测量，**必须使用注册配置网格 (512,64)**（本项写入 P1.5 冻结清单）"
   basis_sources:
     linear_coherent:
       function: "bench.data.synthetic.linear_coherent_basis"

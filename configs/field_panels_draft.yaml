@@ -177,3 +177,38 @@ attribution:
     Massachusetts, USA: Field Survey Report [Data set]. Zenodo.
     https://doi.org/10.5281/zenodo.10407771 — licensed under CC BY 4.0.
   license_id: cc-by-4.0
+
+# ------------------------------------------------------------
+# 裁定 F · 事件窗阈值回退结果（事前声明的确定性阶梯实测）
+# ------------------------------------------------------------
+event_window_fallback:
+  rule: "k_mad = 3.0 起，若事件窗 < 2 则按序试 2.5 -> 2.0 -> 1.5，取首个 >= 2 窗者；直至 1.5 仍 <2 则记 N/A"
+  declared_before_use: true
+  results:
+    - {panel_id: FP1, chosen_k_mad: 1.5, ladder: [1, 1, 1, 2]}
+    - {panel_id: FP2, chosen_k_mad: 3.0, ladder: [3]}
+    - {panel_id: FP3, chosen_k_mad: 2.5, ladder: [0, 3]}
+  none_na: true
+  frozen_on: P1.5
+
+# ------------------------------------------------------------
+# 裁定 G · P2 判据修正（**不追溯**，仅用于 P1.5 冻结规范）
+# ------------------------------------------------------------
+p2_criterion_fix:
+  status: "approved-for-P1.5 (non-retroactive)"
+  original: "outlier_trace_fraction < 0.05"
+  original_verdict: "0/40 满足（实测 0.0595-0.5165）且 dead 项 40/40 满足 => 均无区分力，P2 未参与排序"
+  replacement:
+    name: adjacent_trace_waveform_correlation
+    definition: "逐道：该道与左右邻居零延迟相关系数的均值（原始数据，无滤波）"
+    bad_trace_rule: "相关系数均值 < threshold"
+    threshold: -0.41076987440826274
+    threshold_source: "全候选逐道值的 P5 分位"
+  discriminating_power:
+    distinct_bad_fraction_values: "34/40"
+    bad_fraction_range: [0.0015, 0.1725]
+    verdict: "有区分力（对比原判据 0/40 满足、无区分力）"
+  non_retroactive_declaration: >
+    **原 P2 判据在排序前被实测判定无区分力，未参与排序；本修正仅用于 P1.5 冻结规范与后续复现，
+    不得用于推翻或重选已冻结的 top-3 面板。**
+  frozen_on: P1.5
