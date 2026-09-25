@@ -200,8 +200,18 @@ def add_linear_coherent(
 
         g(t, x) = W(t - x / v_app)
 
-    其 f-k 谱能量脊满足 ``k = f / v_app``（``f > 0`` 时），故可由
-    f-k 峰值回算 ``v = f_peak / k_peak``。
+    其 f-k 谱能量脊为 ``k = -f / v_app``（``f > 0`` 时 ``k < 0``），故回算取
+    ``v = f_peak / |k_peak|``。
+
+    **变换核约定（复现者必读）**
+        本结论在 ``numpy.fft.fft2`` 的核 **``exp(-2πi(f·t + k·x))``**（两个负号）下成立：
+        令 ``u = t - x / v_app``，指数化为 ``-2πi(f·u) - 2πi·x(f / v_app + k)``，
+        故能量脊满足 ``f / v_app + k = 0``，即 **``k = -f / v_app``**。
+        **若改用 ``exp(-2πi(f·t - k·x))`` 的约定，则符号相反（``k = +f / v_app``）。**
+        **复现者须先确认所用变换核的符号**，再决定回算公式的符号。
+
+        符号推导的完整记录见 ``tests/test_data_acceptance.py`` 的模块 docstring
+        （该文件为同一约定的另一处表述，二者互相引用）。
 
     参数
     ----
