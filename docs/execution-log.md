@@ -730,3 +730,143 @@ token 化用 Python `tokenize` 模块；剔除 `COMMENT` / `NL` / `NEWLINE` / `I
 而不仅是"没有读过某个文件"。仅凭"我未查阅"不足以支持独立性宣称。
 
 ---
+
+---
+
+### 2026-09-25 | Commit 2 · P0.4 最小正演与数据验收链
+
+**授权**：`P0.4-最小正演与数据验收-2026-09-26.md`
+（SHA256 `7CC5BF9927C094A9D4F19870D89116CE4E2D83D0BB0E8F3ED5F8923AE428BFA5`，4404 B）
++ `P0.4-Am1-收集守卫细化与API约束-2026-09-25.md`（`802B84CB…`）。
+**OTP**：同批 `VALID`。权限 **L2**。
+
+**1. 交付物**
+
+| 文件 | 字节 | 说明 |
+| :--- | ---: | :--- |
+| `src/bench/data/synthetic.py` | 8386 | `reflectivity` / `forward`（时域直接褶积）/ `add_band_limited_noise` / `add_linear_coherent` |
+| `tests/ref_forward.py` | 2884 | **独立参考实现**（频域乘积褶积），与 `synthetic.py` **零共享代码** |
+| `tests/_auxiliary.tsv` | 586 | 辅助模块清单（`ref_forward.py` 登记） |
+| `tests/test_data_acceptance.py` | 8864 | 验收链（主频 / 视速度 / 双实现 NMS） |
+| `tests/test_naming_convention.py` | 6357 | 收集守卫（按 P0.4-Am1 裁定 1 细化） |
+| `tests/test_snr_sentinel.py` | 4625 | 哨兵语义（P0.4-Am1 裁定 2 要求） |
+
+`src/bench/data/ricker.py` **未改动**（P0.4 明令禁止）。
+
+**2. 相对任务单的偏离（显式声明）**
+
+任务单给出的签名缺少两个**必要参数**（道数、子波主频），本执行方各增加
+**一个带默认值的仅关键字参数**，使任务单原始调用形式（两参数）依然可用：
+
+| 函数 | 任务单签名 | 实现签名 | 增加项 |
+| :--- | :--- | :--- | :--- |
+| `forward` | `forward(reflectivity, wavelet)` | `forward(reflectivity, wavelet, n_traces=1)` | `n_traces`（默认 1） |
+| `add_linear_coherent` | `add_linear_coherent(s, v_app, dt, dx, rng)` | `add_linear_coherent(s, v_app, dt, dx, rng, *, f_main=30.0)` | `f_main`（仅关键字，默认 30.0） |
+
+另：`reflectivity` 增加 `sparsity=0.30`（仅关键字，默认值）；`add_band_limited_noise` 增加
+`dt=0.002` 与 `amplitude=1.0`（仅关键字）。**不引入任何模块级全局默认值**（P0.4 禁止隐式全局状态）。
+
+**3. 实测数值（逐项入日志，不得只写"通过"）**
+
+**(a) Ricker 主频回算**（容差 **5%**，协议值）
+
+| `f_main` (Hz) | 回算 `f_est` (Hz) | 相对误差 | 判定 |
+| ---: | ---: | ---: | :--- |
+| 15.0 | 15.000001 | **0.00000423%** | ✅ |
+| 25.0 | 25.000000 | **0.00000137%** | ✅ |
+| 40.0 | 40.000000 | **0.00000058%** | ✅ |
+
+**(b) 线性干扰视速度 f-k 回算**（容差 **10%**，协议值；`f_main=30 Hz`、`dx=5 m`、64 道、`dt=2 ms`）
+
+| `v_app` (m/s) | `f_peak` (Hz) | `k_peak` (周/m) | 回算 `v` (m/s) | 相对误差 | 判定 |
+| ---: | ---: | ---: | ---: | ---: | :--- |
+| 800 | 30.2734 | −0.037500 | 807.29 | **0.911458%** | ✅ |
+| 1500 | 28.3203 | −0.018750 | 1510.42 | **0.694444%** | ✅ |
+| 3000 | 28.3203 | −0.009375 | 3020.83 | **0.694444%** | ✅ |
+
+无混叠前提已由 `test_b_prime_no_aliasing_for_chosen_velocities` 断言：
+三档脊 `k = 30/v` = 0.0375 / 0.02 / 0.01，均 < `k_nyq = 0.1`；`f_main = 30 Hz << f_nyq = 250 Hz`。
+
+**(c) 无噪正演双实现 NMS**（容差 **1e-6**，协议值）
+
+| 项 | 值 |
+| :--- | :--- |
+| 形状 | `(300, 3)`（`n_refl=200`, `n_wav=101`） |
+| **NMS** | **5.876181e-32** ✅（远低于 1e-6） |
+
+**4. 本批执行中自纠的问题（如实记录）**
+
+**问题：f-k 脊的象限推导错误（本执行方的物理错误，非任务单缺陷）**
+
+- **初版实现**在 **(f>0, k>0)** 象限搜索能量峰，三档视速度全部失败
+  （其中一档回算 2844 m/s，误差 42%）。
+- **诊断过程**：逐 k 列打印列内最大 f，发现 **k>0 时列内最大 f 落在负频率**
+  （如 k=0.0125 → f=−18.55 Hz）。据此回溯解析推导：
+  干扰 `g(t,x) = W(t − x/v)` 的二维谱为 `G(f,k) = Ŵ(f)·δ(k + f/v)`，
+  即能量脊为 **`k = −f/v`** ⇒ **`f>0` 时脊在 `k<0`**。
+- **根因**：本执行方在实现时按"通用惯例 f = v·k"直接假定 `k>0`，
+  **未对本次的时移方向重新推导符号**。属**推导疏漏**，非参数或混叠问题
+  （初期曾误判为空间混叠，经参数扫描证伪）。
+- **修正**：改为在 **(f>0, k<0)** 象限搜索，回算取 `v = f/|k|`；
+  并在代码注释中写明推导依据。修正后三档误差均 **<1%**。
+- **教训**：**沿用"通用惯例"前必须按本次的具体定义重新推导符号**。
+
+**问题：f-k 变量名笔误** —— 首轮修正后出现 `NameError: knums`（应为 `wavenumbers`），
+已修正。属笔误，如实记录。
+
+**问题：收集守卫自检对非 `.py` 路径抛异常** —— 守卫自检用例对 `_auxiliary.tsv`
+调用 `_defines_tests`，因 `ast.parse` 读非 Python 文件而报错。
+已令该函数对非 `.py` 或不可读路径直接返回 `False`。
+
+**5. 收集守卫（P0.4-Am1 裁定 1）**
+
+实现三条规则：真绿守卫（定义了测试者必须 `test_*.py`）、清单守卫
+（不定义测试者须为 `conftest.py` 或登记于 `tests/_auxiliary.tsv`）、
+配置意图固化（`pyproject.toml` 显式 `python_files`）。
+**不使用代码内豁免名单**；`ref_forward.py` 通过清单登记。
+
+**清单首次登记**（增行已在本文记录，符合"清单增删须记一行"）：
+
+| 文件名 | 用途 | 被谁导入 |
+| :--- | :--- | :--- |
+| `ref_forward.py` | 独立参考实现（被测辅助模块，频域乘积褶积路径） | `test_data_acceptance.py` |
+
+**6. 测试结果（含 collected 计数）**
+
+```
+collected 68 items
+
+tests/test_data_acceptance.py .....................................      [ 72%]
+tests/test_metrics_acceptance.py ........................                [ 100%]
+tests/test_naming_convention.py ..........                               [ 100%]
+tests/test_ricker.py .................                                   [ 100%]
+tests/test_snr_sentinel.py .........                                     [ 100%]
+
+============================== 68 passed in 0.23s ==============================
+```
+
+**collected = 68**，其中：
+
+| 文件 | 用例数 | 说明 |
+| :--- | ---: | :--- |
+| `test_ricker.py` | 17 | P0.2 既有，未改动 |
+| `test_metrics_acceptance.py` | 24 | P0.3 既有，**未改动** |
+| `test_snr_sentinel.py` | 9 | 本批新增（哨兵语义） |
+| `test_naming_convention.py` | 10 | 本批细化（原 3 项 → 10 项） |
+| `test_data_acceptance.py` | 8 | 本批新增（验收链） |
+
+**`run_tests.ps1`（本机权威入口）输出与 `python -m pytest` 一致。**
+
+**7. 机械验证自检**
+
+- `src/bench/data/ricker.py` 哈希未变 ✅
+- `tests/ref_forward.py` 与 `src/bench/data/synthetic.py` **无共享实现代码**：
+  前者为频域 `rfft` → 逐元素相乘 → `irfft`；后者为 `np.convolve(mode="full")` 时域求和；
+  两者不共享任何函数、类或常量定义（仅共享"褶积"这一数学定义本身）。
+- 双实现 NMS 实测 5.876e-32，等价性成立。
+
+**8. 未做（红线保持）**
+
+未配置 git remote；未 push；未改环境变量 / `openclaw.json` / `gateway.cmd`；未重启 gateway；
+未建定时任务；未创建 `config-frozen` 及后续 tag；未修改任何归档任务单；未改动 `docs/protocol-v5.md`；
+**未 amend 任何既有 commit**。

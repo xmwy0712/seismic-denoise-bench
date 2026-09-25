@@ -1,0 +1,13 @@
+# tests/ 辅助模块清单（P0.4-Am1 裁定 1）
+#
+# 格式（TAB 分隔，三字段）：
+#   文件名<TAB>用途<TAB>被谁导入
+#
+# 规则：
+#   * tests/ 下**不定义测试用例**的 .py 文件，必须为 conftest.py 或登记于本清单；
+#   * 不使用代码内豁免名单（会被逐步掏空）；本清单是可审计、可 diff 的载体；
+#   * 增删行须在 docs/execution-log.md 记一行。
+#
+# 由 tests/test_naming_convention.py 机械校验。
+
+ref_forward.py	独立参考实现（被测辅助模块，频域乘积褶积路径）	test_data_acceptance.py
