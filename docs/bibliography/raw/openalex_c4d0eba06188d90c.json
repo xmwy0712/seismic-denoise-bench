@@ -1,0 +1,756 @@
+{
+  "id": "https://openalex.org/W4207000140",
+  "doi": "https://doi.org/10.1017/cbo9781139027090.005",
+  "title": "Seismic resolution and fidelity",
+  "display_name": "Seismic resolution and fidelity",
+  "publication_year": 2014,
+  "publication_date": "2014-01-23",
+  "ids": {
+    "openalex": "https://openalex.org/W4207000140",
+    "doi": "https://doi.org/10.1017/cbo9781139027090.005"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1017/cbo9781139027090.005",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1017/cbo9781139027090.005",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306462995",
+      "display_name": "Cambridge University Press eBooks",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/P4310311721",
+      "host_organization_name": "Cambridge University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311721",
+        "https://openalex.org/P4310311702"
+      ],
+      "host_organization_lineage_names": [
+        "Cambridge University Press",
+        "University of Cambridge"
+      ],
+      "type": "ebook platform"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Practical Seismic Data Analysis",
+    "raw_type": "book-chapter"
+  },
+  "type": "book-chapter",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5036580212",
+        "display_name": "Hua‐Wei Zhou",
+        "orcid": "https://orcid.org/0000-0001-6660-5297"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I44461941",
+          "display_name": "University of Houston",
+          "ror": "https://ror.org/048sx0r50",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I44461941"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Hua-Wei Zhou",
+      "raw_affiliation_strings": [
+        "University of Houston"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Houston",
+          "institution_ids": [
+            "https://openalex.org/I44461941"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5036580212"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I44461941"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.0,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": {
+    "value": 0.33466489,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "105",
+    "last_page": "135"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11801",
+    "display_name": "Reservoir Engineering and Simulation Methods",
+    "score": 0.9769999980926514,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2212",
+      "display_name": "Ocean Engineering"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11801",
+      "display_name": "Reservoir Engineering and Simulation Methods",
+      "score": 0.9769999980926514,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/context",
+      "display_name": "Context (archaeology)",
+      "score": 0.5875516533851624
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.5616980791091919
+    },
+    {
+      "id": "https://openalex.org/keywords/fidelity",
+      "display_name": "Fidelity",
+      "score": 0.49840760231018066
+    },
+    {
+      "id": "https://openalex.org/keywords/graduate-students",
+      "display_name": "Graduate students",
+      "score": 0.48730719089508057
+    },
+    {
+      "id": "https://openalex.org/keywords/key",
+      "display_name": "Key (lock)",
+      "score": 0.4821005165576935
+    },
+    {
+      "id": "https://openalex.org/keywords/software",
+      "display_name": "Software",
+      "score": 0.4298173189163208
+    },
+    {
+      "id": "https://openalex.org/keywords/data-science",
+      "display_name": "Data science",
+      "score": 0.37522387504577637
+    },
+    {
+      "id": "https://openalex.org/keywords/geography",
+      "display_name": "Geography",
+      "score": 0.11028984189033508
+    },
+    {
+      "id": "https://openalex.org/keywords/pedagogy",
+      "display_name": "Pedagogy",
+      "score": 0.08291885256767273
+    },
+    {
+      "id": "https://openalex.org/keywords/archaeology",
+      "display_name": "Archaeology",
+      "score": 0.07994255423545837
+    },
+    {
+      "id": "https://openalex.org/keywords/psychology",
+      "display_name": "Psychology",
+      "score": 0.07288089394569397
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2779343474",
+      "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+      "display_name": "Context (archaeology)",
+      "level": 2,
+      "score": 0.5875516533851624
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.5616980791091919
+    },
+    {
+      "id": "https://openalex.org/C2776459999",
+      "wikidata": "https://www.wikidata.org/wiki/Q2119376",
+      "display_name": "Fidelity",
+      "level": 2,
+      "score": 0.49840760231018066
+    },
+    {
+      "id": "https://openalex.org/C3020528894",
+      "wikidata": "https://www.wikidata.org/wiki/Q20820271",
+      "display_name": "Graduate students",
+      "level": 2,
+      "score": 0.48730719089508057
+    },
+    {
+      "id": "https://openalex.org/C26517878",
+      "wikidata": "https://www.wikidata.org/wiki/Q228039",
+      "display_name": "Key (lock)",
+      "level": 2,
+      "score": 0.4821005165576935
+    },
+    {
+      "id": "https://openalex.org/C2777904410",
+      "wikidata": "https://www.wikidata.org/wiki/Q7397",
+      "display_name": "Software",
+      "level": 2,
+      "score": 0.4298173189163208
+    },
+    {
+      "id": "https://openalex.org/C2522767166",
+      "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+      "display_name": "Data science",
+      "level": 1,
+      "score": 0.37522387504577637
+    },
+    {
+      "id": "https://openalex.org/C205649164",
+      "wikidata": "https://www.wikidata.org/wiki/Q1071",
+      "display_name": "Geography",
+      "level": 0,
+      "score": 0.11028984189033508
+    },
+    {
+      "id": "https://openalex.org/C19417346",
+      "wikidata": "https://www.wikidata.org/wiki/Q7922",
+      "display_name": "Pedagogy",
+      "level": 1,
+      "score": 0.08291885256767273
+    },
+    {
+      "id": "https://openalex.org/C166957645",
+      "wikidata": "https://www.wikidata.org/wiki/Q23498",
+      "display_name": "Archaeology",
+      "level": 1,
+      "score": 0.07994255423545837
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.07288089394569397
+    },
+    {
+      "id": "https://openalex.org/C76155785",
+      "wikidata": "https://www.wikidata.org/wiki/Q418",
+      "display_name": "Telecommunications",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C38652104",
+      "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+      "display_name": "Computer security",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1017/cbo9781139027090.005",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1017/cbo9781139027090.005",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306462995",
+        "display_name": "Cambridge University Press eBooks",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310311721",
+        "host_organization_name": "Cambridge University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311721",
+          "https://openalex.org/P4310311702"
+        ],
+        "host_organization_lineage_names": [
+          "Cambridge University Press",
+          "University of Cambridge"
+        ],
+        "type": "ebook platform"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Practical Seismic Data Analysis",
+      "raw_type": "book-chapter"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/9",
+      "display_name": "Industry, innovation and infrastructure",
+      "score": 0.5099999904632568
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 4,
+  "referenced_works": [
+    "https://openalex.org/W1975819606",
+    "https://openalex.org/W2016313439",
+    "https://openalex.org/W2170878841",
+    "https://openalex.org/W4236430992"
+  ],
+  "related_works": [
+    "https://openalex.org/W2381850946",
+    "https://openalex.org/W4380449851",
+    "https://openalex.org/W3125091513",
+    "https://openalex.org/W4318832338",
+    "https://openalex.org/W1919390113",
+    "https://openalex.org/W4248383205",
+    "https://openalex.org/W4234745530",
+    "https://openalex.org/W2146383839",
+    "https://openalex.org/W2231829109",
+    "https://openalex.org/W2916591301"
+  ],
+  "abstract_inverted_index": {
+    "This": [
+      0
+    ],
+    "modern": [
+      1
+    ],
+    "introduction": [
+      2
+    ],
+    "to": [
+      3,
+      98,
+      120,
+      143
+    ],
+    "seismic": [
+      4,
+      30
+    ],
+    "data": [
+      5,
+      18
+    ],
+    "processing": [
+      6
+    ],
+    "in": [
+      7,
+      89
+    ],
+    "both": [
+      8
+    ],
+    "exploration": [
+      9
+    ],
+    "and": [
+      10,
+      19,
+      25,
+      42,
+      71,
+      78,
+      102,
+      124,
+      130,
+      137
+    ],
+    "global": [
+      11
+    ],
+    "geophysics": [
+      12
+    ],
+    "demonstrates": [
+      13
+    ],
+    "practical": [
+      14
+    ],
+    "applications": [
+      15
+    ],
+    "through": [
+      16
+    ],
+    "real": [
+      17
+    ],
+    "tutorial": [
+      20
+    ],
+    "examples.": [
+      21
+    ],
+    "The": [
+      22
+    ],
+    "underlying": [
+      23
+    ],
+    "physics": [
+      24
+    ],
+    "mathematics": [
+      26
+    ],
+    "of": [
+      27,
+      39,
+      47,
+      63,
+      110,
+      116
+    ],
+    "the": [
+      28,
+      48,
+      61,
+      64,
+      82,
+      94,
+      107,
+      114,
+      126,
+      145
+    ],
+    "various": [
+      29
+    ],
+    "analysis": [
+      31
+    ],
+    "methods": [
+      32,
+      101
+    ],
+    "are": [
+      33,
+      131
+    ],
+    "presented,": [
+      34
+    ],
+    "giving": [
+      35
+    ],
+    "students": [
+      36,
+      80,
+      97,
+      119
+    ],
+    "an": [
+      37
+    ],
+    "appreciation": [
+      38
+    ],
+    "their": [
+      40,
+      122
+    ],
+    "limitations": [
+      41
+    ],
+    "potential": [
+      43
+    ],
+    "for": [
+      44,
+      51,
+      69,
+      86,
+      135
+    ],
+    "creating": [
+      45
+    ],
+    "models": [
+      46
+    ],
+    "sub-surface.": [
+      49
+    ],
+    "Designed": [
+      50
+    ],
+    "a": [
+      52,
+      87
+    ],
+    "one-semester": [
+      53
+    ],
+    "course,": [
+      54
+    ],
+    "this": [
+      55
+    ],
+    "textbook": [
+      56
+    ],
+    "discusses": [
+      57
+    ],
+    "key": [
+      58
+    ],
+    "techniques": [
+      59
+    ],
+    "within": [
+      60
+    ],
+    "context": [
+      62
+    ],
+    "world's": [
+      65
+    ],
+    "ever": [
+      66
+    ],
+    "increasing": [
+      67
+    ],
+    "need": [
+      68,
+      85
+    ],
+    "petroleum": [
+      70
+    ],
+    "mineral": [
+      72
+    ],
+    "resources": [
+      73
+    ],
+    "-": [
+      74
+    ],
+    "equipping": [
+      75
+    ],
+    "upper": [
+      76
+    ],
+    "undergraduate": [
+      77
+    ],
+    "graduate": [
+      79
+    ],
+    "with": [
+      81
+    ],
+    "tools": [
+      83
+    ],
+    "they": [
+      84
+    ],
+    "career": [
+      88
+    ],
+    "industry.": [
+      90
+    ],
+    "Examples": [
+      91
+    ],
+    "presented": [
+      92
+    ],
+    "throughout": [
+      93
+    ],
+    "text": [
+      95
+    ],
+    "allow": [
+      96
+    ],
+    "compare": [
+      99
+    ],
+    "different": [
+      100
+    ],
+    "can": [
+      103
+    ],
+    "be": [
+      104
+    ],
+    "demonstrated": [
+      105
+    ],
+    "using": [
+      106
+    ],
+    "instructor's": [
+      108
+    ],
+    "software": [
+      109
+    ],
+    "choice.": [
+      111
+    ],
+    "Exercises": [
+      112
+    ],
+    "at": [
+      113
+    ],
+    "end": [
+      115
+    ],
+    "sections": [
+      117
+    ],
+    "enable": [
+      118
+    ],
+    "check": [
+      121
+    ],
+    "understanding": [
+      123
+    ],
+    "put": [
+      125
+    ],
+    "theory": [
+      127
+    ],
+    "into": [
+      128
+    ],
+    "practice": [
+      129
+    ],
+    "complemented": [
+      132
+    ],
+    "by": [
+      133
+    ],
+    "solutions": [
+      134
+    ],
+    "instructors": [
+      136
+    ],
+    "additional": [
+      138
+    ],
+    "case": [
+      139
+    ],
+    "study": [
+      140
+    ],
+    "examples": [
+      141
+    ],
+    "online": [
+      142
+    ],
+    "complete": [
+      144
+    ],
+    "learning": [
+      146
+    ],
+    "package.": [
+      147
+    ]
+  },
+  "counts_by_year": [],
+  "updated_date": "2026-07-07T06:14:10.401900",
+  "created_date": "2022-01-26T00:00:00"
+}

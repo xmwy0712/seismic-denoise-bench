@@ -1,0 +1,1112 @@
+{
+  "id": "https://openalex.org/W1778793853",
+  "doi": "https://doi.org/10.1190/geo2015-0287.1",
+  "title": "Closed-loop surface-related multiple elimination and its application to simultaneous data reconstruction",
+  "display_name": "Closed-loop surface-related multiple elimination and its application to simultaneous data reconstruction",
+  "publication_year": 2015,
+  "publication_date": "2015-09-25",
+  "ids": {
+    "openalex": "https://openalex.org/W1778793853",
+    "doi": "https://doi.org/10.1190/geo2015-0287.1",
+    "mag": "1778793853"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/geo2015-0287.1",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/geo2015-0287.1",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S106174089",
+      "display_name": "Geophysics",
+      "issn_l": "0016-8033",
+      "issn": [
+        "0016-8033",
+        "1942-2156"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "http://resolver.tudelft.nl/uuid:e0f92190-97ea-48a3-80ff-073cf09b5edd",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5047576248",
+        "display_name": "Gabriel  Alejandro López",
+        "orcid": "https://orcid.org/0000-0002-5429-7490",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-5429-7490"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98358874",
+          "display_name": "Delft University of Technology",
+          "ror": "https://ror.org/02e2c7k09",
+          "country_code": "NL",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I98358874"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Gabriel A. Lopez",
+      "raw_affiliation_strings": [
+        "Delft University of Technology 1 , Lorentzweg, Delft, . E-mail: g.a.lopezangarita@tudelft.nl ; d.j.verschuur@tudelft.nl ",
+        "Delft University of Technology, Lorentzweg, Delft, Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Delft University of Technology 1 , Lorentzweg, Delft, . E-mail: g.a.lopezangarita@tudelft.nl ; d.j.verschuur@tudelft.nl ",
+          "institution_ids": [
+            "https://openalex.org/I98358874"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Delft University of Technology, Lorentzweg, Delft, Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I98358874"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5004129653",
+        "display_name": "Dirk Jacob Verschuur",
+        "orcid": "https://orcid.org/0000-0002-6397-7930",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-6397-7930"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98358874",
+          "display_name": "Delft University of Technology",
+          "ror": "https://ror.org/02e2c7k09",
+          "country_code": "NL",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I98358874"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "D. J. Verschuur",
+      "raw_affiliation_strings": [
+        "Delft University of Technology 1 , Lorentzweg, Delft, . E-mail: g.a.lopezangarita@tudelft.nl ; d.j.verschuur@tudelft.nl ",
+        "Delft University of Technology, Lorentzweg, Delft, Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Delft University of Technology 1 , Lorentzweg, Delft, . E-mail: g.a.lopezangarita@tudelft.nl ; d.j.verschuur@tudelft.nl ",
+          "institution_ids": [
+            "https://openalex.org/I98358874"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Delft University of Technology, Lorentzweg, Delft, Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I98358874"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I98358874"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 2.4142,
+  "has_fulltext": false,
+  "cited_by_count": 50,
+  "citation_normalized_percentile": {
+    "value": 0.86443558,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "80",
+    "issue": "6",
+    "first_page": "V189",
+    "last_page": "V199"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9998999834060669,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11698",
+      "display_name": "Underwater Acoustics Research",
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1910",
+        "display_name": "Oceanography"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11609",
+      "display_name": "Geophysical Methods and Applications",
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/undersampling",
+      "display_name": "Undersampling",
+      "score": 0.8838754892349243
+    },
+    {
+      "id": "https://openalex.org/keywords/multiple",
+      "display_name": "Multiple",
+      "score": 0.8079724311828613
+    },
+    {
+      "id": "https://openalex.org/keywords/interpolation",
+      "display_name": "Interpolation (computer graphics)",
+      "score": 0.6778539419174194
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.6112774610519409
+    },
+    {
+      "id": "https://openalex.org/keywords/offset",
+      "display_name": "Offset (computer science)",
+      "score": 0.5351693630218506
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.5039991736412048
+    },
+    {
+      "id": "https://openalex.org/keywords/sampling",
+      "display_name": "Sampling (signal processing)",
+      "score": 0.46933713555336
+    },
+    {
+      "id": "https://openalex.org/keywords/estimation",
+      "display_name": "Estimation",
+      "score": 0.4320388436317444
+    },
+    {
+      "id": "https://openalex.org/keywords/surface",
+      "display_name": "Surface (topology)",
+      "score": 0.42388394474983215
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.2871251702308655
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.16540896892547607
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-vision",
+      "display_name": "Computer vision",
+      "score": 0.13523060083389282
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C136536468",
+      "wikidata": "https://www.wikidata.org/wiki/Q1225894",
+      "display_name": "Undersampling",
+      "level": 2,
+      "score": 0.8838754892349243
+    },
+    {
+      "id": "https://openalex.org/C164680029",
+      "wikidata": "https://www.wikidata.org/wiki/Q1055293",
+      "display_name": "Multiple",
+      "level": 2,
+      "score": 0.8079724311828613
+    },
+    {
+      "id": "https://openalex.org/C137800194",
+      "wikidata": "https://www.wikidata.org/wiki/Q11713455",
+      "display_name": "Interpolation (computer graphics)",
+      "level": 3,
+      "score": 0.6778539419174194
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.6112774610519409
+    },
+    {
+      "id": "https://openalex.org/C175291020",
+      "wikidata": "https://www.wikidata.org/wiki/Q1156822",
+      "display_name": "Offset (computer science)",
+      "level": 2,
+      "score": 0.5351693630218506
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.5039991736412048
+    },
+    {
+      "id": "https://openalex.org/C140779682",
+      "wikidata": "https://www.wikidata.org/wiki/Q210868",
+      "display_name": "Sampling (signal processing)",
+      "level": 3,
+      "score": 0.46933713555336
+    },
+    {
+      "id": "https://openalex.org/C96250715",
+      "wikidata": "https://www.wikidata.org/wiki/Q965330",
+      "display_name": "Estimation",
+      "level": 2,
+      "score": 0.4320388436317444
+    },
+    {
+      "id": "https://openalex.org/C2776799497",
+      "wikidata": "https://www.wikidata.org/wiki/Q484298",
+      "display_name": "Surface (topology)",
+      "level": 2,
+      "score": 0.42388394474983215
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.2871251702308655
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.16540896892547607
+    },
+    {
+      "id": "https://openalex.org/C31972630",
+      "wikidata": "https://www.wikidata.org/wiki/Q844240",
+      "display_name": "Computer vision",
+      "level": 1,
+      "score": 0.13523060083389282
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C94375191",
+      "wikidata": "https://www.wikidata.org/wiki/Q11205",
+      "display_name": "Arithmetic",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C104114177",
+      "wikidata": "https://www.wikidata.org/wiki/Q79782",
+      "display_name": "Motion (physics)",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C106131492",
+      "wikidata": "https://www.wikidata.org/wiki/Q3072260",
+      "display_name": "Filter (signal processing)",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C187736073",
+      "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+      "display_name": "Management",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C162324750",
+      "wikidata": "https://www.wikidata.org/wiki/Q8134",
+      "display_name": "Economics",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 3,
+  "locations": [
+    {
+      "id": "doi:10.1190/geo2015-0287.1",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/geo2015-0287.1",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S106174089",
+        "display_name": "Geophysics",
+        "issn_l": "0016-8033",
+        "issn": [
+          "0016-8033",
+          "1942-2156"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysics",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:tudelft.nl:uuid:e0f92190-97ea-48a3-80ff-073cf09b5edd",
+      "is_oa": false,
+      "landing_page_url": "http://resolver.tudelft.nl/uuid:e0f92190-97ea-48a3-80ff-073cf09b5edd",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400906",
+        "display_name": "Research Repository (Delft University of Technology)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I98358874",
+        "host_organization_name": "Delft University of Technology",
+        "host_organization_lineage": [
+          "https://openalex.org/I98358874"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "journal article"
+    },
+    {
+      "id": "pmh:tud:oai:tudelft.nl:uuid:e0f92190-97ea-48a3-80ff-073cf09b5edd",
+      "is_oa": true,
+      "landing_page_url": "http://resolver.tudelft.nl/uuid:e0f92190-97ea-48a3-80ff-073cf09b5edd",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401843",
+        "display_name": "Data Archiving and Networked Services (DANS)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1322597698",
+        "host_organization_name": "Royal Netherlands Academy of Arts and Sciences",
+        "host_organization_lineage": [
+          "https://openalex.org/I1322597698"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Geophysics, 80 (6), 2015",
+      "raw_type": "info:eu-repo/semantics/article"
+    }
+  ],
+  "best_oa_location": {
+    "id": "pmh:tud:oai:tudelft.nl:uuid:e0f92190-97ea-48a3-80ff-073cf09b5edd",
+    "is_oa": true,
+    "landing_page_url": "http://resolver.tudelft.nl/uuid:e0f92190-97ea-48a3-80ff-073cf09b5edd",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306401843",
+      "display_name": "Data Archiving and Networked Services (DANS)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I1322597698",
+      "host_organization_name": "Royal Netherlands Academy of Arts and Sciences",
+      "host_organization_lineage": [
+        "https://openalex.org/I1322597698"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": "other-oa",
+    "license_id": "https://openalex.org/licenses/other-oa",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "Geophysics, 80 (6), 2015",
+    "raw_type": "info:eu-repo/semantics/article"
+  },
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/6",
+      "score": 0.7799999713897705,
+      "display_name": "Clean water and sanitation"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 32,
+  "referenced_works": [
+    "https://openalex.org/W1579846978",
+    "https://openalex.org/W1929736935",
+    "https://openalex.org/W1965701373",
+    "https://openalex.org/W1974291773",
+    "https://openalex.org/W1976884569",
+    "https://openalex.org/W2000088183",
+    "https://openalex.org/W2000865652",
+    "https://openalex.org/W2002777061",
+    "https://openalex.org/W2010236565",
+    "https://openalex.org/W2024012253",
+    "https://openalex.org/W2073482565",
+    "https://openalex.org/W2078781163",
+    "https://openalex.org/W2079486782",
+    "https://openalex.org/W2084672063",
+    "https://openalex.org/W2084935187",
+    "https://openalex.org/W2088135680",
+    "https://openalex.org/W2095219974",
+    "https://openalex.org/W2106983086",
+    "https://openalex.org/W2111226360",
+    "https://openalex.org/W2115528090",
+    "https://openalex.org/W2148610398",
+    "https://openalex.org/W2148628184",
+    "https://openalex.org/W2150327213",
+    "https://openalex.org/W2150581164",
+    "https://openalex.org/W2154222811",
+    "https://openalex.org/W2154902062",
+    "https://openalex.org/W2162411041",
+    "https://openalex.org/W2170856713",
+    "https://openalex.org/W2314572809",
+    "https://openalex.org/W2332370306",
+    "https://openalex.org/W2335634341",
+    "https://openalex.org/W4292207452"
+  ],
+  "related_works": [
+    "https://openalex.org/W2109073422",
+    "https://openalex.org/W2887783772",
+    "https://openalex.org/W2101754595",
+    "https://openalex.org/W2534887053",
+    "https://openalex.org/W2026172757",
+    "https://openalex.org/W4249381695",
+    "https://openalex.org/W4389292014",
+    "https://openalex.org/W2394059563",
+    "https://openalex.org/W2017942469",
+    "https://openalex.org/W2103461412"
+  ],
+  "abstract_inverted_index": {
+    "ABSTRACT": [
+      0
+    ],
+    "Surface-related": [
+      1
+    ],
+    "multiple": [
+      2,
+      23,
+      44,
+      80,
+      95
+    ],
+    "elimination": [
+      3
+    ],
+    "(SRME)": [
+      4
+    ],
+    "is": [
+      5,
+      30,
+      38,
+      64
+    ],
+    "one": [
+      6
+    ],
+    "of": [
+      7,
+      131,
+      143,
+      158,
+      165
+    ],
+    "the": [
+      8,
+      100,
+      106,
+      116,
+      129,
+      144,
+      154
+    ],
+    "most": [
+      9
+    ],
+    "commonly": [
+      10
+    ],
+    "used": [
+      11
+    ],
+    "methods": [
+      12
+    ],
+    "for": [
+      13,
+      125
+    ],
+    "suppressing": [
+      14
+    ],
+    "surface": [
+      15,
+      22
+    ],
+    "multiples.": [
+      16
+    ],
+    "However,": [
+      17
+    ],
+    "to": [
+      18,
+      35,
+      43,
+      114,
+      123
+    ],
+    "obtain": [
+      19,
+      93
+    ],
+    "an": [
+      20
+    ],
+    "accurate": [
+      21
+    ],
+    "estimation,": [
+      24
+    ],
+    "dense": [
+      25
+    ],
+    "source": [
+      26
+    ],
+    "and": [
+      27,
+      97,
+      168
+    ],
+    "receiver": [
+      28
+    ],
+    "sampling": [
+      29
+    ],
+    "required.": [
+      31
+    ],
+    "The": [
+      32
+    ],
+    "traditional": [
+      33
+    ],
+    "approach": [
+      34
+    ],
+    "this": [
+      36,
+      51,
+      137
+    ],
+    "problem": [
+      37
+    ],
+    "performing": [
+      39
+    ],
+    "data": [
+      40,
+      56,
+      69,
+      86,
+      90,
+      107,
+      162
+    ],
+    "interpolation": [
+      41
+    ],
+    "prior": [
+      42
+    ],
+    "estimation.": [
+      45
+    ],
+    "Although": [
+      46
+    ],
+    "appropriate": [
+      47
+    ],
+    "in": [
+      48,
+      70,
+      78,
+      98,
+      128,
+      146,
+      163
+    ],
+    "many": [
+      49
+    ],
+    "cases,": [
+      50
+    ],
+    "methodology": [
+      52
+    ],
+    "fails": [
+      53
+    ],
+    "when": [
+      54,
+      61
+    ],
+    "big": [
+      55
+    ],
+    "gaps": [
+      57
+    ],
+    "are": [
+      58
+    ],
+    "present": [
+      59
+    ],
+    "or": [
+      60
+    ],
+    "relevant": [
+      62
+    ],
+    "information": [
+      63
+    ],
+    "not": [
+      65
+    ],
+    "recovered,": [
+      66
+    ],
+    "e.g.,": [
+      67
+    ],
+    "near-offset": [
+      68
+    ],
+    "shallow-water": [
+      71
+    ],
+    "environments.": [
+      72
+    ],
+    "We": [
+      73,
+      135
+    ],
+    "have": [
+      74
+    ],
+    "developed": [
+      75
+    ],
+    "a": [
+      76,
+      140,
+      147
+    ],
+    "solution": [
+      77
+    ],
+    "which": [
+      79,
+      99
+    ],
+    "estimation": [
+      81,
+      127
+    ],
+    "was": [
+      82,
+      156
+    ],
+    "performed": [
+      83
+    ],
+    "simultaneously": [
+      84
+    ],
+    "with": [
+      85,
+      169
+    ],
+    "reconstruction,": [
+      87
+    ],
+    "such": [
+      88
+    ],
+    "that": [
+      89,
+      153
+    ],
+    "reconstruction": [
+      91
+    ],
+    "helped": [
+      92,
+      104
+    ],
+    "better": [
+      94
+    ],
+    "estimates": [
+      96
+    ],
+    "physical": [
+      101
+    ],
+    "primary-multiple": [
+      102
+    ],
+    "relationship": [
+      103
+    ],
+    "constrain": [
+      105
+    ],
+    "interpolation.": [
+      108
+    ],
+    "To": [
+      109
+    ],
+    "accomplish": [
+      110
+    ],
+    "this,": [
+      111
+    ],
+    "we": [
+      112
+    ],
+    "proposed": [
+      113
+    ],
+    "extend": [
+      115
+    ],
+    "recently": [
+      117
+    ],
+    "introduced": [
+      118
+    ],
+    "closed-loop": [
+      119
+    ],
+    "SRME": [
+      120
+    ],
+    "(CL-SRME)": [
+      121
+    ],
+    "algorithm": [
+      122
+    ],
+    "account": [
+      124
+    ],
+    "primary": [
+      126
+    ],
+    "case": [
+      130,
+      164
+    ],
+    "coarsely": [
+      132
+    ],
+    "sampled": [
+      133
+    ],
+    "data.": [
+      134
+    ],
+    "achieved": [
+      136
+    ],
+    "by": [
+      138
+    ],
+    "introducing": [
+      139
+    ],
+    "focal-domain": [
+      141
+    ],
+    "parameterization": [
+      142
+    ],
+    "primaries": [
+      145,
+      161
+    ],
+    "sparsity-promoting": [
+      148
+    ],
+    "CL-SRME": [
+      149
+    ],
+    "method.": [
+      150
+    ],
+    "Results": [
+      151
+    ],
+    "proved": [
+      152
+    ],
+    "method": [
+      155
+    ],
+    "capable": [
+      157
+    ],
+    "reliably": [
+      159
+    ],
+    "estimating": [
+      160
+    ],
+    "shallow": [
+      166
+    ],
+    "water": [
+      167
+    ],
+    "large": [
+      170
+    ],
+    "undersampling": [
+      171
+    ],
+    "factors.": [
+      172
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 7
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

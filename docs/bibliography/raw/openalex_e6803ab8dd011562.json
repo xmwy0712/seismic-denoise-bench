@@ -1,0 +1,1329 @@
+{
+  "id": "https://openalex.org/W2280613569",
+  "doi": "https://doi.org/10.1190/geo2015-0341.1",
+  "title": "Sparse time-frequency representation for seismic noise reduction using low-rank and sparse decomposition",
+  "display_name": "Sparse time-frequency representation for seismic noise reduction using low-rank and sparse decomposition",
+  "publication_year": 2016,
+  "publication_date": "2016-02-18",
+  "ids": {
+    "openalex": "https://openalex.org/W2280613569",
+    "doi": "https://doi.org/10.1190/geo2015-0341.1",
+    "mag": "2280613569"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/geo2015-0341.1",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/geo2015-0341.1",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S106174089",
+      "display_name": "Geophysics",
+      "issn_l": "0016-8033",
+      "issn": [
+        "0016-8033",
+        "1942-2156"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5032240756",
+        "display_name": "Mohammad Amir Nazari Siahsar",
+        "orcid": "https://orcid.org/0000-0003-0191-3197",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-0191-3197"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I176861719",
+          "display_name": "University of Shahrood",
+          "ror": "https://ror.org/00yqvtm78",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I176861719"
+          ]
+        }
+      ],
+      "countries": [
+        "IR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mohammad Amir Nazari Siahsar",
+      "raw_affiliation_strings": [
+        "Shahrood University of Technology 1 , School of Electrical and Robotic Engineering, Shahrood, . E-mail: a.nazari.s@gmail.com ; h.marvi@shahroodut.ac.ir ; ahmadyfard@shahroodut.ac.ir ",
+        "Shahrood University of Technology, School of Electrical and Robotic Engineering, Shahrood, Iran"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Shahrood University of Technology 1 , School of Electrical and Robotic Engineering, Shahrood, . E-mail: a.nazari.s@gmail.com ; h.marvi@shahroodut.ac.ir ; ahmadyfard@shahroodut.ac.ir ",
+          "institution_ids": [
+            "https://openalex.org/I176861719"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Shahrood University of Technology, School of Electrical and Robotic Engineering, Shahrood, Iran",
+          "institution_ids": [
+            "https://openalex.org/I176861719"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5058743259",
+        "display_name": "Saman Gholtashi",
+        "orcid": "https://orcid.org/0000-0003-2692-9304",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-2692-9304"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I176861719",
+          "display_name": "University of Shahrood",
+          "ror": "https://ror.org/00yqvtm78",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I176861719"
+          ]
+        }
+      ],
+      "countries": [
+        "IR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Saman Gholtashi",
+      "raw_affiliation_strings": [
+        "Shahrood University of Technology 2 , School of Mining, Petroleum and Geophysics Engineering, Shahrood, . E-mail: saman.gh.88@gmail.com ; roshandel@shahroodut.ac.ir ",
+        "Shahrood University of Technology, School of Mining, Petroleum and Geophysics Engineering, Shahrood, Iran"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Shahrood University of Technology 2 , School of Mining, Petroleum and Geophysics Engineering, Shahrood, . E-mail: saman.gh.88@gmail.com ; roshandel@shahroodut.ac.ir ",
+          "institution_ids": [
+            "https://openalex.org/I176861719"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Shahrood University of Technology, School of Mining, Petroleum and Geophysics Engineering, Shahrood, Iran",
+          "institution_ids": [
+            "https://openalex.org/I176861719"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5052199848",
+        "display_name": "Amin Roshandel Kahoo",
+        "orcid": "https://orcid.org/0000-0002-2214-2558",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-2214-2558"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I176861719",
+          "display_name": "University of Shahrood",
+          "ror": "https://ror.org/00yqvtm78",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I176861719"
+          ]
+        }
+      ],
+      "countries": [
+        "IR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Amin Roshandel Kahoo",
+      "raw_affiliation_strings": [
+        "Shahrood University of Technology 2 , School of Mining, Petroleum and Geophysics Engineering, Shahrood, . E-mail: saman.gh.88@gmail.com ; roshandel@shahroodut.ac.ir ",
+        "Shahrood University of Technology, School of Mining, Petroleum and Geophysics Engineering, Shahrood, Iran"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Shahrood University of Technology 2 , School of Mining, Petroleum and Geophysics Engineering, Shahrood, . E-mail: saman.gh.88@gmail.com ; roshandel@shahroodut.ac.ir ",
+          "institution_ids": [
+            "https://openalex.org/I176861719"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Shahrood University of Technology, School of Mining, Petroleum and Geophysics Engineering, Shahrood, Iran",
+          "institution_ids": [
+            "https://openalex.org/I176861719"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5112004020",
+        "display_name": "Hosein Marvi",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I176861719",
+          "display_name": "University of Shahrood",
+          "ror": "https://ror.org/00yqvtm78",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I176861719"
+          ]
+        }
+      ],
+      "countries": [
+        "IR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hosein Marvi",
+      "raw_affiliation_strings": [
+        "Shahrood University of Technology 1 , School of Electrical and Robotic Engineering, Shahrood, . E-mail: a.nazari.s@gmail.com ; h.marvi@shahroodut.ac.ir ; ahmadyfard@shahroodut.ac.ir ",
+        "Shahrood University of Technology, School of Electrical and Robotic Engineering, Shahrood, Iran"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Shahrood University of Technology 1 , School of Electrical and Robotic Engineering, Shahrood, . E-mail: a.nazari.s@gmail.com ; h.marvi@shahroodut.ac.ir ; ahmadyfard@shahroodut.ac.ir ",
+          "institution_ids": [
+            "https://openalex.org/I176861719"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Shahrood University of Technology, School of Electrical and Robotic Engineering, Shahrood, Iran",
+          "institution_ids": [
+            "https://openalex.org/I176861719"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5033285582",
+        "display_name": "Alireza Ahmadifard",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I176861719",
+          "display_name": "University of Shahrood",
+          "ror": "https://ror.org/00yqvtm78",
+          "country_code": "IR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I176861719"
+          ]
+        }
+      ],
+      "countries": [
+        "IR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Alireza Ahmadifard",
+      "raw_affiliation_strings": [
+        "Shahrood University of Technology 1 , School of Electrical and Robotic Engineering, Shahrood, . E-mail: a.nazari.s@gmail.com ; h.marvi@shahroodut.ac.ir ; ahmadyfard@shahroodut.ac.ir ",
+        "Shahrood University of Technology, School of Electrical and Robotic Engineering, Shahrood, Iran"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Shahrood University of Technology 1 , School of Electrical and Robotic Engineering, Shahrood, . E-mail: a.nazari.s@gmail.com ; h.marvi@shahroodut.ac.ir ; ahmadyfard@shahroodut.ac.ir ",
+          "institution_ids": [
+            "https://openalex.org/I176861719"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Shahrood University of Technology, School of Electrical and Robotic Engineering, Shahrood, Iran",
+          "institution_ids": [
+            "https://openalex.org/I176861719"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I176861719"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 6.0444,
+  "has_fulltext": false,
+  "cited_by_count": 75,
+  "citation_normalized_percentile": {
+    "value": 0.96431514,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "81",
+    "issue": "2",
+    "first_page": "V117",
+    "last_page": "V124"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9994000196456909,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11447",
+      "display_name": "Blind Source Separation Techniques",
+      "score": 0.9984999895095825,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1711",
+        "display_name": "Signal Processing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10688",
+      "display_name": "Image and Signal Denoising Methods",
+      "score": 0.9980999827384949,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/sparse-approximation",
+      "display_name": "Sparse approximation",
+      "score": 0.6640921831130981
+    },
+    {
+      "id": "https://openalex.org/keywords/noise",
+      "display_name": "Noise (video)",
+      "score": 0.584197998046875
+    },
+    {
+      "id": "https://openalex.org/keywords/rank",
+      "display_name": "Rank (graph theory)",
+      "score": 0.5557420253753662
+    },
+    {
+      "id": "https://openalex.org/keywords/noise-reduction",
+      "display_name": "Noise reduction",
+      "score": 0.5303630828857422
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.5231172442436218
+    },
+    {
+      "id": "https://openalex.org/keywords/deconvolution",
+      "display_name": "Deconvolution",
+      "score": 0.5223116278648376
+    },
+    {
+      "id": "https://openalex.org/keywords/synthetic-data",
+      "display_name": "Synthetic data",
+      "score": 0.5214444994926453
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.43423542380332947
+    },
+    {
+      "id": "https://openalex.org/keywords/low-rank-approximation",
+      "display_name": "Low-rank approximation",
+      "score": 0.42627519369125366
+    },
+    {
+      "id": "https://openalex.org/keywords/projection",
+      "display_name": "Projection (relational algebra)",
+      "score": 0.4171029031276703
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.4131067097187042
+    },
+    {
+      "id": "https://openalex.org/keywords/pattern-recognition",
+      "display_name": "Pattern recognition (psychology)",
+      "score": 0.3449947237968445
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.20535781979560852
+    },
+    {
+      "id": "https://openalex.org/keywords/image",
+      "display_name": "Image (mathematics)",
+      "score": 0.10887551307678223
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematical-analysis",
+      "display_name": "Mathematical analysis",
+      "score": 0.09849590063095093
+    },
+    {
+      "id": "https://openalex.org/keywords/combinatorics",
+      "display_name": "Combinatorics",
+      "score": 0.09060853719711304
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C124066611",
+      "wikidata": "https://www.wikidata.org/wiki/Q28684319",
+      "display_name": "Sparse approximation",
+      "level": 2,
+      "score": 0.6640921831130981
+    },
+    {
+      "id": "https://openalex.org/C99498987",
+      "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+      "display_name": "Noise (video)",
+      "level": 3,
+      "score": 0.584197998046875
+    },
+    {
+      "id": "https://openalex.org/C164226766",
+      "wikidata": "https://www.wikidata.org/wiki/Q7293202",
+      "display_name": "Rank (graph theory)",
+      "level": 2,
+      "score": 0.5557420253753662
+    },
+    {
+      "id": "https://openalex.org/C163294075",
+      "wikidata": "https://www.wikidata.org/wiki/Q581861",
+      "display_name": "Noise reduction",
+      "level": 2,
+      "score": 0.5303630828857422
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.5231172442436218
+    },
+    {
+      "id": "https://openalex.org/C174576160",
+      "wikidata": "https://www.wikidata.org/wiki/Q1183700",
+      "display_name": "Deconvolution",
+      "level": 2,
+      "score": 0.5223116278648376
+    },
+    {
+      "id": "https://openalex.org/C160920958",
+      "wikidata": "https://www.wikidata.org/wiki/Q7662746",
+      "display_name": "Synthetic data",
+      "level": 2,
+      "score": 0.5214444994926453
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.43423542380332947
+    },
+    {
+      "id": "https://openalex.org/C90199385",
+      "wikidata": "https://www.wikidata.org/wiki/Q6692777",
+      "display_name": "Low-rank approximation",
+      "level": 3,
+      "score": 0.42627519369125366
+    },
+    {
+      "id": "https://openalex.org/C57493831",
+      "wikidata": "https://www.wikidata.org/wiki/Q3134666",
+      "display_name": "Projection (relational algebra)",
+      "level": 2,
+      "score": 0.4171029031276703
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.4131067097187042
+    },
+    {
+      "id": "https://openalex.org/C153180895",
+      "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+      "display_name": "Pattern recognition (psychology)",
+      "level": 2,
+      "score": 0.3449947237968445
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.20535781979560852
+    },
+    {
+      "id": "https://openalex.org/C115961682",
+      "wikidata": "https://www.wikidata.org/wiki/Q860623",
+      "display_name": "Image (mathematics)",
+      "level": 2,
+      "score": 0.10887551307678223
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.09849590063095093
+    },
+    {
+      "id": "https://openalex.org/C114614502",
+      "wikidata": "https://www.wikidata.org/wiki/Q76592",
+      "display_name": "Combinatorics",
+      "level": 1,
+      "score": 0.09060853719711304
+    },
+    {
+      "id": "https://openalex.org/C25023664",
+      "wikidata": "https://www.wikidata.org/wiki/Q1575637",
+      "display_name": "Hankel matrix",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/geo2015-0341.1",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/geo2015-0341.1",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S106174089",
+        "display_name": "Geophysics",
+        "issn_l": "0016-8033",
+        "issn": [
+          "0016-8033",
+          "1942-2156"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysics",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 40,
+  "referenced_works": [
+    "https://openalex.org/W98279822",
+    "https://openalex.org/W228380312",
+    "https://openalex.org/W1480403266",
+    "https://openalex.org/W1507181737",
+    "https://openalex.org/W1861537833",
+    "https://openalex.org/W1984918318",
+    "https://openalex.org/W1996098514",
+    "https://openalex.org/W2005553562",
+    "https://openalex.org/W2016572604",
+    "https://openalex.org/W2017304912",
+    "https://openalex.org/W2026574307",
+    "https://openalex.org/W2030973079",
+    "https://openalex.org/W2033079433",
+    "https://openalex.org/W2047071281",
+    "https://openalex.org/W2056578310",
+    "https://openalex.org/W2076393573",
+    "https://openalex.org/W2081986197",
+    "https://openalex.org/W2083138589",
+    "https://openalex.org/W2090218979",
+    "https://openalex.org/W2093762864",
+    "https://openalex.org/W2098352720",
+    "https://openalex.org/W2109378630",
+    "https://openalex.org/W2117377454",
+    "https://openalex.org/W2117481741",
+    "https://openalex.org/W2117756735",
+    "https://openalex.org/W2132978155",
+    "https://openalex.org/W2141953966",
+    "https://openalex.org/W2142077116",
+    "https://openalex.org/W2146058742",
+    "https://openalex.org/W2152792250",
+    "https://openalex.org/W2314130308",
+    "https://openalex.org/W2328740995",
+    "https://openalex.org/W2496323672",
+    "https://openalex.org/W3048046748",
+    "https://openalex.org/W3099514962",
+    "https://openalex.org/W3100639561",
+    "https://openalex.org/W4205544722",
+    "https://openalex.org/W4229530126",
+    "https://openalex.org/W4251887525",
+    "https://openalex.org/W4252593548"
+  ],
+  "related_works": [
+    "https://openalex.org/W4251527294",
+    "https://openalex.org/W3090782779",
+    "https://openalex.org/W4296701479",
+    "https://openalex.org/W4231036715",
+    "https://openalex.org/W3149087629",
+    "https://openalex.org/W2032074591",
+    "https://openalex.org/W2369564042",
+    "https://openalex.org/W2126683262",
+    "https://openalex.org/W4224936630",
+    "https://openalex.org/W4225274307"
+  ],
+  "abstract_inverted_index": {
+    "ABSTRACT": [
+      0
+    ],
+    "Attenuation": [
+      1
+    ],
+    "of": [
+      2,
+      15,
+      115,
+      143,
+      150,
+      185,
+      240
+    ],
+    "random": [
+      3,
+      21,
+      44,
+      95,
+      151,
+      177
+    ],
+    "noise": [
+      4,
+      16,
+      45,
+      152,
+      213
+    ],
+    "is": [
+      5,
+      17,
+      51,
+      79,
+      250
+    ],
+    "a": [
+      6,
+      36,
+      52,
+      64,
+      85,
+      90,
+      228
+    ],
+    "major": [
+      7
+    ],
+    "concern": [
+      8
+    ],
+    "in": [
+      9,
+      23,
+      104,
+      153,
+      237
+    ],
+    "seismic": [
+      10,
+      24,
+      43,
+      61,
+      98,
+      127,
+      145,
+      274
+    ],
+    "data": [
+      11,
+      25,
+      99,
+      146,
+      173,
+      231
+    ],
+    "processing.": [
+      12
+    ],
+    "This": [
+      13
+    ],
+    "kind": [
+      14
+    ],
+    "usually": [
+      18
+    ],
+    "characterized": [
+      19
+    ],
+    "by": [
+      20,
+      54,
+      58,
+      129,
+      137,
+      176,
+      183
+    ],
+    "oscillation": [
+      22
+    ],
+    "over": [
+      26,
+      265
+    ],
+    "the": [
+      27,
+      60,
+      69,
+      73,
+      105,
+      125,
+      131,
+      139,
+      144,
+      154,
+      169,
+      172,
+      186,
+      203,
+      212,
+      217,
+      224,
+      238,
+      247
+    ],
+    "entire": [
+      28
+    ],
+    "time": [
+      29
+    ],
+    "and": [
+      30,
+      34,
+      38,
+      88,
+      147,
+      165,
+      193,
+      202,
+      214,
+      244,
+      258
+    ],
+    "frequency.": [
+      31
+    ],
+    "We": [
+      32,
+      220
+    ],
+    "introduced": [
+      33
+    ],
+    "evaluated": [
+      35
+    ],
+    "low-rank": [
+      37,
+      86,
+      103,
+      119
+    ],
+    "sparse": [
+      39,
+      66,
+      74,
+      91,
+      106,
+      155
+    ],
+    "decomposition-based": [
+      40
+    ],
+    "method": [
+      41,
+      160,
+      196,
+      207,
+      226,
+      249
+    ],
+    "for": [
+      42,
+      197,
+      272
+    ],
+    "attenuation.": [
+      46
+    ],
+    "The": [
+      47,
+      158,
+      199
+    ],
+    "proposed": [
+      48,
+      159,
+      225,
+      248
+    ],
+    "method,": [
+      49
+    ],
+    "which": [
+      50
+    ],
+    "trace": [
+      53,
+      55
+    ],
+    "algorithm,": [
+      56
+    ],
+    "starts": [
+      57
+    ],
+    "transforming": [
+      59
+    ],
+    "signal": [
+      62,
+      128
+    ],
+    "into": [
+      63,
+      81
+    ],
+    "new": [
+      65
+    ],
+    "subspace": [
+      67
+    ],
+    "using": [
+      68,
+      93
+    ],
+    "synchrosqueezing": [
+      70
+    ],
+    "transform.": [
+      71
+    ],
+    "Then,": [
+      72
+    ],
+    "time-frequency": [
+      75
+    ],
+    "representation": [
+      76
+    ],
+    "(TFR)": [
+      77
+    ],
+    "matrix": [
+      78
+    ],
+    "decomposed": [
+      80
+    ],
+    "two": [
+      82
+    ],
+    "parts:": [
+      83
+    ],
+    "(a)": [
+      84
+    ],
+    "component": [
+      87,
+      92
+    ],
+    "(b)": [
+      89
+    ],
+    "bilateral": [
+      94
+    ],
+    "projection.": [
+      96
+    ],
+    "Although": [
+      97
+    ],
+    "are": [
+      100
+    ],
+    "not": [
+      101
+    ],
+    "exactly": [
+      102
+    ],
+    "TFR": [
+      107,
+      156
+    ],
+    "domain,": [
+      108
+    ],
+    "they": [
+      109
+    ],
+    "can": [
+      110,
+      123
+    ],
+    "be": [
+      111,
+      253
+    ],
+    "assumed": [
+      112
+    ],
+    "as": [
+      113,
+      269
+    ],
+    "being": [
+      114
+    ],
+    "semi-low-rank": [
+      116
+    ],
+    "or": [
+      117
+    ],
+    "approximately": [
+      118
+    ],
+    "type.": [
+      120
+    ],
+    "Hence,": [
+      121
+    ],
+    "we": [
+      122
+    ],
+    "recover": [
+      124,
+      216
+    ],
+    "denoised": [
+      126
+    ],
+    "minimizing": [
+      130
+    ],
+    "mixed": [
+      132
+    ],
+    "ℓ1-ℓ2": [
+      133
+    ],
+    "norms’": [
+      134
+    ],
+    "objective": [
+      135
+    ],
+    "function": [
+      136
+    ],
+    "considering": [
+      138
+    ],
+    "intrinsically": [
+      140
+    ],
+    "semilow-rank": [
+      141
+    ],
+    "property": [
+      142
+    ],
+    "sparsity": [
+      148
+    ],
+    "feature": [
+      149
+    ],
+    "domain.": [
+      157
+    ],
+    "was": [
+      161,
+      180
+    ],
+    "tested": [
+      162,
+      223
+    ],
+    "on": [
+      163,
+      227
+    ],
+    "synthetic": [
+      164,
+      170,
+      243
+    ],
+    "real": [
+      166,
+      230,
+      245
+    ],
+    "data.": [
+      167,
+      275
+    ],
+    "In": [
+      168
+    ],
+    "case,": [
+      171
+    ],
+    "were": [
+      174
+    ],
+    "contaminated": [
+      175
+    ],
+    "noise.": [
+      178
+    ],
+    "Denoising": [
+      179
+    ],
+    "carried": [
+      181
+    ],
+    "out": [
+      182
+    ],
+    "means": [
+      184
+    ],
+    "f-x": [
+      187,
+      194,
+      200,
+      205,
+      267
+    ],
+    "classical": [
+      188,
+      204,
+      266
+    ],
+    "singular": [
+      189
+    ],
+    "spectrum": [
+      190
+    ],
+    "analysis": [
+      191
+    ],
+    "(SSA)": [
+      192
+    ],
+    "deconvolution": [
+      195,
+      201
+    ],
+    "comparison.": [
+      198
+    ],
+    "SSA": [
+      206,
+      268
+    ],
+    "failed": [
+      208
+    ],
+    "to": [
+      209,
+      215,
+      252
+    ],
+    "properly": [
+      210
+    ],
+    "reduce": [
+      211
+    ],
+    "desired": [
+      218
+    ],
+    "signal.": [
+      219
+    ],
+    "have": [
+      221
+    ],
+    "also": [
+      222
+    ],
+    "prestack": [
+      229
+    ],
+    "set": [
+      232
+    ],
+    "from": [
+      233
+    ],
+    "an": [
+      234,
+      254
+    ],
+    "oil": [
+      235
+    ],
+    "field": [
+      236
+    ],
+    "southwest": [
+      239
+    ],
+    "Iran.": [
+      241
+    ],
+    "Through": [
+      242
+    ],
+    "tests,": [
+      246
+    ],
+    "determined": [
+      251
+    ],
+    "effective,": [
+      255
+    ],
+    "amplitude": [
+      256
+    ],
+    "preserving,": [
+      257
+    ],
+    "robust": [
+      259
+    ],
+    "tool": [
+      260
+    ],
+    "that": [
+      261
+    ],
+    "gives": [
+      262
+    ],
+    "superior": [
+      263
+    ],
+    "results": [
+      264
+    ],
+    "conventional": [
+      270
+    ],
+    "algorithm": [
+      271
+    ],
+    "denoising": [
+      273
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 7
+    }
+  ],
+  "updated_date": "2026-09-24T07:57:37.273135",
+  "created_date": "2025-10-10T00:00:00"
+}

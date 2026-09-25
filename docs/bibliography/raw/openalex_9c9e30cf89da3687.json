@@ -1,0 +1,1552 @@
+{
+  "id": "https://openalex.org/W2100245965",
+  "doi": "https://doi.org/10.1190/1.3238367",
+  "title": "An overview of full-waveform inversion in exploration geophysics",
+  "display_name": "An overview of full-waveform inversion in exploration geophysics",
+  "publication_year": 2009,
+  "publication_date": "2009-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2100245965",
+    "doi": "https://doi.org/10.1190/1.3238367",
+    "mag": "2100245965"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.3238367",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.3238367",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S106174089",
+      "display_name": "Geophysics",
+      "issn_l": "0016-8033",
+      "issn": [
+        "0016-8033",
+        "1942-2156"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5007618172",
+        "display_name": "J. Virieux",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1294671590",
+          "display_name": "Centre National de la Recherche Scientifique",
+          "ror": "https://ror.org/02feahw73",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1294671590"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I177483745",
+          "display_name": "Université Joseph Fourier",
+          "ror": "https://ror.org/02aj0kh94",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I177483745",
+            "https://openalex.org/I899635006"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210126779",
+          "display_name": "Observatoire de la Côte d’Azur",
+          "ror": "https://ror.org/039fj2469",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I201841394",
+            "https://openalex.org/I4210126779"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210162320",
+          "display_name": "Géoazur",
+          "ror": "https://ror.org/05xtktk35",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I201841394",
+            "https://openalex.org/I2802818602",
+            "https://openalex.org/I39804081",
+            "https://openalex.org/I4210090127",
+            "https://openalex.org/I4210126779",
+            "https://openalex.org/I4210131494",
+            "https://openalex.org/I4210148025",
+            "https://openalex.org/I4210162320",
+            "https://openalex.org/I4210166444"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210166444",
+          "display_name": "Institut de Recherche pour le Développement",
+          "ror": "https://ror.org/05q3vnk25",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2802818602",
+            "https://openalex.org/I4210090127",
+            "https://openalex.org/I4210131494",
+            "https://openalex.org/I4210166444"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J. Virieux",
+      "raw_affiliation_strings": [
+        "1Université Joseph Fourier, Laboratoire de Géophysique Interne et Tectonophysique, CNRS, IRD, Grenoble, France. E-mail: Jean.Virieux@obs.ujf-grenoble.fr",
+        "Université Joseph Fourier, Laboratoire de Géophysique Interne et Tectonophysique, CNRS, IRD, Grenoble, France. ",
+        "Université Nice-Sophia Antipolis, Géoazur, CNRS, IRD, Observatoire de la Côte d’Azur, Villefranche-sur-mer, France. "
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1Université Joseph Fourier, Laboratoire de Géophysique Interne et Tectonophysique, CNRS, IRD, Grenoble, France. E-mail: Jean.Virieux@obs.ujf-grenoble.fr",
+          "institution_ids": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I177483745",
+            "https://openalex.org/I4210166444"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Université Joseph Fourier, Laboratoire de Géophysique Interne et Tectonophysique, CNRS, IRD, Grenoble, France. ",
+          "institution_ids": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I177483745",
+            "https://openalex.org/I4210166444"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Université Nice-Sophia Antipolis, Géoazur, CNRS, IRD, Observatoire de la Côte d’Azur, Villefranche-sur-mer, France. ",
+          "institution_ids": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I4210126779",
+            "https://openalex.org/I4210162320",
+            "https://openalex.org/I4210166444"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5109117352",
+        "display_name": "Stéphane Operto",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1294671590",
+          "display_name": "Centre National de la Recherche Scientifique",
+          "ror": "https://ror.org/02feahw73",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1294671590"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I177483745",
+          "display_name": "Université Joseph Fourier",
+          "ror": "https://ror.org/02aj0kh94",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I177483745",
+            "https://openalex.org/I899635006"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210126779",
+          "display_name": "Observatoire de la Côte d’Azur",
+          "ror": "https://ror.org/039fj2469",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I201841394",
+            "https://openalex.org/I4210126779"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210162320",
+          "display_name": "Géoazur",
+          "ror": "https://ror.org/05xtktk35",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I201841394",
+            "https://openalex.org/I2802818602",
+            "https://openalex.org/I39804081",
+            "https://openalex.org/I4210090127",
+            "https://openalex.org/I4210126779",
+            "https://openalex.org/I4210131494",
+            "https://openalex.org/I4210148025",
+            "https://openalex.org/I4210162320",
+            "https://openalex.org/I4210166444"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210166444",
+          "display_name": "Institut de Recherche pour le Développement",
+          "ror": "https://ror.org/05q3vnk25",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2802818602",
+            "https://openalex.org/I4210090127",
+            "https://openalex.org/I4210131494",
+            "https://openalex.org/I4210166444"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. Operto",
+      "raw_affiliation_strings": [
+        "2Université Nice-Sophia Antipolis, Géoazur, CNRS, IRD, Observatoire de la Côte d’Azur, Villefranche-sur-mer, France. E-mail: operto@geoazur.obs-vlfr.fr",
+        "Université Joseph Fourier, Laboratoire de Géophysique Interne et Tectonophysique, CNRS, IRD, Grenoble, France. ",
+        "Université Nice-Sophia Antipolis, Géoazur, CNRS, IRD, Observatoire de la Côte d’Azur, Villefranche-sur-mer, France. "
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "2Université Nice-Sophia Antipolis, Géoazur, CNRS, IRD, Observatoire de la Côte d’Azur, Villefranche-sur-mer, France. E-mail: operto@geoazur.obs-vlfr.fr",
+          "institution_ids": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I4210126779",
+            "https://openalex.org/I4210162320",
+            "https://openalex.org/I4210166444"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Université Joseph Fourier, Laboratoire de Géophysique Interne et Tectonophysique, CNRS, IRD, Grenoble, France. ",
+          "institution_ids": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I177483745",
+            "https://openalex.org/I4210166444"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Université Nice-Sophia Antipolis, Géoazur, CNRS, IRD, Observatoire de la Côte d’Azur, Villefranche-sur-mer, France. ",
+          "institution_ids": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I4210126779",
+            "https://openalex.org/I4210162320",
+            "https://openalex.org/I4210166444"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 5,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 48.9967,
+  "has_fulltext": false,
+  "cited_by_count": 3768,
+  "citation_normalized_percentile": {
+    "value": 1.0,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "74",
+    "issue": "6",
+    "first_page": "WCC1",
+    "last_page": "WCC26"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11609",
+      "display_name": "Geophysical Methods and Applications",
+      "score": 0.9993000030517578,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.6417971253395081
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.5904872417449951
+    },
+    {
+      "id": "https://openalex.org/keywords/maxima-and-minima",
+      "display_name": "Maxima and minima",
+      "score": 0.5533977746963501
+    },
+    {
+      "id": "https://openalex.org/keywords/inversion",
+      "display_name": "Inversion (geology)",
+      "score": 0.5477437973022461
+    },
+    {
+      "id": "https://openalex.org/keywords/hessian-matrix",
+      "display_name": "Hessian matrix",
+      "score": 0.5218026638031006
+    },
+    {
+      "id": "https://openalex.org/keywords/inverse-problem",
+      "display_name": "Inverse problem",
+      "score": 0.4280529022216797
+    },
+    {
+      "id": "https://openalex.org/keywords/spurious-relationship",
+      "display_name": "Spurious relationship",
+      "score": 0.4132440686225891
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematical-optimization",
+      "display_name": "Mathematical optimization",
+      "score": 0.32661008834838867
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.2905403673648834
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.2011321485042572
+    },
+    {
+      "id": "https://openalex.org/keywords/applied-mathematics",
+      "display_name": "Applied mathematics",
+      "score": 0.18995401263237
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.16185006499290466
+    },
+    {
+      "id": "https://openalex.org/keywords/machine-learning",
+      "display_name": "Machine learning",
+      "score": 0.13996264338493347
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.6417971253395081
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.5904872417449951
+    },
+    {
+      "id": "https://openalex.org/C186633575",
+      "wikidata": "https://www.wikidata.org/wiki/Q845060",
+      "display_name": "Maxima and minima",
+      "level": 2,
+      "score": 0.5533977746963501
+    },
+    {
+      "id": "https://openalex.org/C1893757",
+      "wikidata": "https://www.wikidata.org/wiki/Q3653001",
+      "display_name": "Inversion (geology)",
+      "level": 3,
+      "score": 0.5477437973022461
+    },
+    {
+      "id": "https://openalex.org/C203616005",
+      "wikidata": "https://www.wikidata.org/wiki/Q620495",
+      "display_name": "Hessian matrix",
+      "level": 2,
+      "score": 0.5218026638031006
+    },
+    {
+      "id": "https://openalex.org/C135252773",
+      "wikidata": "https://www.wikidata.org/wiki/Q1567213",
+      "display_name": "Inverse problem",
+      "level": 2,
+      "score": 0.4280529022216797
+    },
+    {
+      "id": "https://openalex.org/C97256817",
+      "wikidata": "https://www.wikidata.org/wiki/Q1462316",
+      "display_name": "Spurious relationship",
+      "level": 2,
+      "score": 0.4132440686225891
+    },
+    {
+      "id": "https://openalex.org/C126255220",
+      "wikidata": "https://www.wikidata.org/wiki/Q141495",
+      "display_name": "Mathematical optimization",
+      "level": 1,
+      "score": 0.32661008834838867
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.2905403673648834
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.2011321485042572
+    },
+    {
+      "id": "https://openalex.org/C28826006",
+      "wikidata": "https://www.wikidata.org/wiki/Q33521",
+      "display_name": "Applied mathematics",
+      "level": 1,
+      "score": 0.18995401263237
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.16185006499290466
+    },
+    {
+      "id": "https://openalex.org/C119857082",
+      "wikidata": "https://www.wikidata.org/wiki/Q2539",
+      "display_name": "Machine learning",
+      "level": 1,
+      "score": 0.13996264338493347
+    },
+    {
+      "id": "https://openalex.org/C77928131",
+      "wikidata": "https://www.wikidata.org/wiki/Q193343",
+      "display_name": "Tectonics",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.3238367",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.3238367",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S106174089",
+        "display_name": "Geophysics",
+        "issn_l": "0016-8033",
+        "issn": [
+          "0016-8033",
+          "1942-2156"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysics",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:HAL:hal-00457989v1",
+      "is_oa": false,
+      "landing_page_url": "https://hal.science/hal-00457989",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Geophysics, 2009, 74 (6), pp.WCC1 (online). &#x27E8;10.1190/1.3238367&#x27E9;",
+      "raw_type": "info:eu-repo/semantics/article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "score": 0.699999988079071,
+      "id": "https://metadata.un.org/sdg/10",
+      "display_name": "Reduced inequalities"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 252,
+  "referenced_works": [
+    "https://openalex.org/W48376652",
+    "https://openalex.org/W64999349",
+    "https://openalex.org/W148952071",
+    "https://openalex.org/W150175414",
+    "https://openalex.org/W627907298",
+    "https://openalex.org/W1506342804",
+    "https://openalex.org/W1538120041",
+    "https://openalex.org/W1563926419",
+    "https://openalex.org/W1577578516",
+    "https://openalex.org/W1579868249",
+    "https://openalex.org/W1594234351",
+    "https://openalex.org/W1597209545",
+    "https://openalex.org/W1653357460",
+    "https://openalex.org/W1860468083",
+    "https://openalex.org/W1964273686",
+    "https://openalex.org/W1964306130",
+    "https://openalex.org/W1965016550",
+    "https://openalex.org/W1965064536",
+    "https://openalex.org/W1965233944",
+    "https://openalex.org/W1966416639",
+    "https://openalex.org/W1966470742",
+    "https://openalex.org/W1968024635",
+    "https://openalex.org/W1970310486",
+    "https://openalex.org/W1971064830",
+    "https://openalex.org/W1971959695",
+    "https://openalex.org/W1972461438",
+    "https://openalex.org/W1973440960",
+    "https://openalex.org/W1976049326",
+    "https://openalex.org/W1977341879",
+    "https://openalex.org/W1978664765",
+    "https://openalex.org/W1980688227",
+    "https://openalex.org/W1983528123",
+    "https://openalex.org/W1985883290",
+    "https://openalex.org/W1986356314",
+    "https://openalex.org/W1993424072",
+    "https://openalex.org/W1993857388",
+    "https://openalex.org/W1993908219",
+    "https://openalex.org/W1994650475",
+    "https://openalex.org/W1997419185",
+    "https://openalex.org/W1997445966",
+    "https://openalex.org/W1997678737",
+    "https://openalex.org/W1999498264",
+    "https://openalex.org/W1999707828",
+    "https://openalex.org/W2000073793",
+    "https://openalex.org/W2006334200",
+    "https://openalex.org/W2007930380",
+    "https://openalex.org/W2009552164",
+    "https://openalex.org/W2012475332",
+    "https://openalex.org/W2015924158",
+    "https://openalex.org/W2017676726",
+    "https://openalex.org/W2019459625",
+    "https://openalex.org/W2021304998",
+    "https://openalex.org/W2021910853",
+    "https://openalex.org/W2022423704",
+    "https://openalex.org/W2024443647",
+    "https://openalex.org/W2025394621",
+    "https://openalex.org/W2026503114",
+    "https://openalex.org/W2027135883",
+    "https://openalex.org/W2028189898",
+    "https://openalex.org/W2031293460",
+    "https://openalex.org/W2032117385",
+    "https://openalex.org/W2034142056",
+    "https://openalex.org/W2035692322",
+    "https://openalex.org/W2036036302",
+    "https://openalex.org/W2036132593",
+    "https://openalex.org/W2036468931",
+    "https://openalex.org/W2043936327",
+    "https://openalex.org/W2044120608",
+    "https://openalex.org/W2046111977",
+    "https://openalex.org/W2049551323",
+    "https://openalex.org/W2051067641",
+    "https://openalex.org/W2051669046",
+    "https://openalex.org/W2054200895",
+    "https://openalex.org/W2054840538",
+    "https://openalex.org/W2055621785",
+    "https://openalex.org/W2056344023",
+    "https://openalex.org/W2057397109",
+    "https://openalex.org/W2058785693",
+    "https://openalex.org/W2059621246",
+    "https://openalex.org/W2060690636",
+    "https://openalex.org/W2062173229",
+    "https://openalex.org/W2062369547",
+    "https://openalex.org/W2064193569",
+    "https://openalex.org/W2064870932",
+    "https://openalex.org/W2065538232",
+    "https://openalex.org/W2066376353",
+    "https://openalex.org/W2066651127",
+    "https://openalex.org/W2067923746",
+    "https://openalex.org/W2069157151",
+    "https://openalex.org/W2070796407",
+    "https://openalex.org/W2075116945",
+    "https://openalex.org/W2076042981",
+    "https://openalex.org/W2076106029",
+    "https://openalex.org/W2076211048",
+    "https://openalex.org/W2077012668",
+    "https://openalex.org/W2078984361",
+    "https://openalex.org/W2079741188",
+    "https://openalex.org/W2080270621",
+    "https://openalex.org/W2080355038",
+    "https://openalex.org/W2080930984",
+    "https://openalex.org/W2081199393",
+    "https://openalex.org/W2081710957",
+    "https://openalex.org/W2081839958",
+    "https://openalex.org/W2084332456",
+    "https://openalex.org/W2084728211",
+    "https://openalex.org/W2084776592",
+    "https://openalex.org/W2085807520",
+    "https://openalex.org/W2086223459",
+    "https://openalex.org/W2088224572",
+    "https://openalex.org/W2089480904",
+    "https://openalex.org/W2090854887",
+    "https://openalex.org/W2092225611",
+    "https://openalex.org/W2093055644",
+    "https://openalex.org/W2093063232",
+    "https://openalex.org/W2093435362",
+    "https://openalex.org/W2095484444",
+    "https://openalex.org/W2095665871",
+    "https://openalex.org/W2097150803",
+    "https://openalex.org/W2097594502",
+    "https://openalex.org/W2097897435",
+    "https://openalex.org/W2098274171",
+    "https://openalex.org/W2098550720",
+    "https://openalex.org/W2099564602",
+    "https://openalex.org/W2100371770",
+    "https://openalex.org/W2100814877",
+    "https://openalex.org/W2101615520",
+    "https://openalex.org/W2102625870",
+    "https://openalex.org/W2102921232",
+    "https://openalex.org/W2103437513",
+    "https://openalex.org/W2104094157",
+    "https://openalex.org/W2104769436",
+    "https://openalex.org/W2104802194",
+    "https://openalex.org/W2104815643",
+    "https://openalex.org/W2104933591",
+    "https://openalex.org/W2106256266",
+    "https://openalex.org/W2106787546",
+    "https://openalex.org/W2108010353",
+    "https://openalex.org/W2108113382",
+    "https://openalex.org/W2110365961",
+    "https://openalex.org/W2111820234",
+    "https://openalex.org/W2112075641",
+    "https://openalex.org/W2112589191",
+    "https://openalex.org/W2112860664",
+    "https://openalex.org/W2113481361",
+    "https://openalex.org/W2114342209",
+    "https://openalex.org/W2114383366",
+    "https://openalex.org/W2114424556",
+    "https://openalex.org/W2114562000",
+    "https://openalex.org/W2115043774",
+    "https://openalex.org/W2115736832",
+    "https://openalex.org/W2115893657",
+    "https://openalex.org/W2115902315",
+    "https://openalex.org/W2116278949",
+    "https://openalex.org/W2116731512",
+    "https://openalex.org/W2116942236",
+    "https://openalex.org/W2118104398",
+    "https://openalex.org/W2120246739",
+    "https://openalex.org/W2120385054",
+    "https://openalex.org/W2120704348",
+    "https://openalex.org/W2120877110",
+    "https://openalex.org/W2122032559",
+    "https://openalex.org/W2123295895",
+    "https://openalex.org/W2123687786",
+    "https://openalex.org/W2124203590",
+    "https://openalex.org/W2125916088",
+    "https://openalex.org/W2129055918",
+    "https://openalex.org/W2131040767",
+    "https://openalex.org/W2133727299",
+    "https://openalex.org/W2136247928",
+    "https://openalex.org/W2136285590",
+    "https://openalex.org/W2137729265",
+    "https://openalex.org/W2138333806",
+    "https://openalex.org/W2138541488",
+    "https://openalex.org/W2138940359",
+    "https://openalex.org/W2139127733",
+    "https://openalex.org/W2140064412",
+    "https://openalex.org/W2140113990",
+    "https://openalex.org/W2140164700",
+    "https://openalex.org/W2141067692",
+    "https://openalex.org/W2142009142",
+    "https://openalex.org/W2143296655",
+    "https://openalex.org/W2144338873",
+    "https://openalex.org/W2145672853",
+    "https://openalex.org/W2146737047",
+    "https://openalex.org/W2147212573",
+    "https://openalex.org/W2148580400",
+    "https://openalex.org/W2149446556",
+    "https://openalex.org/W2149697434",
+    "https://openalex.org/W2150240527",
+    "https://openalex.org/W2150649952",
+    "https://openalex.org/W2151619714",
+    "https://openalex.org/W2152572410",
+    "https://openalex.org/W2152744690",
+    "https://openalex.org/W2156439383",
+    "https://openalex.org/W2156506714",
+    "https://openalex.org/W2159476166",
+    "https://openalex.org/W2159637085",
+    "https://openalex.org/W2160598355",
+    "https://openalex.org/W2161294688",
+    "https://openalex.org/W2162496306",
+    "https://openalex.org/W2163591093",
+    "https://openalex.org/W2164505281",
+    "https://openalex.org/W2166525224",
+    "https://openalex.org/W2167400582",
+    "https://openalex.org/W2167497610",
+    "https://openalex.org/W2168110839",
+    "https://openalex.org/W2168331961",
+    "https://openalex.org/W2169140208",
+    "https://openalex.org/W2170014526",
+    "https://openalex.org/W2170640432",
+    "https://openalex.org/W2173042454",
+    "https://openalex.org/W2182553833",
+    "https://openalex.org/W2229745596",
+    "https://openalex.org/W2263846556",
+    "https://openalex.org/W2265313398",
+    "https://openalex.org/W2285884881",
+    "https://openalex.org/W2310513352",
+    "https://openalex.org/W2313315021",
+    "https://openalex.org/W2313439888",
+    "https://openalex.org/W2314506843",
+    "https://openalex.org/W2320781994",
+    "https://openalex.org/W2323045119",
+    "https://openalex.org/W2323678192",
+    "https://openalex.org/W2325850497",
+    "https://openalex.org/W2327782098",
+    "https://openalex.org/W2333668314",
+    "https://openalex.org/W2432517183",
+    "https://openalex.org/W2510127257",
+    "https://openalex.org/W2615953603",
+    "https://openalex.org/W2740578588",
+    "https://openalex.org/W2770016112",
+    "https://openalex.org/W2909691262",
+    "https://openalex.org/W2985057205",
+    "https://openalex.org/W3004157836",
+    "https://openalex.org/W3008717679",
+    "https://openalex.org/W3029645440",
+    "https://openalex.org/W3112058642",
+    "https://openalex.org/W4206863532",
+    "https://openalex.org/W4214891523",
+    "https://openalex.org/W4236796448",
+    "https://openalex.org/W4238823807",
+    "https://openalex.org/W4243966948",
+    "https://openalex.org/W4245048867",
+    "https://openalex.org/W4246091229",
+    "https://openalex.org/W4248126478",
+    "https://openalex.org/W4250027262",
+    "https://openalex.org/W4252593548",
+    "https://openalex.org/W4253525470",
+    "https://openalex.org/W4293775970",
+    "https://openalex.org/W4294871307",
+    "https://openalex.org/W4298356938",
+    "https://openalex.org/W4376999639"
+  ],
+  "related_works": [
+    "https://openalex.org/W3113091479",
+    "https://openalex.org/W2162899405",
+    "https://openalex.org/W941090075",
+    "https://openalex.org/W2044987316",
+    "https://openalex.org/W3136579521",
+    "https://openalex.org/W2021599769",
+    "https://openalex.org/W1523179148",
+    "https://openalex.org/W2943700667",
+    "https://openalex.org/W2950383522",
+    "https://openalex.org/W2153649672"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "Full-waveform": [
+      1
+    ],
+    "inversion": [
+      2
+    ],
+    "(FWI)": [
+      3
+    ],
+    "is": [
+      4,
+      26
+    ],
+    "a": [
+      5,
+      55
+    ],
+    "challenging": [
+      6
+    ],
+    "data-fitting": [
+      7
+    ],
+    "procedure": [
+      8
+    ],
+    "based": [
+      9
+    ],
+    "on": [
+      10
+    ],
+    "full-wavefield": [
+      11
+    ],
+    "modeling": [
+      12,
+      105
+    ],
+    "to": [
+      13,
+      115,
+      146,
+      154,
+      168,
+      199,
+      205,
+      228
+    ],
+    "extract": [
+      14
+    ],
+    "quantitative": [
+      15
+    ],
+    "information": [
+      16
+    ],
+    "from": [
+      17,
+      141
+    ],
+    "seismograms.": [
+      18
+    ],
+    "High-resolution": [
+      19
+    ],
+    "imaging": [
+      20
+    ],
+    "at": [
+      21
+    ],
+    "half": [
+      22
+    ],
+    "the": [
+      23,
+      61,
+      64,
+      78,
+      86,
+      90,
+      93,
+      98,
+      103,
+      117,
+      129,
+      156,
+      159,
+      201,
+      210
+    ],
+    "propagated": [
+      24
+    ],
+    "wavelength": [
+      25
+    ],
+    "expected.": [
+      27
+    ],
+    "Recent": [
+      28
+    ],
+    "advances": [
+      29
+    ],
+    "in": [
+      30,
+      59,
+      128
+    ],
+    "high-performance": [
+      31
+    ],
+    "computing": [
+      32
+    ],
+    "and": [
+      33,
+      36,
+      54,
+      63,
+      102,
+      119,
+      133,
+      143,
+      149,
+      208,
+      220
+    ],
+    "multifold/multicomponent": [
+      34
+    ],
+    "wide-aperture": [
+      35
+    ],
+    "wide-azimuth": [
+      37
+    ],
+    "acquisitions": [
+      38
+    ],
+    "make": [
+      39,
+      169,
+      229
+    ],
+    "3D": [
+      40,
+      230
+    ],
+    "acoustic": [
+      41
+    ],
+    "FWI": [
+      42,
+      48,
+      122,
+      204,
+      213,
+      232
+    ],
+    "feasible": [
+      43
+    ],
+    "today.": [
+      44
+    ],
+    "Key": [
+      45
+    ],
+    "ingredients": [
+      46
+    ],
+    "of": [
+      47,
+      77,
+      85,
+      89,
+      95,
+      100,
+      106,
+      121,
+      158,
+      161,
+      203,
+      212
+    ],
+    "are": [
+      49,
+      67,
+      113,
+      218
+    ],
+    "an": [
+      50
+    ],
+    "efficient": [
+      51
+    ],
+    "forward-modeling": [
+      52
+    ],
+    "engine": [
+      53
+    ],
+    "local": [
+      56,
+      82
+    ],
+    "differential": [
+      57
+    ],
+    "approach,": [
+      58
+    ],
+    "which": [
+      60
+    ],
+    "gradient": [
+      62
+    ],
+    "Hessian": [
+      65
+    ],
+    "operators": [
+      66
+    ],
+    "efficiently": [
+      68
+    ],
+    "estimated.": [
+      69
+    ],
+    "Local": [
+      70
+    ],
+    "optimization": [
+      71
+    ],
+    "does": [
+      72
+    ],
+    "not,": [
+      73
+    ],
+    "however,": [
+      74,
+      165
+    ],
+    "prevent": [
+      75
+    ],
+    "convergence": [
+      76
+    ],
+    "misfit": [
+      79
+    ],
+    "function": [
+      80
+    ],
+    "toward": [
+      81
+    ],
+    "minima": [
+      83
+    ],
+    "because": [
+      84
+    ],
+    "limited": [
+      87
+    ],
+    "accuracy": [
+      88
+    ],
+    "starting": [
+      91,
+      185
+    ],
+    "model,": [
+      92
+    ],
+    "lack": [
+      94
+    ],
+    "low": [
+      96,
+      192
+    ],
+    "frequencies,": [
+      97,
+      193
+    ],
+    "presence": [
+      99
+    ],
+    "noise,": [
+      101
+    ],
+    "approximate": [
+      104
+    ],
+    "thewave-physics": [
+      107
+    ],
+    "complexity.": [
+      108
+    ],
+    "Different": [
+      109
+    ],
+    "hierarchical": [
+      110
+    ],
+    "multiscale": [
+      111
+    ],
+    "strategies": [
+      112
+    ],
+    "designed": [
+      114
+    ],
+    "mitigate": [
+      116,
+      200
+    ],
+    "nonlinearity": [
+      118
+    ],
+    "ill-posedness": [
+      120
+    ],
+    "by": [
+      123,
+      225
+    ],
+    "incorporating": [
+      124
+    ],
+    "progressively": [
+      125
+    ],
+    "shorter": [
+      126
+    ],
+    "wavelengths": [
+      127
+    ],
+    "parameter": [
+      130,
+      216
+    ],
+    "space.": [
+      131
+    ],
+    "Synthetic": [
+      132
+    ],
+    "real-data": [
+      134
+    ],
+    "case": [
+      135
+    ],
+    "studies": [
+      136
+    ],
+    "address": [
+      137
+    ],
+    "reconstructing": [
+      138
+    ],
+    "various": [
+      139
+    ],
+    "parameters,": [
+      140
+    ],
+    "VP": [
+      142
+    ],
+    "VS": [
+      144
+    ],
+    "velocities": [
+      145
+    ],
+    "density,": [
+      147
+    ],
+    "anisotropy,": [
+      148
+    ],
+    "attenuation.": [
+      150
+    ],
+    "This": [
+      151
+    ],
+    "review": [
+      152
+    ],
+    "attempts": [
+      153
+    ],
+    "illuminate": [
+      155
+    ],
+    "state": [
+      157
+    ],
+    "art": [
+      160
+    ],
+    "FWI.": [
+      162
+    ],
+    "Crucial": [
+      163
+    ],
+    "jumps,": [
+      164
+    ],
+    "remain": [
+      166
+    ],
+    "necessary": [
+      167
+    ],
+    "it": [
+      170
+    ],
+    "as": [
+      171,
+      173,
+      181
+    ],
+    "popular": [
+      172
+    ],
+    "migration": [
+      174
+    ],
+    "techniques.": [
+      175
+    ],
+    "The": [
+      176
+    ],
+    "challenges": [
+      177
+    ],
+    "can": [
+      178
+    ],
+    "be": [
+      179
+    ],
+    "categorized": [
+      180
+    ],
+    "(1)": [
+      182
+    ],
+    "building": [
+      183
+    ],
+    "accurate": [
+      184
+    ],
+    "models": [
+      186
+    ],
+    "with": [
+      187
+    ],
+    "automatic": [
+      188
+    ],
+    "procedures": [
+      189
+    ],
+    "and/or": [
+      190
+    ],
+    "recording": [
+      191
+    ],
+    "(2)": [
+      194
+    ],
+    "defining": [
+      195
+    ],
+    "new": [
+      196
+    ],
+    "minimization": [
+      197
+    ],
+    "criteria": [
+      198
+    ],
+    "sensitivity": [
+      202
+    ],
+    "amplitude": [
+      206
+    ],
+    "errors": [
+      207
+    ],
+    "increasing": [
+      209
+    ],
+    "robustness": [
+      211
+    ],
+    "when": [
+      214
+    ],
+    "multiple": [
+      215
+    ],
+    "classes": [
+      217
+    ],
+    "estimated,": [
+      219
+    ],
+    "(3)": [
+      221
+    ],
+    "improving": [
+      222
+    ],
+    "computational": [
+      223
+    ],
+    "efficiency": [
+      224
+    ],
+    "data-compression": [
+      226
+    ],
+    "techniques": [
+      227
+    ],
+    "elastic": [
+      231
+    ],
+    "feasible.": [
+      233
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 265
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 278
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 305
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 265
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 289
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 312
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 298
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 301
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 277
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 265
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 222
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 202
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 158
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 139
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 110
+    }
+  ],
+  "updated_date": "2026-09-24T07:57:37.273135",
+  "created_date": "2025-10-10T00:00:00"
+}

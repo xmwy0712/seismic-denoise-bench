@@ -1,0 +1,217 @@
+{
+  "id": "https://openalex.org/W4230922945",
+  "doi": "https://doi.org/10.1093/benz/9780199773787.article.b00049503",
+  "title": "Denois, Lucile",
+  "display_name": "Denois, Lucile",
+  "publication_year": 2011,
+  "publication_date": "2011-10-31",
+  "ids": {
+    "openalex": "https://openalex.org/W4230922945",
+    "doi": "https://doi.org/10.1093/benz/9780199773787.article.b00049503"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1093/benz/9780199773787.article.b00049503",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1093/benz/9780199773787.article.b00049503",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4363604064",
+      "display_name": "Benezit Dictionary of Artists",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Benezit Dictionary of Artists",
+    "raw_type": "reference-book"
+  },
+  "type": "reference-entry",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12559",
+    "display_name": "French Literature and Critical Theory",
+    "score": 0.9151999950408936,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1208",
+      "display_name": "Literature and Literary Theory"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/12",
+      "display_name": "Arts and Humanities"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12559",
+      "display_name": "French Literature and Critical Theory",
+      "score": 0.9151999950408936,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1208",
+        "display_name": "Literature and Literary Theory"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14469",
+      "display_name": "Renaissance Literature and Culture",
+      "score": 0.9124000072479248,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1205",
+        "display_name": "Classics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/12",
+        "display_name": "Arts and Humanities"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14162",
+      "display_name": "Historical and Literary Studies",
+      "score": 0.9114000201225281,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3314",
+        "display_name": "Anthropology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.42543017864227295
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.42543017864227295
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1093/benz/9780199773787.article.b00049503",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1093/benz/9780199773787.article.b00049503",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4363604064",
+        "display_name": "Benezit Dictionary of Artists",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Benezit Dictionary of Artists",
+      "raw_type": "reference-book"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2899084033",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2390279801",
+    "https://openalex.org/W2358668433",
+    "https://openalex.org/W2376932109",
+    "https://openalex.org/W2382290278",
+    "https://openalex.org/W2350741829",
+    "https://openalex.org/W2130043461",
+    "https://openalex.org/W2530322880",
+    "https://openalex.org/W1596801655"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [],
+  "updated_date": "2026-07-14T23:27:15.235271",
+  "created_date": "2022-05-11T00:00:00"
+}

@@ -1,0 +1,1073 @@
+{
+  "id": "https://openalex.org/W1964985932",
+  "doi": "https://doi.org/10.1190/1.1826626",
+  "title": "Revealing geological discontinuities by plane reflector suppression",
+  "display_name": "Revealing geological discontinuities by plane reflector suppression",
+  "publication_year": 1996,
+  "publication_date": "1996-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1964985932",
+    "doi": "https://doi.org/10.1190/1.1826626",
+    "mag": "1964985932"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.1826626",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.1826626",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "International Meeting for Applied Geoscience &amp; Energy",
+    "raw_type": "proceedings-article"
+  },
+  "type": "conference-paper",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5057183308",
+        "display_name": "Matthias Georg Schwab",
+        "orcid": "https://orcid.org/0000-0002-9984-075X",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9984-075X"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97018004",
+          "display_name": "Stanford University",
+          "ror": "https://ror.org/00f54p054",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Matthias Schwab",
+      "raw_affiliation_strings": [
+        "1 Stanford University",
+        "Stanford University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1 Stanford University",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Stanford University",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5052591609",
+        "display_name": "Jon F. Claerbout",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97018004",
+          "display_name": "Stanford University",
+          "ror": "https://ror.org/00f54p054",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jon Claerbout",
+      "raw_affiliation_strings": [
+        "2 Stanford University",
+        "Stanford University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "2 Stanford University",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Stanford University",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5039430033",
+        "display_name": "Curt Holden",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97018004",
+          "display_name": "Stanford University",
+          "ror": "https://ror.org/00f54p054",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Curt Holden",
+      "raw_affiliation_strings": [
+        "3 Stanford University",
+        "Stanford University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "3 Stanford University",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Stanford University",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I97018004"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 1.9091,
+  "has_fulltext": false,
+  "cited_by_count": 7,
+  "citation_normalized_percentile": {
+    "value": 0.78866906,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 94
+  },
+  "biblio": {
+    "volume": "1",
+    "issue": null,
+    "first_page": "302",
+    "last_page": "305"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9868999719619751,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9868999719619751,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13067",
+      "display_name": "Geological Modeling and Analysis",
+      "score": 0.9776999950408936,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1906",
+        "display_name": "Geochemistry and Petrology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9513000249862671,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/classification-of-discontinuities",
+      "display_name": "Classification of discontinuities",
+      "score": 0.9255770444869995
+    },
+    {
+      "id": "https://openalex.org/keywords/reflector",
+      "display_name": "Reflector (photography)",
+      "score": 0.700700044631958
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.511637270450592
+    },
+    {
+      "id": "https://openalex.org/keywords/plane",
+      "display_name": "Plane (geometry)",
+      "score": 0.4717351198196411
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.35298657417297363
+    },
+    {
+      "id": "https://openalex.org/keywords/geometry",
+      "display_name": "Geometry",
+      "score": 0.3032380938529968
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.1670001745223999
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.0968538224697113
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematical-analysis",
+      "display_name": "Mathematical analysis",
+      "score": 0.06477418541908264
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C15627037",
+      "wikidata": "https://www.wikidata.org/wiki/Q541961",
+      "display_name": "Classification of discontinuities",
+      "level": 2,
+      "score": 0.9255770444869995
+    },
+    {
+      "id": "https://openalex.org/C2778415886",
+      "wikidata": "https://www.wikidata.org/wiki/Q1823435",
+      "display_name": "Reflector (photography)",
+      "level": 3,
+      "score": 0.700700044631958
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.511637270450592
+    },
+    {
+      "id": "https://openalex.org/C17825722",
+      "wikidata": "https://www.wikidata.org/wiki/Q17285",
+      "display_name": "Plane (geometry)",
+      "level": 2,
+      "score": 0.4717351198196411
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.35298657417297363
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.3032380938529968
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.1670001745223999
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.0968538224697113
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.06477418541908264
+    },
+    {
+      "id": "https://openalex.org/C2982854487",
+      "wikidata": "https://www.wikidata.org/wiki/Q9128",
+      "display_name": "Light source",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.1826626",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.1826626",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "International Meeting for Applied Geoscience &amp; Energy",
+      "raw_type": "proceedings-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/13",
+      "display_name": "Climate action",
+      "score": 0.8100000023841858
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 4,
+  "referenced_works": [
+    "https://openalex.org/W1969226071",
+    "https://openalex.org/W1988467106",
+    "https://openalex.org/W2315062662",
+    "https://openalex.org/W4210724678"
+  ],
+  "related_works": [
+    "https://openalex.org/W1972096828",
+    "https://openalex.org/W2529137940",
+    "https://openalex.org/W4302048708",
+    "https://openalex.org/W2359913921",
+    "https://openalex.org/W1595194509",
+    "https://openalex.org/W4239740410",
+    "https://openalex.org/W1996195943",
+    "https://openalex.org/W4205298958",
+    "https://openalex.org/W2486440955",
+    "https://openalex.org/W1633217601"
+  ],
+  "abstract_inverted_index": {
+    "PreviousNext": [
+      0
+    ],
+    "No": [
+      1
+    ],
+    "AccessSEG": [
+      2
+    ],
+    "Technical": [
+      3,
+      193,
+      240
+    ],
+    "Program": [
+      4,
+      194,
+      241
+    ],
+    "Expanded": [
+      5,
+      195,
+      242
+    ],
+    "Abstracts": [
+      6,
+      196,
+      243
+    ],
+    "1996Revealing": [
+      7
+    ],
+    "geological": [
+      8,
+      233
+    ],
+    "discontinuities": [
+      9,
+      234
+    ],
+    "by": [
+      10,
+      120,
+      144,
+      235
+    ],
+    "plane": [
+      11,
+      236
+    ],
+    "reflector": [
+      12,
+      237
+    ],
+    "suppressionAuthors:": [
+      13
+    ],
+    "Matthias": [
+      14,
+      71,
+      224
+    ],
+    "SchwabJon": [
+      15
+    ],
+    "ClaerboutCurt": [
+      16
+    ],
+    "HoldenMatthias": [
+      17
+    ],
+    "SchwabStanford": [
+      18
+    ],
+    "University,": [
+      19,
+      22
+    ],
+    "Jon": [
+      20,
+      187,
+      226
+    ],
+    "ClaerboutStanford": [
+      21
+    ],
+    "and": [
+      23,
+      97,
+      106,
+      113,
+      122,
+      130,
+      146,
+      154,
+      186,
+      228
+    ],
+    "Curt": [
+      24,
+      229
+    ],
+    "HoldenStanford": [
+      25
+    ],
+    "Universityhttps://doi.org/10.1190/1.1826626": [
+      26
+    ],
+    "SectionsAboutPDF/ePub": [
+      27
+    ],
+    "ToolsAdd": [
+      28
+    ],
+    "to": [
+      29
+    ],
+    "favoritesDownload": [
+      30
+    ],
+    "CitationsTrack": [
+      31
+    ],
+    "CitationsPermissions": [
+      32
+    ],
+    "ShareFacebookTwitterLinked": [
+      33
+    ],
+    "InRedditEmail": [
+      34
+    ],
+    "Permalink:": [
+      35
+    ],
+    "https://doi.org/10.1190/1.1826626FiguresReferencesRelatedDetailsCited": [
+      36
+    ],
+    "by5.": [
+      37
+    ],
+    "Diffraction": [
+      38
+    ],
+    "ImagingP.": [
+      39
+    ],
+    "Hubral,": [
+      40
+    ],
+    "E.": [
+      41
+    ],
+    "Landa,": [
+      42,
+      129,
+      153
+    ],
+    "V.": [
+      43,
+      58
+    ],
+    "Shtivelman,": [
+      44
+    ],
+    "B.": [
+      45,
+      55,
+      87
+    ],
+    "Gelchinsky,": [
+      46
+    ],
+    "Ernest": [
+      47
+    ],
+    "R.": [
+      48,
+      56
+    ],
+    "Kanasewich,": [
+      49
+    ],
+    "Suhas": [
+      50
+    ],
+    "M.": [
+      51,
+      83,
+      131,
+      155
+    ],
+    "Phadke,": [
+      52
+    ],
+    "Shemer": [
+      53
+    ],
+    "Keydar,": [
+      54
+    ],
+    "Zavalishin,": [
+      57
+    ],
+    "Khaidukov,": [
+      59
+    ],
+    "T.": [
+      60
+    ],
+    "J.": [
+      61
+    ],
+    "Moser,": [
+      62
+    ],
+    "Mark": [
+      63
+    ],
+    "Grasmueck,": [
+      64
+    ],
+    "Ralf": [
+      65
+    ],
+    "Weger,": [
+      66
+    ],
+    "Heinrich": [
+      67
+    ],
+    "Horstmeyer,": [
+      68
+    ],
+    "Reeshidev": [
+      69
+    ],
+    "Bansal,": [
+      70
+    ],
+    "G.": [
+      72,
+      179
+    ],
+    "Imhof,": [
+      73
+    ],
+    "Paul": [
+      74
+    ],
+    "C.": [
+      75,
+      86
+    ],
+    "Sava,": [
+      76
+    ],
+    "Biondo": [
+      77,
+      181
+    ],
+    "Biondi,": [
+      78,
+      183
+    ],
+    "John": [
+      79
+    ],
+    "Etgen,": [
+      80
+    ],
+    "Sergey": [
+      81,
+      184
+    ],
+    "Fomel,": [
+      82,
+      127,
+      151,
+      185
+    ],
+    "Turhan": [
+      84,
+      132,
+      156
+    ],
+    "Taner,": [
+      85
+    ],
+    "Howard,": [
+      88
+    ],
+    "Moshe": [
+      89
+    ],
+    "Reshef,": [
+      90
+    ],
+    "Alex": [
+      91
+    ],
+    "Berkovitch,": [
+      92
+    ],
+    "Igor": [
+      93
+    ],
+    "Belfer,": [
+      94
+    ],
+    "Yehuda": [
+      95
+    ],
+    "Hassin,": [
+      96
+    ],
+    "Ran": [
+      98
+    ],
+    "Bachrach16": [
+      99
+    ],
+    "June": [
+      100
+    ],
+    "2016Special": [
+      101
+    ],
+    "Seismic": [
+      102
+    ],
+    "Processing": [
+      103
+    ],
+    "for": [
+      104
+    ],
+    "Faults": [
+      105
+    ],
+    "Fractures": [
+      107
+    ],
+    "ImagingAlcides": [
+      108
+    ],
+    "Aggio,": [
+      109
+    ],
+    "Mauren": [
+      110
+    ],
+    "P.": [
+      111
+    ],
+    "Ruther,": [
+      112
+    ],
+    "Marcos": [
+      114
+    ],
+    "Machado28": [
+      115
+    ],
+    "April": [
+      116
+    ],
+    "2014Poststack": [
+      117
+    ],
+    "velocity": [
+      118,
+      142,
+      173
+    ],
+    "analysis": [
+      119,
+      143
+    ],
+    "separation": [
+      121,
+      145
+    ],
+    "imaging": [
+      123,
+      147
+    ],
+    "of": [
+      124,
+      148,
+      160,
+      211,
+      214
+    ],
+    "seismic": [
+      125,
+      149
+    ],
+    "diffractionsSergey": [
+      126,
+      150
+    ],
+    "Evgeny": [
+      128,
+      152
+    ],
+    "Taner3": [
+      133
+    ],
+    "October": [
+      134,
+      158
+    ],
+    "2007": [
+      135
+    ],
+    "|": [
+      136,
+      167
+    ],
+    "GEOPHYSICS,": [
+      137,
+      168
+    ],
+    "Vol.": [
+      138,
+      169
+    ],
+    "72,": [
+      139
+    ],
+    "No.": [
+      140,
+      171
+    ],
+    "6Post‐stack": [
+      141
+    ],
+    "Taner6": [
+      157
+    ],
+    "2006Applications": [
+      159
+    ],
+    "plane‐wave": [
+      161
+    ],
+    "destruction": [
+      162
+    ],
+    "filtersSergey": [
+      163
+    ],
+    "Fomel11": [
+      164
+    ],
+    "November": [
+      165
+    ],
+    "2002": [
+      166
+    ],
+    "67,": [
+      170
+    ],
+    "6Regularizing": [
+      172
+    ],
+    "estimation": [
+      174
+    ],
+    "using": [
+      175
+    ],
+    "geologic": [
+      176
+    ],
+    "dip": [
+      177
+    ],
+    "informationRobert": [
+      178
+    ],
+    "Clapp,": [
+      180
+    ],
+    "L.": [
+      182
+    ],
+    "F.": [
+      188
+    ],
+    "Claerbout6": [
+      189
+    ],
+    "January": [
+      190
+    ],
+    "2005": [
+      191,
+      221
+    ],
+    "SEG": [
+      192,
+      239
+    ],
+    "1996ISSN": [
+      197
+    ],
+    "(print):1052-3812": [
+      198
+    ],
+    "ISSN": [
+      199
+    ],
+    "(online):1949-4645Copyright:": [
+      200
+    ],
+    "1996": [
+      201,
+      206,
+      209
+    ],
+    "Pages:": [
+      202
+    ],
+    "2106": [
+      203
+    ],
+    "publication": [
+      204
+    ],
+    "data©": [
+      205
+    ],
+    "Copyright": [
+      207
+    ],
+    "©": [
+      208
+    ],
+    "Society": [
+      210
+    ],
+    "Exploration": [
+      212,
+      215
+    ],
+    "GeophysicistsPublisher:Society": [
+      213
+    ],
+    "Geophysicists": [
+      216
+    ],
+    "HistoryPublished": [
+      217
+    ],
+    "Online:": [
+      218
+    ],
+    "10": [
+      219
+    ],
+    "Feb": [
+      220
+    ],
+    "CITATION": [
+      222
+    ],
+    "INFORMATION": [
+      223
+    ],
+    "Schwab,": [
+      225
+    ],
+    "Claerbout,": [
+      227
+    ],
+    "Holden,": [
+      230
+    ],
+    "(1996),": [
+      231
+    ],
+    "\"Revealing": [
+      232
+    ],
+    "suppression,\"": [
+      238
+    ],
+    ":": [
+      244
+    ],
+    "302-305.": [
+      245
+    ],
+    "https://doi.org/10.1190/1.1826626": [
+      246
+    ],
+    "Plain-Language": [
+      247
+    ],
+    "Summary": [
+      248
+    ],
+    "PDF": [
+      249
+    ],
+    "DownloadLoading": [
+      250
+    ],
+    "...": [
+      251
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

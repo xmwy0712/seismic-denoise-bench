@@ -1,0 +1,308 @@
+{
+  "id": "https://openalex.org/W758379544",
+  "doi": "https://doi.org/10.1109/jacc.1967.4169042",
+  "title": "Bounds on the efficiency of analog-to-digital conversion",
+  "display_name": "Bounds on the efficiency of analog-to-digital conversion",
+  "publication_year": 1967,
+  "publication_date": "1967-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W758379544",
+    "doi": "https://doi.org/10.1109/jacc.1967.4169042",
+    "mag": "758379544"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "mag:758379544",
+    "is_oa": false,
+    "landing_page_url": "http://yadda.icm.edu.pl/yadda/element/bwmeta1.element.ieee-000004169042",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S184954342",
+      "display_name": "IEEE Transactions on Automatic Control",
+      "issn_l": "0018-9286",
+      "issn": [
+        "0018-9286",
+        "1558-2523",
+        "2334-3303"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319808",
+      "host_organization_name": "Institute of Electrical and Electronics Engineers",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319808"
+      ],
+      "host_organization_lineage_names": [
+        "Institute of Electrical and Electronics Engineers"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "IEEE Transactions on Automatic Control",
+    "raw_type": null
+  },
+  "type": "article",
+  "indexed_in": [],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5009033281",
+        "display_name": "Goblick",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "Goblick",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5009033281"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 2645,
+    "currency": "USD",
+    "value_usd": 2645
+  },
+  "apc_paid": null,
+  "fwci": 0.6636,
+  "has_fulltext": false,
+  "cited_by_count": 2,
+  "citation_normalized_percentile": {
+    "value": 0.66714388,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 94
+  },
+  "biblio": {
+    "volume": "5",
+    "issue": null,
+    "first_page": "694",
+    "last_page": "701"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10323",
+    "display_name": "Analog and Mixed-Signal Circuit Design",
+    "score": 0.9437000155448914,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2204",
+      "display_name": "Biomedical Engineering"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10323",
+      "display_name": "Analog and Mixed-Signal Circuit Design",
+      "score": 0.9437000155448914,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.5617189407348633
+    },
+    {
+      "id": "https://openalex.org/keywords/control-theory",
+      "display_name": "Control theory (sociology)",
+      "score": 0.36194226145744324
+    },
+    {
+      "id": "https://openalex.org/keywords/electronic-engineering",
+      "display_name": "Electronic engineering",
+      "score": 0.35496920347213745
+    },
+    {
+      "id": "https://openalex.org/keywords/engineering",
+      "display_name": "Engineering",
+      "score": 0.20394986867904663
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.18321368098258972
+    },
+    {
+      "id": "https://openalex.org/keywords/control",
+      "display_name": "Control (management)",
+      "score": 0.16864129900932312
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.5617189407348633
+    },
+    {
+      "id": "https://openalex.org/C47446073",
+      "wikidata": "https://www.wikidata.org/wiki/Q5165890",
+      "display_name": "Control theory (sociology)",
+      "level": 3,
+      "score": 0.36194226145744324
+    },
+    {
+      "id": "https://openalex.org/C24326235",
+      "wikidata": "https://www.wikidata.org/wiki/Q126095",
+      "display_name": "Electronic engineering",
+      "level": 1,
+      "score": 0.35496920347213745
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.20394986867904663
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.18321368098258972
+    },
+    {
+      "id": "https://openalex.org/C2775924081",
+      "wikidata": "https://www.wikidata.org/wiki/Q55608371",
+      "display_name": "Control (management)",
+      "level": 2,
+      "score": 0.16864129900932312
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "mag:758379544",
+      "is_oa": false,
+      "landing_page_url": "http://yadda.icm.edu.pl/yadda/element/bwmeta1.element.ieee-000004169042",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S184954342",
+        "display_name": "IEEE Transactions on Automatic Control",
+        "issn_l": "0018-9286",
+        "issn": [
+          "0018-9286",
+          "1558-2523",
+          "2334-3303"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": null,
+      "raw_source_name": "IEEE Transactions on Automatic Control",
+      "raw_type": null
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/7",
+      "display_name": "Affordable and clean energy",
+      "score": 0.7300000190734863
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2042890819",
+    "https://openalex.org/W2152150208",
+    "https://openalex.org/W2103029992",
+    "https://openalex.org/W2097979700",
+    "https://openalex.org/W2065455208",
+    "https://openalex.org/W2107763413",
+    "https://openalex.org/W2140591238",
+    "https://openalex.org/W1584578671",
+    "https://openalex.org/W2060659343",
+    "https://openalex.org/W2091948863",
+    "https://openalex.org/W2047983954",
+    "https://openalex.org/W1950207725",
+    "https://openalex.org/W2057284354",
+    "https://openalex.org/W2115009625",
+    "https://openalex.org/W2146116573",
+    "https://openalex.org/W3017528049",
+    "https://openalex.org/W2137175859",
+    "https://openalex.org/W1538664337",
+    "https://openalex.org/W2933093311",
+    "https://openalex.org/W2039106288"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-08-21T09:56:20.448147",
+  "created_date": "2025-10-10T00:00:00"
+}

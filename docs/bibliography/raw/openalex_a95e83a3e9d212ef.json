@@ -1,0 +1,468 @@
+{
+  "id": "https://openalex.org/W1570134156",
+  "doi": null,
+  "title": "Image structure analysis for seismic interpretation",
+  "display_name": "Image structure analysis for seismic interpretation",
+  "publication_year": 2002,
+  "publication_date": "2002-06-04",
+  "ids": {
+    "openalex": "https://openalex.org/W1570134156",
+    "mag": "1570134156"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "pmh:oai:tudelft.nl:uuid:f3f60507-5b08-43cb-a309-c3446c972395",
+    "is_oa": false,
+    "landing_page_url": "http://resolver.tudelft.nl/uuid:f3f60507-5b08-43cb-a309-c3446c972395",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306400906",
+      "display_name": "Research Repository (Delft University of Technology)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I98358874",
+      "host_organization_name": "Delft University of Technology",
+      "host_organization_lineage": [
+        "https://openalex.org/I98358874"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "",
+    "raw_type": "doctoral thesis"
+  },
+  "type": "dissertation",
+  "indexed_in": [],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "http://resolver.tudelft.nl/uuid:f3f60507-5b08-43cb-a309-c3446c972395",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5061291830",
+        "display_name": "Peter G. Bakker",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "P.G. Bakker",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5061291830"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": false,
+  "cited_by_count": 145,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9998000264167786,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10052",
+      "display_name": "Medical Image Segmentation Techniques",
+      "score": 0.9954000115394592,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13067",
+      "display_name": "Geological Modeling and Analysis",
+      "score": 0.9944999814033508,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1906",
+        "display_name": "Geochemistry and Petrology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/interpretation",
+      "display_name": "Interpretation (philosophy)",
+      "score": 0.6358396410942078
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.5664507150650024
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.3675701916217804
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.30709272623062134
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C527412718",
+      "wikidata": "https://www.wikidata.org/wiki/Q855395",
+      "display_name": "Interpretation (philosophy)",
+      "level": 2,
+      "score": 0.6358396410942078
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.5664507150650024
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.3675701916217804
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.30709272623062134
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 3,
+  "locations": [
+    {
+      "id": "pmh:oai:tudelft.nl:uuid:f3f60507-5b08-43cb-a309-c3446c972395",
+      "is_oa": false,
+      "landing_page_url": "http://resolver.tudelft.nl/uuid:f3f60507-5b08-43cb-a309-c3446c972395",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400906",
+        "display_name": "Research Repository (Delft University of Technology)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I98358874",
+        "host_organization_name": "Delft University of Technology",
+        "host_organization_lineage": [
+          "https://openalex.org/I98358874"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "doctoral thesis"
+    },
+    {
+      "id": "pmh:tud:oai:tudelft.nl:uuid:f3f60507-5b08-43cb-a309-c3446c972395",
+      "is_oa": true,
+      "landing_page_url": "http://resolver.tudelft.nl/uuid:f3f60507-5b08-43cb-a309-c3446c972395",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401843",
+        "display_name": "Data Archiving and Networked Services (DANS)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1322597698",
+        "host_organization_name": "Royal Netherlands Academy of Arts and Sciences",
+        "host_organization_lineage": [
+          "https://openalex.org/I1322597698"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "TITLE=None",
+      "raw_type": "info:eu-repo/semantics/doctoralthesis"
+    },
+    {
+      "id": "mag:1570134156",
+      "is_oa": false,
+      "landing_page_url": "http://repository.tudelft.nl/assets/uuid:f3f60507-5b08-43cb-a309-c3446c972395/as_bakker_20020604.PDF",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": null,
+      "raw_source_name": null,
+      "raw_type": null
+    }
+  ],
+  "best_oa_location": {
+    "id": "pmh:tud:oai:tudelft.nl:uuid:f3f60507-5b08-43cb-a309-c3446c972395",
+    "is_oa": true,
+    "landing_page_url": "http://resolver.tudelft.nl/uuid:f3f60507-5b08-43cb-a309-c3446c972395",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306401843",
+      "display_name": "Data Archiving and Networked Services (DANS)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I1322597698",
+      "host_organization_name": "Royal Netherlands Academy of Arts and Sciences",
+      "host_organization_lineage": [
+        "https://openalex.org/I1322597698"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": "other-oa",
+    "license_id": "https://openalex.org/licenses/other-oa",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "TITLE=None",
+    "raw_type": "info:eu-repo/semantics/doctoralthesis"
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Climate action",
+      "score": 0.699999988079071,
+      "id": "https://metadata.un.org/sdg/13"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 38,
+  "referenced_works": [
+    "https://openalex.org/W1510355813",
+    "https://openalex.org/W1510890381",
+    "https://openalex.org/W1525555090",
+    "https://openalex.org/W1542873368",
+    "https://openalex.org/W1553200558",
+    "https://openalex.org/W1554663460",
+    "https://openalex.org/W1559689083",
+    "https://openalex.org/W1566822127",
+    "https://openalex.org/W1567026204",
+    "https://openalex.org/W1587069887",
+    "https://openalex.org/W1631114303",
+    "https://openalex.org/W1807159344",
+    "https://openalex.org/W1972963882",
+    "https://openalex.org/W1988437943",
+    "https://openalex.org/W2006500012",
+    "https://openalex.org/W2008014451",
+    "https://openalex.org/W2029470757",
+    "https://openalex.org/W2030541171",
+    "https://openalex.org/W2045870530",
+    "https://openalex.org/W2068840375",
+    "https://openalex.org/W2092457501",
+    "https://openalex.org/W2107413975",
+    "https://openalex.org/W2109394584",
+    "https://openalex.org/W2113595684",
+    "https://openalex.org/W2121226625",
+    "https://openalex.org/W2126097500",
+    "https://openalex.org/W2128497116",
+    "https://openalex.org/W2131541007",
+    "https://openalex.org/W2135479785",
+    "https://openalex.org/W2145023731",
+    "https://openalex.org/W2157408274",
+    "https://openalex.org/W2164585709",
+    "https://openalex.org/W2167450470",
+    "https://openalex.org/W2171923309",
+    "https://openalex.org/W2563709626",
+    "https://openalex.org/W2798857148",
+    "https://openalex.org/W2798909945",
+    "https://openalex.org/W3038698521"
+  ],
+  "related_works": [
+    "https://openalex.org/W2106921281",
+    "https://openalex.org/W2068840375",
+    "https://openalex.org/W2014758788",
+    "https://openalex.org/W2112525653",
+    "https://openalex.org/W2774014017",
+    "https://openalex.org/W2107127511",
+    "https://openalex.org/W2588053692",
+    "https://openalex.org/W2126097500",
+    "https://openalex.org/W2287473451",
+    "https://openalex.org/W2139663179",
+    "https://openalex.org/W2476605574",
+    "https://openalex.org/W2149813544",
+    "https://openalex.org/W2110817584",
+    "https://openalex.org/W2118701387",
+    "https://openalex.org/W2067678103",
+    "https://openalex.org/W2039488747",
+    "https://openalex.org/W2129086878",
+    "https://openalex.org/W127809959",
+    "https://openalex.org/W2613245639",
+    "https://openalex.org/W2033287230"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

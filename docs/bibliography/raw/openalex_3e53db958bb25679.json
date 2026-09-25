@@ -1,0 +1,1094 @@
+{
+  "id": "https://openalex.org/W1507654375",
+  "doi": "https://doi.org/10.1111/j.1365-2478.2012.01062.x",
+  "title": "Seismic data analysis using local time‐frequency decomposition",
+  "display_name": "Seismic data analysis using local time‐frequency decomposition",
+  "publication_year": 2012,
+  "publication_date": "2012-03-22",
+  "ids": {
+    "openalex": "https://openalex.org/W1507654375",
+    "doi": "https://doi.org/10.1111/j.1365-2478.2012.01062.x",
+    "mag": "1507654375"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1111/j.1365-2478.2012.01062.x",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1111/j.1365-2478.2012.01062.x",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S45030768",
+      "display_name": "Geophysical Prospecting",
+      "issn_l": "0016-8025",
+      "issn": [
+        "0016-8025",
+        "1365-2478"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysical Prospecting",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5030604925",
+        "display_name": "Yang Liu",
+        "orcid": "https://orcid.org/0000-0001-6313-6595",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-6313-6595"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1288783943",
+          "display_name": "Bureau of Economic Analysis",
+          "ror": "https://ror.org/03b17a012",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I1343035065"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I194450716",
+          "display_name": "Jilin University",
+          "ror": "https://ror.org/00js3aw79",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I194450716"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "CN",
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Yang Liu",
+      "raw_affiliation_strings": [
+        "Bureau of Economic Geology, John A. and Katherine G. Jackson School of Geosciences, The University of Texas at Austin, University Station, Box X, Austin, TX, USA, 78713-8924",
+        "College of Geo-exploration Science and Technology, Jilin University, No. 6 Xi minzhu street, Changchun, China, 130026",
+        "College of Geo‐exploration Science and Technology, Jilin University, No. 6 Xi minzhu street, Changchun, China, 130026"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Bureau of Economic Geology, John A. and Katherine G. Jackson School of Geosciences, The University of Texas at Austin, University Station, Box X, Austin, TX, USA, 78713-8924",
+          "institution_ids": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I86519309"
+          ]
+        },
+        {
+          "raw_affiliation_string": "College of Geo-exploration Science and Technology, Jilin University, No. 6 Xi minzhu street, Changchun, China, 130026",
+          "institution_ids": [
+            "https://openalex.org/I194450716"
+          ]
+        },
+        {
+          "raw_affiliation_string": "College of Geo‐exploration Science and Technology, Jilin University, No. 6 Xi minzhu street, Changchun, China, 130026",
+          "institution_ids": [
+            "https://openalex.org/I194450716"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5005237932",
+        "display_name": "Sergey B. Fomel",
+        "orcid": "https://orcid.org/0000-0002-9024-5137",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9024-5137"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1288783943",
+          "display_name": "Bureau of Economic Analysis",
+          "ror": "https://ror.org/03b17a012",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I1343035065"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sergey Fomel",
+      "raw_affiliation_strings": [
+        "Bureau of Economic Geology, John A. and Katherine G. Jackson School of Geosciences, The University of Texas at Austin, University Station, Box X, Austin, TX, USA, 78713-8924"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Bureau of Economic Geology, John A. and Katherine G. Jackson School of Geosciences, The University of Texas at Austin, University Station, Box X, Austin, TX, USA, 78713-8924",
+          "institution_ids": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5030604925"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I1288783943",
+    "https://openalex.org/I194450716",
+    "https://openalex.org/I86519309"
+  ],
+  "apc_list": {
+    "value": 4150,
+    "currency": "USD",
+    "value_usd": 4150
+  },
+  "apc_paid": null,
+  "fwci": 5.7004,
+  "has_fulltext": false,
+  "cited_by_count": 120,
+  "citation_normalized_percentile": {
+    "value": 0.95391253,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 94,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "61",
+    "issue": "3",
+    "first_page": "516",
+    "last_page": "525"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.8424000144004822,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.8424000144004822,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10220",
+      "display_name": "Machine Fault Diagnosis Techniques",
+      "score": 0.07190000265836716,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.040800001472234726,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/time–frequency-analysis",
+      "display_name": "Time–frequency analysis",
+      "score": 0.589482843875885
+    },
+    {
+      "id": "https://openalex.org/keywords/matrix-decomposition",
+      "display_name": "Matrix decomposition",
+      "score": 0.5454668402671814
+    },
+    {
+      "id": "https://openalex.org/keywords/synthetic-data",
+      "display_name": "Synthetic data",
+      "score": 0.5413898825645447
+    },
+    {
+      "id": "https://openalex.org/keywords/attenuation",
+      "display_name": "Attenuation",
+      "score": 0.5229312181472778
+    },
+    {
+      "id": "https://openalex.org/keywords/inversion",
+      "display_name": "Inversion (geology)",
+      "score": 0.4755637049674988
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.47504356503486633
+    },
+    {
+      "id": "https://openalex.org/keywords/decomposition",
+      "display_name": "Decomposition",
+      "score": 0.45826205611228943
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-inversion",
+      "display_name": "Seismic inversion",
+      "score": 0.4399442672729492
+    },
+    {
+      "id": "https://openalex.org/keywords/data-processing",
+      "display_name": "Data processing",
+      "score": 0.43458807468414307
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.432290643453598
+    },
+    {
+      "id": "https://openalex.org/keywords/regional-geology",
+      "display_name": "Regional geology",
+      "score": 0.4141806662082672
+    },
+    {
+      "id": "https://openalex.org/keywords/fourier-transform",
+      "display_name": "Fourier transform",
+      "score": 0.41313862800598145
+    },
+    {
+      "id": "https://openalex.org/keywords/geophysics",
+      "display_name": "Geophysics",
+      "score": 0.40540438890457153
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.3721078634262085
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.29175275564193726
+    },
+    {
+      "id": "https://openalex.org/keywords/metamorphic-petrology",
+      "display_name": "Metamorphic petrology",
+      "score": 0.1641736924648285
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.14898014068603516
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.09910380840301514
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.08726999163627625
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C142433447",
+      "wikidata": "https://www.wikidata.org/wiki/Q7806653",
+      "display_name": "Time–frequency analysis",
+      "level": 3,
+      "score": 0.589482843875885
+    },
+    {
+      "id": "https://openalex.org/C42355184",
+      "wikidata": "https://www.wikidata.org/wiki/Q1361088",
+      "display_name": "Matrix decomposition",
+      "level": 3,
+      "score": 0.5454668402671814
+    },
+    {
+      "id": "https://openalex.org/C160920958",
+      "wikidata": "https://www.wikidata.org/wiki/Q7662746",
+      "display_name": "Synthetic data",
+      "level": 2,
+      "score": 0.5413898825645447
+    },
+    {
+      "id": "https://openalex.org/C184652730",
+      "wikidata": "https://www.wikidata.org/wiki/Q2357982",
+      "display_name": "Attenuation",
+      "level": 2,
+      "score": 0.5229312181472778
+    },
+    {
+      "id": "https://openalex.org/C1893757",
+      "wikidata": "https://www.wikidata.org/wiki/Q3653001",
+      "display_name": "Inversion (geology)",
+      "level": 3,
+      "score": 0.4755637049674988
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.47504356503486633
+    },
+    {
+      "id": "https://openalex.org/C124681953",
+      "wikidata": "https://www.wikidata.org/wiki/Q339062",
+      "display_name": "Decomposition",
+      "level": 2,
+      "score": 0.45826205611228943
+    },
+    {
+      "id": "https://openalex.org/C39267094",
+      "wikidata": "https://www.wikidata.org/wiki/Q7446968",
+      "display_name": "Seismic inversion",
+      "level": 3,
+      "score": 0.4399442672729492
+    },
+    {
+      "id": "https://openalex.org/C138827492",
+      "wikidata": "https://www.wikidata.org/wiki/Q6661985",
+      "display_name": "Data processing",
+      "level": 2,
+      "score": 0.43458807468414307
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.432290643453598
+    },
+    {
+      "id": "https://openalex.org/C161028810",
+      "wikidata": "https://www.wikidata.org/wiki/Q2138304",
+      "display_name": "Regional geology",
+      "level": 4,
+      "score": 0.4141806662082672
+    },
+    {
+      "id": "https://openalex.org/C102519508",
+      "wikidata": "https://www.wikidata.org/wiki/Q6520159",
+      "display_name": "Fourier transform",
+      "level": 2,
+      "score": 0.41313862800598145
+    },
+    {
+      "id": "https://openalex.org/C8058405",
+      "wikidata": "https://www.wikidata.org/wiki/Q46255",
+      "display_name": "Geophysics",
+      "level": 1,
+      "score": 0.40540438890457153
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.3721078634262085
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.29175275564193726
+    },
+    {
+      "id": "https://openalex.org/C2993313656",
+      "wikidata": "https://www.wikidata.org/wiki/Q163082",
+      "display_name": "Metamorphic petrology",
+      "level": 3,
+      "score": 0.1641736924648285
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.14898014068603516
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.09910380840301514
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.08726999163627625
+    },
+    {
+      "id": "https://openalex.org/C158693339",
+      "wikidata": "https://www.wikidata.org/wiki/Q190524",
+      "display_name": "Eigenvalues and eigenvectors",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C77928131",
+      "wikidata": "https://www.wikidata.org/wiki/Q193343",
+      "display_name": "Tectonics",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C76155785",
+      "wikidata": "https://www.wikidata.org/wiki/Q418",
+      "display_name": "Telecommunications",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C18903297",
+      "wikidata": "https://www.wikidata.org/wiki/Q7150",
+      "display_name": "Ecology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C111919701",
+      "wikidata": "https://www.wikidata.org/wiki/Q9135",
+      "display_name": "Operating system",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C159737794",
+      "wikidata": "https://www.wikidata.org/wiki/Q124274",
+      "display_name": "Azimuth",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C554190296",
+      "wikidata": "https://www.wikidata.org/wiki/Q47528",
+      "display_name": "Radar",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1111/j.1365-2478.2012.01062.x",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1111/j.1365-2478.2012.01062.x",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S45030768",
+        "display_name": "Geophysical Prospecting",
+        "issn_l": "0016-8025",
+        "issn": [
+          "0016-8025",
+          "1365-2478"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysical Prospecting",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 34,
+  "referenced_works": [
+    "https://openalex.org/W627907298",
+    "https://openalex.org/W1597725527",
+    "https://openalex.org/W1973540739",
+    "https://openalex.org/W1976967221",
+    "https://openalex.org/W1977830954",
+    "https://openalex.org/W1983022988",
+    "https://openalex.org/W1986754283",
+    "https://openalex.org/W1997898680",
+    "https://openalex.org/W2000369992",
+    "https://openalex.org/W2009511046",
+    "https://openalex.org/W2013179616",
+    "https://openalex.org/W2018177648",
+    "https://openalex.org/W2020997493",
+    "https://openalex.org/W2021659570",
+    "https://openalex.org/W2057160309",
+    "https://openalex.org/W2057663503",
+    "https://openalex.org/W2071519141",
+    "https://openalex.org/W2088461590",
+    "https://openalex.org/W2099081746",
+    "https://openalex.org/W2100962727",
+    "https://openalex.org/W2126720920",
+    "https://openalex.org/W2132092975",
+    "https://openalex.org/W2139084611",
+    "https://openalex.org/W2151972304",
+    "https://openalex.org/W2158824661",
+    "https://openalex.org/W2160343242",
+    "https://openalex.org/W2162770137",
+    "https://openalex.org/W2166184022",
+    "https://openalex.org/W2188563164",
+    "https://openalex.org/W2323541881",
+    "https://openalex.org/W3151807103",
+    "https://openalex.org/W3165898261",
+    "https://openalex.org/W4285719527",
+    "https://openalex.org/W6620149880"
+  ],
+  "related_works": [
+    "https://openalex.org/W3094347770",
+    "https://openalex.org/W1993696404",
+    "https://openalex.org/W2166809960",
+    "https://openalex.org/W3197588993",
+    "https://openalex.org/W2750367269",
+    "https://openalex.org/W4384644066",
+    "https://openalex.org/W2328841023",
+    "https://openalex.org/W112948218",
+    "https://openalex.org/W3174868297",
+    "https://openalex.org/W2912821872"
+  ],
+  "abstract_inverted_index": {
+    "ABSTRACT": [
+      0
+    ],
+    "Many": [
+      1
+    ],
+    "natural": [
+      2
+    ],
+    "phenomena,": [
+      3
+    ],
+    "including": [
+      4
+    ],
+    "geologic": [
+      5
+    ],
+    "events": [
+      6
+    ],
+    "and": [
+      7,
+      21,
+      101,
+      118,
+      130
+    ],
+    "geophysical": [
+      8
+    ],
+    "data,": [
+      9,
+      30
+    ],
+    "are": [
+      10
+    ],
+    "fundamentally": [
+      11
+    ],
+    "nonstationary": [
+      12,
+      46,
+      77,
+      113
+    ],
+    "‐": [
+      13
+    ],
+    "exhibiting": [
+      14
+    ],
+    "statistical": [
+      15
+    ],
+    "variation": [
+      16,
+      114
+    ],
+    "that": [
+      17,
+      106
+    ],
+    "changes": [
+      18
+    ],
+    "in": [
+      19,
+      33,
+      121
+    ],
+    "space": [
+      20
+    ],
+    "time.": [
+      22
+    ],
+    "Time‐frequency": [
+      23
+    ],
+    "characterization": [
+      24
+    ],
+    "is": [
+      25,
+      69
+    ],
+    "useful": [
+      26
+    ],
+    "for": [
+      27,
+      75
+    ],
+    "analysing": [
+      28,
+      76
+    ],
+    "such": [
+      29,
+      124
+    ],
+    "seismic": [
+      31,
+      49,
+      116,
+      126
+    ],
+    "traces": [
+      32
+    ],
+    "particular.": [
+      34
+    ],
+    "We": [
+      35
+    ],
+    "present": [
+      36
+    ],
+    "a": [
+      37,
+      55
+    ],
+    "novel": [
+      38
+    ],
+    "time‐frequency": [
+      39,
+      86,
+      109
+    ],
+    "decomposition,": [
+      40
+    ],
+    "which": [
+      41,
+      71
+    ],
+    "aims": [
+      42
+    ],
+    "at": [
+      43
+    ],
+    "depicting": [
+      44
+    ],
+    "the": [
+      45,
+      60,
+      89,
+      96,
+      107
+    ],
+    "character": [
+      47
+    ],
+    "of": [
+      48,
+      94,
+      115
+    ],
+    "data.": [
+      50,
+      78
+    ],
+    "The": [
+      51,
+      67,
+      79
+    ],
+    "proposed": [
+      52,
+      80
+    ],
+    "decomposition": [
+      53,
+      68,
+      110
+    ],
+    "uses": [
+      54
+    ],
+    "Fourier": [
+      56
+    ],
+    "basis": [
+      57
+    ],
+    "to": [
+      58,
+      98
+    ],
+    "match": [
+      59
+    ],
+    "target": [
+      61
+    ],
+    "signal": [
+      62
+    ],
+    "using": [
+      63
+    ],
+    "regularized": [
+      64
+    ],
+    "least‐squares": [
+      65
+    ],
+    "inversion.": [
+      66
+    ],
+    "invertible,": [
+      70
+    ],
+    "makes": [
+      72
+    ],
+    "it": [
+      73
+    ],
+    "suitable": [
+      74
+    ],
+    "method": [
+      81,
+      97
+    ],
+    "can": [
+      82,
+      111
+    ],
+    "provide": [
+      83
+    ],
+    "more": [
+      84
+    ],
+    "flexible": [
+      85
+    ],
+    "representation": [
+      87
+    ],
+    "than": [
+      88
+    ],
+    "classical": [
+      90
+    ],
+    "S": [
+      91
+    ],
+    "transform.": [
+      92
+    ],
+    "Results": [
+      93
+    ],
+    "applying": [
+      95
+    ],
+    "both": [
+      99
+    ],
+    "synthetic": [
+      100
+    ],
+    "field": [
+      102
+    ],
+    "data": [
+      103,
+      117,
+      132
+    ],
+    "examples": [
+      104
+    ],
+    "demonstrate": [
+      105
+    ],
+    "local": [
+      108
+    ],
+    "characterize": [
+      112
+    ],
+    "be": [
+      119
+    ],
+    "used": [
+      120
+    ],
+    "practical": [
+      122
+    ],
+    "applications,": [
+      123
+    ],
+    "as": [
+      125
+    ],
+    "ground‐roll": [
+      127
+    ],
+    "noise": [
+      128
+    ],
+    "attenuation": [
+      129
+    ],
+    "multicomponent": [
+      131
+    ],
+    "registration.": [
+      133
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

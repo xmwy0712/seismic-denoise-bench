@@ -1,0 +1,759 @@
+{
+  "id": "https://openalex.org/W2083391165",
+  "doi": "https://doi.org/10.2118/19571-pa",
+  "title": "Bit Whirl—A New Theory of PDC Bit Failure",
+  "display_name": "Bit Whirl—A New Theory of PDC Bit Failure",
+  "publication_year": 1990,
+  "publication_date": "1990-12-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2083391165",
+    "doi": "https://doi.org/10.2118/19571-pa",
+    "mag": "2083391165"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.2118/19571-pa",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.2118/19571-pa",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S144070897",
+      "display_name": "SPE Drilling Engineering",
+      "issn_l": "0885-9744",
+      "issn": [
+        "0885-9744",
+        "2469-8504"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "SPE Drilling Engineering",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5033493274",
+        "display_name": "J. F. Brett",
+        "orcid": "https://orcid.org/0000-0002-3455-5958"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "J. Ford Brett",
+      "raw_affiliation_strings": [
+        "Amoco Production Co"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Amoco Production Co",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5096728606",
+        "display_name": "Thomas M. Warron",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Thomas M. Warron",
+      "raw_affiliation_strings": [
+        "Amoco Production Co"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Amoco Production Co",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5111842801",
+        "display_name": "Suzanne M. Bohr",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Suzanne M. Bohr",
+      "raw_affiliation_strings": [
+        "Amoco Production Co"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Amoco Production Co",
+          "institution_ids": []
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 22.9655,
+  "has_fulltext": false,
+  "cited_by_count": 100,
+  "citation_normalized_percentile": {
+    "value": 0.9953447,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 90,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "5",
+    "issue": "04",
+    "first_page": "275",
+    "last_page": "281"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12482",
+    "display_name": "Tunneling and Rock Mechanics",
+    "score": 0.998199999332428,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2205",
+      "display_name": "Civil and Structural Engineering"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12482",
+      "display_name": "Tunneling and Rock Mechanics",
+      "score": 0.998199999332428,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10188",
+      "display_name": "Advanced machining processes and optimization",
+      "score": 0.9965999722480774,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11301",
+      "display_name": "Advanced Surface Polishing Techniques",
+      "score": 0.9926000237464905,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/bit",
+      "display_name": "Bit (key)",
+      "score": 0.9065859317779541
+    },
+    {
+      "id": "https://openalex.org/keywords/instant-centre-of-rotation",
+      "display_name": "Instant centre of rotation",
+      "score": 0.49721625447273254
+    },
+    {
+      "id": "https://openalex.org/keywords/bit-rate",
+      "display_name": "Bit rate",
+      "score": 0.438763827085495
+    },
+    {
+      "id": "https://openalex.org/keywords/rotation",
+      "display_name": "Rotation (mathematics)",
+      "score": 0.42878738045692444
+    },
+    {
+      "id": "https://openalex.org/keywords/vibration",
+      "display_name": "Vibration",
+      "score": 0.4154840111732483
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.341499924659729
+    },
+    {
+      "id": "https://openalex.org/keywords/engineering",
+      "display_name": "Engineering",
+      "score": 0.33750051259994507
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.30041399598121643
+    },
+    {
+      "id": "https://openalex.org/keywords/acoustics",
+      "display_name": "Acoustics",
+      "score": 0.2456103265285492
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-hardware",
+      "display_name": "Computer hardware",
+      "score": 0.10929074883460999
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.09465327858924866
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C117011727",
+      "wikidata": "https://www.wikidata.org/wiki/Q1278488",
+      "display_name": "Bit (key)",
+      "level": 2,
+      "score": 0.9065859317779541
+    },
+    {
+      "id": "https://openalex.org/C76724020",
+      "wikidata": "https://www.wikidata.org/wiki/Q1429043",
+      "display_name": "Instant centre of rotation",
+      "level": 3,
+      "score": 0.49721625447273254
+    },
+    {
+      "id": "https://openalex.org/C2987812609",
+      "wikidata": "https://www.wikidata.org/wiki/Q194158",
+      "display_name": "Bit rate",
+      "level": 2,
+      "score": 0.438763827085495
+    },
+    {
+      "id": "https://openalex.org/C74050887",
+      "wikidata": "https://www.wikidata.org/wiki/Q848368",
+      "display_name": "Rotation (mathematics)",
+      "level": 2,
+      "score": 0.42878738045692444
+    },
+    {
+      "id": "https://openalex.org/C198394728",
+      "wikidata": "https://www.wikidata.org/wiki/Q3695508",
+      "display_name": "Vibration",
+      "level": 2,
+      "score": 0.4154840111732483
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.341499924659729
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.33750051259994507
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.30041399598121643
+    },
+    {
+      "id": "https://openalex.org/C24890656",
+      "wikidata": "https://www.wikidata.org/wiki/Q82811",
+      "display_name": "Acoustics",
+      "level": 1,
+      "score": 0.2456103265285492
+    },
+    {
+      "id": "https://openalex.org/C9390403",
+      "wikidata": "https://www.wikidata.org/wiki/Q3966",
+      "display_name": "Computer hardware",
+      "level": 1,
+      "score": 0.10929074883460999
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.09465327858924866
+    },
+    {
+      "id": "https://openalex.org/C38652104",
+      "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+      "display_name": "Computer security",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.2118/19571-pa",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.2118/19571-pa",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S144070897",
+        "display_name": "SPE Drilling Engineering",
+        "issn_l": "0885-9744",
+        "issn": [
+          "0885-9744",
+          "2469-8504"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "SPE Drilling Engineering",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 13,
+  "referenced_works": [
+    "https://openalex.org/W1998792419",
+    "https://openalex.org/W2008125229",
+    "https://openalex.org/W2021391893",
+    "https://openalex.org/W2031396576",
+    "https://openalex.org/W2039610923",
+    "https://openalex.org/W2051245518",
+    "https://openalex.org/W2070591163",
+    "https://openalex.org/W2081090388",
+    "https://openalex.org/W2095123119",
+    "https://openalex.org/W2144738851",
+    "https://openalex.org/W2160656782",
+    "https://openalex.org/W3008269230",
+    "https://openalex.org/W6648417463"
+  ],
+  "related_works": [
+    "https://openalex.org/W2016137920",
+    "https://openalex.org/W233192740",
+    "https://openalex.org/W1987665458",
+    "https://openalex.org/W2057658878",
+    "https://openalex.org/W4285245115",
+    "https://openalex.org/W3143520265",
+    "https://openalex.org/W2083391165",
+    "https://openalex.org/W2052102990",
+    "https://openalex.org/W2008125229",
+    "https://openalex.org/W2320512531"
+  ],
+  "abstract_inverted_index": {
+    "Summary": [
+      0
+    ],
+    "This": [
+      1
+    ],
+    "paper": [
+      2
+    ],
+    "presents": [
+      3
+    ],
+    "the": [
+      4,
+      11,
+      29,
+      36,
+      39,
+      42,
+      47,
+      90
+    ],
+    "results": [
+      5,
+      88
+    ],
+    "of": [
+      6,
+      32,
+      38,
+      93,
+      99
+    ],
+    "a": [
+      7,
+      22,
+      51,
+      64
+    ],
+    "study": [
+      8
+    ],
+    "showing": [
+      9
+    ],
+    "that": [
+      10
+    ],
+    "most": [
+      12
+    ],
+    "harmful": [
+      13
+    ],
+    "polycrystalline-diamond-compact": [
+      14
+    ],
+    "(PDC)": [
+      15
+    ],
+    "bit": [
+      16,
+      43,
+      53,
+      97
+    ],
+    "vibrations": [
+      17
+    ],
+    "can": [
+      18,
+      54
+    ],
+    "be": [
+      19
+    ],
+    "attributed": [
+      20
+    ],
+    "to": [
+      21,
+      78
+    ],
+    "phenomenon": [
+      23
+    ],
+    "called": [
+      24
+    ],
+    "\"bit": [
+      25
+    ],
+    "whirl.\"": [
+      26
+    ],
+    "During": [
+      27
+    ],
+    "whirl,": [
+      28
+    ],
+    "instantaneous": [
+      30
+    ],
+    "center": [
+      31
+    ],
+    "rotation": [
+      33
+    ],
+    "moves": [
+      34
+    ],
+    "around": [
+      35,
+      46
+    ],
+    "face": [
+      37
+    ],
+    "bit,": [
+      40
+    ],
+    "and": [
+      41,
+      58,
+      86,
+      102
+    ],
+    "whirls": [
+      44
+    ],
+    "backward": [
+      45
+    ],
+    "hole.": [
+      48
+    ],
+    "Cutters": [
+      49
+    ],
+    "on": [
+      50,
+      63,
+      95
+    ],
+    "whirling": [
+      52
+    ],
+    "move": [
+      55
+    ],
+    "sideways,": [
+      56
+    ],
+    "backward,": [
+      57
+    ],
+    "much": [
+      59
+    ],
+    "faster": [
+      60
+    ],
+    "than": [
+      61
+    ],
+    "those": [
+      62
+    ],
+    "true": [
+      65
+    ],
+    "rotating": [
+      66
+    ],
+    "bit.": [
+      67
+    ],
+    "The": [
+      68
+    ],
+    "impact": [
+      69
+    ],
+    "loads": [
+      70
+    ],
+    "associated": [
+      71
+    ],
+    "with": [
+      72
+    ],
+    "this": [
+      73
+    ],
+    "motion": [
+      74
+    ],
+    "cause": [
+      75
+    ],
+    "PDC": [
+      76,
+      96
+    ],
+    "cutters": [
+      77
+    ],
+    "chip,": [
+      79
+    ],
+    "which,": [
+      80
+    ],
+    "in": [
+      81
+    ],
+    "turn,": [
+      82
+    ],
+    "accelerates": [
+      83
+    ],
+    "wear.": [
+      84
+    ],
+    "Laboratory": [
+      85
+    ],
+    "field": [
+      87
+    ],
+    "show": [
+      89
+    ],
+    "detrimental": [
+      91
+    ],
+    "effects": [
+      92
+    ],
+    "whirl": [
+      94
+    ],
+    "rate": [
+      98
+    ],
+    "penetration": [
+      100
+    ],
+    "(ROP)": [
+      101
+    ],
+    "life.": [
+      103
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 9
+    }
+  ],
+  "updated_date": "2026-05-21T06:26:12.895304",
+  "created_date": "2025-10-10T00:00:00"
+}

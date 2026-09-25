@@ -1,0 +1,1334 @@
+{
+  "id": "https://openalex.org/W2004296849",
+  "doi": "https://doi.org/10.1029/94jb01468",
+  "title": "Separation of intrinsic and scattering attenuation in southern California using TERRAscope data",
+  "display_name": "Separation of intrinsic and scattering attenuation in southern California using TERRAscope data",
+  "publication_year": 1994,
+  "publication_date": "1994-09-10",
+  "ids": {
+    "openalex": "https://openalex.org/W2004296849",
+    "doi": "https://doi.org/10.1029/94jb01468",
+    "mag": "2004296849"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1029/94jb01468",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1029/94jb01468",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S207178839",
+      "display_name": "Journal of Geophysical Research Atmospheres",
+      "issn_l": "0148-0227",
+      "issn": [
+        "0148-0227",
+        "2156-2202",
+        "2169-897X",
+        "2169-8996"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315809",
+      "host_organization_name": "American Geophysical Union",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315809"
+      ],
+      "host_organization_lineage_names": [
+        "American Geophysical Union"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Geophysical Research: Solid Earth",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5111940696",
+        "display_name": "Anshu Jin",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Anshu Jin",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5023365788",
+        "display_name": "Kevin Mayeda",
+        "orcid": "https://orcid.org/0000-0003-0980-0605"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Kevin Mayeda",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5107935105",
+        "display_name": "David Adams",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "David Adams",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5113433508",
+        "display_name": "Keiiti Aki",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Keiiti Aki",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 4070,
+    "currency": "USD",
+    "value_usd": 4070
+  },
+  "apc_paid": null,
+  "fwci": 5.0441,
+  "has_fulltext": false,
+  "cited_by_count": 105,
+  "citation_normalized_percentile": {
+    "value": 0.95655488,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "99",
+    "issue": "B9",
+    "first_page": "17835",
+    "last_page": "17848"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11757",
+    "display_name": "Seismic Waves and Analysis",
+    "score": 0.9998000264167786,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10110",
+      "display_name": "earthquake and tectonic studies",
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/attenuation",
+      "display_name": "Attenuation",
+      "score": 0.7892704010009766
+    },
+    {
+      "id": "https://openalex.org/keywords/seismogram",
+      "display_name": "Seismogram",
+      "score": 0.7279412746429443
+    },
+    {
+      "id": "https://openalex.org/keywords/coda",
+      "display_name": "Coda",
+      "score": 0.7015089988708496
+    },
+    {
+      "id": "https://openalex.org/keywords/scattering",
+      "display_name": "Scattering",
+      "score": 0.699971079826355
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.5697895288467407
+    },
+    {
+      "id": "https://openalex.org/keywords/computational-physics",
+      "display_name": "Computational physics",
+      "score": 0.43054574728012085
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-wave",
+      "display_name": "Seismic wave",
+      "score": 0.4214518368244171
+    },
+    {
+      "id": "https://openalex.org/keywords/geodesy",
+      "display_name": "Geodesy",
+      "score": 0.37894782423973083
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.37334465980529785
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.3691655993461609
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.2884962856769562
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C184652730",
+      "wikidata": "https://www.wikidata.org/wiki/Q2357982",
+      "display_name": "Attenuation",
+      "level": 2,
+      "score": 0.7892704010009766
+    },
+    {
+      "id": "https://openalex.org/C169744125",
+      "wikidata": "https://www.wikidata.org/wiki/Q510375",
+      "display_name": "Seismogram",
+      "level": 2,
+      "score": 0.7279412746429443
+    },
+    {
+      "id": "https://openalex.org/C3962253",
+      "wikidata": "https://www.wikidata.org/wiki/Q852466",
+      "display_name": "Coda",
+      "level": 2,
+      "score": 0.7015089988708496
+    },
+    {
+      "id": "https://openalex.org/C191486275",
+      "wikidata": "https://www.wikidata.org/wiki/Q210028",
+      "display_name": "Scattering",
+      "level": 2,
+      "score": 0.699971079826355
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.5697895288467407
+    },
+    {
+      "id": "https://openalex.org/C30475298",
+      "wikidata": "https://www.wikidata.org/wiki/Q909554",
+      "display_name": "Computational physics",
+      "level": 1,
+      "score": 0.43054574728012085
+    },
+    {
+      "id": "https://openalex.org/C78542244",
+      "wikidata": "https://www.wikidata.org/wiki/Q186167",
+      "display_name": "Seismic wave",
+      "level": 2,
+      "score": 0.4214518368244171
+    },
+    {
+      "id": "https://openalex.org/C13280743",
+      "wikidata": "https://www.wikidata.org/wiki/Q131089",
+      "display_name": "Geodesy",
+      "level": 1,
+      "score": 0.37894782423973083
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.37334465980529785
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.3691655993461609
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.2884962856769562
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1029/94jb01468",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1029/94jb01468",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S207178839",
+        "display_name": "Journal of Geophysical Research Atmospheres",
+        "issn_l": "0148-0227",
+        "issn": [
+          "0148-0227",
+          "2156-2202",
+          "2169-897X",
+          "2169-8996"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315809",
+        "host_organization_name": "American Geophysical Union",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315809"
+        ],
+        "host_organization_lineage_names": [
+          "American Geophysical Union"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Geophysical Research: Solid Earth",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320306084",
+      "display_name": "U.S. Department of Energy",
+      "ror": "https://ror.org/01bj3aw27"
+    },
+    {
+      "id": "https://openalex.org/F4320312836",
+      "display_name": "Southern California Earthquake Center",
+      "ror": "https://ror.org/03vhnve41"
+    },
+    {
+      "id": "https://openalex.org/F4320332183",
+      "display_name": "U.S. Geological Survey",
+      "ror": "https://ror.org/035a68863"
+    }
+  ],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 17,
+  "referenced_works": [
+    "https://openalex.org/W1501597519",
+    "https://openalex.org/W1969964445",
+    "https://openalex.org/W1991687831",
+    "https://openalex.org/W1992133087",
+    "https://openalex.org/W1994729497",
+    "https://openalex.org/W2022716782",
+    "https://openalex.org/W2055184659",
+    "https://openalex.org/W2056676957",
+    "https://openalex.org/W2068571834",
+    "https://openalex.org/W2084982717",
+    "https://openalex.org/W2094273345",
+    "https://openalex.org/W2106347413",
+    "https://openalex.org/W2110603984",
+    "https://openalex.org/W2146036776",
+    "https://openalex.org/W2160770386",
+    "https://openalex.org/W2280268569",
+    "https://openalex.org/W2285823676"
+  ],
+  "related_works": [
+    "https://openalex.org/W2077676242",
+    "https://openalex.org/W2189040265",
+    "https://openalex.org/W2170075128",
+    "https://openalex.org/W2792541813",
+    "https://openalex.org/W2094604021",
+    "https://openalex.org/W2526127384",
+    "https://openalex.org/W2779716925",
+    "https://openalex.org/W2121823475",
+    "https://openalex.org/W2530187926",
+    "https://openalex.org/W2946331930"
+  ],
+  "abstract_inverted_index": {
+    "A": [
+      0,
+      150,
+      215
+    ],
+    "multiple": [
+      1,
+      202
+    ],
+    "lapse": [
+      2,
+      33
+    ],
+    "time": [
+      3,
+      34
+    ],
+    "window": [
+      4
+    ],
+    "analysis": [
+      5
+    ],
+    "was": [
+      6,
+      164,
+      221
+    ],
+    "applied": [
+      7
+    ],
+    "to": [
+      8,
+      20,
+      83,
+      166,
+      223,
+      291,
+      351
+    ],
+    "three‐component": [
+      9
+    ],
+    "broadband": [
+      10
+    ],
+    "seismograms": [
+      11
+    ],
+    "recorded": [
+      12
+    ],
+    "at": [
+      13,
+      88,
+      137,
+      265,
+      284,
+      305
+    ],
+    "five": [
+      14,
+      125
+    ],
+    "TERRAscope": [
+      15
+    ],
+    "stations": [
+      16,
+      138,
+      257,
+      283
+    ],
+    "in": [
+      17,
+      158,
+      175,
+      254,
+      340
+    ],
+    "southern": [
+      18
+    ],
+    "California": [
+      19
+    ],
+    "separate": [
+      21
+    ],
+    "scattering": [
+      22,
+      181,
+      194,
+      274,
+      304
+    ],
+    "and": [
+      23,
+      38,
+      68,
+      91,
+      120,
+      132,
+      140,
+      185,
+      197,
+      209,
+      261,
+      278,
+      299,
+      309,
+      346,
+      357,
+      364
+    ],
+    "intrinsic": [
+      24,
+      187,
+      344
+    ],
+    "attenuation.": [
+      25
+    ],
+    "Seismic": [
+      26
+    ],
+    "energies": [
+      27,
+      76
+    ],
+    "were": [
+      28,
+      81,
+      135,
+      148
+    ],
+    "integrated": [
+      29,
+      75
+    ],
+    "over": [
+      30,
+      114
+    ],
+    "three": [
+      31
+    ],
+    "consecutive": [
+      32
+    ],
+    "intervals:": [
+      35
+    ],
+    "0–15,": [
+      36
+    ],
+    "15–30,": [
+      37
+    ],
+    "30–45": [
+      39
+    ],
+    "s": [
+      40
+    ],
+    "(measured": [
+      41
+    ],
+    "from": [
+      42,
+      58,
+      318,
+      332
+    ],
+    "the": [
+      43,
+      62,
+      74,
+      92,
+      168,
+      173,
+      180,
+      186,
+      207,
+      225,
+      233,
+      236,
+      262,
+      273,
+      292,
+      324,
+      333,
+      343,
+      352,
+      355,
+      362
+    ],
+    "S": [
+      44
+    ],
+    "arrival)": [
+      45
+    ],
+    "for": [
+      46,
+      71,
+      77,
+      110,
+      123,
+      142,
+      248,
+      272
+    ],
+    "approximately": [
+      47
+    ],
+    "30": [
+      48
+    ],
+    "earthquakes": [
+      49,
+      80
+    ],
+    "with": [
+      50,
+      245
+    ],
+    "hypocentral": [
+      51
+    ],
+    "distances": [
+      52
+    ],
+    "of": [
+      53,
+      65,
+      94,
+      104,
+      153,
+      201,
+      212,
+      307,
+      336
+    ],
+    "less": [
+      54
+    ],
+    "than": [
+      55,
+      354
+    ],
+    "70": [
+      56
+    ],
+    "km": [
+      57
+    ],
+    "each": [
+      59,
+      89,
+      111
+    ],
+    "station.": [
+      60,
+      365
+    ],
+    "Using": [
+      61
+    ],
+    "fundamental": [
+      63
+    ],
+    "separability": [
+      64
+    ],
+    "source,": [
+      66
+    ],
+    "site,": [
+      67
+    ],
+    "path": [
+      69
+    ],
+    "effects": [
+      70
+    ],
+    "coda": [
+      72,
+      329,
+      337
+    ],
+    "waves,": [
+      73
+    ],
+    "different": [
+      78
+    ],
+    "magnitude": [
+      79
+    ],
+    "normalized": [
+      82,
+      107
+    ],
+    "a": [
+      84,
+      102,
+      159,
+      302
+    ],
+    "common": [
+      85
+    ],
+    "source": [
+      86
+    ],
+    "size": [
+      87
+    ],
+    "station,": [
+      90
+    ],
+    "effect": [
+      93
+    ],
+    "near‐site": [
+      95
+    ],
+    "amplification": [
+      96
+    ],
+    "is": [
+      97,
+      195,
+      258
+    ],
+    "removed.": [
+      98
+    ],
+    "Subsequently,": [
+      99
+    ],
+    "we": [
+      100
+    ],
+    "constructed": [
+      101
+    ],
+    "group": [
+      103
+    ],
+    "geometric": [
+      105
+    ],
+    "spreading‐corrected": [
+      106
+    ],
+    "energy‐distance": [
+      108
+    ],
+    "curves": [
+      109
+    ],
+    "station": [
+      112,
+      250,
+      313
+    ],
+    "region": [
+      113
+    ],
+    "frequency": [
+      115,
+      129,
+      247,
+      259,
+      363
+    ],
+    "bands": [
+      116
+    ],
+    "0.5–1,": [
+      117
+    ],
+    "1–2,": [
+      118
+    ],
+    "2–4,": [
+      119
+    ],
+    "4–8": [
+      121
+    ],
+    "Hz": [
+      122
+    ],
+    "all": [
+      124,
+      199,
+      249
+    ],
+    "stations.": [
+      126
+    ],
+    "Two": [
+      127,
+      170
+    ],
+    "more": [
+      128
+    ],
+    "bands,": [
+      130
+    ],
+    "8–16": [
+      131
+    ],
+    "16–32": [
+      133
+    ],
+    "Hz,": [
+      134,
+      311
+    ],
+    "added": [
+      136
+    ],
+    "PAS": [
+      139
+    ],
+    "SVD,": [
+      141,
+      300
+    ],
+    "which": [
+      143
+    ],
+    "higher": [
+      144
+    ],
+    "sample": [
+      145
+    ],
+    "rate": [
+      146,
+      335
+    ],
+    "data": [
+      147
+    ],
+    "available.": [
+      149
+    ],
+    "theoretical": [
+      151
+    ],
+    "model": [
+      152,
+      205,
+      228
+    ],
+    "body": [
+      154
+    ],
+    "wave": [
+      155
+    ],
+    "energy": [
+      156
+    ],
+    "propagation": [
+      157
+    ],
+    "randomly": [
+      160
+    ],
+    "heterogeneous": [
+      161
+    ],
+    "elastic": [
+      162
+    ],
+    "medium": [
+      163,
+      174
+    ],
+    "employed": [
+      165
+    ],
+    "interpret": [
+      167
+    ],
+    "observation.": [
+      169
+    ],
+    "parameters": [
+      171
+    ],
+    "describe": [
+      172
+    ],
+    "this": [
+      176,
+      204
+    ],
+    "model.": [
+      177
+    ],
+    "These": [
+      178
+    ],
+    "are": [
+      179
+    ],
+    "attenuation": [
+      182,
+      188,
+      275
+    ],
+    "coefficient": [
+      183,
+      189,
+      276
+    ],
+    "ηs": [
+      184,
+      277
+    ],
+    "ηi.": [
+      190
+    ],
+    "By": [
+      191
+    ],
+    "assuming": [
+      192
+    ],
+    "that": [
+      193
+    ],
+    "isotropic": [
+      196
+    ],
+    "including": [
+      198
+    ],
+    "orders": [
+      200
+    ],
+    "scattering,": [
+      203
+    ],
+    "predicts": [
+      206
+    ],
+    "spatial": [
+      208
+    ],
+    "temporal": [
+      210
+    ],
+    "distribution": [
+      211
+    ],
+    "seismic": [
+      213,
+      237,
+      279
+    ],
+    "energy.": [
+      214
+    ],
+    "two‐step": [
+      216
+    ],
+    "least": [
+      217
+    ],
+    "squares": [
+      218
+    ],
+    "fitting": [
+      219,
+      227
+    ],
+    "procedure": [
+      220
+    ],
+    "used": [
+      222
+    ],
+    "find": [
+      224
+    ],
+    "best": [
+      226
+    ],
+    "parameters.": [
+      229
+    ],
+    "The": [
+      230,
+      252,
+      328
+    ],
+    "result": [
+      231
+    ],
+    "shows": [
+      232,
+      323
+    ],
+    "following:": [
+      234
+    ],
+    "(1)": [
+      235
+    ],
+    "albedo,": [
+      238
+    ],
+    "B0": [
+      239,
+      255,
+      281
+    ],
+    "=": [
+      240
+    ],
+    "ηs/(ηi": [
+      241
+    ],
+    "+": [
+      242
+    ],
+    "ηs),": [
+      243
+    ],
+    "increases": [
+      244
+    ],
+    "decreasing": [
+      246
+    ],
+    "regions.": [
+      251
+    ],
+    "difference": [
+      253,
+      263
+    ],
+    "among": [
+      256,
+      282
+    ],
+    "dependent,": [
+      260
+    ],
+    "disappears": [
+      264
+    ],
+    "6.0": [
+      266
+    ],
+    "Hz.": [
+      267
+    ],
+    "(2)": [
+      268
+    ],
+    "Significant": [
+      269
+    ],
+    "differences": [
+      270
+    ],
+    "exist": [
+      271
+    ],
+    "albedo": [
+      280
+    ],
+    "lower": [
+      285
+    ],
+    "frequencies.": [
+      286
+    ],
+    "Stations": [
+      287
+    ],
+    "on": [
+      288,
+      361
+    ],
+    "or": [
+      289
+    ],
+    "close": [
+      290
+    ],
+    "fault": [
+      293
+    ],
+    "zone(s),": [
+      294
+    ],
+    "such": [
+      295
+    ],
+    "as": [
+      296
+    ],
+    "PAS,": [
+      297
+    ],
+    "PFO,": [
+      298
+    ],
+    "show": [
+      301
+    ],
+    "stronger": [
+      303
+    ],
+    "frequencies": [
+      306
+    ],
+    "0.75": [
+      308
+    ],
+    "1.5": [
+      310
+    ],
+    "whereas": [
+      312
+    ],
+    "ISA,": [
+      314
+    ],
+    "located": [
+      315
+    ],
+    "far": [
+      316
+    ],
+    "away": [
+      317
+    ],
+    "any": [
+      319
+    ],
+    "major": [
+      320
+    ],
+    "active": [
+      321
+    ],
+    "faults,": [
+      322
+    ],
+    "lowest": [
+      325
+    ],
+    "scattering.": [
+      326
+    ],
+    "(3)": [
+      327
+    ],
+    "Q−1": [
+      330,
+      345
+    ],
+    "determined": [
+      331
+    ],
+    "decay": [
+      334
+    ],
+    "waves": [
+      338
+    ],
+    "lies,": [
+      339
+    ],
+    "general,": [
+      341
+    ],
+    "between": [
+      342
+    ],
+    "total": [
+      347
+    ],
+    "Q−1,": [
+      348
+    ],
+    "sometimes": [
+      349,
+      358
+    ],
+    "closer": [
+      350
+    ],
+    "former": [
+      353
+    ],
+    "latter,": [
+      356
+    ],
+    "opposite,": [
+      359
+    ],
+    "depending": [
+      360
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2026-08-21T09:56:20.448147",
+  "created_date": "2025-10-10T00:00:00"
+}

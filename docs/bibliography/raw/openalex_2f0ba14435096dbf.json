@@ -1,0 +1,802 @@
+{
+  "id": "https://openalex.org/W98279822",
+  "doi": "https://doi.org/10.1201/9780203734032-20",
+  "title": "A Nonlinear Squeezing of the Continuous Wavelet Transform Based on Auditory Nerve Models",
+  "display_name": "A Nonlinear Squeezing of the Continuous Wavelet Transform Based on Auditory Nerve Models",
+  "publication_year": 2017,
+  "publication_date": "2017-11-22",
+  "ids": {
+    "openalex": "https://openalex.org/W98279822",
+    "doi": "https://doi.org/10.1201/9780203734032-20",
+    "mag": "98279822"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1201/9780203734032-20",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1201/9780203734032-20",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "WAVELETS in Medicine and Biology",
+    "raw_type": "book-chapter"
+  },
+  "type": "book-chapter",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5111950662",
+        "display_name": "Ingrid Daubechies",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Ingrid Daubechies",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5090405149",
+        "display_name": "Stephane Herman Maes",
+        "orcid": "https://orcid.org/0000-0003-0195-2313",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-0195-2313"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I20089843",
+          "display_name": "Princeton University",
+          "ror": "https://ror.org/00hx57361",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I20089843"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Stéphane Maes",
+      "raw_affiliation_strings": [
+        "Program in Applied and Computational Mathematics and Department of Mathematics, Princeton University,IBM T. J. Watson Research Center, Human Language Technologies, Acoustic Processing Department"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Program in Applied and Computational Mathematics and Department of Mathematics, Princeton University,IBM T. J. Watson Research Center, Human Language Technologies, Acoustic Processing Department",
+          "institution_ids": [
+            "https://openalex.org/I20089843"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 54.9652,
+  "has_fulltext": false,
+  "cited_by_count": 253,
+  "citation_normalized_percentile": {
+    "value": 1.0,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 94,
+    "max": 100
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "527",
+    "last_page": "546"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10860",
+    "display_name": "Speech and Audio Processing",
+    "score": 0.9983000159263611,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1711",
+      "display_name": "Signal Processing"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10860",
+      "display_name": "Speech and Audio Processing",
+      "score": 0.9983000159263611,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1711",
+        "display_name": "Signal Processing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10283",
+      "display_name": "Hearing Loss and Rehabilitation",
+      "score": 0.9976999759674072,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10822",
+      "display_name": "Acoustic Wave Phenomena Research",
+      "score": 0.9934999942779541,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/nonlinear-system",
+      "display_name": "Nonlinear system",
+      "score": 0.5218254923820496
+    },
+    {
+      "id": "https://openalex.org/keywords/continuous-wavelet-transform",
+      "display_name": "Continuous wavelet transform",
+      "score": 0.513556957244873
+    },
+    {
+      "id": "https://openalex.org/keywords/speech-recognition",
+      "display_name": "Speech recognition",
+      "score": 0.42050036787986755
+    },
+    {
+      "id": "https://openalex.org/keywords/wavelet-transform",
+      "display_name": "Wavelet transform",
+      "score": 0.4140670597553253
+    },
+    {
+      "id": "https://openalex.org/keywords/wavelet",
+      "display_name": "Wavelet",
+      "score": 0.40927407145500183
+    },
+    {
+      "id": "https://openalex.org/keywords/acoustics",
+      "display_name": "Acoustics",
+      "score": 0.3779889941215515
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.3622572720050812
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.324786901473999
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.23860961198806763
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.23496419191360474
+    },
+    {
+      "id": "https://openalex.org/keywords/discrete-wavelet-transform",
+      "display_name": "Discrete wavelet transform",
+      "score": 0.18863949179649353
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C158622935",
+      "wikidata": "https://www.wikidata.org/wiki/Q660848",
+      "display_name": "Nonlinear system",
+      "level": 2,
+      "score": 0.5218254923820496
+    },
+    {
+      "id": "https://openalex.org/C95722684",
+      "wikidata": "https://www.wikidata.org/wiki/Q2622756",
+      "display_name": "Continuous wavelet transform",
+      "level": 5,
+      "score": 0.513556957244873
+    },
+    {
+      "id": "https://openalex.org/C28490314",
+      "wikidata": "https://www.wikidata.org/wiki/Q189436",
+      "display_name": "Speech recognition",
+      "level": 1,
+      "score": 0.42050036787986755
+    },
+    {
+      "id": "https://openalex.org/C196216189",
+      "wikidata": "https://www.wikidata.org/wiki/Q2867",
+      "display_name": "Wavelet transform",
+      "level": 3,
+      "score": 0.4140670597553253
+    },
+    {
+      "id": "https://openalex.org/C47432892",
+      "wikidata": "https://www.wikidata.org/wiki/Q831390",
+      "display_name": "Wavelet",
+      "level": 2,
+      "score": 0.40927407145500183
+    },
+    {
+      "id": "https://openalex.org/C24890656",
+      "wikidata": "https://www.wikidata.org/wiki/Q82811",
+      "display_name": "Acoustics",
+      "level": 1,
+      "score": 0.3779889941215515
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.3622572720050812
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.324786901473999
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.23860961198806763
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.23496419191360474
+    },
+    {
+      "id": "https://openalex.org/C46286280",
+      "wikidata": "https://www.wikidata.org/wiki/Q2414958",
+      "display_name": "Discrete wavelet transform",
+      "level": 4,
+      "score": 0.18863949179649353
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1201/9780203734032-20",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1201/9780203734032-20",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "WAVELETS in Medicine and Biology",
+      "raw_type": "book-chapter"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Quality Education",
+      "score": 0.41999998688697815,
+      "id": "https://metadata.un.org/sdg/4"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 2,
+  "referenced_works": [
+    "https://openalex.org/W2155104508",
+    "https://openalex.org/W4231354308"
+  ],
+  "related_works": [
+    "https://openalex.org/W2373349805",
+    "https://openalex.org/W1986195633",
+    "https://openalex.org/W4309182840",
+    "https://openalex.org/W3197430789",
+    "https://openalex.org/W2611150080",
+    "https://openalex.org/W2129884646",
+    "https://openalex.org/W2375973715",
+    "https://openalex.org/W2152271430",
+    "https://openalex.org/W2094847008",
+    "https://openalex.org/W3011345265"
+  ],
+  "abstract_inverted_index": {
+    "This": [
+      0
+    ],
+    "chapter": [
+      1,
+      60,
+      138
+    ],
+    "aims": [
+      2
+    ],
+    "to": [
+      3,
+      32,
+      44,
+      143
+    ],
+    "incorporate": [
+      4
+    ],
+    "the": [
+      5,
+      23,
+      26,
+      35,
+      40,
+      47,
+      51,
+      55,
+      69,
+      72,
+      84,
+      98,
+      101,
+      150
+    ],
+    "wavelet": [
+      6,
+      42,
+      86,
+      115
+    ],
+    "transform": [
+      7,
+      43,
+      87
+    ],
+    "and": [
+      8,
+      54,
+      94,
+      97,
+      134,
+      144,
+      152
+    ],
+    "auditory": [
+      9
+    ],
+    "nerve-based": [
+      10
+    ],
+    "models": [
+      11
+    ],
+    "into": [
+      12
+    ],
+    "a": [
+      13,
+      65,
+      89,
+      113,
+      123
+    ],
+    "tool": [
+      14
+    ],
+    "that": [
+      15,
+      25,
+      62,
+      81
+    ],
+    "could": [
+      16
+    ],
+    "be": [
+      17,
+      29
+    ],
+    "used": [
+      18,
+      103
+    ],
+    "for": [
+      19,
+      75,
+      104
+    ],
+    "speaker": [
+      20,
+      76,
+      105
+    ],
+    "identification,": [
+      21
+    ],
+    "in": [
+      22,
+      132,
+      135,
+      149
+    ],
+    "hope": [
+      24
+    ],
+    "results": [
+      27,
+      63
+    ],
+    "would": [
+      28
+    ],
+    "more": [
+      30
+    ],
+    "robust": [
+      31
+    ],
+    "noise": [
+      33
+    ],
+    "than": [
+      34
+    ],
+    "standard": [
+      36
+    ],
+    "methods.": [
+      37
+    ],
+    "It": [
+      38,
+      78
+    ],
+    "utilizes": [
+      39
+    ],
+    "continuous": [
+      41,
+      114
+    ],
+    "extract": [
+      45
+    ],
+    "reliably": [
+      46
+    ],
+    "different": [
+      48
+    ],
+    "components": [
+      49
+    ],
+    "of": [
+      50,
+      64,
+      68,
+      71,
+      88,
+      100,
+      121
+    ],
+    "modulation": [
+      52
+    ],
+    "model": [
+      53
+    ],
+    "parameters": [
+      56,
+      102
+    ],
+    "characterizing": [
+      57
+    ],
+    "them.": [
+      58
+    ],
+    "The": [
+      59,
+      107,
+      137
+    ],
+    "shows": [
+      61,
+      80
+    ],
+    "first": [
+      66
+    ],
+    "test": [
+      67
+    ],
+    "use": [
+      70
+    ],
+    "synchro-squeezed": [
+      73
+    ],
+    "representation": [
+      74
+    ],
+    "identification.": [
+      77,
+      106
+    ],
+    "also": [
+      79
+    ],
+    "some": [
+      82,
+      141
+    ],
+    "results:": [
+      83
+    ],
+    "“untreated”": [
+      85
+    ],
+    "speech": [
+      90
+    ],
+    "segment,": [
+      91
+    ],
+    "its": [
+      92
+    ],
+    "squeezed": [
+      93
+    ],
+    "synchrosqueezed": [
+      95
+    ],
+    "versions,": [
+      96
+    ],
+    "extraction": [
+      99
+    ],
+    "whole": [
+      108
+    ],
+    "construction": [
+      109
+    ],
+    "is": [
+      110,
+      120
+    ],
+    "based": [
+      111
+    ],
+    "on": [
+      112
+    ],
+    "transform.": [
+      116
+    ],
+    "In": [
+      117
+    ],
+    "practice,": [
+      118
+    ],
+    "this": [
+      119
+    ],
+    "course": [
+      122
+    ],
+    "discrete": [
+      124
+    ],
+    "but": [
+      125
+    ],
+    "very": [
+      126
+    ],
+    "redundant": [
+      127
+    ],
+    "transform,": [
+      128
+    ],
+    "heavily": [
+      129
+    ],
+    "oversampled": [
+      130
+    ],
+    "both": [
+      131
+    ],
+    "time": [
+      133
+    ],
+    "scale.": [
+      136
+    ],
+    "concludes": [
+      139
+    ],
+    "with": [
+      140,
+      146,
+      153
+    ],
+    "pointers": [
+      142
+    ],
+    "comparisons": [
+      145
+    ],
+    "similar": [
+      147
+    ],
+    "work": [
+      148
+    ],
+    "literature,": [
+      151
+    ],
+    "sketching": [
+      154
+    ],
+    "possible": [
+      155
+    ],
+    "future": [
+      156
+    ],
+    "directions.": [
+      157
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 36
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 32
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 23
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2026-09-22T17:25:34.749102",
+  "created_date": "2025-10-10T00:00:00"
+}

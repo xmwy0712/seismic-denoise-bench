@@ -1,0 +1,1452 @@
+{
+  "id": "https://openalex.org/W4296873255",
+  "doi": "https://doi.org/10.1109/tnnls.2022.3205421",
+  "title": "DeepSeg: Deep Segmental Denoising Neural Network for Seismic Data",
+  "display_name": "DeepSeg: Deep Segmental Denoising Neural Network for Seismic Data",
+  "publication_year": 2022,
+  "publication_date": "2022-09-23",
+  "ids": {
+    "openalex": "https://openalex.org/W4296873255",
+    "doi": "https://doi.org/10.1109/tnnls.2022.3205421",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/36150003"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1109/tnnls.2022.3205421",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1109/tnnls.2022.3205421",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4210175523",
+      "display_name": "IEEE Transactions on Neural Networks and Learning Systems",
+      "issn_l": "2162-237X",
+      "issn": [
+        "2162-237X",
+        "2162-2388"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doyens",
+        "jufo-3",
+        "medline",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310319808",
+      "host_organization_name": "Institute of Electrical and Electronics Engineers",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319808"
+      ],
+      "host_organization_lineage_names": [
+        "Institute of Electrical and Electronics Engineers"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "IEEE Transactions on Neural Networks and Learning Systems",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5056812780",
+        "display_name": "Naveed Iqbal",
+        "orcid": "https://orcid.org/0000-0002-2633-9761",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-2633-9761"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I134085113",
+          "display_name": "King Fahd University of Petroleum and Minerals",
+          "ror": "https://ror.org/03yez3163",
+          "country_code": "SA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I134085113"
+          ]
+        }
+      ],
+      "countries": [
+        "SA"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Naveed Iqbal",
+      "raw_affiliation_strings": [
+        "Department of Electrical Engineering, King Fahd University of Petroleum and Minerals, Dhahran, Saudi Arabia"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-2633-9761",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Electrical Engineering, King Fahd University of Petroleum and Minerals, Dhahran, Saudi Arabia",
+          "institution_ids": [
+            "https://openalex.org/I134085113"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5056812780"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I134085113"
+  ],
+  "apc_list": {
+    "value": 2195,
+    "currency": "USD",
+    "value_usd": 2195
+  },
+  "apc_paid": null,
+  "fwci": 9.4222,
+  "has_fulltext": false,
+  "cited_by_count": 77,
+  "citation_normalized_percentile": {
+    "value": 0.99395948,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "34",
+    "issue": "7",
+    "first_page": "3397",
+    "last_page": "3404"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9998000264167786,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13018",
+      "display_name": "Seismology and Earthquake Studies",
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9991000294685364,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/noise-reduction",
+      "display_name": "Noise reduction",
+      "score": 0.7095791697502136
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.7083010673522949
+    },
+    {
+      "id": "https://openalex.org/keywords/noise",
+      "display_name": "Noise (video)",
+      "score": 0.6314371824264526
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.5440750122070312
+    },
+    {
+      "id": "https://openalex.org/keywords/passive-seismic",
+      "display_name": "Passive seismic",
+      "score": 0.5333905816078186
+    },
+    {
+      "id": "https://openalex.org/keywords/convolutional-neural-network",
+      "display_name": "Convolutional neural network",
+      "score": 0.5019063949584961
+    },
+    {
+      "id": "https://openalex.org/keywords/signal",
+      "display_name": "SIGNAL (programming language)",
+      "score": 0.4821333587169647
+    },
+    {
+      "id": "https://openalex.org/keywords/frequency-domain",
+      "display_name": "Frequency domain",
+      "score": 0.4732285737991333
+    },
+    {
+      "id": "https://openalex.org/keywords/preprocessor",
+      "display_name": "Preprocessor",
+      "score": 0.4535570442676544
+    },
+    {
+      "id": "https://openalex.org/keywords/pattern-recognition",
+      "display_name": "Pattern recognition (psychology)",
+      "score": 0.44918593764305115
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-neural-network",
+      "display_name": "Artificial neural network",
+      "score": 0.4330671429634094
+    },
+    {
+      "id": "https://openalex.org/keywords/signal-processing",
+      "display_name": "Signal processing",
+      "score": 0.43070170283317566
+    },
+    {
+      "id": "https://openalex.org/keywords/time-domain",
+      "display_name": "Time domain",
+      "score": 0.41773372888565063
+    },
+    {
+      "id": "https://openalex.org/keywords/speech-recognition",
+      "display_name": "Speech recognition",
+      "score": 0.37892335653305054
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.25027236342430115
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-vision",
+      "display_name": "Computer vision",
+      "score": 0.24210605025291443
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.16818320751190186
+    },
+    {
+      "id": "https://openalex.org/keywords/telecommunications",
+      "display_name": "Telecommunications",
+      "score": 0.13555949926376343
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C163294075",
+      "wikidata": "https://www.wikidata.org/wiki/Q581861",
+      "display_name": "Noise reduction",
+      "level": 2,
+      "score": 0.7095791697502136
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.7083010673522949
+    },
+    {
+      "id": "https://openalex.org/C99498987",
+      "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+      "display_name": "Noise (video)",
+      "level": 3,
+      "score": 0.6314371824264526
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.5440750122070312
+    },
+    {
+      "id": "https://openalex.org/C2780942248",
+      "wikidata": "https://www.wikidata.org/wiki/Q1048443",
+      "display_name": "Passive seismic",
+      "level": 2,
+      "score": 0.5333905816078186
+    },
+    {
+      "id": "https://openalex.org/C81363708",
+      "wikidata": "https://www.wikidata.org/wiki/Q17084460",
+      "display_name": "Convolutional neural network",
+      "level": 2,
+      "score": 0.5019063949584961
+    },
+    {
+      "id": "https://openalex.org/C2779843651",
+      "wikidata": "https://www.wikidata.org/wiki/Q7390335",
+      "display_name": "SIGNAL (programming language)",
+      "level": 2,
+      "score": 0.4821333587169647
+    },
+    {
+      "id": "https://openalex.org/C19118579",
+      "wikidata": "https://www.wikidata.org/wiki/Q786423",
+      "display_name": "Frequency domain",
+      "level": 2,
+      "score": 0.4732285737991333
+    },
+    {
+      "id": "https://openalex.org/C34736171",
+      "wikidata": "https://www.wikidata.org/wiki/Q918333",
+      "display_name": "Preprocessor",
+      "level": 2,
+      "score": 0.4535570442676544
+    },
+    {
+      "id": "https://openalex.org/C153180895",
+      "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+      "display_name": "Pattern recognition (psychology)",
+      "level": 2,
+      "score": 0.44918593764305115
+    },
+    {
+      "id": "https://openalex.org/C50644808",
+      "wikidata": "https://www.wikidata.org/wiki/Q192776",
+      "display_name": "Artificial neural network",
+      "level": 2,
+      "score": 0.4330671429634094
+    },
+    {
+      "id": "https://openalex.org/C104267543",
+      "wikidata": "https://www.wikidata.org/wiki/Q208163",
+      "display_name": "Signal processing",
+      "level": 3,
+      "score": 0.43070170283317566
+    },
+    {
+      "id": "https://openalex.org/C103824480",
+      "wikidata": "https://www.wikidata.org/wiki/Q185889",
+      "display_name": "Time domain",
+      "level": 2,
+      "score": 0.41773372888565063
+    },
+    {
+      "id": "https://openalex.org/C28490314",
+      "wikidata": "https://www.wikidata.org/wiki/Q189436",
+      "display_name": "Speech recognition",
+      "level": 1,
+      "score": 0.37892335653305054
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.25027236342430115
+    },
+    {
+      "id": "https://openalex.org/C31972630",
+      "wikidata": "https://www.wikidata.org/wiki/Q844240",
+      "display_name": "Computer vision",
+      "level": 1,
+      "score": 0.24210605025291443
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.16818320751190186
+    },
+    {
+      "id": "https://openalex.org/C76155785",
+      "wikidata": "https://www.wikidata.org/wiki/Q418",
+      "display_name": "Telecommunications",
+      "level": 1,
+      "score": 0.13555949926376343
+    },
+    {
+      "id": "https://openalex.org/C115961682",
+      "wikidata": "https://www.wikidata.org/wiki/Q860623",
+      "display_name": "Image (mathematics)",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C554190296",
+      "wikidata": "https://www.wikidata.org/wiki/Q47528",
+      "display_name": "Radar",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [
+    {
+      "descriptor_ui": "D004569",
+      "descriptor_name": "Electroencephalography",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004569",
+      "descriptor_name": "Electroencephalography",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D004569",
+      "descriptor_name": "Electroencephalography",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007091",
+      "descriptor_name": "Image Processing, Computer-Assisted",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007091",
+      "descriptor_name": "Image Processing, Computer-Assisted",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D007091",
+      "descriptor_name": "Image Processing, Computer-Assisted",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D008279",
+      "descriptor_name": "Magnetic Resonance Imaging",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008279",
+      "descriptor_name": "Magnetic Resonance Imaging",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D008279",
+      "descriptor_name": "Magnetic Resonance Imaging",
+      "qualifier_ui": "Q000379",
+      "qualifier_name": "methods",
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D012815",
+      "descriptor_name": "Signal Processing, Computer-Assisted",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012815",
+      "descriptor_name": "Signal Processing, Computer-Assisted",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D012815",
+      "descriptor_name": "Signal Processing, Computer-Assisted",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D016571",
+      "descriptor_name": "Neural Networks, Computer",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D016571",
+      "descriptor_name": "Neural Networks, Computer",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D016571",
+      "descriptor_name": "Neural Networks, Computer",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": true
+    },
+    {
+      "descriptor_ui": "D059629",
+      "descriptor_name": "Signal-To-Noise Ratio",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D059629",
+      "descriptor_name": "Signal-To-Noise Ratio",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    },
+    {
+      "descriptor_ui": "D059629",
+      "descriptor_name": "Signal-To-Noise Ratio",
+      "qualifier_ui": null,
+      "qualifier_name": null,
+      "is_major_topic": false
+    }
+  ],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1109/tnnls.2022.3205421",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tnnls.2022.3205421",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210175523",
+        "display_name": "IEEE Transactions on Neural Networks and Learning Systems",
+        "issn_l": "2162-237X",
+        "issn": [
+          "2162-237X",
+          "2162-2388"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doyens",
+          "jufo-3",
+          "medline",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Neural Networks and Learning Systems",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmid:36150003",
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/36150003",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE transactions on neural networks and learning systems",
+      "raw_type": "Journal Article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [
+    {
+      "id": "https://openalex.org/G129710356",
+      "display_name": null,
+      "funder_award_id": "GTEC2013",
+      "funder_id": "https://openalex.org/F4320322323",
+      "funder_display_name": "King Fahd University of Petroleum and Minerals"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320322323",
+      "display_name": "King Fahd University of Petroleum and Minerals",
+      "ror": "https://ror.org/03yez3163"
+    }
+  ],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 52,
+  "referenced_works": [
+    "https://openalex.org/W1503398984",
+    "https://openalex.org/W1522301498",
+    "https://openalex.org/W1533861849",
+    "https://openalex.org/W1901129140",
+    "https://openalex.org/W1990309165",
+    "https://openalex.org/W2031940127",
+    "https://openalex.org/W2087524586",
+    "https://openalex.org/W2153477645",
+    "https://openalex.org/W2194775991",
+    "https://openalex.org/W2245188166",
+    "https://openalex.org/W2284690358",
+    "https://openalex.org/W2412205031",
+    "https://openalex.org/W2416739439",
+    "https://openalex.org/W2555981623",
+    "https://openalex.org/W2556875598",
+    "https://openalex.org/W2588217779",
+    "https://openalex.org/W2602807606",
+    "https://openalex.org/W2614683497",
+    "https://openalex.org/W2744425266",
+    "https://openalex.org/W2745251744",
+    "https://openalex.org/W2767292437",
+    "https://openalex.org/W2786985122",
+    "https://openalex.org/W2790773297",
+    "https://openalex.org/W2792375645",
+    "https://openalex.org/W2793163690",
+    "https://openalex.org/W2794417179",
+    "https://openalex.org/W2798961812",
+    "https://openalex.org/W2799432219",
+    "https://openalex.org/W2801783184",
+    "https://openalex.org/W2884367402",
+    "https://openalex.org/W2891299419",
+    "https://openalex.org/W2895546528",
+    "https://openalex.org/W2899651173",
+    "https://openalex.org/W2918766461",
+    "https://openalex.org/W2919115771",
+    "https://openalex.org/W2943227802",
+    "https://openalex.org/W2963453742",
+    "https://openalex.org/W2965510524",
+    "https://openalex.org/W3019166713",
+    "https://openalex.org/W3034090122",
+    "https://openalex.org/W3047855151",
+    "https://openalex.org/W3091739643",
+    "https://openalex.org/W3091966530",
+    "https://openalex.org/W3102755745",
+    "https://openalex.org/W3116822623",
+    "https://openalex.org/W3121383166",
+    "https://openalex.org/W4242613073",
+    "https://openalex.org/W4287890488",
+    "https://openalex.org/W6631190155",
+    "https://openalex.org/W6631943919",
+    "https://openalex.org/W6639824700",
+    "https://openalex.org/W6751162285"
+  ],
+  "related_works": [
+    "https://openalex.org/W2782295999",
+    "https://openalex.org/W1970292246",
+    "https://openalex.org/W2162306796",
+    "https://openalex.org/W2015118744",
+    "https://openalex.org/W4247952185",
+    "https://openalex.org/W1642462315",
+    "https://openalex.org/W2005619368",
+    "https://openalex.org/W1879092539",
+    "https://openalex.org/W2526155427",
+    "https://openalex.org/W1976629859"
+  ],
+  "abstract_inverted_index": {
+    "Noise": [
+      0
+    ],
+    "attenuation": [
+      1
+    ],
+    "is": [
+      2,
+      44,
+      62,
+      85,
+      144,
+      180,
+      190,
+      211,
+      230
+    ],
+    "a": [
+      3,
+      31,
+      107,
+      258
+    ],
+    "crucial": [
+      4
+    ],
+    "phase": [
+      5
+    ],
+    "in": [
+      6,
+      64,
+      72,
+      126,
+      146,
+      161,
+      237,
+      266,
+      289
+    ],
+    "seismic": [
+      7,
+      17,
+      79,
+      94,
+      149,
+      165,
+      168,
+      195,
+      278
+    ],
+    "signal": [
+      8,
+      95,
+      135
+    ],
+    "processing.": [
+      9
+    ],
+    "Enhancing": [
+      10
+    ],
+    "the": [
+      11,
+      51,
+      69,
+      73,
+      122,
+      134,
+      141,
+      159,
+      186,
+      198,
+      204,
+      208,
+      281,
+      286,
+      301
+    ],
+    "signal-to-noise": [
+      12
+    ],
+    "ratio": [
+      13
+    ],
+    "(SNR)": [
+      14
+    ],
+    "of": [
+      15,
+      50,
+      68,
+      109,
+      136,
+      140,
+      158,
+      171,
+      285,
+      291
+    ],
+    "registered": [
+      16
+    ],
+    "signals": [
+      18,
+      80,
+      236
+    ],
+    "improves": [
+      19
+    ],
+    "subsequent": [
+      20
+    ],
+    "processing": [
+      21
+    ],
+    "and,": [
+      22,
+      54
+    ],
+    "eventually,": [
+      23
+    ],
+    "data": [
+      24,
+      70,
+      202,
+      279,
+      297
+    ],
+    "analysis": [
+      25
+    ],
+    "and": [
+      26,
+      76,
+      112,
+      115,
+      163,
+      175,
+      213,
+      253,
+      276,
+      283,
+      294
+    ],
+    "interpretation.": [
+      27
+    ],
+    "In": [
+      28
+    ],
+    "this": [
+      29
+    ],
+    "work,": [
+      30
+    ],
+    "novel": [
+      32
+    ],
+    "noise": [
+      33,
+      173
+    ],
+    "reduction": [
+      34
+    ],
+    "framework": [
+      35
+    ],
+    "based": [
+      36
+    ],
+    "on": [
+      37,
+      48,
+      274
+    ],
+    "an": [
+      38
+    ],
+    "intelligent": [
+      39
+    ],
+    "deep": [
+      40,
+      187,
+      303
+    ],
+    "convolutional": [
+      41
+    ],
+    "neural": [
+      42,
+      188,
+      304
+    ],
+    "network": [
+      43,
+      61,
+      189
+    ],
+    "proposed": [
+      45,
+      60,
+      103,
+      142,
+      209,
+      229,
+      287
+    ],
+    "that": [
+      46,
+      185
+    ],
+    "works": [
+      47
+    ],
+    "segments": [
+      49
+    ],
+    "time-frequency": [
+      52,
+      74
+    ],
+    "domain": [
+      53,
+      75
+    ],
+    "hence": [
+      55
+    ],
+    "named": [
+      56
+    ],
+    "as": [
+      57
+    ],
+    "DeepSeg.": [
+      58
+    ],
+    "The": [
+      59,
+      102,
+      138,
+      227
+    ],
+    "efficient": [
+      63
+    ],
+    "learning": [
+      65
+    ],
+    "sparse": [
+      66
+    ],
+    "representation": [
+      67
+    ],
+    "simultaneously": [
+      71
+    ],
+    "adaptively": [
+      77
+    ],
+    "capturing": [
+      78
+    ],
+    "corrupted": [
+      81
+    ],
+    "with": [
+      82,
+      100,
+      130
+    ],
+    "noise.": [
+      83,
+      101
+    ],
+    "DeepSeg": [
+      84,
+      119,
+      160
+    ],
+    "able": [
+      86
+    ],
+    "to": [
+      87,
+      133,
+      220,
+      233,
+      256,
+      300
+    ],
+    "achieve": [
+      88
+    ],
+    "impressive": [
+      89
+    ],
+    "denoising": [
+      90,
+      223,
+      306
+    ],
+    "performance": [
+      91
+    ],
+    "even": [
+      92,
+      125,
+      225
+    ],
+    "when": [
+      93,
+      298
+    ],
+    "shares": [
+      96
+    ],
+    "common": [
+      97
+    ],
+    "frequency": [
+      98
+    ],
+    "band": [
+      99
+    ],
+    "approach": [
+      104
+    ],
+    "properly": [
+      105
+    ],
+    "tackles": [
+      106
+    ],
+    "variety": [
+      108
+    ],
+    "correlated": [
+      110
+    ],
+    "(color)": [
+      111
+    ],
+    "uncorrelated": [
+      113
+    ],
+    "noise,": [
+      114
+    ],
+    "other": [
+      116,
+      155,
+      234
+    ],
+    "nonseismic": [
+      117
+    ],
+    "signals.": [
+      118
+    ],
+    "can": [
+      120
+    ],
+    "boost": [
+      121
+    ],
+    "SNR": [
+      123,
+      292
+    ],
+    "considerably": [
+      124
+    ],
+    "extremely": [
+      127
+    ],
+    "noisy": [
+      128
+    ],
+    "environments": [
+      129
+    ],
+    "minimal": [
+      131
+    ],
+    "changes": [
+      132
+    ],
+    "interest.": [
+      137
+    ],
+    "effectiveness": [
+      139
+    ],
+    "methodology": [
+      143
+    ],
+    "demonstrated": [
+      145
+    ],
+    "enhancing": [
+      147
+    ],
+    "passive": [
+      148,
+      164,
+      221
+    ],
+    "event": [
+      150,
+      177,
+      222
+    ],
+    "detection/denoising.": [
+      151
+    ],
+    "However,": [
+      152
+    ],
+    "there": [
+      153
+    ],
+    "are": [
+      154,
+      217
+    ],
+    "obvious": [
+      156
+    ],
+    "applications": [
+      157,
+      216
+    ],
+    "active": [
+      162
+    ],
+    "fields,": [
+      166
+    ],
+    "e.g.,": [
+      167
+    ],
+    "imaging,": [
+      169
+    ],
+    "preprocessing": [
+      170
+    ],
+    "ambient": [
+      172
+    ],
+    "data,": [
+      174,
+      196
+    ],
+    "microseismic": [
+      176
+    ],
+    "monitoring.": [
+      178
+    ],
+    "It": [
+      179
+    ],
+    "worth": [
+      181
+    ],
+    "pointing": [
+      182
+    ],
+    "out": [
+      183
+    ],
+    "here": [
+      184
+    ],
+    "trained": [
+      191
+    ],
+    "exclusively": [
+      192
+    ],
+    "using": [
+      193
+    ],
+    "synthetic": [
+      194,
+      275
+    ],
+    "negating": [
+      197
+    ],
+    "need": [
+      199
+    ],
+    "for": [
+      200
+    ],
+    "real": [
+      201,
+      277
+    ],
+    "during": [
+      203
+    ],
+    "training": [
+      205,
+      296
+    ],
+    "phase.": [
+      206
+    ],
+    "Furthermore,": [
+      207
+    ],
+    "setup": [
+      210
+    ],
+    "general": [
+      212
+    ],
+    "its": [
+      214
+    ],
+    "potential": [
+      215
+    ],
+    "not": [
+      218
+    ],
+    "confined": [
+      219
+    ],
+    "or": [
+      224
+    ],
+    "seismic.": [
+      226
+    ],
+    "method": [
+      228,
+      288
+    ],
+    "also": [
+      231
+    ],
+    "adaptable": [
+      232
+    ],
+    "diverse": [
+      235
+    ],
+    "different": [
+      238
+    ],
+    "settings,": [
+      239
+    ],
+    "like": [
+      240
+    ],
+    "medical": [
+      241
+    ],
+    "images/signals": [
+      242
+    ],
+    "[magnetic": [
+      243
+    ],
+    "resonance": [
+      244
+    ],
+    "imaging": [
+      245
+    ],
+    "(MRI),": [
+      246
+    ],
+    "electroencephalogram": [
+      247
+    ],
+    "(EEG)": [
+      248
+    ],
+    "signals,": [
+      249,
+      252,
+      261,
+      263
+    ],
+    "electrocardiograms": [
+      250
+    ],
+    "(ECG)": [
+      251
+    ],
+    "retinal": [
+      254
+    ],
+    "images,": [
+      255,
+      271
+    ],
+    "name": [
+      257
+    ],
+    "few],": [
+      259
+    ],
+    "radar": [
+      260
+    ],
+    "speech": [
+      262
+    ],
+    "fault": [
+      264
+    ],
+    "detection": [
+      265
+    ],
+    "electrical/mechanical": [
+      267
+    ],
+    "systems,": [
+      268
+    ],
+    "daily": [
+      269
+    ],
+    "life": [
+      270
+    ],
+    "etc.": [
+      272
+    ],
+    "Experiments": [
+      273
+    ],
+    "reveal": [
+      280
+    ],
+    "efficacy": [
+      282
+    ],
+    "supremacy": [
+      284
+    ],
+    "terms": [
+      290
+    ],
+    "improvement": [
+      293
+    ],
+    "required": [
+      295
+    ],
+    "compared": [
+      299
+    ],
+    "state-of-the-art": [
+      302
+    ],
+    "network-based": [
+      305
+    ],
+    "technique.": [
+      307
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 27
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-22T17:25:34.749102",
+  "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,437 @@
+{
+  "id": "https://openalex.org/W1855418868",
+  "doi": "https://doi.org/10.1190/1.9781560802648",
+  "title": "Modern Spectral Analysis with Geophysical Applications",
+  "display_name": "Modern Spectral Analysis with Geophysical Applications",
+  "publication_year": 1995,
+  "publication_date": "1995-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1855418868",
+    "doi": "https://doi.org/10.1190/1.9781560802648",
+    "mag": "1855418868"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.9781560802648",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.9781560802648",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306463929",
+      "display_name": "Society of Exploration Geophysicists eBooks",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "ebook platform"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": null,
+    "raw_type": "monograph"
+  },
+  "type": "book",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5020962582",
+        "display_name": "Markus Båth",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "Markus Båth",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5020962582"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.0,
+  "has_fulltext": false,
+  "cited_by_count": 5,
+  "citation_normalized_percentile": {
+    "value": 0.16477273,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 96
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12424",
+    "display_name": "Earthquake Detection and Analysis",
+    "score": 0.8651999831199646,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12424",
+      "display_name": "Earthquake Detection and Analysis",
+      "score": 0.8651999831199646,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.8464999794960022,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12157",
+      "display_name": "Geochemistry and Geologic Mapping",
+      "score": 0.8402000069618225,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/geophysics",
+      "display_name": "Geophysics",
+      "score": 0.6742823719978333
+    },
+    {
+      "id": "https://openalex.org/keywords/spectral-analysis",
+      "display_name": "Spectral analysis",
+      "score": 0.47420838475227356
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.3895789682865143
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.3303925096988678
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.20736858248710632
+    },
+    {
+      "id": "https://openalex.org/keywords/astronomy",
+      "display_name": "Astronomy",
+      "score": 0.09047883749008179
+    },
+    {
+      "id": "https://openalex.org/keywords/spectroscopy",
+      "display_name": "Spectroscopy",
+      "score": 0.03846648335456848
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C8058405",
+      "wikidata": "https://www.wikidata.org/wiki/Q46255",
+      "display_name": "Geophysics",
+      "level": 1,
+      "score": 0.6742823719978333
+    },
+    {
+      "id": "https://openalex.org/C2983668108",
+      "wikidata": "https://www.wikidata.org/wiki/Q280453",
+      "display_name": "Spectral analysis",
+      "level": 3,
+      "score": 0.47420838475227356
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.3895789682865143
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.3303925096988678
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.20736858248710632
+    },
+    {
+      "id": "https://openalex.org/C1276947",
+      "wikidata": "https://www.wikidata.org/wiki/Q333",
+      "display_name": "Astronomy",
+      "level": 1,
+      "score": 0.09047883749008179
+    },
+    {
+      "id": "https://openalex.org/C32891209",
+      "wikidata": "https://www.wikidata.org/wiki/Q483666",
+      "display_name": "Spectroscopy",
+      "level": 2,
+      "score": 0.03846648335456848
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.9781560802648",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.9781560802648",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306463929",
+        "display_name": "Society of Exploration Geophysicists eBooks",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "ebook platform"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": null,
+      "raw_type": "monograph"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Climate action",
+      "id": "https://metadata.un.org/sdg/13",
+      "score": 0.4399999976158142
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2899084033",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2324615561",
+    "https://openalex.org/W2086120259",
+    "https://openalex.org/W2390279801",
+    "https://openalex.org/W2245170124",
+    "https://openalex.org/W2358668433",
+    "https://openalex.org/W3186982001",
+    "https://openalex.org/W2137941439",
+    "https://openalex.org/W1984402782"
+  ],
+  "abstract_inverted_index": {
+    "This": [
+      0
+    ],
+    "book": [
+      1
+    ],
+    "provides": [
+      2
+    ],
+    "a": [
+      3
+    ],
+    "bibliography": [
+      4,
+      28
+    ],
+    "of": [
+      5,
+      12
+    ],
+    "the": [
+      6
+    ],
+    "material": [
+      7
+    ],
+    "available": [
+      8
+    ],
+    "concerning": [
+      9
+    ],
+    "geophysical": [
+      10,
+      30
+    ],
+    "applications": [
+      11
+    ],
+    "spectral": [
+      13
+    ],
+    "analysis.": [
+      14
+    ],
+    "There": [
+      15
+    ],
+    "are": [
+      16
+    ],
+    "in": [
+      17
+    ],
+    "all": [
+      18
+    ],
+    "1,483": [
+      19
+    ],
+    "numbered": [
+      20
+    ],
+    "references.": [
+      21
+    ],
+    "In": [
+      22
+    ],
+    "addition": [
+      23
+    ],
+    "to": [
+      24
+    ],
+    "methodical": [
+      25
+    ],
+    "developments,": [
+      26
+    ],
+    "this": [
+      27
+    ],
+    "includes": [
+      29
+    ],
+    "applications.": [
+      31
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2016,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2025-11-06T03:46:38.306776",
+  "created_date": "2025-10-10T00:00:00"
+}

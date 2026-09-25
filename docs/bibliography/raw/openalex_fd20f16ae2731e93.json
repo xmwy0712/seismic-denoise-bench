@@ -1,0 +1,733 @@
+{
+  "id": "https://openalex.org/W2014758788",
+  "doi": "https://doi.org/10.1190/1.1437077",
+  "title": "3-D seismic discontinuity for faults and stratigraphic features: The coherence cube",
+  "display_name": "3-D seismic discontinuity for faults and stratigraphic features: The coherence cube",
+  "publication_year": 1995,
+  "publication_date": "1995-10-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2014758788",
+    "doi": "https://doi.org/10.1190/1.1437077",
+    "mag": "2014758788"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.1437077",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.1437077",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4210172657",
+      "display_name": "The Leading Edge",
+      "issn_l": "1070-485X",
+      "issn": [
+        "1070-485X",
+        "1938-3789"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "The Leading Edge",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5070721751",
+        "display_name": "Mike S. Bahorich",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Mike Bahorich",
+      "raw_affiliation_strings": [
+        "1 Amoco Corporation, Denver, Colorado",
+        "Amoco, Denver, CO, United States"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1 Amoco Corporation, Denver, Colorado",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Amoco, Denver, CO, United States",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5061145999",
+        "display_name": "Steve L. Farmer",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I87208437",
+          "display_name": "University of Tulsa",
+          "ror": "https://ror.org/04wn28048",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I87208437"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Steve Farmer",
+      "raw_affiliation_strings": [
+        "2 Amoco Corporation, Tulsa, Oklahoma",
+        "Amoco Corp"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "2 Amoco Corporation, Tulsa, Oklahoma",
+          "institution_ids": [
+            "https://openalex.org/I87208437"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Amoco Corp",
+          "institution_ids": []
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 3.4131,
+  "has_fulltext": false,
+  "cited_by_count": 957,
+  "citation_normalized_percentile": {
+    "value": 0.91555098,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "14",
+    "issue": "10",
+    "first_page": "1053",
+    "last_page": "1058"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9991000294685364,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9991000294685364,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9955000281333923,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13018",
+      "display_name": "Seismology and Earthquake Studies",
+      "score": 0.9945999979972839,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.7480684518814087
+    },
+    {
+      "id": "https://openalex.org/keywords/discontinuity",
+      "display_name": "Discontinuity (linguistics)",
+      "score": 0.7162565588951111
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.697123646736145
+    },
+    {
+      "id": "https://openalex.org/keywords/coherence",
+      "display_name": "Coherence (philosophical gambling strategy)",
+      "score": 0.5865591764450073
+    },
+    {
+      "id": "https://openalex.org/keywords/cube",
+      "display_name": "Cube (algebra)",
+      "score": 0.5811368823051453
+    },
+    {
+      "id": "https://openalex.org/keywords/geometry",
+      "display_name": "Geometry",
+      "score": 0.189536452293396
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.1212625801563263
+    },
+    {
+      "id": "https://openalex.org/keywords/statistics",
+      "display_name": "Statistics",
+      "score": 0.06220242381095886
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.7480684518814087
+    },
+    {
+      "id": "https://openalex.org/C2777042112",
+      "wikidata": "https://www.wikidata.org/wiki/Q5281658",
+      "display_name": "Discontinuity (linguistics)",
+      "level": 2,
+      "score": 0.7162565588951111
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.697123646736145
+    },
+    {
+      "id": "https://openalex.org/C2781181686",
+      "wikidata": "https://www.wikidata.org/wiki/Q4226068",
+      "display_name": "Coherence (philosophical gambling strategy)",
+      "level": 2,
+      "score": 0.5865591764450073
+    },
+    {
+      "id": "https://openalex.org/C53051483",
+      "wikidata": "https://www.wikidata.org/wiki/Q861555",
+      "display_name": "Cube (algebra)",
+      "level": 2,
+      "score": 0.5811368823051453
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.189536452293396
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.1212625801563263
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.06220242381095886
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.1437077",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.1437077",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210172657",
+        "display_name": "The Leading Edge",
+        "issn_l": "1070-485X",
+        "issn": [
+          "1070-485X",
+          "1938-3789"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The Leading Edge",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:oceanrep.geomar.de:33378",
+      "is_oa": false,
+      "landing_page_url": "http://oceanrep.geomar.de/33378/1/Bahorich.pdf",
+      "pdf_url": "http://oceanrep.geomar.de/33378/1/Bahorich.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400264",
+        "display_name": "Helmholtz Centre for Ocean Research Kiel (GEOMAR)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I34403800",
+        "host_organization_name": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
+        "host_organization_lineage": [
+          "https://openalex.org/I34403800"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": "The Leading Edge, 14 (10). pp. 1053-1058.",
+      "raw_type": "Article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W1702821",
+    "https://openalex.org/W2324615561",
+    "https://openalex.org/W2086120259",
+    "https://openalex.org/W2245170124",
+    "https://openalex.org/W3186982001",
+    "https://openalex.org/W1484056900",
+    "https://openalex.org/W4283690284",
+    "https://openalex.org/W2137941439",
+    "https://openalex.org/W2127980043",
+    "https://openalex.org/W1984402782"
+  ],
+  "abstract_inverted_index": {
+    "Seismic": [
+      0
+    ],
+    "data": [
+      1,
+      18
+    ],
+    "are": [
+      2,
+      45
+    ],
+    "usually": [
+      3
+    ],
+    "acquired": [
+      4
+    ],
+    "and": [
+      5,
+      24
+    ],
+    "processed": [
+      6
+    ],
+    "for": [
+      7,
+      19,
+      85
+    ],
+    "imaging": [
+      8,
+      20
+    ],
+    "reflections.": [
+      9
+    ],
+    "This": [
+      10
+    ],
+    "paper": [
+      11
+    ],
+    "describes": [
+      12
+    ],
+    "a": [
+      13,
+      34,
+      54,
+      82
+    ],
+    "method": [
+      14,
+      76
+    ],
+    "of": [
+      15,
+      29,
+      39,
+      64,
+      77
+    ],
+    "processing": [
+      16
+    ],
+    "seismic": [
+      17
+    ],
+    "discontinuities": [
+      21
+    ],
+    "(e.g.,": [
+      22
+    ],
+    "faults": [
+      23,
+      44
+    ],
+    "stratigraphic": [
+      25
+    ],
+    "features).": [
+      26
+    ],
+    "One": [
+      27
+    ],
+    "application": [
+      28
+    ],
+    "this": [
+      30,
+      71
+    ],
+    "nontraditional": [
+      31
+    ],
+    "process": [
+      32
+    ],
+    "is": [
+      33,
+      72
+    ],
+    "3-D": [
+      35,
+      56,
+      83
+    ],
+    "volume,": [
+      36
+    ],
+    "or": [
+      37
+    ],
+    "cube,": [
+      38
+    ],
+    "coherence": [
+      40
+    ],
+    "coefficients": [
+      41
+    ],
+    "within": [
+      42,
+      81
+    ],
+    "which": [
+      43,
+      86
+    ],
+    "revealed": [
+      46
+    ],
+    "as": [
+      47
+    ],
+    "numerically": [
+      48
+    ],
+    "separated": [
+      49
+    ],
+    "surfaces.": [
+      50
+    ],
+    "Figure": [
+      51
+    ],
+    "1": [
+      52
+    ],
+    "compares": [
+      53
+    ],
+    "traditional": [
+      55
+    ],
+    "reflection": [
+      57
+    ],
+    "amplitude": [
+      58
+    ],
+    "time": [
+      59
+    ],
+    "slice": [
+      60
+    ],
+    "with": [
+      61
+    ],
+    "the": [
+      62,
+      65,
+      73
+    ],
+    "results": [
+      63
+    ],
+    "new": [
+      66
+    ],
+    "method.": [
+      67
+    ],
+    "To": [
+      68
+    ],
+    "our": [
+      69
+    ],
+    "knowledge,": [
+      70
+    ],
+    "first": [
+      74
+    ],
+    "published": [
+      75
+    ],
+    "revealing": [
+      78
+    ],
+    "fault": [
+      79,
+      88
+    ],
+    "surfaces": [
+      80
+    ],
+    "volume": [
+      84
+    ],
+    "no": [
+      87
+    ],
+    "reflections": [
+      89
+    ],
+    "have": [
+      90
+    ],
+    "been": [
+      91
+    ],
+    "recorded.": [
+      92
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 35
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 56
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 61
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 50
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 68
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 68
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 48
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 49
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 61
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 54
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 53
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 40
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 57
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 30
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 32
+    }
+  ],
+  "updated_date": "2026-09-23T05:00:35.095934",
+  "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,1234 @@
+{
+  "id": "https://openalex.org/W1489170833",
+  "doi": "https://doi.org/10.1111/1365-2478.12158",
+  "title": "Review Paper: An outlook on the future of seismic imaging, Part III: Joint Migration Inversion",
+  "display_name": "Review Paper: An outlook on the future of seismic imaging, Part III: Joint Migration Inversion",
+  "publication_year": 2014,
+  "publication_date": "2014-08-22",
+  "ids": {
+    "openalex": "https://openalex.org/W1489170833",
+    "doi": "https://doi.org/10.1111/1365-2478.12158",
+    "mag": "1489170833"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1111/1365-2478.12158",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1111/1365-2478.12158",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S45030768",
+      "display_name": "Geophysical Prospecting",
+      "issn_l": "0016-8025",
+      "issn": [
+        "0016-8025",
+        "1365-2478"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysical Prospecting",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5022249214",
+        "display_name": "A. J. C. Stijn Berkhout",
+        "orcid": "https://orcid.org/0000-0001-5447-8868",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-5447-8868"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98358874",
+          "display_name": "Delft University of Technology",
+          "ror": "https://ror.org/02e2c7k09",
+          "country_code": "NL",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I98358874"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "A.J. (Guus) Berkhout",
+      "raw_affiliation_strings": [
+        "Delft University of Technology  CiTG, Stevinweg 1, 2628 CN Delft The Netherlands",
+        "Delft University of Technology CiTG, Stevinweg 1, 2628 CN Delft The Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Delft University of Technology  CiTG, Stevinweg 1, 2628 CN Delft The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I98358874"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Delft University of Technology CiTG, Stevinweg 1, 2628 CN Delft The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I98358874"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5022249214"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I98358874"
+  ],
+  "apc_list": {
+    "value": 4150,
+    "currency": "USD",
+    "value_usd": 4150
+  },
+  "apc_paid": null,
+  "fwci": 8.6264,
+  "has_fulltext": false,
+  "cited_by_count": 106,
+  "citation_normalized_percentile": {
+    "value": 0.98487975,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "62",
+    "issue": "5",
+    "first_page": "950",
+    "last_page": "971"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9703999757766724,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9703999757766724,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.007400000002235174,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10413",
+      "display_name": "High-pressure geophysics and materials",
+      "score": 0.0038999998942017555,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/inversion",
+      "display_name": "Inversion (geology)",
+      "score": 0.7334389686584473
+    },
+    {
+      "id": "https://openalex.org/keywords/geophysical-imaging",
+      "display_name": "Geophysical imaging",
+      "score": 0.7200230956077576
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.5568625330924988
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-migration",
+      "display_name": "Seismic migration",
+      "score": 0.5562905669212341
+    },
+    {
+      "id": "https://openalex.org/keywords/regional-geology",
+      "display_name": "Regional geology",
+      "score": 0.5356874465942383
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.45165714621543884
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.44150298833847046
+    },
+    {
+      "id": "https://openalex.org/keywords/environmental-geology",
+      "display_name": "Environmental geology",
+      "score": 0.43010950088500977
+    },
+    {
+      "id": "https://openalex.org/keywords/joint",
+      "display_name": "Joint (building)",
+      "score": 0.4159570336341858
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.31074872612953186
+    },
+    {
+      "id": "https://openalex.org/keywords/metamorphic-petrology",
+      "display_name": "Metamorphic petrology",
+      "score": 0.2637634873390198
+    },
+    {
+      "id": "https://openalex.org/keywords/engineering",
+      "display_name": "Engineering",
+      "score": 0.1134943962097168
+    },
+    {
+      "id": "https://openalex.org/keywords/tectonics",
+      "display_name": "Tectonics",
+      "score": 0.09866634011268616
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C1893757",
+      "wikidata": "https://www.wikidata.org/wiki/Q3653001",
+      "display_name": "Inversion (geology)",
+      "level": 3,
+      "score": 0.7334389686584473
+    },
+    {
+      "id": "https://openalex.org/C79675319",
+      "wikidata": "https://www.wikidata.org/wiki/Q5535575",
+      "display_name": "Geophysical imaging",
+      "level": 2,
+      "score": 0.7200230956077576
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.5568625330924988
+    },
+    {
+      "id": "https://openalex.org/C118496448",
+      "wikidata": "https://www.wikidata.org/wiki/Q2111620",
+      "display_name": "Seismic migration",
+      "level": 2,
+      "score": 0.5562905669212341
+    },
+    {
+      "id": "https://openalex.org/C161028810",
+      "wikidata": "https://www.wikidata.org/wiki/Q2138304",
+      "display_name": "Regional geology",
+      "level": 4,
+      "score": 0.5356874465942383
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.45165714621543884
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.44150298833847046
+    },
+    {
+      "id": "https://openalex.org/C170152797",
+      "wikidata": "https://www.wikidata.org/wiki/Q2348608",
+      "display_name": "Environmental geology",
+      "level": 4,
+      "score": 0.43010950088500977
+    },
+    {
+      "id": "https://openalex.org/C18555067",
+      "wikidata": "https://www.wikidata.org/wiki/Q8375051",
+      "display_name": "Joint (building)",
+      "level": 2,
+      "score": 0.4159570336341858
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.31074872612953186
+    },
+    {
+      "id": "https://openalex.org/C2993313656",
+      "wikidata": "https://www.wikidata.org/wiki/Q163082",
+      "display_name": "Metamorphic petrology",
+      "level": 3,
+      "score": 0.2637634873390198
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.1134943962097168
+    },
+    {
+      "id": "https://openalex.org/C77928131",
+      "wikidata": "https://www.wikidata.org/wiki/Q193343",
+      "display_name": "Tectonics",
+      "level": 2,
+      "score": 0.09866634011268616
+    },
+    {
+      "id": "https://openalex.org/C170154142",
+      "wikidata": "https://www.wikidata.org/wiki/Q150737",
+      "display_name": "Architectural engineering",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1111/1365-2478.12158",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1111/1365-2478.12158",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S45030768",
+        "display_name": "Geophysical Prospecting",
+        "issn_l": "0016-8025",
+        "issn": [
+          "0016-8025",
+          "1365-2478"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysical Prospecting",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:oceanrep.geomar.de:35308",
+      "is_oa": false,
+      "landing_page_url": "http://oceanrep.geomar.de/35308/1/Berkhout-3.pdf",
+      "pdf_url": "http://oceanrep.geomar.de/35308/1/Berkhout-3.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400264",
+        "display_name": "Helmholtz Centre for Ocean Research Kiel (GEOMAR)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I34403800",
+        "host_organization_name": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
+        "host_organization_lineage": [
+          "https://openalex.org/I34403800"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": "Geophysical Prospecting, 62 (5). pp. 950-971.",
+      "raw_type": "Article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/10",
+      "display_name": "Reduced inequalities",
+      "score": 0.7900000214576721
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 6,
+  "referenced_works": [
+    "https://openalex.org/W1579846978",
+    "https://openalex.org/W2028189898",
+    "https://openalex.org/W2052462860",
+    "https://openalex.org/W2100245965",
+    "https://openalex.org/W2117748546",
+    "https://openalex.org/W2323569849"
+  ],
+  "related_works": [
+    "https://openalex.org/W2354897147",
+    "https://openalex.org/W3009913596",
+    "https://openalex.org/W2803349801",
+    "https://openalex.org/W2314890844",
+    "https://openalex.org/W2006998295",
+    "https://openalex.org/W1898022504",
+    "https://openalex.org/W2607787714",
+    "https://openalex.org/W4378211924",
+    "https://openalex.org/W2900392135",
+    "https://openalex.org/W2202950401"
+  ],
+  "abstract_inverted_index": {
+    "ABSTRACT": [
+      0
+    ],
+    "The": [
+      1,
+      313
+    ],
+    "next": [
+      2
+    ],
+    "generation": [
+      3
+    ],
+    "seismic": [
+      4,
+      75,
+      82
+    ],
+    "imaging": [
+      5
+    ],
+    "algorithms": [
+      6,
+      23
+    ],
+    "will": [
+      7,
+      24
+    ],
+    "consider": [
+      8
+    ],
+    "multiple": [
+      9,
+      263
+    ],
+    "scattering": [
+      10
+    ],
+    "as": [
+      11,
+      16,
+      36,
+      58,
+      60,
+      179,
+      214
+    ],
+    "indispensable": [
+      12
+    ],
+    "information,": [
+      13
+    ],
+    "referred": [
+      14,
+      34
+    ],
+    "to": [
+      15,
+      35,
+      129,
+      161,
+      250,
+      280
+    ],
+    "Full": [
+      17,
+      40,
+      154,
+      251
+    ],
+    "Wavefield": [
+      18,
+      245,
+      252
+    ],
+    "Migration.": [
+      19
+    ],
+    "In": [
+      20,
+      77,
+      194,
+      234,
+      265
+    ],
+    "addition,": [
+      21
+    ],
+    "these": [
+      22,
+      66
+    ],
+    "also": [
+      25
+    ],
+    "include": [
+      26
+    ],
+    "autonomous": [
+      27
+    ],
+    "velocity": [
+      28
+    ],
+    "updating": [
+      29
+    ],
+    "in": [
+      30,
+      68,
+      74,
+      93,
+      118,
+      163,
+      184
+    ],
+    "the": [
+      31,
+      48,
+      61,
+      133,
+      164,
+      188,
+      192,
+      201,
+      232,
+      241,
+      272,
+      294,
+      300,
+      316
+    ],
+    "migration": [
+      32,
+      42,
+      45,
+      86,
+      89,
+      170,
+      189,
+      275,
+      287,
+      302,
+      319
+    ],
+    "process,": [
+      33
+    ],
+    "Joint": [
+      37,
+      281
+    ],
+    "Migration": [
+      38,
+      246,
+      253,
+      282
+    ],
+    "Inversion.": [
+      39
+    ],
+    "wavefield": [
+      41,
+      85,
+      112,
+      140,
+      155,
+      204,
+      224,
+      274,
+      286
+    ],
+    "and": [
+      43,
+      87,
+      216,
+      260
+    ],
+    "joint": [
+      44,
+      88,
+      301,
+      318
+    ],
+    "inversion": [
+      46,
+      90,
+      303,
+      311,
+      320
+    ],
+    "address": [
+      47
+    ],
+    "industrial": [
+      49
+    ],
+    "needs": [
+      50
+    ],
+    "of": [
+      51,
+      54,
+      64,
+      95,
+      151,
+      167,
+      174,
+      191,
+      231,
+      243,
+      288,
+      293,
+      299,
+      315
+    ],
+    "improving": [
+      52
+    ],
+    "images": [
+      53,
+      67
+    ],
+    "very": [
+      55
+    ],
+    "complex": [
+      56,
+      152
+    ],
+    "reservoirs": [
+      57
+    ],
+    "well": [
+      59
+    ],
+    "industry": [
+      62
+    ],
+    "ambition": [
+      63
+    ],
+    "producing": [
+      65
+    ],
+    "a": [
+      69,
+      96,
+      138,
+      168,
+      180
+    ],
+    "more": [
+      70
+    ],
+    "automatic": [
+      71
+    ],
+    "manner": [
+      72
+    ],
+    "(‘automation": [
+      73
+    ],
+    "processing’).": [
+      76
+    ],
+    "this": [
+      78,
+      119,
+      136
+    ],
+    "vision": [
+      79
+    ],
+    "paper": [
+      80
+    ],
+    "on": [
+      81
+    ],
+    "imaging,": [
+      83
+    ],
+    "full": [
+      84,
+      139,
+      203,
+      223,
+      273,
+      285
+    ],
+    "are": [
+      91,
+      297
+    ],
+    "formulated": [
+      92
+    ],
+    "terms": [
+      94
+    ],
+    "closed‐loop,": [
+      97
+    ],
+    "estimation": [
+      98
+    ],
+    "algorithm": [
+      99,
+      207,
+      321
+    ],
+    "that": [
+      100,
+      146,
+      200
+    ],
+    "can": [
+      101,
+      247,
+      277
+    ],
+    "be": [
+      102,
+      220,
+      248,
+      278
+    ],
+    "physically": [
+      103
+    ],
+    "explained": [
+      104
+    ],
+    "by": [
+      105,
+      254,
+      261,
+      307
+    ],
+    "an": [
+      106,
+      148,
+      228,
+      308
+    ],
+    "iterative": [
+      107
+    ],
+    "double": [
+      108
+    ],
+    "focusing": [
+      109
+    ],
+    "process": [
+      110
+    ],
+    "(full": [
+      111
+    ],
+    "Common‐Focus‐Point": [
+      113
+    ],
+    "technology).": [
+      114
+    ],
+    "A": [
+      115
+    ],
+    "critical": [
+      116
+    ],
+    "module": [
+      117,
+      142,
+      157,
+      206,
+      226
+    ],
+    "formulation": [
+      120
+    ],
+    "is": [
+      121,
+      158,
+      177,
+      269,
+      322
+    ],
+    "forward": [
+      122
+    ],
+    "modelling,": [
+      123,
+      213
+    ],
+    "allowing": [
+      124,
+      284
+    ],
+    "feedback": [
+      125,
+      165
+    ],
+    "from": [
+      126,
+      210
+    ],
+    "migrated": [
+      127
+    ],
+    "output": [
+      128
+    ],
+    "unmigrated": [
+      130
+    ],
+    "input": [
+      131
+    ],
+    "(‘closing": [
+      132
+    ],
+    "loop’).": [
+      134
+    ],
+    "For": [
+      135
+    ],
+    "purpose": [
+      137
+    ],
+    "modelling": [
+      141,
+      156,
+      205,
+      225
+    ],
+    "has": [
+      143
+    ],
+    "been": [
+      144
+    ],
+    "developed": [
+      145
+    ],
+    "utilizes": [
+      147
+    ],
+    "operator": [
+      149,
+      229
+    ],
+    "description": [
+      150,
+      230
+    ],
+    "geology.": [
+      153
+    ],
+    "pre‐eminently": [
+      159
+    ],
+    "suited": [
+      160
+    ],
+    "function": [
+      162
+    ],
+    "path": [
+      166
+    ],
+    "closed‐loop": [
+      169
+    ],
+    "algorithm.": [
+      171
+    ],
+    "‘The": [
+      172
+    ],
+    "Future": [
+      173
+    ],
+    "Seismic": [
+      175
+    ],
+    "Imaging’": [
+      176
+    ],
+    "presented": [
+      178
+    ],
+    "coherent": [
+      181
+    ],
+    "trilogy,": [
+      182
+    ],
+    "proposing": [
+      183
+    ],
+    "three": [
+      185
+    ],
+    "consecutive": [
+      186
+    ],
+    "parts": [
+      187
+    ],
+    "framework": [
+      190
+    ],
+    "future.": [
+      193
+    ],
+    "part": [
+      195,
+      298
+    ],
+    "I": [
+      196
+    ],
+    "it": [
+      197,
+      237,
+      268
+    ],
+    "was": [
+      198,
+      238
+    ],
+    "shown": [
+      199,
+      239,
+      270
+    ],
+    "proposed": [
+      202,
+      317
+    ],
+    "differs": [
+      208
+    ],
+    "fundamentally": [
+      209
+    ],
+    "finite": [
+      211
+    ],
+    "difference": [
+      212
+    ],
+    "velocities": [
+      215
+    ],
+    "densities": [
+      217
+    ],
+    "need": [
+      218
+    ],
+    "not": [
+      219
+    ],
+    "provided.": [
+      221
+    ],
+    "Instead,": [
+      222
+    ],
+    "uses": [
+      227
+    ],
+    "subsurface.": [
+      233
+    ],
+    "Part": [
+      235,
+      266
+    ],
+    "II": [
+      236
+    ],
+    "how": [
+      240,
+      271
+    ],
+    "theory": [
+      242
+    ],
+    "Primary": [
+      244
+    ],
+    "extended": [
+      249,
+      279
+    ],
+    "correcting": [
+      255
+    ],
+    "for": [
+      256
+    ],
+    "elastic": [
+      257
+    ],
+    "transmission": [
+      258
+    ],
+    "effects": [
+      259
+    ],
+    "utilizing": [
+      262
+    ],
+    "scattering.": [
+      264
+    ],
+    "III": [
+      267
+    ],
+    "technology": [
+      276
+    ],
+    "Inversion,": [
+      283
+    ],
+    "blended": [
+      289
+    ],
+    "data": [
+      290
+    ],
+    "without": [
+      291
+    ],
+    "knowledge": [
+      292
+    ],
+    "velocity.": [
+      295
+    ],
+    "Velocities": [
+      296
+    ],
+    "output,": [
+      304
+    ],
+    "being": [
+      305
+    ],
+    "obtained": [
+      306
+    ],
+    "operator‐driven": [
+      309
+    ],
+    "parametric": [
+      310
+    ],
+    "process.": [
+      312
+    ],
+    "potential": [
+      314
+    ],
+    "illustrated": [
+      323
+    ],
+    "with": [
+      324
+    ],
+    "numerical": [
+      325
+    ],
+    "examples.": [
+      326
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 8
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

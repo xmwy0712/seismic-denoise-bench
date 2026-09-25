@@ -1,0 +1,955 @@
+{
+  "id": "https://openalex.org/W2046815107",
+  "doi": "https://doi.org/10.1002/ghg.1306",
+  "title": "Upscaling and its application in numerical simulation of long‐term CO2 storage",
+  "display_name": "Upscaling and its application in numerical simulation of long‐term CO2 storage",
+  "publication_year": 2012,
+  "publication_date": "2012-10-26",
+  "ids": {
+    "openalex": "https://openalex.org/W2046815107",
+    "doi": "https://doi.org/10.1002/ghg.1306",
+    "mag": "2046815107"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1002/ghg.1306",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1002/ghg.1306",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S2487947460",
+      "display_name": "Greenhouse Gases Science and Technology",
+      "issn_l": "2152-3878",
+      "issn": [
+        "2152-3878"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Greenhouse Gases: Science and Technology",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5014658484",
+        "display_name": "Wasim A. Akber Hassan",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I67415387",
+          "display_name": "Lancaster University",
+          "ror": "https://ror.org/04f2nsd36",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I67415387"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Wasim A. Akber Hassan",
+      "raw_affiliation_strings": [
+        "Department of Engineering, Lancaster University, Lancaster, UK",
+        "Department of Engineering, Lancaster university, Lancaster, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Engineering, Lancaster University, Lancaster, UK",
+          "institution_ids": [
+            "https://openalex.org/I67415387"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Engineering, Lancaster university, Lancaster, UK",
+          "institution_ids": [
+            "https://openalex.org/I67415387"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5027596078",
+        "display_name": "Xi Jiang",
+        "orcid": "https://orcid.org/0000-0003-2408-8812",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-2408-8812",
+          "https://orcid.org/0000-0002-0109-8295"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I67415387",
+          "display_name": "Lancaster University",
+          "ror": "https://ror.org/04f2nsd36",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I67415387"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Xi Jiang",
+      "raw_affiliation_strings": [
+        "Department of Engineering, Lancaster University, Lancaster, UK",
+        "Department of Engineering, Lancaster university, Lancaster, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Engineering, Lancaster University, Lancaster, UK",
+          "institution_ids": [
+            "https://openalex.org/I67415387"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Engineering, Lancaster university, Lancaster, UK",
+          "institution_ids": [
+            "https://openalex.org/I67415387"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5027596078"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I67415387"
+  ],
+  "apc_list": {
+    "value": 3570,
+    "currency": "USD",
+    "value_usd": 3570
+  },
+  "apc_paid": null,
+  "fwci": 0.9968,
+  "has_fulltext": false,
+  "cited_by_count": 39,
+  "citation_normalized_percentile": {
+    "value": 0.76940687,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 93,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "2",
+    "issue": "6",
+    "first_page": "408",
+    "last_page": "418"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12100",
+    "display_name": "Advanced Mathematical Modeling in Engineering",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1703",
+      "display_name": "Computational Theory and Mathematics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12100",
+      "display_name": "Advanced Mathematical Modeling in Engineering",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1703",
+        "display_name": "Computational Theory and Mathematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11302",
+      "display_name": "CO2 Sequestration and Geologic Interactions",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2305",
+        "display_name": "Environmental Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10894",
+      "display_name": "Groundwater flow and contamination studies",
+      "score": 0.9987000226974487,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2305",
+        "display_name": "Environmental Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/term",
+      "display_name": "Term (time)",
+      "score": 0.6365852355957031
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.5660178065299988
+    },
+    {
+      "id": "https://openalex.org/keywords/numerical-modeling",
+      "display_name": "Numerical modeling",
+      "score": 0.4233246445655823
+    },
+    {
+      "id": "https://openalex.org/keywords/flow",
+      "display_name": "Flow (mathematics)",
+      "score": 0.4206925630569458
+    },
+    {
+      "id": "https://openalex.org/keywords/statistical-physics",
+      "display_name": "Statistical physics",
+      "score": 0.32611843943595886
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.1981673240661621
+    },
+    {
+      "id": "https://openalex.org/keywords/mechanics",
+      "display_name": "Mechanics",
+      "score": 0.19768697023391724
+    },
+    {
+      "id": "https://openalex.org/keywords/geophysics",
+      "display_name": "Geophysics",
+      "score": 0.12688663601875305
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.11473512649536133
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C61797465",
+      "wikidata": "https://www.wikidata.org/wiki/Q1188986",
+      "display_name": "Term (time)",
+      "level": 2,
+      "score": 0.6365852355957031
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.5660178065299988
+    },
+    {
+      "id": "https://openalex.org/C2989031253",
+      "wikidata": "https://www.wikidata.org/wiki/Q925667",
+      "display_name": "Numerical modeling",
+      "level": 2,
+      "score": 0.4233246445655823
+    },
+    {
+      "id": "https://openalex.org/C38349280",
+      "wikidata": "https://www.wikidata.org/wiki/Q1434290",
+      "display_name": "Flow (mathematics)",
+      "level": 2,
+      "score": 0.4206925630569458
+    },
+    {
+      "id": "https://openalex.org/C121864883",
+      "wikidata": "https://www.wikidata.org/wiki/Q677916",
+      "display_name": "Statistical physics",
+      "level": 1,
+      "score": 0.32611843943595886
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.1981673240661621
+    },
+    {
+      "id": "https://openalex.org/C57879066",
+      "wikidata": "https://www.wikidata.org/wiki/Q41217",
+      "display_name": "Mechanics",
+      "level": 1,
+      "score": 0.19768697023391724
+    },
+    {
+      "id": "https://openalex.org/C8058405",
+      "wikidata": "https://www.wikidata.org/wiki/Q46255",
+      "display_name": "Geophysics",
+      "level": 1,
+      "score": 0.12688663601875305
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.11473512649536133
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1002/ghg.1306",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1002/ghg.1306",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2487947460",
+        "display_name": "Greenhouse Gases Science and Technology",
+        "issn_l": "2152-3878",
+        "issn": [
+          "2152-3878"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Greenhouse Gases: Science and Technology",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Industry, innovation and infrastructure",
+      "score": 0.47999998927116394,
+      "id": "https://metadata.un.org/sdg/9"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [
+    {
+      "id": "https://openalex.org/G3108727383",
+      "display_name": null,
+      "funder_award_id": "EP/G069581/1",
+      "funder_id": "https://openalex.org/F4320334627",
+      "funder_display_name": "Engineering and Physical Sciences Research Council"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320334627",
+      "display_name": "Engineering and Physical Sciences Research Council",
+      "ror": "https://ror.org/0439y7842"
+    }
+  ],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 62,
+  "referenced_works": [
+    "https://openalex.org/W140614353",
+    "https://openalex.org/W192275926",
+    "https://openalex.org/W349634212",
+    "https://openalex.org/W1512610647",
+    "https://openalex.org/W1584790380",
+    "https://openalex.org/W1592093959",
+    "https://openalex.org/W1964901517",
+    "https://openalex.org/W1966038337",
+    "https://openalex.org/W1967309669",
+    "https://openalex.org/W1971545299",
+    "https://openalex.org/W1972877835",
+    "https://openalex.org/W1974210778",
+    "https://openalex.org/W1974855184",
+    "https://openalex.org/W1976003395",
+    "https://openalex.org/W1978812967",
+    "https://openalex.org/W1982061595",
+    "https://openalex.org/W1982131349",
+    "https://openalex.org/W1984454575",
+    "https://openalex.org/W1984959677",
+    "https://openalex.org/W1991014164",
+    "https://openalex.org/W1991348498",
+    "https://openalex.org/W1991915194",
+    "https://openalex.org/W2019649196",
+    "https://openalex.org/W2026756562",
+    "https://openalex.org/W2029612298",
+    "https://openalex.org/W2031048828",
+    "https://openalex.org/W2035598368",
+    "https://openalex.org/W2038792757",
+    "https://openalex.org/W2042045547",
+    "https://openalex.org/W2055163404",
+    "https://openalex.org/W2059441487",
+    "https://openalex.org/W2065275311",
+    "https://openalex.org/W2068390209",
+    "https://openalex.org/W2072093650",
+    "https://openalex.org/W2072185607",
+    "https://openalex.org/W2072429863",
+    "https://openalex.org/W2072764279",
+    "https://openalex.org/W2080799105",
+    "https://openalex.org/W2081974060",
+    "https://openalex.org/W2088040747",
+    "https://openalex.org/W2089252380",
+    "https://openalex.org/W2090392691",
+    "https://openalex.org/W2092350721",
+    "https://openalex.org/W2098166969",
+    "https://openalex.org/W2103932335",
+    "https://openalex.org/W2111223152",
+    "https://openalex.org/W2117474292",
+    "https://openalex.org/W2124727736",
+    "https://openalex.org/W2125905690",
+    "https://openalex.org/W2128687341",
+    "https://openalex.org/W2130866345",
+    "https://openalex.org/W2138460677",
+    "https://openalex.org/W2140006683",
+    "https://openalex.org/W2140604382",
+    "https://openalex.org/W2151875700",
+    "https://openalex.org/W2463993679",
+    "https://openalex.org/W2500446079",
+    "https://openalex.org/W4244420516",
+    "https://openalex.org/W4246894007",
+    "https://openalex.org/W4251266239",
+    "https://openalex.org/W4252242597",
+    "https://openalex.org/W6643439474"
+  ],
+  "related_works": [
+    "https://openalex.org/W4391375266",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2390279801",
+    "https://openalex.org/W2358668433",
+    "https://openalex.org/W4396701345",
+    "https://openalex.org/W2376932109",
+    "https://openalex.org/W2001405890",
+    "https://openalex.org/W4396696052",
+    "https://openalex.org/W2382290278",
+    "https://openalex.org/W4395014643"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "Numerical": [
+      1
+    ],
+    "simulations": [
+      2,
+      63
+    ],
+    "of": [
+      3,
+      20,
+      25,
+      82,
+      98,
+      119,
+      124,
+      143
+    ],
+    "long‐term": [
+      4,
+      125
+    ],
+    "geological": [
+      5
+    ],
+    "CO2": [
+      6,
+      21,
+      102,
+      126
+    ],
+    "storage": [
+      7,
+      127
+    ],
+    "could": [
+      8,
+      134
+    ],
+    "be": [
+      9
+    ],
+    "particularly": [
+      10
+    ],
+    "useful": [
+      11
+    ],
+    "in": [
+      12,
+      34,
+      61,
+      77,
+      116
+    ],
+    "predicting": [
+      13
+    ],
+    "the": [
+      14,
+      40,
+      49,
+      73,
+      113,
+      117,
+      122
+    ],
+    "capacity,": [
+      15
+    ],
+    "security,": [
+      16
+    ],
+    "and": [
+      17,
+      93,
+      128,
+      146
+    ],
+    "other": [
+      18
+    ],
+    "consequences": [
+      19
+    ],
+    "sequestration.": [
+      22
+    ],
+    "The": [
+      23
+    ],
+    "physics": [
+      24
+    ],
+    "this": [
+      26
+    ],
+    "flow": [
+      27
+    ],
+    "is": [
+      28,
+      57
+    ],
+    "essentially": [
+      29
+    ],
+    "a": [
+      30,
+      35,
+      43
+    ],
+    "multiphase": [
+      31
+    ],
+    "multicomponent": [
+      32
+    ],
+    "phenomenon": [
+      33
+    ],
+    "strongly": [
+      36
+    ],
+    "heterogeneous": [
+      37
+    ],
+    "medium": [
+      38
+    ],
+    "necessitating": [
+      39
+    ],
+    "need": [
+      41
+    ],
+    "for": [
+      42
+    ],
+    "computationally": [
+      44
+    ],
+    "prohibitive": [
+      45
+    ],
+    "resolution": [
+      46
+    ],
+    "to": [
+      47,
+      72,
+      101,
+      111,
+      121,
+      137
+    ],
+    "capture": [
+      48
+    ],
+    "various": [
+      50
+    ],
+    "physical": [
+      51
+    ],
+    "processes": [
+      52
+    ],
+    "at": [
+      53
+    ],
+    "all": [
+      54
+    ],
+    "scales.": [
+      55
+    ],
+    "Upscaling": [
+      56
+    ],
+    "an": [
+      58
+    ],
+    "important": [
+      59
+    ],
+    "step": [
+      60
+    ],
+    "these": [
+      62
+    ],
+    "when": [
+      64
+    ],
+    "going": [
+      65
+    ],
+    "from": [
+      66
+    ],
+    "geostatistical": [
+      67
+    ],
+    "models": [
+      68,
+      75
+    ],
+    "featuring": [
+      69
+    ],
+    "strong": [
+      70
+    ],
+    "heterogeneities": [
+      71
+    ],
+    "simulation": [
+      74
+    ],
+    "which": [
+      76
+    ],
+    "practice": [
+      78
+    ],
+    "are": [
+      79,
+      104
+    ],
+    "limited": [
+      80
+    ],
+    "because": [
+      81
+    ],
+    "computational": [
+      83
+    ],
+    "restrictions.": [
+      84
+    ],
+    "Although": [
+      85
+    ],
+    "many": [
+      86
+    ],
+    "different": [
+      87
+    ],
+    "upscaling": [
+      88,
+      120
+    ],
+    "techniques": [
+      89
+    ],
+    "exist,": [
+      90
+    ],
+    "including": [
+      91
+    ],
+    "dynamic": [
+      92
+    ],
+    "steady‐state": [
+      94
+    ],
+    "methods,": [
+      95
+    ],
+    "thorough": [
+      96
+    ],
+    "analyses": [
+      97
+    ],
+    "their": [
+      99
+    ],
+    "application": [
+      100,
+      118
+    ],
+    "sequestration": [
+      103
+    ],
+    "not": [
+      105
+    ],
+    "yet": [
+      106
+    ],
+    "established.": [
+      107
+    ],
+    "This": [
+      108
+    ],
+    "review": [
+      109
+    ],
+    "aims": [
+      110
+    ],
+    "highlight": [
+      112
+    ],
+    "recent": [
+      114
+    ],
+    "developments": [
+      115
+    ],
+    "modeling": [
+      123
+    ],
+    "provide": [
+      129
+    ],
+    "insights": [
+      130
+    ],
+    "into": [
+      131
+    ],
+    "aspects": [
+      132
+    ],
+    "that": [
+      133
+    ],
+    "prove": [
+      135
+    ],
+    "valuable": [
+      136
+    ],
+    "numerical": [
+      138
+    ],
+    "simulations.": [
+      139
+    ],
+    "©": [
+      140
+    ],
+    "2012": [
+      141
+    ],
+    "Society": [
+      142
+    ],
+    "Chemical": [
+      144
+    ],
+    "Industry": [
+      145
+    ],
+    "John": [
+      147
+    ],
+    "Wiley": [
+      148
+    ],
+    "&": [
+      149
+    ],
+    "Sons,": [
+      150
+    ],
+    "Ltd": [
+      151
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2026-09-24T07:57:37.273135",
+  "created_date": "2025-10-10T00:00:00"
+}

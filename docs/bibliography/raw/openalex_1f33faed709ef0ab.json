@@ -1,0 +1,752 @@
+{
+  "id": "https://openalex.org/W1967969088",
+  "doi": "https://doi.org/10.1007/b98858",
+  "title": "Local Regression and Likelihood",
+  "display_name": "Local Regression and Likelihood",
+  "publication_year": 1999,
+  "publication_date": "1999-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1967969088",
+    "doi": "https://doi.org/10.1007/b98858",
+    "mag": "1967969088"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1007/b98858",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1007/b98858",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4210187487",
+      "display_name": "Statisctics and computing/Statistics and computing",
+      "issn_l": "1431-8784",
+      "issn": [
+        "1431-8784",
+        "2197-1706"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/P4310319965",
+      "host_organization_name": "Springer Nature",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature"
+      ],
+      "type": "book series"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Statistics and Computing",
+    "raw_type": "book"
+  },
+  "type": "book",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5113997912",
+        "display_name": "Clive R. Loader",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "Clive Loader",
+      "raw_affiliation_strings": [
+        "Lucent Technologies, Murray Hill, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Lucent Technologies, Murray Hill, USA",
+          "institution_ids": []
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5113997912"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 15.6867,
+  "has_fulltext": false,
+  "cited_by_count": 1219,
+  "citation_normalized_percentile": {
+    "value": 0.98611111,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11871",
+    "display_name": "Advanced Statistical Methods and Models",
+    "score": 0.9933000206947327,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2613",
+      "display_name": "Statistics and Probability"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11871",
+      "display_name": "Advanced Statistical Methods and Models",
+      "score": 0.9933000206947327,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13487",
+      "display_name": "Statistical and numerical algorithms",
+      "score": 0.9868000149726868,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2604",
+        "display_name": "Applied Mathematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10320",
+      "display_name": "Neural Networks and Applications",
+      "score": 0.9833999872207642,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/statistics",
+      "display_name": "Statistics",
+      "score": 0.5173467993736267
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.5001327991485596
+    },
+    {
+      "id": "https://openalex.org/keywords/regression",
+      "display_name": "Regression",
+      "score": 0.48118287324905396
+    },
+    {
+      "id": "https://openalex.org/keywords/maximum-likelihood",
+      "display_name": "Maximum likelihood",
+      "score": 0.43625307083129883
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.35430586338043213
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.34469157457351685
+    },
+    {
+      "id": "https://openalex.org/keywords/econometrics",
+      "display_name": "Econometrics",
+      "score": 0.33437439799308777
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.5173467993736267
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.5001327991485596
+    },
+    {
+      "id": "https://openalex.org/C83546350",
+      "wikidata": "https://www.wikidata.org/wiki/Q1139051",
+      "display_name": "Regression",
+      "level": 2,
+      "score": 0.48118287324905396
+    },
+    {
+      "id": "https://openalex.org/C49781872",
+      "wikidata": "https://www.wikidata.org/wiki/Q1045555",
+      "display_name": "Maximum likelihood",
+      "level": 2,
+      "score": 0.43625307083129883
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.35430586338043213
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.34469157457351685
+    },
+    {
+      "id": "https://openalex.org/C149782125",
+      "wikidata": "https://www.wikidata.org/wiki/Q160039",
+      "display_name": "Econometrics",
+      "level": 1,
+      "score": 0.33437439799308777
+    }
+  ],
+  "mesh": [],
+  "locations_count": 6,
+  "locations": [
+    {
+      "id": "doi:10.1007/b98858",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1007/b98858",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210187487",
+        "display_name": "Statisctics and computing/Statistics and computing",
+        "issn_l": "1431-8784",
+        "issn": [
+          "1431-8784",
+          "2197-1706"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/P4310319965",
+        "host_organization_name": "Springer Nature",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Nature"
+        ],
+        "type": "book series"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Statistics and Computing",
+      "raw_type": "book"
+    },
+    {
+      "id": "pmh:oai:203.131.219.242:ebook/8837",
+      "is_oa": false,
+      "landing_page_url": "http://203.131.219.242/cdm/ref/collection/ebook/id/8837",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S7407064352",
+        "display_name": "Thammasat University Digital Collections",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "Text"
+    },
+    {
+      "id": "pmh:oai:aleph.bib-bvb.de:BVB01-008701217",
+      "is_oa": false,
+      "landing_page_url": "http://bvbr.bib-bvb.de:8991/F?func=service&amp;doc_library=BVB01&amp;local_base=BVB01&amp;doc_number=008701217&amp;sequence=000001&amp;line_number=0001&amp;func_code=DB_RECORDS&amp;service_type=MEDIA",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "text"
+    },
+    {
+      "id": "pmh:oai:beyond.library.tu.ac.th:ebook/8837",
+      "is_oa": false,
+      "landing_page_url": "http://beyond.library.tu.ac.th/cdm/ref/collection/ebook/id/8837",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4406923056",
+        "display_name": "TU Digital Collections (Thammasat University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "Text"
+    },
+    {
+      "id": "pmh:oai:cds.cern.ch:1608794",
+      "is_oa": false,
+      "landing_page_url": "http://cds.cern.ch/record/1608794",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402195",
+        "display_name": "CERN Document Server (European Organization for Nuclear Research)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I67311998",
+        "host_organization_name": "European Organization for Nuclear Research",
+        "host_organization_lineage": [
+          "https://openalex.org/I67311998"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": null
+    },
+    {
+      "id": "pmh:oai:dial.uclouvain.be:ebook:30531",
+      "is_oa": false,
+      "landing_page_url": "http://hdl.handle.net/2078/ebook:30531",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401902",
+        "display_name": "Digital Access to Libraries (Université catholique de Louvain (UCL), l'Université de Namur (UNamur) and the Université Saint-Louis (USL-B))",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I95674353",
+        "host_organization_name": "UCLouvain",
+        "host_organization_lineage": [
+          "https://openalex.org/I95674353"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": null
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 221,
+  "referenced_works": [
+    "https://openalex.org/W6839020",
+    "https://openalex.org/W25566965",
+    "https://openalex.org/W79625473",
+    "https://openalex.org/W79918814",
+    "https://openalex.org/W90669972",
+    "https://openalex.org/W116422664",
+    "https://openalex.org/W129305155",
+    "https://openalex.org/W136479160",
+    "https://openalex.org/W157032409",
+    "https://openalex.org/W219251239",
+    "https://openalex.org/W651334317",
+    "https://openalex.org/W1489950266",
+    "https://openalex.org/W1493737795",
+    "https://openalex.org/W1502001434",
+    "https://openalex.org/W1506069954",
+    "https://openalex.org/W1507906300",
+    "https://openalex.org/W1527929073",
+    "https://openalex.org/W1528905581",
+    "https://openalex.org/W1529159708",
+    "https://openalex.org/W1536917906",
+    "https://openalex.org/W1546627792",
+    "https://openalex.org/W1554992661",
+    "https://openalex.org/W1594031697",
+    "https://openalex.org/W1597926580",
+    "https://openalex.org/W1644886288",
+    "https://openalex.org/W1689445748",
+    "https://openalex.org/W1717535926",
+    "https://openalex.org/W1840338487",
+    "https://openalex.org/W1964740999",
+    "https://openalex.org/W1964978917",
+    "https://openalex.org/W1965790068",
+    "https://openalex.org/W1968934696",
+    "https://openalex.org/W1969341260",
+    "https://openalex.org/W1969761972",
+    "https://openalex.org/W1971713783",
+    "https://openalex.org/W1972860294",
+    "https://openalex.org/W1973678262",
+    "https://openalex.org/W1975285668",
+    "https://openalex.org/W1975971672",
+    "https://openalex.org/W1976144991",
+    "https://openalex.org/W1976834773",
+    "https://openalex.org/W1977551183",
+    "https://openalex.org/W1978034330",
+    "https://openalex.org/W1978277789",
+    "https://openalex.org/W1978463903",
+    "https://openalex.org/W1979300931",
+    "https://openalex.org/W1980430435",
+    "https://openalex.org/W1982589806",
+    "https://openalex.org/W1984499217",
+    "https://openalex.org/W1985905466",
+    "https://openalex.org/W1986360843",
+    "https://openalex.org/W1988744163",
+    "https://openalex.org/W1988801516",
+    "https://openalex.org/W1989411243",
+    "https://openalex.org/W1992272072",
+    "https://openalex.org/W1992635476",
+    "https://openalex.org/W1994107759",
+    "https://openalex.org/W1994753884",
+    "https://openalex.org/W1995127855",
+    "https://openalex.org/W1995514448",
+    "https://openalex.org/W1996558051",
+    "https://openalex.org/W1997407470",
+    "https://openalex.org/W1997927050",
+    "https://openalex.org/W1998378660",
+    "https://openalex.org/W1998613841",
+    "https://openalex.org/W2000318912",
+    "https://openalex.org/W2001619934",
+    "https://openalex.org/W2001937004",
+    "https://openalex.org/W2002755436",
+    "https://openalex.org/W2004945083",
+    "https://openalex.org/W2006025735",
+    "https://openalex.org/W2006070789",
+    "https://openalex.org/W2006295879",
+    "https://openalex.org/W2007788814",
+    "https://openalex.org/W2008986601",
+    "https://openalex.org/W2010295655",
+    "https://openalex.org/W2010419919",
+    "https://openalex.org/W2011166411",
+    "https://openalex.org/W2012079463",
+    "https://openalex.org/W2012712694",
+    "https://openalex.org/W2013250016",
+    "https://openalex.org/W2013682378",
+    "https://openalex.org/W2013866619",
+    "https://openalex.org/W2014268383",
+    "https://openalex.org/W2014493590",
+    "https://openalex.org/W2014608908",
+    "https://openalex.org/W2015097620",
+    "https://openalex.org/W2016886155",
+    "https://openalex.org/W2017977879",
+    "https://openalex.org/W2019044526",
+    "https://openalex.org/W2020214980",
+    "https://openalex.org/W2020872171",
+    "https://openalex.org/W2021142183",
+    "https://openalex.org/W2022397749",
+    "https://openalex.org/W2024081693",
+    "https://openalex.org/W2024424774",
+    "https://openalex.org/W2024668293",
+    "https://openalex.org/W2027244596",
+    "https://openalex.org/W2029450582",
+    "https://openalex.org/W2030084257",
+    "https://openalex.org/W2031356627",
+    "https://openalex.org/W2031822984",
+    "https://openalex.org/W2032096456",
+    "https://openalex.org/W2032925661",
+    "https://openalex.org/W2033791152",
+    "https://openalex.org/W2034562813",
+    "https://openalex.org/W2034712399",
+    "https://openalex.org/W2037039910",
+    "https://openalex.org/W2038788060",
+    "https://openalex.org/W2038845890",
+    "https://openalex.org/W2039045807",
+    "https://openalex.org/W2041365877",
+    "https://openalex.org/W2041638842",
+    "https://openalex.org/W2042574171",
+    "https://openalex.org/W2042576083",
+    "https://openalex.org/W2046033161",
+    "https://openalex.org/W2046742602",
+    "https://openalex.org/W2048750093",
+    "https://openalex.org/W2048826713",
+    "https://openalex.org/W2049540068",
+    "https://openalex.org/W2051195364",
+    "https://openalex.org/W2055828448",
+    "https://openalex.org/W2056515188",
+    "https://openalex.org/W2057797785",
+    "https://openalex.org/W2058772015",
+    "https://openalex.org/W2058815839",
+    "https://openalex.org/W2059104416",
+    "https://openalex.org/W2060611171",
+    "https://openalex.org/W2062402730",
+    "https://openalex.org/W2062892638",
+    "https://openalex.org/W2063653500",
+    "https://openalex.org/W2064385888",
+    "https://openalex.org/W2065540158",
+    "https://openalex.org/W2066209752",
+    "https://openalex.org/W2067244657",
+    "https://openalex.org/W2068338317",
+    "https://openalex.org/W2069888879",
+    "https://openalex.org/W2072075941",
+    "https://openalex.org/W2074931146",
+    "https://openalex.org/W2076355464",
+    "https://openalex.org/W2076750860",
+    "https://openalex.org/W2078658856",
+    "https://openalex.org/W2080894081",
+    "https://openalex.org/W2083209880",
+    "https://openalex.org/W2083326957",
+    "https://openalex.org/W2083610611",
+    "https://openalex.org/W2083972068",
+    "https://openalex.org/W2084285929",
+    "https://openalex.org/W2085926679",
+    "https://openalex.org/W2088079069",
+    "https://openalex.org/W2089643338",
+    "https://openalex.org/W2090578816",
+    "https://openalex.org/W2091886411",
+    "https://openalex.org/W2092260586",
+    "https://openalex.org/W2092800390",
+    "https://openalex.org/W2093189858",
+    "https://openalex.org/W2093743402",
+    "https://openalex.org/W2094771755",
+    "https://openalex.org/W2096471740",
+    "https://openalex.org/W2100196924",
+    "https://openalex.org/W2102201073",
+    "https://openalex.org/W2103041471",
+    "https://openalex.org/W2107784689",
+    "https://openalex.org/W2108447811",
+    "https://openalex.org/W2109606373",
+    "https://openalex.org/W2109966924",
+    "https://openalex.org/W2110712908",
+    "https://openalex.org/W2116366840",
+    "https://openalex.org/W2118020555",
+    "https://openalex.org/W2118091795",
+    "https://openalex.org/W2122111042",
+    "https://openalex.org/W2127686461",
+    "https://openalex.org/W2129905273",
+    "https://openalex.org/W2134269439",
+    "https://openalex.org/W2136857234",
+    "https://openalex.org/W2136883754",
+    "https://openalex.org/W2137295153",
+    "https://openalex.org/W2140170995",
+    "https://openalex.org/W2142635246",
+    "https://openalex.org/W2143082178",
+    "https://openalex.org/W2144426327",
+    "https://openalex.org/W2146766088",
+    "https://openalex.org/W2152588837",
+    "https://openalex.org/W2155729182",
+    "https://openalex.org/W2158940042",
+    "https://openalex.org/W2163288162",
+    "https://openalex.org/W2163591144",
+    "https://openalex.org/W2167770537",
+    "https://openalex.org/W2168108669",
+    "https://openalex.org/W2168175751",
+    "https://openalex.org/W2202324235",
+    "https://openalex.org/W2211925278",
+    "https://openalex.org/W2275274991",
+    "https://openalex.org/W2294550615",
+    "https://openalex.org/W2314948770",
+    "https://openalex.org/W2318227516",
+    "https://openalex.org/W2327855778",
+    "https://openalex.org/W2331130507",
+    "https://openalex.org/W2332006894",
+    "https://openalex.org/W2334124906",
+    "https://openalex.org/W2344672672",
+    "https://openalex.org/W2413573154",
+    "https://openalex.org/W2509991828",
+    "https://openalex.org/W2611736676",
+    "https://openalex.org/W2796203664",
+    "https://openalex.org/W2796599046",
+    "https://openalex.org/W2797555166",
+    "https://openalex.org/W2903604193",
+    "https://openalex.org/W2904863873",
+    "https://openalex.org/W2911329779",
+    "https://openalex.org/W3014310718",
+    "https://openalex.org/W3121788819",
+    "https://openalex.org/W3123115077",
+    "https://openalex.org/W3125568169",
+    "https://openalex.org/W4205427601",
+    "https://openalex.org/W4205483584",
+    "https://openalex.org/W4236040444",
+    "https://openalex.org/W4237415315",
+    "https://openalex.org/W4248173958",
+    "https://openalex.org/W4253023040",
+    "https://openalex.org/W4285719527"
+  ],
+  "related_works": [
+    "https://openalex.org/W1922851888",
+    "https://openalex.org/W2406961220",
+    "https://openalex.org/W2772917594",
+    "https://openalex.org/W2046260256",
+    "https://openalex.org/W4306742369",
+    "https://openalex.org/W4303457083",
+    "https://openalex.org/W4232468313",
+    "https://openalex.org/W4242249046",
+    "https://openalex.org/W2951359407",
+    "https://openalex.org/W2124566234"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 30
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 33
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 40
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 43
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 42
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 59
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 69
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 70
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 63
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 72
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 86
+    }
+  ],
+  "updated_date": "2026-09-22T17:25:34.749102",
+  "created_date": "2025-10-10T00:00:00"
+}

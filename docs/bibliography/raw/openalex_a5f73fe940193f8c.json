@@ -1,0 +1,1493 @@
+{
+  "id": "https://openalex.org/W1582654070",
+  "doi": "https://doi.org/10.1111/j.1365-2478.2010.00893.x",
+  "title": "Testing the ability of surface arrays to monitor microseismic activity",
+  "display_name": "Testing the ability of surface arrays to monitor microseismic activity",
+  "publication_year": 2010,
+  "publication_date": "2010-05-28",
+  "ids": {
+    "openalex": "https://openalex.org/W1582654070",
+    "doi": "https://doi.org/10.1111/j.1365-2478.2010.00893.x",
+    "mag": "1582654070"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1111/j.1365-2478.2010.00893.x",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1111/j.1365-2478.2010.00893.x",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S45030768",
+      "display_name": "Geophysical Prospecting",
+      "issn_l": "0016-8025",
+      "issn": [
+        "0016-8025",
+        "1365-2478"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysical Prospecting",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5110456091",
+        "display_name": "Kit Chambers",
+        "orcid": "https://orcid.org/0000-0002-3017-5288"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36234482",
+          "display_name": "University of Bristol",
+          "ror": "https://ror.org/0524sp257",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I36234482"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kit Chambers",
+      "raw_affiliation_strings": [
+        "Department of Earth Sciences, University of Bristol, Queen's Road, Bristol BS8 7NA, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Earth Sciences, University of Bristol, Queen's Road, Bristol BS8 7NA, UK",
+          "institution_ids": [
+            "https://openalex.org/I36234482"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5086300371",
+        "display_name": "J. M. Kendall",
+        "orcid": "https://orcid.org/0000-0002-1486-3945"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36234482",
+          "display_name": "University of Bristol",
+          "ror": "https://ror.org/0524sp257",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I36234482"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J.‐Michael Kendall",
+      "raw_affiliation_strings": [
+        "Department of Earth Sciences, University of Bristol, Queen's Road, Bristol BS8 7NA, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Earth Sciences, University of Bristol, Queen's Road, Bristol BS8 7NA, UK",
+          "institution_ids": [
+            "https://openalex.org/I36234482"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5113902947",
+        "display_name": "S. Brandsberg‐Dahl",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I20303223",
+          "display_name": "BP (United Kingdom)",
+          "ror": "https://ror.org/01zctcs90",
+          "country_code": "GB",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I20303223"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sverre Brandsberg‐Dahl",
+      "raw_affiliation_strings": [
+        "BP America, 5501 Westlake Park Boulevard, Houston, TX 77079, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "BP America, 5501 Westlake Park Boulevard, Houston, TX 77079, USA",
+          "institution_ids": [
+            "https://openalex.org/I20303223"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5090346495",
+        "display_name": "José Herrero Rueda",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I20303223",
+          "display_name": "BP (United Kingdom)",
+          "ror": "https://ror.org/01zctcs90",
+          "country_code": "GB",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I20303223"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jose Rueda",
+      "raw_affiliation_strings": [
+        "BP America, 5501 Westlake Park Boulevard, Houston, TX 77079, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "BP America, 5501 Westlake Park Boulevard, Houston, TX 77079, USA",
+          "institution_ids": [
+            "https://openalex.org/I20303223"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 4150,
+    "currency": "USD",
+    "value_usd": 4150
+  },
+  "apc_paid": null,
+  "fwci": 6.0179,
+  "has_fulltext": false,
+  "cited_by_count": 147,
+  "citation_normalized_percentile": {
+    "value": 0.96540737,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "58",
+    "issue": "5",
+    "first_page": "821",
+    "last_page": "830"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9997000098228455,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13018",
+      "display_name": "Seismology and Earthquake Studies",
+      "score": 0.998199999332428,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/microseism",
+      "display_name": "Microseism",
+      "score": 0.8038241267204285
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.7319334745407104
+    },
+    {
+      "id": "https://openalex.org/keywords/noise",
+      "display_name": "Noise (video)",
+      "score": 0.676268994808197
+    },
+    {
+      "id": "https://openalex.org/keywords/perforation",
+      "display_name": "Perforation",
+      "score": 0.5438717603683472
+    },
+    {
+      "id": "https://openalex.org/keywords/acoustics",
+      "display_name": "Acoustics",
+      "score": 0.5244948267936707
+    },
+    {
+      "id": "https://openalex.org/keywords/shot",
+      "display_name": "Shot (pellet)",
+      "score": 0.5153211951255798
+    },
+    {
+      "id": "https://openalex.org/keywords/economic-geology",
+      "display_name": "Economic geology",
+      "score": 0.5148529410362244
+    },
+    {
+      "id": "https://openalex.org/keywords/signal",
+      "display_name": "SIGNAL (programming language)",
+      "score": 0.48004162311553955
+    },
+    {
+      "id": "https://openalex.org/keywords/point-source",
+      "display_name": "Point source",
+      "score": 0.4749467670917511
+    },
+    {
+      "id": "https://openalex.org/keywords/signal-to-noise-ratio",
+      "display_name": "Signal-to-noise ratio (imaging)",
+      "score": 0.4543139934539795
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.41529548168182373
+    },
+    {
+      "id": "https://openalex.org/keywords/regional-geology",
+      "display_name": "Regional geology",
+      "score": 0.41357290744781494
+    },
+    {
+      "id": "https://openalex.org/keywords/remote-sensing",
+      "display_name": "Remote sensing",
+      "score": 0.3747149407863617
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.3139439523220062
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.3097187280654907
+    },
+    {
+      "id": "https://openalex.org/keywords/image",
+      "display_name": "Image (mathematics)",
+      "score": 0.19194579124450684
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.16206598281860352
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.14136797189712524
+    },
+    {
+      "id": "https://openalex.org/keywords/materials-science",
+      "display_name": "Materials science",
+      "score": 0.11878848075866699
+    },
+    {
+      "id": "https://openalex.org/keywords/tectonics",
+      "display_name": "Tectonics",
+      "score": 0.08529895544052124
+    },
+    {
+      "id": "https://openalex.org/keywords/telmatology",
+      "display_name": "Telmatology",
+      "score": 0.08468088507652283
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C7266685",
+      "wikidata": "https://www.wikidata.org/wiki/Q1303250",
+      "display_name": "Microseism",
+      "level": 2,
+      "score": 0.8038241267204285
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.7319334745407104
+    },
+    {
+      "id": "https://openalex.org/C99498987",
+      "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+      "display_name": "Noise (video)",
+      "level": 3,
+      "score": 0.676268994808197
+    },
+    {
+      "id": "https://openalex.org/C2778456384",
+      "wikidata": "https://www.wikidata.org/wiki/Q1508510",
+      "display_name": "Perforation",
+      "level": 3,
+      "score": 0.5438717603683472
+    },
+    {
+      "id": "https://openalex.org/C24890656",
+      "wikidata": "https://www.wikidata.org/wiki/Q82811",
+      "display_name": "Acoustics",
+      "level": 1,
+      "score": 0.5244948267936707
+    },
+    {
+      "id": "https://openalex.org/C2778344882",
+      "wikidata": "https://www.wikidata.org/wiki/Q278938",
+      "display_name": "Shot (pellet)",
+      "level": 2,
+      "score": 0.5153211951255798
+    },
+    {
+      "id": "https://openalex.org/C125171110",
+      "wikidata": "https://www.wikidata.org/wiki/Q853915",
+      "display_name": "Economic geology",
+      "level": 4,
+      "score": 0.5148529410362244
+    },
+    {
+      "id": "https://openalex.org/C2779843651",
+      "wikidata": "https://www.wikidata.org/wiki/Q7390335",
+      "display_name": "SIGNAL (programming language)",
+      "level": 2,
+      "score": 0.48004162311553955
+    },
+    {
+      "id": "https://openalex.org/C103783831",
+      "wikidata": "https://www.wikidata.org/wiki/Q2552709",
+      "display_name": "Point source",
+      "level": 2,
+      "score": 0.4749467670917511
+    },
+    {
+      "id": "https://openalex.org/C13944312",
+      "wikidata": "https://www.wikidata.org/wiki/Q7512748",
+      "display_name": "Signal-to-noise ratio (imaging)",
+      "level": 2,
+      "score": 0.4543139934539795
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.41529548168182373
+    },
+    {
+      "id": "https://openalex.org/C161028810",
+      "wikidata": "https://www.wikidata.org/wiki/Q2138304",
+      "display_name": "Regional geology",
+      "level": 4,
+      "score": 0.41357290744781494
+    },
+    {
+      "id": "https://openalex.org/C62649853",
+      "wikidata": "https://www.wikidata.org/wiki/Q199687",
+      "display_name": "Remote sensing",
+      "level": 1,
+      "score": 0.3747149407863617
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.3139439523220062
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.3097187280654907
+    },
+    {
+      "id": "https://openalex.org/C115961682",
+      "wikidata": "https://www.wikidata.org/wiki/Q860623",
+      "display_name": "Image (mathematics)",
+      "level": 2,
+      "score": 0.19194579124450684
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.16206598281860352
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.14136797189712524
+    },
+    {
+      "id": "https://openalex.org/C192562407",
+      "wikidata": "https://www.wikidata.org/wiki/Q228736",
+      "display_name": "Materials science",
+      "level": 0,
+      "score": 0.11878848075866699
+    },
+    {
+      "id": "https://openalex.org/C77928131",
+      "wikidata": "https://www.wikidata.org/wiki/Q193343",
+      "display_name": "Tectonics",
+      "level": 2,
+      "score": 0.08529895544052124
+    },
+    {
+      "id": "https://openalex.org/C2776867696",
+      "wikidata": "https://www.wikidata.org/wiki/Q3743777",
+      "display_name": "Telmatology",
+      "level": 3,
+      "score": 0.08468088507652283
+    },
+    {
+      "id": "https://openalex.org/C191897082",
+      "wikidata": "https://www.wikidata.org/wiki/Q11467",
+      "display_name": "Metallurgy",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C2778527123",
+      "wikidata": "https://www.wikidata.org/wiki/Q11750728",
+      "display_name": "Punching",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1111/j.1365-2478.2010.00893.x",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1111/j.1365-2478.2010.00893.x",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S45030768",
+        "display_name": "Geophysical Prospecting",
+        "issn_l": "0016-8025",
+        "issn": [
+          "0016-8025",
+          "1365-2478"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysical Prospecting",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:research-information.bris.ac.uk:openaire_cris_publications/8f045a60-cb28-49aa-97bf-57e006752b7a",
+      "is_oa": false,
+      "landing_page_url": "https://research-information.bris.ac.uk/en/publications/8f045a60-cb28-49aa-97bf-57e006752b7a",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400895",
+        "display_name": "Bristol Research (University of Bristol)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I36234482",
+        "host_organization_name": "University of Bristol",
+        "host_organization_lineage": [
+          "https://openalex.org/I36234482"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Chambers, K, Kendall, J-M, Brabdsberg-Dahl, S & Rueda, J 2009, 'Testing the ability of surface arrays to monitor microseismic activity', Geophysical Prospecting, vol. 58, no. 5, pp. 821-830. https://doi.org/10.1111/j.1365-2478.2010.00893.x",
+      "raw_type": "info:eu-repo/semantics/publishedVersion"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Life below water",
+      "score": 0.6100000143051147,
+      "id": "https://metadata.un.org/sdg/14"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [
+    {
+      "id": "https://openalex.org/G288052232",
+      "display_name": null,
+      "funder_award_id": "NE/E006329/1",
+      "funder_id": "https://openalex.org/F4320334631",
+      "funder_display_name": "Natural Environment Research Council"
+    },
+    {
+      "id": "https://openalex.org/G6369948822",
+      "display_name": null,
+      "funder_award_id": "NE/E006329/1",
+      "funder_id": "https://openalex.org/F4320320022",
+      "funder_display_name": "Sight Research UK"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320320022",
+      "display_name": "Sight Research UK",
+      "ror": "https://ror.org/03z2py885"
+    },
+    {
+      "id": "https://openalex.org/F4320334631",
+      "display_name": "Natural Environment Research Council",
+      "ror": "https://ror.org/02b5d8509"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 15,
+  "referenced_works": [
+    "https://openalex.org/W2008341810",
+    "https://openalex.org/W2014782452",
+    "https://openalex.org/W2066906716",
+    "https://openalex.org/W2088048821",
+    "https://openalex.org/W2094677991",
+    "https://openalex.org/W2106148868",
+    "https://openalex.org/W2121544879",
+    "https://openalex.org/W2127573006",
+    "https://openalex.org/W2136405866",
+    "https://openalex.org/W2137972163",
+    "https://openalex.org/W2208666495",
+    "https://openalex.org/W3123529837",
+    "https://openalex.org/W3125520264",
+    "https://openalex.org/W4251387251",
+    "https://openalex.org/W4286715397"
+  ],
+  "related_works": [
+    "https://openalex.org/W2607787714",
+    "https://openalex.org/W2041267291",
+    "https://openalex.org/W2165067989",
+    "https://openalex.org/W2021670702",
+    "https://openalex.org/W2316937252",
+    "https://openalex.org/W2586545423",
+    "https://openalex.org/W2317189267",
+    "https://openalex.org/W2907643691",
+    "https://openalex.org/W3124036780",
+    "https://openalex.org/W2519876418"
+  ],
+  "abstract_inverted_index": {
+    "ABSTRACT": [
+      0
+    ],
+    "Recently": [
+      1
+    ],
+    "there": [
+      2
+    ],
+    "has": [
+      3
+    ],
+    "been": [
+      4
+    ],
+    "much": [
+      5
+    ],
+    "interest": [
+      6
+    ],
+    "in": [
+      7,
+      15,
+      52,
+      92,
+      109,
+      146,
+      187,
+      193,
+      245,
+      267,
+      271,
+      311
+    ],
+    "the": [
+      8,
+      53,
+      56,
+      68,
+      79,
+      93,
+      100,
+      103,
+      110,
+      124,
+      141,
+      162,
+      167,
+      177,
+      184,
+      188,
+      199,
+      202,
+      210,
+      215,
+      224,
+      228,
+      231,
+      235,
+      241,
+      289,
+      298,
+      303,
+      306
+    ],
+    "use": [
+      9,
+      29,
+      307
+    ],
+    "of": [
+      10,
+      32,
+      35,
+      45,
+      70,
+      83,
+      123,
+      130,
+      135,
+      161,
+      179,
+      201,
+      212,
+      218,
+      237,
+      259,
+      276,
+      308
+    ],
+    "data": [
+      11,
+      36,
+      72,
+      189,
+      262
+    ],
+    "from": [
+      12,
+      102,
+      261
+    ],
+    "surface": [
+      13,
+      84,
+      131,
+      309
+    ],
+    "arrays": [
+      14,
+      85,
+      129
+    ],
+    "conjunction": [
+      16
+    ],
+    "with": [
+      17,
+      42,
+      61,
+      247
+    ],
+    "migration‐based": [
+      18
+    ],
+    "processing": [
+      19
+    ],
+    "methods": [
+      20
+    ],
+    "for": [
+      21,
+      121,
+      280,
+      305
+    ],
+    "passive": [
+      22
+    ],
+    "seismic": [
+      23,
+      90
+    ],
+    "monitoring.": [
+      24
+    ],
+    "In": [
+      25,
+      95
+    ],
+    "this": [
+      26,
+      33,
+      272
+    ],
+    "study": [
+      27
+    ],
+    "we": [
+      28
+    ],
+    "an": [
+      30,
+      74
+    ],
+    "example": [
+      31
+    ],
+    "kind": [
+      34
+    ],
+    "recorded": [
+      37
+    ],
+    "whilst": [
+      38
+    ],
+    "18": [
+      39
+    ],
+    "perforation": [
+      40,
+      57,
+      104,
+      125,
+      290
+    ],
+    "shots,": [
+      41
+    ],
+    "a": [
+      43,
+      293,
+      315
+    ],
+    "variety": [
+      44
+    ],
+    "positions": [
+      46,
+      64
+    ],
+    "and": [
+      47,
+      65,
+      81,
+      88,
+      234,
+      263
+    ],
+    "propellant": [
+      48
+    ],
+    "amounts,": [
+      49
+    ],
+    "were": [
+      50
+    ],
+    "detonated": [
+      51
+    ],
+    "subsurface.": [
+      54,
+      94
+    ],
+    "As": [
+      55
+    ],
+    "shots": [
+      58,
+      105,
+      126,
+      291
+    ],
+    "provide": [
+      59
+    ],
+    "signals": [
+      60,
+      101,
+      142,
+      191,
+      243,
+      265
+    ],
+    "known": [
+      62
+    ],
+    "source": [
+      63,
+      117,
+      153,
+      225
+    ],
+    "origin": [
+      66
+    ],
+    "times,": [
+      67
+    ],
+    "analysis": [
+      69
+    ],
+    "these": [
+      71
+    ],
+    "is": [
+      73,
+      206
+    ],
+    "invaluable": [
+      75
+    ],
+    "opportunity": [
+      76
+    ],
+    "to": [
+      77,
+      86,
+      183,
+      209,
+      222,
+      253,
+      278,
+      318
+    ],
+    "test": [
+      78,
+      176
+    ],
+    "accuracy": [
+      80
+    ],
+    "ability": [
+      82
+    ],
+    "detect": [
+      87
+    ],
+    "locate": [
+      89
+    ],
+    "sources": [
+      91
+    ],
+    "all": [
+      96
+    ],
+    "but": [
+      97
+    ],
+    "one": [
+      98
+    ],
+    "case": [
+      99
+    ],
+    "are": [
+      106,
+      119,
+      133,
+      143,
+      155,
+      169
+    ],
+    "not": [
+      107,
+      144,
+      284
+    ],
+    "visible": [
+      108,
+      145
+    ],
+    "raw": [
+      111
+    ],
+    "or": [
+      112
+    ],
+    "preprocessed": [
+      113
+    ],
+    "data.": [
+      114
+    ],
+    "However,": [
+      115
+    ],
+    "clear": [
+      116
+    ],
+    "images": [
+      118
+    ],
+    "produced": [
+      120
+    ],
+    "12": [
+      122
+    ],
+    "showing": [
+      127
+    ],
+    "that": [
+      128,
+      151,
+      198
+    ],
+    "sensors": [
+      132,
+      310
+    ],
+    "capable": [
+      134
+    ],
+    "imaging": [
+      136,
+      181
+    ],
+    "microseismic": [
+      137,
+      312
+    ],
+    "events,": [
+      138
+    ],
+    "even": [
+      139
+    ],
+    "when": [
+      140
+    ],
+    "individual": [
+      147
+    ],
+    "traces.": [
+      148
+    ],
+    "We": [
+      149,
+      175,
+      196
+    ],
+    "find": [
+      150,
+      197
+    ],
+    "point": [
+      152
+    ],
+    "locations": [
+      154
+    ],
+    "within": [
+      156
+    ],
+    "typically": [
+      157
+    ],
+    "45": [
+      158
+    ],
+    "m": [
+      159
+    ],
+    "(laterally)": [
+      160
+    ],
+    "true": [
+      163
+    ],
+    "shot": [
+      164,
+      204
+    ],
+    "location,": [
+      165
+    ],
+    "however": [
+      166
+    ],
+    "depths": [
+      168
+    ],
+    "less": [
+      170
+    ],
+    "well": [
+      171
+    ],
+    "constrained": [
+      172
+    ],
+    "(∼150": [
+      173
+    ],
+    "m).": [
+      174
+    ],
+    "sensitivity": [
+      178
+    ],
+    "our": [
+      180
+    ],
+    "method": [
+      182
+    ],
+    "signal‐to‐noise": [
+      185
+    ],
+    "ratio": [
+      186
+    ],
+    "using": [
+      190
+    ],
+    "embedded": [
+      192,
+      244,
+      266
+    ],
+    "realistic": [
+      194
+    ],
+    "noise.": [
+      195
+    ],
+    "position": [
+      200
+    ],
+    "imaged": [
+      203
+    ],
+    "location": [
+      205
+    ],
+    "quite": [
+      207
+    ],
+    "insensitive": [
+      208
+    ],
+    "level": [
+      211
+    ],
+    "added": [
+      213
+    ],
+    "noise,": [
+      214
+    ],
+    "primary": [
+      216
+    ],
+    "effect": [
+      217
+    ],
+    "increased": [
+      219
+    ],
+    "noise": [
+      220,
+      239,
+      246,
+      268
+    ],
+    "being": [
+      221
+    ],
+    "defocus": [
+      223
+    ],
+    "image.": [
+      226
+    ],
+    "Given": [
+      227
+    ],
+    "migration": [
+      229
+    ],
+    "approach,": [
+      230
+    ],
+    "array": [
+      232
+    ],
+    "geometry": [
+      233
+    ],
+    "nature": [
+      236
+    ],
+    "coherent": [
+      238
+    ],
+    "during": [
+      240
+    ],
+    "experiment,": [
+      242
+    ],
+    "ratios": [
+      248
+    ],
+    "≥0.1": [
+      249
+    ],
+    "can": [
+      250
+    ],
+    "be": [
+      251
+    ],
+    "used": [
+      252
+    ],
+    "successfully": [
+      254
+    ],
+    "image": [
+      255
+    ],
+    "events.": [
+      256
+    ],
+    "Furthermore,": [
+      257
+    ],
+    "comparison": [
+      258
+    ],
+    "results": [
+      260,
+      299
+    ],
+    "synthetic": [
+      264
+    ],
+    "shows": [
+      269
+    ],
+    "that,": [
+      270
+    ],
+    "case,": [
+      273
+    ],
+    "prestack": [
+      274
+    ],
+    "corrections": [
+      275
+    ],
+    "traveltimes": [
+      277
+    ],
+    "account": [
+      279
+    ],
+    "near‐surface": [
+      281
+    ],
+    "structure": [
+      282
+    ],
+    "will": [
+      283
+    ],
+    "enhance": [
+      285
+    ],
+    "event": [
+      286
+    ],
+    "detectability.": [
+      287
+    ],
+    "Although,": [
+      288
+    ],
+    "have": [
+      292
+    ],
+    "largely": [
+      294
+    ],
+    "isotropic": [
+      295
+    ],
+    "radiation": [
+      296
+    ],
+    "pattern": [
+      297
+    ],
+    "presented": [
+      300
+    ],
+    "here": [
+      301
+    ],
+    "show": [
+      302
+    ],
+    "potential": [
+      304
+    ],
+    "monitoring": [
+      313
+    ],
+    "as": [
+      314
+    ],
+    "viable": [
+      316
+    ],
+    "alternative": [
+      317
+    ],
+    "classical": [
+      319
+    ],
+    "downhole": [
+      320
+    ],
+    "methods.": [
+      321
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 34
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 7
+    }
+  ],
+  "updated_date": "2026-09-21T07:43:02.447757",
+  "created_date": "2025-10-10T00:00:00"
+}

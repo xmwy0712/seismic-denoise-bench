@@ -1,0 +1,858 @@
+{
+  "id": "https://openalex.org/W1989340219",
+  "doi": "https://doi.org/10.1190/1.1820095",
+  "title": "Using of the proni transform in processing of Chinese seismic data",
+  "display_name": "Using of the proni transform in processing of Chinese seismic data",
+  "publication_year": 1998,
+  "publication_date": "1998-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1989340219",
+    "doi": "https://doi.org/10.1190/1.1820095",
+    "mag": "1989340219"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.1820095",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.1820095",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "International Meeting for Applied Geoscience &amp; Energy",
+    "raw_type": "proceedings-article"
+  },
+  "type": "conference-paper",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5088723076",
+        "display_name": "George Mitrofanov",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210102215",
+          "display_name": "Institute of Geophysics",
+          "ror": "https://ror.org/019j3tz70",
+          "country_code": "RU",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1313323035",
+            "https://openalex.org/I4210102215",
+            "https://openalex.org/I4210119369"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210120843",
+          "display_name": "Institute of Applied Geophysics of the Academy of Sciences",
+          "ror": "https://ror.org/02xqwa087",
+          "country_code": "RU",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210120843"
+          ]
+        }
+      ],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "George Mitrofanov",
+      "raw_affiliation_strings": [
+        "1 Institute of Geophysics SB RAS, Russia",
+        "Institute of Geophysics SB RAS, Russia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1 Institute of Geophysics SB RAS, Russia",
+          "institution_ids": [
+            "https://openalex.org/I4210102215",
+            "https://openalex.org/I4210120843"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institute of Geophysics SB RAS, Russia",
+          "institution_ids": [
+            "https://openalex.org/I4210102215"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5013595199",
+        "display_name": "Zhan Zhitian",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210143968",
+          "display_name": "Geophysical Division of the Earth Science Institute of the Slovak Academy of Sciences",
+          "ror": "https://ror.org/04bzszh50",
+          "country_code": "SK",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I207624831",
+            "https://openalex.org/I4210102573",
+            "https://openalex.org/I4210143968"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I98227222",
+          "display_name": "China National Petroleum Corporation (China)",
+          "ror": "https://ror.org/05269d038",
+          "country_code": "CN",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I98227222"
+          ]
+        }
+      ],
+      "countries": [
+        "CN",
+        "SK"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Zhan Zhitian",
+      "raw_affiliation_strings": [
+        "2 Geophysical Researsch Institute CNPC, China",
+        "Geophysical Researsch Institute CNPC, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "2 Geophysical Researsch Institute CNPC, China",
+          "institution_ids": [
+            "https://openalex.org/I4210143968",
+            "https://openalex.org/I98227222"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Geophysical Researsch Institute CNPC, China",
+          "institution_ids": [
+            "https://openalex.org/I98227222"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": null,
+        "display_name": "Cai Jiaming",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210143968",
+          "display_name": "Geophysical Division of the Earth Science Institute of the Slovak Academy of Sciences",
+          "ror": "https://ror.org/04bzszh50",
+          "country_code": "SK",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I207624831",
+            "https://openalex.org/I4210102573",
+            "https://openalex.org/I4210143968"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I98227222",
+          "display_name": "China National Petroleum Corporation (China)",
+          "ror": "https://ror.org/05269d038",
+          "country_code": "CN",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I98227222"
+          ]
+        }
+      ],
+      "countries": [
+        "CN",
+        "SK"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Cai Jiaming",
+      "raw_affiliation_strings": [
+        "2 Geophysical Researsch Institute CNPC, China",
+        "Geophysical Researsch Institute CNPC, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "2 Geophysical Researsch Institute CNPC, China",
+          "institution_ids": [
+            "https://openalex.org/I4210143968",
+            "https://openalex.org/I98227222"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Geophysical Researsch Institute CNPC, China",
+          "institution_ids": [
+            "https://openalex.org/I98227222"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 3,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.0,
+  "has_fulltext": false,
+  "cited_by_count": 9,
+  "citation_normalized_percentile": {
+    "value": 0.1712,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 96
+  },
+  "biblio": {
+    "volume": "1",
+    "issue": null,
+    "first_page": "1157",
+    "last_page": "1159"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T13734",
+    "display_name": "Advanced Computational Techniques and Applications",
+    "score": 0.9855999946594238,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T13734",
+      "display_name": "Advanced Computational Techniques and Applications",
+      "score": 0.9855999946594238,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9528999924659729,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13067",
+      "display_name": "Geological Modeling and Analysis",
+      "score": 0.9519000053405762,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1906",
+        "display_name": "Geochemistry and Petrology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.5817553997039795
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.37073540687561035
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.5817553997039795
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.37073540687561035
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.1820095",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.1820095",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "International Meeting for Applied Geoscience &amp; Energy",
+      "raw_type": "proceedings-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 4,
+  "referenced_works": [
+    "https://openalex.org/W1969258769",
+    "https://openalex.org/W2016538174",
+    "https://openalex.org/W2324331919",
+    "https://openalex.org/W2990598036"
+  ],
+  "related_works": [
+    "https://openalex.org/W4391375266",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2324615561",
+    "https://openalex.org/W2086120259",
+    "https://openalex.org/W2390279801",
+    "https://openalex.org/W2245170124",
+    "https://openalex.org/W2076393078",
+    "https://openalex.org/W2358668433",
+    "https://openalex.org/W3186982001",
+    "https://openalex.org/W1984402782"
+  ],
+  "abstract_inverted_index": {
+    "PreviousNext": [
+      0
+    ],
+    "No": [
+      1
+    ],
+    "AccessSEG": [
+      2
+    ],
+    "Technical": [
+      3,
+      128,
+      178
+    ],
+    "Program": [
+      4,
+      129,
+      179
+    ],
+    "Expanded": [
+      5,
+      130,
+      180
+    ],
+    "Abstracts": [
+      6,
+      131,
+      181
+    ],
+    "1998Using": [
+      7
+    ],
+    "of": [
+      8,
+      14,
+      23,
+      52,
+      60,
+      82,
+      114,
+      146,
+      149,
+      167,
+      173
+    ],
+    "the": [
+      9,
+      118,
+      168
+    ],
+    "proni": [
+      10,
+      169
+    ],
+    "transform": [
+      11,
+      54,
+      64,
+      78,
+      170
+    ],
+    "in": [
+      12,
+      55,
+      171
+    ],
+    "processing": [
+      13,
+      172
+    ],
+    "Chinese": [
+      15,
+      174
+    ],
+    "seismic": [
+      16,
+      61,
+      83,
+      175
+    ],
+    "dataAuthors:": [
+      17
+    ],
+    "George": [
+      18,
+      158
+    ],
+    "MitrofanovZhan": [
+      19
+    ],
+    "ZhitianCai": [
+      20
+    ],
+    "JiamingGeorge": [
+      21
+    ],
+    "MitrofanovInstitute": [
+      22
+    ],
+    "Geophysics": [
+      24
+    ],
+    "SB": [
+      25
+    ],
+    "RAS,": [
+      26
+    ],
+    "Russia,": [
+      27
+    ],
+    "Zhan": [
+      28,
+      160
+    ],
+    "ZhitianGeophysical": [
+      29
+    ],
+    "Researsch": [
+      30,
+      37
+    ],
+    "Institute": [
+      31,
+      38
+    ],
+    "CNPC,": [
+      32,
+      39
+    ],
+    "China,": [
+      33
+    ],
+    "and": [
+      34,
+      70,
+      122,
+      162
+    ],
+    "Cai": [
+      35,
+      163
+    ],
+    "JiamingGeophysical": [
+      36
+    ],
+    "Chinahttps://doi.org/10.1190/1.1820095": [
+      40
+    ],
+    "SectionsAboutPDF/ePub": [
+      41
+    ],
+    "ToolsAdd": [
+      42
+    ],
+    "to": [
+      43
+    ],
+    "favoritesDownload": [
+      44
+    ],
+    "CitationsTrack": [
+      45
+    ],
+    "CitationsPermissions": [
+      46
+    ],
+    "ShareFacebookTwitterLinked": [
+      47
+    ],
+    "InRedditEmail": [
+      48
+    ],
+    "Permalink:": [
+      49
+    ],
+    "https://doi.org/10.1190/1.1820095FiguresReferencesRelatedDetailsCited": [
+      50
+    ],
+    "ByApplication": [
+      51
+    ],
+    "prony": [
+      53
+    ],
+    "estimating": [
+      56
+    ],
+    "absorptive": [
+      57
+    ],
+    "attenuation": [
+      58
+    ],
+    "compensation": [
+      59
+    ],
+    "signalAsymmetric": [
+      62
+    ],
+    "chirplet": [
+      63,
+      77
+    ],
+    "—": [
+      65
+    ],
+    "Part": [
+      66
+    ],
+    "2:": [
+      67
+    ],
+    "Phase,": [
+      68
+    ],
+    "frequency,": [
+      69
+    ],
+    "chirp": [
+      71
+    ],
+    "rateGEOPHYSICS,": [
+      72
+    ],
+    "Vol.": [
+      73,
+      85,
+      98
+    ],
+    "81,": [
+      74
+    ],
+    "No.": [
+      75,
+      87,
+      100
+    ],
+    "6Asymmetric": [
+      76
+    ],
+    "for": [
+      79
+    ],
+    "sparse": [
+      80
+    ],
+    "representation": [
+      81
+    ],
+    "dataGEOPHYSICS,": [
+      84
+    ],
+    "80,": [
+      86
+    ],
+    "6Seismic": [
+      88,
+      101
+    ],
+    "data": [
+      89,
+      102
+    ],
+    "decomposition": [
+      90,
+      103
+    ],
+    "into": [
+      91,
+      104
+    ],
+    "spectral": [
+      92,
+      105
+    ],
+    "components": [
+      93,
+      106
+    ],
+    "using": [
+      94,
+      107,
+      117
+    ],
+    "regularized": [
+      95,
+      108
+    ],
+    "nonstationary": [
+      96,
+      109
+    ],
+    "autoregressionGEOPHYSICS,": [
+      97
+    ],
+    "78,": [
+      99
+    ],
+    "autoregressionSergey": [
+      110
+    ],
+    "Fomel25": [
+      111
+    ],
+    "October": [
+      112
+    ],
+    "2012Detecting": [
+      113
+    ],
+    "unstructured": [
+      115
+    ],
+    "traps": [
+      116
+    ],
+    "Prony": [
+      119
+    ],
+    "technologyGeorgy": [
+      120
+    ],
+    "Mitrofanov": [
+      121
+    ],
+    "Viatcheslav": [
+      123
+    ],
+    "Priimenko23": [
+      124
+    ],
+    "November": [
+      125
+    ],
+    "2007": [
+      126
+    ],
+    "SEG": [
+      127,
+      177
+    ],
+    "1998ISSN": [
+      132
+    ],
+    "(print):1052-3812": [
+      133
+    ],
+    "ISSN": [
+      134
+    ],
+    "(online):1949-4645Copyright:": [
+      135
+    ],
+    "1998": [
+      136,
+      141,
+      144
+    ],
+    "Pages:": [
+      137
+    ],
+    "2092": [
+      138
+    ],
+    "publication": [
+      139
+    ],
+    "data©": [
+      140
+    ],
+    "Copyright": [
+      142
+    ],
+    "©": [
+      143
+    ],
+    "Society": [
+      145
+    ],
+    "Exploration": [
+      147,
+      150
+    ],
+    "GeophysicistsPublisher:Society": [
+      148
+    ],
+    "Geophysicists": [
+      151
+    ],
+    "HistoryPublished:": [
+      152
+    ],
+    "06": [
+      153
+    ],
+    "Jan": [
+      154
+    ],
+    "2005": [
+      155
+    ],
+    "CITATION": [
+      156
+    ],
+    "INFORMATION": [
+      157
+    ],
+    "Mitrofanov,": [
+      159
+    ],
+    "Zhitian,": [
+      161
+    ],
+    "Jiaming,": [
+      164
+    ],
+    "(1998),": [
+      165
+    ],
+    "\"Using": [
+      166
+    ],
+    "data,\"": [
+      176
+    ],
+    ":": [
+      182
+    ],
+    "1157-1159.": [
+      183
+    ],
+    "https://doi.org/10.1190/1.1820095": [
+      184
+    ],
+    "Plain-Language": [
+      185
+    ],
+    "Summary": [
+      186
+    ],
+    "PDF": [
+      187
+    ],
+    "DownloadLoading": [
+      188
+    ],
+    "...": [
+      189
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-21T07:43:02.447757",
+  "created_date": "2025-10-10T00:00:00"
+}

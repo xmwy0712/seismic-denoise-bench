@@ -1,0 +1,884 @@
+{
+  "id": "https://openalex.org/W3125770505",
+  "doi": "https://doi.org/10.3997/2214-4609.202010996",
+  "title": "Robust AVO-Preserving Joint Migration Inversion of Seismic Reflections Using a Data Mismatch Based on Local Orthogonalization",
+  "display_name": "Robust AVO-Preserving Joint Migration Inversion of Seismic Reflections Using a Data Mismatch Based on Local Orthogonalization",
+  "publication_year": 2020,
+  "publication_date": "2020-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W3125770505",
+    "doi": "https://doi.org/10.3997/2214-4609.202010996",
+    "mag": "3125770505"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.3997/2214-4609.202010996",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.3997/2214-4609.202010996",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "EAGE 2020 Annual Conference &amp; Exhibition Online",
+    "raw_type": "proceedings-article"
+  },
+  "type": "conference-paper",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5101960910",
+        "display_name": "Shan Qu",
+        "orcid": "https://orcid.org/0000-0003-3951-9355",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-3951-9355"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98358874",
+          "display_name": "Delft University of Technology",
+          "ror": "https://ror.org/02e2c7k09",
+          "country_code": "NL",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I98358874"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. Qu",
+      "raw_affiliation_strings": [
+        "Delft University of Technology"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Delft University of Technology",
+          "institution_ids": [
+            "https://openalex.org/I98358874"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5004129653",
+        "display_name": "Dirk Jacob Verschuur",
+        "orcid": "https://orcid.org/0000-0002-6397-7930",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-6397-7930"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98358874",
+          "display_name": "Delft University of Technology",
+          "ror": "https://ror.org/02e2c7k09",
+          "country_code": "NL",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I98358874"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "D.J. Verschuur",
+      "raw_affiliation_strings": [
+        "Delft University of Technology"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Delft University of Technology",
+          "institution_ids": [
+            "https://openalex.org/I98358874"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5058685276",
+        "display_name": "Y. Chen",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I76130692",
+          "display_name": "Zhejiang University",
+          "ror": "https://ror.org/00a2xv884",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I76130692"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Y. Chen",
+      "raw_affiliation_strings": [
+        "Zhejiang University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Zhejiang University",
+          "institution_ids": [
+            "https://openalex.org/I76130692"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 1.8405,
+  "has_fulltext": false,
+  "cited_by_count": 2,
+  "citation_normalized_percentile": {
+    "value": 0.86194155,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 93,
+    "max": 95
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "1",
+    "last_page": "5"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9998999834060669,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9984999895095825,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.9947999715805054,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/orthogonalization",
+      "display_name": "Orthogonalization",
+      "score": 0.9817108511924744
+    },
+    {
+      "id": "https://openalex.org/keywords/inversion",
+      "display_name": "Inversion (geology)",
+      "score": 0.7617448568344116
+    },
+    {
+      "id": "https://openalex.org/keywords/offset",
+      "display_name": "Offset (computer science)",
+      "score": 0.5799132585525513
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.5153969526290894
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.5149548649787903
+    },
+    {
+      "id": "https://openalex.org/keywords/parametrization",
+      "display_name": "Parametrization (atmospheric modeling)",
+      "score": 0.5023205280303955
+    },
+    {
+      "id": "https://openalex.org/keywords/residual",
+      "display_name": "Residual",
+      "score": 0.4552820920944214
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.3973413109779358
+    },
+    {
+      "id": "https://openalex.org/keywords/remote-sensing",
+      "display_name": "Remote sensing",
+      "score": 0.33965182304382324
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.2254592478275299
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.11608853936195374
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C47559304",
+      "wikidata": "https://www.wikidata.org/wiki/Q1702189",
+      "display_name": "Orthogonalization",
+      "level": 2,
+      "score": 0.9817108511924744
+    },
+    {
+      "id": "https://openalex.org/C1893757",
+      "wikidata": "https://www.wikidata.org/wiki/Q3653001",
+      "display_name": "Inversion (geology)",
+      "level": 3,
+      "score": 0.7617448568344116
+    },
+    {
+      "id": "https://openalex.org/C175291020",
+      "wikidata": "https://www.wikidata.org/wiki/Q1156822",
+      "display_name": "Offset (computer science)",
+      "level": 2,
+      "score": 0.5799132585525513
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.5153969526290894
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.5149548649787903
+    },
+    {
+      "id": "https://openalex.org/C202887219",
+      "wikidata": "https://www.wikidata.org/wiki/Q3895221",
+      "display_name": "Parametrization (atmospheric modeling)",
+      "level": 3,
+      "score": 0.5023205280303955
+    },
+    {
+      "id": "https://openalex.org/C155512373",
+      "wikidata": "https://www.wikidata.org/wiki/Q287450",
+      "display_name": "Residual",
+      "level": 2,
+      "score": 0.4552820920944214
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.3973413109779358
+    },
+    {
+      "id": "https://openalex.org/C62649853",
+      "wikidata": "https://www.wikidata.org/wiki/Q199687",
+      "display_name": "Remote sensing",
+      "level": 1,
+      "score": 0.33965182304382324
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.2254592478275299
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.11608853936195374
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C77928131",
+      "wikidata": "https://www.wikidata.org/wiki/Q193343",
+      "display_name": "Tectonics",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C74902906",
+      "wikidata": "https://www.wikidata.org/wiki/Q1190858",
+      "display_name": "Radiative transfer",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.3997/2214-4609.202010996",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.3997/2214-4609.202010996",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "EAGE 2020 Annual Conference &amp; Exhibition Online",
+      "raw_type": "proceedings-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Reduced inequalities",
+      "score": 0.7599999904632568,
+      "id": "https://metadata.un.org/sdg/10"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2005349189",
+    "https://openalex.org/W1965163197",
+    "https://openalex.org/W129617223",
+    "https://openalex.org/W2386892378",
+    "https://openalex.org/W2949490341",
+    "https://openalex.org/W1541233540",
+    "https://openalex.org/W4301514602",
+    "https://openalex.org/W2362628444",
+    "https://openalex.org/W2136529641",
+    "https://openalex.org/W1987428169"
+  ],
+  "abstract_inverted_index": {
+    "Summary": [
+      0
+    ],
+    "Joint": [
+      1
+    ],
+    "migration": [
+      2
+    ],
+    "inversion": [
+      3,
+      11
+    ],
+    "(JMI)": [
+      4
+    ],
+    "is": [
+      5,
+      134
+    ],
+    "a": [
+      6,
+      40,
+      91,
+      154,
+      164
+    ],
+    "recently": [
+      7
+    ],
+    "proposed": [
+      8,
+      151
+    ],
+    "full": [
+      9
+    ],
+    "wavefield": [
+      10
+    ],
+    "method,": [
+      12
+    ],
+    "which": [
+      13
+    ],
+    "tries": [
+      14
+    ],
+    "to": [
+      15,
+      59,
+      69,
+      83
+    ],
+    "minimize": [
+      16
+    ],
+    "the": [
+      17,
+      35,
+      44,
+      49,
+      70,
+      75,
+      99,
+      122,
+      126,
+      138,
+      142,
+      147,
+      160,
+      169
+    ],
+    "mismatch": [
+      18
+    ],
+    "between": [
+      19,
+      98
+    ],
+    "observed": [
+      20
+    ],
+    "reflection": [
+      21
+    ],
+    "data": [
+      22,
+      67,
+      103,
+      115
+    ],
+    "and": [
+      23,
+      29,
+      101,
+      163
+    ],
+    "forward": [
+      24,
+      36
+    ],
+    "modeled": [
+      25,
+      100,
+      114
+    ],
+    "data.": [
+      26,
+      77,
+      124
+    ],
+    "Transmission": [
+      27
+    ],
+    "effects": [
+      28,
+      73,
+      133
+    ],
+    "surface/internal": [
+      30
+    ],
+    "multiples": [
+      31
+    ],
+    "are": [
+      32
+    ],
+    "included": [
+      33
+    ],
+    "in": [
+      34,
+      74,
+      88,
+      172
+    ],
+    "modeling": [
+      37
+    ],
+    "process": [
+      38
+    ],
+    "using": [
+      39,
+      90
+    ],
+    "multi-dimensional": [
+      41
+    ],
+    "version": [
+      42
+    ],
+    "of": [
+      43,
+      52,
+      113,
+      149
+    ],
+    "Bremmer": [
+      45
+    ],
+    "series.": [
+      46
+    ],
+    "However,": [
+      47
+    ],
+    "since": [
+      48
+    ],
+    "current": [
+      50
+    ],
+    "implementation": [
+      51
+    ],
+    "JMI": [
+      53,
+      89
+    ],
+    "uses": [
+      54
+    ],
+    "an": [
+      55
+    ],
+    "angle-independent": [
+      56
+    ],
+    "reflectivity": [
+      57
+    ],
+    "model,": [
+      58
+    ],
+    "avoid": [
+      60
+    ],
+    "over-parametrization,": [
+      61
+    ],
+    "it": [
+      62
+    ],
+    "cannot": [
+      63
+    ],
+    "easily": [
+      64
+    ],
+    "handle": [
+      65
+    ],
+    "large-offset": [
+      66
+    ],
+    "due": [
+      68
+    ],
+    "angle-versus-offset": [
+      71
+    ],
+    "(AVO)": [
+      72
+    ],
+    "measured": [
+      76
+    ],
+    "In": [
+      78
+    ],
+    "this": [
+      79,
+      85
+    ],
+    "work,": [
+      80
+    ],
+    "we": [
+      81
+    ],
+    "propose": [
+      82
+    ],
+    "mitigate": [
+      84
+    ],
+    "AVO": [
+      86,
+      132
+    ],
+    "challenge": [
+      87
+    ],
+    "local": [
+      92,
+      95,
+      107
+    ],
+    "attribute": [
+      93
+    ],
+    "--": [
+      94,
+      97
+    ],
+    "orthogonalization": [
+      96,
+      108,
+      128,
+      143
+    ],
+    "recorded": [
+      102,
+      123
+    ],
+    "during": [
+      104
+    ],
+    "inversion.": [
+      105
+    ],
+    "The": [
+      106
+    ],
+    "weight": [
+      109
+    ],
+    "indicates": [
+      110
+    ],
+    "those": [
+      111
+    ],
+    "areas": [
+      112
+    ],
+    "that": [
+      116
+    ],
+    "do": [
+      117
+    ],
+    "not": [
+      118
+    ],
+    "correlate": [
+      119
+    ],
+    "well": [
+      120
+    ],
+    "with": [
+      121,
+      153
+    ],
+    "Afterwards,": [
+      125
+    ],
+    "high": [
+      127
+    ],
+    "part": [
+      129
+    ],
+    "containing": [
+      130
+    ],
+    "strong": [
+      131
+    ],
+    "adaptively": [
+      135
+    ],
+    "subtracted": [
+      136
+    ],
+    "from": [
+      137,
+      168
+    ],
+    "residual": [
+      139
+    ],
+    "based": [
+      140,
+      158
+    ],
+    "on": [
+      141,
+      159
+    ],
+    "weights.": [
+      144
+    ],
+    "We": [
+      145
+    ],
+    "demonstrate": [
+      146
+    ],
+    "effectiveness": [
+      148
+    ],
+    "our": [
+      150
+    ],
+    "method": [
+      152
+    ],
+    "complex": [
+      155
+    ],
+    "synthetic": [
+      156
+    ],
+    "example": [
+      157
+    ],
+    "Marmousi": [
+      161
+    ],
+    "model": [
+      162
+    ],
+    "marine": [
+      165
+    ],
+    "field": [
+      166
+    ],
+    "dataset": [
+      167
+    ],
+    "Vøring": [
+      170
+    ],
+    "basin": [
+      171
+    ],
+    "Norway.": [
+      173
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2021,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

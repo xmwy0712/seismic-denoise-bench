@@ -1,0 +1,1165 @@
+{
+  "id": "https://openalex.org/W3023057912",
+  "doi": "https://doi.org/10.3997/2214-4609-pdb.248.395",
+  "title": "Impact of Accurate Velocities from Signal Fidelity Enhancement for Reliable Seismic Interpretation - Example from Kuwait",
+  "display_name": "Impact of Accurate Velocities from Signal Fidelity Enhancement for Reliable Seismic Interpretation - Example from Kuwait",
+  "publication_year": 2010,
+  "publication_date": "2010-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W3023057912",
+    "doi": "https://doi.org/10.3997/2214-4609-pdb.248.395",
+    "mag": "3023057912"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.3997/2214-4609-pdb.248.395",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.3997/2214-4609-pdb.248.395",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306511249",
+      "display_name": "GEO 2010",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "GEO 2010",
+    "raw_type": "proceedings-article"
+  },
+  "type": "conference-paper",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5114014780",
+        "display_name": "Wael Abdel Alim Zahran",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Wael A. Zahran",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5037478910",
+        "display_name": "Riyanto Purbokusumo",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Riyanto Purbokusumo",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5001544668",
+        "display_name": "Nawaf Al-Muatairi",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Nawaf Al-Muatairi",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5081362023",
+        "display_name": "Hamed M. Hameed",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Hamed M. Hameed",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.0,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": {
+    "value": 0.40075962,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11801",
+    "display_name": "Reservoir Engineering and Simulation Methods",
+    "score": 0.9993000030517578,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2212",
+      "display_name": "Ocean Engineering"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11801",
+      "display_name": "Reservoir Engineering and Simulation Methods",
+      "score": 0.9993000030517578,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9973999857902527,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10892",
+      "display_name": "Drilling and Well Engineering",
+      "score": 0.9968000054359436,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/seismic-survey",
+      "display_name": "Seismic survey",
+      "score": 0.6506831645965576
+    },
+    {
+      "id": "https://openalex.org/keywords/stacking",
+      "display_name": "Stacking",
+      "score": 0.5580894351005554
+    },
+    {
+      "id": "https://openalex.org/keywords/statics",
+      "display_name": "Statics",
+      "score": 0.539277970790863
+    },
+    {
+      "id": "https://openalex.org/keywords/fidelity",
+      "display_name": "Fidelity",
+      "score": 0.5379891991615295
+    },
+    {
+      "id": "https://openalex.org/keywords/residual",
+      "display_name": "Residual",
+      "score": 0.5026440620422363
+    },
+    {
+      "id": "https://openalex.org/keywords/precondition",
+      "display_name": "Precondition",
+      "score": 0.4588284194469452
+    },
+    {
+      "id": "https://openalex.org/keywords/attenuation",
+      "display_name": "Attenuation",
+      "score": 0.45131468772888184
+    },
+    {
+      "id": "https://openalex.org/keywords/signal-processing",
+      "display_name": "Signal processing",
+      "score": 0.4286063611507416
+    },
+    {
+      "id": "https://openalex.org/keywords/signal",
+      "display_name": "SIGNAL (programming language)",
+      "score": 0.41177091002464294
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.3764451742172241
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.37223440408706665
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.36274126172065735
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.2947402000427246
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.2782640755176544
+    },
+    {
+      "id": "https://openalex.org/keywords/telecommunications",
+      "display_name": "Telecommunications",
+      "score": 0.16516923904418945
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.15721583366394043
+    },
+    {
+      "id": "https://openalex.org/keywords/nuclear-magnetic-resonance",
+      "display_name": "Nuclear magnetic resonance",
+      "score": 0.14573082327842712
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2994066282",
+      "wikidata": "https://www.wikidata.org/wiki/Q1500431",
+      "display_name": "Seismic survey",
+      "level": 2,
+      "score": 0.6506831645965576
+    },
+    {
+      "id": "https://openalex.org/C33347731",
+      "wikidata": "https://www.wikidata.org/wiki/Q285210",
+      "display_name": "Stacking",
+      "level": 2,
+      "score": 0.5580894351005554
+    },
+    {
+      "id": "https://openalex.org/C35441770",
+      "wikidata": "https://www.wikidata.org/wiki/Q169019",
+      "display_name": "Statics",
+      "level": 2,
+      "score": 0.539277970790863
+    },
+    {
+      "id": "https://openalex.org/C2776459999",
+      "wikidata": "https://www.wikidata.org/wiki/Q2119376",
+      "display_name": "Fidelity",
+      "level": 2,
+      "score": 0.5379891991615295
+    },
+    {
+      "id": "https://openalex.org/C155512373",
+      "wikidata": "https://www.wikidata.org/wiki/Q287450",
+      "display_name": "Residual",
+      "level": 2,
+      "score": 0.5026440620422363
+    },
+    {
+      "id": "https://openalex.org/C192465680",
+      "wikidata": "https://www.wikidata.org/wiki/Q1413450",
+      "display_name": "Precondition",
+      "level": 2,
+      "score": 0.4588284194469452
+    },
+    {
+      "id": "https://openalex.org/C184652730",
+      "wikidata": "https://www.wikidata.org/wiki/Q2357982",
+      "display_name": "Attenuation",
+      "level": 2,
+      "score": 0.45131468772888184
+    },
+    {
+      "id": "https://openalex.org/C104267543",
+      "wikidata": "https://www.wikidata.org/wiki/Q208163",
+      "display_name": "Signal processing",
+      "level": 3,
+      "score": 0.4286063611507416
+    },
+    {
+      "id": "https://openalex.org/C2779843651",
+      "wikidata": "https://www.wikidata.org/wiki/Q7390335",
+      "display_name": "SIGNAL (programming language)",
+      "level": 2,
+      "score": 0.41177091002464294
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.3764451742172241
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.37223440408706665
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.36274126172065735
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.2947402000427246
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.2782640755176544
+    },
+    {
+      "id": "https://openalex.org/C76155785",
+      "wikidata": "https://www.wikidata.org/wiki/Q418",
+      "display_name": "Telecommunications",
+      "level": 1,
+      "score": 0.16516923904418945
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.15721583366394043
+    },
+    {
+      "id": "https://openalex.org/C46141821",
+      "wikidata": "https://www.wikidata.org/wiki/Q209402",
+      "display_name": "Nuclear magnetic resonance",
+      "level": 1,
+      "score": 0.14573082327842712
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C74650414",
+      "wikidata": "https://www.wikidata.org/wiki/Q11397",
+      "display_name": "Classical mechanics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C554190296",
+      "wikidata": "https://www.wikidata.org/wiki/Q47528",
+      "display_name": "Radar",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.3997/2214-4609-pdb.248.395",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.3997/2214-4609-pdb.248.395",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306511249",
+        "display_name": "GEO 2010",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "GEO 2010",
+      "raw_type": "proceedings-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Climate action",
+      "id": "https://metadata.un.org/sdg/13",
+      "score": 0.6499999761581421
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2294916142",
+    "https://openalex.org/W1988458526",
+    "https://openalex.org/W2953046944",
+    "https://openalex.org/W1581362285",
+    "https://openalex.org/W2185407019",
+    "https://openalex.org/W2368102490",
+    "https://openalex.org/W2367100904",
+    "https://openalex.org/W2060305346",
+    "https://openalex.org/W3020963989",
+    "https://openalex.org/W2077676914"
+  ],
+  "abstract_inverted_index": {
+    "In": [
+      0,
+      135
+    ],
+    "September": [
+      1
+    ],
+    "2008": [
+      2
+    ],
+    "Kuwait": [
+      3
+    ],
+    "Oil": [
+      4
+    ],
+    "Company": [
+      5
+    ],
+    "(K.S.C.)": [
+      6
+    ],
+    "acquired": [
+      7
+    ],
+    "a": [
+      8,
+      79,
+      103,
+      123,
+      235,
+      252
+    ],
+    "3D": [
+      9
+    ],
+    "seismic": [
+      10,
+      44,
+      213,
+      292
+    ],
+    "survey": [
+      11,
+      22
+    ],
+    "across": [
+      12
+    ],
+    "Arifjan": [
+      13
+    ],
+    "area,": [
+      14
+    ],
+    "S-E": [
+      15
+    ],
+    "Kuwait.": [
+      16
+    ],
+    "The": [
+      17
+    ],
+    "primary": [
+      18
+    ],
+    "objective": [
+      19
+    ],
+    "of": [
+      20,
+      42,
+      108,
+      126,
+      188,
+      212,
+      242
+    ],
+    "this": [
+      21
+    ],
+    "is": [
+      23
+    ],
+    "to": [
+      24,
+      70,
+      74,
+      137,
+      143,
+      154,
+      160,
+      168,
+      171,
+      195,
+      203,
+      233,
+      257
+    ],
+    "image": [
+      25
+    ],
+    "the": [
+      26,
+      32,
+      36,
+      40,
+      43,
+      51,
+      60,
+      66,
+      84,
+      89,
+      92,
+      109,
+      128,
+      138,
+      144,
+      156,
+      173,
+      198,
+      205,
+      224,
+      240,
+      259,
+      270,
+      280,
+      291
+    ],
+    "Mid-Marrat": [
+      27
+    ],
+    "Jurassic": [
+      28
+    ],
+    "reservoir": [
+      29
+    ],
+    "through": [
+      30,
+      251
+    ],
+    "maximizing": [
+      31
+    ],
+    "signal": [
+      33
+    ],
+    "fidelity": [
+      34
+    ],
+    "and": [
+      35,
+      55,
+      86,
+      98,
+      121,
+      131,
+      182,
+      210,
+      217,
+      276,
+      286
+    ],
+    "vertical": [
+      37
+    ],
+    "resolution.": [
+      38
+    ],
+    "Following": [
+      39
+    ],
+    "processing": [
+      41,
+      111,
+      163
+    ],
+    "data,": [
+      45
+    ],
+    "it": [
+      46
+    ],
+    "was": [
+      47,
+      133
+    ],
+    "clearly": [
+      48
+    ],
+    "recognized": [
+      49
+    ],
+    "that": [
+      50
+    ],
+    "velocity": [
+      52,
+      56,
+      129,
+      145,
+      149,
+      169,
+      190,
+      253,
+      272
+    ],
+    "analysis/picking,": [
+      53
+    ],
+    "interpretation": [
+      54
+    ],
+    "field": [
+      57
+    ],
+    "modeling": [
+      58
+    ],
+    "are": [
+      59
+    ],
+    "most": [
+      61,
+      157
+    ],
+    "crucial": [
+      62
+    ],
+    "steps": [
+      63,
+      164
+    ],
+    "for": [
+      64,
+      175,
+      263
+    ],
+    "enhancing": [
+      65,
+      88
+    ],
+    "temporal": [
+      67
+    ],
+    "resolution,": [
+      68
+    ],
+    "needless,": [
+      69
+    ],
+    "say": [
+      71
+    ],
+    "very": [
+      72
+    ],
+    "challenging": [
+      73
+    ],
+    "achieve.": [
+      75
+    ],
+    "Accurate": [
+      76
+    ],
+    "velocities": [
+      77,
+      100,
+      200,
+      247
+    ],
+    "have": [
+      78,
+      101,
+      192
+    ],
+    "great": [
+      80
+    ],
+    "impact": [
+      81,
+      288
+    ],
+    "on": [
+      82,
+      106,
+      279,
+      289
+    ],
+    "flatting": [
+      83
+    ],
+    "gathers": [
+      85
+    ],
+    "consequently": [
+      87
+    ],
+    "frequency": [
+      90
+    ],
+    "contents;": [
+      91
+    ],
+    "subtle": [
+      93
+    ],
+    "changes": [
+      94
+    ],
+    "in": [
+      95,
+      201,
+      239
+    ],
+    "both": [
+      96
+    ],
+    "RMS": [
+      97
+    ],
+    "interval": [
+      99
+    ],
+    "shown": [
+      102
+    ],
+    "significant": [
+      104
+    ],
+    "effect": [
+      105
+    ],
+    "some": [
+      107
+    ],
+    "main": [
+      110
+    ],
+    "stages": [
+      112
+    ],
+    "such": [
+      113,
+      176
+    ],
+    "as": [
+      114,
+      177
+    ],
+    "residual": [
+      115
+    ],
+    "statics": [
+      116
+    ],
+    "calculation,": [
+      117
+    ],
+    "de-multiple": [
+      118
+    ],
+    "techniques,": [
+      119
+    ],
+    "imaging": [
+      120
+    ],
+    "stacking,": [
+      122
+    ],
+    "special": [
+      124
+    ],
+    "care": [
+      125
+    ],
+    "handling": [
+      127
+    ],
+    "analysis": [
+      130,
+      150,
+      170,
+      273
+    ],
+    "picking": [
+      132,
+      191,
+      241
+    ],
+    "considered.": [
+      134
+    ],
+    "addition": [
+      136
+    ],
+    "effective": [
+      139
+    ],
+    "data": [
+      140,
+      174
+    ],
+    "preconditioning": [
+      141
+    ],
+    "prior": [
+      142,
+      167
+    ],
+    "analysis,": [
+      146
+    ],
+    "different": [
+      147,
+      271
+    ],
+    "powerful": [
+      148
+    ],
+    "tools": [
+      151
+    ],
+    "were": [
+      152,
+      165,
+      221,
+      248
+    ],
+    "tested": [
+      153
+    ],
+    "identify": [
+      155
+    ],
+    "suitable": [
+      158
+    ],
+    "ones": [
+      159
+    ],
+    "use.": [
+      161
+    ],
+    "Important": [
+      162
+    ],
+    "applied": [
+      166,
+      232,
+      275
+    ],
+    "precondition": [
+      172
+    ],
+    "noise": [
+      178
+    ],
+    "attenuation,": [
+      179
+    ],
+    "multiple": [
+      180
+    ],
+    "removal": [
+      181
+    ],
+    "inner": [
+      183
+    ],
+    "trace": [
+      184
+    ],
+    "mute.": [
+      185
+    ],
+    "Several": [
+      186
+    ],
+    "rounds": [
+      187
+    ],
+    "interactive": [
+      189
+    ],
+    "been": [
+      193,
+      231
+    ],
+    "run": [
+      194
+    ],
+    "fine": [
+      196
+    ],
+    "tune": [
+      197
+    ],
+    "stacking": [
+      199,
+      207,
+      243
+    ],
+    "order": [
+      202,
+      219
+    ],
+    "achieve": [
+      204,
+      234
+    ],
+    "best": [
+      206
+    ],
+    "response.": [
+      208
+    ],
+    "Continuity": [
+      209
+    ],
+    "resolution": [
+      211
+    ],
+    "horizons": [
+      214
+    ],
+    "apparent": [
+      215
+    ],
+    "anisotropic": [
+      216
+    ],
+    "high": [
+      218
+    ],
+    "moveout": [
+      220
+    ],
+    "tested.": [
+      222
+    ],
+    "Finally": [
+      223
+    ],
+    "Spatial": [
+      225
+    ],
+    "Continuous": [
+      226
+    ],
+    "Velocity": [
+      227
+    ],
+    "Analysis": [
+      228
+    ],
+    "(SCVA)": [
+      229
+    ],
+    "has": [
+      230
+    ],
+    "much": [
+      236
+    ],
+    "higher": [
+      237
+    ],
+    "accuracy": [
+      238
+    ],
+    "velocities.": [
+      244
+    ],
+    "These": [
+      245
+    ],
+    "refined": [
+      246
+    ],
+    "then": [
+      249
+    ],
+    "passed": [
+      250
+    ],
+    "model": [
+      254
+    ],
+    "builder": [
+      255
+    ],
+    "(VMB)": [
+      256
+    ],
+    "stack": [
+      258
+    ],
+    "final": [
+      260
+    ],
+    "product": [
+      261
+    ],
+    "ready": [
+      262
+    ],
+    "interpretation.": [
+      264,
+      293
+    ],
+    "This": [
+      265
+    ],
+    "case": [
+      266
+    ],
+    "study": [
+      267
+    ],
+    "will": [
+      268,
+      277
+    ],
+    "present": [
+      269
+    ],
+    "techniques": [
+      274,
+      285
+    ],
+    "focus": [
+      278
+    ],
+    "results": [
+      281
+    ],
+    "achieved": [
+      282
+    ],
+    "using": [
+      283
+    ],
+    "these": [
+      284
+    ],
+    "its": [
+      287
+    ],
+    "improving": [
+      290
+    ]
+  },
+  "counts_by_year": [],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

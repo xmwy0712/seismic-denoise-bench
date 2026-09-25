@@ -1,0 +1,1421 @@
+{
+  "id": "https://openalex.org/W4316465711",
+  "doi": "https://doi.org/10.3390/jmse11010227",
+  "title": "Seismic Multiple Attenuation in the Continent–Ocean Transition Zone of the Northern South China Sea",
+  "display_name": "Seismic Multiple Attenuation in the Continent–Ocean Transition Zone of the Northern South China Sea",
+  "publication_year": 2023,
+  "publication_date": "2023-01-15",
+  "ids": {
+    "openalex": "https://openalex.org/W4316465711",
+    "doi": "https://doi.org/10.3390/jmse11010227"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.3390/jmse11010227",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3390/jmse11010227",
+    "pdf_url": "https://www.mdpi.com/2077-1312/11/1/227/pdf?version=1674016886",
+    "source": {
+      "id": "https://openalex.org/S2736865057",
+      "display_name": "Journal of Marine Science and Engineering",
+      "issn_l": "2077-1312",
+      "issn": [
+        "2077-1312"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310310987",
+      "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310310987"
+      ],
+      "host_organization_lineage_names": [
+        "Multidisciplinary Digital Publishing Institute"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Marine Science and Engineering",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "doaj"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://www.mdpi.com/2077-1312/11/1/227/pdf?version=1674016886",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5078920491",
+        "display_name": "Nan Chen",
+        "orcid": "https://orcid.org/0000-0002-0492-3457",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-0492-3457"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I116953780",
+          "display_name": "Tongji University",
+          "ror": "https://ror.org/03rc6as71",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I116953780"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I13591777",
+          "display_name": "University of Nottingham Ningbo China",
+          "ror": "https://ror.org/03y4dt428",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I13591777",
+            "https://openalex.org/I142263535"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Nan Chen",
+      "raw_affiliation_strings": [
+        "Ningbo Regional Railway Investment and Development Co., Ltd., Ningbo 315111, China",
+        "State Key Laboratory of Marine Geology, Tongji University, Shanghai 200092, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-0492-3457",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Ningbo Regional Railway Investment and Development Co., Ltd., Ningbo 315111, China",
+          "institution_ids": [
+            "https://openalex.org/I13591777"
+          ]
+        },
+        {
+          "raw_affiliation_string": "State Key Laboratory of Marine Geology, Tongji University, Shanghai 200092, China",
+          "institution_ids": [
+            "https://openalex.org/I116953780"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5103280858",
+        "display_name": "LI Chun-feng",
+        "orcid": "https://orcid.org/0000-0002-8855-4061",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-8855-4061"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210149102",
+          "display_name": "Sanya University",
+          "ror": "https://ror.org/04fa2qd52",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210149102"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I76130692",
+          "display_name": "Zhejiang University",
+          "ror": "https://ror.org/00a2xv884",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I76130692"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Chun-Feng Li",
+      "raw_affiliation_strings": [
+        "Hainan Institute, Zhejiang University, Sanya 572000, China",
+        "Institute of Marine Geology and Resources, Zhejiang University, Zhoushan 316021, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Hainan Institute, Zhejiang University, Sanya 572000, China",
+          "institution_ids": [
+            "https://openalex.org/I4210149102",
+            "https://openalex.org/I76130692"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institute of Marine Geology and Resources, Zhejiang University, Zhoushan 316021, China",
+          "institution_ids": [
+            "https://openalex.org/I76130692"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5110956485",
+        "display_name": "Yonglin Wen",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I76130692",
+          "display_name": "Zhejiang University",
+          "ror": "https://ror.org/00a2xv884",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I76130692"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yong-Lin Wen",
+      "raw_affiliation_strings": [
+        "Institute of Marine Geology and Resources, Zhejiang University, Zhoushan 316021, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Marine Geology and Resources, Zhejiang University, Zhoushan 316021, China",
+          "institution_ids": [
+            "https://openalex.org/I76130692"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100396117",
+        "display_name": "Peng Wang",
+        "orcid": "https://orcid.org/0000-0003-0788-6687",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-0788-6687",
+          "https://orcid.org/0000-0001-7613-5997",
+          "https://orcid.org/0000-0002-1024-0687",
+          "https://orcid.org/0000-0002-3825-6365",
+          "https://orcid.org/0009-0005-3043-6387",
+          "https://orcid.org/0000-0002-6475-0105",
+          "https://orcid.org/0000-0002-6125-3795"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I106994412",
+          "display_name": "Sinopec (China)",
+          "ror": "https://ror.org/0161q6d74",
+          "country_code": "CN",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I106994412"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Peng Wang",
+      "raw_affiliation_strings": [
+        "SINOPEC Shanghai Offshore Petroleum Company, Shanghai 200120, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "SINOPEC Shanghai Offshore Petroleum Company, Shanghai 200120, China",
+          "institution_ids": [
+            "https://openalex.org/I106994412"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5054749379",
+        "display_name": "Xiulian Zhao",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I106994412",
+          "display_name": "Sinopec (China)",
+          "ror": "https://ror.org/0161q6d74",
+          "country_code": "CN",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I106994412"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Xiu-Lian Zhao",
+      "raw_affiliation_strings": [
+        "SINOPEC Shanghai Offshore Petroleum Company, Shanghai 200120, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "SINOPEC Shanghai Offshore Petroleum Company, Shanghai 200120, China",
+          "institution_ids": [
+            "https://openalex.org/I106994412"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5102954891",
+        "display_name": "Xiaoli Wan",
+        "orcid": "https://orcid.org/0000-0003-0822-4140",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-0822-4140"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I116953780",
+          "display_name": "Tongji University",
+          "ror": "https://ror.org/03rc6as71",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I116953780"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Xiao-Li Wan",
+      "raw_affiliation_strings": [
+        "State Key Laboratory of Marine Geology, Tongji University, Shanghai 200092, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "State Key Laboratory of Marine Geology, Tongji University, Shanghai 200092, China",
+          "institution_ids": [
+            "https://openalex.org/I116953780"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 5,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5103280858"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210149102",
+    "https://openalex.org/I76130692"
+  ],
+  "apc_list": {
+    "value": 2200,
+    "currency": "CHF",
+    "value_usd": 2447
+  },
+  "apc_paid": {
+    "value": 2200,
+    "currency": "CHF",
+    "value_usd": 2447
+  },
+  "fwci": 1.9464,
+  "has_fulltext": false,
+  "cited_by_count": 7,
+  "citation_normalized_percentile": {
+    "value": 0.85694509,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 93,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "11",
+    "issue": "1",
+    "first_page": "227",
+    "last_page": "227"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T13177",
+    "display_name": "Geological and Geophysical Studies",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1907",
+      "display_name": "Geology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T13177",
+      "display_name": "Geological and Geophysical Studies",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1907",
+        "display_name": "Geology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10995",
+      "display_name": "Methane Hydrates and Related Phenomena",
+      "score": 0.9979000091552734,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2304",
+        "display_name": "Environmental Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/multiple",
+      "display_name": "Multiple",
+      "score": 0.8412554264068604
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.7821594476699829
+    },
+    {
+      "id": "https://openalex.org/keywords/seabed",
+      "display_name": "Seabed",
+      "score": 0.7189978361129761
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.6300856471061707
+    },
+    {
+      "id": "https://openalex.org/keywords/crust",
+      "display_name": "Crust",
+      "score": 0.5584768056869507
+    },
+    {
+      "id": "https://openalex.org/keywords/deconvolution",
+      "display_name": "Deconvolution",
+      "score": 0.5390533804893494
+    },
+    {
+      "id": "https://openalex.org/keywords/attenuation",
+      "display_name": "Attenuation",
+      "score": 0.513974130153656
+    },
+    {
+      "id": "https://openalex.org/keywords/oceanic-crust",
+      "display_name": "Oceanic crust",
+      "score": 0.5052152276039124
+    },
+    {
+      "id": "https://openalex.org/keywords/upwelling",
+      "display_name": "Upwelling",
+      "score": 0.43808358907699585
+    },
+    {
+      "id": "https://openalex.org/keywords/diffraction",
+      "display_name": "Diffraction",
+      "score": 0.4215213656425476
+    },
+    {
+      "id": "https://openalex.org/keywords/mineralogy",
+      "display_name": "Mineralogy",
+      "score": 0.3348742425441742
+    },
+    {
+      "id": "https://openalex.org/keywords/geophysics",
+      "display_name": "Geophysics",
+      "score": 0.2988365888595581
+    },
+    {
+      "id": "https://openalex.org/keywords/oceanography",
+      "display_name": "Oceanography",
+      "score": 0.16127312183380127
+    },
+    {
+      "id": "https://openalex.org/keywords/subduction",
+      "display_name": "Subduction",
+      "score": 0.12718120217323303
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.12125808000564575
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.09463346004486084
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C164680029",
+      "wikidata": "https://www.wikidata.org/wiki/Q1055293",
+      "display_name": "Multiple",
+      "level": 2,
+      "score": 0.8412554264068604
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.7821594476699829
+    },
+    {
+      "id": "https://openalex.org/C33613203",
+      "wikidata": "https://www.wikidata.org/wiki/Q468469",
+      "display_name": "Seabed",
+      "level": 2,
+      "score": 0.7189978361129761
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.6300856471061707
+    },
+    {
+      "id": "https://openalex.org/C2776698055",
+      "wikidata": "https://www.wikidata.org/wiki/Q4232578",
+      "display_name": "Crust",
+      "level": 2,
+      "score": 0.5584768056869507
+    },
+    {
+      "id": "https://openalex.org/C174576160",
+      "wikidata": "https://www.wikidata.org/wiki/Q1183700",
+      "display_name": "Deconvolution",
+      "level": 2,
+      "score": 0.5390533804893494
+    },
+    {
+      "id": "https://openalex.org/C184652730",
+      "wikidata": "https://www.wikidata.org/wiki/Q2357982",
+      "display_name": "Attenuation",
+      "level": 2,
+      "score": 0.513974130153656
+    },
+    {
+      "id": "https://openalex.org/C154200439",
+      "wikidata": "https://www.wikidata.org/wiki/Q238851",
+      "display_name": "Oceanic crust",
+      "level": 4,
+      "score": 0.5052152276039124
+    },
+    {
+      "id": "https://openalex.org/C149348798",
+      "wikidata": "https://www.wikidata.org/wiki/Q215915",
+      "display_name": "Upwelling",
+      "level": 2,
+      "score": 0.43808358907699585
+    },
+    {
+      "id": "https://openalex.org/C207114421",
+      "wikidata": "https://www.wikidata.org/wiki/Q133900",
+      "display_name": "Diffraction",
+      "level": 2,
+      "score": 0.4215213656425476
+    },
+    {
+      "id": "https://openalex.org/C199289684",
+      "wikidata": "https://www.wikidata.org/wiki/Q83353",
+      "display_name": "Mineralogy",
+      "level": 1,
+      "score": 0.3348742425441742
+    },
+    {
+      "id": "https://openalex.org/C8058405",
+      "wikidata": "https://www.wikidata.org/wiki/Q46255",
+      "display_name": "Geophysics",
+      "level": 1,
+      "score": 0.2988365888595581
+    },
+    {
+      "id": "https://openalex.org/C111368507",
+      "wikidata": "https://www.wikidata.org/wiki/Q43518",
+      "display_name": "Oceanography",
+      "level": 1,
+      "score": 0.16127312183380127
+    },
+    {
+      "id": "https://openalex.org/C58097730",
+      "wikidata": "https://www.wikidata.org/wiki/Q176318",
+      "display_name": "Subduction",
+      "level": 3,
+      "score": 0.12718120217323303
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.12125808000564575
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.09463346004486084
+    },
+    {
+      "id": "https://openalex.org/C77928131",
+      "wikidata": "https://www.wikidata.org/wiki/Q193343",
+      "display_name": "Tectonics",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C94375191",
+      "wikidata": "https://www.wikidata.org/wiki/Q11205",
+      "display_name": "Arithmetic",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.3390/jmse11010227",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3390/jmse11010227",
+      "pdf_url": "https://www.mdpi.com/2077-1312/11/1/227/pdf?version=1674016886",
+      "source": {
+        "id": "https://openalex.org/S2736865057",
+        "display_name": "Journal of Marine Science and Engineering",
+        "issn_l": "2077-1312",
+        "issn": [
+          "2077-1312"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310310987",
+        "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310310987"
+        ],
+        "host_organization_lineage_names": [
+          "Multidisciplinary Digital Publishing Institute"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Marine Science and Engineering",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:doaj.org/article:9f7ea3d326e3432280da17a1350360b3",
+      "is_oa": true,
+      "landing_page_url": "https://doaj.org/article/9f7ea3d326e3432280da17a1350360b3",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-sa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Journal of Marine Science and Engineering, Vol 11, Iss 1, p 227 (2023)",
+      "raw_type": "article"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.3390/jmse11010227",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3390/jmse11010227",
+    "pdf_url": "https://www.mdpi.com/2077-1312/11/1/227/pdf?version=1674016886",
+    "source": {
+      "id": "https://openalex.org/S2736865057",
+      "display_name": "Journal of Marine Science and Engineering",
+      "issn_l": "2077-1312",
+      "issn": [
+        "2077-1312"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310310987",
+      "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310310987"
+      ],
+      "host_organization_lineage_names": [
+        "Multidisciplinary Digital Publishing Institute"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Marine Science and Engineering",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Life below water",
+      "score": 0.7200000286102295,
+      "id": "https://metadata.un.org/sdg/14"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": true,
+    "grobid_xml": false
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W4316465711.pdf"
+  },
+  "referenced_works_count": 29,
+  "referenced_works": [
+    "https://openalex.org/W1535820637",
+    "https://openalex.org/W1618640913",
+    "https://openalex.org/W1748545007",
+    "https://openalex.org/W1969432053",
+    "https://openalex.org/W1972514978",
+    "https://openalex.org/W1989437964",
+    "https://openalex.org/W1995726128",
+    "https://openalex.org/W1999267088",
+    "https://openalex.org/W2010623371",
+    "https://openalex.org/W2014451736",
+    "https://openalex.org/W2016301670",
+    "https://openalex.org/W2019261486",
+    "https://openalex.org/W2028402503",
+    "https://openalex.org/W2048996866",
+    "https://openalex.org/W2049428063",
+    "https://openalex.org/W2085627371",
+    "https://openalex.org/W2088915873",
+    "https://openalex.org/W2172894972",
+    "https://openalex.org/W2329880094",
+    "https://openalex.org/W2337264956",
+    "https://openalex.org/W2378481580",
+    "https://openalex.org/W2381592710",
+    "https://openalex.org/W2387585087",
+    "https://openalex.org/W2927217353",
+    "https://openalex.org/W2971142598",
+    "https://openalex.org/W2998722390",
+    "https://openalex.org/W3030481956",
+    "https://openalex.org/W4252085940",
+    "https://openalex.org/W7071617629"
+  ],
+  "related_works": [
+    "https://openalex.org/W1545611118",
+    "https://openalex.org/W150848716",
+    "https://openalex.org/W2512327999",
+    "https://openalex.org/W2372115439",
+    "https://openalex.org/W2265502105",
+    "https://openalex.org/W2620227498",
+    "https://openalex.org/W1994397189",
+    "https://openalex.org/W2387585087",
+    "https://openalex.org/W2377950095",
+    "https://openalex.org/W2620235547"
+  ],
+  "abstract_inverted_index": {
+    "In": [
+      0
+    ],
+    "this": [
+      1
+    ],
+    "study,": [
+      2
+    ],
+    "we": [
+      3,
+      55,
+      144
+    ],
+    "process": [
+      4
+    ],
+    "four": [
+      5
+    ],
+    "new": [
+      6
+    ],
+    "multichannel": [
+      7
+    ],
+    "reflection": [
+      8
+    ],
+    "seismic": [
+      9,
+      175
+    ],
+    "profiles": [
+      10
+    ],
+    "acquired": [
+      11
+    ],
+    "in": [
+      12,
+      16,
+      47,
+      63,
+      114,
+      165,
+      172,
+      177
+    ],
+    "2015": [
+      13
+    ],
+    "and": [
+      14,
+      34,
+      38,
+      52,
+      59,
+      67,
+      83,
+      109,
+      124,
+      128,
+      156,
+      196,
+      246
+    ],
+    "2016": [
+      15
+    ],
+    "the": [
+      17,
+      23,
+      48,
+      57,
+      64,
+      94,
+      101,
+      132,
+      178,
+      185,
+      202,
+      206,
+      216,
+      219,
+      226,
+      229,
+      232
+    ],
+    "continent–ocean": [
+      18
+    ],
+    "transition": [
+      19
+    ],
+    "zone": [
+      20
+    ],
+    "(COT)": [
+      21
+    ],
+    "of": [
+      22,
+      61,
+      135,
+      161,
+      228
+    ],
+    "northern": [
+      24
+    ],
+    "South": [
+      25
+    ],
+    "China": [
+      26
+    ],
+    "Sea": [
+      27
+    ],
+    "(SCS).": [
+      28
+    ],
+    "We": [
+      29
+    ],
+    "apply": [
+      30
+    ],
+    "a": [
+      31,
+      40,
+      111
+    ],
+    "multi-domain,": [
+      32
+    ],
+    "progressive,": [
+      33
+    ],
+    "seabed-controlled": [
+      35
+    ],
+    "denoising": [
+      36,
+      42
+    ],
+    "technique": [
+      37,
+      72,
+      99
+    ],
+    "obtain": [
+      39
+    ],
+    "good": [
+      41,
+      112
+    ],
+    "effect.": [
+      43
+    ],
+    "Combining": [
+      44
+    ],
+    "velocity": [
+      45
+    ],
+    "analysis": [
+      46
+    ],
+    "multi-round": [
+      49
+    ],
+    "time": [
+      50
+    ],
+    "domain": [
+      51
+    ],
+    "forward": [
+      53
+    ],
+    "modeling,": [
+      54
+    ],
+    "analyze": [
+      56
+    ],
+    "types": [
+      58
+    ],
+    "characteristics": [
+      60
+    ],
+    "multiples": [
+      62,
+      79,
+      85,
+      104,
+      130,
+      136,
+      152,
+      176
+    ],
+    "study": [
+      65
+    ],
+    "area": [
+      66
+    ],
+    "formulate": [
+      68
+    ],
+    "an": [
+      69
+    ],
+    "effective": [
+      70,
+      171
+    ],
+    "demultiple": [
+      71
+    ],
+    "to": [
+      73,
+      137,
+      148,
+      168,
+      201,
+      205,
+      218,
+      225
+    ],
+    "attenuate": [
+      74,
+      141,
+      149
+    ],
+    "strong": [
+      75,
+      189
+    ],
+    "seabed": [
+      76,
+      116
+    ],
+    "multiples,": [
+      77,
+      127,
+      143
+    ],
+    "diffracted": [
+      78,
+      126
+    ],
+    "from": [
+      80,
+      86,
+      215
+    ],
+    "rough": [
+      81
+    ],
+    "seafloor,": [
+      82
+    ],
+    "other": [
+      84
+    ],
+    "deep": [
+      87,
+      142,
+      151
+    ],
+    "reflectors.": [
+      88
+    ],
+    "The": [
+      89,
+      159,
+      180,
+      194
+    ],
+    "processing": [
+      90
+    ],
+    "results": [
+      91
+    ],
+    "show": [
+      92,
+      188
+    ],
+    "that": [
+      93
+    ],
+    "sea": [
+      95,
+      102
+    ],
+    "surface-related": [
+      96,
+      103
+    ],
+    "multiple": [
+      97,
+      119
+    ],
+    "elimination": [
+      98
+    ],
+    "predicts": [
+      100
+    ],
+    "accurately": [
+      105
+    ],
+    "by": [
+      106,
+      131,
+      243
+    ],
+    "data": [
+      107
+    ],
+    "convolution,": [
+      108
+    ],
+    "has": [
+      110
+    ],
+    "effect": [
+      113
+    ],
+    "attenuating": [
+      115,
+      173
+    ],
+    "multiples.": [
+      117
+    ],
+    "Diffracted": [
+      118
+    ],
+    "attenuation": [
+      120
+    ],
+    "method": [
+      121
+    ],
+    "extracts": [
+      122
+    ],
+    "high-frequency": [
+      123
+    ],
+    "high-energy": [
+      125
+    ],
+    "suppresses": [
+      129
+    ],
+    "energy": [
+      133
+    ],
+    "ratios": [
+      134
+    ],
+    "primary": [
+      138
+    ],
+    "events.": [
+      139
+    ],
+    "To": [
+      140
+    ],
+    "select": [
+      145
+    ],
+    "predictive": [
+      146
+    ],
+    "deconvolution": [
+      147
+    ],
+    "periodic": [
+      150
+    ],
+    "after": [
+      153
+    ],
+    "many": [
+      154
+    ],
+    "trials": [
+      155
+    ],
+    "detailed": [
+      157
+    ],
+    "analysis.": [
+      158
+    ],
+    "combination": [
+      160
+    ],
+    "these": [
+      162
+    ],
+    "different": [
+      163,
+      174
+    ],
+    "techniques": [
+      164
+    ],
+    "sequence": [
+      166
+    ],
+    "proves": [
+      167
+    ],
+    "be": [
+      169
+    ],
+    "quite": [
+      170
+    ],
+    "COT.": [
+      179
+    ],
+    "imaged": [
+      181
+    ],
+    "crustal": [
+      182
+    ],
+    "structures": [
+      183
+    ],
+    "near": [
+      184
+    ],
+    "COT": [
+      186,
+      203,
+      217,
+      235
+    ],
+    "often": [
+      187,
+      213
+    ],
+    "magmatism": [
+      190
+    ],
+    "and/or": [
+      191
+    ],
+    "basement": [
+      192
+    ],
+    "uplifting.": [
+      193
+    ],
+    "faulted": [
+      195
+    ],
+    "thinned": [
+      197
+    ],
+    "continental": [
+      198
+    ],
+    "crust": [
+      199
+    ],
+    "adjacent": [
+      200
+    ],
+    "corresponds": [
+      204
+    ],
+    "lowest": [
+      207
+    ],
+    "free-air": [
+      208
+    ],
+    "gravity": [
+      209,
+      239
+    ],
+    "anomalies.": [
+      210
+    ],
+    "Gravity": [
+      211
+    ],
+    "anomalies": [
+      212
+    ],
+    "increase": [
+      214
+    ],
+    "oceanic": [
+      220
+    ],
+    "crust.": [
+      221
+    ],
+    "An": [
+      222
+    ],
+    "exception": [
+      223
+    ],
+    "is": [
+      224
+    ],
+    "northeast": [
+      227
+    ],
+    "SCS,": [
+      230
+    ],
+    "where": [
+      231
+    ],
+    "relatively": [
+      233
+    ],
+    "wide": [
+      234
+    ],
+    "shows": [
+      236
+    ],
+    "very": [
+      237
+    ],
+    "high": [
+      238
+    ],
+    "anomalies,": [
+      240
+    ],
+    "likely": [
+      241
+    ],
+    "induced": [
+      242
+    ],
+    "mantle": [
+      244
+    ],
+    "upwelling": [
+      245
+    ],
+    "serpentinization.": [
+      247
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2026-09-24T07:57:37.273135",
+  "created_date": "2023-01-16T00:00:00"
+}

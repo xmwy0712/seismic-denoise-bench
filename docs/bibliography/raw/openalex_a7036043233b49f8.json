@@ -1,0 +1,842 @@
+{
+  "id": "https://openalex.org/W1782651217",
+  "doi": "https://doi.org/10.1190/1.3304821",
+  "title": "AVO modeling of pressure-saturation effects in Weyburn CO2 sequestration",
+  "display_name": "AVO modeling of pressure-saturation effects in Weyburn CO2 sequestration",
+  "publication_year": 2010,
+  "publication_date": "2010-02-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1782651217",
+    "doi": "https://doi.org/10.1190/1.3304821",
+    "mag": "1782651217"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.3304821",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.3304821",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4210172657",
+      "display_name": "The Leading Edge",
+      "issn_l": "1070-485X",
+      "issn": [
+        "1070-485X",
+        "1938-3789"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "The Leading Edge",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5101942869",
+        "display_name": "Jinfeng Ma",
+        "orcid": "https://orcid.org/0000-0003-2754-5193",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-2754-5193",
+          "https://orcid.org/0000-0002-6298-4530"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I37802460",
+          "display_name": "Northwest University",
+          "ror": "https://ror.org/00z3td547",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I37802460"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210101261",
+          "display_name": "Continental (United Kingdom)",
+          "ror": "https://ror.org/017f0cd82",
+          "country_code": "GB",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I147869694",
+            "https://openalex.org/I4210101261"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4391767698",
+          "display_name": "State Key Laboratory of Continental Dynamics",
+          "ror": "https://ror.org/01t2m0x06",
+          "country_code": null,
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I37802460",
+            "https://openalex.org/I4391767698"
+          ]
+        }
+      ],
+      "countries": [
+        "CN",
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jinfeng Ma",
+      "raw_affiliation_strings": [
+        "State Key Laboratory of Continental Dynamics, Northwest University 1 , China",
+        "State Key Laboratory of Continental Dynamics, Northwest University, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "State Key Laboratory of Continental Dynamics, Northwest University 1 , China",
+          "institution_ids": [
+            "https://openalex.org/I4210101261"
+          ]
+        },
+        {
+          "raw_affiliation_string": "State Key Laboratory of Continental Dynamics, Northwest University, China",
+          "institution_ids": [
+            "https://openalex.org/I37802460",
+            "https://openalex.org/I4391767698"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5068410331",
+        "display_name": "Igor B. Morozov",
+        "orcid": "https://orcid.org/0000-0002-5211-7759",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-5211-7759"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I32625721",
+          "display_name": "University of Saskatchewan",
+          "ror": "https://ror.org/010x8gc63",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I32625721"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Igor Morozov",
+      "raw_affiliation_strings": [
+        "University of Saskatchewan 2 , Canada",
+        "Univ. of Saskatchewan, Canada#TAB#"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Saskatchewan 2 , Canada",
+          "institution_ids": [
+            "https://openalex.org/I32625721"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Univ. of Saskatchewan, Canada#TAB#",
+          "institution_ids": [
+            "https://openalex.org/I32625721"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 3,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 3.5036,
+  "has_fulltext": false,
+  "cited_by_count": 43,
+  "citation_normalized_percentile": {
+    "value": 0.91066715,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 88,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "29",
+    "issue": "2",
+    "first_page": "178",
+    "last_page": "183"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9998999834060669,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11302",
+      "display_name": "CO2 Sequestration and Geologic Interactions",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2305",
+        "display_name": "Environmental Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/enhanced-oil-recovery",
+      "display_name": "Enhanced oil recovery",
+      "score": 0.7145199179649353
+    },
+    {
+      "id": "https://openalex.org/keywords/carbon-sequestration",
+      "display_name": "Carbon sequestration",
+      "score": 0.6488940715789795
+    },
+    {
+      "id": "https://openalex.org/keywords/petroleum-engineering",
+      "display_name": "Petroleum engineering",
+      "score": 0.6276088953018188
+    },
+    {
+      "id": "https://openalex.org/keywords/greenhouse-gas",
+      "display_name": "Greenhouse gas",
+      "score": 0.5562694072723389
+    },
+    {
+      "id": "https://openalex.org/keywords/environmental-science",
+      "display_name": "Environmental science",
+      "score": 0.4828796684741974
+    },
+    {
+      "id": "https://openalex.org/keywords/water-flooding",
+      "display_name": "Water flooding",
+      "score": 0.4148891270160675
+    },
+    {
+      "id": "https://openalex.org/keywords/hydrology",
+      "display_name": "Hydrology (agriculture)",
+      "score": 0.35100841522216797
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.3286733627319336
+    },
+    {
+      "id": "https://openalex.org/keywords/geotechnical-engineering",
+      "display_name": "Geotechnical engineering",
+      "score": 0.20444348454475403
+    },
+    {
+      "id": "https://openalex.org/keywords/carbon-dioxide",
+      "display_name": "Carbon dioxide",
+      "score": 0.1906498372554779
+    },
+    {
+      "id": "https://openalex.org/keywords/chemistry",
+      "display_name": "Chemistry",
+      "score": 0.13186144828796387
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2779681308",
+      "wikidata": "https://www.wikidata.org/wiki/Q1049254",
+      "display_name": "Enhanced oil recovery",
+      "level": 2,
+      "score": 0.7145199179649353
+    },
+    {
+      "id": "https://openalex.org/C22884784",
+      "wikidata": "https://www.wikidata.org/wiki/Q15305550",
+      "display_name": "Carbon sequestration",
+      "level": 3,
+      "score": 0.6488940715789795
+    },
+    {
+      "id": "https://openalex.org/C78762247",
+      "wikidata": "https://www.wikidata.org/wiki/Q1273174",
+      "display_name": "Petroleum engineering",
+      "level": 1,
+      "score": 0.6276088953018188
+    },
+    {
+      "id": "https://openalex.org/C47737302",
+      "wikidata": "https://www.wikidata.org/wiki/Q167336",
+      "display_name": "Greenhouse gas",
+      "level": 2,
+      "score": 0.5562694072723389
+    },
+    {
+      "id": "https://openalex.org/C39432304",
+      "wikidata": "https://www.wikidata.org/wiki/Q188847",
+      "display_name": "Environmental science",
+      "level": 0,
+      "score": 0.4828796684741974
+    },
+    {
+      "id": "https://openalex.org/C3019147571",
+      "wikidata": "https://www.wikidata.org/wiki/Q7973522",
+      "display_name": "Water flooding",
+      "level": 2,
+      "score": 0.4148891270160675
+    },
+    {
+      "id": "https://openalex.org/C76886044",
+      "wikidata": "https://www.wikidata.org/wiki/Q2883300",
+      "display_name": "Hydrology (agriculture)",
+      "level": 2,
+      "score": 0.35100841522216797
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.3286733627319336
+    },
+    {
+      "id": "https://openalex.org/C187320778",
+      "wikidata": "https://www.wikidata.org/wiki/Q1349130",
+      "display_name": "Geotechnical engineering",
+      "level": 1,
+      "score": 0.20444348454475403
+    },
+    {
+      "id": "https://openalex.org/C530467964",
+      "wikidata": "https://www.wikidata.org/wiki/Q1997",
+      "display_name": "Carbon dioxide",
+      "level": 2,
+      "score": 0.1906498372554779
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.13186144828796387
+    },
+    {
+      "id": "https://openalex.org/C178790620",
+      "wikidata": "https://www.wikidata.org/wiki/Q11351",
+      "display_name": "Organic chemistry",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C111368507",
+      "wikidata": "https://www.wikidata.org/wiki/Q43518",
+      "display_name": "Oceanography",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.3304821",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.3304821",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210172657",
+        "display_name": "The Leading Edge",
+        "issn_l": "1070-485X",
+        "issn": [
+          "1070-485X",
+          "1938-3789"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The Leading Edge",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Affordable and clean energy",
+      "id": "https://metadata.un.org/sdg/7",
+      "score": 0.5600000023841858
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 6,
+  "referenced_works": [
+    "https://openalex.org/W1717955827",
+    "https://openalex.org/W1907781017",
+    "https://openalex.org/W2141328129",
+    "https://openalex.org/W2149207291",
+    "https://openalex.org/W2156193302",
+    "https://openalex.org/W2169002588"
+  ],
+  "related_works": [
+    "https://openalex.org/W2027370456",
+    "https://openalex.org/W2368877895",
+    "https://openalex.org/W4285238094",
+    "https://openalex.org/W3084157607",
+    "https://openalex.org/W3016605570",
+    "https://openalex.org/W3084244476",
+    "https://openalex.org/W2367387681",
+    "https://openalex.org/W2591851389",
+    "https://openalex.org/W2466679586",
+    "https://openalex.org/W3084220588"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0
+    ],
+    "Weyburn": [
+      1
+    ],
+    "Field": [
+      2
+    ],
+    "in": [
+      3,
+      11,
+      75
+    ],
+    "southeastern": [
+      4
+    ],
+    "Saskatchewan,": [
+      5
+    ],
+    "Canada": [
+      6
+    ],
+    "(Figure": [
+      7
+    ],
+    "1)": [
+      8
+    ],
+    "was": [
+      9,
+      30
+    ],
+    "discovered": [
+      10
+    ],
+    "1954": [
+      12
+    ],
+    "and": [
+      13,
+      47,
+      58,
+      65,
+      88,
+      93,
+      101
+    ],
+    "has": [
+      14
+    ],
+    "been": [
+      15
+    ],
+    "water-flooded": [
+      16
+    ],
+    "since": [
+      17
+    ],
+    "the": [
+      18,
+      86,
+      95
+    ],
+    "1960s.": [
+      19
+    ],
+    "In": [
+      20,
+      51
+    ],
+    "October": [
+      21
+    ],
+    "2000,": [
+      22
+    ],
+    "injection": [
+      23
+    ],
+    "of": [
+      24,
+      63,
+      90
+    ],
+    "CO2": [
+      25,
+      45,
+      55,
+      91
+    ],
+    "for": [
+      26
+    ],
+    "enhanced": [
+      27
+    ],
+    "oil": [
+      28,
+      59,
+      103
+    ],
+    "recovery": [
+      29
+    ],
+    "started": [
+      31
+    ],
+    "by": [
+      32
+    ],
+    "EnCana,": [
+      33
+    ],
+    "concurrently": [
+      34
+    ],
+    "with": [
+      35,
+      71
+    ],
+    "a": [
+      36,
+      72
+    ],
+    "multidisciplinary": [
+      37
+    ],
+    "International": [
+      38
+    ],
+    "Energy": [
+      39
+    ],
+    "Agency": [
+      40
+    ],
+    "Greenhouse": [
+      41
+    ],
+    "Gas": [
+      42
+    ],
+    "(IEA": [
+      43
+    ],
+    "GHG)": [
+      44
+    ],
+    "Monitoring": [
+      46
+    ],
+    "Storage": [
+      48
+    ],
+    "Project": [
+      49
+    ],
+    "(CO2MSP).": [
+      50
+    ],
+    "order": [
+      52
+    ],
+    "to": [
+      53,
+      84
+    ],
+    "monitor": [
+      54,
+      94
+    ],
+    "injection,": [
+      56
+    ],
+    "storage,": [
+      57
+    ],
+    "recovery,": [
+      60
+    ],
+    "several": [
+      61
+    ],
+    "vintages": [
+      62
+    ],
+    "3D": [
+      64
+    ],
+    "3D/3-C": [
+      66
+    ],
+    "data": [
+      67,
+      80
+    ],
+    "were": [
+      68,
+      82
+    ],
+    "acquired,": [
+      69
+    ],
+    "starting": [
+      70
+    ],
+    "baseline": [
+      73
+    ],
+    "survey": [
+      74
+    ],
+    "December": [
+      76
+    ],
+    "1999.": [
+      77
+    ],
+    "These": [
+      78
+    ],
+    "time-lapse": [
+      79
+    ],
+    "sets": [
+      81
+    ],
+    "used": [
+      83
+    ],
+    "evaluate": [
+      85
+    ],
+    "quality": [
+      87
+    ],
+    "safety": [
+      89
+    ],
+    "sequestration,": [
+      92
+    ],
+    "reservoir": [
+      96
+    ],
+    "pressure": [
+      97
+    ],
+    "front,": [
+      98
+    ],
+    "water": [
+      99
+    ],
+    "flooding,": [
+      100
+    ],
+    "bypassed": [
+      102
+    ],
+    "(White": [
+      104
+    ],
+    "et": [
+      105
+    ],
+    "al.,": [
+      106
+    ],
+    "2004).": [
+      107
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 8
+    }
+  ],
+  "updated_date": "2026-09-24T07:57:37.273135",
+  "created_date": "2025-10-10T00:00:00"
+}

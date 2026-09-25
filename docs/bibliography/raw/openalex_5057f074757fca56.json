@@ -1,0 +1,1357 @@
+{
+  "id": "https://openalex.org/W2141696759",
+  "doi": "https://doi.org/10.1073/pnas.0803205106",
+  "title": "CUR matrix decompositions for improved data analysis",
+  "display_name": "CUR matrix decompositions for improved data analysis",
+  "publication_year": 2009,
+  "publication_date": "2009-01-12",
+  "ids": {
+    "openalex": "https://openalex.org/W2141696759",
+    "doi": "https://doi.org/10.1073/pnas.0803205106",
+    "mag": "2141696759",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/19139392"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1073/pnas.0803205106",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1073/pnas.0803205106",
+    "pdf_url": "https://www.pnas.org/doi/pdf/10.1073/pnas.0803205106",
+    "source": {
+      "id": "https://openalex.org/S125754415",
+      "display_name": "Proceedings of the National Academy of Sciences",
+      "issn_l": "0027-8424",
+      "issn": [
+        "0027-8424",
+        "1091-6490"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doyens",
+        "erih-plus",
+        "jufo-3",
+        "ki-jl-3",
+        "medline",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310320052",
+      "host_organization_name": "National Academy of Sciences",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320052"
+      ],
+      "host_organization_lineage_names": [
+        "National Academy of Sciences"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Proceedings of the National Academy of Sciences",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://www.pnas.org/doi/pdf/10.1073/pnas.0803205106",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5033006662",
+        "display_name": "Michael W. Mahoney",
+        "orcid": "https://orcid.org/0000-0001-7920-4652",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-7920-4652"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97018004",
+          "display_name": "Stanford University",
+          "ror": "https://ror.org/00f54p054",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Michael W. Mahoney",
+      "raw_affiliation_strings": [
+        "Department of Mathematics, Stanford University, Stanford, CA 94305; and",
+        "Department of Mathematics, Stanford University, Stanford, CA 94305, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Mathematics, Stanford University, Stanford, CA 94305; and",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Mathematics, Stanford University, Stanford, CA 94305, USA",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5081378199",
+        "display_name": "Petros Drineas",
+        "orcid": "https://orcid.org/0000-0003-1994-8670",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-1994-8670"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I165799507",
+          "display_name": "Rensselaer Polytechnic Institute",
+          "ror": "https://ror.org/01rtyzb94",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I165799507"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Petros Drineas",
+      "raw_affiliation_strings": [
+        "Department of Computer Science, Rensselaer Polytechnic Institute, Troy, NY 12180",
+        "bDepartment of Computer Science, Rensselaer Polytechnic Institute, Troy, NY 12180;"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Computer Science, Rensselaer Polytechnic Institute, Troy, NY 12180",
+          "institution_ids": [
+            "https://openalex.org/I165799507"
+          ]
+        },
+        {
+          "raw_affiliation_string": "bDepartment of Computer Science, Rensselaer Polytechnic Institute, Troy, NY 12180;",
+          "institution_ids": [
+            "https://openalex.org/I165799507"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5033006662"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I97018004"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 6.7986,
+  "has_fulltext": true,
+  "cited_by_count": 812,
+  "citation_normalized_percentile": {
+    "value": 0.98850575,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "106",
+    "issue": "3",
+    "first_page": "697",
+    "last_page": "702"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12303",
+    "display_name": "Tensor decomposition and applications",
+    "score": 0.9987999796867371,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2605",
+      "display_name": "Computational Mathematics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12303",
+      "display_name": "Tensor decomposition and applications",
+      "score": 0.9987999796867371,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2605",
+        "display_name": "Computational Mathematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10500",
+      "display_name": "Sparse and Compressive Sensing Techniques",
+      "score": 0.9961000084877014,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11447",
+      "display_name": "Blind Source Separation Techniques",
+      "score": 0.9959999918937683,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1711",
+        "display_name": "Signal Processing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/row",
+      "display_name": "Row",
+      "score": 0.7390652298927307
+    },
+    {
+      "id": "https://openalex.org/keywords/leverage",
+      "display_name": "Leverage (statistics)",
+      "score": 0.6825989484786987
+    },
+    {
+      "id": "https://openalex.org/keywords/data-matrix",
+      "display_name": "Data Matrix",
+      "score": 0.6610875129699707
+    },
+    {
+      "id": "https://openalex.org/keywords/singular-value-decomposition",
+      "display_name": "Singular value decomposition",
+      "score": 0.6509625315666199
+    },
+    {
+      "id": "https://openalex.org/keywords/matrix",
+      "display_name": "Matrix (chemical analysis)",
+      "score": 0.6138615608215332
+    },
+    {
+      "id": "https://openalex.org/keywords/exploratory-data-analysis",
+      "display_name": "Exploratory data analysis",
+      "score": 0.6102837920188904
+    },
+    {
+      "id": "https://openalex.org/keywords/row-and-column-spaces",
+      "display_name": "Row and column spaces",
+      "score": 0.5606417059898376
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.4858970046043396
+    },
+    {
+      "id": "https://openalex.org/keywords/principal-component-analysis",
+      "display_name": "Principal component analysis",
+      "score": 0.4825565218925476
+    },
+    {
+      "id": "https://openalex.org/keywords/rank",
+      "display_name": "Rank (graph theory)",
+      "score": 0.4815123975276947
+    },
+    {
+      "id": "https://openalex.org/keywords/low-rank-approximation",
+      "display_name": "Low-rank approximation",
+      "score": 0.474201500415802
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.45306262373924255
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.44233232736587524
+    },
+    {
+      "id": "https://openalex.org/keywords/design-matrix",
+      "display_name": "Design matrix",
+      "score": 0.42604148387908936
+    },
+    {
+      "id": "https://openalex.org/keywords/data-mining",
+      "display_name": "Data mining",
+      "score": 0.35239481925964355
+    },
+    {
+      "id": "https://openalex.org/keywords/statistics",
+      "display_name": "Statistics",
+      "score": 0.28283604979515076
+    },
+    {
+      "id": "https://openalex.org/keywords/regression-analysis",
+      "display_name": "Regression analysis",
+      "score": 0.26572471857070923
+    },
+    {
+      "id": "https://openalex.org/keywords/combinatorics",
+      "display_name": "Combinatorics",
+      "score": 0.12083739042282104
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C135598885",
+      "wikidata": "https://www.wikidata.org/wiki/Q1366302",
+      "display_name": "Row",
+      "level": 2,
+      "score": 0.7390652298927307
+    },
+    {
+      "id": "https://openalex.org/C153083717",
+      "wikidata": "https://www.wikidata.org/wiki/Q6535263",
+      "display_name": "Leverage (statistics)",
+      "level": 2,
+      "score": 0.6825989484786987
+    },
+    {
+      "id": "https://openalex.org/C2780985081",
+      "wikidata": "https://www.wikidata.org/wiki/Q676502",
+      "display_name": "Data Matrix",
+      "level": 5,
+      "score": 0.6610875129699707
+    },
+    {
+      "id": "https://openalex.org/C22789450",
+      "wikidata": "https://www.wikidata.org/wiki/Q420904",
+      "display_name": "Singular value decomposition",
+      "level": 2,
+      "score": 0.6509625315666199
+    },
+    {
+      "id": "https://openalex.org/C106487976",
+      "wikidata": "https://www.wikidata.org/wiki/Q685816",
+      "display_name": "Matrix (chemical analysis)",
+      "level": 2,
+      "score": 0.6138615608215332
+    },
+    {
+      "id": "https://openalex.org/C120894424",
+      "wikidata": "https://www.wikidata.org/wiki/Q1322871",
+      "display_name": "Exploratory data analysis",
+      "level": 2,
+      "score": 0.6102837920188904
+    },
+    {
+      "id": "https://openalex.org/C104140500",
+      "wikidata": "https://www.wikidata.org/wiki/Q2088159",
+      "display_name": "Row and column spaces",
+      "level": 3,
+      "score": 0.5606417059898376
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.4858970046043396
+    },
+    {
+      "id": "https://openalex.org/C27438332",
+      "wikidata": "https://www.wikidata.org/wiki/Q2873",
+      "display_name": "Principal component analysis",
+      "level": 2,
+      "score": 0.4825565218925476
+    },
+    {
+      "id": "https://openalex.org/C164226766",
+      "wikidata": "https://www.wikidata.org/wiki/Q7293202",
+      "display_name": "Rank (graph theory)",
+      "level": 2,
+      "score": 0.4815123975276947
+    },
+    {
+      "id": "https://openalex.org/C90199385",
+      "wikidata": "https://www.wikidata.org/wiki/Q6692777",
+      "display_name": "Low-rank approximation",
+      "level": 3,
+      "score": 0.474201500415802
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.45306262373924255
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.44233232736587524
+    },
+    {
+      "id": "https://openalex.org/C203233044",
+      "wikidata": "https://www.wikidata.org/wiki/Q5264358",
+      "display_name": "Design matrix",
+      "level": 3,
+      "score": 0.42604148387908936
+    },
+    {
+      "id": "https://openalex.org/C124101348",
+      "wikidata": "https://www.wikidata.org/wiki/Q172491",
+      "display_name": "Data mining",
+      "level": 1,
+      "score": 0.35239481925964355
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.28283604979515076
+    },
+    {
+      "id": "https://openalex.org/C152877465",
+      "wikidata": "https://www.wikidata.org/wiki/Q208042",
+      "display_name": "Regression analysis",
+      "level": 2,
+      "score": 0.26572471857070923
+    },
+    {
+      "id": "https://openalex.org/C114614502",
+      "wikidata": "https://www.wikidata.org/wiki/Q76592",
+      "display_name": "Combinatorics",
+      "level": 1,
+      "score": 0.12083739042282104
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C192562407",
+      "wikidata": "https://www.wikidata.org/wiki/Q228736",
+      "display_name": "Materials science",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C159985019",
+      "wikidata": "https://www.wikidata.org/wiki/Q181790",
+      "display_name": "Composite material",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C44465124",
+      "wikidata": "https://www.wikidata.org/wiki/Q713623",
+      "display_name": "Clade",
+      "level": 4,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C77088390",
+      "wikidata": "https://www.wikidata.org/wiki/Q8513",
+      "display_name": "Database",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C25023664",
+      "wikidata": "https://www.wikidata.org/wiki/Q1575637",
+      "display_name": "Hankel matrix",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C193252679",
+      "wikidata": "https://www.wikidata.org/wiki/Q242125",
+      "display_name": "Phylogenetic tree",
+      "level": 3,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 3,
+  "locations": [
+    {
+      "id": "doi:10.1073/pnas.0803205106",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1073/pnas.0803205106",
+      "pdf_url": "https://www.pnas.org/doi/pdf/10.1073/pnas.0803205106",
+      "source": {
+        "id": "https://openalex.org/S125754415",
+        "display_name": "Proceedings of the National Academy of Sciences",
+        "issn_l": "0027-8424",
+        "issn": [
+          "0027-8424",
+          "1091-6490"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doyens",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-3",
+          "medline",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310320052",
+        "host_organization_name": "National Academy of Sciences",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320052"
+        ],
+        "host_organization_lineage_names": [
+          "National Academy of Sciences"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the National Academy of Sciences",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmid:19139392",
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/19139392",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the National Academy of Sciences of the United States of America",
+      "raw_type": "Journal Article"
+    },
+    {
+      "id": "pmh:oai:pubmedcentral.nih.gov:2630100",
+      "is_oa": true,
+      "landing_page_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/2630100",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764455111",
+        "display_name": "PubMed Central",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Proc Natl Acad Sci U S A",
+      "raw_type": "Text"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.1073/pnas.0803205106",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1073/pnas.0803205106",
+    "pdf_url": "https://www.pnas.org/doi/pdf/10.1073/pnas.0803205106",
+    "source": {
+      "id": "https://openalex.org/S125754415",
+      "display_name": "Proceedings of the National Academy of Sciences",
+      "issn_l": "0027-8424",
+      "issn": [
+        "0027-8424",
+        "1091-6490"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doyens",
+        "erih-plus",
+        "jufo-3",
+        "ki-jl-3",
+        "medline",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310320052",
+      "host_organization_name": "National Academy of Sciences",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320052"
+      ],
+      "host_organization_lineage_names": [
+        "National Academy of Sciences"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Proceedings of the National Academy of Sciences",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [
+    {
+      "id": "https://openalex.org/G6671297155",
+      "display_name": null,
+      "funder_award_id": "CAREER",
+      "funder_id": "https://openalex.org/F4320306076",
+      "funder_display_name": "National Science Foundation"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320306076",
+      "display_name": "National Science Foundation",
+      "ror": "https://ror.org/021nxhr62"
+    }
+  ],
+  "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W2141696759.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W2141696759.grobid-xml"
+  },
+  "referenced_works_count": 41,
+  "referenced_works": [
+    "https://openalex.org/W83404773",
+    "https://openalex.org/W112906951",
+    "https://openalex.org/W658559791",
+    "https://openalex.org/W1482828348",
+    "https://openalex.org/W1583837637",
+    "https://openalex.org/W1603920809",
+    "https://openalex.org/W1977994906",
+    "https://openalex.org/W1978380929",
+    "https://openalex.org/W1979750072",
+    "https://openalex.org/W1983350937",
+    "https://openalex.org/W1998269045",
+    "https://openalex.org/W2003690406",
+    "https://openalex.org/W2011039300",
+    "https://openalex.org/W2021120591",
+    "https://openalex.org/W2034714661",
+    "https://openalex.org/W2050559027",
+    "https://openalex.org/W2065914526",
+    "https://openalex.org/W2078465266",
+    "https://openalex.org/W2079196839",
+    "https://openalex.org/W2082425079",
+    "https://openalex.org/W2100417824",
+    "https://openalex.org/W2107866839",
+    "https://openalex.org/W2113387206",
+    "https://openalex.org/W2128858663",
+    "https://openalex.org/W2132582398",
+    "https://openalex.org/W2142460132",
+    "https://openalex.org/W2147152072",
+    "https://openalex.org/W2148541040",
+    "https://openalex.org/W2153970289",
+    "https://openalex.org/W2161084585",
+    "https://openalex.org/W2170798597",
+    "https://openalex.org/W2485972433",
+    "https://openalex.org/W2487741598",
+    "https://openalex.org/W2592974517",
+    "https://openalex.org/W2798909945",
+    "https://openalex.org/W2801713330",
+    "https://openalex.org/W3124468770",
+    "https://openalex.org/W4231187174",
+    "https://openalex.org/W4244764328",
+    "https://openalex.org/W4285719527",
+    "https://openalex.org/W4297924279"
+  ],
+  "related_works": [
+    "https://openalex.org/W4388257404",
+    "https://openalex.org/W2036965437",
+    "https://openalex.org/W3196033527",
+    "https://openalex.org/W1596498421",
+    "https://openalex.org/W4253275354",
+    "https://openalex.org/W1995796255",
+    "https://openalex.org/W4239101241",
+    "https://openalex.org/W2503716405",
+    "https://openalex.org/W4239183290",
+    "https://openalex.org/W4233886882"
+  ],
+  "abstract_inverted_index": {
+    "Principal": [
+      0
+    ],
+    "components": [
+      1
+    ],
+    "analysis": [
+      2,
+      13,
+      220
+    ],
+    "and,": [
+      3,
+      145
+    ],
+    "more": [
+      4
+    ],
+    "generally,": [
+      5
+    ],
+    "the": [
+      6,
+      41,
+      54,
+      59,
+      96,
+      114,
+      118,
+      123,
+      126,
+      159,
+      164,
+      189,
+      200
+    ],
+    "Singular": [
+      7
+    ],
+    "Value": [
+      8
+    ],
+    "Decomposition": [
+      9
+    ],
+    "are": [
+      10,
+      46,
+      75,
+      80,
+      101,
+      109,
+      120
+    ],
+    "fundamental": [
+      11
+    ],
+    "data": [
+      12,
+      18,
+      42,
+      55,
+      71,
+      97,
+      105,
+      119,
+      128,
+      165,
+      228
+    ],
+    "tools": [
+      14
+    ],
+    "that": [
+      15,
+      79,
+      125,
+      134,
+      140
+    ],
+    "express": [
+      16
+    ],
+    "a": [
+      17,
+      23,
+      86,
+      148,
+      154,
+      206
+    ],
+    "matrix": [
+      19,
+      67,
+      77,
+      224
+    ],
+    "in": [
+      20,
+      51,
+      83,
+      147,
+      172,
+      183
+    ],
+    "terms": [
+      21,
+      52,
+      84
+    ],
+    "of": [
+      22,
+      25,
+      30,
+      37,
+      53,
+      85,
+      89,
+      95,
+      113,
+      163,
+      194
+    ],
+    "sequence": [
+      24
+    ],
+    "orthogonal": [
+      26
+    ],
+    "or": [
+      27
+    ],
+    "uncorrelated": [
+      28
+    ],
+    "vectors": [
+      29,
+      45
+    ],
+    "decreasing": [
+      31
+    ],
+    "importance.": [
+      32
+    ],
+    "Unfortunately,": [
+      33
+    ],
+    "being": [
+      34
+    ],
+    "linear": [
+      35
+    ],
+    "combinations": [
+      36
+    ],
+    "up": [
+      38
+    ],
+    "to": [
+      39,
+      49,
+      188,
+      221
+    ],
+    "all": [
+      40
+    ],
+    "points,": [
+      43
+    ],
+    "these": [
+      44,
+      223
+    ],
+    "notoriously": [
+      47
+    ],
+    "difficult": [
+      48
+    ],
+    "interpret": [
+      50
+    ],
+    "and": [
+      56,
+      138,
+      170,
+      179,
+      208
+    ],
+    "processes": [
+      57
+    ],
+    "generating": [
+      58
+    ],
+    "data.": [
+      60
+    ],
+    "In": [
+      61,
+      197
+    ],
+    "this": [
+      62,
+      173
+    ],
+    "article,": [
+      63
+    ],
+    "we": [
+      64,
+      175,
+      213
+    ],
+    "develop": [
+      65
+    ],
+    "CUR": [
+      66,
+      73,
+      107
+    ],
+    "decompositions": [
+      68,
+      74,
+      78,
+      108,
+      225
+    ],
+    "for": [
+      69,
+      226
+    ],
+    "improved": [
+      70,
+      177
+    ],
+    "analysis.": [
+      72,
+      229
+    ],
+    "low-rank": [
+      76,
+      161
+    ],
+    "explicitly": [
+      81
+    ],
+    "expressed": [
+      82
+    ],
+    "small": [
+      87
+    ],
+    "number": [
+      88
+    ],
+    "actual": [
+      90,
+      93,
+      104
+    ],
+    "columns": [
+      91,
+      137,
+      169
+    ],
+    "and/or": [
+      92
+    ],
+    "rows": [
+      94,
+      139,
+      171
+    ],
+    "matrix.": [
+      98,
+      166
+    ],
+    "Because": [
+      99
+    ],
+    "they": [
+      100
+    ],
+    "constructed": [
+      102
+    ],
+    "from": [
+      103,
+      116,
+      217
+    ],
+    "elements,": [
+      106
+    ],
+    "interpretable": [
+      110
+    ],
+    "by": [
+      111
+    ],
+    "practitioners": [
+      112
+    ],
+    "field": [
+      115
+    ],
+    "which": [
+      117
+    ],
+    "drawn": [
+      121
+    ],
+    "(to": [
+      122
+    ],
+    "extent": [
+      124
+    ],
+    "original": [
+      127
+    ],
+    "are).": [
+      129
+    ],
+    "We": [
+      130
+    ],
+    "present": [
+      131
+    ],
+    "an": [
+      132
+    ],
+    "algorithm": [
+      133
+    ],
+    "preferentially": [
+      135
+    ],
+    "chooses": [
+      136
+    ],
+    "exhibit": [
+      141
+    ],
+    "high": [
+      142
+    ],
+    "\"statistical": [
+      143
+    ],
+    "leverage\"": [
+      144
+    ],
+    "thus,": [
+      146
+    ],
+    "very": [
+      149
+    ],
+    "precise": [
+      150
+    ],
+    "statistical": [
+      151,
+      211
+    ],
+    "sense,": [
+      152
+    ],
+    "exert": [
+      153
+    ],
+    "disproportionately": [
+      155
+    ],
+    "large": [
+      156
+    ],
+    "\"influence\"": [
+      157
+    ],
+    "on": [
+      158
+    ],
+    "best": [
+      160
+    ],
+    "fit": [
+      162
+    ],
+    "By": [
+      167
+    ],
+    "selecting": [
+      168
+    ],
+    "manner,": [
+      174
+    ],
+    "obtain": [
+      176
+    ],
+    "relative-error": [
+      178
+    ],
+    "constant-factor": [
+      180
+    ],
+    "approximation": [
+      181
+    ],
+    "guarantees": [
+      182,
+      193
+    ],
+    "worst-case": [
+      184
+    ],
+    "analysis,": [
+      185
+    ],
+    "as": [
+      186
+    ],
+    "opposed": [
+      187
+    ],
+    "much": [
+      190
+    ],
+    "coarser": [
+      191
+    ],
+    "additive-error": [
+      192
+    ],
+    "prior": [
+      195
+    ],
+    "work.": [
+      196
+    ],
+    "addition,": [
+      198
+    ],
+    "since": [
+      199
+    ],
+    "construction": [
+      201
+    ],
+    "involves": [
+      202
+    ],
+    "computing": [
+      203
+    ],
+    "quantities": [
+      204
+    ],
+    "with": [
+      205
+    ],
+    "natural": [
+      207
+    ],
+    "widely": [
+      209
+    ],
+    "studied": [
+      210
+    ],
+    "interpretation,": [
+      212
+    ],
+    "can": [
+      214
+    ],
+    "leverage": [
+      215
+    ],
+    "ideas": [
+      216
+    ],
+    "diagnostic": [
+      218
+    ],
+    "regression": [
+      219
+    ],
+    "employ": [
+      222
+    ],
+    "exploratory": [
+      227
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 55
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 57
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 59
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 54
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 91
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 61
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 58
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 60
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 47
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 52
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 48
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 39
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 29
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 34
+    }
+  ],
+  "updated_date": "2026-09-24T07:57:37.273135",
+  "created_date": "2025-10-10T00:00:00"
+}

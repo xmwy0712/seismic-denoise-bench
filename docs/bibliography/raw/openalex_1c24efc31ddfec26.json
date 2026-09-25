@@ -1,0 +1,2012 @@
+{
+  "id": "https://openalex.org/W1978405906",
+  "doi": "https://doi.org/10.1126/science.1164146",
+  "title": "Lunar Global Shape and Polar Topography Derived from Kaguya-LALT Laser Altimetry",
+  "display_name": "Lunar Global Shape and Polar Topography Derived from Kaguya-LALT Laser Altimetry",
+  "publication_year": 2009,
+  "publication_date": "2009-02-12",
+  "ids": {
+    "openalex": "https://openalex.org/W1978405906",
+    "doi": "https://doi.org/10.1126/science.1164146",
+    "mag": "1978405906",
+    "pmid": "https://pubmed.ncbi.nlm.nih.gov/19213910"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1126/science.1164146",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1126/science.1164146",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S3880285",
+      "display_name": "Science",
+      "issn_l": "0036-8075",
+      "issn": [
+        "0036-8075",
+        "0193-4511",
+        "1095-9203"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doyens",
+        "erih-plus",
+        "jufo-3",
+        "ki-jl-3",
+        "medline",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310315823",
+      "host_organization_name": "American Association for the Advancement of Science",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315823"
+      ],
+      "host_organization_lineage_names": [
+        "American Association for the Advancement of Science"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Science",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "pubmed"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": null,
+        "display_name": "H. Araki",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I165580012",
+          "display_name": "Geospatial Information Authority of Japan",
+          "ror": "https://ror.org/042gfy005",
+          "country_code": "JP",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I1308952385",
+            "https://openalex.org/I165580012"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2800865746",
+          "display_name": "Japan Aerospace Exploration Agency",
+          "ror": "https://ror.org/059yhyy33",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2800865746"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2898391981",
+          "display_name": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
+          "ror": "https://ror.org/04bwf3e34",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I2898391981"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210159940",
+          "display_name": "National Astronomical Observatory of Japan",
+          "ror": "https://ror.org/052rrw050",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1319490839",
+            "https://openalex.org/I199525922",
+            "https://openalex.org/I4210159940"
+          ]
+        }
+      ],
+      "countries": [
+        "DE",
+        "JP"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "H. Araki",
+      "raw_affiliation_strings": [
+        "Geographical Survey Institute, 1 Kitasato, Tsukuba, Ibaraki 305-0811, Japan",
+        "German Aerospace Center (DLR), Rutherfordstraße 2, 12489 Berlin, Germany",
+        "Japan Aerospace Exploration Agency, 2-1-1 Sengen, Tsukuba, Ibaraki 305-8505, Japan",
+        "National Astronomical Observatory of Japan, 2-12 Hoshigaoka, Mizusawa, Oshu, Iwate 023-0861, Japan",
+        "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Geographical Survey Institute, 1 Kitasato, Tsukuba, Ibaraki 305-0811, Japan",
+          "institution_ids": [
+            "https://openalex.org/I165580012"
+          ]
+        },
+        {
+          "raw_affiliation_string": "German Aerospace Center (DLR), Rutherfordstraße 2, 12489 Berlin, Germany",
+          "institution_ids": [
+            "https://openalex.org/I2898391981"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Japan Aerospace Exploration Agency, 2-1-1 Sengen, Tsukuba, Ibaraki 305-8505, Japan",
+          "institution_ids": [
+            "https://openalex.org/I2800865746"
+          ]
+        },
+        {
+          "raw_affiliation_string": "National Astronomical Observatory of Japan, 2-12 Hoshigaoka, Mizusawa, Oshu, Iwate 023-0861, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210159940"
+          ]
+        },
+        {
+          "raw_affiliation_string": "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210159940"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5050901294",
+        "display_name": "Seiichi Tazawa",
+        "orcid": "https://orcid.org/0000-0002-2536-4623",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-2536-4623"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I165580012",
+          "display_name": "Geospatial Information Authority of Japan",
+          "ror": "https://ror.org/042gfy005",
+          "country_code": "JP",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I1308952385",
+            "https://openalex.org/I165580012"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2800865746",
+          "display_name": "Japan Aerospace Exploration Agency",
+          "ror": "https://ror.org/059yhyy33",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2800865746"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2898391981",
+          "display_name": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
+          "ror": "https://ror.org/04bwf3e34",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I2898391981"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210159940",
+          "display_name": "National Astronomical Observatory of Japan",
+          "ror": "https://ror.org/052rrw050",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1319490839",
+            "https://openalex.org/I199525922",
+            "https://openalex.org/I4210159940"
+          ]
+        }
+      ],
+      "countries": [
+        "DE",
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. Tazawa",
+      "raw_affiliation_strings": [
+        "Geographical Survey Institute, 1 Kitasato, Tsukuba, Ibaraki 305-0811, Japan",
+        "German Aerospace Center (DLR), Rutherfordstraße 2, 12489 Berlin, Germany",
+        "Japan Aerospace Exploration Agency, 2-1-1 Sengen, Tsukuba, Ibaraki 305-8505, Japan",
+        "National Astronomical Observatory of Japan, 2-12 Hoshigaoka, Mizusawa, Oshu, Iwate 023-0861, Japan",
+        "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Geographical Survey Institute, 1 Kitasato, Tsukuba, Ibaraki 305-0811, Japan",
+          "institution_ids": [
+            "https://openalex.org/I165580012"
+          ]
+        },
+        {
+          "raw_affiliation_string": "German Aerospace Center (DLR), Rutherfordstraße 2, 12489 Berlin, Germany",
+          "institution_ids": [
+            "https://openalex.org/I2898391981"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Japan Aerospace Exploration Agency, 2-1-1 Sengen, Tsukuba, Ibaraki 305-8505, Japan",
+          "institution_ids": [
+            "https://openalex.org/I2800865746"
+          ]
+        },
+        {
+          "raw_affiliation_string": "National Astronomical Observatory of Japan, 2-12 Hoshigaoka, Mizusawa, Oshu, Iwate 023-0861, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210159940"
+          ]
+        },
+        {
+          "raw_affiliation_string": "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210159940"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5057768521",
+        "display_name": "Hirotomo Noda",
+        "orcid": "https://orcid.org/0000-0002-0717-0972",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-0717-0972"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I165580012",
+          "display_name": "Geospatial Information Authority of Japan",
+          "ror": "https://ror.org/042gfy005",
+          "country_code": "JP",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I1308952385",
+            "https://openalex.org/I165580012"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2800865746",
+          "display_name": "Japan Aerospace Exploration Agency",
+          "ror": "https://ror.org/059yhyy33",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2800865746"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2898391981",
+          "display_name": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
+          "ror": "https://ror.org/04bwf3e34",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I2898391981"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210159940",
+          "display_name": "National Astronomical Observatory of Japan",
+          "ror": "https://ror.org/052rrw050",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1319490839",
+            "https://openalex.org/I199525922",
+            "https://openalex.org/I4210159940"
+          ]
+        }
+      ],
+      "countries": [
+        "DE",
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "H. Noda",
+      "raw_affiliation_strings": [
+        "Geographical Survey Institute, 1 Kitasato, Tsukuba, Ibaraki 305-0811, Japan",
+        "German Aerospace Center (DLR), Rutherfordstraße 2, 12489 Berlin, Germany",
+        "Japan Aerospace Exploration Agency, 2-1-1 Sengen, Tsukuba, Ibaraki 305-8505, Japan",
+        "National Astronomical Observatory of Japan, 2-12 Hoshigaoka, Mizusawa, Oshu, Iwate 023-0861, Japan",
+        "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Geographical Survey Institute, 1 Kitasato, Tsukuba, Ibaraki 305-0811, Japan",
+          "institution_ids": [
+            "https://openalex.org/I165580012"
+          ]
+        },
+        {
+          "raw_affiliation_string": "German Aerospace Center (DLR), Rutherfordstraße 2, 12489 Berlin, Germany",
+          "institution_ids": [
+            "https://openalex.org/I2898391981"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Japan Aerospace Exploration Agency, 2-1-1 Sengen, Tsukuba, Ibaraki 305-8505, Japan",
+          "institution_ids": [
+            "https://openalex.org/I2800865746"
+          ]
+        },
+        {
+          "raw_affiliation_string": "National Astronomical Observatory of Japan, 2-12 Hoshigaoka, Mizusawa, Oshu, Iwate 023-0861, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210159940"
+          ]
+        },
+        {
+          "raw_affiliation_string": "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210159940"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5005281053",
+        "display_name": "Yoshiaki Ishihara",
+        "orcid": "https://orcid.org/0000-0002-0375-6300",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-0375-6300"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I165580012",
+          "display_name": "Geospatial Information Authority of Japan",
+          "ror": "https://ror.org/042gfy005",
+          "country_code": "JP",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I1308952385",
+            "https://openalex.org/I165580012"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2800865746",
+          "display_name": "Japan Aerospace Exploration Agency",
+          "ror": "https://ror.org/059yhyy33",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2800865746"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2898391981",
+          "display_name": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
+          "ror": "https://ror.org/04bwf3e34",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I2898391981"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210159940",
+          "display_name": "National Astronomical Observatory of Japan",
+          "ror": "https://ror.org/052rrw050",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1319490839",
+            "https://openalex.org/I199525922",
+            "https://openalex.org/I4210159940"
+          ]
+        }
+      ],
+      "countries": [
+        "DE",
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Y. Ishihara",
+      "raw_affiliation_strings": [
+        "Geographical Survey Institute, 1 Kitasato, Tsukuba, Ibaraki 305-0811, Japan",
+        "German Aerospace Center (DLR), Rutherfordstraße 2, 12489 Berlin, Germany",
+        "Japan Aerospace Exploration Agency, 2-1-1 Sengen, Tsukuba, Ibaraki 305-8505, Japan",
+        "National Astronomical Observatory of Japan, 2-12 Hoshigaoka, Mizusawa, Oshu, Iwate 023-0861, Japan",
+        "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Geographical Survey Institute, 1 Kitasato, Tsukuba, Ibaraki 305-0811, Japan",
+          "institution_ids": [
+            "https://openalex.org/I165580012"
+          ]
+        },
+        {
+          "raw_affiliation_string": "German Aerospace Center (DLR), Rutherfordstraße 2, 12489 Berlin, Germany",
+          "institution_ids": [
+            "https://openalex.org/I2898391981"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Japan Aerospace Exploration Agency, 2-1-1 Sengen, Tsukuba, Ibaraki 305-8505, Japan",
+          "institution_ids": [
+            "https://openalex.org/I2800865746"
+          ]
+        },
+        {
+          "raw_affiliation_string": "National Astronomical Observatory of Japan, 2-12 Hoshigaoka, Mizusawa, Oshu, Iwate 023-0861, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210159940"
+          ]
+        },
+        {
+          "raw_affiliation_string": "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210159940"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5022311994",
+        "display_name": "Sander Goossens",
+        "orcid": "https://orcid.org/0000-0002-7707-1128",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-7707-1128",
+          "https://orcid.org/0009-0002-7161-0132"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I165580012",
+          "display_name": "Geospatial Information Authority of Japan",
+          "ror": "https://ror.org/042gfy005",
+          "country_code": "JP",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I1308952385",
+            "https://openalex.org/I165580012"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2800865746",
+          "display_name": "Japan Aerospace Exploration Agency",
+          "ror": "https://ror.org/059yhyy33",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2800865746"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2898391981",
+          "display_name": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
+          "ror": "https://ror.org/04bwf3e34",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I2898391981"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210159940",
+          "display_name": "National Astronomical Observatory of Japan",
+          "ror": "https://ror.org/052rrw050",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1319490839",
+            "https://openalex.org/I199525922",
+            "https://openalex.org/I4210159940"
+          ]
+        }
+      ],
+      "countries": [
+        "DE",
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. Goossens",
+      "raw_affiliation_strings": [
+        "Geographical Survey Institute, 1 Kitasato, Tsukuba, Ibaraki 305-0811, Japan",
+        "German Aerospace Center (DLR), Rutherfordstraße 2, 12489 Berlin, Germany",
+        "Japan Aerospace Exploration Agency, 2-1-1 Sengen, Tsukuba, Ibaraki 305-8505, Japan",
+        "National Astronomical Observatory of Japan, 2-12 Hoshigaoka, Mizusawa, Oshu, Iwate 023-0861, Japan",
+        "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Geographical Survey Institute, 1 Kitasato, Tsukuba, Ibaraki 305-0811, Japan",
+          "institution_ids": [
+            "https://openalex.org/I165580012"
+          ]
+        },
+        {
+          "raw_affiliation_string": "German Aerospace Center (DLR), Rutherfordstraße 2, 12489 Berlin, Germany",
+          "institution_ids": [
+            "https://openalex.org/I2898391981"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Japan Aerospace Exploration Agency, 2-1-1 Sengen, Tsukuba, Ibaraki 305-8505, Japan",
+          "institution_ids": [
+            "https://openalex.org/I2800865746"
+          ]
+        },
+        {
+          "raw_affiliation_string": "National Astronomical Observatory of Japan, 2-12 Hoshigaoka, Mizusawa, Oshu, Iwate 023-0861, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210159940"
+          ]
+        },
+        {
+          "raw_affiliation_string": "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210159940"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5111472002",
+        "display_name": "S. Sasaki",
+        "orcid": "https://orcid.org/0000-0002-7646-5248",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-7646-5248"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I165580012",
+          "display_name": "Geospatial Information Authority of Japan",
+          "ror": "https://ror.org/042gfy005",
+          "country_code": "JP",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I1308952385",
+            "https://openalex.org/I165580012"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2800865746",
+          "display_name": "Japan Aerospace Exploration Agency",
+          "ror": "https://ror.org/059yhyy33",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2800865746"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2898391981",
+          "display_name": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
+          "ror": "https://ror.org/04bwf3e34",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I2898391981"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210159940",
+          "display_name": "National Astronomical Observatory of Japan",
+          "ror": "https://ror.org/052rrw050",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1319490839",
+            "https://openalex.org/I199525922",
+            "https://openalex.org/I4210159940"
+          ]
+        }
+      ],
+      "countries": [
+        "DE",
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. Sasaki",
+      "raw_affiliation_strings": [
+        "Geographical Survey Institute, 1 Kitasato, Tsukuba, Ibaraki 305-0811, Japan",
+        "German Aerospace Center (DLR), Rutherfordstraße 2, 12489 Berlin, Germany",
+        "Japan Aerospace Exploration Agency, 2-1-1 Sengen, Tsukuba, Ibaraki 305-8505, Japan",
+        "National Astronomical Observatory of Japan, 2-12 Hoshigaoka, Mizusawa, Oshu, Iwate 023-0861, Japan",
+        "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Geographical Survey Institute, 1 Kitasato, Tsukuba, Ibaraki 305-0811, Japan",
+          "institution_ids": [
+            "https://openalex.org/I165580012"
+          ]
+        },
+        {
+          "raw_affiliation_string": "German Aerospace Center (DLR), Rutherfordstraße 2, 12489 Berlin, Germany",
+          "institution_ids": [
+            "https://openalex.org/I2898391981"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Japan Aerospace Exploration Agency, 2-1-1 Sengen, Tsukuba, Ibaraki 305-8505, Japan",
+          "institution_ids": [
+            "https://openalex.org/I2800865746"
+          ]
+        },
+        {
+          "raw_affiliation_string": "National Astronomical Observatory of Japan, 2-12 Hoshigaoka, Mizusawa, Oshu, Iwate 023-0861, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210159940"
+          ]
+        },
+        {
+          "raw_affiliation_string": "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210159940"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5009074096",
+        "display_name": "Naoki Kawano",
+        "orcid": "https://orcid.org/0000-0001-6434-1080",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-6434-1080"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I165580012",
+          "display_name": "Geospatial Information Authority of Japan",
+          "ror": "https://ror.org/042gfy005",
+          "country_code": "JP",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I1308952385",
+            "https://openalex.org/I165580012"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2800865746",
+          "display_name": "Japan Aerospace Exploration Agency",
+          "ror": "https://ror.org/059yhyy33",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2800865746"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2898391981",
+          "display_name": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
+          "ror": "https://ror.org/04bwf3e34",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I2898391981"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210159940",
+          "display_name": "National Astronomical Observatory of Japan",
+          "ror": "https://ror.org/052rrw050",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1319490839",
+            "https://openalex.org/I199525922",
+            "https://openalex.org/I4210159940"
+          ]
+        }
+      ],
+      "countries": [
+        "DE",
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "N. Kawano",
+      "raw_affiliation_strings": [
+        "Geographical Survey Institute, 1 Kitasato, Tsukuba, Ibaraki 305-0811, Japan",
+        "German Aerospace Center (DLR), Rutherfordstraße 2, 12489 Berlin, Germany",
+        "Japan Aerospace Exploration Agency, 2-1-1 Sengen, Tsukuba, Ibaraki 305-8505, Japan",
+        "National Astronomical Observatory of Japan, 2-12 Hoshigaoka, Mizusawa, Oshu, Iwate 023-0861, Japan",
+        "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Geographical Survey Institute, 1 Kitasato, Tsukuba, Ibaraki 305-0811, Japan",
+          "institution_ids": [
+            "https://openalex.org/I165580012"
+          ]
+        },
+        {
+          "raw_affiliation_string": "German Aerospace Center (DLR), Rutherfordstraße 2, 12489 Berlin, Germany",
+          "institution_ids": [
+            "https://openalex.org/I2898391981"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Japan Aerospace Exploration Agency, 2-1-1 Sengen, Tsukuba, Ibaraki 305-8505, Japan",
+          "institution_ids": [
+            "https://openalex.org/I2800865746"
+          ]
+        },
+        {
+          "raw_affiliation_string": "National Astronomical Observatory of Japan, 2-12 Hoshigaoka, Mizusawa, Oshu, Iwate 023-0861, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210159940"
+          ]
+        },
+        {
+          "raw_affiliation_string": "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210159940"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5028564049",
+        "display_name": "Izumi Kamiya",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I165580012",
+          "display_name": "Geospatial Information Authority of Japan",
+          "ror": "https://ror.org/042gfy005",
+          "country_code": "JP",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I1308952385",
+            "https://openalex.org/I165580012"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2800865746",
+          "display_name": "Japan Aerospace Exploration Agency",
+          "ror": "https://ror.org/059yhyy33",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2800865746"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2898391981",
+          "display_name": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
+          "ror": "https://ror.org/04bwf3e34",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I2898391981"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210159940",
+          "display_name": "National Astronomical Observatory of Japan",
+          "ror": "https://ror.org/052rrw050",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1319490839",
+            "https://openalex.org/I199525922",
+            "https://openalex.org/I4210159940"
+          ]
+        }
+      ],
+      "countries": [
+        "DE",
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "I. Kamiya",
+      "raw_affiliation_strings": [
+        "Geographical Survey Institute, 1 Kitasato, Tsukuba, Ibaraki 305-0811, Japan",
+        "German Aerospace Center (DLR), Rutherfordstraße 2, 12489 Berlin, Germany",
+        "Japan Aerospace Exploration Agency, 2-1-1 Sengen, Tsukuba, Ibaraki 305-8505, Japan",
+        "National Astronomical Observatory of Japan, 2-12 Hoshigaoka, Mizusawa, Oshu, Iwate 023-0861, Japan",
+        "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Geographical Survey Institute, 1 Kitasato, Tsukuba, Ibaraki 305-0811, Japan",
+          "institution_ids": [
+            "https://openalex.org/I165580012"
+          ]
+        },
+        {
+          "raw_affiliation_string": "German Aerospace Center (DLR), Rutherfordstraße 2, 12489 Berlin, Germany",
+          "institution_ids": [
+            "https://openalex.org/I2898391981"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Japan Aerospace Exploration Agency, 2-1-1 Sengen, Tsukuba, Ibaraki 305-8505, Japan",
+          "institution_ids": [
+            "https://openalex.org/I2800865746"
+          ]
+        },
+        {
+          "raw_affiliation_string": "National Astronomical Observatory of Japan, 2-12 Hoshigaoka, Mizusawa, Oshu, Iwate 023-0861, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210159940"
+          ]
+        },
+        {
+          "raw_affiliation_string": "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210159940"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5046622912",
+        "display_name": "Hisashi Otake",
+        "orcid": "https://orcid.org/0009-0005-6702-8774",
+        "observed_orcids": [
+          "https://orcid.org/0009-0005-6702-8774"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I165580012",
+          "display_name": "Geospatial Information Authority of Japan",
+          "ror": "https://ror.org/042gfy005",
+          "country_code": "JP",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I1308952385",
+            "https://openalex.org/I165580012"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2800865746",
+          "display_name": "Japan Aerospace Exploration Agency",
+          "ror": "https://ror.org/059yhyy33",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2800865746"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2898391981",
+          "display_name": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
+          "ror": "https://ror.org/04bwf3e34",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I2898391981"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210159940",
+          "display_name": "National Astronomical Observatory of Japan",
+          "ror": "https://ror.org/052rrw050",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1319490839",
+            "https://openalex.org/I199525922",
+            "https://openalex.org/I4210159940"
+          ]
+        }
+      ],
+      "countries": [
+        "DE",
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "H. Otake",
+      "raw_affiliation_strings": [
+        "Geographical Survey Institute, 1 Kitasato, Tsukuba, Ibaraki 305-0811, Japan",
+        "German Aerospace Center (DLR), Rutherfordstraße 2, 12489 Berlin, Germany",
+        "Japan Aerospace Exploration Agency, 2-1-1 Sengen, Tsukuba, Ibaraki 305-8505, Japan",
+        "National Astronomical Observatory of Japan, 2-12 Hoshigaoka, Mizusawa, Oshu, Iwate 023-0861, Japan",
+        "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Geographical Survey Institute, 1 Kitasato, Tsukuba, Ibaraki 305-0811, Japan",
+          "institution_ids": [
+            "https://openalex.org/I165580012"
+          ]
+        },
+        {
+          "raw_affiliation_string": "German Aerospace Center (DLR), Rutherfordstraße 2, 12489 Berlin, Germany",
+          "institution_ids": [
+            "https://openalex.org/I2898391981"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Japan Aerospace Exploration Agency, 2-1-1 Sengen, Tsukuba, Ibaraki 305-8505, Japan",
+          "institution_ids": [
+            "https://openalex.org/I2800865746"
+          ]
+        },
+        {
+          "raw_affiliation_string": "National Astronomical Observatory of Japan, 2-12 Hoshigaoka, Mizusawa, Oshu, Iwate 023-0861, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210159940"
+          ]
+        },
+        {
+          "raw_affiliation_string": "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210159940"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5112048385",
+        "display_name": "J. Oberst",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I165580012",
+          "display_name": "Geospatial Information Authority of Japan",
+          "ror": "https://ror.org/042gfy005",
+          "country_code": "JP",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I1308952385",
+            "https://openalex.org/I165580012"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2800865746",
+          "display_name": "Japan Aerospace Exploration Agency",
+          "ror": "https://ror.org/059yhyy33",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2800865746"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2898391981",
+          "display_name": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
+          "ror": "https://ror.org/04bwf3e34",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I2898391981"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210159940",
+          "display_name": "National Astronomical Observatory of Japan",
+          "ror": "https://ror.org/052rrw050",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1319490839",
+            "https://openalex.org/I199525922",
+            "https://openalex.org/I4210159940"
+          ]
+        }
+      ],
+      "countries": [
+        "DE",
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J. Oberst",
+      "raw_affiliation_strings": [
+        "Geographical Survey Institute, 1 Kitasato, Tsukuba, Ibaraki 305-0811, Japan",
+        "German Aerospace Center (DLR), Rutherfordstraße 2, 12489 Berlin, Germany",
+        "Japan Aerospace Exploration Agency, 2-1-1 Sengen, Tsukuba, Ibaraki 305-8505, Japan",
+        "National Astronomical Observatory of Japan, 2-12 Hoshigaoka, Mizusawa, Oshu, Iwate 023-0861, Japan",
+        "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Geographical Survey Institute, 1 Kitasato, Tsukuba, Ibaraki 305-0811, Japan",
+          "institution_ids": [
+            "https://openalex.org/I165580012"
+          ]
+        },
+        {
+          "raw_affiliation_string": "German Aerospace Center (DLR), Rutherfordstraße 2, 12489 Berlin, Germany",
+          "institution_ids": [
+            "https://openalex.org/I2898391981"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Japan Aerospace Exploration Agency, 2-1-1 Sengen, Tsukuba, Ibaraki 305-8505, Japan",
+          "institution_ids": [
+            "https://openalex.org/I2800865746"
+          ]
+        },
+        {
+          "raw_affiliation_string": "National Astronomical Observatory of Japan, 2-12 Hoshigaoka, Mizusawa, Oshu, Iwate 023-0861, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210159940"
+          ]
+        },
+        {
+          "raw_affiliation_string": "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210159940"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5043712793",
+        "display_name": "C. K. Shum",
+        "orcid": "https://orcid.org/0000-0001-9378-4067",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-9378-4067"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I165580012",
+          "display_name": "Geospatial Information Authority of Japan",
+          "ror": "https://ror.org/042gfy005",
+          "country_code": "JP",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I1308952385",
+            "https://openalex.org/I165580012"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2800865746",
+          "display_name": "Japan Aerospace Exploration Agency",
+          "ror": "https://ror.org/059yhyy33",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2800865746"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2898391981",
+          "display_name": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
+          "ror": "https://ror.org/04bwf3e34",
+          "country_code": "DE",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1305996414",
+            "https://openalex.org/I2898391981"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210159940",
+          "display_name": "National Astronomical Observatory of Japan",
+          "ror": "https://ror.org/052rrw050",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1319490839",
+            "https://openalex.org/I199525922",
+            "https://openalex.org/I4210159940"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I52357470",
+          "display_name": "The Ohio State University",
+          "ror": "https://ror.org/00rs6vg23",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I52357470"
+          ]
+        }
+      ],
+      "countries": [
+        "DE",
+        "JP",
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "C. Shum",
+      "raw_affiliation_strings": [
+        "Geographical Survey Institute, 1 Kitasato, Tsukuba, Ibaraki 305-0811, Japan",
+        "German Aerospace Center (DLR), Rutherfordstraße 2, 12489 Berlin, Germany",
+        "Japan Aerospace Exploration Agency, 2-1-1 Sengen, Tsukuba, Ibaraki 305-8505, Japan",
+        "National Astronomical Observatory of Japan, 2-12 Hoshigaoka, Mizusawa, Oshu, Iwate 023-0861, Japan",
+        "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan",
+        "Ohio State University, School of Earth Sciences, 121 South Oval Mall, 275 Mendenhall Laboratory, Columbus, OH 43210, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Geographical Survey Institute, 1 Kitasato, Tsukuba, Ibaraki 305-0811, Japan",
+          "institution_ids": [
+            "https://openalex.org/I165580012"
+          ]
+        },
+        {
+          "raw_affiliation_string": "German Aerospace Center (DLR), Rutherfordstraße 2, 12489 Berlin, Germany",
+          "institution_ids": [
+            "https://openalex.org/I2898391981"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Japan Aerospace Exploration Agency, 2-1-1 Sengen, Tsukuba, Ibaraki 305-8505, Japan",
+          "institution_ids": [
+            "https://openalex.org/I2800865746"
+          ]
+        },
+        {
+          "raw_affiliation_string": "National Astronomical Observatory of Japan, 2-12 Hoshigaoka, Mizusawa, Oshu, Iwate 023-0861, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210159940"
+          ]
+        },
+        {
+          "raw_affiliation_string": "National Astronomical Observatory of Japan, 2-21-1 Osawa, Mitaka, Tokyo 181-8588, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210159940"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Ohio State University, School of Earth Sciences, 121 South Oval Mall, 275 Mendenhall Laboratory, Columbus, OH 43210, USA",
+          "institution_ids": [
+            "https://openalex.org/I52357470"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 3,
+  "institutions_distinct_count": 5,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I165580012",
+    "https://openalex.org/I2800865746",
+    "https://openalex.org/I2898391981",
+    "https://openalex.org/I4210159940"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 20.5783,
+  "has_fulltext": false,
+  "cited_by_count": 301,
+  "citation_normalized_percentile": {
+    "value": 0.99705162,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 98,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "323",
+    "issue": "5916",
+    "first_page": "897",
+    "last_page": "900"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10406",
+    "display_name": "Planetary Science and Exploration",
+    "score": 0.9998999834060669,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3103",
+      "display_name": "Astronomy and Astrophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/31",
+      "display_name": "Physics and Astronomy"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10406",
+      "display_name": "Planetary Science and Exploration",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10325",
+      "display_name": "Astro and Planetary Science",
+      "score": 0.9976000189781189,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10017",
+      "display_name": "Geology and Paleoclimatology Research",
+      "score": 0.9934999942779541,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1902",
+        "display_name": "Atmospheric Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/venus",
+      "display_name": "Venus",
+      "score": 0.9103604555130005
+    },
+    {
+      "id": "https://openalex.org/keywords/altimeter",
+      "display_name": "Altimeter",
+      "score": 0.8404709696769714
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.7765600681304932
+    },
+    {
+      "id": "https://openalex.org/keywords/mars-exploration-program",
+      "display_name": "Mars Exploration Program",
+      "score": 0.7699556946754456
+    },
+    {
+      "id": "https://openalex.org/keywords/lithosphere",
+      "display_name": "Lithosphere",
+      "score": 0.7527719140052795
+    },
+    {
+      "id": "https://openalex.org/keywords/impact-crater",
+      "display_name": "Impact crater",
+      "score": 0.5545649528503418
+    },
+    {
+      "id": "https://openalex.org/keywords/geodesy",
+      "display_name": "Geodesy",
+      "score": 0.47430419921875
+    },
+    {
+      "id": "https://openalex.org/keywords/astrobiology",
+      "display_name": "Astrobiology",
+      "score": 0.4208643436431885
+    },
+    {
+      "id": "https://openalex.org/keywords/remote-sensing",
+      "display_name": "Remote sensing",
+      "score": 0.35740938782691956
+    },
+    {
+      "id": "https://openalex.org/keywords/geophysics",
+      "display_name": "Geophysics",
+      "score": 0.33177506923675537
+    },
+    {
+      "id": "https://openalex.org/keywords/tectonics",
+      "display_name": "Tectonics",
+      "score": 0.24705541133880615
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.11258351802825928
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.07191815972328186
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2779900269",
+      "wikidata": "https://www.wikidata.org/wiki/Q1408724",
+      "display_name": "Venus",
+      "level": 2,
+      "score": 0.9103604555130005
+    },
+    {
+      "id": "https://openalex.org/C17534553",
+      "wikidata": "https://www.wikidata.org/wiki/Q216197",
+      "display_name": "Altimeter",
+      "level": 2,
+      "score": 0.8404709696769714
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.7765600681304932
+    },
+    {
+      "id": "https://openalex.org/C83260615",
+      "wikidata": "https://www.wikidata.org/wiki/Q6773121",
+      "display_name": "Mars Exploration Program",
+      "level": 2,
+      "score": 0.7699556946754456
+    },
+    {
+      "id": "https://openalex.org/C16942324",
+      "wikidata": "https://www.wikidata.org/wiki/Q83296",
+      "display_name": "Lithosphere",
+      "level": 3,
+      "score": 0.7527719140052795
+    },
+    {
+      "id": "https://openalex.org/C179537507",
+      "wikidata": "https://www.wikidata.org/wiki/Q55818",
+      "display_name": "Impact crater",
+      "level": 2,
+      "score": 0.5545649528503418
+    },
+    {
+      "id": "https://openalex.org/C13280743",
+      "wikidata": "https://www.wikidata.org/wiki/Q131089",
+      "display_name": "Geodesy",
+      "level": 1,
+      "score": 0.47430419921875
+    },
+    {
+      "id": "https://openalex.org/C87355193",
+      "wikidata": "https://www.wikidata.org/wiki/Q411",
+      "display_name": "Astrobiology",
+      "level": 1,
+      "score": 0.4208643436431885
+    },
+    {
+      "id": "https://openalex.org/C62649853",
+      "wikidata": "https://www.wikidata.org/wiki/Q199687",
+      "display_name": "Remote sensing",
+      "level": 1,
+      "score": 0.35740938782691956
+    },
+    {
+      "id": "https://openalex.org/C8058405",
+      "wikidata": "https://www.wikidata.org/wiki/Q46255",
+      "display_name": "Geophysics",
+      "level": 1,
+      "score": 0.33177506923675537
+    },
+    {
+      "id": "https://openalex.org/C77928131",
+      "wikidata": "https://www.wikidata.org/wiki/Q193343",
+      "display_name": "Tectonics",
+      "level": 2,
+      "score": 0.24705541133880615
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.11258351802825928
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.07191815972328186
+    }
+  ],
+  "mesh": [],
+  "locations_count": 3,
+  "locations": [
+    {
+      "id": "doi:10.1126/science.1164146",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1126/science.1164146",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S3880285",
+        "display_name": "Science",
+        "issn_l": "0036-8075",
+        "issn": [
+          "0036-8075",
+          "0193-4511",
+          "1095-9203"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doyens",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-3",
+          "medline",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310315823",
+        "host_organization_name": "American Association for the Advancement of Science",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315823"
+        ],
+        "host_organization_lineage_names": [
+          "American Association for the Advancement of Science"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Science",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmid:19213910",
+      "is_oa": false,
+      "landing_page_url": "https://pubmed.ncbi.nlm.nih.gov/19213910",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306525036",
+        "display_name": "PubMed",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1299303238",
+        "host_organization_name": "National Institutes of Health",
+        "host_organization_lineage": [
+          "https://openalex.org/I1299303238"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Science (New York, N.Y.)",
+      "raw_type": "Journal Article"
+    },
+    {
+      "id": "pmh:oai:elib.dlr.de:60503",
+      "is_oa": false,
+      "landing_page_url": "https://elib.dlr.de/60503/",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4377196266",
+        "display_name": "elib (German Aerospace Center)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I2898391981",
+        "host_organization_name": "Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR)",
+        "host_organization_lineage": [
+          "https://openalex.org/I2898391981"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "Zeitschriftenbeitrag"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [
+    {
+      "id": "https://openalex.org/G7024533567",
+      "display_name": "Lunar gravity and geodesy mapping by KAGUYA mission and the origin of lunar dichotomy",
+      "funder_award_id": "20244073",
+      "funder_id": "https://openalex.org/F4320334764",
+      "funder_display_name": "Japan Society for the Promotion of Science"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320334764",
+      "display_name": "Japan Society for the Promotion of Science",
+      "ror": "https://ror.org/00hhkn466"
+    }
+  ],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 13,
+  "referenced_works": [
+    "https://openalex.org/W1601639435",
+    "https://openalex.org/W1652910901",
+    "https://openalex.org/W2003586202",
+    "https://openalex.org/W2008494398",
+    "https://openalex.org/W2026841101",
+    "https://openalex.org/W2052551124",
+    "https://openalex.org/W2053257020",
+    "https://openalex.org/W2053747921",
+    "https://openalex.org/W2058545189",
+    "https://openalex.org/W2581062778",
+    "https://openalex.org/W3009321490",
+    "https://openalex.org/W4205785249",
+    "https://openalex.org/W4231109806"
+  ],
+  "related_works": [
+    "https://openalex.org/W2625809971",
+    "https://openalex.org/W1663847441",
+    "https://openalex.org/W2768493687",
+    "https://openalex.org/W2170886505",
+    "https://openalex.org/W1969484083",
+    "https://openalex.org/W2052557232",
+    "https://openalex.org/W3015537281",
+    "https://openalex.org/W2606543078",
+    "https://openalex.org/W3083430428",
+    "https://openalex.org/W2122974306"
+  ],
+  "abstract_inverted_index": {
+    "A": [
+      0
+    ],
+    "global": [
+      1,
+      68
+    ],
+    "lunar": [
+      2,
+      28,
+      54
+    ],
+    "topographic": [
+      3,
+      69
+    ],
+    "map": [
+      4,
+      51
+    ],
+    "with": [
+      5,
+      39
+    ],
+    "a": [
+      6,
+      60,
+      111
+    ],
+    "spatial": [
+      7
+    ],
+    "resolution": [
+      8
+    ],
+    "of": [
+      9,
+      67
+    ],
+    "finer": [
+      10,
+      58
+    ],
+    "than": [
+      11,
+      59,
+      114
+    ],
+    "0.5": [
+      12
+    ],
+    "degree": [
+      13
+    ],
+    "has": [
+      14
+    ],
+    "been": [
+      15
+    ],
+    "derived": [
+      16
+    ],
+    "using": [
+      17
+    ],
+    "data": [
+      18,
+      70
+    ],
+    "from": [
+      19
+    ],
+    "the": [
+      20,
+      26,
+      40,
+      49,
+      72,
+      83,
+      100,
+      119
+    ],
+    "laser": [
+      21
+    ],
+    "altimeter": [
+      22
+    ],
+    "(LALT)": [
+      23
+    ],
+    "on": [
+      24,
+      115
+    ],
+    "board": [
+      25
+    ],
+    "Japanese": [
+      27
+    ],
+    "explorer": [
+      29
+    ],
+    "Selenological": [
+      30
+    ],
+    "and": [
+      31,
+      76,
+      103,
+      121
+    ],
+    "Engineering": [
+      32
+    ],
+    "Explorer": [
+      33
+    ],
+    "(SELENE": [
+      34
+    ],
+    "or": [
+      35
+    ],
+    "Kaguya).": [
+      36
+    ],
+    "In": [
+      37
+    ],
+    "comparison": [
+      38
+    ],
+    "previous": [
+      41
+    ],
+    "Unified": [
+      42
+    ],
+    "Lunar": [
+      43
+    ],
+    "Control": [
+      44
+    ],
+    "Network": [
+      45
+    ],
+    "(ULCN": [
+      46
+    ],
+    "2005)": [
+      47
+    ],
+    "model,": [
+      48
+    ],
+    "new": [
+      50
+    ],
+    "reveals": [
+      52
+    ],
+    "unbiased": [
+      53
+    ],
+    "topography": [
+      55
+    ],
+    "for": [
+      56,
+      71,
+      99,
+      105,
+      118
+    ],
+    "scales": [
+      57
+    ],
+    "few": [
+      61
+    ],
+    "hundred": [
+      62
+    ],
+    "kilometers.": [
+      63
+    ],
+    "Spherical": [
+      64
+    ],
+    "harmonic": [
+      65
+    ],
+    "analysis": [
+      66
+    ],
+    "Moon,": [
+      73,
+      101
+    ],
+    "Earth,": [
+      74,
+      116
+    ],
+    "Mars,": [
+      75
+    ],
+    "Venus": [
+      77
+    ],
+    "suggests": [
+      78
+    ],
+    "that": [
+      79
+    ],
+    "isostatic": [
+      80
+    ],
+    "compensation": [
+      81
+    ],
+    "is": [
+      82,
+      95
+    ],
+    "prevailing": [
+      84
+    ],
+    "lithospheric": [
+      85
+    ],
+    "support": [
+      86,
+      94
+    ],
+    "mechanism": [
+      87
+    ],
+    "at": [
+      88
+    ],
+    "large": [
+      89
+    ],
+    "scales.": [
+      90
+    ],
+    "However,": [
+      91
+    ],
+    "simple": [
+      92
+    ],
+    "rigid": [
+      93
+    ],
+    "suggested": [
+      96
+    ],
+    "to": [
+      97
+    ],
+    "dominate": [
+      98
+    ],
+    "Venus,": [
+      102
+    ],
+    "Mars": [
+      104
+    ],
+    "smaller": [
+      106
+    ],
+    "scales,": [
+      107
+    ],
+    "which": [
+      108
+    ],
+    "may": [
+      109
+    ],
+    "indicate": [
+      110
+    ],
+    "drier": [
+      112
+    ],
+    "lithosphere": [
+      113
+    ],
+    "especially": [
+      117
+    ],
+    "Moon": [
+      120
+    ],
+    "Venus.": [
+      122
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 30
+    }
+  ],
+  "updated_date": "2026-09-24T07:57:37.273135",
+  "created_date": "2025-10-10T00:00:00"
+}

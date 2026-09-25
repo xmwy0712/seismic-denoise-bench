@@ -1,0 +1,707 @@
+{
+  "id": "https://openalex.org/W3196192124",
+  "doi": "https://doi.org/10.1007/s11770-021-0883-5",
+  "title": "Multiple-suppression method using the λ-f domain high-resolution parabolic Radon transform with curvature magnification",
+  "display_name": "Multiple-suppression method using the λ-f domain high-resolution parabolic Radon transform with curvature magnification",
+  "publication_year": 2021,
+  "publication_date": "2021-08-25",
+  "ids": {
+    "openalex": "https://openalex.org/W3196192124",
+    "doi": "https://doi.org/10.1007/s11770-021-0883-5",
+    "mag": "3196192124"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1007/s11770-021-0883-5",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1007/s11770-021-0883-5",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S166338752",
+      "display_name": "Applied Geophysics",
+      "issn_l": "1672-7975",
+      "issn": [
+        "1672-7975",
+        "1993-0658"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319900",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Science+Business Media",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Applied Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5065119078",
+        "display_name": "Jun-fa Xie",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210112595",
+          "display_name": "Research Institute of Petroleum Exploration and Development",
+          "ror": "https://ror.org/02awe6g05",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210112595",
+            "https://openalex.org/I98227222"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Jun-fa Xie",
+      "raw_affiliation_strings": [
+        "Research Institute of Petroleum Exploration and Development Northwest Branch, CNPC, Lanzhou, 730020, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Research Institute of Petroleum Exploration and Development Northwest Branch, CNPC, Lanzhou, 730020, China",
+          "institution_ids": [
+            "https://openalex.org/I4210112595"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5091074641",
+        "display_name": "Xiao‐Lei Wang",
+        "orcid": "https://orcid.org/0000-0002-5115-7804"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210112595",
+          "display_name": "Research Institute of Petroleum Exploration and Development",
+          "ror": "https://ror.org/02awe6g05",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210112595",
+            "https://openalex.org/I98227222"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Xiao Wang",
+      "raw_affiliation_strings": [
+        "Research Institute of Petroleum Exploration and Development Northwest Branch, CNPC, Lanzhou, 730020, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Research Institute of Petroleum Exploration and Development Northwest Branch, CNPC, Lanzhou, 730020, China",
+          "institution_ids": [
+            "https://openalex.org/I4210112595"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100460505",
+        "display_name": "Xiaowei Wang",
+        "orcid": "https://orcid.org/0000-0002-7488-8300"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210112595",
+          "display_name": "Research Institute of Petroleum Exploration and Development",
+          "ror": "https://ror.org/02awe6g05",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210112595",
+            "https://openalex.org/I98227222"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Xiao-wei Wang",
+      "raw_affiliation_strings": [
+        "Research Institute of Petroleum Exploration and Development Northwest Branch, CNPC, Lanzhou, 730020, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Research Institute of Petroleum Exploration and Development Northwest Branch, CNPC, Lanzhou, 730020, China",
+          "institution_ids": [
+            "https://openalex.org/I4210112595"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5068885783",
+        "display_name": "Dunshi Wu",
+        "orcid": "https://orcid.org/0000-0002-9281-1876"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210112595",
+          "display_name": "Research Institute of Petroleum Exploration and Development",
+          "ror": "https://ror.org/02awe6g05",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210112595",
+            "https://openalex.org/I98227222"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Dun-shi Wu",
+      "raw_affiliation_strings": [
+        "Research Institute of Petroleum Exploration and Development Northwest Branch, CNPC, Lanzhou, 730020, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Research Institute of Petroleum Exploration and Development Northwest Branch, CNPC, Lanzhou, 730020, China",
+          "institution_ids": [
+            "https://openalex.org/I4210112595"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5112404653",
+        "display_name": "Hua-hui Zeng",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210112595",
+          "display_name": "Research Institute of Petroleum Exploration and Development",
+          "ror": "https://ror.org/02awe6g05",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210112595",
+            "https://openalex.org/I98227222"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hua-hui Zeng",
+      "raw_affiliation_strings": [
+        "Research Institute of Petroleum Exploration and Development Northwest Branch, CNPC, Lanzhou, 730020, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Research Institute of Petroleum Exploration and Development Northwest Branch, CNPC, Lanzhou, 730020, China",
+          "institution_ids": [
+            "https://openalex.org/I4210112595"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5026647342",
+        "display_name": "Bao-zhong Jin",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210112595",
+          "display_name": "Research Institute of Petroleum Exploration and Development",
+          "ror": "https://ror.org/02awe6g05",
+          "country_code": "CN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210112595",
+            "https://openalex.org/I98227222"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Bao-zhong Jin",
+      "raw_affiliation_strings": [
+        "Research Institute of Petroleum Exploration and Development Northwest Branch, CNPC, Lanzhou, 730020, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Research Institute of Petroleum Exploration and Development Northwest Branch, CNPC, Lanzhou, 730020, China",
+          "institution_ids": [
+            "https://openalex.org/I4210112595"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5065119078"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210112595"
+  ],
+  "apc_list": {
+    "value": 2750,
+    "currency": "USD",
+    "value_usd": 2750
+  },
+  "apc_paid": null,
+  "fwci": 0.0,
+  "has_fulltext": false,
+  "cited_by_count": 4,
+  "citation_normalized_percentile": {
+    "value": 0.05512141,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 94,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "21",
+    "issue": "1",
+    "first_page": "169",
+    "last_page": "178"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9987000226974487,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9987000226974487,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10688",
+      "display_name": "Image and Signal Denoising Methods",
+      "score": 0.987500011920929,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10638",
+      "display_name": "Optical measurement and interference techniques",
+      "score": 0.9843000173568726,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/radon-transform",
+      "display_name": "Radon transform",
+      "score": 0.8488949537277222
+    },
+    {
+      "id": "https://openalex.org/keywords/multiple",
+      "display_name": "Multiple",
+      "score": 0.8207475543022156
+    },
+    {
+      "id": "https://openalex.org/keywords/curvature",
+      "display_name": "Curvature",
+      "score": 0.717301070690155
+    },
+    {
+      "id": "https://openalex.org/keywords/radon",
+      "display_name": "Radon",
+      "score": 0.6287475824356079
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.5867416262626648
+    },
+    {
+      "id": "https://openalex.org/keywords/operator",
+      "display_name": "Operator (biology)",
+      "score": 0.5002238750457764
+    },
+    {
+      "id": "https://openalex.org/keywords/offset",
+      "display_name": "Offset (computer science)",
+      "score": 0.49152883887290955
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematical-analysis",
+      "display_name": "Mathematical analysis",
+      "score": 0.43334439396858215
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.41857993602752686
+    },
+    {
+      "id": "https://openalex.org/keywords/geometry",
+      "display_name": "Geometry",
+      "score": 0.27940914034843445
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.1917566955089569
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.17355069518089294
+    },
+    {
+      "id": "https://openalex.org/keywords/arithmetic",
+      "display_name": "Arithmetic",
+      "score": 0.15489047765731812
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C197231052",
+      "wikidata": "https://www.wikidata.org/wiki/Q979829",
+      "display_name": "Radon transform",
+      "level": 2,
+      "score": 0.8488949537277222
+    },
+    {
+      "id": "https://openalex.org/C164680029",
+      "wikidata": "https://www.wikidata.org/wiki/Q1055293",
+      "display_name": "Multiple",
+      "level": 2,
+      "score": 0.8207475543022156
+    },
+    {
+      "id": "https://openalex.org/C195065555",
+      "wikidata": "https://www.wikidata.org/wiki/Q214881",
+      "display_name": "Curvature",
+      "level": 2,
+      "score": 0.717301070690155
+    },
+    {
+      "id": "https://openalex.org/C545943180",
+      "wikidata": "https://www.wikidata.org/wiki/Q1133",
+      "display_name": "Radon",
+      "level": 2,
+      "score": 0.6287475824356079
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.5867416262626648
+    },
+    {
+      "id": "https://openalex.org/C17020691",
+      "wikidata": "https://www.wikidata.org/wiki/Q139677",
+      "display_name": "Operator (biology)",
+      "level": 5,
+      "score": 0.5002238750457764
+    },
+    {
+      "id": "https://openalex.org/C175291020",
+      "wikidata": "https://www.wikidata.org/wiki/Q1156822",
+      "display_name": "Offset (computer science)",
+      "level": 2,
+      "score": 0.49152883887290955
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.43334439396858215
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.41857993602752686
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.27940914034843445
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.1917566955089569
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.17355069518089294
+    },
+    {
+      "id": "https://openalex.org/C94375191",
+      "wikidata": "https://www.wikidata.org/wiki/Q11205",
+      "display_name": "Arithmetic",
+      "level": 1,
+      "score": 0.15489047765731812
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C86339819",
+      "wikidata": "https://www.wikidata.org/wiki/Q407384",
+      "display_name": "Transcription factor",
+      "level": 3,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C158448853",
+      "wikidata": "https://www.wikidata.org/wiki/Q425218",
+      "display_name": "Repressor",
+      "level": 4,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1007/s11770-021-0883-5",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1007/s11770-021-0883-5",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S166338752",
+        "display_name": "Applied Geophysics",
+        "issn_l": "1672-7975",
+        "issn": [
+          "1672-7975",
+          "1993-0658"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319900",
+        "host_organization_name": "Springer Science+Business Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319900",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Science+Business Media",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Applied Geophysics",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 24,
+  "referenced_works": [
+    "https://openalex.org/W290802321",
+    "https://openalex.org/W801230978",
+    "https://openalex.org/W1553894146",
+    "https://openalex.org/W1976884569",
+    "https://openalex.org/W2000088183",
+    "https://openalex.org/W2035412056",
+    "https://openalex.org/W2048388640",
+    "https://openalex.org/W2059230732",
+    "https://openalex.org/W2081039814",
+    "https://openalex.org/W2084935187",
+    "https://openalex.org/W2088365034",
+    "https://openalex.org/W2095444665",
+    "https://openalex.org/W2099078929",
+    "https://openalex.org/W2105304793",
+    "https://openalex.org/W2122456407",
+    "https://openalex.org/W2144824461",
+    "https://openalex.org/W2149858318",
+    "https://openalex.org/W2154222811",
+    "https://openalex.org/W2321070099",
+    "https://openalex.org/W2362739976",
+    "https://openalex.org/W2387392615",
+    "https://openalex.org/W2582208876",
+    "https://openalex.org/W2742260639",
+    "https://openalex.org/W2903679336"
+  ],
+  "related_works": [
+    "https://openalex.org/W2326951841",
+    "https://openalex.org/W2922382661",
+    "https://openalex.org/W3124393698",
+    "https://openalex.org/W2595894880",
+    "https://openalex.org/W2049763509",
+    "https://openalex.org/W2552818475",
+    "https://openalex.org/W2897256641",
+    "https://openalex.org/W4291718272",
+    "https://openalex.org/W2048388640",
+    "https://openalex.org/W2085441650"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2026-08-28T12:50:07.497085",
+  "created_date": "2025-10-10T00:00:00"
+}

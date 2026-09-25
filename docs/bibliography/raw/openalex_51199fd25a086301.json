@@ -1,0 +1,711 @@
+{
+  "id": "https://openalex.org/W2325774324",
+  "doi": "https://doi.org/10.3997/2214-4609.201401911",
+  "title": "Seismic Attenuation in a Von Karman Correlated Medium",
+  "display_name": "Seismic Attenuation in a Von Karman Correlated Medium",
+  "publication_year": 2007,
+  "publication_date": "2007-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2325774324",
+    "doi": "https://doi.org/10.3997/2214-4609.201401911",
+    "mag": "2325774324"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.3997/2214-4609.201401911",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.3997/2214-4609.201401911",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306499681",
+      "display_name": "69th EAGE Conference and Exhibition incorporating SPE EUROPEC 2007",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "conference"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "69th EAGE Conference and Exhibition incorporating SPE EUROPEC 2007",
+    "raw_type": "proceedings-article"
+  },
+  "type": "conference-paper",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5059262331",
+        "display_name": "Thomas J. Browaeys",
+        "orcid": "https://orcid.org/0000-0002-4297-8635",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-4297-8635"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1288783943",
+          "display_name": "Bureau of Economic Analysis",
+          "ror": "https://ror.org/03b17a012",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I1343035065"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4403928371",
+          "display_name": "Bureau of Economic Geology",
+          "ror": "https://ror.org/034bxn811",
+          "country_code": null,
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4403928371",
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "T. J. Browaeys",
+      "raw_affiliation_strings": [
+        "Bureau of Economic Geology"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Bureau of Economic Geology",
+          "institution_ids": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I4403928371"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5005237932",
+        "display_name": "Sergey B. Fomel",
+        "orcid": "https://orcid.org/0000-0002-9024-5137",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9024-5137"
+        ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "S. Fomel",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5059262331"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I1288783943",
+    "https://openalex.org/I4403928371"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.0,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": {
+    "value": 0.31688055,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9998999834060669,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11609",
+      "display_name": "Geophysical Methods and Applications",
+      "score": 0.9922000169754028,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/attenuation",
+      "display_name": "Attenuation",
+      "score": 0.8477580547332764
+    },
+    {
+      "id": "https://openalex.org/keywords/autocorrelation",
+      "display_name": "Autocorrelation",
+      "score": 0.6279195547103882
+    },
+    {
+      "id": "https://openalex.org/keywords/anisotropy",
+      "display_name": "Anisotropy",
+      "score": 0.6179132461547852
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.5610257387161255
+    },
+    {
+      "id": "https://openalex.org/keywords/fractal",
+      "display_name": "Fractal",
+      "score": 0.5148628950119019
+    },
+    {
+      "id": "https://openalex.org/keywords/gaussian",
+      "display_name": "Gaussian",
+      "score": 0.5132803916931152
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.3698487877845764
+    },
+    {
+      "id": "https://openalex.org/keywords/statistical-physics",
+      "display_name": "Statistical physics",
+      "score": 0.3485656976699829
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.32385796308517456
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematical-analysis",
+      "display_name": "Mathematical analysis",
+      "score": 0.23182782530784607
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.22701245546340942
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.20461305975914001
+    },
+    {
+      "id": "https://openalex.org/keywords/statistics",
+      "display_name": "Statistics",
+      "score": 0.1554068922996521
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C184652730",
+      "wikidata": "https://www.wikidata.org/wiki/Q2357982",
+      "display_name": "Attenuation",
+      "level": 2,
+      "score": 0.8477580547332764
+    },
+    {
+      "id": "https://openalex.org/C5297727",
+      "wikidata": "https://www.wikidata.org/wiki/Q786970",
+      "display_name": "Autocorrelation",
+      "level": 2,
+      "score": 0.6279195547103882
+    },
+    {
+      "id": "https://openalex.org/C85725439",
+      "wikidata": "https://www.wikidata.org/wiki/Q466686",
+      "display_name": "Anisotropy",
+      "level": 2,
+      "score": 0.6179132461547852
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.5610257387161255
+    },
+    {
+      "id": "https://openalex.org/C40636538",
+      "wikidata": "https://www.wikidata.org/wiki/Q81392",
+      "display_name": "Fractal",
+      "level": 2,
+      "score": 0.5148628950119019
+    },
+    {
+      "id": "https://openalex.org/C163716315",
+      "wikidata": "https://www.wikidata.org/wiki/Q901177",
+      "display_name": "Gaussian",
+      "level": 2,
+      "score": 0.5132803916931152
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.3698487877845764
+    },
+    {
+      "id": "https://openalex.org/C121864883",
+      "wikidata": "https://www.wikidata.org/wiki/Q677916",
+      "display_name": "Statistical physics",
+      "level": 1,
+      "score": 0.3485656976699829
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.32385796308517456
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.23182782530784607
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.22701245546340942
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.20461305975914001
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.1554068922996521
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.3997/2214-4609.201401911",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.3997/2214-4609.201401911",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306499681",
+        "display_name": "69th EAGE Conference and Exhibition incorporating SPE EUROPEC 2007",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "conference"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "69th EAGE Conference and Exhibition incorporating SPE EUROPEC 2007",
+      "raw_type": "proceedings-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2062605435",
+    "https://openalex.org/W747394405",
+    "https://openalex.org/W1987236514",
+    "https://openalex.org/W174653542",
+    "https://openalex.org/W2381153750",
+    "https://openalex.org/W2273182195",
+    "https://openalex.org/W2041235277",
+    "https://openalex.org/W2088220880",
+    "https://openalex.org/W2322558005",
+    "https://openalex.org/W1973502283"
+  ],
+  "abstract_inverted_index": {
+    "P261": [
+      0
+    ],
+    "Seismic": [
+      1
+    ],
+    "Attenuation": [
+      2
+    ],
+    "in": [
+      3,
+      33
+    ],
+    "a": [
+      4,
+      48,
+      54,
+      66,
+      85,
+      96
+    ],
+    "Von": [
+      5
+    ],
+    "Karman": [
+      6,
+      50
+    ],
+    "Correlated": [
+      7
+    ],
+    "Medium": [
+      8
+    ],
+    "T.J.": [
+      9
+    ],
+    "Browaeys*": [
+      10
+    ],
+    "(Bureau": [
+      11,
+      18
+    ],
+    "of": [
+      12,
+      19,
+      59
+    ],
+    "Economic": [
+      13,
+      20
+    ],
+    "Geology)": [
+      14,
+      21
+    ],
+    "&": [
+      15
+    ],
+    "S.": [
+      16
+    ],
+    "Fomel": [
+      17
+    ],
+    "SUMMARY": [
+      22
+    ],
+    "Wave": [
+      23
+    ],
+    "scattering": [
+      24
+    ],
+    "by": [
+      25
+    ],
+    "heterogeneities": [
+      26
+    ],
+    "has": [
+      27,
+      75
+    ],
+    "the": [
+      28
+    ],
+    "potential": [
+      29
+    ],
+    "to": [
+      30
+    ],
+    "explain": [
+      31
+    ],
+    "attenuation": [
+      32
+    ],
+    "seismic": [
+      34
+    ],
+    "surveys": [
+      35
+    ],
+    "without": [
+      36
+    ],
+    "using": [
+      37,
+      47
+    ],
+    "an": [
+      38
+    ],
+    "arbitrary": [
+      39
+    ],
+    "intrinsic": [
+      40
+    ],
+    "mechanism.": [
+      41
+    ],
+    "A": [
+      42,
+      70
+    ],
+    "heterogeneous": [
+      43
+    ],
+    "medium": [
+      44
+    ],
+    "is": [
+      45,
+      63,
+      82
+    ],
+    "described": [
+      46
+    ],
+    "von": [
+      49
+    ],
+    "autocorrelation": [
+      51,
+      61
+    ],
+    "function": [
+      52
+    ],
+    "whith": [
+      53
+    ],
+    "fractal": [
+      55
+    ],
+    "behaviour.": [
+      56
+    ],
+    "The": [
+      57,
+      90
+    ],
+    "relevance": [
+      58
+    ],
+    "this": [
+      60
+    ],
+    "model": [
+      62,
+      91
+    ],
+    "shown": [
+      64
+    ],
+    "for": [
+      65,
+      78
+    ],
+    "2-D": [
+      67
+    ],
+    "anisotropic": [
+      68
+    ],
+    "medium.": [
+      69
+    ],
+    "non": [
+      71
+    ],
+    "linear": [
+      72
+    ],
+    "inversion": [
+      73
+    ],
+    "method": [
+      74
+    ],
+    "been": [
+      76
+    ],
+    "developed": [
+      77
+    ],
+    "1-D": [
+      79
+    ],
+    "data": [
+      80
+    ],
+    "and": [
+      81
+    ],
+    "validated": [
+      83
+    ],
+    "on": [
+      84
+    ],
+    "synthetic": [
+      86
+    ],
+    "Gaussian": [
+      87
+    ],
+    "correlated": [
+      88
+    ],
+    "noise.": [
+      89
+    ],
+    "parameters": [
+      92
+    ],
+    "are": [
+      93
+    ],
+    "estimate": [
+      94
+    ],
+    "from": [
+      95
+    ],
+    "VP": [
+      97
+    ],
+    "well": [
+      98
+    ],
+    "log": [
+      99
+    ]
+  },
+  "counts_by_year": [],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

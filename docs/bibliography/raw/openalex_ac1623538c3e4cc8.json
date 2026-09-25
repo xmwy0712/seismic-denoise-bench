@@ -1,0 +1,770 @@
+{
+  "id": "https://openalex.org/W1578285471",
+  "doi": "https://doi.org/10.1016/0004-3702(81)90024-2",
+  "title": "Determining optical flow",
+  "display_name": "Determining optical flow",
+  "publication_year": 1981,
+  "publication_date": "1981-08-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1578285471",
+    "doi": "https://doi.org/10.1016/0004-3702(81)90024-2",
+    "mag": "1578285471"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/0004-3702(81)90024-2",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/0004-3702(81)90024-2",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S196139623",
+      "display_name": "Artificial Intelligence",
+      "issn_l": "0004-3702",
+      "issn": [
+        "0004-3702",
+        "1872-7921"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doyens",
+        "erih-plus",
+        "jufo-3",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Artificial Intelligence",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "http://hdl.handle.net/1721.1/6337",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5080970223",
+        "display_name": "Berthold K. P. Horn",
+        "orcid": "https://orcid.org/0000-0003-3434-391X",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-3434-391X"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I63966007",
+          "display_name": "Massachusetts Institute of Technology",
+          "ror": "https://ror.org/042nb2s44",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I63966007"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Berthold K.P. Horn",
+      "raw_affiliation_strings": [
+        "Artificial Intelligence Laboratory, Massachusetts Institute of Technology, Cambridge, MA 02139, U.S.A",
+        "Artificial Intelligence Laboratory, Massachusetts Institute of Technology, Cambridge, MA#TAB#"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Artificial Intelligence Laboratory, Massachusetts Institute of Technology, Cambridge, MA 02139, U.S.A",
+          "institution_ids": [
+            "https://openalex.org/I63966007"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Artificial Intelligence Laboratory, Massachusetts Institute of Technology, Cambridge, MA#TAB#",
+          "institution_ids": [
+            "https://openalex.org/I63966007"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5008294855",
+        "display_name": "Brian G. Schunck",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I63966007",
+          "display_name": "Massachusetts Institute of Technology",
+          "ror": "https://ror.org/042nb2s44",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I63966007"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Brian G. Schunck",
+      "raw_affiliation_strings": [
+        "Artificial Intelligence Laboratory, Massachusetts Institute of Technology, Cambridge, MA 02139, U.S.A",
+        "Artificial Intelligence Laboratory, Massachusetts Institute of Technology, Cambridge, MA#TAB#"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Artificial Intelligence Laboratory, Massachusetts Institute of Technology, Cambridge, MA 02139, U.S.A",
+          "institution_ids": [
+            "https://openalex.org/I63966007"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Artificial Intelligence Laboratory, Massachusetts Institute of Technology, Cambridge, MA#TAB#",
+          "institution_ids": [
+            "https://openalex.org/I63966007"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I63966007"
+  ],
+  "apc_list": {
+    "value": 4260,
+    "currency": "USD",
+    "value_usd": 4260
+  },
+  "apc_paid": null,
+  "fwci": 43.2897,
+  "has_fulltext": false,
+  "cited_by_count": 10152,
+  "citation_normalized_percentile": {
+    "value": 1.0,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "17",
+    "issue": "1-3",
+    "first_page": "185",
+    "last_page": "203"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10531",
+    "display_name": "Advanced Vision and Imaging",
+    "score": 0.9987999796867371,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1707",
+      "display_name": "Computer Vision and Pattern Recognition"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10531",
+      "display_name": "Advanced Vision and Imaging",
+      "score": 0.9987999796867371,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10427",
+      "display_name": "Visual perception and processing mechanisms",
+      "score": 0.9955000281333923,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2805",
+        "display_name": "Cognitive Neuroscience"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/28",
+        "display_name": "Neuroscience"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/1",
+        "display_name": "Life Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10052",
+      "display_name": "Medical Image Segmentation Techniques",
+      "score": 0.992900013923645,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/optical-flow",
+      "display_name": "Optical flow",
+      "score": 0.7201361060142517
+    },
+    {
+      "id": "https://openalex.org/keywords/brightness",
+      "display_name": "Brightness",
+      "score": 0.6572920680046082
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.5767089128494263
+    },
+    {
+      "id": "https://openalex.org/keywords/image",
+      "display_name": "Image (mathematics)",
+      "score": 0.5699033737182617
+    },
+    {
+      "id": "https://openalex.org/keywords/flow",
+      "display_name": "Flow (mathematics)",
+      "score": 0.47126030921936035
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.4588419198989868
+    },
+    {
+      "id": "https://openalex.org/keywords/constraint",
+      "display_name": "Constraint (computer-aided design)",
+      "score": 0.45524993538856506
+    },
+    {
+      "id": "https://openalex.org/keywords/quantization",
+      "display_name": "Quantization (signal processing)",
+      "score": 0.428210973739624
+    },
+    {
+      "id": "https://openalex.org/keywords/vector-quantization",
+      "display_name": "Vector quantization",
+      "score": 0.4253835380077362
+    },
+    {
+      "id": "https://openalex.org/keywords/sequence",
+      "display_name": "Sequence (biology)",
+      "score": 0.412168025970459
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-vision",
+      "display_name": "Computer vision",
+      "score": 0.3458337187767029
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.3429281711578369
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.2925581932067871
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.22901278734207153
+    },
+    {
+      "id": "https://openalex.org/keywords/geometry",
+      "display_name": "Geometry",
+      "score": 0.21116620302200317
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.19086286425590515
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C155542232",
+      "wikidata": "https://www.wikidata.org/wiki/Q736111",
+      "display_name": "Optical flow",
+      "level": 3,
+      "score": 0.7201361060142517
+    },
+    {
+      "id": "https://openalex.org/C125245961",
+      "wikidata": "https://www.wikidata.org/wiki/Q221656",
+      "display_name": "Brightness",
+      "level": 2,
+      "score": 0.6572920680046082
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.5767089128494263
+    },
+    {
+      "id": "https://openalex.org/C115961682",
+      "wikidata": "https://www.wikidata.org/wiki/Q860623",
+      "display_name": "Image (mathematics)",
+      "level": 2,
+      "score": 0.5699033737182617
+    },
+    {
+      "id": "https://openalex.org/C38349280",
+      "wikidata": "https://www.wikidata.org/wiki/Q1434290",
+      "display_name": "Flow (mathematics)",
+      "level": 2,
+      "score": 0.47126030921936035
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.4588419198989868
+    },
+    {
+      "id": "https://openalex.org/C2776036281",
+      "wikidata": "https://www.wikidata.org/wiki/Q48769818",
+      "display_name": "Constraint (computer-aided design)",
+      "level": 2,
+      "score": 0.45524993538856506
+    },
+    {
+      "id": "https://openalex.org/C28855332",
+      "wikidata": "https://www.wikidata.org/wiki/Q198099",
+      "display_name": "Quantization (signal processing)",
+      "level": 2,
+      "score": 0.428210973739624
+    },
+    {
+      "id": "https://openalex.org/C199833920",
+      "wikidata": "https://www.wikidata.org/wiki/Q612536",
+      "display_name": "Vector quantization",
+      "level": 2,
+      "score": 0.4253835380077362
+    },
+    {
+      "id": "https://openalex.org/C2778112365",
+      "wikidata": "https://www.wikidata.org/wiki/Q3511065",
+      "display_name": "Sequence (biology)",
+      "level": 2,
+      "score": 0.412168025970459
+    },
+    {
+      "id": "https://openalex.org/C31972630",
+      "wikidata": "https://www.wikidata.org/wiki/Q844240",
+      "display_name": "Computer vision",
+      "level": 1,
+      "score": 0.3458337187767029
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.3429281711578369
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.2925581932067871
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.22901278734207153
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.21116620302200317
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.19086286425590515
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C54355233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7162",
+      "display_name": "Genetics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 6,
+  "locations": [
+    {
+      "id": "doi:10.1016/0004-3702(81)90024-2",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/0004-3702(81)90024-2",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S196139623",
+        "display_name": "Artificial Intelligence",
+        "issn_l": "0004-3702",
+        "issn": [
+          "0004-3702",
+          "1872-7921"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doyens",
+          "erih-plus",
+          "jufo-3",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Artificial Intelligence",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:CiteSeerX.psu:10.1.1.185.1651",
+      "is_oa": false,
+      "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.185.1651",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "http://www.liralab.it/teaching/SINA/papers/horn-schunck-81.pdf",
+      "raw_type": "text"
+    },
+    {
+      "id": "pmh:oai:CiteSeerX.psu:10.1.1.66.562",
+      "is_oa": false,
+      "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.66.562",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "http://www.ai.mit.edu/people/bkph/papers/Optical_Flow_OPT.pdf",
+      "raw_type": "text"
+    },
+    {
+      "id": "pmh:oai:CiteSeerX.psu:10.1.1.93.3092",
+      "is_oa": false,
+      "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.93.3092",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "http://www.caam.rice.edu/~zhang/caam699/opt-flow/horn81.pdf",
+      "raw_type": "text"
+    },
+    {
+      "id": "pmh:ADA093925",
+      "is_oa": false,
+      "landing_page_url": "http://oai.dtic.mil/oai/oai?&amp;verb=getRecord&amp;metadataPrefix=html&amp;identifier=ADA093925",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4406923043",
+        "display_name": "Defense Technical Information Center (DTIC)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "DTIC AND NTIS",
+      "raw_type": "Text"
+    },
+    {
+      "id": "pmh:oai:dspace.mit.edu:1721.1/6337",
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/1721.1/6337",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400425",
+        "display_name": "DSpace@MIT (Massachusetts Institute of Technology)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I63966007",
+        "host_organization_name": "Massachusetts Institute of Technology",
+        "host_organization_lineage": [
+          "https://openalex.org/I63966007"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": null
+    }
+  ],
+  "best_oa_location": {
+    "id": "pmh:oai:dspace.mit.edu:1721.1/6337",
+    "is_oa": true,
+    "landing_page_url": "http://hdl.handle.net/1721.1/6337",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306400425",
+      "display_name": "DSpace@MIT (Massachusetts Institute of Technology)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I63966007",
+      "host_organization_name": "Massachusetts Institute of Technology",
+      "host_organization_lineage": [
+        "https://openalex.org/I63966007"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": "cc-by-nc",
+    "license_id": "https://openalex.org/licenses/cc-by-nc",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": null
+  },
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 33,
+  "referenced_works": [
+    "https://openalex.org/W88710812",
+    "https://openalex.org/W200573110",
+    "https://openalex.org/W1495278797",
+    "https://openalex.org/W1966083741",
+    "https://openalex.org/W1971869961",
+    "https://openalex.org/W1989701469",
+    "https://openalex.org/W1994552597",
+    "https://openalex.org/W2002010034",
+    "https://openalex.org/W2009880502",
+    "https://openalex.org/W2015157402",
+    "https://openalex.org/W2022080028",
+    "https://openalex.org/W2025943913",
+    "https://openalex.org/W2032075694",
+    "https://openalex.org/W2039170454",
+    "https://openalex.org/W2041880269",
+    "https://openalex.org/W2052670720",
+    "https://openalex.org/W2060968961",
+    "https://openalex.org/W2067265395",
+    "https://openalex.org/W2074798463",
+    "https://openalex.org/W2079428063",
+    "https://openalex.org/W2084974296",
+    "https://openalex.org/W2094830892",
+    "https://openalex.org/W2131729179",
+    "https://openalex.org/W2150464846",
+    "https://openalex.org/W3003821699",
+    "https://openalex.org/W3080590132",
+    "https://openalex.org/W3134718636",
+    "https://openalex.org/W6603539167",
+    "https://openalex.org/W6608155960",
+    "https://openalex.org/W6647784750",
+    "https://openalex.org/W6658304996",
+    "https://openalex.org/W6665820069",
+    "https://openalex.org/W6669281193"
+  ],
+  "related_works": [
+    "https://openalex.org/W2387055199",
+    "https://openalex.org/W1003800352",
+    "https://openalex.org/W1953485902",
+    "https://openalex.org/W2052546562",
+    "https://openalex.org/W3175896399",
+    "https://openalex.org/W4298119411",
+    "https://openalex.org/W2371603450",
+    "https://openalex.org/W2325007532",
+    "https://openalex.org/W2419057894",
+    "https://openalex.org/W3209251257"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 290
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 396
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 427
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 455
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 370
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 413
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 391
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 445
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 427
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 397
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 385
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 383
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 379
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 389
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 361
+    }
+  ],
+  "updated_date": "2026-09-24T07:57:37.273135",
+  "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,941 @@
+{
+  "id": "https://openalex.org/W1972659562",
+  "doi": "https://doi.org/10.1190/1.1815683",
+  "title": "Estimation and interpretation of P and S impedance volumes from simultaneous inversion of P-wave offset seismic data",
+  "display_name": "Estimation and interpretation of P and S impedance volumes from simultaneous inversion of P-wave offset seismic data",
+  "publication_year": 2000,
+  "publication_date": "2000-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1972659562",
+    "doi": "https://doi.org/10.1190/1.1815683",
+    "mag": "1972659562"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.1815683",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.1815683",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "International Meeting for Applied Geoscience &amp; Energy",
+    "raw_type": "proceedings-article"
+  },
+  "type": "conference-paper",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5017741701",
+        "display_name": "John Pendrel",
+        "orcid": "https://orcid.org/0000-0001-6974-1876",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-6974-1876"
+        ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "John Pendrel",
+      "raw_affiliation_strings": [
+        "1 Jason Geosystems, Canada",
+        "Jason Geosystems"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1 Jason Geosystems, Canada",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Jason Geosystems",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5078853686",
+        "display_name": "H. Debeye",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Harry Debeye",
+      "raw_affiliation_strings": [
+        "2 Jason Geosystems B.V., The Netherlands",
+        "Jason Geosystems B.V"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "2 Jason Geosystems B.V., The Netherlands",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Jason Geosystems B.V",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5025353383",
+        "display_name": "Radmila Pedersen‐Tatalovic",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Radmila Pedersen-Tatalovic",
+      "raw_affiliation_strings": [
+        "2 Jason Geosystems B.V., The Netherlands",
+        "Jason Geosystems B.V"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "2 Jason Geosystems B.V., The Netherlands",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Jason Geosystems B.V",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5091583515",
+        "display_name": "Bill Goodway",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Bill Goodway",
+      "raw_affiliation_strings": [
+        "3 PanCanadian Petroleum Ltd",
+        "PanCanadian Petroleum Ltd"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "3 PanCanadian Petroleum Ltd",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "PanCanadian Petroleum Ltd",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5035148528",
+        "display_name": "Jocelyn Dufour",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Jocelyn Dufour",
+      "raw_affiliation_strings": [
+        "3 PanCanadian Petroleum Ltd",
+        "PanCanadian Petroleum Ltd"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "3 PanCanadian Petroleum Ltd",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "PanCanadian Petroleum Ltd",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5023861312",
+        "display_name": "Mark A. Bogaards",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Mark Bogaards",
+      "raw_affiliation_strings": [
+        "4 Jason Geosystems",
+        "Jason Geosystems"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "4 Jason Geosystems",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Jason Geosystems",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5020914067",
+        "display_name": "Robert R. Stewart",
+        "orcid": "https://orcid.org/0000-0003-1694-9395",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-1694-9395"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I168635309",
+          "display_name": "University of Calgary",
+          "ror": "https://ror.org/03yjb2x39",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I168635309"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Robert R. Stewart",
+      "raw_affiliation_strings": [
+        "5 The University of Calgary",
+        "The University of Calgary"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "5 The University of Calgary",
+          "institution_ids": [
+            "https://openalex.org/I168635309"
+          ]
+        },
+        {
+          "raw_affiliation_string": "The University of Calgary",
+          "institution_ids": [
+            "https://openalex.org/I168635309"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 6.7064,
+  "has_fulltext": false,
+  "cited_by_count": 51,
+  "citation_normalized_percentile": {
+    "value": 0.96225071,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "1",
+    "issue": null,
+    "first_page": "146",
+    "last_page": "149"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10892",
+      "display_name": "Drilling and Well Engineering",
+      "score": 0.9993000030517578,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9993000030517578,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/inversion",
+      "display_name": "Inversion (geology)",
+      "score": 0.7022916078567505
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.6914379596710205
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-inversion",
+      "display_name": "Seismic inversion",
+      "score": 0.5911567807197571
+    },
+    {
+      "id": "https://openalex.org/keywords/offset",
+      "display_name": "Offset (computer science)",
+      "score": 0.574673593044281
+    },
+    {
+      "id": "https://openalex.org/keywords/electrical-impedance",
+      "display_name": "Electrical impedance",
+      "score": 0.552741289138794
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.4577438235282898
+    },
+    {
+      "id": "https://openalex.org/keywords/acoustics",
+      "display_name": "Acoustics",
+      "score": 0.32942819595336914
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.2410358488559723
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.14655563235282898
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.12218031287193298
+    },
+    {
+      "id": "https://openalex.org/keywords/electrical-engineering",
+      "display_name": "Electrical engineering",
+      "score": 0.09834128618240356
+    },
+    {
+      "id": "https://openalex.org/keywords/azimuth",
+      "display_name": "Azimuth",
+      "score": 0.09291964769363403
+    },
+    {
+      "id": "https://openalex.org/keywords/engineering",
+      "display_name": "Engineering",
+      "score": 0.08755218982696533
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C1893757",
+      "wikidata": "https://www.wikidata.org/wiki/Q3653001",
+      "display_name": "Inversion (geology)",
+      "level": 3,
+      "score": 0.7022916078567505
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.6914379596710205
+    },
+    {
+      "id": "https://openalex.org/C39267094",
+      "wikidata": "https://www.wikidata.org/wiki/Q7446968",
+      "display_name": "Seismic inversion",
+      "level": 3,
+      "score": 0.5911567807197571
+    },
+    {
+      "id": "https://openalex.org/C175291020",
+      "wikidata": "https://www.wikidata.org/wiki/Q1156822",
+      "display_name": "Offset (computer science)",
+      "level": 2,
+      "score": 0.574673593044281
+    },
+    {
+      "id": "https://openalex.org/C17829176",
+      "wikidata": "https://www.wikidata.org/wiki/Q179043",
+      "display_name": "Electrical impedance",
+      "level": 2,
+      "score": 0.552741289138794
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.4577438235282898
+    },
+    {
+      "id": "https://openalex.org/C24890656",
+      "wikidata": "https://www.wikidata.org/wiki/Q82811",
+      "display_name": "Acoustics",
+      "level": 1,
+      "score": 0.32942819595336914
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.2410358488559723
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.14655563235282898
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.12218031287193298
+    },
+    {
+      "id": "https://openalex.org/C119599485",
+      "wikidata": "https://www.wikidata.org/wiki/Q43035",
+      "display_name": "Electrical engineering",
+      "level": 1,
+      "score": 0.09834128618240356
+    },
+    {
+      "id": "https://openalex.org/C159737794",
+      "wikidata": "https://www.wikidata.org/wiki/Q124274",
+      "display_name": "Azimuth",
+      "level": 2,
+      "score": 0.09291964769363403
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.08755218982696533
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C77928131",
+      "wikidata": "https://www.wikidata.org/wiki/Q193343",
+      "display_name": "Tectonics",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.1815683",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.1815683",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "International Meeting for Applied Geoscience &amp; Energy",
+      "raw_type": "proceedings-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/10",
+      "score": 0.6600000262260437,
+      "display_name": "Reduced inequalities"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 4,
+  "referenced_works": [
+    "https://openalex.org/W2005367884",
+    "https://openalex.org/W2067650939",
+    "https://openalex.org/W2097035656",
+    "https://openalex.org/W2168254736"
+  ],
+  "related_works": [
+    "https://openalex.org/W2595246481",
+    "https://openalex.org/W2371491827",
+    "https://openalex.org/W1482981979",
+    "https://openalex.org/W1506139850",
+    "https://openalex.org/W4378230627",
+    "https://openalex.org/W4211141914",
+    "https://openalex.org/W2348956223",
+    "https://openalex.org/W1980630197",
+    "https://openalex.org/W2185596638",
+    "https://openalex.org/W2372152252"
+  ],
+  "abstract_inverted_index": {
+    "Summary": [
+      0
+    ],
+    "Seismic": [
+      1
+    ],
+    "amplitude": [
+      2
+    ],
+    "variation": [
+      3
+    ],
+    "with": [
+      4
+    ],
+    "offset": [
+      5,
+      24,
+      29,
+      46
+    ],
+    "holds": [
+      6
+    ],
+    "information": [
+      7
+    ],
+    "on": [
+      8
+    ],
+    "density": [
+      9
+    ],
+    "and": [
+      10,
+      15,
+      58,
+      60,
+      94,
+      111
+    ],
+    "two": [
+      11
+    ],
+    "elastic": [
+      12
+    ],
+    "parameters:": [
+      13
+    ],
+    "compressional": [
+      14
+    ],
+    "shear": [
+      16
+    ],
+    "velocities": [
+      17
+    ],
+    "(or": [
+      18
+    ],
+    "impedances).": [
+      19
+    ],
+    "We": [
+      20
+    ],
+    "simultaneously": [
+      21
+    ],
+    "invert": [
+      22
+    ],
+    "multiple": [
+      23
+    ],
+    "stacks": [
+      25
+    ],
+    "to": [
+      26,
+      33,
+      37,
+      52,
+      73
+    ],
+    "transform": [
+      27
+    ],
+    "P-wave": [
+      28
+    ],
+    "seismic": [
+      30
+    ],
+    "reflection": [
+      31
+    ],
+    "data": [
+      32
+    ],
+    "these": [
+      34
+    ],
+    "parameters.": [
+      35
+    ],
+    "Prior": [
+      36
+    ],
+    "the": [
+      38,
+      50,
+      90
+    ],
+    "inversion,": [
+      39
+    ],
+    "wavelets": [
+      40
+    ],
+    "are": [
+      41
+    ],
+    "estimated": [
+      42
+    ],
+    "separately": [
+      43,
+      70
+    ],
+    "for": [
+      44,
+      54
+    ],
+    "each": [
+      45
+    ],
+    "stack.": [
+      47
+    ],
+    "This": [
+      48
+    ],
+    "enables": [
+      49
+    ],
+    "inversion": [
+      51
+    ],
+    "compensate": [
+      53
+    ],
+    "offset-dependent": [
+      55
+    ],
+    "phase,": [
+      56
+    ],
+    "bandwidth": [
+      57
+    ],
+    "tuning": [
+      59
+    ],
+    "nmo": [
+      61
+    ],
+    "stretch": [
+      62
+    ],
+    "effects.": [
+      63
+    ],
+    "The": [
+      64
+    ],
+    "impedance": [
+      65
+    ],
+    "volumes": [
+      66
+    ],
+    "can": [
+      67
+    ],
+    "be": [
+      68
+    ],
+    "interpreted": [
+      69
+    ],
+    "or": [
+      71
+    ],
+    "combined": [
+      72
+    ],
+    "estimate": [
+      74
+    ],
+    "other": [
+      75
+    ],
+    "geophysical": [
+      76
+    ],
+    "parameters": [
+      77
+    ],
+    "which": [
+      78
+    ],
+    "might": [
+      79
+    ],
+    "optimally": [
+      80
+    ],
+    "discriminate": [
+      81
+    ],
+    "between": [
+      82
+    ],
+    "facies.": [
+      83
+    ],
+    "In": [
+      84
+    ],
+    "this": [
+      85
+    ],
+    "regard,": [
+      86
+    ],
+    "we": [
+      87,
+      102
+    ],
+    "have": [
+      88,
+      107
+    ],
+    "found": [
+      89
+    ],
+    "Lame’": [
+      91
+    ],
+    "parameters,": [
+      92
+    ],
+    "Lambda": [
+      93,
+      109
+    ],
+    "Mu": [
+      95
+    ],
+    "particularly": [
+      96
+    ],
+    "useful.": [
+      97
+    ],
+    "From": [
+      98
+    ],
+    "well": [
+      99
+    ],
+    "log": [
+      100
+    ],
+    "analysis": [
+      101
+    ],
+    "expect": [
+      103
+    ],
+    "that": [
+      104
+    ],
+    "reservoir": [
+      105
+    ],
+    "sands": [
+      106
+    ],
+    "lower": [
+      108
+    ],
+    "(incompressibility)": [
+      110
+    ],
+    "higher": [
+      112
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-23T05:00:35.095934",
+  "created_date": "2025-10-10T00:00:00"
+}

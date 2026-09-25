@@ -1,0 +1,1127 @@
+{
+  "id": "https://openalex.org/W2069912449",
+  "doi": "https://doi.org/10.1002/cpa.10116",
+  "title": "New tight frames of curvelets and optimal representations of objects with piecewise C 2 singularities",
+  "display_name": "New tight frames of curvelets and optimal representations of objects with piecewise C 2 singularities",
+  "publication_year": 2003,
+  "publication_date": "2003-11-14",
+  "ids": {
+    "openalex": "https://openalex.org/W2069912449",
+    "doi": "https://doi.org/10.1002/cpa.10116",
+    "mag": "2069912449"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1002/cpa.10116",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1002/cpa.10116",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S134818455",
+      "display_name": "Communications on Pure and Applied Mathematics",
+      "issn_l": "0010-3640",
+      "issn": [
+        "0010-3640",
+        "1097-0312"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-3",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Communications on Pure and Applied Mathematics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5072495084",
+        "display_name": "Emmanuel J. Candès",
+        "orcid": "https://orcid.org/0000-0001-9234-924X",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-9234-924X"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I122411786",
+          "display_name": "California Institute of Technology",
+          "ror": "https://ror.org/05dxps055",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I122411786"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Emmanuel J. Candès",
+      "raw_affiliation_strings": [
+        "California Institute of Technology, Applied and Computational Mathematics, Pasadena, CA 91125"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "California Institute of Technology, Applied and Computational Mathematics, Pasadena, CA 91125",
+          "institution_ids": [
+            "https://openalex.org/I122411786"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5065355421",
+        "display_name": "David L. Donoho",
+        "orcid": "https://orcid.org/0000-0003-1830-710X",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-1830-710X"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97018004",
+          "display_name": "Stanford University",
+          "ror": "https://ror.org/00f54p054",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "David L. Donoho",
+      "raw_affiliation_strings": [
+        "Stanford University, Department of Statistics, Stanford, CA 94305"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Stanford University, Department of Statistics, Stanford, CA 94305",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5065355421",
+    "https://openalex.org/A5072495084"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I122411786",
+    "https://openalex.org/I97018004"
+  ],
+  "apc_list": {
+    "value": 5230,
+    "currency": "USD",
+    "value_usd": 5230
+  },
+  "apc_paid": null,
+  "fwci": 24.825,
+  "has_fulltext": false,
+  "cited_by_count": 1581,
+  "citation_normalized_percentile": {
+    "value": 0.99626349,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "57",
+    "issue": "2",
+    "first_page": "219",
+    "last_page": "266"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10688",
+    "display_name": "Image and Signal Denoising Methods",
+    "score": 0.998199999332428,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1707",
+      "display_name": "Computer Vision and Pattern Recognition"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10688",
+      "display_name": "Image and Signal Denoising Methods",
+      "score": 0.998199999332428,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11210",
+      "display_name": "Mathematical Analysis and Transform Methods",
+      "score": 0.9901999831199646,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2604",
+        "display_name": "Applied Mathematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12100",
+      "display_name": "Advanced Mathematical Modeling in Engineering",
+      "score": 0.983299970626831,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1703",
+        "display_name": "Computational Theory and Mathematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/curvelet",
+      "display_name": "Curvelet",
+      "score": 0.8866978883743286
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.7922375202178955
+    },
+    {
+      "id": "https://openalex.org/keywords/piecewise",
+      "display_name": "Piecewise",
+      "score": 0.7642241716384888
+    },
+    {
+      "id": "https://openalex.org/keywords/classification-of-discontinuities",
+      "display_name": "Classification of discontinuities",
+      "score": 0.6410230398178101
+    },
+    {
+      "id": "https://openalex.org/keywords/wavelet",
+      "display_name": "Wavelet",
+      "score": 0.6193907856941223
+    },
+    {
+      "id": "https://openalex.org/keywords/scaling",
+      "display_name": "Scaling",
+      "score": 0.45378562808036804
+    },
+    {
+      "id": "https://openalex.org/keywords/scale",
+      "display_name": "Scale (ratio)",
+      "score": 0.41387107968330383
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematical-analysis",
+      "display_name": "Mathematical analysis",
+      "score": 0.3985646367073059
+    },
+    {
+      "id": "https://openalex.org/keywords/wavelet-transform",
+      "display_name": "Wavelet transform",
+      "score": 0.3339688777923584
+    },
+    {
+      "id": "https://openalex.org/keywords/geometry",
+      "display_name": "Geometry",
+      "score": 0.2756555676460266
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.10462954640388489
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.09832489490509033
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C131720326",
+      "wikidata": "https://www.wikidata.org/wiki/Q5196075",
+      "display_name": "Curvelet",
+      "level": 4,
+      "score": 0.8866978883743286
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.7922375202178955
+    },
+    {
+      "id": "https://openalex.org/C164660894",
+      "wikidata": "https://www.wikidata.org/wiki/Q2037833",
+      "display_name": "Piecewise",
+      "level": 2,
+      "score": 0.7642241716384888
+    },
+    {
+      "id": "https://openalex.org/C15627037",
+      "wikidata": "https://www.wikidata.org/wiki/Q541961",
+      "display_name": "Classification of discontinuities",
+      "level": 2,
+      "score": 0.6410230398178101
+    },
+    {
+      "id": "https://openalex.org/C47432892",
+      "wikidata": "https://www.wikidata.org/wiki/Q831390",
+      "display_name": "Wavelet",
+      "level": 2,
+      "score": 0.6193907856941223
+    },
+    {
+      "id": "https://openalex.org/C99844830",
+      "wikidata": "https://www.wikidata.org/wiki/Q102441924",
+      "display_name": "Scaling",
+      "level": 2,
+      "score": 0.45378562808036804
+    },
+    {
+      "id": "https://openalex.org/C2778755073",
+      "wikidata": "https://www.wikidata.org/wiki/Q10858537",
+      "display_name": "Scale (ratio)",
+      "level": 2,
+      "score": 0.41387107968330383
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.3985646367073059
+    },
+    {
+      "id": "https://openalex.org/C196216189",
+      "wikidata": "https://www.wikidata.org/wiki/Q2867",
+      "display_name": "Wavelet transform",
+      "level": 3,
+      "score": 0.3339688777923584
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.2756555676460266
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.10462954640388489
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.09832489490509033
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1002/cpa.10116",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1002/cpa.10116",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S134818455",
+        "display_name": "Communications on Pure and Applied Mathematics",
+        "issn_l": "0010-3640",
+        "issn": [
+          "0010-3640",
+          "1097-0312"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-3",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Communications on Pure and Applied Mathematics",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/11",
+      "display_name": "Sustainable cities and communities",
+      "score": 0.6200000047683716
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [
+    {
+      "id": "https://openalex.org/G5458556394",
+      "display_name": null,
+      "funder_award_id": "DMS 98-72890 (KDI)",
+      "funder_id": "https://openalex.org/F4320306076",
+      "funder_display_name": "National Science Foundation"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320306076",
+      "display_name": "National Science Foundation",
+      "ror": "https://ror.org/021nxhr62"
+    }
+  ],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 28,
+  "referenced_works": [
+    "https://openalex.org/W654435104",
+    "https://openalex.org/W1971103086",
+    "https://openalex.org/W1986634257",
+    "https://openalex.org/W1997146646",
+    "https://openalex.org/W2008419427",
+    "https://openalex.org/W2013987111",
+    "https://openalex.org/W2018812645",
+    "https://openalex.org/W2021586389",
+    "https://openalex.org/W2026715250",
+    "https://openalex.org/W2029026810",
+    "https://openalex.org/W2031299600",
+    "https://openalex.org/W2050880896",
+    "https://openalex.org/W2065723160",
+    "https://openalex.org/W2066462711",
+    "https://openalex.org/W2077823490",
+    "https://openalex.org/W2087377426",
+    "https://openalex.org/W2096613063",
+    "https://openalex.org/W2107790757",
+    "https://openalex.org/W2109504624",
+    "https://openalex.org/W2115755118",
+    "https://openalex.org/W2127250148",
+    "https://openalex.org/W2132573196",
+    "https://openalex.org/W2132680427",
+    "https://openalex.org/W2146842127",
+    "https://openalex.org/W2189373780",
+    "https://openalex.org/W4242359720",
+    "https://openalex.org/W4249274673",
+    "https://openalex.org/W4255272544"
+  ],
+  "related_works": [
+    "https://openalex.org/W2953303953",
+    "https://openalex.org/W2144429080",
+    "https://openalex.org/W2028052878",
+    "https://openalex.org/W2131724745",
+    "https://openalex.org/W2103042932",
+    "https://openalex.org/W2003440330",
+    "https://openalex.org/W4312054809",
+    "https://openalex.org/W2384626809",
+    "https://openalex.org/W2568913424",
+    "https://openalex.org/W2022136933"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "This": [
+      1,
+      181
+    ],
+    "paper": [
+      2
+    ],
+    "introduces": [
+      3
+    ],
+    "new": [
+      4
+    ],
+    "tight": [
+      5
+    ],
+    "frames": [
+      6
+    ],
+    "of": [
+      7,
+      13,
+      18,
+      97,
+      118,
+      158,
+      183,
+      190,
+      213
+    ],
+    "curvelets": [
+      8,
+      71,
+      112
+    ],
+    "to": [
+      9,
+      149
+    ],
+    "address": [
+      10
+    ],
+    "the": [
+      11,
+      28,
+      155,
+      159,
+      163,
+      172,
+      177,
+      210,
+      232
+    ],
+    "problem": [
+      12
+    ],
+    "finding": [
+      14
+    ],
+    "optimally": [
+      15
+    ],
+    "sparse": [
+      16,
+      139,
+      153
+    ],
+    "representations": [
+      17,
+      65,
+      135
+    ],
+    "objects": [
+      19,
+      120
+    ],
+    "with": [
+      20,
+      35
+    ],
+    "discontinuities": [
+      21,
+      128,
+      198
+    ],
+    "along": [
+      22,
+      94,
+      129,
+      199
+    ],
+    "piecewise": [
+      23,
+      130,
+      200
+    ],
+    "C": [
+      24,
+      124,
+      131,
+      194,
+      201
+    ],
+    "2": [
+      25,
+      82,
+      99,
+      105,
+      125,
+      132,
+      195,
+      202
+    ],
+    "edges.": [
+      26
+    ],
+    "Conceptually,": [
+      27
+    ],
+    "curvelet": [
+      29,
+      178
+    ],
+    "transform": [
+      30
+    ],
+    "is": [
+      31,
+      92,
+      205,
+      228
+    ],
+    "a": [
+      32,
+      73,
+      95,
+      188
+    ],
+    "multiscale": [
+      33,
+      56,
+      64
+    ],
+    "pyramid": [
+      34
+    ],
+    "many": [
+      36,
+      53
+    ],
+    "directions": [
+      37
+    ],
+    "and": [
+      38,
+      44,
+      103,
+      146,
+      204
+    ],
+    "positions": [
+      39
+    ],
+    "at": [
+      40,
+      47,
+      80
+    ],
+    "each": [
+      41,
+      86
+    ],
+    "length": [
+      42,
+      98
+    ],
+    "scale,": [
+      43
+    ],
+    "needle‐shaped": [
+      45
+    ],
+    "elements": [
+      46,
+      51
+    ],
+    "fine": [
+      48
+    ],
+    "scales.": [
+      49
+    ],
+    "These": [
+      50
+    ],
+    "have": [
+      52
+    ],
+    "useful": [
+      54
+    ],
+    "geometric": [
+      55
+    ],
+    "features": [
+      57
+    ],
+    "that": [
+      58,
+      79,
+      91,
+      111,
+      122,
+      192
+    ],
+    "set": [
+      59
+    ],
+    "them": [
+      60
+    ],
+    "apart": [
+      61
+    ],
+    "from": [
+      62
+    ],
+    "classical": [
+      63
+    ],
+    "such": [
+      66
+    ],
+    "as": [
+      67,
+      138,
+      140,
+      220,
+      223
+    ],
+    "wavelets.": [
+      68
+    ],
+    "For": [
+      69,
+      161
+    ],
+    "instance,": [
+      70,
+      162
+    ],
+    "obey": [
+      72
+    ],
+    "parabolic": [
+      74
+    ],
+    "scaling": [
+      75
+    ],
+    "relation": [
+      76
+    ],
+    "which": [
+      77,
+      227
+    ],
+    "says": [
+      78
+    ],
+    "scale": [
+      81
+    ],
+    "−": [
+      83,
+      100,
+      106
+    ],
+    "j": [
+      84,
+      101,
+      107
+    ],
+    ",": [
+      85
+    ],
+    "element": [
+      87
+    ],
+    "has": [
+      88
+    ],
+    "an": [
+      89,
+      114
+    ],
+    "envelope": [
+      90
+    ],
+    "aligned": [
+      93
+    ],
+    "“ridge”": [
+      96
+    ],
+    "/2": [
+      102
+    ],
+    "width": [
+      104
+    ],
+    ".": [
+      108
+    ],
+    "We": [
+      109
+    ],
+    "prove": [
+      110
+    ],
+    "provide": [
+      113
+    ],
+    "essentially": [
+      115,
+      206
+    ],
+    "optimal": [
+      116,
+      233
+    ],
+    "representation": [
+      117
+    ],
+    "typical": [
+      119
+    ],
+    "f": [
+      121,
+      142,
+      168
+    ],
+    "are": [
+      123,
+      136,
+      193
+    ],
+    "except": [
+      126,
+      196
+    ],
+    "for": [
+      127,
+      197
+    ],
+    "curves.": [
+      133
+    ],
+    "Such": [
+      134
+    ],
+    "nearly": [
+      137
+    ],
+    "if": [
+      141
+    ],
+    "were": [
+      143
+    ],
+    "not": [
+      144
+    ],
+    "singular": [
+      145
+    ],
+    "turn": [
+      147
+    ],
+    "out": [
+      148
+    ],
+    "be": [
+      150
+    ],
+    "far": [
+      151
+    ],
+    "more": [
+      152
+    ],
+    "than": [
+      154,
+      231
+    ],
+    "wavelet": [
+      156,
+      216
+    ],
+    "decomposition": [
+      157
+    ],
+    "object.": [
+      160
+    ],
+    "n": [
+      164,
+      173,
+      214,
+      221,
+      224
+    ],
+    "‐term": [
+      165,
+      215
+    ],
+    "partial": [
+      166
+    ],
+    "reconstruction": [
+      167
+    ],
+    "obtained": [
+      169
+    ],
+    "by": [
+      170
+    ],
+    "selecting": [
+      171
+    ],
+    "largest": [
+      174
+    ],
+    "terms": [
+      175
+    ],
+    "in": [
+      176
+    ],
+    "series": [
+      179
+    ],
+    "obeys": [
+      180
+    ],
+    "rate": [
+      182
+    ],
+    "convergence": [
+      184
+    ],
+    "holds": [
+      185
+    ],
+    "uniformly": [
+      186
+    ],
+    "over": [
+      187
+    ],
+    "class": [
+      189
+    ],
+    "functions": [
+      191
+    ],
+    "curves": [
+      203
+    ],
+    "optimal.": [
+      207
+    ],
+    "In": [
+      208
+    ],
+    "comparison,": [
+      209
+    ],
+    "squared": [
+      211
+    ],
+    "error": [
+      212
+    ],
+    "approximations": [
+      217
+    ],
+    "only": [
+      218
+    ],
+    "converges": [
+      219
+    ],
+    "−1": [
+      222
+    ],
+    "→": [
+      225
+    ],
+    "∞,": [
+      226
+    ],
+    "considerably": [
+      229
+    ],
+    "worse": [
+      230
+    ],
+    "behavior.": [
+      234
+    ],
+    "©": [
+      235
+    ],
+    "2003": [
+      236
+    ],
+    "Wiley": [
+      237
+    ],
+    "Periodicals,": [
+      238
+    ],
+    "Inc.": [
+      239
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 37
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 26
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 34
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 93
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 68
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 71
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 84
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 93
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 94
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 110
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 87
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 115
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 88
+    }
+  ],
+  "updated_date": "2026-09-22T17:25:34.749102",
+  "created_date": "2025-10-10T00:00:00"
+}

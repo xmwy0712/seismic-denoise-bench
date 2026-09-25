@@ -1,0 +1,784 @@
+{
+  "id": "https://openalex.org/W2323569849",
+  "doi": "https://doi.org/10.1190/segam2012-0275.1",
+  "title": "Tomographic full waveform inversion (TFWI) by combining full waveform inversion with wave-equation migration velocity anaylisis",
+  "display_name": "Tomographic full waveform inversion (TFWI) by combining full waveform inversion with wave-equation migration velocity anaylisis",
+  "publication_year": 2012,
+  "publication_date": "2012-09-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2323569849",
+    "doi": "https://doi.org/10.1190/segam2012-0275.1",
+    "mag": "2323569849"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/segam2012-0275.1",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/segam2012-0275.1",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "International Meeting for Applied Geoscience &amp; Energy",
+    "raw_type": "proceedings-article"
+  },
+  "type": "conference-paper",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5060147695",
+        "display_name": "Biondo Biondi",
+        "orcid": "https://orcid.org/0000-0002-0961-2287"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Biondo Biondi",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5111982136",
+        "display_name": "Ali Almomin",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Ali Almomin",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 18.866,
+  "has_fulltext": false,
+  "cited_by_count": 55,
+  "citation_normalized_percentile": {
+    "value": 0.99740327,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 88,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "1",
+    "issue": null,
+    "first_page": "1",
+    "last_page": "5"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/waveform",
+      "display_name": "Waveform",
+      "score": 0.7359679341316223
+    },
+    {
+      "id": "https://openalex.org/keywords/inversion",
+      "display_name": "Inversion (geology)",
+      "score": 0.7189987897872925
+    },
+    {
+      "id": "https://openalex.org/keywords/wave-equation",
+      "display_name": "Wave equation",
+      "score": 0.6200302243232727
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.47291216254234314
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-migration",
+      "display_name": "Seismic migration",
+      "score": 0.4195018708705902
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.4152475595474243
+    },
+    {
+      "id": "https://openalex.org/keywords/inverse-problem",
+      "display_name": "Inverse problem",
+      "score": 0.41282302141189575
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematical-analysis",
+      "display_name": "Mathematical analysis",
+      "score": 0.3242853581905365
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.322090208530426
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.23808073997497559
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.20705747604370117
+    },
+    {
+      "id": "https://openalex.org/keywords/telecommunications",
+      "display_name": "Telecommunications",
+      "score": 0.1046384871006012
+    },
+    {
+      "id": "https://openalex.org/keywords/radar",
+      "display_name": "Radar",
+      "score": 0.08570331335067749
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C197424946",
+      "wikidata": "https://www.wikidata.org/wiki/Q1165717",
+      "display_name": "Waveform",
+      "level": 3,
+      "score": 0.7359679341316223
+    },
+    {
+      "id": "https://openalex.org/C1893757",
+      "wikidata": "https://www.wikidata.org/wiki/Q3653001",
+      "display_name": "Inversion (geology)",
+      "level": 3,
+      "score": 0.7189987897872925
+    },
+    {
+      "id": "https://openalex.org/C59696629",
+      "wikidata": "https://www.wikidata.org/wiki/Q193846",
+      "display_name": "Wave equation",
+      "level": 2,
+      "score": 0.6200302243232727
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.47291216254234314
+    },
+    {
+      "id": "https://openalex.org/C118496448",
+      "wikidata": "https://www.wikidata.org/wiki/Q2111620",
+      "display_name": "Seismic migration",
+      "level": 2,
+      "score": 0.4195018708705902
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.4152475595474243
+    },
+    {
+      "id": "https://openalex.org/C135252773",
+      "wikidata": "https://www.wikidata.org/wiki/Q1567213",
+      "display_name": "Inverse problem",
+      "level": 2,
+      "score": 0.41282302141189575
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.3242853581905365
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.322090208530426
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.23808073997497559
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.20705747604370117
+    },
+    {
+      "id": "https://openalex.org/C76155785",
+      "wikidata": "https://www.wikidata.org/wiki/Q418",
+      "display_name": "Telecommunications",
+      "level": 1,
+      "score": 0.1046384871006012
+    },
+    {
+      "id": "https://openalex.org/C554190296",
+      "wikidata": "https://www.wikidata.org/wiki/Q47528",
+      "display_name": "Radar",
+      "level": 2,
+      "score": 0.08570331335067749
+    },
+    {
+      "id": "https://openalex.org/C77928131",
+      "wikidata": "https://www.wikidata.org/wiki/Q193343",
+      "display_name": "Tectonics",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/segam2012-0275.1",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/segam2012-0275.1",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "International Meeting for Applied Geoscience &amp; Energy",
+      "raw_type": "proceedings-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "score": 0.7900000214576721,
+      "id": "https://metadata.un.org/sdg/10",
+      "display_name": "Reduced inequalities"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320324706",
+      "display_name": "Saudi Aramco",
+      "ror": "https://ror.org/03ypap427"
+    }
+  ],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 13,
+  "referenced_works": [
+    "https://openalex.org/W7818747",
+    "https://openalex.org/W1990298527",
+    "https://openalex.org/W1990966722",
+    "https://openalex.org/W2045642993",
+    "https://openalex.org/W2109428222",
+    "https://openalex.org/W2120704348",
+    "https://openalex.org/W2142323512",
+    "https://openalex.org/W2156078187",
+    "https://openalex.org/W2169129525",
+    "https://openalex.org/W2240262743",
+    "https://openalex.org/W2332028115",
+    "https://openalex.org/W2915092065",
+    "https://openalex.org/W4285719527"
+  ],
+  "related_works": [
+    "https://openalex.org/W829913547",
+    "https://openalex.org/W11839861",
+    "https://openalex.org/W2141161884",
+    "https://openalex.org/W2980904912",
+    "https://openalex.org/W2362406241",
+    "https://openalex.org/W4285132434",
+    "https://openalex.org/W3020926013",
+    "https://openalex.org/W2402311336",
+    "https://openalex.org/W2352006696",
+    "https://openalex.org/W2325148716"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0,
+      44,
+      76,
+      100
+    ],
+    "extension": [
+      1
+    ],
+    "of": [
+      2,
+      13,
+      26,
+      39,
+      53,
+      60,
+      71,
+      79,
+      87,
+      97,
+      136
+    ],
+    "the": [
+      3,
+      10,
+      19,
+      24,
+      31,
+      40,
+      51,
+      58,
+      61,
+      67,
+      80,
+      85,
+      128,
+      133,
+      137
+    ],
+    "velocity-model": [
+      4
+    ],
+    "domain": [
+      5
+    ],
+    "to": [
+      6,
+      30
+    ],
+    "subsurface": [
+      7
+    ],
+    "offsets": [
+      8
+    ],
+    "solves": [
+      9
+    ],
+    "local-minima": [
+      11
+    ],
+    "problem": [
+      12
+    ],
+    "data-fitting": [
+      14,
+      21
+    ],
+    "waveform": [
+      15,
+      41,
+      49
+    ],
+    "inversion.": [
+      16
+    ],
+    "By": [
+      17
+    ],
+    "regularizing": [
+      18
+    ],
+    "extended-model": [
+      20
+    ],
+    "inversion": [
+      22,
+      42,
+      50,
+      82
+    ],
+    "with": [
+      23,
+      47
+    ],
+    "addition": [
+      25
+    ],
+    "an": [
+      27,
+      88
+    ],
+    "image-focusing": [
+      28
+    ],
+    "term": [
+      29
+    ],
+    "objective": [
+      32
+    ],
+    "function,": [
+      33
+    ],
+    "we": [
+      34
+    ],
+    "achieve": [
+      35
+    ],
+    "robust": [
+      36
+    ],
+    "global": [
+      37,
+      68,
+      129
+    ],
+    "convergence": [
+      38,
+      69,
+      130
+    ],
+    "problem.": [
+      43
+    ],
+    "method": [
+      45,
+      83,
+      102
+    ],
+    "shares": [
+      46
+    ],
+    "full": [
+      48
+    ],
+    "advantage": [
+      52
+    ],
+    "simultaneously": [
+      54
+    ],
+    "solving": [
+      55
+    ],
+    "for": [
+      56
+    ],
+    "all": [
+      57
+    ],
+    "wavelengths": [
+      59
+    ],
+    "model,": [
+      62
+    ],
+    "but": [
+      63
+    ],
+    "it": [
+      64
+    ],
+    "also": [
+      65
+    ],
+    "has": [
+      66
+    ],
+    "characteristics": [
+      70
+    ],
+    "wave-equation": [
+      72,
+      90
+    ],
+    "migration": [
+      73
+    ],
+    "velocity": [
+      74,
+      92
+    ],
+    "analysis.": [
+      75
+    ],
+    "numerical": [
+      77
+    ],
+    "implementation": [
+      78
+    ],
+    "proposed": [
+      81
+    ],
+    "requires": [
+      84
+    ],
+    "solution": [
+      86
+    ],
+    "extended": [
+      89
+    ],
+    "where": [
+      91
+    ],
+    "is": [
+      93,
+      103
+    ],
+    "a": [
+      94,
+      123
+    ],
+    "convolutional,": [
+      95
+    ],
+    "instead": [
+      96
+    ],
+    "scalar,": [
+      98
+    ],
+    "operator.": [
+      99
+    ],
+    "resulting": [
+      101
+    ],
+    "therefore": [
+      104
+    ],
+    "computationally": [
+      105,
+      109
+    ],
+    "intensive,": [
+      106
+    ],
+    "and": [
+      107
+    ],
+    "more": [
+      108
+    ],
+    "efficient": [
+      110
+    ],
+    "approximations": [
+      111
+    ],
+    "would": [
+      112
+    ],
+    "be": [
+      113
+    ],
+    "beneficial.": [
+      114
+    ],
+    "Numerical": [
+      115
+    ],
+    "tests": [
+      116
+    ],
+    "performed": [
+      117
+    ],
+    "on": [
+      118
+    ],
+    "synthetic": [
+      119
+    ],
+    "data": [
+      120
+    ],
+    "modeled": [
+      121
+    ],
+    "assuming": [
+      122
+    ],
+    "modified": [
+      124
+    ],
+    "Marmousi": [
+      125
+    ],
+    "model": [
+      126
+    ],
+    "demonstrate": [
+      127
+    ],
+    "as": [
+      131
+    ],
+    "well": [
+      132
+    ],
+    "high-resolution": [
+      134
+    ],
+    "potential": [
+      135
+    ],
+    "method.": [
+      138
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-16T18:09:00.828671",
+  "created_date": "2025-10-10T00:00:00"
+}

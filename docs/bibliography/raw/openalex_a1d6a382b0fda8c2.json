@@ -1,0 +1,1035 @@
+{
+  "id": "https://openalex.org/W2039209443",
+  "doi": "https://doi.org/10.1029/2003gl018413",
+  "title": "Estimation of S‐wave scattering coefficient in the mantle from envelope characteristics before and after the ScS arrival",
+  "display_name": "Estimation of S‐wave scattering coefficient in the mantle from envelope characteristics before and after the ScS arrival",
+  "publication_year": 2003,
+  "publication_date": "2003-12-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2039209443",
+    "doi": "https://doi.org/10.1029/2003gl018413",
+    "mag": "2039209443"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1029/2003gl018413",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1029/2003gl018413",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S36624081",
+      "display_name": "Geophysical Research Letters",
+      "issn_l": "0094-8276",
+      "issn": [
+        "0094-8276",
+        "1944-8007"
+      ],
+      "is_oa": false,
+      "is_in_doaj": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315809",
+      "host_organization_name": "American Geophysical Union",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315809"
+      ],
+      "host_organization_lineage_names": [
+        "American Geophysical Union"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysical Research Letters",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "doaj"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5039957122",
+        "display_name": "Won Sang Lee",
+        "orcid": "https://orcid.org/0000-0002-1074-7672"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I139264467",
+          "display_name": "Seoul National University",
+          "ror": "https://ror.org/04h9pn542",
+          "country_code": "KR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I139264467"
+          ]
+        }
+      ],
+      "countries": [
+        "KR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Won Sang Lee",
+      "raw_affiliation_strings": [
+        "Seismological Observatory, School of Earth and Environmental Sciences Seoul National University  Seoul Korea",
+        "Seismological Observatory, School of Earth and Environmental Sciences, Seoul National University, Seoul, Korea"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Seismological Observatory, School of Earth and Environmental Sciences Seoul National University  Seoul Korea",
+          "institution_ids": [
+            "https://openalex.org/I139264467"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Seismological Observatory, School of Earth and Environmental Sciences, Seoul National University, Seoul, Korea",
+          "institution_ids": [
+            "https://openalex.org/I139264467"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5106691614",
+        "display_name": "Haruo Sato",
+        "orcid": "https://orcid.org/0000-0003-1762-2247"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I201537933",
+          "display_name": "Tohoku University",
+          "ror": "https://ror.org/01dq60k83",
+          "country_code": "JP",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I201537933"
+          ]
+        }
+      ],
+      "countries": [
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Haruo Sato",
+      "raw_affiliation_strings": [
+        "Department of Geophysics, Graduate School of Science Tohoku University  Sendai Japan",
+        "Department of Geophysics, Graduate School of Science, Tohoku University, Sendai,#N#Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Geophysics, Graduate School of Science Tohoku University  Sendai Japan",
+          "institution_ids": [
+            "https://openalex.org/I201537933"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Geophysics, Graduate School of Science, Tohoku University, Sendai,#N#Japan",
+          "institution_ids": [
+            "https://openalex.org/I201537933"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5091121500",
+        "display_name": "Kiehwa Lee",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I139264467",
+          "display_name": "Seoul National University",
+          "ror": "https://ror.org/04h9pn542",
+          "country_code": "KR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I139264467"
+          ]
+        }
+      ],
+      "countries": [
+        "KR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kiehwa Lee",
+      "raw_affiliation_strings": [
+        "Seismological Observatory, School of Earth and Environmental Sciences Seoul National University  Seoul Korea",
+        "Seismological Observatory, School of Earth and Environmental Sciences, Seoul National University, Seoul, Korea"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Seismological Observatory, School of Earth and Environmental Sciences Seoul National University  Seoul Korea",
+          "institution_ids": [
+            "https://openalex.org/I139264467"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Seismological Observatory, School of Earth and Environmental Sciences, Seoul National University, Seoul, Korea",
+          "institution_ids": [
+            "https://openalex.org/I139264467"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 3190,
+    "currency": "USD",
+    "value_usd": 3190
+  },
+  "apc_paid": null,
+  "fwci": 1.141,
+  "has_fulltext": false,
+  "cited_by_count": 33,
+  "citation_normalized_percentile": {
+    "value": 0.74940124,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "30",
+    "issue": "24",
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10413",
+    "display_name": "High-pressure geophysics and materials",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10413",
+      "display_name": "High-pressure geophysics and materials",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10110",
+      "display_name": "earthquake and tectonic studies",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9993000030517578,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/coda",
+      "display_name": "Coda",
+      "score": 0.8329452872276306
+    },
+    {
+      "id": "https://openalex.org/keywords/scattering",
+      "display_name": "Scattering",
+      "score": 0.7007138133049011
+    },
+    {
+      "id": "https://openalex.org/keywords/seismogram",
+      "display_name": "Seismogram",
+      "score": 0.6966325044631958
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.6389105319976807
+    },
+    {
+      "id": "https://openalex.org/keywords/attenuation",
+      "display_name": "Attenuation",
+      "score": 0.5932998061180115
+    },
+    {
+      "id": "https://openalex.org/keywords/mantle",
+      "display_name": "Mantle (geology)",
+      "score": 0.5445852279663086
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.5012893676757812
+    },
+    {
+      "id": "https://openalex.org/keywords/geophysics",
+      "display_name": "Geophysics",
+      "score": 0.4475994110107422
+    },
+    {
+      "id": "https://openalex.org/keywords/radiative-transfer",
+      "display_name": "Radiative transfer",
+      "score": 0.43540140986442566
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.37608885765075684
+    },
+    {
+      "id": "https://openalex.org/keywords/geodesy",
+      "display_name": "Geodesy",
+      "score": 0.32324010133743286
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.14366182684898376
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C3962253",
+      "wikidata": "https://www.wikidata.org/wiki/Q852466",
+      "display_name": "Coda",
+      "level": 2,
+      "score": 0.8329452872276306
+    },
+    {
+      "id": "https://openalex.org/C191486275",
+      "wikidata": "https://www.wikidata.org/wiki/Q210028",
+      "display_name": "Scattering",
+      "level": 2,
+      "score": 0.7007138133049011
+    },
+    {
+      "id": "https://openalex.org/C169744125",
+      "wikidata": "https://www.wikidata.org/wiki/Q510375",
+      "display_name": "Seismogram",
+      "level": 2,
+      "score": 0.6966325044631958
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.6389105319976807
+    },
+    {
+      "id": "https://openalex.org/C184652730",
+      "wikidata": "https://www.wikidata.org/wiki/Q2357982",
+      "display_name": "Attenuation",
+      "level": 2,
+      "score": 0.5932998061180115
+    },
+    {
+      "id": "https://openalex.org/C67236022",
+      "wikidata": "https://www.wikidata.org/wiki/Q4364434",
+      "display_name": "Mantle (geology)",
+      "level": 2,
+      "score": 0.5445852279663086
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.5012893676757812
+    },
+    {
+      "id": "https://openalex.org/C8058405",
+      "wikidata": "https://www.wikidata.org/wiki/Q46255",
+      "display_name": "Geophysics",
+      "level": 1,
+      "score": 0.4475994110107422
+    },
+    {
+      "id": "https://openalex.org/C74902906",
+      "wikidata": "https://www.wikidata.org/wiki/Q1190858",
+      "display_name": "Radiative transfer",
+      "level": 2,
+      "score": 0.43540140986442566
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.37608885765075684
+    },
+    {
+      "id": "https://openalex.org/C13280743",
+      "wikidata": "https://www.wikidata.org/wiki/Q131089",
+      "display_name": "Geodesy",
+      "level": 1,
+      "score": 0.32324010133743286
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.14366182684898376
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1029/2003gl018413",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1029/2003gl018413",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S36624081",
+        "display_name": "Geophysical Research Letters",
+        "issn_l": "0094-8276",
+        "issn": [
+          "0094-8276",
+          "1944-8007"
+        ],
+        "is_oa": false,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315809",
+        "host_organization_name": "American Geophysical Union",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315809"
+        ],
+        "host_organization_lineage_names": [
+          "American Geophysical Union"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysical Research Letters",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 14,
+  "referenced_works": [
+    "https://openalex.org/W1647526265",
+    "https://openalex.org/W1969317397",
+    "https://openalex.org/W1988973452",
+    "https://openalex.org/W1997171108",
+    "https://openalex.org/W2022716782",
+    "https://openalex.org/W2062221814",
+    "https://openalex.org/W2106310762",
+    "https://openalex.org/W2129881167",
+    "https://openalex.org/W2165959563",
+    "https://openalex.org/W2263869820",
+    "https://openalex.org/W2296741464",
+    "https://openalex.org/W2521474857",
+    "https://openalex.org/W3083016671",
+    "https://openalex.org/W6696922169"
+  ],
+  "related_works": [
+    "https://openalex.org/W2112877060",
+    "https://openalex.org/W2044831873",
+    "https://openalex.org/W2562708109",
+    "https://openalex.org/W2119712994",
+    "https://openalex.org/W3132623182",
+    "https://openalex.org/W1516643255",
+    "https://openalex.org/W86809483",
+    "https://openalex.org/W1984805061",
+    "https://openalex.org/W1978856555",
+    "https://openalex.org/W1991687831"
+  ],
+  "abstract_inverted_index": {
+    "Examining": [
+      0
+    ],
+    "seismogram": [
+      1
+    ],
+    "envelopes": [
+      2
+    ],
+    "of": [
+      3,
+      58,
+      69,
+      94,
+      116,
+      202
+    ],
+    "regional": [
+      4
+    ],
+    "earthquakes": [
+      5
+    ],
+    "in": [
+      6,
+      16,
+      32,
+      198
+    ],
+    "Central": [
+      7
+    ],
+    "Asia": [
+      8
+    ],
+    "with": [
+      9,
+      99,
+      145
+    ],
+    "focal": [
+      10
+    ],
+    "depths": [
+      11
+    ],
+    "deeper": [
+      12
+    ],
+    "than": [
+      13
+    ],
+    "150": [
+      14
+    ],
+    "km": [
+      15
+    ],
+    "1s–20s": [
+      17
+    ],
+    "periods": [
+      18
+    ],
+    "for": [
+      19,
+      133,
+      140,
+      178,
+      185
+    ],
+    "a": [
+      20,
+      92,
+      104,
+      141
+    ],
+    "wide": [
+      21
+    ],
+    "lapse": [
+      22
+    ],
+    "time": [
+      23
+    ],
+    "range": [
+      24
+    ],
+    "up": [
+      25
+    ],
+    "to": [
+      26,
+      111
+    ],
+    "2000s,": [
+      27
+    ],
+    "we": [
+      28,
+      148
+    ],
+    "found": [
+      29
+    ],
+    "an": [
+      30,
+      84
+    ],
+    "offset": [
+      31,
+      85
+    ],
+    "each": [
+      33
+    ],
+    "coda": [
+      34,
+      66,
+      95
+    ],
+    "envelope": [
+      35
+    ],
+    "before": [
+      36
+    ],
+    "and": [
+      37,
+      44,
+      73,
+      80,
+      107,
+      159,
+      166,
+      171,
+      181,
+      184
+    ],
+    "after": [
+      38
+    ],
+    "the": [
+      39,
+      64,
+      100,
+      112,
+      123,
+      129,
+      150,
+      179,
+      186,
+      191,
+      199
+    ],
+    "ScS": [
+      40,
+      48,
+      59,
+      101
+    ],
+    "arrival": [
+      41
+    ],
+    "at": [
+      42,
+      164,
+      176
+    ],
+    "10s": [
+      43
+    ],
+    "15s": [
+      45
+    ],
+    "periods.": [
+      46
+    ],
+    "The": [
+      47
+    ],
+    "wave": [
+      49
+    ],
+    "has": [
+      50
+    ],
+    "its": [
+      51
+    ],
+    "own": [
+      52
+    ],
+    "tail,": [
+      53
+    ],
+    "that": [
+      54
+    ],
+    "is,": [
+      55
+    ],
+    "scattered": [
+      56,
+      70,
+      74
+    ],
+    "waves": [
+      57,
+      60,
+      67,
+      72
+    ],
+    "sometimes": [
+      61
+    ],
+    "dominate": [
+      62
+    ],
+    "over": [
+      63
+    ],
+    "original": [
+      65
+    ],
+    "composed": [
+      68
+    ],
+    "S": [
+      71,
+      203
+    ],
+    "surface": [
+      75
+    ],
+    "waves.": [
+      76,
+      204
+    ],
+    "For": [
+      77
+    ],
+    "1s,": [
+      78
+    ],
+    "2s": [
+      79
+    ],
+    "4s": [
+      81
+    ],
+    "periods,": [
+      82
+    ],
+    "such": [
+      83
+    ],
+    "is": [
+      86,
+      91,
+      196
+    ],
+    "not": [
+      87
+    ],
+    "clear.": [
+      88
+    ],
+    "However,": [
+      89
+    ],
+    "there": [
+      90
+    ],
+    "change": [
+      93
+    ],
+    "decay": [
+      96
+    ],
+    "gradient": [
+      97
+    ],
+    "associated": [
+      98
+    ],
+    "arrival.": [
+      102
+    ],
+    "In": [
+      103,
+      190
+    ],
+    "layered": [
+      105
+    ],
+    "velocity": [
+      106
+    ],
+    "attenuation": [
+      108,
+      201
+    ],
+    "structure": [
+      109
+    ],
+    "according": [
+      110
+    ],
+    "PREM,": [
+      113
+    ],
+    "scattering": [
+      114,
+      135,
+      143,
+      152,
+      194
+    ],
+    "process": [
+      115
+    ],
+    "S‐waves": [
+      117
+    ],
+    "can": [
+      118
+    ],
+    "be": [
+      119
+    ],
+    "simulated": [
+      120
+    ],
+    "by": [
+      121
+    ],
+    "using": [
+      122
+    ],
+    "Monte": [
+      124
+    ],
+    "Carlo": [
+      125
+    ],
+    "method": [
+      126
+    ],
+    "based": [
+      127
+    ],
+    "on": [
+      128
+    ],
+    "radiative": [
+      130
+    ],
+    "transfer": [
+      131
+    ],
+    "theory": [
+      132
+    ],
+    "isotropic": [
+      134
+    ],
+    "process.": [
+      136
+    ],
+    "Comparing": [
+      137
+    ],
+    "numerical": [
+      138
+    ],
+    "simulation": [
+      139
+    ],
+    "two‐layered": [
+      142
+    ],
+    "model": [
+      144
+    ],
+    "observed": [
+      146
+    ],
+    "envelopes,": [
+      147
+    ],
+    "estimated": [
+      149
+    ],
+    "total": [
+      151,
+      200
+    ],
+    "coefficients": [
+      153
+    ],
+    "as": [
+      154
+    ],
+    "1.129": [
+      155
+    ],
+    "×": [
+      156,
+      161,
+      168,
+      173
+    ],
+    "10−3": [
+      157
+    ],
+    "km−1": [
+      158,
+      163,
+      170,
+      175
+    ],
+    "6.230": [
+      160
+    ],
+    "10−4": [
+      162,
+      169,
+      174
+    ],
+    "4s,": [
+      165
+    ],
+    "4.510": [
+      167
+    ],
+    "2.710": [
+      172
+    ],
+    "10s,": [
+      177
+    ],
+    "lithosphere": [
+      180
+    ],
+    "upper": [
+      182
+    ],
+    "mantle": [
+      183
+    ],
+    "lower": [
+      187,
+      192
+    ],
+    "mantle,": [
+      188,
+      193
+    ],
+    "respectively.": [
+      189
+    ],
+    "loss": [
+      195
+    ],
+    "dominant": [
+      197
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-08-21T09:56:20.448147",
+  "created_date": "2025-10-10T00:00:00"
+}

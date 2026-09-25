@@ -1,0 +1,1148 @@
+{
+  "id": "https://openalex.org/W4386739323",
+  "doi": "https://doi.org/10.1134/s0020441223050196",
+  "title": "Possibilities and Prospects for the Use of Distributed Fiber Sensors in Geophysics",
+  "display_name": "Possibilities and Prospects for the Use of Distributed Fiber Sensors in Geophysics",
+  "publication_year": 2023,
+  "publication_date": "2023-09-14",
+  "ids": {
+    "openalex": "https://openalex.org/W4386739323",
+    "doi": "https://doi.org/10.1134/s0020441223050196"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1134/s0020441223050196",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1134/s0020441223050196",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S40976917",
+      "display_name": "Instruments and Experimental Techniques",
+      "issn_l": "0020-4412",
+      "issn": [
+        "0020-4412",
+        "0032-8162",
+        "1608-3180",
+        "3034-5642"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [
+        "jufo-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320267",
+      "host_organization_name": "Pleiades Publishing",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320267",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Pleiades Publishing",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Instruments and Experimental Techniques",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5007849607",
+        "display_name": "Sergei P. Nikitin",
+        "orcid": "https://orcid.org/0000-0001-5289-2272",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-5289-2272"
+        ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "S. P. Nikitin",
+      "raw_affiliation_strings": [
+        "OOO Femtovision, 107076, Moscow, Russia",
+        "OOO T8, 107076, Moscow, Russia",
+        "OOO Femtovision, Moscow, Russia",
+        "OOO T8, Moscow, Russia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "OOO Femtovision, 107076, Moscow, Russia",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "OOO T8, 107076, Moscow, Russia",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "OOO Femtovision, Moscow, Russia",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "OOO T8, Moscow, Russia",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5057359546",
+        "display_name": "К. В. Кислов",
+        "orcid": "https://orcid.org/0000-0001-6309-8584",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-6309-8584"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210096249",
+          "display_name": "Institute of Earthquake Prediction Theory and Mathematical Geophysics",
+          "ror": "https://ror.org/00s1q1t70",
+          "country_code": "RU",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1313323035",
+            "https://openalex.org/I4210096249",
+            "https://openalex.org/I4210163714"
+          ]
+        }
+      ],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "K. V. Kislov",
+      "raw_affiliation_strings": [
+        "Institute of Earthquake Prediction Theory and Mathematical Geophysics, Russian Academy of Sciences (ITPZ RAS), 117997, Moscow, Russia",
+        "Institute of Earthquake Prediction Theory and Mathematical Geophysics, Russian Academy of Sciences (ITPZ RAS), Moscow, Russia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Earthquake Prediction Theory and Mathematical Geophysics, Russian Academy of Sciences (ITPZ RAS), 117997, Moscow, Russia",
+          "institution_ids": [
+            "https://openalex.org/I4210096249"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institute of Earthquake Prediction Theory and Mathematical Geophysics, Russian Academy of Sciences (ITPZ RAS), Moscow, Russia",
+          "institution_ids": [
+            "https://openalex.org/I4210096249"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5109638393",
+        "display_name": "Yu. O. Starovoit",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Yu. O. Starovoit",
+      "raw_affiliation_strings": [
+        "OOO T8, 107076, Moscow, Russia",
+        "OOO T8, Moscow, Russia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "OOO T8, 107076, Moscow, Russia",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "OOO T8, Moscow, Russia",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5001433367",
+        "display_name": "Danil M. Bengalskii",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "D. M. Bengalskii",
+      "raw_affiliation_strings": [
+        "OOO T8, 107076, Moscow, Russia",
+        "OOO T8, Moscow, Russia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "OOO T8, 107076, Moscow, Russia",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "OOO T8, Moscow, Russia",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5092870302",
+        "display_name": "Е. П. Спиридонов",
+        "orcid": "https://orcid.org/0009-0000-3845-8373",
+        "observed_orcids": [
+          "https://orcid.org/0009-0000-3845-8373"
+        ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "E. P. Spiridonov",
+      "raw_affiliation_strings": [
+        "OOO T8, 107076, Moscow, Russia",
+        "OOO T8, Moscow, Russia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "OOO T8, 107076, Moscow, Russia",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "OOO T8, Moscow, Russia",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5029520689",
+        "display_name": "Danil R. Kharasov",
+        "orcid": "https://orcid.org/0000-0002-0414-3231",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-0414-3231"
+        ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "D. R. Kharasov",
+      "raw_affiliation_strings": [
+        "OOO T8, 107076, Moscow, Russia",
+        "OOO T8, Moscow, Russia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "OOO T8, 107076, Moscow, Russia",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "OOO T8, Moscow, Russia",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5083066264",
+        "display_name": "Edgard A. Fomiryakov",
+        "orcid": "https://orcid.org/0000-0003-0481-3052",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-0481-3052"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I19880235",
+          "display_name": "Lomonosov Moscow State University",
+          "ror": "https://ror.org/010pmpe69",
+          "country_code": "RU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I19880235"
+          ]
+        }
+      ],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "E. A. Fomiryakov",
+      "raw_affiliation_strings": [
+        "Moscow State University, Department of Physics, 119991, Moscow, Russia",
+        "OOO T8, 107076, Moscow, Russia",
+        "Moscow State University, Department of Physics, Moscow, Russia",
+        "OOO T8, Moscow, Russia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Moscow State University, Department of Physics, 119991, Moscow, Russia",
+          "institution_ids": [
+            "https://openalex.org/I19880235"
+          ]
+        },
+        {
+          "raw_affiliation_string": "OOO T8, 107076, Moscow, Russia",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Moscow State University, Department of Physics, Moscow, Russia",
+          "institution_ids": [
+            "https://openalex.org/I19880235"
+          ]
+        },
+        {
+          "raw_affiliation_string": "OOO T8, Moscow, Russia",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5024275396",
+        "display_name": "О. Е. Наний",
+        "orcid": "https://orcid.org/0000-0003-4269-1332",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-4269-1332"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I19880235",
+          "display_name": "Lomonosov Moscow State University",
+          "ror": "https://ror.org/010pmpe69",
+          "country_code": "RU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I19880235"
+          ]
+        }
+      ],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "O. E. Nanii",
+      "raw_affiliation_strings": [
+        "Moscow State University, Department of Physics, 119991, Moscow, Russia",
+        "OOO T8, 107076, Moscow, Russia",
+        "Moscow State University, Department of Physics, Moscow, Russia",
+        "OOO T8, Moscow, Russia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Moscow State University, Department of Physics, 119991, Moscow, Russia",
+          "institution_ids": [
+            "https://openalex.org/I19880235"
+          ]
+        },
+        {
+          "raw_affiliation_string": "OOO T8, 107076, Moscow, Russia",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Moscow State University, Department of Physics, Moscow, Russia",
+          "institution_ids": [
+            "https://openalex.org/I19880235"
+          ]
+        },
+        {
+          "raw_affiliation_string": "OOO T8, Moscow, Russia",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5084016079",
+        "display_name": "В Н Трещиков",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "V. N. Treshchikov",
+      "raw_affiliation_strings": [
+        "OOO T8, 107076, Moscow, Russia",
+        "OOO T8, Moscow, Russia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "OOO T8, 107076, Moscow, Russia",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "OOO T8, Moscow, Russia",
+          "institution_ids": []
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5007849607"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.3604,
+  "has_fulltext": false,
+  "cited_by_count": 2,
+  "citation_normalized_percentile": {
+    "value": 0.49798853,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 91,
+    "max": 96
+  },
+  "biblio": {
+    "volume": "66",
+    "issue": "5",
+    "first_page": "854",
+    "last_page": "859"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11757",
+    "display_name": "Seismic Waves and Analysis",
+    "score": 0.9998999834060669,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13018",
+      "display_name": "Seismology and Earthquake Studies",
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13885",
+      "display_name": "Geophysics and Sensor Technology",
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/distributed-acoustic-sensing",
+      "display_name": "Distributed acoustic sensing",
+      "score": 0.7356165647506714
+    },
+    {
+      "id": "https://openalex.org/keywords/noise",
+      "display_name": "Noise (video)",
+      "score": 0.6633082032203674
+    },
+    {
+      "id": "https://openalex.org/keywords/acoustics",
+      "display_name": "Acoustics",
+      "score": 0.6373297572135925
+    },
+    {
+      "id": "https://openalex.org/keywords/signal",
+      "display_name": "SIGNAL (programming language)",
+      "score": 0.6124538779258728
+    },
+    {
+      "id": "https://openalex.org/keywords/fiber",
+      "display_name": "Fiber",
+      "score": 0.552510678768158
+    },
+    {
+      "id": "https://openalex.org/keywords/power",
+      "display_name": "Power (physics)",
+      "score": 0.4994771480560303
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.4594133794307709
+    },
+    {
+      "id": "https://openalex.org/keywords/spectral-density",
+      "display_name": "Spectral density",
+      "score": 0.45689722895622253
+    },
+    {
+      "id": "https://openalex.org/keywords/geophysics",
+      "display_name": "Geophysics",
+      "score": 0.4089095890522003
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.3521615266799927
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.30160588026046753
+    },
+    {
+      "id": "https://openalex.org/keywords/fiber-optic-sensor",
+      "display_name": "Fiber optic sensor",
+      "score": 0.292670339345932
+    },
+    {
+      "id": "https://openalex.org/keywords/telecommunications",
+      "display_name": "Telecommunications",
+      "score": 0.23600807785987854
+    },
+    {
+      "id": "https://openalex.org/keywords/optical-fiber",
+      "display_name": "Optical fiber",
+      "score": 0.23113220930099487
+    },
+    {
+      "id": "https://openalex.org/keywords/materials-science",
+      "display_name": "Materials science",
+      "score": 0.1993422508239746
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.07347366213798523
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C158543913",
+      "wikidata": "https://www.wikidata.org/wiki/Q5283133",
+      "display_name": "Distributed acoustic sensing",
+      "level": 4,
+      "score": 0.7356165647506714
+    },
+    {
+      "id": "https://openalex.org/C99498987",
+      "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+      "display_name": "Noise (video)",
+      "level": 3,
+      "score": 0.6633082032203674
+    },
+    {
+      "id": "https://openalex.org/C24890656",
+      "wikidata": "https://www.wikidata.org/wiki/Q82811",
+      "display_name": "Acoustics",
+      "level": 1,
+      "score": 0.6373297572135925
+    },
+    {
+      "id": "https://openalex.org/C2779843651",
+      "wikidata": "https://www.wikidata.org/wiki/Q7390335",
+      "display_name": "SIGNAL (programming language)",
+      "level": 2,
+      "score": 0.6124538779258728
+    },
+    {
+      "id": "https://openalex.org/C519885992",
+      "wikidata": "https://www.wikidata.org/wiki/Q161",
+      "display_name": "Fiber",
+      "level": 2,
+      "score": 0.552510678768158
+    },
+    {
+      "id": "https://openalex.org/C163258240",
+      "wikidata": "https://www.wikidata.org/wiki/Q25342",
+      "display_name": "Power (physics)",
+      "level": 2,
+      "score": 0.4994771480560303
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.4594133794307709
+    },
+    {
+      "id": "https://openalex.org/C168110828",
+      "wikidata": "https://www.wikidata.org/wiki/Q1331626",
+      "display_name": "Spectral density",
+      "level": 2,
+      "score": 0.45689722895622253
+    },
+    {
+      "id": "https://openalex.org/C8058405",
+      "wikidata": "https://www.wikidata.org/wiki/Q46255",
+      "display_name": "Geophysics",
+      "level": 1,
+      "score": 0.4089095890522003
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.3521615266799927
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.30160588026046753
+    },
+    {
+      "id": "https://openalex.org/C21651689",
+      "wikidata": "https://www.wikidata.org/wiki/Q1397427",
+      "display_name": "Fiber optic sensor",
+      "level": 3,
+      "score": 0.292670339345932
+    },
+    {
+      "id": "https://openalex.org/C76155785",
+      "wikidata": "https://www.wikidata.org/wiki/Q418",
+      "display_name": "Telecommunications",
+      "level": 1,
+      "score": 0.23600807785987854
+    },
+    {
+      "id": "https://openalex.org/C194232370",
+      "wikidata": "https://www.wikidata.org/wiki/Q162",
+      "display_name": "Optical fiber",
+      "level": 2,
+      "score": 0.23113220930099487
+    },
+    {
+      "id": "https://openalex.org/C192562407",
+      "wikidata": "https://www.wikidata.org/wiki/Q228736",
+      "display_name": "Materials science",
+      "level": 0,
+      "score": 0.1993422508239746
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.07347366213798523
+    },
+    {
+      "id": "https://openalex.org/C115961682",
+      "wikidata": "https://www.wikidata.org/wiki/Q860623",
+      "display_name": "Image (mathematics)",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C159985019",
+      "wikidata": "https://www.wikidata.org/wiki/Q181790",
+      "display_name": "Composite material",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1134/s0020441223050196",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1134/s0020441223050196",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S40976917",
+        "display_name": "Instruments and Experimental Techniques",
+        "issn_l": "0020-4412",
+        "issn": [
+          "0020-4412",
+          "0032-8162",
+          "1608-3180",
+          "3034-5642"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [
+          "jufo-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320267",
+        "host_organization_name": "Pleiades Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320267",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Pleiades Publishing",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Instruments and Experimental Techniques",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/11",
+      "score": 0.7099999785423279,
+      "display_name": "Sustainable cities and communities"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 34,
+  "referenced_works": [
+    "https://openalex.org/W1989020603",
+    "https://openalex.org/W1994553199",
+    "https://openalex.org/W2106094059",
+    "https://openalex.org/W2149821747",
+    "https://openalex.org/W2603807949",
+    "https://openalex.org/W2809307328",
+    "https://openalex.org/W2809685438",
+    "https://openalex.org/W2982815756",
+    "https://openalex.org/W2995419125",
+    "https://openalex.org/W3002755165",
+    "https://openalex.org/W3005542385",
+    "https://openalex.org/W3006015589",
+    "https://openalex.org/W3011098215",
+    "https://openalex.org/W3011487871",
+    "https://openalex.org/W3081198221",
+    "https://openalex.org/W3095056759",
+    "https://openalex.org/W3107064579",
+    "https://openalex.org/W3111756037",
+    "https://openalex.org/W3126257219",
+    "https://openalex.org/W3128295208",
+    "https://openalex.org/W3136930422",
+    "https://openalex.org/W3138858401",
+    "https://openalex.org/W3142032761",
+    "https://openalex.org/W3164332995",
+    "https://openalex.org/W3176522561",
+    "https://openalex.org/W3178402925",
+    "https://openalex.org/W4200542752",
+    "https://openalex.org/W4214825273",
+    "https://openalex.org/W4214942853",
+    "https://openalex.org/W4283166347",
+    "https://openalex.org/W4295013514",
+    "https://openalex.org/W4298143088",
+    "https://openalex.org/W4313891760",
+    "https://openalex.org/W4324122270"
+  ],
+  "related_works": [
+    "https://openalex.org/W2900734788",
+    "https://openalex.org/W2188665978",
+    "https://openalex.org/W2029741436",
+    "https://openalex.org/W2910997950",
+    "https://openalex.org/W1992126497",
+    "https://openalex.org/W4200485858",
+    "https://openalex.org/W2080025715",
+    "https://openalex.org/W2765114824",
+    "https://openalex.org/W2983991515",
+    "https://openalex.org/W1551847573"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "A": [
+      1
+    ],
+    "brief": [
+      2
+    ],
+    "review": [
+      3
+    ],
+    "of": [
+      4,
+      7,
+      24,
+      27,
+      54,
+      63,
+      70,
+      82,
+      86,
+      97,
+      113
+    ],
+    "the": [
+      5,
+      25,
+      52,
+      64,
+      68,
+      83,
+      95,
+      104,
+      111
+    ],
+    "applications": [
+      6
+    ],
+    "distributed": [
+      8,
+      30,
+      71
+    ],
+    "acoustic": [
+      9,
+      31,
+      72
+    ],
+    "sensors": [
+      10
+    ],
+    "for": [
+      11
+    ],
+    "solving": [
+      12
+    ],
+    "geophysical": [
+      13
+    ],
+    "and": [
+      14,
+      21
+    ],
+    "seismometric": [
+      15
+    ],
+    "problems": [
+      16
+    ],
+    "is": [
+      17
+    ],
+    "given.": [
+      18
+    ],
+    "Theoretical": [
+      19
+    ],
+    "estimates": [
+      20,
+      81
+    ],
+    "experimental": [
+      22
+    ],
+    "measurements": [
+      23
+    ],
+    "level": [
+      26
+    ],
+    "self-noise": [
+      28
+    ],
+    "in": [
+      29,
+      67,
+      103
+    ],
+    "sensors,": [
+      32
+    ],
+    "including": [
+      33
+    ],
+    "those": [
+      34
+    ],
+    "at": [
+      35
+    ],
+    "subhertz": [
+      36
+    ],
+    "frequencies,": [
+      37
+    ],
+    "are": [
+      38,
+      77
+    ],
+    "obtained.": [
+      39
+    ],
+    "Numerical": [
+      40
+    ],
+    "modeling": [
+      41
+    ],
+    "has": [
+      42
+    ],
+    "been": [
+      43
+    ],
+    "carried": [
+      44
+    ],
+    "out,": [
+      45
+    ],
+    "which": [
+      46
+    ],
+    "makes": [
+      47
+    ],
+    "it": [
+      48
+    ],
+    "possible": [
+      49
+    ],
+    "to": [
+      50,
+      110
+    ],
+    "quantify": [
+      51
+    ],
+    "power": [
+      53,
+      84
+    ],
+    "low-frequency": [
+      55
+    ],
+    "noise": [
+      56
+    ],
+    "(associated": [
+      57
+    ],
+    "with": [
+      58
+    ],
+    "a": [
+      59,
+      87,
+      90
+    ],
+    "slow": [
+      60
+    ],
+    "temperature": [
+      61,
+      101
+    ],
+    "change": [
+      62
+    ],
+    "probed": [
+      65
+    ],
+    "fiber)": [
+      66
+    ],
+    "signal": [
+      69,
+      88
+    ],
+    "sensors.": [
+      73
+    ],
+    "The": [
+      74
+    ],
+    "obtained": [
+      75
+    ],
+    "results": [
+      76
+    ],
+    "supplemented": [
+      78
+    ],
+    "by": [
+      79
+    ],
+    "theoretical": [
+      80
+    ],
+    "spectrum": [
+      85
+    ],
+    "from": [
+      89
+    ],
+    "distant": [
+      91
+    ],
+    "earthquake;": [
+      92
+    ],
+    "they": [
+      93
+    ],
+    "demonstrate": [
+      94
+    ],
+    "importance": [
+      96
+    ],
+    "taking": [
+      98
+    ],
+    "into": [
+      99
+    ],
+    "account": [
+      100
+    ],
+    "effects": [
+      102
+    ],
+    "fiber": [
+      105
+    ],
+    "when": [
+      106
+    ],
+    "planning": [
+      107
+    ],
+    "experiments": [
+      108
+    ],
+    "related": [
+      109
+    ],
+    "registration": [
+      112
+    ],
+    "weak": [
+      114
+    ],
+    "seismic": [
+      115
+    ],
+    "events.": [
+      116
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

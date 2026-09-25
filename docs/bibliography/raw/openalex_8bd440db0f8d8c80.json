@@ -1,0 +1,927 @@
+{
+  "id": "https://openalex.org/W2016572604",
+  "doi": "https://doi.org/10.1190/geo2013-0382.1",
+  "title": "Simultaneous dictionary learning and denoising for seismic data",
+  "display_name": "Simultaneous dictionary learning and denoising for seismic data",
+  "publication_year": 2014,
+  "publication_date": "2014-05-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2016572604",
+    "doi": "https://doi.org/10.1190/geo2013-0382.1",
+    "mag": "2016572604"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/geo2013-0382.1",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/geo2013-0382.1",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S106174089",
+      "display_name": "Geophysics",
+      "issn_l": "0016-8033",
+      "issn": [
+        "0016-8033",
+        "1942-2156"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5026978249",
+        "display_name": "Simon Beckouche",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2738703131",
+          "display_name": "Commissariat à l'Énergie Atomique et aux Énergies Alternatives",
+          "ror": "https://ror.org/00jjx8s55",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2738703131"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210086977",
+          "display_name": "Astrophysique, Instrumentation et Modélisation",
+          "ror": "https://ror.org/0015h8611",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I204730241",
+            "https://openalex.org/I2738703131",
+            "https://openalex.org/I4210086977",
+            "https://openalex.org/I4210148025"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210128565",
+          "display_name": "CEA Paris-Saclay",
+          "ror": "https://ror.org/03n15ch10",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I2738703131",
+            "https://openalex.org/I277688954",
+            "https://openalex.org/I4210128565"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Simon Beckouche",
+      "raw_affiliation_strings": [
+        "Service d’Astrophysique 1 , CEA/Saclay, Gif-sur-Yvette, . E-mail: simon@beckouche.fr ",
+        "Service d’Astrophysique, CEA/Saclay, Gif-sur-Yvette, France"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Service d’Astrophysique 1 , CEA/Saclay, Gif-sur-Yvette, . E-mail: simon@beckouche.fr ",
+          "institution_ids": [
+            "https://openalex.org/I4210086977"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Service d’Astrophysique, CEA/Saclay, Gif-sur-Yvette, France",
+          "institution_ids": [
+            "https://openalex.org/I2738703131",
+            "https://openalex.org/I4210128565"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5078652354",
+        "display_name": "Jianwei Ma",
+        "orcid": "https://orcid.org/0000-0002-9803-0763"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204983213",
+          "display_name": "Harbin Institute of Technology",
+          "ror": "https://ror.org/01yqg2h08",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I204983213"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jianwei Ma",
+      "raw_affiliation_strings": [
+        "Harbin Institute of Technology 2 , Department of Mathematics, Harbin, . E-mail: jma@hit.edu.cn ",
+        "Harbin Institute of Technology, Department of Mathematics, Harbin, China. E-mail: "
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Harbin Institute of Technology 2 , Department of Mathematics, Harbin, . E-mail: jma@hit.edu.cn ",
+          "institution_ids": [
+            "https://openalex.org/I204983213"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Harbin Institute of Technology, Department of Mathematics, Harbin, China. E-mail: ",
+          "institution_ids": [
+            "https://openalex.org/I204983213"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 11.8336,
+  "has_fulltext": false,
+  "cited_by_count": 219,
+  "citation_normalized_percentile": {
+    "value": 0.99316896,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 94,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "79",
+    "issue": "3",
+    "first_page": "A27",
+    "last_page": "A31"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9998999834060669,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10688",
+      "display_name": "Image and Signal Denoising Methods",
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/curvelet",
+      "display_name": "Curvelet",
+      "score": 0.905106782913208
+    },
+    {
+      "id": "https://openalex.org/keywords/noise-reduction",
+      "display_name": "Noise reduction",
+      "score": 0.740494966506958
+    },
+    {
+      "id": "https://openalex.org/keywords/shearlet",
+      "display_name": "Shearlet",
+      "score": 0.6952305436134338
+    },
+    {
+      "id": "https://openalex.org/keywords/wavelet",
+      "display_name": "Wavelet",
+      "score": 0.6766524314880371
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.6315226554870605
+    },
+    {
+      "id": "https://openalex.org/keywords/sparse-approximation",
+      "display_name": "Sparse approximation",
+      "score": 0.6314839720726013
+    },
+    {
+      "id": "https://openalex.org/keywords/pattern-recognition",
+      "display_name": "Pattern recognition (psychology)",
+      "score": 0.5870257616043091
+    },
+    {
+      "id": "https://openalex.org/keywords/representation",
+      "display_name": "Representation (politics)",
+      "score": 0.5093728303909302
+    },
+    {
+      "id": "https://openalex.org/keywords/feature",
+      "display_name": "Feature (linguistics)",
+      "score": 0.5012333393096924
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.49545085430145264
+    },
+    {
+      "id": "https://openalex.org/keywords/noise",
+      "display_name": "Noise (video)",
+      "score": 0.49059978127479553
+    },
+    {
+      "id": "https://openalex.org/keywords/wavelet-transform",
+      "display_name": "Wavelet transform",
+      "score": 0.4155914783477783
+    },
+    {
+      "id": "https://openalex.org/keywords/image",
+      "display_name": "Image (mathematics)",
+      "score": 0.11999058723449707
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C131720326",
+      "wikidata": "https://www.wikidata.org/wiki/Q5196075",
+      "display_name": "Curvelet",
+      "level": 4,
+      "score": 0.905106782913208
+    },
+    {
+      "id": "https://openalex.org/C163294075",
+      "wikidata": "https://www.wikidata.org/wiki/Q581861",
+      "display_name": "Noise reduction",
+      "level": 2,
+      "score": 0.740494966506958
+    },
+    {
+      "id": "https://openalex.org/C67795661",
+      "wikidata": "https://www.wikidata.org/wiki/Q17018993",
+      "display_name": "Shearlet",
+      "level": 3,
+      "score": 0.6952305436134338
+    },
+    {
+      "id": "https://openalex.org/C47432892",
+      "wikidata": "https://www.wikidata.org/wiki/Q831390",
+      "display_name": "Wavelet",
+      "level": 2,
+      "score": 0.6766524314880371
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.6315226554870605
+    },
+    {
+      "id": "https://openalex.org/C124066611",
+      "wikidata": "https://www.wikidata.org/wiki/Q28684319",
+      "display_name": "Sparse approximation",
+      "level": 2,
+      "score": 0.6314839720726013
+    },
+    {
+      "id": "https://openalex.org/C153180895",
+      "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+      "display_name": "Pattern recognition (psychology)",
+      "level": 2,
+      "score": 0.5870257616043091
+    },
+    {
+      "id": "https://openalex.org/C2776359362",
+      "wikidata": "https://www.wikidata.org/wiki/Q2145286",
+      "display_name": "Representation (politics)",
+      "level": 3,
+      "score": 0.5093728303909302
+    },
+    {
+      "id": "https://openalex.org/C2776401178",
+      "wikidata": "https://www.wikidata.org/wiki/Q12050496",
+      "display_name": "Feature (linguistics)",
+      "level": 2,
+      "score": 0.5012333393096924
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.49545085430145264
+    },
+    {
+      "id": "https://openalex.org/C99498987",
+      "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+      "display_name": "Noise (video)",
+      "level": 3,
+      "score": 0.49059978127479553
+    },
+    {
+      "id": "https://openalex.org/C196216189",
+      "wikidata": "https://www.wikidata.org/wiki/Q2867",
+      "display_name": "Wavelet transform",
+      "level": 3,
+      "score": 0.4155914783477783
+    },
+    {
+      "id": "https://openalex.org/C115961682",
+      "wikidata": "https://www.wikidata.org/wiki/Q860623",
+      "display_name": "Image (mathematics)",
+      "level": 2,
+      "score": 0.11999058723449707
+    },
+    {
+      "id": "https://openalex.org/C199539241",
+      "wikidata": "https://www.wikidata.org/wiki/Q7748",
+      "display_name": "Law",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C94625758",
+      "wikidata": "https://www.wikidata.org/wiki/Q7163",
+      "display_name": "Politics",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C41895202",
+      "wikidata": "https://www.wikidata.org/wiki/Q8162",
+      "display_name": "Linguistics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C138885662",
+      "wikidata": "https://www.wikidata.org/wiki/Q5891",
+      "display_name": "Philosophy",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C17744445",
+      "wikidata": "https://www.wikidata.org/wiki/Q36442",
+      "display_name": "Political science",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/geo2013-0382.1",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/geo2013-0382.1",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S106174089",
+        "display_name": "Geophysics",
+        "issn_l": "0016-8033",
+        "issn": [
+          "0016-8033",
+          "1942-2156"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysics",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320334924",
+      "display_name": "Program for New Century Excellent Talents in University",
+      "ror": "https://ror.org/01mv9t934"
+    },
+    {
+      "id": "https://openalex.org/F4320335787",
+      "display_name": "Fundamental Research Funds for the Central Universities",
+      "ror": null
+    }
+  ],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 28,
+  "referenced_works": [
+    "https://openalex.org/W1563382689",
+    "https://openalex.org/W1981337995",
+    "https://openalex.org/W1986931325",
+    "https://openalex.org/W2010364595",
+    "https://openalex.org/W2013913026",
+    "https://openalex.org/W2034987538",
+    "https://openalex.org/W2077776321",
+    "https://openalex.org/W2084115655",
+    "https://openalex.org/W2091494211",
+    "https://openalex.org/W2110096996",
+    "https://openalex.org/W2112447569",
+    "https://openalex.org/W2114122776",
+    "https://openalex.org/W2115429828",
+    "https://openalex.org/W2115706991",
+    "https://openalex.org/W2128659236",
+    "https://openalex.org/W2132454757",
+    "https://openalex.org/W2140064934",
+    "https://openalex.org/W2147497470",
+    "https://openalex.org/W2152582233",
+    "https://openalex.org/W2153663612",
+    "https://openalex.org/W2160547390",
+    "https://openalex.org/W2160814043",
+    "https://openalex.org/W2165752523",
+    "https://openalex.org/W2282024151",
+    "https://openalex.org/W2322255796",
+    "https://openalex.org/W2329945299",
+    "https://openalex.org/W2536599074",
+    "https://openalex.org/W3124793989"
+  ],
+  "related_works": [
+    "https://openalex.org/W2296210702",
+    "https://openalex.org/W3032434938",
+    "https://openalex.org/W2365684588",
+    "https://openalex.org/W2037328875",
+    "https://openalex.org/W23086544",
+    "https://openalex.org/W2367537358",
+    "https://openalex.org/W1996627459",
+    "https://openalex.org/W2140064934",
+    "https://openalex.org/W2016572604",
+    "https://openalex.org/W1973838715"
+  ],
+  "abstract_inverted_index": {
+    "ABSTRACT": [
+      0
+    ],
+    "We": [
+      1
+    ],
+    "evaluated": [
+      2
+    ],
+    "a": [
+      3,
+      19,
+      30,
+      57,
+      73
+    ],
+    "dictionary": [
+      4,
+      20,
+      74
+    ],
+    "learning": [
+      5
+    ],
+    "(DL)": [
+      6
+    ],
+    "method": [
+      7,
+      28,
+      70,
+      98
+    ],
+    "for": [
+      8
+    ],
+    "seismic-data": [
+      9
+    ],
+    "denoising.": [
+      10
+    ],
+    "The": [
+      11,
+      26,
+      46,
+      69
+    ],
+    "data": [
+      12,
+      38,
+      44,
+      61,
+      90
+    ],
+    "were": [
+      13
+    ],
+    "divided": [
+      14
+    ],
+    "into": [
+      15
+    ],
+    "smaller": [
+      16
+    ],
+    "patches,": [
+      17
+    ],
+    "and": [
+      18,
+      75,
+      104,
+      115
+    ],
+    "of": [
+      21,
+      59,
+      95,
+      101
+    ],
+    "patch-size": [
+      22
+    ],
+    "atoms": [
+      23
+    ],
+    "was": [
+      24
+    ],
+    "learned.": [
+      25
+    ],
+    "DL": [
+      27
+    ],
+    "offers": [
+      29
+    ],
+    "more": [
+      31
+    ],
+    "flexible": [
+      32
+    ],
+    "framework": [
+      33
+    ],
+    "to": [
+      34,
+      41
+    ],
+    "adaptively": [
+      35
+    ],
+    "construct": [
+      36
+    ],
+    "sparse": [
+      37
+    ],
+    "representation": [
+      39,
+      47
+    ],
+    "according": [
+      40
+    ],
+    "the": [
+      42,
+      51,
+      60,
+      96
+    ],
+    "seismic": [
+      43,
+      77
+    ],
+    "themselves.": [
+      45
+    ],
+    "being": [
+      48
+    ],
+    "learned": [
+      49
+    ],
+    "from": [
+      50
+    ],
+    "data,": [
+      52,
+      78
+    ],
+    "did": [
+      53
+    ],
+    "not": [
+      54
+    ],
+    "rely": [
+      55
+    ],
+    "on": [
+      56,
+      88
+    ],
+    "guess": [
+      58
+    ],
+    "morphology": [
+      62
+    ],
+    "like": [
+      63
+    ],
+    "standard": [
+      64
+    ],
+    "wavelet": [
+      65
+    ],
+    "or": [
+      66,
+      81
+    ],
+    "curvelet": [
+      67
+    ],
+    "transforms.": [
+      68
+    ],
+    "could": [
+      71
+    ],
+    "learn": [
+      72
+    ],
+    "denoise": [
+      76
+    ],
+    "whether": [
+      79
+    ],
+    "simultaneously": [
+      80
+    ],
+    "in": [
+      82,
+      99,
+      107
+    ],
+    "two": [
+      83
+    ],
+    "distinctive": [
+      84
+    ],
+    "steps.": [
+      85
+    ],
+    "Empirical": [
+      86
+    ],
+    "study": [
+      87
+    ],
+    "field": [
+      89
+    ],
+    "showed": [
+      91
+    ],
+    "promising": [
+      92
+    ],
+    "denoising": [
+      93
+    ],
+    "performance": [
+      94
+    ],
+    "presented": [
+      97
+    ],
+    "terms": [
+      100
+    ],
+    "signal-to-noise": [
+      102
+    ],
+    "ratio": [
+      103
+    ],
+    "weak-feature": [
+      105
+    ],
+    "preservation,": [
+      106
+    ],
+    "comparison": [
+      108
+    ],
+    "with": [
+      109
+    ],
+    "wavelets,": [
+      110
+    ],
+    "curvelets,": [
+      111
+    ],
+    "anisotropic": [
+      112
+    ],
+    "total": [
+      113,
+      117
+    ],
+    "variation,": [
+      114
+    ],
+    "nonlocal": [
+      116
+    ],
+    "variation.": [
+      118
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 26
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 25
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 23
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2026-09-21T07:43:02.447757",
+  "created_date": "2025-10-10T00:00:00"
+}

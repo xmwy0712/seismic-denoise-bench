@@ -1,0 +1,491 @@
+{
+  "id": "https://openalex.org/W2038459776",
+  "doi": "https://doi.org/10.1016/j.ijggc.2013.01.047",
+  "title": "Toward quantitative CO2 storage estimates from time-lapse 3D seismic travel times: An example from the IEA GHG Weyburn–Midale CO2 monitoring and storage project",
+  "display_name": "Toward quantitative CO2 storage estimates from time-lapse 3D seismic travel times: An example from the IEA GHG Weyburn–Midale CO2 monitoring and storage project",
+  "publication_year": 2013,
+  "publication_date": "2013-03-12",
+  "ids": {
+    "openalex": "https://openalex.org/W2038459776",
+    "doi": "https://doi.org/10.1016/j.ijggc.2013.01.047",
+    "mag": "2038459776"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/j.ijggc.2013.01.047",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.ijggc.2013.01.047",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S21262371",
+      "display_name": "International journal of greenhouse gas control",
+      "issn_l": "1750-5836",
+      "issn": [
+        "1750-5836",
+        "1878-0148"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "International Journal of Greenhouse Gas Control",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5048862123",
+        "display_name": "Don White",
+        "orcid": "https://orcid.org/0000-0001-5711-1009"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1327020802",
+          "display_name": "Geological Survey of Canada",
+          "ror": "https://ror.org/03wm7z656",
+          "country_code": "CA",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1281735042",
+            "https://openalex.org/I1327020802",
+            "https://openalex.org/I2802286613"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "D.J. White",
+      "raw_affiliation_strings": [
+        "Geological Survey of Canada, Ottawa, Canada",
+        "Geological Survey of Canada Ottawa Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Geological Survey of Canada, Ottawa, Canada",
+          "institution_ids": [
+            "https://openalex.org/I1327020802"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Geological Survey of Canada Ottawa Canada",
+          "institution_ids": [
+            "https://openalex.org/I1327020802"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5048862123"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I1327020802"
+  ],
+  "apc_list": {
+    "value": 4100,
+    "currency": "USD",
+    "value_usd": 4100
+  },
+  "apc_paid": null,
+  "fwci": 2.2855,
+  "has_fulltext": false,
+  "cited_by_count": 28,
+  "citation_normalized_percentile": {
+    "value": 0.85890308,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "16",
+    "issue": null,
+    "first_page": "S95",
+    "last_page": "S102"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9998000264167786,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11302",
+      "display_name": "CO2 Sequestration and Geologic Interactions",
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2305",
+        "display_name": "Environmental Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9973999857902527,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/travel-time",
+      "display_name": "Travel time",
+      "score": 0.620355486869812
+    },
+    {
+      "id": "https://openalex.org/keywords/aquifer",
+      "display_name": "Aquifer",
+      "score": 0.5057978630065918
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.49036312103271484
+    },
+    {
+      "id": "https://openalex.org/keywords/tonne",
+      "display_name": "Tonne",
+      "score": 0.4785497784614563
+    },
+    {
+      "id": "https://openalex.org/keywords/environmental-science",
+      "display_name": "Environmental science",
+      "score": 0.412153959274292
+    },
+    {
+      "id": "https://openalex.org/keywords/hydrology",
+      "display_name": "Hydrology (agriculture)",
+      "score": 0.38521409034729004
+    },
+    {
+      "id": "https://openalex.org/keywords/petroleum-engineering",
+      "display_name": "Petroleum engineering",
+      "score": 0.37104249000549316
+    },
+    {
+      "id": "https://openalex.org/keywords/groundwater",
+      "display_name": "Groundwater",
+      "score": 0.1985669732093811
+    },
+    {
+      "id": "https://openalex.org/keywords/geotechnical-engineering",
+      "display_name": "Geotechnical engineering",
+      "score": 0.1882745325565338
+    },
+    {
+      "id": "https://openalex.org/keywords/chemistry",
+      "display_name": "Chemistry",
+      "score": 0.13667917251586914
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2985733770",
+      "wikidata": "https://www.wikidata.org/wiki/Q1233007",
+      "display_name": "Travel time",
+      "level": 2,
+      "score": 0.620355486869812
+    },
+    {
+      "id": "https://openalex.org/C75622301",
+      "wikidata": "https://www.wikidata.org/wiki/Q208791",
+      "display_name": "Aquifer",
+      "level": 3,
+      "score": 0.5057978630065918
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.49036312103271484
+    },
+    {
+      "id": "https://openalex.org/C76758496",
+      "wikidata": "https://www.wikidata.org/wiki/Q191118",
+      "display_name": "Tonne",
+      "level": 2,
+      "score": 0.4785497784614563
+    },
+    {
+      "id": "https://openalex.org/C39432304",
+      "wikidata": "https://www.wikidata.org/wiki/Q188847",
+      "display_name": "Environmental science",
+      "level": 0,
+      "score": 0.412153959274292
+    },
+    {
+      "id": "https://openalex.org/C76886044",
+      "wikidata": "https://www.wikidata.org/wiki/Q2883300",
+      "display_name": "Hydrology (agriculture)",
+      "level": 2,
+      "score": 0.38521409034729004
+    },
+    {
+      "id": "https://openalex.org/C78762247",
+      "wikidata": "https://www.wikidata.org/wiki/Q1273174",
+      "display_name": "Petroleum engineering",
+      "level": 1,
+      "score": 0.37104249000549316
+    },
+    {
+      "id": "https://openalex.org/C76177295",
+      "wikidata": "https://www.wikidata.org/wiki/Q161598",
+      "display_name": "Groundwater",
+      "level": 2,
+      "score": 0.1985669732093811
+    },
+    {
+      "id": "https://openalex.org/C187320778",
+      "wikidata": "https://www.wikidata.org/wiki/Q1349130",
+      "display_name": "Geotechnical engineering",
+      "level": 1,
+      "score": 0.1882745325565338
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.13667917251586914
+    },
+    {
+      "id": "https://openalex.org/C22212356",
+      "wikidata": "https://www.wikidata.org/wiki/Q775325",
+      "display_name": "Transport engineering",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C178790620",
+      "wikidata": "https://www.wikidata.org/wiki/Q11351",
+      "display_name": "Organic chemistry",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1016/j.ijggc.2013.01.047",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.ijggc.2013.01.047",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S21262371",
+        "display_name": "International journal of greenhouse gas control",
+        "issn_l": "1750-5836",
+        "issn": [
+          "1750-5836",
+          "1878-0148"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "International Journal of Greenhouse Gas Control",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/14",
+      "display_name": "Life below water",
+      "score": 0.5699999928474426
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 12,
+  "referenced_works": [
+    "https://openalex.org/W1505668941",
+    "https://openalex.org/W1893009537",
+    "https://openalex.org/W1987837810",
+    "https://openalex.org/W2016054141",
+    "https://openalex.org/W2023390865",
+    "https://openalex.org/W2035655923",
+    "https://openalex.org/W2106189488",
+    "https://openalex.org/W2156193302",
+    "https://openalex.org/W2188472280",
+    "https://openalex.org/W2333808608",
+    "https://openalex.org/W2338921032",
+    "https://openalex.org/W6703480304"
+  ],
+  "related_works": [
+    "https://openalex.org/W2786784880",
+    "https://openalex.org/W2773590029",
+    "https://openalex.org/W2875854512",
+    "https://openalex.org/W985732587",
+    "https://openalex.org/W2757947843",
+    "https://openalex.org/W2350422742",
+    "https://openalex.org/W2946772361",
+    "https://openalex.org/W2810943696",
+    "https://openalex.org/W2922239277",
+    "https://openalex.org/W3036980091"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2026-08-21T09:56:20.448147",
+  "created_date": "2025-10-10T00:00:00"
+}

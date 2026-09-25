@@ -1,0 +1,2350 @@
+{
+  "meta": {
+    "count": 2,
+    "db_response_time_ms": 33,
+    "page": 1,
+    "per_page": 10,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where it cites (W4414139526)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "referenced_works",
+            "value": "W4414139526"
+          }
+        ]
+      },
+      "url": "/works?filter=referenced_works:W4414139526&per_page=10"
+    },
+    "cost_usd": 0.0001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W7134083840",
+      "doi": "https://doi.org/10.1016/j.still.2026.107160",
+      "title": "Mapping mollic epipedon thickness via ground-penetrating radar based on the combined method of Variational Mode Decomposition and Average Envelope Amplitude",
+      "display_name": "Mapping mollic epipedon thickness via ground-penetrating radar based on the combined method of Variational Mode Decomposition and Average Envelope Amplitude",
+      "publication_year": 2026,
+      "publication_date": "2026-03-06",
+      "ids": {
+        "openalex": "https://openalex.org/W7134083840",
+        "doi": "https://doi.org/10.1016/j.still.2026.107160"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1016/j.still.2026.107160",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.still.2026.107160",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S1666925",
+          "display_name": "Soil and Tillage Research",
+          "issn_l": "0167-1987",
+          "issn": [
+            "0167-1987",
+            "1879-3444"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "jufo-2",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Soil and Tillage Research",
+        "raw_type": "journal-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "oa_url": "https://doi.org/10.1016/j.still.2026.107160",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5128264748",
+            "display_name": "Haipeng Lu",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I19820366",
+              "display_name": "Chinese Academy of Sciences",
+              "ror": "https://ror.org/034t30j35",
+              "country_code": "CN",
+              "type": "government",
+              "lineage": [
+                "https://openalex.org/I19820366"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210101301",
+              "display_name": "Northeast Institute of Geography and Agroecology",
+              "ror": "https://ror.org/01a9z1q73",
+              "country_code": "CN",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I19820366",
+                "https://openalex.org/I4210101301"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Haipeng Lu",
+          "raw_affiliation_strings": [
+            "State Key Laboratory of Black Soils Conservation and Utilization, Northeast Institute of Geography and Agroecology, Chinese Academy of Sciences, Harbin 150081, PR China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "State Key Laboratory of Black Soils Conservation and Utilization, Northeast Institute of Geography and Agroecology, Chinese Academy of Sciences, Harbin 150081, PR China",
+              "institution_ids": [
+                "https://openalex.org/I19820366",
+                "https://openalex.org/I4210101301"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5057100738",
+            "display_name": "Xiangming Zhu",
+            "orcid": "https://orcid.org/0000-0001-8630-1581",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-8630-1581"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I19820366",
+              "display_name": "Chinese Academy of Sciences",
+              "ror": "https://ror.org/034t30j35",
+              "country_code": "CN",
+              "type": "government",
+              "lineage": [
+                "https://openalex.org/I19820366"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210101301",
+              "display_name": "Northeast Institute of Geography and Agroecology",
+              "ror": "https://ror.org/01a9z1q73",
+              "country_code": "CN",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I19820366",
+                "https://openalex.org/I4210101301"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Xiangming Zhu",
+          "raw_affiliation_strings": [
+            "State Key Laboratory of Black Soils Conservation and Utilization, Northeast Institute of Geography and Agroecology, Chinese Academy of Sciences, Harbin 150081, PR China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "State Key Laboratory of Black Soils Conservation and Utilization, Northeast Institute of Geography and Agroecology, Chinese Academy of Sciences, Harbin 150081, PR China",
+              "institution_ids": [
+                "https://openalex.org/I19820366",
+                "https://openalex.org/I4210101301"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5041654844",
+            "display_name": "Wenjuan Zheng",
+            "orcid": "https://orcid.org/0000-0001-9204-1296",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-9204-1296"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I119454577",
+              "display_name": "Nanjing Agricultural University",
+              "ror": "https://ror.org/05td3s095",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I119454577"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Wenjuan Zheng",
+          "raw_affiliation_strings": [
+            "College of Resources and Environmental Sciences, Nanjing Agricultural University, Nanjing 210095, PR China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "College of Resources and Environmental Sciences, Nanjing Agricultural University, Nanjing 210095, PR China",
+              "institution_ids": [
+                "https://openalex.org/I119454577"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5128220567",
+            "display_name": "Bin Zhang",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I119454577",
+              "display_name": "Nanjing Agricultural University",
+              "ror": "https://ror.org/05td3s095",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I119454577"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Bin Zhang",
+          "raw_affiliation_strings": [
+            "College of Resources and Environmental Sciences, Nanjing Agricultural University, Nanjing 210095, PR China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "College of Resources and Environmental Sciences, Nanjing Agricultural University, Nanjing 210095, PR China",
+              "institution_ids": [
+                "https://openalex.org/I119454577"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5100610983",
+            "display_name": "Tianhao Wang",
+            "orcid": "https://orcid.org/0000-0002-2126-6110",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-2126-6110",
+              "https://orcid.org/0009-0009-7718-6951",
+              "https://orcid.org/0009-0002-6366-4923"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I19820366",
+              "display_name": "Chinese Academy of Sciences",
+              "ror": "https://ror.org/034t30j35",
+              "country_code": "CN",
+              "type": "government",
+              "lineage": [
+                "https://openalex.org/I19820366"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210101301",
+              "display_name": "Northeast Institute of Geography and Agroecology",
+              "ror": "https://ror.org/01a9z1q73",
+              "country_code": "CN",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I19820366",
+                "https://openalex.org/I4210101301"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Tianhao Wang",
+          "raw_affiliation_strings": [
+            "State Key Laboratory of Black Soils Conservation and Utilization, Northeast Institute of Geography and Agroecology, Chinese Academy of Sciences, Harbin 150081, PR China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "State Key Laboratory of Black Soils Conservation and Utilization, Northeast Institute of Geography and Agroecology, Chinese Academy of Sciences, Harbin 150081, PR China",
+              "institution_ids": [
+                "https://openalex.org/I19820366",
+                "https://openalex.org/I4210101301"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5082701959",
+            "display_name": "Yuchen Zhang",
+            "orcid": "https://orcid.org/0000-0001-5615-0946",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-5615-0946",
+              "https://orcid.org/0000-0001-8968-6683"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I19820366",
+              "display_name": "Chinese Academy of Sciences",
+              "ror": "https://ror.org/034t30j35",
+              "country_code": "CN",
+              "type": "government",
+              "lineage": [
+                "https://openalex.org/I19820366"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210101301",
+              "display_name": "Northeast Institute of Geography and Agroecology",
+              "ror": "https://ror.org/01a9z1q73",
+              "country_code": "CN",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I19820366",
+                "https://openalex.org/I4210101301"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Yu Zhang",
+          "raw_affiliation_strings": [
+            "State Key Laboratory of Black Soils Conservation and Utilization, Northeast Institute of Geography and Agroecology, Chinese Academy of Sciences, Harbin 150081, PR China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "State Key Laboratory of Black Soils Conservation and Utilization, Northeast Institute of Geography and Agroecology, Chinese Academy of Sciences, Harbin 150081, PR China",
+              "institution_ids": [
+                "https://openalex.org/I19820366",
+                "https://openalex.org/I4210101301"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5128252720",
+            "display_name": "Meiling Fu",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I19820366",
+              "display_name": "Chinese Academy of Sciences",
+              "ror": "https://ror.org/034t30j35",
+              "country_code": "CN",
+              "type": "government",
+              "lineage": [
+                "https://openalex.org/I19820366"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210101301",
+              "display_name": "Northeast Institute of Geography and Agroecology",
+              "ror": "https://ror.org/01a9z1q73",
+              "country_code": "CN",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I19820366",
+                "https://openalex.org/I4210101301"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Meiling Fu",
+          "raw_affiliation_strings": [
+            "State Key Laboratory of Black Soils Conservation and Utilization, Northeast Institute of Geography and Agroecology, Chinese Academy of Sciences, Harbin 150081, PR China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "State Key Laboratory of Black Soils Conservation and Utilization, Northeast Institute of Geography and Agroecology, Chinese Academy of Sciences, Harbin 150081, PR China",
+              "institution_ids": [
+                "https://openalex.org/I19820366",
+                "https://openalex.org/I4210101301"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5128244451",
+            "display_name": "Enhua Ran",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I19820366",
+              "display_name": "Chinese Academy of Sciences",
+              "ror": "https://ror.org/034t30j35",
+              "country_code": "CN",
+              "type": "government",
+              "lineage": [
+                "https://openalex.org/I19820366"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I4210101301",
+              "display_name": "Northeast Institute of Geography and Agroecology",
+              "ror": "https://ror.org/01a9z1q73",
+              "country_code": "CN",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I19820366",
+                "https://openalex.org/I4210101301"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Enhua Ran",
+          "raw_affiliation_strings": [
+            "State Key Laboratory of Black Soils Conservation and Utilization, Northeast Institute of Geography and Agroecology, Chinese Academy of Sciences, Harbin 150081, PR China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "State Key Laboratory of Black Soils Conservation and Utilization, Northeast Institute of Geography and Agroecology, Chinese Academy of Sciences, Harbin 150081, PR China",
+              "institution_ids": [
+                "https://openalex.org/I19820366",
+                "https://openalex.org/I4210101301"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 3,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5057100738"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I19820366",
+        "https://openalex.org/I4210101301"
+      ],
+      "apc_list": {
+        "value": 4570,
+        "currency": "USD",
+        "value_usd": 4570
+      },
+      "apc_paid": {
+        "value": 4570,
+        "currency": "USD",
+        "value_usd": 4570
+      },
+      "fwci": 0.0,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.13251101,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": "261",
+        "issue": null,
+        "first_page": "107160",
+        "last_page": "107160"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11609",
+        "display_name": "Geophysical Methods and Applications",
+        "score": 0.8593000173568726,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2212",
+          "display_name": "Ocean Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11609",
+          "display_name": "Geophysical Methods and Applications",
+          "score": 0.8593000173568726,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2212",
+            "display_name": "Ocean Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11312",
+          "display_name": "Soil Moisture and Remote Sensing",
+          "score": 0.08169999718666077,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2305",
+            "display_name": "Environmental Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/23",
+            "display_name": "Environmental Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10770",
+          "display_name": "Soil Geostatistics and Mapping",
+          "score": 0.012500000186264515,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2305",
+            "display_name": "Environmental Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/23",
+            "display_name": "Environmental Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/ground-penetrating-radar",
+          "display_name": "Ground-penetrating radar",
+          "score": 0.6899999976158142
+        },
+        {
+          "id": "https://openalex.org/keywords/signal",
+          "display_name": "SIGNAL (programming language)",
+          "score": 0.5307000279426575
+        },
+        {
+          "id": "https://openalex.org/keywords/envelope",
+          "display_name": "Envelope (radar)",
+          "score": 0.524399995803833
+        },
+        {
+          "id": "https://openalex.org/keywords/amplitude",
+          "display_name": "Amplitude",
+          "score": 0.46970000863075256
+        },
+        {
+          "id": "https://openalex.org/keywords/noise",
+          "display_name": "Noise (video)",
+          "score": 0.45559999346733093
+        },
+        {
+          "id": "https://openalex.org/keywords/analytic-signal",
+          "display_name": "Analytic signal",
+          "score": 0.4499000012874603
+        },
+        {
+          "id": "https://openalex.org/keywords/radar",
+          "display_name": "Radar",
+          "score": 0.44600000977516174
+        },
+        {
+          "id": "https://openalex.org/keywords/interference",
+          "display_name": "Interference (communication)",
+          "score": 0.4388999938964844
+        },
+        {
+          "id": "https://openalex.org/keywords/reflectometry",
+          "display_name": "Reflectometry",
+          "score": 0.4016000032424927
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C71813955",
+          "wikidata": "https://www.wikidata.org/wiki/Q503560",
+          "display_name": "Ground-penetrating radar",
+          "level": 3,
+          "score": 0.6899999976158142
+        },
+        {
+          "id": "https://openalex.org/C2779843651",
+          "wikidata": "https://www.wikidata.org/wiki/Q7390335",
+          "display_name": "SIGNAL (programming language)",
+          "level": 2,
+          "score": 0.5307000279426575
+        },
+        {
+          "id": "https://openalex.org/C65155139",
+          "wikidata": "https://www.wikidata.org/wiki/Q5380912",
+          "display_name": "Envelope (radar)",
+          "level": 3,
+          "score": 0.524399995803833
+        },
+        {
+          "id": "https://openalex.org/C180205008",
+          "wikidata": "https://www.wikidata.org/wiki/Q159190",
+          "display_name": "Amplitude",
+          "level": 2,
+          "score": 0.46970000863075256
+        },
+        {
+          "id": "https://openalex.org/C99498987",
+          "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+          "display_name": "Noise (video)",
+          "level": 3,
+          "score": 0.45559999346733093
+        },
+        {
+          "id": "https://openalex.org/C94727143",
+          "wikidata": "https://www.wikidata.org/wiki/Q485394",
+          "display_name": "Analytic signal",
+          "level": 4,
+          "score": 0.4499000012874603
+        },
+        {
+          "id": "https://openalex.org/C554190296",
+          "wikidata": "https://www.wikidata.org/wiki/Q47528",
+          "display_name": "Radar",
+          "level": 2,
+          "score": 0.44600000977516174
+        },
+        {
+          "id": "https://openalex.org/C32022120",
+          "wikidata": "https://www.wikidata.org/wiki/Q797225",
+          "display_name": "Interference (communication)",
+          "level": 3,
+          "score": 0.4388999938964844
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.4027999937534332
+        },
+        {
+          "id": "https://openalex.org/C2778925768",
+          "wikidata": "https://www.wikidata.org/wiki/Q3454718",
+          "display_name": "Reflectometry",
+          "level": 3,
+          "score": 0.4016000032424927
+        },
+        {
+          "id": "https://openalex.org/C24890656",
+          "wikidata": "https://www.wikidata.org/wiki/Q82811",
+          "display_name": "Acoustics",
+          "level": 1,
+          "score": 0.37700000405311584
+        },
+        {
+          "id": "https://openalex.org/C62649853",
+          "wikidata": "https://www.wikidata.org/wiki/Q199687",
+          "display_name": "Remote sensing",
+          "level": 1,
+          "score": 0.3723999857902527
+        },
+        {
+          "id": "https://openalex.org/C104267543",
+          "wikidata": "https://www.wikidata.org/wiki/Q208163",
+          "display_name": "Signal processing",
+          "level": 3,
+          "score": 0.366100013256073
+        },
+        {
+          "id": "https://openalex.org/C25570617",
+          "wikidata": "https://www.wikidata.org/wiki/Q1006462",
+          "display_name": "Hilbert–Huang transform",
+          "level": 3,
+          "score": 0.36559998989105225
+        },
+        {
+          "id": "https://openalex.org/C2777121530",
+          "wikidata": "https://www.wikidata.org/wiki/Q7512739",
+          "display_name": "Signal subspace",
+          "level": 4,
+          "score": 0.3492000102996826
+        },
+        {
+          "id": "https://openalex.org/C11413529",
+          "wikidata": "https://www.wikidata.org/wiki/Q8366",
+          "display_name": "Algorithm",
+          "level": 1,
+          "score": 0.34709998965263367
+        },
+        {
+          "id": "https://openalex.org/C65682993",
+          "wikidata": "https://www.wikidata.org/wiki/Q1056451",
+          "display_name": "Reflection (computer programming)",
+          "level": 2,
+          "score": 0.3411000072956085
+        },
+        {
+          "id": "https://openalex.org/C137798554",
+          "wikidata": "https://www.wikidata.org/wiki/Q6038852",
+          "display_name": "Instantaneous phase",
+          "level": 3,
+          "score": 0.34040001034736633
+        },
+        {
+          "id": "https://openalex.org/C183617614",
+          "wikidata": "https://www.wikidata.org/wiki/Q332548",
+          "display_name": "Over-the-horizon radar",
+          "level": 3,
+          "score": 0.336899995803833
+        },
+        {
+          "id": "https://openalex.org/C19269812",
+          "wikidata": "https://www.wikidata.org/wiki/Q26540",
+          "display_name": "Satellite",
+          "level": 2,
+          "score": 0.31940001249313354
+        },
+        {
+          "id": "https://openalex.org/C127313418",
+          "wikidata": "https://www.wikidata.org/wiki/Q1069",
+          "display_name": "Geology",
+          "level": 0,
+          "score": 0.3084000051021576
+        },
+        {
+          "id": "https://openalex.org/C134306372",
+          "wikidata": "https://www.wikidata.org/wiki/Q7754",
+          "display_name": "Mathematical analysis",
+          "level": 1,
+          "score": 0.29899999499320984
+        },
+        {
+          "id": "https://openalex.org/C48677424",
+          "wikidata": "https://www.wikidata.org/wiki/Q6888088",
+          "display_name": "Mode (computer interface)",
+          "level": 2,
+          "score": 0.2971000075340271
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.29670000076293945
+        },
+        {
+          "id": "https://openalex.org/C184652730",
+          "wikidata": "https://www.wikidata.org/wiki/Q2357982",
+          "display_name": "Attenuation",
+          "level": 2,
+          "score": 0.28929999470710754
+        },
+        {
+          "id": "https://openalex.org/C198352243",
+          "wikidata": "https://www.wikidata.org/wiki/Q37105",
+          "display_name": "Line (geometry)",
+          "level": 2,
+          "score": 0.28929999470710754
+        },
+        {
+          "id": "https://openalex.org/C133386390",
+          "wikidata": "https://www.wikidata.org/wiki/Q184996",
+          "display_name": "Dielectric",
+          "level": 2,
+          "score": 0.27970001101493835
+        },
+        {
+          "id": "https://openalex.org/C28799612",
+          "wikidata": "https://www.wikidata.org/wiki/Q685437",
+          "display_name": "Hilbert transform",
+          "level": 3,
+          "score": 0.2759999930858612
+        },
+        {
+          "id": "https://openalex.org/C63584917",
+          "wikidata": "https://www.wikidata.org/wiki/Q333286",
+          "display_name": "Bounding overwatch",
+          "level": 2,
+          "score": 0.274399995803833
+        },
+        {
+          "id": "https://openalex.org/C121332964",
+          "wikidata": "https://www.wikidata.org/wiki/Q413",
+          "display_name": "Physics",
+          "level": 0,
+          "score": 0.27070000767707825
+        },
+        {
+          "id": "https://openalex.org/C2777027219",
+          "wikidata": "https://www.wikidata.org/wiki/Q1284190",
+          "display_name": "Constant (computer programming)",
+          "level": 2,
+          "score": 0.26499998569488525
+        },
+        {
+          "id": "https://openalex.org/C205318122",
+          "wikidata": "https://www.wikidata.org/wiki/Q72277",
+          "display_name": "Refraction",
+          "level": 2,
+          "score": 0.26179999113082886
+        },
+        {
+          "id": "https://openalex.org/C2778116611",
+          "wikidata": "https://www.wikidata.org/wiki/Q25110567",
+          "display_name": "Frequency band",
+          "level": 3,
+          "score": 0.26170000433921814
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1016/j.still.2026.107160",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1016/j.still.2026.107160",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S1666925",
+            "display_name": "Soil and Tillage Research",
+            "issn_l": "0167-1987",
+            "issn": [
+              "0167-1987",
+              "1879-3444"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-2",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Soil and Tillage Research",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.1016/j.still.2026.107160",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.still.2026.107160",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S1666925",
+          "display_name": "Soil and Tillage Research",
+          "issn_l": "0167-1987",
+          "issn": [
+            "0167-1987",
+            "1879-3444"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "jufo-2",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Soil and Tillage Research",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [
+        {
+          "score": 0.8121904134750366,
+          "id": "https://metadata.un.org/sdg/2",
+          "display_name": "Zero hunger"
+        }
+      ],
+      "x_sdgs": [],
+      "awards": [
+        {
+          "id": "https://openalex.org/G1542048507",
+          "display_name": null,
+          "funder_award_id": "2021YFD1500102",
+          "funder_id": "https://openalex.org/F4320335777",
+          "funder_display_name": "National Key Research and Development Program of China"
+        },
+        {
+          "id": "https://openalex.org/G537196220",
+          "display_name": null,
+          "funder_award_id": "131323KYSB20210004",
+          "funder_id": "https://openalex.org/F4320321133",
+          "funder_display_name": "Chinese Academy of Sciences"
+        },
+        {
+          "id": "https://openalex.org/G6328454855",
+          "display_name": null,
+          "funder_award_id": "XDA28010401",
+          "funder_id": "https://openalex.org/F4320321133",
+          "funder_display_name": "Chinese Academy of Sciences"
+        }
+      ],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320321133",
+          "display_name": "Chinese Academy of Sciences",
+          "ror": "https://ror.org/034t30j35"
+        },
+        {
+          "id": "https://openalex.org/F4320335777",
+          "display_name": "National Key Research and Development Program of China",
+          "ror": null
+        }
+      ],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 52,
+      "referenced_works": [
+        "https://openalex.org/W1998742682",
+        "https://openalex.org/W2000982976",
+        "https://openalex.org/W2004673947",
+        "https://openalex.org/W2021756801",
+        "https://openalex.org/W2042489663",
+        "https://openalex.org/W2045926009",
+        "https://openalex.org/W2065320242",
+        "https://openalex.org/W2083311340",
+        "https://openalex.org/W2115854464",
+        "https://openalex.org/W2290821741",
+        "https://openalex.org/W2323238628",
+        "https://openalex.org/W2560843641",
+        "https://openalex.org/W2744656299",
+        "https://openalex.org/W2774764349",
+        "https://openalex.org/W2802973933",
+        "https://openalex.org/W2905547207",
+        "https://openalex.org/W2917668746",
+        "https://openalex.org/W2945597512",
+        "https://openalex.org/W2983903752",
+        "https://openalex.org/W2992620554",
+        "https://openalex.org/W3044105651",
+        "https://openalex.org/W3082449922",
+        "https://openalex.org/W3158274759",
+        "https://openalex.org/W3176637833",
+        "https://openalex.org/W3202050637",
+        "https://openalex.org/W4220783741",
+        "https://openalex.org/W4224026564",
+        "https://openalex.org/W4283810760",
+        "https://openalex.org/W4290511965",
+        "https://openalex.org/W4300962922",
+        "https://openalex.org/W4309048297",
+        "https://openalex.org/W4309586590",
+        "https://openalex.org/W4361218731",
+        "https://openalex.org/W4375851137",
+        "https://openalex.org/W4378450694",
+        "https://openalex.org/W4379469973",
+        "https://openalex.org/W4380079452",
+        "https://openalex.org/W4385846317",
+        "https://openalex.org/W4389330934",
+        "https://openalex.org/W4389850558",
+        "https://openalex.org/W4389881228",
+        "https://openalex.org/W4390630220",
+        "https://openalex.org/W4391707423",
+        "https://openalex.org/W4399795986",
+        "https://openalex.org/W4399796239",
+        "https://openalex.org/W4401975773",
+        "https://openalex.org/W4401977747",
+        "https://openalex.org/W4402397289",
+        "https://openalex.org/W4404167983",
+        "https://openalex.org/W4408746673",
+        "https://openalex.org/W4414139526",
+        "https://openalex.org/W4414747127"
+      ],
+      "related_works": [],
+      "abstract_inverted_index": {
+        "Accurate": [
+          0
+        ],
+        "monitoring": [
+          1
+        ],
+        "of": [
+          2,
+          12,
+          39,
+          76,
+          88,
+          111,
+          121,
+          132,
+          146,
+          160,
+          198,
+          232,
+          316,
+          343,
+          350
+        ],
+        "mollic": [
+          3
+        ],
+        "epipedon": [
+          4
+        ],
+        "(ME)": [
+          5
+        ],
+        "thickness,": [
+          6
+        ],
+        "especially": [
+          7
+        ],
+        "in": [
+          8,
+          23,
+          117,
+          311,
+          322
+        ],
+        "sloping": [
+          9,
+          115
+        ],
+        "farmland,": [
+          10
+        ],
+        "is": [
+          11
+        ],
+        "great": [
+          13
+        ],
+        "significance": [
+          14
+        ],
+        "for": [
+          15,
+          32,
+          298
+        ],
+        "preventing": [
+          16
+        ],
+        "soil": [
+          17,
+          40,
+          56,
+          275
+        ],
+        "erosion": [
+          18
+        ],
+        "and": [
+          19,
+          34,
+          93,
+          141,
+          235,
+          252,
+          282,
+          289,
+          301,
+          307,
+          314,
+          366
+        ],
+        "promoting": [
+          20
+        ],
+        "sustainable": [
+          21
+        ],
+        "agriculture": [
+          22
+        ],
+        "Mollisol": [
+          24,
+          119
+        ],
+        "area.": [
+          25
+        ],
+        "Ground": [
+          26
+        ],
+        "penetrating-radar": [
+          27
+        ],
+        "(GPR)": [
+          28
+        ],
+        "provides": [
+          29
+        ],
+        "an": [
+          30
+        ],
+        "approach": [
+          31
+        ],
+        "continuously": [
+          33,
+          213,
+          354
+        ],
+        "non-destructively": [
+          35
+        ],
+        "acquiring": [
+          36
+        ],
+        "the": [
+          37,
+          66,
+          72,
+          105,
+          118,
+          128,
+          138,
+          143,
+          147,
+          153,
+          157,
+          161,
+          173,
+          180,
+          187,
+          199,
+          215,
+          226,
+          229,
+          236,
+          249,
+          253,
+          264,
+          270,
+          274,
+          279,
+          304,
+          312,
+          323,
+          369
+        ],
+        "information": [
+          38
+        ],
+        "horizon": [
+          41,
+          57
+        ],
+        "thickness.": [
+          42,
+          107,
+          371
+        ],
+        "However,": [
+          43
+        ],
+        "traditional": [
+          44
+        ],
+        "GPR": [
+          45,
+          84,
+          109,
+          133,
+          233
+        ],
+        "signal": [
+          46,
+          85,
+          149,
+          234
+        ],
+        "processing": [
+          47,
+          86
+        ],
+        "methods": [
+          48
+        ],
+        "are": [
+          49
+        ],
+        "susceptible": [
+          50
+        ],
+        "to": [
+          51,
+          63,
+          71,
+          103,
+          126,
+          170,
+          212
+        ],
+        "noise": [
+          52,
+          131
+        ],
+        "interference": [
+          53
+        ],
+        "when": [
+          54
+        ],
+        "locating": [
+          55
+        ],
+        "interfaces.": [
+          58,
+          175
+        ],
+        "Additionally,": [
+          59
+        ],
+        "it": [
+          60
+        ],
+        "remains": [
+          61
+        ],
+        "challenging": [
+          62
+        ],
+        "accurately": [
+          64,
+          302,
+          367
+        ],
+        "estimate": [
+          65
+        ],
+        "electromagnetic": [
+          67
+        ],
+        "wave": [
+          68,
+          216
+        ],
+        "velocity": [
+          69
+        ],
+        "due": [
+          70
+        ],
+        "high": [
+          73
+        ],
+        "spatial": [
+          74
+        ],
+        "heterogeneity": [
+          75
+        ],
+        "natural": [
+          77
+        ],
+        "soil.": [
+          78
+        ],
+        "In": [
+          79,
+          210
+        ],
+        "this": [
+          80
+        ],
+        "study,": [
+          81
+        ],
+        "a": [
+          82,
+          112,
+          218,
+          244,
+          295
+        ],
+        "combined": [
+          83
+        ],
+        "method": [
+          87,
+          266,
+          297,
+          363
+        ],
+        "Variational": [
+          89
+        ],
+        "Mode": [
+          90
+        ],
+        "Decomposition": [
+          91
+        ],
+        "(VMD)": [
+          92
+        ],
+        "Average": [
+          94
+        ],
+        "Envelope": [
+          95
+        ],
+        "Amplitude": [
+          96
+        ],
+        "(AEA),": [
+          97
+        ],
+        "termed": [
+          98
+        ],
+        "as": [
+          99
+        ],
+        "VMD–AEA,": [
+          100
+        ],
+        "was": [
+          101,
+          124,
+          135,
+          150,
+          164,
+          222,
+          243,
+          267
+        ],
+        "proposed": [
+          102,
+          294
+        ],
+        "investigate": [
+          104
+        ],
+        "ME": [
+          106,
+          174,
+          183,
+          200,
+          260,
+          305,
+          334,
+          351,
+          370
+        ],
+        "A": [
+          108
+        ],
+        "survey": [
+          110,
+          203
+        ],
+        "1.5": [
+          113
+        ],
+        "ha": [
+          114
+        ],
+        "farmland": [
+          116
+        ],
+        "region": [
+          120
+        ],
+        "Northeast": [
+          122
+        ],
+        "China": [
+          123
+        ],
+        "conducted": [
+          125
+        ],
+        "verify": [
+          127
+        ],
+        "method.": [
+          129,
+          359
+        ],
+        "The": [
+          130,
+          176,
+          195,
+          259,
+          333,
+          347,
+          361
+        ],
+        "signals": [
+          134
+        ],
+        "reduced": [
+          136
+        ],
+        "using": [
+          137
+        ],
+        "VMD": [
+          139,
+          330
+        ],
+        "method,": [
+          140,
+          277
+        ],
+        "then": [
+          142
+        ],
+        "instantaneous": [
+          144,
+          162,
+          324,
+          344
+        ],
+        "frequency": [
+          145,
+          163,
+          325
+        ],
+        "denoised": [
+          148
+        ],
+        "extracted": [
+          151
+        ],
+        "via": [
+          152,
+          340
+        ],
+        "Hilbert": [
+          154
+        ],
+        "transform.": [
+          155
+        ],
+        "Subsequently,": [
+          156
+        ],
+        "maximum": [
+          158
+        ],
+        "value": [
+          159,
+          255
+        ],
+        "picked": [
+          165
+        ],
+        "up": [
+          166
+        ],
+        "through": [
+          167,
+          273,
+          329
+        ],
+        "peak": [
+          168,
+          341
+        ],
+        "detection": [
+          169,
+          342
+        ],
+        "automatically": [
+          171,
+          181,
+          338
+        ],
+        "locate": [
+          172
+        ],
+        "results": [
+          177
+        ],
+        "showed": [
+          178
+        ],
+        "that": [
+          179
+        ],
+        "located": [
+          182,
+          339
+        ],
+        "time-domain": [
+          184,
+          196
+        ],
+        "interfaces": [
+          185,
+          189
+        ],
+        "matched": [
+          186
+        ],
+        "actual": [
+          188
+        ],
+        "marked": [
+          190
+        ],
+        "by": [
+          191,
+          263
+        ],
+        "pre-buried": [
+          192
+        ],
+        "steel": [
+          193
+        ],
+        "pipes.": [
+          194
+        ],
+        "positions": [
+          197
+        ],
+        "interface": [
+          201,
+          335
+        ],
+        "along": [
+          202
+        ],
+        "line": [
+          204
+        ],
+        "1": [
+          205
+        ],
+        "fluctuated": [
+          206
+        ],
+        "around": [
+          207
+        ],
+        "10": [
+          208
+        ],
+        "ns.": [
+          209
+        ],
+        "addition,": [
+          211
+        ],
+        "acquire": [
+          214
+        ],
+        "velocity,": [
+          217
+        ],
+        "dielectric": [
+          219,
+          238,
+          250,
+          348
+        ],
+        "constant": [
+          220,
+          251,
+          349
+        ],
+        "model": [
+          221
+        ],
+        "established": [
+          223
+        ],
+        "based": [
+          224,
+          356
+        ],
+        "on": [
+          225,
+          357
+        ],
+        "correlation": [
+          227,
+          247
+        ],
+        "between": [
+          228,
+          248
+        ],
+        "AEA": [
+          230,
+          254,
+          358
+        ],
+        "values": [
+          231
+        ],
+        "measured": [
+          237,
+          271
+        ],
+        "constant.": [
+          239
+        ],
+        "As": [
+          240
+        ],
+        "expected,": [
+          241
+        ],
+        "there": [
+          242
+        ],
+        "significant": [
+          245
+        ],
+        "negative": [
+          246
+        ],
+        "(R²": [
+          256
+        ],
+        "=": [
+          257
+        ],
+        "0.92).": [
+          258
+        ],
+        "thickness": [
+          261,
+          272,
+          306
+        ],
+        "obtained": [
+          262,
+          328,
+          355
+        ],
+        "VMD–AEA": [
+          265,
+          362
+        ],
+        "consistent": [
+          268
+        ],
+        "with": [
+          269,
+          278
+        ],
+        "profile": [
+          276
+        ],
+        "absolute": [
+          280
+        ],
+        "error": [
+          281,
+          284
+        ],
+        "relative": [
+          283
+        ],
+        "being": [
+          285
+        ],
+        "within": [
+          286
+        ],
+        "5": [
+          287
+        ],
+        "cm": [
+          288
+        ],
+        "10%,": [
+          290
+        ],
+        "respectively.": [
+          291
+        ],
+        "This": [
+          292
+        ],
+        "study": [
+          293
+        ],
+        "novel": [
+          296
+        ],
+        "automatically,": [
+          299
+        ],
+        "continuously,": [
+          300
+        ],
+        "obtaining": [
+          303
+        ],
+        "demonstrated": [
+          308
+        ],
+        "its": [
+          309
+        ],
+        "potential": [
+          310
+        ],
+        "protection": [
+          313
+        ],
+        "utilization": [
+          315
+        ],
+        "Mollisol.": [
+          317
+        ],
+        "•": [
+          318,
+          332,
+          346,
+          360
+        ],
+        "Unique": [
+          319
+        ],
+        "abrupt": [
+          320
+        ],
+        "change": [
+          321
+        ],
+        "can": [
+          326,
+          336,
+          352,
+          364
+        ],
+        "be": [
+          327,
+          337,
+          353
+        ],
+        "denoising.": [
+          331
+        ],
+        "frequency.": [
+          345
+        ],
+        "effectively": [
+          365
+        ],
+        "obtain": [
+          368
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-09-24T07:57:37.273135",
+      "created_date": "2026-03-07T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W7204475298",
+      "doi": "https://doi.org/10.12677/csa.2026.168277",
+      "title": "Joint Entropy-Driven Improved Sparrow Search Optimized VMD for DAS Signal Denoising",
+      "display_name": "Joint Entropy-Driven Improved Sparrow Search Optimized VMD for DAS Signal Denoising",
+      "publication_year": 2026,
+      "publication_date": "2026-01-01",
+      "ids": {
+        "openalex": "https://openalex.org/W7204475298",
+        "doi": "https://doi.org/10.12677/csa.2026.168277"
+      },
+      "language": null,
+      "primary_location": {
+        "id": "doi:10.12677/csa.2026.168277",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.12677/csa.2026.168277",
+        "pdf_url": "https://pdf.hanspub.org/csa_1544214.pdf",
+        "source": {
+          "id": "https://openalex.org/S2764804224",
+          "display_name": "Computer Science and Application",
+          "issn_l": "2161-8801",
+          "issn": [
+            "2161-8801",
+            "2161-881X"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4322697029",
+          "host_organization_name": "Hans Publishers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4322697029"
+          ],
+          "host_organization_lineage_names": [
+            "Hans Publishers"
+          ],
+          "type": "journal"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Computer Science and Application",
+        "raw_type": "journal-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "hybrid",
+        "oa_url": "https://pdf.hanspub.org/csa_1544214.pdf",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5148448342",
+            "display_name": "孟威 杨",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I95946905",
+              "display_name": "Hebei GEO University",
+              "ror": "https://ror.org/013x4kb81",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I95946905"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "孟威 杨",
+          "raw_affiliation_strings": [
+            "School of Information Engineering , Hebei GEO University , Shijiazhuang Hebei"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "School of Information Engineering , Hebei GEO University , Shijiazhuang Hebei",
+              "institution_ids": [
+                "https://openalex.org/I95946905"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5148448342"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I95946905"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "has_fulltext": true,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.80268133,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": "16",
+        "issue": "08",
+        "first_page": "231",
+        "last_page": "245"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10500",
+        "display_name": "Sparse and Compressive Sensing Techniques",
+        "score": 0.21400000154972076,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2206",
+          "display_name": "Computational Mechanics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/22",
+          "display_name": "Engineering"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10500",
+          "display_name": "Sparse and Compressive Sensing Techniques",
+          "score": 0.21400000154972076,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2206",
+            "display_name": "Computational Mechanics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11034",
+          "display_name": "Digital Filter Design and Implementation",
+          "score": 0.16590000689029694,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1711",
+            "display_name": "Signal Processing"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11447",
+          "display_name": "Blind Source Separation Techniques",
+          "score": 0.0608999989926815,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1711",
+            "display_name": "Signal Processing"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/noise-reduction",
+          "display_name": "Noise reduction",
+          "score": 0.4535999894142151
+        },
+        {
+          "id": "https://openalex.org/keywords/joint",
+          "display_name": "Joint (building)",
+          "score": 0.4253000020980835
+        },
+        {
+          "id": "https://openalex.org/keywords/pattern-recognition",
+          "display_name": "Pattern recognition (psychology)",
+          "score": 0.3711000084877014
+        },
+        {
+          "id": "https://openalex.org/keywords/signal",
+          "display_name": "SIGNAL (programming language)",
+          "score": 0.3124000132083893
+        },
+        {
+          "id": "https://openalex.org/keywords/signal-averaging",
+          "display_name": "Signal averaging",
+          "score": 0.28299999237060547
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.7091000080108643
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.49320000410079956
+        },
+        {
+          "id": "https://openalex.org/C163294075",
+          "wikidata": "https://www.wikidata.org/wiki/Q581861",
+          "display_name": "Noise reduction",
+          "level": 2,
+          "score": 0.4535999894142151
+        },
+        {
+          "id": "https://openalex.org/C31972630",
+          "wikidata": "https://www.wikidata.org/wiki/Q844240",
+          "display_name": "Computer vision",
+          "level": 1,
+          "score": 0.42669999599456787
+        },
+        {
+          "id": "https://openalex.org/C18555067",
+          "wikidata": "https://www.wikidata.org/wiki/Q8375051",
+          "display_name": "Joint (building)",
+          "level": 2,
+          "score": 0.4253000020980835
+        },
+        {
+          "id": "https://openalex.org/C153180895",
+          "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+          "display_name": "Pattern recognition (psychology)",
+          "level": 2,
+          "score": 0.3711000084877014
+        },
+        {
+          "id": "https://openalex.org/C2779843651",
+          "wikidata": "https://www.wikidata.org/wiki/Q7390335",
+          "display_name": "SIGNAL (programming language)",
+          "level": 2,
+          "score": 0.3124000132083893
+        },
+        {
+          "id": "https://openalex.org/C11413529",
+          "wikidata": "https://www.wikidata.org/wiki/Q8366",
+          "display_name": "Algorithm",
+          "level": 1,
+          "score": 0.2969000041484833
+        },
+        {
+          "id": "https://openalex.org/C97855336",
+          "wikidata": "https://www.wikidata.org/wiki/Q2285125",
+          "display_name": "Signal averaging",
+          "level": 5,
+          "score": 0.28299999237060547
+        },
+        {
+          "id": "https://openalex.org/C99498987",
+          "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+          "display_name": "Noise (video)",
+          "level": 3,
+          "score": 0.27880001068115234
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.12677/csa.2026.168277",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.12677/csa.2026.168277",
+          "pdf_url": "https://pdf.hanspub.org/csa_1544214.pdf",
+          "source": {
+            "id": "https://openalex.org/S2764804224",
+            "display_name": "Computer Science and Application",
+            "issn_l": "2161-8801",
+            "issn": [
+              "2161-8801",
+              "2161-881X"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": false,
+            "host_organization": "https://openalex.org/P4322697029",
+            "host_organization_name": "Hans Publishers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4322697029"
+            ],
+            "host_organization_lineage_names": [
+              "Hans Publishers"
+            ],
+            "type": "journal"
+          },
+          "license": "other-oa",
+          "license_id": "https://openalex.org/licenses/other-oa",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Computer Science and Application",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.12677/csa.2026.168277",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.12677/csa.2026.168277",
+        "pdf_url": "https://pdf.hanspub.org/csa_1544214.pdf",
+        "source": {
+          "id": "https://openalex.org/S2764804224",
+          "display_name": "Computer Science and Application",
+          "issn_l": "2161-8801",
+          "issn": [
+            "2161-8801",
+            "2161-881X"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": false,
+          "host_organization": "https://openalex.org/P4322697029",
+          "host_organization_name": "Hans Publishers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4322697029"
+          ],
+          "host_organization_lineage_names": [
+            "Hans Publishers"
+          ],
+          "type": "journal"
+        },
+        "license": "other-oa",
+        "license_id": "https://openalex.org/licenses/other-oa",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Computer Science and Application",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [
+        {
+          "score": 0.46790382266044617,
+          "id": "https://metadata.un.org/sdg/7",
+          "display_name": "Affordable and clean energy"
+        }
+      ],
+      "x_sdgs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": true,
+        "grobid_xml": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W7204475298.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W7204475298.grobid-xml"
+      },
+      "referenced_works_count": 20,
+      "referenced_works": [
+        "https://openalex.org/W2000982976",
+        "https://openalex.org/W2007221293",
+        "https://openalex.org/W2014683958",
+        "https://openalex.org/W2120390927",
+        "https://openalex.org/W2895786783",
+        "https://openalex.org/W2958872067",
+        "https://openalex.org/W2998553334",
+        "https://openalex.org/W3014425564",
+        "https://openalex.org/W3048271458",
+        "https://openalex.org/W4281696883",
+        "https://openalex.org/W4298121119",
+        "https://openalex.org/W4309048297",
+        "https://openalex.org/W4312592783",
+        "https://openalex.org/W4313589456",
+        "https://openalex.org/W4385762830",
+        "https://openalex.org/W4392472122",
+        "https://openalex.org/W4403689722",
+        "https://openalex.org/W4414011349",
+        "https://openalex.org/W4414139526",
+        "https://openalex.org/W4416932522"
+      ],
+      "related_works": [],
+      "abstract_inverted_index": {
+        "河北地质大学信息工程学院，河北": [
+          0
+        ],
+        "石家庄": [
+          1
+        ],
+        "收稿日期：2026年7月18日；录用日期：2026年8月19日；发布日期：2026年8月27日": [
+          2
+        ],
+        "摘": [
+          3
+        ],
+        "要": [
+          4
+        ],
+        "分布式光纤声波传感(Distributed": [
+          5
+        ],
+        "Acoustic": [
+          6
+        ],
+        "Sensing,": [
+          7
+        ],
+        "DAS)系统采集的振动信号易受到环境噪声和系统": [
+          8
+        ],
+        "噪声干扰，导致有效特征提取困难。针对传统变分模态分解(Variational": [
+          9
+        ],
+        "Mode": [
+          10
+        ],
+        "Decomposition,": [
+          11
+        ],
+        "VMD)参": [
+          12
+        ],
+        "数依赖经验选取以及单一评价指标难以准确表征分解质量的问题，提出一种联合熵驱动的改进麻雀搜索": [
+          13
+        ],
+        "优化变分模态分解(EE-PE-ISSA-VMD)": [
+          14
+        ],
+        "DAS信号去噪方法。": [
+          15
+        ],
+        "以模态数K和惩罚因子α为优化对象，": [
+          16
+        ],
+        "引入Tent": [
+          17
+        ],
+        "混沌初始化、自适应发现者比例和自适应步长策略对麻雀搜索算法(SSA)进行改进，实现VMD参数自适": [
+          18
+        ],
+        "应优化；构建包络熵(Envelope": [
+          19
+        ],
+        "Entropy,": [
+          20,
+          22
+        ],
+        "EE)与排列熵(Permutation": [
+          21
+        ],
+        "PE)联合适应度函数，从": [
+          23
+        ],
+        "信号能量分布和时间序列复杂度两个维度综合评价VMD分解质量；同时采用基于相关系数的本征模态函": [
+          24
+        ],
+        "数(IMF)筛选重构策略，提高信号重构精度和噪声抑制能力。基于MATLAB平台，本文参考PubDAS公开": [
+          25
+        ],
+        "数据集及相关文献中DAS振动信号的典型时域和频谱特征，": [
+          26
+        ],
+        "构建模拟DAS振动信号，": [
+          27
+        ],
+        "并与小波阈值去噪、": [
+          28
+        ],
+        "传统VMD、SSA-VMD及ISSA-VMD方法进行对比实验。实验结果表明，本文方法获得的最优参数组合为": [
+          29
+        ],
+        "K": [
+          30
+        ],
+        "=": [
+          31,
+          33
+        ],
+        "10、α": [
+          32
+        ],
+        "646，信噪比(SNR)达到10.2629dB，均方根误差(RMSE)降低至0.2982。与传统VMD相比，SNR提高8.11%，RMSE降低8.": [
+          34
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-09-11T09:22:31.653822",
+      "created_date": "2026-08-28T00:00:00"
+    }
+  ],
+  "group_by": []
+}

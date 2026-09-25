@@ -1,0 +1,1044 @@
+{
+  "id": "https://openalex.org/W2007221293",
+  "doi": "https://doi.org/10.1098/rspa.1998.0193",
+  "title": "The empirical mode decomposition and the Hilbert spectrum for nonlinear and non-stationary time series analysis",
+  "display_name": "The empirical mode decomposition and the Hilbert spectrum for nonlinear and non-stationary time series analysis",
+  "publication_year": 1998,
+  "publication_date": "1998-03-08",
+  "ids": {
+    "openalex": "https://openalex.org/W2007221293",
+    "doi": "https://doi.org/10.1098/rspa.1998.0193",
+    "mag": "2007221293"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1098/rspa.1998.0193",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1098/rspa.1998.0193",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S3006183880",
+      "display_name": "Proceedings of the Royal Society A Mathematical Physical and Engineering Sciences",
+      "issn_l": "1364-5021",
+      "issn": [
+        "1364-5021",
+        "1471-2946"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-2",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310319787",
+      "host_organization_name": "Royal Society",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319787"
+      ],
+      "host_organization_lineage_names": [
+        "Royal Society"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Proceedings of the Royal Society of London. Series A: Mathematical, Physical and Engineering Sciences",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://hal.science/hal-04014501/document",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5110969892",
+        "display_name": "Norden Eh Huang",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1306266525",
+          "display_name": "Goddard Space Flight Center",
+          "ror": "https://ror.org/0171mag52",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1306266525",
+            "https://openalex.org/I4210124779"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Norden E. Huang",
+      "raw_affiliation_strings": [
+        "1Laboratory for Hydrospheric Processes/Oceans and Ice Branch, NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1Laboratory for Hydrospheric Processes/Oceans and Ice Branch, NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA",
+          "institution_ids": [
+            "https://openalex.org/I1306266525"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5017751512",
+        "display_name": "Zhengwei Shen",
+        "orcid": "https://orcid.org/0000-0001-5472-2242",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-5472-2242"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I145311948",
+          "display_name": "Johns Hopkins University",
+          "ror": "https://ror.org/00za53h95",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I145311948"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Zheng Shen",
+      "raw_affiliation_strings": [
+        "Department of Earth and Planetary Sciences, The John Hopkins University, Baltimore, MD 21218, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Earth and Planetary Sciences, The John Hopkins University, Baltimore, MD 21218, USA",
+          "institution_ids": [
+            "https://openalex.org/I145311948"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5021398871",
+        "display_name": "Steven Long",
+        "orcid": "https://orcid.org/0000-0001-9629-4872",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-9629-4872"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2802713533",
+          "display_name": "Wallops Flight Facility",
+          "ror": "https://ror.org/00r57r863",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2802713533",
+            "https://openalex.org/I4210124779"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Steven R. Long",
+      "raw_affiliation_strings": [
+        "Laboratory for Hydrospheric Processes/Observational Science Branch, NASA Wallops Flight Facility, Wallops Island, VA 23337, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Laboratory for Hydrospheric Processes/Observational Science Branch, NASA Wallops Flight Facility, Wallops Island, VA 23337, USA",
+          "institution_ids": [
+            "https://openalex.org/I2802713533"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5102093613",
+        "display_name": "Man‐Li C. Wu",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1306266525",
+          "display_name": "Goddard Space Flight Center",
+          "ror": "https://ror.org/0171mag52",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1306266525",
+            "https://openalex.org/I4210124779"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Manli C. Wu",
+      "raw_affiliation_strings": [
+        "Laboratory for Atmospheres, NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA",
+        "Laboratory for Atmospheres, NASA Goddard Space Flight Center,#N#Greenbelt, MD 20771, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Laboratory for Atmospheres, NASA Goddard Space Flight Center, Greenbelt, MD 20771, USA",
+          "institution_ids": [
+            "https://openalex.org/I1306266525"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Laboratory for Atmospheres, NASA Goddard Space Flight Center,#N#Greenbelt, MD 20771, USA",
+          "institution_ids": [
+            "https://openalex.org/I1306266525"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5108422079",
+        "display_name": "Hsing H. Shih",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1316690553",
+          "display_name": "NOAA National Ocean Service",
+          "ror": "https://ror.org/02k4h0334",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1308126019",
+            "https://openalex.org/I1316690553",
+            "https://openalex.org/I1343035065"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hsing H. Shih",
+      "raw_affiliation_strings": [
+        "NOAA National Ocean Service, Silver Spring, MD 20910, USA",
+        "NOAA, National Ocean Service, Silver Spring, MD 20910, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "NOAA National Ocean Service, Silver Spring, MD 20910, USA",
+          "institution_ids": [
+            "https://openalex.org/I1316690553"
+          ]
+        },
+        {
+          "raw_affiliation_string": "NOAA, National Ocean Service, Silver Spring, MD 20910, USA",
+          "institution_ids": [
+            "https://openalex.org/I1316690553"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5053140466",
+        "display_name": "Quanan Zheng",
+        "orcid": "https://orcid.org/0000-0003-1560-1370",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-1560-1370"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I86501945",
+          "display_name": "University of Delaware",
+          "ror": "https://ror.org/01sbq1a82",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86501945"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Quanan Zheng",
+      "raw_affiliation_strings": [
+        "College of Marine Studies, University of Delaware, DE 19716, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "College of Marine Studies, University of Delaware, DE 19716, USA",
+          "institution_ids": [
+            "https://openalex.org/I86501945"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5111832890",
+        "display_name": "Nai-chyuan Yen",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1288214837",
+          "display_name": "United States Naval Research Laboratory",
+          "ror": "https://ror.org/04d23a975",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1288214837",
+            "https://openalex.org/I1330347796",
+            "https://openalex.org/I175003984",
+            "https://openalex.org/I3130687028"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Nai-Chyuan Yen",
+      "raw_affiliation_strings": [
+        "Naval Research Laboratory, Washington, DC, 20375–5000, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Naval Research Laboratory, Washington, DC, 20375–5000, USA",
+          "institution_ids": [
+            "https://openalex.org/I1288214837"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5111508374",
+        "display_name": "C. C. Tung",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I137902535",
+          "display_name": "North Carolina State University",
+          "ror": "https://ror.org/04tj63d06",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I137902535"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Chi Chao Tung",
+      "raw_affiliation_strings": [
+        "8Department of Civil Engineering, North Carolina State University, Raleigh, NC 27695–7908, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "8Department of Civil Engineering, North Carolina State University, Raleigh, NC 27695–7908, USA",
+          "institution_ids": [
+            "https://openalex.org/I137902535"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5055215439",
+        "display_name": "Henry H. Liu",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2802287952",
+          "display_name": "Naval Surface Warfare Center",
+          "ror": "https://ror.org/03d4ecn10",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1328969757",
+            "https://openalex.org/I1330347796",
+            "https://openalex.org/I2802287952",
+            "https://openalex.org/I3130687028"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Henry H. Liu",
+      "raw_affiliation_strings": [
+        "9Naval Surface Warfare Center, Carderock Division, Bethesda, MD 20084–5000, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "9Naval Surface Warfare Center, Carderock Division, Bethesda, MD 20084–5000, USA",
+          "institution_ids": [
+            "https://openalex.org/I2802287952"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 8,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 22.6629,
+  "has_fulltext": true,
+  "cited_by_count": 23783,
+  "citation_normalized_percentile": {
+    "value": 0.99587487,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "454",
+    "issue": "1971",
+    "first_page": "903",
+    "last_page": "995"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12205",
+    "display_name": "Time Series Analysis and Forecasting",
+    "score": 0.9768000245094299,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1711",
+      "display_name": "Signal Processing"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12205",
+      "display_name": "Time Series Analysis and Forecasting",
+      "score": 0.9768000245094299,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1711",
+        "display_name": "Signal Processing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12424",
+      "display_name": "Earthquake Detection and Analysis",
+      "score": 0.9750000238418579,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10640",
+      "display_name": "Spectroscopy and Chemometric Analyses",
+      "score": 0.9710000157356262,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1602",
+        "display_name": "Analytical Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/hilbert–huang-transform",
+      "display_name": "Hilbert–Huang transform",
+      "score": 0.9450865983963013
+    },
+    {
+      "id": "https://openalex.org/keywords/series",
+      "display_name": "Series (stratigraphy)",
+      "score": 0.7132802605628967
+    },
+    {
+      "id": "https://openalex.org/keywords/singular-spectrum-analysis",
+      "display_name": "Singular spectrum analysis",
+      "score": 0.7013841867446899
+    },
+    {
+      "id": "https://openalex.org/keywords/nonlinear-system",
+      "display_name": "Nonlinear system",
+      "score": 0.6087966561317444
+    },
+    {
+      "id": "https://openalex.org/keywords/hilbert-spectral-analysis",
+      "display_name": "Hilbert spectral analysis",
+      "score": 0.5295119285583496
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.5255362391471863
+    },
+    {
+      "id": "https://openalex.org/keywords/time-series",
+      "display_name": "Time series",
+      "score": 0.5013234615325928
+    },
+    {
+      "id": "https://openalex.org/keywords/spectrum",
+      "display_name": "Spectrum (functional analysis)",
+      "score": 0.4889899492263794
+    },
+    {
+      "id": "https://openalex.org/keywords/spectral-analysis",
+      "display_name": "Spectral analysis",
+      "score": 0.4363898038864136
+    },
+    {
+      "id": "https://openalex.org/keywords/applied-mathematics",
+      "display_name": "Applied mathematics",
+      "score": 0.4029451608657837
+    },
+    {
+      "id": "https://openalex.org/keywords/statistical-physics",
+      "display_name": "Statistical physics",
+      "score": 0.3342141807079315
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.2055472731590271
+    },
+    {
+      "id": "https://openalex.org/keywords/statistics",
+      "display_name": "Statistics",
+      "score": 0.19175300002098083
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.1555350124835968
+    },
+    {
+      "id": "https://openalex.org/keywords/singular-value-decomposition",
+      "display_name": "Singular value decomposition",
+      "score": 0.08248335123062134
+    },
+    {
+      "id": "https://openalex.org/keywords/white-noise",
+      "display_name": "White noise",
+      "score": 0.08206981420516968
+    },
+    {
+      "id": "https://openalex.org/keywords/quantum-mechanics",
+      "display_name": "Quantum mechanics",
+      "score": 0.07031235098838806
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.06791192293167114
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C25570617",
+      "wikidata": "https://www.wikidata.org/wiki/Q1006462",
+      "display_name": "Hilbert–Huang transform",
+      "level": 3,
+      "score": 0.9450865983963013
+    },
+    {
+      "id": "https://openalex.org/C143724316",
+      "wikidata": "https://www.wikidata.org/wiki/Q312468",
+      "display_name": "Series (stratigraphy)",
+      "level": 2,
+      "score": 0.7132802605628967
+    },
+    {
+      "id": "https://openalex.org/C136272165",
+      "wikidata": "https://www.wikidata.org/wiki/Q4048889",
+      "display_name": "Singular spectrum analysis",
+      "level": 3,
+      "score": 0.7013841867446899
+    },
+    {
+      "id": "https://openalex.org/C158622935",
+      "wikidata": "https://www.wikidata.org/wiki/Q660848",
+      "display_name": "Nonlinear system",
+      "level": 2,
+      "score": 0.6087966561317444
+    },
+    {
+      "id": "https://openalex.org/C207659853",
+      "wikidata": "https://www.wikidata.org/wiki/Q5761228",
+      "display_name": "Hilbert spectral analysis",
+      "level": 4,
+      "score": 0.5295119285583496
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.5255362391471863
+    },
+    {
+      "id": "https://openalex.org/C151406439",
+      "wikidata": "https://www.wikidata.org/wiki/Q186588",
+      "display_name": "Time series",
+      "level": 2,
+      "score": 0.5013234615325928
+    },
+    {
+      "id": "https://openalex.org/C156778621",
+      "wikidata": "https://www.wikidata.org/wiki/Q1365748",
+      "display_name": "Spectrum (functional analysis)",
+      "level": 2,
+      "score": 0.4889899492263794
+    },
+    {
+      "id": "https://openalex.org/C2983668108",
+      "wikidata": "https://www.wikidata.org/wiki/Q280453",
+      "display_name": "Spectral analysis",
+      "level": 3,
+      "score": 0.4363898038864136
+    },
+    {
+      "id": "https://openalex.org/C28826006",
+      "wikidata": "https://www.wikidata.org/wiki/Q33521",
+      "display_name": "Applied mathematics",
+      "level": 1,
+      "score": 0.4029451608657837
+    },
+    {
+      "id": "https://openalex.org/C121864883",
+      "wikidata": "https://www.wikidata.org/wiki/Q677916",
+      "display_name": "Statistical physics",
+      "level": 1,
+      "score": 0.3342141807079315
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.2055472731590271
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.19175300002098083
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.1555350124835968
+    },
+    {
+      "id": "https://openalex.org/C22789450",
+      "wikidata": "https://www.wikidata.org/wiki/Q420904",
+      "display_name": "Singular value decomposition",
+      "level": 2,
+      "score": 0.08248335123062134
+    },
+    {
+      "id": "https://openalex.org/C112633086",
+      "wikidata": "https://www.wikidata.org/wiki/Q381287",
+      "display_name": "White noise",
+      "level": 2,
+      "score": 0.08206981420516968
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.07031235098838806
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.06791192293167114
+    },
+    {
+      "id": "https://openalex.org/C151730666",
+      "wikidata": "https://www.wikidata.org/wiki/Q7205",
+      "display_name": "Paleontology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C32891209",
+      "wikidata": "https://www.wikidata.org/wiki/Q483666",
+      "display_name": "Spectroscopy",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1098/rspa.1998.0193",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1098/rspa.1998.0193",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S3006183880",
+        "display_name": "Proceedings of the Royal Society A Mathematical Physical and Engineering Sciences",
+        "issn_l": "1364-5021",
+        "issn": [
+          "1364-5021",
+          "1471-2946"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-2",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310319787",
+        "host_organization_name": "Royal Society",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319787"
+        ],
+        "host_organization_lineage_names": [
+          "Royal Society"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the Royal Society of London. Series A: Mathematical, Physical and Engineering Sciences",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:HAL:hal-04014501v1",
+      "is_oa": true,
+      "landing_page_url": "https://hal.science/hal-04014501",
+      "pdf_url": "https://hal.science/hal-04014501/document",
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-nc",
+      "license_id": "https://openalex.org/licenses/cc-by-nc",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences, 1998, 454 (1971), pp.903-995. &#x27E8;10.1098/rspa.1998.0193&#x27E9;",
+      "raw_type": "info:eu-repo/semantics/article"
+    }
+  ],
+  "best_oa_location": {
+    "id": "pmh:oai:HAL:hal-04014501v1",
+    "is_oa": true,
+    "landing_page_url": "https://hal.science/hal-04014501",
+    "pdf_url": "https://hal.science/hal-04014501/document",
+    "source": {
+      "id": "https://openalex.org/S4306402512",
+      "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I1294671590",
+      "host_organization_name": "Centre National de la Recherche Scientifique",
+      "host_organization_lineage": [
+        "https://openalex.org/I1294671590"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": "cc-by-nc",
+    "license_id": "https://openalex.org/licenses/cc-by-nc",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences, 1998, 454 (1971), pp.903-995. &#x27E8;10.1098/rspa.1998.0193&#x27E9;",
+    "raw_type": "info:eu-repo/semantics/article"
+  },
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320306101",
+      "display_name": "National Aeronautics and Space Administration",
+      "ror": "https://ror.org/027ka1x80"
+    },
+    {
+      "id": "https://openalex.org/F4320332688",
+      "display_name": "University of California, Irvine",
+      "ror": "https://ror.org/04gyf1771"
+    },
+    {
+      "id": "https://openalex.org/F4320337345",
+      "display_name": "Office of Naval Research",
+      "ror": "https://ror.org/00rk2pe57"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": true,
+    "pdf": true
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W2007221293.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W2007221293.grobid-xml"
+  },
+  "referenced_works_count": 56,
+  "referenced_works": [
+    "https://openalex.org/W60516322",
+    "https://openalex.org/W193385438",
+    "https://openalex.org/W257772133",
+    "https://openalex.org/W593463051",
+    "https://openalex.org/W833818775",
+    "https://openalex.org/W1523050803",
+    "https://openalex.org/W1588381982",
+    "https://openalex.org/W1633939355",
+    "https://openalex.org/W1971982235",
+    "https://openalex.org/W1972369441",
+    "https://openalex.org/W1973351859",
+    "https://openalex.org/W1985017617",
+    "https://openalex.org/W1986788497",
+    "https://openalex.org/W1987259979",
+    "https://openalex.org/W2015534295",
+    "https://openalex.org/W2018742520",
+    "https://openalex.org/W2024340376",
+    "https://openalex.org/W2028497691",
+    "https://openalex.org/W2032695494",
+    "https://openalex.org/W2033250482",
+    "https://openalex.org/W2034844700",
+    "https://openalex.org/W2044321749",
+    "https://openalex.org/W2052757601",
+    "https://openalex.org/W2063615912",
+    "https://openalex.org/W2075350093",
+    "https://openalex.org/W2076027897",
+    "https://openalex.org/W2099566008",
+    "https://openalex.org/W2111856969",
+    "https://openalex.org/W2114509411",
+    "https://openalex.org/W2115031495",
+    "https://openalex.org/W2115189693",
+    "https://openalex.org/W2132085292",
+    "https://openalex.org/W2140971281",
+    "https://openalex.org/W2141237926",
+    "https://openalex.org/W2141394518",
+    "https://openalex.org/W2151047202",
+    "https://openalex.org/W2157035311",
+    "https://openalex.org/W2163995871",
+    "https://openalex.org/W2164651587",
+    "https://openalex.org/W2164847051",
+    "https://openalex.org/W2330552623",
+    "https://openalex.org/W2537268500",
+    "https://openalex.org/W2924212870",
+    "https://openalex.org/W2973818247",
+    "https://openalex.org/W3022893215",
+    "https://openalex.org/W3043585151",
+    "https://openalex.org/W3136463145",
+    "https://openalex.org/W3151807103",
+    "https://openalex.org/W4238191494",
+    "https://openalex.org/W4244544475",
+    "https://openalex.org/W4250296311",
+    "https://openalex.org/W4285719527",
+    "https://openalex.org/W4292963524",
+    "https://openalex.org/W4299552129",
+    "https://openalex.org/W6623327010",
+    "https://openalex.org/W6682747227"
+  ],
+  "related_works": [
+    "https://openalex.org/W2384378031",
+    "https://openalex.org/W2312402471",
+    "https://openalex.org/W1522018195",
+    "https://openalex.org/W2109806355",
+    "https://openalex.org/W2749564076",
+    "https://openalex.org/W2120815114",
+    "https://openalex.org/W2944133676",
+    "https://openalex.org/W15276587",
+    "https://openalex.org/W2313880367",
+    "https://openalex.org/W2007221293"
+  ],
+  "abstract_inverted_index": {
+    "International": [
+      0
+    ],
+    "audience": [
+      1
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 981
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 1516
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 1612
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1717
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1767
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1734
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1623
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1561
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1400
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1267
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1193
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1106
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1037
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 993
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 874
+    }
+  ],
+  "updated_date": "2026-09-24T07:57:37.273135",
+  "created_date": "2025-10-10T00:00:00"
+}

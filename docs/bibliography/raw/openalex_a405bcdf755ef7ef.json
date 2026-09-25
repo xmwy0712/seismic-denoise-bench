@@ -1,0 +1,1114 @@
+{
+  "id": "https://openalex.org/W2058359126",
+  "doi": "https://doi.org/10.1190/1.1443079",
+  "title": "The use of drill-bit energy as a downhole seismic source",
+  "display_name": "The use of drill-bit energy as a downhole seismic source",
+  "publication_year": 1991,
+  "publication_date": "1991-05-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2058359126",
+    "doi": "https://doi.org/10.1190/1.1443079",
+    "mag": "2058359126"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.1443079",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.1443079",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S106174089",
+      "display_name": "Geophysics",
+      "issn_l": "0016-8033",
+      "issn": [
+        "0016-8033",
+        "1942-2156"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5112007598",
+        "display_name": "J. W. Rector",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210095672",
+          "display_name": "Polaris (United States)",
+          "ror": "https://ror.org/00tct5242",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210095672"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "James W. Rector",
+      "raw_affiliation_strings": [
+        "West. Atlas Int., Mountain View, CA, United States",
+        "Western Atlas International, 250 Polaris Avenue, Mountain View, CA 94043-4515"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "West. Atlas Int., Mountain View, CA, United States",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Western Atlas International, 250 Polaris Avenue, Mountain View, CA 94043-4515",
+          "institution_ids": [
+            "https://openalex.org/I4210095672"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5012170039",
+        "display_name": "B. Marion",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210095672",
+          "display_name": "Polaris (United States)",
+          "ror": "https://ror.org/00tct5242",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210095672"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Bruce P. Marion",
+      "raw_affiliation_strings": [
+        "Western Atlas International, 250 Polaris Avenue, Mountain View, CA 94043-4515"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Western Atlas International, 250 Polaris Avenue, Mountain View, CA 94043-4515",
+          "institution_ids": [
+            "https://openalex.org/I4210095672"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210095672"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 1.7049,
+  "has_fulltext": false,
+  "cited_by_count": 140,
+  "citation_normalized_percentile": {
+    "value": 0.81552824,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "56",
+    "issue": "5",
+    "first_page": "628",
+    "last_page": "634"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9997000098228455,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10892",
+      "display_name": "Drilling and Well Engineering",
+      "score": 0.998199999332428,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9961000084877014,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/borehole",
+      "display_name": "Borehole",
+      "score": 0.8259524703025818
+    },
+    {
+      "id": "https://openalex.org/keywords/vertical-seismic-profile",
+      "display_name": "Vertical seismic profile",
+      "score": 0.7438888549804688
+    },
+    {
+      "id": "https://openalex.org/keywords/drill-bit",
+      "display_name": "Drill bit",
+      "score": 0.7149935364723206
+    },
+    {
+      "id": "https://openalex.org/keywords/drilling",
+      "display_name": "Drilling",
+      "score": 0.6718268394470215
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.6526194214820862
+    },
+    {
+      "id": "https://openalex.org/keywords/deconvolution",
+      "display_name": "Deconvolution",
+      "score": 0.6307113170623779
+    },
+    {
+      "id": "https://openalex.org/keywords/drill",
+      "display_name": "Drill",
+      "score": 0.618205726146698
+    },
+    {
+      "id": "https://openalex.org/keywords/noise",
+      "display_name": "Noise (video)",
+      "score": 0.5464696288108826
+    },
+    {
+      "id": "https://openalex.org/keywords/signal",
+      "display_name": "SIGNAL (programming language)",
+      "score": 0.5055861473083496
+    },
+    {
+      "id": "https://openalex.org/keywords/measurement-while-drilling",
+      "display_name": "Measurement while drilling",
+      "score": 0.47224920988082886
+    },
+    {
+      "id": "https://openalex.org/keywords/energy",
+      "display_name": "Energy (signal processing)",
+      "score": 0.46161019802093506
+    },
+    {
+      "id": "https://openalex.org/keywords/acoustics",
+      "display_name": "Acoustics",
+      "score": 0.4495292901992798
+    },
+    {
+      "id": "https://openalex.org/keywords/instrumentation",
+      "display_name": "Instrumentation (computer programming)",
+      "score": 0.43104803562164307
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.35496437549591064
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.21949037909507751
+    },
+    {
+      "id": "https://openalex.org/keywords/engineering",
+      "display_name": "Engineering",
+      "score": 0.15118557214736938
+    },
+    {
+      "id": "https://openalex.org/keywords/geotechnical-engineering",
+      "display_name": "Geotechnical engineering",
+      "score": 0.10657709836959839
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.08059477806091309
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C150560799",
+      "wikidata": "https://www.wikidata.org/wiki/Q502102",
+      "display_name": "Borehole",
+      "level": 2,
+      "score": 0.8259524703025818
+    },
+    {
+      "id": "https://openalex.org/C89787772",
+      "wikidata": "https://www.wikidata.org/wiki/Q7922855",
+      "display_name": "Vertical seismic profile",
+      "level": 2,
+      "score": 0.7438888549804688
+    },
+    {
+      "id": "https://openalex.org/C2778382975",
+      "wikidata": "https://www.wikidata.org/wiki/Q335283",
+      "display_name": "Drill bit",
+      "level": 3,
+      "score": 0.7149935364723206
+    },
+    {
+      "id": "https://openalex.org/C25197100",
+      "wikidata": "https://www.wikidata.org/wiki/Q890886",
+      "display_name": "Drilling",
+      "level": 2,
+      "score": 0.6718268394470215
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.6526194214820862
+    },
+    {
+      "id": "https://openalex.org/C174576160",
+      "wikidata": "https://www.wikidata.org/wiki/Q1183700",
+      "display_name": "Deconvolution",
+      "level": 2,
+      "score": 0.6307113170623779
+    },
+    {
+      "id": "https://openalex.org/C173736775",
+      "wikidata": "https://www.wikidata.org/wiki/Q58964",
+      "display_name": "Drill",
+      "level": 2,
+      "score": 0.618205726146698
+    },
+    {
+      "id": "https://openalex.org/C99498987",
+      "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+      "display_name": "Noise (video)",
+      "level": 3,
+      "score": 0.5464696288108826
+    },
+    {
+      "id": "https://openalex.org/C2779843651",
+      "wikidata": "https://www.wikidata.org/wiki/Q7390335",
+      "display_name": "SIGNAL (programming language)",
+      "level": 2,
+      "score": 0.5055861473083496
+    },
+    {
+      "id": "https://openalex.org/C42222113",
+      "wikidata": "https://www.wikidata.org/wiki/Q890894",
+      "display_name": "Measurement while drilling",
+      "level": 3,
+      "score": 0.47224920988082886
+    },
+    {
+      "id": "https://openalex.org/C186370098",
+      "wikidata": "https://www.wikidata.org/wiki/Q442787",
+      "display_name": "Energy (signal processing)",
+      "level": 2,
+      "score": 0.46161019802093506
+    },
+    {
+      "id": "https://openalex.org/C24890656",
+      "wikidata": "https://www.wikidata.org/wiki/Q82811",
+      "display_name": "Acoustics",
+      "level": 1,
+      "score": 0.4495292901992798
+    },
+    {
+      "id": "https://openalex.org/C118530786",
+      "wikidata": "https://www.wikidata.org/wiki/Q1134732",
+      "display_name": "Instrumentation (computer programming)",
+      "level": 2,
+      "score": 0.43104803562164307
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.35496437549591064
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.21949037909507751
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.15118557214736938
+    },
+    {
+      "id": "https://openalex.org/C187320778",
+      "wikidata": "https://www.wikidata.org/wiki/Q1349130",
+      "display_name": "Geotechnical engineering",
+      "level": 1,
+      "score": 0.10657709836959839
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.08059477806091309
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C115961682",
+      "wikidata": "https://www.wikidata.org/wiki/Q860623",
+      "display_name": "Image (mathematics)",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C78519656",
+      "wikidata": "https://www.wikidata.org/wiki/Q101333",
+      "display_name": "Mechanical engineering",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C111919701",
+      "wikidata": "https://www.wikidata.org/wiki/Q9135",
+      "display_name": "Operating system",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.1443079",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.1443079",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S106174089",
+        "display_name": "Geophysics",
+        "issn_l": "0016-8033",
+        "issn": [
+          "0016-8033",
+          "1942-2156"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysics",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Affordable and clean energy",
+      "id": "https://metadata.un.org/sdg/7",
+      "score": 0.8799999952316284
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 7,
+  "referenced_works": [
+    "https://openalex.org/W124138557",
+    "https://openalex.org/W1579868249",
+    "https://openalex.org/W1999322057",
+    "https://openalex.org/W2057599537",
+    "https://openalex.org/W2087740116",
+    "https://openalex.org/W2091797320",
+    "https://openalex.org/W2157002659"
+  ],
+  "related_works": [
+    "https://openalex.org/W3015775365",
+    "https://openalex.org/W4237015481",
+    "https://openalex.org/W2941492955",
+    "https://openalex.org/W2219378288",
+    "https://openalex.org/W4319842949",
+    "https://openalex.org/W1965651405",
+    "https://openalex.org/W2046815204",
+    "https://openalex.org/W3173157951",
+    "https://openalex.org/W3021285681",
+    "https://openalex.org/W4297840014"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "A": [
+      1
+    ],
+    "new": [
+      2
+    ],
+    "wellbore": [
+      3
+    ],
+    "seismic": [
+      4,
+      19,
+      68
+    ],
+    "technique": [
+      5,
+      23
+    ],
+    "uses": [
+      6
+    ],
+    "the": [
+      7,
+      30,
+      47,
+      50,
+      57,
+      79,
+      87,
+      100,
+      108,
+      119,
+      122,
+      132,
+      140,
+      147,
+      159,
+      164,
+      169,
+      173,
+      176,
+      186,
+      201
+    ],
+    "vibrations": [
+      8
+    ],
+    "produced": [
+      9
+    ],
+    "by": [
+      10,
+      65,
+      107,
+      113,
+      125
+    ],
+    "a": [
+      11,
+      17,
+      63,
+      95,
+      114,
+      188,
+      196
+    ],
+    "drill": [
+      12,
+      109,
+      170
+    ],
+    "bit": [
+      13,
+      110,
+      171
+    ],
+    "while": [
+      14,
+      76
+    ],
+    "drilling": [
+      15,
+      58
+    ],
+    "as": [
+      16,
+      26
+    ],
+    "downhole": [
+      18,
+      41
+    ],
+    "energy": [
+      20
+    ],
+    "source.": [
+      21
+    ],
+    "The": [
+      22,
+      103,
+      134
+    ],
+    "is": [
+      24,
+      43,
+      137,
+      192
+    ],
+    "described": [
+      25
+    ],
+    "'inverse'": [
+      27
+    ],
+    "VSP": [
+      28,
+      37,
+      81,
+      209
+    ],
+    "because": [
+      29
+    ],
+    "source": [
+      31,
+      82
+    ],
+    "and": [
+      32,
+      49,
+      74,
+      83,
+      124,
+      149,
+      155
+    ],
+    "receiver": [
+      33,
+      84,
+      141
+    ],
+    "positions": [
+      34,
+      85,
+      130
+    ],
+    "of": [
+      35,
+      89,
+      121,
+      146,
+      158,
+      166,
+      175,
+      185
+    ],
+    "conventional": [
+      36,
+      80,
+      208
+    ],
+    "are": [
+      38,
+      111,
+      205
+    ],
+    "reversed.": [
+      39
+    ],
+    "No": [
+      40
+    ],
+    "instrumentation": [
+      42
+    ],
+    "required": [
+      44
+    ],
+    "to": [
+      45,
+      118,
+      143,
+      150,
+      172,
+      207
+    ],
+    "obtain": [
+      46
+    ],
+    "data": [
+      48,
+      51,
+      69,
+      97,
+      190,
+      204
+    ],
+    "recording": [
+      52,
+      90
+    ],
+    "does": [
+      53
+    ],
+    "not": [
+      54
+    ],
+    "interfere": [
+      55
+    ],
+    "with": [
+      56,
+      139
+    ],
+    "process.": [
+      59
+    ],
+    "These": [
+      60
+    ],
+    "characteristics": [
+      61
+    ],
+    "offer": [
+      62
+    ],
+    "method": [
+      64
+    ],
+    "which": [
+      66
+    ],
+    "borehole": [
+      67,
+      101
+    ],
+    "can": [
+      70
+    ],
+    "be": [
+      71
+    ],
+    "acquired,": [
+      72
+    ],
+    "processed,": [
+      73
+    ],
+    "interpreted": [
+      75
+    ],
+    "drilling.": [
+      77
+    ],
+    "Interchanging": [
+      78
+    ],
+    "improves": [
+      86
+    ],
+    "efficiency": [
+      88
+    ],
+    "multioffset": [
+      91
+    ],
+    "surveys": [
+      92
+    ],
+    "for": [
+      93,
+      163,
+      182
+    ],
+    "imaging": [
+      94
+    ],
+    "3-D": [
+      96
+    ],
+    "volume": [
+      98
+    ],
+    "in": [
+      99
+    ],
+    "vicinity.": [
+      102
+    ],
+    "continuous": [
+      104
+    ],
+    "signals": [
+      105,
+      142
+    ],
+    "generated": [
+      106
+    ],
+    "recorded": [
+      112
+    ],
+    "pilot": [
+      115,
+      135,
+      160
+    ],
+    "sensor": [
+      116
+    ],
+    "attached": [
+      117
+    ],
+    "top": [
+      120,
+      174
+    ],
+    "drillstring": [
+      123
+    ],
+    "receivers": [
+      126
+    ],
+    "located": [
+      127
+    ],
+    "at": [
+      128
+    ],
+    "selected": [
+      129
+    ],
+    "around": [
+      131
+    ],
+    "borehole.": [
+      133
+    ],
+    "signal": [
+      136,
+      161
+    ],
+    "crosscorrelated": [
+      138
+    ],
+    "compute": [
+      144
+    ],
+    "traveltimes": [
+      145
+    ],
+    "arrivals": [
+      148
+    ],
+    "attenuate": [
+      151
+    ],
+    "incoherent": [
+      152
+    ],
+    "noise.": [
+      153
+    ],
+    "Deconvolution": [
+      154
+    ],
+    "time": [
+      156
+    ],
+    "shifts": [
+      157
+    ],
+    "compensate": [
+      162
+    ],
+    "effects": [
+      165
+    ],
+    "propagation": [
+      167
+    ],
+    "from": [
+      168,
+      195
+    ],
+    "drillstring.": [
+      177
+    ],
+    "By": [
+      178
+    ],
+    "repeating": [
+      179
+    ],
+    "this": [
+      180
+    ],
+    "process": [
+      181
+    ],
+    "an": [
+      183
+    ],
+    "interval": [
+      184
+    ],
+    "well,": [
+      187
+    ],
+    "VSP-equivalent": [
+      189
+    ],
+    "set": [
+      191
+    ],
+    "generated.": [
+      193
+    ],
+    "Results": [
+      194
+    ],
+    "test": [
+      197
+    ],
+    "well": [
+      198
+    ],
+    "demonstrate": [
+      199
+    ],
+    "that": [
+      200
+    ],
+    "processed": [
+      202
+    ],
+    "drill-bit": [
+      203
+    ],
+    "comparable": [
+      206
+    ],
+    "data.": [
+      210
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2026-09-23T05:00:35.095934",
+  "created_date": "2025-10-10T00:00:00"
+}

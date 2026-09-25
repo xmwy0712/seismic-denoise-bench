@@ -1,0 +1,1491 @@
+{
+  "id": "https://openalex.org/W1565293027",
+  "doi": null,
+  "title": "Interaction of polygonal fault systems with salt diapirs",
+  "display_name": "Interaction of polygonal fault systems with salt diapirs",
+  "publication_year": 2012,
+  "publication_date": "2012-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1565293027",
+    "mag": "1565293027"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "pmh:oai:https://orca.cardiff.ac.uk:42375",
+    "is_oa": false,
+    "landing_page_url": "https://orca.cardiff.ac.uk/42375/1/Dan%20Carruthers%20Electronic%20Thesis%20Publication%20Form.pdf",
+    "pdf_url": "https://orca.cardiff.ac.uk/42375/1/Dan%20Carruthers%20Electronic%20Thesis%20Publication%20Form.pdf",
+    "source": {
+      "id": "https://openalex.org/S4306401195",
+      "display_name": "ORCA Online Research @Cardiff (Cardiff University)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I79510175",
+      "host_organization_name": "Cardiff University",
+      "host_organization_lineage": [
+        "https://openalex.org/I79510175"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false,
+    "raw_source_name": "",
+    "raw_type": "Thesis"
+  },
+  "type": "dissertation",
+  "indexed_in": [],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5024675300",
+        "display_name": "Thomas Carruthers",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "Thomas Carruthers",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5024675300"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": false,
+  "cited_by_count": 9,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10995",
+    "display_name": "Methane Hydrates and Related Phenomena",
+    "score": 0.9970999956130981,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2304",
+      "display_name": "Environmental Chemistry"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/23",
+      "display_name": "Environmental Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10995",
+      "display_name": "Methane Hydrates and Related Phenomena",
+      "score": 0.9970999956130981,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2304",
+        "display_name": "Environmental Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10965",
+      "display_name": "Geological formations and processes",
+      "score": 0.9966999888420105,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1904",
+        "display_name": "Earth-Surface Processes"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13177",
+      "display_name": "Geological and Geophysical Studies",
+      "score": 0.9932000041007996,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1907",
+        "display_name": "Geology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/diapir",
+      "display_name": "Diapir",
+      "score": 0.9494958519935608
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.8836966753005981
+    },
+    {
+      "id": "https://openalex.org/keywords/growth-fault",
+      "display_name": "Growth fault",
+      "score": 0.8248007893562317
+    },
+    {
+      "id": "https://openalex.org/keywords/fault",
+      "display_name": "Fault (geology)",
+      "score": 0.6717990636825562
+    },
+    {
+      "id": "https://openalex.org/keywords/sedimentary-rock",
+      "display_name": "Sedimentary rock",
+      "score": 0.6482060551643372
+    },
+    {
+      "id": "https://openalex.org/keywords/salt-tectonics",
+      "display_name": "Salt tectonics",
+      "score": 0.6129173636436462
+    },
+    {
+      "id": "https://openalex.org/keywords/facies",
+      "display_name": "Facies",
+      "score": 0.6039792895317078
+    },
+    {
+      "id": "https://openalex.org/keywords/structural-basin",
+      "display_name": "Structural basin",
+      "score": 0.5888334512710571
+    },
+    {
+      "id": "https://openalex.org/keywords/fault-block",
+      "display_name": "Fault block",
+      "score": 0.45806294679641724
+    },
+    {
+      "id": "https://openalex.org/keywords/extensional-fault",
+      "display_name": "Extensional fault",
+      "score": 0.4490441381931305
+    },
+    {
+      "id": "https://openalex.org/keywords/petrology",
+      "display_name": "Petrology",
+      "score": 0.44499340653419495
+    },
+    {
+      "id": "https://openalex.org/keywords/geomorphology",
+      "display_name": "Geomorphology",
+      "score": 0.4400756061077118
+    },
+    {
+      "id": "https://openalex.org/keywords/echelon-formation",
+      "display_name": "Echelon formation",
+      "score": 0.4365096688270569
+    },
+    {
+      "id": "https://openalex.org/keywords/tectonics",
+      "display_name": "Tectonics",
+      "score": 0.4311867356300354
+    },
+    {
+      "id": "https://openalex.org/keywords/sedimentary-basin",
+      "display_name": "Sedimentary basin",
+      "score": 0.4238315224647522
+    },
+    {
+      "id": "https://openalex.org/keywords/fault-scarp",
+      "display_name": "Fault scarp",
+      "score": 0.4219839572906494
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.3493814170360565
+    },
+    {
+      "id": "https://openalex.org/keywords/paleontology",
+      "display_name": "Paleontology",
+      "score": 0.32137784361839294
+    },
+    {
+      "id": "https://openalex.org/keywords/rift",
+      "display_name": "Rift",
+      "score": 0.28065025806427
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C199007388",
+      "wikidata": "https://www.wikidata.org/wiki/Q943898",
+      "display_name": "Diapir",
+      "level": 3,
+      "score": 0.9494958519935608
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.8836966753005981
+    },
+    {
+      "id": "https://openalex.org/C57803568",
+      "wikidata": "https://www.wikidata.org/wiki/Q17019629",
+      "display_name": "Growth fault",
+      "level": 3,
+      "score": 0.8248007893562317
+    },
+    {
+      "id": "https://openalex.org/C175551986",
+      "wikidata": "https://www.wikidata.org/wiki/Q47089",
+      "display_name": "Fault (geology)",
+      "level": 2,
+      "score": 0.6717990636825562
+    },
+    {
+      "id": "https://openalex.org/C6494504",
+      "wikidata": "https://www.wikidata.org/wiki/Q82480",
+      "display_name": "Sedimentary rock",
+      "level": 2,
+      "score": 0.6482060551643372
+    },
+    {
+      "id": "https://openalex.org/C113007552",
+      "wikidata": "https://www.wikidata.org/wiki/Q631298",
+      "display_name": "Salt tectonics",
+      "level": 4,
+      "score": 0.6129173636436462
+    },
+    {
+      "id": "https://openalex.org/C146588470",
+      "wikidata": "https://www.wikidata.org/wiki/Q742139",
+      "display_name": "Facies",
+      "level": 3,
+      "score": 0.6039792895317078
+    },
+    {
+      "id": "https://openalex.org/C109007969",
+      "wikidata": "https://www.wikidata.org/wiki/Q749565",
+      "display_name": "Structural basin",
+      "level": 2,
+      "score": 0.5888334512710571
+    },
+    {
+      "id": "https://openalex.org/C25980409",
+      "wikidata": "https://www.wikidata.org/wiki/Q992062",
+      "display_name": "Fault block",
+      "level": 3,
+      "score": 0.45806294679641724
+    },
+    {
+      "id": "https://openalex.org/C2780043350",
+      "wikidata": "https://www.wikidata.org/wiki/Q5421954",
+      "display_name": "Extensional fault",
+      "level": 4,
+      "score": 0.4490441381931305
+    },
+    {
+      "id": "https://openalex.org/C5900021",
+      "wikidata": "https://www.wikidata.org/wiki/Q163082",
+      "display_name": "Petrology",
+      "level": 1,
+      "score": 0.44499340653419495
+    },
+    {
+      "id": "https://openalex.org/C114793014",
+      "wikidata": "https://www.wikidata.org/wiki/Q52109",
+      "display_name": "Geomorphology",
+      "level": 1,
+      "score": 0.4400756061077118
+    },
+    {
+      "id": "https://openalex.org/C52678131",
+      "wikidata": "https://www.wikidata.org/wiki/Q2448421",
+      "display_name": "Echelon formation",
+      "level": 3,
+      "score": 0.4365096688270569
+    },
+    {
+      "id": "https://openalex.org/C77928131",
+      "wikidata": "https://www.wikidata.org/wiki/Q193343",
+      "display_name": "Tectonics",
+      "level": 2,
+      "score": 0.4311867356300354
+    },
+    {
+      "id": "https://openalex.org/C200646496",
+      "wikidata": "https://www.wikidata.org/wiki/Q785020",
+      "display_name": "Sedimentary basin",
+      "level": 3,
+      "score": 0.4238315224647522
+    },
+    {
+      "id": "https://openalex.org/C114679195",
+      "wikidata": "https://www.wikidata.org/wiki/Q475080",
+      "display_name": "Fault scarp",
+      "level": 3,
+      "score": 0.4219839572906494
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.3493814170360565
+    },
+    {
+      "id": "https://openalex.org/C151730666",
+      "wikidata": "https://www.wikidata.org/wiki/Q7205",
+      "display_name": "Paleontology",
+      "level": 1,
+      "score": 0.32137784361839294
+    },
+    {
+      "id": "https://openalex.org/C50682988",
+      "wikidata": "https://www.wikidata.org/wiki/Q473935",
+      "display_name": "Rift",
+      "level": 3,
+      "score": 0.28065025806427
+    }
+  ],
+  "mesh": [],
+  "locations_count": 3,
+  "locations": [
+    {
+      "id": "pmh:oai:https://orca.cardiff.ac.uk:42375",
+      "is_oa": false,
+      "landing_page_url": "https://orca.cardiff.ac.uk/42375/1/Dan%20Carruthers%20Electronic%20Thesis%20Publication%20Form.pdf",
+      "pdf_url": "https://orca.cardiff.ac.uk/42375/1/Dan%20Carruthers%20Electronic%20Thesis%20Publication%20Form.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306401195",
+        "display_name": "ORCA Online Research @Cardiff (Cardiff University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I79510175",
+        "host_organization_name": "Cardiff University",
+        "host_organization_lineage": [
+          "https://openalex.org/I79510175"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "Thesis"
+    },
+    {
+      "id": "pmh:oai:uilis.unsyiah.ac.id:32911",
+      "is_oa": false,
+      "landing_page_url": "http://uilis.unsyiah.ac.id/opentheses/items/show/32911",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4377196378",
+        "display_name": "UPT. Syiah Kuala University Library (Syiah Kuala University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I187494767",
+        "host_organization_name": "Universitas Syiah Kuala",
+        "host_organization_lineage": [
+          "https://openalex.org/I187494767"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "Thesis"
+    },
+    {
+      "id": "mag:1565293027",
+      "is_oa": false,
+      "landing_page_url": "http://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.567462",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": null,
+      "raw_source_name": null,
+      "raw_type": null
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/14",
+      "display_name": "Life below water",
+      "score": 0.8799999952316284
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2006063480",
+    "https://openalex.org/W2982197992",
+    "https://openalex.org/W16089337",
+    "https://openalex.org/W2592796676",
+    "https://openalex.org/W2129153171",
+    "https://openalex.org/W2899339026",
+    "https://openalex.org/W1535080595",
+    "https://openalex.org/W2923731470",
+    "https://openalex.org/W2379311523",
+    "https://openalex.org/W2601703476",
+    "https://openalex.org/W2127356643",
+    "https://openalex.org/W1982548245",
+    "https://openalex.org/W2917608725",
+    "https://openalex.org/W2165100453",
+    "https://openalex.org/W2738872729",
+    "https://openalex.org/W148390213",
+    "https://openalex.org/W2140066398",
+    "https://openalex.org/W2145372392",
+    "https://openalex.org/W2169939290",
+    "https://openalex.org/W1976425559"
+  ],
+  "abstract_inverted_index": {
+    "Salt": [
+      0
+    ],
+    "diapirs": [
+      1,
+      68
+    ],
+    "are": [
+      2,
+      63,
+      181,
+      268
+    ],
+    "some": [
+      3
+    ],
+    "of": [
+      4,
+      23,
+      35,
+      45,
+      53,
+      80,
+      92,
+      126,
+      136,
+      147,
+      190,
+      210,
+      219,
+      239,
+      254,
+      273,
+      285,
+      297,
+      312,
+      347,
+      376,
+      390,
+      409,
+      430,
+      439,
+      443,
+      449,
+      466
+    ],
+    "the": [
+      5,
+      21,
+      43,
+      49,
+      78,
+      82,
+      87,
+      98,
+      118,
+      123,
+      127,
+      132,
+      142,
+      152,
+      186,
+      201,
+      205,
+      217,
+      226,
+      247,
+      274,
+      283,
+      310,
+      348,
+      356,
+      359,
+      367,
+      371,
+      388,
+      402,
+      413,
+      423,
+      428,
+      437,
+      447,
+      464
+    ],
+    "most": [
+      6
+    ],
+    "dynamic": [
+      7
+    ],
+    "geological": [
+      8
+    ],
+    "structures": [
+      9
+    ],
+    "in": [
+      10,
+      38,
+      74,
+      105,
+      151,
+      173,
+      246,
+      261,
+      290,
+      358,
+      381,
+      401,
+      412,
+      422
+    ],
+    "sedimentary": [
+      11,
+      39,
+      61
+    ],
+    "basins": [
+      12,
+      75
+    ],
+    "and": [
+      13,
+      56,
+      69,
+      86,
+      103,
+      122,
+      167,
+      170,
+      208,
+      221,
+      232,
+      243,
+      257,
+      263,
+      287,
+      300,
+      336,
+      378,
+      406,
+      433,
+      436,
+      457
+    ],
+    "vertical": [
+      14
+    ],
+    "rise": [
+      15
+    ],
+    "through": [
+      16
+    ],
+    "their": [
+      17,
+      70
+    ],
+    "overburdens": [
+      18,
+      62,
+      106
+    ],
+    "leads": [
+      19
+    ],
+    "to": [
+      20,
+      96,
+      185,
+      195,
+      355,
+      386,
+      419,
+      453
+    ],
+    "development": [
+      22
+    ],
+    "complex": [
+      24
+    ],
+    "fault": [
+      25,
+      28,
+      72,
+      110,
+      198,
+      233,
+      277,
+      313,
+      317,
+      327,
+      350,
+      451
+    ],
+    "systems.": [
+      26,
+      199
+    ],
+    "Polygonal": [
+      27
+    ],
+    "systems": [
+      29,
+      73,
+      111
+    ],
+    "constitute": [
+      30
+    ],
+    "a": [
+      31,
+      237,
+      251,
+      382,
+      420,
+      459
+    ],
+    "major": [
+      32
+    ],
+    "structural": [
+      33
+    ],
+    "element": [
+      34
+    ],
+    "fine-grained": [
+      36,
+      60
+    ],
+    "sediments": [
+      37
+    ],
+    "basins,": [
+      40
+    ],
+    "forming": [
+      41,
+      366
+    ],
+    "without": [
+      42
+    ],
+    "requirement": [
+      44
+    ],
+    "tectonic": [
+      46,
+      165
+    ],
+    "extension": [
+      47,
+      432
+    ],
+    "during": [
+      48,
+      396,
+      427
+    ],
+    "early": [
+      50
+    ],
+    "burial": [
+      51
+    ],
+    "phase": [
+      52
+    ],
+    "sediment": [
+      54
+    ],
+    "compaction": [
+      55,
+      286
+    ],
+    "dewatering.": [
+      57
+    ],
+    "These": [
+      58
+    ],
+    "same": [
+      59,
+      187,
+      248
+    ],
+    "also": [
+      64
+    ],
+    "deformed": [
+      65,
+      107
+    ],
+    "by": [
+      66,
+      108,
+      216
+    ],
+    "salt": [
+      67,
+      101,
+      160,
+      168,
+      179,
+      331,
+      394,
+      469
+    ],
+    "associated": [
+      71
+    ],
+    "such": [
+      76
+    ],
+    "as": [
+      77,
+      192,
+      236,
+      270,
+      330,
+      338,
+      364
+    ],
+    "Gulf": [
+      79
+    ],
+    "Mexico,": [
+      81
+    ],
+    "South": [
+      83
+    ],
+    "Atlantic": [
+      84
+    ],
+    "margins": [
+      85
+    ],
+    "North": [
+      88,
+      120,
+      228
+    ],
+    "Sea.": [
+      89
+    ],
+    "The": [
+      90,
+      315,
+      325,
+      441
+    ],
+    "aim": [
+      91
+    ],
+    "this": [
+      93,
+      444
+    ],
+    "research": [
+      94
+    ],
+    "was": [
+      95
+    ],
+    "investigate": [
+      97
+    ],
+    "interactions": [
+      99
+    ],
+    "between": [
+      100,
+      320
+    ],
+    "diapirism": [
+      102
+    ],
+    "faulting": [
+      104
+    ],
+    "polygonal": [
+      109,
+      148,
+      197,
+      211,
+      276,
+      301,
+      379,
+      404,
+      410,
+      450
+    ],
+    "using": [
+      112
+    ],
+    "3D": [
+      113
+    ],
+    "seismic": [
+      114,
+      223
+    ],
+    "data": [
+      115
+    ],
+    "sets": [
+      116
+    ],
+    "from": [
+      117
+    ],
+    "Central": [
+      119,
+      227
+    ],
+    "Sea": [
+      121,
+      229
+    ],
+    "extensional": [
+      124
+    ],
+    "domain": [
+      125
+    ],
+    "Espírito": [
+      128,
+      202,
+      414
+    ],
+    "Santo": [
+      129,
+      203,
+      415
+    ],
+    "Basin": [
+      130,
+      416
+    ],
+    "on": [
+      131
+    ],
+    "SE": [
+      133
+    ],
+    "\\ncontinental": [
+      134
+    ],
+    "margin": [
+      135
+    ],
+    "Brazil.": [
+      137
+    ],
+    "\\nIn": [
+      138
+    ],
+    "both": [
+      139
+    ],
+    "case": [
+      140
+    ],
+    "studies": [
+      141
+    ],
+    "regional": [
+      143,
+      403,
+      424
+    ],
+    "isotropic": [
+      144
+    ],
+    "planform": [
+      145,
+      405
+    ],
+    "arrangements": [
+      146,
+      172
+    ],
+    "faults": [
+      149,
+      166,
+      177,
+      212,
+      245,
+      267,
+      302,
+      380,
+      411
+    ],
+    "mapped": [
+      150
+    ],
+    "post-salt": [
+      153
+    ],
+    "overburden": [
+      154,
+      361
+    ],
+    "have": [
+      155,
+      250
+    ],
+    "preferred": [
+      156
+    ],
+    "(radial)": [
+      157
+    ],
+    "orientations": [
+      158
+    ],
+    "around": [
+      159,
+      178,
+      393,
+      468
+    ],
+    "\\nstocks,": [
+      161
+    ],
+    "orthogonal": [
+      162
+    ],
+    "alignments": [
+      163
+    ],
+    "with": [
+      164
+    ],
+    "walls,": [
+      169
+    ],
+    "concentric": [
+      171
+    ],
+    "withdrawal": [
+      174
+    ],
+    "basins.": [
+      175
+    ],
+    "Radial": [
+      176,
+      266
+    ],
+    "stocks": [
+      180,
+      395
+    ],
+    "invariably": [
+      182
+    ],
+    "layer-bound,": [
+      183
+    ],
+    "conforming": [
+      184
+    ],
+    "discrete": [
+      188
+    ],
+    "layer": [
+      189
+    ],
+    "stratigraphy": [
+      191
+    ],
+    "laterally": [
+      193
+    ],
+    "equivalent": [
+      194
+    ],
+    "layer-bound": [
+      196,
+      298
+    ],
+    "In": [
+      200,
+      225
+    ],
+    "Basin,": [
+      204
+    ],
+    "\\nlateral": [
+      206
+    ],
+    "distribution": [
+      207,
+      218
+    ],
+    "stacking": [
+      209
+    ],
+    "is": [
+      213,
+      319,
+      352,
+      384,
+      417
+    ],
+    "heavily": [
+      214
+    ],
+    "influenced": [
+      215
+    ],
+    "proximal": [
+      220
+    ],
+    "distal": [
+      222
+    ],
+    "facies.": [
+      224
+    ],
+    "spacing,": [
+      230
+    ],
+    "\\nthrow": [
+      231
+    ],
+    "length": [
+      234,
+      262
+    ],
+    "vary": [
+      235
+    ],
+    "function": [
+      238
+    ],
+    "tier": [
+      240,
+      249,
+      307,
+      383
+    ],
+    "thickness.": [
+      241
+    ],
+    "\\nPolygonal": [
+      242
+    ],
+    "radial": [
+      244,
+      299,
+      316,
+      326,
+      349,
+      368,
+      377
+    ],
+    "similar": [
+      252
+    ],
+    "range": [
+      253
+    ],
+    "maximum": [
+      255
+    ],
+    "throws": [
+      256
+    ],
+    "spacing": [
+      258
+    ],
+    "but": [
+      259,
+      289
+    ],
+    "differ": [
+      260
+    ],
+    "aspect": [
+      264
+    ],
+    "ratios.": [
+      265
+    ],
+    "classified": [
+      269
+    ],
+    "perturbed": [
+      271
+    ],
+    "members": [
+      272
+    ],
+    "basin-wide": [
+      275
+    ],
+    "system": [
+      278,
+      452
+    ],
+    "which": [
+      279
+    ],
+    "propagate": [
+      280
+    ],
+    "primarily": [
+      281
+    ],
+    "under": [
+      282
+    ],
+    "influence": [
+      284
+    ],
+    "contraction": [
+      288
+    ],
+    "an": [
+      291
+    ],
+    "anisotropic": [
+      292
+    ],
+    "stress": [
+      293,
+      392,
+      425,
+      455,
+      467
+    ],
+    "field.": [
+      294
+    ],
+    "\\nStacked": [
+      295
+    ],
+    "arrays": [
+      296
+    ],
+    "formed": [
+      303
+    ],
+    "sequentially": [
+      304
+    ],
+    "where": [
+      305
+    ],
+    "upper": [
+      306
+    ],
+    "boundaries": [
+      308
+    ],
+    "date": [
+      309
+    ],
+    "cessation": [
+      311,
+      429
+    ],
+    "activity.": [
+      314
+    ],
+    "zone": [
+      318,
+      328,
+      351
+    ],
+    "2-4": [
+      321
+    ],
+    "stock": [
+      322
+    ],
+    "radii": [
+      323
+    ],
+    "wide.": [
+      324
+    ],
+    "expanded": [
+      329
+    ],
+    "growth": [
+      332
+    ],
+    "intensified": [
+      333
+    ],
+    "or": [
+      334,
+      341
+    ],
+    "widened,": [
+      335
+    ],
+    "contracted": [
+      337
+    ],
+    "they": [
+      339
+    ],
+    "slowed": [
+      340
+    ],
+    "became": [
+      342
+    ],
+    "narrower.": [
+      343
+    ],
+    "However,": [
+      344
+    ],
+    "\\nthe": [
+      345
+    ],
+    "width": [
+      346
+    ],
+    "not": [
+      353
+    ],
+    "related": [
+      354
+    ],
+    "hinge": [
+      357
+    ],
+    "domed": [
+      360
+    ],
+    "discrediting": [
+      362
+    ],
+    "arching": [
+      363
+    ],
+    "mechanism": [
+      365
+    ],
+    "faults.": [
+      369
+    ],
+    "Instead,": [
+      370
+    ],
+    "transition": [
+      372
+    ],
+    "\\nboundary": [
+      373
+    ],
+    "separating": [
+      374
+    ],
+    "zones": [
+      375
+    ],
+    "interpreted": [
+      385
+    ],
+    "reflect": [
+      387
+    ],
+    "lateral-extent": [
+      389
+    ],
+    "hoop": [
+      391
+    ],
+    "faulting.": [
+      397
+    ],
+    "\\nAn": [
+      398
+    ],
+    "upward": [
+      399
+    ],
+    "change": [
+      400,
+      421
+    ],
+    "dip": [
+      407
+    ],
+    "polarity": [
+      408
+    ],
+    "attributed": [
+      418
+    ],
+    "field": [
+      426
+    ],
+    "thin-skinned": [
+      431
+    ],
+    "gravity": [
+      434
+    ],
+    "gliding": [
+      435
+    ],
+    "onset": [
+      438
+    ],
+    "inversion.": [
+      440
+    ],
+    "results": [
+      442
+    ],
+    "thesis": [
+      445
+    ],
+    "highlight": [
+      446
+    ],
+    "sensitivity": [
+      448
+    ],
+    "local": [
+      454
+    ],
+    "anisotropy": [
+      456
+    ],
+    "provide": [
+      458
+    ],
+    "potential": [
+      460
+    ],
+    "route": [
+      461
+    ],
+    "for": [
+      462
+    ],
+    "reconstructing": [
+      463
+    ],
+    "palaeostate": [
+      465
+    ],
+    "diapirs.": [
+      470
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-08-21T09:56:20.448147",
+  "created_date": "2025-10-10T00:00:00"
+}

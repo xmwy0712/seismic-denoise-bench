@@ -1,0 +1,433 @@
+{
+  "id": "https://openalex.org/W2046204180",
+  "doi": "https://doi.org/10.3997/2214-4609.201407779",
+  "title": "SWD Surface and Downhole Pilot Recording to Improve PDC Bit Signals",
+  "display_name": "SWD Surface and Downhole Pilot Recording to Improve PDC Bit Signals",
+  "publication_year": 1999,
+  "publication_date": "1999-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2046204180",
+    "doi": "https://doi.org/10.3997/2214-4609.201407779",
+    "mag": "2046204180"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.3997/2214-4609.201407779",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.3997/2214-4609.201407779",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306499655",
+      "display_name": "61st EAGE Conference and Exhibition",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "conference"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "61st EAGE Conference and Exhibition",
+    "raw_type": "proceedings-article"
+  },
+  "type": "conference-paper",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5072490069",
+        "display_name": "Fernando Kevin Miranda",
+        "orcid": "https://orcid.org/0009-0002-5277-7287",
+        "observed_orcids": [
+          "https://orcid.org/0009-0002-5277-7287"
+        ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "F. Miranda",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5007450530",
+        "display_name": "Flávio Poletto",
+        "orcid": "https://orcid.org/0000-0002-9555-2304",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9555-2304"
+        ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "F. Poletto",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5008237721",
+        "display_name": "F. Abramo",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "F. Abramo",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5023435728",
+        "display_name": "Aronne Craglietto",
+        "orcid": "https://orcid.org/0000-0002-4411-8604",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-4411-8604"
+        ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "A. Craglietto",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5070685760",
+        "display_name": "G. Bernasconi",
+        "orcid": "https://orcid.org/0000-0001-9964-4006",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-9964-4006"
+        ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "G. Bernasconi",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 3.5527,
+  "has_fulltext": false,
+  "cited_by_count": 8,
+  "citation_normalized_percentile": {
+    "value": 0.90477658,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 96
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10892",
+    "display_name": "Drilling and Well Engineering",
+    "score": 0.9987000226974487,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2212",
+      "display_name": "Ocean Engineering"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10892",
+      "display_name": "Drilling and Well Engineering",
+      "score": 0.9987000226974487,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9915000200271606,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.979200005531311,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/bit",
+      "display_name": "Bit (key)",
+      "score": 0.7756879329681396
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.5450055003166199
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-hardware",
+      "display_name": "Computer hardware",
+      "score": 0.34697359800338745
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.3337222635746002
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-network",
+      "display_name": "Computer network",
+      "score": 0.11014121770858765
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C117011727",
+      "wikidata": "https://www.wikidata.org/wiki/Q1278488",
+      "display_name": "Bit (key)",
+      "level": 2,
+      "score": 0.7756879329681396
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.5450055003166199
+    },
+    {
+      "id": "https://openalex.org/C9390403",
+      "wikidata": "https://www.wikidata.org/wiki/Q3966",
+      "display_name": "Computer hardware",
+      "level": 1,
+      "score": 0.34697359800338745
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.3337222635746002
+    },
+    {
+      "id": "https://openalex.org/C31258907",
+      "wikidata": "https://www.wikidata.org/wiki/Q1301371",
+      "display_name": "Computer network",
+      "level": 1,
+      "score": 0.11014121770858765
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.3997/2214-4609.201407779",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.3997/2214-4609.201407779",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306499655",
+        "display_name": "61st EAGE Conference and Exhibition",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "conference"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "61st EAGE Conference and Exhibition",
+      "raw_type": "proceedings-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W4249640049",
+    "https://openalex.org/W4246522322",
+    "https://openalex.org/W2319139559",
+    "https://openalex.org/W4238216420",
+    "https://openalex.org/W2355489963",
+    "https://openalex.org/W629252901",
+    "https://openalex.org/W4248212147",
+    "https://openalex.org/W4234661527",
+    "https://openalex.org/W4240898526",
+    "https://openalex.org/W2513853754"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "The": [
+      1
+    ],
+    "extension": [
+      2
+    ],
+    "of": [
+      3,
+      10
+    ],
+    "the": [
+      4,
+      8
+    ],
+    "seismic-while-drilling": [
+      5
+    ],
+    "tool": [
+      6
+    ],
+    "includes": [
+      7
+    ],
+    "use": [
+      9
+    ],
+    "PDC": [
+      11
+    ],
+    "bit": [
+      12
+    ],
+    "signals": [
+      13
+    ],
+    "both": [
+      14
+    ],
+    "for": [
+      15
+    ],
+    "seismic": [
+      16
+    ],
+    "and": [
+      17
+    ],
+    "drilling": [
+      18
+    ],
+    "diagnostic": [
+      19
+    ],
+    "purposes.": [
+      20
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

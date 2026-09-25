@@ -1,0 +1,2002 @@
+{
+  "id": "https://openalex.org/W2037501536",
+  "doi": "https://doi.org/10.7122/151504-ms",
+  "title": "Subsurface Monitoring of Large-Scale CO2 Injection at SECARBC's Phase III Cranfield Site",
+  "display_name": "Subsurface Monitoring of Large-Scale CO2 Injection at SECARBC's Phase III Cranfield Site",
+  "publication_year": 2012,
+  "publication_date": "2012-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2037501536",
+    "doi": "https://doi.org/10.7122/151504-ms",
+    "mag": "2037501536"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.7122/151504-ms",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.7122/151504-ms",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306505673",
+      "display_name": "Carbon Management Technology Conference",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "conference"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Carbon Management Technology Conference",
+    "raw_type": "proceedings-article"
+  },
+  "type": "conference-paper",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5022366959",
+        "display_name": "Vanessa Núñez-López",
+        "orcid": "https://orcid.org/0000-0003-3355-1063"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Vanessa Nunez",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5029072129",
+        "display_name": "Susan Hovorka",
+        "orcid": "https://orcid.org/0000-0002-2689-3113"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1288783943",
+          "display_name": "Bureau of Economic Analysis",
+          "ror": "https://ror.org/03b17a012",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I1343035065"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4403928371",
+          "display_name": "Bureau of Economic Geology",
+          "ror": "https://ror.org/034bxn811",
+          "country_code": null,
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4403928371",
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Susan Hovorka",
+      "raw_affiliation_strings": [
+        "Bureau Of Economic Geology"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Bureau Of Economic Geology",
+          "institution_ids": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I4403928371"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 3.8543,
+  "has_fulltext": false,
+  "cited_by_count": 6,
+  "citation_normalized_percentile": {
+    "value": 0.92652936,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 96
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11302",
+    "display_name": "CO2 Sequestration and Geologic Interactions",
+    "score": 0.9997000098228455,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2305",
+      "display_name": "Environmental Engineering"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/23",
+      "display_name": "Environmental Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11302",
+      "display_name": "CO2 Sequestration and Geologic Interactions",
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2305",
+        "display_name": "Environmental Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11801",
+      "display_name": "Reservoir Engineering and Simulation Methods",
+      "score": 0.9944000244140625,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11588",
+      "display_name": "Atmospheric and Environmental Gas Dynamics",
+      "score": 0.9940000176429749,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2306",
+        "display_name": "Global and Planetary Change"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/citation",
+      "display_name": "Citation",
+      "score": 0.7479029893875122
+    },
+    {
+      "id": "https://openalex.org/keywords/scale",
+      "display_name": "Scale (ratio)",
+      "score": 0.5171429514884949
+    },
+    {
+      "id": "https://openalex.org/keywords/general-partnership",
+      "display_name": "General partnership",
+      "score": 0.49087220430374146
+    },
+    {
+      "id": "https://openalex.org/keywords/library-science",
+      "display_name": "Library science",
+      "score": 0.4499245882034302
+    },
+    {
+      "id": "https://openalex.org/keywords/search-and-rescue",
+      "display_name": "Search and rescue",
+      "score": 0.44846946001052856
+    },
+    {
+      "id": "https://openalex.org/keywords/download",
+      "display_name": "Download",
+      "score": 0.44525063037872314
+    },
+    {
+      "id": "https://openalex.org/keywords/software-deployment",
+      "display_name": "Software deployment",
+      "score": 0.4408162236213684
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.38311105966567993
+    },
+    {
+      "id": "https://openalex.org/keywords/geography",
+      "display_name": "Geography",
+      "score": 0.29887014627456665
+    },
+    {
+      "id": "https://openalex.org/keywords/world-wide-web",
+      "display_name": "World Wide Web",
+      "score": 0.28493109345436096
+    },
+    {
+      "id": "https://openalex.org/keywords/business",
+      "display_name": "Business",
+      "score": 0.2826648950576782
+    },
+    {
+      "id": "https://openalex.org/keywords/cartography",
+      "display_name": "Cartography",
+      "score": 0.2343067228794098
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.11463400721549988
+    },
+    {
+      "id": "https://openalex.org/keywords/operating-system",
+      "display_name": "Operating system",
+      "score": 0.08695778250694275
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2778805511",
+      "wikidata": "https://www.wikidata.org/wiki/Q1713",
+      "display_name": "Citation",
+      "level": 2,
+      "score": 0.7479029893875122
+    },
+    {
+      "id": "https://openalex.org/C2778755073",
+      "wikidata": "https://www.wikidata.org/wiki/Q10858537",
+      "display_name": "Scale (ratio)",
+      "level": 2,
+      "score": 0.5171429514884949
+    },
+    {
+      "id": "https://openalex.org/C71750763",
+      "wikidata": "https://www.wikidata.org/wiki/Q646164",
+      "display_name": "General partnership",
+      "level": 2,
+      "score": 0.49087220430374146
+    },
+    {
+      "id": "https://openalex.org/C161191863",
+      "wikidata": "https://www.wikidata.org/wiki/Q199655",
+      "display_name": "Library science",
+      "level": 1,
+      "score": 0.4499245882034302
+    },
+    {
+      "id": "https://openalex.org/C2775935494",
+      "wikidata": "https://www.wikidata.org/wiki/Q741964",
+      "display_name": "Search and rescue",
+      "level": 3,
+      "score": 0.44846946001052856
+    },
+    {
+      "id": "https://openalex.org/C2780154274",
+      "wikidata": "https://www.wikidata.org/wiki/Q7126717",
+      "display_name": "Download",
+      "level": 2,
+      "score": 0.44525063037872314
+    },
+    {
+      "id": "https://openalex.org/C105339364",
+      "wikidata": "https://www.wikidata.org/wiki/Q2297740",
+      "display_name": "Software deployment",
+      "level": 2,
+      "score": 0.4408162236213684
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.38311105966567993
+    },
+    {
+      "id": "https://openalex.org/C205649164",
+      "wikidata": "https://www.wikidata.org/wiki/Q1071",
+      "display_name": "Geography",
+      "level": 0,
+      "score": 0.29887014627456665
+    },
+    {
+      "id": "https://openalex.org/C136764020",
+      "wikidata": "https://www.wikidata.org/wiki/Q466",
+      "display_name": "World Wide Web",
+      "level": 1,
+      "score": 0.28493109345436096
+    },
+    {
+      "id": "https://openalex.org/C144133560",
+      "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+      "display_name": "Business",
+      "level": 0,
+      "score": 0.2826648950576782
+    },
+    {
+      "id": "https://openalex.org/C58640448",
+      "wikidata": "https://www.wikidata.org/wiki/Q42515",
+      "display_name": "Cartography",
+      "level": 1,
+      "score": 0.2343067228794098
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.11463400721549988
+    },
+    {
+      "id": "https://openalex.org/C111919701",
+      "wikidata": "https://www.wikidata.org/wiki/Q9135",
+      "display_name": "Operating system",
+      "level": 1,
+      "score": 0.08695778250694275
+    },
+    {
+      "id": "https://openalex.org/C90509273",
+      "wikidata": "https://www.wikidata.org/wiki/Q11012",
+      "display_name": "Robot",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C10138342",
+      "wikidata": "https://www.wikidata.org/wiki/Q43015",
+      "display_name": "Finance",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.7122/151504-ms",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.7122/151504-ms",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306505673",
+        "display_name": "Carbon Management Technology Conference",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "conference"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Carbon Management Technology Conference",
+      "raw_type": "proceedings-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/17",
+      "display_name": "Partnerships for the goals",
+      "score": 0.44999998807907104
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320306084",
+      "display_name": "U.S. Department of Energy",
+      "ror": "https://ror.org/01bj3aw27"
+    }
+  ],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2183842793",
+    "https://openalex.org/W2485259751",
+    "https://openalex.org/W96612179",
+    "https://openalex.org/W2770234245",
+    "https://openalex.org/W4287615848",
+    "https://openalex.org/W4291722174",
+    "https://openalex.org/W2566006169",
+    "https://openalex.org/W2226303319",
+    "https://openalex.org/W2384073572",
+    "https://openalex.org/W2116116881"
+  ],
+  "abstract_inverted_index": {
+    "Subsurface": [
+      0
+    ],
+    "Monitoring": [
+      1,
+      93,
+      328
+    ],
+    "of": [
+      2,
+      94,
+      171,
+      192,
+      204,
+      215,
+      228,
+      250,
+      262,
+      272,
+      308,
+      345,
+      373,
+      402,
+      418,
+      432,
+      468,
+      483,
+      495,
+      580,
+      610,
+      614,
+      617
+    ],
+    "Large-Scale": [
+      3,
+      95
+    ],
+    "CO2": [
+      4,
+      96,
+      193,
+      205,
+      240,
+      264,
+      301,
+      335,
+      355,
+      412,
+      484,
+      581
+    ],
+    "Injection": [
+      5,
+      97
+    ],
+    "at": [
+      6,
+      50,
+      98,
+      106,
+      164,
+      220,
+      369,
+      475,
+      477,
+      589,
+      619
+    ],
+    "SECARBC's": [
+      7,
+      99
+    ],
+    "Phase": [
+      8,
+      100
+    ],
+    "III": [
+      9,
+      101
+    ],
+    "Cranfield": [
+      10,
+      102,
+      165,
+      594
+    ],
+    "Site": [
+      11,
+      25,
+      45,
+      85
+    ],
+    "Vanessa": [
+      12,
+      14
+    ],
+    "Nunez;": [
+      13
+    ],
+    "Nunez": [
+      15
+    ],
+    "Search": [
+      16,
+      36,
+      84,
+      133,
+      138,
+      154,
+      156
+    ],
+    "for": [
+      17,
+      37,
+      386,
+      409,
+      584,
+      626
+    ],
+    "other": [
+      18,
+      38
+    ],
+    "works": [
+      19,
+      39
+    ],
+    "by": [
+      20,
+      40,
+      504
+    ],
+    "this": [
+      21,
+      41,
+      351,
+      379,
+      492,
+      682
+    ],
+    "author": [
+      22,
+      42
+    ],
+    "on:": [
+      23,
+      43
+    ],
+    "This": [
+      24,
+      44,
+      71,
+      667
+    ],
+    "Google": [
+      26,
+      46
+    ],
+    "Scholar": [
+      27,
+      47
+    ],
+    "Susan": [
+      28,
+      30,
+      90
+    ],
+    "Hovorka": [
+      29,
+      31
+    ],
+    "Bureau": [
+      32,
+      609
+    ],
+    "Of": [
+      33
+    ],
+    "Economic": [
+      34,
+      611
+    ],
+    "Geology": [
+      35,
+      612
+    ],
+    "Paper": [
+      48,
+      61,
+      104
+    ],
+    "presented": [
+      49,
+      105
+    ],
+    "the": [
+      51,
+      107,
+      172,
+      216,
+      225,
+      233,
+      260,
+      263,
+      270,
+      273,
+      304,
+      309,
+      315,
+      370,
+      374,
+      393,
+      444,
+      462,
+      469,
+      496,
+      505,
+      512,
+      516,
+      520,
+      532,
+      545,
+      553,
+      562,
+      608,
+      615,
+      622,
+      628,
+      635
+    ],
+    "Carbon": [
+      52,
+      108,
+      150,
+      424,
+      434,
+      499,
+      601,
+      675
+    ],
+    "Management": [
+      53,
+      109,
+      147,
+      151,
+      666,
+      676
+    ],
+    "Technology": [
+      54,
+      110,
+      148,
+      152,
+      677
+    ],
+    "Conference,": [
+      55,
+      111
+    ],
+    "Orlando,": [
+      56,
+      112
+    ],
+    "Florida,": [
+      57,
+      113
+    ],
+    "USA,": [
+      58,
+      114
+    ],
+    "February": [
+      59,
+      66,
+      115
+    ],
+    "2012.": [
+      60,
+      116,
+      674
+    ],
+    "Number:": [
+      62
+    ],
+    "CMTC-151504-MS": [
+      63
+    ],
+    "https://doi.org/10.7122/151504-MS": [
+      64,
+      118
+    ],
+    "Published:": [
+      65
+    ],
+    "07": [
+      67
+    ],
+    "2012": [
+      68
+    ],
+    "Cite": [
+      69
+    ],
+    "View": [
+      70
+    ],
+    "Citation": [
+      72,
+      75,
+      86
+    ],
+    "Add": [
+      73
+    ],
+    "to": [
+      74,
+      236,
+      258,
+      442,
+      449,
+      522
+    ],
+    "Manager": [
+      76,
+      125
+    ],
+    "Share": [
+      77,
+      79
+    ],
+    "Icon": [
+      78
+    ],
+    "Twitter": [
+      80
+    ],
+    "LinkedIn": [
+      81
+    ],
+    "Get": [
+      82
+    ],
+    "Permissions": [
+      83
+    ],
+    "Nunez,": [
+      87
+    ],
+    "Vanessa,": [
+      88
+    ],
+    "and": [
+      89,
+      183,
+      245,
+      252,
+      266,
+      291,
+      311,
+      324,
+      329,
+      358,
+      389,
+      400,
+      447,
+      451,
+      552,
+      565,
+      634
+    ],
+    "Hovorka.": [
+      91
+    ],
+    "\"Subsurface": [
+      92
+    ],
+    "Site.\"": [
+      103
+    ],
+    "doi:": [
+      117
+    ],
+    "Download": [
+      119
+    ],
+    "citation": [
+      120
+    ],
+    "file:": [
+      121
+    ],
+    "Ris": [
+      122
+    ],
+    "(Zotero)": [
+      123
+    ],
+    "Reference": [
+      124
+    ],
+    "EasyBib": [
+      126
+    ],
+    "Bookends": [
+      127
+    ],
+    "Mendeley": [
+      128
+    ],
+    "Papers": [
+      129
+    ],
+    "EndNote": [
+      130
+    ],
+    "RefWorks": [
+      131
+    ],
+    "BibTex": [
+      132
+    ],
+    "nav": [
+      134
+    ],
+    "search": [
+      135,
+      136,
+      142
+    ],
+    "input": [
+      137,
+      139
+    ],
+    "auto": [
+      140
+    ],
+    "suggest": [
+      141
+    ],
+    "filter": [
+      143
+    ],
+    "All": [
+      144
+    ],
+    "ContentAll": [
+      145
+    ],
+    "ProceedingsCarbon": [
+      146
+    ],
+    "ConferenceCMTC": [
+      149
+    ],
+    "Conference": [
+      153,
+      678
+    ],
+    "Advanced": [
+      155
+    ],
+    "AbstractA": [
+      157
+    ],
+    "research-focused": [
+      158
+    ],
+    "large-scale": [
+      159,
+      472
+    ],
+    "carbon": [
+      160,
+      454
+    ],
+    "dioxide": [
+      161,
+      455
+    ],
+    "(CO2)": [
+      162
+    ],
+    "injection": [
+      163,
+      302,
+      313,
+      330,
+      526,
+      648
+    ],
+    "Field,": [
+      166
+    ],
+    "Mississippi,": [
+      167,
+      551
+    ],
+    "conducted": [
+      168
+    ],
+    "as": [
+      169,
+      430,
+      577
+    ],
+    "part": [
+      170,
+      431,
+      494
+    ],
+    "Southeast": [
+      173,
+      497
+    ],
+    "Regional": [
+      174,
+      423,
+      498
+    ],
+    "Sequestration": [
+      175,
+      425,
+      435,
+      500
+    ],
+    "Partnership": [
+      176,
+      501
+    ],
+    "(SECARB),": [
+      177
+    ],
+    "is": [
+      178,
+      621,
+      669
+    ],
+    "building": [
+      179
+    ],
+    "experience": [
+      180
+    ],
+    "in": [
+      181,
+      189,
+      239,
+      275,
+      295,
+      337,
+      428,
+      456,
+      491,
+      515,
+      519,
+      550,
+      596
+    ],
+    "technologies": [
+      182,
+      255,
+      405,
+      448
+    ],
+    "approaches": [
+      184,
+      446
+    ],
+    "that": [
+      185,
+      524
+    ],
+    "may": [
+      186
+    ],
+    "be": [
+      187,
+      407
+    ],
+    "valuable": [
+      188
+    ],
+    "commercial": [
+      190,
+      411
+    ],
+    "deployment": [
+      191
+    ],
+    "storage": [
+      194,
+      242,
+      413
+    ],
+    "projects.": [
+      195
+    ],
+    "Since": [
+      196
+    ],
+    "July": [
+      197
+    ],
+    "2008,": [
+      198
+    ],
+    "more": [
+      199
+    ],
+    "than": [
+      200
+    ],
+    "3": [
+      201
+    ],
+    "million": [
+      202,
+      480
+    ],
+    "tons": [
+      203,
+      482
+    ],
+    "have": [
+      206
+    ],
+    "been": [
+      207
+    ],
+    "injected": [
+      208,
+      583
+    ],
+    "into": [
+      209,
+      303,
+      314
+    ],
+    "a": [
+      210,
+      383,
+      604,
+      689
+    ],
+    "25": [
+      211
+    ],
+    "m": [
+      212
+    ],
+    "thick": [
+      213
+    ],
+    "interval": [
+      214
+    ],
+    "Lower": [
+      217
+    ],
+    "Tuscaloosa": [
+      218
+    ],
+    "Formation": [
+      219,
+      663
+    ],
+    "3.2": [
+      221
+    ],
+    "km": [
+      222
+    ],
+    "depth,": [
+      223
+    ],
+    "with": [
+      224,
+      232
+    ],
+    "general": [
+      226
+    ],
+    "goal": [
+      227
+    ],
+    "providing": [
+      229
+    ],
+    "policy": [
+      230
+    ],
+    "makers": [
+      231
+    ],
+    "information": [
+      234
+    ],
+    "needed": [
+      235
+    ],
+    "increase": [
+      237
+    ],
+    "confidence": [
+      238
+    ],
+    "geologic": [
+      241,
+      457
+    ],
+    "capacity": [
+      243
+    ],
+    "predictions": [
+      244
+    ],
+    "retention": [
+      246
+    ],
+    "estimates.": [
+      247
+    ],
+    "A": [
+      248,
+      343
+    ],
+    "suite": [
+      249
+    ],
+    "novel": [
+      251
+    ],
+    "traditional": [
+      253
+    ],
+    "monitoring": [
+      254,
+      280,
+      394,
+      404,
+      530,
+      572
+    ],
+    "was": [
+      256,
+      511
+    ],
+    "utilized": [
+      257
+    ],
+    "observe": [
+      259
+    ],
+    "evolution": [
+      261
+    ],
+    "plume": [
+      265
+    ],
+    "obtain": [
+      267
+    ],
+    "data": [
+      268
+    ],
+    "about": [
+      269
+    ],
+    "performance": [
+      271
+    ],
+    "reservoir": [
+      274,
+      654
+    ],
+    "multiphase": [
+      276,
+      292
+    ],
+    "flow": [
+      277,
+      293,
+      353,
+      367
+    ],
+    "conditions.": [
+      278
+    ],
+    "The": [
+      279,
+      298,
+      487,
+      559,
+      598
+    ],
+    "program": [
+      281
+    ],
+    "focused": [
+      282,
+      566
+    ],
+    "on": [
+      283,
+      397,
+      567
+    ],
+    "above-zone": [
+      284
+    ],
+    "pressure": [
+      285
+    ],
+    "surveillance,": [
+      286
+    ],
+    "down": [
+      287
+    ],
+    "dip": [
+      288
+    ],
+    "plume-edge": [
+      289
+    ],
+    "mapping,": [
+      290
+    ],
+    "process": [
+      294
+    ],
+    "heterogeneous": [
+      296
+    ],
+    "sandstone.": [
+      297
+    ],
+    "project": [
+      299,
+      381,
+      514
+    ],
+    "started": [
+      300
+    ],
+    "oil": [
+      305,
+      321,
+      586,
+      651
+    ],
+    "bearing": [
+      306
+    ],
+    "formation": [
+      307
+    ],
+    "field": [
+      310
+    ],
+    "advanced": [
+      312
+    ],
+    "associated": [
+      316
+    ],
+    "water": [
+      317
+    ],
+    "leg,": [
+      318
+    ],
+    "linking": [
+      319
+    ],
+    "enhanced": [
+      320,
+      585
+    ],
+    "recovery": [
+      322,
+      587
+    ],
+    "(EOR)": [
+      323,
+      588
+    ],
+    "downdip": [
+      325,
+      357
+    ],
+    "brine": [
+      326
+    ],
+    "storage.": [
+      327
+    ],
+    "continues": [
+      331
+    ],
+    "through": [
+      332
+    ],
+    "2017.Key": [
+      333
+    ],
+    "findings:": [
+      334
+    ],
+    "moved": [
+      336,
+      356
+    ],
+    "preferential": [
+      338
+    ],
+    "paths": [
+      339
+    ],
+    "along": [
+      340
+    ],
+    "fluvial": [
+      341
+    ],
+    "channels.": [
+      342
+    ],
+    "number": [
+      344
+    ],
+    "successfully": [
+      346
+    ],
+    "deployed": [
+      347
+    ],
+    "imaging": [
+      348
+    ],
+    "tools": [
+      349
+    ],
+    "support": [
+      350
+    ],
+    "channel-dominated": [
+      352
+    ],
+    "theory.": [
+      354
+    ],
+    "not": [
+      359,
+      366
+    ],
+    "preferentially": [
+      360
+    ],
+    "updip,": [
+      361
+    ],
+    "indicating": [
+      362
+    ],
+    "buoyancy": [
+      363
+    ],
+    "forces": [
+      364
+    ],
+    "were": [
+      365,
+      582
+    ],
+    "dominating": [
+      368
+    ],
+    "interwell": [
+      371
+    ],
+    "scale": [
+      372
+    ],
+    "experiment.We": [
+      375
+    ],
+    "hope": [
+      376
+    ],
+    "results": [
+      377
+    ],
+    "from": [
+      378,
+      392
+    ],
+    "experimental": [
+      380
+    ],
+    "provide": [
+      382
+    ],
+    "strong": [
+      384
+    ],
+    "foundation": [
+      385
+    ],
+    "transferable": [
+      387
+    ],
+    "research": [
+      388
+    ],
+    "knowledge": [
+      390
+    ],
+    "gain": [
+      391
+    ],
+    "program,": [
+      395
+    ],
+    "based": [
+      396
+    ],
+    "both": [
+      398,
+      627
+    ],
+    "strengths": [
+      399
+    ],
+    "weaknesses": [
+      401
+    ],
+    "applied": [
+      403
+    ],
+    "will": [
+      406
+    ],
+    "relevant": [
+      408
+    ],
+    "future": [
+      410
+    ],
+    "applications.1.": [
+      414
+    ],
+    "IntroductionThe": [
+      415
+    ],
+    "U.S.": [
+      416,
+      517
+    ],
+    "Department": [
+      417
+    ],
+    "Energy": [
+      419,
+      508
+    ],
+    "(DOE)": [
+      420
+    ],
+    "funded": [
+      421
+    ],
+    "seven": [
+      422
+    ],
+    "Partnerships": [
+      426
+    ],
+    "(RCSP)": [
+      427
+    ],
+    "2003": [
+      429
+    ],
+    "its": [
+      433
+    ],
+    "Program.": [
+      436
+    ],
+    "These": [
+      437
+    ],
+    "partnerships": [
+      438
+    ],
+    "are": [
+      439,
+      485
+    ],
+    "undertaking": [
+      440
+    ],
+    "efforts": [
+      441
+    ],
+    "determine": [
+      443
+    ],
+    "best": [
+      445
+    ],
+    "safely": [
+      450
+    ],
+    "permanently": [
+      452
+    ],
+    "store": [
+      453
+    ],
+    "formations": [
+      458
+    ],
+    "(NETL": [
+      459
+    ],
+    "website).": [
+      460
+    ],
+    "During": [
+      461
+    ],
+    "current": [
+      463
+    ],
+    "development": [
+      464
+    ],
+    "phase": [
+      465,
+      534
+    ],
+    "(phase": [
+      466,
+      535
+    ],
+    "III)": [
+      467
+    ],
+    "partnerships,": [
+      470
+    ],
+    "several": [
+      471
+    ],
+    "projects": [
+      473
+    ],
+    "aiming": [
+      474
+    ],
+    "injecting": [
+      476
+    ],
+    "least": [
+      478
+    ],
+    "one": [
+      479
+    ],
+    "metric": [
+      481
+    ],
+    "underway.": [
+      486
+    ],
+    "\"Early": [
+      488
+    ],
+    "Test\"": [
+      489
+    ],
+    "described": [
+      490
+    ],
+    "paper,": [
+      493
+    ],
+    "(SECARB)": [
+      502
+    ],
+    "led": [
+      503
+    ],
+    "Southern": [
+      506
+    ],
+    "States": [
+      507
+    ],
+    "Board": [
+      509
+    ],
+    "(SSEB),": [
+      510
+    ],
+    "first": [
+      513
+    ],
+    "(fifth": [
+      518
+    ],
+    "world)": [
+      521
+    ],
+    "document": [
+      523
+    ],
+    "large": [
+      525,
+      578
+    ],
+    "volume": [
+      527
+    ],
+    "under": [
+      528
+    ],
+    "CCS": [
+      529
+    ],
+    "conditions.During": [
+      531
+    ],
+    "validation": [
+      533
+    ],
+    "II),": [
+      536
+    ],
+    "SECARB": [
+      537
+    ],
+    "undertook": [
+      538
+    ],
+    "four": [
+      539
+    ],
+    "tests:": [
+      540
+    ],
+    "two": [
+      541
+    ],
+    "Coal": [
+      542
+    ],
+    "Seam": [
+      543
+    ],
+    "Projects,": [
+      544
+    ],
+    "Saline": [
+      546
+    ],
+    "Reservoir": [
+      547,
+      661
+    ],
+    "Field": [
+      548,
+      595
+    ],
+    "Test": [
+      549,
+      564
+    ],
+    "Gulf": [
+      554,
+      599,
+      629
+    ],
+    "Coast": [
+      555,
+      600,
+      630
+    ],
+    "Stacked": [
+      556,
+      631
+    ],
+    "Storage": [
+      557,
+      632
+    ],
+    "Project.": [
+      558
+    ],
+    "latter": [
+      560
+    ],
+    "preceded": [
+      561
+    ],
+    "Early": [
+      563,
+      636
+    ],
+    "developing": [
+      568
+    ],
+    "pressure-based": [
+      569
+    ],
+    "above": [
+      570
+    ],
+    "zone": [
+      571
+    ],
+    "over": [
+      573
+    ],
+    "an": [
+      574
+    ],
+    "extended": [
+      575
+    ],
+    "period,": [
+      576
+    ],
+    "volumes": [
+      579
+    ],
+    "Denbury": [
+      590
+    ],
+    "Onshore": [
+      591
+    ],
+    "LLC": [
+      592
+    ],
+    "operated": [
+      593
+    ],
+    "Mississippi.": [
+      597
+    ],
+    "Center": [
+      602
+    ],
+    "(GCCC),": [
+      603
+    ],
+    "consortium": [
+      605
+    ],
+    "functioning": [
+      606
+    ],
+    "within": [
+      607
+    ],
+    "(BEG)": [
+      613
+    ],
+    "University": [
+      616
+    ],
+    "Texas": [
+      618
+    ],
+    "Austin": [
+      620
+    ],
+    "technical": [
+      623
+    ],
+    "leading": [
+      624
+    ],
+    "institution": [
+      625
+    ],
+    "Project": [
+      633
+    ],
+    "Test.": [
+      637
+    ],
+    "Keywords:": [
+      638
+    ],
+    "secarb,": [
+      639
+    ],
+    "gccc": [
+      640
+    ],
+    "digital": [
+      641
+    ],
+    "publication": [
+      642
+    ],
+    "series,": [
+      643
+    ],
+    "mississippi,": [
+      644
+    ],
+    "co2": [
+      645
+    ],
+    "injection,": [
+      646
+    ],
+    "meckel,": [
+      647
+    ],
+    "interval,": [
+      649
+    ],
+    "upstream": [
+      650
+    ],
+    "&": [
+      652,
+      665
+    ],
+    "gas,": [
+      653
+    ],
+    "characterization,": [
+      655
+    ],
+    "co": [
+      656
+    ],
+    "2,": [
+      657
+    ],
+    "cmtc": [
+      658
+    ],
+    "151504": [
+      659
+    ],
+    "Subjects:": [
+      660
+    ],
+    "Characterization,": [
+      662
+    ],
+    "Evaluation": [
+      664
+    ],
+    "content": [
+      668
+    ],
+    "only": [
+      670
+    ],
+    "available": [
+      671
+    ],
+    "via": [
+      672
+    ],
+    "PDF.": [
+      673
+    ],
+    "You": [
+      679
+    ],
+    "can": [
+      680
+    ],
+    "access": [
+      681
+    ],
+    "article": [
+      683
+    ],
+    "if": [
+      684
+    ],
+    "you": [
+      685
+    ],
+    "purchase": [
+      686
+    ],
+    "or": [
+      687
+    ],
+    "spend": [
+      688
+    ],
+    "download.": [
+      690
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-08-21T09:56:20.448147",
+  "created_date": "2025-10-10T00:00:00"
+}

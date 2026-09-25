@@ -1,0 +1,3111 @@
+{
+  "id": "https://openalex.org/W1991522703",
+  "doi": "https://doi.org/10.1016/j.egypro.2011.02.274",
+  "title": "Monitoring a large volume CO2 injection: Year two results from SECARB project at Denbury’s Cranfield, Mississippi, USA",
+  "display_name": "Monitoring a large volume CO2 injection: Year two results from SECARB project at Denbury’s Cranfield, Mississippi, USA",
+  "publication_year": 2011,
+  "publication_date": "2011-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1991522703",
+    "doi": "https://doi.org/10.1016/j.egypro.2011.02.274",
+    "mag": "1991522703"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/j.egypro.2011.02.274",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.egypro.2011.02.274",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S75069817",
+      "display_name": "Energy Procedia",
+      "issn_l": "1876-6102",
+      "issn": [
+        "1876-6102"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Energy Procedia",
+    "raw_type": "journal-article"
+  },
+  "type": "conference-paper",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "diamond",
+    "oa_url": "https://doi.org/10.1016/j.egypro.2011.02.274",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5029072129",
+        "display_name": "Susan Hovorka",
+        "orcid": "https://orcid.org/0000-0002-2689-3113",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-2689-3113"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1288783943",
+          "display_name": "Bureau of Economic Analysis",
+          "ror": "https://ror.org/03b17a012",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I1343035065"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Susan D. Hovorka",
+      "raw_affiliation_strings": [
+        "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin TX 78713, USA",
+        "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX 78713, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin TX 78713, USA",
+          "institution_ids": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I86519309"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX 78713, USA",
+          "institution_ids": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5004963138",
+        "display_name": "Timothy A. Meckel",
+        "orcid": "https://orcid.org/0000-0001-8817-9065",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-8817-9065"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1288783943",
+          "display_name": "Bureau of Economic Analysis",
+          "ror": "https://ror.org/03b17a012",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I1343035065"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Timothy A. Meckel",
+      "raw_affiliation_strings": [
+        "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin TX 78713, USA",
+        "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX 78713, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin TX 78713, USA",
+          "institution_ids": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I86519309"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX 78713, USA",
+          "institution_ids": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5049637511",
+        "display_name": "Ramon H. Treviño",
+        "orcid": "https://orcid.org/0000-0002-8559-1916",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-8559-1916"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1288783943",
+          "display_name": "Bureau of Economic Analysis",
+          "ror": "https://ror.org/03b17a012",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I1343035065"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ramon H. Trevino",
+      "raw_affiliation_strings": [
+        "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin TX 78713, USA",
+        "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX 78713, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin TX 78713, USA",
+          "institution_ids": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I86519309"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX 78713, USA",
+          "institution_ids": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5081760857",
+        "display_name": "Jiemin Lu",
+        "orcid": "https://orcid.org/0000-0001-6783-5510",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-6783-5510"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1288783943",
+          "display_name": "Bureau of Economic Analysis",
+          "ror": "https://ror.org/03b17a012",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I1343035065"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jiemin Lu",
+      "raw_affiliation_strings": [
+        "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin TX 78713, USA",
+        "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX 78713, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin TX 78713, USA",
+          "institution_ids": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I86519309"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX 78713, USA",
+          "institution_ids": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5026659208",
+        "display_name": "Jean‐Philippe Nicot",
+        "orcid": "https://orcid.org/0000-0002-3676-362X",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-3676-362X"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1288783943",
+          "display_name": "Bureau of Economic Analysis",
+          "ror": "https://ror.org/03b17a012",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I1343035065"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jean-Philippe Nicot",
+      "raw_affiliation_strings": [
+        "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin TX 78713, USA",
+        "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX 78713, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin TX 78713, USA",
+          "institution_ids": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I86519309"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX 78713, USA",
+          "institution_ids": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5109101736",
+        "display_name": "Jong-Won Choi",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1288783943",
+          "display_name": "Bureau of Economic Analysis",
+          "ror": "https://ror.org/03b17a012",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I1343035065"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jong-Won Choi",
+      "raw_affiliation_strings": [
+        "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin TX 78713, USA",
+        "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX 78713, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin TX 78713, USA",
+          "institution_ids": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I86519309"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX 78713, USA",
+          "institution_ids": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5051608164",
+        "display_name": "David Freeman",
+        "orcid": "https://orcid.org/0000-0002-1588-0050",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-1588-0050"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210142445",
+          "display_name": "SA Technologies (United States)",
+          "ror": "https://ror.org/046qmva50",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210142445"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "David Freeman",
+      "raw_affiliation_strings": [
+        "Sandia Technologies LLC, Houston TX 77041, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Sandia Technologies LLC, Houston TX 77041, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210142445"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5007935185",
+        "display_name": "Paul Cook",
+        "orcid": "https://orcid.org/0000-0002-8586-4865",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-8586-4865"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I148283060",
+          "display_name": "Lawrence Berkeley National Laboratory",
+          "ror": "https://ror.org/02jbv0t02",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I39565521"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Paul Cook",
+      "raw_affiliation_strings": [
+        "Lawrence Berkeley National Lab, Berkeley, CA, 94720, USA",
+        "Lawrence Berkeley National Lab., Berkeley, CA 94720, USA#TAB#"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Lawrence Berkeley National Lab, Berkeley, CA, 94720, USA",
+          "institution_ids": [
+            "https://openalex.org/I148283060"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Lawrence Berkeley National Lab., Berkeley, CA 94720, USA#TAB#",
+          "institution_ids": [
+            "https://openalex.org/I148283060"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5113533092",
+        "display_name": "Thomas M. Daley",
+        "orcid": "https://orcid.org/0000-0001-9445-0843",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-9445-0843"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I148283060",
+          "display_name": "Lawrence Berkeley National Laboratory",
+          "ror": "https://ror.org/02jbv0t02",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I39565521"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Thomas M. Daley",
+      "raw_affiliation_strings": [
+        "Lawrence Berkeley National Lab, Berkeley, CA, 94720, USA",
+        "Lawrence Berkeley National Lab., Berkeley, CA 94720, USA#TAB#"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Lawrence Berkeley National Lab, Berkeley, CA, 94720, USA",
+          "institution_ids": [
+            "https://openalex.org/I148283060"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Lawrence Berkeley National Lab., Berkeley, CA 94720, USA#TAB#",
+          "institution_ids": [
+            "https://openalex.org/I148283060"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5061785448",
+        "display_name": "Jonathan Blair Ajo-Franklin",
+        "orcid": "https://orcid.org/0000-0002-6666-4702",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-6666-4702"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I148283060",
+          "display_name": "Lawrence Berkeley National Laboratory",
+          "ror": "https://ror.org/02jbv0t02",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I39565521"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jonathan B. Ajo-Franklin",
+      "raw_affiliation_strings": [
+        "Lawrence Berkeley National Lab, Berkeley, CA, 94720, USA",
+        "Lawrence Berkeley National Lab., Berkeley, CA 94720, USA#TAB#"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Lawrence Berkeley National Lab, Berkeley, CA, 94720, USA",
+          "institution_ids": [
+            "https://openalex.org/I148283060"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Lawrence Berkeley National Lab., Berkeley, CA 94720, USA#TAB#",
+          "institution_ids": [
+            "https://openalex.org/I148283060"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5030722699",
+        "display_name": "Barry M. Freifeild",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I148283060",
+          "display_name": "Lawrence Berkeley National Laboratory",
+          "ror": "https://ror.org/02jbv0t02",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I39565521"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Barry M. Freifeild",
+      "raw_affiliation_strings": [
+        "Lawrence Berkeley National Lab, Berkeley, CA, 94720, USA",
+        "Lawrence Berkeley National Lab., Berkeley, CA 94720, USA#TAB#"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Lawrence Berkeley National Lab, Berkeley, CA, 94720, USA",
+          "institution_ids": [
+            "https://openalex.org/I148283060"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Lawrence Berkeley National Lab., Berkeley, CA 94720, USA#TAB#",
+          "institution_ids": [
+            "https://openalex.org/I148283060"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5044728534",
+        "display_name": "Christine A. Doughty",
+        "orcid": "https://orcid.org/0000-0001-9804-4332",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-9804-4332"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I148283060",
+          "display_name": "Lawrence Berkeley National Laboratory",
+          "ror": "https://ror.org/02jbv0t02",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I39565521"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Christine Doughty",
+      "raw_affiliation_strings": [
+        "Lawrence Berkeley National Lab, Berkeley, CA, 94720, USA",
+        "Lawrence Berkeley National Lab., Berkeley, CA 94720, USA#TAB#"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Lawrence Berkeley National Lab, Berkeley, CA, 94720, USA",
+          "institution_ids": [
+            "https://openalex.org/I148283060"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Lawrence Berkeley National Lab., Berkeley, CA 94720, USA#TAB#",
+          "institution_ids": [
+            "https://openalex.org/I148283060"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5088336722",
+        "display_name": "Charles R. Carrigan",
+        "orcid": "https://orcid.org/0000-0001-9536-9326",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-9536-9326"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1282311441",
+          "display_name": "Lawrence Livermore National Laboratory",
+          "ror": "https://ror.org/041nk4h53",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1282311441",
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I198811213",
+            "https://openalex.org/I4210138311"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Charles R. Carrigan",
+      "raw_affiliation_strings": [
+        "Lawrence Livermore National Laboratory, Livermore CA 94551, USA",
+        "#N#Lawrence Livermore National Laboratory, Livermore, CA 94551, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Lawrence Livermore National Laboratory, Livermore CA 94551, USA",
+          "institution_ids": [
+            "https://openalex.org/I1282311441"
+          ]
+        },
+        {
+          "raw_affiliation_string": "#N#Lawrence Livermore National Laboratory, Livermore, CA 94551, USA",
+          "institution_ids": [
+            "https://openalex.org/I1282311441"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5036449833",
+        "display_name": "Doug La Brecque",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210095172",
+          "display_name": "Multi-Phase Technologies (United States)",
+          "ror": "https://ror.org/00kj8fh75",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210095172"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Doug La Brecque",
+      "raw_affiliation_strings": [
+        "Multi-Phase Technologies, LLC, Sparks, NV, 89431, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Multi-Phase Technologies, LLC, Sparks, NV, 89431, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210095172"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5049924056",
+        "display_name": "Yousif K. Kharaka",
+        "orcid": "https://orcid.org/0000-0001-9861-8260",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-9861-8260"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1286329397",
+          "display_name": "United States Geological Survey",
+          "ror": "https://ror.org/035a68863",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1286329397",
+            "https://openalex.org/I1335927249"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yousif K. Kharaka",
+      "raw_affiliation_strings": [
+        "U.S. Geological Survey, Menlo Park, CA, 94025, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "U.S. Geological Survey, Menlo Park, CA, 94025, USA",
+          "institution_ids": [
+            "https://openalex.org/I1286329397"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5055028885",
+        "display_name": "James J. Thordsen",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1286329397",
+          "display_name": "United States Geological Survey",
+          "ror": "https://ror.org/035a68863",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1286329397",
+            "https://openalex.org/I1335927249"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "James J. Thordsen",
+      "raw_affiliation_strings": [
+        "U.S. Geological Survey, Menlo Park, CA, 94025, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "U.S. Geological Survey, Menlo Park, CA, 94025, USA",
+          "institution_ids": [
+            "https://openalex.org/I1286329397"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5087373126",
+        "display_name": "Tommy J. Phelps",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1289243028",
+          "display_name": "Oak Ridge National Laboratory",
+          "ror": "https://ror.org/01qz5mb56",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1289243028",
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I39565521",
+            "https://openalex.org/I4210159294"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Tommy J. Phelps",
+      "raw_affiliation_strings": [
+        "Oak Ridge National Lab, Oak Ridge, TN, 37831, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Oak Ridge National Lab, Oak Ridge, TN, 37831, USA",
+          "institution_ids": [
+            "https://openalex.org/I1289243028"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5039794310",
+        "display_name": "Changbing Yang",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1288783943",
+          "display_name": "Bureau of Economic Analysis",
+          "ror": "https://ror.org/03b17a012",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I1343035065"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Changbing Yang",
+      "raw_affiliation_strings": [
+        "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin TX 78713, USA",
+        "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX 78713, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin TX 78713, USA",
+          "institution_ids": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I86519309"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX 78713, USA",
+          "institution_ids": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5071844944",
+        "display_name": "Katherine Romanak",
+        "orcid": "https://orcid.org/0000-0002-8763-7818",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-8763-7818"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1288783943",
+          "display_name": "Bureau of Economic Analysis",
+          "ror": "https://ror.org/03b17a012",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I1343035065"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Katherine D. Romanak",
+      "raw_affiliation_strings": [
+        "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin TX 78713, USA",
+        "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX 78713, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin TX 78713, USA",
+          "institution_ids": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I86519309"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX 78713, USA",
+          "institution_ids": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5073272634",
+        "display_name": "Tongwei Zhang",
+        "orcid": "https://orcid.org/0000-0002-9326-6144",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9326-6144"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1288783943",
+          "display_name": "Bureau of Economic Analysis",
+          "ror": "https://ror.org/03b17a012",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I1343035065"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Tongwei Zhang",
+      "raw_affiliation_strings": [
+        "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin TX 78713, USA",
+        "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX 78713, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin TX 78713, USA",
+          "institution_ids": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I86519309"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Gulf Coast Carbon Center, Bureau of Economic Geology, Jackson School of Geosciences, The University of Texas at Austin, Austin, TX 78713, USA",
+          "institution_ids": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5080490896",
+        "display_name": "Robert M. Holt",
+        "orcid": "https://orcid.org/0000-0003-0295-4142",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-0295-4142"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I368840534",
+          "display_name": "University of Mississippi",
+          "ror": "https://ror.org/02teq1165",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I368840534",
+            "https://openalex.org/I4210141039"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Robert M. Holt",
+      "raw_affiliation_strings": [
+        "University of Mississippi, Oxford, MS, 38677, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Mississippi, Oxford, MS, 38677, USA",
+          "institution_ids": [
+            "https://openalex.org/I368840534"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5042574647",
+        "display_name": "Jeffery S. Lindler",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210148646",
+          "display_name": "Clean Energy (United States)",
+          "ror": "https://ror.org/04fdch955",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210148646"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I99041443",
+          "display_name": "Mississippi State University",
+          "ror": "https://ror.org/0432jq872",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210141039",
+            "https://openalex.org/I99041443"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jeffery S. Lindler",
+      "raw_affiliation_strings": [
+        "Institute for Clean Energy Technology, Mississippi State University, MS 39762, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute for Clean Energy Technology, Mississippi State University, MS 39762, USA",
+          "institution_ids": [
+            "https://openalex.org/I4210148646",
+            "https://openalex.org/I99041443"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5030935888",
+        "display_name": "Robert Butsch",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210090857",
+          "display_name": "Schlumberger (United States)",
+          "ror": "https://ror.org/009m79n22",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210090857",
+            "https://openalex.org/I4210092184"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Robert J. Butsch",
+      "raw_affiliation_strings": [
+        "Schlumberger Carbon Services, Houston, TX USA 77056"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Schlumberger Carbon Services, Houston, TX USA 77056",
+          "institution_ids": [
+            "https://openalex.org/I4210090857"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 12,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 26.3573,
+  "has_fulltext": false,
+  "cited_by_count": 107,
+  "citation_normalized_percentile": {
+    "value": 0.99889074,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "4",
+    "issue": null,
+    "first_page": "3478",
+    "last_page": "3485"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11302",
+    "display_name": "CO2 Sequestration and Geologic Interactions",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2305",
+      "display_name": "Environmental Engineering"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/23",
+      "display_name": "Environmental Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11302",
+      "display_name": "CO2 Sequestration and Geologic Interactions",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2305",
+        "display_name": "Environmental Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.9973999857902527,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11801",
+      "display_name": "Reservoir Engineering and Simulation Methods",
+      "score": 0.9962000250816345,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/anticline",
+      "display_name": "Anticline",
+      "score": 0.7594568133354187
+    },
+    {
+      "id": "https://openalex.org/keywords/petroleum-engineering",
+      "display_name": "Petroleum engineering",
+      "score": 0.6489192843437195
+    },
+    {
+      "id": "https://openalex.org/keywords/steam-injection",
+      "display_name": "Steam injection",
+      "score": 0.499056339263916
+    },
+    {
+      "id": "https://openalex.org/keywords/environmental-science",
+      "display_name": "Environmental science",
+      "score": 0.48916009068489075
+    },
+    {
+      "id": "https://openalex.org/keywords/cabin-pressurization",
+      "display_name": "Cabin pressurization",
+      "score": 0.48885267972946167
+    },
+    {
+      "id": "https://openalex.org/keywords/enhanced-oil-recovery",
+      "display_name": "Enhanced oil recovery",
+      "score": 0.4786016643047333
+    },
+    {
+      "id": "https://openalex.org/keywords/injection-well",
+      "display_name": "Injection well",
+      "score": 0.47383150458335876
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.4728715121746063
+    },
+    {
+      "id": "https://openalex.org/keywords/water-injection",
+      "display_name": "Water injection (oil production)",
+      "score": 0.4403444528579712
+    },
+    {
+      "id": "https://openalex.org/keywords/oil-in-place",
+      "display_name": "Oil in place",
+      "score": 0.4218997657299042
+    },
+    {
+      "id": "https://openalex.org/keywords/hydrology",
+      "display_name": "Hydrology (agriculture)",
+      "score": 0.3852994441986084
+    },
+    {
+      "id": "https://openalex.org/keywords/petroleum",
+      "display_name": "Petroleum",
+      "score": 0.2136005461215973
+    },
+    {
+      "id": "https://openalex.org/keywords/engineering",
+      "display_name": "Engineering",
+      "score": 0.19987735152244568
+    },
+    {
+      "id": "https://openalex.org/keywords/geotechnical-engineering",
+      "display_name": "Geotechnical engineering",
+      "score": 0.19078701734542847
+    },
+    {
+      "id": "https://openalex.org/keywords/geomorphology",
+      "display_name": "Geomorphology",
+      "score": 0.12296220660209656
+    },
+    {
+      "id": "https://openalex.org/keywords/paleontology",
+      "display_name": "Paleontology",
+      "score": 0.10766345262527466
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C116637073",
+      "wikidata": "https://www.wikidata.org/wiki/Q190147",
+      "display_name": "Anticline",
+      "level": 3,
+      "score": 0.7594568133354187
+    },
+    {
+      "id": "https://openalex.org/C78762247",
+      "wikidata": "https://www.wikidata.org/wiki/Q1273174",
+      "display_name": "Petroleum engineering",
+      "level": 1,
+      "score": 0.6489192843437195
+    },
+    {
+      "id": "https://openalex.org/C175234220",
+      "wikidata": "https://www.wikidata.org/wiki/Q10860587",
+      "display_name": "Steam injection",
+      "level": 2,
+      "score": 0.499056339263916
+    },
+    {
+      "id": "https://openalex.org/C39432304",
+      "wikidata": "https://www.wikidata.org/wiki/Q188847",
+      "display_name": "Environmental science",
+      "level": 0,
+      "score": 0.48916009068489075
+    },
+    {
+      "id": "https://openalex.org/C104308156",
+      "wikidata": "https://www.wikidata.org/wiki/Q2389519",
+      "display_name": "Cabin pressurization",
+      "level": 2,
+      "score": 0.48885267972946167
+    },
+    {
+      "id": "https://openalex.org/C2779681308",
+      "wikidata": "https://www.wikidata.org/wiki/Q1049254",
+      "display_name": "Enhanced oil recovery",
+      "level": 2,
+      "score": 0.4786016643047333
+    },
+    {
+      "id": "https://openalex.org/C57054060",
+      "wikidata": "https://www.wikidata.org/wiki/Q59420558",
+      "display_name": "Injection well",
+      "level": 2,
+      "score": 0.47383150458335876
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.4728715121746063
+    },
+    {
+      "id": "https://openalex.org/C2778059233",
+      "wikidata": "https://www.wikidata.org/wiki/Q7973522",
+      "display_name": "Water injection (oil production)",
+      "level": 2,
+      "score": 0.4403444528579712
+    },
+    {
+      "id": "https://openalex.org/C2780927383",
+      "wikidata": "https://www.wikidata.org/wiki/Q7081418",
+      "display_name": "Oil in place",
+      "level": 3,
+      "score": 0.4218997657299042
+    },
+    {
+      "id": "https://openalex.org/C76886044",
+      "wikidata": "https://www.wikidata.org/wiki/Q2883300",
+      "display_name": "Hydrology (agriculture)",
+      "level": 2,
+      "score": 0.3852994441986084
+    },
+    {
+      "id": "https://openalex.org/C548895740",
+      "wikidata": "https://www.wikidata.org/wiki/Q22656",
+      "display_name": "Petroleum",
+      "level": 2,
+      "score": 0.2136005461215973
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.19987735152244568
+    },
+    {
+      "id": "https://openalex.org/C187320778",
+      "wikidata": "https://www.wikidata.org/wiki/Q1349130",
+      "display_name": "Geotechnical engineering",
+      "level": 1,
+      "score": 0.19078701734542847
+    },
+    {
+      "id": "https://openalex.org/C114793014",
+      "wikidata": "https://www.wikidata.org/wiki/Q52109",
+      "display_name": "Geomorphology",
+      "level": 1,
+      "score": 0.12296220660209656
+    },
+    {
+      "id": "https://openalex.org/C151730666",
+      "wikidata": "https://www.wikidata.org/wiki/Q7205",
+      "display_name": "Paleontology",
+      "level": 1,
+      "score": 0.10766345262527466
+    },
+    {
+      "id": "https://openalex.org/C109007969",
+      "wikidata": "https://www.wikidata.org/wiki/Q749565",
+      "display_name": "Structural basin",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C146978453",
+      "wikidata": "https://www.wikidata.org/wiki/Q3798668",
+      "display_name": "Aerospace engineering",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1016/j.egypro.2011.02.274",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.egypro.2011.02.274",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S75069817",
+        "display_name": "Energy Procedia",
+        "issn_l": "1876-6102",
+        "issn": [
+          "1876-6102"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Energy Procedia",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.1016/j.egypro.2011.02.274",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.egypro.2011.02.274",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S75069817",
+      "display_name": "Energy Procedia",
+      "issn_l": "1876-6102",
+      "issn": [
+        "1876-6102"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Energy Procedia",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 4,
+  "referenced_works": [
+    "https://openalex.org/W2045477792",
+    "https://openalex.org/W2141457517",
+    "https://openalex.org/W2894940173",
+    "https://openalex.org/W2978124035"
+  ],
+  "related_works": [
+    "https://openalex.org/W4324266279",
+    "https://openalex.org/W2332462550",
+    "https://openalex.org/W2358055869",
+    "https://openalex.org/W2025050353",
+    "https://openalex.org/W2049038153",
+    "https://openalex.org/W2042527934",
+    "https://openalex.org/W4223902560",
+    "https://openalex.org/W4387232816",
+    "https://openalex.org/W2187712137",
+    "https://openalex.org/W1979509507"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0,
+      140,
+      383,
+      405,
+      488,
+      531
+    ],
+    "Southeast": [
+      1
+    ],
+    "Regional": [
+      2,
+      639
+    ],
+    "Carbon": [
+      3,
+      640
+    ],
+    "Sequestration": [
+      4,
+      641
+    ],
+    "Partnership": [
+      5
+    ],
+    "(SECARB)": [
+      6
+    ],
+    "early": [
+      7
+    ],
+    "project": [
+      8
+    ],
+    "in": [
+      9,
+      63,
+      106,
+      164,
+      177,
+      214,
+      226,
+      249,
+      256,
+      271,
+      323,
+      352,
+      505,
+      567,
+      575,
+      601
+    ],
+    "western": [
+      10
+    ],
+    "Mississippi": [
+      11
+    ],
+    "has": [
+      12,
+      47,
+      67,
+      122,
+      151
+    ],
+    "been": [
+      13,
+      152,
+      565,
+      610
+    ],
+    "testing": [
+      14
+    ],
+    "monitoring": [
+      15,
+      190,
+      277,
+      333,
+      349,
+      580
+    ],
+    "tools": [
+      16,
+      536
+    ],
+    "and": [
+      17,
+      23,
+      46,
+      52,
+      66,
+      134,
+      137,
+      150,
+      155,
+      180,
+      363,
+      370,
+      401,
+      420,
+      431,
+      448,
+      453,
+      458,
+      468,
+      477,
+      512,
+      523,
+      528,
+      548,
+      559,
+      582,
+      598,
+      604
+    ],
+    "approaches": [
+      18
+    ],
+    "to": [
+      19,
+      174,
+      199,
+      300,
+      318,
+      337,
+      355,
+      377,
+      413,
+      484,
+      491,
+      501,
+      507,
+      571,
+      577,
+      590,
+      595,
+      612
+    ],
+    "document": [
+      20,
+      508
+    ],
+    "storage": [
+      21,
+      24
+    ],
+    "efficiency": [
+      22
+    ],
+    "permanence": [
+      25,
+      162
+    ],
+    "under": [
+      26,
+      57
+    ],
+    "conditions": [
+      27
+    ],
+    "of": [
+      28,
+      85,
+      88,
+      100,
+      112,
+      117,
+      148,
+      185,
+      203,
+      208,
+      210,
+      217,
+      235,
+      246,
+      278,
+      284,
+      294,
+      297,
+      310,
+      332,
+      359,
+      398,
+      424,
+      464,
+      587,
+      629,
+      637
+    ],
+    "CO2": [
+      29,
+      58,
+      254,
+      260
+    ],
+    "EOR": [
+      30
+    ],
+    "as": [
+      31,
+      33,
+      84,
+      157,
+      221,
+      259,
+      470,
+      494,
+      635
+    ],
+    "well": [
+      32,
+      219,
+      368,
+      396
+    ],
+    "downdip": [
+      34,
+      324
+    ],
+    "injection": [
+      35,
+      70,
+      149,
+      178,
+      195,
+      251,
+      372
+    ],
+    "into": [
+      36,
+      95
+    ],
+    "brine.": [
+      37
+    ],
+    "Denbury": [
+      38
+    ],
+    "Onshore": [
+      39
+    ],
+    "LLC": [
+      40
+    ],
+    "is": [
+      41,
+      94,
+      197,
+      224,
+      287,
+      313,
+      345,
+      388,
+      593,
+      623,
+      645
+    ],
+    "host": [
+      42
+    ],
+    "for": [
+      43,
+      160,
+      206,
+      315,
+      534,
+      539
+    ],
+    "the": [
+      44,
+      101,
+      146,
+      165,
+      182,
+      194,
+      201,
+      211,
+      227,
+      236,
+      250,
+      257,
+      295,
+      311,
+      334,
+      357,
+      438,
+      520,
+      614,
+      626,
+      638
+    ],
+    "study": [
+      45,
+      127,
+      143,
+      328,
+      622
+    ],
+    "brought": [
+      48
+    ],
+    "a": [
+      49,
+      107,
+      131,
+      158,
+      421,
+      560
+    ],
+    "depleted": [
+      50
+    ],
+    "oil": [
+      51,
+      166
+    ],
+    "gas": [
+      53
+    ],
+    "reservoir,": [
+      54
+    ],
+    "Cranfield": [
+      55
+    ],
+    "Field,": [
+      56
+    ],
+    "flood.": [
+      59
+    ],
+    "Injection": [
+      60,
+      93,
+      239,
+      435
+    ],
+    "was": [
+      61,
+      426
+    ],
+    "started": [
+      62,
+      436
+    ],
+    "July": [
+      64
+    ],
+    "2008": [
+      65
+    ],
+    "now": [
+      68
+    ],
+    "achieved": [
+      69
+    ],
+    "rates": [
+      71
+    ],
+    "greater": [
+      72
+    ],
+    "than": [
+      73,
+      231
+    ],
+    "1.2": [
+      74
+    ],
+    "million": [
+      75,
+      90
+    ],
+    "tons/year": [
+      76
+    ],
+    "though": [
+      77
+    ],
+    "23": [
+      78
+    ],
+    "wells,": [
+      79,
+      473
+    ],
+    "with": [
+      80,
+      130,
+      410
+    ],
+    "cumulative": [
+      81
+    ],
+    "mass": [
+      82
+    ],
+    "injected": [
+      83
+    ],
+    "August,": [
+      86
+    ],
+    "2010": [
+      87,
+      317
+    ],
+    "2.2": [
+      89
+    ],
+    "metric": [
+      91
+    ],
+    "tons.": [
+      92
+    ],
+    "coarse": [
+      96
+    ],
+    "grained": [
+      97
+    ],
+    "fluvial": [
+      98
+    ],
+    "deposits": [
+      99
+    ],
+    "Cretaceous": [
+      102
+    ],
+    "lower": [
+      103
+    ],
+    "Tuscaloosa": [
+      104
+    ],
+    "Formation": [
+      105
+    ],
+    "gentle": [
+      108
+    ],
+    "anticline": [
+      109
+    ],
+    "at": [
+      110,
+      145,
+      282,
+      347,
+      437
+    ],
+    "depths": [
+      111,
+      283
+    ],
+    "3300": [
+      113
+    ],
+    "m.": [
+      114
+    ],
+    "A": [
+      115,
+      306,
+      327,
+      515
+    ],
+    "team": [
+      116
+    ],
+    "researchers": [
+      118
+    ],
+    "from": [
+      119,
+      125,
+      340,
+      393,
+      497,
+      618
+    ],
+    "10": [
+      120
+    ],
+    "institutions": [
+      121
+    ],
+    "collected": [
+      123
+    ],
+    "data": [
+      124,
+      392
+    ],
+    "five": [
+      126
+    ],
+    "areas,": [
+      128
+    ],
+    "each": [
+      129
+    ],
+    "different": [
+      132,
+      135
+    ],
+    "goal": [
+      133
+    ],
+    "spatial": [
+      136
+    ],
+    "temporal": [
+      138
+    ],
+    "scale.": [
+      139
+    ],
+    "Phase": [
+      141
+    ],
+    "2": [
+      142
+    ],
+    "began": [
+      144
+    ],
+    "start": [
+      147
+    ],
+    "using": [
+      153
+    ],
+    "pressure": [
+      154,
+      189,
+      222,
+      511
+    ],
+    "temperature": [
+      156
+    ],
+    "tool": [
+      159
+    ],
+    "assessing": [
+      161
+    ],
+    "mostly": [
+      163
+    ],
+    "productive": [
+      167
+    ],
+    "interval.": [
+      168
+    ],
+    "Real-time": [
+      169
+    ],
+    "read-out": [
+      170
+    ],
+    "shows": [
+      171
+    ],
+    "high": [
+      172,
+      272
+    ],
+    "sensitivity": [
+      173,
+      202,
+      296
+    ],
+    "distant": [
+      175
+    ],
+    "changes": [
+      176,
+      493
+    ],
+    "rate": [
+      179
+    ],
+    "confirms": [
+      181
+    ],
+    "geologic": [
+      183
+    ],
+    "model": [
+      184
+    ],
+    "reservoir": [
+      186,
+      228,
+      258,
+      274,
+      573,
+      619
+    ],
+    "compartmentalization.": [
+      187
+    ],
+    "Above-zone": [
+      188
+    ],
+    "∼120": [
+      191
+    ],
+    "m": [
+      192,
+      286
+    ],
+    "above": [
+      193,
+      303
+    ],
+    "interval": [
+      196
+    ],
+    "used": [
+      198,
+      483,
+      566,
+      594,
+      611
+    ],
+    "test": [
+      200
+    ],
+    "this": [
+      204,
+      298
+    ],
+    "approach": [
+      205
+    ],
+    "documentation": [
+      207
+    ],
+    "integrity": [
+      209
+    ],
+    "confining": [
+      212
+    ],
+    "system": [
+      213
+    ],
+    "an": [
+      215,
+      348,
+      399
+    ],
+    "area": [
+      216,
+      242
+    ],
+    "numerous": [
+      218
+    ],
+    "completions": [
+      220
+    ],
+    "increase": [
+      223
+    ],
+    "induced": [
+      225
+    ],
+    "by": [
+      229,
+      264,
+      267,
+      625,
+      647
+    ],
+    "more": [
+      230
+    ],
+    "70": [
+      232
+    ],
+    "bar.": [
+      233
+    ],
+    "Monitoring": [
+      234
+    ],
+    "High": [
+      237
+    ],
+    "Volume": [
+      238
+    ],
+    "Test": [
+      240
+    ],
+    "(HiVIT)": [
+      241
+    ],
+    "includes": [
+      243
+    ],
+    "repeat": [
+      244,
+      307,
+      532
+    ],
+    "measurements": [
+      245
+    ],
+    "aqueous": [
+      247
+    ],
+    "geochemistry": [
+      248
+    ],
+    "zone.": [
+      252
+    ],
+    "Rock-water-": [
+      253
+    ],
+    "interactions": [
+      255,
+      358
+    ],
+    "dissolves": [
+      261
+    ],
+    "are": [
+      262,
+      482,
+      490,
+      537
+    ],
+    "minimized": [
+      263
+    ],
+    "mineral": [
+      265
+    ],
+    "“armoring”": [
+      266
+    ],
+    "abundant": [
+      268
+    ],
+    "chlorite": [
+      269
+    ],
+    "cement": [
+      270
+    ],
+    "permeability": [
+      273
+    ],
+    "sandstone.": [
+      275
+    ],
+    "Geochemical": [
+      276
+    ],
+    "confined": [
+      279
+    ],
+    "freshwater": [
+      280
+    ],
+    "aquifers": [
+      281
+    ],
+    "70–100": [
+      285
+    ],
+    "underway.": [
+      288
+    ],
+    "Groundwater": [
+      289
+    ],
+    "analysis": [
+      290
+    ],
+    "focuses": [
+      291
+    ],
+    "on": [
+      292,
+      330,
+      433,
+      545
+    ],
+    "assessment": [
+      293
+    ],
+    "method": [
+      299
+    ],
+    "detect": [
+      301
+    ],
+    "leakage": [
+      302,
+      339
+    ],
+    "background": [
+      304
+    ],
+    "variability.": [
+      305
+    ],
+    "seismic": [
+      308,
+      476,
+      562
+    ],
+    "survey": [
+      309,
+      518,
+      563
+    ],
+    "HiVIT": [
+      312
+    ],
+    "planned": [
+      314
+    ],
+    "late": [
+      316
+    ],
+    "assess": [
+      319,
+      356,
+      613
+    ],
+    "saturation": [
+      320,
+      486
+    ],
+    "change": [
+      321
+    ],
+    "especially": [
+      322
+    ],
+    "brine-only": [
+      325
+    ],
+    "areas.": [
+      326
+    ],
+    "focused": [
+      329
+    ],
+    "feasibility": [
+      331
+    ],
+    "shallow": [
+      335,
+      364
+    ],
+    "subsurface": [
+      336
+    ],
+    "separate": [
+      338
+    ],
+    "normal": [
+      341
+    ],
+    "complex": [
+      342
+    ],
+    "surface": [
+      343,
+      529
+    ],
+    "fluxes": [
+      344
+    ],
+    "underway": [
+      346
+    ],
+    "array": [
+      350,
+      397,
+      423
+    ],
+    "installed": [
+      351
+    ],
+    "October": [
+      353
+    ],
+    "2009": [
+      354
+    ],
+    "recharge,": [
+      360
+    ],
+    "soil": [
+      361
+    ],
+    "gas,": [
+      362
+    ],
+    "groundwater": [
+      365
+    ],
+    "aquifers.": [
+      366
+    ],
+    "Recent": [
+      367
+    ],
+    "re-entry": [
+      369
+    ],
+    "tracer": [
+      371
+    ],
+    "will": [
+      373
+    ],
+    "provide": [
+      374
+    ],
+    "further": [
+      375
+    ],
+    "information": [
+      376
+    ],
+    "interpret": [
+      378,
+      596
+    ],
+    "observed": [
+      379,
+      588
+    ],
+    "elevated": [
+      380
+    ],
+    "deep-sourced": [
+      381
+    ],
+    "methane.": [
+      382
+    ],
+    "Detailed": [
+      384
+    ],
+    "Area": [
+      385
+    ],
+    "Study": [
+      386
+    ],
+    "(DAS)": [
+      387
+    ],
+    "collecting": [
+      389
+    ],
+    "dense": [
+      390
+    ],
+    "time-lapse": [
+      391,
+      474,
+      516
+    ],
+    "closely-spaced": [
+      394
+    ],
+    "three": [
+      395
+    ],
+    "injector": [
+      400
+    ],
+    "two": [
+      402,
+      502
+    ],
+    "observation": [
+      403,
+      406
+    ],
+    "wells.": [
+      404
+    ],
+    "wells": [
+      407
+    ],
+    "were": [
+      408
+    ],
+    "completed": [
+      409
+    ],
+    "fiberglass": [
+      411
+    ],
+    "casing": [
+      412,
+      430
+    ],
+    "facilitate": [
+      414
+    ],
+    "electrical": [
+      415,
+      478
+    ],
+    "resistance": [
+      416,
+      479
+    ],
+    "tomography": [
+      417,
+      480
+    ],
+    "(ERT)": [
+      418,
+      481
+    ],
+    "measurements,": [
+      419
+    ],
+    "diverse": [
+      422
+    ],
+    "instrumentation": [
+      425
+    ],
+    "both": [
+      427
+    ],
+    "cemented": [
+      428
+    ],
+    "behind": [
+      429
+    ],
+    "suspended": [
+      432
+    ],
+    "tubing.": [
+      434
+    ],
+    "DAS": [
+      439
+    ],
+    "December": [
+      440
+    ],
+    "1,": [
+      441
+    ],
+    "2009.": [
+      442
+    ],
+    "We": [
+      443
+    ],
+    "have": [
+      444,
+      564,
+      609
+    ],
+    "measured": [
+      445
+    ],
+    "pulsed": [
+      446
+    ],
+    "neutron": [
+      447
+    ],
+    "resistivity": [
+      449
+    ],
+    "via": [
+      450
+    ],
+    "wireline,": [
+      451
+    ],
+    "downhole": [
+      452
+    ],
+    "above-zone": [
+      454
+    ],
+    "pressure,": [
+      455
+    ],
+    "distributed": [
+      456
+    ],
+    "temperature,": [
+      457
+    ],
+    "fluid": [
+      459,
+      557
+    ],
+    "chemistry": [
+      460
+    ],
+    "including": [
+      461
+    ],
+    "introduced": [
+      462
+    ],
+    "pulses": [
+      463
+    ],
+    "perfluorocarbons,": [
+      465
+    ],
+    "noble": [
+      466
+    ],
+    "gases,": [
+      467
+    ],
+    "SF6": [
+      469
+    ],
+    "tracers.": [
+      471
+    ],
+    "Between": [
+      472
+    ],
+    "crosswell": [
+      475
+    ],
+    "measure": [
+      485,
+      492
+    ],
+    "change.": [
+      487
+    ],
+    "goals": [
+      489
+    ],
+    "fluids": [
+      495
+    ],
+    "evolve": [
+      496
+    ],
+    "single": [
+      498
+    ],
+    "phase": [
+      499,
+      503
+    ],
+    "(brine)": [
+      500
+    ],
+    "(CO2–brine)": [
+      504
+    ],
+    "order": [
+      506,
+      576
+    ],
+    "linkages": [
+      509
+    ],
+    "between": [
+      510,
+      526
+    ],
+    "sweep": [
+      513
+    ],
+    "efficiency.": [
+      514
+    ],
+    "VSP": [
+      517
+    ],
+    "bridges": [
+      519
+    ],
+    "vertical": [
+      521
+    ],
+    "resolution": [
+      522
+    ],
+    "areal": [
+      524
+    ],
+    "coverage": [
+      525
+    ],
+    "cross-well": [
+      527
+    ],
+    "seismic.": [
+      530
+    ],
+    "surveys": [
+      533
+    ],
+    "many": [
+      535
+    ],
+    "scheduled": [
+      538
+    ],
+    "September,": [
+      540
+    ],
+    "2010.": [
+      541
+    ],
+    "Reservoir": [
+      542
+    ],
+    "characterization": [
+      543
+    ],
+    "based": [
+      544
+    ],
+    "cores,": [
+      546
+    ],
+    "historic": [
+      547
+    ],
+    "new": [
+      549
+    ],
+    "wireline": [
+      550
+    ],
+    "log": [
+      551
+    ],
+    "data,": [
+      552
+    ],
+    "production": [
+      553
+    ],
+    "history,": [
+      554
+    ],
+    "hydrologic": [
+      555
+    ],
+    "tests,": [
+      556
+    ],
+    "analysis,": [
+      558
+    ],
+    "three-D": [
+      561
+    ],
+    "multiple": [
+      568
+    ],
+    "numerical": [
+      569,
+      605
+    ],
+    "models": [
+      570,
+      603
+    ],
+    "predict": [
+      572
+    ],
+    "response": [
+      574,
+      589,
+      592
+    ],
+    "design": [
+      578
+    ],
+    "effective": [
+      579
+    ],
+    "strategies": [
+      581
+    ],
+    "optimize": [
+      583
+    ],
+    "deployment.": [
+      584
+    ],
+    "History": [
+      585
+    ],
+    "matching": [
+      586
+    ],
+    "predicted": [
+      591
+    ],
+    "results": [
+      597
+    ],
+    "improve": [
+      599
+    ],
+    "confidence": [
+      600
+    ],
+    "conceptual": [
+      602
+    ],
+    "approaches.": [
+      606
+    ],
+    "Probabilistic": [
+      607
+    ],
+    "methods": [
+      608
+    ],
+    "significant": [
+      615
+    ],
+    "uncertainties": [
+      616
+    ],
+    "resulting": [
+      617
+    ],
+    "heterogeneity.": [
+      620
+    ],
+    "This": [
+      621
+    ],
+    "funded": [
+      624
+    ],
+    "US": [
+      627
+    ],
+    "Department": [
+      628
+    ],
+    "Energy,": [
+      630
+    ],
+    "National": [
+      631
+    ],
+    "Energy": [
+      632,
+      650
+    ],
+    "Technology": [
+      633
+    ],
+    "Laboratory": [
+      634
+    ],
+    "part": [
+      636
+    ],
+    "Partnerships": [
+      642
+    ],
+    "program.": [
+      643
+    ],
+    "SECARB": [
+      644
+    ],
+    "led": [
+      646
+    ],
+    "Southern": [
+      648
+    ],
+    "States": [
+      649
+    ],
+    "Board.": [
+      651
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 7
+    }
+  ],
+  "updated_date": "2026-09-23T05:00:35.095934",
+  "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,1437 @@
+{
+  "id": "https://openalex.org/W1954890303",
+  "doi": "https://doi.org/10.1002/2014jb011265",
+  "title": "Fluid accumulation along the Costa Rica subduction thrust and development of the seismogenic zone",
+  "display_name": "Fluid accumulation along the Costa Rica subduction thrust and development of the seismogenic zone",
+  "publication_year": 2014,
+  "publication_date": "2014-12-03",
+  "ids": {
+    "openalex": "https://openalex.org/W1954890303",
+    "doi": "https://doi.org/10.1002/2014jb011265",
+    "mag": "1954890303"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1002/2014jb011265",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1002/2014jb011265",
+    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2014JB011265",
+    "source": {
+      "id": "https://openalex.org/S4210228715",
+      "display_name": "Journal of Geophysical Research Solid Earth",
+      "issn_l": "2169-9313",
+      "issn": [
+        "2169-9313",
+        "2169-9356"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-2",
+        "ki-jl-1",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Geophysical Research: Solid Earth",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2014JB011265",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5017916668",
+        "display_name": "Nathan L. B. Bangs",
+        "orcid": "https://orcid.org/0000-0002-4377-3463",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-4377-3463"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Nathan L. Bangs",
+      "raw_affiliation_strings": [
+        "Institute for Geophysics University of Texas at Austin  Austin Texas USA",
+        "Institute for Geophysics; University of Texas at Austin; Austin; Texas; USA"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-4377-3463",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute for Geophysics University of Texas at Austin  Austin Texas USA",
+          "institution_ids": [
+            "https://openalex.org/I86519309"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institute for Geophysics; University of Texas at Austin; Austin; Texas; USA",
+          "institution_ids": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5112054194",
+        "display_name": "Kirk D. McIntosh",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kirk D. McIntosh",
+      "raw_affiliation_strings": [
+        "Institute for Geophysics University of Texas at Austin  Austin Texas USA",
+        "Institute for Geophysics; University of Texas at Austin; Austin; Texas; USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute for Geophysics University of Texas at Austin  Austin Texas USA",
+          "institution_ids": [
+            "https://openalex.org/I86519309"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institute for Geophysics; University of Texas at Austin; Austin; Texas; USA",
+          "institution_ids": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5004372570",
+        "display_name": "Eli A. Silver",
+        "orcid": "https://orcid.org/0009-0005-9984-5760",
+        "observed_orcids": [
+          "https://orcid.org/0009-0005-9984-5760"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I185103710",
+          "display_name": "University of California, Santa Cruz",
+          "ror": "https://ror.org/03s65by71",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I185103710"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Eli A. Silver",
+      "raw_affiliation_strings": [
+        "Earth &amp; Planetary Sciences Department, University of California  Santa Cruz California USA",
+        "Earth and Planetary Sciences Department; University of California; Santa Cruz; California; USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Earth &amp; Planetary Sciences Department, University of California  Santa Cruz California USA",
+          "institution_ids": [
+            "https://openalex.org/I185103710"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Earth and Planetary Sciences Department; University of California; Santa Cruz; California; USA",
+          "institution_ids": [
+            "https://openalex.org/I185103710"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5013226064",
+        "display_name": "Jared W. Kluesner",
+        "orcid": "https://orcid.org/0000-0003-1701-8832",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-1701-8832"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I185103710",
+          "display_name": "University of California, Santa Cruz",
+          "ror": "https://ror.org/03s65by71",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I185103710"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jared W. Kluesner",
+      "raw_affiliation_strings": [
+        "Earth &amp; Planetary Sciences Department, University of California  Santa Cruz California USA",
+        "Earth and Planetary Sciences Department; University of California; Santa Cruz; California; USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Earth &amp; Planetary Sciences Department, University of California  Santa Cruz California USA",
+          "institution_ids": [
+            "https://openalex.org/I185103710"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Earth and Planetary Sciences Department; University of California; Santa Cruz; California; USA",
+          "institution_ids": [
+            "https://openalex.org/I185103710"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5058131929",
+        "display_name": "César R. Ranero",
+        "orcid": "https://orcid.org/0000-0002-5204-545X",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-5204-545X"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210151560",
+          "display_name": "Institut de Ciències del Mar",
+          "ror": "https://ror.org/05ect0289",
+          "country_code": "ES",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I134820265",
+            "https://openalex.org/I4210151560"
+          ]
+        }
+      ],
+      "countries": [
+        "ES"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "César R. Ranero",
+      "raw_affiliation_strings": [
+        "Barcelona Center for Subsurface Imaging, ICREA at CSIC Instituto de Ciencias del Mar  Barcelona Spain",
+        "Barcelona Center for Subsurface Imaging, ICREA at CSIC Instituto de Ciencias del Mar Barcelona Spain"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Barcelona Center for Subsurface Imaging, ICREA at CSIC Instituto de Ciencias del Mar  Barcelona Spain",
+          "institution_ids": [
+            "https://openalex.org/I4210151560"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Barcelona Center for Subsurface Imaging, ICREA at CSIC Instituto de Ciencias del Mar Barcelona Spain",
+          "institution_ids": [
+            "https://openalex.org/I4210151560"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5017916668"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I86519309"
+  ],
+  "apc_list": {
+    "value": 4070,
+    "currency": "USD",
+    "value_usd": 4070
+  },
+  "apc_paid": null,
+  "fwci": 4.9294,
+  "has_fulltext": true,
+  "cited_by_count": 80,
+  "citation_normalized_percentile": {
+    "value": 0.95012096,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "120",
+    "issue": "1",
+    "first_page": "67",
+    "last_page": "86"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10110",
+    "display_name": "earthquake and tectonic studies",
+    "score": 0.9998999834060669,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10110",
+      "display_name": "earthquake and tectonic studies",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10001",
+      "display_name": "Geological and Geochemical Analysis",
+      "score": 0.9983999729156494,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9983999729156494,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.942963182926178
+    },
+    {
+      "id": "https://openalex.org/keywords/subduction",
+      "display_name": "Subduction",
+      "score": 0.8582375645637512
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.6809478402137756
+    },
+    {
+      "id": "https://openalex.org/keywords/thrust",
+      "display_name": "Thrust",
+      "score": 0.6506732106208801
+    },
+    {
+      "id": "https://openalex.org/keywords/fault",
+      "display_name": "Fault (geology)",
+      "score": 0.5922532677650452
+    },
+    {
+      "id": "https://openalex.org/keywords/thrust-fault",
+      "display_name": "Thrust fault",
+      "score": 0.5892457962036133
+    },
+    {
+      "id": "https://openalex.org/keywords/petrology",
+      "display_name": "Petrology",
+      "score": 0.5111714005470276
+    },
+    {
+      "id": "https://openalex.org/keywords/transition-zone",
+      "display_name": "Transition zone",
+      "score": 0.44144630432128906
+    },
+    {
+      "id": "https://openalex.org/keywords/geophysics",
+      "display_name": "Geophysics",
+      "score": 0.1860097050666809
+    },
+    {
+      "id": "https://openalex.org/keywords/tectonics",
+      "display_name": "Tectonics",
+      "score": 0.17098477482795715
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.942963182926178
+    },
+    {
+      "id": "https://openalex.org/C58097730",
+      "wikidata": "https://www.wikidata.org/wiki/Q176318",
+      "display_name": "Subduction",
+      "level": 3,
+      "score": 0.8582375645637512
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.6809478402137756
+    },
+    {
+      "id": "https://openalex.org/C79420006",
+      "wikidata": "https://www.wikidata.org/wiki/Q533668",
+      "display_name": "Thrust",
+      "level": 2,
+      "score": 0.6506732106208801
+    },
+    {
+      "id": "https://openalex.org/C175551986",
+      "wikidata": "https://www.wikidata.org/wiki/Q47089",
+      "display_name": "Fault (geology)",
+      "level": 2,
+      "score": 0.5922532677650452
+    },
+    {
+      "id": "https://openalex.org/C110041135",
+      "wikidata": "https://www.wikidata.org/wiki/Q496325",
+      "display_name": "Thrust fault",
+      "level": 3,
+      "score": 0.5892457962036133
+    },
+    {
+      "id": "https://openalex.org/C5900021",
+      "wikidata": "https://www.wikidata.org/wiki/Q163082",
+      "display_name": "Petrology",
+      "level": 1,
+      "score": 0.5111714005470276
+    },
+    {
+      "id": "https://openalex.org/C163686574",
+      "wikidata": "https://www.wikidata.org/wiki/Q1638707",
+      "display_name": "Transition zone",
+      "level": 2,
+      "score": 0.44144630432128906
+    },
+    {
+      "id": "https://openalex.org/C8058405",
+      "wikidata": "https://www.wikidata.org/wiki/Q46255",
+      "display_name": "Geophysics",
+      "level": 1,
+      "score": 0.1860097050666809
+    },
+    {
+      "id": "https://openalex.org/C77928131",
+      "wikidata": "https://www.wikidata.org/wiki/Q193343",
+      "display_name": "Tectonics",
+      "level": 2,
+      "score": 0.17098477482795715
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C97355855",
+      "wikidata": "https://www.wikidata.org/wiki/Q11473",
+      "display_name": "Thermodynamics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1002/2014jb011265",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1002/2014jb011265",
+      "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2014JB011265",
+      "source": {
+        "id": "https://openalex.org/S4210228715",
+        "display_name": "Journal of Geophysical Research Solid Earth",
+        "issn_l": "2169-9313",
+        "issn": [
+          "2169-9313",
+          "2169-9356"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Geophysical Research: Solid Earth",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:digital.csic.es:10261/113307",
+      "is_oa": false,
+      "landing_page_url": "http://hdl.handle.net/10261/113307",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400616",
+        "display_name": "DIGITAL.CSIC (Spanish National Research Council (CSIC))",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I134820265",
+        "host_organization_name": "Consejo Superior de Investigaciones Científicas",
+        "host_organization_lineage": [
+          "https://openalex.org/I134820265"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "http://purl.org/coar/resource_type/c_6501"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.1002/2014jb011265",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1002/2014jb011265",
+    "pdf_url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/2014JB011265",
+    "source": {
+      "id": "https://openalex.org/S4210228715",
+      "display_name": "Journal of Geophysical Research Solid Earth",
+      "issn_l": "2169-9313",
+      "issn": [
+        "2169-9313",
+        "2169-9356"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-2",
+        "ki-jl-1",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Geophysical Research: Solid Earth",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Life below water",
+      "id": "https://metadata.un.org/sdg/14",
+      "score": 0.8100000023841858
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [
+    {
+      "id": "https://openalex.org/G6608306511",
+      "display_name": "Collaborative Research: A 3D seismic investigation of the transition to seismogenic behavior along the southern Costa Rica subduction zone",
+      "funder_award_id": "0851380",
+      "funder_id": "https://openalex.org/F4320306076",
+      "funder_display_name": "National Science Foundation"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320306076",
+      "display_name": "National Science Foundation",
+      "ror": "https://ror.org/021nxhr62"
+    },
+    {
+      "id": "https://openalex.org/F4320332414",
+      "display_name": "Department of Mechanical Engineering, University of Texas at Austin",
+      "ror": "https://ror.org/00hj54h04"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": true,
+    "pdf": true
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W1954890303.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W1954890303.grobid-xml"
+  },
+  "referenced_works_count": 78,
+  "referenced_works": [
+    "https://openalex.org/W89944964",
+    "https://openalex.org/W1510841103",
+    "https://openalex.org/W1537905573",
+    "https://openalex.org/W1555868895",
+    "https://openalex.org/W1586083556",
+    "https://openalex.org/W1588496391",
+    "https://openalex.org/W1599741569",
+    "https://openalex.org/W1625421235",
+    "https://openalex.org/W1668841395",
+    "https://openalex.org/W1671207528",
+    "https://openalex.org/W1736131200",
+    "https://openalex.org/W1875642468",
+    "https://openalex.org/W1905851050",
+    "https://openalex.org/W1954857006",
+    "https://openalex.org/W1966476375",
+    "https://openalex.org/W1966963411",
+    "https://openalex.org/W1970303579",
+    "https://openalex.org/W1981424546",
+    "https://openalex.org/W1988769646",
+    "https://openalex.org/W1989072596",
+    "https://openalex.org/W1989983280",
+    "https://openalex.org/W1989998282",
+    "https://openalex.org/W1991547967",
+    "https://openalex.org/W1992255362",
+    "https://openalex.org/W1993013438",
+    "https://openalex.org/W1995840908",
+    "https://openalex.org/W1998850284",
+    "https://openalex.org/W2001919508",
+    "https://openalex.org/W2003605905",
+    "https://openalex.org/W2011916076",
+    "https://openalex.org/W2015446114",
+    "https://openalex.org/W2028275587",
+    "https://openalex.org/W2030800261",
+    "https://openalex.org/W2035821968",
+    "https://openalex.org/W2035905028",
+    "https://openalex.org/W2035945883",
+    "https://openalex.org/W2036948157",
+    "https://openalex.org/W2039142208",
+    "https://openalex.org/W2040221354",
+    "https://openalex.org/W2041126982",
+    "https://openalex.org/W2042010012",
+    "https://openalex.org/W2051948878",
+    "https://openalex.org/W2053055522",
+    "https://openalex.org/W2057854579",
+    "https://openalex.org/W2060640908",
+    "https://openalex.org/W2062507664",
+    "https://openalex.org/W2063240745",
+    "https://openalex.org/W2066853922",
+    "https://openalex.org/W2070743823",
+    "https://openalex.org/W2072904001",
+    "https://openalex.org/W2073461258",
+    "https://openalex.org/W2074241276",
+    "https://openalex.org/W2076795790",
+    "https://openalex.org/W2078723143",
+    "https://openalex.org/W2082822006",
+    "https://openalex.org/W2093173811",
+    "https://openalex.org/W2099395631",
+    "https://openalex.org/W2109683587",
+    "https://openalex.org/W2114035233",
+    "https://openalex.org/W2115218846",
+    "https://openalex.org/W2116379147",
+    "https://openalex.org/W2126603647",
+    "https://openalex.org/W2127459347",
+    "https://openalex.org/W2127570720",
+    "https://openalex.org/W2134946466",
+    "https://openalex.org/W2135257207",
+    "https://openalex.org/W2148220198",
+    "https://openalex.org/W2149043012",
+    "https://openalex.org/W2150863356",
+    "https://openalex.org/W2157791278",
+    "https://openalex.org/W2159244353",
+    "https://openalex.org/W2162447099",
+    "https://openalex.org/W2162517445",
+    "https://openalex.org/W2522302555",
+    "https://openalex.org/W2523416099",
+    "https://openalex.org/W2724477917",
+    "https://openalex.org/W4234513846",
+    "https://openalex.org/W4241935042"
+  ],
+  "related_works": [
+    "https://openalex.org/W4389322473",
+    "https://openalex.org/W3005252759",
+    "https://openalex.org/W2085040516",
+    "https://openalex.org/W2066266705",
+    "https://openalex.org/W2118949555",
+    "https://openalex.org/W2791731416",
+    "https://openalex.org/W1973986733",
+    "https://openalex.org/W2072509414",
+    "https://openalex.org/W2299938834",
+    "https://openalex.org/W1564386943"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "In": [
+      1
+    ],
+    "2011": [
+      2
+    ],
+    "we": [
+      3,
+      60,
+      89,
+      117
+    ],
+    "acquired": [
+      4
+    ],
+    "an": [
+      5
+    ],
+    "11": [
+      6
+    ],
+    "×": [
+      7
+    ],
+    "55": [
+      8
+    ],
+    "km,": [
+      9
+    ],
+    "3‐D": [
+      10,
+      63
+    ],
+    "seismic": [
+      11,
+      64
+    ],
+    "reflection": [
+      12
+    ],
+    "volume": [
+      13
+    ],
+    "across": [
+      14
+    ],
+    "the": [
+      15,
+      21,
+      27,
+      40,
+      47,
+      75,
+      83,
+      97,
+      106,
+      109,
+      145,
+      168,
+      204,
+      213,
+      224,
+      231,
+      235
+    ],
+    "Costa": [
+      16
+    ],
+    "Rica": [
+      17
+    ],
+    "margin,": [
+      18
+    ],
+    "NW": [
+      19
+    ],
+    "of": [
+      20,
+      74,
+      96,
+      161
+    ],
+    "Osa": [
+      22
+    ],
+    "Peninsula,": [
+      23
+    ],
+    "to": [
+      24,
+      32,
+      38,
+      51,
+      85,
+      91,
+      122,
+      138,
+      144,
+      150,
+      242
+    ],
+    "accurately": [
+      25
+    ],
+    "image": [
+      26
+    ],
+    "subduction": [
+      28,
+      98,
+      125,
+      236
+    ],
+    "thrust": [
+      29,
+      78,
+      163,
+      237
+    ],
+    "in": [
+      30,
+      230
+    ],
+    "3‐D,": [
+      31
+    ],
+    "examine": [
+      33
+    ],
+    "fault": [
+      34,
+      179
+    ],
+    "zone": [
+      35,
+      202,
+      211,
+      222,
+      233
+    ],
+    "properties,": [
+      36
+    ],
+    "and": [
+      37,
+      57,
+      142,
+      159,
+      164,
+      182,
+      189,
+      217,
+      240,
+      249
+    ],
+    "infer": [
+      39
+    ],
+    "hydrogeology": [
+      41
+    ],
+    "that": [
+      42,
+      88,
+      171
+    ],
+    "controls": [
+      43
+    ],
+    "fluid": [
+      44,
+      140,
+      185,
+      244
+    ],
+    "accumulation": [
+      45
+    ],
+    "along": [
+      46
+    ],
+    "thrust.": [
+      48,
+      99,
+      126
+    ],
+    "Following": [
+      49
+    ],
+    "processing": [
+      50
+    ],
+    "remove": [
+      52
+    ],
+    "water": [
+      53
+    ],
+    "column": [
+      54
+    ],
+    "multiples,": [
+      55
+    ],
+    "noise,": [
+      56
+    ],
+    "acquisition": [
+      58
+    ],
+    "artifacts,": [
+      59
+    ],
+    "constructed": [
+      61
+    ],
+    "a": [
+      62,
+      120,
+      123,
+      156,
+      173,
+      198,
+      207,
+      219
+    ],
+    "velocity": [
+      65
+    ],
+    "model": [
+      66
+    ],
+    "for": [
+      67,
+      253
+    ],
+    "Kirchhoff": [
+      68
+    ],
+    "prestack": [
+      69
+    ],
+    "depth": [
+      70
+    ],
+    "migration": [
+      71
+    ],
+    "imaging.": [
+      72
+    ],
+    "Images": [
+      73
+    ],
+    "plate": [
+      76,
+      110,
+      170
+    ],
+    "boundary": [
+      77
+    ],
+    "show": [
+      79
+    ],
+    "high‐reflection": [
+      80
+    ],
+    "amplitudes": [
+      81
+    ],
+    "underneath": [
+      82
+    ],
+    "middle": [
+      84,
+      232
+    ],
+    "lower": [
+      86
+    ],
+    "slope": [
+      87,
+      215
+    ],
+    "attribute": [
+      90
+    ],
+    "fluid‐rich,": [
+      92
+    ],
+    "poorly": [
+      93
+    ],
+    "drained": [
+      94
+    ],
+    "portions": [
+      95
+    ],
+    "At": [
+      100
+    ],
+    "~": [
+      101
+    ],
+    "5": [
+      102,
+      135
+    ],
+    "km": [
+      103,
+      136
+    ],
+    "subseafloor,": [
+      104
+    ],
+    "beneath": [
+      105,
+      203,
+      212,
+      223
+    ],
+    "upper": [
+      107
+    ],
+    "slope,": [
+      108,
+      205
+    ],
+    "interface": [
+      111
+    ],
+    "abruptly": [
+      112
+    ],
+    "becomes": [
+      113
+    ],
+    "weakly": [
+      114
+    ],
+    "reflective,": [
+      115
+    ],
+    "which": [
+      116
+    ],
+    "interpret": [
+      118
+    ],
+    "as": [
+      119
+    ],
+    "transition": [
+      121
+    ],
+    "well‐drained": [
+      124
+    ],
+    "Mineral": [
+      127
+    ],
+    "dehydration": [
+      128
+    ],
+    "during": [
+      129
+    ],
+    "diagenesis": [
+      130
+    ],
+    "may": [
+      131
+    ],
+    "also": [
+      132,
+      155
+    ],
+    "diminish": [
+      133
+    ],
+    "at": [
+      134
+    ],
+    "subseafloor": [
+      137
+    ],
+    "reduce": [
+      139
+    ],
+    "production": [
+      141
+    ],
+    "contribute": [
+      143
+    ],
+    "downdip": [
+      146
+    ],
+    "change": [
+      147
+    ],
+    "from": [
+      148
+    ],
+    "high": [
+      149
+    ],
+    "low": [
+      151
+    ],
+    "amplitude.": [
+      152
+    ],
+    "There": [
+      153
+    ],
+    "is": [
+      154
+    ],
+    "layered": [
+      157,
+      190
+    ],
+    "fabric": [
+      158,
+      191
+    ],
+    "systems": [
+      160
+    ],
+    "both": [
+      162
+    ],
+    "normal": [
+      165
+    ],
+    "faults": [
+      166,
+      188
+    ],
+    "within": [
+      167
+    ],
+    "overriding": [
+      169
+    ],
+    "form": [
+      172,
+      192
+    ],
+    "“plumbing": [
+      174
+    ],
+    "system.”": [
+      175
+    ],
+    "Faults": [
+      176
+    ],
+    "commonly": [
+      177
+    ],
+    "have": [
+      178
+    ],
+    "plane": [
+      180
+    ],
+    "reflections": [
+      181
+    ],
+    "are": [
+      183
+    ],
+    "presumably": [
+      184
+    ],
+    "charged.": [
+      186
+    ],
+    "The": [
+      187,
+      226
+    ],
+    "three": [
+      193
+    ],
+    "compartmentalized": [
+      194
+    ],
+    "hydrogeologic": [
+      195
+    ],
+    "zones:": [
+      196
+    ],
+    "(1)": [
+      197
+    ],
+    "shallow": [
+      199
+    ],
+    "NE": [
+      200,
+      220
+    ],
+    "dipping": [
+      201,
+      210,
+      221
+    ],
+    "(2)": [
+      206
+    ],
+    "steeply": [
+      208
+    ],
+    "SW": [
+      209
+    ],
+    "shelf": [
+      214
+    ],
+    "break,": [
+      216
+    ],
+    "(3)": [
+      218
+    ],
+    "shelf.": [
+      225
+    ],
+    "more": [
+      227,
+      238
+    ],
+    "direct": [
+      228
+    ],
+    "pathway": [
+      229
+    ],
+    "drains": [
+      234
+    ],
+    "efficiently": [
+      239
+    ],
+    "contributes": [
+      241
+    ],
+    "reduced": [
+      243
+    ],
+    "pressure,": [
+      245
+    ],
+    "elevates": [
+      246
+    ],
+    "effective": [
+      247
+    ],
+    "stress,": [
+      248
+    ],
+    "creates": [
+      250
+    ],
+    "greater": [
+      251
+    ],
+    "potential": [
+      252
+    ],
+    "unstable": [
+      254
+    ],
+    "coseismic": [
+      255
+    ],
+    "slip.": [
+      256
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

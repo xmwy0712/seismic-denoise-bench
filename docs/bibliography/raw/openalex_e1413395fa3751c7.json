@@ -1,0 +1,669 @@
+{
+  "meta": {
+    "count": 1,
+    "db_response_time_ms": 52,
+    "page": 1,
+    "per_page": 10,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where it cites (W4378231035)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "referenced_works",
+            "value": "W4378231035"
+          }
+        ]
+      },
+      "url": "/works?filter=referenced_works:W4378231035&per_page=10"
+    },
+    "cost_usd": 0.0001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W4401831069",
+      "doi": "https://doi.org/10.1016/j.jrmge.2024.08.007",
+      "title": "Enhancing subsurface seismic profiling with distributed acoustic sensing and optimization algorithms",
+      "display_name": "Enhancing subsurface seismic profiling with distributed acoustic sensing and optimization algorithms",
+      "publication_year": 2024,
+      "publication_date": "2024-08-22",
+      "ids": {
+        "openalex": "https://openalex.org/W4401831069",
+        "doi": "https://doi.org/10.1016/j.jrmge.2024.08.007"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1016/j.jrmge.2024.08.007",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.jrmge.2024.08.007",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764891560",
+          "display_name": "Journal of Rock Mechanics and Geotechnical Engineering",
+          "issn_l": "1674-7755",
+          "issn": [
+            "1674-7755",
+            "2589-0417"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "doaj",
+            "jufo-1",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Rock Mechanics and Geotechnical Engineering",
+        "raw_type": "journal-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref",
+        "doaj"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "diamond",
+        "oa_url": "https://doi.org/10.1016/j.jrmge.2024.08.007",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5100665723",
+            "display_name": "Jing Wang",
+            "orcid": "https://orcid.org/0000-0002-6772-4869",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-6772-4869"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Jing Wang",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5036179321",
+            "display_name": "Hong‐Hu Zhu",
+            "orcid": "https://orcid.org/0000-0002-1312-0410",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-1312-0410",
+              "https://orcid.org/0000-0001-6734-4199"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Hong-Hu Zhu",
+          "raw_affiliation_strings": [],
+          "raw_orcid": "https://orcid.org/0000-0002-1312-0410",
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5101795450",
+            "display_name": "Gang Cheng",
+            "orcid": "https://orcid.org/0000-0002-5424-9632",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-5424-9632"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Gang Cheng",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5024128892",
+            "display_name": "Tao Wang",
+            "orcid": "https://orcid.org/0000-0002-4898-4892",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-4898-4892"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Tao Wang",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5041336078",
+            "display_name": "Xülong Gong",
+            "orcid": "https://orcid.org/0000-0003-4231-9995",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-4231-9995"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Xu-Long Gong",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5049578987",
+            "display_name": "Dao‐Yuan Tan",
+            "orcid": "https://orcid.org/0000-0001-5334-5916",
+            "observed_orcids": [
+              "https://orcid.org/0000-0001-5334-5916"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Dao-Yuan Tan",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5048578746",
+            "display_name": "Bin Shi",
+            "orcid": "https://orcid.org/0000-0002-6018-4169",
+            "observed_orcids": [
+              "https://orcid.org/0000-0002-6018-4169"
+            ]
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Bin Shi",
+          "raw_affiliation_strings": [],
+          "raw_orcid": null,
+          "affiliations": []
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 0,
+      "institutions_distinct_count": 0,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": {
+        "value": 0,
+        "currency": "USD",
+        "value_usd": 0
+      },
+      "apc_paid": null,
+      "fwci": 1.8374,
+      "has_fulltext": false,
+      "cited_by_count": 6,
+      "citation_normalized_percentile": {
+        "value": 0.83029882,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 96,
+        "max": 98
+      },
+      "biblio": {
+        "volume": "17",
+        "issue": "6",
+        "first_page": "3632",
+        "last_page": "3643"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11757",
+        "display_name": "Seismic Waves and Analysis",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1908",
+          "display_name": "Geophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11757",
+          "display_name": "Seismic Waves and Analysis",
+          "score": 1.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10271",
+          "display_name": "Seismic Imaging and Inversion Techniques",
+          "score": 0.9995999932289124,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11609",
+          "display_name": "Geophysical Methods and Applications",
+          "score": 0.9987000226974487,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2212",
+            "display_name": "Ocean Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/distributed-acoustic-sensing",
+          "display_name": "Distributed acoustic sensing",
+          "score": 0.6978368163108826
+        },
+        {
+          "id": "https://openalex.org/keywords/profiling",
+          "display_name": "Profiling (computer programming)",
+          "score": 0.6130377054214478
+        },
+        {
+          "id": "https://openalex.org/keywords/vertical-seismic-profile",
+          "display_name": "Vertical seismic profile",
+          "score": 0.4988529682159424
+        },
+        {
+          "id": "https://openalex.org/keywords/geology",
+          "display_name": "Geology",
+          "score": 0.485970139503479
+        },
+        {
+          "id": "https://openalex.org/keywords/algorithm",
+          "display_name": "Algorithm",
+          "score": 0.4745372533798218
+        },
+        {
+          "id": "https://openalex.org/keywords/computer-science",
+          "display_name": "Computer science",
+          "score": 0.4326241910457611
+        },
+        {
+          "id": "https://openalex.org/keywords/seismology",
+          "display_name": "Seismology",
+          "score": 0.4161604642868042
+        },
+        {
+          "id": "https://openalex.org/keywords/telecommunications",
+          "display_name": "Telecommunications",
+          "score": 0.12383803725242615
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C158543913",
+          "wikidata": "https://www.wikidata.org/wiki/Q5283133",
+          "display_name": "Distributed acoustic sensing",
+          "level": 4,
+          "score": 0.6978368163108826
+        },
+        {
+          "id": "https://openalex.org/C187191949",
+          "wikidata": "https://www.wikidata.org/wiki/Q1138496",
+          "display_name": "Profiling (computer programming)",
+          "level": 2,
+          "score": 0.6130377054214478
+        },
+        {
+          "id": "https://openalex.org/C89787772",
+          "wikidata": "https://www.wikidata.org/wiki/Q7922855",
+          "display_name": "Vertical seismic profile",
+          "level": 2,
+          "score": 0.4988529682159424
+        },
+        {
+          "id": "https://openalex.org/C127313418",
+          "wikidata": "https://www.wikidata.org/wiki/Q1069",
+          "display_name": "Geology",
+          "level": 0,
+          "score": 0.485970139503479
+        },
+        {
+          "id": "https://openalex.org/C11413529",
+          "wikidata": "https://www.wikidata.org/wiki/Q8366",
+          "display_name": "Algorithm",
+          "level": 1,
+          "score": 0.4745372533798218
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.4326241910457611
+        },
+        {
+          "id": "https://openalex.org/C165205528",
+          "wikidata": "https://www.wikidata.org/wiki/Q83371",
+          "display_name": "Seismology",
+          "level": 1,
+          "score": 0.4161604642868042
+        },
+        {
+          "id": "https://openalex.org/C76155785",
+          "wikidata": "https://www.wikidata.org/wiki/Q418",
+          "display_name": "Telecommunications",
+          "level": 1,
+          "score": 0.12383803725242615
+        },
+        {
+          "id": "https://openalex.org/C194232370",
+          "wikidata": "https://www.wikidata.org/wiki/Q162",
+          "display_name": "Optical fiber",
+          "level": 2,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C21651689",
+          "wikidata": "https://www.wikidata.org/wiki/Q1397427",
+          "display_name": "Fiber optic sensor",
+          "level": 3,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C111919701",
+          "wikidata": "https://www.wikidata.org/wiki/Q9135",
+          "display_name": "Operating system",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1016/j.jrmge.2024.08.007",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1016/j.jrmge.2024.08.007",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S2764891560",
+            "display_name": "Journal of Rock Mechanics and Geotechnical Engineering",
+            "issn_l": "1674-7755",
+            "issn": [
+              "1674-7755",
+              "2589-0417"
+            ],
+            "is_oa": true,
+            "is_in_doaj": true,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "doaj",
+              "jufo-1",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310320990",
+            "host_organization_name": "Elsevier BV",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320990"
+            ],
+            "host_organization_lineage_names": [
+              "Elsevier BV"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of Rock Mechanics and Geotechnical Engineering",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.1016/j.jrmge.2024.08.007",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1016/j.jrmge.2024.08.007",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S2764891560",
+          "display_name": "Journal of Rock Mechanics and Geotechnical Engineering",
+          "issn_l": "1674-7755",
+          "issn": [
+            "1674-7755",
+            "2589-0417"
+          ],
+          "is_oa": true,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "doaj",
+            "jufo-1",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310320990",
+          "host_organization_name": "Elsevier BV",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320990"
+          ],
+          "host_organization_lineage_names": [
+            "Elsevier BV"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Rock Mechanics and Geotechnical Engineering",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [
+        {
+          "score": 0.6899999976158142,
+          "id": "https://metadata.un.org/sdg/13",
+          "display_name": "Climate action"
+        }
+      ],
+      "x_sdgs": [],
+      "awards": [
+        {
+          "id": "https://openalex.org/G221126164",
+          "display_name": null,
+          "funder_award_id": "42225702",
+          "funder_id": "https://openalex.org/F4320321001",
+          "funder_display_name": "National Natural Science Foundation of China"
+        },
+        {
+          "id": "https://openalex.org/G4583656081",
+          "display_name": null,
+          "funder_award_id": "BK20211086",
+          "funder_id": "https://openalex.org/F4320322769",
+          "funder_display_name": "Natural Science Foundation of Jiangsu Province"
+        },
+        {
+          "id": "https://openalex.org/G8962949937",
+          "display_name": null,
+          "funder_award_id": "42077235",
+          "funder_id": "https://openalex.org/F4320321001",
+          "funder_display_name": "National Natural Science Foundation of China"
+        }
+      ],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320310283",
+          "display_name": "Ontario Ministry of Natural Resources and Forestry",
+          "ror": "https://ror.org/02ntv3742"
+        },
+        {
+          "id": "https://openalex.org/F4320321001",
+          "display_name": "National Natural Science Foundation of China",
+          "ror": "https://ror.org/01h0zpd94"
+        },
+        {
+          "id": "https://openalex.org/F4320322769",
+          "display_name": "Natural Science Foundation of Jiangsu Province",
+          "ror": "https://ror.org/01h0zpd94"
+        },
+        {
+          "id": "https://openalex.org/F4320324852",
+          "display_name": "Nanjing University",
+          "ror": "https://ror.org/01rxvg760"
+        }
+      ],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 57,
+      "referenced_works": [
+        "https://openalex.org/W1511416742",
+        "https://openalex.org/W1560028330",
+        "https://openalex.org/W1695352019",
+        "https://openalex.org/W1989955959",
+        "https://openalex.org/W2008732286",
+        "https://openalex.org/W2019313580",
+        "https://openalex.org/W2047319551",
+        "https://openalex.org/W2065126285",
+        "https://openalex.org/W2069157151",
+        "https://openalex.org/W2072831198",
+        "https://openalex.org/W2105244871",
+        "https://openalex.org/W2109717268",
+        "https://openalex.org/W2129900710",
+        "https://openalex.org/W2133526188",
+        "https://openalex.org/W2139713088",
+        "https://openalex.org/W2304764359",
+        "https://openalex.org/W2327252383",
+        "https://openalex.org/W2584046509",
+        "https://openalex.org/W2734927737",
+        "https://openalex.org/W2734956986",
+        "https://openalex.org/W2763920787",
+        "https://openalex.org/W2793286954",
+        "https://openalex.org/W2913828577",
+        "https://openalex.org/W2995419125",
+        "https://openalex.org/W3047516431",
+        "https://openalex.org/W3063913079",
+        "https://openalex.org/W3081922473",
+        "https://openalex.org/W3091679003",
+        "https://openalex.org/W3126257219",
+        "https://openalex.org/W3217481008",
+        "https://openalex.org/W4200158705",
+        "https://openalex.org/W4220814029",
+        "https://openalex.org/W4220847129",
+        "https://openalex.org/W4226072390",
+        "https://openalex.org/W4285191080",
+        "https://openalex.org/W4298006720",
+        "https://openalex.org/W4303981137",
+        "https://openalex.org/W4307472678",
+        "https://openalex.org/W4323923028",
+        "https://openalex.org/W4366392447",
+        "https://openalex.org/W4378231035",
+        "https://openalex.org/W4379055696",
+        "https://openalex.org/W4379878803",
+        "https://openalex.org/W4388733334",
+        "https://openalex.org/W4389048494",
+        "https://openalex.org/W4393029082",
+        "https://openalex.org/W4393233637",
+        "https://openalex.org/W4394060764",
+        "https://openalex.org/W4404035155",
+        "https://openalex.org/W6740967534",
+        "https://openalex.org/W6772129524",
+        "https://openalex.org/W6784028351",
+        "https://openalex.org/W6790317582",
+        "https://openalex.org/W6804841606",
+        "https://openalex.org/W6852434155",
+        "https://openalex.org/W6858927315",
+        "https://openalex.org/W6863692276"
+      ],
+      "related_works": [
+        "https://openalex.org/W1500184085",
+        "https://openalex.org/W4200485858",
+        "https://openalex.org/W1900713400",
+        "https://openalex.org/W2274335686",
+        "https://openalex.org/W2188665978",
+        "https://openalex.org/W2332449933",
+        "https://openalex.org/W3194371498",
+        "https://openalex.org/W2793698755",
+        "https://openalex.org/W2897868035",
+        "https://openalex.org/W3120988699"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 4
+        }
+      ],
+      "updated_date": "2026-09-24T07:57:37.273135",
+      "created_date": "2025-10-10T00:00:00"
+    }
+  ],
+  "group_by": []
+}

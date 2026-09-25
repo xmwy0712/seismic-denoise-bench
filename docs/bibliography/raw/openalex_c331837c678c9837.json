@@ -1,0 +1,1288 @@
+{
+  "id": "https://openalex.org/W1989573922",
+  "doi": "https://doi.org/10.1190/1.2212227",
+  "title": "A methodology for 7D warping and deformation monitoring using time-lapse seismic data",
+  "display_name": "A methodology for 7D warping and deformation monitoring using time-lapse seismic data",
+  "publication_year": 2006,
+  "publication_date": "2006-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1989573922",
+    "doi": "https://doi.org/10.1190/1.2212227",
+    "mag": "1989573922"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.2212227",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.2212227",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S106174089",
+      "display_name": "Geophysics",
+      "issn_l": "0016-8033",
+      "issn": [
+        "0016-8033",
+        "1942-2156"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5087128702",
+        "display_name": "Stephen A. Hall",
+        "orcid": "https://orcid.org/0000-0002-5232-4942"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I32062511",
+          "display_name": "Heriot-Watt University",
+          "ror": "https://ror.org/04mghma93",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I32062511"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Stephen A. Hall",
+      "raw_affiliation_strings": [
+        "1Formerly Institute of Petroleum Engineering, Heriot-Watt University, Edinburgh EH14 4AS, United Kingdom; presently Laboratoire 3S, Domaine Universitaire, BP 53, 38041 Grenoble Cedex 9 France. E-mail: hall@geo.hmg.inpg.fr",
+        "Formerly Institute of Petroleum Engineering, Heriot-Watt University, Edinburgh EH14 4AS, United Kingdom; presently Laboratoire 3S, Domaine Universitaire, BP 53, 38041 Grenoble Cedex 9 France"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1Formerly Institute of Petroleum Engineering, Heriot-Watt University, Edinburgh EH14 4AS, United Kingdom; presently Laboratoire 3S, Domaine Universitaire, BP 53, 38041 Grenoble Cedex 9 France. E-mail: hall@geo.hmg.inpg.fr",
+          "institution_ids": [
+            "https://openalex.org/I32062511"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Formerly Institute of Petroleum Engineering, Heriot-Watt University, Edinburgh EH14 4AS, United Kingdom; presently Laboratoire 3S, Domaine Universitaire, BP 53, 38041 Grenoble Cedex 9 France",
+          "institution_ids": [
+            "https://openalex.org/I32062511"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5087128702"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I32062511"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 2.3483,
+  "has_fulltext": false,
+  "cited_by_count": 64,
+  "citation_normalized_percentile": {
+    "value": 0.85664783,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "71",
+    "issue": "4",
+    "first_page": "O21",
+    "last_page": "O31"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9998999834060669,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10399",
+      "display_name": "Hydrocarbon exploration and reservoir analysis",
+      "score": 0.9991999864578247,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.9988999962806702,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/image-warping",
+      "display_name": "Image warping",
+      "score": 0.8531632423400879
+    },
+    {
+      "id": "https://openalex.org/keywords/vector-field",
+      "display_name": "Vector field",
+      "score": 0.6541740298271179
+    },
+    {
+      "id": "https://openalex.org/keywords/displacement",
+      "display_name": "Displacement (psychology)",
+      "score": 0.6351428627967834
+    },
+    {
+      "id": "https://openalex.org/keywords/deformation",
+      "display_name": "Deformation (meteorology)",
+      "score": 0.6029176115989685
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.5546461939811707
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.49534884095191956
+    },
+    {
+      "id": "https://openalex.org/keywords/displacement-field",
+      "display_name": "Displacement field",
+      "score": 0.464230477809906
+    },
+    {
+      "id": "https://openalex.org/keywords/synthetic-data",
+      "display_name": "Synthetic data",
+      "score": 0.4490915536880493
+    },
+    {
+      "id": "https://openalex.org/keywords/dynamic-time-warping",
+      "display_name": "Dynamic time warping",
+      "score": 0.4464346170425415
+    },
+    {
+      "id": "https://openalex.org/keywords/matching",
+      "display_name": "Matching (statistics)",
+      "score": 0.44490107893943787
+    },
+    {
+      "id": "https://openalex.org/keywords/finite-element-method",
+      "display_name": "Finite element method",
+      "score": 0.4272986948490143
+    },
+    {
+      "id": "https://openalex.org/keywords/sensitivity",
+      "display_name": "Sensitivity (control systems)",
+      "score": 0.4119083285331726
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.3647727072238922
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-vision",
+      "display_name": "Computer vision",
+      "score": 0.3551858067512512
+    },
+    {
+      "id": "https://openalex.org/keywords/geometry",
+      "display_name": "Geometry",
+      "score": 0.3317471742630005
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.2895105481147766
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.23533552885055542
+    },
+    {
+      "id": "https://openalex.org/keywords/structural-engineering",
+      "display_name": "Structural engineering",
+      "score": 0.1626695990562439
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C157202957",
+      "wikidata": "https://www.wikidata.org/wiki/Q1659609",
+      "display_name": "Image warping",
+      "level": 2,
+      "score": 0.8531632423400879
+    },
+    {
+      "id": "https://openalex.org/C91188154",
+      "wikidata": "https://www.wikidata.org/wiki/Q186247",
+      "display_name": "Vector field",
+      "level": 2,
+      "score": 0.6541740298271179
+    },
+    {
+      "id": "https://openalex.org/C107551265",
+      "wikidata": "https://www.wikidata.org/wiki/Q1458245",
+      "display_name": "Displacement (psychology)",
+      "level": 2,
+      "score": 0.6351428627967834
+    },
+    {
+      "id": "https://openalex.org/C204366326",
+      "wikidata": "https://www.wikidata.org/wiki/Q3027650",
+      "display_name": "Deformation (meteorology)",
+      "level": 2,
+      "score": 0.6029176115989685
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.5546461939811707
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.49534884095191956
+    },
+    {
+      "id": "https://openalex.org/C29660869",
+      "wikidata": "https://www.wikidata.org/wiki/Q5282615",
+      "display_name": "Displacement field",
+      "level": 3,
+      "score": 0.464230477809906
+    },
+    {
+      "id": "https://openalex.org/C160920958",
+      "wikidata": "https://www.wikidata.org/wiki/Q7662746",
+      "display_name": "Synthetic data",
+      "level": 2,
+      "score": 0.4490915536880493
+    },
+    {
+      "id": "https://openalex.org/C88516994",
+      "wikidata": "https://www.wikidata.org/wiki/Q1268863",
+      "display_name": "Dynamic time warping",
+      "level": 2,
+      "score": 0.4464346170425415
+    },
+    {
+      "id": "https://openalex.org/C165064840",
+      "wikidata": "https://www.wikidata.org/wiki/Q1321061",
+      "display_name": "Matching (statistics)",
+      "level": 2,
+      "score": 0.44490107893943787
+    },
+    {
+      "id": "https://openalex.org/C135628077",
+      "wikidata": "https://www.wikidata.org/wiki/Q220184",
+      "display_name": "Finite element method",
+      "level": 2,
+      "score": 0.4272986948490143
+    },
+    {
+      "id": "https://openalex.org/C21200559",
+      "wikidata": "https://www.wikidata.org/wiki/Q7451068",
+      "display_name": "Sensitivity (control systems)",
+      "level": 2,
+      "score": 0.4119083285331726
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.3647727072238922
+    },
+    {
+      "id": "https://openalex.org/C31972630",
+      "wikidata": "https://www.wikidata.org/wiki/Q844240",
+      "display_name": "Computer vision",
+      "level": 1,
+      "score": 0.3551858067512512
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.3317471742630005
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.2895105481147766
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.23533552885055542
+    },
+    {
+      "id": "https://openalex.org/C66938386",
+      "wikidata": "https://www.wikidata.org/wiki/Q633538",
+      "display_name": "Structural engineering",
+      "level": 1,
+      "score": 0.1626695990562439
+    },
+    {
+      "id": "https://openalex.org/C24326235",
+      "wikidata": "https://www.wikidata.org/wiki/Q126095",
+      "display_name": "Electronic engineering",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C111368507",
+      "wikidata": "https://www.wikidata.org/wiki/Q43518",
+      "display_name": "Oceanography",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C542102704",
+      "wikidata": "https://www.wikidata.org/wiki/Q183257",
+      "display_name": "Psychotherapist",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 3,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.2212227",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.2212227",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S106174089",
+        "display_name": "Geophysics",
+        "issn_l": "0016-8033",
+        "issn": [
+          "0016-8033",
+          "1942-2156"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysics",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:oceanrep.geomar.de:47566",
+      "is_oa": false,
+      "landing_page_url": "http://oceanrep.geomar.de/47566/1/Hall__Geophysics71_4_2006.pdf",
+      "pdf_url": "http://oceanrep.geomar.de/47566/1/Hall__Geophysics71_4_2006.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400264",
+        "display_name": "Helmholtz Centre for Ocean Research Kiel (GEOMAR)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I34403800",
+        "host_organization_name": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
+        "host_organization_lineage": [
+          "https://openalex.org/I34403800"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": "Geophysics, 71 (4). O21-O31.",
+      "raw_type": "Article"
+    },
+    {
+      "id": "pmh:oai:lup.lub.lu.se:3db77658-5339-42b5-8d20-9f799646be4b",
+      "is_oa": false,
+      "landing_page_url": "https://lup.lub.lu.se/record/2441125",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400536",
+        "display_name": "Lund University Publications (Lund University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I187531555",
+        "host_organization_name": "Lund University",
+        "host_organization_lineage": [
+          "https://openalex.org/I187531555"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Geophysics; 71(4), pp 21-31 (2006)",
+      "raw_type": "info:eu-repo/semantics/article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 32,
+  "referenced_works": [
+    "https://openalex.org/W147079065",
+    "https://openalex.org/W648013214",
+    "https://openalex.org/W1616441336",
+    "https://openalex.org/W1694289106",
+    "https://openalex.org/W1969926209",
+    "https://openalex.org/W1975163596",
+    "https://openalex.org/W1995017520",
+    "https://openalex.org/W1999397604",
+    "https://openalex.org/W2002255021",
+    "https://openalex.org/W2008828610",
+    "https://openalex.org/W2010678114",
+    "https://openalex.org/W2017549152",
+    "https://openalex.org/W2031316998",
+    "https://openalex.org/W2032140557",
+    "https://openalex.org/W2035964780",
+    "https://openalex.org/W2047684331",
+    "https://openalex.org/W2072727461",
+    "https://openalex.org/W2072824986",
+    "https://openalex.org/W2073775990",
+    "https://openalex.org/W2082736629",
+    "https://openalex.org/W2091260724",
+    "https://openalex.org/W2092013080",
+    "https://openalex.org/W2134836095",
+    "https://openalex.org/W2136939883",
+    "https://openalex.org/W2137215596",
+    "https://openalex.org/W2139326335",
+    "https://openalex.org/W2148913686",
+    "https://openalex.org/W2152491501",
+    "https://openalex.org/W2323300503",
+    "https://openalex.org/W2605784974",
+    "https://openalex.org/W4251831196",
+    "https://openalex.org/W4285719527"
+  ],
+  "related_works": [
+    "https://openalex.org/W2347413598",
+    "https://openalex.org/W1918542373",
+    "https://openalex.org/W71572444",
+    "https://openalex.org/W1997383766",
+    "https://openalex.org/W2350336482",
+    "https://openalex.org/W2154472250",
+    "https://openalex.org/W2229352698",
+    "https://openalex.org/W3153956783",
+    "https://openalex.org/W2956069834",
+    "https://openalex.org/W2801262036"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "A": [
+      1
+    ],
+    "methodology": [
+      2,
+      150,
+      251
+    ],
+    "is": [
+      3,
+      46,
+      83,
+      110,
+      128,
+      136,
+      151,
+      184,
+      205,
+      238
+    ],
+    "presented": [
+      4
+    ],
+    "for": [
+      5,
+      85
+    ],
+    "vector": [
+      6,
+      49,
+      148,
+      202
+    ],
+    "analysis": [
+      7,
+      22
+    ],
+    "of": [
+      8,
+      28,
+      42,
+      70,
+      105,
+      249,
+      270
+    ],
+    "the": [
+      9,
+      71,
+      200,
+      224,
+      235,
+      247,
+      250,
+      264
+    ],
+    "image": [
+      10,
+      17
+    ],
+    "displacements": [
+      11,
+      50,
+      57
+    ],
+    "(warping)": [
+      12
+    ],
+    "between": [
+      13
+    ],
+    "successive": [
+      14
+    ],
+    "3D": [
+      15,
+      168
+    ],
+    "seismic": [
+      16,
+      101
+    ],
+    "volumes": [
+      18
+    ],
+    "that": [
+      19
+    ],
+    "provides": [
+      20
+    ],
+    "7D": [
+      21
+    ],
+    "(including": [
+      23
+    ],
+    "lateral": [
+      24,
+      63
+    ],
+    "and": [
+      25,
+      48,
+      88,
+      93,
+      107,
+      115,
+      133,
+      166,
+      169,
+      192,
+      218,
+      228
+    ],
+    "vertical": [
+      26,
+      44,
+      56
+    ],
+    "displacements)": [
+      27
+    ],
+    "in": [
+      29,
+      76,
+      99,
+      195,
+      263
+    ],
+    "situ": [
+      30,
+      196
+    ],
+    "subsurface": [
+      31
+    ],
+    "deformation": [
+      32,
+      89,
+      197
+    ],
+    "around": [
+      33
+    ],
+    "hydrocarbon": [
+      34
+    ],
+    "reservoirs.": [
+      35
+    ],
+    "The": [
+      36,
+      181,
+      231
+    ],
+    "key": [
+      37
+    ],
+    "challenges": [
+      38
+    ],
+    "are": [
+      39,
+      65,
+      96,
+      255
+    ],
+    "(1)": [
+      40,
+      155
+    ],
+    "assessment": [
+      41
+    ],
+    "just": [
+      43
+    ],
+    "shifts": [
+      45,
+      64
+    ],
+    "insufficient,": [
+      47
+    ],
+    "should": [
+      51
+    ],
+    "be": [
+      52,
+      60
+    ],
+    "determined;": [
+      53
+    ],
+    "(2)": [
+      54,
+      160
+    ],
+    "robust": [
+      55
+    ],
+    "can": [
+      58
+    ],
+    "usually": [
+      59
+    ],
+    "derived,": [
+      61
+    ],
+    "but": [
+      62,
+      266
+    ],
+    "less": [
+      66
+    ],
+    "well": [
+      67
+    ],
+    "defined": [
+      68
+    ],
+    "because": [
+      69
+    ],
+    "generally": [
+      72
+    ],
+    "smooth": [
+      73,
+      116
+    ],
+    "data": [
+      74,
+      243
+    ],
+    "character": [
+      75
+    ],
+    "a": [
+      77,
+      137,
+      143,
+      173,
+      208,
+      241,
+      259
+    ],
+    "horizontal/horizon": [
+      78
+    ],
+    "plane;": [
+      79
+    ],
+    "(3)": [
+      80,
+      167
+    ],
+    "subvoxel": [
+      81,
+      164
+    ],
+    "resolution": [
+      82
+    ],
+    "necessary": [
+      84
+    ],
+    "correct": [
+      86
+    ],
+    "matching": [
+      87
+    ],
+    "analysis;": [
+      90,
+      125
+    ],
+    "(4)": [
+      91
+    ],
+    "velocity": [
+      92,
+      227
+    ],
+    "strain": [
+      94,
+      124,
+      229,
+      236,
+      271
+    ],
+    "effects": [
+      95,
+      109,
+      191,
+      254
+    ],
+    "intrinsically": [
+      97
+    ],
+    "combined": [
+      98
+    ],
+    "time-lapse": [
+      100
+    ],
+    "images;": [
+      102
+    ],
+    "(5)": [
+      103
+    ],
+    "separation": [
+      104
+    ],
+    "accumulated": [
+      106,
+      188
+    ],
+    "local": [
+      108,
+      146,
+      161,
+      190,
+      260
+    ],
+    "necessary;": [
+      111
+    ],
+    "(6)": [
+      112
+    ],
+    "apparently": [
+      113
+    ],
+    "coherent": [
+      114
+    ],
+    "displacement": [
+      117,
+      201
+    ],
+    "fields": [
+      118
+    ],
+    "do": [
+      119
+    ],
+    "not": [
+      120,
+      273
+    ],
+    "necessarily": [
+      121
+    ],
+    "provide": [
+      122
+    ],
+    "good": [
+      123,
+      134
+    ],
+    "(7)": [
+      126
+    ],
+    "warping": [
+      127,
+      182
+    ],
+    "easily": [
+      129
+    ],
+    "degraded": [
+      130
+    ],
+    "by": [
+      131,
+      207
+    ],
+    "noise,": [
+      132
+    ],
+    "cross-matching": [
+      135
+    ],
+    "prerequisite.": [
+      138
+    ],
+    "To": [
+      139
+    ],
+    "address": [
+      140
+    ],
+    "these": [
+      141
+    ],
+    "challenges,": [
+      142
+    ],
+    "full": [
+      144
+    ],
+    "3D,": [
+      145
+    ],
+    "warp": [
+      147
+    ],
+    "derivation": [
+      149
+    ],
+    "proposed,": [
+      152
+    ],
+    "which": [
+      153,
+      245
+    ],
+    "involves": [
+      154
+    ],
+    "constraint": [
+      156
+    ],
+    "using": [
+      157,
+      172,
+      240
+    ],
+    "prior": [
+      158
+    ],
+    "estimates,": [
+      159
+    ],
+    "refinement": [
+      162
+    ],
+    "with": [
+      163,
+      176
+    ],
+    "resolution,": [
+      165
+    ],
+    "vectorial": [
+      170
+    ],
+    "conditioning": [
+      171
+    ],
+    "deformable": [
+      174
+    ],
+    "mesh": [
+      175
+    ],
+    "sensitivity": [
+      177
+    ],
+    "to": [
+      178,
+      186,
+      193,
+      211,
+      222,
+      234,
+      257
+    ],
+    "image-match": [
+      179
+    ],
+    "quality.": [
+      180
+    ],
+    "approach": [
+      183,
+      210,
+      232
+    ],
+    "extended": [
+      185
+    ],
+    "separate": [
+      187,
+      223
+    ],
+    "from": [
+      189
+    ],
+    "analyze": [
+      194
+    ],
+    "based": [
+      198
+    ],
+    "on": [
+      199
+    ],
+    "volume.": [
+      203
+    ],
+    "This": [
+      204
+    ],
+    "achieved": [
+      206
+    ],
+    "finite-element": [
+      209
+    ],
+    "determine": [
+      212
+    ],
+    "an": [
+      213,
+      219
+    ],
+    "elemental": [
+      214
+    ],
+    "pseudostrain": [
+      215,
+      225
+    ],
+    "tensor": [
+      216
+    ],
+    "field": [
+      217
+    ],
+    "iterative": [
+      220
+    ],
+    "procedure": [
+      221
+    ],
+    "into": [
+      226
+    ],
+    "components.": [
+      230
+    ],
+    "up": [
+      233
+    ],
+    "analysis,": [
+      237
+    ],
+    "demonstrated": [
+      239
+    ],
+    "real": [
+      242
+    ],
+    "example,": [
+      244
+    ],
+    "indicates": [
+      246
+    ],
+    "potential": [
+      248
+    ],
+    "(accumulated": [
+      252
+    ],
+    "overburden": [
+      253
+    ],
+    "separated": [
+      256
+    ],
+    "reveal": [
+      258
+    ],
+    "compaction": [
+      261
+    ],
+    "signature": [
+      262
+    ],
+    "reservoir),": [
+      265
+    ],
+    "realistic,": [
+      267
+    ],
+    "quantitative": [
+      268
+    ],
+    "values": [
+      269
+    ],
+    "have": [
+      272
+    ],
+    "yet": [
+      274
+    ],
+    "been": [
+      275
+    ],
+    "realized.": [
+      276
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2026-08-11T07:18:39.950985",
+  "created_date": "2025-10-10T00:00:00"
+}

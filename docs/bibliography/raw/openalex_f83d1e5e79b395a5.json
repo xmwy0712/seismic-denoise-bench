@@ -1,0 +1,1293 @@
+{
+  "id": "https://openalex.org/W1532375194",
+  "doi": "https://doi.org/10.1111/1365-2478.12172",
+  "title": "Seeing coal‐seam top ahead of the drill bit through seismic‐while‐drilling",
+  "display_name": "Seeing coal‐seam top ahead of the drill bit through seismic‐while‐drilling",
+  "publication_year": 2014,
+  "publication_date": "2014-10-14",
+  "ids": {
+    "openalex": "https://openalex.org/W1532375194",
+    "doi": "https://doi.org/10.1111/1365-2478.12172",
+    "mag": "1532375194"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1111/1365-2478.12172",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1111/1365-2478.12172",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S45030768",
+      "display_name": "Geophysical Prospecting",
+      "issn_l": "0016-8025",
+      "issn": [
+        "0016-8025",
+        "1365-2478"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysical Prospecting",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5000374321",
+        "display_name": "Binzhong Zhou",
+        "orcid": "https://orcid.org/0000-0003-3735-2256",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-3735-2256"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1292875679",
+          "display_name": "Commonwealth Scientific and Industrial Research Organisation",
+          "ror": "https://ror.org/03qn8fb07",
+          "country_code": "AU",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1292875679",
+            "https://openalex.org/I2801453606",
+            "https://openalex.org/I4387156119"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Binzhong Zhou",
+      "raw_affiliation_strings": [
+        "CSIRO Energy Flagship  Kenmore QLD 4069 Australia",
+        "CSIRO Energy Flagship Kenmore QLD 4069 Australia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "CSIRO Energy Flagship  Kenmore QLD 4069 Australia",
+          "institution_ids": [
+            "https://openalex.org/I1292875679"
+          ]
+        },
+        {
+          "raw_affiliation_string": "CSIRO Energy Flagship Kenmore QLD 4069 Australia",
+          "institution_ids": [
+            "https://openalex.org/I1292875679"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5111731096",
+        "display_name": "I. M. Mason",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I129604602",
+          "display_name": "The University of Sydney",
+          "ror": "https://ror.org/0384j8v12",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I129604602"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Iain Mason",
+      "raw_affiliation_strings": [
+        "ARCOLAB School of Geosciences The University of Sydney  NSW 2006 Australia",
+        "ARCOLAB, School of Geosciences, The University of Sydney, NSW, 2006, Australia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "ARCOLAB School of Geosciences The University of Sydney  NSW 2006 Australia",
+          "institution_ids": [
+            "https://openalex.org/I129604602"
+          ]
+        },
+        {
+          "raw_affiliation_string": "ARCOLAB, School of Geosciences, The University of Sydney, NSW, 2006, Australia",
+          "institution_ids": [
+            "https://openalex.org/I129604602"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5061868460",
+        "display_name": "Stewart Alan Greenhalgh",
+        "orcid": "https://orcid.org/0000-0002-0028-2779",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-0028-2779"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I35440088",
+          "display_name": "ETH Zurich",
+          "ror": "https://ror.org/05a28rw58",
+          "country_code": "CH",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2799323385",
+            "https://openalex.org/I35440088"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4405255353",
+          "display_name": "Institute of Geophysics",
+          "ror": "https://ror.org/02xcy2g83",
+          "country_code": "CH",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2799323385",
+            "https://openalex.org/I35440088",
+            "https://openalex.org/I4405255353"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I5124864",
+          "display_name": "École Polytechnique Fédérale de Lausanne",
+          "ror": "https://ror.org/02s376052",
+          "country_code": "CH",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2799323385",
+            "https://openalex.org/I5124864"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Stewart Greenhalgh",
+      "raw_affiliation_strings": [
+        "Institute of Geophysics Swiss Federal Institute of Technology (ETH)  CH‐8092 Zurich Switzerland",
+        "Institute of Geophysics; Swiss Federal Institute of Technology (ETH); CH-8092 Zurich Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Geophysics Swiss Federal Institute of Technology (ETH)  CH‐8092 Zurich Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I35440088",
+            "https://openalex.org/I4405255353",
+            "https://openalex.org/I5124864"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institute of Geophysics; Swiss Federal Institute of Technology (ETH); CH-8092 Zurich Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I4405255353",
+            "https://openalex.org/I5124864"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5000989011",
+        "display_name": "Shankar Subramaniyan",
+        "orcid": "https://orcid.org/0000-0002-6486-2166",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-6486-2166"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I35440088",
+          "display_name": "ETH Zurich",
+          "ror": "https://ror.org/05a28rw58",
+          "country_code": "CH",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2799323385",
+            "https://openalex.org/I35440088"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4405255353",
+          "display_name": "Institute of Geophysics",
+          "ror": "https://ror.org/02xcy2g83",
+          "country_code": "CH",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2799323385",
+            "https://openalex.org/I35440088",
+            "https://openalex.org/I4405255353"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I5124864",
+          "display_name": "École Polytechnique Fédérale de Lausanne",
+          "ror": "https://ror.org/02s376052",
+          "country_code": "CH",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2799323385",
+            "https://openalex.org/I5124864"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Shankar Subramaniyan",
+      "raw_affiliation_strings": [
+        "Institute of Geophysics Swiss Federal Institute of Technology (ETH)  CH‐8092 Zurich Switzerland",
+        "Institute of Geophysics; Swiss Federal Institute of Technology (ETH); CH-8092 Zurich Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Geophysics Swiss Federal Institute of Technology (ETH)  CH‐8092 Zurich Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I35440088",
+            "https://openalex.org/I4405255353",
+            "https://openalex.org/I5124864"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institute of Geophysics; Swiss Federal Institute of Technology (ETH); CH-8092 Zurich Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I4405255353",
+            "https://openalex.org/I5124864"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 5,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5000374321"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I1292875679"
+  ],
+  "apc_list": {
+    "value": 4150,
+    "currency": "USD",
+    "value_usd": 4150
+  },
+  "apc_paid": null,
+  "fwci": 0.9859,
+  "has_fulltext": false,
+  "cited_by_count": 17,
+  "citation_normalized_percentile": {
+    "value": 0.72666145,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 88,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "63",
+    "issue": "1",
+    "first_page": "166",
+    "last_page": "182"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9998000264167786,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11609",
+      "display_name": "Geophysical Methods and Applications",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/drilling",
+      "display_name": "Drilling",
+      "score": 0.8195477724075317
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.7821851968765259
+    },
+    {
+      "id": "https://openalex.org/keywords/coal-mining",
+      "display_name": "Coal mining",
+      "score": 0.745119035243988
+    },
+    {
+      "id": "https://openalex.org/keywords/geophone",
+      "display_name": "Geophone",
+      "score": 0.7357903718948364
+    },
+    {
+      "id": "https://openalex.org/keywords/overburden",
+      "display_name": "Overburden",
+      "score": 0.6670705676078796
+    },
+    {
+      "id": "https://openalex.org/keywords/drill",
+      "display_name": "Drill",
+      "score": 0.6565887928009033
+    },
+    {
+      "id": "https://openalex.org/keywords/borehole",
+      "display_name": "Borehole",
+      "score": 0.6565868854522705
+    },
+    {
+      "id": "https://openalex.org/keywords/vertical-seismic-profile",
+      "display_name": "Vertical seismic profile",
+      "score": 0.6319825649261475
+    },
+    {
+      "id": "https://openalex.org/keywords/mining-engineering",
+      "display_name": "Mining engineering",
+      "score": 0.626802384853363
+    },
+    {
+      "id": "https://openalex.org/keywords/measurement-while-drilling",
+      "display_name": "Measurement while drilling",
+      "score": 0.562237024307251
+    },
+    {
+      "id": "https://openalex.org/keywords/dynamite",
+      "display_name": "Dynamite",
+      "score": 0.4749179780483246
+    },
+    {
+      "id": "https://openalex.org/keywords/coal",
+      "display_name": "Coal",
+      "score": 0.46590739488601685
+    },
+    {
+      "id": "https://openalex.org/keywords/drill-bit",
+      "display_name": "Drill bit",
+      "score": 0.42698296904563904
+    },
+    {
+      "id": "https://openalex.org/keywords/problems-in-coal-mining",
+      "display_name": "Problems in coal mining",
+      "score": 0.4224308729171753
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.4088849127292633
+    },
+    {
+      "id": "https://openalex.org/keywords/engineering",
+      "display_name": "Engineering",
+      "score": 0.1691311001777649
+    },
+    {
+      "id": "https://openalex.org/keywords/geotechnical-engineering",
+      "display_name": "Geotechnical engineering",
+      "score": 0.14902210235595703
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C25197100",
+      "wikidata": "https://www.wikidata.org/wiki/Q890886",
+      "display_name": "Drilling",
+      "level": 2,
+      "score": 0.8195477724075317
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.7821851968765259
+    },
+    {
+      "id": "https://openalex.org/C108615695",
+      "wikidata": "https://www.wikidata.org/wiki/Q12880211",
+      "display_name": "Coal mining",
+      "level": 3,
+      "score": 0.745119035243988
+    },
+    {
+      "id": "https://openalex.org/C54187759",
+      "wikidata": "https://www.wikidata.org/wiki/Q361564",
+      "display_name": "Geophone",
+      "level": 2,
+      "score": 0.7357903718948364
+    },
+    {
+      "id": "https://openalex.org/C2777201227",
+      "wikidata": "https://www.wikidata.org/wiki/Q331224",
+      "display_name": "Overburden",
+      "level": 2,
+      "score": 0.6670705676078796
+    },
+    {
+      "id": "https://openalex.org/C173736775",
+      "wikidata": "https://www.wikidata.org/wiki/Q58964",
+      "display_name": "Drill",
+      "level": 2,
+      "score": 0.6565887928009033
+    },
+    {
+      "id": "https://openalex.org/C150560799",
+      "wikidata": "https://www.wikidata.org/wiki/Q502102",
+      "display_name": "Borehole",
+      "level": 2,
+      "score": 0.6565868854522705
+    },
+    {
+      "id": "https://openalex.org/C89787772",
+      "wikidata": "https://www.wikidata.org/wiki/Q7922855",
+      "display_name": "Vertical seismic profile",
+      "level": 2,
+      "score": 0.6319825649261475
+    },
+    {
+      "id": "https://openalex.org/C16674752",
+      "wikidata": "https://www.wikidata.org/wiki/Q1370637",
+      "display_name": "Mining engineering",
+      "level": 1,
+      "score": 0.626802384853363
+    },
+    {
+      "id": "https://openalex.org/C42222113",
+      "wikidata": "https://www.wikidata.org/wiki/Q890894",
+      "display_name": "Measurement while drilling",
+      "level": 3,
+      "score": 0.562237024307251
+    },
+    {
+      "id": "https://openalex.org/C2778074606",
+      "wikidata": "https://www.wikidata.org/wiki/Q80728",
+      "display_name": "Dynamite",
+      "level": 3,
+      "score": 0.4749179780483246
+    },
+    {
+      "id": "https://openalex.org/C518851703",
+      "wikidata": "https://www.wikidata.org/wiki/Q24489",
+      "display_name": "Coal",
+      "level": 2,
+      "score": 0.46590739488601685
+    },
+    {
+      "id": "https://openalex.org/C2778382975",
+      "wikidata": "https://www.wikidata.org/wiki/Q335283",
+      "display_name": "Drill bit",
+      "level": 3,
+      "score": 0.42698296904563904
+    },
+    {
+      "id": "https://openalex.org/C28860762",
+      "wikidata": "https://www.wikidata.org/wiki/Q7246974",
+      "display_name": "Problems in coal mining",
+      "level": 4,
+      "score": 0.4224308729171753
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.4088849127292633
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.1691311001777649
+    },
+    {
+      "id": "https://openalex.org/C187320778",
+      "wikidata": "https://www.wikidata.org/wiki/Q1349130",
+      "display_name": "Geotechnical engineering",
+      "level": 1,
+      "score": 0.14902210235595703
+    },
+    {
+      "id": "https://openalex.org/C548081761",
+      "wikidata": "https://www.wikidata.org/wiki/Q180388",
+      "display_name": "Waste management",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C154238967",
+      "wikidata": "https://www.wikidata.org/wiki/Q12870",
+      "display_name": "Explosive material",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C78519656",
+      "wikidata": "https://www.wikidata.org/wiki/Q101333",
+      "display_name": "Mechanical engineering",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C178790620",
+      "wikidata": "https://www.wikidata.org/wiki/Q11351",
+      "display_name": "Organic chemistry",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1111/1365-2478.12172",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1111/1365-2478.12172",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S45030768",
+        "display_name": "Geophysical Prospecting",
+        "issn_l": "0016-8025",
+        "issn": [
+          "0016-8025",
+          "1365-2478"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysical Prospecting",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "score": 0.4399999976158142,
+      "id": "https://metadata.un.org/sdg/14",
+      "display_name": "Life below water"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 51,
+  "referenced_works": [
+    "https://openalex.org/W110895547",
+    "https://openalex.org/W304596526",
+    "https://openalex.org/W633946261",
+    "https://openalex.org/W1581426131",
+    "https://openalex.org/W1944633695",
+    "https://openalex.org/W1964758977",
+    "https://openalex.org/W1971148954",
+    "https://openalex.org/W1974495788",
+    "https://openalex.org/W1979463443",
+    "https://openalex.org/W1985883290",
+    "https://openalex.org/W2002762429",
+    "https://openalex.org/W2005995815",
+    "https://openalex.org/W2012029480",
+    "https://openalex.org/W2012100580",
+    "https://openalex.org/W2023612245",
+    "https://openalex.org/W2027994987",
+    "https://openalex.org/W2034927667",
+    "https://openalex.org/W2035827450",
+    "https://openalex.org/W2040287250",
+    "https://openalex.org/W2045233253",
+    "https://openalex.org/W2055553006",
+    "https://openalex.org/W2056601895",
+    "https://openalex.org/W2057298168",
+    "https://openalex.org/W2057599537",
+    "https://openalex.org/W2058359126",
+    "https://openalex.org/W2060895840",
+    "https://openalex.org/W2066789118",
+    "https://openalex.org/W2075339560",
+    "https://openalex.org/W2076009519",
+    "https://openalex.org/W2077148232",
+    "https://openalex.org/W2081605893",
+    "https://openalex.org/W2091797320",
+    "https://openalex.org/W2093037712",
+    "https://openalex.org/W2109447416",
+    "https://openalex.org/W2113027549",
+    "https://openalex.org/W2118784091",
+    "https://openalex.org/W2133967496",
+    "https://openalex.org/W2137821086",
+    "https://openalex.org/W2157997586",
+    "https://openalex.org/W2162847366",
+    "https://openalex.org/W2164553762",
+    "https://openalex.org/W2164884406",
+    "https://openalex.org/W2165223197",
+    "https://openalex.org/W2167399885",
+    "https://openalex.org/W2263943856",
+    "https://openalex.org/W2346500753",
+    "https://openalex.org/W2405340893",
+    "https://openalex.org/W3121821306",
+    "https://openalex.org/W4246154726",
+    "https://openalex.org/W4252128022",
+    "https://openalex.org/W4285719527"
+  ],
+  "related_works": [
+    "https://openalex.org/W2093037712",
+    "https://openalex.org/W2412395868",
+    "https://openalex.org/W1980884009",
+    "https://openalex.org/W1977628088",
+    "https://openalex.org/W4229624749",
+    "https://openalex.org/W1971175976",
+    "https://openalex.org/W745637513",
+    "https://openalex.org/W2008986489",
+    "https://openalex.org/W1499423364",
+    "https://openalex.org/W2158680378"
+  ],
+  "abstract_inverted_index": {
+    "ABSTRACT": [
+      0
+    ],
+    "Blast": [
+      1
+    ],
+    "damage": [
+      2
+    ],
+    "to": [
+      3,
+      10,
+      64,
+      112,
+      124,
+      175,
+      193
+    ],
+    "the": [
+      4,
+      20,
+      93,
+      114,
+      122,
+      125,
+      142,
+      147,
+      151,
+      156,
+      159,
+      173,
+      176,
+      179,
+      184,
+      191,
+      197
+    ],
+    "tops": [
+      5,
+      39
+    ],
+    "of": [
+      6,
+      53,
+      80,
+      116,
+      127,
+      178
+    ],
+    "coal": [
+      7,
+      128,
+      177
+    ],
+    "seams": [
+      8
+    ],
+    "due": [
+      9
+    ],
+    "incorrect": [
+      11
+    ],
+    "blast": [
+      12,
+      57,
+      130
+    ],
+    "standoff": [
+      13
+    ],
+    "distances": [
+      14
+    ],
+    "is": [
+      15,
+      40,
+      61,
+      85,
+      95
+    ],
+    "a": [
+      16,
+      70
+    ],
+    "serious": [
+      17
+    ],
+    "issue,": [
+      18
+    ],
+    "costing": [
+      19
+    ],
+    "industry": [
+      21
+    ],
+    "in": [
+      22,
+      78,
+      109,
+      140,
+      167,
+      199
+    ],
+    "Australia": [
+      23
+    ],
+    "about": [
+      24
+    ],
+    "one": [
+      25
+    ],
+    "open‐cut": [
+      26
+    ],
+    "mine": [
+      27
+    ],
+    "for": [
+      28,
+      36,
+      56,
+      120
+    ],
+    "every": [
+      29
+    ],
+    "ten": [
+      30
+    ],
+    "operating": [
+      31
+    ],
+    "mines.": [
+      32
+    ],
+    "The": [
+      33
+    ],
+    "current": [
+      34
+    ],
+    "approach": [
+      35,
+      123
+    ],
+    "mapping": [
+      37,
+      84
+    ],
+    "coal‐seam": [
+      38
+    ],
+    "through": [
+      41
+    ],
+    "drilling": [
+      42
+    ],
+    "and": [
+      43,
+      87,
+      100,
+      104,
+      150,
+      162
+    ],
+    "pierce‐point": [
+      44
+    ],
+    "logging.": [
+      45
+    ],
+    "To": [
+      46
+    ],
+    "provide": [
+      47
+    ],
+    "appropriate": [
+      48
+    ],
+    "depth": [
+      49
+    ],
+    "control": [
+      50
+    ],
+    "with": [
+      51
+    ],
+    "accuracy": [
+      52
+    ],
+    "±0.2": [
+      54
+    ],
+    "m": [
+      55,
+      72,
+      75
+    ],
+    "hole": [
+      58,
+      131
+    ],
+    "drilling,": [
+      59
+    ],
+    "it": [
+      60
+    ],
+    "typically": [
+      62
+    ],
+    "necessary": [
+      63
+    ],
+    "drill": [
+      65,
+      143,
+      160,
+      186
+    ],
+    "deep": [
+      66
+    ],
+    "reconnaissance": [
+      67
+    ],
+    "boreholes": [
+      68
+    ],
+    "on": [
+      69,
+      155
+    ],
+    "50": [
+      71,
+      74
+    ],
+    "x": [
+      73
+    ],
+    "grid": [
+      76
+    ],
+    "well": [
+      77
+    ],
+    "advance": [
+      79
+    ],
+    "overburden": [
+      81
+    ],
+    "removal.": [
+      82
+    ],
+    "Pierce‐point": [
+      83
+    ],
+    "expensive": [
+      86
+    ],
+    "can": [
+      88
+    ],
+    "be": [
+      89
+    ],
+    "inaccurate,": [
+      90
+    ],
+    "particularly": [
+      91
+    ],
+    "when": [
+      92
+    ],
+    "seam": [
+      94,
+      192,
+      198
+    ],
+    "disturbed": [
+      96
+    ],
+    "by": [
+      97,
+      172,
+      183,
+      190
+    ],
+    "rolls,": [
+      98
+    ],
+    "faults,": [
+      99
+    ],
+    "other": [
+      101
+    ],
+    "obstacles.Numerical": [
+      102
+    ],
+    "modelling": [
+      103
+    ],
+    "prototype‐field": [
+      105
+    ],
+    "testing": [
+      106
+    ],
+    "are": [
+      107,
+      153,
+      188
+    ],
+    "used": [
+      108
+    ],
+    "this": [
+      110
+    ],
+    "paper": [
+      111
+    ],
+    "demonstrate": [
+      113
+    ],
+    "feasibility": [
+      115
+    ],
+    "two": [
+      117
+    ],
+    "seismic‐while‐drilling‐based": [
+      118
+    ],
+    "approaches": [
+      119
+    ],
+    "predicting": [
+      121
+    ],
+    "top": [
+      126
+    ],
+    "during": [
+      129
+    ],
+    "drilling:": [
+      132
+    ],
+    "(i)": [
+      133
+    ],
+    "reverse": [
+      134
+    ],
+    "“walk‐away”": [
+      135
+    ],
+    "vertical": [
+      136
+    ],
+    "seismic": [
+      137,
+      165,
+      180
+    ],
+    "profiling": [
+      138
+    ],
+    "recording,": [
+      139,
+      166
+    ],
+    "which": [
+      141,
+      168
+    ],
+    "bit": [
+      144
+    ],
+    "vibration": [
+      145
+    ],
+    "provides": [
+      146
+    ],
+    "source": [
+      148
+    ],
+    "signal": [
+      149,
+      181
+    ],
+    "geophones": [
+      152,
+      194
+    ],
+    "planted": [
+      154
+    ],
+    "surface": [
+      157
+    ],
+    "near": [
+      158
+    ],
+    "rig,": [
+      161
+    ],
+    "(ii)": [
+      163
+    ],
+    "in‐seam": [
+      164
+    ],
+    "channel": [
+      169
+    ],
+    "waves,": [
+      170
+    ],
+    "driven": [
+      171
+    ],
+    "coupling": [
+      174
+    ],
+    "emitted": [
+      182
+    ],
+    "approaching": [
+      185
+    ],
+    "bit,": [
+      187
+    ],
+    "guided": [
+      189
+    ],
+    "located": [
+      195
+    ],
+    "within": [
+      196
+    ],
+    "nearby": [
+      200
+    ],
+    "or": [
+      201
+    ],
+    "remote": [
+      202
+    ],
+    "boreholes.": [
+      203
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 4
+    }
+  ],
+  "updated_date": "2026-09-22T17:25:34.749102",
+  "created_date": "2025-10-10T00:00:00"
+}

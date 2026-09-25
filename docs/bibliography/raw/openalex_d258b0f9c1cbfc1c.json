@@ -1,0 +1,303 @@
+{
+  "id": "https://openalex.org/W4200542752",
+  "doi": "https://doi.org/10.1002/9781119521808",
+  "title": "Distributed Acoustic Sensing in Geophysics",
+  "display_name": "Distributed Acoustic Sensing in Geophysics",
+  "publication_year": 2021,
+  "publication_date": "2021-12-10",
+  "ids": {
+    "openalex": "https://openalex.org/W4200542752",
+    "doi": "https://doi.org/10.1002/9781119521808"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1002/9781119521808",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1002/9781119521808",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S2764668805",
+      "display_name": "Geophysical monograph",
+      "issn_l": "0065-8448",
+      "issn": [
+        "0065-8448",
+        "2328-8779"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310315809",
+      "host_organization_name": "American Geophysical Union",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315809"
+      ],
+      "host_organization_lineage_names": [
+        "American Geophysical Union"
+      ],
+      "type": "book series"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysical Monograph Series",
+    "raw_type": "edited-book"
+  },
+  "type": "book",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 3.1331,
+  "has_fulltext": false,
+  "cited_by_count": 43,
+  "citation_normalized_percentile": {
+    "value": 0.9493382,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 88,
+    "max": 100
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T13018",
+    "display_name": "Seismology and Earthquake Studies",
+    "score": 0.6654000282287598,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T13018",
+      "display_name": "Seismology and Earthquake Studies",
+      "score": 0.6654000282287598,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13067",
+      "display_name": "Geological Modeling and Analysis",
+      "score": 0.5656999945640564,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1906",
+        "display_name": "Geochemistry and Petrology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.5412999987602234,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/geophysics",
+      "display_name": "Geophysics",
+      "score": 0.6039514541625977
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.5319935083389282
+    },
+    {
+      "id": "https://openalex.org/keywords/remote-sensing",
+      "display_name": "Remote sensing",
+      "score": 0.404884934425354
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C8058405",
+      "wikidata": "https://www.wikidata.org/wiki/Q46255",
+      "display_name": "Geophysics",
+      "level": 1,
+      "score": 0.6039514541625977
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.5319935083389282
+    },
+    {
+      "id": "https://openalex.org/C62649853",
+      "wikidata": "https://www.wikidata.org/wiki/Q199687",
+      "display_name": "Remote sensing",
+      "level": 1,
+      "score": 0.404884934425354
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1002/9781119521808",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1002/9781119521808",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764668805",
+        "display_name": "Geophysical monograph",
+        "issn_l": "0065-8448",
+        "issn": [
+          "0065-8448",
+          "2328-8779"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310315809",
+        "host_organization_name": "American Geophysical Union",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315809"
+        ],
+        "host_organization_lineage_names": [
+          "American Geophysical Union"
+        ],
+        "type": "book series"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysical Monograph Series",
+      "raw_type": "edited-book"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "score": 0.6600000262260437,
+      "id": "https://metadata.un.org/sdg/13",
+      "display_name": "Climate action"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2324615561",
+    "https://openalex.org/W2086120259",
+    "https://openalex.org/W2245170124",
+    "https://openalex.org/W3186982001",
+    "https://openalex.org/W2137941439",
+    "https://openalex.org/W1984402782",
+    "https://openalex.org/W2076393078",
+    "https://openalex.org/W1999913942",
+    "https://openalex.org/W2004200960",
+    "https://openalex.org/W1999891779"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-18T07:38:42.748307",
+  "created_date": "2025-10-10T00:00:00"
+}

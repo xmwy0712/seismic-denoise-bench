@@ -1,0 +1,972 @@
+{
+  "id": "https://openalex.org/W4414139526",
+  "doi": "https://doi.org/10.36922/jse025260030",
+  "title": "Seismic signal denoising using variational mode decomposition and a denoising convolutional neural network",
+  "display_name": "Seismic signal denoising using variational mode decomposition and a denoising convolutional neural network",
+  "publication_year": 2025,
+  "publication_date": "2025-09-04",
+  "ids": {
+    "openalex": "https://openalex.org/W4414139526",
+    "doi": "https://doi.org/10.36922/jse025260030"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.36922/jse025260030",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.36922/jse025260030",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S131394487",
+      "display_name": "Journal of seismic exploration",
+      "issn_l": "0963-0651",
+      "issn": [
+        "0963-0651"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Seismic Exploration",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "https://doi.org/10.36922/jse025260030",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5011638775",
+        "display_name": "Shengrong Zhang",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Shengrong Zhang",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5113183509",
+        "display_name": "Liang Zhang",
+        "orcid": "https://orcid.org/0000-0003-1827-5224",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-1827-5224"
+        ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "Liang Zhang",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": null,
+        "display_name": "Xuesha Qin",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Xuesha Qin",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5113183509"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 1.4202,
+  "has_fulltext": false,
+  "cited_by_count": 2,
+  "citation_normalized_percentile": {
+    "value": 0.79467137,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 96,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "34",
+    "issue": "2",
+    "first_page": "44",
+    "last_page": "44"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9998000264167786,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10892",
+      "display_name": "Drilling and Well Engineering",
+      "score": 0.9939000010490417,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.9889000058174133,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/noise-reduction",
+      "display_name": "Noise reduction",
+      "score": 0.6606000065803528
+    },
+    {
+      "id": "https://openalex.org/keywords/convolutional-neural-network",
+      "display_name": "Convolutional neural network",
+      "score": 0.5918999910354614
+    },
+    {
+      "id": "https://openalex.org/keywords/signal",
+      "display_name": "SIGNAL (programming language)",
+      "score": 0.520799994468689
+    },
+    {
+      "id": "https://openalex.org/keywords/decoupling",
+      "display_name": "Decoupling (probability)",
+      "score": 0.501800000667572
+    },
+    {
+      "id": "https://openalex.org/keywords/pattern-recognition",
+      "display_name": "Pattern recognition (psychology)",
+      "score": 0.4993000030517578
+    },
+    {
+      "id": "https://openalex.org/keywords/noise",
+      "display_name": "Noise (video)",
+      "score": 0.4862000048160553
+    },
+    {
+      "id": "https://openalex.org/keywords/signal-processing",
+      "display_name": "Signal processing",
+      "score": 0.4293000102043152
+    },
+    {
+      "id": "https://openalex.org/keywords/mode",
+      "display_name": "Mode (computer interface)",
+      "score": 0.40400001406669617
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C163294075",
+      "wikidata": "https://www.wikidata.org/wiki/Q581861",
+      "display_name": "Noise reduction",
+      "level": 2,
+      "score": 0.6606000065803528
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.620199978351593
+    },
+    {
+      "id": "https://openalex.org/C81363708",
+      "wikidata": "https://www.wikidata.org/wiki/Q17084460",
+      "display_name": "Convolutional neural network",
+      "level": 2,
+      "score": 0.5918999910354614
+    },
+    {
+      "id": "https://openalex.org/C2779843651",
+      "wikidata": "https://www.wikidata.org/wiki/Q7390335",
+      "display_name": "SIGNAL (programming language)",
+      "level": 2,
+      "score": 0.520799994468689
+    },
+    {
+      "id": "https://openalex.org/C205606062",
+      "wikidata": "https://www.wikidata.org/wiki/Q5249645",
+      "display_name": "Decoupling (probability)",
+      "level": 2,
+      "score": 0.501800000667572
+    },
+    {
+      "id": "https://openalex.org/C153180895",
+      "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+      "display_name": "Pattern recognition (psychology)",
+      "level": 2,
+      "score": 0.4993000030517578
+    },
+    {
+      "id": "https://openalex.org/C99498987",
+      "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+      "display_name": "Noise (video)",
+      "level": 3,
+      "score": 0.4862000048160553
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.48159998655319214
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.4787999987602234
+    },
+    {
+      "id": "https://openalex.org/C104267543",
+      "wikidata": "https://www.wikidata.org/wiki/Q208163",
+      "display_name": "Signal processing",
+      "level": 3,
+      "score": 0.4293000102043152
+    },
+    {
+      "id": "https://openalex.org/C48677424",
+      "wikidata": "https://www.wikidata.org/wiki/Q6888088",
+      "display_name": "Mode (computer interface)",
+      "level": 2,
+      "score": 0.40400001406669617
+    },
+    {
+      "id": "https://openalex.org/C50644808",
+      "wikidata": "https://www.wikidata.org/wiki/Q192776",
+      "display_name": "Artificial neural network",
+      "level": 2,
+      "score": 0.4027999937534332
+    },
+    {
+      "id": "https://openalex.org/C142433447",
+      "wikidata": "https://www.wikidata.org/wiki/Q7806653",
+      "display_name": "Time–frequency analysis",
+      "level": 3,
+      "score": 0.3898000121116638
+    },
+    {
+      "id": "https://openalex.org/C25570617",
+      "wikidata": "https://www.wikidata.org/wiki/Q1006462",
+      "display_name": "Hilbert–Huang transform",
+      "level": 3,
+      "score": 0.31619998812675476
+    },
+    {
+      "id": "https://openalex.org/C108583219",
+      "wikidata": "https://www.wikidata.org/wiki/Q197536",
+      "display_name": "Deep learning",
+      "level": 2,
+      "score": 0.31299999356269836
+    },
+    {
+      "id": "https://openalex.org/C111335779",
+      "wikidata": "https://www.wikidata.org/wiki/Q3454686",
+      "display_name": "Reduction (mathematics)",
+      "level": 2,
+      "score": 0.2890999913215637
+    },
+    {
+      "id": "https://openalex.org/C124681953",
+      "wikidata": "https://www.wikidata.org/wiki/Q339062",
+      "display_name": "Decomposition",
+      "level": 2,
+      "score": 0.27790001034736633
+    },
+    {
+      "id": "https://openalex.org/C30947920",
+      "wikidata": "https://www.wikidata.org/wiki/Q2133491",
+      "display_name": "Seismic noise",
+      "level": 2,
+      "score": 0.258899986743927
+    },
+    {
+      "id": "https://openalex.org/C28490314",
+      "wikidata": "https://www.wikidata.org/wiki/Q189436",
+      "display_name": "Speech recognition",
+      "level": 1,
+      "score": 0.2535000145435333
+    },
+    {
+      "id": "https://openalex.org/C2778258933",
+      "wikidata": "https://www.wikidata.org/wiki/Q16918986",
+      "display_name": "Decomposition method (queueing theory)",
+      "level": 2,
+      "score": 0.2531999945640564
+    },
+    {
+      "id": "https://openalex.org/C70958404",
+      "wikidata": "https://www.wikidata.org/wiki/Q7512728",
+      "display_name": "Signal reconstruction",
+      "level": 4,
+      "score": 0.251800000667572
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.36922/jse025260030",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.36922/jse025260030",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S131394487",
+        "display_name": "Journal of seismic exploration",
+        "issn_l": "0963-0651",
+        "issn": [
+          "0963-0651"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Seismic Exploration",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.36922/jse025260030",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.36922/jse025260030",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S131394487",
+      "display_name": "Journal of seismic exploration",
+      "issn_l": "0963-0651",
+      "issn": [
+        "0963-0651"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Seismic Exploration",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W4391621807",
+    "https://openalex.org/W4321487865",
+    "https://openalex.org/W4313906399",
+    "https://openalex.org/W4391621790",
+    "https://openalex.org/W4239306820",
+    "https://openalex.org/W4391266461",
+    "https://openalex.org/W2590798552",
+    "https://openalex.org/W2811106690",
+    "https://openalex.org/W2947043951",
+    "https://openalex.org/W4399188509"
+  ],
+  "abstract_inverted_index": {
+    "Effectively": [
+      0
+    ],
+    "recovering": [
+      1
+    ],
+    "signals": [
+      2,
+      165
+    ],
+    "buried": [
+      3
+    ],
+    "in": [
+      4,
+      10
+    ],
+    "noise": [
+      5,
+      75
+    ],
+    "remains": [
+      6
+    ],
+    "a": [
+      7,
+      83,
+      126,
+      180
+    ],
+    "challenging": [
+      8
+    ],
+    "topic": [
+      9
+    ],
+    "seismic": [
+      11,
+      25,
+      171,
+      186
+    ],
+    "data": [
+      12
+    ],
+    "denoising.": [
+      13,
+      188
+    ],
+    "Many": [
+      14
+    ],
+    "conventional": [
+      15
+    ],
+    "methods": [
+      16
+    ],
+    "often": [
+      17
+    ],
+    "fail": [
+      18
+    ],
+    "to": [
+      19,
+      51,
+      105,
+      136
+    ],
+    "accurately": [
+      20
+    ],
+    "capture": [
+      21
+    ],
+    "the": [
+      22,
+      53,
+      89,
+      99,
+      114,
+      129,
+      133,
+      147,
+      156,
+      175
+    ],
+    "characteristics": [
+      23,
+      162
+    ],
+    "of": [
+      24,
+      70,
+      149
+    ],
+    "signals.": [
+      26,
+      151
+    ],
+    "To": [
+      27
+    ],
+    "address": [
+      28
+    ],
+    "this": [
+      29,
+      31
+    ],
+    "issue,": [
+      30
+    ],
+    "study": [
+      32
+    ],
+    "proposed": [
+      33,
+      157,
+      176
+    ],
+    "an": [
+      34
+    ],
+    "effective": [
+      35,
+      68,
+      138
+    ],
+    "method": [
+      36,
+      47,
+      158,
+      178
+    ],
+    "called": [
+      37
+    ],
+    "variational": [
+      38
+    ],
+    "mode": [
+      39,
+      60
+    ],
+    "decomposition": [
+      40
+    ],
+    "(VMD)–denoising": [
+      41
+    ],
+    "convolutional": [
+      42
+    ],
+    "neural": [
+      43
+    ],
+    "network": [
+      44,
+      115
+    ],
+    "(DnCNN).": [
+      45
+    ],
+    "The": [
+      46
+    ],
+    "first": [
+      48
+    ],
+    "applies": [
+      49
+    ],
+    "VMD": [
+      50,
+      130
+    ],
+    "decompose": [
+      52
+    ],
+    "originally": [
+      54
+    ],
+    "noisy": [
+      55,
+      100
+    ],
+    "signal": [
+      56,
+      101,
+      161,
+      187
+    ],
+    "into": [
+      57,
+      82,
+      88,
+      102
+    ],
+    "multiple": [
+      58
+    ],
+    "intrinsic": [
+      59
+    ],
+    "functions": [
+      61
+    ],
+    "(IMFs)": [
+      62
+    ],
+    "with": [
+      63
+    ],
+    "band-pass": [
+      64
+    ],
+    "characteristics,": [
+      65
+    ],
+    "thereby": [
+      66
+    ],
+    "achieving": [
+      67
+    ],
+    "decoupling": [
+      69
+    ],
+    "different": [
+      71
+    ],
+    "frequency": [
+      72,
+      107,
+      122,
+      139
+    ],
+    "components": [
+      73
+    ],
+    "and": [
+      74,
+      86,
+      94,
+      109,
+      145,
+      163,
+      169,
+      182
+    ],
+    "separation.": [
+      76
+    ],
+    "Selected": [
+      77
+    ],
+    "IMFs": [
+      78,
+      103
+    ],
+    "are": [
+      79
+    ],
+    "then": [
+      80
+    ],
+    "combined": [
+      81
+    ],
+    "multi-channel": [
+      84
+    ],
+    "input": [
+      85
+    ],
+    "fed": [
+      87
+    ],
+    "DnCNN": [
+      90
+    ],
+    "for": [
+      91,
+      185
+    ],
+    "end-to-end": [
+      92
+    ],
+    "modeling": [
+      93
+    ],
+    "denoising": [
+      95
+    ],
+    "reconstruction.": [
+      96
+    ],
+    "By": [
+      97
+    ],
+    "decomposing": [
+      98
+    ],
+    "corresponding": [
+      104
+    ],
+    "specific": [
+      106
+    ],
+    "bands": [
+      108
+    ],
+    "learning": [
+      110
+    ],
+    "them": [
+      111
+    ],
+    "through": [
+      112
+    ],
+    "DnCNN,": [
+      113
+    ],
+    "can": [
+      116
+    ],
+    "better": [
+      117
+    ],
+    "extract": [
+      118
+    ],
+    "features": [
+      119
+    ],
+    "within": [
+      120
+    ],
+    "each": [
+      121
+    ],
+    "band.": [
+      123
+    ],
+    "Serving": [
+      124
+    ],
+    "as": [
+      125
+    ],
+    "front-end": [
+      127
+    ],
+    "filter,": [
+      128
+    ],
+    "module": [
+      131
+    ],
+    "enhances": [
+      132
+    ],
+    "network’s": [
+      134
+    ],
+    "ability": [
+      135
+    ],
+    "represent": [
+      137
+    ],
+    "components,": [
+      140
+    ],
+    "suppresses": [
+      141
+    ],
+    "high-frequency": [
+      142
+    ],
+    "random": [
+      143
+    ],
+    "noise,": [
+      144
+    ],
+    "improves": [
+      146
+    ],
+    "resolution": [
+      148
+    ],
+    "weak": [
+      150
+    ],
+    "Experimental": [
+      152
+    ],
+    "results": [
+      153
+    ],
+    "demonstrated": [
+      154
+    ],
+    "that": [
+      155
+    ],
+    "effectively": [
+      159
+    ],
+    "captures": [
+      160
+    ],
+    "recovers": [
+      164
+    ],
+    "from": [
+      166
+    ],
+    "both": [
+      167
+    ],
+    "real": [
+      168
+    ],
+    "synthetic": [
+      170
+    ],
+    "data.": [
+      172
+    ],
+    "In": [
+      173
+    ],
+    "conclusion,": [
+      174
+    ],
+    "VMD–DnCNN": [
+      177
+    ],
+    "provides": [
+      179
+    ],
+    "robust": [
+      181
+    ],
+    "efficient": [
+      183
+    ],
+    "solution": [
+      184
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2026-09-24T07:57:37.273135",
+  "created_date": "2025-10-10T00:00:00"
+}

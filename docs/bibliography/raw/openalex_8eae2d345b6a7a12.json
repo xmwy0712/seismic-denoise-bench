@@ -1,0 +1,438 @@
+{
+  "id": "https://openalex.org/W2005553562",
+  "doi": "https://doi.org/10.1016/0165-1684(91)90058-q",
+  "title": "The SVD and reduced rank signal processing",
+  "display_name": "The SVD and reduced rank signal processing",
+  "publication_year": 1991,
+  "publication_date": "1991-11-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2005553562",
+    "doi": "https://doi.org/10.1016/0165-1684(91)90058-q",
+    "mag": "2005553562"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/0165-1684(91)90058-q",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/0165-1684(91)90058-q",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S154637859",
+      "display_name": "Signal Processing",
+      "issn_l": "0165-1684",
+      "issn": [
+        "0165-1684",
+        "1872-7557"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Signal Processing",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5080469112",
+        "display_name": "Louis L. Scharf",
+        "orcid": "https://orcid.org/0000-0003-1764-9335"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I188538660",
+          "display_name": "University of Colorado Boulder",
+          "ror": "https://ror.org/02ttsq026",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I188538660"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Louis L Scharf",
+      "raw_affiliation_strings": [
+        "Department of Electrical and Computer Engineering, University of Colorado, Boulder 80309-0425, USA",
+        "Department of Electrical and Computer, Engineering, University of Colorado, Boulder, 80309-0425 USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Electrical and Computer Engineering, University of Colorado, Boulder 80309-0425, USA",
+          "institution_ids": [
+            "https://openalex.org/I188538660"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Electrical and Computer, Engineering, University of Colorado, Boulder, 80309-0425 USA",
+          "institution_ids": [
+            "https://openalex.org/I188538660"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5080469112"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I188538660"
+  ],
+  "apc_list": {
+    "value": 3190,
+    "currency": "USD",
+    "value_usd": 3190
+  },
+  "apc_paid": null,
+  "fwci": 5.3292,
+  "has_fulltext": false,
+  "cited_by_count": 229,
+  "citation_normalized_percentile": {
+    "value": 0.95980512,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 94,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "25",
+    "issue": "2",
+    "first_page": "113",
+    "last_page": "133"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11447",
+    "display_name": "Blind Source Separation Techniques",
+    "score": 0.9998999834060669,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1711",
+      "display_name": "Signal Processing"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11447",
+      "display_name": "Blind Source Separation Techniques",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1711",
+        "display_name": "Signal Processing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10500",
+      "display_name": "Sparse and Compressive Sensing Techniques",
+      "score": 0.9993000030517578,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10931",
+      "display_name": "Direction-of-Arrival Estimation Techniques",
+      "score": 0.9988999962806702,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1711",
+        "display_name": "Signal Processing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.5698837041854858
+    },
+    {
+      "id": "https://openalex.org/keywords/rank",
+      "display_name": "Rank (graph theory)",
+      "score": 0.4771515727043152
+    },
+    {
+      "id": "https://openalex.org/keywords/humanities",
+      "display_name": "Humanities",
+      "score": 0.47083497047424316
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.38195163011550903
+    },
+    {
+      "id": "https://openalex.org/keywords/philosophy",
+      "display_name": "Philosophy",
+      "score": 0.3316792845726013
+    },
+    {
+      "id": "https://openalex.org/keywords/combinatorics",
+      "display_name": "Combinatorics",
+      "score": 0.2609189748764038
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.5698837041854858
+    },
+    {
+      "id": "https://openalex.org/C164226766",
+      "wikidata": "https://www.wikidata.org/wiki/Q7293202",
+      "display_name": "Rank (graph theory)",
+      "level": 2,
+      "score": 0.4771515727043152
+    },
+    {
+      "id": "https://openalex.org/C15708023",
+      "wikidata": "https://www.wikidata.org/wiki/Q80083",
+      "display_name": "Humanities",
+      "level": 1,
+      "score": 0.47083497047424316
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.38195163011550903
+    },
+    {
+      "id": "https://openalex.org/C138885662",
+      "wikidata": "https://www.wikidata.org/wiki/Q5891",
+      "display_name": "Philosophy",
+      "level": 0,
+      "score": 0.3316792845726013
+    },
+    {
+      "id": "https://openalex.org/C114614502",
+      "wikidata": "https://www.wikidata.org/wiki/Q76592",
+      "display_name": "Combinatorics",
+      "level": 1,
+      "score": 0.2609189748764038
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1016/0165-1684(91)90058-q",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/0165-1684(91)90058-q",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S154637859",
+        "display_name": "Signal Processing",
+        "issn_l": "0165-1684",
+        "issn": [
+          "0165-1684",
+          "1872-7557"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Signal Processing",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 28,
+  "referenced_works": [
+    "https://openalex.org/W46263140",
+    "https://openalex.org/W641242542",
+    "https://openalex.org/W1618478980",
+    "https://openalex.org/W1970268217",
+    "https://openalex.org/W1999955334",
+    "https://openalex.org/W2060778808",
+    "https://openalex.org/W2070497964",
+    "https://openalex.org/W2093808552",
+    "https://openalex.org/W2100991756",
+    "https://openalex.org/W2101609516",
+    "https://openalex.org/W2117418380",
+    "https://openalex.org/W2141358961",
+    "https://openalex.org/W2142635246",
+    "https://openalex.org/W2144111050",
+    "https://openalex.org/W2144817789",
+    "https://openalex.org/W2148723353",
+    "https://openalex.org/W2155722796",
+    "https://openalex.org/W2157822324",
+    "https://openalex.org/W2165887549",
+    "https://openalex.org/W2475279018",
+    "https://openalex.org/W4301444643",
+    "https://openalex.org/W6601804244",
+    "https://openalex.org/W6636599464",
+    "https://openalex.org/W6675189069",
+    "https://openalex.org/W6675290985",
+    "https://openalex.org/W6677132295",
+    "https://openalex.org/W6681530762",
+    "https://openalex.org/W6682718110"
+  ],
+  "related_works": [
+    "https://openalex.org/W4234996786",
+    "https://openalex.org/W2025511434",
+    "https://openalex.org/W2963179930",
+    "https://openalex.org/W1989925552",
+    "https://openalex.org/W2780307509",
+    "https://openalex.org/W2609344916",
+    "https://openalex.org/W2050801211",
+    "https://openalex.org/W2783911801",
+    "https://openalex.org/W2478882070",
+    "https://openalex.org/W59019880"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 10
+    }
+  ],
+  "updated_date": "2026-08-21T09:56:20.448147",
+  "created_date": "2025-10-10T00:00:00"
+}

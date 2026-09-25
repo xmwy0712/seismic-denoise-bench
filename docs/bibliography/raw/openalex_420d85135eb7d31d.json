@@ -1,0 +1,976 @@
+{
+  "id": "https://openalex.org/W1967853035",
+  "doi": "https://doi.org/10.1190/1.1438434",
+  "title": "Trace-based and geostatistical inversion of 3-D seismic data for thin-sand delineation: An application in San Jorge Basin, Argentina",
+  "display_name": "Trace-based and geostatistical inversion of 3-D seismic data for thin-sand delineation: An application in San Jorge Basin, Argentina",
+  "publication_year": 1999,
+  "publication_date": "1999-09-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1967853035",
+    "doi": "https://doi.org/10.1190/1.1438434",
+    "mag": "1967853035"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.1438434",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.1438434",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4210172657",
+      "display_name": "The Leading Edge",
+      "issn_l": "1070-485X",
+      "issn": [
+        "1070-485X",
+        "1938-3789"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "The Leading Edge",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5047670715",
+        "display_name": "Carlos Torres‐Verdín",
+        "orcid": "https://orcid.org/0000-0001-6628-4833",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-6628-4833"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Carlos Torres-Verdín",
+      "raw_affiliation_strings": [
+        "1 The University of Texas at Austin, United States",
+        "University of Texas at Austin Department of Petroleum and Geosystems Engineering Austin TX United States"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1 The University of Texas at Austin, United States",
+          "institution_ids": [
+            "https://openalex.org/I86519309"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Texas at Austin Department of Petroleum and Geosystems Engineering Austin TX United States",
+          "institution_ids": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5035928954",
+        "display_name": "Marcos Victoria",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Marcos Victoria",
+      "raw_affiliation_strings": [
+        "2 YPF SA Buenos Aires, Argentina",
+        "(YPF)"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "2 YPF SA Buenos Aires, Argentina",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "(YPF)",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5048791444",
+        "display_name": "Germán Merletti",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Germán Merletti",
+      "raw_affiliation_strings": [
+        "2 YPF SA Buenos Aires, Argentina",
+        "(YPF)"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "2 YPF SA Buenos Aires, Argentina",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "(YPF)",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5017741701",
+        "display_name": "John Pendrel",
+        "orcid": "https://orcid.org/0000-0001-6974-1876",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-6974-1876"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210117652",
+          "display_name": "MRF Geosystems (Canada)",
+          "ror": "https://ror.org/02hqxd823",
+          "country_code": "CA",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210117652"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "John Pendrel",
+      "raw_affiliation_strings": [
+        "3 Jason Geosystems, Calgary, Canada",
+        "Jason Geosystems"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "3 Jason Geosystems, Calgary, Canada",
+          "institution_ids": [
+            "https://openalex.org/I4210117652"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Jason Geosystems",
+          "institution_ids": []
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 3.4306,
+  "has_fulltext": false,
+  "cited_by_count": 85,
+  "citation_normalized_percentile": {
+    "value": 0.9073612,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "18",
+    "issue": "9",
+    "first_page": "1070",
+    "last_page": "1077"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10965",
+    "display_name": "Geological formations and processes",
+    "score": 0.9990000128746033,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1904",
+      "display_name": "Earth-Surface Processes"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10965",
+      "display_name": "Geological formations and processes",
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1904",
+        "display_name": "Earth-Surface Processes"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9986000061035156,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.9983000159263611,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.7250326871871948
+    },
+    {
+      "id": "https://openalex.org/keywords/structural-basin",
+      "display_name": "Structural basin",
+      "score": 0.6923602819442749
+    },
+    {
+      "id": "https://openalex.org/keywords/inversion",
+      "display_name": "Inversion (geology)",
+      "score": 0.6879879236221313
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-inversion",
+      "display_name": "Seismic inversion",
+      "score": 0.5126208662986755
+    },
+    {
+      "id": "https://openalex.org/keywords/trace",
+      "display_name": "TRACE (psycholinguistics)",
+      "score": 0.47414252161979675
+    },
+    {
+      "id": "https://openalex.org/keywords/geomorphology",
+      "display_name": "Geomorphology",
+      "score": 0.4304554760456085
+    },
+    {
+      "id": "https://openalex.org/keywords/geostatistics",
+      "display_name": "Geostatistics",
+      "score": 0.41398119926452637
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.403125524520874
+    },
+    {
+      "id": "https://openalex.org/keywords/geography",
+      "display_name": "Geography",
+      "score": 0.14289143681526184
+    },
+    {
+      "id": "https://openalex.org/keywords/data-assimilation",
+      "display_name": "Data assimilation",
+      "score": 0.0826861560344696
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.7250326871871948
+    },
+    {
+      "id": "https://openalex.org/C109007969",
+      "wikidata": "https://www.wikidata.org/wiki/Q749565",
+      "display_name": "Structural basin",
+      "level": 2,
+      "score": 0.6923602819442749
+    },
+    {
+      "id": "https://openalex.org/C1893757",
+      "wikidata": "https://www.wikidata.org/wiki/Q3653001",
+      "display_name": "Inversion (geology)",
+      "level": 3,
+      "score": 0.6879879236221313
+    },
+    {
+      "id": "https://openalex.org/C39267094",
+      "wikidata": "https://www.wikidata.org/wiki/Q7446968",
+      "display_name": "Seismic inversion",
+      "level": 3,
+      "score": 0.5126208662986755
+    },
+    {
+      "id": "https://openalex.org/C75291252",
+      "wikidata": "https://www.wikidata.org/wiki/Q1315756",
+      "display_name": "TRACE (psycholinguistics)",
+      "level": 2,
+      "score": 0.47414252161979675
+    },
+    {
+      "id": "https://openalex.org/C114793014",
+      "wikidata": "https://www.wikidata.org/wiki/Q52109",
+      "display_name": "Geomorphology",
+      "level": 1,
+      "score": 0.4304554760456085
+    },
+    {
+      "id": "https://openalex.org/C125572338",
+      "wikidata": "https://www.wikidata.org/wiki/Q1440020",
+      "display_name": "Geostatistics",
+      "level": 3,
+      "score": 0.41398119926452637
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.403125524520874
+    },
+    {
+      "id": "https://openalex.org/C205649164",
+      "wikidata": "https://www.wikidata.org/wiki/Q1071",
+      "display_name": "Geography",
+      "level": 0,
+      "score": 0.14289143681526184
+    },
+    {
+      "id": "https://openalex.org/C24552861",
+      "wikidata": "https://www.wikidata.org/wiki/Q2670177",
+      "display_name": "Data assimilation",
+      "level": 2,
+      "score": 0.0826861560344696
+    },
+    {
+      "id": "https://openalex.org/C41895202",
+      "wikidata": "https://www.wikidata.org/wiki/Q8162",
+      "display_name": "Linguistics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C94747663",
+      "wikidata": "https://www.wikidata.org/wiki/Q7574086",
+      "display_name": "Spatial variability",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C153294291",
+      "wikidata": "https://www.wikidata.org/wiki/Q25261",
+      "display_name": "Meteorology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C138885662",
+      "wikidata": "https://www.wikidata.org/wiki/Q5891",
+      "display_name": "Philosophy",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.1438434",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.1438434",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210172657",
+        "display_name": "The Leading Edge",
+        "issn_l": "1070-485X",
+        "issn": [
+          "1070-485X",
+          "1938-3789"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The Leading Edge",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/14",
+      "score": 0.8799999952316284,
+      "display_name": "Life below water"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320320273",
+      "display_name": "University of Cambridge",
+      "ror": "https://ror.org/013meh722"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 1,
+  "referenced_works": [
+    "https://openalex.org/W2036608402"
+  ],
+  "related_works": [
+    "https://openalex.org/W2027690137",
+    "https://openalex.org/W4285150540",
+    "https://openalex.org/W2394411732",
+    "https://openalex.org/W2349368632",
+    "https://openalex.org/W4378230661",
+    "https://openalex.org/W4385606753",
+    "https://openalex.org/W3031506151",
+    "https://openalex.org/W2077263083",
+    "https://openalex.org/W2374132258",
+    "https://openalex.org/W2356317760"
+  ],
+  "abstract_inverted_index": {
+    "Argentina’s": [
+      0
+    ],
+    "San": [
+      1
+    ],
+    "Jorge": [
+      2
+    ],
+    "Basin,": [
+      3
+    ],
+    "which": [
+      4
+    ],
+    "straddles": [
+      5
+    ],
+    "the": [
+      6,
+      15,
+      32,
+      42,
+      47,
+      53,
+      56,
+      70,
+      75,
+      84,
+      100,
+      114
+    ],
+    "southern": [
+      7
+    ],
+    "provinces": [
+      8
+    ],
+    "of": [
+      9,
+      17,
+      31,
+      41,
+      55,
+      77,
+      96,
+      123
+    ],
+    "Chubut": [
+      10
+    ],
+    "and": [
+      11,
+      37,
+      66,
+      125,
+      132
+    ],
+    "Santa": [
+      12
+    ],
+    "Cruz": [
+      13
+    ],
+    "in": [
+      14,
+      59,
+      99,
+      113
+    ],
+    "heart": [
+      16
+    ],
+    "Patagonia,": [
+      18
+    ],
+    "has": [
+      19
+    ],
+    "been": [
+      20
+    ],
+    "producing": [
+      21
+    ],
+    "hydrocarbons": [
+      22
+    ],
+    "since": [
+      23
+    ],
+    "1907.": [
+      24
+    ],
+    "The": [
+      25,
+      35
+    ],
+    "region": [
+      26
+    ],
+    "currently": [
+      27
+    ],
+    "accounts": [
+      28
+    ],
+    "for": [
+      29,
+      52,
+      107
+    ],
+    "32%": [
+      30
+    ],
+    "country’s": [
+      33
+    ],
+    "production.": [
+      34
+    ],
+    "existence": [
+      36
+    ],
+    "early": [
+      38,
+      60,
+      85
+    ],
+    "geologic": [
+      39
+    ],
+    "evolution": [
+      40
+    ],
+    "basin": [
+      43
+    ],
+    "is": [
+      44,
+      117
+    ],
+    "due": [
+      45
+    ],
+    "to": [
+      46
+    ],
+    "same": [
+      48
+    ],
+    "rift": [
+      49,
+      71
+    ],
+    "process": [
+      50
+    ],
+    "responsible": [
+      51,
+      106
+    ],
+    "opening": [
+      54
+    ],
+    "Atlantic": [
+      57
+    ],
+    "Ocean": [
+      58
+    ],
+    "Jurassic": [
+      61
+    ],
+    "times.": [
+      62
+    ],
+    "Extensive": [
+      63
+    ],
+    "direct": [
+      64
+    ],
+    "faulting": [
+      65
+    ],
+    "local": [
+      67
+    ],
+    "erosion": [
+      68
+    ],
+    "accompanied": [
+      69
+    ],
+    "evolution,": [
+      72
+    ],
+    "thereby": [
+      73
+    ],
+    "facilitating": [
+      74
+    ],
+    "accumulation": [
+      76
+    ],
+    "chiefly": [
+      78
+    ],
+    "nonmarine": [
+      79
+    ],
+    "terrigenous": [
+      80
+    ],
+    "sediments": [
+      81
+    ],
+    "well": [
+      82
+    ],
+    "into": [
+      83
+    ],
+    "Cretaceous.": [
+      86
+    ],
+    "At": [
+      87
+    ],
+    "this": [
+      88
+    ],
+    "point,": [
+      89
+    ],
+    "Andean": [
+      90
+    ],
+    "tectonism": [
+      91
+    ],
+    "became": [
+      92
+    ],
+    "a": [
+      93
+    ],
+    "major": [
+      94
+    ],
+    "source": [
+      95
+    ],
+    "pyroclastic": [
+      97
+    ],
+    "concentration": [
+      98
+    ],
+    "sedimentary": [
+      101
+    ],
+    "column;": [
+      102
+    ],
+    "it": [
+      103
+    ],
+    "was": [
+      104
+    ],
+    "also": [
+      105
+    ],
+    "pervasive": [
+      108
+    ],
+    "batholitic": [
+      109
+    ],
+    "intrusions.": [
+      110
+    ],
+    "Clastic": [
+      111
+    ],
+    "deposition": [
+      112
+    ],
+    "hydrocarbon-producing": [
+      115
+    ],
+    "zone": [
+      116
+    ],
+    "characterized": [
+      118
+    ],
+    "by": [
+      119
+    ],
+    "thick": [
+      120
+    ],
+    "shale": [
+      121
+    ],
+    "laminations": [
+      122
+    ],
+    "lacustrine": [
+      124
+    ],
+    "floodplain": [
+      126
+    ],
+    "origin,": [
+      127
+    ],
+    "interspersed": [
+      128
+    ],
+    "with": [
+      129
+    ],
+    "much": [
+      130
+    ],
+    "thinner": [
+      131
+    ],
+    "laterally": [
+      133
+    ],
+    "sparse": [
+      134
+    ],
+    "sand": [
+      135
+    ],
+    "bodies": [
+      136
+    ],
+    "(the": [
+      137
+    ],
+    "hydrocarbon": [
+      138
+    ],
+    "reservoirs).": [
+      139
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 4
+    }
+  ],
+  "updated_date": "2026-09-23T05:00:35.095934",
+  "created_date": "2025-10-10T00:00:00"
+}

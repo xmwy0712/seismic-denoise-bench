@@ -1,0 +1,686 @@
+{
+  "id": "https://openalex.org/W2006408150",
+  "doi": "https://doi.org/10.1016/s0378-4371(02)01379-1",
+  "title": "Seismic ground roll time–frequency filtering using the gaussian wavelet transform",
+  "display_name": "Seismic ground roll time–frequency filtering using the gaussian wavelet transform",
+  "publication_year": 2003,
+  "publication_date": "2003-02-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2006408150",
+    "doi": "https://doi.org/10.1016/s0378-4371(02)01379-1",
+    "mag": "2006408150"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/s0378-4371(02)01379-1",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/s0378-4371(02)01379-1",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S24688465",
+      "display_name": "Physica A Statistical Mechanics and its Applications",
+      "issn_l": "0378-4371",
+      "issn": [
+        "0378-4371",
+        "1873-2119"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "ki-jl-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Physica A: Statistical Mechanics and its Applications",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5003797136",
+        "display_name": "Gilberto Corso",
+        "orcid": "https://orcid.org/0000-0003-1748-4040",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-1748-4040"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I35046152",
+          "display_name": "Universidade Federal do Rio Grande do Norte",
+          "ror": "https://ror.org/04wn09761",
+          "country_code": "BR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I35046152"
+          ]
+        }
+      ],
+      "countries": [
+        "BR"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "G. Corso",
+      "raw_affiliation_strings": [
+        "Departamento de Fı&#x0301;sica Teórica e Experimental, International Center for Complex Systems, Universidade Federal do Rio Grande do Norte, Natal CEP 59078-970, Brazil",
+        "Departamento de Fı&#x0301",
+        "sica Teórica e Experimental, International Center for Complex Systems, Universidade Federal do Rio Grande do Norte, Natal CEP 59078-970, Brazil"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Departamento de Fı&#x0301;sica Teórica e Experimental, International Center for Complex Systems, Universidade Federal do Rio Grande do Norte, Natal CEP 59078-970, Brazil",
+          "institution_ids": [
+            "https://openalex.org/I35046152"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Departamento de Fı&#x0301",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "sica Teórica e Experimental, International Center for Complex Systems, Universidade Federal do Rio Grande do Norte, Natal CEP 59078-970, Brazil",
+          "institution_ids": [
+            "https://openalex.org/I35046152"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5071936492",
+        "display_name": "Paulo S. Kuhn",
+        "orcid": "https://orcid.org/0000-0002-7869-8547",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-7869-8547"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I35046152",
+          "display_name": "Universidade Federal do Rio Grande do Norte",
+          "ror": "https://ror.org/04wn09761",
+          "country_code": "BR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I35046152"
+          ]
+        }
+      ],
+      "countries": [
+        "BR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "P.S. Kuhn",
+      "raw_affiliation_strings": [
+        "Departamento de Fı&#x0301;sica Teórica e Experimental, International Center for Complex Systems, Universidade Federal do Rio Grande do Norte, Natal CEP 59078-970, Brazil",
+        "Departamento de Fı&#x0301",
+        "sica Teórica e Experimental, International Center for Complex Systems, Universidade Federal do Rio Grande do Norte, Natal CEP 59078-970, Brazil"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Departamento de Fı&#x0301;sica Teórica e Experimental, International Center for Complex Systems, Universidade Federal do Rio Grande do Norte, Natal CEP 59078-970, Brazil",
+          "institution_ids": [
+            "https://openalex.org/I35046152"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Departamento de Fı&#x0301",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "sica Teórica e Experimental, International Center for Complex Systems, Universidade Federal do Rio Grande do Norte, Natal CEP 59078-970, Brazil",
+          "institution_ids": [
+            "https://openalex.org/I35046152"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5102103027",
+        "display_name": "LIACIR S. LUCENA",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I35046152",
+          "display_name": "Universidade Federal do Rio Grande do Norte",
+          "ror": "https://ror.org/04wn09761",
+          "country_code": "BR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I35046152"
+          ]
+        }
+      ],
+      "countries": [
+        "BR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "L.S. Lucena",
+      "raw_affiliation_strings": [
+        "Departamento de Fı&#x0301;sica Teórica e Experimental, International Center for Complex Systems, Universidade Federal do Rio Grande do Norte, Natal CEP 59078-970, Brazil",
+        "Departamento de Fı&#x0301",
+        "sica Teórica e Experimental, International Center for Complex Systems, Universidade Federal do Rio Grande do Norte, Natal CEP 59078-970, Brazil"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Departamento de Fı&#x0301;sica Teórica e Experimental, International Center for Complex Systems, Universidade Federal do Rio Grande do Norte, Natal CEP 59078-970, Brazil",
+          "institution_ids": [
+            "https://openalex.org/I35046152"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Departamento de Fı&#x0301",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "sica Teórica e Experimental, International Center for Complex Systems, Universidade Federal do Rio Grande do Norte, Natal CEP 59078-970, Brazil",
+          "institution_ids": [
+            "https://openalex.org/I35046152"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5109199935",
+        "display_name": "Z. Thome",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I35046152",
+          "display_name": "Universidade Federal do Rio Grande do Norte",
+          "ror": "https://ror.org/04wn09761",
+          "country_code": "BR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I35046152"
+          ]
+        }
+      ],
+      "countries": [
+        "BR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Z.D. Thomé",
+      "raw_affiliation_strings": [
+        "Departamento de Fı&#x0301;sica Teórica e Experimental, International Center for Complex Systems, Universidade Federal do Rio Grande do Norte, Natal CEP 59078-970, Brazil",
+        "Departamento de Fı&#x0301",
+        "sica Teórica e Experimental, International Center for Complex Systems, Universidade Federal do Rio Grande do Norte, Natal CEP 59078-970, Brazil"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Departamento de Fı&#x0301;sica Teórica e Experimental, International Center for Complex Systems, Universidade Federal do Rio Grande do Norte, Natal CEP 59078-970, Brazil",
+          "institution_ids": [
+            "https://openalex.org/I35046152"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Departamento de Fı&#x0301",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "sica Teórica e Experimental, International Center for Complex Systems, Universidade Federal do Rio Grande do Norte, Natal CEP 59078-970, Brazil",
+          "institution_ids": [
+            "https://openalex.org/I35046152"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5003797136"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I35046152"
+  ],
+  "apc_list": {
+    "value": 3550,
+    "currency": "USD",
+    "value_usd": 3550
+  },
+  "apc_paid": null,
+  "fwci": 1.211,
+  "has_fulltext": false,
+  "cited_by_count": 33,
+  "citation_normalized_percentile": {
+    "value": 0.82071686,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 88,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "318",
+    "issue": "3-4",
+    "first_page": "551",
+    "last_page": "561"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10688",
+    "display_name": "Image and Signal Denoising Methods",
+    "score": 0.996399998664856,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1707",
+      "display_name": "Computer Vision and Pattern Recognition"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10688",
+      "display_name": "Image and Signal Denoising Methods",
+      "score": 0.996399998664856,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9934999942779541,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9818999767303467,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/wavelet-transform",
+      "display_name": "Wavelet transform",
+      "score": 0.5667502284049988
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.4801313579082489
+    },
+    {
+      "id": "https://openalex.org/keywords/gaussian",
+      "display_name": "Gaussian",
+      "score": 0.4740954339504242
+    },
+    {
+      "id": "https://openalex.org/keywords/wavelet",
+      "display_name": "Wavelet",
+      "score": 0.4447990953922272
+    },
+    {
+      "id": "https://openalex.org/keywords/acoustics",
+      "display_name": "Acoustics",
+      "score": 0.39706411957740784
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.395988792181015
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.3201797604560852
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.1820230484008789
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.17137068510055542
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C196216189",
+      "wikidata": "https://www.wikidata.org/wiki/Q2867",
+      "display_name": "Wavelet transform",
+      "level": 3,
+      "score": 0.5667502284049988
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.4801313579082489
+    },
+    {
+      "id": "https://openalex.org/C163716315",
+      "wikidata": "https://www.wikidata.org/wiki/Q901177",
+      "display_name": "Gaussian",
+      "level": 2,
+      "score": 0.4740954339504242
+    },
+    {
+      "id": "https://openalex.org/C47432892",
+      "wikidata": "https://www.wikidata.org/wiki/Q831390",
+      "display_name": "Wavelet",
+      "level": 2,
+      "score": 0.4447990953922272
+    },
+    {
+      "id": "https://openalex.org/C24890656",
+      "wikidata": "https://www.wikidata.org/wiki/Q82811",
+      "display_name": "Acoustics",
+      "level": 1,
+      "score": 0.39706411957740784
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.395988792181015
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.3201797604560852
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.1820230484008789
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.17137068510055542
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1016/s0378-4371(02)01379-1",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/s0378-4371(02)01379-1",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S24688465",
+        "display_name": "Physica A Statistical Mechanics and its Applications",
+        "issn_l": "0378-4371",
+        "issn": [
+          "0378-4371",
+          "1873-2119"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "ki-jl-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Physica A: Statistical Mechanics and its Applications",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:RePEc:eee:phsmap:v:318:y:2003:i:3:p:551-561",
+      "is_oa": false,
+      "landing_page_url": "http://www.sciencedirect.com/science/article/pii/S0378437102013791",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401271",
+        "display_name": "RePEc: Research Papers in Economics",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I77793887",
+        "host_organization_name": "Federal Reserve Bank of St. Louis",
+        "host_organization_lineage": [
+          "https://openalex.org/I77793887"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320322025",
+      "display_name": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+      "ror": "https://ror.org/03swz6y49"
+    }
+  ],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 21,
+  "referenced_works": [
+    "https://openalex.org/W1973829268",
+    "https://openalex.org/W1978800225",
+    "https://openalex.org/W1991595392",
+    "https://openalex.org/W1994143674",
+    "https://openalex.org/W1998845048",
+    "https://openalex.org/W2002988164",
+    "https://openalex.org/W2005243532",
+    "https://openalex.org/W2015682713",
+    "https://openalex.org/W2026691738",
+    "https://openalex.org/W2031094508",
+    "https://openalex.org/W2066313049",
+    "https://openalex.org/W2100962727",
+    "https://openalex.org/W2103015025",
+    "https://openalex.org/W2110310073",
+    "https://openalex.org/W2115755118",
+    "https://openalex.org/W2119011327",
+    "https://openalex.org/W2119060497",
+    "https://openalex.org/W2127873098",
+    "https://openalex.org/W2161094040",
+    "https://openalex.org/W3103629061",
+    "https://openalex.org/W4255272544"
+  ],
+  "related_works": [
+    "https://openalex.org/W2382174632",
+    "https://openalex.org/W2129959498",
+    "https://openalex.org/W2784060934",
+    "https://openalex.org/W2902714807",
+    "https://openalex.org/W2537489131",
+    "https://openalex.org/W2394084632",
+    "https://openalex.org/W2358293514",
+    "https://openalex.org/W2046633342",
+    "https://openalex.org/W2059273319",
+    "https://openalex.org/W2077021924"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

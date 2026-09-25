@@ -1,0 +1,1160 @@
+{
+  "id": "https://openalex.org/W4297037053",
+  "doi": "https://doi.org/10.1002/essoar.10512321.1",
+  "title": "Quantitative evaluation of the lunar seismic scattering and comparison between the Earth, Mars, and the Moon",
+  "display_name": "Quantitative evaluation of the lunar seismic scattering and comparison between the Earth, Mars, and the Moon",
+  "publication_year": 2022,
+  "publication_date": "2022-09-06",
+  "ids": {
+    "openalex": "https://openalex.org/W4297037053",
+    "doi": "https://doi.org/10.1002/essoar.10512321.1"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1002/essoar.10512321.1",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1002/essoar.10512321.1",
+    "pdf_url": "https://essopenarchive.org/doi/pdf/10.1002/essoar.10512321.1",
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "posted-content"
+  },
+  "type": "preprint",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://essopenarchive.org/doi/pdf/10.1002/essoar.10512321.1",
+    "any_repository_has_fulltext": null
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5091855290",
+        "display_name": "Keisuke Onodera",
+        "orcid": "https://orcid.org/0000-0003-4120-2437",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-4120-2437",
+          "https://orcid.org/0009-0009-3372-8165"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I200475212",
+          "display_name": "The Graduate University for Advanced Studies, SOKENDAI",
+          "ror": "https://ror.org/0516ah480",
+          "country_code": "JP",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I200475212"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I204730241",
+          "display_name": "Université Paris Cité",
+          "ror": "https://ror.org/05f82e368",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I204730241"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210120963",
+          "display_name": "Association for the Development of Earthquake Prediction",
+          "ror": "https://ror.org/02akdcs48",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210120963"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I74801974",
+          "display_name": "The University of Tokyo",
+          "ror": "https://ror.org/057zh3y96",
+          "country_code": "JP",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I74801974"
+          ]
+        }
+      ],
+      "countries": [
+        "FR",
+        "JP"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Keisuke Onodera",
+      "raw_affiliation_strings": [
+        "Université de Paris",
+        "Earthquake Research Institute, The University of Tokyo, Tokyo, Japan",
+        "JAXA ISAS",
+        "The Graduate University for Advanced Studies, SOKENDAI, Kanagawa, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Université de Paris",
+          "institution_ids": [
+            "https://openalex.org/I204730241"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Earthquake Research Institute, The University of Tokyo, Tokyo, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210120963",
+            "https://openalex.org/I74801974"
+          ]
+        },
+        {
+          "raw_affiliation_string": "JAXA ISAS",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "The Graduate University for Advanced Studies, SOKENDAI, Kanagawa, Japan",
+          "institution_ids": [
+            "https://openalex.org/I200475212"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5021705531",
+        "display_name": "Taïchi Kawamura",
+        "orcid": "https://orcid.org/0000-0001-5246-5561",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-5246-5561"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1294671590",
+          "display_name": "Centre National de la Recherche Scientifique",
+          "ror": "https://ror.org/02feahw73",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1294671590"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I148261361",
+          "display_name": "Institut de physique du globe de Paris",
+          "ror": "https://ror.org/004gzqz66",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I148261361",
+            "https://openalex.org/I204730241",
+            "https://openalex.org/I4210148025"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I204730241",
+          "display_name": "Université Paris Cité",
+          "ror": "https://ror.org/05f82e368",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I204730241"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Taichi Kawamura",
+      "raw_affiliation_strings": [
+        "IPGP",
+        "Université Paris Cité, Institut de Physique du Globe de Paris, CNRS, Paris, France"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-5246-5561",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "IPGP",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Université Paris Cité, Institut de Physique du Globe de Paris, CNRS, Paris, France",
+          "institution_ids": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I148261361",
+            "https://openalex.org/I204730241"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5106633778",
+        "display_name": "Satoshi Tanaka",
+        "orcid": "https://orcid.org/0009-0001-1288-7724",
+        "observed_orcids": [
+          "https://orcid.org/0009-0001-1288-7724"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I200475212",
+          "display_name": "The Graduate University for Advanced Studies, SOKENDAI",
+          "ror": "https://ror.org/0516ah480",
+          "country_code": "JP",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I200475212"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2800865746",
+          "display_name": "Japan Aerospace Exploration Agency",
+          "ror": "https://ror.org/059yhyy33",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2800865746"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210136277",
+          "display_name": "Institute of Space and Astronautical Science",
+          "ror": "https://ror.org/034gcgw60",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2800865746",
+            "https://openalex.org/I4210136277"
+          ]
+        }
+      ],
+      "countries": [
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Satoshi Tanaka",
+      "raw_affiliation_strings": [
+        "JAXA ISAS",
+        "Institute of Space and Astronautical Science, Japan Aerospace Exploration Agency, Kanagawa, Japan",
+        "Japan Aerospace Exploration Agency",
+        "The Graduate University for Advanced Studies, SOKENDAI, Kanagawa, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "JAXA ISAS",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Institute of Space and Astronautical Science, Japan Aerospace Exploration Agency, Kanagawa, Japan",
+          "institution_ids": [
+            "https://openalex.org/I2800865746",
+            "https://openalex.org/I4210136277"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Japan Aerospace Exploration Agency",
+          "institution_ids": [
+            "https://openalex.org/I2800865746"
+          ]
+        },
+        {
+          "raw_affiliation_string": "The Graduate University for Advanced Studies, SOKENDAI, Kanagawa, Japan",
+          "institution_ids": [
+            "https://openalex.org/I200475212"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5005281053",
+        "display_name": "Yoshiaki Ishihara",
+        "orcid": "https://orcid.org/0000-0002-0375-6300",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-0375-6300"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I146516829",
+          "display_name": "Hirosaki University",
+          "ror": "https://ror.org/02syg0q74",
+          "country_code": "JP",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I146516829"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2800865746",
+          "display_name": "Japan Aerospace Exploration Agency",
+          "ror": "https://ror.org/059yhyy33",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2800865746"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210136277",
+          "display_name": "Institute of Space and Astronautical Science",
+          "ror": "https://ror.org/034gcgw60",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2800865746",
+            "https://openalex.org/I4210136277"
+          ]
+        }
+      ],
+      "countries": [
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yoshiaki Ishihara",
+      "raw_affiliation_strings": [
+        "Japan Aerospace Exploration Agency",
+        "Hirosaki University",
+        "Institute of Space and Astronautical Science, Japan Aerospace Exploration Agency, Kanagawa, Japan",
+        "JAXA Space Exploration Center (JSEC), Japan Aerospace Exploration Agency, Kanagawa, Japan"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-0375-6300",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Japan Aerospace Exploration Agency",
+          "institution_ids": [
+            "https://openalex.org/I2800865746"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Hirosaki University",
+          "institution_ids": [
+            "https://openalex.org/I146516829"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institute of Space and Astronautical Science, Japan Aerospace Exploration Agency, Kanagawa, Japan",
+          "institution_ids": [
+            "https://openalex.org/I2800865746",
+            "https://openalex.org/I4210136277"
+          ]
+        },
+        {
+          "raw_affiliation_string": "JAXA Space Exploration Center (JSEC), Japan Aerospace Exploration Agency, Kanagawa, Japan",
+          "institution_ids": [
+            "https://openalex.org/I2800865746"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5013005849",
+        "display_name": "Takuto Maeda",
+        "orcid": "https://orcid.org/0000-0002-8861-4597",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-8861-4597"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I146516829",
+          "display_name": "Hirosaki University",
+          "ror": "https://ror.org/02syg0q74",
+          "country_code": "JP",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I146516829"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I2800865746",
+          "display_name": "Japan Aerospace Exploration Agency",
+          "ror": "https://ror.org/059yhyy33",
+          "country_code": "JP",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2800865746"
+          ]
+        }
+      ],
+      "countries": [
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Takuto Maeda",
+      "raw_affiliation_strings": [
+        "Hirosaki University",
+        "Graduate School of Science and Technology, Hirosaki University, Aomori, Japan",
+        "JAXA Space Exploration Center (JSEC), Japan Aerospace Exploration Agency, Kanagawa, Japan"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-8861-4597",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Hirosaki University",
+          "institution_ids": [
+            "https://openalex.org/I146516829"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Graduate School of Science and Technology, Hirosaki University, Aomori, Japan",
+          "institution_ids": [
+            "https://openalex.org/I146516829"
+          ]
+        },
+        {
+          "raw_affiliation_string": "JAXA Space Exploration Center (JSEC), Japan Aerospace Exploration Agency, Kanagawa, Japan",
+          "institution_ids": [
+            "https://openalex.org/I2800865746"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 9,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5091855290"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I200475212",
+    "https://openalex.org/I204730241",
+    "https://openalex.org/I4210120963",
+    "https://openalex.org/I74801974"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": true,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10406",
+    "display_name": "Planetary Science and Exploration",
+    "score": 0.9998999834060669,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3103",
+      "display_name": "Astronomy and Astrophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/31",
+      "display_name": "Physics and Astronomy"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10406",
+      "display_name": "Planetary Science and Exploration",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10325",
+      "display_name": "Astro and Planetary Science",
+      "score": 0.9959999918937683,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3103",
+        "display_name": "Astronomy and Astrophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11701",
+      "display_name": "Space Satellite Systems and Control",
+      "score": 0.9711999893188477,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2202",
+        "display_name": "Aerospace Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/scattering",
+      "display_name": "Scattering",
+      "score": 0.6875805854797363
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.6773675084114075
+    },
+    {
+      "id": "https://openalex.org/keywords/crust",
+      "display_name": "Crust",
+      "score": 0.6576251983642578
+    },
+    {
+      "id": "https://openalex.org/keywords/mars-exploration-program",
+      "display_name": "Mars Exploration Program",
+      "score": 0.5931545495986938
+    },
+    {
+      "id": "https://openalex.org/keywords/earth",
+      "display_name": "Earth (classical element)",
+      "score": 0.5285003781318665
+    },
+    {
+      "id": "https://openalex.org/keywords/geophysics",
+      "display_name": "Geophysics",
+      "score": 0.48141881823539734
+    },
+    {
+      "id": "https://openalex.org/keywords/astrobiology",
+      "display_name": "Astrobiology",
+      "score": 0.4433010220527649
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-wave",
+      "display_name": "Seismic wave",
+      "score": 0.4210689067840576
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.33958548307418823
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.14680320024490356
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.08928105235099792
+    },
+    {
+      "id": "https://openalex.org/keywords/astronomy",
+      "display_name": "Astronomy",
+      "score": 0.08614149689674377
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C191486275",
+      "wikidata": "https://www.wikidata.org/wiki/Q210028",
+      "display_name": "Scattering",
+      "level": 2,
+      "score": 0.6875805854797363
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.6773675084114075
+    },
+    {
+      "id": "https://openalex.org/C2776698055",
+      "wikidata": "https://www.wikidata.org/wiki/Q4232578",
+      "display_name": "Crust",
+      "level": 2,
+      "score": 0.6576251983642578
+    },
+    {
+      "id": "https://openalex.org/C83260615",
+      "wikidata": "https://www.wikidata.org/wiki/Q6773121",
+      "display_name": "Mars Exploration Program",
+      "level": 2,
+      "score": 0.5931545495986938
+    },
+    {
+      "id": "https://openalex.org/C26148502",
+      "wikidata": "https://www.wikidata.org/wiki/Q2488752",
+      "display_name": "Earth (classical element)",
+      "level": 2,
+      "score": 0.5285003781318665
+    },
+    {
+      "id": "https://openalex.org/C8058405",
+      "wikidata": "https://www.wikidata.org/wiki/Q46255",
+      "display_name": "Geophysics",
+      "level": 1,
+      "score": 0.48141881823539734
+    },
+    {
+      "id": "https://openalex.org/C87355193",
+      "wikidata": "https://www.wikidata.org/wiki/Q411",
+      "display_name": "Astrobiology",
+      "level": 1,
+      "score": 0.4433010220527649
+    },
+    {
+      "id": "https://openalex.org/C78542244",
+      "wikidata": "https://www.wikidata.org/wiki/Q186167",
+      "display_name": "Seismic wave",
+      "level": 2,
+      "score": 0.4210689067840576
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.33958548307418823
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.14680320024490356
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.08928105235099792
+    },
+    {
+      "id": "https://openalex.org/C1276947",
+      "wikidata": "https://www.wikidata.org/wiki/Q333",
+      "display_name": "Astronomy",
+      "level": 1,
+      "score": 0.08614149689674377
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1002/essoar.10512321.1",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1002/essoar.10512321.1",
+      "pdf_url": "https://essopenarchive.org/doi/pdf/10.1002/essoar.10512321.1",
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "posted-content"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.1002/essoar.10512321.1",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1002/essoar.10512321.1",
+    "pdf_url": "https://essopenarchive.org/doi/pdf/10.1002/essoar.10512321.1",
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "posted-content"
+  },
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320324016",
+      "display_name": "University of Aizu",
+      "ror": "https://ror.org/02pg0e883"
+    },
+    {
+      "id": "https://openalex.org/F4320334896",
+      "display_name": "Japan Agency for Marine-Earth Science and Technology",
+      "ror": "https://ror.org/059qg2m13"
+    },
+    {
+      "id": "https://openalex.org/F4320335125",
+      "display_name": "RIKEN",
+      "ror": "https://ror.org/01sjwvz98"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": true,
+    "pdf": true
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W4297037053.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W4297037053.grobid-xml"
+  },
+  "referenced_works_count": 27,
+  "referenced_works": [
+    "https://openalex.org/W1978405906",
+    "https://openalex.org/W1984805061",
+    "https://openalex.org/W1994729497",
+    "https://openalex.org/W1997096697",
+    "https://openalex.org/W2004296849",
+    "https://openalex.org/W2006768750",
+    "https://openalex.org/W2012244360",
+    "https://openalex.org/W2035098580",
+    "https://openalex.org/W2039209443",
+    "https://openalex.org/W2039940920",
+    "https://openalex.org/W2044215240",
+    "https://openalex.org/W2055395680",
+    "https://openalex.org/W2057549147",
+    "https://openalex.org/W2061699957",
+    "https://openalex.org/W2079992467",
+    "https://openalex.org/W2086825317",
+    "https://openalex.org/W2102716965",
+    "https://openalex.org/W2109338502",
+    "https://openalex.org/W2110603984",
+    "https://openalex.org/W2128228629",
+    "https://openalex.org/W2146036776",
+    "https://openalex.org/W2151934271",
+    "https://openalex.org/W2159083127",
+    "https://openalex.org/W2163193678",
+    "https://openalex.org/W2350102780",
+    "https://openalex.org/W3039714645",
+    "https://openalex.org/W4236435556"
+  ],
+  "related_works": [
+    "https://openalex.org/W3139034309",
+    "https://openalex.org/W2770042457",
+    "https://openalex.org/W2789392837",
+    "https://openalex.org/W805044372",
+    "https://openalex.org/W43529266",
+    "https://openalex.org/W2115635740",
+    "https://openalex.org/W2998025959",
+    "https://openalex.org/W2981831722",
+    "https://openalex.org/W2185387157",
+    "https://openalex.org/W4315485038"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0,
+      29,
+      104,
+      128
+    ],
+    "intense": [
+      1
+    ],
+    "seismic": [
+      2,
+      8,
+      19,
+      80,
+      90
+    ],
+    "scattering": [
+      3,
+      30,
+      99,
+      109,
+      130
+    ],
+    "seen": [
+      4
+    ],
+    "in": [
+      5
+    ],
+    "Apollo": [
+      6,
+      89
+    ],
+    "lunar": [
+      7,
+      73
+    ],
+    "data": [
+      9
+    ],
+    "is": [
+      10,
+      31,
+      114
+    ],
+    "one": [
+      11
+    ],
+    "of": [
+      12,
+      43,
+      66,
+      97,
+      101,
+      111,
+      121,
+      155
+    ],
+    "the": [
+      13,
+      18,
+      27,
+      40,
+      44,
+      47,
+      53,
+      67,
+      71,
+      88,
+      98,
+      102,
+      108,
+      112,
+      122,
+      126,
+      138,
+      143,
+      147,
+      157
+    ],
+    "most": [
+      14
+    ],
+    "characteristic": [
+      15
+    ],
+    "features,": [
+      16
+    ],
+    "making": [
+      17
+    ],
+    "signals": [
+      20
+    ],
+    "much": [
+      21
+    ],
+    "different": [
+      22,
+      161
+    ],
+    "from": [
+      23
+    ],
+    "those": [
+      24
+    ],
+    "observed": [
+      25
+    ],
+    "on": [
+      26,
+      125,
+      137,
+      142,
+      162
+    ],
+    "Earth.": [
+      28,
+      127
+    ],
+    "considered": [
+      32
+    ],
+    "to": [
+      33,
+      36,
+      93
+    ],
+    "be": [
+      34
+    ],
+    "attributed": [
+      35
+    ],
+    "subsurface": [
+      37,
+      68
+    ],
+    "heterogeneity.": [
+      38
+    ],
+    "While": [
+      39
+    ],
+    "heterogeneous": [
+      41,
+      123
+    ],
+    "structure": [
+      42
+    ],
+    "Moon": [
+      45,
+      113,
+      144
+    ],
+    "holds": [
+      46
+    ],
+    "evolution": [
+      48,
+      140
+    ],
+    "and": [
+      49,
+      145
+    ],
+    "past": [
+      50
+    ],
+    "geological": [
+      51
+    ],
+    "activities,": [
+      52
+    ],
+    "detailed": [
+      54
+    ],
+    "description": [
+      55
+    ],
+    "remains": [
+      56
+    ],
+    "an": [
+      57
+    ],
+    "open": [
+      58
+    ],
+    "issue.": [
+      59
+    ],
+    "Here": [
+      60
+    ],
+    "we": [
+      61
+    ],
+    "present": [
+      62
+    ],
+    "a": [
+      63,
+      77,
+      94,
+      135,
+      152
+    ],
+    "new": [
+      64
+    ],
+    "model": [
+      65
+    ],
+    "heterogeneity": [
+      69
+    ],
+    "within": [
+      70
+    ],
+    "upper": [
+      72
+    ],
+    "crust": [
+      74
+    ],
+    "derived": [
+      75
+    ],
+    "through": [
+      76
+    ],
+    "full": [
+      78
+    ],
+    "3D": [
+      79
+    ],
+    "wave": [
+      81
+    ],
+    "propagation": [
+      82
+    ],
+    "simulation.": [
+      83
+    ],
+    "Our": [
+      84
+    ],
+    "simulation": [
+      85
+    ],
+    "successfully": [
+      86
+    ],
+    "reproduced": [
+      87
+    ],
+    "observations,": [
+      91
+    ],
+    "leading": [
+      92
+    ],
+    "significant": [
+      95
+    ],
+    "update": [
+      96
+    ],
+    "properties": [
+      100
+    ],
+    "Moon.": [
+      103
+    ],
+    "results": [
+      105
+    ],
+    "showed": [
+      106
+    ],
+    "that": [
+      107,
+      120
+    ],
+    "intensity": [
+      110
+    ],
+    "about": [
+      115
+    ],
+    "ten": [
+      116
+    ],
+    "times": [
+      117
+    ],
+    "higher": [
+      118
+    ],
+    "than": [
+      119
+    ],
+    "region": [
+      124
+    ],
+    "quantified": [
+      129
+    ],
+    "parameters": [
+      131
+    ],
+    "could": [
+      132
+    ],
+    "give": [
+      133
+    ],
+    "us": [
+      134
+    ],
+    "constraint": [
+      136
+    ],
+    "surface": [
+      139
+    ],
+    "process": [
+      141
+    ],
+    "enable": [
+      146
+    ],
+    "comparative": [
+      148
+    ],
+    "study": [
+      149
+    ],
+    "for": [
+      150
+    ],
+    "answering": [
+      151
+    ],
+    "fundamental": [
+      153
+    ],
+    "question": [
+      154
+    ],
+    "why": [
+      156
+    ],
+    "seismological": [
+      158
+    ],
+    "features": [
+      159
+    ],
+    "are": [
+      160
+    ],
+    "various": [
+      163
+    ],
+    "planetary": [
+      164
+    ],
+    "bodies.": [
+      165
+    ]
+  },
+  "counts_by_year": [],
+  "updated_date": "2026-09-24T07:57:37.273135",
+  "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,1995 @@
+{
+  "meta": {
+    "count": 2,
+    "db_response_time_ms": 44,
+    "page": 1,
+    "per_page": 10,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where it cites (W3125770505)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "referenced_works",
+            "value": "W3125770505"
+          }
+        ]
+      },
+      "url": "/works?filter=referenced_works:W3125770505&per_page=10"
+    },
+    "cost_usd": 0.0001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W3171208921",
+      "doi": "https://doi.org/10.1190/geo2020-0151.1",
+      "title": "Nonstationary local signal-and-noise orthogonalization",
+      "display_name": "Nonstationary local signal-and-noise orthogonalization",
+      "publication_year": 2021,
+      "publication_date": "2021-05-28",
+      "ids": {
+        "openalex": "https://openalex.org/W3171208921",
+        "doi": "https://doi.org/10.1190/geo2020-0151.1",
+        "mag": "3171208921"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1190/geo2020-0151.1",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1190/geo2020-0151.1",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S106174089",
+          "display_name": "Geophysics",
+          "issn_l": "0016-8033",
+          "issn": [
+            "0016-8033",
+            "1942-2156"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "jufo-1",
+            "norway-2"
+          ],
+          "host_organization": "https://openalex.org/P4310316678",
+          "host_organization_name": "Society of Exploration Geophysicists",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310316678"
+          ],
+          "host_organization_lineage_names": [
+            "Society of Exploration Geophysicists"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Geophysics",
+        "raw_type": "journal-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5019972279",
+            "display_name": "Yangkang Chen",
+            "orcid": "https://orcid.org/0000-0001-6429-4261"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1288783943",
+              "display_name": "Bureau of Economic Analysis",
+              "ror": "https://ror.org/03b17a012",
+              "country_code": "US",
+              "type": "government",
+              "lineage": [
+                "https://openalex.org/I1288783943",
+                "https://openalex.org/I1343035065"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Yangkang Chen",
+          "raw_affiliation_strings": [
+            "The University of Texas at Austin 1 , Bureau of Economic Geology, John A. and Katherine G. Jackson School of Geosciences, University Station, Box X, Austin, Texas 78713-8924, . E-mail: chenyk2016@gmail.com ; sergey.fomel@beg.utexas.edu ",
+            "The University of Texas at Austin, Bureau of Economic Geology, John A. and Katherine G. Jackson School of Geosciences, University Station, Box X, Austin, Texas 78713-8924, USA"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0001-6429-4261",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "The University of Texas at Austin 1 , Bureau of Economic Geology, John A. and Katherine G. Jackson School of Geosciences, University Station, Box X, Austin, Texas 78713-8924, . E-mail: chenyk2016@gmail.com ; sergey.fomel@beg.utexas.edu ",
+              "institution_ids": [
+                "https://openalex.org/I1288783943"
+              ]
+            },
+            {
+              "raw_affiliation_string": "The University of Texas at Austin, Bureau of Economic Geology, John A. and Katherine G. Jackson School of Geosciences, University Station, Box X, Austin, Texas 78713-8924, USA",
+              "institution_ids": [
+                "https://openalex.org/I1288783943"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5005237932",
+            "display_name": "Sergey B. Fomel",
+            "orcid": "https://orcid.org/0000-0002-9024-5137"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1288783943",
+              "display_name": "Bureau of Economic Analysis",
+              "ror": "https://ror.org/03b17a012",
+              "country_code": "US",
+              "type": "government",
+              "lineage": [
+                "https://openalex.org/I1288783943",
+                "https://openalex.org/I1343035065"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Sergey Fomel",
+          "raw_affiliation_strings": [
+            "The University of Texas at Austin 1 , Bureau of Economic Geology, John A. and Katherine G. Jackson School of Geosciences, University Station, Box X, Austin, Texas 78713-8924, . E-mail: chenyk2016@gmail.com ; sergey.fomel@beg.utexas.edu ",
+            "The University of Texas at Austin, Bureau of Economic Geology, John A. and Katherine G. Jackson School of Geosciences, University Station, Box X, Austin, Texas 78713-8924, USA"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-9024-5137",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "The University of Texas at Austin 1 , Bureau of Economic Geology, John A. and Katherine G. Jackson School of Geosciences, University Station, Box X, Austin, Texas 78713-8924, . E-mail: chenyk2016@gmail.com ; sergey.fomel@beg.utexas.edu ",
+              "institution_ids": [
+                "https://openalex.org/I1288783943"
+              ]
+            },
+            {
+              "raw_affiliation_string": "The University of Texas at Austin, Bureau of Economic Geology, John A. and Katherine G. Jackson School of Geosciences, University Station, Box X, Austin, Texas 78713-8924, USA",
+              "institution_ids": [
+                "https://openalex.org/I1288783943"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I1288783943"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 2.362,
+      "has_fulltext": false,
+      "cited_by_count": 21,
+      "citation_normalized_percentile": {
+        "value": 0.88026711,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 95,
+        "max": 98
+      },
+      "biblio": {
+        "volume": "86",
+        "issue": "5",
+        "first_page": "V409",
+        "last_page": "V418"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10271",
+        "display_name": "Seismic Imaging and Inversion Techniques",
+        "score": 1.0,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1908",
+          "display_name": "Geophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10271",
+          "display_name": "Seismic Imaging and Inversion Techniques",
+          "score": 1.0,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10635",
+          "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+          "score": 0.9975000023841858,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2210",
+            "display_name": "Mechanical Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10892",
+          "display_name": "Drilling and Well Engineering",
+          "score": 0.9970999956130981,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2212",
+            "display_name": "Ocean Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/orthogonalization",
+          "display_name": "Orthogonalization",
+          "score": 0.9910345077514648
+        },
+        {
+          "id": "https://openalex.org/keywords/smoothing",
+          "display_name": "Smoothing",
+          "score": 0.6196157932281494
+        },
+        {
+          "id": "https://openalex.org/keywords/algorithm",
+          "display_name": "Algorithm",
+          "score": 0.524185836315155
+        },
+        {
+          "id": "https://openalex.org/keywords/noise",
+          "display_name": "Noise (video)",
+          "score": 0.5105654001235962
+        },
+        {
+          "id": "https://openalex.org/keywords/computer-science",
+          "display_name": "Computer science",
+          "score": 0.4633709788322449
+        },
+        {
+          "id": "https://openalex.org/keywords/signal",
+          "display_name": "SIGNAL (programming language)",
+          "score": 0.45399293303489685
+        },
+        {
+          "id": "https://openalex.org/keywords/signal-processing",
+          "display_name": "Signal processing",
+          "score": 0.4285629093647003
+        },
+        {
+          "id": "https://openalex.org/keywords/mathematics",
+          "display_name": "Mathematics",
+          "score": 0.42414364218711853
+        },
+        {
+          "id": "https://openalex.org/keywords/mathematical-optimization",
+          "display_name": "Mathematical optimization",
+          "score": 0.4179230034351349
+        },
+        {
+          "id": "https://openalex.org/keywords/artificial-intelligence",
+          "display_name": "Artificial intelligence",
+          "score": 0.23476815223693848
+        },
+        {
+          "id": "https://openalex.org/keywords/computer-vision",
+          "display_name": "Computer vision",
+          "score": 0.12830469012260437
+        },
+        {
+          "id": "https://openalex.org/keywords/image",
+          "display_name": "Image (mathematics)",
+          "score": 0.12678059935569763
+        },
+        {
+          "id": "https://openalex.org/keywords/telecommunications",
+          "display_name": "Telecommunications",
+          "score": 0.09834215044975281
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C47559304",
+          "wikidata": "https://www.wikidata.org/wiki/Q1702189",
+          "display_name": "Orthogonalization",
+          "level": 2,
+          "score": 0.9910345077514648
+        },
+        {
+          "id": "https://openalex.org/C3770464",
+          "wikidata": "https://www.wikidata.org/wiki/Q775963",
+          "display_name": "Smoothing",
+          "level": 2,
+          "score": 0.6196157932281494
+        },
+        {
+          "id": "https://openalex.org/C11413529",
+          "wikidata": "https://www.wikidata.org/wiki/Q8366",
+          "display_name": "Algorithm",
+          "level": 1,
+          "score": 0.524185836315155
+        },
+        {
+          "id": "https://openalex.org/C99498987",
+          "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+          "display_name": "Noise (video)",
+          "level": 3,
+          "score": 0.5105654001235962
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.4633709788322449
+        },
+        {
+          "id": "https://openalex.org/C2779843651",
+          "wikidata": "https://www.wikidata.org/wiki/Q7390335",
+          "display_name": "SIGNAL (programming language)",
+          "level": 2,
+          "score": 0.45399293303489685
+        },
+        {
+          "id": "https://openalex.org/C104267543",
+          "wikidata": "https://www.wikidata.org/wiki/Q208163",
+          "display_name": "Signal processing",
+          "level": 3,
+          "score": 0.4285629093647003
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.42414364218711853
+        },
+        {
+          "id": "https://openalex.org/C126255220",
+          "wikidata": "https://www.wikidata.org/wiki/Q141495",
+          "display_name": "Mathematical optimization",
+          "level": 1,
+          "score": 0.4179230034351349
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.23476815223693848
+        },
+        {
+          "id": "https://openalex.org/C31972630",
+          "wikidata": "https://www.wikidata.org/wiki/Q844240",
+          "display_name": "Computer vision",
+          "level": 1,
+          "score": 0.12830469012260437
+        },
+        {
+          "id": "https://openalex.org/C115961682",
+          "wikidata": "https://www.wikidata.org/wiki/Q860623",
+          "display_name": "Image (mathematics)",
+          "level": 2,
+          "score": 0.12678059935569763
+        },
+        {
+          "id": "https://openalex.org/C76155785",
+          "wikidata": "https://www.wikidata.org/wiki/Q418",
+          "display_name": "Telecommunications",
+          "level": 1,
+          "score": 0.09834215044975281
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C554190296",
+          "wikidata": "https://www.wikidata.org/wiki/Q47528",
+          "display_name": "Radar",
+          "level": 2,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1190/geo2020-0151.1",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1190/geo2020-0151.1",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S106174089",
+            "display_name": "Geophysics",
+            "issn_l": "0016-8033",
+            "issn": [
+              "0016-8033",
+              "1942-2156"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-1",
+              "norway-2"
+            ],
+            "host_organization": "https://openalex.org/P4310316678",
+            "host_organization_name": "Society of Exploration Geophysicists",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310316678"
+            ],
+            "host_organization_lineage_names": [
+              "Society of Exploration Geophysicists"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Geophysics",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "id": "https://metadata.un.org/sdg/7",
+          "display_name": "Affordable and clean energy",
+          "score": 0.4300000071525574
+        }
+      ],
+      "x_sdgs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 22,
+      "referenced_works": [
+        "https://openalex.org/W654059483",
+        "https://openalex.org/W1926296959",
+        "https://openalex.org/W1930495907",
+        "https://openalex.org/W1973540739",
+        "https://openalex.org/W1976884569",
+        "https://openalex.org/W2003880441",
+        "https://openalex.org/W2007938736",
+        "https://openalex.org/W2011510652",
+        "https://openalex.org/W2021734622",
+        "https://openalex.org/W2042040926",
+        "https://openalex.org/W2065902680",
+        "https://openalex.org/W2126720920",
+        "https://openalex.org/W2141921855",
+        "https://openalex.org/W2151169043",
+        "https://openalex.org/W2168917711",
+        "https://openalex.org/W2561675811",
+        "https://openalex.org/W2778440028",
+        "https://openalex.org/W2901068657",
+        "https://openalex.org/W2980514319",
+        "https://openalex.org/W3004437882",
+        "https://openalex.org/W3125770505",
+        "https://openalex.org/W4300692961"
+      ],
+      "related_works": [
+        "https://openalex.org/W1965163197",
+        "https://openalex.org/W2005349189",
+        "https://openalex.org/W2526976988",
+        "https://openalex.org/W3122962126",
+        "https://openalex.org/W2386892378",
+        "https://openalex.org/W4301514602",
+        "https://openalex.org/W2949490341",
+        "https://openalex.org/W1541233540",
+        "https://openalex.org/W2362628444",
+        "https://openalex.org/W2136529641"
+      ],
+      "abstract_inverted_index": {
+        "ABSTRACT": [
+          0
+        ],
+        "The": [
+          1,
+          47,
+          79,
+          109
+        ],
+        "local": [
+          2,
+          27,
+          56,
+          70,
+          106,
+          111,
+          124
+        ],
+        "signal-and-noise": [
+          3
+        ],
+        "orthogonalization": [
+          4,
+          28,
+          57,
+          71,
+          112,
+          125
+        ],
+        "method": [
+          5,
+          18,
+          58,
+          72,
+          113,
+          136
+        ],
+        "has": [
+          6
+        ],
+        "been": [
+          7
+        ],
+        "widely": [
+          8
+        ],
+        "used": [
+          9
+        ],
+        "in": [
+          10,
+          59,
+          90,
+          102
+        ],
+        "the": [
+          11,
+          26,
+          34,
+          37,
+          43,
+          52,
+          55,
+          92,
+          99,
+          105,
+          115,
+          122,
+          130,
+          134
+        ],
+        "seismic": [
+          12,
+          45,
+          62,
+          94
+        ],
+        "processing": [
+          13,
+          60
+        ],
+        "and": [
+          14,
+          140
+        ],
+        "imaging": [
+          15
+        ],
+        "community.": [
+          16
+        ],
+        "This": [
+          17
+        ],
+        "uses": [
+          19,
+          74
+        ],
+        "a": [
+          20,
+          68,
+          75
+        ],
+        "fixed": [
+          21,
+          48
+        ],
+        "triangle": [
+          22,
+          49,
+          77
+        ],
+        "smoother": [
+          23,
+          50
+        ],
+        "for": [
+          24
+        ],
+        "regularizing": [
+          25
+        ],
+        "weight,": [
+          29
+        ],
+        "which": [
+          30,
+          91
+        ],
+        "is": [
+          31,
+          39,
+          83,
+          120
+        ],
+        "based": [
+          32
+        ],
+        "on": [
+          33
+        ],
+        "assumption": [
+          35
+        ],
+        "that": [
+          36,
+          73
+        ],
+        "energy": [
+          38
+        ],
+        "homogeneously": [
+          40
+        ],
+        "distributed": [
+          41
+        ],
+        "across": [
+          42
+        ],
+        "whole": [
+          44
+        ],
+        "profile.": [
+          46
+        ],
+        "limits": [
+          51
+        ],
+        "performance": [
+          53,
+          132
+        ],
+        "of": [
+          54,
+          104,
+          133
+        ],
+        "complicated": [
+          61
+        ],
+        "data": [
+          63,
+          95,
+          101,
+          142
+        ],
+        "sets.": [
+          64
+        ],
+        "We": [
+          65,
+          127
+        ],
+        "have": [
+          66,
+          128
+        ],
+        "developed": [
+          67
+        ],
+        "new": [
+          69,
+          110,
+          135
+        ],
+        "variable": [
+          76
+        ],
+        "smoother.": [
+          78
+        ],
+        "nonstationary": [
+          80,
+          116,
+          123
+        ],
+        "smoothing": [
+          81
+        ],
+        "radius": [
+          82
+        ],
+        "obtained": [
+          84
+        ],
+        "by": [
+          85,
+          98
+        ],
+        "solving": [
+          86
+        ],
+        "an": [
+          87
+        ],
+        "optimization": [
+          88
+        ],
+        "problem": [
+          89
+        ],
+        "low-pass-filtered": [
+          93
+        ],
+        "are": [
+          96
+        ],
+        "matched": [
+          97
+        ],
+        "smoothed": [
+          100
+        ],
+        "terms": [
+          103
+        ],
+        "frequency": [
+          107
+        ],
+        "attribute.": [
+          108
+        ],
+        "with": [
+          114
+        ],
+        "model": [
+          117
+        ],
+        "smoothness": [
+          118
+        ],
+        "constraint": [
+          119
+        ],
+        "called": [
+          121
+        ],
+        "method.": [
+          126
+        ],
+        "proven": [
+          129
+        ],
+        "successful": [
+          131
+        ],
+        "using": [
+          137
+        ],
+        "several": [
+          138
+        ],
+        "synthetic": [
+          139
+        ],
+        "field": [
+          141
+        ],
+        "evaluations.": [
+          143
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 4
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 6
+        },
+        {
+          "year": 2021,
+          "cited_by_count": 3
+        }
+      ],
+      "updated_date": "2026-09-22T06:50:58.402377",
+      "created_date": "2025-10-10T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W3167759309",
+      "doi": "https://doi.org/10.1109/tgrs.2021.3054839",
+      "title": "Accelerated Signal-and-Noise Orthogonalization",
+      "display_name": "Accelerated Signal-and-Noise Orthogonalization",
+      "publication_year": 2021,
+      "publication_date": "2021-03-17",
+      "ids": {
+        "openalex": "https://openalex.org/W3167759309",
+        "doi": "https://doi.org/10.1109/tgrs.2021.3054839",
+        "mag": "3167759309"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1109/tgrs.2021.3054839",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1109/tgrs.2021.3054839",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S111326731",
+          "display_name": "IEEE Transactions on Geoscience and Remote Sensing",
+          "issn_l": "0196-2892",
+          "issn": [
+            "0196-2892",
+            "1558-0644"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "jufo-3",
+            "norway-2"
+          ],
+          "host_organization": "https://openalex.org/P4310319808",
+          "host_organization_name": "Institute of Electrical and Electronics Engineers",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310319808"
+          ],
+          "host_organization_lineage_names": [
+            "Institute of Electrical and Electronics Engineers"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "IEEE Transactions on Geoscience and Remote Sensing",
+        "raw_type": "journal-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5067576135",
+            "display_name": "Guangtan Huang",
+            "orcid": "https://orcid.org/0000-0003-0635-4283"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I4210140379",
+              "display_name": "Institute of Rock and Soil Mechanics",
+              "ror": "https://ror.org/0366c6s65",
+              "country_code": "CN",
+              "type": "facility",
+              "lineage": [
+                "https://openalex.org/I19820366",
+                "https://openalex.org/I4210140379"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Guangtan Huang",
+          "raw_affiliation_strings": [
+            "State Key Laboratory of Geomechanics and Geotechnical Engineering, Institute of Rock and Soil Mechanics, Chinese Academy of Sciences, Wuhan, China"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0003-0635-4283",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "State Key Laboratory of Geomechanics and Geotechnical Engineering, Institute of Rock and Soil Mechanics, Chinese Academy of Sciences, Wuhan, China",
+              "institution_ids": [
+                "https://openalex.org/I4210140379"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5100366113",
+            "display_name": "Dong Zhang",
+            "orcid": "https://orcid.org/0000-0002-5137-9909"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I98358874",
+              "display_name": "Delft University of Technology",
+              "ror": "https://ror.org/02e2c7k09",
+              "country_code": "NL",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I98358874"
+              ]
+            }
+          ],
+          "countries": [
+            "NL"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Dong Zhang",
+          "raw_affiliation_strings": [
+            "Department of Imaging Physics, Delft University of Technology, Delft, The Netherlands"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0002-5137-9909",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Department of Imaging Physics, Delft University of Technology, Delft, The Netherlands",
+              "institution_ids": [
+                "https://openalex.org/I98358874"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5042175903",
+            "display_name": "Wei Chen",
+            "orcid": "https://orcid.org/0000-0003-4222-964X"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I177739611",
+              "display_name": "Yangtze University",
+              "ror": "https://ror.org/05bhmhz54",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I177739611"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Wei Chen",
+          "raw_affiliation_strings": [
+            "Key Laboratory of Exploration Technology for Oil and Gas Resources of Ministry of Education, Yangtze University, Wuhan, China"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0003-4222-964X",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Key Laboratory of Exploration Technology for Oil and Gas Resources of Ministry of Education, Yangtze University, Wuhan, China",
+              "institution_ids": [
+                "https://openalex.org/I177739611"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": null,
+            "display_name": "Yangkang Chen",
+            "orcid": "https://orcid.org/0000-0001-9843-3995"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I76130692",
+              "display_name": "Zhejiang University",
+              "ror": "https://ror.org/00a2xv884",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I76130692"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Yangkang Chen",
+          "raw_affiliation_strings": [
+            "Key Laboratory of Geoscience Big Data and Deep Resource of Zhejiang Province, School of Earth Sciences, Zhejiang University, Hangzhou, China"
+          ],
+          "raw_orcid": "https://orcid.org/0000-0001-9843-3995",
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Key Laboratory of Geoscience Big Data and Deep Resource of Zhejiang Province, School of Earth Sciences, Zhejiang University, Hangzhou, China",
+              "institution_ids": [
+                "https://openalex.org/I76130692"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 2,
+      "institutions_distinct_count": 4,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [],
+      "apc_list": {
+        "value": 2045,
+        "currency": "USD",
+        "value_usd": 2045
+      },
+      "apc_paid": null,
+      "fwci": 0.2952,
+      "has_fulltext": false,
+      "cited_by_count": 3,
+      "citation_normalized_percentile": {
+        "value": 0.4659375,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 89,
+        "max": 96
+      },
+      "biblio": {
+        "volume": "60",
+        "issue": null,
+        "first_page": "1",
+        "last_page": "9"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10271",
+        "display_name": "Seismic Imaging and Inversion Techniques",
+        "score": 0.9998000264167786,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1908",
+          "display_name": "Geophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10271",
+          "display_name": "Seismic Imaging and Inversion Techniques",
+          "score": 0.9998000264167786,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10688",
+          "display_name": "Image and Signal Denoising Methods",
+          "score": 0.9958999752998352,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1707",
+            "display_name": "Computer Vision and Pattern Recognition"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11757",
+          "display_name": "Seismic Waves and Analysis",
+          "score": 0.992900013923645,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/orthogonalization",
+          "display_name": "Orthogonalization",
+          "score": 0.9948887825012207
+        },
+        {
+          "id": "https://openalex.org/keywords/noise",
+          "display_name": "Noise (video)",
+          "score": 0.6304565668106079
+        },
+        {
+          "id": "https://openalex.org/keywords/algorithm",
+          "display_name": "Algorithm",
+          "score": 0.5667684674263
+        },
+        {
+          "id": "https://openalex.org/keywords/computer-science",
+          "display_name": "Computer science",
+          "score": 0.49084240198135376
+        },
+        {
+          "id": "https://openalex.org/keywords/signal",
+          "display_name": "SIGNAL (programming language)",
+          "score": 0.4567284882068634
+        },
+        {
+          "id": "https://openalex.org/keywords/signal-processing",
+          "display_name": "Signal processing",
+          "score": 0.4444091320037842
+        },
+        {
+          "id": "https://openalex.org/keywords/tikhonov-regularization",
+          "display_name": "Tikhonov regularization",
+          "score": 0.4399564862251282
+        },
+        {
+          "id": "https://openalex.org/keywords/mathematics",
+          "display_name": "Mathematics",
+          "score": 0.4120897054672241
+        },
+        {
+          "id": "https://openalex.org/keywords/mathematical-optimization",
+          "display_name": "Mathematical optimization",
+          "score": 0.33539336919784546
+        },
+        {
+          "id": "https://openalex.org/keywords/artificial-intelligence",
+          "display_name": "Artificial intelligence",
+          "score": 0.30441170930862427
+        },
+        {
+          "id": "https://openalex.org/keywords/inverse-problem",
+          "display_name": "Inverse problem",
+          "score": 0.24904930591583252
+        },
+        {
+          "id": "https://openalex.org/keywords/telecommunications",
+          "display_name": "Telecommunications",
+          "score": 0.1403414011001587
+        },
+        {
+          "id": "https://openalex.org/keywords/mathematical-analysis",
+          "display_name": "Mathematical analysis",
+          "score": 0.08231893181800842
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C47559304",
+          "wikidata": "https://www.wikidata.org/wiki/Q1702189",
+          "display_name": "Orthogonalization",
+          "level": 2,
+          "score": 0.9948887825012207
+        },
+        {
+          "id": "https://openalex.org/C99498987",
+          "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+          "display_name": "Noise (video)",
+          "level": 3,
+          "score": 0.6304565668106079
+        },
+        {
+          "id": "https://openalex.org/C11413529",
+          "wikidata": "https://www.wikidata.org/wiki/Q8366",
+          "display_name": "Algorithm",
+          "level": 1,
+          "score": 0.5667684674263
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.49084240198135376
+        },
+        {
+          "id": "https://openalex.org/C2779843651",
+          "wikidata": "https://www.wikidata.org/wiki/Q7390335",
+          "display_name": "SIGNAL (programming language)",
+          "level": 2,
+          "score": 0.4567284882068634
+        },
+        {
+          "id": "https://openalex.org/C104267543",
+          "wikidata": "https://www.wikidata.org/wiki/Q208163",
+          "display_name": "Signal processing",
+          "level": 3,
+          "score": 0.4444091320037842
+        },
+        {
+          "id": "https://openalex.org/C152442038",
+          "wikidata": "https://www.wikidata.org/wiki/Q2778212",
+          "display_name": "Tikhonov regularization",
+          "level": 3,
+          "score": 0.4399564862251282
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.4120897054672241
+        },
+        {
+          "id": "https://openalex.org/C126255220",
+          "wikidata": "https://www.wikidata.org/wiki/Q141495",
+          "display_name": "Mathematical optimization",
+          "level": 1,
+          "score": 0.33539336919784546
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.30441170930862427
+        },
+        {
+          "id": "https://openalex.org/C135252773",
+          "wikidata": "https://www.wikidata.org/wiki/Q1567213",
+          "display_name": "Inverse problem",
+          "level": 2,
+          "score": 0.24904930591583252
+        },
+        {
+          "id": "https://openalex.org/C76155785",
+          "wikidata": "https://www.wikidata.org/wiki/Q418",
+          "display_name": "Telecommunications",
+          "level": 1,
+          "score": 0.1403414011001587
+        },
+        {
+          "id": "https://openalex.org/C134306372",
+          "wikidata": "https://www.wikidata.org/wiki/Q7754",
+          "display_name": "Mathematical analysis",
+          "level": 1,
+          "score": 0.08231893181800842
+        },
+        {
+          "id": "https://openalex.org/C115961682",
+          "wikidata": "https://www.wikidata.org/wiki/Q860623",
+          "display_name": "Image (mathematics)",
+          "level": 2,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C554190296",
+          "wikidata": "https://www.wikidata.org/wiki/Q47528",
+          "display_name": "Radar",
+          "level": 2,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1109/tgrs.2021.3054839",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1109/tgrs.2021.3054839",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S111326731",
+            "display_name": "IEEE Transactions on Geoscience and Remote Sensing",
+            "issn_l": "0196-2892",
+            "issn": [
+              "0196-2892",
+              "1558-0644"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "jufo-3",
+              "norway-2"
+            ],
+            "host_organization": "https://openalex.org/P4310319808",
+            "host_organization_name": "Institute of Electrical and Electronics Engineers",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310319808"
+            ],
+            "host_organization_lineage_names": [
+              "Institute of Electrical and Electronics Engineers"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "IEEE Transactions on Geoscience and Remote Sensing",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "id": "https://metadata.un.org/sdg/11",
+          "display_name": "Sustainable cities and communities",
+          "score": 0.5
+        }
+      ],
+      "x_sdgs": [],
+      "awards": [
+        {
+          "id": "https://openalex.org/G3123712008",
+          "display_name": null,
+          "funder_award_id": "41804140",
+          "funder_id": "https://openalex.org/F4320321001",
+          "funder_display_name": "National Natural Science Foundation of China"
+        }
+      ],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320321001",
+          "display_name": "National Natural Science Foundation of China",
+          "ror": "https://ror.org/01h0zpd94"
+        },
+        {
+          "id": "https://openalex.org/F4320322927",
+          "display_name": "Zhejiang University",
+          "ror": "https://ror.org/00a2xv884"
+        }
+      ],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 39,
+      "referenced_works": [
+        "https://openalex.org/W1926296959",
+        "https://openalex.org/W1930495907",
+        "https://openalex.org/W1973540739",
+        "https://openalex.org/W1991265582",
+        "https://openalex.org/W2007938736",
+        "https://openalex.org/W2021734622",
+        "https://openalex.org/W2054198069",
+        "https://openalex.org/W2065902680",
+        "https://openalex.org/W2070079273",
+        "https://openalex.org/W2076393573",
+        "https://openalex.org/W2133015712",
+        "https://openalex.org/W2138354688",
+        "https://openalex.org/W2141921855",
+        "https://openalex.org/W2168917711",
+        "https://openalex.org/W2177432006",
+        "https://openalex.org/W2182747765",
+        "https://openalex.org/W2264654379",
+        "https://openalex.org/W2403089413",
+        "https://openalex.org/W2412205031",
+        "https://openalex.org/W2520632654",
+        "https://openalex.org/W2561675811",
+        "https://openalex.org/W2612078118",
+        "https://openalex.org/W2702787849",
+        "https://openalex.org/W2744272590",
+        "https://openalex.org/W2791699299",
+        "https://openalex.org/W2807801272",
+        "https://openalex.org/W2887874867",
+        "https://openalex.org/W2897137065",
+        "https://openalex.org/W2901068657",
+        "https://openalex.org/W2901782057",
+        "https://openalex.org/W2975778935",
+        "https://openalex.org/W2980514319",
+        "https://openalex.org/W2981028488",
+        "https://openalex.org/W2985018706",
+        "https://openalex.org/W3033557345",
+        "https://openalex.org/W3091523250",
+        "https://openalex.org/W3125770505",
+        "https://openalex.org/W3128525917",
+        "https://openalex.org/W4300692961"
+      ],
+      "related_works": [
+        "https://openalex.org/W2748952813",
+        "https://openalex.org/W2351184843",
+        "https://openalex.org/W2126841255",
+        "https://openalex.org/W2355805360",
+        "https://openalex.org/W2126130410",
+        "https://openalex.org/W1531280808",
+        "https://openalex.org/W1937640975",
+        "https://openalex.org/W2367106221",
+        "https://openalex.org/W2363277977",
+        "https://openalex.org/W2132162100"
+      ],
+      "abstract_inverted_index": {
+        "The": [
+          0,
+          40,
+          130
+        ],
+        "local": [
+          1,
+          42,
+          56,
+          65,
+          206
+        ],
+        "signal-to-noise": [
+          2,
+          43
+        ],
+        "orthogonalization": [
+          3,
+          44,
+          66,
+          89,
+          100,
+          113,
+          131,
+          149,
+          175
+        ],
+        "algorithm": [
+          4
+        ],
+        "has": [
+          5
+        ],
+        "been": [
+          6,
+          143
+        ],
+        "widely": [
+          7
+        ],
+        "used": [
+          8
+        ],
+        "in": [
+          9,
+          23,
+          37,
+          79,
+          107
+        ],
+        "the": [
+          10,
+          20,
+          29,
+          34,
+          61,
+          64,
+          99,
+          108,
+          112,
+          116,
+          123,
+          127,
+          147,
+          153,
+          158,
+          162,
+          174,
+          179,
+          204
+        ],
+        "community": [
+          11
+        ],
+        "of": [
+          12,
+          72,
+          115,
+          126,
+          161
+        ],
+        "seismic": [
+          13,
+          38,
+          154
+        ],
+        "processing": [
+          14
+        ],
+        "and": [
+          15,
+          74,
+          137,
+          156,
+          185,
+          196
+        ],
+        "imaging.": [
+          16
+        ],
+        "It": [
+          17
+        ],
+        "helps": [
+          18
+        ],
+        "orthogonalize": [
+          19
+        ],
+        "signal-and-noise": [
+          21,
+          88,
+          207
+        ],
+        "components": [
+          22
+        ],
+        "an": [
+          24,
+          94
+        ],
+        "elegant": [
+          25
+        ],
+        "way": [
+          26,
+          96
+        ],
+        "so": [
+          27
+        ],
+        "that": [
+          28
+        ],
+        "noise": [
+          30
+        ],
+        "does": [
+          31
+        ],
+        "not": [
+          32
+        ],
+        "contain": [
+          33
+        ],
+        "signal": [
+          35
+        ],
+        "leakage": [
+          36
+        ],
+        "denoising.": [
+          39
+        ],
+        "traditional": [
+          41,
+          205
+        ],
+        "is": [
+          45,
+          76
+        ],
+        "based": [
+          46
+        ],
+        "on": [
+          47
+        ],
+        "solving": [
+          48
+        ],
+        "a": [
+          49,
+          69,
+          85,
+          190
+        ],
+        "highly": [
+          50
+        ],
+        "underdetermined,": [
+          51
+        ],
+        "ill-posed": [
+          52
+        ],
+        "inverse": [
+          53
+        ],
+        "problem": [
+          54
+        ],
+        "with": [
+          55,
+          122,
+          193,
+          203
+        ],
+        "smoothness": [
+          57
+        ],
+        "constraint.": [
+          58
+        ],
+        "Due": [
+          59
+        ],
+        "to": [
+          60,
+          134,
+          145,
+          182
+        ],
+        "inversion": [
+          62
+        ],
+        "nature,": [
+          63
+        ],
+        "method": [
+          67,
+          181
+        ],
+        "requires": [
+          68
+        ],
+        "large": [
+          70
+        ],
+        "number": [
+          71
+        ],
+        "iterations": [
+          73,
+          171
+        ],
+        "thus": [
+          75
+        ],
+        "computationally": [
+          77
+        ],
+        "demanding": [
+          78
+        ],
+        "large-scale": [
+          80
+        ],
+        "applications.": [
+          81
+        ],
+        "Here,": [
+          82
+        ],
+        "we": [
+          83,
+          92,
+          110,
+          169
+        ],
+        "proposed": [
+          84,
+          180
+        ],
+        "much": [
+          86,
+          199
+        ],
+        "accelerated": [
+          87,
+          200
+        ],
+        "method,": [
+          90
+        ],
+        "where": [
+          91
+        ],
+        "design": [
+          93
+        ],
+        "efficient": [
+          95
+        ],
+        "for": [
+          97
+        ],
+        "calculating": [
+          98,
+          173
+        ],
+        "weight.": [
+          101,
+          176
+        ],
+        "When": [
+          102
+        ],
+        "new": [
+          103,
+          117
+        ],
+        "samples": [
+          104,
+          118,
+          141
+        ],
+        "are": [
+          105
+        ],
+        "involved": [
+          106
+        ],
+        "calculation,": [
+          109
+        ],
+        "calculate": [
+          111
+        ],
+        "weight": [
+          114,
+          132,
+          150
+        ],
+        "by": [
+          119
+        ],
+        "connecting": [
+          120
+        ],
+        "them": [
+          121
+        ],
+        "calculated": [
+          124
+        ],
+        "weights": [
+          125
+        ],
+        "previous": [
+          128
+        ],
+        "samples.": [
+          129
+        ],
+        "needs": [
+          133
+        ],
+        "be": [
+          135
+        ],
+        "smoothed": [
+          136
+        ],
+        "scaled": [
+          138
+        ],
+        "after": [
+          139
+        ],
+        "all": [
+          140
+        ],
+        "have": [
+          142,
+          189
+        ],
+        "processed": [
+          144
+        ],
+        "make": [
+          146
+        ],
+        "resulted": [
+          148
+        ],
+        "smooth": [
+          151
+        ],
+        "across": [
+          152
+        ],
+        "data": [
+          155,
+          187
+        ],
+        "match": [
+          157
+        ],
+        "amplitude": [
+          159
+        ],
+        "level": [
+          160
+        ],
+        "initially": [
+          163
+        ],
+        "suppressed": [
+          164
+        ],
+        "noise.": [
+          165
+        ],
+        "In": [
+          166
+        ],
+        "this": [
+          167
+        ],
+        "way,": [
+          168
+        ],
+        "avoid": [
+          170
+        ],
+        "when": [
+          172
+        ],
+        "We": [
+          177
+        ],
+        "apply": [
+          178
+        ],
+        "several": [
+          183
+        ],
+        "synthetic": [
+          184
+        ],
+        "field": [
+          186
+        ],
+        "examples,": [
+          188
+        ],
+        "benchmark": [
+          191
+        ],
+        "comparison": [
+          192
+        ],
+        "state-of-the-art": [
+          194
+        ],
+        "algorithms,": [
+          195
+        ],
+        "demonstrate": [
+          197
+        ],
+        "its": [
+          198
+        ],
+        "efficiency": [
+          201
+        ],
+        "compared": [
+          202
+        ],
+        "orthogonalization.": [
+          208
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2022,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-08-28T12:50:07.497085",
+      "created_date": "2025-10-10T00:00:00"
+    }
+  ],
+  "group_by": []
+}

@@ -1,0 +1,904 @@
+{
+  "id": "https://openalex.org/W2002404290",
+  "doi": "https://doi.org/10.1190/1.1443082",
+  "title": "Velocity inversion by differential semblance optimization",
+  "display_name": "Velocity inversion by differential semblance optimization",
+  "publication_year": 1991,
+  "publication_date": "1991-05-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2002404290",
+    "doi": "https://doi.org/10.1190/1.1443082",
+    "mag": "2002404290"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.1443082",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.1443082",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S106174089",
+      "display_name": "Geophysics",
+      "issn_l": "0016-8033",
+      "issn": [
+        "0016-8033",
+        "1942-2156"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5034636970",
+        "display_name": "William W. Symes",
+        "orcid": "https://orcid.org/0000-0001-6213-4272"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I74775410",
+          "display_name": "Rice University",
+          "ror": "https://ror.org/008zs3103",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I74775410"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "W. W. Symes",
+      "raw_affiliation_strings": [
+        "Rice Univ., Dep. Math. Sci., Houston, TX, United States",
+        "Department of Mathematical Sciences, Rice University, Box 1892, Houston, TX 77251-1892"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Rice Univ., Dep. Math. Sci., Houston, TX, United States",
+          "institution_ids": [
+            "https://openalex.org/I74775410"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Mathematical Sciences, Rice University, Box 1892, Houston, TX 77251-1892",
+          "institution_ids": [
+            "https://openalex.org/I74775410"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5066957088",
+        "display_name": "James J. Carazzone",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I923382979",
+          "display_name": "ExxonMobil (United States)",
+          "ror": "https://ror.org/01xcepn55",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I923382979"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "James J. Carazzone",
+      "raw_affiliation_strings": [
+        "Exxon Prod. Res. Co., United States",
+        "Exxon Production Research Company, Long‐range Research, Box 2189, Houston, TX 77252"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Exxon Prod. Res. Co., United States",
+          "institution_ids": [
+            "https://openalex.org/I923382979"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Exxon Production Research Company, Long‐range Research, Box 2189, Houston, TX 77252",
+          "institution_ids": [
+            "https://openalex.org/I923382979"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 4.7729,
+  "has_fulltext": false,
+  "cited_by_count": 431,
+  "citation_normalized_percentile": {
+    "value": 0.95401891,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 94,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "56",
+    "issue": "5",
+    "first_page": "654",
+    "last_page": "663"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.9975000023841858,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/seismogram",
+      "display_name": "Seismogram",
+      "score": 0.8368810415267944
+    },
+    {
+      "id": "https://openalex.org/keywords/inversion",
+      "display_name": "Inversion (geology)",
+      "score": 0.7740172147750854
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.6066324710845947
+    },
+    {
+      "id": "https://openalex.org/keywords/amplitude",
+      "display_name": "Amplitude",
+      "score": 0.5783616304397583
+    },
+    {
+      "id": "https://openalex.org/keywords/nonlinear-system",
+      "display_name": "Nonlinear system",
+      "score": 0.4952811300754547
+    },
+    {
+      "id": "https://openalex.org/keywords/reflection",
+      "display_name": "Reflection (computer programming)",
+      "score": 0.47782233357429504
+    },
+    {
+      "id": "https://openalex.org/keywords/least-squares-function-approximation",
+      "display_name": "Least-squares function approximation",
+      "score": 0.42157718539237976
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.39035487174987793
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.3653419315814972
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.2789071202278137
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.19585636258125305
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.13107463717460632
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.10950964689254761
+    },
+    {
+      "id": "https://openalex.org/keywords/statistics",
+      "display_name": "Statistics",
+      "score": 0.07432493567466736
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C169744125",
+      "wikidata": "https://www.wikidata.org/wiki/Q510375",
+      "display_name": "Seismogram",
+      "level": 2,
+      "score": 0.8368810415267944
+    },
+    {
+      "id": "https://openalex.org/C1893757",
+      "wikidata": "https://www.wikidata.org/wiki/Q3653001",
+      "display_name": "Inversion (geology)",
+      "level": 3,
+      "score": 0.7740172147750854
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.6066324710845947
+    },
+    {
+      "id": "https://openalex.org/C180205008",
+      "wikidata": "https://www.wikidata.org/wiki/Q159190",
+      "display_name": "Amplitude",
+      "level": 2,
+      "score": 0.5783616304397583
+    },
+    {
+      "id": "https://openalex.org/C158622935",
+      "wikidata": "https://www.wikidata.org/wiki/Q660848",
+      "display_name": "Nonlinear system",
+      "level": 2,
+      "score": 0.4952811300754547
+    },
+    {
+      "id": "https://openalex.org/C65682993",
+      "wikidata": "https://www.wikidata.org/wiki/Q1056451",
+      "display_name": "Reflection (computer programming)",
+      "level": 2,
+      "score": 0.47782233357429504
+    },
+    {
+      "id": "https://openalex.org/C9936470",
+      "wikidata": "https://www.wikidata.org/wiki/Q6510405",
+      "display_name": "Least-squares function approximation",
+      "level": 3,
+      "score": 0.42157718539237976
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.39035487174987793
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.3653419315814972
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.2789071202278137
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.19585636258125305
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.13107463717460632
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.10950964689254761
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.07432493567466736
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C77928131",
+      "wikidata": "https://www.wikidata.org/wiki/Q193343",
+      "display_name": "Tectonics",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C185429906",
+      "wikidata": "https://www.wikidata.org/wiki/Q1130160",
+      "display_name": "Estimator",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.1443082",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.1443082",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S106174089",
+        "display_name": "Geophysics",
+        "issn_l": "0016-8033",
+        "issn": [
+          "0016-8033",
+          "1942-2156"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysics",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/14",
+      "display_name": "Life below water",
+      "score": 0.8600000143051147
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320306076",
+      "display_name": "National Science Foundation",
+      "ror": "https://ror.org/021nxhr62"
+    },
+    {
+      "id": "https://openalex.org/F4320337345",
+      "display_name": "Office of Naval Research",
+      "ror": "https://ror.org/00rk2pe57"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 16,
+  "referenced_works": [
+    "https://openalex.org/W1977528557",
+    "https://openalex.org/W1979217379",
+    "https://openalex.org/W1987829332",
+    "https://openalex.org/W1998804366",
+    "https://openalex.org/W2046781318",
+    "https://openalex.org/W2054169008",
+    "https://openalex.org/W2062897230",
+    "https://openalex.org/W2077787996",
+    "https://openalex.org/W2082931684",
+    "https://openalex.org/W2092049344",
+    "https://openalex.org/W2094533898",
+    "https://openalex.org/W2140092250",
+    "https://openalex.org/W2146389859",
+    "https://openalex.org/W2148172891",
+    "https://openalex.org/W2168331961",
+    "https://openalex.org/W2329283479"
+  ],
+  "related_works": [
+    "https://openalex.org/W2116286422",
+    "https://openalex.org/W2110190451",
+    "https://openalex.org/W2102481642",
+    "https://openalex.org/W1634712412",
+    "https://openalex.org/W2023174357",
+    "https://openalex.org/W2316659054",
+    "https://openalex.org/W2031592244",
+    "https://openalex.org/W2754067551",
+    "https://openalex.org/W2119915381",
+    "https://openalex.org/W2370255685"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "Differential": [
+      1
+    ],
+    "semblance": [
+      2
+    ],
+    "optimization": [
+      3
+    ],
+    "(DSO)": [
+      4
+    ],
+    "is": [
+      5
+    ],
+    "an": [
+      6
+    ],
+    "approach": [
+      7
+    ],
+    "to": [
+      8,
+      40,
+      82,
+      100,
+      108
+    ],
+    "inversion": [
+      9
+    ],
+    "of": [
+      10,
+      32,
+      54,
+      57,
+      66,
+      90
+    ],
+    "reflection": [
+      11
+    ],
+    "seismograms": [
+      12,
+      43
+    ],
+    "which": [
+      13,
+      97
+    ],
+    "avoids": [
+      14
+    ],
+    "the": [
+      15,
+      88,
+      93
+    ],
+    "severe": [
+      16
+    ],
+    "convergence": [
+      17
+    ],
+    "difficulties": [
+      18
+    ],
+    "associated": [
+      19
+    ],
+    "with": [
+      20
+    ],
+    "nonlinear": [
+      21
+    ],
+    "least-squares": [
+      22
+    ],
+    "inversion.": [
+      23
+    ],
+    "The": [
+      24,
+      103
+    ],
+    "method": [
+      25,
+      94,
+      104
+    ],
+    "exploits": [
+      26
+    ],
+    "both": [
+      27,
+      67
+    ],
+    "moveout": [
+      28
+    ],
+    "and": [
+      29,
+      44,
+      51,
+      62,
+      70
+    ],
+    "amplitude": [
+      30
+    ],
+    "characteristics": [
+      31
+    ],
+    "reflections.": [
+      33
+    ],
+    "We": [
+      34
+    ],
+    "have": [
+      35
+    ],
+    "implemented": [
+      36
+    ],
+    "a": [
+      37,
+      83
+    ],
+    "version": [
+      38,
+      56
+    ],
+    "appropriate": [
+      39
+    ],
+    "plane-wave": [
+      41
+    ],
+    "(p-tau)": [
+      42
+    ],
+    "layered": [
+      45
+    ],
+    "constant-density": [
+      46
+    ],
+    "acoustic": [
+      47
+    ],
+    "earth": [
+      48
+    ],
+    "models.": [
+      49,
+      113
+    ],
+    "Theoretical": [
+      50
+    ],
+    "numerical": [
+      52
+    ],
+    "analyses": [
+      53
+    ],
+    "this": [
+      55
+    ],
+    "DSO": [
+      58,
+      77
+    ],
+    "indicate": [
+      59
+    ],
+    "that": [
+      60
+    ],
+    "stable": [
+      61
+    ],
+    "reasonably": [
+      63
+    ],
+    "accurate": [
+      64
+    ],
+    "estimates": [
+      65
+    ],
+    "velocity": [
+      68,
+      112
+    ],
+    "trend": [
+      69
+    ],
+    "reflectivity": [
+      71
+    ],
+    "can": [
+      72,
+      105
+    ],
+    "be": [
+      73,
+      106
+    ],
+    "derived.": [
+      74
+    ],
+    "To": [
+      75
+    ],
+    "test": [
+      76
+    ],
+    "further,": [
+      78
+    ],
+    "we": [
+      79
+    ],
+    "applied": [
+      80
+    ],
+    "it": [
+      81
+    ],
+    "marine": [
+      84
+    ],
+    "data": [
+      85
+    ],
+    "set": [
+      86
+    ],
+    "from": [
+      87
+    ],
+    "Gulf": [
+      89
+    ],
+    "Mexico,": [
+      91
+    ],
+    "where": [
+      92
+    ],
+    "produced": [
+      95
+    ],
+    "results": [
+      96
+    ],
+    "compare": [
+      98
+    ],
+    "favorably": [
+      99
+    ],
+    "well-log": [
+      101
+    ],
+    "information.": [
+      102
+    ],
+    "extended": [
+      107
+    ],
+    "incorporate": [
+      109
+    ],
+    "laterally": [
+      110
+    ],
+    "heterogeneous": [
+      111
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 25
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 34
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 22
+    }
+  ],
+  "updated_date": "2026-09-21T07:43:02.447757",
+  "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,1380 @@
+{
+  "id": "https://openalex.org/W1982405405",
+  "doi": "https://doi.org/10.1071/eg984263d",
+  "title": "Signal/noise separation and velocity estimation",
+  "display_name": "Signal/noise separation and velocity estimation",
+  "publication_year": 1984,
+  "publication_date": "1984-12-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1982405405",
+    "doi": "https://doi.org/10.1071/eg984263d",
+    "mag": "1982405405"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1071/eg984263d",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1071/eg984263d",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S19171858",
+      "display_name": "Exploration Geophysics",
+      "issn_l": "0812-3985",
+      "issn": [
+        "0812-3985",
+        "1834-7533"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320547",
+      "host_organization_name": "Taylor & Francis",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320547",
+        "https://openalex.org/P4310320449"
+      ],
+      "host_organization_lineage_names": [
+        "Taylor & Francis",
+        "Informa"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Exploration Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5091261476",
+        "display_name": "William S. Harlan",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "W. S. Harlan",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5052591609",
+        "display_name": "Jon F. Claerbout",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "J. F. Claerbout",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5075125735",
+        "display_name": "F. Rocca",
+        "orcid": "https://orcid.org/0000-0002-2266-6212"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "F. Rocca",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 1.6733,
+  "has_fulltext": false,
+  "cited_by_count": 130,
+  "citation_normalized_percentile": {
+    "value": 0.8027253,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 94,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "15",
+    "issue": "4",
+    "first_page": "263",
+    "last_page": "264"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9990000128746033,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9962999820709229,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10892",
+      "display_name": "Drilling and Well Engineering",
+      "score": 0.9878000020980835,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/histogram",
+      "display_name": "Histogram",
+      "score": 0.59842449426651
+    },
+    {
+      "id": "https://openalex.org/keywords/noise",
+      "display_name": "Noise (video)",
+      "score": 0.5931640267372131
+    },
+    {
+      "id": "https://openalex.org/keywords/signal",
+      "display_name": "SIGNAL (programming language)",
+      "score": 0.5315513610839844
+    },
+    {
+      "id": "https://openalex.org/keywords/coherence",
+      "display_name": "Coherence (philosophical gambling strategy)",
+      "score": 0.5148624181747437
+    },
+    {
+      "id": "https://openalex.org/keywords/gaussian-noise",
+      "display_name": "Gaussian noise",
+      "score": 0.4648299217224121
+    },
+    {
+      "id": "https://openalex.org/keywords/central-limit-theorem",
+      "display_name": "Central limit theorem",
+      "score": 0.4366086721420288
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.38124793767929077
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.3591465950012207
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.32791292667388916
+    },
+    {
+      "id": "https://openalex.org/keywords/statistics",
+      "display_name": "Statistics",
+      "score": 0.3071737289428711
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.13739222288131714
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C53533937",
+      "wikidata": "https://www.wikidata.org/wiki/Q185020",
+      "display_name": "Histogram",
+      "level": 3,
+      "score": 0.59842449426651
+    },
+    {
+      "id": "https://openalex.org/C99498987",
+      "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+      "display_name": "Noise (video)",
+      "level": 3,
+      "score": 0.5931640267372131
+    },
+    {
+      "id": "https://openalex.org/C2779843651",
+      "wikidata": "https://www.wikidata.org/wiki/Q7390335",
+      "display_name": "SIGNAL (programming language)",
+      "level": 2,
+      "score": 0.5315513610839844
+    },
+    {
+      "id": "https://openalex.org/C2781181686",
+      "wikidata": "https://www.wikidata.org/wiki/Q4226068",
+      "display_name": "Coherence (philosophical gambling strategy)",
+      "level": 2,
+      "score": 0.5148624181747437
+    },
+    {
+      "id": "https://openalex.org/C4199805",
+      "wikidata": "https://www.wikidata.org/wiki/Q2725903",
+      "display_name": "Gaussian noise",
+      "level": 2,
+      "score": 0.4648299217224121
+    },
+    {
+      "id": "https://openalex.org/C166785042",
+      "wikidata": "https://www.wikidata.org/wiki/Q190391",
+      "display_name": "Central limit theorem",
+      "level": 2,
+      "score": 0.4366086721420288
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.38124793767929077
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.3591465950012207
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.32791292667388916
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.3071737289428711
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.13739222288131714
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C115961682",
+      "wikidata": "https://www.wikidata.org/wiki/Q860623",
+      "display_name": "Image (mathematics)",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1071/eg984263d",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1071/eg984263d",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S19171858",
+        "display_name": "Exploration Geophysics",
+        "issn_l": "0812-3985",
+        "issn": [
+          "0812-3985",
+          "1834-7533"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320547",
+        "host_organization_name": "Taylor & Francis",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320547",
+          "https://openalex.org/P4310320449"
+        ],
+        "host_organization_lineage_names": [
+          "Taylor & Francis",
+          "Informa"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Exploration Geophysics",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2798819106",
+    "https://openalex.org/W2897876927",
+    "https://openalex.org/W2107628111",
+    "https://openalex.org/W2394004323",
+    "https://openalex.org/W3092094169",
+    "https://openalex.org/W2398764543",
+    "https://openalex.org/W2027335291",
+    "https://openalex.org/W4210328553",
+    "https://openalex.org/W2189170925",
+    "https://openalex.org/W1980417906"
+  ],
+  "abstract_inverted_index": {
+    "A": [
+      0,
+      69,
+      248,
+      321
+    ],
+    "signal/noise": [
+      1
+    ],
+    "separation": [
+      2
+    ],
+    "must": [
+      3,
+      65
+    ],
+    "recognize": [
+      4
+    ],
+    "the": [
+      5,
+      36,
+      47,
+      59,
+      91,
+      105,
+      116,
+      123,
+      130,
+      141,
+      146,
+      156,
+      161,
+      178,
+      188,
+      208,
+      216,
+      219,
+      229,
+      302,
+      369,
+      375,
+      378,
+      397,
+      406
+    ],
+    "lateral": [
+      6
+    ],
+    "coherence": [
+      7,
+      32
+    ],
+    "of": [
+      8,
+      50,
+      81,
+      90,
+      95,
+      108,
+      118,
+      127,
+      133,
+      143,
+      148,
+      181,
+      211,
+      223,
+      242,
+      266,
+      294,
+      305,
+      356,
+      381,
+      389
+    ],
+    "geologic": [
+      9
+    ],
+    "events": [
+      10,
+      213,
+      331,
+      344
+    ],
+    "and": [
+      11,
+      84,
+      94,
+      111,
+      125,
+      137,
+      151,
+      185,
+      192,
+      203,
+      236,
+      401,
+      417
+    ],
+    "their": [
+      12
+    ],
+    "statistical": [
+      13,
+      48
+    ],
+    "predictability": [
+      14
+    ],
+    "before": [
+      15
+    ],
+    "extracting": [
+      16
+    ],
+    "those": [
+      17
+    ],
+    "components": [
+      18
+    ],
+    "most": [
+      19,
+      370,
+      398
+    ],
+    "useful": [
+      20
+    ],
+    "for": [
+      21,
+      160,
+      239
+    ],
+    "a": [
+      22,
+      240,
+      245,
+      262,
+      271,
+      295,
+      386,
+      421
+    ],
+    "particular": [
+      23
+    ],
+    "process,": [
+      24
+    ],
+    "such": [
+      25
+    ],
+    "as": [
+      26,
+      45
+    ],
+    "velocity": [
+      27,
+      159,
+      256,
+      346
+    ],
+    "analysis.": [
+      28
+    ],
+    "Events": [
+      29
+    ],
+    "with": [
+      30,
+      52,
+      197,
+      279,
+      318,
+      332
+    ],
+    "recognizable": [
+      31
+    ],
+    "we": [
+      33,
+      38,
+      195,
+      206,
+      274,
+      412
+    ],
+    "call": [
+      34
+    ],
+    "signal;": [
+      35
+    ],
+    "rest": [
+      37
+    ],
+    "term": [
+      39
+    ],
+    "noise.": [
+      40,
+      119,
+      193,
+      287,
+      357,
+      382
+    ],
+    "Let": [
+      41
+    ],
+    "us": [
+      42
+    ],
+    "define": [
+      43
+    ],
+    "‘focusing’": [
+      44
+    ],
+    "increasing": [
+      46
+    ],
+    "independence": [
+      49
+    ],
+    "samples": [
+      51,
+      128,
+      176,
+      376,
+      384
+    ],
+    "some": [
+      53
+    ],
+    "invertible,": [
+      54
+    ],
+    "linear": [
+      55,
+      268
+    ],
+    "transform": [
+      56
+    ],
+    "L.": [
+      57
+    ],
+    "By": [
+      58
+    ],
+    "central": [
+      60
+    ],
+    "limit": [
+      61
+    ],
+    "theorem,": [
+      62
+    ],
+    "focused": [
+      63,
+      201
+    ],
+    "signal": [
+      64,
+      110,
+      136,
+      278,
+      390
+    ],
+    "become": [
+      66,
+      352
+    ],
+    "more": [
+      67
+    ],
+    "non-Gaussian.": [
+      68
+    ],
+    "measure": [
+      70
+    ],
+    "F": [
+      71,
+      153,
+      227
+    ],
+    "defined": [
+      72
+    ],
+    "from": [
+      73,
+      78,
+      187,
+      283,
+      363,
+      405,
+      420
+    ],
+    "cross": [
+      74
+    ],
+    "entropy": [
+      75
+    ],
+    "measures": [
+      76,
+      86
+    ],
+    "non-Gaussianity": [
+      77
+    ],
+    "local": [
+      79,
+      310
+    ],
+    "histograms": [
+      80,
+      89
+    ],
+    "an": [
+      82
+    ],
+    "array,": [
+      83
+    ],
+    "thereby": [
+      85
+    ],
+    "focusing.": [
+      87
+    ],
+    "Local": [
+      88,
+      258
+    ],
+    "transformed": [
+      92,
+      109
+    ],
+    "data": [
+      93,
+      99,
+      243
+    ],
+    "transformed,": [
+      96
+    ],
+    "artificially": [
+      97
+    ],
+    "incoherent": [
+      98
+    ],
+    "provide": [
+      100
+    ],
+    "enough": [
+      101
+    ],
+    "information": [
+      102,
+      347
+    ],
+    "to": [
+      103,
+      168,
+      342
+    ],
+    "estimate": [
+      104,
+      117,
+      237
+    ],
+    "amplitude": [
+      106
+    ],
+    "distributions": [
+      107,
+      121
+    ],
+    "noise;": [
+      112
+    ],
+    "errors": [
+      113
+    ],
+    "only": [
+      114
+    ],
+    "increase": [
+      115
+    ],
+    "These": [
+      120
+    ],
+    "allow": [
+      122,
+      261
+    ],
+    "recognition": [
+      124
+    ],
+    "extraction": [
+      126,
+      265
+    ],
+    "containing": [
+      129,
+      177,
+      244,
+      345,
+      377,
+      385
+    ],
+    "highest": [
+      131,
+      179,
+      379
+    ],
+    "percentage": [
+      132,
+      380,
+      388
+    ],
+    "signal.": [
+      134
+    ],
+    "Estimating": [
+      135
+    ],
+    "noise": [
+      138,
+      362,
+      400,
+      419
+    ],
+    "iteratively": [
+      139
+    ],
+    "improves": [
+      140
+    ],
+    "extractions": [
+      142
+    ],
+    "each.": [
+      144
+    ],
+    "After": [
+      145
+    ],
+    "removal": [
+      147
+    ],
+    "bed": [
+      149
+    ],
+    "reflections": [
+      150,
+      317
+    ],
+    "noise,": [
+      152
+    ],
+    "will": [
+      154,
+      315
+    ],
+    "determine": [
+      155
+    ],
+    "best": [
+      157,
+      214,
+      230
+    ],
+    "migration": [
+      158,
+      293,
+      337
+    ],
+    "remaining": [
+      162
+    ],
+    "diffractions.": [
+      163
+    ],
+    "Slant": [
+      164
+    ],
+    "stacks": [
+      165,
+      260,
+      312
+    ],
+    "map": [
+      166
+    ],
+    "lines": [
+      167
+    ],
+    "points,": [
+      169
+    ],
+    "greatly": [
+      170
+    ],
+    "concentrating": [
+      171
+    ],
+    "continuous": [
+      172
+    ],
+    "reflections.": [
+      173
+    ],
+    "We": [
+      174,
+      232
+    ],
+    "extract": [
+      175,
+      200,
+      234,
+      276,
+      316,
+      343
+    ],
+    "concentration": [
+      180
+    ],
+    "this": [
+      182,
+      410
+    ],
+    "signal,": [
+      183,
+      372
+    ],
+    "invert,": [
+      184
+    ],
+    "subtract": [
+      186
+    ],
+    "data,": [
+      189
+    ],
+    "leaving": [
+      190
+    ],
+    "diffractions": [
+      191,
+      217,
+      225,
+      235
+    ],
+    "Next,": [
+      194
+    ],
+    "migrate": [
+      196
+    ],
+    "many": [
+      198
+    ],
+    "velocities,": [
+      199
+    ],
+    "events,": [
+      202
+    ],
+    "invert.": [
+      204
+    ],
+    "Then": [
+      205
+    ],
+    "find": [
+      207
+    ],
+    "least-squares": [
+      209,
+      251
+    ],
+    "sum": [
+      210
+    ],
+    "these": [
+      212,
+      224,
+      329
+    ],
+    "resembling": [
+      215
+    ],
+    "in": [
+      218
+    ],
+    "original": [
+      220,
+      407
+    ],
+    "data.": [
+      221,
+      408
+    ],
+    "Migration": [
+      222
+    ],
+    "maximizes": [
+      226
+    ],
+    "at": [
+      228
+    ],
+    "velocity.": [
+      231
+    ],
+    "successfully": [
+      233,
+      275,
+      413
+    ],
+    "velocities": [
+      238
+    ],
+    "window": [
+      241
+    ],
+    "growth": [
+      246
+    ],
+    "fault.": [
+      247
+    ],
+    "spatially": [
+      249,
+      254
+    ],
+    "variable": [
+      250,
+      255,
+      281
+    ],
+    "superposition": [
+      252
+    ],
+    "allows": [
+      253
+    ],
+    "estimates.": [
+      257
+    ],
+    "slant": [
+      259,
+      311
+    ],
+    "laterally": [
+      263
+    ],
+    "adaptable": [
+      264
+    ],
+    "locally": [
+      267
+    ],
+    "events.": [
+      269
+    ],
+    "For": [
+      270
+    ],
+    "stacked": [
+      272
+    ],
+    "section": [
+      273
+    ],
+    "weak": [
+      277
+    ],
+    "highly": [
+      280
+    ],
+    "coherency": [
+      282
+    ],
+    "behind": [
+      284
+    ],
+    "strong": [
+      285
+    ],
+    "Gaussian": [
+      286
+    ],
+    "Unlike": [
+      288
+    ],
+    "normal": [
+      289
+    ],
+    "moveout": [
+      290
+    ],
+    "(NMO),": [
+      291
+    ],
+    "wave-equation": [
+      292
+    ],
+    "few": [
+      296
+    ],
+    "common-midpoint": [
+      297
+    ],
+    "(CMP)": [
+      298
+    ],
+    "gathers": [
+      299,
+      365
+    ],
+    "can": [
+      300
+    ],
+    "image": [
+      301
+    ],
+    "skewed": [
+      303
+    ],
+    "hyperbolas": [
+      304
+    ],
+    "dipping": [
+      306,
+      330
+    ],
+    "reflectors": [
+      307
+    ],
+    "correctly.": [
+      308
+    ],
+    "Short": [
+      309
+    ],
+    "along": [
+      313
+    ],
+    "midpoint": [
+      314
+    ],
+    "different": [
+      319
+    ],
+    "dips.": [
+      320
+    ],
+    "simple": [
+      322
+    ],
+    "Stolt": [
+      323
+    ],
+    "(1978)": [
+      324
+    ],
+    "(f-k)": [
+      325
+    ],
+    "type": [
+      326
+    ],
+    "algorithm": [
+      327
+    ],
+    "migrates": [
+      328
+    ],
+    "appropriate": [
+      333
+    ],
+    "dispersion": [
+      334
+    ],
+    "relations.": [
+      335
+    ],
+    "This": [
+      336
+    ],
+    "may": [
+      338,
+      359,
+      391,
+      402
+    ],
+    "then": [
+      339,
+      373
+    ],
+    "be": [
+      340,
+      392,
+      403
+    ],
+    "used": [
+      341
+    ],
+    "over": [
+      348
+    ],
+    "offset.": [
+      349
+    ],
+    "Offset": [
+      350
+    ],
+    "truncations": [
+      351
+    ],
+    "another": [
+      353
+    ],
+    "removable": [
+      354
+    ],
+    "form": [
+      355
+    ],
+    "One": [
+      358
+    ],
+    "remove": [
+      360,
+      414
+    ],
+    "non-Gaussian": [
+      361
+    ],
+    "shot": [
+      364,
+      422
+    ],
+    "by": [
+      366
+    ],
+    "first": [
+      367
+    ],
+    "removing": [
+      368
+    ],
+    "identifiable": [
+      371,
+      399
+    ],
+    "estimating": [
+      374
+    ],
+    "Those": [
+      383
+    ],
+    "significant": [
+      387
+    ],
+    "zeroed;": [
+      393
+    ],
+    "what": [
+      394
+    ],
+    "remains": [
+      395
+    ],
+    "represents": [
+      396
+    ],
+    "subtracted": [
+      404
+    ],
+    "With": [
+      409
+    ],
+    "procedure": [
+      411
+    ],
+    "ground": [
+      415
+    ],
+    "roll": [
+      416
+    ],
+    "other": [
+      418
+    ],
+    "(field)": [
+      423
+    ],
+    "gather.": [
+      424
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 6
+    }
+  ],
+  "updated_date": "2026-08-15T07:11:24.734988",
+  "created_date": "2025-10-10T00:00:00"
+}

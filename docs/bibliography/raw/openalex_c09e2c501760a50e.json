@@ -1,0 +1,675 @@
+{
+  "id": "https://openalex.org/W1524761913",
+  "doi": null,
+  "title": "The Case against Accuracy Estimation for Comparing Induction Algorithms",
+  "display_name": "The Case against Accuracy Estimation for Comparing Induction Algorithms",
+  "publication_year": 1998,
+  "publication_date": "1998-07-24",
+  "ids": {
+    "openalex": "https://openalex.org/W1524761913",
+    "mag": "1524761913"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "pmh:oai:CiteSeerX.psu:10.1.1.21.805",
+    "is_oa": false,
+    "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.21.805",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "http://www.cs.wisc.edu/~shavlik/roc.pdf",
+    "raw_type": "text"
+  },
+  "type": "article",
+  "indexed_in": [],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5037283651",
+        "display_name": "Foster John Provost",
+        "orcid": "https://orcid.org/0000-0002-0307-3884",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-0307-3884"
+        ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Foster Provost",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5039764415",
+        "display_name": "Tom E. Fawcett",
+        "orcid": "https://orcid.org/0000-0002-9074-7516",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9074-7516",
+          "https://orcid.org/0000-0002-1057-0723"
+        ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Tom Fawcett",
+      "raw_affiliation_strings": [],
+      "raw_orcid": "https://orcid.org/0000-0002-9074-7516",
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5037339239",
+        "display_name": "Ron Kohavi",
+        "orcid": "https://orcid.org/0000-0003-1623-4963",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-1623-4963"
+        ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Ron Kohavi",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 18.8291,
+  "has_fulltext": false,
+  "cited_by_count": 1024,
+  "citation_normalized_percentile": {
+    "value": 0.99345681,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "445",
+    "last_page": "453"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10320",
+    "display_name": "Neural Networks and Applications",
+    "score": 0.9962000250816345,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10320",
+      "display_name": "Neural Networks and Applications",
+      "score": 0.9962000250816345,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12564",
+      "display_name": "Sensor Technology and Measurement Systems",
+      "score": 0.9768999814987183,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12549",
+      "display_name": "Image and Object Detection Techniques",
+      "score": 0.9434000253677368,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.5804632902145386
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.5738101601600647
+    },
+    {
+      "id": "https://openalex.org/keywords/estimation",
+      "display_name": "Estimation",
+      "score": 0.5117616653442383
+    },
+    {
+      "id": "https://openalex.org/keywords/engineering",
+      "display_name": "Engineering",
+      "score": 0.10854500532150269
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.5804632902145386
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.5738101601600647
+    },
+    {
+      "id": "https://openalex.org/C96250715",
+      "wikidata": "https://www.wikidata.org/wiki/Q965330",
+      "display_name": "Estimation",
+      "level": 2,
+      "score": 0.5117616653442383
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.10854500532150269
+    },
+    {
+      "id": "https://openalex.org/C201995342",
+      "wikidata": "https://www.wikidata.org/wiki/Q682496",
+      "display_name": "Systems engineering",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 4,
+  "locations": [
+    {
+      "id": "pmh:oai:CiteSeerX.psu:10.1.1.21.805",
+      "is_oa": false,
+      "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.21.805",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "http://www.cs.wisc.edu/~shavlik/roc.pdf",
+      "raw_type": "text"
+    },
+    {
+      "id": "pmh:oai:CiteSeerX.psu:10.1.1.35.2423",
+      "is_oa": false,
+      "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.35.2423",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "http://www.hpl.hp.com/personal/Tom_Fawcett/papers/ICML98-final.ps.gz",
+      "raw_type": "text"
+    },
+    {
+      "id": "pmh:oai:CiteSeerX.psu:10.1.1.49.5218",
+      "is_oa": false,
+      "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.49.5218",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "http://robotics.stanford.edu/~ronnyk/roc.ps.gz",
+      "raw_type": "text"
+    },
+    {
+      "id": "mag:1524761913",
+      "is_oa": false,
+      "landing_page_url": "http://dblp.uni-trier.de/db/conf/icml/icml1998.html#ProvostFK98",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306419644",
+        "display_name": "International Conference on Machine Learning",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "conference"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": null,
+      "raw_source_name": "International Conference on Machine Learning",
+      "raw_type": null
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "score": 0.5799999833106995,
+      "display_name": "Gender equality",
+      "id": "https://metadata.un.org/sdg/5"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 2,
+  "referenced_works": [
+    "https://openalex.org/W1990748933",
+    "https://openalex.org/W2912934387"
+  ],
+  "related_works": [
+    "https://openalex.org/W3085162807",
+    "https://openalex.org/W2966207845",
+    "https://openalex.org/W2912934387",
+    "https://openalex.org/W2911964244",
+    "https://openalex.org/W2170913656",
+    "https://openalex.org/W2158698691",
+    "https://openalex.org/W2157825442",
+    "https://openalex.org/W2156909104",
+    "https://openalex.org/W2155653793",
+    "https://openalex.org/W2149706766",
+    "https://openalex.org/W2148143831",
+    "https://openalex.org/W2125055259",
+    "https://openalex.org/W2096942889",
+    "https://openalex.org/W2084812512",
+    "https://openalex.org/W1976526581",
+    "https://openalex.org/W1912982817",
+    "https://openalex.org/W1680392829",
+    "https://openalex.org/W167016754",
+    "https://openalex.org/W1570448133",
+    "https://openalex.org/W1565746575"
+  ],
+  "abstract_inverted_index": {
+    "We": [
+      0,
+      84
+    ],
+    "analyze": [
+      1
+    ],
+    "critically": [
+      2
+    ],
+    "the": [
+      3,
+      37,
+      47,
+      57,
+      60,
+      71
+    ],
+    "use": [
+      4,
+      38,
+      73
+    ],
+    "of": [
+      5,
+      39,
+      59,
+      74
+    ],
+    "classification": [
+      6
+    ],
+    "accuracy": [
+      7,
+      40
+    ],
+    "to": [
+      8,
+      69
+    ],
+    "compare": [
+      9
+    ],
+    "classifiers": [
+      10,
+      43
+    ],
+    "on": [
+      11
+    ],
+    "natural": [
+      12
+    ],
+    "data": [
+      13,
+      29
+    ],
+    "sets,": [
+      14
+    ],
+    "providing": [
+      15
+    ],
+    "a": [
+      16
+    ],
+    "thorough": [
+      17
+    ],
+    "investigation": [
+      18
+    ],
+    "using": [
+      19
+    ],
+    "ROC": [
+      20,
+      75
+    ],
+    "analysis,": [
+      21
+    ],
+    "standard": [
+      22,
+      27
+    ],
+    "machine": [
+      23,
+      81
+    ],
+    "learning": [
+      24,
+      82
+    ],
+    "algorithms,": [
+      25
+    ],
+    "and": [
+      26,
+      44,
+      64,
+      96
+    ],
+    "benchmark": [
+      28
+    ],
+    "sets.": [
+      30
+    ],
+    "The": [
+      31
+    ],
+    "results": [
+      32
+    ],
+    "raise": [
+      33
+    ],
+    "serious": [
+      34
+    ],
+    "concerns": [
+      35
+    ],
+    "about": [
+      36
+    ],
+    "for": [
+      41,
+      77,
+      92,
+      97
+    ],
+    "comparing": [
+      42
+    ],
+    "drawinto": [
+      45
+    ],
+    "question": [
+      46
+    ],
+    "conclusions": [
+      48
+    ],
+    "that": [
+      49,
+      86
+    ],
+    "can": [
+      50
+    ],
+    "be": [
+      51,
+      70
+    ],
+    "drawn": [
+      52
+    ],
+    "from": [
+      53
+    ],
+    "such": [
+      54
+    ],
+    "studies.": [
+      55
+    ],
+    "In": [
+      56
+    ],
+    "course": [
+      58
+    ],
+    "presentation,": [
+      61
+    ],
+    "we": [
+      62,
+      67
+    ],
+    "describe": [
+      63
+    ],
+    "demonstrate": [
+      65
+    ],
+    "what": [
+      66
+    ],
+    "believe": [
+      68
+    ],
+    "proper": [
+      72
+    ],
+    "analysis": [
+      76
+    ],
+    "comparative": [
+      78
+    ],
+    "studies": [
+      79
+    ],
+    "in": [
+      80
+    ],
+    "research.": [
+      83
+    ],
+    "argue": [
+      85
+    ],
+    "this": [
+      87
+    ],
+    "methodology": [
+      88
+    ],
+    "is": [
+      89
+    ],
+    "preferable": [
+      90
+    ],
+    "both": [
+      91
+    ],
+    "making": [
+      93
+    ],
+    "practical": [
+      94
+    ],
+    "choices": [
+      95
+    ],
+    "drawing": [
+      98
+    ],
+    "scientific": [
+      99
+    ],
+    "conclusions.": [
+      100
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 26
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 45
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 45
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 37
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 39
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 47
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 49
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 47
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 46
+    }
+  ],
+  "updated_date": "2026-09-24T07:57:37.273135",
+  "created_date": "2025-10-10T00:00:00"
+}

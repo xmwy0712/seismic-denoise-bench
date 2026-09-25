@@ -1,0 +1,838 @@
+{
+  "id": "https://openalex.org/W1977424965",
+  "doi": "https://doi.org/10.1190/1.1438694",
+  "title": "New directions in fracture characterization",
+  "display_name": "New directions in fracture characterization",
+  "publication_year": 2000,
+  "publication_date": "2000-07-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1977424965",
+    "doi": "https://doi.org/10.1190/1.1438694",
+    "mag": "1977424965"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.1438694",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.1438694",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4210172657",
+      "display_name": "The Leading Edge",
+      "issn_l": "1070-485X",
+      "issn": [
+        "1070-485X",
+        "1938-3789"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "The Leading Edge",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5109054207",
+        "display_name": "Steve E. Laubach",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Steve Laubach",
+      "raw_affiliation_strings": [
+        "The University of Texas at Austin 1 , U.S",
+        "The University of Texas at Austin, U.S"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The University of Texas at Austin 1 , U.S",
+          "institution_ids": [
+            "https://openalex.org/I86519309"
+          ]
+        },
+        {
+          "raw_affiliation_string": "The University of Texas at Austin, U.S",
+          "institution_ids": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Randy Marrett",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Randy Marrett",
+      "raw_affiliation_strings": [
+        "The University of Texas at Austin 1 , U.S",
+        "The University of Texas at Austin, U.S"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The University of Texas at Austin 1 , U.S",
+          "institution_ids": [
+            "https://openalex.org/I86519309"
+          ]
+        },
+        {
+          "raw_affiliation_string": "The University of Texas at Austin, U.S",
+          "institution_ids": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5103095125",
+        "display_name": "Jon E. Olson",
+        "orcid": "https://orcid.org/0000-0003-2498-3956",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-2498-3956"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jon Olson",
+      "raw_affiliation_strings": [
+        "The University of Texas at Austin 1 , U.S",
+        "The University of Texas at Austin, U.S"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The University of Texas at Austin 1 , U.S",
+          "institution_ids": [
+            "https://openalex.org/I86519309"
+          ]
+        },
+        {
+          "raw_affiliation_string": "The University of Texas at Austin, U.S",
+          "institution_ids": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I86519309"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 9.5999,
+  "has_fulltext": false,
+  "cited_by_count": 62,
+  "citation_normalized_percentile": {
+    "value": 0.97603418,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "19",
+    "issue": "7",
+    "first_page": "704",
+    "last_page": "711"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10892",
+    "display_name": "Drilling and Well Engineering",
+    "score": 0.9983999729156494,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2212",
+      "display_name": "Ocean Engineering"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10892",
+      "display_name": "Drilling and Well Engineering",
+      "score": 0.9983999729156494,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.9937000274658203,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13050",
+      "display_name": "Oil and Gas Production Techniques",
+      "score": 0.9832000136375427,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/characterization",
+      "display_name": "Characterization (materials science)",
+      "score": 0.7092406153678894
+    },
+    {
+      "id": "https://openalex.org/keywords/fracture",
+      "display_name": "Fracture (geology)",
+      "score": 0.6057088375091553
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.4350331425666809
+    },
+    {
+      "id": "https://openalex.org/keywords/materials-science",
+      "display_name": "Materials science",
+      "score": 0.299185186624527
+    },
+    {
+      "id": "https://openalex.org/keywords/geotechnical-engineering",
+      "display_name": "Geotechnical engineering",
+      "score": 0.17439544200897217
+    },
+    {
+      "id": "https://openalex.org/keywords/nanotechnology",
+      "display_name": "Nanotechnology",
+      "score": 0.17263326048851013
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2780841128",
+      "wikidata": "https://www.wikidata.org/wiki/Q5073781",
+      "display_name": "Characterization (materials science)",
+      "level": 2,
+      "score": 0.7092406153678894
+    },
+    {
+      "id": "https://openalex.org/C43369102",
+      "wikidata": "https://www.wikidata.org/wiki/Q2307625",
+      "display_name": "Fracture (geology)",
+      "level": 2,
+      "score": 0.6057088375091553
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.4350331425666809
+    },
+    {
+      "id": "https://openalex.org/C192562407",
+      "wikidata": "https://www.wikidata.org/wiki/Q228736",
+      "display_name": "Materials science",
+      "level": 0,
+      "score": 0.299185186624527
+    },
+    {
+      "id": "https://openalex.org/C187320778",
+      "wikidata": "https://www.wikidata.org/wiki/Q1349130",
+      "display_name": "Geotechnical engineering",
+      "level": 1,
+      "score": 0.17439544200897217
+    },
+    {
+      "id": "https://openalex.org/C171250308",
+      "wikidata": "https://www.wikidata.org/wiki/Q11468",
+      "display_name": "Nanotechnology",
+      "level": 1,
+      "score": 0.17263326048851013
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.1438694",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.1438694",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210172657",
+        "display_name": "The Leading Edge",
+        "issn_l": "1070-485X",
+        "issn": [
+          "1070-485X",
+          "1938-3789"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The Leading Edge",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W4247143848",
+    "https://openalex.org/W2324615561",
+    "https://openalex.org/W2009883749",
+    "https://openalex.org/W1826322987",
+    "https://openalex.org/W1571541012",
+    "https://openalex.org/W2007713623",
+    "https://openalex.org/W2020485733",
+    "https://openalex.org/W2038516833",
+    "https://openalex.org/W1976082800",
+    "https://openalex.org/W1496480205"
+  ],
+  "abstract_inverted_index": {
+    "Using": [
+      0
+    ],
+    "rotary": [
+      1
+    ],
+    "sidewalls": [
+      2
+    ],
+    "cores": [
+      3,
+      117
+    ],
+    "from": [
+      4,
+      77
+    ],
+    "a": [
+      5,
+      11,
+      71
+    ],
+    "deep": [
+      6
+    ],
+    "natural": [
+      7,
+      17,
+      82,
+      98
+    ],
+    "gas": [
+      8
+    ],
+    "exploration": [
+      9
+    ],
+    "well,": [
+      10
+    ],
+    "small": [
+      12
+    ],
+    "E&P": [
+      13
+    ],
+    "company": [
+      14
+    ],
+    "recently": [
+      15
+    ],
+    "measured": [
+      16
+    ],
+    "fracture": [
+      18,
+      35,
+      44,
+      56,
+      99,
+      134
+    ],
+    "intensity,": [
+      19
+    ],
+    "orientation,": [
+      20
+    ],
+    "and": [
+      21,
+      37
+    ],
+    "openness": [
+      22
+    ],
+    "in": [
+      23,
+      101,
+      132
+    ],
+    "four": [
+      24,
+      103
+    ],
+    "separate": [
+      25
+    ],
+    "potential": [
+      26,
+      104
+    ],
+    "target": [
+      27
+    ],
+    "horizons.": [
+      28
+    ],
+    "Results": [
+      29
+    ],
+    "pin-pointed": [
+      30
+    ],
+    "one": [
+      31
+    ],
+    "zone": [
+      32,
+      41
+    ],
+    "having": [
+      33,
+      49
+    ],
+    "high": [
+      34
+    ],
+    "intensity": [
+      36,
+      45
+    ],
+    "open": [
+      38
+    ],
+    "fractures.": [
+      39,
+      51,
+      115
+    ],
+    "Another": [
+      40
+    ],
+    "with": [
+      42,
+      53
+    ],
+    "similar": [
+      43
+    ],
+    "was": [
+      46
+    ],
+    "identified": [
+      47
+    ],
+    "as": [
+      48
+    ],
+    "closed": [
+      50
+    ],
+    "Along": [
+      52
+    ],
+    "information": [
+      54,
+      96
+    ],
+    "on": [
+      55,
+      97
+    ],
+    "strike,": [
+      57
+    ],
+    "results": [
+      58
+    ],
+    "were": [
+      59,
+      128
+    ],
+    "used": [
+      60,
+      131
+    ],
+    "to": [
+      61,
+      86,
+      122
+    ],
+    "evaluate": [
+      62
+    ],
+    "the": [
+      63,
+      67,
+      78,
+      102,
+      123,
+      129,
+      133
+    ],
+    "risk": [
+      64
+    ],
+    "of": [
+      65
+    ],
+    "stimulating": [
+      66
+    ],
+    "well": [
+      68,
+      91,
+      110
+    ],
+    "versus": [
+      69
+    ],
+    "drilling": [
+      70
+    ],
+    "horizontal": [
+      72
+    ],
+    "lateral.": [
+      73
+    ],
+    "Historical": [
+      74
+    ],
+    "production": [
+      75
+    ],
+    "data": [
+      76
+    ],
+    "play": [
+      79
+    ],
+    "suggest": [
+      80
+    ],
+    "that": [
+      81
+    ],
+    "fractures": [
+      83,
+      120
+    ],
+    "are": [
+      84
+    ],
+    "key": [
+      85
+    ],
+    "outstanding": [
+      87
+    ],
+    "production,": [
+      88
+    ],
+    "yet": [
+      89
+    ],
+    "conventional": [
+      90
+    ],
+    "logs": [
+      92
+    ],
+    "provided": [
+      93
+    ],
+    "little": [
+      94
+    ],
+    "usable": [
+      95
+    ],
+    "attributes": [
+      100
+    ],
+    "completion": [
+      105
+    ],
+    "targets.": [
+      106
+    ],
+    "Why?": [
+      107
+    ],
+    "The": [
+      108
+    ],
+    "vertical": [
+      109
+    ],
+    "did": [
+      111
+    ],
+    "not": [
+      112
+    ],
+    "intersect": [
+      113
+    ],
+    "visible": [
+      114,
+      121
+    ],
+    "Sidewall": [
+      116
+    ],
+    "also": [
+      118
+    ],
+    "lack": [
+      119
+    ],
+    "unaided": [
+      124
+    ],
+    "eye.": [
+      125
+    ],
+    "So": [
+      126
+    ],
+    "how": [
+      127
+    ],
+    "measurements": [
+      130
+    ],
+    "evaluation": [
+      135
+    ],
+    "obtained?": [
+      136
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,923 @@
+{
+  "id": "https://openalex.org/W1966786488",
+  "doi": "https://doi.org/10.1111/j.1365-246x.1988.tb00475.x",
+  "title": "Maximum Kurtosis Phase Correction",
+  "display_name": "Maximum Kurtosis Phase Correction",
+  "publication_year": 1988,
+  "publication_date": "1988-11-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1966786488",
+    "doi": "https://doi.org/10.1111/j.1365-246x.1988.tb00475.x",
+    "mag": "1966786488"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1111/j.1365-246x.1988.tb00475.x",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1111/j.1365-246x.1988.tb00475.x",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S108821158",
+      "display_name": "Geophysical Journal International",
+      "issn_l": "0956-540X",
+      "issn": [
+        "0956-540X",
+        "1365-246X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "jufo-1",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311648",
+        "https://openalex.org/P4310311647"
+      ],
+      "host_organization_lineage_names": [
+        "Oxford University Press",
+        "University of Oxford"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysical Journal International",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "doaj"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5101951496",
+        "display_name": "Ruth E. White",
+        "orcid": "https://orcid.org/0000-0003-2857-6864",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-2857-6864"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I20303223",
+          "display_name": "BP (United Kingdom)",
+          "ror": "https://ror.org/01zctcs90",
+          "country_code": "GB",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I20303223"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "R. E. White",
+      "raw_affiliation_strings": [
+        "BP Exploration, Moor Lane, London EC2Y 9BU, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "BP Exploration, Moor Lane, London EC2Y 9BU, UK",
+          "institution_ids": [
+            "https://openalex.org/I20303223"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5101951496"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I20303223"
+  ],
+  "apc_list": {
+    "value": 2590,
+    "currency": "GBP",
+    "value_usd": 3416
+  },
+  "apc_paid": null,
+  "fwci": 0.592,
+  "has_fulltext": false,
+  "cited_by_count": 66,
+  "citation_normalized_percentile": {
+    "value": 0.62405727,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "95",
+    "issue": "2",
+    "first_page": "371",
+    "last_page": "389"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9998000264167786,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11801",
+      "display_name": "Reservoir Engineering and Simulation Methods",
+      "score": 0.9983999729156494,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.9980999827384949,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/kurtosis",
+      "display_name": "Kurtosis",
+      "score": 0.9224292039871216
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.5153529047966003
+    },
+    {
+      "id": "https://openalex.org/keywords/phase",
+      "display_name": "Phase (matter)",
+      "score": 0.4720778465270996
+    },
+    {
+      "id": "https://openalex.org/keywords/geodesy",
+      "display_name": "Geodesy",
+      "score": 0.355366051197052
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.26511818170547485
+    },
+    {
+      "id": "https://openalex.org/keywords/statistics",
+      "display_name": "Statistics",
+      "score": 0.24937334656715393
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.15998435020446777
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C166963901",
+      "wikidata": "https://www.wikidata.org/wiki/Q287251",
+      "display_name": "Kurtosis",
+      "level": 2,
+      "score": 0.9224292039871216
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.5153529047966003
+    },
+    {
+      "id": "https://openalex.org/C44280652",
+      "wikidata": "https://www.wikidata.org/wiki/Q104837",
+      "display_name": "Phase (matter)",
+      "level": 2,
+      "score": 0.4720778465270996
+    },
+    {
+      "id": "https://openalex.org/C13280743",
+      "wikidata": "https://www.wikidata.org/wiki/Q131089",
+      "display_name": "Geodesy",
+      "level": 1,
+      "score": 0.355366051197052
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.26511818170547485
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.24937334656715393
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.15998435020446777
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1111/j.1365-246x.1988.tb00475.x",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1111/j.1365-246x.1988.tb00475.x",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S108821158",
+        "display_name": "Geophysical Journal International",
+        "issn_l": "0956-540X",
+        "issn": [
+          "0956-540X",
+          "1365-246X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "jufo-1",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311648",
+          "https://openalex.org/P4310311647"
+        ],
+        "host_organization_lineage_names": [
+          "Oxford University Press",
+          "University of Oxford"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysical Journal International",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:CiteSeerX.psu:10.1.1.886.7339",
+      "is_oa": false,
+      "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.886.7339",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "http://gji.oxfordjournals.org/content/95/2/371.full.pdf",
+      "raw_type": "text"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 15,
+  "referenced_works": [
+    "https://openalex.org/W1965726330",
+    "https://openalex.org/W1968484311",
+    "https://openalex.org/W1993232435",
+    "https://openalex.org/W1998209918",
+    "https://openalex.org/W2014084343",
+    "https://openalex.org/W2019024593",
+    "https://openalex.org/W2087818283",
+    "https://openalex.org/W2112072801",
+    "https://openalex.org/W2120481373",
+    "https://openalex.org/W2142215328",
+    "https://openalex.org/W2149604278",
+    "https://openalex.org/W2156273867",
+    "https://openalex.org/W2157522867",
+    "https://openalex.org/W2393675882",
+    "https://openalex.org/W2777019853"
+  ],
+  "related_works": [
+    "https://openalex.org/W4381516319",
+    "https://openalex.org/W1506384729",
+    "https://openalex.org/W2037499216",
+    "https://openalex.org/W4225568567",
+    "https://openalex.org/W4286378979",
+    "https://openalex.org/W2075698830",
+    "https://openalex.org/W3127045225",
+    "https://openalex.org/W3216026256",
+    "https://openalex.org/W2059891554",
+    "https://openalex.org/W4235233670"
+  ],
+  "abstract_inverted_index": {
+    "Seismic": [
+      0
+    ],
+    "reflectivity": [
+      1
+    ],
+    "sequences": [
+      2
+    ],
+    "have": [
+      3
+    ],
+    "amplitude": [
+      4
+    ],
+    "distributions": [
+      5
+    ],
+    "that": [
+      6,
+      9,
+      40,
+      122
+    ],
+    "are": [
+      7,
+      12
+    ],
+    "leptokurtic,": [
+      8
+    ],
+    "is,": [
+      10
+    ],
+    "they": [
+      11
+    ],
+    "more": [
+      13
+    ],
+    "heavy-tailed": [
+      14
+    ],
+    "than": [
+      15
+    ],
+    "a": [
+      16,
+      25,
+      80,
+      107
+    ],
+    "Gaussian": [
+      17
+    ],
+    "distribution.": [
+      18
+    ],
+    "This": [
+      19
+    ],
+    "property": [
+      20,
+      74
+    ],
+    "forms": [
+      21
+    ],
+    "the": [
+      22,
+      42,
+      72,
+      118,
+      124,
+      127,
+      135,
+      142,
+      146,
+      164,
+      170
+    ],
+    "basis": [
+      23
+    ],
+    "of": [
+      24,
+      27,
+      45,
+      63,
+      75,
+      126,
+      139
+    ],
+    "method": [
+      26,
+      51,
+      111
+    ],
+    "phase": [
+      28,
+      37,
+      91,
+      120,
+      177
+    ],
+    "adjustment": [
+      29
+    ],
+    "for": [
+      30,
+      88,
+      182
+    ],
+    "seismic": [
+      31,
+      48,
+      76,
+      128
+    ],
+    "reflection": [
+      32
+    ],
+    "data,": [
+      33
+    ],
+    "called": [
+      34
+    ],
+    "maximum": [
+      35
+    ],
+    "kurtosis": [
+      36,
+      125
+    ],
+    "correction": [
+      38,
+      181
+    ],
+    "(MKPC),": [
+      39
+    ],
+    "maximizes": [
+      41,
+      123
+    ],
+    "‘stand-out": [
+      43
+    ],
+    "’": [
+      44
+    ],
+    "events": [
+      46
+    ],
+    "on": [
+      47
+    ],
+    "sections.": [
+      49
+    ],
+    "The": [
+      50,
+      86,
+      110
+    ],
+    "is": [
+      52,
+      79,
+      179
+    ],
+    "normally": [
+      53
+    ],
+    "applied": [
+      54
+    ],
+    "after": [
+      55
+    ],
+    "standard": [
+      56
+    ],
+    "deconvolution": [
+      57,
+      66,
+      173
+    ],
+    "and": [
+      58,
+      83,
+      154
+    ],
+    "stacking": [
+      59
+    ],
+    "and,": [
+      60,
+      97,
+      186
+    ],
+    "unlike": [
+      61
+    ],
+    "methods": [
+      62,
+      159
+    ],
+    "minimum": [
+      64
+    ],
+    "entropy": [
+      65
+    ],
+    "(MED)": [
+      67
+    ],
+    "which": [
+      68
+    ],
+    "attempt": [
+      69
+    ],
+    "to": [
+      70,
+      144,
+      150
+    ],
+    "employ": [
+      71
+    ],
+    "same": [
+      73
+    ],
+    "reflectivities,": [
+      77
+    ],
+    "it": [
+      78,
+      133
+    ],
+    "thoroughly": [
+      81
+    ],
+    "predictable": [
+      82
+    ],
+    "testable": [
+      84
+    ],
+    "process.": [
+      85
+    ],
+    "requirements": [
+      87
+    ],
+    "estimating": [
+      89
+    ],
+    "stable": [
+      90,
+      188
+    ],
+    "corrections": [
+      92
+    ],
+    "can": [
+      93
+    ],
+    "be": [
+      94
+    ],
+    "stated": [
+      95
+    ],
+    "explicitly": [
+      96
+    ],
+    "moreover,": [
+      98
+    ],
+    "these": [
+      99
+    ],
+    "show": [
+      100
+    ],
+    "exactly": [
+      101
+    ],
+    "why": [
+      102
+    ],
+    "MED": [
+      103,
+      158
+    ],
+    "has": [
+      104
+    ],
+    "never": [
+      105
+    ],
+    "been": [
+      106
+    ],
+    "practical": [
+      108
+    ],
+    "success.": [
+      109
+    ],
+    "simply": [
+      112
+    ],
+    "determines,": [
+      113
+    ],
+    "in": [
+      114
+    ],
+    "an": [
+      115
+    ],
+    "efficient": [
+      116
+    ],
+    "way,": [
+      117
+    ],
+    "frequency-independent": [
+      119
+    ],
+    "shift": [
+      121,
+      178
+    ],
+    "data.": [
+      129
+    ],
+    "In": [
+      130
+    ],
+    "so": [
+      131
+    ],
+    "doing": [
+      132
+    ],
+    "realizes": [
+      134
+    ],
+    "true": [
+      136
+    ],
+    "potential": [
+      137
+    ],
+    "advantage": [
+      138,
+      162
+    ],
+    "MED-type": [
+      140
+    ],
+    "methods,": [
+      141
+    ],
+    "ability": [
+      143
+    ],
+    "tune": [
+      145
+    ],
+    "phase,": [
+      147
+    ],
+    "without": [
+      148
+    ],
+    "attempting": [
+      149
+    ],
+    "control": [
+      151
+    ],
+    "signal": [
+      152
+    ],
+    "whitening": [
+      153
+    ],
+    "noise": [
+      155
+    ],
+    "amplification,": [
+      156
+    ],
+    "where": [
+      157
+    ],
+    "offer": [
+      160
+    ],
+    "no": [
+      161
+    ],
+    "over": [
+      163
+    ],
+    "near-optimum": [
+      165
+    ],
+    "balance": [
+      166
+    ],
+    "already": [
+      167
+    ],
+    "achievable": [
+      168
+    ],
+    "from": [
+      169
+    ],
+    "usual": [
+      171
+    ],
+    "well-tried": [
+      172
+    ],
+    "tests.": [
+      174
+    ],
+    "A": [
+      175
+    ],
+    "constant": [
+      176
+    ],
+    "sufficient": [
+      180
+    ],
+    "most": [
+      183
+    ],
+    "post-stack": [
+      184
+    ],
+    "processing": [
+      185
+    ],
+    "although": [
+      187
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 6
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

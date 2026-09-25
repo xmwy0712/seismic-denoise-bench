@@ -1,0 +1,982 @@
+{
+  "id": "https://openalex.org/W2080802633",
+  "doi": "https://doi.org/10.1111/j.1467-9892.1982.tb00339.x",
+  "title": "TESTING FOR GAUSSIANITY AND LINEARITY OF A STATIONARY TIME SERIES",
+  "display_name": "TESTING FOR GAUSSIANITY AND LINEARITY OF A STATIONARY TIME SERIES",
+  "publication_year": 1982,
+  "publication_date": "1982-05-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2080802633",
+    "doi": "https://doi.org/10.1111/j.1467-9892.1982.tb00339.x",
+    "mag": "2080802633"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1111/j.1467-9892.1982.tb00339.x",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1111/j.1467-9892.1982.tb00339.x",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S206595242",
+      "display_name": "Journal of Time Series Analysis",
+      "issn_l": "0143-9782",
+      "issn": [
+        "0143-9782",
+        "1467-9892"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Time Series Analysis",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5111767972",
+        "display_name": "Melvin J. Hinich",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I859038795",
+          "display_name": "Virginia Tech",
+          "ror": "https://ror.org/02smfhw86",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I859038795"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Melvin J. Hinich",
+      "raw_affiliation_strings": [
+        "Virginia Polytechnic Institute, Blacksburg",
+        "Virginia Polytechnic Institute; Blacksburg"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Virginia Polytechnic Institute, Blacksburg",
+          "institution_ids": [
+            "https://openalex.org/I859038795"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Virginia Polytechnic Institute; Blacksburg",
+          "institution_ids": [
+            "https://openalex.org/I859038795"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5111767972"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I859038795"
+  ],
+  "apc_list": {
+    "value": 3510,
+    "currency": "USD",
+    "value_usd": 3510
+  },
+  "apc_paid": null,
+  "fwci": 1.8019,
+  "has_fulltext": false,
+  "cited_by_count": 788,
+  "citation_normalized_percentile": {
+    "value": 0.83419074,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 95,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "3",
+    "issue": "3",
+    "first_page": "169",
+    "last_page": "176"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10640",
+    "display_name": "Spectroscopy and Chemometric Analyses",
+    "score": 0.9401000142097473,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1602",
+      "display_name": "Analytical Chemistry"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/16",
+      "display_name": "Chemistry"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10640",
+      "display_name": "Spectroscopy and Chemometric Analyses",
+      "score": 0.9401000142097473,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1602",
+        "display_name": "Analytical Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10876",
+      "display_name": "Fault Detection and Control Systems",
+      "score": 0.904699981212616,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11270",
+      "display_name": "Complex Systems and Time Series Analysis",
+      "score": 0.9042999744415283,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2002",
+        "display_name": "Economics and Econometrics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/20",
+        "display_name": "Economics, Econometrics and Finance"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/bispectrum",
+      "display_name": "Bispectrum",
+      "score": 0.9426256418228149
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.8541954755783081
+    },
+    {
+      "id": "https://openalex.org/keywords/autoregressive-model",
+      "display_name": "Autoregressive model",
+      "score": 0.7047516107559204
+    },
+    {
+      "id": "https://openalex.org/keywords/test-statistic",
+      "display_name": "Test statistic",
+      "score": 0.6016632318496704
+    },
+    {
+      "id": "https://openalex.org/keywords/estimator",
+      "display_name": "Estimator",
+      "score": 0.599200963973999
+    },
+    {
+      "id": "https://openalex.org/keywords/series",
+      "display_name": "Series (stratigraphy)",
+      "score": 0.568195641040802
+    },
+    {
+      "id": "https://openalex.org/keywords/statistics",
+      "display_name": "Statistics",
+      "score": 0.5013468265533447
+    },
+    {
+      "id": "https://openalex.org/keywords/gaussian",
+      "display_name": "Gaussian",
+      "score": 0.49166613817214966
+    },
+    {
+      "id": "https://openalex.org/keywords/statistical-hypothesis-testing",
+      "display_name": "Statistical hypothesis testing",
+      "score": 0.4111882150173187
+    },
+    {
+      "id": "https://openalex.org/keywords/applied-mathematics",
+      "display_name": "Applied mathematics",
+      "score": 0.40556254982948303
+    },
+    {
+      "id": "https://openalex.org/keywords/spectral-density",
+      "display_name": "Spectral density",
+      "score": 0.11621707677841187
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C114148568",
+      "wikidata": "https://www.wikidata.org/wiki/Q2410583",
+      "display_name": "Bispectrum",
+      "level": 3,
+      "score": 0.9426256418228149
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.8541954755783081
+    },
+    {
+      "id": "https://openalex.org/C159877910",
+      "wikidata": "https://www.wikidata.org/wiki/Q2202883",
+      "display_name": "Autoregressive model",
+      "level": 2,
+      "score": 0.7047516107559204
+    },
+    {
+      "id": "https://openalex.org/C169857963",
+      "wikidata": "https://www.wikidata.org/wiki/Q1461038",
+      "display_name": "Test statistic",
+      "level": 3,
+      "score": 0.6016632318496704
+    },
+    {
+      "id": "https://openalex.org/C185429906",
+      "wikidata": "https://www.wikidata.org/wiki/Q1130160",
+      "display_name": "Estimator",
+      "level": 2,
+      "score": 0.599200963973999
+    },
+    {
+      "id": "https://openalex.org/C143724316",
+      "wikidata": "https://www.wikidata.org/wiki/Q312468",
+      "display_name": "Series (stratigraphy)",
+      "level": 2,
+      "score": 0.568195641040802
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.5013468265533447
+    },
+    {
+      "id": "https://openalex.org/C163716315",
+      "wikidata": "https://www.wikidata.org/wiki/Q901177",
+      "display_name": "Gaussian",
+      "level": 2,
+      "score": 0.49166613817214966
+    },
+    {
+      "id": "https://openalex.org/C87007009",
+      "wikidata": "https://www.wikidata.org/wiki/Q210832",
+      "display_name": "Statistical hypothesis testing",
+      "level": 2,
+      "score": 0.4111882150173187
+    },
+    {
+      "id": "https://openalex.org/C28826006",
+      "wikidata": "https://www.wikidata.org/wiki/Q33521",
+      "display_name": "Applied mathematics",
+      "level": 1,
+      "score": 0.40556254982948303
+    },
+    {
+      "id": "https://openalex.org/C168110828",
+      "wikidata": "https://www.wikidata.org/wiki/Q1331626",
+      "display_name": "Spectral density",
+      "level": 2,
+      "score": 0.11621707677841187
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C151730666",
+      "wikidata": "https://www.wikidata.org/wiki/Q7205",
+      "display_name": "Paleontology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1111/j.1467-9892.1982.tb00339.x",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1111/j.1467-9892.1982.tb00339.x",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S206595242",
+        "display_name": "Journal of Time Series Analysis",
+        "issn_l": "0143-9782",
+        "issn": [
+          "0143-9782",
+          "1467-9892"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Time Series Analysis",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:ADA107548",
+      "is_oa": false,
+      "landing_page_url": "http://oai.dtic.mil/oai/oai?&amp;verb=getRecord&amp;metadataPrefix=html&amp;identifier=ADA107548",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4406923043",
+        "display_name": "Defense Technical Information Center (DTIC)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "DTIC AND NTIS",
+      "raw_type": "Text"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320337345",
+      "display_name": "Office of Naval Research",
+      "ror": "https://ror.org/00rk2pe57"
+    }
+  ],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 8,
+  "referenced_works": [
+    "https://openalex.org/W2027037044",
+    "https://openalex.org/W2028725248",
+    "https://openalex.org/W2055959222",
+    "https://openalex.org/W2056929675",
+    "https://openalex.org/W2124024908",
+    "https://openalex.org/W2796104303",
+    "https://openalex.org/W3015297855",
+    "https://openalex.org/W4301248347"
+  ],
+  "related_works": [
+    "https://openalex.org/W3015822731",
+    "https://openalex.org/W2075332338",
+    "https://openalex.org/W4386776152",
+    "https://openalex.org/W1970221037",
+    "https://openalex.org/W2488034322",
+    "https://openalex.org/W1826709224",
+    "https://openalex.org/W2135903028",
+    "https://openalex.org/W4249874928",
+    "https://openalex.org/W2913739054",
+    "https://openalex.org/W4385820860"
+  ],
+  "abstract_inverted_index": {
+    "Abstract.": [
+      0
+    ],
+    "Stable": [
+      1
+    ],
+    "autoregressive": [
+      2,
+      5
+    ],
+    "(AR)": [
+      3
+    ],
+    "and": [
+      4,
+      82,
+      98
+    ],
+    "moving": [
+      6
+    ],
+    "average": [
+      7
+    ],
+    "(ARMA)": [
+      8
+    ],
+    "processes": [
+      9
+    ],
+    "belong": [
+      10
+    ],
+    "to": [
+      11,
+      145,
+      149
+    ],
+    "the": [
+      12,
+      28,
+      31,
+      49,
+      75,
+      90,
+      114,
+      127,
+      129,
+      152,
+      165,
+      172,
+      189,
+      203,
+      217
+    ],
+    "class": [
+      13
+    ],
+    "of": [
+      14,
+      30,
+      48,
+      126,
+      132,
+      154,
+      164,
+      171,
+      202
+    ],
+    "stationary": [
+      15
+    ],
+    "linear": [
+      16,
+      20
+    ],
+    "time": [
+      17,
+      21
+    ],
+    "series.": [
+      18
+    ],
+    "A": [
+      19,
+      162
+    ],
+    "series": [
+      22
+    ],
+    "{": [
+      23,
+      93,
+      105,
+      133,
+      155,
+      175,
+      192
+    ],
+    "}": [
+      24
+    ],
+    "is": [
+      25,
+      37,
+      102,
+      110,
+      143,
+      160,
+      180,
+      185,
+      197
+    ],
+    "Gaussian": [
+      26
+    ],
+    "if": [
+      27,
+      74,
+      113
+    ],
+    "distribution": [
+      29
+    ],
+    "independent": [
+      32
+    ],
+    "innovations": [
+      33
+    ],
+    "{ε(": [
+      34,
+      99
+    ],
+    "t": [
+      35,
+      43,
+      57,
+      61,
+      67,
+      77,
+      87,
+      96,
+      100,
+      108,
+      116,
+      158,
+      178,
+      195
+    ],
+    ")}": [
+      36,
+      97,
+      101,
+      109,
+      159,
+      179,
+      196
+    ],
+    "normal.": [
+      38,
+      119
+    ],
+    "Assuming": [
+      39
+    ],
+    "that": [
+      40,
+      174,
+      191
+    ],
+    "E": [
+      41,
+      83
+    ],
+    "ε(": [
+      42,
+      76,
+      115
+    ],
+    ")": [
+      44,
+      58,
+      64,
+      70,
+      78,
+      117
+    ],
+    "=": [
+      45,
+      54
+    ],
+    "0,": [
+      46
+    ],
+    "some": [
+      47
+    ],
+    "third‐order": [
+      50
+    ],
+    "cumulants": [
+      51
+    ],
+    "c": [
+      52,
+      134
+    ],
+    "xxx": [
+      53,
+      135
+    ],
+    "Ex": [
+      55
+    ],
+    "(": [
+      56,
+      60,
+      66,
+      86,
+      95,
+      107,
+      136,
+      157,
+      177,
+      194
+    ],
+    "x": [
+      59,
+      65,
+      94,
+      106,
+      156,
+      176,
+      193
+    ],
+    "+": [
+      62,
+      68
+    ],
+    "m": [
+      63
+    ],
+    "n": [
+      69,
+      138
+    ],
+    "will": [
+      71
+    ],
+    "be": [
+      72
+    ],
+    "non‐zero": [
+      73
+    ],
+    "are": [
+      79,
+      118,
+      206,
+      214
+    ],
+    "not": [
+      80
+    ],
+    "normal": [
+      81
+    ],
+    "ε": [
+      84
+    ],
+    "3": [
+      85
+    ],
+    ")≠O.": [
+      88
+    ],
+    "If": [
+      89
+    ],
+    "relationship": [
+      91
+    ],
+    "between": [
+      92
+    ],
+    "non‐linear,": [
+      103
+    ],
+    "then": [
+      104
+    ],
+    "non‐Gaussian": [
+      111
+    ],
+    "even": [
+      112
+    ],
+    "This": [
+      120,
+      140
+    ],
+    "paper": [
+      121
+    ],
+    "presents": [
+      122
+    ],
+    "a": [
+      123,
+      147,
+      169
+    ],
+    "simple": [
+      124
+    ],
+    "estimator": [
+      125
+    ],
+    "bispectrum,": [
+      128
+    ],
+    "Fourier": [
+      130
+    ],
+    "transform": [
+      131
+    ],
+    "m,": [
+      137
+    ],
+    ")}.": [
+      139
+    ],
+    "sample": [
+      141,
+      204,
+      218
+    ],
+    "bispectrum": [
+      142,
+      153,
+      205
+    ],
+    "used": [
+      144
+    ],
+    "construct": [
+      146
+    ],
+    "statistic": [
+      148,
+      184
+    ],
+    "test": [
+      150,
+      183,
+      210
+    ],
+    "whether": [
+      151
+    ],
+    "non‐zero.": [
+      161
+    ],
+    "rejection": [
+      163,
+      170
+    ],
+    "null": [
+      166
+    ],
+    "hypothesis": [
+      167,
+      173,
+      190
+    ],
+    "implies": [
+      168
+    ],
+    "Gaussian.": [
+      181
+    ],
+    "Another": [
+      182
+    ],
+    "presented": [
+      186
+    ],
+    "for": [
+      187
+    ],
+    "testing": [
+      188
+    ],
+    "linear.": [
+      198
+    ],
+    "The": [
+      199,
+      212
+    ],
+    "asymptotic": [
+      200
+    ],
+    "properties": [
+      201
+    ],
+    "incorporated": [
+      207
+    ],
+    "in": [
+      208
+    ],
+    "these": [
+      209
+    ],
+    "statistics.": [
+      211
+    ],
+    "tests": [
+      213
+    ],
+    "consistent": [
+      215
+    ],
+    "as": [
+      216
+    ],
+    "size": [
+      219
+    ],
+    "N": [
+      220
+    ],
+    "→‐∞": [
+      221
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 35
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 25
+    }
+  ],
+  "updated_date": "2026-09-12T09:15:50.089291",
+  "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,1383 @@
+{
+  "id": "https://openalex.org/W1970884736",
+  "doi": "https://doi.org/10.1093/gji/ggs031",
+  "title": "A statistical strategy for ambient seismic wavefield analysis: investigating correlations to a hydrocarbon reservoir",
+  "display_name": "A statistical strategy for ambient seismic wavefield analysis: investigating correlations to a hydrocarbon reservoir",
+  "publication_year": 2012,
+  "publication_date": "2012-11-28",
+  "ids": {
+    "openalex": "https://openalex.org/W1970884736",
+    "doi": "https://doi.org/10.1093/gji/ggs031",
+    "mag": "1970884736"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1093/gji/ggs031",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1093/gji/ggs031",
+    "pdf_url": "https://academic.oup.com/gji/article-pdf/192/1/148/1618566/ggs031.pdf",
+    "source": {
+      "id": "https://openalex.org/S108821158",
+      "display_name": "Geophysical Journal International",
+      "issn_l": "0956-540X",
+      "issn": [
+        "0956-540X",
+        "1365-246X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "jufo-1",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311648",
+        "https://openalex.org/P4310311647"
+      ],
+      "host_organization_lineage_names": [
+        "Oxford University Press",
+        "University of Oxford"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysical Journal International",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "datacite",
+    "doaj"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://academic.oup.com/gji/article-pdf/192/1/148/1618566/ggs031.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5061866567",
+        "display_name": "Nima Riahi",
+        "orcid": "https://orcid.org/0000-0003-2011-4761",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-2011-4761"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I35440088",
+          "display_name": "ETH Zurich",
+          "ror": "https://ror.org/05a28rw58",
+          "country_code": "CH",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2799323385",
+            "https://openalex.org/I35440088"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "N. Riahi",
+      "raw_affiliation_strings": [
+        "Earth Science Department, ETH Zurich, Switzerland",
+        "1Earth Science Department, ETH Zurich, Switzerland. E-mail: nima.riahi@erdw.ethz.ch"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Earth Science Department, ETH Zurich, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I35440088"
+          ]
+        },
+        {
+          "raw_affiliation_string": "1Earth Science Department, ETH Zurich, Switzerland. E-mail: nima.riahi@erdw.ethz.ch",
+          "institution_ids": [
+            "https://openalex.org/I35440088"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5109865454",
+        "display_name": "Alex Goertz",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I35440088",
+          "display_name": "ETH Zurich",
+          "ror": "https://ror.org/05a28rw58",
+          "country_code": "CH",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2799323385",
+            "https://openalex.org/I35440088"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "A. Goertz",
+      "raw_affiliation_strings": [
+        "Earth Science Department, ETH Zurich, Switzerland",
+        "1Earth Science Department, ETH Zurich, Switzerland. E-mail: nima.riahi@erdw.ethz.ch"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Earth Science Department, ETH Zurich, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I35440088"
+          ]
+        },
+        {
+          "raw_affiliation_string": "1Earth Science Department, ETH Zurich, Switzerland. E-mail: nima.riahi@erdw.ethz.ch",
+          "institution_ids": [
+            "https://openalex.org/I35440088"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5041515388",
+        "display_name": "Brad Birkelo",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "B. Birkelo",
+      "raw_affiliation_strings": [
+        "Spectraseis, Denver, CO, USA",
+        "2Spectraseis, Denver, CO, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Spectraseis, Denver, CO, USA",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "2Spectraseis, Denver, CO, USA",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5024428231",
+        "display_name": "Erik Hans Saenger",
+        "orcid": "https://orcid.org/0000-0002-2057-4728",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-2057-4728"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I35440088",
+          "display_name": "ETH Zurich",
+          "ror": "https://ror.org/05a28rw58",
+          "country_code": "CH",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2799323385",
+            "https://openalex.org/I35440088"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "E. H. Saenger",
+      "raw_affiliation_strings": [
+        "Earth Science Department, ETH Zurich, Switzerland",
+        "1Earth Science Department, ETH Zurich, Switzerland. E-mail: nima.riahi@erdw.ethz.ch"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Earth Science Department, ETH Zurich, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I35440088"
+          ]
+        },
+        {
+          "raw_affiliation_string": "1Earth Science Department, ETH Zurich, Switzerland. E-mail: nima.riahi@erdw.ethz.ch",
+          "institution_ids": [
+            "https://openalex.org/I35440088"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 2590,
+    "currency": "GBP",
+    "value_usd": 3416
+  },
+  "apc_paid": null,
+  "fwci": 0.6,
+  "has_fulltext": false,
+  "cited_by_count": 12,
+  "citation_normalized_percentile": {
+    "value": 0.71004118,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 96
+  },
+  "biblio": {
+    "volume": "192",
+    "issue": "1",
+    "first_page": "148",
+    "last_page": "162"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11757",
+    "display_name": "Seismic Waves and Analysis",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13885",
+      "display_name": "Geophysics and Sensor Technology",
+      "score": 0.9972000122070312,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.7688482999801636
+    },
+    {
+      "id": "https://openalex.org/keywords/seismometer",
+      "display_name": "Seismometer",
+      "score": 0.6659271717071533
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.6008975505828857
+    },
+    {
+      "id": "https://openalex.org/keywords/passive-seismic",
+      "display_name": "Passive seismic",
+      "score": 0.5180390477180481
+    },
+    {
+      "id": "https://openalex.org/keywords/residual",
+      "display_name": "Residual",
+      "score": 0.4897499084472656
+    },
+    {
+      "id": "https://openalex.org/keywords/spectral-density",
+      "display_name": "Spectral density",
+      "score": 0.44297346472740173
+    },
+    {
+      "id": "https://openalex.org/keywords/surface-wave",
+      "display_name": "Surface wave",
+      "score": 0.4406798779964447
+    },
+    {
+      "id": "https://openalex.org/keywords/statistics",
+      "display_name": "Statistics",
+      "score": 0.1265999972820282
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.7688482999801636
+    },
+    {
+      "id": "https://openalex.org/C119217923",
+      "wikidata": "https://www.wikidata.org/wiki/Q160567",
+      "display_name": "Seismometer",
+      "level": 2,
+      "score": 0.6659271717071533
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.6008975505828857
+    },
+    {
+      "id": "https://openalex.org/C2780942248",
+      "wikidata": "https://www.wikidata.org/wiki/Q1048443",
+      "display_name": "Passive seismic",
+      "level": 2,
+      "score": 0.5180390477180481
+    },
+    {
+      "id": "https://openalex.org/C155512373",
+      "wikidata": "https://www.wikidata.org/wiki/Q287450",
+      "display_name": "Residual",
+      "level": 2,
+      "score": 0.4897499084472656
+    },
+    {
+      "id": "https://openalex.org/C168110828",
+      "wikidata": "https://www.wikidata.org/wiki/Q1331626",
+      "display_name": "Spectral density",
+      "level": 2,
+      "score": 0.44297346472740173
+    },
+    {
+      "id": "https://openalex.org/C84174578",
+      "wikidata": "https://www.wikidata.org/wiki/Q889796",
+      "display_name": "Surface wave",
+      "level": 2,
+      "score": 0.4406798779964447
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.1265999972820282
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C76155785",
+      "wikidata": "https://www.wikidata.org/wiki/Q418",
+      "display_name": "Telecommunications",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 4,
+  "locations": [
+    {
+      "id": "doi:10.1093/gji/ggs031",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1093/gji/ggs031",
+      "pdf_url": "https://academic.oup.com/gji/article-pdf/192/1/148/1618566/ggs031.pdf",
+      "source": {
+        "id": "https://openalex.org/S108821158",
+        "display_name": "Geophysical Journal International",
+        "issn_l": "0956-540X",
+        "issn": [
+          "0956-540X",
+          "1365-246X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "jufo-1",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310311648",
+        "host_organization_name": "Oxford University Press",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310311648",
+          "https://openalex.org/P4310311647"
+        ],
+        "host_organization_lineage_names": [
+          "Oxford University Press",
+          "University of Oxford"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysical Journal International",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:doc.rero.ch:298266",
+      "is_oa": false,
+      "landing_page_url": "http://doc.rero.ch/record/298266/files/ggs031.pdf",
+      "pdf_url": "http://doc.rero.ch/record/298266/files/ggs031.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400148",
+        "display_name": "reroDoc Digital Library",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I67311998",
+        "host_organization_name": "European Organization for Nuclear Research",
+        "host_organization_lineage": [
+          "https://openalex.org/I67311998"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": null
+    },
+    {
+      "id": "pmh:oai:www.research-collection.ethz.ch:20.500.11850/59339",
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/20.500.11850/59339",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402302",
+        "display_name": "Repository for Publications and Research Data (ETH Zurich)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I35440088",
+        "host_organization_name": "ETH Zurich",
+        "host_organization_lineage": [
+          "https://openalex.org/I35440088"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "other-oa",
+      "license_id": "https://openalex.org/licenses/other-oa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Geophysical Journal International, 192 (1)",
+      "raw_type": "info:eu-repo/semantics/article"
+    },
+    {
+      "id": "doi:10.3929/ethz-b-000059339",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3929/ethz-b-000059339",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S7407051236",
+        "display_name": "ETH Zürich Research Collection",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": null,
+      "raw_source_name": null,
+      "raw_type": "Other"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.1093/gji/ggs031",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1093/gji/ggs031",
+    "pdf_url": "https://academic.oup.com/gji/article-pdf/192/1/148/1618566/ggs031.pdf",
+    "source": {
+      "id": "https://openalex.org/S108821158",
+      "display_name": "Geophysical Journal International",
+      "issn_l": "0956-540X",
+      "issn": [
+        "0956-540X",
+        "1365-246X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "jufo-1",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310311648",
+      "host_organization_name": "Oxford University Press",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310311648",
+        "https://openalex.org/P4310311647"
+      ],
+      "host_organization_lineage_names": [
+        "Oxford University Press",
+        "University of Oxford"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysical Journal International",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/9",
+      "display_name": "Industry, innovation and infrastructure",
+      "score": 0.6299999952316284
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": true,
+    "grobid_xml": false
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W1970884736.pdf"
+  },
+  "referenced_works_count": 55,
+  "referenced_works": [
+    "https://openalex.org/W195673251",
+    "https://openalex.org/W1781559127",
+    "https://openalex.org/W1924737941",
+    "https://openalex.org/W1969804623",
+    "https://openalex.org/W1973202980",
+    "https://openalex.org/W1973488326",
+    "https://openalex.org/W1977507126",
+    "https://openalex.org/W1995945562",
+    "https://openalex.org/W1999366090",
+    "https://openalex.org/W2005990096",
+    "https://openalex.org/W2009553703",
+    "https://openalex.org/W2010674809",
+    "https://openalex.org/W2012562749",
+    "https://openalex.org/W2019471733",
+    "https://openalex.org/W2024551209",
+    "https://openalex.org/W2032358789",
+    "https://openalex.org/W2035062007",
+    "https://openalex.org/W2035541613",
+    "https://openalex.org/W2041731699",
+    "https://openalex.org/W2063171833",
+    "https://openalex.org/W2065126285",
+    "https://openalex.org/W2068019897",
+    "https://openalex.org/W2071692307",
+    "https://openalex.org/W2073476808",
+    "https://openalex.org/W2078483536",
+    "https://openalex.org/W2081680434",
+    "https://openalex.org/W2083997011",
+    "https://openalex.org/W2084667883",
+    "https://openalex.org/W2086861448",
+    "https://openalex.org/W2095628723",
+    "https://openalex.org/W2101538281",
+    "https://openalex.org/W2103835097",
+    "https://openalex.org/W2104740196",
+    "https://openalex.org/W2106372444",
+    "https://openalex.org/W2107332410",
+    "https://openalex.org/W2110210567",
+    "https://openalex.org/W2141497649",
+    "https://openalex.org/W2145533351",
+    "https://openalex.org/W2151967815",
+    "https://openalex.org/W2159437513",
+    "https://openalex.org/W2162698802",
+    "https://openalex.org/W2163688493",
+    "https://openalex.org/W2164061967",
+    "https://openalex.org/W2166667856",
+    "https://openalex.org/W2167567016",
+    "https://openalex.org/W2170889740",
+    "https://openalex.org/W2181394783",
+    "https://openalex.org/W2205548146",
+    "https://openalex.org/W2208701324",
+    "https://openalex.org/W2273565353",
+    "https://openalex.org/W2313400937",
+    "https://openalex.org/W2973818247",
+    "https://openalex.org/W2999327070",
+    "https://openalex.org/W3102477865",
+    "https://openalex.org/W3161439748"
+  ],
+  "related_works": [
+    "https://openalex.org/W4321599449",
+    "https://openalex.org/W2892034102",
+    "https://openalex.org/W1883846011",
+    "https://openalex.org/W4312353091",
+    "https://openalex.org/W2462400093",
+    "https://openalex.org/W2012156802",
+    "https://openalex.org/W4224920893",
+    "https://openalex.org/W1976976997",
+    "https://openalex.org/W1991902700",
+    "https://openalex.org/W2598921927"
+  ],
+  "abstract_inverted_index": {
+    "Theoretical": [
+      0
+    ],
+    "work": [
+      1
+    ],
+    "and": [
+      2,
+      41,
+      68,
+      108,
+      139,
+      164,
+      243
+    ],
+    "modelling": [
+      3
+    ],
+    "studies": [
+      4,
+      30
+    ],
+    "have": [
+      5,
+      31
+    ],
+    "led": [
+      6
+    ],
+    "to": [
+      7,
+      44,
+      54,
+      70,
+      95,
+      149,
+      231
+    ],
+    "the": [
+      8,
+      11,
+      17,
+      36,
+      111,
+      132,
+      137,
+      143,
+      184,
+      195,
+      210,
+      214,
+      219
+    ],
+    "hypothesis": [
+      9,
+      253
+    ],
+    "that": [
+      10,
+      56,
+      194
+    ],
+    "ambient": [
+      12
+    ],
+    "seismic": [
+      13,
+      145,
+      175
+    ],
+    "wave": [
+      14,
+      66,
+      124,
+      133,
+      196
+    ],
+    "field": [
+      15,
+      29,
+      134,
+      187,
+      197
+    ],
+    "on": [
+      16,
+      35,
+      172
+    ],
+    "surface": [
+      18,
+      57,
+      65,
+      123,
+      205
+    ],
+    "can": [
+      19,
+      254
+    ],
+    "be": [
+      20,
+      74,
+      257
+    ],
+    "affected": [
+      21
+    ],
+    "by": [
+      22,
+      76,
+      200
+    ],
+    "hydrocarbon": [
+      23,
+      71,
+      150
+    ],
+    "reservoirs": [
+      24
+    ],
+    "(>800": [
+      25
+    ],
+    "m": [
+      26
+    ],
+    "depth).": [
+      27
+    ],
+    "Several": [
+      28
+    ],
+    "linked": [
+      32
+    ],
+    "spectral": [
+      33,
+      100
+    ],
+    "features": [
+      34
+    ],
+    "vertical": [
+      37
+    ],
+    "component": [
+      38
+    ],
+    "between": [
+      39,
+      136
+    ],
+    "1": [
+      40
+    ],
+    "10": [
+      42
+    ],
+    "Hz": [
+      43
+    ],
+    "reservoir": [
+      45,
+      234
+    ],
+    "locations.": [
+      46
+    ],
+    "However,": [
+      47
+    ],
+    "such": [
+      48,
+      79,
+      97
+    ],
+    "evidence": [
+      49,
+      193
+    ],
+    "has": [
+      50
+    ],
+    "been": [
+      51
+    ],
+    "criticized": [
+      52
+    ],
+    "due": [
+      53
+    ],
+    "concerns": [
+      55
+    ],
+    "recordings": [
+      58
+    ],
+    "typically": [
+      59
+    ],
+    "contain": [
+      60
+    ],
+    "a": [
+      61,
+      91,
+      121,
+      173,
+      201,
+      232,
+      239
+    ],
+    "large": [
+      62
+    ],
+    "amount": [
+      63
+    ],
+    "of": [
+      64,
+      113,
+      120,
+      204,
+      209
+    ],
+    "noise": [
+      67
+    ],
+    "correlations": [
+      69,
+      157
+    ],
+    "targets": [
+      72
+    ],
+    "could": [
+      73
+    ],
+    "caused": [
+      75
+    ],
+    "non-hydrocarbon": [
+      77,
+      154
+    ],
+    "variables": [
+      78
+    ],
+    "as": [
+      80,
+      151,
+      153
+    ],
+    "topography": [
+      81
+    ],
+    "or": [
+      82
+    ],
+    "weathering": [
+      83
+    ],
+    "layer": [
+      84
+    ],
+    "thickness.": [
+      85
+    ],
+    "In": [
+      86
+    ],
+    "this": [
+      87,
+      227,
+      260
+    ],
+    "paper,": [
+      88
+    ],
+    "we": [
+      89
+    ],
+    "suggest": [
+      90
+    ],
+    "two-step": [
+      92
+    ],
+    "analysis": [
+      93
+    ],
+    "strategy": [
+      94
+    ],
+    "address": [
+      96
+    ],
+    "issues.": [
+      98
+    ],
+    "First,": [
+      99
+    ],
+    "power": [
+      101,
+      146,
+      225
+    ],
+    "is": [
+      102,
+      147,
+      170
+    ],
+    "only": [
+      103
+    ],
+    "averaged": [
+      104
+    ],
+    "over": [
+      105
+    ],
+    "time": [
+      106,
+      216
+    ],
+    "periods": [
+      107,
+      217
+    ],
+    "frequencies": [
+      109
+    ],
+    "where": [
+      110
+    ],
+    "distribution": [
+      112
+    ],
+    "polarization": [
+      114
+    ],
+    "attributes": [
+      115
+    ],
+    "show": [
+      116
+    ],
+    "no": [
+      117
+    ],
+    "obvious": [
+      118
+    ],
+    "dominance": [
+      119
+    ],
+    "few": [
+      122
+    ],
+    "sources.": [
+      125
+    ],
+    "An": [
+      126
+    ],
+    "interferometric": [
+      127
+    ],
+    "test": [
+      128
+    ],
+    "reveals": [
+      129
+    ],
+    "differences": [
+      130
+    ],
+    "in": [
+      131,
+      188,
+      207,
+      218
+    ],
+    "composition": [
+      135
+    ],
+    "filtered": [
+      138
+    ],
+    "unfiltered": [
+      140
+    ],
+    "data.": [
+      141,
+      261
+    ],
+    "Second,": [
+      142
+    ],
+    "residual": [
+      144
+    ],
+    "correlated": [
+      148
+    ],
+    "well": [
+      152
+    ],
+    "targets.": [
+      155
+    ],
+    "The": [
+      156,
+      168,
+      251
+    ],
+    "are": [
+      158
+    ],
+    "quantitatively": [
+      159
+    ],
+    "compared": [
+      160
+    ],
+    "using": [
+      161
+    ],
+    "rank": [
+      162
+    ],
+    "correlation": [
+      163
+    ],
+    "bootstrap": [
+      165
+    ],
+    "confidence": [
+      166
+    ],
+    "intervals.": [
+      167
+    ],
+    "method": [
+      169
+    ],
+    "illustrated": [
+      171
+    ],
+    "passive": [
+      174
+    ],
+    "data": [
+      176,
+      211
+    ],
+    "set": [
+      177
+    ],
+    "acquired": [
+      178
+    ],
+    "with": [
+      179,
+      238,
+      246,
+      259
+    ],
+    "three-component,": [
+      180
+    ],
+    "broad-band": [
+      181
+    ],
+    "seismometers": [
+      182
+    ],
+    "at": [
+      183
+    ],
+    "tight-gas": [
+      185
+    ],
+    "Jonah": [
+      186
+    ],
+    "Wyoming,": [
+      189
+    ],
+    "USA.": [
+      190
+    ],
+    "We": [
+      191
+    ],
+    "find": [
+      192
+    ],
+    "was": [
+      198
+    ],
+    "dominated": [
+      199
+    ],
+    "small": [
+      202
+    ],
+    "number": [
+      203
+    ],
+    "sources": [
+      206
+    ],
+    "all": [
+      208
+    ],
+    "except": [
+      212
+    ],
+    "for": [
+      213
+    ],
+    "quietest": [
+      215
+    ],
+    "low-frequency": [
+      220
+    ],
+    "range": [
+      221
+    ],
+    "1.5–3.0": [
+      222
+    ],
+    "Hz.": [
+      223
+    ],
+    "Seismic": [
+      224
+    ],
+    "within": [
+      226
+    ],
+    "subset": [
+      228
+    ],
+    "significantly": [
+      229
+    ],
+    "correlates": [
+      230
+    ],
+    "published": [
+      233
+    ],
+    "map": [
+      235
+    ],
+    "but": [
+      236
+    ],
+    "not": [
+      237,
+      256
+    ],
+    "digital": [
+      240
+    ],
+    "elevation": [
+      241
+    ],
+    "model": [
+      242
+    ],
+    "less": [
+      244
+    ],
+    "so": [
+      245
+    ],
+    "an": [
+      247
+    ],
+    "infrastructure": [
+      248
+    ],
+    "density": [
+      249
+    ],
+    "map.": [
+      250
+    ],
+    "investigated": [
+      252
+    ],
+    "thus": [
+      255
+    ],
+    "rejected": [
+      258
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

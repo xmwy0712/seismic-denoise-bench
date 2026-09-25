@@ -1,0 +1,2417 @@
+{
+  "id": "https://openalex.org/W2137821086",
+  "doi": "https://doi.org/10.2516/ogst:2004027",
+  "title": "Seismic While Drilling (Swd) Techniques with Downhole Measurements, Introduced by Ifp and Its Partners in 1990-2000",
+  "display_name": "Seismic While Drilling (Swd) Techniques with Downhole Measurements, Introduced by Ifp and Its Partners in 1990-2000",
+  "publication_year": 2004,
+  "publication_date": "2004-07-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2137821086",
+    "doi": "https://doi.org/10.2516/ogst:2004027",
+    "mag": "2137821086"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.2516/ogst:2004027",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.2516/ogst:2004027",
+    "pdf_url": "https://ogst.ifpenergiesnouvelles.fr/articles/ogst/pdf/2004/04/naville_vol59n4.pdf",
+    "source": {
+      "id": "https://openalex.org/S2764748234",
+      "display_name": "Oil & Gas Science and Technology – Revue d’IFP Energies nouvelles",
+      "issn_l": "1294-4475",
+      "issn": [
+        "1294-4475",
+        "1953-8189"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319748",
+      "host_organization_name": "EDP Sciences",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319748",
+        "https://openalex.org/P4310319982"
+      ],
+      "host_organization_lineage_names": [
+        "EDP Sciences",
+        "Science Press"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Oil &amp; Gas Science and Technology",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "doaj"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "diamond",
+    "oa_url": "https://ogst.ifpenergiesnouvelles.fr/articles/ogst/pdf/2004/04/naville_vol59n4.pdf",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5109135541",
+        "display_name": "Ch. Naville",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2540865",
+          "display_name": "Institut Français",
+          "ror": "https://ror.org/047hdnt12",
+          "country_code": "FR",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I2540865"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I265217849",
+          "display_name": "IFP Énergies nouvelles",
+          "ror": "https://ror.org/03gcbhc33",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I265217849"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Ch. Naville",
+      "raw_affiliation_strings": [
+        "Institut français du pétrole",
+        "Institut Français du Pètrole"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institut français du pétrole",
+          "institution_ids": [
+            "https://openalex.org/I2540865"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institut Français du Pètrole",
+          "institution_ids": [
+            "https://openalex.org/I2540865",
+            "https://openalex.org/I265217849"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5051030247",
+        "display_name": "Sylvain Serbutoviez",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2540865",
+          "display_name": "Institut Français",
+          "ror": "https://ror.org/047hdnt12",
+          "country_code": "FR",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I2540865"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I265217849",
+          "display_name": "IFP Énergies nouvelles",
+          "ror": "https://ror.org/03gcbhc33",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I265217849"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. Serbutoviez",
+      "raw_affiliation_strings": [
+        "Institut français du pétrole",
+        "Institut Français du Pètrole"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institut français du pétrole",
+          "institution_ids": [
+            "https://openalex.org/I2540865"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institut Français du Pètrole",
+          "institution_ids": [
+            "https://openalex.org/I2540865",
+            "https://openalex.org/I265217849"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5061878189",
+        "display_name": "Alexandre Throo",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2540865",
+          "display_name": "Institut Français",
+          "ror": "https://ror.org/047hdnt12",
+          "country_code": "FR",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I2540865"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I265217849",
+          "display_name": "IFP Énergies nouvelles",
+          "ror": "https://ror.org/03gcbhc33",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I265217849"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "A. Throo",
+      "raw_affiliation_strings": [
+        "Institut français du pétrole",
+        "Institut Français du Pètrole"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institut français du pétrole",
+          "institution_ids": [
+            "https://openalex.org/I2540865"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institut Français du Pètrole",
+          "institution_ids": [
+            "https://openalex.org/I2540865",
+            "https://openalex.org/I265217849"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5090621125",
+        "display_name": "O. Vincké",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2540865",
+          "display_name": "Institut Français",
+          "ror": "https://ror.org/047hdnt12",
+          "country_code": "FR",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I2540865"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I265217849",
+          "display_name": "IFP Énergies nouvelles",
+          "ror": "https://ror.org/03gcbhc33",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I265217849"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "O. Vincké",
+      "raw_affiliation_strings": [
+        "Institut français du pétrole",
+        "Institut Français du Pètrole"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institut français du pétrole",
+          "institution_ids": [
+            "https://openalex.org/I2540865"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institut Français du Pètrole",
+          "institution_ids": [
+            "https://openalex.org/I2540865",
+            "https://openalex.org/I265217849"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5009311776",
+        "display_name": "Fabio Cecconi",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "F. Cecconi",
+      "raw_affiliation_strings": [
+        "Geoservices",
+        "GEOSERVICES"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Geoservices",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "GEOSERVICES",
+          "institution_ids": []
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 2.5743,
+  "has_fulltext": true,
+  "cited_by_count": 35,
+  "citation_normalized_percentile": {
+    "value": 0.89719778,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "59",
+    "issue": "4",
+    "first_page": "371",
+    "last_page": "403"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10892",
+    "display_name": "Drilling and Well Engineering",
+    "score": 0.9987999796867371,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2212",
+      "display_name": "Ocean Engineering"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10892",
+      "display_name": "Drilling and Well Engineering",
+      "score": 0.9987999796867371,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.993399977684021,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.9830999970436096,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/wireline",
+      "display_name": "Wireline",
+      "score": 0.9705070853233337
+    },
+    {
+      "id": "https://openalex.org/keywords/borehole",
+      "display_name": "Borehole",
+      "score": 0.7909870147705078
+    },
+    {
+      "id": "https://openalex.org/keywords/measurement-while-drilling",
+      "display_name": "Measurement while drilling",
+      "score": 0.7631549835205078
+    },
+    {
+      "id": "https://openalex.org/keywords/drilling",
+      "display_name": "Drilling",
+      "score": 0.7430088520050049
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.7115168571472168
+    },
+    {
+      "id": "https://openalex.org/keywords/vertical-seismic-profile",
+      "display_name": "Vertical seismic profile",
+      "score": 0.6403927803039551
+    },
+    {
+      "id": "https://openalex.org/keywords/well-logging",
+      "display_name": "Well logging",
+      "score": 0.5322888493537903
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.4786754250526428
+    },
+    {
+      "id": "https://openalex.org/keywords/casing",
+      "display_name": "Casing",
+      "score": 0.4783191978931427
+    },
+    {
+      "id": "https://openalex.org/keywords/logging-while-drilling",
+      "display_name": "Logging while drilling",
+      "score": 0.4450145959854126
+    },
+    {
+      "id": "https://openalex.org/keywords/drill-pipe",
+      "display_name": "Drill pipe",
+      "score": 0.440083384513855
+    },
+    {
+      "id": "https://openalex.org/keywords/drill",
+      "display_name": "Drill",
+      "score": 0.42069560289382935
+    },
+    {
+      "id": "https://openalex.org/keywords/scientific-drilling",
+      "display_name": "Scientific drilling",
+      "score": 0.4158198833465576
+    },
+    {
+      "id": "https://openalex.org/keywords/petroleum-engineering",
+      "display_name": "Petroleum engineering",
+      "score": 0.3889208137989044
+    },
+    {
+      "id": "https://openalex.org/keywords/engineering",
+      "display_name": "Engineering",
+      "score": 0.2418067753314972
+    },
+    {
+      "id": "https://openalex.org/keywords/geotechnical-engineering",
+      "display_name": "Geotechnical engineering",
+      "score": 0.21511715650558472
+    },
+    {
+      "id": "https://openalex.org/keywords/wireless",
+      "display_name": "Wireless",
+      "score": 0.10563391447067261
+    },
+    {
+      "id": "https://openalex.org/keywords/mechanical-engineering",
+      "display_name": "Mechanical engineering",
+      "score": 0.06577324867248535
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2776951270",
+      "wikidata": "https://www.wikidata.org/wiki/Q8026910",
+      "display_name": "Wireline",
+      "level": 3,
+      "score": 0.9705070853233337
+    },
+    {
+      "id": "https://openalex.org/C150560799",
+      "wikidata": "https://www.wikidata.org/wiki/Q502102",
+      "display_name": "Borehole",
+      "level": 2,
+      "score": 0.7909870147705078
+    },
+    {
+      "id": "https://openalex.org/C42222113",
+      "wikidata": "https://www.wikidata.org/wiki/Q890894",
+      "display_name": "Measurement while drilling",
+      "level": 3,
+      "score": 0.7631549835205078
+    },
+    {
+      "id": "https://openalex.org/C25197100",
+      "wikidata": "https://www.wikidata.org/wiki/Q890886",
+      "display_name": "Drilling",
+      "level": 2,
+      "score": 0.7430088520050049
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.7115168571472168
+    },
+    {
+      "id": "https://openalex.org/C89787772",
+      "wikidata": "https://www.wikidata.org/wiki/Q7922855",
+      "display_name": "Vertical seismic profile",
+      "level": 2,
+      "score": 0.6403927803039551
+    },
+    {
+      "id": "https://openalex.org/C35817400",
+      "wikidata": "https://www.wikidata.org/wiki/Q2383566",
+      "display_name": "Well logging",
+      "level": 2,
+      "score": 0.5322888493537903
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.4786754250526428
+    },
+    {
+      "id": "https://openalex.org/C30399818",
+      "wikidata": "https://www.wikidata.org/wiki/Q5048830",
+      "display_name": "Casing",
+      "level": 2,
+      "score": 0.4783191978931427
+    },
+    {
+      "id": "https://openalex.org/C2776386368",
+      "wikidata": "https://www.wikidata.org/wiki/Q6667385",
+      "display_name": "Logging while drilling",
+      "level": 3,
+      "score": 0.4450145959854126
+    },
+    {
+      "id": "https://openalex.org/C2776088076",
+      "wikidata": "https://www.wikidata.org/wiki/Q4199385",
+      "display_name": "Drill pipe",
+      "level": 3,
+      "score": 0.440083384513855
+    },
+    {
+      "id": "https://openalex.org/C173736775",
+      "wikidata": "https://www.wikidata.org/wiki/Q58964",
+      "display_name": "Drill",
+      "level": 2,
+      "score": 0.42069560289382935
+    },
+    {
+      "id": "https://openalex.org/C46890581",
+      "wikidata": "https://www.wikidata.org/wiki/Q7433794",
+      "display_name": "Scientific drilling",
+      "level": 3,
+      "score": 0.4158198833465576
+    },
+    {
+      "id": "https://openalex.org/C78762247",
+      "wikidata": "https://www.wikidata.org/wiki/Q1273174",
+      "display_name": "Petroleum engineering",
+      "level": 1,
+      "score": 0.3889208137989044
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.2418067753314972
+    },
+    {
+      "id": "https://openalex.org/C187320778",
+      "wikidata": "https://www.wikidata.org/wiki/Q1349130",
+      "display_name": "Geotechnical engineering",
+      "level": 1,
+      "score": 0.21511715650558472
+    },
+    {
+      "id": "https://openalex.org/C555944384",
+      "wikidata": "https://www.wikidata.org/wiki/Q249",
+      "display_name": "Wireless",
+      "level": 2,
+      "score": 0.10563391447067261
+    },
+    {
+      "id": "https://openalex.org/C78519656",
+      "wikidata": "https://www.wikidata.org/wiki/Q101333",
+      "display_name": "Mechanical engineering",
+      "level": 1,
+      "score": 0.06577324867248535
+    },
+    {
+      "id": "https://openalex.org/C76155785",
+      "wikidata": "https://www.wikidata.org/wiki/Q418",
+      "display_name": "Telecommunications",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 3,
+  "locations": [
+    {
+      "id": "doi:10.2516/ogst:2004027",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.2516/ogst:2004027",
+      "pdf_url": "https://ogst.ifpenergiesnouvelles.fr/articles/ogst/pdf/2004/04/naville_vol59n4.pdf",
+      "source": {
+        "id": "https://openalex.org/S2764748234",
+        "display_name": "Oil & Gas Science and Technology – Revue d’IFP Energies nouvelles",
+        "issn_l": "1294-4475",
+        "issn": [
+          "1294-4475",
+          "1953-8189"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319748",
+        "host_organization_name": "EDP Sciences",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319748",
+          "https://openalex.org/P4310319982"
+        ],
+        "host_organization_lineage_names": [
+          "EDP Sciences",
+          "Science Press"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Oil &amp; Gas Science and Technology",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:edpsciences.org:dkey/10.2516/ogst:2004027",
+      "is_oa": true,
+      "landing_page_url": "https://ogst.ifpenergiesnouvelles.fr/10.2516/ogst:2004027/pdf",
+      "pdf_url": "https://ogst.ifpenergiesnouvelles.fr/10.2516/ogst:2004027/pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400744",
+        "display_name": "Springer Link (Chiba Institute of Technology)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I8488066",
+        "host_organization_name": "Chiba Institute of Technology",
+        "host_organization_lineage": [
+          "https://openalex.org/I8488066"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "https://doi.org/10.2516/ogst:2004027",
+      "raw_type": "Text"
+    },
+    {
+      "id": "pmh:oai:HAL:hal-02017312v1",
+      "is_oa": false,
+      "landing_page_url": "https://ifp.hal.science/hal-02017312",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Oil & Gas Science and Technology - Revue d'IFP Energies nouvelles, 2004, 59 (4), pp.371-403. &#x27E8;10.2516/ogst:2004027&#x27E9;",
+      "raw_type": "info:eu-repo/semantics/article"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.2516/ogst:2004027",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.2516/ogst:2004027",
+    "pdf_url": "https://ogst.ifpenergiesnouvelles.fr/articles/ogst/pdf/2004/04/naville_vol59n4.pdf",
+    "source": {
+      "id": "https://openalex.org/S2764748234",
+      "display_name": "Oil & Gas Science and Technology – Revue d’IFP Energies nouvelles",
+      "issn_l": "1294-4475",
+      "issn": [
+        "1294-4475",
+        "1953-8189"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319748",
+      "host_organization_name": "EDP Sciences",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319748",
+        "https://openalex.org/P4310319982"
+      ],
+      "host_organization_lineage_names": [
+        "EDP Sciences",
+        "Science Press"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Oil &amp; Gas Science and Technology",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W2137821086.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W2137821086.grobid-xml"
+  },
+  "referenced_works_count": 21,
+  "referenced_works": [
+    "https://openalex.org/W960659750",
+    "https://openalex.org/W1488525763",
+    "https://openalex.org/W1559010075",
+    "https://openalex.org/W1600890393",
+    "https://openalex.org/W1971175976",
+    "https://openalex.org/W1977506330",
+    "https://openalex.org/W1991280569",
+    "https://openalex.org/W1992534038",
+    "https://openalex.org/W1993958894",
+    "https://openalex.org/W2010491893",
+    "https://openalex.org/W2057599537",
+    "https://openalex.org/W2068006022",
+    "https://openalex.org/W2075339560",
+    "https://openalex.org/W2081048753",
+    "https://openalex.org/W2082245525",
+    "https://openalex.org/W2085569112",
+    "https://openalex.org/W2316373757",
+    "https://openalex.org/W2399087523",
+    "https://openalex.org/W2407094349",
+    "https://openalex.org/W2597737634",
+    "https://openalex.org/W3023470050"
+  ],
+  "related_works": [
+    "https://openalex.org/W2012826823",
+    "https://openalex.org/W108543482",
+    "https://openalex.org/W2893256632",
+    "https://openalex.org/W4389163401",
+    "https://openalex.org/W2087880323",
+    "https://openalex.org/W2266141962",
+    "https://openalex.org/W1997499888",
+    "https://openalex.org/W1980740405",
+    "https://openalex.org/W2348929620",
+    "https://openalex.org/W3139698395"
+  ],
+  "abstract_inverted_index": {
+    "Seismic": [
+      0,
+      71
+    ],
+    "While": [
+      1,
+      73
+    ],
+    "Drilling": [
+      2,
+      74
+    ],
+    "(SWD),": [
+      3
+    ],
+    "specifically": [
+      4
+    ],
+    "encompasses": [
+      5
+    ],
+    "the": [
+      6,
+      11,
+      16,
+      35,
+      43,
+      80,
+      94,
+      125,
+      145,
+      154,
+      164,
+      172,
+      175,
+      178,
+      221,
+      246,
+      268,
+      272,
+      277,
+      282,
+      290,
+      315,
+      321,
+      329,
+      336,
+      349,
+      352,
+      365,
+      392,
+      397,
+      417,
+      423,
+      439,
+      453,
+      457,
+      469,
+      472,
+      477,
+      482,
+      492,
+      498,
+      531,
+      535,
+      541,
+      553,
+      563,
+      573,
+      583,
+      596,
+      600,
+      629,
+      632,
+      642,
+      645,
+      652,
+      656,
+      662,
+      669,
+      674,
+      678,
+      681,
+      693,
+      710,
+      721,
+      725,
+      739,
+      749,
+      759
+    ],
+    "seismic": [
+      7,
+      44,
+      59,
+      81,
+      87,
+      90,
+      325,
+      443,
+      473,
+      487,
+      494,
+      500,
+      543,
+      618,
+      647,
+      665,
+      765
+    ],
+    "techniques": [
+      8,
+      30,
+      116
+    ],
+    "operated": [
+      9,
+      104
+    ],
+    "while": [
+      10,
+      24,
+      258,
+      433,
+      766
+    ],
+    "drillstring": [
+      12,
+      165
+    ],
+    "is": [
+      13,
+      161,
+      204,
+      420,
+      736
+    ],
+    "lowered": [
+      14,
+      162
+    ],
+    "in": [
+      15,
+      41,
+      78,
+      152,
+      188,
+      213,
+      228,
+      241,
+      345,
+      348,
+      416,
+      422,
+      435,
+      465,
+      528,
+      549,
+      572,
+      582,
+      609,
+      638,
+      649,
+      680,
+      701,
+      730,
+      747,
+      758
+    ],
+    "borehole,": [
+      17
+    ],
+    "during": [
+      18,
+      21
+    ],
+    "effective": [
+      19,
+      52
+    ],
+    "drilling,": [
+      20,
+      434,
+      577
+    ],
+    "manSuvres": [
+      22
+    ],
+    "or": [
+      23,
+      388
+    ],
+    "connecting": [
+      25
+    ],
+    "drill": [
+      26
+    ],
+    "pipes.": [
+      27
+    ],
+    "Two": [
+      28,
+      112
+    ],
+    "SWD": [
+      29,
+      137,
+      242,
+      269,
+      586,
+      598,
+      728
+    ],
+    "have": [
+      31,
+      63,
+      102,
+      317,
+      688
+    ],
+    "been": [
+      32,
+      64,
+      103,
+      318,
+      606,
+      689
+    ],
+    "used": [
+      33,
+      65,
+      205
+    ],
+    "by": [
+      34,
+      47,
+      84,
+      110,
+      236,
+      281,
+      320,
+      331,
+      445,
+      459,
+      752
+    ],
+    "industry:": [
+      36
+    ],
+    "-": [
+      37,
+      69,
+      144,
+      177,
+      429,
+      451,
+      502,
+      533,
+      561,
+      614,
+      626,
+      691
+    ],
+    "drillbit-SWD,": [
+      38
+    ],
+    "which": [
+      39,
+      76,
+      131,
+      186,
+      489
+    ],
+    "consists": [
+      40,
+      77,
+      187,
+      427
+    ],
+    "recording": [
+      42,
+      79,
+      189
+    ],
+    "noise": [
+      45
+    ],
+    "generated": [
+      46,
+      83
+    ],
+    "a": [
+      48,
+      85,
+      157,
+      167,
+      190,
+      193,
+      249,
+      286,
+      297,
+      309,
+      379,
+      461,
+      514,
+      590,
+      636,
+      731,
+      742
+    ],
+    "rock": [
+      49,
+      448
+    ],
+    "bit": [
+      50,
+      382
+    ],
+    "under": [
+      51
+    ],
+    "drilling": [
+      53,
+      126,
+      259,
+      292,
+      374,
+      407,
+      604,
+      624,
+      713,
+      767
+    ],
+    "on": [
+      54,
+      89,
+      661
+    ],
+    "any": [
+      55,
+      303,
+      342,
+      370
+    ],
+    "number": [
+      56
+    ],
+    "of": [
+      57,
+      147,
+      174,
+      183,
+      195,
+      218,
+      248,
+      267,
+      324,
+      334,
+      442,
+      456,
+      471,
+      484,
+      516,
+      537,
+      556,
+      567,
+      570,
+      576,
+      602,
+      616,
+      631,
+      644,
+      664,
+      671,
+      673,
+      695,
+      715,
+      727,
+      741,
+      764
+    ],
+    "surface": [
+      58,
+      86,
+      299
+    ],
+    "sensors.": [
+      60
+    ],
+    "This": [
+      61,
+      99
+    ],
+    "technique": [
+      62,
+      101,
+      146,
+      182,
+      279,
+      338,
+      412,
+      512,
+      539,
+      601,
+      676,
+      729,
+      768
+    ],
+    "steadily": [
+      66
+    ],
+    "since": [
+      67,
+      105
+    ],
+    "1986;": [
+      68
+    ],
+    "Vertical": [
+      70
+    ],
+    "Profile": [
+      72
+    ],
+    "(VSP-WD),": [
+      75
+    ],
+    "signal": [
+      82,
+      648,
+      666
+    ],
+    "source": [
+      88
+    ],
+    "sensors": [
+      91,
+      619
+    ],
+    "integrated": [
+      92
+    ],
+    "inside": [
+      93,
+      163
+    ],
+    "downhole": [
+      95,
+      304,
+      431,
+      440,
+      617,
+      696,
+      705,
+      712
+    ],
+    "Borehole": [
+      96
+    ],
+    "Assembly": [
+      97
+    ],
+    "(BHA).": [
+      98
+    ],
+    "emerging": [
+      100
+    ],
+    "year": [
+      106
+    ],
+    "2000": [
+      107
+    ],
+    "about,": [
+      108
+    ],
+    "mainly": [
+      109
+    ],
+    "Schlumberger.": [
+      111
+    ],
+    "efficient": [
+      113
+    ],
+    "wireline": [
+      114,
+      158,
+      180,
+      196,
+      255,
+      658
+    ],
+    "VSP": [
+      115,
+      159,
+      191
+    ],
+    "aimed": [
+      117,
+      284
+    ],
+    "at": [
+      118,
+      171,
+      285
+    ],
+    "gathering": [
+      119
+    ],
+    "geological": [
+      120,
+      208
+    ],
+    "information": [
+      121
+    ],
+    "potentially": [
+      122
+    ],
+    "useful": [
+      123,
+      371
+    ],
+    "to": [
+      124,
+      136,
+      206,
+      328,
+      340,
+      363,
+      437,
+      467,
+      480,
+      540,
+      546,
+      595,
+      621,
+      640,
+      685,
+      698,
+      708
+    ],
+    "decision": [
+      127
+    ],
+    "making": [
+      128
+    ],
+    "process,": [
+      129
+    ],
+    "and": [
+      130,
+      210,
+      238,
+      252,
+      301,
+      390,
+      402,
+      426,
+      479,
+      496,
+      505,
+      519,
+      558,
+      565,
+      579,
+      677,
+      717,
+      735,
+      761,
+      769
+    ],
+    "could": [
+      132
+    ],
+    "rightfully": [
+      133
+    ],
+    "be": [
+      134,
+      141,
+      547,
+      686,
+      699
+    ],
+    "assimilated": [
+      135
+    ],
+    "techniques,": [
+      138
+    ],
+    "will": [
+      139
+    ],
+    "not": [
+      140
+    ],
+    "considered": [
+      142
+    ],
+    "here:": [
+      143
+    ],
+    "Tube": [
+      148
+    ],
+    "Logging": [
+      149
+    ],
+    "Conveying": [
+      150
+    ],
+    "(TLC),": [
+      151
+    ],
+    "particular": [
+      153
+    ],
+    "TLC-VSP,": [
+      155
+    ],
+    "where": [
+      156
+    ],
+    "tool": [
+      160
+    ],
+    "through": [
+      166,
+      513,
+      524
+    ],
+    "side": [
+      168
+    ],
+    "entry": [
+      169
+    ],
+    "sub": [
+      170
+    ],
+    "top": [
+      173
+    ],
+    "drillstring;": [
+      176
+    ],
+    "standard": [
+      179
+    ],
+    "logging": [
+      181
+    ],
+    "\"intermediate": [
+      184
+    ],
+    "VSP\",": [
+      185
+    ],
+    "with": [
+      192,
+      225,
+      295,
+      378,
+      385,
+      530,
+      651,
+      738
+    ],
+    "set": [
+      194,
+      515
+    ],
+    "logs": [
+      197
+    ],
+    "right": [
+      198
+    ],
+    "before": [
+      199
+    ],
+    "setting": [
+      200
+    ],
+    "an": [
+      201,
+      357,
+      507,
+      702
+    ],
+    "intermediate": [
+      202,
+      222
+    ],
+    "casing,": [
+      203
+    ],
+    "predict": [
+      207
+    ],
+    "features": [
+      209
+    ],
+    "possible": [
+      211
+    ],
+    "overpressures": [
+      212
+    ],
+    "depth": [
+      214,
+      293
+    ],
+    "intervals": [
+      215
+    ],
+    "located": [
+      216
+    ],
+    "hundreds": [
+      217
+    ],
+    "meters": [
+      219
+    ],
+    "below": [
+      220
+    ],
+    "drilled": [
+      223
+    ],
+    "depth,": [
+      224
+    ],
+    "good": [
+      226
+    ],
+    "success": [
+      227,
+      312
+    ],
+    "some": [
+      229,
+      332
+    ],
+    "geographical": [
+      230
+    ],
+    "regions.": [
+      231
+    ],
+    "The": [
+      232,
+      409
+    ],
+    "recent": [
+      233
+    ],
+    "developments": [
+      234,
+      684,
+      750
+    ],
+    "achieved": [
+      235,
+      523,
+      751
+    ],
+    "IFP": [
+      237,
+      415
+    ],
+    "its": [
+      239
+    ],
+    "partners": [
+      240
+    ],
+    "greatly": [
+      243
+    ],
+    "benefited": [
+      244
+    ],
+    "from": [
+      245,
+      414,
+      655
+    ],
+    "availability": [
+      247
+    ],
+    "high": [
+      250
+    ],
+    "rate": [
+      251
+    ],
+    "real": [
+      253
+    ],
+    "time": [
+      254
+    ],
+    "transmission": [
+      256
+    ],
+    "system": [
+      257
+    ],
+    "called": [
+      260
+    ],
+    "TRAFOR,": [
+      261
+    ],
+    "allowing": [
+      262
+    ],
+    "for": [
+      263,
+      368,
+      396
+    ],
+    "fast": [
+      264
+    ],
+    "field": [
+      265,
+      521,
+      587,
+      627,
+      770
+    ],
+    "testing": [
+      266,
+      628
+    ],
+    "methods.": [
+      270
+    ],
+    "In": [
+      271,
+      589
+    ],
+    "past": [
+      273,
+      418
+    ],
+    "18": [
+      274
+    ],
+    "years": [
+      275
+    ],
+    "(1986-2003),": [
+      276
+    ],
+    "drillbit-SWD": [
+      278,
+      337,
+      411,
+      511,
+      538
+    ],
+    "practiced": [
+      280
+    ],
+    "industry,": [
+      283
+    ],
+    "continuous": [
+      287
+    ],
+    "application": [
+      288,
+      536,
+      672
+    ],
+    "over": [
+      289
+    ],
+    "whole": [
+      291
+    ],
+    "span,": [
+      294
+    ],
+    "only": [
+      296
+    ],
+    "few": [
+      298,
+      743
+    ],
+    "sensors,": [
+      300
+    ],
+    "without": [
+      302
+    ],
+    "measurement": [
+      305
+    ],
+    "technology": [
+      306
+    ],
+    "(MWD),": [
+      307
+    ],
+    "reached": [
+      308
+    ],
+    "very": [
+      310
+    ],
+    "mitigated": [
+      311
+    ],
+    "rate:": [
+      313
+    ],
+    "although": [
+      314
+    ],
+    "geophysicists": [
+      316
+    ],
+    "intrigued": [
+      319
+    ],
+    "large": [
+      322
+    ],
+    "amount": [
+      323
+    ],
+    "energy": [
+      326
+    ],
+    "imparted": [
+      327,
+      475
+    ],
+    "ground": [
+      330,
+      478
+    ],
+    "types": [
+      333
+    ],
+    "drillbits,": [
+      335
+    ],
+    "fails": [
+      339
+    ],
+    "yield": [
+      341
+    ],
+    "substantial": [
+      343
+    ],
+    "results": [
+      344
+    ],
+    "many": [
+      346
+    ],
+    "circumstances:": [
+      347
+    ],
+    "early": [
+      350
+    ],
+    "1990's,": [
+      351
+    ],
+    "industry": [
+      353
+    ],
+    "had": [
+      354
+    ],
+    "already": [
+      355
+    ],
+    "gathered": [
+      356
+    ],
+    "extensive": [
+      358
+    ],
+    "enough": [
+      359
+    ],
+    "experience": [
+      360
+    ],
+    "so": [
+      361
+    ],
+    "as": [
+      362,
+      635
+    ],
+    "define": [
+      364
+    ],
+    "necessary": [
+      366
+    ],
+    "conditions": [
+      367,
+      714
+    ],
+    "obtaining": [
+      369
+    ],
+    "drillbit": [
+      372,
+      597
+    ],
+    "signal:": [
+      373
+    ],
+    "formations": [
+      375
+    ],
+    "sufficiently": [
+      376
+    ],
+    "hard,": [
+      377
+    ],
+    "roller": [
+      380,
+      446
+    ],
+    "cone": [
+      381,
+      447
+    ],
+    "type": [
+      383
+    ],
+    "equipped": [
+      384
+    ],
+    "milled": [
+      386
+    ],
+    "teeth": [
+      387
+    ],
+    "inserts,": [
+      389
+    ],
+    "avoiding": [
+      391
+    ],
+    "lower": [
+      393
+    ],
+    "range": [
+      394
+    ],
+    "values": [
+      395
+    ],
+    "Weight": [
+      398
+    ],
+    "On": [
+      399
+    ],
+    "Bit": [
+      400
+    ],
+    "(WOB)": [
+      401
+    ],
+    "Round": [
+      403
+    ],
+    "Per": [
+      404
+    ],
+    "Minute": [
+      405
+    ],
+    "(RPM)": [
+      406
+    ],
+    "parameters.": [
+      408
+    ],
+    "innovative": [
+      410
+    ],
+    "input": [
+      413
+    ],
+    "decade": [
+      419
+    ],
+    "described": [
+      421
+    ],
+    "present": [
+      424,
+      722
+    ],
+    "paper": [
+      425,
+      723
+    ],
+    "in:": [
+      428
+    ],
+    "introducing": [
+      430
+    ],
+    "measurements": [
+      432
+    ],
+    "order": [
+      436,
+      466,
+      639
+    ],
+    "understand": [
+      438
+    ],
+    "process": [
+      441
+    ],
+    "emission": [
+      444
+    ],
+    "bits": [
+      449
+    ],
+    "mostly;": [
+      450
+    ],
+    "improving": [
+      452,
+      692
+    ],
+    "mechanical": [
+      454
+    ],
+    "design": [
+      455
+    ],
+    "BHA,": [
+      458
+    ],
+    "integrating": [
+      460,
+      562
+    ],
+    "shock": [
+      462,
+      716
+    ],
+    "absorber": [
+      463
+    ],
+    "element": [
+      464
+    ],
+    "optimize": [
+      468
+    ],
+    "quality": [
+      470,
+      643,
+      667
+    ],
+    "signals": [
+      474,
+      654
+    ],
+    "into": [
+      476
+    ],
+    "reduce": [
+      481
+    ],
+    "amplitudes": [
+      483
+    ],
+    "undesirable": [
+      485
+    ],
+    "secondary": [
+      486
+    ],
+    "emissions,": [
+      488
+    ],
+    "considerably": [
+      490
+    ],
+    "complicate": [
+      491
+    ],
+    "subsequent": [
+      493
+    ],
+    "processing": [
+      495
+    ],
+    "blur": [
+      497
+    ],
+    "final": [
+      499
+    ],
+    "image;": [
+      501
+    ],
+    "designing,": [
+      503
+    ],
+    "manufacturing": [
+      504
+    ],
+    "validating": [
+      506
+    ],
+    "operational": [
+      508,
+      557
+    ],
+    "MWD": [
+      509,
+      578
+    ],
+    "assisted": [
+      510
+    ],
+    "successive,": [
+      517
+    ],
+    "complete": [
+      518
+    ],
+    "severe": [
+      520,
+      623
+    ],
+    "tests": [
+      522
+    ],
+    "several": [
+      525,
+      610
+    ],
+    "R&D": [
+      526
+    ],
+    "projects": [
+      527
+    ],
+    "partnership": [
+      529
+    ],
+    "industry;": [
+      532
+    ],
+    "restricting": [
+      534
+    ],
+    "reverse": [
+      542
+    ],
+    "walkaway": [
+      544
+    ],
+    "configuration": [
+      545
+    ],
+    "applied": [
+      548,
+      585,
+      594
+    ],
+    "geological-geographic": [
+      550
+    ],
+    "areas": [
+      551
+    ],
+    "ensuring": [
+      552
+    ],
+    "best": [
+      554
+    ],
+    "chances": [
+      555
+    ],
+    "economic": [
+      559
+    ],
+    "success;": [
+      560
+    ],
+    "knowledge": [
+      564
+    ],
+    "know-how": [
+      566
+    ],
+    "multiple": [
+      568
+    ],
+    "categories": [
+      569
+    ],
+    "specialists": [
+      571
+    ],
+    "various": [
+      574
+    ],
+    "domains": [
+      575,
+      763
+    ],
+    "seismic,": [
+      580
+    ],
+    "involved": [
+      581
+    ],
+    "multidisciplinary": [
+      584
+    ],
+    "operations.": [
+      588
+    ],
+    "similar": [
+      591
+    ],
+    "approach": [
+      592
+    ],
+    "successfully": [
+      593
+    ],
+    "developments,": [
+      599
+    ],
+    "VSP-while": [
+      603
+    ],
+    "has": [
+      605
+    ],
+    "investigated,": [
+      607
+    ],
+    "resulting": [
+      608
+    ],
+    "advanced": [
+      611
+    ],
+    "achievements,": [
+      612
+    ],
+    "namely:": [
+      613
+    ],
+    "definition": [
+      615
+    ],
+    "able": [
+      620,
+      707
+    ],
+    "withstand": [
+      622
+    ],
+    "conditions;": [
+      625
+    ],
+    "feasibility": [
+      630
+    ],
+    "VSP-WD": [
+      633,
+      675
+    ],
+    "method": [
+      634
+    ],
+    "whole,": [
+      637
+    ],
+    "evaluate": [
+      641
+    ],
+    "recorded": [
+      646
+    ],
+    "comparison": [
+      650
+    ],
+    "equivalent": [
+      653
+    ],
+    "conventional": [
+      657
+    ],
+    "technique.": [
+      659
+    ],
+    "Depending": [
+      660
+    ],
+    "level": [
+      663
+    ],
+    "obtained,": [
+      668
+    ],
+    "domain": [
+      670
+    ],
+    "priorities": [
+      679
+    ],
+    "successive": [
+      682
+    ],
+    "technological": [
+      683
+    ],
+    "implemented": [
+      687
+    ],
+    "defined;": [
+      690
+    ],
+    "precision": [
+      694
+    ],
+    "clock": [
+      697
+    ],
+    "embarked": [
+      700
+    ],
+    "industrial": [
+      703,
+      755
+    ],
+    "wireless": [
+      704
+    ],
+    "recorder": [
+      706
+    ],
+    "sustain": [
+      709
+    ],
+    "rough": [
+      711
+    ],
+    "temperature": [
+      718
+    ],
+    "variations.": [
+      719
+    ],
+    "Last,": [
+      720
+    ],
+    "overviews": [
+      724
+    ],
+    "emergence": [
+      726
+    ],
+    "brief": [
+      732
+    ],
+    "preliminary": [
+      733
+    ],
+    "history,": [
+      734
+    ],
+    "ended": [
+      737
+    ],
+    "expression": [
+      740
+    ],
+    "prospective": [
+      744
+    ],
+    "views": [
+      745
+    ],
+    "taking": [
+      746
+    ],
+    "account": [
+      748
+    ],
+    "other": [
+      753
+    ],
+    "prominent": [
+      754
+    ],
+    "organizations": [
+      756
+    ],
+    "active": [
+      757
+    ],
+    "difficult": [
+      760
+    ],
+    "promising": [
+      762
+    ],
+    "practice.": [
+      771
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2026-09-07T09:17:50.787605",
+  "created_date": "2025-10-10T00:00:00"
+}

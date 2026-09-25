@@ -1,0 +1,1053 @@
+{
+  "id": "https://openalex.org/W1967009226",
+  "doi": "https://doi.org/10.1190/1.1500385",
+  "title": "Seismic trace interpolation in the f-x-y domain",
+  "display_name": "Seismic trace interpolation in the f-x-y domain",
+  "publication_year": 2002,
+  "publication_date": "2002-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1967009226",
+    "doi": "https://doi.org/10.1190/1.1500385",
+    "mag": "1967009226"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.1500385",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.1500385",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S106174089",
+      "display_name": "Geophysics",
+      "issn_l": "0016-8033",
+      "issn": [
+        "0016-8033",
+        "1942-2156"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5044263376",
+        "display_name": "Yanghua Wang",
+        "orcid": "https://orcid.org/0000-0002-1044-4348"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210135721",
+          "display_name": "Horizon House",
+          "ror": "https://ror.org/02tr9yc56",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210135721"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Yanghua Wang",
+      "raw_affiliation_strings": [
+        "∗Robertson Research International Ltd., Horizon House, Azalea Drive, Swanley, Kent BR8 8JR, United Kingdom. E-mail: yanghua@geo.robresint.co.uk",
+        "Robertson Research International Ltd., Horizon House, Azalea Drive, Swanley, Kent BR8 8JR, United Kingdom. E-mail: "
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "∗Robertson Research International Ltd., Horizon House, Azalea Drive, Swanley, Kent BR8 8JR, United Kingdom. E-mail: yanghua@geo.robresint.co.uk",
+          "institution_ids": [
+            "https://openalex.org/I4210135721"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Robertson Research International Ltd., Horizon House, Azalea Drive, Swanley, Kent BR8 8JR, United Kingdom. E-mail: ",
+          "institution_ids": [
+            "https://openalex.org/I4210135721"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5044263376"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210135721"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 1.4363,
+  "has_fulltext": false,
+  "cited_by_count": 93,
+  "citation_normalized_percentile": {
+    "value": 0.76694168,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "67",
+    "issue": "4",
+    "first_page": "1232",
+    "last_page": "1239"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9980999827384949,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11801",
+      "display_name": "Reservoir Engineering and Simulation Methods",
+      "score": 0.9976000189781189,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/interpolation",
+      "display_name": "Interpolation (computer graphics)",
+      "score": 0.7631427645683289
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-trace",
+      "display_name": "Seismic trace",
+      "score": 0.7424144148826599
+    },
+    {
+      "id": "https://openalex.org/keywords/trace",
+      "display_name": "TRACE (psycholinguistics)",
+      "score": 0.6243646740913391
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.5735918283462524
+    },
+    {
+      "id": "https://openalex.org/keywords/frequency-domain",
+      "display_name": "Frequency domain",
+      "score": 0.5443025827407837
+    },
+    {
+      "id": "https://openalex.org/keywords/bilinear-interpolation",
+      "display_name": "Bilinear interpolation",
+      "score": 0.5062829256057739
+    },
+    {
+      "id": "https://openalex.org/keywords/masking",
+      "display_name": "Masking (illustration)",
+      "score": 0.5015583038330078
+    },
+    {
+      "id": "https://openalex.org/keywords/trilinear-interpolation",
+      "display_name": "Trilinear interpolation",
+      "score": 0.4875473380088806
+    },
+    {
+      "id": "https://openalex.org/keywords/azimuth",
+      "display_name": "Azimuth",
+      "score": 0.4838027358055115
+    },
+    {
+      "id": "https://openalex.org/keywords/offset",
+      "display_name": "Offset (computer science)",
+      "score": 0.4692150354385376
+    },
+    {
+      "id": "https://openalex.org/keywords/linear-interpolation",
+      "display_name": "Linear interpolation",
+      "score": 0.4547819197177887
+    },
+    {
+      "id": "https://openalex.org/keywords/domain",
+      "display_name": "Domain (mathematical analysis)",
+      "score": 0.4461544156074524
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.43503713607788086
+    },
+    {
+      "id": "https://openalex.org/keywords/multivariate-interpolation",
+      "display_name": "Multivariate interpolation",
+      "score": 0.41948843002319336
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.3818577826023102
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematical-analysis",
+      "display_name": "Mathematical analysis",
+      "score": 0.2100622057914734
+    },
+    {
+      "id": "https://openalex.org/keywords/geometry",
+      "display_name": "Geometry",
+      "score": 0.18605157732963562
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.11828461289405823
+    },
+    {
+      "id": "https://openalex.org/keywords/pattern-recognition",
+      "display_name": "Pattern recognition (psychology)",
+      "score": 0.11217096447944641
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-vision",
+      "display_name": "Computer vision",
+      "score": 0.07494485378265381
+    },
+    {
+      "id": "https://openalex.org/keywords/image",
+      "display_name": "Image (mathematics)",
+      "score": 0.0728941261768341
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C137800194",
+      "wikidata": "https://www.wikidata.org/wiki/Q11713455",
+      "display_name": "Interpolation (computer graphics)",
+      "level": 3,
+      "score": 0.7631427645683289
+    },
+    {
+      "id": "https://openalex.org/C25227454",
+      "wikidata": "https://www.wikidata.org/wiki/Q7446975",
+      "display_name": "Seismic trace",
+      "level": 3,
+      "score": 0.7424144148826599
+    },
+    {
+      "id": "https://openalex.org/C75291252",
+      "wikidata": "https://www.wikidata.org/wiki/Q1315756",
+      "display_name": "TRACE (psycholinguistics)",
+      "level": 2,
+      "score": 0.6243646740913391
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.5735918283462524
+    },
+    {
+      "id": "https://openalex.org/C19118579",
+      "wikidata": "https://www.wikidata.org/wiki/Q786423",
+      "display_name": "Frequency domain",
+      "level": 2,
+      "score": 0.5443025827407837
+    },
+    {
+      "id": "https://openalex.org/C205203396",
+      "wikidata": "https://www.wikidata.org/wiki/Q612143",
+      "display_name": "Bilinear interpolation",
+      "level": 2,
+      "score": 0.5062829256057739
+    },
+    {
+      "id": "https://openalex.org/C2777402240",
+      "wikidata": "https://www.wikidata.org/wiki/Q6783436",
+      "display_name": "Masking (illustration)",
+      "level": 2,
+      "score": 0.5015583038330078
+    },
+    {
+      "id": "https://openalex.org/C188325010",
+      "wikidata": "https://www.wikidata.org/wiki/Q861176",
+      "display_name": "Trilinear interpolation",
+      "level": 4,
+      "score": 0.4875473380088806
+    },
+    {
+      "id": "https://openalex.org/C159737794",
+      "wikidata": "https://www.wikidata.org/wiki/Q124274",
+      "display_name": "Azimuth",
+      "level": 2,
+      "score": 0.4838027358055115
+    },
+    {
+      "id": "https://openalex.org/C175291020",
+      "wikidata": "https://www.wikidata.org/wiki/Q1156822",
+      "display_name": "Offset (computer science)",
+      "level": 2,
+      "score": 0.4692150354385376
+    },
+    {
+      "id": "https://openalex.org/C171836373",
+      "wikidata": "https://www.wikidata.org/wiki/Q2266329",
+      "display_name": "Linear interpolation",
+      "level": 3,
+      "score": 0.4547819197177887
+    },
+    {
+      "id": "https://openalex.org/C36503486",
+      "wikidata": "https://www.wikidata.org/wiki/Q11235244",
+      "display_name": "Domain (mathematical analysis)",
+      "level": 2,
+      "score": 0.4461544156074524
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.43503713607788086
+    },
+    {
+      "id": "https://openalex.org/C203332170",
+      "wikidata": "https://www.wikidata.org/wiki/Q6334079",
+      "display_name": "Multivariate interpolation",
+      "level": 3,
+      "score": 0.41948843002319336
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.3818577826023102
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.2100622057914734
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.18605157732963562
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.11828461289405823
+    },
+    {
+      "id": "https://openalex.org/C153180895",
+      "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+      "display_name": "Pattern recognition (psychology)",
+      "level": 2,
+      "score": 0.11217096447944641
+    },
+    {
+      "id": "https://openalex.org/C31972630",
+      "wikidata": "https://www.wikidata.org/wiki/Q844240",
+      "display_name": "Computer vision",
+      "level": 1,
+      "score": 0.07494485378265381
+    },
+    {
+      "id": "https://openalex.org/C115961682",
+      "wikidata": "https://www.wikidata.org/wiki/Q860623",
+      "display_name": "Image (mathematics)",
+      "level": 2,
+      "score": 0.0728941261768341
+    },
+    {
+      "id": "https://openalex.org/C142362112",
+      "wikidata": "https://www.wikidata.org/wiki/Q735",
+      "display_name": "Art",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C47432892",
+      "wikidata": "https://www.wikidata.org/wiki/Q831390",
+      "display_name": "Wavelet",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C153349607",
+      "wikidata": "https://www.wikidata.org/wiki/Q36649",
+      "display_name": "Visual arts",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C41895202",
+      "wikidata": "https://www.wikidata.org/wiki/Q8162",
+      "display_name": "Linguistics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C138885662",
+      "wikidata": "https://www.wikidata.org/wiki/Q5891",
+      "display_name": "Philosophy",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.1500385",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.1500385",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S106174089",
+        "display_name": "Geophysics",
+        "issn_l": "0016-8033",
+        "issn": [
+          "0016-8033",
+          "1942-2156"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysics",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:spiral.imperial.ac.uk:10044/1/31133",
+      "is_oa": false,
+      "landing_page_url": "http://hdl.handle.net/10044/1/31133",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401396",
+        "display_name": "Spiral (Imperial College London)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I47508984",
+        "host_organization_name": "Imperial College London",
+        "host_organization_lineage": [
+          "https://openalex.org/I47508984"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "1239",
+      "raw_type": "Journal Article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 11,
+  "referenced_works": [
+    "https://openalex.org/W1593527211",
+    "https://openalex.org/W1981607562",
+    "https://openalex.org/W1996098514",
+    "https://openalex.org/W2021203793",
+    "https://openalex.org/W2022605060",
+    "https://openalex.org/W2023503936",
+    "https://openalex.org/W2029344852",
+    "https://openalex.org/W2038795325",
+    "https://openalex.org/W2150456570",
+    "https://openalex.org/W2171132194",
+    "https://openalex.org/W2801783184"
+  ],
+  "related_works": [
+    "https://openalex.org/W2350111338",
+    "https://openalex.org/W2377616530",
+    "https://openalex.org/W2366182368",
+    "https://openalex.org/W3004726950",
+    "https://openalex.org/W2736314017",
+    "https://openalex.org/W2012595140",
+    "https://openalex.org/W2585600380",
+    "https://openalex.org/W2551182204",
+    "https://openalex.org/W2161886027",
+    "https://openalex.org/W1606124777"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "Seismic": [
+      1
+    ],
+    "trace": [
+      2,
+      24,
+      56,
+      66
+    ],
+    "interpolation": [
+      3,
+      25,
+      67,
+      96,
+      129,
+      164
+    ],
+    "is": [
+      4,
+      27,
+      68,
+      77,
+      123
+    ],
+    "implemented": [
+      5
+    ],
+    "as": [
+      6
+    ],
+    "a": [
+      7,
+      40,
+      50,
+      54,
+      135
+    ],
+    "2-D": [
+      8,
+      147
+    ],
+    "(x,": [
+      9
+    ],
+    "y)": [
+      10
+    ],
+    "spatial": [
+      11
+    ],
+    "prediction,": [
+      12
+    ],
+    "performed": [
+      13
+    ],
+    "separately": [
+      14
+    ],
+    "on": [
+      15,
+      29
+    ],
+    "each": [
+      16
+    ],
+    "frequency": [
+      17,
+      42,
+      52,
+      88
+    ],
+    "(f)": [
+      18
+    ],
+    "slice.": [
+      19
+    ],
+    "This": [
+      20
+    ],
+    "so-called": [
+      21
+    ],
+    "f-x-y": [
+      22,
+      73
+    ],
+    "domain": [
+      23,
+      65
+    ],
+    "method": [
+      26,
+      122,
+      130
+    ],
+    "based": [
+      28
+    ],
+    "the": [
+      30,
+      33,
+      63,
+      72,
+      81,
+      86,
+      92,
+      99,
+      102,
+      115,
+      119,
+      128,
+      160,
+      163
+    ],
+    "relation": [
+      31
+    ],
+    "that": [
+      32
+    ],
+    "linear": [
+      34
+    ],
+    "prediction": [
+      35,
+      113,
+      121
+    ],
+    "(LP)": [
+      36
+    ],
+    "operator": [
+      37
+    ],
+    "estimated": [
+      38
+    ],
+    "at": [
+      39,
+      49
+    ],
+    "given": [
+      41,
+      61
+    ],
+    "may": [
+      43
+    ],
+    "be": [
+      44,
+      132,
+      144
+    ],
+    "used": [
+      45
+    ],
+    "to": [
+      46,
+      71,
+      90,
+      134,
+      146
+    ],
+    "predict": [
+      47
+    ],
+    "data": [
+      48,
+      82,
+      152,
+      157
+    ],
+    "higher": [
+      51
+    ],
+    "but": [
+      53,
+      118
+    ],
+    "smaller": [
+      55
+    ],
+    "spacing.": [
+      57
+    ],
+    "The": [
+      58,
+      75
+    ],
+    "relationship": [
+      59
+    ],
+    "originally": [
+      60
+    ],
+    "for": [
+      62,
+      150
+    ],
+    "f-x": [
+      64
+    ],
+    "successfully": [
+      69
+    ],
+    "extended": [
+      70
+    ],
+    "domain.": [
+      74
+    ],
+    "extension": [
+      76
+    ],
+    "achieved": [
+      78
+    ],
+    "by": [
+      79
+    ],
+    "masking": [
+      80
+    ],
+    "samples": [
+      83
+    ],
+    "selectively": [
+      84
+    ],
+    "from": [
+      85
+    ],
+    "input": [
+      87
+    ],
+    "slice": [
+      89
+    ],
+    "design": [
+      91
+    ],
+    "LP": [
+      93
+    ],
+    "operators.": [
+      94
+    ],
+    "Two": [
+      95
+    ],
+    "algorithms": [
+      97
+    ],
+    "using": [
+      98
+    ],
+    "full-step": [
+      100
+    ],
+    "and": [
+      101,
+      155
+    ],
+    "fractional-step": [
+      103,
+      120
+    ],
+    "predictions,": [
+      104
+    ],
+    "respectively,": [
+      105
+    ],
+    "are": [
+      106
+    ],
+    "developed.": [
+      107
+    ],
+    "Both": [
+      108
+    ],
+    "methods": [
+      109
+    ],
+    "use": [
+      110
+    ],
+    "an": [
+      111
+    ],
+    "all-azimuth": [
+      112
+    ],
+    "in": [
+      114
+    ],
+    "x-y": [
+      116
+    ],
+    "domain,": [
+      117
+    ],
+    "computationally": [
+      124
+    ],
+    "more": [
+      125
+    ],
+    "efficient.": [
+      126
+    ],
+    "While": [
+      127
+    ],
+    "can": [
+      131,
+      142
+    ],
+    "applied": [
+      133,
+      145
+    ],
+    "common-offset": [
+      136
+    ],
+    "cube": [
+      137
+    ],
+    "of": [
+      138,
+      162
+    ],
+    "3-D": [
+      139
+    ],
+    "seismic,": [
+      140
+    ],
+    "it": [
+      141
+    ],
+    "also": [
+      143
+    ],
+    "seismic": [
+      148
+    ],
+    "traces": [
+      149
+    ],
+    "prestack": [
+      151
+    ],
+    "processing.": [
+      153
+    ],
+    "Synthetic": [
+      154
+    ],
+    "real": [
+      156
+    ],
+    "examples": [
+      158
+    ],
+    "demonstrate": [
+      159
+    ],
+    "capability": [
+      161
+    ],
+    "method.": [
+      165
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 5
+    }
+  ],
+  "updated_date": "2026-09-05T08:02:43.246662",
+  "created_date": "2025-10-10T00:00:00"
+}

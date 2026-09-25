@@ -1,0 +1,1228 @@
+{
+  "id": "https://openalex.org/W1796354365",
+  "doi": "https://doi.org/10.1190/geo2015-0242.1",
+  "title": "Surface microseismic imaging in the presence of high-velocity lithologic layers",
+  "display_name": "Surface microseismic imaging in the presence of high-velocity lithologic layers",
+  "publication_year": 2015,
+  "publication_date": "2015-09-23",
+  "ids": {
+    "openalex": "https://openalex.org/W1796354365",
+    "doi": "https://doi.org/10.1190/geo2015-0242.1",
+    "mag": "1796354365"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/geo2015-0242.1",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/geo2015-0242.1",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S106174089",
+      "display_name": "Geophysics",
+      "issn_l": "0016-8033",
+      "issn": [
+        "0016-8033",
+        "1942-2156"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5055970133",
+        "display_name": "David C. Price",
+        "orcid": "https://orcid.org/0000-0003-0985-7855",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-0985-7855"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130828816",
+          "display_name": "University of Leeds",
+          "ror": "https://ror.org/024mrxd33",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I130828816"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "David Price",
+      "raw_affiliation_strings": [
+        "University of Leeds 1 , School of Earth and Environment, Leeds, . E-mail: ee12d2p@leeds.ac.uk ; d.angus@leeds.ac.uk ",
+        "University of Leeds, School of Earth and Environment, Leeds, UK. E-mail: ;"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Leeds 1 , School of Earth and Environment, Leeds, . E-mail: ee12d2p@leeds.ac.uk ; d.angus@leeds.ac.uk ",
+          "institution_ids": [
+            "https://openalex.org/I130828816"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Leeds, School of Earth and Environment, Leeds, UK. E-mail: ;",
+          "institution_ids": [
+            "https://openalex.org/I130828816"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5082689325",
+        "display_name": "Doug A. Angus",
+        "orcid": "https://orcid.org/0000-0003-0734-7835",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-0734-7835"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130828816",
+          "display_name": "University of Leeds",
+          "ror": "https://ror.org/024mrxd33",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I130828816"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Doug Angus",
+      "raw_affiliation_strings": [
+        "University of Leeds 1 , School of Earth and Environment, Leeds, . E-mail: ee12d2p@leeds.ac.uk ; d.angus@leeds.ac.uk ",
+        "University of Leeds, School of Earth and Environment, Leeds, UK. E-mail: ;"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Leeds 1 , School of Earth and Environment, Leeds, . E-mail: ee12d2p@leeds.ac.uk ; d.angus@leeds.ac.uk ",
+          "institution_ids": [
+            "https://openalex.org/I130828816"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Leeds, School of Earth and Environment, Leeds, UK. E-mail: ;",
+          "institution_ids": [
+            "https://openalex.org/I130828816"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5110456091",
+        "display_name": "Kit Chambers",
+        "orcid": "https://orcid.org/0000-0002-3017-5288",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-3017-5288"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36527812",
+          "display_name": "Halliburton (United Kingdom)",
+          "ror": "https://ror.org/01jn7ba52",
+          "country_code": "GB",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I36527812",
+            "https://openalex.org/I4210137549"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kit Chambers",
+      "raw_affiliation_strings": [
+        "Pinnacle — A Halliburton Service 2 , Cornwall, . E-mail: kit.chambers@pinntech.com ",
+        "Pinnacle — A Halliburton Service, Cornwall, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Pinnacle — A Halliburton Service 2 , Cornwall, . E-mail: kit.chambers@pinntech.com ",
+          "institution_ids": [
+            "https://openalex.org/I36527812"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Pinnacle — A Halliburton Service, Cornwall, UK",
+          "institution_ids": [
+            "https://openalex.org/I36527812"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5083360052",
+        "display_name": "Glenn A Jones",
+        "orcid": "https://orcid.org/0000-0002-7691-332X",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-7691-332X"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36527812",
+          "display_name": "Halliburton (United Kingdom)",
+          "ror": "https://ror.org/01jn7ba52",
+          "country_code": "GB",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I36527812",
+            "https://openalex.org/I4210137549"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I47508984",
+          "display_name": "Imperial College London",
+          "ror": "https://ror.org/041kmwe10",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I47508984"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Glenn Jones",
+      "raw_affiliation_strings": [
+        "Imperial College 3 Formerly ; presently , Department of Mechanical Engineering, London, . E-mail: glenn.jones@imperial.ac.uk ",
+        "Pinnacle — A Halliburton Service 3 Formerly ; presently , Department of Mechanical Engineering, London, . E-mail: glenn.jones@imperial.ac.uk ",
+        "Formerly Pinnacle — A Halliburton Service; presently Imperial College, Department of Mechanical Engineering, London, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Imperial College 3 Formerly ; presently , Department of Mechanical Engineering, London, . E-mail: glenn.jones@imperial.ac.uk ",
+          "institution_ids": [
+            "https://openalex.org/I47508984"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Pinnacle — A Halliburton Service 3 Formerly ; presently , Department of Mechanical Engineering, London, . E-mail: glenn.jones@imperial.ac.uk ",
+          "institution_ids": [
+            "https://openalex.org/I36527812"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Formerly Pinnacle — A Halliburton Service; presently Imperial College, Department of Mechanical Engineering, London, UK",
+          "institution_ids": [
+            "https://openalex.org/I36527812"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.9657,
+  "has_fulltext": false,
+  "cited_by_count": 9,
+  "citation_normalized_percentile": {
+    "value": 0.73476678,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 96
+  },
+  "biblio": {
+    "volume": "80",
+    "issue": "6",
+    "first_page": "WC117",
+    "last_page": "WC131"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13018",
+      "display_name": "Seismology and Earthquake Studies",
+      "score": 0.9991999864578247,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/microseism",
+      "display_name": "Microseism",
+      "score": 0.9324852228164673
+    },
+    {
+      "id": "https://openalex.org/keywords/coda",
+      "display_name": "Coda",
+      "score": 0.8624574542045593
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.7634439468383789
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.6571225523948669
+    },
+    {
+      "id": "https://openalex.org/keywords/anhydrite",
+      "display_name": "Anhydrite",
+      "score": 0.6243058443069458
+    },
+    {
+      "id": "https://openalex.org/keywords/paleontology",
+      "display_name": "Paleontology",
+      "score": 0.07035452127456665
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C7266685",
+      "wikidata": "https://www.wikidata.org/wiki/Q1303250",
+      "display_name": "Microseism",
+      "level": 2,
+      "score": 0.9324852228164673
+    },
+    {
+      "id": "https://openalex.org/C3962253",
+      "wikidata": "https://www.wikidata.org/wiki/Q852466",
+      "display_name": "Coda",
+      "level": 2,
+      "score": 0.8624574542045593
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.7634439468383789
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.6571225523948669
+    },
+    {
+      "id": "https://openalex.org/C2776044767",
+      "wikidata": "https://www.wikidata.org/wiki/Q105439",
+      "display_name": "Anhydrite",
+      "level": 3,
+      "score": 0.6243058443069458
+    },
+    {
+      "id": "https://openalex.org/C151730666",
+      "wikidata": "https://www.wikidata.org/wiki/Q7205",
+      "display_name": "Paleontology",
+      "level": 1,
+      "score": 0.07035452127456665
+    },
+    {
+      "id": "https://openalex.org/C2779229104",
+      "wikidata": "https://www.wikidata.org/wiki/Q82658",
+      "display_name": "Gypsum",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1190/geo2015-0242.1",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/geo2015-0242.1",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S106174089",
+        "display_name": "Geophysics",
+        "issn_l": "0016-8033",
+        "issn": [
+          "0016-8033",
+          "1942-2156"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysics",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:eprints.whiterose.ac.uk:87924",
+      "is_oa": false,
+      "landing_page_url": "http://eprints.whiterose.ac.uk/87924/1/GEO-2015.pdf",
+      "pdf_url": "http://eprints.whiterose.ac.uk/87924/1/GEO-2015.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400854",
+        "display_name": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I2800616092",
+        "host_organization_name": "White Rose University Consortium",
+        "host_organization_lineage": [
+          "https://openalex.org/I2800616092"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "Article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/7",
+      "display_name": "Affordable and clean energy",
+      "score": 0.46000000834465027
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 45,
+  "referenced_works": [
+    "https://openalex.org/W339578939",
+    "https://openalex.org/W612549454",
+    "https://openalex.org/W1528846701",
+    "https://openalex.org/W1558039694",
+    "https://openalex.org/W1566401598",
+    "https://openalex.org/W1582654070",
+    "https://openalex.org/W1607553197",
+    "https://openalex.org/W1607795755",
+    "https://openalex.org/W1615989357",
+    "https://openalex.org/W1621001826",
+    "https://openalex.org/W1940418797",
+    "https://openalex.org/W1991925114",
+    "https://openalex.org/W2008645909",
+    "https://openalex.org/W2024560068",
+    "https://openalex.org/W2028005832",
+    "https://openalex.org/W2030308632",
+    "https://openalex.org/W2041385194",
+    "https://openalex.org/W2064705096",
+    "https://openalex.org/W2079924776",
+    "https://openalex.org/W2083826621",
+    "https://openalex.org/W2100344690",
+    "https://openalex.org/W2103897300",
+    "https://openalex.org/W2105140348",
+    "https://openalex.org/W2105333540",
+    "https://openalex.org/W2106148868",
+    "https://openalex.org/W2121544879",
+    "https://openalex.org/W2134439971",
+    "https://openalex.org/W2135588801",
+    "https://openalex.org/W2140987854",
+    "https://openalex.org/W2149614061",
+    "https://openalex.org/W2150333845",
+    "https://openalex.org/W2152527053",
+    "https://openalex.org/W2155145515",
+    "https://openalex.org/W2161761720",
+    "https://openalex.org/W2166212651",
+    "https://openalex.org/W2169211899",
+    "https://openalex.org/W2177057009",
+    "https://openalex.org/W2208666495",
+    "https://openalex.org/W2231175683",
+    "https://openalex.org/W2316601257",
+    "https://openalex.org/W2524115153",
+    "https://openalex.org/W3098825568",
+    "https://openalex.org/W3123529837",
+    "https://openalex.org/W3125520264",
+    "https://openalex.org/W4245770584"
+  ],
+  "related_works": [
+    "https://openalex.org/W2047487744",
+    "https://openalex.org/W2101702422",
+    "https://openalex.org/W2130115884",
+    "https://openalex.org/W306191460",
+    "https://openalex.org/W159997555",
+    "https://openalex.org/W2389879838",
+    "https://openalex.org/W270592066",
+    "https://openalex.org/W2289604260",
+    "https://openalex.org/W2095055632",
+    "https://openalex.org/W2348058705"
+  ],
+  "abstract_inverted_index": {
+    "ABSTRACT": [
+      0
+    ],
+    "Surface": [
+      1
+    ],
+    "microseismic": [
+      2,
+      45,
+      66,
+      84,
+      111,
+      180
+    ],
+    "monitoring": [
+      3
+    ],
+    "above": [
+      4
+    ],
+    "regions": [
+      5
+    ],
+    "containing": [
+      6
+    ],
+    "high-velocity": [
+      7,
+      141,
+      245
+    ],
+    "units": [
+      8
+    ],
+    "will": [
+      9
+    ],
+    "be": [
+      10,
+      198
+    ],
+    "influenced": [
+      11
+    ],
+    "by": [
+      12,
+      69,
+      244
+    ],
+    "a": [
+      13,
+      73,
+      115,
+      125,
+      151,
+      250,
+      258
+    ],
+    "reduction": [
+      14,
+      56,
+      163,
+      252,
+      259
+    ],
+    "in": [
+      15,
+      29,
+      98,
+      156,
+      164,
+      178,
+      253,
+      260,
+      271
+    ],
+    "the": [
+      16,
+      38,
+      50,
+      55,
+      58,
+      70,
+      109,
+      138,
+      147,
+      165,
+      176,
+      179,
+      186,
+      191,
+      206,
+      214,
+      223,
+      231,
+      241,
+      272
+    ],
+    "effective": [
+      17,
+      59
+    ],
+    "array": [
+      18,
+      60
+    ],
+    "aperture": [
+      19,
+      61,
+      149
+    ],
+    "and": [
+      20,
+      31,
+      62,
+      80,
+      117,
+      124,
+      162,
+      195,
+      219,
+      262,
+      266
+    ],
+    "contain": [
+      21
+    ],
+    "significant": [
+      22,
+      251
+    ],
+    "seismic": [
+      23
+    ],
+    "coda": [
+      24,
+      64,
+      177
+    ],
+    "due": [
+      25,
+      53
+    ],
+    "to": [
+      26,
+      43,
+      54,
+      107,
+      237
+    ],
+    "an": [
+      27,
+      94
+    ],
+    "increase": [
+      28
+    ],
+    "reflected": [
+      30
+    ],
+    "converted": [
+      32,
+      267
+    ],
+    "wave": [
+      33
+    ],
+    "energy,": [
+      34
+    ],
+    "which": [
+      35,
+      154,
+      210
+    ],
+    "can": [
+      36,
+      182,
+      197
+    ],
+    "influence": [
+      37
+    ],
+    "capability": [
+      39
+    ],
+    "of": [
+      40,
+      57,
+      72,
+      140,
+      150,
+      159,
+      167,
+      222,
+      255,
+      264
+    ],
+    "surface": [
+      41,
+      152
+    ],
+    "arrays": [
+      42
+    ],
+    "image": [
+      44
+    ],
+    "events.": [
+      46,
+      112
+    ],
+    "We": [
+      47,
+      77,
+      113,
+      134
+    ],
+    "have": [
+      48,
+      78,
+      135,
+      173
+    ],
+    "examined": [
+      49
+    ],
+    "imaging": [
+      51,
+      103,
+      122,
+      193,
+      225,
+      274
+    ],
+    "difficulties": [
+      52
+    ],
+    "increased": [
+      63
+    ],
+    "within": [
+      65
+    ],
+    "data": [
+      67,
+      91,
+      181
+    ],
+    "caused": [
+      68,
+      243
+    ],
+    "presence": [
+      71,
+      139
+    ],
+    "fast": [
+      74
+    ],
+    "anhydrite": [
+      75,
+      100
+    ],
+    "layer.": [
+      76
+    ],
+    "generated": [
+      79
+    ],
+    "used": [
+      81,
+      106
+    ],
+    "finite-difference,": [
+      82
+    ],
+    "full-waveform": [
+      83
+    ],
+    "synthetics": [
+      85
+    ],
+    "derived": [
+      86
+    ],
+    "from": [
+      87,
+      93,
+      185
+    ],
+    "1D": [
+      88
+    ],
+    "sonic": [
+      89
+    ],
+    "log": [
+      90
+    ],
+    "taken": [
+      92
+    ],
+    "unconventional": [
+      95
+    ],
+    "shale": [
+      96
+    ],
+    "reservoir": [
+      97
+    ],
+    "complex": [
+      99
+    ],
+    "geology.": [
+      101
+    ],
+    "Two": [
+      102
+    ],
+    "techniques": [
+      104
+    ],
+    "are": [
+      105
+    ],
+    "locate": [
+      108
+    ],
+    "synthetic": [
+      110
+    ],
+    "use": [
+      114
+    ],
+    "simplistic": [
+      116
+    ],
+    "easily": [
+      118
+    ],
+    "reproducible": [
+      119
+    ],
+    "standard": [
+      120
+    ],
+    "diffraction": [
+      121
+    ],
+    "procedure": [
+      123
+    ],
+    "more": [
+      126,
+      232
+    ],
+    "sophisticated": [
+      127,
+      233
+    ],
+    "technique,": [
+      128
+    ],
+    "Moment": [
+      129
+    ],
+    "Tensor": [
+      130
+    ],
+    "Microseismic": [
+      131
+    ],
+    "Imaging™": [
+      132
+    ],
+    "(MTMI™).": [
+      133
+    ],
+    "confirmed": [
+      136
+    ],
+    "that": [
+      137,
+      175,
+      228
+    ],
+    "layers,": [
+      142,
+      246
+    ],
+    "such": [
+      143
+    ],
+    "as": [
+      144,
+      200
+    ],
+    "anhydrite,": [
+      145
+    ],
+    "reduce": [
+      146
+    ],
+    "overall": [
+      148
+    ],
+    "array,": [
+      153
+    ],
+    "result": [
+      155
+    ],
+    "poor": [
+      157
+    ],
+    "resolution": [
+      158,
+      254
+    ],
+    "imaged": [
+      160,
+      256
+    ],
+    "events": [
+      161,
+      202
+    ],
+    "accuracy": [
+      166
+    ],
+    "event": [
+      168,
+      217
+    ],
+    "locations.": [
+      169
+    ],
+    "More": [
+      170
+    ],
+    "importantly,": [
+      171
+    ],
+    "we": [
+      172
+    ],
+    "determined": [
+      174
+    ],
+    "isolate": [
+      183
+    ],
+    "itself": [
+      184
+    ],
+    "direct": [
+      187
+    ],
+    "arrival,": [
+      188
+    ],
+    "stacked": [
+      189
+    ],
+    "into": [
+      190
+    ],
+    "final": [
+      192,
+      273
+    ],
+    "result,": [
+      194
+    ],
+    "it": [
+      196,
+      247
+    ],
+    "misinterpreted": [
+      199
+    ],
+    "separate": [
+      201
+    ],
+    "located": [
+      203
+    ],
+    "directly": [
+      204
+    ],
+    "below": [
+      205
+    ],
+    "true": [
+      207
+    ],
+    "source": [
+      208
+    ],
+    "location,": [
+      209
+    ],
+    "is": [
+      211
+    ],
+    "unavoidable": [
+      212
+    ],
+    "given": [
+      213
+    ],
+    "ambiguity": [
+      215
+    ],
+    "between": [
+      216
+    ],
+    "location": [
+      218
+    ],
+    "time.": [
+      220
+    ],
+    "Comparison": [
+      221
+    ],
+    "two": [
+      224
+    ],
+    "procedures": [
+      226
+    ],
+    "found": [
+      227
+    ],
+    "even": [
+      229
+    ],
+    "though": [
+      230
+    ],
+    "MTMI": [
+      234
+    ],
+    "was": [
+      235
+    ],
+    "able": [
+      236
+    ],
+    "better": [
+      238
+    ],
+    "cope": [
+      239
+    ],
+    "with": [
+      240
+    ],
+    "effects": [
+      242
+    ],
+    "still": [
+      248,
+      269
+    ],
+    "demonstrated": [
+      249
+    ],
+    "events,": [
+      257
+    ],
+    "accuracy,": [
+      261
+    ],
+    "evidence": [
+      263
+    ],
+    "multiple": [
+      265
+    ],
+    "energy": [
+      268
+    ],
+    "present": [
+      270
+    ],
+    "result.": [
+      275
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

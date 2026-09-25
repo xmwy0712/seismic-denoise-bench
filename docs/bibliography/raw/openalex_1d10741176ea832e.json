@@ -1,0 +1,1684 @@
+{
+  "id": "https://openalex.org/W2154222811",
+  "doi": "https://doi.org/10.1190/1.1444298",
+  "title": "An inverse-scattering series method for attenuating multiples in seismic reflection data",
+  "display_name": "An inverse-scattering series method for attenuating multiples in seismic reflection data",
+  "publication_year": 1997,
+  "publication_date": "1997-11-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2154222811",
+    "doi": "https://doi.org/10.1190/1.1444298",
+    "mag": "2154222811"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.1444298",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.1444298",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S106174089",
+      "display_name": "Geophysics",
+      "issn_l": "0016-8033",
+      "issn": [
+        "0016-8033",
+        "1942-2156"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5082858955",
+        "display_name": "Arthur B. Weglein",
+        "orcid": "https://orcid.org/0000-0003-3250-6105",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-3250-6105"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210149250",
+          "display_name": "Schlumberger (Norway)",
+          "ror": "https://ror.org/03m9gpr25",
+          "country_code": "NO",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210092184",
+            "https://openalex.org/I4210149250"
+          ]
+        }
+      ],
+      "countries": [
+        "NO"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Arthur B. Weglein",
+      "raw_affiliation_strings": [
+        "*Formerly Schlumberger Cambridge Research Company, P.O. Box 153, Cambridge CB3 OHG, England; presently Arco Exploration and Production Technology, 2300 West Plano Parkway, Plano, Texas 75075. E-mail: aweglein@arco.com",
+        "Schlumberger Cambridge Research Company, P.O. Box 153, Cambridge CB3 0HG, England"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "*Formerly Schlumberger Cambridge Research Company, P.O. Box 153, Cambridge CB3 OHG, England; presently Arco Exploration and Production Technology, 2300 West Plano Parkway, Plano, Texas 75075. E-mail: aweglein@arco.com",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Schlumberger Cambridge Research Company, P.O. Box 153, Cambridge CB3 0HG, England",
+          "institution_ids": [
+            "https://openalex.org/I4210149250"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5091132295",
+        "display_name": "Fernanda Araújo Gasparotto",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I126158947",
+          "display_name": "Universidade Federal da Bahia",
+          "ror": "https://ror.org/03k3p7647",
+          "country_code": "BR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I126158947"
+          ]
+        }
+      ],
+      "countries": [
+        "BR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Fernanda Araújo Gasparotto",
+      "raw_affiliation_strings": [
+        "‡Formerly Universidade Federal da Bahia, PPPG, Bahia, Brazil; presently Exxon Production Research Company, P.O. Box 2189, Houston, Texas 77252. E-mail: fagaspa@epr.exxon.com",
+        "Universidade Federal da Bahia, PPPG, Bahia, Brazil"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "‡Formerly Universidade Federal da Bahia, PPPG, Bahia, Brazil; presently Exxon Production Research Company, P.O. Box 2189, Houston, Texas 77252. E-mail: fagaspa@epr.exxon.com",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Universidade Federal da Bahia, PPPG, Bahia, Brazil",
+          "institution_ids": [
+            "https://openalex.org/I126158947"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5006538626",
+        "display_name": "Paulo M. Carvalho",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I32393484",
+          "display_name": "Petrobras (Brazil)",
+          "ror": "https://ror.org/0235kyq22",
+          "country_code": "BR",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I32393484"
+          ]
+        }
+      ],
+      "countries": [
+        "BR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Paulo M. Carvalho",
+      "raw_affiliation_strings": [
+        "**Petrobras, S.A., Rua Acre 2504 Bloco M sala 12, 49080-010 Aracaju-SE, Brazil E-mail: carvalho@perc.arco.com",
+        "Petrobras, S.A., Rua Acre 2504 Bloco M sala 12, 49080-010 Aracaju‐SE, Brazil"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "**Petrobras, S.A., Rua Acre 2504 Bloco M sala 12, 49080-010 Aracaju-SE, Brazil E-mail: carvalho@perc.arco.com",
+          "institution_ids": [
+            "https://openalex.org/I32393484"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Petrobras, S.A., Rua Acre 2504 Bloco M sala 12, 49080-010 Aracaju‐SE, Brazil",
+          "institution_ids": [
+            "https://openalex.org/I32393484"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5012108501",
+        "display_name": "Robert H. Stolt",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I24101674",
+          "display_name": "ConocoPhillips (United States)",
+          "ror": "https://ror.org/04hadnb81",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I24101674"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Robert H. Stolt",
+      "raw_affiliation_strings": [
+        "§Geoscience and Reservoir Research 5RDW, Conoco Inc., 1000 South Pine, Ponca City, Oklahoma 74602-1267. E-mail: robert.h.stolt@conoco.dupont.com",
+        "Geoscience and Reservoir Research 5RDW, Conoco Inc., 1000 South Pine, Ponca City, Oklahoma 74602-1267"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "§Geoscience and Reservoir Research 5RDW, Conoco Inc., 1000 South Pine, Ponca City, Oklahoma 74602-1267. E-mail: robert.h.stolt@conoco.dupont.com",
+          "institution_ids": [
+            "https://openalex.org/I24101674"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Geoscience and Reservoir Research 5RDW, Conoco Inc., 1000 South Pine, Ponca City, Oklahoma 74602-1267",
+          "institution_ids": [
+            "https://openalex.org/I24101674"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 3,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 6.131,
+  "has_fulltext": false,
+  "cited_by_count": 526,
+  "citation_normalized_percentile": {
+    "value": 0.97140187,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "62",
+    "issue": "6",
+    "first_page": "1975",
+    "last_page": "1989"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11609",
+      "display_name": "Geophysical Methods and Applications",
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/multiple",
+      "display_name": "Multiple",
+      "score": 0.9265453815460205
+    },
+    {
+      "id": "https://openalex.org/keywords/series",
+      "display_name": "Series (stratigraphy)",
+      "score": 0.628282904624939
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.5952612161636353
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.5545032024383545
+    },
+    {
+      "id": "https://openalex.org/keywords/inversion",
+      "display_name": "Inversion (geology)",
+      "score": 0.5450546741485596
+    },
+    {
+      "id": "https://openalex.org/keywords/inverse-scattering-problem",
+      "display_name": "Inverse scattering problem",
+      "score": 0.4916890263557434
+    },
+    {
+      "id": "https://openalex.org/keywords/attenuation",
+      "display_name": "Attenuation",
+      "score": 0.4831504225730896
+    },
+    {
+      "id": "https://openalex.org/keywords/inverse",
+      "display_name": "Inverse",
+      "score": 0.48021969199180603
+    },
+    {
+      "id": "https://openalex.org/keywords/inverse-problem",
+      "display_name": "Inverse problem",
+      "score": 0.4792866110801697
+    },
+    {
+      "id": "https://openalex.org/keywords/reflection",
+      "display_name": "Reflection (computer programming)",
+      "score": 0.4279814660549164
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.2538455128669739
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.220348060131073
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematical-analysis",
+      "display_name": "Mathematical analysis",
+      "score": 0.1862366497516632
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.16425225138664246
+    },
+    {
+      "id": "https://openalex.org/keywords/arithmetic",
+      "display_name": "Arithmetic",
+      "score": 0.16012516617774963
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.15226155519485474
+    },
+    {
+      "id": "https://openalex.org/keywords/geometry",
+      "display_name": "Geometry",
+      "score": 0.14773547649383545
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.10516420006752014
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C164680029",
+      "wikidata": "https://www.wikidata.org/wiki/Q1055293",
+      "display_name": "Multiple",
+      "level": 2,
+      "score": 0.9265453815460205
+    },
+    {
+      "id": "https://openalex.org/C143724316",
+      "wikidata": "https://www.wikidata.org/wiki/Q312468",
+      "display_name": "Series (stratigraphy)",
+      "level": 2,
+      "score": 0.628282904624939
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.5952612161636353
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.5545032024383545
+    },
+    {
+      "id": "https://openalex.org/C1893757",
+      "wikidata": "https://www.wikidata.org/wiki/Q3653001",
+      "display_name": "Inversion (geology)",
+      "level": 3,
+      "score": 0.5450546741485596
+    },
+    {
+      "id": "https://openalex.org/C174558057",
+      "wikidata": "https://www.wikidata.org/wiki/Q11639409",
+      "display_name": "Inverse scattering problem",
+      "level": 3,
+      "score": 0.4916890263557434
+    },
+    {
+      "id": "https://openalex.org/C184652730",
+      "wikidata": "https://www.wikidata.org/wiki/Q2357982",
+      "display_name": "Attenuation",
+      "level": 2,
+      "score": 0.4831504225730896
+    },
+    {
+      "id": "https://openalex.org/C207467116",
+      "wikidata": "https://www.wikidata.org/wiki/Q4385666",
+      "display_name": "Inverse",
+      "level": 2,
+      "score": 0.48021969199180603
+    },
+    {
+      "id": "https://openalex.org/C135252773",
+      "wikidata": "https://www.wikidata.org/wiki/Q1567213",
+      "display_name": "Inverse problem",
+      "level": 2,
+      "score": 0.4792866110801697
+    },
+    {
+      "id": "https://openalex.org/C65682993",
+      "wikidata": "https://www.wikidata.org/wiki/Q1056451",
+      "display_name": "Reflection (computer programming)",
+      "level": 2,
+      "score": 0.4279814660549164
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.2538455128669739
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.220348060131073
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.1862366497516632
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.16425225138664246
+    },
+    {
+      "id": "https://openalex.org/C94375191",
+      "wikidata": "https://www.wikidata.org/wiki/Q11205",
+      "display_name": "Arithmetic",
+      "level": 1,
+      "score": 0.16012516617774963
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.15226155519485474
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.14773547649383545
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.10516420006752014
+    },
+    {
+      "id": "https://openalex.org/C151730666",
+      "wikidata": "https://www.wikidata.org/wiki/Q7205",
+      "display_name": "Paleontology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C77928131",
+      "wikidata": "https://www.wikidata.org/wiki/Q193343",
+      "display_name": "Tectonics",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.1444298",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.1444298",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S106174089",
+        "display_name": "Geophysics",
+        "issn_l": "0016-8033",
+        "issn": [
+          "0016-8033",
+          "1942-2156"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysics",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 18,
+  "referenced_works": [
+    "https://openalex.org/W1882021129",
+    "https://openalex.org/W1968194744",
+    "https://openalex.org/W1970504453",
+    "https://openalex.org/W1976884569",
+    "https://openalex.org/W2009000020",
+    "https://openalex.org/W2013337599",
+    "https://openalex.org/W2031494948",
+    "https://openalex.org/W2032063922",
+    "https://openalex.org/W2032678791",
+    "https://openalex.org/W2037190338",
+    "https://openalex.org/W2040488092",
+    "https://openalex.org/W2069791814",
+    "https://openalex.org/W2074158948",
+    "https://openalex.org/W2078150688",
+    "https://openalex.org/W2111244470",
+    "https://openalex.org/W2114435407",
+    "https://openalex.org/W2316167946",
+    "https://openalex.org/W4285719527"
+  ],
+  "related_works": [
+    "https://openalex.org/W2128608246",
+    "https://openalex.org/W2520812953",
+    "https://openalex.org/W2144075718",
+    "https://openalex.org/W3101167575",
+    "https://openalex.org/W2545426741",
+    "https://openalex.org/W1567523647",
+    "https://openalex.org/W4321641047",
+    "https://openalex.org/W2755915683",
+    "https://openalex.org/W2033816073",
+    "https://openalex.org/W651169017"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "We": [
+      1,
+      34,
+      420
+    ],
+    "present": [
+      2
+    ],
+    "a": [
+      3,
+      27,
+      69,
+      75,
+      172,
+      179,
+      199,
+      302,
+      314,
+      333,
+      436
+    ],
+    "multidimensional": [
+      4,
+      382
+    ],
+    "multiple-attenuation": [
+      5
+    ],
+    "method": [
+      6,
+      132,
+      210,
+      236,
+      385
+    ],
+    "that": [
+      7,
+      61,
+      81,
+      100,
+      138,
+      205,
+      386
+    ],
+    "does": [
+      8,
+      117,
+      387
+    ],
+    "not": [
+      9,
+      359,
+      388
+    ],
+    "require": [
+      10,
+      389,
+      411
+    ],
+    "any": [
+      11
+    ],
+    "subsurface": [
+      12,
+      203,
+      356,
+      398
+    ],
+    "information": [
+      13,
+      357,
+      402
+    ],
+    "for": [
+      14,
+      88,
+      133,
+      174,
+      181,
+      191,
+      226,
+      244,
+      300,
+      403,
+      431
+    ],
+    "either": [
+      15,
+      404
+    ],
+    "surface": [
+      16
+    ],
+    "or": [
+      17,
+      231,
+      259,
+      337,
+      394,
+      396,
+      400,
+      406
+    ],
+    "internal": [
+      18,
+      183,
+      194,
+      407
+    ],
+    "multiples.": [
+      19,
+      184,
+      208,
+      310,
+      408
+    ],
+    "To": [
+      20,
+      164,
+      376
+    ],
+    "derive": [
+      21
+    ],
+    "these": [
+      22,
+      101,
+      151,
+      220,
+      373,
+      433
+    ],
+    "algorithms,": [
+      23
+    ],
+    "we": [
+      24
+    ],
+    "start": [
+      25
+    ],
+    "with": [
+      26,
+      74,
+      92,
+      283,
+      332
+    ],
+    "scattering": [
+      28,
+      364
+    ],
+    "theory": [
+      29
+    ],
+    "description": [
+      30
+    ],
+    "of": [
+      31,
+      47,
+      71,
+      129,
+      143,
+      161,
+      201,
+      305,
+      317,
+      345,
+      413
+    ],
+    "seismic": [
+      32
+    ],
+    "data.": [
+      33
+    ],
+    "then": [
+      35
+    ],
+    "introduce": [
+      36
+    ],
+    "and": [
+      37,
+      48,
+      53,
+      94,
+      113,
+      178,
+      193,
+      196,
+      241,
+      271,
+      308,
+      353,
+      417,
+      428,
+      438
+    ],
+    "develop": [
+      38
+    ],
+    "several": [
+      39,
+      422
+    ],
+    "new": [
+      40
+    ],
+    "theoretical": [
+      41
+    ],
+    "concepts": [
+      42
+    ],
+    "concerning": [
+      43
+    ],
+    "the": [
+      44,
+      49,
+      59,
+      62,
+      79,
+      82,
+      98,
+      118,
+      127,
+      130,
+      136,
+      146,
+      154,
+      159,
+      202,
+      207,
+      249,
+      273,
+      380,
+      414
+    ],
+    "fundamental": [
+      45
+    ],
+    "nature": [
+      46
+    ],
+    "relationship": [
+      50
+    ],
+    "between": [
+      51
+    ],
+    "forward": [
+      52
+    ],
+    "inverse": [
+      54,
+      121,
+      147,
+      363
+    ],
+    "scattering.": [
+      55
+    ],
+    "These": [
+      56,
+      185,
+      341,
+      409
+    ],
+    "include": [
+      57
+    ],
+    "(1)": [
+      58,
+      248
+    ],
+    "idea": [
+      60
+    ],
+    "inversion": [
+      63,
+      155
+    ],
+    "process": [
+      64
+    ],
+    "can": [
+      65,
+      104
+    ],
+    "be": [
+      66
+    ],
+    "viewed": [
+      67
+    ],
+    "as": [
+      68
+    ],
+    "series": [
+      70,
+      84,
+      148,
+      173,
+      180,
+      186
+    ],
+    "steps,": [
+      72
+    ],
+    "each": [
+      73
+    ],
+    "specific": [
+      76,
+      93
+    ],
+    "task;": [
+      77
+    ],
+    "(2)": [
+      78,
+      255
+    ],
+    "realization": [
+      80
+    ],
+    "inverse-scattering": [
+      83
+    ],
+    "provides": [
+      85,
+      297
+    ],
+    "an": [
+      86,
+      298
+    ],
+    "opportunity": [
+      87
+    ],
+    "separating": [
+      89
+    ],
+    "out": [
+      90
+    ],
+    "subseries": [
+      91,
+      103,
+      168
+    ],
+    "useful": [
+      95
+    ],
+    "tasks;": [
+      96
+    ],
+    "(3)": [
+      97,
+      261
+    ],
+    "recognition": [
+      99
+    ],
+    "task-specific": [
+      102,
+      162,
+      167
+    ],
+    "have": [
+      105,
+      169
+    ],
+    "different": [
+      106
+    ],
+    "(and": [
+      107,
+      141
+    ],
+    "more": [
+      108
+    ],
+    "favorable)": [
+      109
+    ],
+    "data": [
+      110,
+      291
+    ],
+    "requirements,": [
+      111
+    ],
+    "convergence,": [
+      112
+    ],
+    "stability": [
+      114
+    ],
+    "conditions": [
+      115
+    ],
+    "than": [
+      116
+    ],
+    "original": [
+      119
+    ],
+    "complete": [
+      120
+    ],
+    "series;": [
+      122
+    ],
+    "and,": [
+      123
+    ],
+    "most": [
+      124
+    ],
+    "importantly,": [
+      125
+    ],
+    "(4)": [
+      126,
+      265
+    ],
+    "development": [
+      128
+    ],
+    "first": [
+      131
+    ],
+    "physically": [
+      134
+    ],
+    "interpreting": [
+      135
+    ],
+    "contribution": [
+      137
+    ],
+    "individual": [
+      139
+    ],
+    "terms": [
+      140
+    ],
+    "pieces": [
+      142
+    ],
+    "terms)": [
+      144
+    ],
+    "in": [
+      145,
+      153,
+      188,
+      319,
+      329,
+      338,
+      435
+    ],
+    "make": [
+      149
+    ],
+    "toward": [
+      150
+    ],
+    "tasks": [
+      152
+    ],
+    "process,": [
+      156
+    ],
+    "which": [
+      157
+    ],
+    "realizes": [
+      158
+    ],
+    "selection": [
+      160
+    ],
+    "subseries.": [
+      163
+    ],
+    "date,": [
+      165
+    ],
+    "two": [
+      166
+    ],
+    "been": [
+      170,
+      281,
+      313
+    ],
+    "identified:": [
+      171
+    ],
+    "eliminating": [
+      175
+    ],
+    "free-surface": [
+      176,
+      192,
+      245,
+      405
+    ],
+    "multiples": [
+      177,
+      212,
+      246,
+      266
+    ],
+    "attenuating": [
+      182,
+      301
+    ],
+    "result": [
+      187
+    ],
+    "distinct": [
+      189
+    ],
+    "algorithms": [
+      190,
+      410
+    ],
+    "multiples,": [
+      195
+    ],
+    "neither": [
+      197
+    ],
+    "requires": [
+      198
+    ],
+    "model": [
+      200
+    ],
+    "reflectors": [
+      204,
+      256
+    ],
+    "generate": [
+      206
+    ],
+    "The": [
+      209,
+      235,
+      277,
+      362
+    ],
+    "attenuates": [
+      211
+    ],
+    "while": [
+      213
+    ],
+    "preserving": [
+      214
+    ],
+    "primaries": [
+      215
+    ],
+    "at": [
+      216
+    ],
+    "all": [
+      217
+    ],
+    "offsets;": [
+      218
+    ],
+    "hence,": [
+      219
+    ],
+    "methods": [
+      221,
+      367
+    ],
+    "are": [
+      222,
+      257,
+      263,
+      267,
+      293,
+      343,
+      350,
+      368
+    ],
+    "equally": [
+      223
+    ],
+    "well": [
+      224
+    ],
+    "suited": [
+      225
+    ],
+    "subsequent": [
+      227
+    ],
+    "poststack": [
+      228
+    ],
+    "structural": [
+      229,
+      401
+    ],
+    "mapping": [
+      230
+    ],
+    "prestack": [
+      232
+    ],
+    "amplitude": [
+      233
+    ],
+    "analysis.": [
+      234
+    ],
+    "has": [
+      237,
+      251,
+      280,
+      312
+    ],
+    "demonstrated": [
+      238
+    ],
+    "its": [
+      239
+    ],
+    "usefulness": [
+      240
+    ],
+    "added": [
+      242
+    ],
+    "value": [
+      243
+    ],
+    "when": [
+      247
+    ],
+    "overburden": [
+      250
+    ],
+    "significant": [
+      252,
+      303
+    ],
+    "lateral": [
+      253
+    ],
+    "variation,": [
+      254
+    ],
+    "curved": [
+      258
+    ],
+    "dipping,": [
+      260
+    ],
+    "events": [
+      262
+    ],
+    "interfering,": [
+      264
+    ],
+    "difficult": [
+      268
+    ],
+    "to": [
+      269,
+      371
+    ],
+    "identify,": [
+      270
+    ],
+    "(5)": [
+      272
+    ],
+    "geology": [
+      274
+    ],
+    "is": [
+      275,
+      358,
+      379
+    ],
+    "complex.": [
+      276
+    ],
+    "internal-multiple": [
+      278
+    ],
+    "algorithm": [
+      279
+    ],
+    "tested": [
+      282
+    ],
+    "good": [
+      284
+    ],
+    "results": [
+      285
+    ],
+    "on": [
+      286
+    ],
+    "band-limited": [
+      287
+    ],
+    "synthetic": [
+      288
+    ],
+    "data;": [
+      289
+    ],
+    "field": [
+      290
+    ],
+    "tests": [
+      292
+    ],
+    "planned.": [
+      294
+    ],
+    "This": [
+      295
+    ],
+    "procedure": [
+      296
+    ],
+    "approach": [
+      299
+    ],
+    "class": [
+      304
+    ],
+    "heretofore": [
+      306
+    ],
+    "inaccessible": [
+      307
+    ],
+    "troublesome": [
+      309
+    ],
+    "There": [
+      311
+    ],
+    "recent": [
+      315
+    ],
+    "rejuvenation": [
+      316
+    ],
+    "interest": [
+      318
+    ],
+    "multiple": [
+      320,
+      365,
+      383
+    ],
+    "attenuation": [
+      321,
+      366,
+      384
+    ],
+    "technology": [
+      322
+    ],
+    "resulting": [
+      323
+    ],
+    "from": [
+      324
+    ],
+    "current": [
+      325,
+      423
+    ],
+    "exploration": [
+      326
+    ],
+    "challenges,": [
+      327
+    ],
+    "e.g.,": [
+      328,
+      425
+    ],
+    "deep": [
+      330
+    ],
+    "water": [
+      331,
+      335
+    ],
+    "variable": [
+      334
+    ],
+    "bottom": [
+      336
+    ],
+    "subsalt": [
+      339
+    ],
+    "plays.": [
+      340
+    ],
+    "cases": [
+      342
+    ],
+    "representative": [
+      344
+    ],
+    "circumstances": [
+      346
+    ],
+    "where": [
+      347
+    ],
+    "1-D": [
+      348,
+      390
+    ],
+    "assumptions": [
+      349
+    ],
+    "often": [
+      351
+    ],
+    "violated": [
+      352
+    ],
+    "reliable": [
+      354,
+      439
+    ],
+    "detailed": [
+      355
+    ],
+    "available": [
+      360
+    ],
+    "typically.": [
+      361
+    ],
+    "specifically": [
+      369
+    ],
+    "designed": [
+      370
+    ],
+    "address": [
+      372
+    ],
+    "challenging": [
+      374
+    ],
+    "problems.": [
+      375
+    ],
+    "date": [
+      377
+    ],
+    "it": [
+      378
+    ],
+    "only": [
+      381
+    ],
+    "assumptions,": [
+      391
+    ],
+    "moveout": [
+      392
+    ],
+    "differences,": [
+      393
+    ],
+    "ocean-bottom": [
+      395
+    ],
+    "other": [
+      397
+    ],
+    "velocity": [
+      399
+    ],
+    "knowledge": [
+      412
+    ],
+    "source": [
+      415
+    ],
+    "signature": [
+      416
+    ],
+    "near-source": [
+      418
+    ],
+    "traces.": [
+      419
+    ],
+    "describe": [
+      421
+    ],
+    "approaches,": [
+      424
+    ],
+    "energy": [
+      426
+    ],
+    "minimization": [
+      427
+    ],
+    "trace": [
+      429
+    ],
+    "extrapolation,": [
+      430
+    ],
+    "satisfying": [
+      432
+    ],
+    "prerequisites": [
+      434
+    ],
+    "stable": [
+      437
+    ],
+    "manner.": [
+      440
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 27
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 23
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 28
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 28
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 41
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 31
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 15
+    }
+  ],
+  "updated_date": "2026-09-23T05:00:35.095934",
+  "created_date": "2025-10-10T00:00:00"
+}

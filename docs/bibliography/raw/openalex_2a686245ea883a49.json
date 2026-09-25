@@ -1,0 +1,1370 @@
+{
+  "id": "https://openalex.org/W4297324640",
+  "doi": "https://doi.org/10.1190/geo2021-0717.1",
+  "title": "Reservoir multiparameter prediction method based on deep learning for CO2 geologic storage",
+  "display_name": "Reservoir multiparameter prediction method based on deep learning for CO2 geologic storage",
+  "publication_year": 2022,
+  "publication_date": "2022-09-27",
+  "ids": {
+    "openalex": "https://openalex.org/W4297324640",
+    "doi": "https://doi.org/10.1190/geo2021-0717.1"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/geo2021-0717.1",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/geo2021-0717.1",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S106174089",
+      "display_name": "Geophysics",
+      "issn_l": "0016-8033",
+      "issn": [
+        "0016-8033",
+        "1942-2156"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5100407489",
+        "display_name": "Dong Li",
+        "orcid": "https://orcid.org/0000-0002-8790-3290"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I25757504",
+          "display_name": "China University of Mining and Technology",
+          "ror": "https://ror.org/01xt2dr21",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I25757504"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4391767921",
+          "display_name": "State Key Laboratory of Coal Resources and Safe Mining",
+          "ror": "https://ror.org/02ywpz459",
+          "country_code": null,
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I25757504",
+            "https://openalex.org/I4391767921"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Dong Li",
+      "raw_affiliation_strings": [
+        "China University of Mining and Technology (Beijing) 1 , State Key Laboratory of Coal Resources and Safe Mining, Beijing, China and , College of Geoscience and Surveying Engineering, Beijing, China. lidong_6666@163.com (corresponding author)",
+        "China University of Mining and Technology (Beijing), State Key Laboratory of Coal Resources and Safe Mining, Beijing, China and China University of Mining and Technology (Beijing), College of Geoscience and Surveying Engineering, Beijing, China. (corresponding author)"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-8790-3290",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "China University of Mining and Technology (Beijing) 1 , State Key Laboratory of Coal Resources and Safe Mining, Beijing, China and , College of Geoscience and Surveying Engineering, Beijing, China. lidong_6666@163.com (corresponding author)",
+          "institution_ids": [
+            "https://openalex.org/I25757504"
+          ]
+        },
+        {
+          "raw_affiliation_string": "China University of Mining and Technology (Beijing), State Key Laboratory of Coal Resources and Safe Mining, Beijing, China and China University of Mining and Technology (Beijing), College of Geoscience and Surveying Engineering, Beijing, China. (corresponding author)",
+          "institution_ids": [
+            "https://openalex.org/I25757504",
+            "https://openalex.org/I4391767921"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5003535786",
+        "display_name": "Suping Peng",
+        "orcid": "https://orcid.org/0000-0003-4916-405X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I25757504",
+          "display_name": "China University of Mining and Technology",
+          "ror": "https://ror.org/01xt2dr21",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I25757504"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4391767921",
+          "display_name": "State Key Laboratory of Coal Resources and Safe Mining",
+          "ror": "https://ror.org/02ywpz459",
+          "country_code": null,
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I25757504",
+            "https://openalex.org/I4391767921"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Suping Peng",
+      "raw_affiliation_strings": [
+        "China University of Mining and Technology (Beijing) 2 , State Key Laboratory of Coal Resources and Safe Mining, Beijing, China. psp@cumtb.edu.cn",
+        "China University of Mining and Technology (Beijing), State Key Laboratory of Coal Resources and Safe Mining, Beijing, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-4916-405X",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "China University of Mining and Technology (Beijing) 2 , State Key Laboratory of Coal Resources and Safe Mining, Beijing, China. psp@cumtb.edu.cn",
+          "institution_ids": [
+            "https://openalex.org/I25757504"
+          ]
+        },
+        {
+          "raw_affiliation_string": "China University of Mining and Technology (Beijing), State Key Laboratory of Coal Resources and Safe Mining, Beijing, China",
+          "institution_ids": [
+            "https://openalex.org/I25757504",
+            "https://openalex.org/I4391767921"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5006530075",
+        "display_name": "Yinling Guo",
+        "orcid": "https://orcid.org/0000-0001-7410-0264"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I25757504",
+          "display_name": "China University of Mining and Technology",
+          "ror": "https://ror.org/01xt2dr21",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I25757504"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yinling Guo",
+      "raw_affiliation_strings": [
+        "China University of Mining and Technology (Beijing) 1 , State Key Laboratory of Coal Resources and Safe Mining, Beijing, China and , College of Geoscience and Surveying Engineering, Beijing, China. guoyinling000@163.com",
+        "China University of Mining and Technology (Beijing), State Key Laboratory of Coal Resources and Safe Mining, Beijing, China and China University of Mining and Technology (Beijing), College of Geoscience and Surveying Engineering, Beijing, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-7410-0264",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "China University of Mining and Technology (Beijing) 1 , State Key Laboratory of Coal Resources and Safe Mining, Beijing, China and , College of Geoscience and Surveying Engineering, Beijing, China. guoyinling000@163.com",
+          "institution_ids": [
+            "https://openalex.org/I25757504"
+          ]
+        },
+        {
+          "raw_affiliation_string": "China University of Mining and Technology (Beijing), State Key Laboratory of Coal Resources and Safe Mining, Beijing, China and China University of Mining and Technology (Beijing), College of Geoscience and Surveying Engineering, Beijing, China",
+          "institution_ids": [
+            "https://openalex.org/I25757504"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5027719641",
+        "display_name": "Yongxu Lu",
+        "orcid": "https://orcid.org/0000-0003-4632-5241"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I25757504",
+          "display_name": "China University of Mining and Technology",
+          "ror": "https://ror.org/01xt2dr21",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I25757504"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yongxu Lu",
+      "raw_affiliation_strings": [
+        "China University of Mining and Technology (Beijing) 1 , State Key Laboratory of Coal Resources and Safe Mining, Beijing, China and , College of Geoscience and Surveying Engineering, Beijing, China. samhomes@163.com",
+        "China University of Mining and Technology (Beijing), State Key Laboratory of Coal Resources and Safe Mining, Beijing, China and China University of Mining and Technology (Beijing), College of Geoscience and Surveying Engineering, Beijing, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-4632-5241",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "China University of Mining and Technology (Beijing) 1 , State Key Laboratory of Coal Resources and Safe Mining, Beijing, China and , College of Geoscience and Surveying Engineering, Beijing, China. samhomes@163.com",
+          "institution_ids": [
+            "https://openalex.org/I25757504"
+          ]
+        },
+        {
+          "raw_affiliation_string": "China University of Mining and Technology (Beijing), State Key Laboratory of Coal Resources and Safe Mining, Beijing, China and China University of Mining and Technology (Beijing), College of Geoscience and Surveying Engineering, Beijing, China",
+          "institution_ids": [
+            "https://openalex.org/I25757504"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5039047593",
+        "display_name": "Xiaoqin Cui",
+        "orcid": "https://orcid.org/0000-0002-1695-8913"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I25757504",
+          "display_name": "China University of Mining and Technology",
+          "ror": "https://ror.org/01xt2dr21",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I25757504"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4391767921",
+          "display_name": "State Key Laboratory of Coal Resources and Safe Mining",
+          "ror": "https://ror.org/02ywpz459",
+          "country_code": null,
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I25757504",
+            "https://openalex.org/I4391767921"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Xiaoqin Cui",
+      "raw_affiliation_strings": [
+        "China University of Mining and Technology (Beijing) 2 , State Key Laboratory of Coal Resources and Safe Mining, Beijing, China. cuixq65@hotmail.com",
+        "China University of Mining and Technology (Beijing), State Key Laboratory of Coal Resources and Safe Mining, Beijing, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-1695-8913",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "China University of Mining and Technology (Beijing) 2 , State Key Laboratory of Coal Resources and Safe Mining, Beijing, China. cuixq65@hotmail.com",
+          "institution_ids": [
+            "https://openalex.org/I25757504"
+          ]
+        },
+        {
+          "raw_affiliation_string": "China University of Mining and Technology (Beijing), State Key Laboratory of Coal Resources and Safe Mining, Beijing, China",
+          "institution_ids": [
+            "https://openalex.org/I25757504",
+            "https://openalex.org/I4391767921"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5080242292",
+        "display_name": "Wenfeng Du",
+        "orcid": "https://orcid.org/0000-0002-1291-8834"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I25757504",
+          "display_name": "China University of Mining and Technology",
+          "ror": "https://ror.org/01xt2dr21",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I25757504"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4391767921",
+          "display_name": "State Key Laboratory of Coal Resources and Safe Mining",
+          "ror": "https://ror.org/02ywpz459",
+          "country_code": null,
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I25757504",
+            "https://openalex.org/I4391767921"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Wenfeng Du",
+      "raw_affiliation_strings": [
+        "China University of Mining and Technology (Beijing) 2 , State Key Laboratory of Coal Resources and Safe Mining, Beijing, China. duwf66@126.com",
+        "China University of Mining and Technology (Beijing), State Key Laboratory of Coal Resources and Safe Mining, Beijing, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-1291-8834",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "China University of Mining and Technology (Beijing) 2 , State Key Laboratory of Coal Resources and Safe Mining, Beijing, China. duwf66@126.com",
+          "institution_ids": [
+            "https://openalex.org/I25757504"
+          ]
+        },
+        {
+          "raw_affiliation_string": "China University of Mining and Technology (Beijing), State Key Laboratory of Coal Resources and Safe Mining, Beijing, China",
+          "institution_ids": [
+            "https://openalex.org/I25757504",
+            "https://openalex.org/I4391767921"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 1.2244,
+  "has_fulltext": false,
+  "cited_by_count": 15,
+  "citation_normalized_percentile": {
+    "value": 0.7425025,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "88",
+    "issue": "1",
+    "first_page": "M1",
+    "last_page": "M15"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9994999766349792,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11302",
+      "display_name": "CO2 Sequestration and Geologic Interactions",
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2305",
+        "display_name": "Environmental Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11801",
+      "display_name": "Reservoir Engineering and Simulation Methods",
+      "score": 0.9991000294685364,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/petrophysics",
+      "display_name": "Petrophysics",
+      "score": 0.8616877794265747
+    },
+    {
+      "id": "https://openalex.org/keywords/porosity",
+      "display_name": "Porosity",
+      "score": 0.6912851333618164
+    },
+    {
+      "id": "https://openalex.org/keywords/saturation",
+      "display_name": "Saturation (graph theory)",
+      "score": 0.6232073307037354
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.5258113741874695
+    },
+    {
+      "id": "https://openalex.org/keywords/amplitude-versus-offset",
+      "display_name": "Amplitude versus offset",
+      "score": 0.519679605960846
+    },
+    {
+      "id": "https://openalex.org/keywords/reservoir-simulation",
+      "display_name": "Reservoir simulation",
+      "score": 0.46126750111579895
+    },
+    {
+      "id": "https://openalex.org/keywords/amplitude",
+      "display_name": "Amplitude",
+      "score": 0.4565642774105072
+    },
+    {
+      "id": "https://openalex.org/keywords/offset",
+      "display_name": "Offset (computer science)",
+      "score": 0.4503001272678375
+    },
+    {
+      "id": "https://openalex.org/keywords/petroleum-engineering",
+      "display_name": "Petroleum engineering",
+      "score": 0.4455321431159973
+    },
+    {
+      "id": "https://openalex.org/keywords/reservoir-modeling",
+      "display_name": "Reservoir modeling",
+      "score": 0.4439904987812042
+    },
+    {
+      "id": "https://openalex.org/keywords/fluid-pressure",
+      "display_name": "Fluid pressure",
+      "score": 0.43815451860427856
+    },
+    {
+      "id": "https://openalex.org/keywords/specific-storage",
+      "display_name": "Specific storage",
+      "score": 0.41250425577163696
+    },
+    {
+      "id": "https://openalex.org/keywords/soil-science",
+      "display_name": "Soil science",
+      "score": 0.33479437232017517
+    },
+    {
+      "id": "https://openalex.org/keywords/geotechnical-engineering",
+      "display_name": "Geotechnical engineering",
+      "score": 0.24953973293304443
+    },
+    {
+      "id": "https://openalex.org/keywords/mechanics",
+      "display_name": "Mechanics",
+      "score": 0.20151719450950623
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.18054816126823425
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.11492791771888733
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C46293882",
+      "wikidata": "https://www.wikidata.org/wiki/Q2080707",
+      "display_name": "Petrophysics",
+      "level": 3,
+      "score": 0.8616877794265747
+    },
+    {
+      "id": "https://openalex.org/C6648577",
+      "wikidata": "https://www.wikidata.org/wiki/Q622669",
+      "display_name": "Porosity",
+      "level": 2,
+      "score": 0.6912851333618164
+    },
+    {
+      "id": "https://openalex.org/C9930424",
+      "wikidata": "https://www.wikidata.org/wiki/Q7426587",
+      "display_name": "Saturation (graph theory)",
+      "level": 2,
+      "score": 0.6232073307037354
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.5258113741874695
+    },
+    {
+      "id": "https://openalex.org/C59000536",
+      "wikidata": "https://www.wikidata.org/wiki/Q4748519",
+      "display_name": "Amplitude versus offset",
+      "level": 3,
+      "score": 0.519679605960846
+    },
+    {
+      "id": "https://openalex.org/C2778668878",
+      "wikidata": "https://www.wikidata.org/wiki/Q6380338",
+      "display_name": "Reservoir simulation",
+      "level": 2,
+      "score": 0.46126750111579895
+    },
+    {
+      "id": "https://openalex.org/C180205008",
+      "wikidata": "https://www.wikidata.org/wiki/Q159190",
+      "display_name": "Amplitude",
+      "level": 2,
+      "score": 0.4565642774105072
+    },
+    {
+      "id": "https://openalex.org/C175291020",
+      "wikidata": "https://www.wikidata.org/wiki/Q1156822",
+      "display_name": "Offset (computer science)",
+      "level": 2,
+      "score": 0.4503001272678375
+    },
+    {
+      "id": "https://openalex.org/C78762247",
+      "wikidata": "https://www.wikidata.org/wiki/Q1273174",
+      "display_name": "Petroleum engineering",
+      "level": 1,
+      "score": 0.4455321431159973
+    },
+    {
+      "id": "https://openalex.org/C14641988",
+      "wikidata": "https://www.wikidata.org/wiki/Q7315329",
+      "display_name": "Reservoir modeling",
+      "level": 2,
+      "score": 0.4439904987812042
+    },
+    {
+      "id": "https://openalex.org/C2988879937",
+      "wikidata": "https://www.wikidata.org/wiki/Q39552",
+      "display_name": "Fluid pressure",
+      "level": 2,
+      "score": 0.43815451860427856
+    },
+    {
+      "id": "https://openalex.org/C195729132",
+      "wikidata": "https://www.wikidata.org/wiki/Q1540011",
+      "display_name": "Specific storage",
+      "level": 5,
+      "score": 0.41250425577163696
+    },
+    {
+      "id": "https://openalex.org/C159390177",
+      "wikidata": "https://www.wikidata.org/wiki/Q9161265",
+      "display_name": "Soil science",
+      "level": 1,
+      "score": 0.33479437232017517
+    },
+    {
+      "id": "https://openalex.org/C187320778",
+      "wikidata": "https://www.wikidata.org/wiki/Q1349130",
+      "display_name": "Geotechnical engineering",
+      "level": 1,
+      "score": 0.24953973293304443
+    },
+    {
+      "id": "https://openalex.org/C57879066",
+      "wikidata": "https://www.wikidata.org/wiki/Q41217",
+      "display_name": "Mechanics",
+      "level": 1,
+      "score": 0.20151719450950623
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.18054816126823425
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.11492791771888733
+    },
+    {
+      "id": "https://openalex.org/C114614502",
+      "wikidata": "https://www.wikidata.org/wiki/Q76592",
+      "display_name": "Combinatorics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C76177295",
+      "wikidata": "https://www.wikidata.org/wiki/Q161598",
+      "display_name": "Groundwater",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C174091901",
+      "wikidata": "https://www.wikidata.org/wiki/Q2670986",
+      "display_name": "Groundwater recharge",
+      "level": 4,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C75622301",
+      "wikidata": "https://www.wikidata.org/wiki/Q208791",
+      "display_name": "Aquifer",
+      "level": 3,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/geo2021-0717.1",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/geo2021-0717.1",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S106174089",
+        "display_name": "Geophysics",
+        "issn_l": "0016-8033",
+        "issn": [
+          "0016-8033",
+          "1942-2156"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysics",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [
+    {
+      "id": "https://openalex.org/G1959169967",
+      "display_name": null,
+      "funder_award_id": "42204142",
+      "funder_id": "https://openalex.org/F4320321001",
+      "funder_display_name": "National Natural Science Foundation of China"
+    },
+    {
+      "id": "https://openalex.org/G7844713029",
+      "display_name": null,
+      "funder_award_id": "2022M713381",
+      "funder_id": "https://openalex.org/F4320321543",
+      "funder_display_name": "China Postdoctoral Science Foundation"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320321001",
+      "display_name": "National Natural Science Foundation of China",
+      "ror": "https://ror.org/01h0zpd94"
+    },
+    {
+      "id": "https://openalex.org/F4320321543",
+      "display_name": "China Postdoctoral Science Foundation",
+      "ror": "https://ror.org/0426zh255"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 52,
+  "referenced_works": [
+    "https://openalex.org/W1782651217",
+    "https://openalex.org/W1800900641",
+    "https://openalex.org/W1984003326",
+    "https://openalex.org/W1991623636",
+    "https://openalex.org/W2007552981",
+    "https://openalex.org/W2011952715",
+    "https://openalex.org/W2022044778",
+    "https://openalex.org/W2026577222",
+    "https://openalex.org/W2038459776",
+    "https://openalex.org/W2046815107",
+    "https://openalex.org/W2047788579",
+    "https://openalex.org/W2050148511",
+    "https://openalex.org/W2053975783",
+    "https://openalex.org/W2061577951",
+    "https://openalex.org/W2062227835",
+    "https://openalex.org/W2082736629",
+    "https://openalex.org/W2102689158",
+    "https://openalex.org/W2109684642",
+    "https://openalex.org/W2112271447",
+    "https://openalex.org/W2147699377",
+    "https://openalex.org/W2307550859",
+    "https://openalex.org/W2323300503",
+    "https://openalex.org/W2470013418",
+    "https://openalex.org/W2502737846",
+    "https://openalex.org/W2564974493",
+    "https://openalex.org/W2746782891",
+    "https://openalex.org/W2765647222",
+    "https://openalex.org/W2776585113",
+    "https://openalex.org/W2899651173",
+    "https://openalex.org/W2904005001",
+    "https://openalex.org/W2911424749",
+    "https://openalex.org/W2912052494",
+    "https://openalex.org/W2947704004",
+    "https://openalex.org/W2966573950",
+    "https://openalex.org/W2969572277",
+    "https://openalex.org/W2979419929",
+    "https://openalex.org/W2989227932",
+    "https://openalex.org/W3012353860",
+    "https://openalex.org/W3043575982",
+    "https://openalex.org/W3048641434",
+    "https://openalex.org/W3096139392",
+    "https://openalex.org/W3102755745",
+    "https://openalex.org/W3111595270",
+    "https://openalex.org/W3117351614",
+    "https://openalex.org/W3123670553",
+    "https://openalex.org/W3126251553",
+    "https://openalex.org/W3155794645",
+    "https://openalex.org/W3155993404",
+    "https://openalex.org/W3165789468",
+    "https://openalex.org/W3185416849",
+    "https://openalex.org/W3192590280",
+    "https://openalex.org/W3211642475"
+  ],
+  "related_works": [
+    "https://openalex.org/W1542026085",
+    "https://openalex.org/W2066117331",
+    "https://openalex.org/W3022104286",
+    "https://openalex.org/W3021763247",
+    "https://openalex.org/W2103044460",
+    "https://openalex.org/W2041496920",
+    "https://openalex.org/W1979424329",
+    "https://openalex.org/W2034096346",
+    "https://openalex.org/W1931202229",
+    "https://openalex.org/W2264797026"
+  ],
+  "abstract_inverted_index": {
+    "ABSTRACT": [
+      0
+    ],
+    "Time-lapse": [
+      1
+    ],
+    "seismic": [
+      2,
+      24,
+      86,
+      153
+    ],
+    "difference": [
+      3
+    ],
+    "refers": [
+      4
+    ],
+    "to": [
+      5,
+      22,
+      28,
+      99
+    ],
+    "the": [
+      6,
+      17,
+      23,
+      72,
+      90,
+      101,
+      130,
+      175,
+      205,
+      209,
+      220,
+      224
+    ],
+    "comprehensive": [
+      7
+    ],
+    "response": [
+      8,
+      25,
+      132
+    ],
+    "of": [
+      9,
+      19,
+      33,
+      38,
+      74,
+      114,
+      134,
+      149,
+      168,
+      198,
+      223
+    ],
+    "fluid": [
+      10,
+      115,
+      135,
+      199
+    ],
+    "saturation,": [
+      11,
+      116,
+      136,
+      200
+    ],
+    "pore": [
+      12
+    ],
+    "pressure,": [
+      13,
+      117,
+      137,
+      201
+    ],
+    "and": [
+      14,
+      45,
+      47,
+      85,
+      106,
+      118,
+      122,
+      125,
+      129,
+      138,
+      146,
+      152,
+      162,
+      170,
+      192,
+      202,
+      229
+    ],
+    "porosity.": [
+      15,
+      203
+    ],
+    "However,": [
+      16
+    ],
+    "contribution": [
+      18
+    ],
+    "different": [
+      20
+    ],
+    "parameters": [
+      21,
+      36,
+      108,
+      151
+    ],
+    "is": [
+      26,
+      37,
+      64,
+      78,
+      97,
+      207
+    ],
+    "difficult": [
+      27
+    ],
+    "distinguish.": [
+      29
+    ],
+    "The": [
+      30,
+      112,
+      165
+    ],
+    "high-precision": [
+      31,
+      195
+    ],
+    "prediction": [
+      32,
+      56,
+      166,
+      179,
+      196,
+      210
+    ],
+    "these": [
+      34
+    ],
+    "reservoir": [
+      35,
+      54,
+      150,
+      177
+    ],
+    "great": [
+      39
+    ],
+    "significance": [
+      40
+    ],
+    "in": [
+      41,
+      109,
+      189
+    ],
+    "CO2": [
+      42,
+      68,
+      110,
+      225
+    ],
+    "geologic": [
+      43,
+      69,
+      226
+    ],
+    "storage": [
+      44,
+      70,
+      227
+    ],
+    "oil": [
+      46
+    ],
+    "gas": [
+      48
+    ],
+    "development.": [
+      49
+    ],
+    "Therefore,": [
+      50
+    ],
+    "a": [
+      51,
+      60,
+      214
+    ],
+    "simultaneous": [
+      52
+    ],
+    "time-lapse": [
+      53,
+      176
+    ],
+    "multiparameter": [
+      55,
+      178
+    ],
+    "method": [
+      57,
+      180
+    ],
+    "based": [
+      58,
+      181
+    ],
+    "on": [
+      59,
+      120,
+      182
+    ],
+    "multitask": [
+      61,
+      183
+    ],
+    "learning": [
+      62,
+      184
+    ],
+    "network": [
+      63,
+      160,
+      206
+    ],
+    "proposed.": [
+      65
+    ],
+    "Combined": [
+      66
+    ],
+    "with": [
+      67
+    ],
+    "monitoring,": [
+      71
+    ],
+    "process": [
+      73
+    ],
+    "generating": [
+      75
+    ],
+    "training": [
+      76,
+      161
+    ],
+    "data": [
+      77,
+      156,
+      172
+    ],
+    "described,": [
+      79
+    ],
+    "involving": [
+      80
+    ],
+    "numerical": [
+      81
+    ],
+    "simulation,": [
+      82
+    ],
+    "petrophysical": [
+      83
+    ],
+    "models,": [
+      84
+    ],
+    "forward": [
+      87
+    ],
+    "modeling.": [
+      88
+    ],
+    "Moreover,": [
+      89
+    ],
+    "Hertz-Mindlin": [
+      91
+    ],
+    "formula,": [
+      92
+    ],
+    "which": [
+      93,
+      217
+    ],
+    "considers": [
+      94
+    ],
+    "pressure": [
+      95
+    ],
+    "changes,": [
+      96
+    ],
+    "used": [
+      98,
+      158
+    ],
+    "establish": [
+      100
+    ],
+    "relationship": [
+      102
+    ],
+    "between": [
+      103
+    ],
+    "formation": [
+      104
+    ],
+    "elasticity": [
+      105
+    ],
+    "physical": [
+      107
+    ],
+    "storage.": [
+      111
+    ],
+    "effects": [
+      113
+    ],
+    "porosity": [
+      119,
+      139
+    ],
+    "P-": [
+      121
+    ],
+    "S-wave": [
+      123
+    ],
+    "velocities": [
+      124
+    ],
+    "densities": [
+      126
+    ],
+    "are": [
+      127,
+      141,
+      157
+    ],
+    "analyzed,": [
+      128
+    ],
+    "amplitude-variation-with-offset": [
+      131
+    ],
+    "characteristics": [
+      133
+    ],
+    "changes": [
+      140,
+      188
+    ],
+    "discussed.": [
+      142
+    ],
+    "In": [
+      143
+    ],
+    "total,": [
+      144
+    ],
+    "4700": [
+      145
+    ],
+    "300": [
+      147
+    ],
+    "sets": [
+      148
+    ],
+    "angle": [
+      154
+    ],
+    "gather": [
+      155
+    ],
+    "for": [
+      159
+    ],
+    "testing,": [
+      163
+    ],
+    "respectively.": [
+      164
+    ],
+    "results": [
+      167,
+      197
+    ],
+    "synthetic": [
+      169
+    ],
+    "field": [
+      171
+    ],
+    "find": [
+      173
+    ],
+    "that": [
+      174
+    ],
+    "can": [
+      185
+    ],
+    "effectively": [
+      186
+    ],
+    "distinguish": [
+      187
+    ],
+    "each": [
+      190
+    ],
+    "parameter": [
+      191
+    ],
+    "simultaneously": [
+      193
+    ],
+    "obtain": [
+      194
+    ],
+    "Once": [
+      204
+    ],
+    "constructed,": [
+      208
+    ],
+    "will": [
+      211,
+      218
+    ],
+    "take": [
+      212
+    ],
+    "only": [
+      213
+    ],
+    "few": [
+      215
+    ],
+    "seconds,": [
+      216
+    ],
+    "promote": [
+      219
+    ],
+    "further": [
+      221
+    ],
+    "development": [
+      222
+    ],
+    "theory": [
+      228
+    ],
+    "technology.": [
+      230
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-11T09:22:31.653822",
+  "created_date": "2025-10-10T00:00:00"
+}

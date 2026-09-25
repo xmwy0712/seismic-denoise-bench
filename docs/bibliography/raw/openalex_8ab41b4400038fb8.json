@@ -1,0 +1,947 @@
+{
+  "id": "https://openalex.org/W1968220253",
+  "doi": "https://doi.org/10.1029/94jb02064",
+  "title": "Estimation of nonisotropic scattering in western Japan using coda wave envelopes: Application of a multiple nonisotropic scattering model",
+  "display_name": "Estimation of nonisotropic scattering in western Japan using coda wave envelopes: Application of a multiple nonisotropic scattering model",
+  "publication_year": 1995,
+  "publication_date": "1995-01-10",
+  "ids": {
+    "openalex": "https://openalex.org/W1968220253",
+    "doi": "https://doi.org/10.1029/94jb02064",
+    "mag": "1968220253"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1029/94jb02064",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1029/94jb02064",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S207178839",
+      "display_name": "Journal of Geophysical Research Atmospheres",
+      "issn_l": "0148-0227",
+      "issn": [
+        "0148-0227",
+        "2156-2202",
+        "2169-897X",
+        "2169-8996"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-2",
+        "ki-jl-1",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310315809",
+      "host_organization_name": "American Geophysical Union",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315809"
+      ],
+      "host_organization_lineage_names": [
+        "American Geophysical Union"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Geophysical Research: Solid Earth",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5053969789",
+        "display_name": "Mitsuyuki Hoshiba",
+        "orcid": "https://orcid.org/0000-0001-9701-5986",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-9701-5986"
+        ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "Mitsuyuki Hoshiba",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5053969789"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 4070,
+    "currency": "USD",
+    "value_usd": 4070
+  },
+  "apc_paid": null,
+  "fwci": 4.7784,
+  "has_fulltext": false,
+  "cited_by_count": 82,
+  "citation_normalized_percentile": {
+    "value": 0.95149331,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "100",
+    "issue": "B1",
+    "first_page": "645",
+    "last_page": "657"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11757",
+    "display_name": "Seismic Waves and Analysis",
+    "score": 0.9998999834060669,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10110",
+      "display_name": "earthquake and tectonic studies",
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10413",
+      "display_name": "High-pressure geophysics and materials",
+      "score": 0.9991000294685364,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/scattering",
+      "display_name": "Scattering",
+      "score": 0.863793134689331
+    },
+    {
+      "id": "https://openalex.org/keywords/coda",
+      "display_name": "Coda",
+      "score": 0.806215763092041
+    },
+    {
+      "id": "https://openalex.org/keywords/seismogram",
+      "display_name": "Seismogram",
+      "score": 0.7962980270385742
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.5510313510894775
+    },
+    {
+      "id": "https://openalex.org/keywords/computational-physics",
+      "display_name": "Computational physics",
+      "score": 0.48112478852272034
+    },
+    {
+      "id": "https://openalex.org/keywords/forward-scatter",
+      "display_name": "Forward scatter",
+      "score": 0.45871642231941223
+    },
+    {
+      "id": "https://openalex.org/keywords/gaussian",
+      "display_name": "Gaussian",
+      "score": 0.42518752813339233
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.396278977394104
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.24584117531776428
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.21341094374656677
+    },
+    {
+      "id": "https://openalex.org/keywords/quantum-mechanics",
+      "display_name": "Quantum mechanics",
+      "score": 0.10451632738113403
+    },
+    {
+      "id": "https://openalex.org/keywords/acoustics",
+      "display_name": "Acoustics",
+      "score": 0.08028537034988403
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C191486275",
+      "wikidata": "https://www.wikidata.org/wiki/Q210028",
+      "display_name": "Scattering",
+      "level": 2,
+      "score": 0.863793134689331
+    },
+    {
+      "id": "https://openalex.org/C3962253",
+      "wikidata": "https://www.wikidata.org/wiki/Q852466",
+      "display_name": "Coda",
+      "level": 2,
+      "score": 0.806215763092041
+    },
+    {
+      "id": "https://openalex.org/C169744125",
+      "wikidata": "https://www.wikidata.org/wiki/Q510375",
+      "display_name": "Seismogram",
+      "level": 2,
+      "score": 0.7962980270385742
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.5510313510894775
+    },
+    {
+      "id": "https://openalex.org/C30475298",
+      "wikidata": "https://www.wikidata.org/wiki/Q909554",
+      "display_name": "Computational physics",
+      "level": 1,
+      "score": 0.48112478852272034
+    },
+    {
+      "id": "https://openalex.org/C54644633",
+      "wikidata": "https://www.wikidata.org/wiki/Q5473287",
+      "display_name": "Forward scatter",
+      "level": 3,
+      "score": 0.45871642231941223
+    },
+    {
+      "id": "https://openalex.org/C163716315",
+      "wikidata": "https://www.wikidata.org/wiki/Q901177",
+      "display_name": "Gaussian",
+      "level": 2,
+      "score": 0.42518752813339233
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.396278977394104
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.24584117531776428
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.21341094374656677
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.10451632738113403
+    },
+    {
+      "id": "https://openalex.org/C24890656",
+      "wikidata": "https://www.wikidata.org/wiki/Q82811",
+      "display_name": "Acoustics",
+      "level": 1,
+      "score": 0.08028537034988403
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1029/94jb02064",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1029/94jb02064",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S207178839",
+        "display_name": "Journal of Geophysical Research Atmospheres",
+        "issn_l": "0148-0227",
+        "issn": [
+          "0148-0227",
+          "2156-2202",
+          "2169-897X",
+          "2169-8996"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-2",
+          "ki-jl-1",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310315809",
+        "host_organization_name": "American Geophysical Union",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315809"
+        ],
+        "host_organization_lineage_names": [
+          "American Geophysical Union"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Geophysical Research: Solid Earth",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 28,
+  "referenced_works": [
+    "https://openalex.org/W1501597519",
+    "https://openalex.org/W1964537333",
+    "https://openalex.org/W1966517979",
+    "https://openalex.org/W1993008577",
+    "https://openalex.org/W1994729497",
+    "https://openalex.org/W2018403505",
+    "https://openalex.org/W2021121782",
+    "https://openalex.org/W2022716782",
+    "https://openalex.org/W2022793143",
+    "https://openalex.org/W2024031334",
+    "https://openalex.org/W2026725876",
+    "https://openalex.org/W2031568111",
+    "https://openalex.org/W2035139604",
+    "https://openalex.org/W2038962127",
+    "https://openalex.org/W2052107023",
+    "https://openalex.org/W2055184659",
+    "https://openalex.org/W2060492048",
+    "https://openalex.org/W2068571834",
+    "https://openalex.org/W2075060135",
+    "https://openalex.org/W2084982717",
+    "https://openalex.org/W2094273345",
+    "https://openalex.org/W2097321953",
+    "https://openalex.org/W2106310762",
+    "https://openalex.org/W2110603984",
+    "https://openalex.org/W2136381745",
+    "https://openalex.org/W2146036776",
+    "https://openalex.org/W2166260557",
+    "https://openalex.org/W3033682380"
+  ],
+  "related_works": [
+    "https://openalex.org/W2112877060",
+    "https://openalex.org/W2044831873",
+    "https://openalex.org/W2562708109",
+    "https://openalex.org/W2119712994",
+    "https://openalex.org/W3132623182",
+    "https://openalex.org/W1516643255",
+    "https://openalex.org/W86809483",
+    "https://openalex.org/W1984805061",
+    "https://openalex.org/W1978856555",
+    "https://openalex.org/W2075387000"
+  ],
+  "abstract_inverted_index": {
+    "Scattering": [
+      0
+    ],
+    "by": [
+      1
+    ],
+    "heterogeneities": [
+      2
+    ],
+    "is": [
+      3,
+      38,
+      74,
+      148,
+      153,
+      161,
+      182
+    ],
+    "an": [
+      4
+    ],
+    "important": [
+      5
+    ],
+    "factor": [
+      6
+    ],
+    "controling": [
+      7
+    ],
+    "shapes": [
+      8
+    ],
+    "of": [
+      9,
+      20,
+      65,
+      95,
+      116,
+      124,
+      132,
+      158,
+      169,
+      174,
+      194
+    ],
+    "seismograms.": [
+      10
+    ],
+    "Analyzing": [
+      11
+    ],
+    "horizontal": [
+      12
+    ],
+    "component": [
+      13
+    ],
+    "seismograms": [
+      14
+    ],
+    "in": [
+      15,
+      23,
+      48,
+      89,
+      97,
+      136,
+      191
+    ],
+    "the": [
+      16,
+      34,
+      77,
+      87,
+      93,
+      105,
+      110,
+      125,
+      130,
+      137,
+      156,
+      175,
+      192
+    ],
+    "band": [
+      17
+    ],
+    "1.0–8": [
+      18
+    ],
+    "Hz": [
+      19
+    ],
+    "local": [
+      21
+    ],
+    "earthquakes": [
+      22,
+      59
+    ],
+    "western": [
+      24
+    ],
+    "Japan,": [
+      25
+    ],
+    "we": [
+      26
+    ],
+    "found": [
+      27,
+      149
+    ],
+    "that": [
+      28,
+      150,
+      168,
+      179
+    ],
+    "coda": [
+      29
+    ],
+    "energy": [
+      30
+    ],
+    "concentration": [
+      31
+    ],
+    "just": [
+      32
+    ],
+    "after": [
+      33
+    ],
+    "S": [
+      35
+    ],
+    "wave": [
+      36,
+      100,
+      134
+    ],
+    "arrival": [
+      37
+    ],
+    "more": [
+      39
+    ],
+    "than": [
+      40,
+      167,
+      187
+    ],
+    "expected": [
+      41
+    ],
+    "for": [
+      42,
+      57,
+      109
+    ],
+    "any": [
+      43
+    ],
+    "multiple": [
+      44,
+      78
+    ],
+    "isotropic": [
+      45
+    ],
+    "scattering": [
+      46,
+      79,
+      112,
+      119,
+      152,
+      160,
+      177
+    ],
+    "model": [
+      47,
+      88
+    ],
+    "uniform": [
+      49
+    ],
+    "infinite": [
+      50
+    ],
+    "medium.": [
+      51
+    ],
+    "This": [
+      52
+    ],
+    "behavior": [
+      53
+    ],
+    "was": [
+      54
+    ],
+    "seen": [
+      55
+    ],
+    "even": [
+      56
+    ],
+    "deep": [
+      58
+    ],
+    "and": [
+      60,
+      143,
+      155
+    ],
+    "became": [
+      61
+    ],
+    "stronger": [
+      62
+    ],
+    "with": [
+      63,
+      86,
+      127,
+      141
+    ],
+    "increase": [
+      64
+    ],
+    "frequency.": [
+      66
+    ],
+    "To": [
+      67
+    ],
+    "try": [
+      68
+    ],
+    "to": [
+      69,
+      91,
+      129,
+      184
+    ],
+    "interpret": [
+      70
+    ],
+    "this": [
+      71
+    ],
+    "observation,": [
+      72
+    ],
+    "nonisotropy": [
+      73,
+      96,
+      126
+    ],
+    "introduced": [
+      75
+    ],
+    "into": [
+      76
+    ],
+    "model.": [
+      80
+    ],
+    "The": [
+      81,
+      172
+    ],
+    "observed": [
+      82
+    ],
+    "envelopes": [
+      83,
+      101
+    ],
+    "are": [
+      84,
+      102,
+      120
+    ],
+    "compared": [
+      85
+    ],
+    "order": [
+      90
+    ],
+    "estimate": [
+      92
+    ],
+    "amount": [
+      94,
+      173
+    ],
+    "scattering.": [
+      98,
+      171
+    ],
+    "Coda": [
+      99
+    ],
+    "synthesized": [
+      103
+    ],
+    "using": [
+      104
+    ],
+    "Monte": [
+      106
+    ],
+    "Carlo": [
+      107
+    ],
+    "method": [
+      108
+    ],
+    "nonisotropic": [
+      111,
+      176
+    ],
+    "media.": [
+      113,
+      197
+    ],
+    "Two": [
+      114
+    ],
+    "types": [
+      115
+    ],
+    "angular": [
+      117
+    ],
+    "dependent": [
+      118
+    ],
+    "considered": [
+      121
+    ],
+    "as": [
+      122
+    ],
+    "models": [
+      123
+    ],
+    "relation": [
+      128
+    ],
+    "perturbation": [
+      131
+    ],
+    "seismic": [
+      133
+    ],
+    "velocity": [
+      135
+    ],
+    "lithosphere:": [
+      138
+    ],
+    "perturbed": [
+      139
+    ],
+    "media": [
+      140
+    ],
+    "exponential": [
+      142
+    ],
+    "Gaussian": [
+      144,
+      195
+    ],
+    "autocorrelation": [
+      145
+    ],
+    "functions.": [
+      146
+    ],
+    "It": [
+      147
+    ],
+    "forward": [
+      151
+    ],
+    "dominant": [
+      154
+    ],
+    "strength": [
+      157
+    ],
+    "sideways": [
+      159
+    ],
+    "at": [
+      162
+    ],
+    "least": [
+      163
+    ],
+    "10": [
+      164
+    ],
+    "times": [
+      165
+    ],
+    "larger": [
+      166,
+      186
+    ],
+    "backward": [
+      170
+    ],
+    "means": [
+      178
+    ],
+    "correlation": [
+      180
+    ],
+    "distance": [
+      181
+    ],
+    "estimated": [
+      183
+    ],
+    "be": [
+      185
+    ],
+    "several": [
+      188
+    ],
+    "hundred": [
+      189
+    ],
+    "meters": [
+      190
+    ],
+    "case": [
+      193
+    ],
+    "random": [
+      196
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 4
+    }
+  ],
+  "updated_date": "2026-09-23T09:40:40.371523",
+  "created_date": "2025-10-10T00:00:00"
+}

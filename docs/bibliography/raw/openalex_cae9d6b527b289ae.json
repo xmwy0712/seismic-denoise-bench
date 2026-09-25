@@ -1,0 +1,659 @@
+{
+  "id": "https://openalex.org/W2055553006",
+  "doi": "https://doi.org/10.1016/s1365-1609(03)00081-9",
+  "title": "Identification of subsurface structures using the seismic-while-drilling technique",
+  "display_name": "Identification of subsurface structures using the seismic-while-drilling technique",
+  "publication_year": 2003,
+  "publication_date": "2003-07-22",
+  "ids": {
+    "openalex": "https://openalex.org/W2055553006",
+    "doi": "https://doi.org/10.1016/s1365-1609(03)00081-9",
+    "mag": "2055553006"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/s1365-1609(03)00081-9",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/s1365-1609(03)00081-9",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S129124101",
+      "display_name": "International Journal of Rock Mechanics and Mining Sciences",
+      "issn_l": "1365-1609",
+      "issn": [
+        "1365-1609",
+        "1873-4545"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "International Journal of Rock Mechanics and Mining Sciences",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5043728586",
+        "display_name": "Nobukazu Soma",
+        "orcid": "https://orcid.org/0000-0001-5321-7391"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I73613424",
+          "display_name": "National Institute of Advanced Industrial Science and Technology",
+          "ror": "https://ror.org/01703db54",
+          "country_code": "JP",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I73613424"
+          ]
+        }
+      ],
+      "countries": [
+        "JP"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "N. Soma",
+      "raw_affiliation_strings": [
+        "National Institute of Advanced Industrial Science and Technology, AIST-West, 16-1 Onogawa, Tsukuba, 305-8569, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Institute of Advanced Industrial Science and Technology, AIST-West, 16-1 Onogawa, Tsukuba, 305-8569, Japan",
+          "institution_ids": [
+            "https://openalex.org/I73613424"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5060515386",
+        "display_name": "Manabu UTAGAWA",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I73613424",
+          "display_name": "National Institute of Advanced Industrial Science and Technology",
+          "ror": "https://ror.org/01703db54",
+          "country_code": "JP",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I73613424"
+          ]
+        }
+      ],
+      "countries": [
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "M. Utagawa",
+      "raw_affiliation_strings": [
+        "National Institute of Advanced Industrial Science and Technology, AIST-West, 16-1 Onogawa, Tsukuba, 305-8569, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Institute of Advanced Industrial Science and Technology, AIST-West, 16-1 Onogawa, Tsukuba, 305-8569, Japan",
+          "institution_ids": [
+            "https://openalex.org/I73613424"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5041513914",
+        "display_name": "Makoto Seto",
+        "orcid": "https://orcid.org/0000-0002-9746-0753"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I73613424",
+          "display_name": "National Institute of Advanced Industrial Science and Technology",
+          "ror": "https://ror.org/01703db54",
+          "country_code": "JP",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I73613424"
+          ]
+        }
+      ],
+      "countries": [
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "M. Seto",
+      "raw_affiliation_strings": [
+        "National Institute of Advanced Industrial Science and Technology, AIST-West, 16-1 Onogawa, Tsukuba, 305-8569, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Institute of Advanced Industrial Science and Technology, AIST-West, 16-1 Onogawa, Tsukuba, 305-8569, Japan",
+          "institution_ids": [
+            "https://openalex.org/I73613424"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5074992777",
+        "display_name": "A. Cho",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I73613424",
+          "display_name": "National Institute of Advanced Industrial Science and Technology",
+          "ror": "https://ror.org/01703db54",
+          "country_code": "JP",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I73613424"
+          ]
+        }
+      ],
+      "countries": [
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "A. Cho",
+      "raw_affiliation_strings": [
+        "National Institute of Advanced Industrial Science and Technology, AIST-West, 16-1 Onogawa, Tsukuba, 305-8569, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "National Institute of Advanced Industrial Science and Technology, AIST-West, 16-1 Onogawa, Tsukuba, 305-8569, Japan",
+          "institution_ids": [
+            "https://openalex.org/I73613424"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5064710023",
+        "display_name": "Hiroshi Asanuma",
+        "orcid": "https://orcid.org/0000-0002-1836-5839"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I201537933",
+          "display_name": "Tohoku University",
+          "ror": "https://ror.org/01dq60k83",
+          "country_code": "JP",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I201537933"
+          ]
+        }
+      ],
+      "countries": [
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "H. Asanuma",
+      "raw_affiliation_strings": [
+        "Department of Geoscience and Technology, Graduate School of Tohoku University, Sendai, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Geoscience and Technology, Graduate School of Tohoku University, Sendai, Japan",
+          "institution_ids": [
+            "https://openalex.org/I201537933"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5043728586"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I73613424"
+  ],
+  "apc_list": {
+    "value": 4110,
+    "currency": "USD",
+    "value_usd": 4110
+  },
+  "apc_paid": null,
+  "fwci": 0.0,
+  "has_fulltext": false,
+  "cited_by_count": 19,
+  "citation_normalized_percentile": {
+    "value": 0.11908662,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "41",
+    "issue": "1",
+    "first_page": "165",
+    "last_page": "173"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T14392",
+    "display_name": "Geoscience and Mining Technology",
+    "score": 0.998199999332428,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2213",
+      "display_name": "Safety, Risk, Reliability and Quality"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T14392",
+      "display_name": "Geoscience and Mining Technology",
+      "score": 0.998199999332428,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2213",
+        "display_name": "Safety, Risk, Reliability and Quality"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13772",
+      "display_name": "Geomechanics and Mining Engineering",
+      "score": 0.9954000115394592,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14456",
+      "display_name": "Blasting Impact and Analysis",
+      "score": 0.9842000007629395,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2215",
+        "display_name": "Building and Construction"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/drilling",
+      "display_name": "Drilling",
+      "score": 0.8942441940307617
+    },
+    {
+      "id": "https://openalex.org/keywords/measurement-while-drilling",
+      "display_name": "Measurement while drilling",
+      "score": 0.7665778398513794
+    },
+    {
+      "id": "https://openalex.org/keywords/microseism",
+      "display_name": "Microseism",
+      "score": 0.638001561164856
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.5570599436759949
+    },
+    {
+      "id": "https://openalex.org/keywords/vibration",
+      "display_name": "Vibration",
+      "score": 0.5446609258651733
+    },
+    {
+      "id": "https://openalex.org/keywords/coal-mining",
+      "display_name": "Coal mining",
+      "score": 0.5283243060112
+    },
+    {
+      "id": "https://openalex.org/keywords/petroleum-engineering",
+      "display_name": "Petroleum engineering",
+      "score": 0.5255307555198669
+    },
+    {
+      "id": "https://openalex.org/keywords/rock-burst",
+      "display_name": "Rock burst",
+      "score": 0.5147073864936829
+    },
+    {
+      "id": "https://openalex.org/keywords/coal",
+      "display_name": "Coal",
+      "score": 0.4831618666648865
+    },
+    {
+      "id": "https://openalex.org/keywords/mining-engineering",
+      "display_name": "Mining engineering",
+      "score": 0.3891810178756714
+    },
+    {
+      "id": "https://openalex.org/keywords/engineering",
+      "display_name": "Engineering",
+      "score": 0.25551837682724
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.22797569632530212
+    },
+    {
+      "id": "https://openalex.org/keywords/acoustics",
+      "display_name": "Acoustics",
+      "score": 0.19676125049591064
+    },
+    {
+      "id": "https://openalex.org/keywords/mechanical-engineering",
+      "display_name": "Mechanical engineering",
+      "score": 0.11019861698150635
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C25197100",
+      "wikidata": "https://www.wikidata.org/wiki/Q890886",
+      "display_name": "Drilling",
+      "level": 2,
+      "score": 0.8942441940307617
+    },
+    {
+      "id": "https://openalex.org/C42222113",
+      "wikidata": "https://www.wikidata.org/wiki/Q890894",
+      "display_name": "Measurement while drilling",
+      "level": 3,
+      "score": 0.7665778398513794
+    },
+    {
+      "id": "https://openalex.org/C7266685",
+      "wikidata": "https://www.wikidata.org/wiki/Q1303250",
+      "display_name": "Microseism",
+      "level": 2,
+      "score": 0.638001561164856
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.5570599436759949
+    },
+    {
+      "id": "https://openalex.org/C198394728",
+      "wikidata": "https://www.wikidata.org/wiki/Q3695508",
+      "display_name": "Vibration",
+      "level": 2,
+      "score": 0.5446609258651733
+    },
+    {
+      "id": "https://openalex.org/C108615695",
+      "wikidata": "https://www.wikidata.org/wiki/Q12880211",
+      "display_name": "Coal mining",
+      "level": 3,
+      "score": 0.5283243060112
+    },
+    {
+      "id": "https://openalex.org/C78762247",
+      "wikidata": "https://www.wikidata.org/wiki/Q1273174",
+      "display_name": "Petroleum engineering",
+      "level": 1,
+      "score": 0.5255307555198669
+    },
+    {
+      "id": "https://openalex.org/C2781130035",
+      "wikidata": "https://www.wikidata.org/wiki/Q488996",
+      "display_name": "Rock burst",
+      "level": 4,
+      "score": 0.5147073864936829
+    },
+    {
+      "id": "https://openalex.org/C518851703",
+      "wikidata": "https://www.wikidata.org/wiki/Q24489",
+      "display_name": "Coal",
+      "level": 2,
+      "score": 0.4831618666648865
+    },
+    {
+      "id": "https://openalex.org/C16674752",
+      "wikidata": "https://www.wikidata.org/wiki/Q1370637",
+      "display_name": "Mining engineering",
+      "level": 1,
+      "score": 0.3891810178756714
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.25551837682724
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.22797569632530212
+    },
+    {
+      "id": "https://openalex.org/C24890656",
+      "wikidata": "https://www.wikidata.org/wiki/Q82811",
+      "display_name": "Acoustics",
+      "level": 1,
+      "score": 0.19676125049591064
+    },
+    {
+      "id": "https://openalex.org/C78519656",
+      "wikidata": "https://www.wikidata.org/wiki/Q101333",
+      "display_name": "Mechanical engineering",
+      "level": 1,
+      "score": 0.11019861698150635
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C548081761",
+      "wikidata": "https://www.wikidata.org/wiki/Q180388",
+      "display_name": "Waste management",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1016/s1365-1609(03)00081-9",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/s1365-1609(03)00081-9",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S129124101",
+        "display_name": "International Journal of Rock Mechanics and Mining Sciences",
+        "issn_l": "1365-1609",
+        "issn": [
+          "1365-1609",
+          "1873-4545"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "International Journal of Rock Mechanics and Mining Sciences",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320320912",
+      "display_name": "Ministry of Education, Culture, Sports, Science and Technology",
+      "ror": "https://ror.org/048rj2z13"
+    },
+    {
+      "id": "https://openalex.org/F4320321034",
+      "display_name": "New Energy and Industrial Technology Development Organization",
+      "ror": "https://ror.org/0055k7a87"
+    }
+  ],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 7,
+  "referenced_works": [
+    "https://openalex.org/W2046317813",
+    "https://openalex.org/W2047194234",
+    "https://openalex.org/W2058359126",
+    "https://openalex.org/W2094550000",
+    "https://openalex.org/W2162847366",
+    "https://openalex.org/W2243151380",
+    "https://openalex.org/W6744885561"
+  ],
+  "related_works": [
+    "https://openalex.org/W3087415732",
+    "https://openalex.org/W2372095855",
+    "https://openalex.org/W2364873243",
+    "https://openalex.org/W1979559255",
+    "https://openalex.org/W2386210669",
+    "https://openalex.org/W2380227370",
+    "https://openalex.org/W3146218399",
+    "https://openalex.org/W2348435097",
+    "https://openalex.org/W2921163158",
+    "https://openalex.org/W2353331960"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2026-08-21T09:56:20.448147",
+  "created_date": "2025-10-10T00:00:00"
+}

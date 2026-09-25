@@ -1,0 +1,1500 @@
+{
+  "id": "https://openalex.org/W1994594371",
+  "doi": "https://doi.org/10.1029/95rg02074",
+  "title": "Anelastic structure and evolution of the continental crust and upper mantle from seismic surface wave attenuation",
+  "display_name": "Anelastic structure and evolution of the continental crust and upper mantle from seismic surface wave attenuation",
+  "publication_year": 1995,
+  "publication_date": "1995-11-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1994594371",
+    "doi": "https://doi.org/10.1029/95rg02074",
+    "mag": "1994594371"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1029/95rg02074",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1029/95rg02074",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S129102366",
+      "display_name": "Reviews of Geophysics",
+      "issn_l": "0096-1043",
+      "issn": [
+        "0096-1043",
+        "1944-9208",
+        "8755-1209"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Reviews of Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5072234172",
+        "display_name": "Brian J. Mitchell",
+        "orcid": "https://orcid.org/0000-0001-6281-1536"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "Brian J. Mitchell",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5072234172"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 3880,
+    "currency": "USD",
+    "value_usd": 3880
+  },
+  "apc_paid": null,
+  "fwci": 15.1931,
+  "has_fulltext": false,
+  "cited_by_count": 334,
+  "citation_normalized_percentile": {
+    "value": 0.99735772,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "33",
+    "issue": "4",
+    "first_page": "441",
+    "last_page": "462"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10413",
+    "display_name": "High-pressure geophysics and materials",
+    "score": 0.9998999834060669,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10413",
+      "display_name": "High-pressure geophysics and materials",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10110",
+      "display_name": "earthquake and tectonic studies",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.8140925168991089
+    },
+    {
+      "id": "https://openalex.org/keywords/crust",
+      "display_name": "Crust",
+      "score": 0.7981680631637573
+    },
+    {
+      "id": "https://openalex.org/keywords/craton",
+      "display_name": "Craton",
+      "score": 0.7786693572998047
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.669619083404541
+    },
+    {
+      "id": "https://openalex.org/keywords/tectonics",
+      "display_name": "Tectonics",
+      "score": 0.6576410531997681
+    },
+    {
+      "id": "https://openalex.org/keywords/continental-crust",
+      "display_name": "Continental crust",
+      "score": 0.5747097134590149
+    },
+    {
+      "id": "https://openalex.org/keywords/coda",
+      "display_name": "Coda",
+      "score": 0.5428938269615173
+    },
+    {
+      "id": "https://openalex.org/keywords/mantle",
+      "display_name": "Mantle (geology)",
+      "score": 0.4963834881782532
+    },
+    {
+      "id": "https://openalex.org/keywords/lithosphere",
+      "display_name": "Lithosphere",
+      "score": 0.48806512355804443
+    },
+    {
+      "id": "https://openalex.org/keywords/rift",
+      "display_name": "Rift",
+      "score": 0.43301165103912354
+    },
+    {
+      "id": "https://openalex.org/keywords/upper-crust",
+      "display_name": "Upper crust",
+      "score": 0.4258146286010742
+    },
+    {
+      "id": "https://openalex.org/keywords/geophysics",
+      "display_name": "Geophysics",
+      "score": 0.40977543592453003
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.8140925168991089
+    },
+    {
+      "id": "https://openalex.org/C2776698055",
+      "wikidata": "https://www.wikidata.org/wiki/Q4232578",
+      "display_name": "Crust",
+      "level": 2,
+      "score": 0.7981680631637573
+    },
+    {
+      "id": "https://openalex.org/C147717901",
+      "wikidata": "https://www.wikidata.org/wiki/Q191110",
+      "display_name": "Craton",
+      "level": 3,
+      "score": 0.7786693572998047
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.669619083404541
+    },
+    {
+      "id": "https://openalex.org/C77928131",
+      "wikidata": "https://www.wikidata.org/wiki/Q193343",
+      "display_name": "Tectonics",
+      "level": 2,
+      "score": 0.6576410531997681
+    },
+    {
+      "id": "https://openalex.org/C141646446",
+      "wikidata": "https://www.wikidata.org/wiki/Q858571",
+      "display_name": "Continental crust",
+      "level": 3,
+      "score": 0.5747097134590149
+    },
+    {
+      "id": "https://openalex.org/C3962253",
+      "wikidata": "https://www.wikidata.org/wiki/Q852466",
+      "display_name": "Coda",
+      "level": 2,
+      "score": 0.5428938269615173
+    },
+    {
+      "id": "https://openalex.org/C67236022",
+      "wikidata": "https://www.wikidata.org/wiki/Q4364434",
+      "display_name": "Mantle (geology)",
+      "level": 2,
+      "score": 0.4963834881782532
+    },
+    {
+      "id": "https://openalex.org/C16942324",
+      "wikidata": "https://www.wikidata.org/wiki/Q83296",
+      "display_name": "Lithosphere",
+      "level": 3,
+      "score": 0.48806512355804443
+    },
+    {
+      "id": "https://openalex.org/C50682988",
+      "wikidata": "https://www.wikidata.org/wiki/Q473935",
+      "display_name": "Rift",
+      "level": 3,
+      "score": 0.43301165103912354
+    },
+    {
+      "id": "https://openalex.org/C2994012208",
+      "wikidata": "https://www.wikidata.org/wiki/Q7899037",
+      "display_name": "Upper crust",
+      "level": 3,
+      "score": 0.4258146286010742
+    },
+    {
+      "id": "https://openalex.org/C8058405",
+      "wikidata": "https://www.wikidata.org/wiki/Q46255",
+      "display_name": "Geophysics",
+      "level": 1,
+      "score": 0.40977543592453003
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1029/95rg02074",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1029/95rg02074",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S129102366",
+        "display_name": "Reviews of Geophysics",
+        "issn_l": "0096-1043",
+        "issn": [
+          "0096-1043",
+          "1944-9208",
+          "8755-1209"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Reviews of Geophysics",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "score": 0.8199999928474426,
+      "id": "https://metadata.un.org/sdg/14",
+      "display_name": "Life below water"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 123,
+  "referenced_works": [
+    "https://openalex.org/W561894087",
+    "https://openalex.org/W1022728822",
+    "https://openalex.org/W1501597519",
+    "https://openalex.org/W1530423453",
+    "https://openalex.org/W1575606486",
+    "https://openalex.org/W1579868249",
+    "https://openalex.org/W1754329633",
+    "https://openalex.org/W1858451489",
+    "https://openalex.org/W1880820850",
+    "https://openalex.org/W1933763152",
+    "https://openalex.org/W1964284696",
+    "https://openalex.org/W1969599221",
+    "https://openalex.org/W1971796795",
+    "https://openalex.org/W1972240237",
+    "https://openalex.org/W1974198304",
+    "https://openalex.org/W1976416283",
+    "https://openalex.org/W1976818912",
+    "https://openalex.org/W1983243800",
+    "https://openalex.org/W1983251233",
+    "https://openalex.org/W1990097818",
+    "https://openalex.org/W1991623636",
+    "https://openalex.org/W1994729497",
+    "https://openalex.org/W1997096697",
+    "https://openalex.org/W2000241135",
+    "https://openalex.org/W2000619701",
+    "https://openalex.org/W2001402992",
+    "https://openalex.org/W2004296849",
+    "https://openalex.org/W2006672401",
+    "https://openalex.org/W2007983892",
+    "https://openalex.org/W2008554751",
+    "https://openalex.org/W2015948680",
+    "https://openalex.org/W2016405693",
+    "https://openalex.org/W2021121782",
+    "https://openalex.org/W2021613951",
+    "https://openalex.org/W2022716782",
+    "https://openalex.org/W2024502297",
+    "https://openalex.org/W2026935135",
+    "https://openalex.org/W2028319051",
+    "https://openalex.org/W2028935437",
+    "https://openalex.org/W2029980937",
+    "https://openalex.org/W2031618020",
+    "https://openalex.org/W2032853562",
+    "https://openalex.org/W2032862850",
+    "https://openalex.org/W2043536842",
+    "https://openalex.org/W2046022281",
+    "https://openalex.org/W2047999478",
+    "https://openalex.org/W2048869615",
+    "https://openalex.org/W2048974783",
+    "https://openalex.org/W2050264787",
+    "https://openalex.org/W2050693105",
+    "https://openalex.org/W2053440720",
+    "https://openalex.org/W2054577711",
+    "https://openalex.org/W2055184659",
+    "https://openalex.org/W2055511959",
+    "https://openalex.org/W2056881026",
+    "https://openalex.org/W2058152127",
+    "https://openalex.org/W2059008211",
+    "https://openalex.org/W2060228821",
+    "https://openalex.org/W2061116473",
+    "https://openalex.org/W2061731869",
+    "https://openalex.org/W2065791672",
+    "https://openalex.org/W2073749028",
+    "https://openalex.org/W2075112901",
+    "https://openalex.org/W2077546114",
+    "https://openalex.org/W2083757152",
+    "https://openalex.org/W2084982717",
+    "https://openalex.org/W2089158325",
+    "https://openalex.org/W2094273345",
+    "https://openalex.org/W2096398344",
+    "https://openalex.org/W2098130017",
+    "https://openalex.org/W2098849204",
+    "https://openalex.org/W2100415857",
+    "https://openalex.org/W2106643862",
+    "https://openalex.org/W2108010353",
+    "https://openalex.org/W2112237127",
+    "https://openalex.org/W2113479308",
+    "https://openalex.org/W2117080363",
+    "https://openalex.org/W2118451166",
+    "https://openalex.org/W2124049727",
+    "https://openalex.org/W2125947446",
+    "https://openalex.org/W2126682510",
+    "https://openalex.org/W2128395108",
+    "https://openalex.org/W2128748091",
+    "https://openalex.org/W2131432478",
+    "https://openalex.org/W2143909904",
+    "https://openalex.org/W2146036776",
+    "https://openalex.org/W2151289219",
+    "https://openalex.org/W2157022173",
+    "https://openalex.org/W2158367836",
+    "https://openalex.org/W2162643101",
+    "https://openalex.org/W2165316409",
+    "https://openalex.org/W2168744878",
+    "https://openalex.org/W2170889740",
+    "https://openalex.org/W2181757556",
+    "https://openalex.org/W2186672978",
+    "https://openalex.org/W2194505949",
+    "https://openalex.org/W2245177017",
+    "https://openalex.org/W2255288671",
+    "https://openalex.org/W2267386849",
+    "https://openalex.org/W2274670743",
+    "https://openalex.org/W2275378831",
+    "https://openalex.org/W2287207567",
+    "https://openalex.org/W2297959613",
+    "https://openalex.org/W2333350323",
+    "https://openalex.org/W2336161003",
+    "https://openalex.org/W2340903242",
+    "https://openalex.org/W2343483603",
+    "https://openalex.org/W2347092522",
+    "https://openalex.org/W2440354159",
+    "https://openalex.org/W2465652978",
+    "https://openalex.org/W2565081784",
+    "https://openalex.org/W2575656867",
+    "https://openalex.org/W2587604524",
+    "https://openalex.org/W2588837349",
+    "https://openalex.org/W2594219198",
+    "https://openalex.org/W3028365501",
+    "https://openalex.org/W4206493919",
+    "https://openalex.org/W4232924227",
+    "https://openalex.org/W4237160257",
+    "https://openalex.org/W4285719527",
+    "https://openalex.org/W6682394272",
+    "https://openalex.org/W6684816798",
+    "https://openalex.org/W6690604718"
+  ],
+  "related_works": [
+    "https://openalex.org/W2373667852",
+    "https://openalex.org/W2370048777",
+    "https://openalex.org/W1975697041",
+    "https://openalex.org/W3114905377",
+    "https://openalex.org/W3111956160",
+    "https://openalex.org/W2950034011",
+    "https://openalex.org/W2982782627",
+    "https://openalex.org/W2091623470",
+    "https://openalex.org/W2043672539",
+    "https://openalex.org/W4281746323"
+  ],
+  "abstract_inverted_index": {
+    "Regional": [
+      0,
+      326
+    ],
+    "variations": [
+      1,
+      87,
+      101,
+      300,
+      327
+    ],
+    "of": [
+      2,
+      19,
+      45,
+      84,
+      102,
+      114,
+      135,
+      190,
+      193,
+      219,
+      225,
+      243,
+      293,
+      308,
+      328,
+      344,
+      355,
+      359,
+      363,
+      409,
+      419,
+      428,
+      460
+    ],
+    "the": [
+      3,
+      13,
+      67,
+      85,
+      112,
+      158,
+      173,
+      179,
+      191,
+      211,
+      237,
+      241,
+      244,
+      269,
+      272,
+      277,
+      332,
+      342,
+      353,
+      360,
+      426,
+      429,
+      433,
+      448,
+      458
+    ],
+    "intrinsic": [
+      4,
+      154
+    ],
+    "shear": [
+      5
+    ],
+    "wave": [
+      6
+    ],
+    "quality": [
+      7
+    ],
+    "factor": [
+      8
+    ],
+    "Q": [
+      9,
+      49,
+      89,
+      106,
+      109,
+      118,
+      134,
+      145,
+      155,
+      164,
+      167,
+      194,
+      202,
+      226,
+      254,
+      283,
+      304,
+      329,
+      364,
+      367,
+      420,
+      468
+    ],
+    "µ": [
+      10,
+      50,
+      90,
+      107,
+      156,
+      165,
+      255,
+      284,
+      305,
+      330,
+      365,
+      469
+    ],
+    "in": [
+      11,
+      25,
+      31,
+      35,
+      66,
+      74,
+      80,
+      88,
+      157,
+      184,
+      210,
+      236,
+      261,
+      301,
+      317,
+      331,
+      341,
+      347,
+      382,
+      393,
+      400,
+      421,
+      438,
+      457,
+      467
+    ],
+    "both": [
+      12,
+      36,
+      103,
+      124
+    ],
+    "upper": [
+      14,
+      17,
+      68,
+      104,
+      159,
+      162,
+      281,
+      302,
+      333
+    ],
+    "crust": [
+      15,
+      279,
+      334
+    ],
+    "and": [
+      16,
+      59,
+      78,
+      108,
+      166,
+      216,
+      280,
+      366,
+      377,
+      385,
+      463
+    ],
+    "mantle": [
+      18,
+      303
+    ],
+    "continents": [
+      20
+    ],
+    "are": [
+      21,
+      335
+    ],
+    "large,": [
+      22
+    ],
+    "with": [
+      23,
+      172,
+      231,
+      268,
+      286,
+      295,
+      389,
+      443
+    ],
+    "values": [
+      24,
+      170,
+      197,
+      203,
+      418
+    ],
+    "old,": [
+      26
+    ],
+    "stable": [
+      27,
+      81
+    ],
+    "cratons": [
+      28,
+      245
+    ],
+    "exceeding": [
+      29
+    ],
+    "those": [
+      30,
+      321,
+      401
+    ],
+    "tectonically": [
+      32,
+      75
+    ],
+    "active": [
+      33,
+      76
+    ],
+    "regions": [
+      34,
+      77,
+      218
+    ],
+    "depth": [
+      37
+    ],
+    "ranges": [
+      38
+    ],
+    "by": [
+      39,
+      129,
+      143,
+      153,
+      290,
+      315,
+      339,
+      445,
+      451
+    ],
+    "as": [
+      40,
+      42
+    ],
+    "much": [
+      41
+    ],
+    "an": [
+      43
+    ],
+    "order": [
+      44
+    ],
+    "magnitude": [
+      46
+    ],
+    "or": [
+      47,
+      221,
+      450
+    ],
+    "more.": [
+      48
+    ],
+    "depends": [
+      51
+    ],
+    "upon": [
+      52
+    ],
+    "frequency,": [
+      53
+    ],
+    "at": [
+      54,
+      258,
+      306,
+      322
+    ],
+    "least": [
+      55
+    ],
+    "near": [
+      56
+    ],
+    "1": [
+      57
+    ],
+    "Hz,": [
+      58
+    ],
+    "that": [
+      60,
+      175,
+      229,
+      234,
+      248,
+      371,
+      386,
+      397
+    ],
+    "frequency": [
+      61
+    ],
+    "dependence": [
+      62
+    ],
+    "also": [
+      63,
+      251
+    ],
+    "varies": [
+      64
+    ],
+    "regionally": [
+      65
+    ],
+    "crust.": [
+      69,
+      160,
+      275
+    ],
+    "It": [
+      70
+    ],
+    "is": [
+      71,
+      96,
+      374
+    ],
+    "typically": [
+      72
+    ],
+    "low": [
+      73
+    ],
+    "higher": [
+      79
+    ],
+    "regions.": [
+      82,
+      186
+    ],
+    "Because": [
+      83
+    ],
+    "large": [
+      86,
+      130
+    ],
+    "from": [
+      91,
+      111
+    ],
+    "region": [
+      92,
+      384
+    ],
+    "to": [
+      93,
+      98,
+      149,
+      206,
+      266,
+      271,
+      407,
+      432,
+      441,
+      447
+    ],
+    "region,": [
+      94
+    ],
+    "it": [
+      95,
+      387
+    ],
+    "easy": [
+      97
+    ],
+    "map": [
+      99
+    ],
+    "regional": [
+      100,
+      299,
+      361
+    ],
+    "crustal": [
+      105,
+      163,
+      323,
+      410
+    ],
+    "estimated": [
+      110
+    ],
+    "coda": [
+      113,
+      133
+    ],
+    "Lg": [
+      115,
+      119,
+      146,
+      168,
+      195,
+      227,
+      368
+    ],
+    "waves": [
+      116,
+      138
+    ],
+    "(": [
+      117
+    ],
+    "c": [
+      120,
+      147,
+      169,
+      196,
+      228,
+      369
+    ],
+    "),": [
+      121
+    ],
+    "even": [
+      122
+    ],
+    "though": [
+      123
+    ],
+    "measurements": [
+      125
+    ],
+    "may": [
+      126,
+      139,
+      403
+    ],
+    "be": [
+      127,
+      140,
+      150,
+      252,
+      313,
+      404
+    ],
+    "marked": [
+      128
+    ],
+    "uncertainties.": [
+      131
+    ],
+    "Although": [
+      132
+    ],
+    "direct": [
+      136
+    ],
+    "body": [
+      137
+    ],
+    "strongly": [
+      141
+    ],
+    "affected": [
+      142
+    ],
+    "scattering,": [
+      144
+    ],
+    "appears": [
+      148,
+      265,
+      440
+    ],
+    "primarily": [
+      151
+    ],
+    "governed": [
+      152
+    ],
+    "Both": [
+      161
+    ],
+    "correlate": [
+      171,
+      230
+    ],
+    "time": [
+      174,
+      444
+    ],
+    "has": [
+      176
+    ],
+    "elapsed": [
+      177
+    ],
+    "since": [
+      178
+    ],
+    "most": [
+      180,
+      336
+    ],
+    "recent": [
+      181,
+      207
+    ],
+    "tectonic": [
+      182,
+      208,
+      232,
+      380
+    ],
+    "activity": [
+      183,
+      209,
+      233,
+      381
+    ],
+    "continental": [
+      185
+    ],
+    "A": [
+      187
+    ],
+    "tomographic": [
+      188
+    ],
+    "image": [
+      189
+    ],
+    "variation": [
+      192,
+      362
+    ],
+    "across": [
+      198
+    ],
+    "Africa": [
+      199
+    ],
+    "shows": [
+      200
+    ],
+    "reduced": [
+      201
+    ],
+    "which": [
+      204,
+      246,
+      264,
+      348
+    ],
+    "correspond": [
+      205
+    ],
+    "East": [
+      212
+    ],
+    "African": [
+      213
+    ],
+    "rift": [
+      214
+    ],
+    "system": [
+      215
+    ],
+    "other": [
+      217
+    ],
+    "Mesozoic": [
+      220
+    ],
+    "younger": [
+      222
+    ],
+    "age.": [
+      223
+    ],
+    "Reductions": [
+      224
+    ],
+    "occurred": [
+      235
+    ],
+    "early": [
+      238
+    ],
+    "Paleozoic": [
+      239
+    ],
+    "during": [
+      240,
+      352,
+      376
+    ],
+    "coalescence": [
+      242
+    ],
+    "formed": [
+      247
+    ],
+    "continent": [
+      249
+    ],
+    "can": [
+      250,
+      312,
+      350
+    ],
+    "detected.": [
+      253
+    ],
+    "increases": [
+      256
+    ],
+    "rapidly": [
+      257
+    ],
+    "midcrustal": [
+      259
+    ],
+    "depths,": [
+      260
+    ],
+    "a": [
+      262,
+      383,
+      455,
+      464
+    ],
+    "range": [
+      263
+    ],
+    "coincide": [
+      267
+    ],
+    "transition": [
+      270
+    ],
+    "plastic": [
+      273
+    ],
+    "lower": [
+      274,
+      278
+    ],
+    "In": [
+      276
+    ],
+    "mantle,": [
+      282
+    ],
+    "decreases": [
+      285,
+      388
+    ],
+    "increasing": [
+      287,
+      296
+    ],
+    "depth,": [
+      288
+    ],
+    "possibly": [
+      289
+    ],
+    "progressive": [
+      291
+    ],
+    "unpinning": [
+      292
+    ],
+    "dislocations": [
+      294
+    ],
+    "temperature.": [
+      297
+    ],
+    "Observed": [
+      298
+    ],
+    "depths": [
+      307,
+      324
+    ],
+    "about": [
+      309
+    ],
+    "150": [
+      310
+    ],
+    "km": [
+      311
+    ],
+    "explained": [
+      314,
+      338
+    ],
+    "differences": [
+      316,
+      340
+    ],
+    "temperature": [
+      318
+    ],
+    "alone,": [
+      319
+    ],
+    "but": [
+      320
+    ],
+    "cannot.": [
+      325
+    ],
+    "easily": [
+      337
+    ],
+    "density": [
+      343,
+      373
+    ],
+    "fluid‐filled": [
+      345
+    ],
+    "fractures": [
+      346
+    ],
+    "fluids": [
+      349
+    ],
+    "move": [
+      351
+    ],
+    "propagation": [
+      354
+    ],
+    "seismic": [
+      356
+    ],
+    "waves.": [
+      357
+    ],
+    "Studies": [
+      358
+    ],
+    "indicate": [
+      370
+    ],
+    "crack": [
+      372
+    ],
+    "greatest": [
+      375
+    ],
+    "immediately": [
+      378
+    ],
+    "following": [
+      379
+    ],
+    "time.": [
+      390
+    ],
+    "Permeability": [
+      391
+    ],
+    "determinations": [
+      392
+    ],
+    "deep": [
+      394
+    ],
+    "wells": [
+      395
+    ],
+    "show": [
+      396
+    ],
+    "fluid": [
+      398,
+      436
+    ],
+    "movements": [
+      399
+    ],
+    "cracks": [
+      402,
+      439,
+      462
+    ],
+    "largely": [
+      405
+    ],
+    "restricted": [
+      406
+    ],
+    "zones": [
+      408
+    ],
+    "fracturing.": [
+      411
+    ],
+    "That": [
+      412
+    ],
+    "situation": [
+      413
+    ],
+    "will": [
+      414
+    ],
+    "produce": [
+      415
+    ],
+    "widely": [
+      416
+    ],
+    "differing": [
+      417
+    ],
+    "local": [
+      422
+    ],
+    "studies,": [
+      423
+    ],
+    "depending": [
+      424
+    ],
+    "on": [
+      425
+    ],
+    "location": [
+      427
+    ],
+    "study": [
+      430
+    ],
+    "relative": [
+      431
+    ],
+    "fractures.": [
+      434
+    ],
+    "The": [
+      435
+    ],
+    "volume": [
+      437
+    ],
+    "decrease": [
+      442
+    ],
+    "loss": [
+      446
+    ],
+    "surface": [
+      449
+    ],
+    "retrograde": [
+      452
+    ],
+    "metamorphism,": [
+      453
+    ],
+    "causing": [
+      454
+    ],
+    "reduction": [
+      456
+    ],
+    "number": [
+      459
+    ],
+    "open": [
+      461
+    ],
+    "concomitant": [
+      465
+    ],
+    "increase": [
+      466
+    ],
+    ".": [
+      470
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 12
+    }
+  ],
+  "updated_date": "2026-09-03T10:48:47.769340",
+  "created_date": "2025-10-10T00:00:00"
+}

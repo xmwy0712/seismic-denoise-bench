@@ -1,0 +1,1844 @@
+{
+  "id": "https://openalex.org/W2040488092",
+  "doi": "https://doi.org/10.1190/1.1889114",
+  "title": "Examples of a nonlinear inversion method based on the T matrix of scattering theory: Application to multiple suppression",
+  "display_name": "Examples of a nonlinear inversion method based on the T matrix of scattering theory: Application to multiple suppression",
+  "publication_year": 1991,
+  "publication_date": "1991-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2040488092",
+    "doi": "https://doi.org/10.1190/1.1889114",
+    "mag": "2040488092"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.1889114",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.1889114",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "International Meeting for Applied Geoscience &amp; Energy",
+    "raw_type": "proceedings-article"
+  },
+  "type": "conference-paper",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5105205901",
+        "display_name": "F. M. Carvalho",
+        "orcid": "https://orcid.org/0000-0002-0969-0170"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I126158947",
+          "display_name": "Universidade Federal da Bahia",
+          "ror": "https://ror.org/03k3p7647",
+          "country_code": "BR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I126158947"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I32393484",
+          "display_name": "Petrobras (Brazil)",
+          "ror": "https://ror.org/0235kyq22",
+          "country_code": "BR",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I32393484"
+          ]
+        }
+      ],
+      "countries": [
+        "BR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "F. M. Carvalho",
+      "raw_affiliation_strings": [
+        "1 PPPG/Federal Univ. of Bahia and Petrobras, Brazil",
+        "PPPG/Federal Univ. of Bahia and Petrobras"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1 PPPG/Federal Univ. of Bahia and Petrobras, Brazil",
+          "institution_ids": [
+            "https://openalex.org/I32393484"
+          ]
+        },
+        {
+          "raw_affiliation_string": "PPPG/Federal Univ. of Bahia and Petrobras",
+          "institution_ids": [
+            "https://openalex.org/I126158947"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5082858955",
+        "display_name": "Arthur B. Weglein",
+        "orcid": "https://orcid.org/0000-0003-3250-6105"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210154407",
+          "display_name": "Oil and Gas Center",
+          "ror": "https://ror.org/05bdeef79",
+          "country_code": "CN",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210154407"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "A. B. Weglein",
+      "raw_affiliation_strings": [
+        "2 ARCO Oil and Gas",
+        "ARCO Oil & Gas"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "2 ARCO Oil and Gas",
+          "institution_ids": [
+            "https://openalex.org/I4210154407"
+          ]
+        },
+        {
+          "raw_affiliation_string": "ARCO Oil & Gas",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5012108501",
+        "display_name": "Robert H. Stolt",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I24101674",
+          "display_name": "ConocoPhillips (United States)",
+          "ror": "https://ror.org/04hadnb81",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I24101674"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "R. H. Stolt",
+      "raw_affiliation_strings": [
+        "3 Conoco Inc",
+        "CONOCO INC"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "3 Conoco Inc",
+          "institution_ids": [
+            "https://openalex.org/I24101674"
+          ]
+        },
+        {
+          "raw_affiliation_string": "CONOCO INC",
+          "institution_ids": [
+            "https://openalex.org/I24101674"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 3,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 5.4289,
+  "has_fulltext": false,
+  "cited_by_count": 45,
+  "citation_normalized_percentile": {
+    "value": 0.94281176,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 88,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "1",
+    "issue": null,
+    "first_page": "1319",
+    "last_page": "1322"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10739",
+    "display_name": "Electromagnetic Scattering and Analysis",
+    "score": 0.9944000244140625,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3107",
+      "display_name": "Atomic and Molecular Physics, and Optics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/31",
+      "display_name": "Physics and Astronomy"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10739",
+      "display_name": "Electromagnetic Scattering and Analysis",
+      "score": 0.9944000244140625,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9907000064849854,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11263",
+      "display_name": "Electromagnetic Simulation and Numerical Methods",
+      "score": 0.988099992275238,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/inversion",
+      "display_name": "Inversion (geology)",
+      "score": 0.711794376373291
+    },
+    {
+      "id": "https://openalex.org/keywords/nonlinear-system",
+      "display_name": "Nonlinear system",
+      "score": 0.5482276082038879
+    },
+    {
+      "id": "https://openalex.org/keywords/scattering",
+      "display_name": "Scattering",
+      "score": 0.5346929430961609
+    },
+    {
+      "id": "https://openalex.org/keywords/matrix",
+      "display_name": "Matrix (chemical analysis)",
+      "score": 0.47131070494651794
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.47123536467552185
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.3540375828742981
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.3083478808403015
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.3082319498062134
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.17762592434883118
+    },
+    {
+      "id": "https://openalex.org/keywords/materials-science",
+      "display_name": "Materials science",
+      "score": 0.13367697596549988
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.07782167196273804
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C1893757",
+      "wikidata": "https://www.wikidata.org/wiki/Q3653001",
+      "display_name": "Inversion (geology)",
+      "level": 3,
+      "score": 0.711794376373291
+    },
+    {
+      "id": "https://openalex.org/C158622935",
+      "wikidata": "https://www.wikidata.org/wiki/Q660848",
+      "display_name": "Nonlinear system",
+      "level": 2,
+      "score": 0.5482276082038879
+    },
+    {
+      "id": "https://openalex.org/C191486275",
+      "wikidata": "https://www.wikidata.org/wiki/Q210028",
+      "display_name": "Scattering",
+      "level": 2,
+      "score": 0.5346929430961609
+    },
+    {
+      "id": "https://openalex.org/C106487976",
+      "wikidata": "https://www.wikidata.org/wiki/Q685816",
+      "display_name": "Matrix (chemical analysis)",
+      "level": 2,
+      "score": 0.47131070494651794
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.47123536467552185
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.3540375828742981
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.3083478808403015
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.3082319498062134
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.17762592434883118
+    },
+    {
+      "id": "https://openalex.org/C192562407",
+      "wikidata": "https://www.wikidata.org/wiki/Q228736",
+      "display_name": "Materials science",
+      "level": 0,
+      "score": 0.13367697596549988
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.07782167196273804
+    },
+    {
+      "id": "https://openalex.org/C77928131",
+      "wikidata": "https://www.wikidata.org/wiki/Q193343",
+      "display_name": "Tectonics",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C159985019",
+      "wikidata": "https://www.wikidata.org/wiki/Q181790",
+      "display_name": "Composite material",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.1889114",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.1889114",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "International Meeting for Applied Geoscience &amp; Energy",
+      "raw_type": "proceedings-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 7,
+  "referenced_works": [
+    "https://openalex.org/W1970504453",
+    "https://openalex.org/W1973346916",
+    "https://openalex.org/W2032063922",
+    "https://openalex.org/W2041832708",
+    "https://openalex.org/W2069791814",
+    "https://openalex.org/W2078150688",
+    "https://openalex.org/W4285719527"
+  ],
+  "related_works": [
+    "https://openalex.org/W2051487156",
+    "https://openalex.org/W2073681303",
+    "https://openalex.org/W2544423928",
+    "https://openalex.org/W2052122378",
+    "https://openalex.org/W2053286651",
+    "https://openalex.org/W2181743346",
+    "https://openalex.org/W2187401768",
+    "https://openalex.org/W2181413294",
+    "https://openalex.org/W1980470275",
+    "https://openalex.org/W2086322839"
+  ],
+  "abstract_inverted_index": {
+    "PreviousNext": [
+      0
+    ],
+    "No": [
+      1
+    ],
+    "AccessSEG": [
+      2
+    ],
+    "Technical": [
+      3,
+      531,
+      591
+    ],
+    "Program": [
+      4,
+      532,
+      592
+    ],
+    "Expanded": [
+      5,
+      533,
+      593
+    ],
+    "Abstracts": [
+      6,
+      534,
+      594
+    ],
+    "1991Examples": [
+      7
+    ],
+    "of": [
+      8,
+      18,
+      35,
+      98,
+      101,
+      107,
+      154,
+      174,
+      233,
+      390,
+      412,
+      418,
+      455,
+      468,
+      477,
+      549,
+      552,
+      573,
+      583
+    ],
+    "a": [
+      9,
+      214,
+      238,
+      574
+    ],
+    "nonlinear": [
+      10,
+      575
+    ],
+    "inversion": [
+      11,
+      576
+    ],
+    "method": [
+      12,
+      131,
+      396,
+      577
+    ],
+    "based": [
+      13,
+      578
+    ],
+    "on": [
+      14,
+      87,
+      428,
+      511,
+      579
+    ],
+    "the": [
+      15,
+      108,
+      119,
+      126,
+      133,
+      210,
+      271,
+      292,
+      381,
+      391,
+      419,
+      469,
+      580
+    ],
+    "T": [
+      16,
+      581
+    ],
+    "matrix": [
+      17,
+      582
+    ],
+    "scattering": [
+      19,
+      110,
+      168,
+      304,
+      377,
+      393,
+      470,
+      584
+    ],
+    "theory:": [
+      20,
+      585
+    ],
+    "Application": [
+      21,
+      586
+    ],
+    "to": [
+      22,
+      53,
+      157,
+      359,
+      442,
+      494,
+      587
+    ],
+    "multiple": [
+      23,
+      113,
+      122,
+      188,
+      317,
+      334,
+      353,
+      382,
+      394,
+      426,
+      475,
+      513,
+      519,
+      588
+    ],
+    "suppressionAuthors:": [
+      24
+    ],
+    "F.": [
+      25,
+      561
+    ],
+    "M.": [
+      26,
+      32,
+      562
+    ],
+    "CarvalhoA.": [
+      27
+    ],
+    "B.": [
+      28,
+      41,
+      142,
+      277,
+      313,
+      565
+    ],
+    "WegleinR.": [
+      29
+    ],
+    "H.": [
+      30,
+      48,
+      569
+    ],
+    "StoltF.": [
+      31
+    ],
+    "CarvalhoPPPG/Federal": [
+      33
+    ],
+    "Univ.": [
+      34
+    ],
+    "Bahia": [
+      36
+    ],
+    "and": [
+      37,
+      44,
+      46,
+      79,
+      91,
+      140,
+      159,
+      163,
+      199,
+      221,
+      235,
+      249,
+      259,
+      285,
+      290,
+      295,
+      311,
+      328,
+      341,
+      357,
+      363,
+      399,
+      407,
+      474,
+      525,
+      567
+    ],
+    "Petrobras,": [
+      38
+    ],
+    "Brazil,": [
+      39
+    ],
+    "A.": [
+      40,
+      244,
+      245,
+      280,
+      564
+    ],
+    "WegleinARCO": [
+      42
+    ],
+    "Oil": [
+      43
+    ],
+    "Gas,": [
+      45
+    ],
+    "R.": [
+      47,
+      568
+    ],
+    "StoltConoco": [
+      49
+    ],
+    "Inc.https://doi.org/10.1190/1.1889114": [
+      50
+    ],
+    "SectionsAboutPDF/ePub": [
+      51
+    ],
+    "ToolsAdd": [
+      52
+    ],
+    "favoritesDownload": [
+      54
+    ],
+    "CitationsTrack": [
+      55
+    ],
+    "CitationsPermissions": [
+      56
+    ],
+    "ShareFacebookTwitterLinked": [
+      57
+    ],
+    "InRedditEmail": [
+      58
+    ],
+    "Permalink:": [
+      59
+    ],
+    "https://doi.org/10.1190/1.1889114FiguresReferencesRelatedDetailsCited": [
+      60
+    ],
+    "ByHigh-resolution": [
+      61
+    ],
+    "imaging": [
+      62,
+      298
+    ],
+    "technology": [
+      63
+    ],
+    "for": [
+      64,
+      170,
+      190,
+      256,
+      397,
+      472
+    ],
+    "basement": [
+      65
+    ],
+    "buried": [
+      66
+    ],
+    "hill": [
+      67
+    ],
+    "under": [
+      68
+    ],
+    "igneous": [
+      69
+    ],
+    "rock": [
+      70
+    ],
+    "intrusionZhang": [
+      71
+    ],
+    "Hongjun,": [
+      72
+    ],
+    "Ding": [
+      73
+    ],
+    "Chengzhen,": [
+      74
+    ],
+    "Wang": [
+      75
+    ],
+    "Jun,": [
+      76
+    ],
+    "Chen": [
+      77
+    ],
+    "Yang,": [
+      78
+    ],
+    "Du": [
+      80
+    ],
+    "Houyu1": [
+      81
+    ],
+    "September": [
+      82,
+      144,
+      166,
+      288,
+      315,
+      331
+    ],
+    "2021Internal": [
+      83
+    ],
+    "Multiple": [
+      84,
+      408
+    ],
+    "Prediction": [
+      85,
+      90
+    ],
+    "Based": [
+      86
+    ],
+    "Imaging": [
+      88
+    ],
+    "Profile": [
+      89
+    ],
+    "Kirchhoff": [
+      92
+    ],
+    "Demigration12": [
+      93
+    ],
+    "November": [
+      94
+    ],
+    "2019": [
+      95,
+      145
+    ],
+    "|": [
+      96,
+      146,
+      180,
+      204,
+      227,
+      346,
+      369,
+      448,
+      485,
+      503
+    ],
+    "Journal": [
+      97,
+      182
+    ],
+    "Ocean": [
+      99
+    ],
+    "University": [
+      100
+    ],
+    "China,": [
+      102
+    ],
+    "Vol.": [
+      103,
+      148,
+      184,
+      206,
+      229,
+      348,
+      371,
+      385,
+      402,
+      422,
+      435,
+      451,
+      462,
+      487,
+      506,
+      515
+    ],
+    "18,": [
+      104
+    ],
+    "No.": [
+      105,
+      150,
+      186,
+      208,
+      231,
+      350,
+      373,
+      387,
+      404,
+      424,
+      437,
+      453,
+      464,
+      489,
+      508,
+      517
+    ],
+    "6Comparison": [
+      106
+    ],
+    "inverse": [
+      109,
+      303,
+      392
+    ],
+    "series": [
+      111,
+      169,
+      471
+    ],
+    "free-surface": [
+      112,
+      496
+    ],
+    "elimination": [
+      114,
+      123,
+      335,
+      427
+    ],
+    "(ISS": [
+      115
+    ],
+    "FSME)": [
+      116
+    ],
+    "algorithm": [
+      117
+    ],
+    "with": [
+      118
+    ],
+    "industry-standard": [
+      120
+    ],
+    "surface-related": [
+      121,
+      333,
+      352
+    ],
+    "(SRME):": [
+      124
+    ],
+    "Defining": [
+      125
+    ],
+    "circumstances": [
+      127
+    ],
+    "in": [
+      128,
+      319,
+      498
+    ],
+    "which": [
+      129
+    ],
+    "each": [
+      130
+    ],
+    "is": [
+      132
+    ],
+    "appropriate": [
+      134
+    ],
+    "toolbox": [
+      135
+    ],
+    "choiceChao": [
+      136
+    ],
+    "Ma,": [
+      137,
+      193
+    ],
+    "Qiang": [
+      138
+    ],
+    "Fu,": [
+      139
+    ],
+    "Arthur": [
+      141,
+      164,
+      276,
+      312
+    ],
+    "Weglein6": [
+      143
+    ],
+    "GEOPHYSICS,": [
+      147,
+      205,
+      228,
+      347,
+      370,
+      486
+    ],
+    "84,": [
+      149
+    ],
+    "5A": [
+      151
+    ],
+    "clear": [
+      152
+    ],
+    "example": [
+      153
+    ],
+    "using": [
+      155,
+      213,
+      237,
+      336
+    ],
+    "multiples": [
+      156,
+      236,
+      258,
+      415,
+      457,
+      497
+    ],
+    "enhance": [
+      158
+    ],
+    "improve": [
+      160
+    ],
+    "imagingChao": [
+      161
+    ],
+    "Ma": [
+      162
+    ],
+    "Weglein1": [
+      165
+    ],
+    "2016Renormalized": [
+      167
+    ],
+    "frequency-domain": [
+      171
+    ],
+    "waveform": [
+      172
+    ],
+    "modelling": [
+      173
+    ],
+    "strong": [
+      175
+    ],
+    "velocity": [
+      176,
+      272
+    ],
+    "contrasts28": [
+      177
+    ],
+    "April": [
+      178,
+      202
+    ],
+    "2016": [
+      179,
+      203
+    ],
+    "Geophysical": [
+      181,
+      449,
+      504
+    ],
+    "International,": [
+      183
+    ],
+    "206,": [
+      185
+    ],
+    "2Free-surface": [
+      187
+    ],
+    "attenuation": [
+      189,
+      383,
+      395,
+      476
+    ],
+    "blended": [
+      191
+    ],
+    "dataJitao": [
+      192
+    ],
+    "Xiaohong": [
+      194
+    ],
+    "Chen,": [
+      195
+    ],
+    "Mrinal": [
+      196
+    ],
+    "K.": [
+      197
+    ],
+    "Sen,": [
+      198
+    ],
+    "Yaru": [
+      200
+    ],
+    "Xue6": [
+      201
+    ],
+    "81,": [
+      207
+    ],
+    "3Imaging": [
+      209
+    ],
+    "sea": [
+      211
+    ],
+    "surface": [
+      212,
+      512
+    ],
+    "dual-sensor": [
+      215
+    ],
+    "towed": [
+      216,
+      240
+    ],
+    "streamerOkwudili": [
+      217
+    ],
+    "Orji,": [
+      218
+    ],
+    "Walter": [
+      219,
+      247
+    ],
+    "Söllner,": [
+      220,
+      323
+    ],
+    "Leiv": [
+      222
+    ],
+    "Jacob": [
+      223
+    ],
+    "Gelius8": [
+      224
+    ],
+    "December": [
+      225,
+      446
+    ],
+    "2010": [
+      226
+    ],
+    "75,": [
+      230
+    ],
+    "6Imaging": [
+      232
+    ],
+    "primaries": [
+      234,
+      261
+    ],
+    "dual‐sensor": [
+      239,
+      320
+    ],
+    "streamerN.": [
+      241
+    ],
+    "D.": [
+      242
+    ],
+    "Whitmore,": [
+      243
+    ],
+    "Valenciano,": [
+      246
+    ],
+    "Sollner,": [
+      248
+    ],
+    "Shaoping": [
+      250
+    ],
+    "Lu21": [
+      251
+    ],
+    "October": [
+      252,
+      344
+    ],
+    "2010A": [
+      253
+    ],
+    "comprehensive": [
+      254
+    ],
+    "strategy": [
+      255
+    ],
+    "removing": [
+      257
+    ],
+    "depth‐imaging": [
+      260
+    ],
+    "without": [
+      262,
+      270,
+      416
+    ],
+    "subsurface": [
+      263
+    ],
+    "information:": [
+      264
+    ],
+    "Direct": [
+      265
+    ],
+    "horizontal": [
+      266
+    ],
+    "common": [
+      267
+    ],
+    "image": [
+      268
+    ],
+    "gathers": [
+      269
+    ],
+    "or": [
+      273
+    ],
+    "\"ironing\"Fang": [
+      274
+    ],
+    "Liu,": [
+      275,
+      308
+    ],
+    "Weglein,": [
+      278,
+      566
+    ],
+    "Kristopher": [
+      279,
+      309
+    ],
+    "Innanen,": [
+      281,
+      310
+    ],
+    "Bogdan": [
+      282
+    ],
+    "G.": [
+      283
+    ],
+    "Nita,": [
+      284
+    ],
+    "Jingfeng": [
+      286
+    ],
+    "Zhang14": [
+      287
+    ],
+    "2007Comprehending": [
+      289
+    ],
+    "analyzing": [
+      291
+    ],
+    "leading": [
+      293
+    ],
+    "order": [
+      294,
+      297
+    ],
+    "higher": [
+      296
+    ],
+    "closed": [
+      299
+    ],
+    "forms": [
+      300
+    ],
+    "derived": [
+      301
+    ],
+    "from": [
+      302,
+      458
+    ],
+    "seriesJingfeng": [
+      305
+    ],
+    "Zhang,": [
+      306
+    ],
+    "Fang": [
+      307
+    ],
+    "Weglein14": [
+      314
+    ],
+    "2007Surface‐related": [
+      316
+    ],
+    "suppression": [
+      318
+    ],
+    "towed‐streamer": [
+      321
+    ],
+    "dataWalter": [
+      322
+    ],
+    "Eli": [
+      324
+    ],
+    "Brox,": [
+      325
+    ],
+    "Martin": [
+      326
+    ],
+    "Widmaier,": [
+      327
+    ],
+    "Svein": [
+      329
+    ],
+    "Vaage14": [
+      330
+    ],
+    "20073D": [
+      332
+    ],
+    "parabolic": [
+      337
+    ],
+    "sparse": [
+      338
+    ],
+    "inversionKetil": [
+      339
+    ],
+    "Hokstad": [
+      340
+    ],
+    "Roger": [
+      342
+    ],
+    "Sollie11": [
+      343
+    ],
+    "2006": [
+      345,
+      368
+    ],
+    "71,": [
+      349,
+      372
+    ],
+    "63D": [
+      351
+    ],
+    "elimination:": [
+      354
+    ],
+    "Data": [
+      355
+    ],
+    "reconstruction": [
+      356
+    ],
+    "application": [
+      358
+    ],
+    "field": [
+      360
+    ],
+    "dataAnatoly": [
+      361
+    ],
+    "Baumstein": [
+      362
+    ],
+    "Mohamed": [
+      364
+    ],
+    "T.": [
+      365,
+      481
+    ],
+    "Hadidi24": [
+      366
+    ],
+    "May": [
+      367
+    ],
+    "3References21": [
+      374
+    ],
+    "March": [
+      375,
+      410
+    ],
+    "2012Kirchhoff": [
+      376
+    ],
+    "series:": [
+      378
+    ],
+    "Insight": [
+      379
+    ],
+    "into": [
+      380
+    ],
+    "methodGEOPHYSICS,": [
+      384
+    ],
+    "68,": [
+      386
+    ],
+    "1An": [
+      388
+    ],
+    "optimization": [
+      389
+    ],
+    "OBS": [
+      398
+    ],
+    "VC": [
+      400
+    ],
+    "dataGEOPHYSICS,": [
+      401,
+      461
+    ],
+    "67,": [
+      403
+    ],
+    "46.": [
+      405
+    ],
+    "Noise": [
+      406
+    ],
+    "Attenuation21": [
+      409
+    ],
+    "2012Elimination": [
+      411
+    ],
+    "free‐surface": [
+      413
+    ],
+    "related": [
+      414
+    ],
+    "need": [
+      417
+    ],
+    "source": [
+      420
+    ],
+    "waveletGEOPHYSICS,": [
+      421
+    ],
+    "66,": [
+      423
+    ],
+    "1Surface‐related": [
+      425
+    ],
+    "land": [
+      429
+    ],
+    "seismic": [
+      430,
+      439,
+      492
+    ],
+    "data—Strategies": [
+      431
+    ],
+    "via": [
+      432
+    ],
+    "case": [
+      433
+    ],
+    "studiesGEOPHYSICS,": [
+      434
+    ],
+    "65,": [
+      436
+    ],
+    "3Marine": [
+      438
+    ],
+    "wavefield": [
+      440
+    ],
+    "measurement": [
+      441
+    ],
+    "remove": [
+      443
+    ],
+    "sea-surface": [
+      444
+    ],
+    "multiples24": [
+      445
+    ],
+    "2001": [
+      447
+    ],
+    "Prospecting,": [
+      450,
+      505
+    ],
+    "47,": [
+      452,
+      507
+    ],
+    "6Removal": [
+      454
+    ],
+    "water‐layer": [
+      456
+    ],
+    "multicomponent": [
+      459
+    ],
+    "sea‐bottom": [
+      460
+    ],
+    "64,": [
+      463,
+      488
+    ],
+    "3Using": [
+      465
+    ],
+    "even": [
+      466
+    ],
+    "terms": [
+      467
+    ],
+    "deghosting": [
+      473
+    ],
+    "ocean‐bottom": [
+      478
+    ],
+    "cable": [
+      479
+    ],
+    "dataLuc": [
+      480
+    ],
+    "Ikelle7": [
+      482
+    ],
+    "February": [
+      483,
+      528
+    ],
+    "2012": [
+      484
+    ],
+    "2Combining": [
+      490
+    ],
+    "two": [
+      491
+    ],
+    "experiments": [
+      493
+    ],
+    "attenuate": [
+      495
+    ],
+    "OBC": [
+      499
+    ],
+    "data*17": [
+      500
+    ],
+    "January": [
+      501
+    ],
+    "2003": [
+      502
+    ],
+    "2Some": [
+      509
+    ],
+    "remarks": [
+      510
+    ],
+    "attenuationGEOPHYSICS,": [
+      514
+    ],
+    "63,": [
+      516
+    ],
+    "2Amplitude‐preserved": [
+      518
+    ],
+    "suppressionDavid": [
+      520
+    ],
+    "E.": [
+      521
+    ],
+    "Lumley,": [
+      522
+    ],
+    "Dave": [
+      523
+    ],
+    "Nichols,": [
+      524
+    ],
+    "Thorbjogrn": [
+      526
+    ],
+    "Rekdal10": [
+      527
+    ],
+    "2005": [
+      529,
+      558
+    ],
+    "SEG": [
+      530,
+      590
+    ],
+    "1991ISSN": [
+      535
+    ],
+    "(print):1052-3812": [
+      536
+    ],
+    "ISSN": [
+      537
+    ],
+    "(online):1949-4645Copyright:": [
+      538
+    ],
+    "1991": [
+      539,
+      544,
+      547
+    ],
+    "Pages:": [
+      540
+    ],
+    "1646": [
+      541
+    ],
+    "publication": [
+      542
+    ],
+    "data©": [
+      543
+    ],
+    "Copyright": [
+      545
+    ],
+    "©": [
+      546
+    ],
+    "Society": [
+      548
+    ],
+    "Exploration": [
+      550,
+      553
+    ],
+    "GeophysicistsPublisher:Society": [
+      551
+    ],
+    "Geophysicists": [
+      554
+    ],
+    "HistoryPublished:": [
+      555
+    ],
+    "10": [
+      556
+    ],
+    "Feb": [
+      557
+    ],
+    "CITATION": [
+      559
+    ],
+    "INFORMATION": [
+      560
+    ],
+    "Carvalho,": [
+      563
+    ],
+    "Stolt,": [
+      570
+    ],
+    "(1991),": [
+      571
+    ],
+    "\"Examples": [
+      572
+    ],
+    "suppression,\"": [
+      589
+    ],
+    ":": [
+      595
+    ],
+    "1319-1322.": [
+      596
+    ],
+    "https://doi.org/10.1190/1.1889114": [
+      597
+    ],
+    "Plain-Language": [
+      598
+    ],
+    "Summary": [
+      599
+    ],
+    "PDF": [
+      600
+    ],
+    "DownloadLoading": [
+      601
+    ],
+    "...": [
+      602
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 4
+    }
+  ],
+  "updated_date": "2026-09-21T07:43:02.447757",
+  "created_date": "2025-10-10T00:00:00"
+}

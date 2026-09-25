@@ -1,0 +1,746 @@
+{
+  "id": "https://openalex.org/W1861537833",
+  "doi": "https://doi.org/10.1016/c2012-0-00024-5",
+  "title": "Time-Frequency Signal Analysis and Processing: A Comprehensive Reference",
+  "display_name": "Time-Frequency Signal Analysis and Processing: A Comprehensive Reference",
+  "publication_year": 2015,
+  "publication_date": "2015-12-17",
+  "ids": {
+    "openalex": "https://openalex.org/W1861537833",
+    "doi": "https://doi.org/10.1016/c2012-0-00024-5",
+    "mag": "1861537833"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "pmh:oai:aleph.bib-bvb.de:BVB01-027744489",
+    "is_oa": false,
+    "landing_page_url": "http://www.sciencedirect.com/science/book/9780080443355",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "",
+    "raw_type": "software, multimedia"
+  },
+  "type": "other",
+  "indexed_in": [],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5068266042",
+        "display_name": "B. Boashash",
+        "orcid": "https://orcid.org/0000-0002-2404-9103"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "B. Boashash",
+      "raw_affiliation_strings": [],
+      "raw_orcid": "https://orcid.org/0000-0002-2404-9103",
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5068266042"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": false,
+  "cited_by_count": 1359,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10220",
+    "display_name": "Machine Fault Diagnosis Techniques",
+    "score": 0.9696999788284302,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2207",
+      "display_name": "Control and Systems Engineering"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10220",
+      "display_name": "Machine Fault Diagnosis Techniques",
+      "score": 0.9696999788284302,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12740",
+      "display_name": "Gait Recognition and Analysis",
+      "score": 0.9545000195503235,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13734",
+      "display_name": "Advanced Computational Techniques and Applications",
+      "score": 0.951200008392334,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.7090177536010742
+    },
+    {
+      "id": "https://openalex.org/keywords/key",
+      "display_name": "Key (lock)",
+      "score": 0.6520360708236694
+    },
+    {
+      "id": "https://openalex.org/keywords/signal-processing",
+      "display_name": "Signal processing",
+      "score": 0.6396775841712952
+    },
+    {
+      "id": "https://openalex.org/keywords/signal",
+      "display_name": "SIGNAL (programming language)",
+      "score": 0.44126173853874207
+    },
+    {
+      "id": "https://openalex.org/keywords/data-science",
+      "display_name": "Data science",
+      "score": 0.37284767627716064
+    },
+    {
+      "id": "https://openalex.org/keywords/electronic-engineering",
+      "display_name": "Electronic engineering",
+      "score": 0.36325305700302124
+    },
+    {
+      "id": "https://openalex.org/keywords/systems-engineering",
+      "display_name": "Systems engineering",
+      "score": 0.3287684917449951
+    },
+    {
+      "id": "https://openalex.org/keywords/telecommunications",
+      "display_name": "Telecommunications",
+      "score": 0.3240342140197754
+    },
+    {
+      "id": "https://openalex.org/keywords/digital-signal-processing",
+      "display_name": "Digital signal processing",
+      "score": 0.3023396134376526
+    },
+    {
+      "id": "https://openalex.org/keywords/engineering",
+      "display_name": "Engineering",
+      "score": 0.20608600974082947
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-hardware",
+      "display_name": "Computer hardware",
+      "score": 0.1288566291332245
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-security",
+      "display_name": "Computer security",
+      "score": 0.08023279905319214
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.7090177536010742
+    },
+    {
+      "id": "https://openalex.org/C26517878",
+      "wikidata": "https://www.wikidata.org/wiki/Q228039",
+      "display_name": "Key (lock)",
+      "level": 2,
+      "score": 0.6520360708236694
+    },
+    {
+      "id": "https://openalex.org/C104267543",
+      "wikidata": "https://www.wikidata.org/wiki/Q208163",
+      "display_name": "Signal processing",
+      "level": 3,
+      "score": 0.6396775841712952
+    },
+    {
+      "id": "https://openalex.org/C2779843651",
+      "wikidata": "https://www.wikidata.org/wiki/Q7390335",
+      "display_name": "SIGNAL (programming language)",
+      "level": 2,
+      "score": 0.44126173853874207
+    },
+    {
+      "id": "https://openalex.org/C2522767166",
+      "wikidata": "https://www.wikidata.org/wiki/Q2374463",
+      "display_name": "Data science",
+      "level": 1,
+      "score": 0.37284767627716064
+    },
+    {
+      "id": "https://openalex.org/C24326235",
+      "wikidata": "https://www.wikidata.org/wiki/Q126095",
+      "display_name": "Electronic engineering",
+      "level": 1,
+      "score": 0.36325305700302124
+    },
+    {
+      "id": "https://openalex.org/C201995342",
+      "wikidata": "https://www.wikidata.org/wiki/Q682496",
+      "display_name": "Systems engineering",
+      "level": 1,
+      "score": 0.3287684917449951
+    },
+    {
+      "id": "https://openalex.org/C76155785",
+      "wikidata": "https://www.wikidata.org/wiki/Q418",
+      "display_name": "Telecommunications",
+      "level": 1,
+      "score": 0.3240342140197754
+    },
+    {
+      "id": "https://openalex.org/C84462506",
+      "wikidata": "https://www.wikidata.org/wiki/Q173142",
+      "display_name": "Digital signal processing",
+      "level": 2,
+      "score": 0.3023396134376526
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.20608600974082947
+    },
+    {
+      "id": "https://openalex.org/C9390403",
+      "wikidata": "https://www.wikidata.org/wiki/Q3966",
+      "display_name": "Computer hardware",
+      "level": 1,
+      "score": 0.1288566291332245
+    },
+    {
+      "id": "https://openalex.org/C38652104",
+      "wikidata": "https://www.wikidata.org/wiki/Q3510521",
+      "display_name": "Computer security",
+      "level": 1,
+      "score": 0.08023279905319214
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 6,
+  "locations": [
+    {
+      "id": "pmh:oai:aleph.bib-bvb.de:BVB01-027744489",
+      "is_oa": false,
+      "landing_page_url": "http://www.sciencedirect.com/science/book/9780080443355",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "software, multimedia"
+    },
+    {
+      "id": "pmh:oai:aleph.bib-bvb.de:BVB01-029381915",
+      "is_oa": false,
+      "landing_page_url": "http://www.sciencedirect.com/science/book/9780123984999",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "text"
+    },
+    {
+      "id": "pmh:oai:cds.cern.ch:2204480",
+      "is_oa": false,
+      "landing_page_url": "http://cds.cern.ch/record/2204480",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400735",
+        "display_name": "International Linear Collider",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": null
+    },
+    {
+      "id": "pmh:oai:cds.cern.ch:720621",
+      "is_oa": false,
+      "landing_page_url": "http://cds.cern.ch/record/720621",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402195",
+        "display_name": "CERN Document Server (European Organization for Nuclear Research)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I67311998",
+        "host_organization_name": "European Organization for Nuclear Research",
+        "host_organization_lineage": [
+          "https://openalex.org/I67311998"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": null
+    },
+    {
+      "id": "pmh:oai:qspace.qu.edu.qa:10576/31909",
+      "is_oa": false,
+      "landing_page_url": "http://hdl.handle.net/10576/31909",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400014",
+        "display_name": "Qatar University QSpace (Qatar University)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I60342839",
+        "host_organization_name": "Qatar University",
+        "host_organization_lineage": [
+          "https://openalex.org/I60342839"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "Book"
+    },
+    {
+      "id": "mag:1861537833",
+      "is_oa": false,
+      "landing_page_url": "http://cds.cern.ch/record/2204480",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": null,
+      "raw_source_name": null,
+      "raw_type": null
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Peace, Justice and strong institutions",
+      "score": 0.4000000059604645,
+      "id": "https://metadata.un.org/sdg/16"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 13,
+  "referenced_works": [
+    "https://openalex.org/W118655728",
+    "https://openalex.org/W653092610",
+    "https://openalex.org/W1925346143",
+    "https://openalex.org/W1971527405",
+    "https://openalex.org/W2092106400",
+    "https://openalex.org/W2096092115",
+    "https://openalex.org/W2101858531",
+    "https://openalex.org/W2114733594",
+    "https://openalex.org/W2145589414",
+    "https://openalex.org/W2165878107",
+    "https://openalex.org/W2398771194",
+    "https://openalex.org/W2480086434",
+    "https://openalex.org/W3216068995"
+  ],
+  "related_works": [
+    "https://openalex.org/W3151807103",
+    "https://openalex.org/W2169791062",
+    "https://openalex.org/W2165878107",
+    "https://openalex.org/W2150391795",
+    "https://openalex.org/W2140147143",
+    "https://openalex.org/W2132085292",
+    "https://openalex.org/W2100620757",
+    "https://openalex.org/W2050381884",
+    "https://openalex.org/W2048508162",
+    "https://openalex.org/W2007221293",
+    "https://openalex.org/W2145487065",
+    "https://openalex.org/W2971230710",
+    "https://openalex.org/W2156439126",
+    "https://openalex.org/W2099887322",
+    "https://openalex.org/W1598517949",
+    "https://openalex.org/W2090218979",
+    "https://openalex.org/W302833118",
+    "https://openalex.org/W2131558961",
+    "https://openalex.org/W2115755118",
+    "https://openalex.org/W1995034601"
+  ],
+  "abstract_inverted_index": {
+    "Chapter": [
+      0,
+      14,
+      18,
+      38
+    ],
+    "14:": [
+      1
+    ],
+    "(t,f)": [
+      2,
+      10
+    ],
+    "Methods": [
+      3
+    ],
+    "in": [
+      4
+    ],
+    "radar,": [
+      5
+    ],
+    "sonar,": [
+      6
+    ],
+    "and": [
+      7,
+      12,
+      29,
+      41,
+      46
+    ],
+    "acousticsChapter": [
+      8
+    ],
+    "15:": [
+      9
+    ],
+    "Diagnosis": [
+      11
+    ],
+    "monitoring;": [
+      13
+    ],
+    "16:": [
+      15
+    ],
+    "Biomedical": [
+      16
+    ],
+    "TFSP;": [
+      17
+    ],
+    "17:": [
+      19
+    ],
+    "Getting": [
+      20
+    ],
+    "started": [
+      21
+    ],
+    "with": [
+      22
+    ],
+    "the": [
+      23,
+      32
+    ],
+    "TFSAP": [
+      24
+    ],
+    "software": [
+      25
+    ],
+    "package;": [
+      26
+    ],
+    "I.4": [
+      27
+    ],
+    "Conclusions": [
+      28
+    ],
+    "Advice": [
+      30
+    ],
+    "to": [
+      31
+    ],
+    "Reader;": [
+      33
+    ],
+    "I.5": [
+      34
+    ],
+    "Additional": [
+      35
+    ],
+    "Exercises;": [
+      36
+    ],
+    "References;": [
+      37
+    ],
+    "1:": [
+      39
+    ],
+    "Time-Frequency": [
+      40,
+      52,
+      72
+    ],
+    "Instantaneous": [
+      42
+    ],
+    "Frequency": [
+      43
+    ],
+    "Concepts0;": [
+      44
+    ],
+    "Introduction": [
+      45
+    ],
+    "Overview;": [
+      47
+    ],
+    "1.1": [
+      48
+    ],
+    "The": [
+      49
+    ],
+    "Benefits": [
+      50
+    ],
+    "of": [
+      51,
+      57,
+      67
+    ],
+    "Distributions": [
+      53
+    ],
+    "(TFDs);": [
+      54
+    ],
+    "1.1.1": [
+      55
+    ],
+    "Representation": [
+      56,
+      73
+    ],
+    "Three": [
+      58
+    ],
+    "Real-Life": [
+      59
+    ],
+    "Signals;": [
+      60
+    ],
+    "1.1.2": [
+      61
+    ],
+    "Time-Domain": [
+      62
+    ],
+    "Representation;": [
+      63
+    ],
+    "1.1.3": [
+      64
+    ],
+    "Spectral": [
+      65
+    ],
+    "Characteristics": [
+      66
+    ],
+    "Typical": [
+      68
+    ],
+    "signals;": [
+      69
+    ],
+    "1.1.4": [
+      70
+    ],
+    "Joint": [
+      71
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 38
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 51
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 82
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 90
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 97
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 103
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 112
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 120
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 111
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 79
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 70
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 60
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 79
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 67
+    }
+  ],
+  "updated_date": "2026-09-12T09:15:50.089291",
+  "created_date": "2025-10-10T00:00:00"
+}

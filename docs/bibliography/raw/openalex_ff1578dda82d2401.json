@@ -1,0 +1,1172 @@
+{
+  "id": "https://openalex.org/W1982212085",
+  "doi": "https://doi.org/10.1111/j.1365-2478.2007.00718.x",
+  "title": "Diffraction imaging in depth",
+  "display_name": "Diffraction imaging in depth",
+  "publication_year": 2008,
+  "publication_date": "2008-05-20",
+  "ids": {
+    "openalex": "https://openalex.org/W1982212085",
+    "doi": "https://doi.org/10.1111/j.1365-2478.2007.00718.x",
+    "mag": "1982212085"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1111/j.1365-2478.2007.00718.x",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1111/j.1365-2478.2007.00718.x",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S45030768",
+      "display_name": "Geophysical Prospecting",
+      "issn_l": "0016-8025",
+      "issn": [
+        "0016-8025",
+        "1365-2478"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysical Prospecting",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5113048843",
+        "display_name": "T.J. Moser",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210153399",
+          "display_name": "Dedicon",
+          "ror": "https://ror.org/044jjd544",
+          "country_code": "NL",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210153399"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "T.J. Moser",
+      "raw_affiliation_strings": [
+        "Zeehelden Geoservices, van Alkemadelaan 550A, 2597 AV's-Gravenhage, The Netherlands",
+        "Zeehelden Geoservices, van Alkemadelaan 550A, 2597 AV 's‐Gravenhage, The Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Zeehelden Geoservices, van Alkemadelaan 550A, 2597 AV's-Gravenhage, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I4210153399"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Zeehelden Geoservices, van Alkemadelaan 550A, 2597 AV 's‐Gravenhage, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I4210153399"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5064053608",
+        "display_name": "C. B. Howard",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "C.B. Howard",
+      "raw_affiliation_strings": [
+        "Zeehelden Geoservices, 2e de Riemerstraat 184, 2513 CZ's-Gravenhage, The Netherlands",
+        "Zeehelden Geoservices, 2e de Riemerstraat 184, 2513 CZ's‐Gravenhage, The Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Zeehelden Geoservices, 2e de Riemerstraat 184, 2513 CZ's-Gravenhage, The Netherlands",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Zeehelden Geoservices, 2e de Riemerstraat 184, 2513 CZ's‐Gravenhage, The Netherlands",
+          "institution_ids": []
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5064053608",
+    "https://openalex.org/A5113048843"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210153399"
+  ],
+  "apc_list": {
+    "value": 4150,
+    "currency": "USD",
+    "value_usd": 4150
+  },
+  "apc_paid": null,
+  "fwci": 3.9425,
+  "has_fulltext": false,
+  "cited_by_count": 258,
+  "citation_normalized_percentile": {
+    "value": 0.92607813,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "56",
+    "issue": "5",
+    "first_page": "627",
+    "last_page": "641"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11609",
+      "display_name": "Geophysical Methods and Applications",
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/diffraction",
+      "display_name": "Diffraction",
+      "score": 0.7620322704315186
+    },
+    {
+      "id": "https://openalex.org/keywords/specular-reflection",
+      "display_name": "Specular reflection",
+      "score": 0.7186570763587952
+    },
+    {
+      "id": "https://openalex.org/keywords/reflection",
+      "display_name": "Reflection (computer programming)",
+      "score": 0.6810865998268127
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.5831085443496704
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.44953304529190063
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.4363164007663727
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-migration",
+      "display_name": "Seismic migration",
+      "score": 0.4293389618396759
+    },
+    {
+      "id": "https://openalex.org/keywords/resolution",
+      "display_name": "Resolution (logic)",
+      "score": 0.41581130027770996
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.26571688055992126
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.18126025795936584
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.16528525948524475
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C207114421",
+      "wikidata": "https://www.wikidata.org/wiki/Q133900",
+      "display_name": "Diffraction",
+      "level": 2,
+      "score": 0.7620322704315186
+    },
+    {
+      "id": "https://openalex.org/C118381688",
+      "wikidata": "https://www.wikidata.org/wiki/Q1079524",
+      "display_name": "Specular reflection",
+      "level": 2,
+      "score": 0.7186570763587952
+    },
+    {
+      "id": "https://openalex.org/C65682993",
+      "wikidata": "https://www.wikidata.org/wiki/Q1056451",
+      "display_name": "Reflection (computer programming)",
+      "level": 2,
+      "score": 0.6810865998268127
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.5831085443496704
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.44953304529190063
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.4363164007663727
+    },
+    {
+      "id": "https://openalex.org/C118496448",
+      "wikidata": "https://www.wikidata.org/wiki/Q2111620",
+      "display_name": "Seismic migration",
+      "level": 2,
+      "score": 0.4293389618396759
+    },
+    {
+      "id": "https://openalex.org/C138268822",
+      "wikidata": "https://www.wikidata.org/wiki/Q1051925",
+      "display_name": "Resolution (logic)",
+      "level": 2,
+      "score": 0.41581130027770996
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.26571688055992126
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.18126025795936584
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.16528525948524475
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1111/j.1365-2478.2007.00718.x",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1111/j.1365-2478.2007.00718.x",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S45030768",
+        "display_name": "Geophysical Prospecting",
+        "issn_l": "0016-8025",
+        "issn": [
+          "0016-8025",
+          "1365-2478"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysical Prospecting",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "score": 0.7599999904632568,
+      "display_name": "Reduced inequalities",
+      "id": "https://metadata.un.org/sdg/10"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 22,
+  "referenced_works": [
+    "https://openalex.org/W1968964607",
+    "https://openalex.org/W2008502070",
+    "https://openalex.org/W2031156827",
+    "https://openalex.org/W2068840375",
+    "https://openalex.org/W2089468730",
+    "https://openalex.org/W2097150803",
+    "https://openalex.org/W2103408626",
+    "https://openalex.org/W2106921281",
+    "https://openalex.org/W2107127511",
+    "https://openalex.org/W2108152240",
+    "https://openalex.org/W2112525653",
+    "https://openalex.org/W2121267869",
+    "https://openalex.org/W2139084611",
+    "https://openalex.org/W2139388284",
+    "https://openalex.org/W2139663179",
+    "https://openalex.org/W2145308816",
+    "https://openalex.org/W2165750588",
+    "https://openalex.org/W2169129525",
+    "https://openalex.org/W2324570346",
+    "https://openalex.org/W2490717592",
+    "https://openalex.org/W2774014017",
+    "https://openalex.org/W4239925919"
+  ],
+  "related_works": [
+    "https://openalex.org/W2559833131",
+    "https://openalex.org/W2730225583",
+    "https://openalex.org/W2175900582",
+    "https://openalex.org/W4353109604",
+    "https://openalex.org/W2755051635",
+    "https://openalex.org/W2159617691",
+    "https://openalex.org/W2041059100",
+    "https://openalex.org/W1977234272",
+    "https://openalex.org/W4232954498",
+    "https://openalex.org/W2064278856"
+  ],
+  "abstract_inverted_index": {
+    "ABSTRACT": [
+      0
+    ],
+    "High": [
+      1
+    ],
+    "resolution": [
+      2
+    ],
+    "imaging": [
+      3,
+      200
+    ],
+    "is": [
+      4,
+      66,
+      101,
+      208
+    ],
+    "of": [
+      5,
+      16,
+      72,
+      88,
+      138,
+      153,
+      188,
+      220,
+      234,
+      238,
+      269
+    ],
+    "great": [
+      6
+    ],
+    "value": [
+      7
+    ],
+    "to": [
+      8,
+      13,
+      21,
+      28,
+      53,
+      56,
+      129,
+      141,
+      150,
+      198,
+      241,
+      247,
+      258
+    ],
+    "an": [
+      9,
+      57,
+      270
+    ],
+    "interpreter,": [
+      10
+    ],
+    "for": [
+      11,
+      124
+    ],
+    "instance": [
+      12
+    ],
+    "enable": [
+      14
+    ],
+    "identification": [
+      15
+    ],
+    "small": [
+      17
+    ],
+    "scale": [
+      18
+    ],
+    "faults,": [
+      19
+    ],
+    "and": [
+      20,
+      36,
+      144,
+      176,
+      190,
+      193,
+      217,
+      232,
+      264
+    ],
+    "locate": [
+      22
+    ],
+    "formation": [
+      23
+    ],
+    "pinch‐out": [
+      24
+    ],
+    "positions.": [
+      25
+    ],
+    "Standard": [
+      26
+    ],
+    "approaches": [
+      27,
+      197
+    ],
+    "obtain": [
+      29
+    ],
+    "high‐resolution": [
+      30,
+      96
+    ],
+    "information,": [
+      31,
+      97
+    ],
+    "such": [
+      32,
+      162
+    ],
+    "as": [
+      33,
+      84,
+      163,
+      255
+    ],
+    "coherency": [
+      34
+    ],
+    "analysis": [
+      35
+    ],
+    "structure‐oriented": [
+      37
+    ],
+    "filters,": [
+      38
+    ],
+    "derive": [
+      39
+    ],
+    "attributes": [
+      40
+    ],
+    "from": [
+      41,
+      222,
+      244
+    ],
+    "stacked,": [
+      42
+    ],
+    "migrated": [
+      43
+    ],
+    "images.": [
+      44
+    ],
+    "Since": [
+      45
+    ],
+    "they": [
+      46
+    ],
+    "are": [
+      47,
+      51,
+      116,
+      253
+    ],
+    "image‐driven,": [
+      48
+    ],
+    "these": [
+      49
+    ],
+    "techniques": [
+      50,
+      252
+    ],
+    "sensitive": [
+      52
+    ],
+    "artifacts": [
+      54
+    ],
+    "due": [
+      55
+    ],
+    "inadequate": [
+      58
+    ],
+    "migration": [
+      59,
+      110,
+      114,
+      230,
+      240,
+      272
+    ],
+    "velocity;": [
+      60
+    ],
+    "in": [
+      61,
+      99,
+      112,
+      201,
+      213
+    ],
+    "fact": [
+      62
+    ],
+    "the": [
+      63,
+      70,
+      78,
+      105,
+      135,
+      202,
+      214,
+      229,
+      248,
+      267
+    ],
+    "attribute": [
+      64
+    ],
+    "derivation": [
+      65
+    ],
+    "not": [
+      67,
+      177
+    ],
+    "based": [
+      68,
+      209
+    ],
+    "on": [
+      69,
+      77,
+      172,
+      178,
+      210
+    ],
+    "physics": [
+      71
+    ],
+    "wave": [
+      73
+    ],
+    "propagation.": [
+      74
+    ],
+    "Diffracted": [
+      75
+    ],
+    "waves": [
+      76
+    ],
+    "other": [
+      79
+    ],
+    "hand": [
+      80
+    ],
+    "have": [
+      81
+    ],
+    "been": [
+      82
+    ],
+    "recognized": [
+      83
+    ],
+    "physically": [
+      85
+    ],
+    "reliable": [
+      86
+    ],
+    "carriers": [
+      87
+    ],
+    "high‐": [
+      89
+    ],
+    "or": [
+      90,
+      167
+    ],
+    "even": [
+      91
+    ],
+    "super‐resolution": [
+      92
+    ],
+    "structural": [
+      93
+    ],
+    "information.": [
+      94
+    ],
+    "However,": [
+      95
+    ],
+    "encoded": [
+      98
+    ],
+    "diffractions,": [
+      100
+    ],
+    "generally": [
+      102
+    ],
+    "lost": [
+      103
+    ],
+    "during": [
+      104
+    ],
+    "conventional": [
+      106,
+      259
+    ],
+    "processing": [
+      107
+    ],
+    "sequence,": [
+      108
+    ],
+    "indeed": [
+      109
+    ],
+    "kernels": [
+      111
+    ],
+    "current": [
+      113
+    ],
+    "algorithms": [
+      115
+    ],
+    "biased": [
+      117
+    ],
+    "against": [
+      118
+    ],
+    "diffractions.": [
+      119
+    ],
+    "We": [
+      120,
+      132,
+      183
+    ],
+    "propose": [
+      121
+    ],
+    "here": [
+      122
+    ],
+    "methods": [
+      123
+    ],
+    "a": [
+      125,
+      159,
+      164,
+      173,
+      179,
+      235,
+      256
+    ],
+    "diffraction‐based,": [
+      126
+    ],
+    "data‐oriented": [
+      127
+    ],
+    "approach": [
+      128
+    ],
+    "image": [
+      130,
+      175
+    ],
+    "resolution.": [
+      131
+    ],
+    "also": [
+      133
+    ],
+    "demonstrate": [
+      134
+    ],
+    "different": [
+      136
+    ],
+    "behaviour": [
+      137
+    ],
+    "diffractions": [
+      139,
+      189
+    ],
+    "compared": [
+      140
+    ],
+    "specular": [
+      142,
+      245
+    ],
+    "reflections": [
+      143,
+      221,
+      246
+    ],
+    "how": [
+      145
+    ],
+    "this": [
+      146,
+      157
+    ],
+    "can": [
+      147
+    ],
+    "be": [
+      148,
+      170
+    ],
+    "leveraged": [
+      149
+    ],
+    "assess": [
+      151
+    ],
+    "characteristics": [
+      152
+    ],
+    "subsurface": [
+      154
+    ],
+    "features.": [
+      155
+    ],
+    "In": [
+      156
+    ],
+    "way": [
+      158
+    ],
+    "rough": [
+      160
+    ],
+    "surface": [
+      161
+    ],
+    "fault": [
+      165
+    ],
+    "plane": [
+      166
+    ],
+    "unconformity": [
+      168
+    ],
+    "may": [
+      169
+    ],
+    "distinguishable": [
+      171
+    ],
+    "diffraction": [
+      174,
+      191,
+      199,
+      249
+    ],
+    "traditional": [
+      180
+    ],
+    "reflection": [
+      181,
+      211
+    ],
+    "image.": [
+      182,
+      250
+    ],
+    "outline": [
+      184
+    ],
+    "some": [
+      185
+    ],
+    "characteristic": [
+      186
+    ],
+    "properties": [
+      187
+    ],
+    "imaging,": [
+      192
+    ],
+    "present": [
+      194
+    ],
+    "two": [
+      195
+    ],
+    "novel": [
+      196
+    ],
+    "depth": [
+      203,
+      215,
+      262
+    ],
+    "domain.": [
+      204
+    ],
+    "The": [
+      205,
+      225
+    ],
+    "first": [
+      206
+    ],
+    "technique": [
+      207,
+      227
+    ],
+    "focusing": [
+      212
+    ],
+    "domain": [
+      216
+    ],
+    "subsequent": [
+      218
+    ],
+    "filtering": [
+      219
+    ],
+    "prestack": [
+      223
+    ],
+    "data.": [
+      224
+    ],
+    "second": [
+      226
+    ],
+    "modifies": [
+      228
+    ],
+    "kernel": [
+      231
+    ],
+    "consists": [
+      233
+    ],
+    "reverse": [
+      236
+    ],
+    "application": [
+      237
+    ],
+    "stationary‐phase": [
+      239
+    ],
+    "suppress": [
+      242
+    ],
+    "contributions": [
+      243
+    ],
+    "Both": [
+      251
+    ],
+    "proposed": [
+      254
+    ],
+    "complement": [
+      257
+    ],
+    "full‐wave": [
+      260
+    ],
+    "pre‐stack": [
+      261
+    ],
+    "migration,": [
+      263
+    ],
+    "both": [
+      265
+    ],
+    "assume": [
+      266
+    ],
+    "existence": [
+      268
+    ],
+    "accurate": [
+      271
+    ],
+    "velocity.": [
+      273
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 29
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 26
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 11
+    }
+  ],
+  "updated_date": "2026-09-22T17:25:34.749102",
+  "created_date": "2025-10-10T00:00:00"
+}

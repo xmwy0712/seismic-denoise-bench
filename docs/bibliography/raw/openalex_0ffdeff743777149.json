@@ -1,0 +1,1078 @@
+{
+  "id": "https://openalex.org/W4366684664",
+  "doi": "https://doi.org/10.17073/2500-0632-2022-06-10",
+  "title": "Amplitude-frequency response of a helically-wound fiber distributed acoustic sensor (DAS)",
+  "display_name": "Amplitude-frequency response of a helically-wound fiber distributed acoustic sensor (DAS)",
+  "publication_year": 2023,
+  "publication_date": "2023-04-20",
+  "ids": {
+    "openalex": "https://openalex.org/W4366684664",
+    "doi": "https://doi.org/10.17073/2500-0632-2022-06-10"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.17073/2500-0632-2022-06-10",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.17073/2500-0632-2022-06-10",
+    "pdf_url": "https://mst.misis.ru/jour/article/download/467/338",
+    "source": {
+      "id": "https://openalex.org/S4210229995",
+      "display_name": "Gornye nauki i tekhnologii = Mining Science and Technology (Russia)",
+      "issn_l": "2500-0632",
+      "issn": [
+        "2500-0632"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": false,
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Gornye nauki i tekhnologii = Mining Science and Technology (Russia)",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "doaj"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "diamond",
+    "oa_url": "https://mst.misis.ru/jour/article/download/467/338",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5051399195",
+        "display_name": "A.V. Chugaev",
+        "orcid": "https://orcid.org/0000-0002-7494-4042"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210160928",
+          "display_name": "Mining Institute of the Ural Branch of the Russian Academy of Sciences",
+          "ror": "https://ror.org/05ptgb204",
+          "country_code": "RU",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1313323035",
+            "https://openalex.org/I4210119369",
+            "https://openalex.org/I4210160928"
+          ]
+        }
+      ],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "A. V. Chugaev",
+      "raw_affiliation_strings": [
+        "Mining Institute of the Ural Branch of the Russian Academy of Sciences"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-7494-4042",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Mining Institute of the Ural Branch of the Russian Academy of Sciences",
+          "institution_ids": [
+            "https://openalex.org/I4210160928"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5108675381",
+        "display_name": "M. V. Tarantin",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210160928",
+          "display_name": "Mining Institute of the Ural Branch of the Russian Academy of Sciences",
+          "ror": "https://ror.org/05ptgb204",
+          "country_code": "RU",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1313323035",
+            "https://openalex.org/I4210119369",
+            "https://openalex.org/I4210160928"
+          ]
+        }
+      ],
+      "countries": [
+        "RU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "M. V. Tarantin",
+      "raw_affiliation_strings": [
+        "Mining Institute of the Ural Branch of the Russian Academy of Sciences"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Mining Institute of the Ural Branch of the Russian Academy of Sciences",
+          "institution_ids": [
+            "https://openalex.org/I4210160928"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210160928"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 1.4692,
+  "has_fulltext": true,
+  "cited_by_count": 8,
+  "citation_normalized_percentile": {
+    "value": 0.77380194,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 91,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "8",
+    "issue": "1",
+    "first_page": "13",
+    "last_page": "21"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11757",
+    "display_name": "Seismic Waves and Analysis",
+    "score": 0.9991999864578247,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9991999864578247,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11609",
+      "display_name": "Geophysical Methods and Applications",
+      "score": 0.9947999715805054,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9940000176429749,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/amplitude",
+      "display_name": "Amplitude",
+      "score": 0.7169789671897888
+    },
+    {
+      "id": "https://openalex.org/keywords/acoustics",
+      "display_name": "Acoustics",
+      "score": 0.6528684496879578
+    },
+    {
+      "id": "https://openalex.org/keywords/fiber",
+      "display_name": "Fiber",
+      "score": 0.5414535999298096
+    },
+    {
+      "id": "https://openalex.org/keywords/broadband",
+      "display_name": "Broadband",
+      "score": 0.5283727645874023
+    },
+    {
+      "id": "https://openalex.org/keywords/distributed-acoustic-sensing",
+      "display_name": "Distributed acoustic sensing",
+      "score": 0.507047176361084
+    },
+    {
+      "id": "https://openalex.org/keywords/range",
+      "display_name": "Range (aeronautics)",
+      "score": 0.451760858297348
+    },
+    {
+      "id": "https://openalex.org/keywords/frequency-response",
+      "display_name": "Frequency response",
+      "score": 0.42240530252456665
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.3603982627391815
+    },
+    {
+      "id": "https://openalex.org/keywords/materials-science",
+      "display_name": "Materials science",
+      "score": 0.35086458921432495
+    },
+    {
+      "id": "https://openalex.org/keywords/fiber-optic-sensor",
+      "display_name": "Fiber optic sensor",
+      "score": 0.3327077031135559
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.30406853556632996
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.2527187168598175
+    },
+    {
+      "id": "https://openalex.org/keywords/engineering",
+      "display_name": "Engineering",
+      "score": 0.20833820104599
+    },
+    {
+      "id": "https://openalex.org/keywords/electrical-engineering",
+      "display_name": "Electrical engineering",
+      "score": 0.15005725622177124
+    },
+    {
+      "id": "https://openalex.org/keywords/composite-material",
+      "display_name": "Composite material",
+      "score": 0.07332688570022583
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C180205008",
+      "wikidata": "https://www.wikidata.org/wiki/Q159190",
+      "display_name": "Amplitude",
+      "level": 2,
+      "score": 0.7169789671897888
+    },
+    {
+      "id": "https://openalex.org/C24890656",
+      "wikidata": "https://www.wikidata.org/wiki/Q82811",
+      "display_name": "Acoustics",
+      "level": 1,
+      "score": 0.6528684496879578
+    },
+    {
+      "id": "https://openalex.org/C519885992",
+      "wikidata": "https://www.wikidata.org/wiki/Q161",
+      "display_name": "Fiber",
+      "level": 2,
+      "score": 0.5414535999298096
+    },
+    {
+      "id": "https://openalex.org/C509933004",
+      "wikidata": "https://www.wikidata.org/wiki/Q194163",
+      "display_name": "Broadband",
+      "level": 2,
+      "score": 0.5283727645874023
+    },
+    {
+      "id": "https://openalex.org/C158543913",
+      "wikidata": "https://www.wikidata.org/wiki/Q5283133",
+      "display_name": "Distributed acoustic sensing",
+      "level": 4,
+      "score": 0.507047176361084
+    },
+    {
+      "id": "https://openalex.org/C204323151",
+      "wikidata": "https://www.wikidata.org/wiki/Q905424",
+      "display_name": "Range (aeronautics)",
+      "level": 2,
+      "score": 0.451760858297348
+    },
+    {
+      "id": "https://openalex.org/C8590192",
+      "wikidata": "https://www.wikidata.org/wiki/Q1054694",
+      "display_name": "Frequency response",
+      "level": 2,
+      "score": 0.42240530252456665
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.3603982627391815
+    },
+    {
+      "id": "https://openalex.org/C192562407",
+      "wikidata": "https://www.wikidata.org/wiki/Q228736",
+      "display_name": "Materials science",
+      "level": 0,
+      "score": 0.35086458921432495
+    },
+    {
+      "id": "https://openalex.org/C21651689",
+      "wikidata": "https://www.wikidata.org/wiki/Q1397427",
+      "display_name": "Fiber optic sensor",
+      "level": 3,
+      "score": 0.3327077031135559
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.30406853556632996
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.2527187168598175
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.20833820104599
+    },
+    {
+      "id": "https://openalex.org/C119599485",
+      "wikidata": "https://www.wikidata.org/wiki/Q43035",
+      "display_name": "Electrical engineering",
+      "level": 1,
+      "score": 0.15005725622177124
+    },
+    {
+      "id": "https://openalex.org/C159985019",
+      "wikidata": "https://www.wikidata.org/wiki/Q181790",
+      "display_name": "Composite material",
+      "level": 1,
+      "score": 0.07332688570022583
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.17073/2500-0632-2022-06-10",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.17073/2500-0632-2022-06-10",
+      "pdf_url": "https://mst.misis.ru/jour/article/download/467/338",
+      "source": {
+        "id": "https://openalex.org/S4210229995",
+        "display_name": "Gornye nauki i tekhnologii = Mining Science and Technology (Russia)",
+        "issn_l": "2500-0632",
+        "issn": [
+          "2500-0632"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Gornye nauki i tekhnologii = Mining Science and Technology (Russia)",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:doaj.org/article:f7a72ec4faec4920bd18601bd05a531d",
+      "is_oa": true,
+      "landing_page_url": "https://doaj.org/article/f7a72ec4faec4920bd18601bd05a531d",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306401280",
+        "display_name": "DOAJ (DOAJ: Directory of Open Access Journals)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by-sa",
+      "license_id": "https://openalex.org/licenses/cc-by-sa",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Горные науки и технологии, Vol 8, Iss 1, Pp 13-21 (2023)",
+      "raw_type": "article"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.17073/2500-0632-2022-06-10",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.17073/2500-0632-2022-06-10",
+    "pdf_url": "https://mst.misis.ru/jour/article/download/467/338",
+    "source": {
+      "id": "https://openalex.org/S4210229995",
+      "display_name": "Gornye nauki i tekhnologii = Mining Science and Technology (Russia)",
+      "issn_l": "2500-0632",
+      "issn": [
+        "2500-0632"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": false,
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Gornye nauki i tekhnologii = Mining Science and Technology (Russia)",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320321079",
+      "display_name": "Russian Foundation for Basic Research",
+      "ror": "https://ror.org/02mh1ke95"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": true,
+    "pdf": true
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W4366684664.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W4366684664.grobid-xml"
+  },
+  "referenced_works_count": 22,
+  "referenced_works": [
+    "https://openalex.org/W2038372228",
+    "https://openalex.org/W2078105685",
+    "https://openalex.org/W2111327087",
+    "https://openalex.org/W2123590998",
+    "https://openalex.org/W2146625715",
+    "https://openalex.org/W2327252383",
+    "https://openalex.org/W2470718174",
+    "https://openalex.org/W2487692127",
+    "https://openalex.org/W2616924401",
+    "https://openalex.org/W2768862373",
+    "https://openalex.org/W2769208821",
+    "https://openalex.org/W2900640760",
+    "https://openalex.org/W2951689089",
+    "https://openalex.org/W3022312138",
+    "https://openalex.org/W3034950392",
+    "https://openalex.org/W3091882648",
+    "https://openalex.org/W3093098994",
+    "https://openalex.org/W3124115871",
+    "https://openalex.org/W3124656392",
+    "https://openalex.org/W3196463747",
+    "https://openalex.org/W3205379899",
+    "https://openalex.org/W4207007774"
+  ],
+  "related_works": [
+    "https://openalex.org/W2944272757",
+    "https://openalex.org/W3097681567",
+    "https://openalex.org/W2103928448",
+    "https://openalex.org/W2027290004",
+    "https://openalex.org/W2889657643",
+    "https://openalex.org/W4311914264",
+    "https://openalex.org/W2368450671",
+    "https://openalex.org/W2086122870",
+    "https://openalex.org/W2951908300",
+    "https://openalex.org/W587360598"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0
+    ],
+    "goals": [
+      1
+    ],
+    "of": [
+      2,
+      10,
+      47,
+      68,
+      82,
+      106,
+      115,
+      130,
+      134,
+      140,
+      144,
+      167,
+      177,
+      188,
+      210
+    ],
+    "this": [
+      3
+    ],
+    "study": [
+      4,
+      194
+    ],
+    "were": [
+      5,
+      77
+    ],
+    "to": [
+      6,
+      174,
+      180,
+      201,
+      215,
+      229
+    ],
+    "analyze": [
+      7
+    ],
+    "the": [
+      8,
+      28,
+      45,
+      64,
+      80,
+      85,
+      94,
+      98,
+      102,
+      104,
+      109,
+      112,
+      116,
+      119,
+      124,
+      128,
+      131,
+      147,
+      153,
+      165,
+      168,
+      175,
+      178,
+      193,
+      227
+    ],
+    "capabilities": [
+      9,
+      46
+    ],
+    "DAS": [
+      11
+    ],
+    "(distributed": [
+      12
+    ],
+    "sensors)": [
+      13
+    ],
+    "in": [
+      14,
+      118,
+      123,
+      138,
+      186,
+      223
+    ],
+    "resolving": [
+      15
+    ],
+    "mining": [
+      16,
+      211
+    ],
+    "problems,": [
+      17
+    ],
+    "compare": [
+      18
+    ],
+    "them": [
+      19
+    ],
+    "with": [
+      20,
+      34
+    ],
+    "existing": [
+      21
+    ],
+    "seismoacoustic": [
+      22,
+      32,
+      49,
+      204
+    ],
+    "data": [
+      23
+    ],
+    "collection": [
+      24
+    ],
+    "systems,": [
+      25
+    ],
+    "and": [
+      26,
+      61,
+      74,
+      111,
+      142,
+      170,
+      212,
+      218,
+      225
+    ],
+    "prepare": [
+      27
+    ],
+    "basis": [
+      29
+    ],
+    "for": [
+      30,
+      72,
+      219
+    ],
+    "conducting": [
+      31
+    ],
+    "studies": [
+      33
+    ],
+    "recording": [
+      35,
+      48
+    ],
+    "by": [
+      36,
+      163
+    ],
+    "a": [
+      37,
+      196,
+      207
+    ],
+    "fiber": [
+      38,
+      52,
+      99,
+      117
+    ],
+    "optic": [
+      39,
+      53
+    ],
+    "distributed": [
+      40,
+      54
+    ],
+    "system.": [
+      41
+    ],
+    "This": [
+      42,
+      159
+    ],
+    "paper": [
+      43
+    ],
+    "considers": [
+      44
+    ],
+    "responses": [
+      50,
+      66,
+      166,
+      205
+    ],
+    "using": [
+      51
+    ],
+    "acoustic": [
+      55
+    ],
+    "systems": [
+      56
+    ],
+    "(DAS).": [
+      57
+    ],
+    "Based": [
+      58,
+      191
+    ],
+    "on": [
+      59,
+      89,
+      101,
+      108,
+      192,
+      226
+    ],
+    "physical": [
+      60
+    ],
+    "geometrical": [
+      62
+    ],
+    "analysis,": [
+      63
+    ],
+    "amplitude-frequency": [
+      65,
+      132
+    ],
+    "(characteristics)": [
+      67
+    ],
+    "recorded": [
+      69
+    ],
+    "longitudinal": [
+      70,
+      135
+    ],
+    "waves": [
+      71,
+      136
+    ],
+    "straight": [
+      73,
+      169
+    ],
+    "helically-wound": [
+      75,
+      83,
+      171
+    ],
+    "fibers": [
+      76,
+      172
+    ],
+    "obtained.": [
+      78
+    ],
+    "In": [
+      79
+    ],
+    "case": [
+      81,
+      187
+    ],
+    "fiber,": [
+      84
+    ],
+    "frequency": [
+      86
+    ],
+    "response": [
+      87,
+      155
+    ],
+    "depends": [
+      88
+    ],
+    "several": [
+      90
+    ],
+    "key": [
+      91
+    ],
+    "factors:": [
+      92
+    ],
+    "integrating": [
+      93
+    ],
+    "measured": [
+      95
+    ],
+    "value": [
+      96
+    ],
+    "along": [
+      97
+    ],
+    "based": [
+      100
+    ],
+    "measurement;": [
+      103
+    ],
+    "angle": [
+      105,
+      114,
+      126
+    ],
+    "incidence": [
+      107
+    ],
+    "cable;": [
+      110
+    ],
+    "winding": [
+      113,
+      125,
+      151
+    ],
+    "cable.": [
+      120
+    ],
+    "An": [
+      121
+    ],
+    "increase": [
+      122
+    ],
+    "increases": [
+      127
+    ],
+    "uniformity": [
+      129
+    ],
+    "characteristics": [
+      133
+    ],
+    "both": [
+      137,
+      222
+    ],
+    "terms": [
+      139
+    ],
+    "frequencies": [
+      141,
+      182
+    ],
+    "angles": [
+      143
+    ],
+    "incidence.": [
+      145
+    ],
+    "At": [
+      146
+    ],
+    "same": [
+      148
+    ],
+    "time,": [
+      149
+    ],
+    "helical": [
+      150
+    ],
+    "changes": [
+      152
+    ],
+    "effective": [
+      154
+    ],
+    "spacing": [
+      156
+    ],
+    "(gauge": [
+      157
+    ],
+    "length).": [
+      158
+    ],
+    "makes": [
+      160
+    ],
+    "it": [
+      161
+    ],
+    "possible,": [
+      162
+    ],
+    "summing": [
+      164
+    ],
+    "due": [
+      173
+    ],
+    "overlap": [
+      176
+    ],
+    "spectra,": [
+      179
+    ],
+    "record": [
+      181,
+      202
+    ],
+    "that": [
+      183
+    ],
+    "are": [
+      184
+    ],
+    "suppressed": [
+      185
+    ],
+    "separate": [
+      189
+    ],
+    "recording.": [
+      190
+    ],
+    "results,": [
+      195
+    ],
+    "cable": [
+      197
+    ],
+    "design": [
+      198
+    ],
+    "was": [
+      199
+    ],
+    "proposed": [
+      200
+    ],
+    "broadband": [
+      203
+    ],
+    "enabling": [
+      206
+    ],
+    "wide": [
+      208
+    ],
+    "range": [
+      209
+    ],
+    "engineering": [
+      213
+    ],
+    "problems": [
+      214
+    ],
+    "be": [
+      216,
+      230
+    ],
+    "resolved,": [
+      217
+    ],
+    "seismic": [
+      220
+    ],
+    "surveys": [
+      221
+    ],
+    "wells": [
+      224
+    ],
+    "surface": [
+      228
+    ],
+    "carried": [
+      231
+    ],
+    "out.": [
+      232
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2026-09-11T09:22:31.653822",
+  "created_date": "2025-10-10T00:00:00"
+}

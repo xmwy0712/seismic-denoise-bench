@@ -1,0 +1,467 @@
+{
+  "id": "https://openalex.org/W1573293896",
+  "doi": "https://doi.org/10.1016/c2013-0-10906-3",
+  "title": "Wave Propagation and Scattering in Random Media",
+  "display_name": "Wave Propagation and Scattering in Random Media",
+  "publication_year": 1978,
+  "publication_date": "1978-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1573293896",
+    "doi": "https://doi.org/10.1016/c2013-0-10906-3",
+    "mag": "1573293896"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/c2013-0-10906-3",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/c2013-0-10906-3",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306463230",
+      "display_name": "Elsevier eBooks",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "ebook platform"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": null,
+    "raw_type": "edited-book"
+  },
+  "type": "book",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5081807604",
+        "display_name": "Akira Ishimaru",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "Ishimaru, Akira",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5081807604"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 34.9505,
+  "has_fulltext": false,
+  "cited_by_count": 4750,
+  "citation_normalized_percentile": {
+    "value": 1.0,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11698",
+    "display_name": "Underwater Acoustics Research",
+    "score": 0.9375,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1910",
+      "display_name": "Oceanography"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11698",
+      "display_name": "Underwater Acoustics Research",
+      "score": 0.9375,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1910",
+        "display_name": "Oceanography"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11739",
+      "display_name": "Microwave Imaging and Scattering Analysis",
+      "score": 0.9218999743461609,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10662",
+      "display_name": "Ultrasonics and Acoustic Wave Propagation",
+      "score": 0.9006999731063843,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/scattering",
+      "display_name": "Scattering",
+      "score": 0.6123991012573242
+    },
+    {
+      "id": "https://openalex.org/keywords/wave-propagation",
+      "display_name": "Wave propagation",
+      "score": 0.4453841745853424
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.403076171875
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.36817851662635803
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.31031668186187744
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C191486275",
+      "wikidata": "https://www.wikidata.org/wiki/Q210028",
+      "display_name": "Scattering",
+      "level": 2,
+      "score": 0.6123991012573242
+    },
+    {
+      "id": "https://openalex.org/C44886760",
+      "wikidata": "https://www.wikidata.org/wiki/Q1758425",
+      "display_name": "Wave propagation",
+      "level": 2,
+      "score": 0.4453841745853424
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.403076171875
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.36817851662635803
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.31031668186187744
+    }
+  ],
+  "mesh": [],
+  "locations_count": 6,
+  "locations": [
+    {
+      "id": "doi:10.1016/c2013-0-10906-3",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/c2013-0-10906-3",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306463230",
+        "display_name": "Elsevier eBooks",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "ebook platform"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": null,
+      "raw_type": "edited-book"
+    },
+    {
+      "id": "pmh:oai:aleph.bib-bvb.de:BVB01-007823089",
+      "is_oa": false,
+      "landing_page_url": "http://bvbr.bib-bvb.de:8991/F?func=service&amp;doc_library=BVB01&amp;local_base=BVB01&amp;doc_number=007823089&amp;sequence=000001&amp;line_number=0001&amp;func_code=DB_RECORDS&amp;service_type=MEDIA",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "text"
+    },
+    {
+      "id": "pmh:oai:aleph.bib-bvb.de:BVB01-027738909",
+      "is_oa": false,
+      "landing_page_url": "http://www.sciencedirect.com/science/book/9780123747013",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "software, multimedia"
+    },
+    {
+      "id": "pmh:oai:cds.cern.ch:1480927",
+      "is_oa": false,
+      "landing_page_url": "http://cds.cern.ch/record/1480927",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402195",
+        "display_name": "CERN Document Server (European Organization for Nuclear Research)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I67311998",
+        "host_organization_name": "European Organization for Nuclear Research",
+        "host_organization_lineage": [
+          "https://openalex.org/I67311998"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": null
+    },
+    {
+      "id": "pmh:oai:cds.cern.ch:1618770",
+      "is_oa": false,
+      "landing_page_url": "http://cds.cern.ch/record/1618770",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402195",
+        "display_name": "CERN Document Server (European Organization for Nuclear Research)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I67311998",
+        "host_organization_name": "European Organization for Nuclear Research",
+        "host_organization_lineage": [
+          "https://openalex.org/I67311998"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": null
+    },
+    {
+      "id": "pmh:oai:cds.cern.ch:1974822",
+      "is_oa": false,
+      "landing_page_url": "http://cds.cern.ch/record/1974822",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402195",
+        "display_name": "CERN Document Server (European Organization for Nuclear Research)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I67311998",
+        "host_organization_name": "European Organization for Nuclear Research",
+        "host_organization_lineage": [
+          "https://openalex.org/I67311998"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": null
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2935759653",
+    "https://openalex.org/W3105167352",
+    "https://openalex.org/W54078636",
+    "https://openalex.org/W2954470139",
+    "https://openalex.org/W1501425562",
+    "https://openalex.org/W2902782467",
+    "https://openalex.org/W3084825885",
+    "https://openalex.org/W2298861036",
+    "https://openalex.org/W3148032049"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 73
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 90
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 85
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 89
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 98
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 143
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 141
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 154
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 156
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 203
+    }
+  ],
+  "updated_date": "2026-09-12T09:15:50.089291",
+  "created_date": "2025-10-10T00:00:00"
+}

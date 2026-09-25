@@ -1,0 +1,931 @@
+{
+  "id": "https://openalex.org/W1766888123",
+  "doi": null,
+  "title": "Discrete-Time Signal Processing",
+  "display_name": "Discrete-Time Signal Processing",
+  "publication_year": 1989,
+  "publication_date": "1989-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1766888123",
+    "mag": "1766888123"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "pmh:oai:aleph.bib-bvb.de:BVB01-008585458",
+    "is_oa": false,
+    "landing_page_url": "https://bvbr.bib-bvb.de:443/F?func=service&doc_library=BVB01&local_base=BVB01&doc_number=008585458&sequence=000002&line_number=0001&func_code=DB_RECORDS&service_type=MEDIA",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "text"
+  },
+  "type": "article",
+  "indexed_in": [],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "http://infoscience.epfl.ch/record/60916",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5012905461",
+        "display_name": "Alan V. Oppenheim",
+        "orcid": "https://orcid.org/0000-0003-0647-236X"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Alan V. Oppenheim",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5109911398",
+        "display_name": "Ronald W. Schafer",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Ronald W. Schafer",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 84.0498,
+  "has_fulltext": false,
+  "cited_by_count": 11531,
+  "citation_normalized_percentile": {
+    "value": 1.0,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12564",
+    "display_name": "Sensor Technology and Measurement Systems",
+    "score": 0.9351999759674072,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1705",
+      "display_name": "Computer Networks and Communications"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12564",
+      "display_name": "Sensor Technology and Measurement Systems",
+      "score": 0.9351999759674072,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1705",
+        "display_name": "Computer Networks and Communications"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/digital-signal-processing",
+      "display_name": "Digital signal processing",
+      "score": 0.8051590919494629
+    },
+    {
+      "id": "https://openalex.org/keywords/discrete-time-signal",
+      "display_name": "Discrete-time signal",
+      "score": 0.6891176700592041
+    },
+    {
+      "id": "https://openalex.org/keywords/signal-processing",
+      "display_name": "Signal processing",
+      "score": 0.6596062183380127
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.6187676191329956
+    },
+    {
+      "id": "https://openalex.org/keywords/discrete-time-and-continuous-time",
+      "display_name": "Discrete time and continuous time",
+      "score": 0.5826092958450317
+    },
+    {
+      "id": "https://openalex.org/keywords/ideal",
+      "display_name": "Ideal (ethics)",
+      "score": 0.5560725927352905
+    },
+    {
+      "id": "https://openalex.org/keywords/multidimensional-signal-processing",
+      "display_name": "Multidimensional signal processing",
+      "score": 0.5354858040809631
+    },
+    {
+      "id": "https://openalex.org/keywords/signal",
+      "display_name": "SIGNAL (programming language)",
+      "score": 0.527018666267395
+    },
+    {
+      "id": "https://openalex.org/keywords/sampling",
+      "display_name": "Sampling (signal processing)",
+      "score": 0.46627309918403625
+    },
+    {
+      "id": "https://openalex.org/keywords/discrete-fourier-transform",
+      "display_name": "Discrete Fourier transform (general)",
+      "score": 0.41275250911712646
+    },
+    {
+      "id": "https://openalex.org/keywords/fourier-transform",
+      "display_name": "Fourier transform",
+      "score": 0.3707563281059265
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-engineering",
+      "display_name": "Computer engineering",
+      "score": 0.3561835289001465
+    },
+    {
+      "id": "https://openalex.org/keywords/theoretical-computer-science",
+      "display_name": "Theoretical computer science",
+      "score": 0.35555505752563477
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.3442608714103699
+    },
+    {
+      "id": "https://openalex.org/keywords/analog-signal",
+      "display_name": "Analog signal",
+      "score": 0.28148353099823
+    },
+    {
+      "id": "https://openalex.org/keywords/filter",
+      "display_name": "Filter (signal processing)",
+      "score": 0.23678120970726013
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.23545551300048828
+    },
+    {
+      "id": "https://openalex.org/keywords/fourier-analysis",
+      "display_name": "Fourier analysis",
+      "score": 0.2253418266773224
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-hardware",
+      "display_name": "Computer hardware",
+      "score": 0.20016956329345703
+    },
+    {
+      "id": "https://openalex.org/keywords/signal-transfer-function",
+      "display_name": "Signal transfer function",
+      "score": 0.1357116997241974
+    },
+    {
+      "id": "https://openalex.org/keywords/statistics",
+      "display_name": "Statistics",
+      "score": 0.12476345896720886
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-vision",
+      "display_name": "Computer vision",
+      "score": 0.0963297188282013
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C84462506",
+      "wikidata": "https://www.wikidata.org/wiki/Q173142",
+      "display_name": "Digital signal processing",
+      "level": 2,
+      "score": 0.8051590919494629
+    },
+    {
+      "id": "https://openalex.org/C146749787",
+      "wikidata": "https://www.wikidata.org/wiki/Q15963867",
+      "display_name": "Discrete-time signal",
+      "level": 5,
+      "score": 0.6891176700592041
+    },
+    {
+      "id": "https://openalex.org/C104267543",
+      "wikidata": "https://www.wikidata.org/wiki/Q208163",
+      "display_name": "Signal processing",
+      "level": 3,
+      "score": 0.6596062183380127
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.6187676191329956
+    },
+    {
+      "id": "https://openalex.org/C55689738",
+      "wikidata": "https://www.wikidata.org/wiki/Q15963867",
+      "display_name": "Discrete time and continuous time",
+      "level": 2,
+      "score": 0.5826092958450317
+    },
+    {
+      "id": "https://openalex.org/C2776639384",
+      "wikidata": "https://www.wikidata.org/wiki/Q840396",
+      "display_name": "Ideal (ethics)",
+      "level": 2,
+      "score": 0.5560725927352905
+    },
+    {
+      "id": "https://openalex.org/C501101116",
+      "wikidata": "https://www.wikidata.org/wiki/Q18378116",
+      "display_name": "Multidimensional signal processing",
+      "level": 4,
+      "score": 0.5354858040809631
+    },
+    {
+      "id": "https://openalex.org/C2779843651",
+      "wikidata": "https://www.wikidata.org/wiki/Q7390335",
+      "display_name": "SIGNAL (programming language)",
+      "level": 2,
+      "score": 0.527018666267395
+    },
+    {
+      "id": "https://openalex.org/C140779682",
+      "wikidata": "https://www.wikidata.org/wiki/Q210868",
+      "display_name": "Sampling (signal processing)",
+      "level": 3,
+      "score": 0.46627309918403625
+    },
+    {
+      "id": "https://openalex.org/C57733114",
+      "wikidata": "https://www.wikidata.org/wiki/Q1006032",
+      "display_name": "Discrete Fourier transform (general)",
+      "level": 5,
+      "score": 0.41275250911712646
+    },
+    {
+      "id": "https://openalex.org/C102519508",
+      "wikidata": "https://www.wikidata.org/wiki/Q6520159",
+      "display_name": "Fourier transform",
+      "level": 2,
+      "score": 0.3707563281059265
+    },
+    {
+      "id": "https://openalex.org/C113775141",
+      "wikidata": "https://www.wikidata.org/wiki/Q428691",
+      "display_name": "Computer engineering",
+      "level": 1,
+      "score": 0.3561835289001465
+    },
+    {
+      "id": "https://openalex.org/C80444323",
+      "wikidata": "https://www.wikidata.org/wiki/Q2878974",
+      "display_name": "Theoretical computer science",
+      "level": 1,
+      "score": 0.35555505752563477
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.3442608714103699
+    },
+    {
+      "id": "https://openalex.org/C13412647",
+      "wikidata": "https://www.wikidata.org/wiki/Q174948",
+      "display_name": "Analog signal",
+      "level": 3,
+      "score": 0.28148353099823
+    },
+    {
+      "id": "https://openalex.org/C106131492",
+      "wikidata": "https://www.wikidata.org/wiki/Q3072260",
+      "display_name": "Filter (signal processing)",
+      "level": 2,
+      "score": 0.23678120970726013
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.23545551300048828
+    },
+    {
+      "id": "https://openalex.org/C203024314",
+      "wikidata": "https://www.wikidata.org/wiki/Q1365258",
+      "display_name": "Fourier analysis",
+      "level": 3,
+      "score": 0.2253418266773224
+    },
+    {
+      "id": "https://openalex.org/C9390403",
+      "wikidata": "https://www.wikidata.org/wiki/Q3966",
+      "display_name": "Computer hardware",
+      "level": 1,
+      "score": 0.20016956329345703
+    },
+    {
+      "id": "https://openalex.org/C131021393",
+      "wikidata": "https://www.wikidata.org/wiki/Q7512759",
+      "display_name": "Signal transfer function",
+      "level": 4,
+      "score": 0.1357116997241974
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.12476345896720886
+    },
+    {
+      "id": "https://openalex.org/C31972630",
+      "wikidata": "https://www.wikidata.org/wiki/Q844240",
+      "display_name": "Computer vision",
+      "level": 1,
+      "score": 0.0963297188282013
+    },
+    {
+      "id": "https://openalex.org/C111472728",
+      "wikidata": "https://www.wikidata.org/wiki/Q9471",
+      "display_name": "Epistemology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C138885662",
+      "wikidata": "https://www.wikidata.org/wiki/Q5891",
+      "display_name": "Philosophy",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C76563020",
+      "wikidata": "https://www.wikidata.org/wiki/Q4817582",
+      "display_name": "Fractional Fourier transform",
+      "level": 4,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 6,
+  "locations": [
+    {
+      "id": "pmh:oai:aleph.bib-bvb.de:BVB01-008585458",
+      "is_oa": false,
+      "landing_page_url": "https://bvbr.bib-bvb.de:443/F?func=service&doc_library=BVB01&local_base=BVB01&doc_number=008585458&sequence=000002&line_number=0001&func_code=DB_RECORDS&service_type=MEDIA",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "text"
+    },
+    {
+      "id": "pmh:oai:aleph.bib-bvb.de:BVB01-032270164",
+      "is_oa": false,
+      "landing_page_url": "https://elibrary.pearson.de/book/99.150005/9781292038155",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "software, multimedia"
+    },
+    {
+      "id": "pmh:oai:cds.cern.ch:1352098",
+      "is_oa": false,
+      "landing_page_url": "http://cds.cern.ch/record/1352098",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402195",
+        "display_name": "CERN Document Server (European Organization for Nuclear Research)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I67311998",
+        "host_organization_name": "European Organization for Nuclear Research",
+        "host_organization_lineage": [
+          "https://openalex.org/I67311998"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": null
+    },
+    {
+      "id": "pmh:oai:cds.cern.ch:389969",
+      "is_oa": false,
+      "landing_page_url": "http://cds.cern.ch/record/389969",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400735",
+        "display_name": "International Linear Collider",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": null
+    },
+    {
+      "id": "pmh:oai:infoscience.tind.io:60916",
+      "is_oa": true,
+      "landing_page_url": "http://infoscience.epfl.ch/record/60916",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400487",
+        "display_name": "Infoscience (Ecole Polytechnique Fédérale de Lausanne)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I5124864",
+        "host_organization_name": "École Polytechnique Fédérale de Lausanne",
+        "host_organization_lineage": [
+          "https://openalex.org/I5124864"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "Text"
+    },
+    {
+      "id": "mag:1766888123",
+      "is_oa": false,
+      "landing_page_url": "http://ci.nii.ac.jp/ncid/BA06610540",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210197683",
+        "display_name": "Medical Entomology and Zoology",
+        "issn_l": "0424-7086",
+        "issn": [
+          "0424-7086",
+          "2185-5609"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319750",
+        "host_organization_name": "Japan Society of Medical Entomology and Zoology",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319750"
+        ],
+        "host_organization_lineage_names": [
+          "Japan Society of Medical Entomology and Zoology"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": null,
+      "raw_source_name": null,
+      "raw_type": null
+    }
+  ],
+  "best_oa_location": {
+    "id": "pmh:oai:infoscience.tind.io:60916",
+    "is_oa": true,
+    "landing_page_url": "http://infoscience.epfl.ch/record/60916",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306400487",
+      "display_name": "Infoscience (Ecole Polytechnique Fédérale de Lausanne)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I5124864",
+      "host_organization_name": "École Polytechnique Fédérale de Lausanne",
+      "host_organization_lineage": [
+        "https://openalex.org/I5124864"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "",
+    "raw_type": "Text"
+  },
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2798909945",
+    "https://openalex.org/W2798333393",
+    "https://openalex.org/W2132984323",
+    "https://openalex.org/W2115755118",
+    "https://openalex.org/W2111460811",
+    "https://openalex.org/W2106822551",
+    "https://openalex.org/W2069501481",
+    "https://openalex.org/W2062024414",
+    "https://openalex.org/W2061171222",
+    "https://openalex.org/W2020141429",
+    "https://openalex.org/W1966264494",
+    "https://openalex.org/W1965392255",
+    "https://openalex.org/W1965324089",
+    "https://openalex.org/W1667165204",
+    "https://openalex.org/W1658679052",
+    "https://openalex.org/W1535749512",
+    "https://openalex.org/W1506809288",
+    "https://openalex.org/W1492221128",
+    "https://openalex.org/W1481646516",
+    "https://openalex.org/W123426918"
+  ],
+  "abstract_inverted_index": {
+    "For": [
+      0
+    ],
+    "senior/graduate-level": [
+      1
+    ],
+    "courses": [
+      2
+    ],
+    "in": [
+      3,
+      58,
+      72
+    ],
+    "Discrete-Time": [
+      4
+    ],
+    "Signal": [
+      5
+    ],
+    "Processing.": [
+      6
+    ],
+    "THE": [
+      7
+    ],
+    "definitive,": [
+      8
+    ],
+    "authoritative": [
+      9
+    ],
+    "text": [
+      10
+    ],
+    "on": [
+      11,
+      52
+    ],
+    "DSP": [
+      12,
+      28
+    ],
+    "--": [
+      13
+    ],
+    "ideal": [
+      14
+    ],
+    "for": [
+      15
+    ],
+    "those": [
+      16
+    ],
+    "with": [
+      17,
+      81
+    ],
+    "an": [
+      18
+    ],
+    "introductory-level": [
+      19
+    ],
+    "knowledge": [
+      20
+    ],
+    "of": [
+      21,
+      34,
+      40
+    ],
+    "signals": [
+      22
+    ],
+    "and": [
+      23,
+      38,
+      46,
+      55,
+      65
+    ],
+    "systems.": [
+      24
+    ],
+    "Written": [
+      25
+    ],
+    "by": [
+      26
+    ],
+    "prominent,": [
+      27
+    ],
+    "pioneers,": [
+      29
+    ],
+    "it": [
+      30,
+      62
+    ],
+    "provides": [
+      31
+    ],
+    "thorough": [
+      32
+    ],
+    "treatment": [
+      33
+    ],
+    "the": [
+      35,
+      53,
+      68,
+      73
+    ],
+    "fundamental": [
+      36
+    ],
+    "theorems": [
+      37
+    ],
+    "properties": [
+      39
+    ],
+    "discrete-time": [
+      41,
+      47,
+      59
+    ],
+    "linear": [
+      42
+    ],
+    "systems,": [
+      43
+    ],
+    "filtering,": [
+      44
+    ],
+    "sampling,": [
+      45
+    ],
+    "Fourier": [
+      48
+    ],
+    "Analysis.": [
+      49
+    ],
+    "By": [
+      50
+    ],
+    "focusing": [
+      51
+    ],
+    "general": [
+      54
+    ],
+    "universal": [
+      56
+    ],
+    "concepts": [
+      57
+    ],
+    "signal": [
+      60
+    ],
+    "processing,": [
+      61
+    ],
+    "remains": [
+      63
+    ],
+    "vital": [
+      64
+    ],
+    "relevant": [
+      66
+    ],
+    "to": [
+      67,
+      78
+    ],
+    "new": [
+      69
+    ],
+    "challenges": [
+      70
+    ],
+    "arising": [
+      71
+    ],
+    "field": [
+      74
+    ],
+    "--without": [
+      75
+    ],
+    "limiting": [
+      76
+    ],
+    "itself": [
+      77
+    ],
+    "specific": [
+      79
+    ],
+    "technologies": [
+      80
+    ],
+    "relatively": [
+      82
+    ],
+    "short": [
+      83
+    ],
+    "life": [
+      84
+    ],
+    "spans.": [
+      85
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 28
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 45
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 53
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 252
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 336
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 285
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 338
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 369
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 390
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 491
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 456
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 474
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 498
+    }
+  ],
+  "updated_date": "2026-09-12T09:15:50.089291",
+  "created_date": "2025-10-10T00:00:00"
+}

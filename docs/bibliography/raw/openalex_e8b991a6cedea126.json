@@ -1,0 +1,977 @@
+{
+  "id": "https://openalex.org/W1887925060",
+  "doi": "https://doi.org/10.1190/1.1440668",
+  "title": "V p /V s ; a potential hydrocarbon indicator",
+  "display_name": "V p /V s ; a potential hydrocarbon indicator",
+  "publication_year": 1976,
+  "publication_date": "1976-10-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1887925060",
+    "doi": "https://doi.org/10.1190/1.1440668",
+    "mag": "1887925060"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.1440668",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.1440668",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S106174089",
+      "display_name": "Geophysics",
+      "issn_l": "0016-8033",
+      "issn": [
+        "0016-8033",
+        "1942-2156"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5111553164",
+        "display_name": "Robert H. Tatham",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I152304114",
+          "display_name": "Lamont-Doherty Earth Observatory",
+          "ror": "https://ror.org/02e2tgs60",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I152304114",
+            "https://openalex.org/I78577930"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I78577930",
+          "display_name": "Columbia University",
+          "ror": "https://ror.org/00hj8s172",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I78577930"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "R. H. Tatham",
+      "raw_affiliation_strings": [
+        "Columbia Univ., Lamont-Doherty Geol. Obs., Palisades, N.Y., United States",
+        "Lamont‐Doherty Geological Observatory, Palisades, N.Y., and Columbia University, New York, New York"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Columbia Univ., Lamont-Doherty Geol. Obs., Palisades, N.Y., United States",
+          "institution_ids": [
+            "https://openalex.org/I152304114",
+            "https://openalex.org/I78577930"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Lamont‐Doherty Geological Observatory, Palisades, N.Y., and Columbia University, New York, New York",
+          "institution_ids": [
+            "https://openalex.org/I152304114",
+            "https://openalex.org/I78577930"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5009052097",
+        "display_name": "Paul L. Stoffa",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I152304114",
+          "display_name": "Lamont-Doherty Earth Observatory",
+          "ror": "https://ror.org/02e2tgs60",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I152304114",
+            "https://openalex.org/I78577930"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I78577930",
+          "display_name": "Columbia University",
+          "ror": "https://ror.org/00hj8s172",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I78577930"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "P. L. Stoffa",
+      "raw_affiliation_strings": [
+        "Columbia Univ., Lamont-Doherty Geol. Obs., Palisades, N.Y., United States"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Columbia Univ., Lamont-Doherty Geol. Obs., Palisades, N.Y., United States",
+          "institution_ids": [
+            "https://openalex.org/I152304114",
+            "https://openalex.org/I78577930"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.342,
+  "has_fulltext": false,
+  "cited_by_count": 84,
+  "citation_normalized_percentile": {
+    "value": 0.56354916,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "41",
+    "issue": "5",
+    "first_page": "837",
+    "last_page": "849"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.9991999864578247,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.8050298690795898
+    },
+    {
+      "id": "https://openalex.org/keywords/amplitude-versus-offset",
+      "display_name": "Amplitude versus offset",
+      "score": 0.660494327545166
+    },
+    {
+      "id": "https://openalex.org/keywords/longitudinal-wave",
+      "display_name": "Longitudinal wave",
+      "score": 0.6262940168380737
+    },
+    {
+      "id": "https://openalex.org/keywords/shear",
+      "display_name": "Shear (geology)",
+      "score": 0.6074009537696838
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.6044283509254456
+    },
+    {
+      "id": "https://openalex.org/keywords/amplitude",
+      "display_name": "Amplitude",
+      "score": 0.5915806293487549
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-wave",
+      "display_name": "Seismic wave",
+      "score": 0.5269825458526611
+    },
+    {
+      "id": "https://openalex.org/keywords/shear-waves",
+      "display_name": "Shear waves",
+      "score": 0.5056014060974121
+    },
+    {
+      "id": "https://openalex.org/keywords/shear-wave-splitting",
+      "display_name": "Shear wave splitting",
+      "score": 0.45695921778678894
+    },
+    {
+      "id": "https://openalex.org/keywords/wave-propagation",
+      "display_name": "Wave propagation",
+      "score": 0.4082378149032593
+    },
+    {
+      "id": "https://openalex.org/keywords/petrology",
+      "display_name": "Petrology",
+      "score": 0.19382557272911072
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.11816713213920593
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.0941811203956604
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.8050298690795898
+    },
+    {
+      "id": "https://openalex.org/C59000536",
+      "wikidata": "https://www.wikidata.org/wiki/Q4748519",
+      "display_name": "Amplitude versus offset",
+      "level": 3,
+      "score": 0.660494327545166
+    },
+    {
+      "id": "https://openalex.org/C143351421",
+      "wikidata": "https://www.wikidata.org/wiki/Q626707",
+      "display_name": "Longitudinal wave",
+      "level": 3,
+      "score": 0.6262940168380737
+    },
+    {
+      "id": "https://openalex.org/C96035792",
+      "wikidata": "https://www.wikidata.org/wiki/Q43606218",
+      "display_name": "Shear (geology)",
+      "level": 2,
+      "score": 0.6074009537696838
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.6044283509254456
+    },
+    {
+      "id": "https://openalex.org/C180205008",
+      "wikidata": "https://www.wikidata.org/wiki/Q159190",
+      "display_name": "Amplitude",
+      "level": 2,
+      "score": 0.5915806293487549
+    },
+    {
+      "id": "https://openalex.org/C78542244",
+      "wikidata": "https://www.wikidata.org/wiki/Q186167",
+      "display_name": "Seismic wave",
+      "level": 2,
+      "score": 0.5269825458526611
+    },
+    {
+      "id": "https://openalex.org/C2779438780",
+      "wikidata": "https://www.wikidata.org/wiki/Q691978",
+      "display_name": "Shear waves",
+      "level": 3,
+      "score": 0.5056014060974121
+    },
+    {
+      "id": "https://openalex.org/C22512106",
+      "wikidata": "https://www.wikidata.org/wiki/Q7492182",
+      "display_name": "Shear wave splitting",
+      "level": 3,
+      "score": 0.45695921778678894
+    },
+    {
+      "id": "https://openalex.org/C44886760",
+      "wikidata": "https://www.wikidata.org/wiki/Q1758425",
+      "display_name": "Wave propagation",
+      "level": 2,
+      "score": 0.4082378149032593
+    },
+    {
+      "id": "https://openalex.org/C5900021",
+      "wikidata": "https://www.wikidata.org/wiki/Q163082",
+      "display_name": "Petrology",
+      "level": 1,
+      "score": 0.19382557272911072
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.11816713213920593
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0941811203956604
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.1440668",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.1440668",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S106174089",
+        "display_name": "Geophysics",
+        "issn_l": "0016-8033",
+        "issn": [
+          "0016-8033",
+          "1942-2156"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysics",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Life below water",
+      "id": "https://metadata.un.org/sdg/14",
+      "score": 0.5400000214576721
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 12,
+  "referenced_works": [
+    "https://openalex.org/W1974236982",
+    "https://openalex.org/W1987007071",
+    "https://openalex.org/W1999647928",
+    "https://openalex.org/W2019260018",
+    "https://openalex.org/W2051116497",
+    "https://openalex.org/W2082147615",
+    "https://openalex.org/W2082695083",
+    "https://openalex.org/W2085726952",
+    "https://openalex.org/W2136702675",
+    "https://openalex.org/W2152787656",
+    "https://openalex.org/W2161406658",
+    "https://openalex.org/W2169634156"
+  ],
+  "related_works": [
+    "https://openalex.org/W2372521297",
+    "https://openalex.org/W2365355084",
+    "https://openalex.org/W2055190207",
+    "https://openalex.org/W2133619354",
+    "https://openalex.org/W2605647728",
+    "https://openalex.org/W2121466883",
+    "https://openalex.org/W2029162352",
+    "https://openalex.org/W2615396880",
+    "https://openalex.org/W2331623268",
+    "https://openalex.org/W2162987352"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "Theoretically": [
+      1
+    ],
+    "and": [
+      2,
+      115,
+      119,
+      176
+    ],
+    "experimentally,": [
+      3
+    ],
+    "the": [
+      4,
+      22,
+      29,
+      32,
+      59,
+      105,
+      140,
+      153,
+      164,
+      167,
+      170
+    ],
+    "shear-wave": [
+      5,
+      68,
+      144
+    ],
+    "velocity": [
+      6,
+      130
+    ],
+    "of": [
+      7,
+      28,
+      31,
+      45,
+      58,
+      67,
+      77,
+      86,
+      104,
+      107,
+      142,
+      169
+    ],
+    "a": [
+      8,
+      39,
+      102,
+      110,
+      122,
+      143,
+      159
+    ],
+    "porous": [
+      9
+    ],
+    "rock": [
+      10
+    ],
+    "has": [
+      11,
+      161
+    ],
+    "been": [
+      12,
+      162
+    ],
+    "shown": [
+      13
+    ],
+    "to": [
+      14,
+      18,
+      80,
+      139
+    ],
+    "be": [
+      15,
+      150,
+      174
+    ],
+    "less": [
+      16
+    ],
+    "sensitive": [
+      17
+    ],
+    "fluid": [
+      19
+    ],
+    "saturants": [
+      20
+    ],
+    "than": [
+      21
+    ],
+    "compressional": [
+      23,
+      63,
+      117,
+      155
+    ],
+    "wave": [
+      24,
+      64,
+      156
+    ],
+    "velocity.": [
+      25,
+      91
+    ],
+    "Thus,": [
+      26
+    ],
+    "observation": [
+      27
+    ],
+    "ratio": [
+      30,
+      168
+    ],
+    "seismic": [
+      33,
+      72,
+      171
+    ],
+    "velocities": [
+      34,
+      172
+    ],
+    "for": [
+      35,
+      121
+    ],
+    "waves": [
+      36,
+      79,
+      82
+    ],
+    "which": [
+      37,
+      55,
+      147
+    ],
+    "traverse": [
+      38
+    ],
+    "changing": [
+      40
+    ],
+    "or": [
+      41,
+      47
+    ],
+    "laterally": [
+      42
+    ],
+    "varying": [
+      43
+    ],
+    "zone": [
+      44
+    ],
+    "undersaturation": [
+      46
+    ],
+    "gas": [
+      48
+    ],
+    "saturation": [
+      49
+    ],
+    "could": [
+      50
+    ],
+    "produce": [
+      51
+    ],
+    "an": [
+      52
+    ],
+    "observable": [
+      53
+    ],
+    "anomaly": [
+      54
+    ],
+    "is": [
+      56,
+      74,
+      109
+    ],
+    "independent": [
+      57
+    ],
+    "regional": [
+      60
+    ],
+    "variation": [
+      61,
+      100,
+      165
+    ],
+    "in": [
+      62,
+      70,
+      83,
+      166
+    ],
+    "velocity.One": [
+      65
+    ],
+    "source": [
+      66
+    ],
+    "data": [
+      69,
+      120
+    ],
+    "reflection": [
+      71,
+      145
+    ],
+    "prospecting": [
+      73
+    ],
+    "mode": [
+      75
+    ],
+    "conversion": [
+      76
+    ],
+    "P": [
+      78
+    ],
+    "shear": [
+      81,
+      114
+    ],
+    "marine": [
+      84
+    ],
+    "areas": [
+      85
+    ],
+    "high": [
+      87
+    ],
+    "water": [
+      88
+    ],
+    "bottom": [
+      89
+    ],
+    "P-wave": [
+      90
+    ],
+    "A": [
+      92,
+      127
+    ],
+    "relatively": [
+      93
+    ],
+    "simple": [
+      94
+    ],
+    "interpretative": [
+      95
+    ],
+    "technique,": [
+      96
+    ],
+    "based": [
+      97
+    ],
+    "on": [
+      98
+    ],
+    "amplitude": [
+      99
+    ],
+    "as": [
+      101
+    ],
+    "function": [
+      103
+    ],
+    "angle": [
+      106
+    ],
+    "incidence,": [
+      108
+    ],
+    "possible": [
+      111
+    ],
+    "discriminant": [
+      112
+    ],
+    "between": [
+      113
+    ],
+    "multiple": [
+      116
+    ],
+    "arrivals,": [
+      118
+    ],
+    "real": [
+      123
+    ],
+    "case": [
+      124
+    ],
+    "are": [
+      125
+    ],
+    "shown.": [
+      126
+    ],
+    "normal": [
+      128
+    ],
+    "moveout": [
+      129
+    ],
+    "analysis,": [
+      131
+    ],
+    "carefully": [
+      132
+    ],
+    "coupled": [
+      133
+    ],
+    "with": [
+      134,
+      152
+    ],
+    "this": [
+      135
+    ],
+    "offset": [
+      136
+    ],
+    "discriminant,": [
+      137
+    ],
+    "leads": [
+      138
+    ],
+    "construction": [
+      141
+    ],
+    "section": [
+      146,
+      160
+    ],
+    "can": [
+      148,
+      173
+    ],
+    "then": [
+      149
+    ],
+    "correlated": [
+      151
+    ],
+    "usual": [
+      154
+    ],
+    "section.Once": [
+      157
+    ],
+    "such": [
+      158
+    ],
+    "constructed,": [
+      163
+    ],
+    "mapped,": [
+      175
+    ],
+    "potentially": [
+      177
+    ],
+    "anomalous": [
+      178
+    ],
+    "subsurface": [
+      179
+    ],
+    "regions": [
+      180
+    ],
+    "observed.": [
+      181
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2026-09-22T17:25:34.749102",
+  "created_date": "2025-10-10T00:00:00"
+}

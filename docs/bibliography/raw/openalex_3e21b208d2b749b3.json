@@ -1,0 +1,1518 @@
+{
+  "id": "https://openalex.org/W2900464249",
+  "doi": "https://doi.org/10.1190/int-2018-0086.1",
+  "title": "3D vertical seismic profile acquired with distributed acoustic sensing on tubing installation: A case study from the CO2CRC Otway Project",
+  "display_name": "3D vertical seismic profile acquired with distributed acoustic sensing on tubing installation: A case study from the CO2CRC Otway Project",
+  "publication_year": 2018,
+  "publication_date": "2018-11-22",
+  "ids": {
+    "openalex": "https://openalex.org/W2900464249",
+    "doi": "https://doi.org/10.1190/int-2018-0086.1",
+    "mag": "2900464249"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/int-2018-0086.1",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/int-2018-0086.1",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4210239846",
+      "display_name": "Interpretation",
+      "issn_l": "2324-8858",
+      "issn": [
+        "2324-8858",
+        "2324-8866"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "ki-jl-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Interpretation",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://www.osti.gov/servlets/purl/1580816",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5008697997",
+        "display_name": "Julia Correa",
+        "orcid": "https://orcid.org/0000-0001-6005-3161",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-6005-3161"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I205640436",
+          "display_name": "Curtin University",
+          "ror": "https://ror.org/02n415q13",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I205640436"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210088899",
+          "display_name": "CO2CRC",
+          "ror": "https://ror.org/005xs3e07",
+          "country_code": "AU",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210088899"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Julia Correa",
+      "raw_affiliation_strings": [
+        "Curtin University/CO2CRC, Kensington, Australia",
+        "Curtin University/CO2CRC, Kensington, Australia. E-mail:"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Curtin University/CO2CRC, Kensington, Australia",
+          "institution_ids": [
+            "https://openalex.org/I205640436"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Curtin University/CO2CRC, Kensington, Australia. E-mail:",
+          "institution_ids": [
+            "https://openalex.org/I205640436",
+            "https://openalex.org/I4210088899"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5058094928",
+        "display_name": "Roman Pevzner",
+        "orcid": "https://orcid.org/0000-0002-2555-6860",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-2555-6860"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I205640436",
+          "display_name": "Curtin University",
+          "ror": "https://ror.org/02n415q13",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I205640436"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210088899",
+          "display_name": "CO2CRC",
+          "ror": "https://ror.org/005xs3e07",
+          "country_code": "AU",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210088899"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Roman Pevzner",
+      "raw_affiliation_strings": [
+        "Curtin University/CO2CRC, Kensington, Australia",
+        "Curtin University/CO2CRC, Kensington, Australia. E-mail:"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Curtin University/CO2CRC, Kensington, Australia",
+          "institution_ids": [
+            "https://openalex.org/I205640436"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Curtin University/CO2CRC, Kensington, Australia. E-mail:",
+          "institution_ids": [
+            "https://openalex.org/I205640436",
+            "https://openalex.org/I4210088899"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5036441343",
+        "display_name": "Andrej Bóna",
+        "orcid": "https://orcid.org/0000-0001-6064-3073",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-6064-3073"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I205640436",
+          "display_name": "Curtin University",
+          "ror": "https://ror.org/02n415q13",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I205640436"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210088899",
+          "display_name": "CO2CRC",
+          "ror": "https://ror.org/005xs3e07",
+          "country_code": "AU",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210088899"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Andrej Bona",
+      "raw_affiliation_strings": [
+        "Curtin University/CO2CRC, Kensington, Australia",
+        "Curtin University/CO2CRC, Kensington, Australia. E-mail:"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Curtin University/CO2CRC, Kensington, Australia",
+          "institution_ids": [
+            "https://openalex.org/I205640436"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Curtin University/CO2CRC, Kensington, Australia. E-mail:",
+          "institution_ids": [
+            "https://openalex.org/I205640436",
+            "https://openalex.org/I4210088899"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5027626102",
+        "display_name": "Konstantin Tertyshnikov",
+        "orcid": "https://orcid.org/0000-0002-8456-7391",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-8456-7391"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I205640436",
+          "display_name": "Curtin University",
+          "ror": "https://ror.org/02n415q13",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I205640436"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210088899",
+          "display_name": "CO2CRC",
+          "ror": "https://ror.org/005xs3e07",
+          "country_code": "AU",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210088899"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Konstantin Tertyshnikov",
+      "raw_affiliation_strings": [
+        "Curtin University/CO2CRC, Kensington, Australia",
+        "Curtin University/CO2CRC, Kensington, Australia. E-mail:"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Curtin University/CO2CRC, Kensington, Australia",
+          "institution_ids": [
+            "https://openalex.org/I205640436"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Curtin University/CO2CRC, Kensington, Australia. E-mail:",
+          "institution_ids": [
+            "https://openalex.org/I205640436",
+            "https://openalex.org/I4210088899"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5037125396",
+        "display_name": "Barry Freifeld",
+        "orcid": "https://orcid.org/0000-0003-0480-9395",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-0480-9395"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I148283060",
+          "display_name": "Lawrence Berkeley National Laboratory",
+          "ror": "https://ror.org/02jbv0t02",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I39565521"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Barry Freifeld",
+      "raw_affiliation_strings": [
+        "Lawrence Berkeley National Laboratory, Berkeley, California, USA.mcrobertson@lbl.gov; "
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Lawrence Berkeley National Laboratory, Berkeley, California, USA.mcrobertson@lbl.gov; ",
+          "institution_ids": [
+            "https://openalex.org/I148283060"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5104175299",
+        "display_name": "Michelle C. Robertson",
+        "orcid": "https://orcid.org/0009-0003-1436-5748",
+        "observed_orcids": [
+          "https://orcid.org/0009-0003-1436-5748"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I148283060",
+          "display_name": "Lawrence Berkeley National Laboratory",
+          "ror": "https://ror.org/02jbv0t02",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I39565521"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Michelle Robertson",
+      "raw_affiliation_strings": [
+        "Lawrence Berkeley National Laboratory, Berkeley, California, USA.mcrobertson@lbl.gov; "
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Lawrence Berkeley National Laboratory, Berkeley, California, USA.mcrobertson@lbl.gov; ",
+          "institution_ids": [
+            "https://openalex.org/I148283060"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5113533092",
+        "display_name": "Thomas M. Daley",
+        "orcid": "https://orcid.org/0000-0001-9445-0843",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-9445-0843"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I148283060",
+          "display_name": "Lawrence Berkeley National Laboratory",
+          "ror": "https://ror.org/02jbv0t02",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I39565521"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Thomas Daley",
+      "raw_affiliation_strings": [
+        "Lawrence Berkeley National Laboratory, Berkeley, California, USA.mcrobertson@lbl.gov; "
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Lawrence Berkeley National Laboratory, Berkeley, California, USA.mcrobertson@lbl.gov; ",
+          "institution_ids": [
+            "https://openalex.org/I148283060"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 1.8676,
+  "has_fulltext": false,
+  "cited_by_count": 31,
+  "citation_normalized_percentile": {
+    "value": 0.82586027,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "7",
+    "issue": "1",
+    "first_page": "SA11",
+    "last_page": "SA19"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11757",
+    "display_name": "Seismic Waves and Analysis",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10892",
+      "display_name": "Drilling and Well Engineering",
+      "score": 0.9969000220298767,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/casing",
+      "display_name": "Casing",
+      "score": 0.7431477904319763
+    },
+    {
+      "id": "https://openalex.org/keywords/coiled-tubing",
+      "display_name": "Coiled tubing",
+      "score": 0.6075481176376343
+    },
+    {
+      "id": "https://openalex.org/keywords/distributed-acoustic-sensing",
+      "display_name": "Distributed acoustic sensing",
+      "score": 0.574981689453125
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.5205101370811462
+    },
+    {
+      "id": "https://openalex.org/keywords/vertical-seismic-profile",
+      "display_name": "Vertical seismic profile",
+      "score": 0.5152187943458557
+    },
+    {
+      "id": "https://openalex.org/keywords/fiber",
+      "display_name": "Fiber",
+      "score": 0.46592044830322266
+    },
+    {
+      "id": "https://openalex.org/keywords/noise",
+      "display_name": "Noise (video)",
+      "score": 0.4519316256046295
+    },
+    {
+      "id": "https://openalex.org/keywords/signal",
+      "display_name": "SIGNAL (programming language)",
+      "score": 0.4491439461708069
+    },
+    {
+      "id": "https://openalex.org/keywords/optical-fiber",
+      "display_name": "Optical fiber",
+      "score": 0.38575422763824463
+    },
+    {
+      "id": "https://openalex.org/keywords/petroleum-engineering",
+      "display_name": "Petroleum engineering",
+      "score": 0.34682685136795044
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.29438430070877075
+    },
+    {
+      "id": "https://openalex.org/keywords/fiber-optic-sensor",
+      "display_name": "Fiber optic sensor",
+      "score": 0.28310519456863403
+    },
+    {
+      "id": "https://openalex.org/keywords/engineering",
+      "display_name": "Engineering",
+      "score": 0.2716860771179199
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.20227214694023132
+    },
+    {
+      "id": "https://openalex.org/keywords/telecommunications",
+      "display_name": "Telecommunications",
+      "score": 0.16037437319755554
+    },
+    {
+      "id": "https://openalex.org/keywords/materials-science",
+      "display_name": "Materials science",
+      "score": 0.09480607509613037
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C30399818",
+      "wikidata": "https://www.wikidata.org/wiki/Q5048830",
+      "display_name": "Casing",
+      "level": 2,
+      "score": 0.7431477904319763
+    },
+    {
+      "id": "https://openalex.org/C42016506",
+      "wikidata": "https://www.wikidata.org/wiki/Q3682434",
+      "display_name": "Coiled tubing",
+      "level": 2,
+      "score": 0.6075481176376343
+    },
+    {
+      "id": "https://openalex.org/C158543913",
+      "wikidata": "https://www.wikidata.org/wiki/Q5283133",
+      "display_name": "Distributed acoustic sensing",
+      "level": 4,
+      "score": 0.574981689453125
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.5205101370811462
+    },
+    {
+      "id": "https://openalex.org/C89787772",
+      "wikidata": "https://www.wikidata.org/wiki/Q7922855",
+      "display_name": "Vertical seismic profile",
+      "level": 2,
+      "score": 0.5152187943458557
+    },
+    {
+      "id": "https://openalex.org/C519885992",
+      "wikidata": "https://www.wikidata.org/wiki/Q161",
+      "display_name": "Fiber",
+      "level": 2,
+      "score": 0.46592044830322266
+    },
+    {
+      "id": "https://openalex.org/C99498987",
+      "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+      "display_name": "Noise (video)",
+      "level": 3,
+      "score": 0.4519316256046295
+    },
+    {
+      "id": "https://openalex.org/C2779843651",
+      "wikidata": "https://www.wikidata.org/wiki/Q7390335",
+      "display_name": "SIGNAL (programming language)",
+      "level": 2,
+      "score": 0.4491439461708069
+    },
+    {
+      "id": "https://openalex.org/C194232370",
+      "wikidata": "https://www.wikidata.org/wiki/Q162",
+      "display_name": "Optical fiber",
+      "level": 2,
+      "score": 0.38575422763824463
+    },
+    {
+      "id": "https://openalex.org/C78762247",
+      "wikidata": "https://www.wikidata.org/wiki/Q1273174",
+      "display_name": "Petroleum engineering",
+      "level": 1,
+      "score": 0.34682685136795044
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.29438430070877075
+    },
+    {
+      "id": "https://openalex.org/C21651689",
+      "wikidata": "https://www.wikidata.org/wiki/Q1397427",
+      "display_name": "Fiber optic sensor",
+      "level": 3,
+      "score": 0.28310519456863403
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.2716860771179199
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.20227214694023132
+    },
+    {
+      "id": "https://openalex.org/C76155785",
+      "wikidata": "https://www.wikidata.org/wiki/Q418",
+      "display_name": "Telecommunications",
+      "level": 1,
+      "score": 0.16037437319755554
+    },
+    {
+      "id": "https://openalex.org/C192562407",
+      "wikidata": "https://www.wikidata.org/wiki/Q228736",
+      "display_name": "Materials science",
+      "level": 0,
+      "score": 0.09480607509613037
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C115961682",
+      "wikidata": "https://www.wikidata.org/wiki/Q860623",
+      "display_name": "Image (mathematics)",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C159985019",
+      "wikidata": "https://www.wikidata.org/wiki/Q181790",
+      "display_name": "Composite material",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 4,
+  "locations": [
+    {
+      "id": "doi:10.1190/int-2018-0086.1",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/int-2018-0086.1",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210239846",
+        "display_name": "Interpretation",
+        "issn_l": "2324-8858",
+        "issn": [
+          "2324-8858",
+          "2324-8866"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "ki-jl-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Interpretation",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:osti.gov:1580816",
+      "is_oa": true,
+      "landing_page_url": "https://www.osti.gov/biblio/1580816",
+      "pdf_url": "https://www.osti.gov/servlets/purl/1580816",
+      "source": {
+        "id": "https://openalex.org/S4306402487",
+        "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I139351228",
+        "host_organization_name": "Office of Scientific and Technical Information",
+        "host_organization_lineage": [
+          "https://openalex.org/I139351228"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": null
+    },
+    {
+      "id": "pmh:oai:escholarship.org/ark:/13030/qt2br8g398",
+      "is_oa": false,
+      "landing_page_url": "https://escholarship.org/uc/item/2br8g398",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400115",
+        "display_name": "eScholarship (California Digital Library)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I2801248553",
+        "host_organization_name": "California Digital Library",
+        "host_organization_lineage": [
+          "https://openalex.org/I2801248553"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Interpretation, vol 7, iss 1",
+      "raw_type": "article"
+    },
+    {
+      "id": "pmh:oai:escholarship.org:ark:/13030/qt2br8g398",
+      "is_oa": false,
+      "landing_page_url": "https://escholarship.org/uc/item/2br8g398",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400115",
+        "display_name": "eScholarship (California Digital Library)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I2801248553",
+        "host_organization_name": "California Digital Library",
+        "host_organization_lineage": [
+          "https://openalex.org/I2801248553"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Interpretation, vol 7, iss 1",
+      "raw_type": "article"
+    }
+  ],
+  "best_oa_location": {
+    "id": "pmh:oai:osti.gov:1580816",
+    "is_oa": true,
+    "landing_page_url": "https://www.osti.gov/biblio/1580816",
+    "pdf_url": "https://www.osti.gov/servlets/purl/1580816",
+    "source": {
+      "id": "https://openalex.org/S4306402487",
+      "display_name": "OSTI OAI (U.S. Department of Energy Office of Scientific and Technical Information)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I139351228",
+      "host_organization_name": "Office of Scientific and Technical Information",
+      "host_organization_lineage": [
+        "https://openalex.org/I139351228"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": null
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Industry, innovation and infrastructure",
+      "id": "https://metadata.un.org/sdg/9",
+      "score": 0.5799999833106995
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": true,
+    "pdf": true
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W2900464249.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W2900464249.grobid-xml"
+  },
+  "referenced_works_count": 29,
+  "referenced_works": [
+    "https://openalex.org/W1864170340",
+    "https://openalex.org/W1900713400",
+    "https://openalex.org/W2041204700",
+    "https://openalex.org/W2058925005",
+    "https://openalex.org/W2072831198",
+    "https://openalex.org/W2111327087",
+    "https://openalex.org/W2126737898",
+    "https://openalex.org/W2133766593",
+    "https://openalex.org/W2146625715",
+    "https://openalex.org/W2150117578",
+    "https://openalex.org/W2166949081",
+    "https://openalex.org/W2317974577",
+    "https://openalex.org/W2319557495",
+    "https://openalex.org/W2321062589",
+    "https://openalex.org/W2326613702",
+    "https://openalex.org/W2327371768",
+    "https://openalex.org/W2330590006",
+    "https://openalex.org/W2470718174",
+    "https://openalex.org/W2551289741",
+    "https://openalex.org/W2566301703",
+    "https://openalex.org/W2617395063",
+    "https://openalex.org/W2618899485",
+    "https://openalex.org/W2620659410",
+    "https://openalex.org/W2743401087",
+    "https://openalex.org/W2747097215",
+    "https://openalex.org/W2768886159",
+    "https://openalex.org/W2769208821",
+    "https://openalex.org/W2791284981",
+    "https://openalex.org/W4236430992"
+  ],
+  "related_works": [
+    "https://openalex.org/W1965196489",
+    "https://openalex.org/W1500184085",
+    "https://openalex.org/W1900713400",
+    "https://openalex.org/W4200485858",
+    "https://openalex.org/W2890726081",
+    "https://openalex.org/W2274335686",
+    "https://openalex.org/W2188665978",
+    "https://openalex.org/W2332449933",
+    "https://openalex.org/W3194371498",
+    "https://openalex.org/W2897868035"
+  ],
+  "abstract_inverted_index": {
+    "Distributed": [
+      0
+    ],
+    "acoustic": [
+      1
+    ],
+    "sensing": [
+      2
+    ],
+    "(DAS)": [
+      3
+    ],
+    "can": [
+      4,
+      30
+    ],
+    "revolutionize": [
+      5
+    ],
+    "the": [
+      6,
+      34,
+      45,
+      84,
+      87,
+      104,
+      108,
+      115,
+      118,
+      131,
+      137,
+      141,
+      151,
+      154,
+      164,
+      168,
+      175,
+      187,
+      190,
+      192,
+      210,
+      217,
+      225
+    ],
+    "seismic": [
+      7,
+      19,
+      39
+    ],
+    "industry": [
+      8
+    ],
+    "by": [
+      9,
+      199,
+      223
+    ],
+    "using": [
+      10,
+      97
+    ],
+    "fiber-optic": [
+      11,
+      100
+    ],
+    "cables": [
+      12
+    ],
+    "installed": [
+      13,
+      102,
+      201
+    ],
+    "permanently": [
+      14
+    ],
+    "to": [
+      15,
+      79,
+      113,
+      149,
+      163,
+      186,
+      206
+    ],
+    "acquire": [
+      16
+    ],
+    "on-demand": [
+      17
+    ],
+    "vertical": [
+      18
+    ],
+    "profile": [
+      20
+    ],
+    "(VSP)": [
+      21
+    ],
+    "data": [
+      22,
+      155,
+      197
+    ],
+    "at": [
+      23,
+      160
+    ],
+    "fine": [
+      24
+    ],
+    "spatial": [
+      25
+    ],
+    "sampling.": [
+      26
+    ],
+    "With": [
+      27
+    ],
+    "this,": [
+      28
+    ],
+    "DAS": [
+      29,
+      48,
+      95,
+      120,
+      133,
+      142,
+      177,
+      195
+    ],
+    "solve": [
+      31
+    ],
+    "some": [
+      32
+    ],
+    "of": [
+      33,
+      47,
+      65,
+      107,
+      117,
+      153,
+      183
+    ],
+    "issues": [
+      35
+    ],
+    "associated": [
+      36,
+      139
+    ],
+    "with": [
+      37,
+      140
+    ],
+    "conventional": [
+      38
+    ],
+    "sensors.": [
+      40
+    ],
+    "Studies": [
+      41
+    ],
+    "have": [
+      42
+    ],
+    "successfully": [
+      43
+    ],
+    "demonstrated": [
+      44
+    ],
+    "use": [
+      46
+    ],
+    "on": [
+      49,
+      58,
+      103,
+      122,
+      143,
+      202
+    ],
+    "cemented": [
+      50
+    ],
+    "fibers": [
+      51,
+      60,
+      67
+    ],
+    "for": [
+      52,
+      71,
+      157
+    ],
+    "monitoring": [
+      53
+    ],
+    "applications;": [
+      54
+    ],
+    "however,": [
+      55
+    ],
+    "such": [
+      56
+    ],
+    "applications": [
+      57
+    ],
+    "tubing-deployed": [
+      59,
+      66
+    ],
+    "are": [
+      61,
+      204
+    ],
+    "relatively": [
+      62
+    ],
+    "uncommon.": [
+      63
+    ],
+    "Application": [
+      64
+    ],
+    "is": [
+      68,
+      76
+    ],
+    "especially": [
+      69
+    ],
+    "useful": [
+      70
+    ],
+    "preexisting": [
+      72
+    ],
+    "wells,": [
+      73
+    ],
+    "where": [
+      74
+    ],
+    "there": [
+      75
+    ],
+    "no": [
+      77
+    ],
+    "opportunity": [
+      78
+    ],
+    "install": [
+      80
+    ],
+    "a": [
+      81,
+      93,
+      98,
+      180
+    ],
+    "fiber": [
+      82,
+      170,
+      226
+    ],
+    "behind": [
+      83
+    ],
+    "casing.": [
+      85
+    ],
+    "In": [
+      86
+    ],
+    "CO2CRC": [
+      88
+    ],
+    "Otway": [
+      89
+    ],
+    "Project,": [
+      90
+    ],
+    "we": [
+      91,
+      214
+    ],
+    "acquired": [
+      92
+    ],
+    "3D": [
+      94,
+      119,
+      194
+    ],
+    "VSP": [
+      96,
+      121,
+      196
+    ],
+    "standard": [
+      99
+    ],
+    "cable": [
+      101,
+      200
+    ],
+    "production": [
+      105
+    ],
+    "tubing": [
+      106,
+      203
+    ],
+    "injector": [
+      109
+    ],
+    "well.": [
+      110
+    ],
+    "We": [
+      111,
+      135
+    ],
+    "aim": [
+      112
+    ],
+    "analyze": [
+      114
+    ],
+    "quality": [
+      116,
+      152
+    ],
+    "tubing,": [
+      123,
+      144
+    ],
+    "as": [
+      124,
+      126,
+      145,
+      147
+    ],
+    "well": [
+      125,
+      146
+    ],
+    "discuss": [
+      127
+    ],
+    "lessons": [
+      128
+    ],
+    "learned": [
+      129
+    ],
+    "from": [
+      130
+    ],
+    "current": [
+      132
+    ],
+    "deployment.": [
+      134
+    ],
+    "find": [
+      136
+    ],
+    "limitations": [
+      138
+    ],
+    "ways": [
+      148
+    ],
+    "improve": [
+      150
+    ],
+    "sets": [
+      156
+    ],
+    "future": [
+      158
+    ],
+    "surveys": [
+      159
+    ],
+    "Otway.": [
+      161
+    ],
+    "Due": [
+      162
+    ],
+    "reduced": [
+      165
+    ],
+    "coupling": [
+      166
+    ],
+    "and": [
+      167
+    ],
+    "long": [
+      169
+    ],
+    "length": [
+      171
+    ],
+    "(approximately": [
+      172
+    ],
+    "20": [
+      173
+    ],
+    "km),": [
+      174
+    ],
+    "raw": [
+      176
+    ],
+    "records": [
+      178
+    ],
+    "indicate": [
+      179
+    ],
+    "high": [
+      181
+    ],
+    "level": [
+      182
+    ],
+    "noise": [
+      184
+    ],
+    "relative": [
+      185
+    ],
+    "signal.": [
+      188
+    ],
+    "Despite": [
+      189
+    ],
+    "limitations,": [
+      191
+    ],
+    "migrated": [
+      193
+    ],
+    "recorded": [
+      198
+    ],
+    "able": [
+      205
+    ],
+    "image": [
+      207
+    ],
+    "interfaces": [
+      208
+    ],
+    "beyond": [
+      209
+    ],
+    "injection": [
+      211
+    ],
+    "depth.": [
+      212
+    ],
+    "Furthermore,": [
+      213
+    ],
+    "determine": [
+      215
+    ],
+    "that": [
+      216
+    ],
+    "signal-to-noise": [
+      218
+    ],
+    "ratio": [
+      219
+    ],
+    "might": [
+      220
+    ],
+    "be": [
+      221
+    ],
+    "improved": [
+      222
+    ],
+    "reducing": [
+      224
+    ],
+    "length.": [
+      227
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

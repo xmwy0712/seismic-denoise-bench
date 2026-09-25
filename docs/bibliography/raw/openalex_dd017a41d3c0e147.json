@@ -1,0 +1,1087 @@
+{
+  "id": "https://openalex.org/W2138354688",
+  "doi": "https://doi.org/10.1190/geo2013-0080.1",
+  "title": "Random noise attenuation by f-x empirical-mode decomposition predictive filtering",
+  "display_name": "Random noise attenuation by f-x empirical-mode decomposition predictive filtering",
+  "publication_year": 2014,
+  "publication_date": "2014-03-28",
+  "ids": {
+    "openalex": "https://openalex.org/W2138354688",
+    "doi": "https://doi.org/10.1190/geo2013-0080.1",
+    "mag": "2138354688"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/geo2013-0080.1",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/geo2013-0080.1",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S106174089",
+      "display_name": "Geophysics",
+      "issn_l": "0016-8033",
+      "issn": [
+        "0016-8033",
+        "1942-2156"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5019972279",
+        "display_name": "Yangkang Chen",
+        "orcid": "https://orcid.org/0000-0001-6429-4261"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1288783943",
+          "display_name": "Bureau of Economic Analysis",
+          "ror": "https://ror.org/03b17a012",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I1343035065"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yangkang Chen",
+      "raw_affiliation_strings": [
+        "The University of Texas at Austin 1 , John A. and Katherine G. Jackson School of Geosciences, Bureau of Economic Geology, Austin, Texas, . E-mail: ykchen@utexas.edu ",
+        "The University of Texas at Austin, John A. and Katherine G. Jackson School of Geosciences, Bureau of Economic Geology, Austin, Texas, USA. E-mail: "
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The University of Texas at Austin 1 , John A. and Katherine G. Jackson School of Geosciences, Bureau of Economic Geology, Austin, Texas, . E-mail: ykchen@utexas.edu ",
+          "institution_ids": [
+            "https://openalex.org/I1288783943"
+          ]
+        },
+        {
+          "raw_affiliation_string": "The University of Texas at Austin, John A. and Katherine G. Jackson School of Geosciences, Bureau of Economic Geology, Austin, Texas, USA. E-mail: ",
+          "institution_ids": [
+            "https://openalex.org/I1288783943"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5102718400",
+        "display_name": "Jitao Ma",
+        "orcid": "https://orcid.org/0000-0002-9007-4024"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204553293",
+          "display_name": "China University of Petroleum, Beijing",
+          "ror": "https://ror.org/041qf4r12",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I204553293"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jitao Ma",
+      "raw_affiliation_strings": [
+        "China University of Petroleum 2 , State Key Laboratory of Petroleum Resources and Prospecting, Beijing, . E-mail: majitao1983@126.com ",
+        "China University of Petroleum, State Key Laboratory of Petroleum Resources and Prospecting, Beijing, China. E-mail: ; ; ; "
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "China University of Petroleum 2 , State Key Laboratory of Petroleum Resources and Prospecting, Beijing, . E-mail: majitao1983@126.com ",
+          "institution_ids": [
+            "https://openalex.org/I204553293"
+          ]
+        },
+        {
+          "raw_affiliation_string": "China University of Petroleum, State Key Laboratory of Petroleum Resources and Prospecting, Beijing, China. E-mail: ; ; ; ",
+          "institution_ids": [
+            "https://openalex.org/I204553293"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 22.3041,
+  "has_fulltext": false,
+  "cited_by_count": 291,
+  "citation_normalized_percentile": {
+    "value": 0.99858617,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 98,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "79",
+    "issue": "3",
+    "first_page": "V81",
+    "last_page": "V91"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9980000257492065,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.9979000091552734,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/hilbert–huang-transform",
+      "display_name": "Hilbert–Huang transform",
+      "score": 0.746314287185669
+    },
+    {
+      "id": "https://openalex.org/keywords/filter",
+      "display_name": "Filter (signal processing)",
+      "score": 0.6488193273544312
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.5971415638923645
+    },
+    {
+      "id": "https://openalex.org/keywords/noise",
+      "display_name": "Noise (video)",
+      "score": 0.5711962580680847
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.5654679536819458
+    },
+    {
+      "id": "https://openalex.org/keywords/energy",
+      "display_name": "Energy (signal processing)",
+      "score": 0.5341305732727051
+    },
+    {
+      "id": "https://openalex.org/keywords/attenuation",
+      "display_name": "Attenuation",
+      "score": 0.502028226852417
+    },
+    {
+      "id": "https://openalex.org/keywords/noise-reduction",
+      "display_name": "Noise reduction",
+      "score": 0.4934615194797516
+    },
+    {
+      "id": "https://openalex.org/keywords/autoregressive-model",
+      "display_name": "Autoregressive model",
+      "score": 0.4829346835613251
+    },
+    {
+      "id": "https://openalex.org/keywords/mode",
+      "display_name": "Mode (computer interface)",
+      "score": 0.4799899756908417
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.33126300573349
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.32592877745628357
+    },
+    {
+      "id": "https://openalex.org/keywords/image",
+      "display_name": "Image (mathematics)",
+      "score": 0.20544934272766113
+    },
+    {
+      "id": "https://openalex.org/keywords/statistics",
+      "display_name": "Statistics",
+      "score": 0.16213458776474
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.13872119784355164
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.12847432494163513
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C25570617",
+      "wikidata": "https://www.wikidata.org/wiki/Q1006462",
+      "display_name": "Hilbert–Huang transform",
+      "level": 3,
+      "score": 0.746314287185669
+    },
+    {
+      "id": "https://openalex.org/C106131492",
+      "wikidata": "https://www.wikidata.org/wiki/Q3072260",
+      "display_name": "Filter (signal processing)",
+      "level": 2,
+      "score": 0.6488193273544312
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.5971415638923645
+    },
+    {
+      "id": "https://openalex.org/C99498987",
+      "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+      "display_name": "Noise (video)",
+      "level": 3,
+      "score": 0.5711962580680847
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.5654679536819458
+    },
+    {
+      "id": "https://openalex.org/C186370098",
+      "wikidata": "https://www.wikidata.org/wiki/Q442787",
+      "display_name": "Energy (signal processing)",
+      "level": 2,
+      "score": 0.5341305732727051
+    },
+    {
+      "id": "https://openalex.org/C184652730",
+      "wikidata": "https://www.wikidata.org/wiki/Q2357982",
+      "display_name": "Attenuation",
+      "level": 2,
+      "score": 0.502028226852417
+    },
+    {
+      "id": "https://openalex.org/C163294075",
+      "wikidata": "https://www.wikidata.org/wiki/Q581861",
+      "display_name": "Noise reduction",
+      "level": 2,
+      "score": 0.4934615194797516
+    },
+    {
+      "id": "https://openalex.org/C159877910",
+      "wikidata": "https://www.wikidata.org/wiki/Q2202883",
+      "display_name": "Autoregressive model",
+      "level": 2,
+      "score": 0.4829346835613251
+    },
+    {
+      "id": "https://openalex.org/C48677424",
+      "wikidata": "https://www.wikidata.org/wiki/Q6888088",
+      "display_name": "Mode (computer interface)",
+      "level": 2,
+      "score": 0.4799899756908417
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.33126300573349
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.32592877745628357
+    },
+    {
+      "id": "https://openalex.org/C115961682",
+      "wikidata": "https://www.wikidata.org/wiki/Q860623",
+      "display_name": "Image (mathematics)",
+      "level": 2,
+      "score": 0.20544934272766113
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.16213458776474
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.13872119784355164
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.12847432494163513
+    },
+    {
+      "id": "https://openalex.org/C31972630",
+      "wikidata": "https://www.wikidata.org/wiki/Q844240",
+      "display_name": "Computer vision",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C111919701",
+      "wikidata": "https://www.wikidata.org/wiki/Q9135",
+      "display_name": "Operating system",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/geo2013-0080.1",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/geo2013-0080.1",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S106174089",
+        "display_name": "Geophysics",
+        "issn_l": "0016-8033",
+        "issn": [
+          "0016-8033",
+          "1942-2156"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysics",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 29,
+  "referenced_works": [
+    "https://openalex.org/W102906154",
+    "https://openalex.org/W561075433",
+    "https://openalex.org/W627907298",
+    "https://openalex.org/W1964141793",
+    "https://openalex.org/W1964642289",
+    "https://openalex.org/W1967469577",
+    "https://openalex.org/W1985558592",
+    "https://openalex.org/W1991265582",
+    "https://openalex.org/W1993865713",
+    "https://openalex.org/W2007221293",
+    "https://openalex.org/W2007340171",
+    "https://openalex.org/W2020205028",
+    "https://openalex.org/W2023139395",
+    "https://openalex.org/W2038689352",
+    "https://openalex.org/W2076393573",
+    "https://openalex.org/W2089957712",
+    "https://openalex.org/W2108473160",
+    "https://openalex.org/W2109896502",
+    "https://openalex.org/W2120390927",
+    "https://openalex.org/W2125056386",
+    "https://openalex.org/W2136085664",
+    "https://openalex.org/W2152582233",
+    "https://openalex.org/W2160814043",
+    "https://openalex.org/W2318387983",
+    "https://openalex.org/W2318528603",
+    "https://openalex.org/W2353017770",
+    "https://openalex.org/W2606694816",
+    "https://openalex.org/W4235470390",
+    "https://openalex.org/W4252593548"
+  ],
+  "related_works": [
+    "https://openalex.org/W3014107421",
+    "https://openalex.org/W2081563414",
+    "https://openalex.org/W2363056446",
+    "https://openalex.org/W2359718298",
+    "https://openalex.org/W2377062149",
+    "https://openalex.org/W2076661204",
+    "https://openalex.org/W2380939102",
+    "https://openalex.org/W2089603224",
+    "https://openalex.org/W2080197880",
+    "https://openalex.org/W2370106315"
+  ],
+  "abstract_inverted_index": {
+    "ABSTRACT": [
+      0
+    ],
+    "Random": [
+      1
+    ],
+    "noise": [
+      2,
+      23
+    ],
+    "attenuation": [
+      3
+    ],
+    "always": [
+      4
+    ],
+    "played": [
+      5
+    ],
+    "an": [
+      6,
+      131,
+      176
+    ],
+    "important": [
+      7
+    ],
+    "role": [
+      8
+    ],
+    "in": [
+      9,
+      119,
+      201
+    ],
+    "seismic": [
+      10,
+      81,
+      105
+    ],
+    "data": [
+      11,
+      192
+    ],
+    "processing.": [
+      12
+    ],
+    "One": [
+      13
+    ],
+    "of": [
+      14,
+      46,
+      96,
+      139,
+      164,
+      197
+    ],
+    "the": [
+      15,
+      29,
+      43,
+      72,
+      86,
+      90,
+      94,
+      120,
+      137,
+      140,
+      146,
+      151,
+      156,
+      162,
+      165,
+      171,
+      182,
+      195
+    ],
+    "most": [
+      16
+    ],
+    "widely": [
+      17
+    ],
+    "used": [
+      18
+    ],
+    "methods": [
+      19
+    ],
+    "for": [
+      20
+    ],
+    "suppressing": [
+      21
+    ],
+    "random": [
+      22
+    ],
+    "was": [
+      24,
+      134
+    ],
+    "f-x": [
+      25,
+      62,
+      76,
+      98,
+      121,
+      186
+    ],
+    "predictive": [
+      26,
+      66,
+      99,
+      187
+    ],
+    "filtering.": [
+      27,
+      67,
+      188
+    ],
+    "When": [
+      28
+    ],
+    "subsurface": [
+      30
+    ],
+    "structure": [
+      31
+    ],
+    "becomes": [
+      32
+    ],
+    "complex,": [
+      33
+    ],
+    "this": [
+      34,
+      108
+    ],
+    "method": [
+      35,
+      60,
+      200
+    ],
+    "suffered": [
+      36
+    ],
+    "from": [
+      37
+    ],
+    "higher": [
+      38
+    ],
+    "prediction": [
+      39,
+      87,
+      172
+    ],
+    "errors": [
+      40
+    ],
+    "owing": [
+      41
+    ],
+    "to": [
+      42,
+      52,
+      115,
+      136,
+      149,
+      161,
+      180
+    ],
+    "large": [
+      44
+    ],
+    "number": [
+      45
+    ],
+    "different": [
+      47
+    ],
+    "dip": [
+      48,
+      178,
+      183
+    ],
+    "components": [
+      49,
+      184
+    ],
+    "that": [
+      50,
+      74
+    ],
+    "need": [
+      51
+    ],
+    "be": [
+      53
+    ],
+    "predicted.": [
+      54
+    ],
+    "We": [
+      55
+    ],
+    "developed": [
+      56
+    ],
+    "a": [
+      57
+    ],
+    "novel": [
+      58
+    ],
+    "denoising": [
+      59
+    ],
+    "termed": [
+      61
+    ],
+    "empirical-mode": [
+      63
+    ],
+    "decomposition": [
+      64
+    ],
+    "(EMD)": [
+      65
+    ],
+    "This": [
+      68,
+      168
+    ],
+    "new": [
+      69,
+      91,
+      109
+    ],
+    "scheme": [
+      70,
+      92
+    ],
+    "solved": [
+      71
+    ],
+    "problem": [
+      73
+    ],
+    "makes": [
+      75
+    ],
+    "EMD": [
+      77,
+      114
+    ],
+    "ineffective": [
+      78
+    ],
+    "with": [
+      79,
+      103
+    ],
+    "complex": [
+      80
+    ],
+    "data.": [
+      82
+    ],
+    "Also,": [
+      83
+    ],
+    "by": [
+      84,
+      174
+    ],
+    "making": [
+      85
+    ],
+    "more": [
+      88,
+      203
+    ],
+    "precise,": [
+      89
+    ],
+    "removed": [
+      93
+    ],
+    "limitation": [
+      95
+    ],
+    "conventional": [
+      97
+    ],
+    "filtering": [
+      100
+    ],
+    "when": [
+      101
+    ],
+    "dealing": [
+      102
+    ],
+    "multidip": [
+      104
+    ],
+    "profiles.": [
+      106
+    ],
+    "In": [
+      107
+    ],
+    "method,": [
+      110
+    ],
+    "we": [
+      111
+    ],
+    "first": [
+      112,
+      141
+    ],
+    "applied": [
+      113,
+      135
+    ],
+    "each": [
+      116
+    ],
+    "frequency": [
+      117
+    ],
+    "slice": [
+      118
+    ],
+    "domain": [
+      122
+    ],
+    "and": [
+      123,
+      190
+    ],
+    "obtained": [
+      124
+    ],
+    "several": [
+      125
+    ],
+    "intrinsic": [
+      126
+    ],
+    "mode": [
+      127
+    ],
+    "functions": [
+      128
+    ],
+    "(IMFs).": [
+      129
+    ],
+    "Then,": [
+      130
+    ],
+    "autoregressive": [
+      132
+    ],
+    "model": [
+      133
+    ],
+    "sum": [
+      138,
+      163
+    ],
+    "few": [
+      142
+    ],
+    "IMFs,": [
+      143
+    ],
+    "which": [
+      144
+    ],
+    "contained": [
+      145
+    ],
+    "high-dip-angle": [
+      147
+    ],
+    "components,": [
+      148
+    ],
+    "predict": [
+      150
+    ],
+    "useful": [
+      152,
+      204
+    ],
+    "steeper": [
+      153
+    ],
+    "events.": [
+      154
+    ],
+    "Finally,": [
+      155
+    ],
+    "predicted": [
+      157
+    ],
+    "events": [
+      158
+    ],
+    "were": [
+      159
+    ],
+    "added": [
+      160
+    ],
+    "remaining": [
+      166
+    ],
+    "IMFs.": [
+      167
+    ],
+    "process": [
+      169
+    ],
+    "improved": [
+      170
+    ],
+    "precision": [
+      173
+    ],
+    "using": [
+      175
+    ],
+    "EMD-based": [
+      177
+    ],
+    "filter": [
+      179
+    ],
+    "reduce": [
+      181
+    ],
+    "before": [
+      185
+    ],
+    "Synthetic": [
+      189
+    ],
+    "real": [
+      191
+    ],
+    "sets": [
+      193
+    ],
+    "demonstrated": [
+      194
+    ],
+    "performance": [
+      196
+    ],
+    "our": [
+      198
+    ],
+    "proposed": [
+      199
+    ],
+    "preserving": [
+      202
+    ],
+    "energy.": [
+      205
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 25
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 27
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 37
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 33
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 30
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 30
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 6
+    }
+  ],
+  "updated_date": "2026-08-21T09:56:20.448147",
+  "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,1279 @@
+{
+  "id": "https://openalex.org/W2010800877",
+  "doi": "https://doi.org/10.1109/tsp.2010.2043971",
+  "title": "Testing Stationarity With Surrogates: A Time-Frequency Approach",
+  "display_name": "Testing Stationarity With Surrogates: A Time-Frequency Approach",
+  "publication_year": 2010,
+  "publication_date": "2010-03-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2010800877",
+    "doi": "https://doi.org/10.1109/tsp.2010.2043971",
+    "mag": "2010800877"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1109/tsp.2010.2043971",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1109/tsp.2010.2043971",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S168680287",
+      "display_name": "IEEE Transactions on Signal Processing",
+      "issn_l": "1053-587X",
+      "issn": [
+        "1053-587X",
+        "1941-0476"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-3",
+        "ki-jl-1",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310319808",
+      "host_organization_name": "Institute of Electrical and Electronics Engineers",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319808"
+      ],
+      "host_organization_lineage_names": [
+        "Institute of Electrical and Electronics Engineers"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "IEEE Transactions on Signal Processing",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5042411664",
+        "display_name": "Pierre Borgnat",
+        "orcid": "https://orcid.org/0000-0003-4536-8354"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I113428412",
+          "display_name": "École Normale Supérieure de Lyon",
+          "ror": "https://ror.org/04zmssz18",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I113428412",
+            "https://openalex.org/I203339264"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1294671590",
+          "display_name": "Centre National de la Recherche Scientifique",
+          "ror": "https://ror.org/02feahw73",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1294671590"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210096929",
+          "display_name": "Laboratoire de Physique de l'ENS de Lyon",
+          "ror": "https://ror.org/00w5ay796",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I100532134",
+            "https://openalex.org/I112936343",
+            "https://openalex.org/I113428412",
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I203339264",
+            "https://openalex.org/I4210096929",
+            "https://openalex.org/I4405259976",
+            "https://openalex.org/I4405263940",
+            "https://openalex.org/I48430043"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Pierre Borgnat",
+      "raw_affiliation_strings": [
+        "Physics Department UMR 5672 CNRS, Ecole Normale Supérieure de Lyon, Lyon, France"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Physics Department UMR 5672 CNRS, Ecole Normale Supérieure de Lyon, Lyon, France",
+          "institution_ids": [
+            "https://openalex.org/I113428412",
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I4210096929"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5054988467",
+        "display_name": "Patrick Flandrin",
+        "orcid": "https://orcid.org/0000-0003-2846-6200"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I113428412",
+          "display_name": "École Normale Supérieure de Lyon",
+          "ror": "https://ror.org/04zmssz18",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I113428412",
+            "https://openalex.org/I203339264"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1294671590",
+          "display_name": "Centre National de la Recherche Scientifique",
+          "ror": "https://ror.org/02feahw73",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1294671590"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210096929",
+          "display_name": "Laboratoire de Physique de l'ENS de Lyon",
+          "ror": "https://ror.org/00w5ay796",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I100532134",
+            "https://openalex.org/I112936343",
+            "https://openalex.org/I113428412",
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I203339264",
+            "https://openalex.org/I4210096929",
+            "https://openalex.org/I4405259976",
+            "https://openalex.org/I4405263940",
+            "https://openalex.org/I48430043"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Patrick Flandrin",
+      "raw_affiliation_strings": [
+        "Physics Department UMR 5672 CNRS, Ecole Normale Supérieure de Lyon, Lyon, France"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Physics Department UMR 5672 CNRS, Ecole Normale Supérieure de Lyon, Lyon, France",
+          "institution_ids": [
+            "https://openalex.org/I113428412",
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I4210096929"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5074267243",
+        "display_name": "Paul Honeiné",
+        "orcid": "https://orcid.org/0000-0002-3042-183X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I140494188",
+          "display_name": "Université de Technologie de Troyes",
+          "ror": "https://ror.org/01qhqcj41",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I140494188"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Paul Honeine",
+      "raw_affiliation_strings": [
+        "Institut Charles Delaunay, Université de Technologie de Troyes, Troyes, France"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institut Charles Delaunay, Université de Technologie de Troyes, Troyes, France",
+          "institution_ids": [
+            "https://openalex.org/I140494188"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5009808175",
+        "display_name": "Cédric Richard",
+        "orcid": "https://orcid.org/0000-0003-2890-141X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I140494188",
+          "display_name": "Université de Technologie de Troyes",
+          "ror": "https://ror.org/01qhqcj41",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I140494188"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Cédric Richard",
+      "raw_affiliation_strings": [
+        "Institut Charles Delaunay, Université de Technologie de Troyes, Troyes, France"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institut Charles Delaunay, Université de Technologie de Troyes, Troyes, France",
+          "institution_ids": [
+            "https://openalex.org/I140494188"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5076518693",
+        "display_name": "Jun Xiao",
+        "orcid": "https://orcid.org/0000-0002-1799-3948"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I113428412",
+          "display_name": "École Normale Supérieure de Lyon",
+          "ror": "https://ror.org/04zmssz18",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I113428412",
+            "https://openalex.org/I203339264"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1294671590",
+          "display_name": "Centre National de la Recherche Scientifique",
+          "ror": "https://ror.org/02feahw73",
+          "country_code": "FR",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1294671590"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I201841394",
+          "display_name": "Université Côte d'Azur",
+          "ror": "https://ror.org/019tgvf94",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I201841394"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210096929",
+          "display_name": "Laboratoire de Physique de l'ENS de Lyon",
+          "ror": "https://ror.org/00w5ay796",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I100532134",
+            "https://openalex.org/I112936343",
+            "https://openalex.org/I113428412",
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I203339264",
+            "https://openalex.org/I4210096929",
+            "https://openalex.org/I4405259976",
+            "https://openalex.org/I4405263940",
+            "https://openalex.org/I48430043"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210126779",
+          "display_name": "Observatoire de la Côte d’Azur",
+          "ror": "https://ror.org/039fj2469",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I201841394",
+            "https://openalex.org/I4210126779"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jun Xiao",
+      "raw_affiliation_strings": [
+        "Laboratoire FIZEAU UMR CNRS 6525, Observatoire de la Côte dAzur, Université de Nice Sophia Antipolis Parc Valrose, Nice, France",
+        "Physics Department UMR 5672 CNRS, Ecole Normale Supérieure de Lyon, Lyon, France"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Laboratoire FIZEAU UMR CNRS 6525, Observatoire de la Côte dAzur, Université de Nice Sophia Antipolis Parc Valrose, Nice, France",
+          "institution_ids": [
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I201841394",
+            "https://openalex.org/I4210126779"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Physics Department UMR 5672 CNRS, Ecole Normale Supérieure de Lyon, Lyon, France",
+          "institution_ids": [
+            "https://openalex.org/I113428412",
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I4210096929"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 6,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 2645,
+    "currency": "USD",
+    "value_usd": 2645
+  },
+  "apc_paid": null,
+  "fwci": 21.1999,
+  "has_fulltext": false,
+  "cited_by_count": 152,
+  "citation_normalized_percentile": {
+    "value": 0.9923268,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 91,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "58",
+    "issue": "7",
+    "first_page": "3459",
+    "last_page": "3470"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10876",
+    "display_name": "Fault Detection and Control Systems",
+    "score": 0.9979000091552734,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2207",
+      "display_name": "Control and Systems Engineering"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10876",
+      "display_name": "Fault Detection and Control Systems",
+      "score": 0.9979000091552734,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10640",
+      "display_name": "Spectroscopy and Chemometric Analyses",
+      "score": 0.9976000189781189,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1602",
+        "display_name": "Analytical Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11236",
+      "display_name": "Control Systems and Identification",
+      "score": 0.9955000281333923,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/time–frequency-analysis",
+      "display_name": "Time–frequency analysis",
+      "score": 0.5893129706382751
+    },
+    {
+      "id": "https://openalex.org/keywords/classifier",
+      "display_name": "Classifier (UML)",
+      "score": 0.5637215971946716
+    },
+    {
+      "id": "https://openalex.org/keywords/statistical-hypothesis-testing",
+      "display_name": "Statistical hypothesis testing",
+      "score": 0.5546540021896362
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.5488373637199402
+    },
+    {
+      "id": "https://openalex.org/keywords/set",
+      "display_name": "Set (abstract data type)",
+      "score": 0.49404576420783997
+    },
+    {
+      "id": "https://openalex.org/keywords/stochastic-process",
+      "display_name": "Stochastic process",
+      "score": 0.49251946806907654
+    },
+    {
+      "id": "https://openalex.org/keywords/null-hypothesis",
+      "display_name": "Null hypothesis",
+      "score": 0.4852747619152069
+    },
+    {
+      "id": "https://openalex.org/keywords/scale",
+      "display_name": "Scale (ratio)",
+      "score": 0.4672522246837616
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.43005338311195374
+    },
+    {
+      "id": "https://openalex.org/keywords/stationary-process",
+      "display_name": "Stationary process",
+      "score": 0.4143708646297455
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.4052480459213257
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.386636346578598
+    },
+    {
+      "id": "https://openalex.org/keywords/pattern-recognition",
+      "display_name": "Pattern recognition (psychology)",
+      "score": 0.3285149335861206
+    },
+    {
+      "id": "https://openalex.org/keywords/econometrics",
+      "display_name": "Econometrics",
+      "score": 0.23582276701927185
+    },
+    {
+      "id": "https://openalex.org/keywords/statistics",
+      "display_name": "Statistics",
+      "score": 0.22574648261070251
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C142433447",
+      "wikidata": "https://www.wikidata.org/wiki/Q7806653",
+      "display_name": "Time–frequency analysis",
+      "level": 3,
+      "score": 0.5893129706382751
+    },
+    {
+      "id": "https://openalex.org/C95623464",
+      "wikidata": "https://www.wikidata.org/wiki/Q1096149",
+      "display_name": "Classifier (UML)",
+      "level": 2,
+      "score": 0.5637215971946716
+    },
+    {
+      "id": "https://openalex.org/C87007009",
+      "wikidata": "https://www.wikidata.org/wiki/Q210832",
+      "display_name": "Statistical hypothesis testing",
+      "level": 2,
+      "score": 0.5546540021896362
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.5488373637199402
+    },
+    {
+      "id": "https://openalex.org/C177264268",
+      "wikidata": "https://www.wikidata.org/wiki/Q1514741",
+      "display_name": "Set (abstract data type)",
+      "level": 2,
+      "score": 0.49404576420783997
+    },
+    {
+      "id": "https://openalex.org/C8272713",
+      "wikidata": "https://www.wikidata.org/wiki/Q176737",
+      "display_name": "Stochastic process",
+      "level": 2,
+      "score": 0.49251946806907654
+    },
+    {
+      "id": "https://openalex.org/C191988596",
+      "wikidata": "https://www.wikidata.org/wiki/Q628374",
+      "display_name": "Null hypothesis",
+      "level": 2,
+      "score": 0.4852747619152069
+    },
+    {
+      "id": "https://openalex.org/C2778755073",
+      "wikidata": "https://www.wikidata.org/wiki/Q10858537",
+      "display_name": "Scale (ratio)",
+      "level": 2,
+      "score": 0.4672522246837616
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.43005338311195374
+    },
+    {
+      "id": "https://openalex.org/C110405555",
+      "wikidata": "https://www.wikidata.org/wiki/Q1192209",
+      "display_name": "Stationary process",
+      "level": 2,
+      "score": 0.4143708646297455
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.4052480459213257
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.386636346578598
+    },
+    {
+      "id": "https://openalex.org/C153180895",
+      "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+      "display_name": "Pattern recognition (psychology)",
+      "level": 2,
+      "score": 0.3285149335861206
+    },
+    {
+      "id": "https://openalex.org/C149782125",
+      "wikidata": "https://www.wikidata.org/wiki/Q160039",
+      "display_name": "Econometrics",
+      "level": 1,
+      "score": 0.23582276701927185
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.22574648261070251
+    },
+    {
+      "id": "https://openalex.org/C554190296",
+      "wikidata": "https://www.wikidata.org/wiki/Q47528",
+      "display_name": "Radar",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C76155785",
+      "wikidata": "https://www.wikidata.org/wiki/Q418",
+      "display_name": "Telecommunications",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 5,
+  "locations": [
+    {
+      "id": "doi:10.1109/tsp.2010.2043971",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tsp.2010.2043971",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S168680287",
+        "display_name": "IEEE Transactions on Signal Processing",
+        "issn_l": "1053-587X",
+        "issn": [
+          "1053-587X",
+          "1941-0476"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Signal Processing",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:CiteSeerX.psu:10.1.1.165.1171",
+      "is_oa": false,
+      "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.165.1171",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "http://www.cedric-richard.fr/2009/tsp09-pf.pdf",
+      "raw_type": "text"
+    },
+    {
+      "id": "pmh:oai:CiteSeerX.psu:10.1.1.405.4724",
+      "is_oa": false,
+      "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.405.4724",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "http://hal-ens-lyon.archives-ouvertes.fr/docs/00/47/59/29/PDF/IEEE_TSP_surrogates_stationarity_double.pdf",
+      "raw_type": "text"
+    },
+    {
+      "id": "pmh:oai:CiteSeerX.psu:10.1.1.637.1369",
+      "is_oa": false,
+      "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.637.1369",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "http://www.cedric-richard.fr/Articles/borgnat2010testing.pdf",
+      "raw_type": "text"
+    },
+    {
+      "id": "pmh:oai:HAL:ensl-00475929v1",
+      "is_oa": false,
+      "landing_page_url": "https://ens-lyon.hal.science/ensl-00475929",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "IEEE Transactions on Signal Processing, 2010, 3459-3470, pp.3459-3470. &#x27E8;10.1109/TSP.2010.2043971&#x27E9;",
+      "raw_type": "info:eu-repo/semantics/article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [
+    {
+      "id": "https://openalex.org/G7794447998",
+      "display_name": "Stationnarité relative et approches connexes",
+      "funder_award_id": "ANR-07-BLAN-0191",
+      "funder_id": "https://openalex.org/F4320320883",
+      "funder_display_name": "Agence Nationale de la Recherche"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320320883",
+      "display_name": "Agence Nationale de la Recherche",
+      "ror": "https://ror.org/00rbzpz17"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 42,
+  "referenced_works": [
+    "https://openalex.org/W166283045",
+    "https://openalex.org/W193385438",
+    "https://openalex.org/W1489110551",
+    "https://openalex.org/W1506440477",
+    "https://openalex.org/W1510073064",
+    "https://openalex.org/W1597511115",
+    "https://openalex.org/W1598517949",
+    "https://openalex.org/W1622922661",
+    "https://openalex.org/W1629040618",
+    "https://openalex.org/W1963871118",
+    "https://openalex.org/W1970088130",
+    "https://openalex.org/W1983461984",
+    "https://openalex.org/W1988135383",
+    "https://openalex.org/W1997666989",
+    "https://openalex.org/W1999595675",
+    "https://openalex.org/W2010800877",
+    "https://openalex.org/W2027862055",
+    "https://openalex.org/W2047670802",
+    "https://openalex.org/W2065902930",
+    "https://openalex.org/W2074399002",
+    "https://openalex.org/W2078501940",
+    "https://openalex.org/W2084275117",
+    "https://openalex.org/W2091410171",
+    "https://openalex.org/W2098061712",
+    "https://openalex.org/W2098746383",
+    "https://openalex.org/W2100008374",
+    "https://openalex.org/W2101678447",
+    "https://openalex.org/W2102353396",
+    "https://openalex.org/W2104908186",
+    "https://openalex.org/W2118020555",
+    "https://openalex.org/W2128340703",
+    "https://openalex.org/W2132870739",
+    "https://openalex.org/W2140971281",
+    "https://openalex.org/W2145200953",
+    "https://openalex.org/W2160573809",
+    "https://openalex.org/W2169127870",
+    "https://openalex.org/W2259392151",
+    "https://openalex.org/W2773620921",
+    "https://openalex.org/W3043585151",
+    "https://openalex.org/W4233068784",
+    "https://openalex.org/W4292963524",
+    "https://openalex.org/W6636686524"
+  ],
+  "related_works": [
+    "https://openalex.org/W2348480869",
+    "https://openalex.org/W2485444738",
+    "https://openalex.org/W2979681497",
+    "https://openalex.org/W2585981346",
+    "https://openalex.org/W2049531272",
+    "https://openalex.org/W3003558595",
+    "https://openalex.org/W4242056622",
+    "https://openalex.org/W2330246471",
+    "https://openalex.org/W2285660206",
+    "https://openalex.org/W4386773232"
+  ],
+  "abstract_inverted_index": {
+    "An": [
+      0
+    ],
+    "operational": [
+      1
+    ],
+    "framework": [
+      2
+    ],
+    "is": [
+      3,
+      22,
+      35,
+      79,
+      111
+    ],
+    "developed": [
+      4
+    ],
+    "for": [
+      5,
+      45,
+      99
+    ],
+    "testing": [
+      6
+    ],
+    "stationarity": [
+      7,
+      51
+    ],
+    "relatively": [
+      8
+    ],
+    "to": [
+      9,
+      36,
+      53
+    ],
+    "an": [
+      10
+    ],
+    "observation": [
+      11,
+      135
+    ],
+    "scale,": [
+      12
+    ],
+    "in": [
+      13
+    ],
+    "both": [
+      14
+    ],
+    "stochastic": [
+      15
+    ],
+    "and": [
+      16,
+      29,
+      52,
+      72,
+      106,
+      113
+    ],
+    "deterministic": [
+      17
+    ],
+    "contexts.": [
+      18
+    ],
+    "The": [
+      19,
+      33,
+      61,
+      101
+    ],
+    "proposed": [
+      20
+    ],
+    "method": [
+      21,
+      105
+    ],
+    "based": [
+      23
+    ],
+    "on": [
+      24,
+      55,
+      118,
+      133
+    ],
+    "a": [
+      25,
+      40,
+      82,
+      96
+    ],
+    "comparison": [
+      26
+    ],
+    "between": [
+      27,
+      70
+    ],
+    "global": [
+      28,
+      73
+    ],
+    "local": [
+      30,
+      71
+    ],
+    "time-frequency": [
+      31
+    ],
+    "features.": [
+      32
+    ],
+    "originality": [
+      34
+    ],
+    "make": [
+      37
+    ],
+    "use": [
+      38,
+      65
+    ],
+    "of": [
+      39,
+      42,
+      50,
+      66,
+      103,
+      107,
+      121,
+      127
+    ],
+    "family": [
+      41
+    ],
+    "stationary": [
+      43,
+      129
+    ],
+    "surrogates": [
+      44,
+      92
+    ],
+    "defining": [
+      46
+    ],
+    "the": [
+      47,
+      76,
+      85,
+      91,
+      104,
+      134
+    ],
+    "null": [
+      48
+    ],
+    "hypothesis": [
+      49
+    ],
+    "base": [
+      54
+    ],
+    "them": [
+      56
+    ],
+    "two": [
+      57,
+      109
+    ],
+    "different": [
+      58
+    ],
+    "statistical": [
+      59
+    ],
+    "tests.": [
+      60
+    ],
+    "first": [
+      62
+    ],
+    "one": [
+      63,
+      78
+    ],
+    "makes": [
+      64
+    ],
+    "suitably": [
+      67
+    ],
+    "chosen": [
+      68
+    ],
+    "distances": [
+      69
+    ],
+    "spectra,": [
+      74
+    ],
+    "whereas": [
+      75
+    ],
+    "second": [
+      77
+    ],
+    "implemented": [
+      80
+    ],
+    "as": [
+      81,
+      95,
+      128
+    ],
+    "one-class": [
+      83
+    ],
+    "classifier,": [
+      84
+    ],
+    "time-": [
+      86
+    ],
+    "frequency": [
+      87
+    ],
+    "features": [
+      88
+    ],
+    "extracted": [
+      89
+    ],
+    "from": [
+      90
+    ],
+    "being": [
+      93
+    ],
+    "interpreted": [
+      94
+    ],
+    "learning": [
+      97
+    ],
+    "set": [
+      98
+    ],
+    "stationarity.": [
+      100
+    ],
+    "principle": [
+      102
+    ],
+    "its": [
+      108
+    ],
+    "variations": [
+      110
+    ],
+    "presented,": [
+      112
+    ],
+    "some": [
+      114
+    ],
+    "results": [
+      115
+    ],
+    "are": [
+      116
+    ],
+    "shown": [
+      117
+    ],
+    "typical": [
+      119
+    ],
+    "models": [
+      120
+    ],
+    "signals": [
+      122
+    ],
+    "that": [
+      123
+    ],
+    "can": [
+      124
+    ],
+    "be": [
+      125
+    ],
+    "thought": [
+      126
+    ],
+    "or": [
+      130
+    ],
+    "nonstationary,": [
+      131
+    ],
+    "depending": [
+      132
+    ],
+    "scale": [
+      136
+    ],
+    "used.": [
+      137
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 30
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 13
+    }
+  ],
+  "updated_date": "2026-09-21T07:43:02.447757",
+  "created_date": "2025-10-10T00:00:00"
+}

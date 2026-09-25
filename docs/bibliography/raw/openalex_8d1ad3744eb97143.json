@@ -1,0 +1,1004 @@
+{
+  "id": "https://openalex.org/W1982214775",
+  "doi": "https://doi.org/10.1190/1.1444731",
+  "title": "Time-lapse (4-D) seismic monitoring of primary production of turbidite reservoirs at South Timbalier Block 295, offshore Louisiana, Gulf of Mexico",
+  "display_name": "Time-lapse (4-D) seismic monitoring of primary production of turbidite reservoirs at South Timbalier Block 295, offshore Louisiana, Gulf of Mexico",
+  "publication_year": 2000,
+  "publication_date": "2000-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1982214775",
+    "doi": "https://doi.org/10.1190/1.1444731",
+    "mag": "1982214775"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.1444731",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.1444731",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S106174089",
+      "display_name": "Geophysics",
+      "issn_l": "0016-8033",
+      "issn": [
+        "0016-8033",
+        "1942-2156"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5002345980",
+        "display_name": "Tucker D. Burkhart",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130769515",
+          "display_name": "Pennsylvania State University",
+          "ror": "https://ror.org/04p491231",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I130769515"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I7923278",
+          "display_name": "Shell (Netherlands)",
+          "ror": "https://ror.org/00b5m4j81",
+          "country_code": "NL",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I7923278"
+          ]
+        }
+      ],
+      "countries": [
+        "NL",
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Burkhart Tucker",
+      "raw_affiliation_strings": [
+        "∗Formerly Pennsylvania State Univ., Dept. of Geosciences, University Park, Pennsylvania 16802; currently Shell Offshore Inc., One Shell Square, New Orleans, Louisiana 70161. E-mail: burkhart@shellus.com",
+        "Pennsylvania State Univ., Dept. of Geosciences, 442 Deike Building, University Park, Pennsylvania 16802. Emails:"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "∗Formerly Pennsylvania State Univ., Dept. of Geosciences, University Park, Pennsylvania 16802; currently Shell Offshore Inc., One Shell Square, New Orleans, Louisiana 70161. E-mail: burkhart@shellus.com",
+          "institution_ids": [
+            "https://openalex.org/I7923278"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Pennsylvania State Univ., Dept. of Geosciences, 442 Deike Building, University Park, Pennsylvania 16802. Emails:",
+          "institution_ids": [
+            "https://openalex.org/I130769515"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5040178035",
+        "display_name": "Andrew R. Hoover",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130769515",
+          "display_name": "Pennsylvania State University",
+          "ror": "https://ror.org/04p491231",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I130769515"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210150951",
+          "display_name": "Shell (United States)",
+          "ror": "https://ror.org/04wedba92",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210150951",
+            "https://openalex.org/I7923278"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Andrew R. Hoover",
+      "raw_affiliation_strings": [
+        "†Formerly Pennsylvania State Univ., Dept. of Geosciences, University Park, Pennsylvania 16802; currently Texas Gulf Coast Resources, Shell Continental Companies, 200 North Dairy Ashford Road, Houston, Texas 77079. E-mail: hoover@shellus.com",
+        "Pennsylvania State Univ., Dept. of Geosciences, 442 Deike Building, University Park, Pennsylvania 16802. Emails:"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "†Formerly Pennsylvania State Univ., Dept. of Geosciences, University Park, Pennsylvania 16802; currently Texas Gulf Coast Resources, Shell Continental Companies, 200 North Dairy Ashford Road, Houston, Texas 77079. E-mail: hoover@shellus.com",
+          "institution_ids": [
+            "https://openalex.org/I4210150951"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Pennsylvania State Univ., Dept. of Geosciences, 442 Deike Building, University Park, Pennsylvania 16802. Emails:",
+          "institution_ids": [
+            "https://openalex.org/I130769515"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5080184496",
+        "display_name": "Peter B. Flemings",
+        "orcid": "https://orcid.org/0000-0002-5377-3694",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-5377-3694"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130769515",
+          "display_name": "Pennsylvania State University",
+          "ror": "https://ror.org/04p491231",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I130769515"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Peter B. Flemings",
+      "raw_affiliation_strings": [
+        "∗∗Pennsylvania State Univ., Dept. of Geosciences, 442 Deike Building, University Park, Pennsylvania 16802. E-mail: flemings@geosc.psu.edu",
+        "Pennsylvania State Univ., Dept. of Geosciences, 442 Deike Building, University Park, Pennsylvania 16802. Emails:"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "∗∗Pennsylvania State Univ., Dept. of Geosciences, 442 Deike Building, University Park, Pennsylvania 16802. E-mail: flemings@geosc.psu.edu",
+          "institution_ids": [
+            "https://openalex.org/I130769515"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Pennsylvania State Univ., Dept. of Geosciences, 442 Deike Building, University Park, Pennsylvania 16802. Emails:",
+          "institution_ids": [
+            "https://openalex.org/I130769515"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 2.0455,
+  "has_fulltext": false,
+  "cited_by_count": 43,
+  "citation_normalized_percentile": {
+    "value": 0.83505514,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "65",
+    "issue": "2",
+    "first_page": "351",
+    "last_page": "367"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9998999834060669,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10892",
+      "display_name": "Drilling and Well Engineering",
+      "score": 0.9988999962806702,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/submarine-pipeline",
+      "display_name": "Submarine pipeline",
+      "score": 0.8355210423469543
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.7629355192184448
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.6631105542182922
+    },
+    {
+      "id": "https://openalex.org/keywords/amplitude",
+      "display_name": "Amplitude",
+      "score": 0.6487060785293579
+    },
+    {
+      "id": "https://openalex.org/keywords/turbidite",
+      "display_name": "Turbidite",
+      "score": 0.5708430409431458
+    },
+    {
+      "id": "https://openalex.org/keywords/block",
+      "display_name": "Block (permutation group theory)",
+      "score": 0.41759732365608215
+    },
+    {
+      "id": "https://openalex.org/keywords/petrology",
+      "display_name": "Petrology",
+      "score": 0.33762335777282715
+    },
+    {
+      "id": "https://openalex.org/keywords/petroleum-engineering",
+      "display_name": "Petroleum engineering",
+      "score": 0.3333169221878052
+    },
+    {
+      "id": "https://openalex.org/keywords/geotechnical-engineering",
+      "display_name": "Geotechnical engineering",
+      "score": 0.23931461572647095
+    },
+    {
+      "id": "https://openalex.org/keywords/geomorphology",
+      "display_name": "Geomorphology",
+      "score": 0.16680088639259338
+    },
+    {
+      "id": "https://openalex.org/keywords/structural-basin",
+      "display_name": "Structural basin",
+      "score": 0.13668546080589294
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C162284963",
+      "wikidata": "https://www.wikidata.org/wiki/Q17106102",
+      "display_name": "Submarine pipeline",
+      "level": 2,
+      "score": 0.8355210423469543
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.7629355192184448
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.6631105542182922
+    },
+    {
+      "id": "https://openalex.org/C180205008",
+      "wikidata": "https://www.wikidata.org/wiki/Q159190",
+      "display_name": "Amplitude",
+      "level": 2,
+      "score": 0.6487060785293579
+    },
+    {
+      "id": "https://openalex.org/C157954998",
+      "wikidata": "https://www.wikidata.org/wiki/Q1501943",
+      "display_name": "Turbidite",
+      "level": 3,
+      "score": 0.5708430409431458
+    },
+    {
+      "id": "https://openalex.org/C2777210771",
+      "wikidata": "https://www.wikidata.org/wiki/Q4927124",
+      "display_name": "Block (permutation group theory)",
+      "level": 2,
+      "score": 0.41759732365608215
+    },
+    {
+      "id": "https://openalex.org/C5900021",
+      "wikidata": "https://www.wikidata.org/wiki/Q163082",
+      "display_name": "Petrology",
+      "level": 1,
+      "score": 0.33762335777282715
+    },
+    {
+      "id": "https://openalex.org/C78762247",
+      "wikidata": "https://www.wikidata.org/wiki/Q1273174",
+      "display_name": "Petroleum engineering",
+      "level": 1,
+      "score": 0.3333169221878052
+    },
+    {
+      "id": "https://openalex.org/C187320778",
+      "wikidata": "https://www.wikidata.org/wiki/Q1349130",
+      "display_name": "Geotechnical engineering",
+      "level": 1,
+      "score": 0.23931461572647095
+    },
+    {
+      "id": "https://openalex.org/C114793014",
+      "wikidata": "https://www.wikidata.org/wiki/Q52109",
+      "display_name": "Geomorphology",
+      "level": 1,
+      "score": 0.16680088639259338
+    },
+    {
+      "id": "https://openalex.org/C109007969",
+      "wikidata": "https://www.wikidata.org/wiki/Q749565",
+      "display_name": "Structural basin",
+      "level": 2,
+      "score": 0.13668546080589294
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.1444731",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.1444731",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S106174089",
+        "display_name": "Geophysics",
+        "issn_l": "0016-8033",
+        "issn": [
+          "0016-8033",
+          "1942-2156"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysics",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 36,
+  "referenced_works": [
+    "https://openalex.org/W89495778",
+    "https://openalex.org/W183578276",
+    "https://openalex.org/W1560771485",
+    "https://openalex.org/W1964117260",
+    "https://openalex.org/W1965799216",
+    "https://openalex.org/W1970050788",
+    "https://openalex.org/W1975775220",
+    "https://openalex.org/W1992775090",
+    "https://openalex.org/W1996272739",
+    "https://openalex.org/W2000026022",
+    "https://openalex.org/W2003937902",
+    "https://openalex.org/W2011993064",
+    "https://openalex.org/W2014328384",
+    "https://openalex.org/W2017388781",
+    "https://openalex.org/W2029178396",
+    "https://openalex.org/W2032527080",
+    "https://openalex.org/W2033116073",
+    "https://openalex.org/W2034946811",
+    "https://openalex.org/W2046234722",
+    "https://openalex.org/W2052124392",
+    "https://openalex.org/W2054128506",
+    "https://openalex.org/W2081012823",
+    "https://openalex.org/W2088518989",
+    "https://openalex.org/W2092208879",
+    "https://openalex.org/W2100273474",
+    "https://openalex.org/W2114615512",
+    "https://openalex.org/W2118789641",
+    "https://openalex.org/W2147338465",
+    "https://openalex.org/W2156193302",
+    "https://openalex.org/W2170680494",
+    "https://openalex.org/W2322066099",
+    "https://openalex.org/W2481533404",
+    "https://openalex.org/W2792418276",
+    "https://openalex.org/W2800135826",
+    "https://openalex.org/W2927827551",
+    "https://openalex.org/W3148116038"
+  ],
+  "related_works": [
+    "https://openalex.org/W2320622422",
+    "https://openalex.org/W1972244625",
+    "https://openalex.org/W2030104413",
+    "https://openalex.org/W2064467176",
+    "https://openalex.org/W2019258198",
+    "https://openalex.org/W2325859821",
+    "https://openalex.org/W4384009680",
+    "https://openalex.org/W2899433112",
+    "https://openalex.org/W2565228455",
+    "https://openalex.org/W2009297179"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "Two": [
+      1
+    ],
+    "seismic": [
+      2,
+      37,
+      52,
+      70,
+      99,
+      108,
+      130,
+      133
+    ],
+    "surveys": [
+      3,
+      71
+    ],
+    "acquired": [
+      4
+    ],
+    "over": [
+      5
+    ],
+    "South": [
+      6
+    ],
+    "Timbalier": [
+      7
+    ],
+    "Block": [
+      8
+    ],
+    "295": [
+      9
+    ],
+    "field": [
+      10
+    ],
+    "(offshore": [
+      11
+    ],
+    "Louisiana)": [
+      12
+    ],
+    "record": [
+      13,
+      112
+    ],
+    "significant": [
+      14
+    ],
+    "differences": [
+      15,
+      110
+    ],
+    "in": [
+      16,
+      36,
+      51,
+      57,
+      114
+    ],
+    "amplitude": [
+      17,
+      38,
+      53,
+      109
+    ],
+    "that": [
+      18,
+      111,
+      121
+    ],
+    "are": [
+      19
+    ],
+    "correlated": [
+      20
+    ],
+    "to": [
+      21,
+      64,
+      93,
+      106,
+      140,
+      148
+    ],
+    "hydrocarbon": [
+      22,
+      142
+    ],
+    "production": [
+      23,
+      154
+    ],
+    "at": [
+      24
+    ],
+    "multiple": [
+      25
+    ],
+    "reservoir": [
+      26,
+      150
+    ],
+    "levels.": [
+      27
+    ],
+    "The": [
+      28,
+      43
+    ],
+    "K8": [
+      29
+    ],
+    "sand,": [
+      30,
+      45
+    ],
+    "a": [
+      31,
+      46
+    ],
+    "solution-gas-drive": [
+      32
+    ],
+    "reservoir,": [
+      33,
+      48
+    ],
+    "shows": [
+      34,
+      49
+    ],
+    "increases": [
+      35,
+      56
+    ],
+    "associated": [
+      39,
+      54
+    ],
+    "with": [
+      40,
+      55
+    ],
+    "gas": [
+      41
+    ],
+    "exsolution.": [
+      42
+    ],
+    "K40": [
+      44
+    ],
+    "water-drive": [
+      47
+    ],
+    "decreases": [
+      50
+    ],
+    "water": [
+      58
+    ],
+    "saturation.": [
+      59
+    ],
+    "A": [
+      60,
+      88
+    ],
+    "methodology": [
+      61,
+      80
+    ],
+    "is": [
+      62,
+      91,
+      104
+    ],
+    "presented": [
+      63
+    ],
+    "optimize": [
+      65
+    ],
+    "the": [
+      66,
+      95,
+      98,
+      124,
+      129
+    ],
+    "correlation": [
+      67,
+      96
+    ],
+    "between": [
+      68,
+      97
+    ],
+    "two": [
+      69
+    ],
+    "after": [
+      72
+    ],
+    "they": [
+      73
+    ],
+    "have": [
+      74
+    ],
+    "been": [
+      75
+    ],
+    "individually": [
+      76
+    ],
+    "processed": [
+      77
+    ],
+    "(poststack).": [
+      78
+    ],
+    "This": [
+      79,
+      101
+    ],
+    "includes": [
+      81
+    ],
+    "rebinning,": [
+      82
+    ],
+    "crosscorrelation,": [
+      83
+    ],
+    "band-pass": [
+      84
+    ],
+    "filtering,": [
+      85
+    ],
+    "and": [
+      86,
+      116,
+      152
+    ],
+    "cross-equalization.": [
+      87
+    ],
+    "statistical": [
+      89,
+      102
+    ],
+    "approach": [
+      90,
+      139
+    ],
+    "developed": [
+      92
+    ],
+    "characterize": [
+      94
+    ],
+    "surveys.": [
+      100
+    ],
+    "analysis": [
+      103,
+      134
+    ],
+    "used": [
+      105,
+      147
+    ],
+    "discriminate": [
+      107
+    ],
+    "change": [
+      113
+    ],
+    "rock": [
+      115
+    ],
+    "fluid": [
+      117
+    ],
+    "properties": [
+      118
+    ],
+    "from": [
+      119
+    ],
+    "those": [
+      120
+    ],
+    "could": [
+      122
+    ],
+    "be": [
+      123,
+      146
+    ],
+    "result": [
+      125
+    ],
+    "of": [
+      126,
+      128
+    ],
+    "miscorrelation": [
+      127
+    ],
+    "data.": [
+      131
+    ],
+    "Time-lapse": [
+      132
+    ],
+    "provides": [
+      135
+    ],
+    "an": [
+      136
+    ],
+    "important": [
+      137
+    ],
+    "new": [
+      138
+    ],
+    "imaging": [
+      141
+    ],
+    "production;": [
+      143
+    ],
+    "it": [
+      144
+    ],
+    "may": [
+      145
+    ],
+    "improve": [
+      149
+    ],
+    "characterization": [
+      151
+    ],
+    "guide": [
+      153
+    ],
+    "decisions.": [
+      155
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-23T05:00:35.095934",
+  "created_date": "2025-10-10T00:00:00"
+}

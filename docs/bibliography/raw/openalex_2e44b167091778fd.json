@@ -1,0 +1,940 @@
+{
+  "id": "https://openalex.org/W1966124646",
+  "doi": "https://doi.org/10.1190/1.1886142",
+  "title": "Estimating porosity from 3D seismic inversion and 3D geostatistics",
+  "display_name": "Estimating porosity from 3D seismic inversion and 3D geostatistics",
+  "publication_year": 1997,
+  "publication_date": "1997-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1966124646",
+    "doi": "https://doi.org/10.1190/1.1886142",
+    "mag": "1966124646"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.1886142",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.1886142",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "International Meeting for Applied Geoscience &amp; Energy",
+    "raw_type": "proceedings-article"
+  },
+  "type": "conference-paper",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5017741701",
+        "display_name": "John Pendrel",
+        "orcid": "https://orcid.org/0000-0001-6974-1876",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-6974-1876"
+        ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "John V. Pendrel",
+      "raw_affiliation_strings": [
+        "1 Jason Geosystems Canada",
+        "Jason Geosystems Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1 Jason Geosystems Canada",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Jason Geosystems Canada",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5084190351",
+        "display_name": "Paul Van Riel",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Paul Van Riel",
+      "raw_affiliation_strings": [
+        "2 Jason Geosystems B. V., The Netherlands",
+        "Jason Geosystems B.V"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "2 Jason Geosystems B. V., The Netherlands",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Jason Geosystems B.V",
+          "institution_ids": []
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 2.2708,
+  "has_fulltext": false,
+  "cited_by_count": 18,
+  "citation_normalized_percentile": {
+    "value": 0.90322581,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 96
+  },
+  "biblio": {
+    "volume": "1",
+    "issue": null,
+    "first_page": "834",
+    "last_page": "837"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T13067",
+    "display_name": "Geological Modeling and Analysis",
+    "score": 0.9977999925613403,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1906",
+      "display_name": "Geochemistry and Petrology"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T13067",
+      "display_name": "Geological Modeling and Analysis",
+      "score": 0.9977999925613403,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1906",
+        "display_name": "Geochemistry and Petrology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9961000084877014,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11801",
+      "display_name": "Reservoir Engineering and Simulation Methods",
+      "score": 0.993399977684021,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/geostatistics",
+      "display_name": "Geostatistics",
+      "score": 0.8061617612838745
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.7099881768226624
+    },
+    {
+      "id": "https://openalex.org/keywords/inversion",
+      "display_name": "Inversion (geology)",
+      "score": 0.706360399723053
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-inversion",
+      "display_name": "Seismic inversion",
+      "score": 0.6449012756347656
+    },
+    {
+      "id": "https://openalex.org/keywords/porosity",
+      "display_name": "Porosity",
+      "score": 0.6250425577163696
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.3512136936187744
+    },
+    {
+      "id": "https://openalex.org/keywords/geotechnical-engineering",
+      "display_name": "Geotechnical engineering",
+      "score": 0.20681974291801453
+    },
+    {
+      "id": "https://openalex.org/keywords/geometry",
+      "display_name": "Geometry",
+      "score": 0.10001429915428162
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.06269773840904236
+    },
+    {
+      "id": "https://openalex.org/keywords/statistics",
+      "display_name": "Statistics",
+      "score": 0.05671784281730652
+    },
+    {
+      "id": "https://openalex.org/keywords/spatial-variability",
+      "display_name": "Spatial variability",
+      "score": 0.05229604244232178
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C125572338",
+      "wikidata": "https://www.wikidata.org/wiki/Q1440020",
+      "display_name": "Geostatistics",
+      "level": 3,
+      "score": 0.8061617612838745
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.7099881768226624
+    },
+    {
+      "id": "https://openalex.org/C1893757",
+      "wikidata": "https://www.wikidata.org/wiki/Q3653001",
+      "display_name": "Inversion (geology)",
+      "level": 3,
+      "score": 0.706360399723053
+    },
+    {
+      "id": "https://openalex.org/C39267094",
+      "wikidata": "https://www.wikidata.org/wiki/Q7446968",
+      "display_name": "Seismic inversion",
+      "level": 3,
+      "score": 0.6449012756347656
+    },
+    {
+      "id": "https://openalex.org/C6648577",
+      "wikidata": "https://www.wikidata.org/wiki/Q622669",
+      "display_name": "Porosity",
+      "level": 2,
+      "score": 0.6250425577163696
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.3512136936187744
+    },
+    {
+      "id": "https://openalex.org/C187320778",
+      "wikidata": "https://www.wikidata.org/wiki/Q1349130",
+      "display_name": "Geotechnical engineering",
+      "level": 1,
+      "score": 0.20681974291801453
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.10001429915428162
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.06269773840904236
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.05671784281730652
+    },
+    {
+      "id": "https://openalex.org/C94747663",
+      "wikidata": "https://www.wikidata.org/wiki/Q7574086",
+      "display_name": "Spatial variability",
+      "level": 2,
+      "score": 0.05229604244232178
+    },
+    {
+      "id": "https://openalex.org/C77928131",
+      "wikidata": "https://www.wikidata.org/wiki/Q193343",
+      "display_name": "Tectonics",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C159737794",
+      "wikidata": "https://www.wikidata.org/wiki/Q124274",
+      "display_name": "Azimuth",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.1886142",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.1886142",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "International Meeting for Applied Geoscience &amp; Energy",
+      "raw_type": "proceedings-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Climate action",
+      "id": "https://metadata.un.org/sdg/13",
+      "score": 0.699999988079071
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2027690137",
+    "https://openalex.org/W2471474995",
+    "https://openalex.org/W2394411732",
+    "https://openalex.org/W4285150540",
+    "https://openalex.org/W2349368632",
+    "https://openalex.org/W4378230661",
+    "https://openalex.org/W2077263083",
+    "https://openalex.org/W2374132258",
+    "https://openalex.org/W2356317760",
+    "https://openalex.org/W2351412542"
+  ],
+  "abstract_inverted_index": {
+    "PreviousNext": [
+      0
+    ],
+    "No": [
+      1
+    ],
+    "AccessSEG": [
+      2
+    ],
+    "Technical": [
+      3,
+      164,
+      212
+    ],
+    "Program": [
+      4,
+      165,
+      213
+    ],
+    "Expanded": [
+      5,
+      166,
+      214
+    ],
+    "Abstracts": [
+      6,
+      167,
+      215
+    ],
+    "1997Estimating": [
+      7
+    ],
+    "porosity": [
+      8,
+      203
+    ],
+    "from": [
+      9,
+      69,
+      152,
+      204
+    ],
+    "3D": [
+      10,
+      14,
+      65,
+      205,
+      209
+    ],
+    "seismic": [
+      11,
+      66,
+      106,
+      149,
+      206
+    ],
+    "inversion": [
+      12,
+      47,
+      102,
+      125,
+      207
+    ],
+    "and": [
+      13,
+      25,
+      61,
+      75,
+      126,
+      144,
+      197,
+      208
+    ],
+    "geostatisticsAuthors:": [
+      15
+    ],
+    "John": [
+      16,
+      194
+    ],
+    "V.": [
+      17,
+      21,
+      195
+    ],
+    "PendrelPaul": [
+      18
+    ],
+    "Van": [
+      19,
+      27,
+      199
+    ],
+    "RielJohn": [
+      20
+    ],
+    "PendrelJason": [
+      22
+    ],
+    "Geosystems": [
+      23,
+      29
+    ],
+    "Canada": [
+      24
+    ],
+    "Paul": [
+      26,
+      198
+    ],
+    "RielJason": [
+      28
+    ],
+    "B.": [
+      30
+    ],
+    "V.,": [
+      31
+    ],
+    "The": [
+      32
+    ],
+    "Netherlandshttps://doi.org/10.1190/1.1886142": [
+      33
+    ],
+    "SectionsAboutPDF/ePub": [
+      34
+    ],
+    "ToolsAdd": [
+      35
+    ],
+    "to": [
+      36,
+      48,
+      110
+    ],
+    "favoritesDownload": [
+      37
+    ],
+    "CitationsTrack": [
+      38
+    ],
+    "CitationsPermissions": [
+      39
+    ],
+    "ShareFacebookTwitterLinked": [
+      40
+    ],
+    "InRedditEmail": [
+      41
+    ],
+    "Permalink:": [
+      42
+    ],
+    "https://doi.org/10.1190/1.1886142FiguresReferencesRelatedDetailsCited": [
+      43
+    ],
+    "ByHigh-resolution": [
+      44
+    ],
+    "acoustic": [
+      45
+    ],
+    "impedance": [
+      46,
+      124
+    ],
+    "characterize": [
+      49
+    ],
+    "turbidites": [
+      50
+    ],
+    "at": [
+      51
+    ],
+    "Marlim": [
+      52
+    ],
+    "Field,": [
+      53
+    ],
+    "Campos": [
+      54
+    ],
+    "Basin,": [
+      55
+    ],
+    "BrazilInterpretation,": [
+      56
+    ],
+    "Vol.": [
+      57,
+      82,
+      91,
+      120,
+      139,
+      159
+    ],
+    "2,": [
+      58
+    ],
+    "No.": [
+      59,
+      84,
+      93,
+      122,
+      141,
+      161
+    ],
+    "3Inversion": [
+      60
+    ],
+    "interpretation": [
+      62,
+      127,
+      145
+    ],
+    "of": [
+      63,
+      96,
+      103,
+      118,
+      128,
+      146,
+      182,
+      185
+    ],
+    "a": [
+      64,
+      129,
+      147
+    ],
+    "data": [
+      67,
+      150
+    ],
+    "set": [
+      68,
+      151
+    ],
+    "the": [
+      70,
+      115,
+      134,
+      153
+    ],
+    "Ouachita": [
+      71
+    ],
+    "Mountains,": [
+      72
+    ],
+    "OklahomaAbuduwali": [
+      73
+    ],
+    "Aibaidula": [
+      74
+    ],
+    "George": [
+      76
+    ],
+    "McMechan20": [
+      77
+    ],
+    "February": [
+      78
+    ],
+    "2009": [
+      79
+    ],
+    "|": [
+      80
+    ],
+    "GEOPHYSICS,": [
+      81
+    ],
+    "74,": [
+      83
+    ],
+    "2Viscoelastic": [
+      85
+    ],
+    "true-amplitude": [
+      86
+    ],
+    "prestack": [
+      87
+    ],
+    "reverse-time": [
+      88
+    ],
+    "depth": [
+      89
+    ],
+    "migrationGEOPHYSICS,": [
+      90
+    ],
+    "73,": [
+      92
+    ],
+    "4Sensitivity": [
+      94
+    ],
+    "analysis": [
+      95
+    ],
+    "data-related": [
+      97
+    ],
+    "factors": [
+      98
+    ],
+    "controlling": [
+      99
+    ],
+    "AVA": [
+      100
+    ],
+    "simultaneous": [
+      101
+    ],
+    "partially": [
+      104
+    ],
+    "stacked": [
+      105
+    ],
+    "amplitude": [
+      107
+    ],
+    "data:": [
+      108
+    ],
+    "Application": [
+      109
+    ],
+    "deepwater": [
+      111
+    ],
+    "hydrocarbon": [
+      112
+    ],
+    "reservoirs": [
+      113
+    ],
+    "in": [
+      114,
+      133
+    ],
+    "central": [
+      116
+    ],
+    "Gulf": [
+      117
+    ],
+    "MexicoGEOPHYSICS,": [
+      119
+    ],
+    "72,": [
+      121
+    ],
+    "1Seismic": [
+      123
+    ],
+    "gas": [
+      130
+    ],
+    "carbonate": [
+      131
+    ],
+    "reservoir": [
+      132
+    ],
+    "Alberta": [
+      135
+    ],
+    "Foothills,": [
+      136
+    ],
+    "western": [
+      137
+    ],
+    "CanadaGEOPHYSICS,": [
+      138
+    ],
+    "68,": [
+      140,
+      160
+    ],
+    "5Processing,": [
+      142
+    ],
+    "inversion,": [
+      143
+    ],
+    "2D": [
+      148
+    ],
+    "North": [
+      154,
+      157
+    ],
+    "Viking": [
+      155
+    ],
+    "Graben,": [
+      156
+    ],
+    "SeaGEOPHYSICS,": [
+      158
+    ],
+    "3": [
+      162
+    ],
+    "SEG": [
+      163,
+      211
+    ],
+    "1997ISSN": [
+      168
+    ],
+    "(print):1052-3812": [
+      169
+    ],
+    "ISSN": [
+      170
+    ],
+    "(online):1949-4645Copyright:": [
+      171
+    ],
+    "1997": [
+      172,
+      177,
+      180
+    ],
+    "Pages:": [
+      173
+    ],
+    "2067": [
+      174
+    ],
+    "publication": [
+      175
+    ],
+    "data©": [
+      176
+    ],
+    "Copyright": [
+      178
+    ],
+    "©": [
+      179
+    ],
+    "Society": [
+      181
+    ],
+    "Exploration": [
+      183,
+      186
+    ],
+    "GeophysicistsPublisher:Society": [
+      184
+    ],
+    "Geophysicists": [
+      187
+    ],
+    "HistoryPublished:": [
+      188
+    ],
+    "10": [
+      189
+    ],
+    "Feb": [
+      190
+    ],
+    "2005": [
+      191
+    ],
+    "CITATION": [
+      192
+    ],
+    "INFORMATION": [
+      193
+    ],
+    "Pendrel": [
+      196
+    ],
+    "Riel,": [
+      200
+    ],
+    "(1997),": [
+      201
+    ],
+    "\"Estimating": [
+      202
+    ],
+    "geostatistics,\"": [
+      210
+    ],
+    ":": [
+      216
+    ],
+    "834-837.": [
+      217
+    ],
+    "https://doi.org/10.1190/1.1886142": [
+      218
+    ],
+    "Plain-Language": [
+      219
+    ],
+    "Summary": [
+      220
+    ],
+    "PDF": [
+      221
+    ],
+    "DownloadLoading": [
+      222
+    ],
+    "...": [
+      223
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-23T05:00:35.095934",
+  "created_date": "2025-10-10T00:00:00"
+}

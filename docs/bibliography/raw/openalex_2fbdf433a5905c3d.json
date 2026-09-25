@@ -1,0 +1,631 @@
+{
+  "id": "https://openalex.org/W24174167",
+  "doi": "https://doi.org/10.1190/1.1889540",
+  "title": "Lp -norm deconvolution",
+  "display_name": "Lp -norm deconvolution",
+  "publication_year": 1989,
+  "publication_date": "1989-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W24174167",
+    "doi": "https://doi.org/10.1190/1.1889540",
+    "mag": "24174167"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.1889540",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.1889540",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "International Meeting for Applied Geoscience &amp; Energy",
+    "raw_type": "proceedings-article"
+  },
+  "type": "conference-paper",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5078853686",
+        "display_name": "H. Debeye",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "H. W. J. Debeye",
+      "raw_affiliation_strings": [
+        "1 Jason Geosysterns BV, Netherlands",
+        "Jason Geosystems BV"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1 Jason Geosysterns BV, Netherlands",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Jason Geosystems BV",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5084190351",
+        "display_name": "Paul Van Riel",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "P. van Riel",
+      "raw_affiliation_strings": [
+        "1 Jason Geosysterns BV, Netherlands",
+        "Jason Geosystems BV"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1 Jason Geosysterns BV, Netherlands",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Jason Geosystems BV",
+          "institution_ids": []
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.0,
+  "has_fulltext": false,
+  "cited_by_count": 8,
+  "citation_normalized_percentile": {
+    "value": 0.00116279,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 96
+  },
+  "biblio": {
+    "volume": "1",
+    "issue": null,
+    "first_page": "1192",
+    "last_page": "1194"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12565",
+    "display_name": "Physics and Engineering Research Articles",
+    "score": 0.08420000225305557,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2206",
+      "display_name": "Computational Mechanics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12565",
+      "display_name": "Physics and Engineering Research Articles",
+      "score": 0.08420000225305557,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/deconvolution",
+      "display_name": "Deconvolution",
+      "score": 0.8077234029769897
+    },
+    {
+      "id": "https://openalex.org/keywords/norm",
+      "display_name": "Norm (philosophy)",
+      "score": 0.5699113011360168
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.45286792516708374
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.2393597662448883
+    },
+    {
+      "id": "https://openalex.org/keywords/political-science",
+      "display_name": "Political science",
+      "score": 0.06270793080329895
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C174576160",
+      "wikidata": "https://www.wikidata.org/wiki/Q1183700",
+      "display_name": "Deconvolution",
+      "level": 2,
+      "score": 0.8077234029769897
+    },
+    {
+      "id": "https://openalex.org/C191795146",
+      "wikidata": "https://www.wikidata.org/wiki/Q3878446",
+      "display_name": "Norm (philosophy)",
+      "level": 2,
+      "score": 0.5699113011360168
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.45286792516708374
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.2393597662448883
+    },
+    {
+      "id": "https://openalex.org/C17744445",
+      "wikidata": "https://www.wikidata.org/wiki/Q36442",
+      "display_name": "Political science",
+      "level": 0,
+      "score": 0.06270793080329895
+    },
+    {
+      "id": "https://openalex.org/C199539241",
+      "wikidata": "https://www.wikidata.org/wiki/Q7748",
+      "display_name": "Law",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.1889540",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.1889540",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "International Meeting for Applied Geoscience &amp; Energy",
+      "raw_type": "proceedings-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W4251527294",
+    "https://openalex.org/W3090782779",
+    "https://openalex.org/W4296701479",
+    "https://openalex.org/W4231036715",
+    "https://openalex.org/W3149087629",
+    "https://openalex.org/W2032074591",
+    "https://openalex.org/W1986156575",
+    "https://openalex.org/W4242983818",
+    "https://openalex.org/W2970288912"
+  ],
+  "abstract_inverted_index": {
+    "PreviousNext": [
+      0
+    ],
+    "No": [
+      1
+    ],
+    "AccessSEG": [
+      2
+    ],
+    "Technical": [
+      3,
+      75,
+      120
+    ],
+    "Program": [
+      4,
+      76,
+      121
+    ],
+    "Expanded": [
+      5,
+      77,
+      122
+    ],
+    "Abstracts": [
+      6,
+      78,
+      123
+    ],
+    "1989L": [
+      7
+    ],
+    "p": [
+      8,
+      116
+    ],
+    "‐norm": [
+      9,
+      117
+    ],
+    "deconvolutionAuthors:": [
+      10
+    ],
+    "H.": [
+      11,
+      106
+    ],
+    "W.": [
+      12,
+      17,
+      107
+    ],
+    "J.": [
+      13,
+      18,
+      108
+    ],
+    "DebeyeP.": [
+      14
+    ],
+    "van": [
+      15,
+      25,
+      112
+    ],
+    "RielH.": [
+      16
+    ],
+    "DebeyeJason": [
+      19
+    ],
+    "Geosysterns": [
+      20,
+      27
+    ],
+    "BV,": [
+      21,
+      28
+    ],
+    "Netherlands": [
+      22
+    ],
+    "and": [
+      23,
+      53,
+      69,
+      110
+    ],
+    "P.": [
+      24,
+      111
+    ],
+    "RielJason": [
+      26
+    ],
+    "Netherlandshttps://doi.org/10.1190/1.1889540": [
+      29
+    ],
+    "SectionsAboutPDF/ePub": [
+      30
+    ],
+    "ToolsAdd": [
+      31
+    ],
+    "to": [
+      32
+    ],
+    "favoritesDownload": [
+      33
+    ],
+    "CitationsTrack": [
+      34
+    ],
+    "CitationsPermissions": [
+      35
+    ],
+    "ShareFacebookTwitterLinked": [
+      36
+    ],
+    "InRedditEmail": [
+      37
+    ],
+    "Permalink:": [
+      38
+    ],
+    "https://doi.org/10.1190/1.1889540FiguresReferencesRelatedDetailsCited": [
+      39
+    ],
+    "bySeismic": [
+      40
+    ],
+    "deconvolution": [
+      41
+    ],
+    "using": [
+      42
+    ],
+    "the": [
+      43,
+      50,
+      57
+    ],
+    "mixed": [
+      44
+    ],
+    "norm": [
+      45
+    ],
+    "of": [
+      46,
+      93,
+      96
+    ],
+    "Lp": [
+      47
+    ],
+    "regularization": [
+      48,
+      55
+    ],
+    "along": [
+      49,
+      56
+    ],
+    "time": [
+      51
+    ],
+    "direction": [
+      52
+    ],
+    "L2": [
+      54
+    ],
+    "structure": [
+      58
+    ],
+    "directionLiang": [
+      59
+    ],
+    "Cheng,": [
+      60
+    ],
+    "Shangxu": [
+      61
+    ],
+    "Wang,": [
+      62,
+      66
+    ],
+    "Sanyi": [
+      63
+    ],
+    "Yuan,": [
+      64
+    ],
+    "Guanchao": [
+      65
+    ],
+    "Zizhao": [
+      67
+    ],
+    "Yu,": [
+      68
+    ],
+    "Li": [
+      70
+    ],
+    "Deng27": [
+      71
+    ],
+    "August": [
+      72
+    ],
+    "2018": [
+      73
+    ],
+    "SEG": [
+      74,
+      119
+    ],
+    "1989ISSN": [
+      79
+    ],
+    "(print):1052-3812": [
+      80
+    ],
+    "ISSN": [
+      81
+    ],
+    "(online):1949-4645Copyright:": [
+      82
+    ],
+    "1989": [
+      83,
+      88,
+      91
+    ],
+    "Pages:": [
+      84
+    ],
+    "1375": [
+      85
+    ],
+    "publication": [
+      86
+    ],
+    "data©": [
+      87
+    ],
+    "Copyright": [
+      89
+    ],
+    "©": [
+      90
+    ],
+    "Society": [
+      92
+    ],
+    "Exploration": [
+      94,
+      97
+    ],
+    "GeophysicistsPublisher:Society": [
+      95
+    ],
+    "Geophysicists": [
+      98
+    ],
+    "HistoryPublished": [
+      99
+    ],
+    "Online:": [
+      100
+    ],
+    "10": [
+      101
+    ],
+    "Feb": [
+      102
+    ],
+    "2005": [
+      103
+    ],
+    "CITATION": [
+      104
+    ],
+    "INFORMATION": [
+      105
+    ],
+    "Debeye": [
+      109
+    ],
+    "Riel,": [
+      113
+    ],
+    "(1989),": [
+      114
+    ],
+    "\"L": [
+      115
+    ],
+    "deconvolution,\"": [
+      118
+    ],
+    ":": [
+      124
+    ],
+    "1192-1194.": [
+      125
+    ],
+    "https://doi.org/10.1190/1.1889540": [
+      126
+    ],
+    "Plain-Language": [
+      127
+    ],
+    "Summary": [
+      128
+    ],
+    "PDF": [
+      129
+    ],
+    "DownloadLoading": [
+      130
+    ],
+    "...": [
+      131
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-23T05:00:35.095934",
+  "created_date": "2025-10-10T00:00:00"
+}

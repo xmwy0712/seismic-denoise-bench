@@ -1,0 +1,1045 @@
+{
+  "id": "https://openalex.org/W7162295749",
+  "doi": "https://doi.org/10.3997/2214-4609.2025101271",
+  "title": "Multi-Round Deep Learning Based on SCU-Net for Seismic Data Denoising",
+  "display_name": "Multi-Round Deep Learning Based on SCU-Net for Seismic Data Denoising",
+  "publication_year": 2025,
+  "publication_date": "2025-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W7162295749",
+    "doi": "https://doi.org/10.3997/2214-4609.2025101271"
+  },
+  "language": null,
+  "primary_location": {
+    "id": "doi:10.3997/2214-4609.2025101271",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.3997/2214-4609.2025101271",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "86th EAGE Annual Conference &amp; Exhibition",
+    "raw_type": "proceedings-article"
+  },
+  "type": "conference-paper",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5136964978",
+        "display_name": "Y. Qi",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I76130692",
+          "display_name": "Zhejiang University",
+          "ror": "https://ror.org/00a2xv884",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I76130692"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Y. Qi",
+      "raw_affiliation_strings": [
+        "Zhejiang University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Zhejiang University",
+          "institution_ids": [
+            "https://openalex.org/I76130692"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5136972154",
+        "display_name": "G. Chen",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I76130692",
+          "display_name": "Zhejiang University",
+          "ror": "https://ror.org/00a2xv884",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I76130692"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "G. Chen",
+      "raw_affiliation_strings": [
+        "Zhejiang University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Zhejiang University",
+          "institution_ids": [
+            "https://openalex.org/I76130692"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5136943895",
+        "display_name": "J. Chen",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I76130692",
+          "display_name": "Zhejiang University",
+          "ror": "https://ror.org/00a2xv884",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I76130692"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J. Chen",
+      "raw_affiliation_strings": [
+        "Zhejiang University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Zhejiang University",
+          "institution_ids": [
+            "https://openalex.org/I76130692"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100402577",
+        "display_name": "Li J",
+        "orcid": "https://orcid.org/0000-0002-6679-5227",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-6679-5227",
+          "https://orcid.org/0000-0003-1338-8764",
+          "https://orcid.org/0000-0001-9026-8817",
+          "https://orcid.org/0000-0002-4974-6116",
+          "https://orcid.org/0000-0002-8456-3980",
+          "https://orcid.org/0000-0003-2807-3888",
+          "https://orcid.org/0000-0003-4920-4322",
+          "https://orcid.org/0009-0007-7842-8305",
+          "https://orcid.org/0009-0008-8666-3126",
+          "https://orcid.org/0000-0001-5125-5992",
+          "https://orcid.org/0000-0001-5646-198X",
+          "https://orcid.org/0000-0001-5686-4690",
+          "https://orcid.org/0000-0001-6830-1633",
+          "https://orcid.org/0000-0001-6936-9445",
+          "https://orcid.org/0000-0001-7066-8098",
+          "https://orcid.org/0000-0001-7175-2320",
+          "https://orcid.org/0000-0001-7215-7152",
+          "https://orcid.org/0000-0001-7323-4017",
+          "https://orcid.org/0000-0001-8150-5577",
+          "https://orcid.org/0000-0001-8243-5267",
+          "https://orcid.org/0000-0001-8985-566X",
+          "https://orcid.org/0000-0001-9668-343X",
+          "https://orcid.org/0000-0001-9796-3353",
+          "https://orcid.org/0000-0002-0171-7308",
+          "https://orcid.org/0000-0002-0298-4213",
+          "https://orcid.org/0000-0002-0661-5642",
+          "https://orcid.org/0000-0002-0750-7352",
+          "https://orcid.org/0000-0002-0981-0320",
+          "https://orcid.org/0000-0002-1066-8923",
+          "https://orcid.org/0000-0002-2000-5074",
+          "https://orcid.org/0000-0002-2414-0556",
+          "https://orcid.org/0000-0002-2773-6806",
+          "https://orcid.org/0000-0002-2807-6336",
+          "https://orcid.org/0000-0002-3126-7889",
+          "https://orcid.org/0000-0002-3151-005X",
+          "https://orcid.org/0000-0002-3400-8241",
+          "https://orcid.org/0000-0002-3485-5379",
+          "https://orcid.org/0000-0002-3707-4623",
+          "https://orcid.org/0000-0002-4395-2656",
+          "https://orcid.org/0000-0002-5137-8017",
+          "https://orcid.org/0000-0002-5204-019X",
+          "https://orcid.org/0000-0002-5392-0471",
+          "https://orcid.org/0000-0002-5787-9760",
+          "https://orcid.org/0000-0002-6244-0664",
+          "https://orcid.org/0000-0002-7295-3033",
+          "https://orcid.org/0000-0002-7314-3833",
+          "https://orcid.org/0000-0002-7489-4778",
+          "https://orcid.org/0000-0002-7990-1295",
+          "https://orcid.org/0000-0002-8205-9334",
+          "https://orcid.org/0000-0002-9340-3962",
+          "https://orcid.org/0000-0002-9492-1083",
+          "https://orcid.org/0000-0003-0894-0892",
+          "https://orcid.org/0000-0003-0905-0816",
+          "https://orcid.org/0000-0003-1346-8422",
+          "https://orcid.org/0000-0003-1412-5261",
+          "https://orcid.org/0000-0003-1434-2514",
+          "https://orcid.org/0000-0003-2056-6768",
+          "https://orcid.org/0000-0003-2320-9387",
+          "https://orcid.org/0000-0003-2349-208X",
+          "https://orcid.org/0000-0003-2926-1864",
+          "https://orcid.org/0000-0003-3304-5005",
+          "https://orcid.org/0000-0003-3320-7924",
+          "https://orcid.org/0000-0003-3733-0313",
+          "https://orcid.org/0000-0003-3828-2704",
+          "https://orcid.org/0000-0003-4002-3031",
+          "https://orcid.org/0009-0000-0346-161X",
+          "https://orcid.org/0009-0000-1472-7524",
+          "https://orcid.org/0009-0000-3401-1953",
+          "https://orcid.org/0009-0000-7009-9411",
+          "https://orcid.org/0009-0000-7300-0130",
+          "https://orcid.org/0009-0000-8397-3884",
+          "https://orcid.org/0009-0000-8893-9829",
+          "https://orcid.org/0009-0000-9316-639X",
+          "https://orcid.org/0009-0000-9560-3565",
+          "https://orcid.org/0009-0001-0944-616X",
+          "https://orcid.org/0009-0001-1189-4332",
+          "https://orcid.org/0009-0001-1531-2192",
+          "https://orcid.org/0009-0001-1735-0897",
+          "https://orcid.org/0009-0001-2683-7736",
+          "https://orcid.org/0009-0001-4554-0970",
+          "https://orcid.org/0009-0001-6977-1458",
+          "https://orcid.org/0009-0001-9114-6018",
+          "https://orcid.org/0009-0002-1731-4762",
+          "https://orcid.org/0009-0002-3707-0208",
+          "https://orcid.org/0009-0002-7814-3477",
+          "https://orcid.org/0009-0003-1276-1931",
+          "https://orcid.org/0009-0003-5923-4864",
+          "https://orcid.org/0009-0003-9599-4289",
+          "https://orcid.org/0009-0004-7386-2098",
+          "https://orcid.org/0009-0005-1050-6157",
+          "https://orcid.org/0009-0005-3665-0261",
+          "https://orcid.org/0009-0006-0071-7409",
+          "https://orcid.org/0009-0006-2969-6509",
+          "https://orcid.org/0009-0006-5633-7333",
+          "https://orcid.org/0009-0006-7361-3045",
+          "https://orcid.org/0009-0007-0470-8240",
+          "https://orcid.org/0009-0007-0915-2130",
+          "https://orcid.org/0009-0007-1901-1809",
+          "https://orcid.org/0009-0007-3337-1982",
+          "https://orcid.org/0009-0007-4306-5081",
+          "https://orcid.org/0009-0007-7559-7488",
+          "https://orcid.org/0009-0007-8954-6454",
+          "https://orcid.org/0009-0008-0558-3467",
+          "https://orcid.org/0009-0008-4484-4041",
+          "https://orcid.org/0009-0008-6756-2362",
+          "https://orcid.org/0009-0008-7474-1326",
+          "https://orcid.org/0009-0008-8760-1365",
+          "https://orcid.org/0009-0009-0449-4996",
+          "https://orcid.org/0009-0009-1828-2417",
+          "https://orcid.org/0009-0009-2797-161X",
+          "https://orcid.org/0000-0001-6053-319X",
+          "https://orcid.org/0009-0000-7776-9131",
+          "https://orcid.org/0009-0005-0171-1482"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I76130692",
+          "display_name": "Zhejiang University",
+          "ror": "https://ror.org/00a2xv884",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I76130692"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J. Li",
+      "raw_affiliation_strings": [
+        "Zhejiang University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Zhejiang University",
+          "institution_ids": [
+            "https://openalex.org/I76130692"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5136900886",
+        "display_name": "R. Du",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I76130692",
+          "display_name": "Zhejiang University",
+          "ror": "https://ror.org/00a2xv884",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I76130692"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "R. Du",
+      "raw_affiliation_strings": [
+        "Zhejiang University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Zhejiang University",
+          "institution_ids": [
+            "https://openalex.org/I76130692"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5136946841",
+        "display_name": "H. Lu",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I76130692",
+          "display_name": "Zhejiang University",
+          "ror": "https://ror.org/00a2xv884",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I76130692"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "H. Lu",
+      "raw_affiliation_strings": [
+        "Zhejiang University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Zhejiang University",
+          "institution_ids": [
+            "https://openalex.org/I76130692"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I76130692"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.0,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": {
+    "value": 0.87611583,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "1",
+    "last_page": "5"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.7900999784469604,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.7900999784469604,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13018",
+      "display_name": "Seismology and Earthquake Studies",
+      "score": 0.049400001764297485,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10220",
+      "display_name": "Machine Fault Diagnosis Techniques",
+      "score": 0.01940000057220459,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/deep-learning",
+      "display_name": "Deep learning",
+      "score": 0.698199987411499
+    },
+    {
+      "id": "https://openalex.org/keywords/pattern-recognition",
+      "display_name": "Pattern recognition (psychology)",
+      "score": 0.414900004863739
+    },
+    {
+      "id": "https://openalex.org/keywords/noise",
+      "display_name": "Noise (video)",
+      "score": 0.36500000953674316
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-neural-network",
+      "display_name": "Artificial neural network",
+      "score": 0.3630000054836273
+    },
+    {
+      "id": "https://openalex.org/keywords/noise-reduction",
+      "display_name": "Noise reduction",
+      "score": 0.35179999470710754
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C108583219",
+      "wikidata": "https://www.wikidata.org/wiki/Q197536",
+      "display_name": "Deep learning",
+      "level": 2,
+      "score": 0.698199987411499
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.6779999732971191
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.4717000126838684
+    },
+    {
+      "id": "https://openalex.org/C153180895",
+      "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+      "display_name": "Pattern recognition (psychology)",
+      "level": 2,
+      "score": 0.414900004863739
+    },
+    {
+      "id": "https://openalex.org/C99498987",
+      "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+      "display_name": "Noise (video)",
+      "level": 3,
+      "score": 0.36500000953674316
+    },
+    {
+      "id": "https://openalex.org/C50644808",
+      "wikidata": "https://www.wikidata.org/wiki/Q192776",
+      "display_name": "Artificial neural network",
+      "level": 2,
+      "score": 0.3630000054836273
+    },
+    {
+      "id": "https://openalex.org/C163294075",
+      "wikidata": "https://www.wikidata.org/wiki/Q581861",
+      "display_name": "Noise reduction",
+      "level": 2,
+      "score": 0.35179999470710754
+    },
+    {
+      "id": "https://openalex.org/C2776401178",
+      "wikidata": "https://www.wikidata.org/wiki/Q12050496",
+      "display_name": "Feature (linguistics)",
+      "level": 2,
+      "score": 0.33379998803138733
+    },
+    {
+      "id": "https://openalex.org/C31972630",
+      "wikidata": "https://www.wikidata.org/wiki/Q844240",
+      "display_name": "Computer vision",
+      "level": 1,
+      "score": 0.3158000111579895
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.30309998989105225
+    },
+    {
+      "id": "https://openalex.org/C62649853",
+      "wikidata": "https://www.wikidata.org/wiki/Q199687",
+      "display_name": "Remote sensing",
+      "level": 1,
+      "score": 0.28769999742507935
+    },
+    {
+      "id": "https://openalex.org/C192209626",
+      "wikidata": "https://www.wikidata.org/wiki/Q190909",
+      "display_name": "Focus (optics)",
+      "level": 2,
+      "score": 0.2752000093460083
+    },
+    {
+      "id": "https://openalex.org/C81363708",
+      "wikidata": "https://www.wikidata.org/wiki/Q17084460",
+      "display_name": "Convolutional neural network",
+      "level": 2,
+      "score": 0.2646999955177307
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.3997/2214-4609.2025101271",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.3997/2214-4609.2025101271",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "86th EAGE Annual Conference &amp; Exhibition",
+      "raw_type": "proceedings-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Climate action",
+      "id": "https://metadata.un.org/sdg/13",
+      "score": 0.6842998266220093
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [],
+  "abstract_inverted_index": {
+    "Summary": [
+      0
+    ],
+    "Seismic": [
+      1
+    ],
+    "exploration": [
+      2,
+      16
+    ],
+    "plays": [
+      3
+    ],
+    "a": [
+      4,
+      54,
+      75,
+      99
+    ],
+    "crucial": [
+      5
+    ],
+    "role": [
+      6
+    ],
+    "in": [
+      7,
+      57
+    ],
+    "the": [
+      8,
+      71,
+      137,
+      142,
+      159
+    ],
+    "development": [
+      9
+    ],
+    "of": [
+      10,
+      73,
+      162
+    ],
+    "oil": [
+      11
+    ],
+    "and": [
+      12,
+      22,
+      43,
+      81,
+      123
+    ],
+    "gas": [
+      13
+    ],
+    "resources,": [
+      14
+    ],
+    "with": [
+      15
+    ],
+    "efforts": [
+      17
+    ],
+    "increasingly": [
+      18
+    ],
+    "focusing": [
+      19
+    ],
+    "on": [
+      20,
+      132,
+      153
+    ],
+    "deeper": [
+      21
+    ],
+    "more": [
+      23
+    ],
+    "complex": [
+      24
+    ],
+    "geological": [
+      25
+    ],
+    "environments.": [
+      26
+    ],
+    "In": [
+      27,
+      46
+    ],
+    "active": [
+      28
+    ],
+    "seismic": [
+      29,
+      79,
+      134,
+      155
+    ],
+    "data,": [
+      30
+    ],
+    "effective": [
+      31,
+      125
+    ],
+    "signals": [
+      32,
+      126
+    ],
+    "are": [
+      33
+    ],
+    "frequently": [
+      34
+    ],
+    "compromised": [
+      35
+    ],
+    "by": [
+      36
+    ],
+    "noise,": [
+      37
+    ],
+    "which": [
+      38
+    ],
+    "hinders": [
+      39
+    ],
+    "subsequent": [
+      40
+    ],
+    "inversion,": [
+      41
+    ],
+    "imaging,": [
+      42
+    ],
+    "interpretation": [
+      44
+    ],
+    "processes.": [
+      45
+    ],
+    "recent": [
+      47
+    ],
+    "years,": [
+      48
+    ],
+    "deep": [
+      49
+    ],
+    "learning": [
+      50
+    ],
+    "has": [
+      51,
+      88
+    ],
+    "emerged": [
+      52
+    ],
+    "as": [
+      53,
+      69
+    ],
+    "focal": [
+      55
+    ],
+    "point": [
+      56
+    ],
+    "denoising": [
+      58,
+      95,
+      102,
+      115,
+      145,
+      149
+    ],
+    "research": [
+      59
+    ],
+    "due": [
+      60
+    ],
+    "to": [
+      61,
+      127
+    ],
+    "its": [
+      62
+    ],
+    "unique": [
+      63
+    ],
+    "advantages.": [
+      64
+    ],
+    "By": [
+      65
+    ],
+    "utilizing": [
+      66
+    ],
+    "noise": [
+      67,
+      82,
+      122
+    ],
+    "data": [
+      68,
+      80,
+      83,
+      135,
+      156
+    ],
+    "label,": [
+      70
+    ],
+    "approach": [
+      72,
+      118
+    ],
+    "establishing": [
+      74
+    ],
+    "mapping": [
+      76
+    ],
+    "between": [
+      77
+    ],
+    "contaminated": [
+      78
+    ],
+    "via": [
+      84
+    ],
+    "convolutional": [
+      85
+    ],
+    "neural": [
+      86
+    ],
+    "networks": [
+      87
+    ],
+    "gained": [
+      89
+    ],
+    "widespread": [
+      90
+    ],
+    "adoption.": [
+      91
+    ],
+    "To": [
+      92
+    ],
+    "further": [
+      93,
+      120
+    ],
+    "enhance": [
+      94
+    ],
+    "performance,": [
+      96
+    ],
+    "we": [
+      97
+    ],
+    "propose": [
+      98
+    ],
+    "multi-round": [
+      100,
+      143
+    ],
+    "SCU-Net-based": [
+      101
+    ],
+    "method.": [
+      103,
+      164
+    ],
+    "This": [
+      104
+    ],
+    "method": [
+      105,
+      146
+    ],
+    "requires": [
+      106
+    ],
+    "at": [
+      107
+    ],
+    "least": [
+      108
+    ],
+    "two": [
+      109
+    ],
+    "training": [
+      110
+    ],
+    "iterations.": [
+      111
+    ],
+    "Building": [
+      112
+    ],
+    "upon": [
+      113
+    ],
+    "single-round": [
+      114
+    ],
+    "results,": [
+      116
+    ],
+    "this": [
+      117,
+      163
+    ],
+    "can": [
+      119
+    ],
+    "suppress": [
+      121
+    ],
+    "protect": [
+      124
+    ],
+    "some": [
+      128
+    ],
+    "extent.": [
+      129
+    ],
+    "Numerical": [
+      130,
+      151
+    ],
+    "experiments": [
+      131,
+      152
+    ],
+    "synthetic": [
+      133
+    ],
+    "from": [
+      136
+    ],
+    "Marmousi": [
+      138
+    ],
+    "model": [
+      139
+    ],
+    "demonstrate": [
+      140
+    ],
+    "that": [
+      141
+    ],
+    "SCU-Net": [
+      144
+    ],
+    "achieves": [
+      147
+    ],
+    "superior": [
+      148
+    ],
+    "effects.": [
+      150
+    ],
+    "field": [
+      154
+    ],
+    "also": [
+      157
+    ],
+    "verify": [
+      158
+    ],
+    "robust": [
+      160
+    ],
+    "applicability": [
+      161
+    ]
+  },
+  "counts_by_year": [],
+  "updated_date": "2026-09-24T07:57:37.273135",
+  "created_date": "2026-05-26T00:00:00"
+}

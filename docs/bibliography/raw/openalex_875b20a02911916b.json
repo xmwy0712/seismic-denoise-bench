@@ -1,0 +1,1452 @@
+{
+  "id": "https://openalex.org/W2026577222",
+  "doi": "https://doi.org/10.1190/1.1820970",
+  "title": "Time lapse seismic monitoring of the Draugen field",
+  "display_name": "Time lapse seismic monitoring of the Draugen field",
+  "publication_year": 1999,
+  "publication_date": "1999-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2026577222",
+    "doi": "https://doi.org/10.1190/1.1820970",
+    "mag": "2026577222"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.1820970",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.1820970",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "International Meeting for Applied Geoscience &amp; Energy",
+    "raw_type": "proceedings-article"
+  },
+  "type": "conference-paper",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5001202931",
+        "display_name": "Pieter W. Gabriels",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210117735",
+          "display_name": "Shell (Norway)",
+          "ror": "https://ror.org/022gnfx83",
+          "country_code": "NO",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210117735",
+            "https://openalex.org/I7923278"
+          ]
+        }
+      ],
+      "countries": [
+        "NO"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Pieter W. Gabriels",
+      "raw_affiliation_strings": [
+        "1 Norske Shell",
+        "Norske Shell"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1 Norske Shell",
+          "institution_ids": [
+            "https://openalex.org/I4210117735"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Norske Shell",
+          "institution_ids": [
+            "https://openalex.org/I4210117735"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5030580848",
+        "display_name": "N. Aksel Horvei",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210117735",
+          "display_name": "Shell (Norway)",
+          "ror": "https://ror.org/022gnfx83",
+          "country_code": "NO",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210117735",
+            "https://openalex.org/I7923278"
+          ]
+        }
+      ],
+      "countries": [
+        "NO"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "N. Aksel Horvei",
+      "raw_affiliation_strings": [
+        "1 Norske Shell",
+        "Norske Shell"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1 Norske Shell",
+          "institution_ids": [
+            "https://openalex.org/I4210117735"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Norske Shell",
+          "institution_ids": [
+            "https://openalex.org/I4210117735"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5050262035",
+        "display_name": "J. K. Koster",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210117735",
+          "display_name": "Shell (Norway)",
+          "ror": "https://ror.org/022gnfx83",
+          "country_code": "NO",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210117735",
+            "https://openalex.org/I7923278"
+          ]
+        }
+      ],
+      "countries": [
+        "NO"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J. Klaas Koster",
+      "raw_affiliation_strings": [
+        "1 Norske Shell",
+        "Norske Shell"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1 Norske Shell",
+          "institution_ids": [
+            "https://openalex.org/I4210117735"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Norske Shell",
+          "institution_ids": [
+            "https://openalex.org/I4210117735"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5047612819",
+        "display_name": "Arne Onstein",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I7923278",
+          "display_name": "Shell (Netherlands)",
+          "ror": "https://ror.org/00b5m4j81",
+          "country_code": "NL",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I7923278"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Arne Onstein",
+      "raw_affiliation_strings": [
+        "2 Shell International Research",
+        "Shell International Research"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "2 Shell International Research",
+          "institution_ids": [
+            "https://openalex.org/I7923278"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Shell International Research",
+          "institution_ids": [
+            "https://openalex.org/I7923278"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5012811944",
+        "display_name": "Aker Geo",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I7923278",
+          "display_name": "Shell (Netherlands)",
+          "ror": "https://ror.org/00b5m4j81",
+          "country_code": "NL",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I7923278"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Aker Geo",
+      "raw_affiliation_strings": [
+        "2 Shell International Research",
+        "Shell International Research"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "2 Shell International Research",
+          "institution_ids": [
+            "https://openalex.org/I7923278"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Shell International Research",
+          "institution_ids": [
+            "https://openalex.org/I7923278"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5109303457",
+        "display_name": "Rob Staples",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I7923278",
+          "display_name": "Shell (Netherlands)",
+          "ror": "https://ror.org/00b5m4j81",
+          "country_code": "NL",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I7923278"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Rob Staples",
+      "raw_affiliation_strings": [
+        "2 Shell International Research",
+        "Shell International Research"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "2 Shell International Research",
+          "institution_ids": [
+            "https://openalex.org/I7923278"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Shell International Research",
+          "institution_ids": [
+            "https://openalex.org/I7923278"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 3.3124,
+  "has_fulltext": false,
+  "cited_by_count": 21,
+  "citation_normalized_percentile": {
+    "value": 0.89824561,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "1",
+    "issue": null,
+    "first_page": "2035",
+    "last_page": "2037"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9940000176429749,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9940000176429749,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13018",
+      "display_name": "Seismology and Earthquake Studies",
+      "score": 0.9682999849319458,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9602000117301941,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/field",
+      "display_name": "Field (mathematics)",
+      "score": 0.6266660690307617
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.6109511256217957
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.42539146542549133
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.41913357377052307
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C9652623",
+      "wikidata": "https://www.wikidata.org/wiki/Q190109",
+      "display_name": "Field (mathematics)",
+      "level": 2,
+      "score": 0.6266660690307617
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.6109511256217957
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.42539146542549133
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.41913357377052307
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C202444582",
+      "wikidata": "https://www.wikidata.org/wiki/Q837863",
+      "display_name": "Pure mathematics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.1820970",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.1820970",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "International Meeting for Applied Geoscience &amp; Energy",
+      "raw_type": "proceedings-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/13",
+      "display_name": "Climate action",
+      "score": 0.7400000095367432
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2899084033",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2324615561",
+    "https://openalex.org/W2086120259",
+    "https://openalex.org/W2390279801",
+    "https://openalex.org/W2245170124",
+    "https://openalex.org/W2358668433",
+    "https://openalex.org/W3186982001",
+    "https://openalex.org/W2137941439",
+    "https://openalex.org/W1984402782"
+  ],
+  "abstract_inverted_index": {
+    "PreviousNext": [
+      0
+    ],
+    "No": [
+      1
+    ],
+    "AccessSEG": [
+      2
+    ],
+    "Technical": [
+      3,
+      308,
+      365
+    ],
+    "Program": [
+      4,
+      309,
+      366
+    ],
+    "Expanded": [
+      5,
+      310,
+      367
+    ],
+    "Abstracts": [
+      6,
+      311,
+      368
+    ],
+    "1999Time": [
+      7
+    ],
+    "lapse": [
+      8,
+      357
+    ],
+    "seismic": [
+      9,
+      116,
+      198,
+      209,
+      254,
+      276,
+      296,
+      358
+    ],
+    "monitoring": [
+      10,
+      211,
+      359
+    ],
+    "of": [
+      11,
+      91,
+      155,
+      167,
+      183,
+      212,
+      273,
+      326,
+      329,
+      360
+    ],
+    "the": [
+      12,
+      147,
+      152,
+      156,
+      221,
+      361
+    ],
+    "Draugen": [
+      13,
+      362
+    ],
+    "fieldAuthors:": [
+      14
+    ],
+    "Pieter": [
+      15,
+      339
+    ],
+    "W.": [
+      16,
+      25,
+      340
+    ],
+    "GabrielsN.": [
+      17
+    ],
+    "Aksel": [
+      18,
+      29,
+      343
+    ],
+    "HorveiJ.": [
+      19
+    ],
+    "Klaas": [
+      20,
+      33,
+      346
+    ],
+    "KosterArne": [
+      21
+    ],
+    "OnsteinAker": [
+      22
+    ],
+    "GeoRob": [
+      23
+    ],
+    "StaplesPieter": [
+      24
+    ],
+    "GabrielsNorske": [
+      26
+    ],
+    "Shell,": [
+      27,
+      31,
+      35
+    ],
+    "N.": [
+      28,
+      342
+    ],
+    "HorveiNorske": [
+      30
+    ],
+    "J.": [
+      32,
+      128,
+      345
+    ],
+    "KosterNorske": [
+      34
+    ],
+    "Arne": [
+      36,
+      348
+    ],
+    "OnsteinShell": [
+      37
+    ],
+    "International": [
+      38,
+      42,
+      47
+    ],
+    "Research,": [
+      39,
+      43
+    ],
+    "Aker": [
+      40,
+      350
+    ],
+    "GeoShell": [
+      41
+    ],
+    "and": [
+      44,
+      80,
+      103,
+      122,
+      130,
+      169,
+      202,
+      238,
+      246,
+      262,
+      290,
+      352
+    ],
+    "Rob": [
+      45,
+      353
+    ],
+    "StaplesShell": [
+      46
+    ],
+    "Researchhttps://doi.org/10.1190/1.1820970": [
+      48
+    ],
+    "SectionsAboutPDF/ePub": [
+      49
+    ],
+    "ToolsAdd": [
+      50
+    ],
+    "to": [
+      51,
+      120
+    ],
+    "favoritesDownload": [
+      52
+    ],
+    "CitationsTrack": [
+      53
+    ],
+    "CitationsPermissions": [
+      54
+    ],
+    "ShareFacebookTwitterLinked": [
+      55
+    ],
+    "InRedditEmail": [
+      56
+    ],
+    "Permalink:": [
+      57
+    ],
+    "https://doi.org/10.1190/1.1820970FiguresReferencesRelatedDetailsCited": [
+      58
+    ],
+    "byReservoir": [
+      59
+    ],
+    "multiparameter": [
+      60
+    ],
+    "prediction": [
+      61
+    ],
+    "method": [
+      62
+    ],
+    "based": [
+      63
+    ],
+    "on": [
+      64
+    ],
+    "deep": [
+      65
+    ],
+    "learning": [
+      66
+    ],
+    "for": [
+      67,
+      94,
+      146,
+      159
+    ],
+    "CO2": [
+      68,
+      214
+    ],
+    "geologic": [
+      69
+    ],
+    "storageDong": [
+      70
+    ],
+    "Li,": [
+      71
+    ],
+    "Suping": [
+      72
+    ],
+    "Peng,": [
+      73
+    ],
+    "Yinling": [
+      74
+    ],
+    "Guo,": [
+      75
+    ],
+    "Yongxu": [
+      76
+    ],
+    "Lu,": [
+      77
+    ],
+    "Xiaoqin": [
+      78
+    ],
+    "Cui,": [
+      79
+    ],
+    "Wenfeng": [
+      81
+    ],
+    "Du5": [
+      82
+    ],
+    "December": [
+      83
+    ],
+    "2022": [
+      84,
+      280
+    ],
+    "|": [
+      85,
+      109,
+      267,
+      281,
+      301
+    ],
+    "GEOPHYSICS,": [
+      86,
+      110,
+      268,
+      302
+    ],
+    "Vol.": [
+      87,
+      111,
+      162,
+      178,
+      190,
+      269,
+      284,
+      303
+    ],
+    "88,": [
+      88
+    ],
+    "No.": [
+      89,
+      113,
+      164,
+      180,
+      192,
+      271,
+      286,
+      305
+    ],
+    "1Estimation": [
+      90
+    ],
+    "pressure-saturation": [
+      92
+    ],
+    "changes": [
+      93,
+      171,
+      249,
+      293
+    ],
+    "unconsolidated": [
+      95
+    ],
+    "reservoir": [
+      96,
+      138,
+      219
+    ],
+    "rocks": [
+      97
+    ],
+    "with": [
+      98
+    ],
+    "high": [
+      99
+    ],
+    "VP/VS": [
+      100
+    ],
+    "ratioTuhin": [
+      101
+    ],
+    "Bhakta": [
+      102
+    ],
+    "Martin": [
+      104
+    ],
+    "Landrø": [
+      105
+    ],
+    "19": [
+      106
+    ],
+    "August": [
+      107
+    ],
+    "2014": [
+      108
+    ],
+    "79,": [
+      112
+    ],
+    "5Time-lapse": [
+      114
+    ],
+    "(4D)": [
+      115
+    ],
+    "effects:": [
+      117
+    ],
+    "Reservoir": [
+      118,
+      136
+    ],
+    "sensitivity": [
+      119
+    ],
+    "stress": [
+      121
+    ],
+    "water": [
+      123
+    ],
+    "saturationSunday": [
+      124
+    ],
+    "O.": [
+      125
+    ],
+    "Amoyedo,": [
+      126
+    ],
+    "Kurt": [
+      127
+    ],
+    "Marfurt,": [
+      129
+    ],
+    "Roger": [
+      131
+    ],
+    "M.": [
+      132
+    ],
+    "Slatt25": [
+      133
+    ],
+    "October": [
+      134,
+      206
+    ],
+    "2012Seismic": [
+      135
+    ],
+    "MonitoringVisualize": [
+      137
+    ],
+    "aging": [
+      139
+    ],
+    "by": [
+      140
+    ],
+    "4D": [
+      141,
+      275
+    ],
+    "seismic:": [
+      142
+    ],
+    "A": [
+      143
+    ],
+    "case": [
+      144
+    ],
+    "study": [
+      145
+    ],
+    "Snorre": [
+      148
+    ],
+    "oil": [
+      149
+    ],
+    "field": [
+      150
+    ],
+    "in": [
+      151,
+      220
+    ],
+    "North": [
+      153
+    ],
+    "SeaJournal": [
+      154
+    ],
+    "Japanese": [
+      157
+    ],
+    "Association": [
+      158
+    ],
+    "Petroleum": [
+      160,
+      282
+    ],
+    "Technology,": [
+      161
+    ],
+    "74,": [
+      163
+    ],
+    "1Stochastic": [
+      165
+    ],
+    "inversion": [
+      166
+    ],
+    "pressure": [
+      168,
+      245,
+      289
+    ],
+    "saturation": [
+      170,
+      194,
+      248,
+      292
+    ],
+    "from": [
+      172,
+      250,
+      294
+    ],
+    "time-lapse": [
+      173,
+      187
+    ],
+    "multi": [
+      174
+    ],
+    "component": [
+      175
+    ],
+    "dataGeophysical": [
+      176
+    ],
+    "Prospecting,": [
+      177,
+      189
+    ],
+    "55,": [
+      179,
+      191
+    ],
+    "6Quantitative": [
+      181
+    ],
+    "detection": [
+      182
+    ],
+    "fluid": [
+      184,
+      247,
+      291
+    ],
+    "distribution": [
+      185
+    ],
+    "using": [
+      186,
+      196
+    ],
+    "seismicGeophysical": [
+      188
+    ],
+    "2Water": [
+      193
+    ],
+    "determination": [
+      195
+    ],
+    "4D3C": [
+      197
+    ],
+    "dataFereidoon": [
+      199
+    ],
+    "Vasheghani": [
+      200
+    ],
+    "Farahani": [
+      201
+    ],
+    "Mohammad": [
+      203
+    ],
+    "Ali": [
+      204
+    ],
+    "Riahi6": [
+      205
+    ],
+    "20064‐D": [
+      207
+    ],
+    "high‐resolution": [
+      208
+    ],
+    "reflection": [
+      210
+    ],
+    "miscible": [
+      213
+    ],
+    "injected": [
+      215
+    ],
+    "into": [
+      216
+    ],
+    "a": [
+      217
+    ],
+    "carbonate": [
+      218
+    ],
+    "Hall‐Gurney": [
+      222
+    ],
+    "Field,": [
+      223
+    ],
+    "Russell": [
+      224
+    ],
+    "County,": [
+      225
+    ],
+    "KansasRichard": [
+      226
+    ],
+    "D.": [
+      227
+    ],
+    "Miller,": [
+      228
+    ],
+    "Abdelmoneam": [
+      229
+    ],
+    "Elsayed": [
+      230
+    ],
+    "Raef,": [
+      231
+    ],
+    "Alan": [
+      232
+    ],
+    "P.": [
+      233
+    ],
+    "Byrnes,": [
+      234
+    ],
+    "Jamie": [
+      235
+    ],
+    "L.": [
+      236
+    ],
+    "Lambrecht,": [
+      237
+    ],
+    "William": [
+      239
+    ],
+    "E.": [
+      240
+    ],
+    "Harrison3": [
+      241
+    ],
+    "January": [
+      242
+    ],
+    "2005Discrimination": [
+      243
+    ],
+    "between": [
+      244,
+      288
+    ],
+    "marine": [
+      251
+    ],
+    "multicomponent": [
+      252
+    ],
+    "time‐lapse": [
+      253,
+      295
+    ],
+    "dataMartin": [
+      255,
+      297
+    ],
+    "Landrø,": [
+      256
+    ],
+    "Helene": [
+      257
+    ],
+    "Hafslund": [
+      258
+    ],
+    "Veire,": [
+      259
+    ],
+    "Kenneth": [
+      260
+    ],
+    "Duffaut,": [
+      261
+    ],
+    "Nazih": [
+      263
+    ],
+    "Najjar25": [
+      264
+    ],
+    "September": [
+      265
+    ],
+    "2003": [
+      266
+    ],
+    "68,": [
+      270
+    ],
+    "5Overview": [
+      272
+    ],
+    "global": [
+      274
+    ],
+    "implementation": [
+      277
+    ],
+    "strategy6": [
+      278
+    ],
+    "June": [
+      279
+    ],
+    "Geoscience,": [
+      283
+    ],
+    "9,": [
+      285
+    ],
+    "1Discrimination": [
+      287
+    ],
+    "Landrø7": [
+      298
+    ],
+    "February": [
+      299
+    ],
+    "2012": [
+      300
+    ],
+    "66,": [
+      304
+    ],
+    "3": [
+      306
+    ],
+    "SEG": [
+      307,
+      364
+    ],
+    "1999ISSN": [
+      312
+    ],
+    "(print):1052-3812": [
+      313
+    ],
+    "ISSN": [
+      314
+    ],
+    "(online):1949-4645Copyright:": [
+      315
+    ],
+    "1999": [
+      316,
+      321,
+      324
+    ],
+    "Pages:": [
+      317
+    ],
+    "2061": [
+      318
+    ],
+    "publication": [
+      319
+    ],
+    "data©": [
+      320
+    ],
+    "Copyright": [
+      322
+    ],
+    "©": [
+      323
+    ],
+    "Society": [
+      325
+    ],
+    "Exploration": [
+      327,
+      330
+    ],
+    "GeophysicistsPublisher:Society": [
+      328
+    ],
+    "Geophysicists": [
+      331
+    ],
+    "HistoryPublished": [
+      332
+    ],
+    "Online:": [
+      333
+    ],
+    "04": [
+      334
+    ],
+    "Jan": [
+      335
+    ],
+    "2005": [
+      336
+    ],
+    "CITATION": [
+      337
+    ],
+    "INFORMATION": [
+      338
+    ],
+    "Gabriels,": [
+      341
+    ],
+    "Horvei,": [
+      344
+    ],
+    "Koster,": [
+      347
+    ],
+    "Onstein,": [
+      349
+    ],
+    "Geo,": [
+      351
+    ],
+    "Staples,": [
+      354
+    ],
+    "(1999),": [
+      355
+    ],
+    "\"Time": [
+      356
+    ],
+    "field,\"": [
+      363
+    ],
+    ":": [
+      369
+    ],
+    "2035-2037.": [
+      370
+    ],
+    "https://doi.org/10.1190/1.1820970": [
+      371
+    ],
+    "Plain-Language": [
+      372
+    ],
+    "Summary": [
+      373
+    ],
+    "PDF": [
+      374
+    ],
+    "DownloadLoading": [
+      375
+    ],
+    "...": [
+      376
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,675 @@
+{
+  "id": "https://openalex.org/W2063110976",
+  "doi": "https://doi.org/10.1007/s10596-008-9091-0",
+  "title": "Karhunen–Loève spectral analysis in multiresolution decomposition",
+  "display_name": "Karhunen–Loève spectral analysis in multiresolution decomposition",
+  "publication_year": 2008,
+  "publication_date": "2008-06-26",
+  "ids": {
+    "openalex": "https://openalex.org/W2063110976",
+    "doi": "https://doi.org/10.1007/s10596-008-9091-0",
+    "mag": "2063110976"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1007/s10596-008-9091-0",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1007/s10596-008-9091-0",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S28462638",
+      "display_name": "Computational Geosciences",
+      "issn_l": "1420-0597",
+      "issn": [
+        "1420-0597",
+        "1573-1499"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319900",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Science+Business Media",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Computational Geosciences",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5110901329",
+        "display_name": "F. E. A. Leite",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I35046152",
+          "display_name": "Universidade Federal do Rio Grande do Norte",
+          "ror": "https://ror.org/04wn09761",
+          "country_code": "BR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I35046152"
+          ]
+        }
+      ],
+      "countries": [
+        "BR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "F. E. A. Leite",
+      "raw_affiliation_strings": [
+        "Departamento de Física Teórica e Experimental, International Center for Complex Systems, Universidade Federal do Rio Grande do Norte, Campus Universitário, 59078–970, Natal, RN, Brazil",
+        "Universidade Federal do Rio Grande do Norte"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Departamento de Física Teórica e Experimental, International Center for Complex Systems, Universidade Federal do Rio Grande do Norte, Campus Universitário, 59078–970, Natal, RN, Brazil",
+          "institution_ids": [
+            "https://openalex.org/I35046152"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Universidade Federal do Rio Grande do Norte",
+          "institution_ids": [
+            "https://openalex.org/I35046152"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5050293664",
+        "display_name": "Raúl Montagne",
+        "orcid": "https://orcid.org/0000-0002-4413-6458",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-4413-6458"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I62921916",
+          "display_name": "Universidade Federal Rural de Pernambuco",
+          "ror": "https://ror.org/02ksmb993",
+          "country_code": "BR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I62921916"
+          ]
+        }
+      ],
+      "countries": [
+        "BR"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Raúl Montagne",
+      "raw_affiliation_strings": [
+        "Departamento de Física, Universidade Federal Rural, de Pernambuco, Rua Dom Manoel de Medeiros, s/n, Dois Irmãos, 52171–900, Recife, PE, Brasil",
+        "Universidade Federal Rural de Pernambuco "
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Departamento de Física, Universidade Federal Rural, de Pernambuco, Rua Dom Manoel de Medeiros, s/n, Dois Irmãos, 52171–900, Recife, PE, Brasil",
+          "institution_ids": [
+            "https://openalex.org/I62921916"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Universidade Federal Rural de Pernambuco ",
+          "institution_ids": [
+            "https://openalex.org/I62921916"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5003797136",
+        "display_name": "Gilberto Corso",
+        "orcid": "https://orcid.org/0000-0003-1748-4040",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-1748-4040"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I35046152",
+          "display_name": "Universidade Federal do Rio Grande do Norte",
+          "ror": "https://ror.org/04wn09761",
+          "country_code": "BR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I35046152"
+          ]
+        }
+      ],
+      "countries": [
+        "BR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "G. Corso",
+      "raw_affiliation_strings": [
+        "Departamento de Biofísica e Farmacologia, Centro de Biociências, Universidade Federal do Rio Grande do Norte, Campus Universitário, 59078–970, Natal, RN, Brazil",
+        "Universidade Federal do Rio Grande do Norte"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Departamento de Biofísica e Farmacologia, Centro de Biociências, Universidade Federal do Rio Grande do Norte, Campus Universitário, 59078–970, Natal, RN, Brazil",
+          "institution_ids": [
+            "https://openalex.org/I35046152"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Universidade Federal do Rio Grande do Norte",
+          "institution_ids": [
+            "https://openalex.org/I35046152"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5102103027",
+        "display_name": "LIACIR S. LUCENA",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I35046152",
+          "display_name": "Universidade Federal do Rio Grande do Norte",
+          "ror": "https://ror.org/04wn09761",
+          "country_code": "BR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I35046152"
+          ]
+        }
+      ],
+      "countries": [
+        "BR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "L. S. Lucena",
+      "raw_affiliation_strings": [
+        "Departamento de Física Teórica e Experimental, International Center for Complex Systems, Universidade Federal do Rio Grande do Norte, Campus Universitário, 59078–970, Natal, RN, Brazil",
+        "Universidade Federal do Rio Grande do Norte"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Departamento de Física Teórica e Experimental, International Center for Complex Systems, Universidade Federal do Rio Grande do Norte, Campus Universitário, 59078–970, Natal, RN, Brazil",
+          "institution_ids": [
+            "https://openalex.org/I35046152"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Universidade Federal do Rio Grande do Norte",
+          "institution_ids": [
+            "https://openalex.org/I35046152"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5050293664"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I62921916"
+  ],
+  "apc_list": {
+    "value": 3290,
+    "currency": "USD",
+    "value_usd": 3290
+  },
+  "apc_paid": null,
+  "fwci": 0.5257,
+  "has_fulltext": false,
+  "cited_by_count": 4,
+  "citation_normalized_percentile": {
+    "value": 0.6635639,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 94
+  },
+  "biblio": {
+    "volume": "13",
+    "issue": "2",
+    "first_page": "165",
+    "last_page": "170"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9995999932289124,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.995199978351593,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10688",
+      "display_name": "Image and Signal Denoising Methods",
+      "score": 0.9921000003814697,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/multiresolution-analysis",
+      "display_name": "Multiresolution analysis",
+      "score": 0.670777440071106
+    },
+    {
+      "id": "https://openalex.org/keywords/wavelet",
+      "display_name": "Wavelet",
+      "score": 0.6550934314727783
+    },
+    {
+      "id": "https://openalex.org/keywords/hydrogeology",
+      "display_name": "Hydrogeology",
+      "score": 0.48931190371513367
+    },
+    {
+      "id": "https://openalex.org/keywords/decomposition",
+      "display_name": "Decomposition",
+      "score": 0.48080721497535706
+    },
+    {
+      "id": "https://openalex.org/keywords/scale",
+      "display_name": "Scale (ratio)",
+      "score": 0.45127999782562256
+    },
+    {
+      "id": "https://openalex.org/keywords/energy",
+      "display_name": "Energy (signal processing)",
+      "score": 0.4396442174911499
+    },
+    {
+      "id": "https://openalex.org/keywords/wavelet-transform",
+      "display_name": "Wavelet transform",
+      "score": 0.4263514578342438
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.38098183274269104
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.33989137411117554
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.32416439056396484
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.30698785185813904
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.23537328839302063
+    },
+    {
+      "id": "https://openalex.org/keywords/wavelet-packet-decomposition",
+      "display_name": "Wavelet packet decomposition",
+      "score": 0.20988374948501587
+    },
+    {
+      "id": "https://openalex.org/keywords/statistics",
+      "display_name": "Statistics",
+      "score": 0.20444348454475403
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.2025861144065857
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C121927907",
+      "wikidata": "https://www.wikidata.org/wiki/Q1952516",
+      "display_name": "Multiresolution analysis",
+      "level": 5,
+      "score": 0.670777440071106
+    },
+    {
+      "id": "https://openalex.org/C47432892",
+      "wikidata": "https://www.wikidata.org/wiki/Q831390",
+      "display_name": "Wavelet",
+      "level": 2,
+      "score": 0.6550934314727783
+    },
+    {
+      "id": "https://openalex.org/C33556824",
+      "wikidata": "https://www.wikidata.org/wiki/Q179509",
+      "display_name": "Hydrogeology",
+      "level": 2,
+      "score": 0.48931190371513367
+    },
+    {
+      "id": "https://openalex.org/C124681953",
+      "wikidata": "https://www.wikidata.org/wiki/Q339062",
+      "display_name": "Decomposition",
+      "level": 2,
+      "score": 0.48080721497535706
+    },
+    {
+      "id": "https://openalex.org/C2778755073",
+      "wikidata": "https://www.wikidata.org/wiki/Q10858537",
+      "display_name": "Scale (ratio)",
+      "level": 2,
+      "score": 0.45127999782562256
+    },
+    {
+      "id": "https://openalex.org/C186370098",
+      "wikidata": "https://www.wikidata.org/wiki/Q442787",
+      "display_name": "Energy (signal processing)",
+      "level": 2,
+      "score": 0.4396442174911499
+    },
+    {
+      "id": "https://openalex.org/C196216189",
+      "wikidata": "https://www.wikidata.org/wiki/Q2867",
+      "display_name": "Wavelet transform",
+      "level": 3,
+      "score": 0.4263514578342438
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.38098183274269104
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.33989137411117554
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.32416439056396484
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.30698785185813904
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.23537328839302063
+    },
+    {
+      "id": "https://openalex.org/C155777637",
+      "wikidata": "https://www.wikidata.org/wiki/Q2736187",
+      "display_name": "Wavelet packet decomposition",
+      "level": 4,
+      "score": 0.20988374948501587
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.20444348454475403
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.2025861144065857
+    },
+    {
+      "id": "https://openalex.org/C18903297",
+      "wikidata": "https://www.wikidata.org/wiki/Q7150",
+      "display_name": "Ecology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C187320778",
+      "wikidata": "https://www.wikidata.org/wiki/Q1349130",
+      "display_name": "Geotechnical engineering",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1007/s10596-008-9091-0",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1007/s10596-008-9091-0",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S28462638",
+        "display_name": "Computational Geosciences",
+        "issn_l": "1420-0597",
+        "issn": [
+          "1420-0597",
+          "1573-1499"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310319900",
+        "host_organization_name": "Springer Science+Business Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319900",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Science+Business Media",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Computational Geosciences",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320322025",
+      "display_name": "Conselho Nacional de Desenvolvimento Científico e Tecnológico",
+      "ror": "https://ror.org/03swz6y49"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 17,
+  "referenced_works": [
+    "https://openalex.org/W561075433",
+    "https://openalex.org/W1579236455",
+    "https://openalex.org/W1598444278",
+    "https://openalex.org/W1607795755",
+    "https://openalex.org/W1633869374",
+    "https://openalex.org/W1978027761",
+    "https://openalex.org/W1983750143",
+    "https://openalex.org/W1992000671",
+    "https://openalex.org/W2009327160",
+    "https://openalex.org/W2015077400",
+    "https://openalex.org/W2049024962",
+    "https://openalex.org/W2052119824",
+    "https://openalex.org/W2062024414",
+    "https://openalex.org/W2065998336",
+    "https://openalex.org/W2115755118",
+    "https://openalex.org/W3099514962",
+    "https://openalex.org/W4255272544"
+  ],
+  "related_works": [
+    "https://openalex.org/W2040760337",
+    "https://openalex.org/W2032074140",
+    "https://openalex.org/W4246648935",
+    "https://openalex.org/W2111953915",
+    "https://openalex.org/W1931213905",
+    "https://openalex.org/W1553824813",
+    "https://openalex.org/W2090879446",
+    "https://openalex.org/W1967111219",
+    "https://openalex.org/W2112294001",
+    "https://openalex.org/W1994451025"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

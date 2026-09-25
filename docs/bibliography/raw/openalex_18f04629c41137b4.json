@@ -1,0 +1,399 @@
+{
+  "id": "https://openalex.org/W1602943529",
+  "doi": "https://doi.org/10.1007/978-3-642-59223-2_9",
+  "title": "Curve and Surface Fitting",
+  "display_name": "Curve and Surface Fitting",
+  "publication_year": 1997,
+  "publication_date": "1997-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1602943529",
+    "doi": "https://doi.org/10.1007/978-3-642-59223-2_9",
+    "mag": "1602943529"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1007/978-3-642-59223-2_9",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1007/978-3-642-59223-2_9",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4210217083",
+      "display_name": "Monographs in visual communication",
+      "issn_l": "1431-6897",
+      "issn": [
+        "1431-6897"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/P4310319965",
+      "host_organization_name": "Springer Nature",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature"
+      ],
+      "type": "book series"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Monographs in Visual Communication",
+    "raw_type": "book-chapter"
+  },
+  "type": "book-chapter",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5091660748",
+        "display_name": "Les A. Piegl",
+        "orcid": "https://orcid.org/0000-0003-0629-8496"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I2613432",
+          "display_name": "University of South Florida",
+          "ror": "https://ror.org/032db5x82",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2613432"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Les Piegl",
+      "raw_affiliation_strings": [
+        "Department of Computer Science and Engineering, University of South Florida, Fowler Avenue, ENG 118, Tampa, FL, 33620-5399, USA",
+        "University of South FLorida"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Computer Science and Engineering, University of South Florida, Fowler Avenue, ENG 118, Tampa, FL, 33620-5399, USA",
+          "institution_ids": [
+            "https://openalex.org/I2613432"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of South FLorida",
+          "institution_ids": [
+            "https://openalex.org/I2613432"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5028093975",
+        "display_name": "Wayne Tiller",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210125301",
+          "display_name": "Health Awareness (United States)",
+          "ror": "https://ror.org/03cc5yw72",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210125301"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I74786994",
+          "display_name": "Kitware (United States)",
+          "ror": "https://ror.org/02s2acn37",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I74786994"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Wayne Tiller",
+      "raw_affiliation_strings": [
+        "GeomWare, Inc., 3036 Ridgetop Road, Tyler, TX, 75703-8906, USA",
+        "GeomWare, Inc"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "GeomWare, Inc., 3036 Ridgetop Road, Tyler, TX, 75703-8906, USA",
+          "institution_ids": [
+            "https://openalex.org/I74786994"
+          ]
+        },
+        {
+          "raw_affiliation_string": "GeomWare, Inc",
+          "institution_ids": [
+            "https://openalex.org/I4210125301",
+            "https://openalex.org/I74786994"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 4.6204,
+  "has_fulltext": false,
+  "cited_by_count": 107,
+  "citation_normalized_percentile": {
+    "value": 0.93687452,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 99
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "361",
+    "last_page": "453"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11245",
+    "display_name": "Advanced Numerical Analysis Techniques",
+    "score": 0.9501000046730042,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2206",
+      "display_name": "Computational Mechanics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11245",
+      "display_name": "Advanced Numerical Analysis Techniques",
+      "score": 0.9501000046730042,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T14339",
+      "display_name": "Image Processing and 3D Reconstruction",
+      "score": 0.9205999970436096,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/surface",
+      "display_name": "Surface (topology)",
+      "score": 0.5487282872200012
+    },
+    {
+      "id": "https://openalex.org/keywords/geometry",
+      "display_name": "Geometry",
+      "score": 0.3294334411621094
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.2729429602622986
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2776799497",
+      "wikidata": "https://www.wikidata.org/wiki/Q484298",
+      "display_name": "Surface (topology)",
+      "level": 2,
+      "score": 0.5487282872200012
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.3294334411621094
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.2729429602622986
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1007/978-3-642-59223-2_9",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1007/978-3-642-59223-2_9",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210217083",
+        "display_name": "Monographs in visual communication",
+        "issn_l": "1431-6897",
+        "issn": [
+          "1431-6897"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/P4310319965",
+        "host_organization_name": "Springer Nature",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Nature"
+        ],
+        "type": "book series"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Monographs in Visual Communication",
+      "raw_type": "book-chapter"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "score": 0.6100000143051147,
+      "id": "https://metadata.un.org/sdg/11",
+      "display_name": "Sustainable cities and communities"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W3095645108",
+    "https://openalex.org/W4229993587",
+    "https://openalex.org/W1603681120",
+    "https://openalex.org/W2379016242",
+    "https://openalex.org/W585736820",
+    "https://openalex.org/W2372584129",
+    "https://openalex.org/W4249341887",
+    "https://openalex.org/W33542082",
+    "https://openalex.org/W1593521115",
+    "https://openalex.org/W2372265507"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 7
+    }
+  ],
+  "updated_date": "2026-08-04T08:18:43.703281",
+  "created_date": "2025-10-10T00:00:00"
+}

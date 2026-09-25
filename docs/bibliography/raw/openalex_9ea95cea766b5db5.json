@@ -1,0 +1,873 @@
+{
+  "id": "https://openalex.org/W2170878841",
+  "doi": "https://doi.org/10.1190/1.1440469",
+  "title": "Resolution comparison of minimum-phase and zero-phase signals",
+  "display_name": "Resolution comparison of minimum-phase and zero-phase signals",
+  "publication_year": 1974,
+  "publication_date": "1974-12-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2170878841",
+    "doi": "https://doi.org/10.1190/1.1440469",
+    "mag": "2170878841"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.1440469",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.1440469",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S106174089",
+      "display_name": "Geophysics",
+      "issn_l": "0016-8033",
+      "issn": [
+        "0016-8033",
+        "1942-2156"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5083963383",
+        "display_name": "Michael Schoenberger",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I923382979",
+          "display_name": "ExxonMobil (United States)",
+          "ror": "https://ror.org/01xcepn55",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I923382979"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "M. Schoenberger",
+      "raw_affiliation_strings": [
+        "Exxon Production Research Co., Houston, Texas 77001"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Exxon Production Research Co., Houston, Texas 77001",
+          "institution_ids": [
+            "https://openalex.org/I923382979"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5083963383"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I923382979"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 1.2217,
+  "has_fulltext": false,
+  "cited_by_count": 51,
+  "citation_normalized_percentile": {
+    "value": 0.79208925,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 88,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "39",
+    "issue": "6",
+    "first_page": "826",
+    "last_page": "833"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9998000264167786,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9987000226974487,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10892",
+      "display_name": "Drilling and Well Engineering",
+      "score": 0.9965000152587891,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/wavelet",
+      "display_name": "Wavelet",
+      "score": 0.8659851551055908
+    },
+    {
+      "id": "https://openalex.org/keywords/seismogram",
+      "display_name": "Seismogram",
+      "score": 0.7292095422744751
+    },
+    {
+      "id": "https://openalex.org/keywords/phase",
+      "display_name": "Phase (matter)",
+      "score": 0.694502592086792
+    },
+    {
+      "id": "https://openalex.org/keywords/amplitude",
+      "display_name": "Amplitude",
+      "score": 0.6410941481590271
+    },
+    {
+      "id": "https://openalex.org/keywords/reflection",
+      "display_name": "Reflection (computer programming)",
+      "score": 0.5029594302177429
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.4888898432254791
+    },
+    {
+      "id": "https://openalex.org/keywords/minimum-phase",
+      "display_name": "Minimum phase",
+      "score": 0.4531063437461853
+    },
+    {
+      "id": "https://openalex.org/keywords/zero",
+      "display_name": "Zero (linguistics)",
+      "score": 0.44593408703804016
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.4015418291091919
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.3777724504470825
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.35816890001296997
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematical-analysis",
+      "display_name": "Mathematical analysis",
+      "score": 0.34846001863479614
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.3302496671676636
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.28397315740585327
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.16983893513679504
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.12275591492652893
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C47432892",
+      "wikidata": "https://www.wikidata.org/wiki/Q831390",
+      "display_name": "Wavelet",
+      "level": 2,
+      "score": 0.8659851551055908
+    },
+    {
+      "id": "https://openalex.org/C169744125",
+      "wikidata": "https://www.wikidata.org/wiki/Q510375",
+      "display_name": "Seismogram",
+      "level": 2,
+      "score": 0.7292095422744751
+    },
+    {
+      "id": "https://openalex.org/C44280652",
+      "wikidata": "https://www.wikidata.org/wiki/Q104837",
+      "display_name": "Phase (matter)",
+      "level": 2,
+      "score": 0.694502592086792
+    },
+    {
+      "id": "https://openalex.org/C180205008",
+      "wikidata": "https://www.wikidata.org/wiki/Q159190",
+      "display_name": "Amplitude",
+      "level": 2,
+      "score": 0.6410941481590271
+    },
+    {
+      "id": "https://openalex.org/C65682993",
+      "wikidata": "https://www.wikidata.org/wiki/Q1056451",
+      "display_name": "Reflection (computer programming)",
+      "level": 2,
+      "score": 0.5029594302177429
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.4888898432254791
+    },
+    {
+      "id": "https://openalex.org/C170263048",
+      "wikidata": "https://www.wikidata.org/wiki/Q489593",
+      "display_name": "Minimum phase",
+      "level": 3,
+      "score": 0.4531063437461853
+    },
+    {
+      "id": "https://openalex.org/C2780813799",
+      "wikidata": "https://www.wikidata.org/wiki/Q3274237",
+      "display_name": "Zero (linguistics)",
+      "level": 2,
+      "score": 0.44593408703804016
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.4015418291091919
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.3777724504470825
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.35816890001296997
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.34846001863479614
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.3302496671676636
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.28397315740585327
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.16983893513679504
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.12275591492652893
+    },
+    {
+      "id": "https://openalex.org/C138885662",
+      "wikidata": "https://www.wikidata.org/wiki/Q5891",
+      "display_name": "Philosophy",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C41895202",
+      "wikidata": "https://www.wikidata.org/wiki/Q8162",
+      "display_name": "Linguistics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.1440469",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.1440469",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S106174089",
+        "display_name": "Geophysics",
+        "issn_l": "0016-8033",
+        "issn": [
+          "0016-8033",
+          "1942-2156"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysics",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:CiteSeerX.psu:10.1.1.975.8968",
+      "is_oa": false,
+      "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.975.8968",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "http://geophysics.geoscienceworld.org/content/gsgpy/39/6/826.full.pdf",
+      "raw_type": "text"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 2,
+  "referenced_works": [
+    "https://openalex.org/W2087818283",
+    "https://openalex.org/W2121170145"
+  ],
+  "related_works": [
+    "https://openalex.org/W2119915381",
+    "https://openalex.org/W2580133907",
+    "https://openalex.org/W2327071653",
+    "https://openalex.org/W2377333480",
+    "https://openalex.org/W2069523715",
+    "https://openalex.org/W3133982366",
+    "https://openalex.org/W1580542745",
+    "https://openalex.org/W103085397",
+    "https://openalex.org/W2170878841",
+    "https://openalex.org/W2057134215"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "Despite": [
+      1
+    ],
+    "their": [
+      2
+    ],
+    "intuitive": [
+      3
+    ],
+    "appeal,": [
+      4
+    ],
+    "minimum-phase": [
+      5,
+      27,
+      49,
+      68,
+      78
+    ],
+    "wavelets": [
+      6,
+      11,
+      30,
+      127
+    ],
+    "are": [
+      7,
+      31
+    ],
+    "not": [
+      8
+    ],
+    "the": [
+      9,
+      42,
+      48,
+      53,
+      58,
+      66,
+      75,
+      85,
+      89,
+      107,
+      112,
+      116
+    ],
+    "shortest": [
+      10
+    ],
+    "achievable": [
+      12
+    ],
+    "on": [
+      13,
+      106
+    ],
+    "a": [
+      14
+    ],
+    "seismic": [
+      15,
+      24
+    ],
+    "section.": [
+      16
+    ],
+    "For": [
+      17
+    ],
+    "several": [
+      18,
+      36
+    ],
+    "amplitude": [
+      19,
+      55
+    ],
+    "spectra": [
+      20
+    ],
+    "typical": [
+      21
+    ],
+    "of": [
+      22,
+      38,
+      133
+    ],
+    "processed": [
+      23
+    ],
+    "sections,": [
+      25
+    ],
+    "both": [
+      26,
+      74,
+      134
+    ],
+    "and": [
+      28,
+      77,
+      101,
+      137
+    ],
+    "zero-phase": [
+      29,
+      43,
+      59,
+      76,
+      90,
+      126
+    ],
+    "presented.": [
+      32
+    ],
+    "In": [
+      33,
+      82
+    ],
+    "each": [
+      34,
+      83
+    ],
+    "case,": [
+      35,
+      84
+    ],
+    "measures": [
+      37
+    ],
+    "length": [
+      39
+    ],
+    "reveal": [
+      40
+    ],
+    "that": [
+      41
+    ],
+    "wavelet": [
+      44,
+      50,
+      60
+    ],
+    "is": [
+      45,
+      98,
+      102
+    ],
+    "shorter": [
+      46
+    ],
+    "than": [
+      47,
+      65
+    ],
+    "corresponding": [
+      51,
+      67
+    ],
+    "to": [
+      52,
+      110
+    ],
+    "same": [
+      54
+    ],
+    "spectrum.": [
+      56
+    ],
+    "Furthermore,": [
+      57
+    ],
+    "has": [
+      61
+    ],
+    "smaller": [
+      62
+    ],
+    "side": [
+      63
+    ],
+    "lobes": [
+      64
+    ],
+    "wavelet.Synthetic": [
+      69
+    ],
+    "seismograms": [
+      70
+    ],
+    "were": [
+      71,
+      123
+    ],
+    "generated": [
+      72,
+      87
+    ],
+    "using": [
+      73
+    ],
+    "signals": [
+      79
+    ],
+    "as": [
+      80
+    ],
+    "inputs.": [
+      81
+    ],
+    "seismogram": [
+      86
+    ],
+    "with": [
+      88
+    ],
+    "input": [
+      91
+    ],
+    "signal": [
+      92
+    ],
+    "had": [
+      93
+    ],
+    "better": [
+      94
+    ],
+    "resolution.": [
+      95
+    ],
+    "This": [
+      96
+    ],
+    "relation": [
+      97
+    ],
+    "demonstrated": [
+      99
+    ],
+    "quantitatively": [
+      100
+    ],
+    "also": [
+      103
+    ],
+    "visually": [
+      104
+    ],
+    "obvious": [
+      105
+    ],
+    "seismograms.In": [
+      108
+    ],
+    "addition": [
+      109
+    ],
+    "comparing": [
+      111
+    ],
+    "wavelets'": [
+      113
+    ],
+    "resolution": [
+      114
+    ],
+    "capabilities,": [
+      115
+    ],
+    "accuracies": [
+      117
+    ],
+    "permitted": [
+      118
+    ],
+    "in": [
+      119,
+      129
+    ],
+    "estimating": [
+      120
+    ],
+    "reflection": [
+      121,
+      135
+    ],
+    "times": [
+      122,
+      136
+    ],
+    "compared.": [
+      124
+    ],
+    "The": [
+      125
+    ],
+    "resulted": [
+      128
+    ],
+    "more": [
+      130
+    ],
+    "accurate": [
+      131
+    ],
+    "estimates": [
+      132
+    ],
+    "spacings.": [
+      138
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-08-26T07:47:46.906454",
+  "created_date": "2025-10-10T00:00:00"
+}

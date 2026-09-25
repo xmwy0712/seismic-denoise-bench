@@ -1,0 +1,338 @@
+{
+  "id": "https://openalex.org/W7171940490",
+  "doi": "https://doi.org/10.1109/iclo69056.2026.11625057",
+  "title": "The Impact of Helically-Wound Cable on Signal Fidelity using DAS for Seismic Exploration",
+  "display_name": "The Impact of Helically-Wound Cable on Signal Fidelity using DAS for Seismic Exploration",
+  "publication_year": 2026,
+  "publication_date": "2026-06-01",
+  "ids": {
+    "openalex": "https://openalex.org/W7171940490",
+    "doi": "https://doi.org/10.1109/iclo69056.2026.11625057"
+  },
+  "language": null,
+  "primary_location": {
+    "id": "doi:10.1109/iclo69056.2026.11625057",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1109/iclo69056.2026.11625057",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "2026 International Conference Laser Optics (ICLO)",
+    "raw_type": "proceedings-article"
+  },
+  "type": "conference-paper",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5144138178",
+        "display_name": "I.S.Ponomarev",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "I.S.Ponomarev",
+      "raw_affiliation_strings": [
+        "T8 LLC"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "T8 LLC",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5035142770",
+        "display_name": "E.A. Fomiryakov",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "E.A.Fomiryakov",
+      "raw_affiliation_strings": [
+        "T8 LLC"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "T8 LLC",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5130985860",
+        "display_name": "D. R. Kharasov",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "D.R.Kharasov",
+      "raw_affiliation_strings": [
+        "T8 LLC"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "T8 LLC",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5140753765",
+        "display_name": "O.E. Nanii",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "O.E.Nanii",
+      "raw_affiliation_strings": [
+        "T8 LLC"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "T8 LLC",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5139230912",
+        "display_name": "Treschikov V.N.",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "V.N.Treschikov",
+      "raw_affiliation_strings": [
+        "T8 LLC"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "T8 LLC",
+          "institution_ids": []
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "190",
+    "last_page": "190"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": null,
+  "topics": [],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/seismic-exploration",
+      "display_name": "Seismic exploration",
+      "score": 0.5012999773025513
+    },
+    {
+      "id": "https://openalex.org/keywords/signal",
+      "display_name": "SIGNAL (programming language)",
+      "score": 0.4553999900817871
+    },
+    {
+      "id": "https://openalex.org/keywords/high-fidelity",
+      "display_name": "High fidelity",
+      "score": 0.3840000033378601
+    },
+    {
+      "id": "https://openalex.org/keywords/signal-processing",
+      "display_name": "Signal processing",
+      "score": 0.36419999599456787
+    },
+    {
+      "id": "https://openalex.org/keywords/noise",
+      "display_name": "Noise (video)",
+      "score": 0.34630000591278076
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.5928999781608582
+    },
+    {
+      "id": "https://openalex.org/C2985650181",
+      "wikidata": "https://www.wikidata.org/wiki/Q1500431",
+      "display_name": "Seismic exploration",
+      "level": 2,
+      "score": 0.5012999773025513
+    },
+    {
+      "id": "https://openalex.org/C2779843651",
+      "wikidata": "https://www.wikidata.org/wiki/Q7390335",
+      "display_name": "SIGNAL (programming language)",
+      "level": 2,
+      "score": 0.4553999900817871
+    },
+    {
+      "id": "https://openalex.org/C62649853",
+      "wikidata": "https://www.wikidata.org/wiki/Q199687",
+      "display_name": "Remote sensing",
+      "level": 1,
+      "score": 0.4092000126838684
+    },
+    {
+      "id": "https://openalex.org/C113364801",
+      "wikidata": "https://www.wikidata.org/wiki/Q26674",
+      "display_name": "High fidelity",
+      "level": 2,
+      "score": 0.3840000033378601
+    },
+    {
+      "id": "https://openalex.org/C104267543",
+      "wikidata": "https://www.wikidata.org/wiki/Q208163",
+      "display_name": "Signal processing",
+      "level": 3,
+      "score": 0.36419999599456787
+    },
+    {
+      "id": "https://openalex.org/C99498987",
+      "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+      "display_name": "Noise (video)",
+      "level": 3,
+      "score": 0.34630000591278076
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.34200000762939453
+    },
+    {
+      "id": "https://openalex.org/C24890656",
+      "wikidata": "https://www.wikidata.org/wiki/Q82811",
+      "display_name": "Acoustics",
+      "level": 1,
+      "score": 0.33899998664855957
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.3009999990463257
+    },
+    {
+      "id": "https://openalex.org/C2776459999",
+      "wikidata": "https://www.wikidata.org/wiki/Q2119376",
+      "display_name": "Fidelity",
+      "level": 2,
+      "score": 0.28139999508857727
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.2612999975681305
+    },
+    {
+      "id": "https://openalex.org/C2988666330",
+      "wikidata": "https://www.wikidata.org/wiki/Q3241434",
+      "display_name": "Oil exploration",
+      "level": 2,
+      "score": 0.25049999356269836
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1109/iclo69056.2026.11625057",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/iclo69056.2026.11625057",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "2026 International Conference Laser Optics (ICLO)",
+      "raw_type": "proceedings-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 5,
+  "referenced_works": [
+    "https://openalex.org/W2900464249",
+    "https://openalex.org/W2993286645",
+    "https://openalex.org/W4200542752",
+    "https://openalex.org/W4366684664",
+    "https://openalex.org/W4386739323"
+  ],
+  "related_works": [],
+  "abstract_inverted_index": null,
+  "counts_by_year": [],
+  "updated_date": "2026-09-23T05:00:35.095934",
+  "created_date": "2026-08-01T00:00:00"
+}

@@ -1,0 +1,1218 @@
+{
+  "id": "https://openalex.org/W2017304912",
+  "doi": "https://doi.org/10.1109/tit.2014.2311661",
+  "title": "OptShrink: An Algorithm for Improved Low-Rank Signal Matrix Denoising by Optimal, Data-Driven Singular Value Shrinkage",
+  "display_name": "OptShrink: An Algorithm for Improved Low-Rank Signal Matrix Denoising by Optimal, Data-Driven Singular Value Shrinkage",
+  "publication_year": 2014,
+  "publication_date": "2014-03-13",
+  "ids": {
+    "openalex": "https://openalex.org/W2017304912",
+    "doi": "https://doi.org/10.1109/tit.2014.2311661",
+    "mag": "2017304912"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1109/tit.2014.2311661",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1109/tit.2014.2311661",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4502562",
+      "display_name": "IEEE Transactions on Information Theory",
+      "issn_l": "0018-9448",
+      "issn": [
+        "0018-9448",
+        "1557-9654"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-3",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310319808",
+      "host_organization_name": "Institute of Electrical and Electronics Engineers",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319808"
+      ],
+      "host_organization_lineage_names": [
+        "Institute of Electrical and Electronics Engineers"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "IEEE Transactions on Information Theory",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "arxiv",
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://arxiv.org/pdf/1306.6042",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5071117473",
+        "display_name": "Raj Rao Nadakuditi",
+        "orcid": "https://orcid.org/0000-0002-5506-1631",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-5506-1631"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I27837315",
+          "display_name": "University of Michigan",
+          "ror": "https://ror.org/00jmfr291",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I27837315"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Raj Rao Nadakuditi",
+      "raw_affiliation_strings": [
+        "Department of Electrical and Engineering Computer Sciences, University of Michigan, Ann Arbor, MI, USA",
+        "Dept. of Electr. & Eng. Comput. Sci., Univ. of Michigan, Ann Arbor, MI, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Electrical and Engineering Computer Sciences, University of Michigan, Ann Arbor, MI, USA",
+          "institution_ids": [
+            "https://openalex.org/I27837315"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Dept. of Electr. & Eng. Comput. Sci., Univ. of Michigan, Ann Arbor, MI, USA",
+          "institution_ids": [
+            "https://openalex.org/I27837315"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5071117473"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I27837315"
+  ],
+  "apc_list": {
+    "value": 2645,
+    "currency": "USD",
+    "value_usd": 2645
+  },
+  "apc_paid": null,
+  "fwci": 12.8546,
+  "has_fulltext": false,
+  "cited_by_count": 167,
+  "citation_normalized_percentile": {
+    "value": 0.99395471,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "60",
+    "issue": "5",
+    "first_page": "3002",
+    "last_page": "3018"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10500",
+    "display_name": "Sparse and Compressive Sensing Techniques",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2206",
+      "display_name": "Computational Mechanics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10500",
+      "display_name": "Sparse and Compressive Sensing Techniques",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11447",
+      "display_name": "Blind Source Separation Techniques",
+      "score": 0.9991000294685364,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1711",
+        "display_name": "Signal Processing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11716",
+      "display_name": "Random Matrices and Applications",
+      "score": 0.9987000226974487,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/singular-value-decomposition",
+      "display_name": "Singular value decomposition",
+      "score": 0.6863847970962524
+    },
+    {
+      "id": "https://openalex.org/keywords/singular-value",
+      "display_name": "Singular value",
+      "score": 0.6707991361618042
+    },
+    {
+      "id": "https://openalex.org/keywords/low-rank-approximation",
+      "display_name": "Low-rank approximation",
+      "score": 0.6378015875816345
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.5931354761123657
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.5734393000602722
+    },
+    {
+      "id": "https://openalex.org/keywords/weighting",
+      "display_name": "Weighting",
+      "score": 0.5663996338844299
+    },
+    {
+      "id": "https://openalex.org/keywords/matrix-completion",
+      "display_name": "Matrix completion",
+      "score": 0.5450371503829956
+    },
+    {
+      "id": "https://openalex.org/keywords/matrix",
+      "display_name": "Matrix (chemical analysis)",
+      "score": 0.5361781716346741
+    },
+    {
+      "id": "https://openalex.org/keywords/matrix-norm",
+      "display_name": "Matrix norm",
+      "score": 0.5024681091308594
+    },
+    {
+      "id": "https://openalex.org/keywords/matrix-decomposition",
+      "display_name": "Matrix decomposition",
+      "score": 0.48984190821647644
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematical-optimization",
+      "display_name": "Mathematical optimization",
+      "score": 0.42841508984565735
+    },
+    {
+      "id": "https://openalex.org/keywords/applied-mathematics",
+      "display_name": "Applied mathematics",
+      "score": 0.4156345725059509
+    },
+    {
+      "id": "https://openalex.org/keywords/gaussian",
+      "display_name": "Gaussian",
+      "score": 0.31789839267730713
+    },
+    {
+      "id": "https://openalex.org/keywords/eigenvalues-and-eigenvectors",
+      "display_name": "Eigenvalues and eigenvectors",
+      "score": 0.17767736315727234
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematical-analysis",
+      "display_name": "Mathematical analysis",
+      "score": 0.152944415807724
+    },
+    {
+      "id": "https://openalex.org/keywords/hankel-matrix",
+      "display_name": "Hankel matrix",
+      "score": 0.1481577455997467
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C22789450",
+      "wikidata": "https://www.wikidata.org/wiki/Q420904",
+      "display_name": "Singular value decomposition",
+      "level": 2,
+      "score": 0.6863847970962524
+    },
+    {
+      "id": "https://openalex.org/C109282560",
+      "wikidata": "https://www.wikidata.org/wiki/Q4166054",
+      "display_name": "Singular value",
+      "level": 3,
+      "score": 0.6707991361618042
+    },
+    {
+      "id": "https://openalex.org/C90199385",
+      "wikidata": "https://www.wikidata.org/wiki/Q6692777",
+      "display_name": "Low-rank approximation",
+      "level": 3,
+      "score": 0.6378015875816345
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.5931354761123657
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.5734393000602722
+    },
+    {
+      "id": "https://openalex.org/C183115368",
+      "wikidata": "https://www.wikidata.org/wiki/Q856577",
+      "display_name": "Weighting",
+      "level": 2,
+      "score": 0.5663996338844299
+    },
+    {
+      "id": "https://openalex.org/C2778459887",
+      "wikidata": "https://www.wikidata.org/wiki/Q6787865",
+      "display_name": "Matrix completion",
+      "level": 3,
+      "score": 0.5450371503829956
+    },
+    {
+      "id": "https://openalex.org/C106487976",
+      "wikidata": "https://www.wikidata.org/wiki/Q685816",
+      "display_name": "Matrix (chemical analysis)",
+      "level": 2,
+      "score": 0.5361781716346741
+    },
+    {
+      "id": "https://openalex.org/C92207270",
+      "wikidata": "https://www.wikidata.org/wiki/Q939253",
+      "display_name": "Matrix norm",
+      "level": 3,
+      "score": 0.5024681091308594
+    },
+    {
+      "id": "https://openalex.org/C42355184",
+      "wikidata": "https://www.wikidata.org/wiki/Q1361088",
+      "display_name": "Matrix decomposition",
+      "level": 3,
+      "score": 0.48984190821647644
+    },
+    {
+      "id": "https://openalex.org/C126255220",
+      "wikidata": "https://www.wikidata.org/wiki/Q141495",
+      "display_name": "Mathematical optimization",
+      "level": 1,
+      "score": 0.42841508984565735
+    },
+    {
+      "id": "https://openalex.org/C28826006",
+      "wikidata": "https://www.wikidata.org/wiki/Q33521",
+      "display_name": "Applied mathematics",
+      "level": 1,
+      "score": 0.4156345725059509
+    },
+    {
+      "id": "https://openalex.org/C163716315",
+      "wikidata": "https://www.wikidata.org/wiki/Q901177",
+      "display_name": "Gaussian",
+      "level": 2,
+      "score": 0.31789839267730713
+    },
+    {
+      "id": "https://openalex.org/C158693339",
+      "wikidata": "https://www.wikidata.org/wiki/Q190524",
+      "display_name": "Eigenvalues and eigenvectors",
+      "level": 2,
+      "score": 0.17767736315727234
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.152944415807724
+    },
+    {
+      "id": "https://openalex.org/C25023664",
+      "wikidata": "https://www.wikidata.org/wiki/Q1575637",
+      "display_name": "Hankel matrix",
+      "level": 2,
+      "score": 0.1481577455997467
+    },
+    {
+      "id": "https://openalex.org/C126838900",
+      "wikidata": "https://www.wikidata.org/wiki/Q77604",
+      "display_name": "Radiology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C71924100",
+      "wikidata": "https://www.wikidata.org/wiki/Q11190",
+      "display_name": "Medicine",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C159985019",
+      "wikidata": "https://www.wikidata.org/wiki/Q181790",
+      "display_name": "Composite material",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C192562407",
+      "wikidata": "https://www.wikidata.org/wiki/Q228736",
+      "display_name": "Materials science",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 3,
+  "locations": [
+    {
+      "id": "doi:10.1109/tit.2014.2311661",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tit.2014.2311661",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4502562",
+        "display_name": "IEEE Transactions on Information Theory",
+        "issn_l": "0018-9448",
+        "issn": [
+          "0018-9448",
+          "1557-9654"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-3",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Information Theory",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:arXiv.org:1306.6042",
+      "is_oa": true,
+      "landing_page_url": "http://arxiv.org/abs/1306.6042",
+      "pdf_url": "https://arxiv.org/pdf/1306.6042",
+      "source": {
+        "id": "https://openalex.org/S4306400194",
+        "display_name": "arXiv (Cornell University)",
+        "issn_l": "2331-8422",
+        "issn": [
+          "2331-8422"
+        ],
+        "is_oa": true,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I205783295",
+        "host_organization_name": "Cornell University",
+        "host_organization_lineage": [
+          "https://openalex.org/I205783295"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": null,
+      "raw_type": "text"
+    },
+    {
+      "id": "pmh:oai:CiteSeerX.psu:10.1.1.765.4206",
+      "is_oa": false,
+      "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.765.4206",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "http://arxiv.org/pdf/1306.6042.pdf",
+      "raw_type": "text"
+    }
+  ],
+  "best_oa_location": {
+    "id": "pmh:oai:arXiv.org:1306.6042",
+    "is_oa": true,
+    "landing_page_url": "http://arxiv.org/abs/1306.6042",
+    "pdf_url": "https://arxiv.org/pdf/1306.6042",
+    "source": {
+      "id": "https://openalex.org/S4306400194",
+      "display_name": "arXiv (Cornell University)",
+      "issn_l": "2331-8422",
+      "issn": [
+        "2331-8422"
+      ],
+      "is_oa": true,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I205783295",
+      "host_organization_name": "Cornell University",
+      "host_organization_lineage": [
+        "https://openalex.org/I205783295"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": null,
+    "raw_type": "text"
+  },
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 115,
+  "referenced_works": [
+    "https://openalex.org/W72893484",
+    "https://openalex.org/W93530381",
+    "https://openalex.org/W305865050",
+    "https://openalex.org/W568673721",
+    "https://openalex.org/W602904462",
+    "https://openalex.org/W1481507124",
+    "https://openalex.org/W1488435683",
+    "https://openalex.org/W1494904807",
+    "https://openalex.org/W1520752838",
+    "https://openalex.org/W1586554030",
+    "https://openalex.org/W1592941960",
+    "https://openalex.org/W1599867596",
+    "https://openalex.org/W1771423625",
+    "https://openalex.org/W1857410117",
+    "https://openalex.org/W1956647075",
+    "https://openalex.org/W1960617405",
+    "https://openalex.org/W1960920821",
+    "https://openalex.org/W1969015668",
+    "https://openalex.org/W1970576574",
+    "https://openalex.org/W1975395389",
+    "https://openalex.org/W1975900269",
+    "https://openalex.org/W1979255454",
+    "https://openalex.org/W1979356326",
+    "https://openalex.org/W1979915596",
+    "https://openalex.org/W1994938797",
+    "https://openalex.org/W1995241424",
+    "https://openalex.org/W1996023858",
+    "https://openalex.org/W2000157792",
+    "https://openalex.org/W2003753589",
+    "https://openalex.org/W2004026774",
+    "https://openalex.org/W2005553562",
+    "https://openalex.org/W2011892826",
+    "https://openalex.org/W2014092582",
+    "https://openalex.org/W2014259951",
+    "https://openalex.org/W2015583498",
+    "https://openalex.org/W2031213242",
+    "https://openalex.org/W2032921855",
+    "https://openalex.org/W2047071281",
+    "https://openalex.org/W2058512713",
+    "https://openalex.org/W2060581589",
+    "https://openalex.org/W2064980127",
+    "https://openalex.org/W2066459155",
+    "https://openalex.org/W2070094080",
+    "https://openalex.org/W2074961722",
+    "https://openalex.org/W2079985400",
+    "https://openalex.org/W2081940622",
+    "https://openalex.org/W2081946247",
+    "https://openalex.org/W2083138589",
+    "https://openalex.org/W2084745075",
+    "https://openalex.org/W2087641146",
+    "https://openalex.org/W2088872013",
+    "https://openalex.org/W2091352038",
+    "https://openalex.org/W2097714737",
+    "https://openalex.org/W2098502158",
+    "https://openalex.org/W2101513535",
+    "https://openalex.org/W2103437658",
+    "https://openalex.org/W2103972604",
+    "https://openalex.org/W2106084579",
+    "https://openalex.org/W2109378630",
+    "https://openalex.org/W2117377454",
+    "https://openalex.org/W2119367754",
+    "https://openalex.org/W2123226256",
+    "https://openalex.org/W2126625374",
+    "https://openalex.org/W2130499908",
+    "https://openalex.org/W2132657058",
+    "https://openalex.org/W2134332047",
+    "https://openalex.org/W2144623066",
+    "https://openalex.org/W2144629557",
+    "https://openalex.org/W2144730813",
+    "https://openalex.org/W2145962650",
+    "https://openalex.org/W2146610201",
+    "https://openalex.org/W2146756121",
+    "https://openalex.org/W2149538437",
+    "https://openalex.org/W2152687999",
+    "https://openalex.org/W2155421090",
+    "https://openalex.org/W2158589846",
+    "https://openalex.org/W2163885535",
+    "https://openalex.org/W2165395308",
+    "https://openalex.org/W2170912114",
+    "https://openalex.org/W2281296685",
+    "https://openalex.org/W2397597991",
+    "https://openalex.org/W2544357824",
+    "https://openalex.org/W2554839354",
+    "https://openalex.org/W2557168633",
+    "https://openalex.org/W2611328865",
+    "https://openalex.org/W2637117822",
+    "https://openalex.org/W2911808754",
+    "https://openalex.org/W2949470664",
+    "https://openalex.org/W2949734021",
+    "https://openalex.org/W2951439068",
+    "https://openalex.org/W2952452162",
+    "https://openalex.org/W2952736586",
+    "https://openalex.org/W2962769133",
+    "https://openalex.org/W2962804845",
+    "https://openalex.org/W2963092731",
+    "https://openalex.org/W2963649004",
+    "https://openalex.org/W3099514962",
+    "https://openalex.org/W3103665959",
+    "https://openalex.org/W3104447032",
+    "https://openalex.org/W3104624268",
+    "https://openalex.org/W3104906128",
+    "https://openalex.org/W3105388035",
+    "https://openalex.org/W3105772645",
+    "https://openalex.org/W3106326876",
+    "https://openalex.org/W3145074154",
+    "https://openalex.org/W4234454507",
+    "https://openalex.org/W4238943743",
+    "https://openalex.org/W4245577611",
+    "https://openalex.org/W4256139400",
+    "https://openalex.org/W4297671228",
+    "https://openalex.org/W6603787252",
+    "https://openalex.org/W6610786958",
+    "https://openalex.org/W6684295950",
+    "https://openalex.org/W6685009500",
+    "https://openalex.org/W6711877558"
+  ],
+  "related_works": [
+    "https://openalex.org/W2964006653",
+    "https://openalex.org/W2788826952",
+    "https://openalex.org/W2084983808",
+    "https://openalex.org/W1991825408",
+    "https://openalex.org/W4318564253",
+    "https://openalex.org/W4302315572",
+    "https://openalex.org/W1969698720",
+    "https://openalex.org/W1507830821",
+    "https://openalex.org/W2325477568",
+    "https://openalex.org/W2184500224"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0
+    ],
+    "truncated": [
+      1
+    ],
+    "singular": [
+      2,
+      54,
+      129,
+      137
+    ],
+    "value": [
+      3,
+      138
+    ],
+    "decomposition": [
+      4
+    ],
+    "of": [
+      5,
+      17,
+      37,
+      52,
+      56,
+      75,
+      94,
+      115,
+      122
+    ],
+    "the": [
+      6,
+      10,
+      14,
+      33,
+      53,
+      57,
+      71,
+      76,
+      99,
+      112,
+      116,
+      119,
+      123,
+      128,
+      146,
+      168,
+      184,
+      187
+    ],
+    "measurement": [
+      7,
+      24,
+      58
+    ],
+    "matrix": [
+      8,
+      25,
+      45,
+      66,
+      73,
+      134,
+      189
+    ],
+    "is": [
+      9
+    ],
+    "optimal": [
+      11,
+      50,
+      77,
+      117
+    ],
+    "solution": [
+      12
+    ],
+    "to": [
+      13,
+      19,
+      39,
+      68,
+      180
+    ],
+    "representation": [
+      15
+    ],
+    "problem": [
+      16,
+      36
+    ],
+    "how": [
+      18,
+      38,
+      174
+    ],
+    "best": [
+      20,
+      40
+    ],
+    "approximate": [
+      21,
+      41
+    ],
+    "a": [
+      22,
+      27,
+      42,
+      91
+    ],
+    "noisy": [
+      23
+    ],
+    "using": [
+      26
+    ],
+    "low-rank": [
+      28,
+      43
+    ],
+    "matrix.": [
+      29,
+      59
+    ],
+    "Here,": [
+      30
+    ],
+    "we": [
+      31
+    ],
+    "consider": [
+      32
+    ],
+    "(unobservable)": [
+      34
+    ],
+    "denoising": [
+      35
+    ],
+    "signal": [
+      44
+    ],
+    "buried": [
+      46
+    ],
+    "in": [
+      47,
+      183
+    ],
+    "noise": [
+      48,
+      95,
+      104
+    ],
+    "by": [
+      49
+    ],
+    "(re)weighting": [
+      51
+    ],
+    "vectors": [
+      55
+    ],
+    "We": [
+      60,
+      153
+    ],
+    "exploit": [
+      61
+    ],
+    "recent": [
+      62
+    ],
+    "results": [
+      63
+    ],
+    "from": [
+      64,
+      88
+    ],
+    "random": [
+      65
+    ],
+    "theory": [
+      67
+    ],
+    "exactly": [
+      69
+    ],
+    "characterize": [
+      70
+    ],
+    "large": [
+      72,
+      92
+    ],
+    "limit": [
+      74
+    ],
+    "weighting": [
+      78
+    ],
+    "coefficients": [
+      79
+    ],
+    "and": [
+      80,
+      131,
+      172
+    ],
+    "show": [
+      81,
+      173
+    ],
+    "that": [
+      82,
+      97,
+      166
+    ],
+    "they": [
+      83
+    ],
+    "can": [
+      84,
+      177
+    ],
+    "be": [
+      85,
+      151,
+      178
+    ],
+    "computed": [
+      86
+    ],
+    "directly": [
+      87
+    ],
+    "data": [
+      89
+    ],
+    "for": [
+      90
+    ],
+    "class": [
+      93
+    ],
+    "models": [
+      96
+    ],
+    "includes": [
+      98
+    ],
+    "independent": [
+      100
+    ],
+    "identically": [
+      101
+    ],
+    "distributed": [
+      102
+    ],
+    "Gaussian": [
+      103
+    ],
+    "case.": [
+      105
+    ],
+    "Our": [
+      106
+    ],
+    "analysis": [
+      107
+    ],
+    "brings": [
+      108
+    ],
+    "into": [
+      109
+    ],
+    "sharp": [
+      110
+    ],
+    "focus": [
+      111
+    ],
+    "shrinkage-and-thresholding": [
+      113
+    ],
+    "form": [
+      114
+    ],
+    "weights,": [
+      118
+    ],
+    "nonconvex": [
+      120
+    ],
+    "nature": [
+      121
+    ],
+    "associated": [
+      124
+    ],
+    "shrinkage": [
+      125
+    ],
+    "function": [
+      126
+    ],
+    "(on": [
+      127
+    ],
+    "values),": [
+      130
+    ],
+    "explains": [
+      132
+    ],
+    "why": [
+      133
+    ],
+    "regularization": [
+      135
+    ],
+    "via": [
+      136
+    ],
+    "thresholding": [
+      139
+    ],
+    "with": [
+      140,
+      158
+    ],
+    "convex": [
+      141
+    ],
+    "penalty": [
+      142
+    ],
+    "functions": [
+      143
+    ],
+    "(such": [
+      144
+    ],
+    "as": [
+      145
+    ],
+    "nuclear": [
+      147
+    ],
+    "norm)": [
+      148
+    ],
+    "will": [
+      149
+    ],
+    "always": [
+      150
+    ],
+    "suboptimal.": [
+      152
+    ],
+    "validate": [
+      154
+    ],
+    "our": [
+      155,
+      175
+    ],
+    "theoretical": [
+      156
+    ],
+    "predictions": [
+      157
+    ],
+    "numerical": [
+      159
+    ],
+    "simulations,": [
+      160
+    ],
+    "develop": [
+      161
+    ],
+    "an": [
+      162
+    ],
+    "implementable": [
+      163
+    ],
+    "algorithm": [
+      164
+    ],
+    "(OptShrink)": [
+      165
+    ],
+    "realizes": [
+      167
+    ],
+    "predicted": [
+      169
+    ],
+    "performance": [
+      170
+    ],
+    "gains": [
+      171
+    ],
+    "methods": [
+      176
+    ],
+    "used": [
+      179
+    ],
+    "improve": [
+      181
+    ],
+    "estimation": [
+      182
+    ],
+    "setting": [
+      185
+    ],
+    "where": [
+      186
+    ],
+    "measured": [
+      188
+    ],
+    "has": [
+      190
+    ],
+    "missing": [
+      191
+    ],
+    "entries.": [
+      192
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-24T07:57:37.273135",
+  "created_date": "2025-10-10T00:00:00"
+}

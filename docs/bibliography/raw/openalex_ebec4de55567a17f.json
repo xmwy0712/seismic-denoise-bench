@@ -1,0 +1,1123 @@
+{
+  "id": "https://openalex.org/W1838266904",
+  "doi": "https://doi.org/10.1111/1365-2478.12114",
+  "title": "Time‐lapse pre‐stack seismic data registration and inversion for CO2 sequestration study at Cranfield",
+  "display_name": "Time‐lapse pre‐stack seismic data registration and inversion for CO2 sequestration study at Cranfield",
+  "publication_year": 2014,
+  "publication_date": "2014-04-02",
+  "ids": {
+    "openalex": "https://openalex.org/W1838266904",
+    "doi": "https://doi.org/10.1111/1365-2478.12114",
+    "mag": "1838266904"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1111/1365-2478.12114",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1111/1365-2478.12114",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S45030768",
+      "display_name": "Geophysical Prospecting",
+      "issn_l": "0016-8025",
+      "issn": [
+        "0016-8025",
+        "1365-2478"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysical Prospecting",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5100421966",
+        "display_name": "Rui Zhang",
+        "orcid": "https://orcid.org/0000-0001-8424-8254",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-8424-8254"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I148283060",
+          "display_name": "Lawrence Berkeley National Laboratory",
+          "ror": "https://ror.org/02jbv0t02",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I39565521"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Rui Zhang",
+      "raw_affiliation_strings": [
+        "Lawrence Berkeley National Laboratory work done at The University of Texas at Austin",
+        "Lawrence Berkeley National Laboratory, work done at The University of Texas at Austin"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Lawrence Berkeley National Laboratory work done at The University of Texas at Austin",
+          "institution_ids": [
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I86519309"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Lawrence Berkeley National Laboratory, work done at The University of Texas at Austin",
+          "institution_ids": [
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5090414812",
+        "display_name": "Xiaolei Song",
+        "orcid": "https://orcid.org/0000-0002-0206-1574",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-0206-1574"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Xiaolei Song",
+      "raw_affiliation_strings": [
+        "The University of Texas at Austin, now at BP"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "The University of Texas at Austin, now at BP",
+          "institution_ids": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5005237932",
+        "display_name": "Sergey B. Fomel",
+        "orcid": "https://orcid.org/0000-0002-9024-5137",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9024-5137"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1288783943",
+          "display_name": "Bureau of Economic Analysis",
+          "ror": "https://ror.org/03b17a012",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I1343035065"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sergey Fomel",
+      "raw_affiliation_strings": [
+        "Bureau of Economic Geology The University of Texas at Austin"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Bureau of Economic Geology The University of Texas at Austin",
+          "institution_ids": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101681422",
+        "display_name": "Mrinal K. Sen",
+        "orcid": "https://orcid.org/0000-0002-5525-0467",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-5525-0467"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I22716965",
+          "display_name": "National Geophysical Research Institute",
+          "ror": "https://ror.org/03dy10t98",
+          "country_code": "IN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I22716965",
+            "https://openalex.org/I2799351866",
+            "https://openalex.org/I4210134808",
+            "https://openalex.org/I66760702"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "IN",
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mrinal K Sen",
+      "raw_affiliation_strings": [
+        "Institute for Geophysics The University of Texas at Austin and National Geophysical Research Institute  Hyderabad India",
+        "Institute for Geophysics; The University of Texas at Austin and National Geophysical Research Institute; Hyderabad India"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute for Geophysics The University of Texas at Austin and National Geophysical Research Institute  Hyderabad India",
+          "institution_ids": [
+            "https://openalex.org/I22716965",
+            "https://openalex.org/I86519309"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institute for Geophysics; The University of Texas at Austin and National Geophysical Research Institute; Hyderabad India",
+          "institution_ids": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5055558439",
+        "display_name": "Sanjay Srinivasan",
+        "orcid": "https://orcid.org/0000-0003-1222-7512",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-1222-7512"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sanjay Srinivasan",
+      "raw_affiliation_strings": [
+        "Department of Petroleum and Geosystems Engineering The University of Texas at Austin",
+        "Department of Petroleum and Geosystems Engineering, The University of Texas at Austin;"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Petroleum and Geosystems Engineering The University of Texas at Austin",
+          "institution_ids": [
+            "https://openalex.org/I86519309"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Petroleum and Geosystems Engineering, The University of Texas at Austin;",
+          "institution_ids": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5100421966"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I148283060",
+    "https://openalex.org/I86519309"
+  ],
+  "apc_list": {
+    "value": 4150,
+    "currency": "USD",
+    "value_usd": 4150
+  },
+  "apc_paid": null,
+  "fwci": 1.7253,
+  "has_fulltext": false,
+  "cited_by_count": 13,
+  "citation_normalized_percentile": {
+    "value": 0.80606945,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 88,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "62",
+    "issue": "5",
+    "first_page": "1028",
+    "last_page": "1039"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.9987999796867371,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11801",
+      "display_name": "Reservoir Engineering and Simulation Methods",
+      "score": 0.9984999895095825,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/amplitude",
+      "display_name": "Amplitude",
+      "score": 0.7828906774520874
+    },
+    {
+      "id": "https://openalex.org/keywords/amplitude-versus-offset",
+      "display_name": "Amplitude versus offset",
+      "score": 0.7803183794021606
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.684588611125946
+    },
+    {
+      "id": "https://openalex.org/keywords/image-warping",
+      "display_name": "Image warping",
+      "score": 0.610964298248291
+    },
+    {
+      "id": "https://openalex.org/keywords/stack",
+      "display_name": "Stack (abstract data type)",
+      "score": 0.6011541485786438
+    },
+    {
+      "id": "https://openalex.org/keywords/offset",
+      "display_name": "Offset (computer science)",
+      "score": 0.5242912173271179
+    },
+    {
+      "id": "https://openalex.org/keywords/inversion",
+      "display_name": "Inversion (geology)",
+      "score": 0.4907747209072113
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.4889465570449829
+    },
+    {
+      "id": "https://openalex.org/keywords/engineering-geology",
+      "display_name": "Engineering geology",
+      "score": 0.4722047746181488
+    },
+    {
+      "id": "https://openalex.org/keywords/economic-geology",
+      "display_name": "Economic geology",
+      "score": 0.45690667629241943
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-inversion",
+      "display_name": "Seismic inversion",
+      "score": 0.4264914095401764
+    },
+    {
+      "id": "https://openalex.org/keywords/geodesy",
+      "display_name": "Geodesy",
+      "score": 0.38405272364616394
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.23142248392105103
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.12026667594909668
+    },
+    {
+      "id": "https://openalex.org/keywords/metamorphic-petrology",
+      "display_name": "Metamorphic petrology",
+      "score": 0.11869588494300842
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C180205008",
+      "wikidata": "https://www.wikidata.org/wiki/Q159190",
+      "display_name": "Amplitude",
+      "level": 2,
+      "score": 0.7828906774520874
+    },
+    {
+      "id": "https://openalex.org/C59000536",
+      "wikidata": "https://www.wikidata.org/wiki/Q4748519",
+      "display_name": "Amplitude versus offset",
+      "level": 3,
+      "score": 0.7803183794021606
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.684588611125946
+    },
+    {
+      "id": "https://openalex.org/C157202957",
+      "wikidata": "https://www.wikidata.org/wiki/Q1659609",
+      "display_name": "Image warping",
+      "level": 2,
+      "score": 0.610964298248291
+    },
+    {
+      "id": "https://openalex.org/C9395851",
+      "wikidata": "https://www.wikidata.org/wiki/Q177929",
+      "display_name": "Stack (abstract data type)",
+      "level": 2,
+      "score": 0.6011541485786438
+    },
+    {
+      "id": "https://openalex.org/C175291020",
+      "wikidata": "https://www.wikidata.org/wiki/Q1156822",
+      "display_name": "Offset (computer science)",
+      "level": 2,
+      "score": 0.5242912173271179
+    },
+    {
+      "id": "https://openalex.org/C1893757",
+      "wikidata": "https://www.wikidata.org/wiki/Q3653001",
+      "display_name": "Inversion (geology)",
+      "level": 3,
+      "score": 0.4907747209072113
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.4889465570449829
+    },
+    {
+      "id": "https://openalex.org/C159719176",
+      "wikidata": "https://www.wikidata.org/wiki/Q586474",
+      "display_name": "Engineering geology",
+      "level": 4,
+      "score": 0.4722047746181488
+    },
+    {
+      "id": "https://openalex.org/C125171110",
+      "wikidata": "https://www.wikidata.org/wiki/Q853915",
+      "display_name": "Economic geology",
+      "level": 4,
+      "score": 0.45690667629241943
+    },
+    {
+      "id": "https://openalex.org/C39267094",
+      "wikidata": "https://www.wikidata.org/wiki/Q7446968",
+      "display_name": "Seismic inversion",
+      "level": 3,
+      "score": 0.4264914095401764
+    },
+    {
+      "id": "https://openalex.org/C13280743",
+      "wikidata": "https://www.wikidata.org/wiki/Q131089",
+      "display_name": "Geodesy",
+      "level": 1,
+      "score": 0.38405272364616394
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.23142248392105103
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.12026667594909668
+    },
+    {
+      "id": "https://openalex.org/C2993313656",
+      "wikidata": "https://www.wikidata.org/wiki/Q163082",
+      "display_name": "Metamorphic petrology",
+      "level": 3,
+      "score": 0.11869588494300842
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C6363049",
+      "wikidata": "https://www.wikidata.org/wiki/Q505748",
+      "display_name": "Volcanism",
+      "level": 3,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C77928131",
+      "wikidata": "https://www.wikidata.org/wiki/Q193343",
+      "display_name": "Tectonics",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C159737794",
+      "wikidata": "https://www.wikidata.org/wiki/Q124274",
+      "display_name": "Azimuth",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1111/1365-2478.12114",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1111/1365-2478.12114",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S45030768",
+        "display_name": "Geophysical Prospecting",
+        "issn_l": "0016-8025",
+        "issn": [
+          "0016-8025",
+          "1365-2478"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysical Prospecting",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:repository.lsu.edu:physics_astronomy_pubs-7575",
+      "is_oa": false,
+      "landing_page_url": "https://repository.lsu.edu/physics_astronomy_pubs/6495",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210169993",
+        "display_name": "Civil War Book Review",
+        "issn_l": "1528-6592",
+        "issn": [
+          "1528-6592"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/P4310315936",
+        "host_organization_name": "Louisiana State University",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315936"
+        ],
+        "host_organization_lineage_names": [
+          "Louisiana State University"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Faculty Publications",
+      "raw_type": "text"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 45,
+  "referenced_works": [
+    "https://openalex.org/W1570089119",
+    "https://openalex.org/W1579634341",
+    "https://openalex.org/W1973540739",
+    "https://openalex.org/W1982214775",
+    "https://openalex.org/W1986777645",
+    "https://openalex.org/W1989573922",
+    "https://openalex.org/W1991522703",
+    "https://openalex.org/W1991623636",
+    "https://openalex.org/W1991955670",
+    "https://openalex.org/W1994682283",
+    "https://openalex.org/W2000240386",
+    "https://openalex.org/W2002255021",
+    "https://openalex.org/W2007552981",
+    "https://openalex.org/W2028864336",
+    "https://openalex.org/W2035964780",
+    "https://openalex.org/W2042979164",
+    "https://openalex.org/W2053011375",
+    "https://openalex.org/W2056397662",
+    "https://openalex.org/W2059657027",
+    "https://openalex.org/W2060876795",
+    "https://openalex.org/W2072727461",
+    "https://openalex.org/W2082667383",
+    "https://openalex.org/W2082736629",
+    "https://openalex.org/W2092205293",
+    "https://openalex.org/W2094551850",
+    "https://openalex.org/W2112917313",
+    "https://openalex.org/W2126720920",
+    "https://openalex.org/W2128402432",
+    "https://openalex.org/W2130744222",
+    "https://openalex.org/W2136939883",
+    "https://openalex.org/W2139326335",
+    "https://openalex.org/W2141457517",
+    "https://openalex.org/W2141911230",
+    "https://openalex.org/W2146241926",
+    "https://openalex.org/W2148582502",
+    "https://openalex.org/W2150249196",
+    "https://openalex.org/W2155266857",
+    "https://openalex.org/W2159106547",
+    "https://openalex.org/W2163505942",
+    "https://openalex.org/W2167270723",
+    "https://openalex.org/W2169449758",
+    "https://openalex.org/W2169961475",
+    "https://openalex.org/W2323300503",
+    "https://openalex.org/W2328151039",
+    "https://openalex.org/W7023872400"
+  ],
+  "related_works": [
+    "https://openalex.org/W2506106901",
+    "https://openalex.org/W2756811232",
+    "https://openalex.org/W2330779358",
+    "https://openalex.org/W2749055182",
+    "https://openalex.org/W1967332732",
+    "https://openalex.org/W2969440762",
+    "https://openalex.org/W2325900906",
+    "https://openalex.org/W1963782750",
+    "https://openalex.org/W2081360282",
+    "https://openalex.org/W3032490760"
+  ],
+  "abstract_inverted_index": {
+    "ABSTRACT": [
+      0
+    ],
+    "Pre‐stack": [
+      1
+    ],
+    "seismic": [
+      2,
+      34,
+      80
+    ],
+    "data": [
+      3,
+      35
+    ],
+    "are": [
+      4,
+      49
+    ],
+    "indicative": [
+      5
+    ],
+    "of": [
+      6,
+      46,
+      92
+    ],
+    "subsurface": [
+      7
+    ],
+    "elastic": [
+      8,
+      22,
+      100,
+      105
+    ],
+    "properties": [
+      9,
+      106
+    ],
+    "within": [
+      10
+    ],
+    "the": [
+      11,
+      67,
+      75,
+      78,
+      85,
+      90,
+      98
+    ],
+    "amplitude": [
+      12,
+      44,
+      81
+    ],
+    "versus": [
+      13
+    ],
+    "offset": [
+      14
+    ],
+    "characteristic": [
+      15
+    ],
+    "and": [
+      16
+    ],
+    "can": [
+      17,
+      72,
+      107
+    ],
+    "be": [
+      18,
+      108
+    ],
+    "used": [
+      19,
+      110
+    ],
+    "to": [
+      20,
+      65
+    ],
+    "detect": [
+      21
+    ],
+    "rock": [
+      23
+    ],
+    "property": [
+      24
+    ],
+    "changes": [
+      25
+    ],
+    "caused": [
+      26
+    ],
+    "by": [
+      27,
+      96
+    ],
+    "injection.": [
+      28
+    ],
+    "We": [
+      29,
+      88
+    ],
+    "perform": [
+      30
+    ],
+    "time‐lapse": [
+      31,
+      43,
+      68,
+      79,
+      104
+    ],
+    "pre‐stack": [
+      32,
+      69
+    ],
+    "3‐D": [
+      33
+    ],
+    "analysis": [
+      36
+    ],
+    "for": [
+      37,
+      111
+    ],
+    "monitoring": [
+      38,
+      112
+    ],
+    "sequestration": [
+      39
+    ],
+    "at": [
+      40
+    ],
+    "Cranfield.": [
+      41
+    ],
+    "The": [
+      42
+    ],
+    "differences": [
+      45
+    ],
+    "Cranfield": [
+      47
+    ],
+    "datasets": [
+      48
+    ],
+    "found": [
+      50
+    ],
+    "entangled": [
+      51
+    ],
+    "with": [
+      52
+    ],
+    "time‐shifts.": [
+      53
+    ],
+    "To": [
+      54
+    ],
+    "disentangle": [
+      55
+    ],
+    "these": [
+      56
+    ],
+    "two": [
+      57
+    ],
+    "characters,": [
+      58
+    ],
+    "we": [
+      59
+    ],
+    "apply": [
+      60
+    ],
+    "a": [
+      61
+    ],
+    "local‐correlation‐based": [
+      62
+    ],
+    "warping": [
+      63
+    ],
+    "method": [
+      64,
+      95
+    ],
+    "register": [
+      66
+    ],
+    "datasets,": [
+      70
+    ],
+    "which": [
+      71
+    ],
+    "effectively": [
+      73
+    ],
+    "separate": [
+      74
+    ],
+    "time‐shift": [
+      76
+    ],
+    "from": [
+      77
+    ],
+    "difference": [
+      82
+    ],
+    "without": [
+      83
+    ],
+    "changing": [
+      84
+    ],
+    "original": [
+      86
+    ],
+    "amplitudes.": [
+      87
+    ],
+    "demonstrate": [
+      89
+    ],
+    "effectiveness": [
+      91
+    ],
+    "our": [
+      93
+    ],
+    "registration": [
+      94
+    ],
+    "evaluating": [
+      97
+    ],
+    "inverted": [
+      99,
+      103
+    ],
+    "properties.": [
+      101
+    ],
+    "These": [
+      102
+    ],
+    "reliably": [
+      109
+    ],
+    "plumes.": [
+      113
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

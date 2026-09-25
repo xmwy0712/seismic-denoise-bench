@@ -1,0 +1,442 @@
+{
+  "id": "https://openalex.org/W1579846978",
+  "doi": "https://doi.org/10.1016/0040-1951(85)90080-0",
+  "title": "Seismic migration. Imaging of acoustic energy by wavefield extrapolation. A: theoretical aspects",
+  "display_name": "Seismic migration. Imaging of acoustic energy by wavefield extrapolation. A: theoretical aspects",
+  "publication_year": 1985,
+  "publication_date": "1985-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1579846978",
+    "doi": "https://doi.org/10.1016/0040-1951(85)90080-0",
+    "mag": "1579846978"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/0040-1951(85)90080-0",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/0040-1951(85)90080-0",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S195250905",
+      "display_name": "Tectonophysics",
+      "issn_l": "0040-1951",
+      "issn": [
+        "0040-1951",
+        "1879-3266"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Tectonophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5084502405",
+        "display_name": "Guust Nolet",
+        "orcid": "https://orcid.org/0000-0002-2709-1518"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "G. Nolet",
+      "raw_affiliation_strings": [
+        "Utrecht, The Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Utrecht, The Netherlands",
+          "institution_ids": []
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5084502405"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 3190,
+    "currency": "USD",
+    "value_usd": 3190
+  },
+  "apc_paid": null,
+  "fwci": 2.6021,
+  "has_fulltext": false,
+  "cited_by_count": 218,
+  "citation_normalized_percentile": {
+    "value": 0.87739345,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "111",
+    "issue": "1-2",
+    "first_page": "171",
+    "last_page": "172"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9868000149726868,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9868000149726868,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13018",
+      "display_name": "Seismology and Earthquake Studies",
+      "score": 0.9476000070571899,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10892",
+      "display_name": "Drilling and Well Engineering",
+      "score": 0.9362000226974487,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.8527064919471741
+    },
+    {
+      "id": "https://openalex.org/keywords/extrapolation",
+      "display_name": "Extrapolation",
+      "score": 0.845589280128479
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.660690188407898
+    },
+    {
+      "id": "https://openalex.org/keywords/geophysical-imaging",
+      "display_name": "Geophysical imaging",
+      "score": 0.5589118003845215
+    },
+    {
+      "id": "https://openalex.org/keywords/energy",
+      "display_name": "Energy (signal processing)",
+      "score": 0.4991903305053711
+    },
+    {
+      "id": "https://openalex.org/keywords/geophysics",
+      "display_name": "Geophysics",
+      "score": 0.45825445652008057
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-migration",
+      "display_name": "Seismic migration",
+      "score": 0.44989627599716187
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-energy",
+      "display_name": "Seismic energy",
+      "score": 0.4491368532180786
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematical-analysis",
+      "display_name": "Mathematical analysis",
+      "score": 0.058037757873535156
+    },
+    {
+      "id": "https://openalex.org/keywords/statistics",
+      "display_name": "Statistics",
+      "score": 0.052664220333099365
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.8527064919471741
+    },
+    {
+      "id": "https://openalex.org/C132459708",
+      "wikidata": "https://www.wikidata.org/wiki/Q744069",
+      "display_name": "Extrapolation",
+      "level": 2,
+      "score": 0.845589280128479
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.660690188407898
+    },
+    {
+      "id": "https://openalex.org/C79675319",
+      "wikidata": "https://www.wikidata.org/wiki/Q5535575",
+      "display_name": "Geophysical imaging",
+      "level": 2,
+      "score": 0.5589118003845215
+    },
+    {
+      "id": "https://openalex.org/C186370098",
+      "wikidata": "https://www.wikidata.org/wiki/Q442787",
+      "display_name": "Energy (signal processing)",
+      "level": 2,
+      "score": 0.4991903305053711
+    },
+    {
+      "id": "https://openalex.org/C8058405",
+      "wikidata": "https://www.wikidata.org/wiki/Q46255",
+      "display_name": "Geophysics",
+      "level": 1,
+      "score": 0.45825445652008057
+    },
+    {
+      "id": "https://openalex.org/C118496448",
+      "wikidata": "https://www.wikidata.org/wiki/Q2111620",
+      "display_name": "Seismic migration",
+      "level": 2,
+      "score": 0.44989627599716187
+    },
+    {
+      "id": "https://openalex.org/C2993348884",
+      "wikidata": "https://www.wikidata.org/wiki/Q186167",
+      "display_name": "Seismic energy",
+      "level": 2,
+      "score": 0.4491368532180786
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.058037757873535156
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.052664220333099365
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1016/0040-1951(85)90080-0",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/0040-1951(85)90080-0",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S195250905",
+        "display_name": "Tectonophysics",
+        "issn_l": "0040-1951",
+        "issn": [
+          "0040-1951",
+          "1879-3266"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Tectonophysics",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Climate action",
+      "score": 0.5299999713897705,
+      "id": "https://metadata.un.org/sdg/13"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2008848008",
+    "https://openalex.org/W1980480636",
+    "https://openalex.org/W2354897147",
+    "https://openalex.org/W3021534032",
+    "https://openalex.org/W3009913596",
+    "https://openalex.org/W2803349801",
+    "https://openalex.org/W2314890844",
+    "https://openalex.org/W2006998295",
+    "https://openalex.org/W1898022504",
+    "https://openalex.org/W2362336146"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 11
+    }
+  ],
+  "updated_date": "2026-08-21T09:56:20.448147",
+  "created_date": "2025-10-10T00:00:00"
+}

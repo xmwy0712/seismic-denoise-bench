@@ -1,0 +1,381 @@
+{
+  "id": "https://openalex.org/W1846028674",
+  "doi": null,
+  "title": "Multiazimuth velocity analysis using velocity-independent seismic imaging",
+  "display_name": "Multiazimuth velocity analysis using velocity-independent seismic imaging",
+  "publication_year": 2011,
+  "publication_date": "2011-05-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1846028674",
+    "mag": "1846028674"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "pmh:oai:repositories.lib.utexas.edu:2152/28715",
+    "is_oa": true,
+    "landing_page_url": "http://hdl.handle.net/2152/28715",
+    "pdf_url": "http://hdl.handle.net/2152/28715",
+    "source": {
+      "id": "https://openalex.org/S4306400568",
+      "display_name": "Texas ScholarWorks (Texas Digital Library)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I4210102904",
+      "host_organization_name": "Texas Digital Library",
+      "host_organization_lineage": [
+        "https://openalex.org/I4210102904"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "",
+    "raw_type": "Thesis"
+  },
+  "type": "dissertation",
+  "indexed_in": [],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "http://hdl.handle.net/2152/28715",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5109291510",
+        "display_name": "William Burnett",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "William Burnett",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5109291510"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": true,
+  "cited_by_count": 3,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11993",
+    "display_name": "Atomic and Subatomic Physics Research",
+    "score": 0.9876999855041504,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3107",
+      "display_name": "Atomic and Molecular Physics, and Optics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/31",
+      "display_name": "Physics and Astronomy"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11993",
+      "display_name": "Atomic and Subatomic Physics Research",
+      "score": 0.9876999855041504,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11949",
+      "display_name": "Nuclear Physics and Applications",
+      "score": 0.9872000217437744,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3108",
+        "display_name": "Radiation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9821000099182129,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.5401678085327148
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.4480729401111603
+    },
+    {
+      "id": "https://openalex.org/keywords/geophysical-imaging",
+      "display_name": "Geophysical imaging",
+      "score": 0.4433210492134094
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.5401678085327148
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.4480729401111603
+    },
+    {
+      "id": "https://openalex.org/C79675319",
+      "wikidata": "https://www.wikidata.org/wiki/Q5535575",
+      "display_name": "Geophysical imaging",
+      "level": 2,
+      "score": 0.4433210492134094
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "pmh:oai:repositories.lib.utexas.edu:2152/28715",
+      "is_oa": true,
+      "landing_page_url": "http://hdl.handle.net/2152/28715",
+      "pdf_url": "http://hdl.handle.net/2152/28715",
+      "source": {
+        "id": "https://openalex.org/S4306400568",
+        "display_name": "Texas ScholarWorks (Texas Digital Library)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": "https://openalex.org/I4210102904",
+        "host_organization_name": "Texas Digital Library",
+        "host_organization_lineage": [
+          "https://openalex.org/I4210102904"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "Thesis"
+    },
+    {
+      "id": "mag:1846028674",
+      "is_oa": false,
+      "landing_page_url": "https://repositories.lib.utexas.edu/bitstream/2152/28715/1/BURNETT-DISSERTATION-2011.pdf",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": null,
+      "raw_source_name": null,
+      "raw_type": null
+    }
+  ],
+  "best_oa_location": {
+    "id": "pmh:oai:repositories.lib.utexas.edu:2152/28715",
+    "is_oa": true,
+    "landing_page_url": "http://hdl.handle.net/2152/28715",
+    "pdf_url": "http://hdl.handle.net/2152/28715",
+    "source": {
+      "id": "https://openalex.org/S4306400568",
+      "display_name": "Texas ScholarWorks (Texas Digital Library)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": "https://openalex.org/I4210102904",
+      "host_organization_name": "Texas Digital Library",
+      "host_organization_lineage": [
+        "https://openalex.org/I4210102904"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "",
+    "raw_type": "Thesis"
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Climate action",
+      "id": "https://metadata.un.org/sdg/13",
+      "score": 0.47999998927116394
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": true,
+    "grobid_xml": true
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W1846028674.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W1846028674.grobid-xml"
+  },
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2035664037",
+    "https://openalex.org/W3022950152",
+    "https://openalex.org/W3021147470",
+    "https://openalex.org/W2781662751",
+    "https://openalex.org/W1974736817",
+    "https://openalex.org/W2033043502",
+    "https://openalex.org/W2794767661",
+    "https://openalex.org/W2776059907",
+    "https://openalex.org/W2009620346",
+    "https://openalex.org/W2765966430",
+    "https://openalex.org/W1975901727",
+    "https://openalex.org/W2383790911",
+    "https://openalex.org/W2510289085",
+    "https://openalex.org/W2922381617",
+    "https://openalex.org/W2514517220",
+    "https://openalex.org/W2009378559",
+    "https://openalex.org/W3177132055",
+    "https://openalex.org/W26065489",
+    "https://openalex.org/W2069423100",
+    "https://openalex.org/W2910824437"
+  ],
+  "abstract_inverted_index": {
+    "Paul": [
+      0
+    ],
+    "introduced": [
+      1
+    ],
+    "me": [
+      2
+    ],
+    "to": [
+      3
+    ],
+    "the": [
+      4
+    ],
+    "world": [
+      5
+    ],
+    "of": [
+      6
+    ],
+    "computer": [
+      7
+    ],
+    "science,": [
+      8
+    ],
+    "and": [
+      9
+    ],
+    "has": [
+      10
+    ],
+    "been": [
+      11
+    ],
+    "a": [
+      12
+    ],
+    "peer": [
+      13
+    ],
+    "role-model": [
+      14
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-08-31T07:19:18.363097",
+  "created_date": "2025-10-10T00:00:00"
+}

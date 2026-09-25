@@ -1,0 +1,795 @@
+{
+  "id": "https://openalex.org/W1997708567",
+  "doi": "https://doi.org/10.1190/1.2954024",
+  "title": "Microseismic imaging of a geothermal reservoir stimulation",
+  "display_name": "Microseismic imaging of a geothermal reservoir stimulation",
+  "publication_year": 2008,
+  "publication_date": "2008-07-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1997708567",
+    "doi": "https://doi.org/10.1190/1.2954024",
+    "mag": "1997708567"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.2954024",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.2954024",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4210172657",
+      "display_name": "The Leading Edge",
+      "issn_l": "1070-485X",
+      "issn": [
+        "1070-485X",
+        "1938-3789"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "The Leading Edge",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5069400107",
+        "display_name": "Ben C. Dyer",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "B. C. Dyer",
+      "raw_affiliation_strings": [
+        "Semore Seismic 1 , Cornwall, U. K",
+        "Semore Seismic, Cornwall, U. K"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Semore Seismic 1 , Cornwall, U. K",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Semore Seismic, Cornwall, U. K",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5071237244",
+        "display_name": "Ulrich Schanz",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "U. Schanz",
+      "raw_affiliation_strings": [
+        "Geothermal Explorers LTD 2 , Pratteln, Switzerland",
+        "Geothermal Explorers LTD, Pratteln, Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Geothermal Explorers LTD 2 , Pratteln, Switzerland",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Geothermal Explorers LTD, Pratteln, Switzerland",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5060474771",
+        "display_name": "Florentin Ladner",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "F. Ladner",
+      "raw_affiliation_strings": [
+        "Geothermal Explorers LTD 2 , Pratteln, Switzerland",
+        "Geothermal Explorers LTD, Pratteln, Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Geothermal Explorers LTD 2 , Pratteln, Switzerland",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Geothermal Explorers LTD, Pratteln, Switzerland",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5087348885",
+        "display_name": "Markus O. Häring",
+        "orcid": "https://orcid.org/0000-0003-4920-4082",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-4920-4082"
+        ]
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "M. O. Häring",
+      "raw_affiliation_strings": [
+        "Geothermal Explorers LTD 2 , Pratteln, Switzerland",
+        "Geothermal Explorers LTD, Pratteln, Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Geothermal Explorers LTD 2 , Pratteln, Switzerland",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Geothermal Explorers LTD, Pratteln, Switzerland",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5042026563",
+        "display_name": "Thomas Spillman",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210149612",
+          "display_name": "National Cooperative for the Disposal of Radioactive Waste (Switzerland)",
+          "ror": "https://ror.org/04gaaqn72",
+          "country_code": "CH",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210149612"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "T. Spillman",
+      "raw_affiliation_strings": [
+        "NAGRA 3 , Wettingen, Switzerland",
+        "NAGRA, Wettingen, Switzerland"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "NAGRA 3 , Wettingen, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I4210149612"
+          ]
+        },
+        {
+          "raw_affiliation_string": "NAGRA, Wettingen, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I4210149612"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 3.4168,
+  "has_fulltext": false,
+  "cited_by_count": 77,
+  "citation_normalized_percentile": {
+    "value": 0.91003614,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 94,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "27",
+    "issue": "7",
+    "first_page": "856",
+    "last_page": "869"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9986000061035156,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9986000061035156,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9980000257492065,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10413",
+      "display_name": "High-pressure geophysics and materials",
+      "score": 0.9962000250816345,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/microseism",
+      "display_name": "Microseism",
+      "score": 0.9081810116767883
+    },
+    {
+      "id": "https://openalex.org/keywords/geothermal-gradient",
+      "display_name": "Geothermal gradient",
+      "score": 0.8434674739837646
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.6734792590141296
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.48733577132225037
+    },
+    {
+      "id": "https://openalex.org/keywords/petroleum-engineering",
+      "display_name": "Petroleum engineering",
+      "score": 0.4122886657714844
+    },
+    {
+      "id": "https://openalex.org/keywords/geophysics",
+      "display_name": "Geophysics",
+      "score": 0.24193844199180603
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C7266685",
+      "wikidata": "https://www.wikidata.org/wiki/Q1303250",
+      "display_name": "Microseism",
+      "level": 2,
+      "score": 0.9081810116767883
+    },
+    {
+      "id": "https://openalex.org/C111766609",
+      "wikidata": "https://www.wikidata.org/wiki/Q636340",
+      "display_name": "Geothermal gradient",
+      "level": 2,
+      "score": 0.8434674739837646
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.6734792590141296
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.48733577132225037
+    },
+    {
+      "id": "https://openalex.org/C78762247",
+      "wikidata": "https://www.wikidata.org/wiki/Q1273174",
+      "display_name": "Petroleum engineering",
+      "level": 1,
+      "score": 0.4122886657714844
+    },
+    {
+      "id": "https://openalex.org/C8058405",
+      "wikidata": "https://www.wikidata.org/wiki/Q46255",
+      "display_name": "Geophysics",
+      "level": 1,
+      "score": 0.24193844199180603
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.2954024",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.2954024",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210172657",
+        "display_name": "The Leading Edge",
+        "issn_l": "1070-485X",
+        "issn": [
+          "1070-485X",
+          "1938-3789"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The Leading Edge",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/9",
+      "display_name": "Industry, innovation and infrastructure",
+      "score": 0.5
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 5,
+  "referenced_works": [
+    "https://openalex.org/W2042858144",
+    "https://openalex.org/W2078444532",
+    "https://openalex.org/W2089534919",
+    "https://openalex.org/W2108825218",
+    "https://openalex.org/W2130917613"
+  ],
+  "related_works": [
+    "https://openalex.org/W4211018995",
+    "https://openalex.org/W2332320584",
+    "https://openalex.org/W2126967451",
+    "https://openalex.org/W2031302457",
+    "https://openalex.org/W2065755596",
+    "https://openalex.org/W2144325169",
+    "https://openalex.org/W2026548759",
+    "https://openalex.org/W2365313582",
+    "https://openalex.org/W2390064471",
+    "https://openalex.org/W2085530335"
+  ],
+  "abstract_inverted_index": {
+    "Exploitation": [
+      0
+    ],
+    "of": [
+      1,
+      9,
+      16,
+      38,
+      47,
+      51
+    ],
+    "geothermal": [
+      2,
+      60
+    ],
+    "heat": [
+      3,
+      40
+    ],
+    "energy": [
+      4,
+      25,
+      82
+    ],
+    "from": [
+      5,
+      84
+    ],
+    "rocks": [
+      6,
+      29
+    ],
+    "at": [
+      7,
+      43,
+      91
+    ],
+    "depths": [
+      8,
+      92
+    ],
+    "several": [
+      10
+    ],
+    "km": [
+      11,
+      94
+    ],
+    "has": [
+      12
+    ],
+    "been": [
+      13
+    ],
+    "the": [
+      14,
+      20,
+      24,
+      39,
+      52,
+      85
+    ],
+    "goal": [
+      15
+    ],
+    "vari-ous": [
+      17
+    ],
+    "projects": [
+      18
+    ],
+    "since": [
+      19
+    ],
+    "mid-1970s.": [
+      21
+    ],
+    "To": [
+      22
+    ],
+    "exploit": [
+      23
+    ],
+    "in": [
+      26,
+      33
+    ],
+    "these": [
+      27
+    ],
+    "deep": [
+      28
+    ],
+    "poses": [
+      30
+    ],
+    "technical": [
+      31
+    ],
+    "challenges": [
+      32
+    ],
+    "drilling,": [
+      34
+    ],
+    "well": [
+      35
+    ],
+    "completion,": [
+      36
+    ],
+    "creation": [
+      37
+    ],
+    "exchange": [
+      41
+    ],
+    "reservoir": [
+      42
+    ],
+    "depth,": [
+      44
+    ],
+    "and": [
+      45
+    ],
+    "control": [
+      46
+    ],
+    "seismicity.": [
+      48
+    ],
+    "In": [
+      49
+    ],
+    "spite": [
+      50
+    ],
+    "difficulties,": [
+      53
+    ],
+    "what": [
+      54
+    ],
+    "are": [
+      55
+    ],
+    "now": [
+      56
+    ],
+    "known": [
+      57
+    ],
+    "as": [
+      58
+    ],
+    "enhanced/engineered": [
+      59
+    ],
+    "systems": [
+      61
+    ],
+    "(EGS)": [
+      62
+    ],
+    "offer": [
+      63
+    ],
+    "almost": [
+      64
+    ],
+    "limitless": [
+      65
+    ],
+    "clean": [
+      66
+    ],
+    "energy,": [
+      67
+    ],
+    "so": [
+      68
+    ],
+    "it": [
+      69
+    ],
+    "is": [
+      70
+    ],
+    "not": [
+      71
+    ],
+    "surprising": [
+      72
+    ],
+    "that": [
+      73
+    ],
+    "this": [
+      74
+    ],
+    "technology": [
+      75
+    ],
+    "continues": [
+      76
+    ],
+    "to": [
+      77
+    ],
+    "attract": [
+      78
+    ],
+    "investors.": [
+      79
+    ],
+    "However,": [
+      80
+    ],
+    "commercial": [
+      81
+    ],
+    "production": [
+      83
+    ],
+    "greatest": [
+      86
+    ],
+    "potential": [
+      87
+    ],
+    "resource,": [
+      88
+    ],
+    "hot": [
+      89
+    ],
+    "rock": [
+      90
+    ],
+    ">5": [
+      93
+    ],
+    "or": [
+      95
+    ],
+    "temperatures": [
+      96
+    ],
+    ">200°C,": [
+      97
+    ],
+    "remains": [
+      98
+    ],
+    "elusive.": [
+      99
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 4
+    }
+  ],
+  "updated_date": "2026-09-23T05:00:35.095934",
+  "created_date": "2025-10-10T00:00:00"
+}

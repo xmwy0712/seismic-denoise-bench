@@ -1,0 +1,1045 @@
+{
+  "id": "https://openalex.org/W1579634341",
+  "doi": "https://doi.org/10.1093/acprof:oso/9780198528418.001.0001",
+  "title": "Numerical Methods for Image Registration",
+  "display_name": "Numerical Methods for Image Registration",
+  "publication_year": 2003,
+  "publication_date": "2003-12-04",
+  "ids": {
+    "openalex": "https://openalex.org/W1579634341",
+    "doi": "https://doi.org/10.1093/acprof:oso/9780198528418.001.0001",
+    "mag": "1579634341"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1093/acprof:oso/9780198528418.001.0001",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1093/acprof:oso/9780198528418.001.0001",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": null,
+    "raw_type": "edited-book"
+  },
+  "type": "book",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5074060460",
+        "display_name": "Jan Modersitzki",
+        "orcid": "https://orcid.org/0000-0003-2337-389X",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-2337-389X"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I9341345",
+          "display_name": "University of Lübeck",
+          "ror": "https://ror.org/00t3r8h32",
+          "country_code": "DE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I9341345"
+          ]
+        }
+      ],
+      "countries": [
+        "DE"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Jan Modersitzki",
+      "raw_affiliation_strings": [
+        "Institute of Mathematics, University of Lubeck"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Mathematics, University of Lubeck",
+          "institution_ids": [
+            "https://openalex.org/I9341345"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5074060460"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I9341345"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 33.4764,
+  "has_fulltext": false,
+  "cited_by_count": 930,
+  "citation_normalized_percentile": {
+    "value": 0.99615385,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 96,
+    "max": 100
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10052",
+    "display_name": "Medical Image Segmentation Techniques",
+    "score": 0.9995999932289124,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1707",
+      "display_name": "Computer Vision and Pattern Recognition"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10052",
+      "display_name": "Medical Image Segmentation Techniques",
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11245",
+      "display_name": "Advanced Numerical Analysis Techniques",
+      "score": 0.994700014591217,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10688",
+      "display_name": "Image and Signal Denoising Methods",
+      "score": 0.989300012588501,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/image-registration",
+      "display_name": "Image registration",
+      "score": 0.7534554600715637
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.6246408224105835
+    },
+    {
+      "id": "https://openalex.org/keywords/mutual-information",
+      "display_name": "Mutual information",
+      "score": 0.5342461466789246
+    },
+    {
+      "id": "https://openalex.org/keywords/image-processing",
+      "display_name": "Image processing",
+      "score": 0.516899824142456
+    },
+    {
+      "id": "https://openalex.org/keywords/focus",
+      "display_name": "Focus (optics)",
+      "score": 0.4714969992637634
+    },
+    {
+      "id": "https://openalex.org/keywords/regularization",
+      "display_name": "Regularization (linguistics)",
+      "score": 0.4698689877986908
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.4594477415084839
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-vision",
+      "display_name": "Computer vision",
+      "score": 0.4558615982532501
+    },
+    {
+      "id": "https://openalex.org/keywords/image",
+      "display_name": "Image (mathematics)",
+      "score": 0.43633049726486206
+    },
+    {
+      "id": "https://openalex.org/keywords/thin-plate-spline",
+      "display_name": "Thin plate spline",
+      "score": 0.4112614095211029
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.36091989278793335
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C166704113",
+      "wikidata": "https://www.wikidata.org/wiki/Q861092",
+      "display_name": "Image registration",
+      "level": 3,
+      "score": 0.7534554600715637
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.6246408224105835
+    },
+    {
+      "id": "https://openalex.org/C152139883",
+      "wikidata": "https://www.wikidata.org/wiki/Q252973",
+      "display_name": "Mutual information",
+      "level": 2,
+      "score": 0.5342461466789246
+    },
+    {
+      "id": "https://openalex.org/C9417928",
+      "wikidata": "https://www.wikidata.org/wiki/Q1070689",
+      "display_name": "Image processing",
+      "level": 3,
+      "score": 0.516899824142456
+    },
+    {
+      "id": "https://openalex.org/C192209626",
+      "wikidata": "https://www.wikidata.org/wiki/Q190909",
+      "display_name": "Focus (optics)",
+      "level": 2,
+      "score": 0.4714969992637634
+    },
+    {
+      "id": "https://openalex.org/C2776135515",
+      "wikidata": "https://www.wikidata.org/wiki/Q17143721",
+      "display_name": "Regularization (linguistics)",
+      "level": 2,
+      "score": 0.4698689877986908
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.4594477415084839
+    },
+    {
+      "id": "https://openalex.org/C31972630",
+      "wikidata": "https://www.wikidata.org/wiki/Q844240",
+      "display_name": "Computer vision",
+      "level": 1,
+      "score": 0.4558615982532501
+    },
+    {
+      "id": "https://openalex.org/C115961682",
+      "wikidata": "https://www.wikidata.org/wiki/Q860623",
+      "display_name": "Image (mathematics)",
+      "level": 2,
+      "score": 0.43633049726486206
+    },
+    {
+      "id": "https://openalex.org/C93132110",
+      "wikidata": "https://www.wikidata.org/wiki/Q7784288",
+      "display_name": "Thin plate spline",
+      "level": 4,
+      "score": 0.4112614095211029
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.36091989278793335
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C205203396",
+      "wikidata": "https://www.wikidata.org/wiki/Q612143",
+      "display_name": "Bilinear interpolation",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C31447003",
+      "wikidata": "https://www.wikidata.org/wiki/Q545002",
+      "display_name": "Spline interpolation",
+      "level": 3,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 6,
+  "locations": [
+    {
+      "id": "doi:10.1093/acprof:oso/9780198528418.001.0001",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1093/acprof:oso/9780198528418.001.0001",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": null,
+      "raw_type": "edited-book"
+    },
+    {
+      "id": "pmh:oai:CiteSeerX.psu:10.1.1.379.3940",
+      "is_oa": false,
+      "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.379.3940",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "http://www.math.emory.edu/technical-reports/techrep-00062.pdf",
+      "raw_type": "text"
+    },
+    {
+      "id": "pmh:oai:CiteSeerX.psu:10.1.1.86.3113",
+      "is_oa": false,
+      "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.86.3113",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "http://www.math.mu-luebeck.de/mitarbeiter/modersitzki/Pubs/2006-SISC.pdf",
+      "raw_type": "text"
+    },
+    {
+      "id": "pmh:oai:CiteSeerX.psu:10.1.1.86.4786",
+      "is_oa": false,
+      "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.86.4786",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "http://www.mathcs.emory.edu/~haber/pubs/HM-MG-2004-04-27.pdf",
+      "raw_type": "text"
+    },
+    {
+      "id": "pmh:oai:bibliotecavirtualdefensa.es:635077",
+      "is_oa": false,
+      "landing_page_url": "https://bibliotecavirtual.defensa.gob.es/BVMDefensa/es/consulta/registro.do?id=635077",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4377196928",
+        "display_name": "Virtual Defense Library (Ministerio de Defensa)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I4210162908",
+        "host_organization_name": "Ministerio de Defensa",
+        "host_organization_lineage": [
+          "https://openalex.org/I4210162908"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "Libros"
+    },
+    {
+      "id": "pmh:oai:cds.cern.ch:1613548",
+      "is_oa": false,
+      "landing_page_url": "http://cds.cern.ch/record/1613548",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402195",
+        "display_name": "CERN Document Server (European Organization for Nuclear Research)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I67311998",
+        "host_organization_name": "European Organization for Nuclear Research",
+        "host_organization_lineage": [
+          "https://openalex.org/I67311998"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": null
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/11",
+      "score": 0.4300000071525574,
+      "display_name": "Sustainable cities and communities"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 56,
+  "referenced_works": [
+    "https://openalex.org/W63727357",
+    "https://openalex.org/W577909876",
+    "https://openalex.org/W607200110",
+    "https://openalex.org/W1480546554",
+    "https://openalex.org/W1488435683",
+    "https://openalex.org/W1511772490",
+    "https://openalex.org/W1533758240",
+    "https://openalex.org/W1552869711",
+    "https://openalex.org/W1554791705",
+    "https://openalex.org/W1555601076",
+    "https://openalex.org/W1573048751",
+    "https://openalex.org/W1578285471",
+    "https://openalex.org/W1622370747",
+    "https://openalex.org/W1895631562",
+    "https://openalex.org/W1963623641",
+    "https://openalex.org/W1965555277",
+    "https://openalex.org/W1965809243",
+    "https://openalex.org/W1979496680",
+    "https://openalex.org/W1980451378",
+    "https://openalex.org/W1986979777",
+    "https://openalex.org/W2001666669",
+    "https://openalex.org/W2004421506",
+    "https://openalex.org/W2004537679",
+    "https://openalex.org/W2021835950",
+    "https://openalex.org/W2026239436",
+    "https://openalex.org/W2034432063",
+    "https://openalex.org/W2035419215",
+    "https://openalex.org/W2044440997",
+    "https://openalex.org/W2055494836",
+    "https://openalex.org/W2060427122",
+    "https://openalex.org/W2068982304",
+    "https://openalex.org/W2084134149",
+    "https://openalex.org/W2095590702",
+    "https://openalex.org/W2097376428",
+    "https://openalex.org/W2126036157",
+    "https://openalex.org/W2129002068",
+    "https://openalex.org/W2131938193",
+    "https://openalex.org/W2133584444",
+    "https://openalex.org/W2138943050",
+    "https://openalex.org/W2158167845",
+    "https://openalex.org/W2162870748",
+    "https://openalex.org/W2181887356",
+    "https://openalex.org/W2316564661",
+    "https://openalex.org/W3103367140",
+    "https://openalex.org/W4205649593",
+    "https://openalex.org/W4212960264",
+    "https://openalex.org/W4212997115",
+    "https://openalex.org/W4213372157",
+    "https://openalex.org/W4242237682",
+    "https://openalex.org/W4244812199",
+    "https://openalex.org/W4251202573",
+    "https://openalex.org/W4252559437",
+    "https://openalex.org/W4252713891",
+    "https://openalex.org/W4293775970",
+    "https://openalex.org/W6633773013",
+    "https://openalex.org/W6679427492"
+  ],
+  "related_works": [
+    "https://openalex.org/W2426195296",
+    "https://openalex.org/W1970834875",
+    "https://openalex.org/W2367847708",
+    "https://openalex.org/W2135643201",
+    "https://openalex.org/W2370810807",
+    "https://openalex.org/W2368895820",
+    "https://openalex.org/W2156531368",
+    "https://openalex.org/W2548524143",
+    "https://openalex.org/W2387425358",
+    "https://openalex.org/W2542788974"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "This": [
+      1,
+      143
+    ],
+    "text": [
+      2
+    ],
+    "provides": [
+      3,
+      79
+    ],
+    "an": [
+      4
+    ],
+    "introduction": [
+      5,
+      82
+    ],
+    "to": [
+      6,
+      35,
+      47,
+      65,
+      74,
+      83
+    ],
+    "the": [
+      7,
+      29,
+      42,
+      48,
+      88,
+      150,
+      160
+    ],
+    "theoretical,": [
+      8
+    ],
+    "practical,": [
+      9
+    ],
+    "and": [
+      10,
+      26,
+      62,
+      70,
+      86,
+      104,
+      119,
+      134,
+      152,
+      165,
+      177
+    ],
+    "numerical": [
+      11,
+      111
+    ],
+    "aspects": [
+      12,
+      93
+    ],
+    "of": [
+      13,
+      31,
+      154,
+      162
+    ],
+    "image": [
+      14,
+      32,
+      84,
+      97,
+      127,
+      130
+    ],
+    "registration,": [
+      15
+    ],
+    "with": [
+      16,
+      106
+    ],
+    "special": [
+      17
+    ],
+    "emphasis": [
+      18
+    ],
+    "on": [
+      19,
+      110
+    ],
+    "medical": [
+      20
+    ],
+    "imaging.": [
+      21
+    ],
+    "Given": [
+      22
+    ],
+    "a": [
+      23,
+      37,
+      80,
+      107,
+      121
+    ],
+    "so-called": [
+      24
+    ],
+    "reference": [
+      25,
+      49
+    ],
+    "template": [
+      27,
+      44
+    ],
+    "image,": [
+      28
+    ],
+    "goal": [
+      30
+    ],
+    "registration": [
+      33,
+      52,
+      85
+    ],
+    "is": [
+      34,
+      45,
+      53,
+      117,
+      146
+    ],
+    "find": [
+      36
+    ],
+    "reasonable": [
+      38
+    ],
+    "transformation": [
+      39
+    ],
+    "such": [
+      40
+    ],
+    "that": [
+      41
+    ],
+    "transformed": [
+      43
+    ],
+    "similar": [
+      46
+    ],
+    "image.": [
+      50
+    ],
+    "Image": [
+      51
+    ],
+    "utilized": [
+      54
+    ],
+    "whenever": [
+      55
+    ],
+    "information": [
+      56
+    ],
+    "obtained": [
+      57
+    ],
+    "from": [
+      58,
+      94
+    ],
+    "different": [
+      59
+    ],
+    "viewpoints": [
+      60
+    ],
+    "times": [
+      61
+    ],
+    "sensors": [
+      63
+    ],
+    "needs": [
+      64,
+      73
+    ],
+    "be": [
+      66,
+      75
+    ],
+    "combined": [
+      67
+    ],
+    "or": [
+      68,
+      129,
+      140
+    ],
+    "compared,": [
+      69
+    ],
+    "unwanted": [
+      71
+    ],
+    "distortion": [
+      72
+    ],
+    "eliminated.": [
+      76
+    ],
+    "The": [
+      77
+    ],
+    "book": [
+      78
+    ],
+    "systematic": [
+      81
+    ],
+    "discusses": [
+      87
+    ],
+    "basic": [
+      89
+    ],
+    "mathematical": [
+      90
+    ],
+    "principles,": [
+      91
+    ],
+    "including": [
+      92,
+      168
+    ],
+    "approximations": [
+      95
+    ],
+    "theory,": [
+      96
+    ],
+    "processing,": [
+      98
+    ],
+    "numerics,": [
+      99
+    ],
+    "optimization,": [
+      100
+    ],
+    "partial": [
+      101
+    ],
+    "differential": [
+      102
+    ],
+    "equations,": [
+      103
+    ],
+    "statistics,": [
+      105
+    ],
+    "strong": [
+      108
+    ],
+    "focus": [
+      109
+    ],
+    "methods.": [
+      112
+    ],
+    "A": [
+      113
+    ],
+    "unified": [
+      114
+    ],
+    "variational": [
+      115
+    ],
+    "approach": [
+      116
+    ],
+    "introduced": [
+      118
+    ],
+    "enables": [
+      120
+    ],
+    "separation": [
+      122
+    ],
+    "into": [
+      123
+    ],
+    "data-related": [
+      124
+    ],
+    "issues": [
+      125
+    ],
+    "like": [
+      126,
+      138
+    ],
+    "feature": [
+      128
+    ],
+    "intensity-based": [
+      131
+    ],
+    "similarity": [
+      132
+    ],
+    "measures,": [
+      133
+    ],
+    "problem": [
+      135
+    ],
+    "inherent": [
+      136
+    ],
+    "regularization": [
+      137
+    ],
+    "elastic": [
+      139
+    ],
+    "diffusion": [
+      141
+    ],
+    "registration.": [
+      142,
+      179
+    ],
+    "general": [
+      144
+    ],
+    "framework": [
+      145
+    ],
+    "further": [
+      147
+    ],
+    "used": [
+      148
+    ],
+    "for": [
+      149
+    ],
+    "explanation": [
+      151
+    ],
+    "classification": [
+      153
+    ],
+    "established": [
+      155
+    ],
+    "methods": [
+      156
+    ],
+    "as": [
+      157,
+      159
+    ],
+    "well": [
+      158
+    ],
+    "design": [
+      161
+    ],
+    "new": [
+      163
+    ],
+    "schemes": [
+      164
+    ],
+    "building": [
+      166
+    ],
+    "blocks": [
+      167
+    ],
+    "landmark-,": [
+      169
+    ],
+    "thin-plate-spline,": [
+      170
+    ],
+    "mutual": [
+      171
+    ],
+    "information,": [
+      172
+    ],
+    "elastic,": [
+      173
+    ],
+    "fluid,": [
+      174
+    ],
+    "demon,": [
+      175
+    ],
+    "diffusion,": [
+      176
+    ],
+    "curvature": [
+      178
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 26
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 23
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 26
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 35
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 39
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 43
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 32
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 53
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 64
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 52
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 38
+    }
+  ],
+  "updated_date": "2026-09-23T09:40:40.371523",
+  "created_date": "2025-10-10T00:00:00"
+}

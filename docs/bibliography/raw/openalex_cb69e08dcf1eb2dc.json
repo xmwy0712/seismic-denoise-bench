@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "count": 0,
+    "db_response_time_ms": 229,
+    "page": 1,
+    "per_page": 10,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where it cites (W3023057912)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "referenced_works",
+            "value": "W3023057912"
+          }
+        ]
+      },
+      "url": "/works?filter=referenced_works:W3023057912&per_page=10"
+    },
+    "cost_usd": 0.0001
+  },
+  "results": [],
+  "group_by": []
+}

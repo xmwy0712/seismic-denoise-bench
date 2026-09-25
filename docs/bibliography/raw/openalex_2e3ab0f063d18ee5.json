@@ -1,0 +1,856 @@
+{
+  "id": "https://openalex.org/W2155808337",
+  "doi": "https://doi.org/10.1190/1.3213533",
+  "title": "Nonstationary phase estimation using regularized local kurtosis maximization",
+  "display_name": "Nonstationary phase estimation using regularized local kurtosis maximization",
+  "publication_year": 2009,
+  "publication_date": "2009-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2155808337",
+    "doi": "https://doi.org/10.1190/1.3213533",
+    "mag": "2155808337"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.3213533",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.3213533",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S106174089",
+      "display_name": "Geophysics",
+      "issn_l": "0016-8033",
+      "issn": [
+        "0016-8033",
+        "1942-2156"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5063768705",
+        "display_name": "Mirko van der Baan",
+        "orcid": "https://orcid.org/0000-0001-6416-8839",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-6416-8839"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1288783943",
+          "display_name": "Bureau of Economic Analysis",
+          "ror": "https://ror.org/03b17a012",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I1343035065"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I154425047",
+          "display_name": "University of Alberta",
+          "ror": "https://ror.org/0160cpw27",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I154425047"
+          ]
+        }
+      ],
+      "countries": [
+        "CA",
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mirko van der Baan",
+      "raw_affiliation_strings": [
+        "1University of Alberta, Department of Physics, CEB, Edmonton, Alberta, Canada. E-mail: mirko.vanderbaan@ualberta.ca",
+        "University of Alberta, Department of Physics, CEB, Edmonton, Alberta, Canada",
+        "University of Texas at Austin, John A. and Katherine G. Jackson School of Geosciences, Bureau of Economic Geology, University Station, Austin, Texas, USA. "
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1University of Alberta, Department of Physics, CEB, Edmonton, Alberta, Canada. E-mail: mirko.vanderbaan@ualberta.ca",
+          "institution_ids": [
+            "https://openalex.org/I154425047"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Alberta, Department of Physics, CEB, Edmonton, Alberta, Canada",
+          "institution_ids": [
+            "https://openalex.org/I154425047"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Texas at Austin, John A. and Katherine G. Jackson School of Geosciences, Bureau of Economic Geology, University Station, Austin, Texas, USA. ",
+          "institution_ids": [
+            "https://openalex.org/I1288783943"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5005237932",
+        "display_name": "Sergey B. Fomel",
+        "orcid": "https://orcid.org/0000-0002-9024-5137",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9024-5137"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1288783943",
+          "display_name": "Bureau of Economic Analysis",
+          "ror": "https://ror.org/03b17a012",
+          "country_code": "US",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1288783943",
+            "https://openalex.org/I1343035065"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I154425047",
+          "display_name": "University of Alberta",
+          "ror": "https://ror.org/0160cpw27",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I154425047"
+          ]
+        }
+      ],
+      "countries": [
+        "CA",
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sergey Fomel",
+      "raw_affiliation_strings": [
+        "2University of Texas at Austin, John A. and Katherine G. Jackson School of Geosciences, Bureau of Economic Geology, University Station, Austin, Texas, USA. E-mail: sergey.fomel@beg.utexas.edu",
+        "University of Alberta, Department of Physics, CEB, Edmonton, Alberta, Canada",
+        "University of Texas at Austin, John A. and Katherine G. Jackson School of Geosciences, Bureau of Economic Geology, University Station, Austin, Texas, USA. "
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "2University of Texas at Austin, John A. and Katherine G. Jackson School of Geosciences, Bureau of Economic Geology, University Station, Austin, Texas, USA. E-mail: sergey.fomel@beg.utexas.edu",
+          "institution_ids": [
+            "https://openalex.org/I1288783943"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Alberta, Department of Physics, CEB, Edmonton, Alberta, Canada",
+          "institution_ids": [
+            "https://openalex.org/I154425047"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Texas at Austin, John A. and Katherine G. Jackson School of Geosciences, Bureau of Economic Geology, University Station, Austin, Texas, USA. ",
+          "institution_ids": [
+            "https://openalex.org/I1288783943"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 3.3524,
+  "has_fulltext": false,
+  "cited_by_count": 63,
+  "citation_normalized_percentile": {
+    "value": 0.91293245,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 88,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "74",
+    "issue": "6",
+    "first_page": "A75",
+    "last_page": "A80"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9998000264167786,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10688",
+      "display_name": "Image and Signal Denoising Methods",
+      "score": 0.9973999857902527,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11801",
+      "display_name": "Reservoir Engineering and Simulation Methods",
+      "score": 0.9902999997138977,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/kurtosis",
+      "display_name": "Kurtosis",
+      "score": 0.8089585304260254
+    },
+    {
+      "id": "https://openalex.org/keywords/phase",
+      "display_name": "Phase (matter)",
+      "score": 0.6226495504379272
+    },
+    {
+      "id": "https://openalex.org/keywords/rotation",
+      "display_name": "Rotation (mathematics)",
+      "score": 0.6186105608940125
+    },
+    {
+      "id": "https://openalex.org/keywords/piecewise",
+      "display_name": "Piecewise",
+      "score": 0.5736497044563293
+    },
+    {
+      "id": "https://openalex.org/keywords/wavelet",
+      "display_name": "Wavelet",
+      "score": 0.5292047262191772
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.4834188222885132
+    },
+    {
+      "id": "https://openalex.org/keywords/stability",
+      "display_name": "Stability (learning theory)",
+      "score": 0.44765979051589966
+    },
+    {
+      "id": "https://openalex.org/keywords/maximization",
+      "display_name": "Maximization",
+      "score": 0.4305034279823303
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.42830440402030945
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematical-optimization",
+      "display_name": "Mathematical optimization",
+      "score": 0.4013465940952301
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.3794109523296356
+    },
+    {
+      "id": "https://openalex.org/keywords/statistics",
+      "display_name": "Statistics",
+      "score": 0.18185213208198547
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.12978479266166687
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.12875431776046753
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematical-analysis",
+      "display_name": "Mathematical analysis",
+      "score": 0.08827349543571472
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C166963901",
+      "wikidata": "https://www.wikidata.org/wiki/Q287251",
+      "display_name": "Kurtosis",
+      "level": 2,
+      "score": 0.8089585304260254
+    },
+    {
+      "id": "https://openalex.org/C44280652",
+      "wikidata": "https://www.wikidata.org/wiki/Q104837",
+      "display_name": "Phase (matter)",
+      "level": 2,
+      "score": 0.6226495504379272
+    },
+    {
+      "id": "https://openalex.org/C74050887",
+      "wikidata": "https://www.wikidata.org/wiki/Q848368",
+      "display_name": "Rotation (mathematics)",
+      "level": 2,
+      "score": 0.6186105608940125
+    },
+    {
+      "id": "https://openalex.org/C164660894",
+      "wikidata": "https://www.wikidata.org/wiki/Q2037833",
+      "display_name": "Piecewise",
+      "level": 2,
+      "score": 0.5736497044563293
+    },
+    {
+      "id": "https://openalex.org/C47432892",
+      "wikidata": "https://www.wikidata.org/wiki/Q831390",
+      "display_name": "Wavelet",
+      "level": 2,
+      "score": 0.5292047262191772
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.4834188222885132
+    },
+    {
+      "id": "https://openalex.org/C112972136",
+      "wikidata": "https://www.wikidata.org/wiki/Q7595718",
+      "display_name": "Stability (learning theory)",
+      "level": 2,
+      "score": 0.44765979051589966
+    },
+    {
+      "id": "https://openalex.org/C2776330181",
+      "wikidata": "https://www.wikidata.org/wiki/Q18358244",
+      "display_name": "Maximization",
+      "level": 2,
+      "score": 0.4305034279823303
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.42830440402030945
+    },
+    {
+      "id": "https://openalex.org/C126255220",
+      "wikidata": "https://www.wikidata.org/wiki/Q141495",
+      "display_name": "Mathematical optimization",
+      "level": 1,
+      "score": 0.4013465940952301
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.3794109523296356
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.18185213208198547
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.12978479266166687
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.12875431776046753
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.08827349543571472
+    },
+    {
+      "id": "https://openalex.org/C119857082",
+      "wikidata": "https://www.wikidata.org/wiki/Q2539",
+      "display_name": "Machine learning",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.3213533",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.3213533",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S106174089",
+        "display_name": "Geophysics",
+        "issn_l": "0016-8033",
+        "issn": [
+          "0016-8033",
+          "1942-2156"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysics",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 19,
+  "referenced_works": [
+    "https://openalex.org/W1514018317",
+    "https://openalex.org/W1965726330",
+    "https://openalex.org/W1966786488",
+    "https://openalex.org/W1973540739",
+    "https://openalex.org/W2014084343",
+    "https://openalex.org/W2019024593",
+    "https://openalex.org/W2064830298",
+    "https://openalex.org/W2079357585",
+    "https://openalex.org/W2106671567",
+    "https://openalex.org/W2120481373",
+    "https://openalex.org/W2120870926",
+    "https://openalex.org/W2122373419",
+    "https://openalex.org/W2126720920",
+    "https://openalex.org/W2130023313",
+    "https://openalex.org/W2137094582",
+    "https://openalex.org/W2141921855",
+    "https://openalex.org/W2157522867",
+    "https://openalex.org/W2319054277",
+    "https://openalex.org/W2319611321"
+  ],
+  "related_works": [
+    "https://openalex.org/W4381516319",
+    "https://openalex.org/W1506384729",
+    "https://openalex.org/W2037499216",
+    "https://openalex.org/W4286378979",
+    "https://openalex.org/W4225568567",
+    "https://openalex.org/W2075698830",
+    "https://openalex.org/W3127045225",
+    "https://openalex.org/W3216026256",
+    "https://openalex.org/W2203433402",
+    "https://openalex.org/W2059891554"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "Phase": [
+      1
+    ],
+    "mismatches": [
+      2
+    ],
+    "sometimes": [
+      3
+    ],
+    "occur": [
+      4
+    ],
+    "between": [
+      5
+    ],
+    "final": [
+      6
+    ],
+    "processed": [
+      7
+    ],
+    "seismic": [
+      8,
+      33
+    ],
+    "sections": [
+      9
+    ],
+    "and": [
+      10,
+      24
+    ],
+    "zero-phase": [
+      11
+    ],
+    "synthetics": [
+      12
+    ],
+    "based": [
+      13,
+      66
+    ],
+    "on": [
+      14,
+      67
+    ],
+    "well": [
+      15
+    ],
+    "logs": [
+      16
+    ],
+    "—": [
+      17
+    ],
+    "despite": [
+      18
+    ],
+    "best": [
+      19
+    ],
+    "efforts": [
+      20
+    ],
+    "for": [
+      21
+    ],
+    "controlled-phase": [
+      22
+    ],
+    "acquisition": [
+      23
+    ],
+    "processing.": [
+      25
+    ],
+    "Statistical": [
+      26
+    ],
+    "estimation": [
+      27
+    ],
+    "of": [
+      28,
+      31,
+      62
+    ],
+    "the": [
+      29,
+      45,
+      51,
+      60
+    ],
+    "phase": [
+      30,
+      46,
+      78
+    ],
+    "a": [
+      32,
+      68
+    ],
+    "wavelet": [
+      34
+    ],
+    "is": [
+      35,
+      47
+    ],
+    "feasible": [
+      36
+    ],
+    "using": [
+      37
+    ],
+    "kurtosis": [
+      38
+    ],
+    "maximization": [
+      39
+    ],
+    "by": [
+      40,
+      77
+    ],
+    "constant-phase": [
+      41
+    ],
+    "rotation,": [
+      42
+    ],
+    "even": [
+      43
+    ],
+    "if": [
+      44
+    ],
+    "nonstationary.": [
+      48
+    ],
+    "We": [
+      49
+    ],
+    "cast": [
+      50
+    ],
+    "phase-estimation": [
+      52
+    ],
+    "problem": [
+      53
+    ],
+    "into": [
+      54
+    ],
+    "an": [
+      55,
+      63
+    ],
+    "optimization": [
+      56
+    ],
+    "framework": [
+      57
+    ],
+    "to": [
+      58
+    ],
+    "improve": [
+      59
+    ],
+    "stability": [
+      61
+    ],
+    "earlier": [
+      64
+    ],
+    "method": [
+      65
+    ],
+    "piecewise-stationarity": [
+      69
+    ],
+    "assumption.": [
+      70
+    ],
+    "After": [
+      71
+    ],
+    "estimation,": [
+      72
+    ],
+    "we": [
+      73
+    ],
+    "achieve": [
+      74
+    ],
+    "space-and-time-varying": [
+      75
+    ],
+    "zero-phasing": [
+      76
+    ],
+    "rotation.": [
+      79
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 5
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

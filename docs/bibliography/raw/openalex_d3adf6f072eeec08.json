@@ -1,0 +1,1292 @@
+{
+  "id": "https://openalex.org/W2161936967",
+  "doi": "https://doi.org/10.1190/1.1581036",
+  "title": "Processing, inversion, and interpretation of a 2D seismic data set from the North Viking Graben, North Sea",
+  "display_name": "Processing, inversion, and interpretation of a 2D seismic data set from the North Viking Graben, North Sea",
+  "publication_year": 2003,
+  "publication_date": "2003-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2161936967",
+    "doi": "https://doi.org/10.1190/1.1581036",
+    "mag": "2161936967"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.1581036",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.1581036",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S106174089",
+      "display_name": "Geophysics",
+      "issn_l": "0016-8033",
+      "issn": [
+        "0016-8033",
+        "1942-2156"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5059572157",
+        "display_name": "Gislain B. Madiba",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I162577319",
+          "display_name": "The University of Texas at Dallas",
+          "ror": "https://ror.org/049emcs32",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I162577319"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Gislain B. Madiba",
+      "raw_affiliation_strings": [
+        "∗University of Texas at Dallas, Center for Lithospheric Studies, P.O. Box 830688, Richardson, Texas 75083-0688. E-mail: madi5040@yahoo.com; mcmec@utdallas.edu",
+        "University of Texas at Dallas, Center for Lithospheric Studies, P.O. Box 830688, Richardson, Texas 75083‐0688. Emails:"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "∗University of Texas at Dallas, Center for Lithospheric Studies, P.O. Box 830688, Richardson, Texas 75083-0688. E-mail: madi5040@yahoo.com; mcmec@utdallas.edu",
+          "institution_ids": [
+            "https://openalex.org/I162577319"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Texas at Dallas, Center for Lithospheric Studies, P.O. Box 830688, Richardson, Texas 75083‐0688. Emails:",
+          "institution_ids": [
+            "https://openalex.org/I162577319"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5040981520",
+        "display_name": "George A. McMechan",
+        "orcid": "https://orcid.org/0000-0003-0885-7837"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I162577319",
+          "display_name": "The University of Texas at Dallas",
+          "ror": "https://ror.org/049emcs32",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I162577319"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "George A. McMechan",
+      "raw_affiliation_strings": [
+        "∗University of Texas at Dallas, Center for Lithospheric Studies, P.O. Box 830688, Richardson, Texas 75083-0688. E-mail: madi5040@yahoo.com; mcmec@utdallas.edu",
+        "University of Texas at Dallas, Center for Lithospheric Studies, P.O. Box 830688, Richardson, Texas 75083‐0688. Emails:"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "∗University of Texas at Dallas, Center for Lithospheric Studies, P.O. Box 830688, Richardson, Texas 75083-0688. E-mail: madi5040@yahoo.com; mcmec@utdallas.edu",
+          "institution_ids": [
+            "https://openalex.org/I162577319"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Texas at Dallas, Center for Lithospheric Studies, P.O. Box 830688, Richardson, Texas 75083‐0688. Emails:",
+          "institution_ids": [
+            "https://openalex.org/I162577319"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I162577319"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.5728,
+  "has_fulltext": false,
+  "cited_by_count": 49,
+  "citation_normalized_percentile": {
+    "value": 0.67725732,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "68",
+    "issue": "3",
+    "first_page": "837",
+    "last_page": "848"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10399",
+      "display_name": "Hydrocarbon exploration and reservoir analysis",
+      "score": 0.9993000030517578,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.9993000030517578,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.8339980244636536
+    },
+    {
+      "id": "https://openalex.org/keywords/graben",
+      "display_name": "Graben",
+      "score": 0.7661694288253784
+    },
+    {
+      "id": "https://openalex.org/keywords/lithology",
+      "display_name": "Lithology",
+      "score": 0.7163158655166626
+    },
+    {
+      "id": "https://openalex.org/keywords/porosity",
+      "display_name": "Porosity",
+      "score": 0.6421156525611877
+    },
+    {
+      "id": "https://openalex.org/keywords/inversion",
+      "display_name": "Inversion (geology)",
+      "score": 0.5879860520362854
+    },
+    {
+      "id": "https://openalex.org/keywords/mineralogy",
+      "display_name": "Mineralogy",
+      "score": 0.5466776490211487
+    },
+    {
+      "id": "https://openalex.org/keywords/amplitude-versus-offset",
+      "display_name": "Amplitude versus offset",
+      "score": 0.5417152047157288
+    },
+    {
+      "id": "https://openalex.org/keywords/amplitude",
+      "display_name": "Amplitude",
+      "score": 0.49807071685791016
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-inversion",
+      "display_name": "Seismic inversion",
+      "score": 0.49802064895629883
+    },
+    {
+      "id": "https://openalex.org/keywords/north-sea",
+      "display_name": "North sea",
+      "score": 0.4919678866863251
+    },
+    {
+      "id": "https://openalex.org/keywords/petrophysics",
+      "display_name": "Petrophysics",
+      "score": 0.4220816493034363
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.4019058048725128
+    },
+    {
+      "id": "https://openalex.org/keywords/petrology",
+      "display_name": "Petrology",
+      "score": 0.3731737732887268
+    },
+    {
+      "id": "https://openalex.org/keywords/geometry",
+      "display_name": "Geometry",
+      "score": 0.23756176233291626
+    },
+    {
+      "id": "https://openalex.org/keywords/geotechnical-engineering",
+      "display_name": "Geotechnical engineering",
+      "score": 0.1840496063232422
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.8339980244636536
+    },
+    {
+      "id": "https://openalex.org/C166839181",
+      "wikidata": "https://www.wikidata.org/wiki/Q192810",
+      "display_name": "Graben",
+      "level": 3,
+      "score": 0.7661694288253784
+    },
+    {
+      "id": "https://openalex.org/C122792734",
+      "wikidata": "https://www.wikidata.org/wiki/Q6538759",
+      "display_name": "Lithology",
+      "level": 2,
+      "score": 0.7163158655166626
+    },
+    {
+      "id": "https://openalex.org/C6648577",
+      "wikidata": "https://www.wikidata.org/wiki/Q622669",
+      "display_name": "Porosity",
+      "level": 2,
+      "score": 0.6421156525611877
+    },
+    {
+      "id": "https://openalex.org/C1893757",
+      "wikidata": "https://www.wikidata.org/wiki/Q3653001",
+      "display_name": "Inversion (geology)",
+      "level": 3,
+      "score": 0.5879860520362854
+    },
+    {
+      "id": "https://openalex.org/C199289684",
+      "wikidata": "https://www.wikidata.org/wiki/Q83353",
+      "display_name": "Mineralogy",
+      "level": 1,
+      "score": 0.5466776490211487
+    },
+    {
+      "id": "https://openalex.org/C59000536",
+      "wikidata": "https://www.wikidata.org/wiki/Q4748519",
+      "display_name": "Amplitude versus offset",
+      "level": 3,
+      "score": 0.5417152047157288
+    },
+    {
+      "id": "https://openalex.org/C180205008",
+      "wikidata": "https://www.wikidata.org/wiki/Q159190",
+      "display_name": "Amplitude",
+      "level": 2,
+      "score": 0.49807071685791016
+    },
+    {
+      "id": "https://openalex.org/C39267094",
+      "wikidata": "https://www.wikidata.org/wiki/Q7446968",
+      "display_name": "Seismic inversion",
+      "level": 3,
+      "score": 0.49802064895629883
+    },
+    {
+      "id": "https://openalex.org/C2983223943",
+      "wikidata": "https://www.wikidata.org/wiki/Q1693",
+      "display_name": "North sea",
+      "level": 2,
+      "score": 0.4919678866863251
+    },
+    {
+      "id": "https://openalex.org/C46293882",
+      "wikidata": "https://www.wikidata.org/wiki/Q2080707",
+      "display_name": "Petrophysics",
+      "level": 3,
+      "score": 0.4220816493034363
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.4019058048725128
+    },
+    {
+      "id": "https://openalex.org/C5900021",
+      "wikidata": "https://www.wikidata.org/wiki/Q163082",
+      "display_name": "Petrology",
+      "level": 1,
+      "score": 0.3731737732887268
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.23756176233291626
+    },
+    {
+      "id": "https://openalex.org/C187320778",
+      "wikidata": "https://www.wikidata.org/wiki/Q1349130",
+      "display_name": "Geotechnical engineering",
+      "level": 1,
+      "score": 0.1840496063232422
+    },
+    {
+      "id": "https://openalex.org/C159737794",
+      "wikidata": "https://www.wikidata.org/wiki/Q124274",
+      "display_name": "Azimuth",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C111368507",
+      "wikidata": "https://www.wikidata.org/wiki/Q43518",
+      "display_name": "Oceanography",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C77928131",
+      "wikidata": "https://www.wikidata.org/wiki/Q193343",
+      "display_name": "Tectonics",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.1581036",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.1581036",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S106174089",
+        "display_name": "Geophysics",
+        "issn_l": "0016-8033",
+        "issn": [
+          "0016-8033",
+          "1942-2156"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysics",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/14",
+      "score": 0.8600000143051147,
+      "display_name": "Life below water"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320327708",
+      "display_name": "University of Texas at Dallas",
+      "ror": "https://ror.org/049emcs32"
+    }
+  ],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 42,
+  "referenced_works": [
+    "https://openalex.org/W24174167",
+    "https://openalex.org/W1582077043",
+    "https://openalex.org/W1828344073",
+    "https://openalex.org/W1887925060",
+    "https://openalex.org/W1913881199",
+    "https://openalex.org/W1966124646",
+    "https://openalex.org/W1967853035",
+    "https://openalex.org/W1972659562",
+    "https://openalex.org/W2006604384",
+    "https://openalex.org/W2020484166",
+    "https://openalex.org/W2037384673",
+    "https://openalex.org/W2050847261",
+    "https://openalex.org/W2058128696",
+    "https://openalex.org/W2075687872",
+    "https://openalex.org/W2081432201",
+    "https://openalex.org/W2082461142",
+    "https://openalex.org/W2083790894",
+    "https://openalex.org/W2089253908",
+    "https://openalex.org/W2089667000",
+    "https://openalex.org/W2091975432",
+    "https://openalex.org/W2097035656",
+    "https://openalex.org/W2097161354",
+    "https://openalex.org/W2102921232",
+    "https://openalex.org/W2107627556",
+    "https://openalex.org/W2114388610",
+    "https://openalex.org/W2117655138",
+    "https://openalex.org/W2123989880",
+    "https://openalex.org/W2128673992",
+    "https://openalex.org/W2133270353",
+    "https://openalex.org/W2160844402",
+    "https://openalex.org/W2167233101",
+    "https://openalex.org/W2312938486",
+    "https://openalex.org/W2476064536",
+    "https://openalex.org/W2476826429",
+    "https://openalex.org/W2478975519",
+    "https://openalex.org/W2483598663",
+    "https://openalex.org/W2484306952",
+    "https://openalex.org/W2490277523",
+    "https://openalex.org/W2494862550",
+    "https://openalex.org/W2496375903",
+    "https://openalex.org/W2497281783",
+    "https://openalex.org/W2610793732"
+  ],
+  "related_works": [
+    "https://openalex.org/W2408601921",
+    "https://openalex.org/W3092806023",
+    "https://openalex.org/W123647398",
+    "https://openalex.org/W2746646443",
+    "https://openalex.org/W2323764174",
+    "https://openalex.org/W2616942667",
+    "https://openalex.org/W4221020487",
+    "https://openalex.org/W2597356800",
+    "https://openalex.org/W2330224763",
+    "https://openalex.org/W4289755838"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "Simultaneous": [
+      1
+    ],
+    "elastic": [
+      2
+    ],
+    "impedance": [
+      3
+    ],
+    "inversion": [
+      4
+    ],
+    "is": [
+      5,
+      63,
+      83,
+      104,
+      203,
+      212
+    ],
+    "performed": [
+      6
+    ],
+    "on": [
+      7,
+      22
+    ],
+    "the": [
+      8,
+      18,
+      41,
+      72,
+      86,
+      100,
+      105,
+      109,
+      114,
+      135,
+      139,
+      143,
+      156,
+      165,
+      171,
+      178,
+      199,
+      221,
+      274
+    ],
+    "2D": [
+      9
+    ],
+    "North": [
+      10
+    ],
+    "Viking": [
+      11
+    ],
+    "Graben": [
+      12
+    ],
+    "seismic": [
+      13,
+      36,
+      172
+    ],
+    "data": [
+      14,
+      37,
+      265
+    ],
+    "set": [
+      15
+    ],
+    "used": [
+      16,
+      50,
+      64
+    ],
+    "at": [
+      17
+    ],
+    "1994": [
+      19
+    ],
+    "SEG": [
+      20
+    ],
+    "workshop": [
+      21
+    ],
+    "amplitude": [
+      23
+    ],
+    "variation": [
+      24
+    ],
+    "with": [
+      25,
+      66,
+      177,
+      230
+    ],
+    "offset": [
+      26
+    ],
+    "and": [
+      27,
+      35,
+      46,
+      118,
+      149,
+      174,
+      207,
+      217,
+      238
+    ],
+    "inversion.": [
+      28,
+      42
+    ],
+    "P-velocity": [
+      29
+    ],
+    "(Vp),": [
+      30
+    ],
+    "S-velocity": [
+      31
+    ],
+    "(Vs),": [
+      32
+    ],
+    "density": [
+      33
+    ],
+    "logs,": [
+      34
+    ],
+    "are": [
+      38,
+      49,
+      151,
+      168,
+      175,
+      220,
+      249
+    ],
+    "input": [
+      39
+    ],
+    "to": [
+      40,
+      51,
+      77,
+      254,
+      263
+    ],
+    "The": [
+      43,
+      146,
+      186
+    ],
+    "inverted": [
+      44
+    ],
+    "P-impedance": [
+      45
+    ],
+    "S-impedance": [
+      47
+    ],
+    "sections": [
+      48
+    ],
+    "generate": [
+      52,
+      78
+    ],
+    "an": [
+      53,
+      128
+    ],
+    "approximate": [
+      54
+    ],
+    "compressional-to-shear": [
+      55
+    ],
+    "velocity": [
+      56
+    ],
+    "ratio": [
+      57
+    ],
+    "(Vp/Vs)": [
+      58
+    ],
+    "section": [
+      59,
+      173
+    ],
+    "which,": [
+      60
+    ],
+    "in": [
+      61,
+      155,
+      195,
+      227
+    ],
+    "turn,": [
+      62
+    ],
+    "along": [
+      65
+    ],
+    "water-filled": [
+      67,
+      110
+    ],
+    "porosity": [
+      68,
+      93,
+      103,
+      107
+    ],
+    "(Swv)": [
+      69
+    ],
+    "derived": [
+      70
+    ],
+    "from": [
+      71,
+      74,
+      183
+    ],
+    "logs": [
+      73
+    ],
+    "two": [
+      75
+    ],
+    "wells,": [
+      76
+    ],
+    "fluid": [
+      79,
+      120,
+      179
+    ],
+    "estimate": [
+      80
+    ],
+    "sections.": [
+      81
+    ],
+    "This": [
+      82,
+      132
+    ],
+    "possible": [
+      84
+    ],
+    "as": [
+      85
+    ],
+    "reservoir": [
+      87
+    ],
+    "sands": [
+      88,
+      206
+    ],
+    "have": [
+      89
+    ],
+    "fairly": [
+      90
+    ],
+    "constant": [
+      91
+    ],
+    "total": [
+      92,
+      106
+    ],
+    "of": [
+      94,
+      116,
+      119,
+      138,
+      142
+    ],
+    "approximately": [
+      95
+    ],
+    "28": [
+      96
+    ],
+    "±": [
+      97
+    ],
+    "4%,": [
+      98
+    ],
+    "so": [
+      99
+    ],
+    "hydrocarbon": [
+      101,
+      160
+    ],
+    "filled": [
+      102
+    ],
+    "minus": [
+      108
+    ],
+    "porosity.": [
+      111
+    ],
+    "To": [
+      112
+    ],
+    "enhance": [
+      113
+    ],
+    "separation": [
+      115
+    ],
+    "lithologies": [
+      117,
+      148
+    ],
+    "content,": [
+      121
+    ],
+    "we": [
+      122
+    ],
+    "map": [
+      123
+    ],
+    "Vp/Vs": [
+      124,
+      144,
+      218,
+      240
+    ],
+    "into": [
+      125
+    ],
+    "Swv": [
+      126,
+      214,
+      232
+    ],
+    "using": [
+      127
+    ],
+    "empirical": [
+      129
+    ],
+    "crossplot-derived": [
+      130
+    ],
+    "relation.": [
+      131
+    ],
+    "mapping": [
+      133
+    ],
+    "expands": [
+      134
+    ],
+    "dynamic": [
+      136
+    ],
+    "range": [
+      137
+    ],
+    "low": [
+      140
+    ],
+    "end": [
+      141
+    ],
+    "values.": [
+      145
+    ],
+    "different": [
+      147,
+      271
+    ],
+    "fluids": [
+      150
+    ],
+    "generally": [
+      152,
+      279
+    ],
+    "well": [
+      153,
+      166
+    ],
+    "separated": [
+      154
+    ],
+    "Vp/Vs−Swv": [
+      157,
+      187
+    ],
+    "domain.": [
+      158
+    ],
+    "Potential": [
+      159
+    ],
+    "reservoirs": [
+      161,
+      226
+    ],
+    "(as": [
+      162
+    ],
+    "calibrated": [
+      163
+    ],
+    "by": [
+      164
+    ],
+    "data)": [
+      167
+    ],
+    "identified": [
+      169
+    ],
+    "throughout": [
+      170
+    ],
+    "consistent": [
+      176
+    ],
+    "content": [
+      180
+    ],
+    "estimations": [
+      181
+    ],
+    "obtained": [
+      182
+    ],
+    "alternative": [
+      184
+    ],
+    "computations.": [
+      185
+    ],
+    "plane": [
+      188
+    ],
+    "still": [
+      189
+    ],
+    "does": [
+      190
+    ],
+    "not": [
+      191,
+      260
+    ],
+    "produce": [
+      192
+    ],
+    "unique": [
+      193
+    ],
+    "interpretation": [
+      194
+    ],
+    "many": [
+      196
+    ],
+    "situations.": [
+      197
+    ],
+    "However,": [
+      198,
+      273
+    ],
+    "critical": [
+      200
+    ],
+    "distinction,": [
+      201
+    ],
+    "which": [
+      202,
+      267
+    ],
+    "between": [
+      204
+    ],
+    "hydrocarbon-bearing": [
+      205
+    ],
+    "all": [
+      208
+    ],
+    "other": [
+      209,
+      264
+    ],
+    "geologic/reservoir": [
+      210
+    ],
+    "configurations,": [
+      211
+    ],
+    "defined.": [
+      213
+    ],
+    "≤": [
+      215
+    ],
+    "0.17": [
+      216
+    ],
+    "≤1.8": [
+      219
+    ],
+    "criteria": [
+      222,
+      248
+    ],
+    "that": [
+      223
+    ],
+    "delineate": [
+      224
+    ],
+    "potential": [
+      225
+    ],
+    "this": [
+      228
+    ],
+    "area,": [
+      229
+    ],
+    "decreasing": [
+      231,
+      239
+    ],
+    "indicating": [
+      233,
+      241
+    ],
+    "a": [
+      234,
+      242
+    ],
+    "higher": [
+      235,
+      243
+    ],
+    "gas/oil": [
+      236
+    ],
+    "ratio,": [
+      237
+    ],
+    "sand/shale": [
+      244
+    ],
+    "ratio.": [
+      245
+    ],
+    "As": [
+      246
+    ],
+    "these": [
+      247
+    ],
+    "locally": [
+      250
+    ],
+    "calibrated,": [
+      251
+    ],
+    "they": [
+      252,
+      258
+    ],
+    "appear": [
+      253
+    ],
+    "be": [
+      255,
+      261,
+      278
+    ],
+    "valid": [
+      256
+    ],
+    "locally;": [
+      257
+    ],
+    "should": [
+      259,
+      277
+    ],
+    "applied": [
+      262
+    ],
+    "sets,": [
+      266
+    ],
+    "may": [
+      268
+    ],
+    "exhibit": [
+      269
+    ],
+    "significantly": [
+      270
+    ],
+    "relationships.": [
+      272
+    ],
+    "overall": [
+      275
+    ],
+    "procedure": [
+      276
+    ],
+    "applicable.": [
+      280
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-08-12T21:12:35.861297",
+  "created_date": "2025-10-10T00:00:00"
+}

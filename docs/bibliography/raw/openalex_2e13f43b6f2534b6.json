@@ -1,0 +1,633 @@
+{
+  "id": "https://openalex.org/W2000240386",
+  "doi": "https://doi.org/10.1190/1.2149624",
+  "title": "Rocks under strain: Strain-induced time-lapse time shifts are observed for depleting reservoirs",
+  "display_name": "Rocks under strain: Strain-induced time-lapse time shifts are observed for depleting reservoirs",
+  "publication_year": 2005,
+  "publication_date": "2005-12-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2000240386",
+    "doi": "https://doi.org/10.1190/1.2149624",
+    "mag": "2000240386"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.2149624",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.2149624",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4210172657",
+      "display_name": "The Leading Edge",
+      "issn_l": "1070-485X",
+      "issn": [
+        "1070-485X",
+        "1938-3789"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "The Leading Edge",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5040637910",
+        "display_name": "Paul J. Hatchell",
+        "orcid": "https://orcid.org/0000-0002-3769-4849",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-3769-4849"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I7923278",
+          "display_name": "Shell (Netherlands)",
+          "ror": "https://ror.org/00b5m4j81",
+          "country_code": "NL",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I7923278"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Paul Hatchell",
+      "raw_affiliation_strings": [
+        "Shell International Exploration & Production 1 , Rijswijk, The Netherlands",
+        "Shell International Exploration and Production, Rijswijk, the Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Shell International Exploration & Production 1 , Rijswijk, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I7923278"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Shell International Exploration and Production, Rijswijk, the Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I7923278"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5041470075",
+        "display_name": "Stephen Bourne",
+        "orcid": "https://orcid.org/0000-0003-2925-8411",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-2925-8411"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I7923278",
+          "display_name": "Shell (Netherlands)",
+          "ror": "https://ror.org/00b5m4j81",
+          "country_code": "NL",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I7923278"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Stephen Bourne",
+      "raw_affiliation_strings": [
+        "Shell International Exploration & Production 1 , Rijswijk, The Netherlands",
+        "Shell International Exploration and Production, Rijswijk, the Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Shell International Exploration & Production 1 , Rijswijk, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I7923278"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Shell International Exploration and Production, Rijswijk, the Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I7923278"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I7923278"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 6.9336,
+  "has_fulltext": false,
+  "cited_by_count": 225,
+  "citation_normalized_percentile": {
+    "value": 0.97412065,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 98,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "24",
+    "issue": "12",
+    "first_page": "1222",
+    "last_page": "1225"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9984999895095825,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9984999895095825,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.998199999332428,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10892",
+      "display_name": "Drilling and Well Engineering",
+      "score": 0.989300012588501,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/strain",
+      "display_name": "Strain (injury)",
+      "score": 0.7656718492507935
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.4189949929714203
+    },
+    {
+      "id": "https://openalex.org/keywords/environmental-science",
+      "display_name": "Environmental science",
+      "score": 0.34032440185546875
+    },
+    {
+      "id": "https://openalex.org/keywords/biology",
+      "display_name": "Biology",
+      "score": 0.1945667862892151
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2778022156",
+      "wikidata": "https://www.wikidata.org/wiki/Q576145",
+      "display_name": "Strain (injury)",
+      "level": 2,
+      "score": 0.7656718492507935
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.4189949929714203
+    },
+    {
+      "id": "https://openalex.org/C39432304",
+      "wikidata": "https://www.wikidata.org/wiki/Q188847",
+      "display_name": "Environmental science",
+      "level": 0,
+      "score": 0.34032440185546875
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.1945667862892151
+    },
+    {
+      "id": "https://openalex.org/C105702510",
+      "wikidata": "https://www.wikidata.org/wiki/Q514",
+      "display_name": "Anatomy",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.2149624",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.2149624",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210172657",
+        "display_name": "The Leading Edge",
+        "issn_l": "1070-485X",
+        "issn": [
+          "1070-485X",
+          "1938-3789"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The Leading Edge",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2324615561",
+    "https://openalex.org/W2086120259",
+    "https://openalex.org/W2245170124",
+    "https://openalex.org/W2076393078",
+    "https://openalex.org/W3186982001",
+    "https://openalex.org/W1984402782",
+    "https://openalex.org/W2137941439",
+    "https://openalex.org/W2004200960",
+    "https://openalex.org/W1999891779",
+    "https://openalex.org/W2029513011"
+  ],
+  "abstract_inverted_index": {
+    "Pressure": [
+      0
+    ],
+    "depletion": [
+      1,
+      40
+    ],
+    "as": [
+      2,
+      72
+    ],
+    "a": [
+      3
+    ],
+    "result": [
+      4
+    ],
+    "of": [
+      5,
+      18
+    ],
+    "oil": [
+      6
+    ],
+    "and": [
+      7,
+      15,
+      24,
+      38,
+      46,
+      58
+    ],
+    "gas": [
+      8
+    ],
+    "production": [
+      9
+    ],
+    "creates": [
+      10
+    ],
+    "changes": [
+      11,
+      54
+    ],
+    "in": [
+      12,
+      55,
+      64
+    ],
+    "the": [
+      13,
+      19,
+      26,
+      42,
+      47,
+      53,
+      56
+    ],
+    "stress": [
+      14,
+      57
+    ],
+    "strain": [
+      16,
+      59
+    ],
+    "fields": [
+      17
+    ],
+    "rock": [
+      20
+    ],
+    "material": [
+      21
+    ],
+    "both": [
+      22
+    ],
+    "inside": [
+      23
+    ],
+    "outside": [
+      25
+    ],
+    "reservoir.": [
+      27
+    ],
+    "Seismic": [
+      28
+    ],
+    "waves": [
+      29
+    ],
+    "propagating": [
+      30
+    ],
+    "through": [
+      31
+    ],
+    "these": [
+      32
+    ],
+    "rocks": [
+      33
+    ],
+    "have": [
+      34
+    ],
+    "different": [
+      35
+    ],
+    "traveltimes": [
+      36,
+      66
+    ],
+    "before": [
+      37
+    ],
+    "after": [
+      39
+    ],
+    "because": [
+      41
+    ],
+    "layer": [
+      43
+    ],
+    "thicknesses": [
+      44
+    ],
+    "change": [
+      45,
+      63
+    ],
+    "seismic": [
+      48
+    ],
+    "velocity": [
+      49
+    ],
+    "is": [
+      50,
+      69
+    ],
+    "altered": [
+      51
+    ],
+    "by": [
+      52
+    ],
+    "fields.": [
+      60
+    ],
+    "The": [
+      61
+    ],
+    "cumulative": [
+      62
+    ],
+    "two-way": [
+      65
+    ],
+    "with": [
+      67
+    ],
+    "depth": [
+      68
+    ],
+    "referred": [
+      70
+    ],
+    "to": [
+      71
+    ],
+    "time-lapse": [
+      73
+    ],
+    "time": [
+      74
+    ],
+    "shift.": [
+      75
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 13
+    }
+  ],
+  "updated_date": "2026-09-24T07:57:37.273135",
+  "created_date": "2025-10-10T00:00:00"
+}

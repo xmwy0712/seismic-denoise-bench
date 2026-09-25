@@ -1,0 +1,927 @@
+{
+  "id": "https://openalex.org/W2120870926",
+  "doi": "https://doi.org/10.1190/1.2831936",
+  "title": "Time-varying wavelet estimation and deconvolution by kurtosis maximization",
+  "display_name": "Time-varying wavelet estimation and deconvolution by kurtosis maximization",
+  "publication_year": 2008,
+  "publication_date": "2008-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2120870926",
+    "doi": "https://doi.org/10.1190/1.2831936",
+    "mag": "2120870926"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.2831936",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.2831936",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S106174089",
+      "display_name": "Geophysics",
+      "issn_l": "0016-8033",
+      "issn": [
+        "0016-8033",
+        "1942-2156"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5063768705",
+        "display_name": "Mirko van der Baan",
+        "orcid": "https://orcid.org/0000-0001-6416-8839"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130828816",
+          "display_name": "University of Leeds",
+          "ror": "https://ror.org/024mrxd33",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I130828816"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Mirko van der Baan",
+      "raw_affiliation_strings": [
+        "1University of Leeds, School of Earth and Environment, Leeds, U.K. E-mail: m.van-der-baan@see.leeds.ac.uk",
+        "University of Leeds, School of Earth and Environment, Leeds, U. K. E-mail: ; "
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1University of Leeds, School of Earth and Environment, Leeds, U.K. E-mail: m.van-der-baan@see.leeds.ac.uk",
+          "institution_ids": [
+            "https://openalex.org/I130828816"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Leeds, School of Earth and Environment, Leeds, U. K. E-mail: ; ",
+          "institution_ids": [
+            "https://openalex.org/I130828816"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5063768705"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I130828816"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 7.0215,
+  "has_fulltext": false,
+  "cited_by_count": 152,
+  "citation_normalized_percentile": {
+    "value": 0.97384892,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 96,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "73",
+    "issue": "2",
+    "first_page": "V11",
+    "last_page": "V18"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9998999834060669,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9958999752998352,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10892",
+      "display_name": "Drilling and Well Engineering",
+      "score": 0.9958000183105469,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/deconvolution",
+      "display_name": "Deconvolution",
+      "score": 0.8293678760528564
+    },
+    {
+      "id": "https://openalex.org/keywords/kurtosis",
+      "display_name": "Kurtosis",
+      "score": 0.8226025104522705
+    },
+    {
+      "id": "https://openalex.org/keywords/wavelet",
+      "display_name": "Wavelet",
+      "score": 0.6964436173439026
+    },
+    {
+      "id": "https://openalex.org/keywords/blind-deconvolution",
+      "display_name": "Blind deconvolution",
+      "score": 0.5874726176261902
+    },
+    {
+      "id": "https://openalex.org/keywords/amplitude",
+      "display_name": "Amplitude",
+      "score": 0.5468877553939819
+    },
+    {
+      "id": "https://openalex.org/keywords/phase",
+      "display_name": "Phase (matter)",
+      "score": 0.5386189818382263
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.4777735471725464
+    },
+    {
+      "id": "https://openalex.org/keywords/rotation",
+      "display_name": "Rotation (mathematics)",
+      "score": 0.4705403447151184
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.4592466354370117
+    },
+    {
+      "id": "https://openalex.org/keywords/wiener-deconvolution",
+      "display_name": "Wiener deconvolution",
+      "score": 0.4304281175136566
+    },
+    {
+      "id": "https://openalex.org/keywords/maximization",
+      "display_name": "Maximization",
+      "score": 0.4175660014152527
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.41184088587760925
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematical-optimization",
+      "display_name": "Mathematical optimization",
+      "score": 0.25466951727867126
+    },
+    {
+      "id": "https://openalex.org/keywords/statistics",
+      "display_name": "Statistics",
+      "score": 0.24011307954788208
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.16432741284370422
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.16127637028694153
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.12044206261634827
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C174576160",
+      "wikidata": "https://www.wikidata.org/wiki/Q1183700",
+      "display_name": "Deconvolution",
+      "level": 2,
+      "score": 0.8293678760528564
+    },
+    {
+      "id": "https://openalex.org/C166963901",
+      "wikidata": "https://www.wikidata.org/wiki/Q287251",
+      "display_name": "Kurtosis",
+      "level": 2,
+      "score": 0.8226025104522705
+    },
+    {
+      "id": "https://openalex.org/C47432892",
+      "wikidata": "https://www.wikidata.org/wiki/Q831390",
+      "display_name": "Wavelet",
+      "level": 2,
+      "score": 0.6964436173439026
+    },
+    {
+      "id": "https://openalex.org/C30044814",
+      "wikidata": "https://www.wikidata.org/wiki/Q11334452",
+      "display_name": "Blind deconvolution",
+      "level": 3,
+      "score": 0.5874726176261902
+    },
+    {
+      "id": "https://openalex.org/C180205008",
+      "wikidata": "https://www.wikidata.org/wiki/Q159190",
+      "display_name": "Amplitude",
+      "level": 2,
+      "score": 0.5468877553939819
+    },
+    {
+      "id": "https://openalex.org/C44280652",
+      "wikidata": "https://www.wikidata.org/wiki/Q104837",
+      "display_name": "Phase (matter)",
+      "level": 2,
+      "score": 0.5386189818382263
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.4777735471725464
+    },
+    {
+      "id": "https://openalex.org/C74050887",
+      "wikidata": "https://www.wikidata.org/wiki/Q848368",
+      "display_name": "Rotation (mathematics)",
+      "level": 2,
+      "score": 0.4705403447151184
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.4592466354370117
+    },
+    {
+      "id": "https://openalex.org/C15652857",
+      "wikidata": "https://www.wikidata.org/wiki/Q599016",
+      "display_name": "Wiener deconvolution",
+      "level": 4,
+      "score": 0.4304281175136566
+    },
+    {
+      "id": "https://openalex.org/C2776330181",
+      "wikidata": "https://www.wikidata.org/wiki/Q18358244",
+      "display_name": "Maximization",
+      "level": 2,
+      "score": 0.4175660014152527
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.41184088587760925
+    },
+    {
+      "id": "https://openalex.org/C126255220",
+      "wikidata": "https://www.wikidata.org/wiki/Q141495",
+      "display_name": "Mathematical optimization",
+      "level": 1,
+      "score": 0.25466951727867126
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.24011307954788208
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.16432741284370422
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.16127637028694153
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.12044206261634827
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.2831936",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.2831936",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S106174089",
+        "display_name": "Geophysics",
+        "issn_l": "0016-8033",
+        "issn": [
+          "0016-8033",
+          "1942-2156"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysics",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320310668",
+      "display_name": "BG Group",
+      "ror": "https://ror.org/01g312x22"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 22,
+  "referenced_works": [
+    "https://openalex.org/W1514018317",
+    "https://openalex.org/W1965726330",
+    "https://openalex.org/W1966786488",
+    "https://openalex.org/W1970059921",
+    "https://openalex.org/W1972007889",
+    "https://openalex.org/W1987836090",
+    "https://openalex.org/W1994413529",
+    "https://openalex.org/W1998209918",
+    "https://openalex.org/W2014084343",
+    "https://openalex.org/W2019024593",
+    "https://openalex.org/W2032615907",
+    "https://openalex.org/W2057694720",
+    "https://openalex.org/W2064830298",
+    "https://openalex.org/W2076651907",
+    "https://openalex.org/W2079433567",
+    "https://openalex.org/W2113920449",
+    "https://openalex.org/W2120481373",
+    "https://openalex.org/W2130940196",
+    "https://openalex.org/W2137094582",
+    "https://openalex.org/W2157522867",
+    "https://openalex.org/W2157932527",
+    "https://openalex.org/W2158677781"
+  ],
+  "related_works": [
+    "https://openalex.org/W2776720670",
+    "https://openalex.org/W2071858661",
+    "https://openalex.org/W2766986627",
+    "https://openalex.org/W1981979379",
+    "https://openalex.org/W1540119247",
+    "https://openalex.org/W2037261263",
+    "https://openalex.org/W2113920449",
+    "https://openalex.org/W2155472253",
+    "https://openalex.org/W82010248",
+    "https://openalex.org/W2137554361"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "Phase": [
+      1
+    ],
+    "mismatches": [
+      2
+    ],
+    "sometimes": [
+      3
+    ],
+    "occur": [
+      4
+    ],
+    "between": [
+      5
+    ],
+    "final": [
+      6
+    ],
+    "processed": [
+      7
+    ],
+    "sections": [
+      8
+    ],
+    "and": [
+      9,
+      22,
+      36,
+      118,
+      131
+    ],
+    "zero-phase": [
+      10
+    ],
+    "synthetics": [
+      11
+    ],
+    "based": [
+      12,
+      28
+    ],
+    "on": [
+      13,
+      29
+    ],
+    "well": [
+      14
+    ],
+    "logs,": [
+      15
+    ],
+    "despite": [
+      16
+    ],
+    "best": [
+      17
+    ],
+    "efforts": [
+      18
+    ],
+    "for": [
+      19
+    ],
+    "controlled-phase": [
+      20
+    ],
+    "acquisition": [
+      21
+    ],
+    "processing.": [
+      23
+    ],
+    "The": [
+      24
+    ],
+    "latter": [
+      25
+    ],
+    "are": [
+      26
+    ],
+    "often": [
+      27
+    ],
+    "deterministic": [
+      30,
+      70
+    ],
+    "corrections": [
+      31,
+      71,
+      104
+    ],
+    "derived": [
+      32
+    ],
+    "from": [
+      33
+    ],
+    "field": [
+      34
+    ],
+    "measurements": [
+      35
+    ],
+    "physical": [
+      37
+    ],
+    "laws.": [
+      38
+    ],
+    "A": [
+      39
+    ],
+    "statistical": [
+      40,
+      66,
+      83
+    ],
+    "analysis": [
+      41
+    ],
+    "of": [
+      42,
+      90,
+      111
+    ],
+    "the": [
+      43,
+      57,
+      88
+    ],
+    "data": [
+      44,
+      58
+    ],
+    "can": [
+      45,
+      86,
+      105,
+      121,
+      133
+    ],
+    "reveal": [
+      46,
+      87
+    ],
+    "whether": [
+      47
+    ],
+    "a": [
+      48,
+      82,
+      91,
+      112,
+      138
+    ],
+    "time-varying": [
+      49,
+      100,
+      113,
+      125
+    ],
+    "nonzero": [
+      50
+    ],
+    "phase": [
+      51,
+      79,
+      89,
+      101,
+      114,
+      119
+    ],
+    "is": [
+      52,
+      81,
+      95
+    ],
+    "present.": [
+      53
+    ],
+    "This": [
+      54
+    ],
+    "assumes": [
+      55
+    ],
+    "that": [
+      56,
+      85
+    ],
+    "should": [
+      59
+    ],
+    "be": [
+      60,
+      107,
+      122,
+      135
+    ],
+    "white": [
+      61
+    ],
+    "with": [
+      62
+    ],
+    "respect": [
+      63
+    ],
+    "to": [
+      64,
+      98,
+      141
+    ],
+    "all": [
+      65
+    ],
+    "orders": [
+      67
+    ],
+    "after": [
+      68
+    ],
+    "proper": [
+      69
+    ],
+    "have": [
+      72
+    ],
+    "been": [
+      73
+    ],
+    "applied.": [
+      74
+    ],
+    "Kurtosis": [
+      75
+    ],
+    "maximization": [
+      76
+    ],
+    "by": [
+      77,
+      109
+    ],
+    "constant": [
+      78
+    ],
+    "rotation": [
+      80
+    ],
+    "method": [
+      84
+    ],
+    "seismic": [
+      92
+    ],
+    "wavelet.": [
+      93
+    ],
+    "It": [
+      94
+    ],
+    "robust": [
+      96
+    ],
+    "enough": [
+      97
+    ],
+    "detect": [
+      99
+    ],
+    "changes.": [
+      102
+    ],
+    "Phase-only": [
+      103
+    ],
+    "then": [
+      106
+    ],
+    "applied": [
+      108
+    ],
+    "means": [
+      110
+    ],
+    "rotation.": [
+      115
+    ],
+    "Alternatively,": [
+      116
+    ],
+    "amplitude": [
+      117
+    ],
+    "deconvolution": [
+      120,
+      132
+    ],
+    "achieved": [
+      123
+    ],
+    "using": [
+      124
+    ],
+    "Wiener": [
+      126
+    ],
+    "filtering.": [
+      127
+    ],
+    "Time-varying": [
+      128
+    ],
+    "wavelet": [
+      129
+    ],
+    "extraction": [
+      130
+    ],
+    "also": [
+      134
+    ],
+    "used": [
+      136
+    ],
+    "as": [
+      137
+    ],
+    "data-driven": [
+      139
+    ],
+    "alternative": [
+      140
+    ],
+    "amplitude-only": [
+      142
+    ],
+    "inverse-Q": [
+      143
+    ],
+    "deconvolution.": [
+      144
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 11
+    }
+  ],
+  "updated_date": "2026-05-21T06:26:12.895304",
+  "created_date": "2025-10-10T00:00:00"
+}

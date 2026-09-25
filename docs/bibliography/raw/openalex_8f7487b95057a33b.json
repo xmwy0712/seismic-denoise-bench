@@ -1,0 +1,3418 @@
+{
+  "id": "https://openalex.org/W2009000020",
+  "doi": "https://doi.org/10.1190/1.1822691",
+  "title": "Inverse scattering series for multiple attenuation: An example with surface and internal multiples",
+  "display_name": "Inverse scattering series for multiple attenuation: An example with surface and internal multiples",
+  "publication_year": 1994,
+  "publication_date": "1994-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2009000020",
+    "doi": "https://doi.org/10.1190/1.1822691",
+    "mag": "2009000020"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.1822691",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.1822691",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "International Meeting for Applied Geoscience &amp; Energy",
+    "raw_type": "proceedings-article"
+  },
+  "type": "conference-paper",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5110681039",
+        "display_name": "Fernanda Araújo",
+        "orcid": "https://orcid.org/0009-0005-3289-3901",
+        "observed_orcids": [
+          "https://orcid.org/0009-0005-3289-3901"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I126158947",
+          "display_name": "Universidade Federal da Bahia",
+          "ror": "https://ror.org/03k3p7647",
+          "country_code": "BR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I126158947"
+          ]
+        }
+      ],
+      "countries": [
+        "BR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Fernanda V. Araújo",
+      "raw_affiliation_strings": [
+        "1 PPPG/Federal University of Bahia",
+        "PPPG/Federal Univ. of Bahia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1 PPPG/Federal University of Bahia",
+          "institution_ids": [
+            "https://openalex.org/I126158947"
+          ]
+        },
+        {
+          "raw_affiliation_string": "PPPG/Federal Univ. of Bahia",
+          "institution_ids": [
+            "https://openalex.org/I126158947"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5082858955",
+        "display_name": "Arthur B. Weglein",
+        "orcid": "https://orcid.org/0000-0003-3250-6105",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-3250-6105"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I154100212",
+          "display_name": "Schlumberger (British Virgin Islands)",
+          "ror": "https://ror.org/01ydfc370",
+          "country_code": "VG",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I154100212",
+            "https://openalex.org/I4210092184"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210090857",
+          "display_name": "Schlumberger (United States)",
+          "ror": "https://ror.org/009m79n22",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210090857",
+            "https://openalex.org/I4210092184"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210133462",
+          "display_name": "Schlumberger (United Kingdom)",
+          "ror": "https://ror.org/03q6ms497",
+          "country_code": "GB",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210092184",
+            "https://openalex.org/I4210133462"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210149250",
+          "display_name": "Schlumberger (Norway)",
+          "ror": "https://ror.org/03m9gpr25",
+          "country_code": "NO",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210092184",
+            "https://openalex.org/I4210149250"
+          ]
+        }
+      ],
+      "countries": [
+        "GB",
+        "NO",
+        "US",
+        "VG"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Arthur B. Weglein",
+      "raw_affiliation_strings": [
+        "2 Schlumberger Cambridge Research",
+        "Schlumberger Cambridge Research"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "2 Schlumberger Cambridge Research",
+          "institution_ids": [
+            "https://openalex.org/I154100212",
+            "https://openalex.org/I4210090857",
+            "https://openalex.org/I4210133462"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Schlumberger Cambridge Research",
+          "institution_ids": [
+            "https://openalex.org/I4210149250"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5006538626",
+        "display_name": "Paulo M. Carvalho",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I32393484",
+          "display_name": "Petrobras (Brazil)",
+          "ror": "https://ror.org/0235kyq22",
+          "country_code": "BR",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I32393484"
+          ]
+        }
+      ],
+      "countries": [
+        "BR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Paulo Marcus Carvalho",
+      "raw_affiliation_strings": [
+        "3 Pterobrá SA",
+        "Petrobra´ SA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "3 Pterobrá SA",
+          "institution_ids": []
+        },
+        {
+          "raw_affiliation_string": "Petrobra´ SA",
+          "institution_ids": [
+            "https://openalex.org/I32393484"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5012108501",
+        "display_name": "Robert H. Stolt",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I24101674",
+          "display_name": "ConocoPhillips (United States)",
+          "ror": "https://ror.org/04hadnb81",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I24101674"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "R. H. Stolt",
+      "raw_affiliation_strings": [
+        "4 Conoco",
+        "Conoco"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "4 Conoco",
+          "institution_ids": [
+            "https://openalex.org/I24101674"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Conoco",
+          "institution_ids": [
+            "https://openalex.org/I24101674"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 5,
+  "institutions_distinct_count": 7,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 3.6699,
+  "has_fulltext": false,
+  "cited_by_count": 92,
+  "citation_normalized_percentile": {
+    "value": 0.89478261,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "1",
+    "issue": null,
+    "first_page": "1039",
+    "last_page": "1041"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11609",
+    "display_name": "Geophysical Methods and Applications",
+    "score": 0.9998000264167786,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2212",
+      "display_name": "Ocean Engineering"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11609",
+      "display_name": "Geophysical Methods and Applications",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11739",
+      "display_name": "Microwave Imaging and Scattering Analysis",
+      "score": 0.9980000257492065,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10739",
+      "display_name": "Electromagnetic Scattering and Analysis",
+      "score": 0.9945999979972839,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/multiple",
+      "display_name": "Multiple",
+      "score": 0.9032211899757385
+    },
+    {
+      "id": "https://openalex.org/keywords/attenuation",
+      "display_name": "Attenuation",
+      "score": 0.8255607485771179
+    },
+    {
+      "id": "https://openalex.org/keywords/series",
+      "display_name": "Series (stratigraphy)",
+      "score": 0.6244771480560303
+    },
+    {
+      "id": "https://openalex.org/keywords/scattering",
+      "display_name": "Scattering",
+      "score": 0.5513187050819397
+    },
+    {
+      "id": "https://openalex.org/keywords/inverse-scattering-problem",
+      "display_name": "Inverse scattering problem",
+      "score": 0.5182954668998718
+    },
+    {
+      "id": "https://openalex.org/keywords/surface",
+      "display_name": "Surface (topology)",
+      "score": 0.4325258731842041
+    },
+    {
+      "id": "https://openalex.org/keywords/inverse-problem",
+      "display_name": "Inverse problem",
+      "score": 0.4120384156703949
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.38901010155677795
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.38838624954223633
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.3815966844558716
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.32604092359542847
+    },
+    {
+      "id": "https://openalex.org/keywords/acoustics",
+      "display_name": "Acoustics",
+      "score": 0.3232472240924835
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.16036230325698853
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematical-analysis",
+      "display_name": "Mathematical analysis",
+      "score": 0.14415764808654785
+    },
+    {
+      "id": "https://openalex.org/keywords/geometry",
+      "display_name": "Geometry",
+      "score": 0.11058831214904785
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C164680029",
+      "wikidata": "https://www.wikidata.org/wiki/Q1055293",
+      "display_name": "Multiple",
+      "level": 2,
+      "score": 0.9032211899757385
+    },
+    {
+      "id": "https://openalex.org/C184652730",
+      "wikidata": "https://www.wikidata.org/wiki/Q2357982",
+      "display_name": "Attenuation",
+      "level": 2,
+      "score": 0.8255607485771179
+    },
+    {
+      "id": "https://openalex.org/C143724316",
+      "wikidata": "https://www.wikidata.org/wiki/Q312468",
+      "display_name": "Series (stratigraphy)",
+      "level": 2,
+      "score": 0.6244771480560303
+    },
+    {
+      "id": "https://openalex.org/C191486275",
+      "wikidata": "https://www.wikidata.org/wiki/Q210028",
+      "display_name": "Scattering",
+      "level": 2,
+      "score": 0.5513187050819397
+    },
+    {
+      "id": "https://openalex.org/C174558057",
+      "wikidata": "https://www.wikidata.org/wiki/Q11639409",
+      "display_name": "Inverse scattering problem",
+      "level": 3,
+      "score": 0.5182954668998718
+    },
+    {
+      "id": "https://openalex.org/C2776799497",
+      "wikidata": "https://www.wikidata.org/wiki/Q484298",
+      "display_name": "Surface (topology)",
+      "level": 2,
+      "score": 0.4325258731842041
+    },
+    {
+      "id": "https://openalex.org/C135252773",
+      "wikidata": "https://www.wikidata.org/wiki/Q1567213",
+      "display_name": "Inverse problem",
+      "level": 2,
+      "score": 0.4120384156703949
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.38901010155677795
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.38838624954223633
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.3815966844558716
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.32604092359542847
+    },
+    {
+      "id": "https://openalex.org/C24890656",
+      "wikidata": "https://www.wikidata.org/wiki/Q82811",
+      "display_name": "Acoustics",
+      "level": 1,
+      "score": 0.3232472240924835
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.16036230325698853
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.14415764808654785
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.11058831214904785
+    },
+    {
+      "id": "https://openalex.org/C94375191",
+      "wikidata": "https://www.wikidata.org/wiki/Q11205",
+      "display_name": "Arithmetic",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C151730666",
+      "wikidata": "https://www.wikidata.org/wiki/Q7205",
+      "display_name": "Paleontology",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.1822691",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.1822691",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "International Meeting for Applied Geoscience &amp; Energy",
+      "raw_type": "proceedings-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Affordable and clean energy",
+      "id": "https://metadata.un.org/sdg/7",
+      "score": 0.8899999856948853
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 5,
+  "referenced_works": [
+    "https://openalex.org/W2013337599",
+    "https://openalex.org/W2032063922",
+    "https://openalex.org/W2032678791",
+    "https://openalex.org/W2040488092",
+    "https://openalex.org/W2063230409"
+  ],
+  "related_works": [
+    "https://openalex.org/W2141402537",
+    "https://openalex.org/W2468887638",
+    "https://openalex.org/W1500912217",
+    "https://openalex.org/W1966006142",
+    "https://openalex.org/W4321640949",
+    "https://openalex.org/W4301008793",
+    "https://openalex.org/W2009000020",
+    "https://openalex.org/W68120963",
+    "https://openalex.org/W2072299904",
+    "https://openalex.org/W4304891422"
+  ],
+  "abstract_inverted_index": {
+    "PreviousNext": [
+      0
+    ],
+    "No": [
+      1
+    ],
+    "AccessSEG": [
+      2
+    ],
+    "Technical": [
+      3,
+      1332,
+      1393
+    ],
+    "Program": [
+      4,
+      1333,
+      1394
+    ],
+    "Expanded": [
+      5,
+      1334,
+      1395
+    ],
+    "Abstracts": [
+      6,
+      1335,
+      1396
+    ],
+    "1994Inverse": [
+      7
+    ],
+    "scattering": [
+      8,
+      263,
+      304,
+      448,
+      778,
+      901,
+      1030,
+      1073,
+      1113,
+      1146,
+      1171,
+      1233,
+      1380
+    ],
+    "series": [
+      9,
+      231,
+      264,
+      305,
+      449,
+      529,
+      651,
+      743,
+      779,
+      1031,
+      1114,
+      1172,
+      1381
+    ],
+    "for": [
+      10,
+      142,
+      180,
+      216,
+      315,
+      367,
+      461,
+      494,
+      508,
+      554,
+      572,
+      694,
+      713,
+      783,
+      823,
+      828,
+      972,
+      1040,
+      1143,
+      1382
+    ],
+    "multiple": [
+      11,
+      61,
+      154,
+      195,
+      227,
+      259,
+      333,
+      389,
+      400,
+      531,
+      602,
+      624,
+      696,
+      699,
+      710,
+      781,
+      803,
+      888,
+      897,
+      920,
+      959,
+      979,
+      1148,
+      1235,
+      1298,
+      1383
+    ],
+    "attenuation:": [
+      12,
+      994,
+      1384
+    ],
+    "An": [
+      13,
+      1385
+    ],
+    "example": [
+      14,
+      330,
+      386,
+      667,
+      809,
+      1386
+    ],
+    "with": [
+      15,
+      156,
+      232,
+      265,
+      356,
+      466,
+      567,
+      899,
+      1206,
+      1387
+    ],
+    "surface": [
+      16,
+      594,
+      1388
+    ],
+    "and": [
+      17,
+      43,
+      63,
+      73,
+      110,
+      123,
+      149,
+      171,
+      186,
+      200,
+      213,
+      222,
+      240,
+      248,
+      273,
+      282,
+      293,
+      310,
+      323,
+      336,
+      369,
+      372,
+      378,
+      392,
+      397,
+      413,
+      422,
+      426,
+      439,
+      453,
+      463,
+      474,
+      481,
+      489,
+      497,
+      521,
+      539,
+      559,
+      562,
+      575,
+      604,
+      610,
+      618,
+      626,
+      630,
+      640,
+      660,
+      673,
+      677,
+      684,
+      697,
+      702,
+      720,
+      756,
+      788,
+      797,
+      807,
+      814,
+      833,
+      844,
+      851,
+      870,
+      891,
+      915,
+      926,
+      949,
+      953,
+      964,
+      975,
+      982,
+      988,
+      997,
+      1010,
+      1043,
+      1052,
+      1087,
+      1135,
+      1154,
+      1176,
+      1182,
+      1184,
+      1193,
+      1220,
+      1243,
+      1248,
+      1256,
+      1264,
+      1305,
+      1317,
+      1325,
+      1374,
+      1389
+    ],
+    "internal": [
+      18,
+      60,
+      178,
+      296,
+      352,
+      451,
+      530,
+      601,
+      623,
+      698,
+      709,
+      751,
+      780,
+      802,
+      826,
+      887,
+      896,
+      978,
+      1067,
+      1121,
+      1147,
+      1165,
+      1204,
+      1234,
+      1297,
+      1390
+    ],
+    "multiplesAuthors:": [
+      19
+    ],
+    "Fernanda": [
+      20,
+      1365
+    ],
+    "V.": [
+      21,
+      29,
+      1366
+    ],
+    "AraújoArthur": [
+      22
+    ],
+    "B.": [
+      23,
+      35,
+      380,
+      476,
+      500,
+      578,
+      728,
+      790,
+      816,
+      835,
+      857,
+      928,
+      955,
+      967,
+      990,
+      1002,
+      1050,
+      1089,
+      1137,
+      1199,
+      1250,
+      1327,
+      1369
+    ],
+    "WegleinPaulo": [
+      24
+    ],
+    "Marcus": [
+      25,
+      40,
+      1372
+    ],
+    "CarvalhoR.": [
+      26
+    ],
+    "H.": [
+      27,
+      45,
+      1012,
+      1376
+    ],
+    "StoltFernanda": [
+      28
+    ],
+    "AraújoPPPG/Federal": [
+      30
+    ],
+    "University": [
+      31
+    ],
+    "of": [
+      32,
+      59,
+      177,
+      191,
+      295,
+      312,
+      331,
+      364,
+      387,
+      402,
+      445,
+      487,
+      511,
+      588,
+      591,
+      598,
+      668,
+      686,
+      769,
+      854,
+      885,
+      942,
+      1027,
+      1065,
+      1119,
+      1162,
+      1203,
+      1215,
+      1271,
+      1277,
+      1283,
+      1311,
+      1352,
+      1355
+    ],
+    "Bahia,": [
+      33
+    ],
+    "Arthur": [
+      34,
+      379,
+      475,
+      619,
+      678,
+      703,
+      721,
+      789,
+      815,
+      834,
+      927,
+      954,
+      989,
+      1049,
+      1088,
+      1136,
+      1249,
+      1326,
+      1368
+    ],
+    "WegleinSchlumberger": [
+      36
+    ],
+    "Cambridge": [
+      37
+    ],
+    "Research,": [
+      38,
+      132
+    ],
+    "Paulo": [
+      39,
+      1371
+    ],
+    "CarvalhoPterobrá": [
+      41
+    ],
+    "SA,": [
+      42
+    ],
+    "R.": [
+      44,
+      1375
+    ],
+    "StoltConocohttps://doi.org/10.1190/1.1822691": [
+      46
+    ],
+    "SectionsAboutPDF/ePub": [
+      47
+    ],
+    "ToolsAdd": [
+      48
+    ],
+    "to": [
+      49,
+      67,
+      420,
+      614,
+      671,
+      740,
+      744,
+      749,
+      862,
+      937,
+      1296
+    ],
+    "favoritesDownload": [
+      50
+    ],
+    "CitationsTrack": [
+      51
+    ],
+    "CitationsPermissions": [
+      52
+    ],
+    "ShareFacebookTwitterLinked": [
+      53
+    ],
+    "InReddit": [
+      54
+    ],
+    "Permalink:": [
+      55
+    ],
+    "https://doi.org/10.1190/1.1822691FiguresReferencesRelatedDetailsCited": [
+      56
+    ],
+    "byAn": [
+      57
+    ],
+    "application": [
+      58,
+      311
+    ],
+    "prediction": [
+      62,
+      228,
+      260,
+      532,
+      653
+    ],
+    "primary": [
+      64
+    ],
+    "reflection": [
+      65,
+      105
+    ],
+    "retrieval": [
+      66
+    ],
+    "salt": [
+      68
+    ],
+    "structuresZhiwei": [
+      69
+    ],
+    "Gu,": [
+      70,
+      164
+    ],
+    "Jianhua": [
+      71,
+      172
+    ],
+    "Geng,": [
+      72
+    ],
+    "Ru-Shan": [
+      74,
+      169
+    ],
+    "Wu2": [
+      75
+    ],
+    "October": [
+      76,
+      1139,
+      1158,
+      1179,
+      1201
+    ],
+    "2023": [
+      77,
+      94,
+      128
+    ],
+    "|": [
+      78,
+      95,
+      129,
+      205,
+      253,
+      287,
+      341,
+      545,
+      582,
+      645,
+      732,
+      762,
+      876,
+      1016,
+      1057,
+      1093,
+      1226,
+      1268,
+      1290
+    ],
+    "GEOPHYSICS,": [
+      79,
+      206,
+      254,
+      288,
+      342,
+      546,
+      646,
+      733,
+      763,
+      1227,
+      1291
+    ],
+    "Vol.": [
+      80,
+      98,
+      133,
+      152,
+      207,
+      225,
+      255,
+      289,
+      343,
+      524,
+      547,
+      584,
+      647,
+      734,
+      764,
+      880,
+      1020,
+      1061,
+      1097,
+      1228,
+      1273,
+      1292
+    ],
+    "88,": [
+      81
+    ],
+    "No.": [
+      82,
+      100,
+      135,
+      209,
+      257,
+      291,
+      345,
+      526,
+      549,
+      586,
+      649,
+      736,
+      766,
+      882,
+      1022,
+      1063,
+      1099,
+      1230,
+      1275,
+      1294
+    ],
+    "6Inverse": [
+      83
+    ],
+    "Scattering": [
+      84,
+      934,
+      1108
+    ],
+    "Series": [
+      85,
+      935
+    ],
+    "Internal": [
+      86,
+      143
+    ],
+    "Multiple": [
+      87,
+      144,
+      211,
+      1101,
+      1254
+    ],
+    "Attenuation": [
+      88
+    ],
+    "in": [
+      89,
+      114,
+      119,
+      491,
+      513,
+      533,
+      565,
+      654,
+      689,
+      775,
+      800,
+      865,
+      977
+    ],
+    "the": [
+      90,
+      115,
+      120,
+      124,
+      360,
+      446,
+      485,
+      509,
+      534,
+      589,
+      592,
+      596,
+      599,
+      608,
+      615,
+      655,
+      682,
+      687,
+      690,
+      776,
+      794,
+      801,
+      849,
+      943,
+      947,
+      998,
+      1024,
+      1028,
+      1071,
+      1117,
+      1144,
+      1169,
+      1195,
+      1207,
+      1216,
+      1284
+    ],
+    "Common-Midpoint": [
+      91
+    ],
+    "Domain8": [
+      92
+    ],
+    "June": [
+      93
+    ],
+    "Remote": [
+      96,
+      150,
+      223
+    ],
+    "Sensing,": [
+      97,
+      151,
+      224
+    ],
+    "15,": [
+      99
+    ],
+    "12Reprocessing": [
+      101
+    ],
+    "2-D": [
+      102
+    ],
+    "airgun": [
+      103
+    ],
+    "seismic": [
+      104,
+      1197
+    ],
+    "data": [
+      106,
+      275,
+      329,
+      385,
+      407,
+      1301,
+      1320
+    ],
+    "SALTFLU": [
+      107
+    ],
+    "(salt": [
+      108
+    ],
+    "deformation": [
+      109
+    ],
+    "sub-salt": [
+      111
+    ],
+    "fluid": [
+      112
+    ],
+    "circulation": [
+      113
+    ],
+    "Algero-Balearic": [
+      116
+    ],
+    "abyssal": [
+      117
+    ],
+    "plain)": [
+      118
+    ],
+    "Balearic": [
+      121
+    ],
+    "promontory": [
+      122
+    ],
+    "Algerian": [
+      125
+    ],
+    "basin28": [
+      126
+    ],
+    "April": [
+      127,
+      760
+    ],
+    "Marine": [
+      130
+    ],
+    "Geophysical": [
+      131
+    ],
+    "44,": [
+      134
+    ],
+    "2Inverse-Scattering": [
+      136
+    ],
+    "Theory": [
+      137,
+      806
+    ],
+    "Guided": [
+      138
+    ],
+    "U-Net": [
+      139
+    ],
+    "Neural": [
+      140
+    ],
+    "Networks": [
+      141
+    ],
+    "EliminationIEEE": [
+      145
+    ],
+    "Transactions": [
+      146,
+      219,
+      517
+    ],
+    "on": [
+      147,
+      194,
+      220,
+      484,
+      518,
+      595,
+      922,
+      1070,
+      1103,
+      1259
+    ],
+    "Geoscience": [
+      148,
+      221
+    ],
+    "61Internal": [
+      153
+    ],
+    "elimination": [
+      155,
+      454,
+      605,
+      711,
+      821,
+      1118,
+      1236
+    ],
+    "an": [
+      157,
+      741
+    ],
+    "inverse-scattering": [
+      158,
+      230,
+      528,
+      692,
+      742
+    ],
+    "theory": [
+      159,
+      971
+    ],
+    "guided": [
+      160
+    ],
+    "deep": [
+      161
+    ],
+    "neural": [
+      162
+    ],
+    "networkZhiwei": [
+      163
+    ],
+    "Liurong": [
+      165
+    ],
+    "Tao,": [
+      166
+    ],
+    "Haoran": [
+      167
+    ],
+    "Ren,": [
+      168
+    ],
+    "Wu,": [
+      170,
+      473,
+      914
+    ],
+    "Geng15": [
+      173
+    ],
+    "August": [
+      174,
+      189,
+      382,
+      395,
+      416,
+      443,
+      478,
+      502,
+      621,
+      792,
+      818,
+      837,
+      859,
+      894,
+      918,
+      930,
+      957,
+      969,
+      992,
+      1014,
+      1055,
+      1091
+    ],
+    "2022Assessing": [
+      175
+    ],
+    "properties": [
+      176,
+      1026
+    ],
+    "multiples": [
+      179,
+      297,
+      353,
+      490,
+      670,
+      827,
+      864,
+      976,
+      1068,
+      1166,
+      1181,
+      1205,
+      1280,
+      1314
+    ],
+    "different": [
+      181
+    ],
+    "geologiesPaul": [
+      182
+    ],
+    "Ras,": [
+      183
+    ],
+    "Mikhail": [
+      184
+    ],
+    "Davydenko,": [
+      185
+    ],
+    "Eric": [
+      187
+    ],
+    "Verschuur15": [
+      188
+    ],
+    "2022Impacts": [
+      190
+    ],
+    "model": [
+      192
+    ],
+    "resolution": [
+      193
+    ],
+    "predictionYue": [
+      196
+    ],
+    "Ma,": [
+      197,
+      318,
+      377,
+      719,
+      987
+    ],
+    "Yujin": [
+      198
+    ],
+    "Liu,": [
+      199,
+      322
+    ],
+    "Yi": [
+      201,
+      1124
+    ],
+    "Luo10": [
+      202
+    ],
+    "January": [
+      203,
+      339,
+      643,
+      1309
+    ],
+    "2022": [
+      204
+    ],
+    "87,": [
+      208
+    ],
+    "2Internal": [
+      210
+    ],
+    "Removal": [
+      212
+    ],
+    "Illumination": [
+      214
+    ],
+    "Correction": [
+      215
+    ],
+    "Seismic": [
+      217
+    ],
+    "ImagingIEEE": [
+      218
+    ],
+    "60Internal": [
+      226
+    ],
+    "using": [
+      229,
+      261,
+      302,
+      628,
+      669,
+      863,
+      1321
+    ],
+    "sparsity": [
+      233,
+      266
+    ],
+    "promotion": [
+      234,
+      267
+    ],
+    "—": [
+      235,
+      268,
+      1213
+    ],
+    "Part": [
+      236,
+      269,
+      1211
+    ],
+    "1:": [
+      237
+    ],
+    "Background,": [
+      238
+    ],
+    "analysis,": [
+      239
+    ],
+    "synthetic": [
+      241
+    ],
+    "modelingOle": [
+      242
+    ],
+    "Edvard": [
+      243,
+      277
+    ],
+    "Aaker,": [
+      244,
+      278
+    ],
+    "Adriana": [
+      245,
+      279,
+      1155
+    ],
+    "Citlali": [
+      246,
+      280,
+      1246
+    ],
+    "Ramírez,": [
+      247,
+      281
+    ],
+    "Emin": [
+      249,
+      283
+    ],
+    "Sadikhov13": [
+      250
+    ],
+    "September": [
+      251,
+      285,
+      308,
+      326,
+      664,
+      680,
+      705,
+      723
+    ],
+    "2021": [
+      252,
+      286
+    ],
+    "86,": [
+      256,
+      290
+    ],
+    "5Internal": [
+      258
+    ],
+    "inverse": [
+      262,
+      303,
+      447,
+      552,
+      777,
+      900,
+      1029,
+      1072,
+      1112,
+      1145,
+      1170,
+      1232,
+      1322
+    ],
+    "2:": [
+      270
+    ],
+    "Application": [
+      271
+    ],
+    "strategy": [
+      272
+    ],
+    "field": [
+      274,
+      328,
+      384,
+      406
+    ],
+    "examplesOle": [
+      276
+    ],
+    "Sadikhov23": [
+      284
+    ],
+    "5Prediction": [
+      292
+    ],
+    "removal": [
+      294
+    ],
+    "under": [
+      298
+    ],
+    "strong": [
+      299
+    ],
+    "reflectors": [
+      300
+    ],
+    "by": [
+      301
+    ],
+    "algorithmJinlong": [
+      306
+    ],
+    "Yang1": [
+      307
+    ],
+    "2021Analysis": [
+      309
+    ],
+    "data-driven": [
+      313
+    ],
+    "approaches": [
+      314
+    ],
+    "internal-multiple": [
+      316,
+      652,
+      820,
+      944,
+      1032
+    ],
+    "eliminationChao": [
+      317
+    ],
+    "Manhong": [
+      319
+    ],
+    "Guo,": [
+      320
+    ],
+    "Zhaojun": [
+      321
+    ],
+    "James": [
+      324,
+      913
+    ],
+    "Sheng30": [
+      325
+    ],
+    "2020A": [
+      327
+    ],
+    "Marchenko": [
+      332,
+      388,
+      425,
+      629
+    ],
+    "eliminationLele": [
+      334,
+      390
+    ],
+    "Zhang": [
+      335,
+      391,
+      1175
+    ],
+    "Evert": [
+      337,
+      393
+    ],
+    "Slob9": [
+      338
+    ],
+    "2020": [
+      340
+    ],
+    "85,": [
+      344
+    ],
+    "2A": [
+      346,
+      550
+    ],
+    "new": [
+      347,
+      424,
+      480,
+      747,
+      1241
+    ],
+    "multidimensional": [
+      348,
+      715
+    ],
+    "method": [
+      349,
+      553,
+      712,
+      748,
+      1034
+    ],
+    "that": [
+      350,
+      354,
+      810,
+      1035
+    ],
+    "eliminates": [
+      351
+    ],
+    "interfere": [
+      355
+    ],
+    "primaries,": [
+      357
+    ],
+    "without": [
+      358,
+      362,
+      1281
+    ],
+    "damaging": [
+      359
+    ],
+    "primary,": [
+      361
+    ],
+    "knowledge": [
+      363
+    ],
+    "subsurface": [
+      365,
+      555
+    ],
+    "properties,": [
+      366
+    ],
+    "off-shore": [
+      368
+    ],
+    "on-shore": [
+      370
+    ],
+    "conventional": [
+      371
+    ],
+    "unconventional": [
+      373
+    ],
+    "playsYanglei": [
+      374
+    ],
+    "Zou,": [
+      375,
+      471,
+      717
+    ],
+    "Chao": [
+      376,
+      718,
+      986
+    ],
+    "Weglein1": [
+      381,
+      679,
+      704,
+      722
+    ],
+    "2019A": [
+      383
+    ],
+    "Slob1": [
+      394
+    ],
+    "2019Marchenko": [
+      396
+    ],
+    "interferometry": [
+      398,
+      739
+    ],
+    "based": [
+      399,
+      1069,
+      1173
+    ],
+    "attenuation": [
+      401,
+      603,
+      627,
+      804,
+      898,
+      921,
+      960,
+      1033,
+      1149
+    ],
+    "a": [
+      403,
+      612,
+      714,
+      746,
+      771,
+      784,
+      829,
+      939,
+      1188,
+      1240
+    ],
+    "North": [
+      404
+    ],
+    "Sea": [
+      405
+    ],
+    "setCarlos": [
+      408
+    ],
+    "Alberto": [
+      409,
+      429,
+      633
+    ],
+    "da": [
+      410,
+      430,
+      634
+    ],
+    "Costa": [
+      411,
+      431,
+      635
+    ],
+    "Filho": [
+      412
+    ],
+    "Andrew": [
+      414,
+      435,
+      641,
+      754
+    ],
+    "Curtis27": [
+      415
+    ],
+    "2018Using": [
+      417
+    ],
+    "laboratory": [
+      418
+    ],
+    "experiments": [
+      419
+    ],
+    "develop": [
+      421
+    ],
+    "test": [
+      423
+    ],
+    "imaging": [
+      427,
+      1183
+    ],
+    "methodsCarlos": [
+      428,
+      632
+    ],
+    "Filho,": [
+      432,
+      636
+    ],
+    "Katherine": [
+      433
+    ],
+    "Tant,": [
+      434
+    ],
+    "Curtis,": [
+      436,
+      755
+    ],
+    "Anthony": [
+      437
+    ],
+    "Mulholland,": [
+      438
+    ],
+    "Carmel": [
+      440
+    ],
+    "M.": [
+      441
+    ],
+    "Moran27": [
+      442
+    ],
+    "2018Analysis": [
+      444
+    ],
+    "(ISS)": [
+      450
+    ],
+    "multiple-attenuation": [
+      452
+    ],
+    "algorithms": [
+      455
+    ],
+    "as": [
+      456
+    ],
+    "effective": [
+      457
+    ],
+    "tool": [
+      458
+    ],
+    "box": [
+      459
+    ],
+    "choices": [
+      460
+    ],
+    "absorptive": [
+      462
+    ],
+    "dispersive": [
+      464
+    ],
+    "media": [
+      465
+    ],
+    "interfering": [
+      467
+    ],
+    "eventsQiang": [
+      468
+    ],
+    "Fu,": [
+      469,
+      1080,
+      1123
+    ],
+    "Yanglei": [
+      470
+    ],
+    "Jing": [
+      472
+    ],
+    "Weglein27": [
+      477,
+      501
+    ],
+    "2018A": [
+      479
+    ],
+    "comprehensive": [
+      482
+    ],
+    "perspective": [
+      483
+    ],
+    "role": [
+      486
+    ],
+    "primaries": [
+      488,
+      974,
+      1186
+    ],
+    "seismic-data": [
+      492
+    ],
+    "processing": [
+      493
+    ],
+    "structure": [
+      495
+    ],
+    "determination": [
+      496
+    ],
+    "amplitude": [
+      498
+    ],
+    "analysisArthur": [
+      499
+    ],
+    "2018Cryo-Ultrasonic": [
+      503
+    ],
+    "NDE:": [
+      504
+    ],
+    "Ice–Cold": [
+      505
+    ],
+    "Ultrasonic": [
+      506
+    ],
+    "Waves": [
+      507
+    ],
+    "Detection": [
+      510
+    ],
+    "Damage": [
+      512
+    ],
+    "Complex-Shaped": [
+      514
+    ],
+    "Engineering": [
+      515
+    ],
+    "ComponentsIEEE": [
+      516
+    ],
+    "Ultrasonics,": [
+      519
+    ],
+    "Ferroelectrics,": [
+      520
+    ],
+    "Frequency": [
+      522
+    ],
+    "Control,": [
+      523
+    ],
+    "65,": [
+      525
+    ],
+    "4Multidimensional": [
+      527
+    ],
+    "coupled": [
+      535
+    ],
+    "plane-wave": [
+      536,
+      657
+    ],
+    "domainJian": [
+      537,
+      658
+    ],
+    "Sun": [
+      538,
+      659
+    ],
+    "Kristopher": [
+      540,
+      661
+    ],
+    "A.": [
+      541,
+      871,
+      1306
+    ],
+    "Innanen1": [
+      542,
+      663
+    ],
+    "February": [
+      543,
+      1288,
+      1329
+    ],
+    "2018": [
+      544
+    ],
+    "83,": [
+      548
+    ],
+    "direct": [
+      551
+    ],
+    "properties:": [
+      556
+    ],
+    "The": [
+      557,
+      877,
+      1017,
+      1058,
+      1094
+    ],
+    "conceptual": [
+      558
+    ],
+    "practical": [
+      560
+    ],
+    "benefit": [
+      561
+    ],
+    "added": [
+      563
+    ],
+    "value": [
+      564
+    ],
+    "comparison": [
+      566
+    ],
+    "all": [
+      568,
+      824
+    ],
+    "current": [
+      569
+    ],
+    "indirect": [
+      570
+    ],
+    "methods,": [
+      571
+    ],
+    "example,": [
+      573
+    ],
+    "amplitude-variation-with-offset": [
+      574
+    ],
+    "full-waveform": [
+      576
+    ],
+    "inversionArthur": [
+      577
+    ],
+    "Weglein6": [
+      579,
+      1200
+    ],
+    "July": [
+      580,
+      874
+    ],
+    "2017": [
+      581,
+      644
+    ],
+    "Interpretation,": [
+      583
+    ],
+    "5,": [
+      585
+    ],
+    "3Impact": [
+      587
+    ],
+    "shape": [
+      590
+    ],
+    "acquisition": [
+      593
+    ],
+    "effectiveness": [
+      597
+    ],
+    "ISS": [
+      600
+    ],
+    "algorithms:": [
+      606
+    ],
+    "Analyzing": [
+      607
+    ],
+    "problem": [
+      609,
+      948
+    ],
+    "providing": [
+      611,
+      848
+    ],
+    "response": [
+      613
+    ],
+    "challengeYuchang": [
+      616
+    ],
+    "Shen": [
+      617
+    ],
+    "Weglein17": [
+      620
+    ],
+    "2017Elastic": [
+      622
+    ],
+    "analysis": [
+      625,
+      884,
+      1161
+    ],
+    "interferometric": [
+      631
+    ],
+    "Giovanni": [
+      637,
+      757
+    ],
+    "Angelo": [
+      638,
+      758
+    ],
+    "Meles,": [
+      639
+    ],
+    "Curtis11": [
+      642
+    ],
+    "82,": [
+      648
+    ],
+    "2Inverse-scattering": [
+      650
+    ],
+    "double": [
+      656
+    ],
+    "Albert": [
+      662
+    ],
+    "2016A": [
+      665
+    ],
+    "clear": [
+      666
+    ],
+    "enhance": [
+      672
+    ],
+    "improve": [
+      674
+    ],
+    "imagingChao": [
+      675
+    ],
+    "Ma": [
+      676,
+      701
+    ],
+    "2016Examining": [
+      681
+    ],
+    "interdependence": [
+      683
+    ],
+    "cooperation": [
+      685
+    ],
+    "terms": [
+      688,
+      936
+    ],
+    "distinct": [
+      691
+    ],
+    "subseries": [
+      693
+    ],
+    "free-surface": [
+      695
+    ],
+    "removalChao": [
+      700
+    ],
+    "2016The": [
+      706
+    ],
+    "first": [
+      707
+    ],
+    "inverse-scattering-series": [
+      708
+    ],
+    "subsurfaceYanglei": [
+      716
+    ],
+    "2016Multiples:": [
+      724
+    ],
+    "Signal": [
+      725
+    ],
+    "or": [
+      726
+    ],
+    "noise?Arthur": [
+      727
+    ],
+    "Weglein30": [
+      729
+    ],
+    "May": [
+      730,
+      1110,
+      1224,
+      1266
+    ],
+    "2016": [
+      731,
+      761
+    ],
+    "81,": [
+      735,
+      765
+    ],
+    "4Relating": [
+      737
+    ],
+    "source-receiver": [
+      738
+    ],
+    "derive": [
+      745
+    ],
+    "estimate": [
+      750
+    ],
+    "multiplesKatrin": [
+      752
+    ],
+    "Löer,": [
+      753
+    ],
+    "Meles4": [
+      759
+    ],
+    "3The": [
+      767
+    ],
+    "significance": [
+      768
+    ],
+    "incorporating": [
+      770
+    ],
+    "3-D": [
+      772
+    ],
+    "point": [
+      773
+    ],
+    "source": [
+      774,
+      795,
+      1285
+    ],
+    "attenuator": [
+      782
+    ],
+    "1-D": [
+      785
+    ],
+    "subsurfaceXinglu": [
+      786
+    ],
+    "Lin*": [
+      787
+    ],
+    "Weglein19": [
+      791,
+      817,
+      836,
+      858,
+      968,
+      991
+    ],
+    "2015Accommodating": [
+      793
+    ],
+    "wavelet": [
+      796
+    ],
+    "radiation": [
+      798
+    ],
+    "pattern": [
+      799
+    ],
+    "algorithm:": [
+      805,
+      980
+    ],
+    "initial": [
+      808,
+      1244
+    ],
+    "demonstrates": [
+      811
+    ],
+    "impactJinlong": [
+      812
+    ],
+    "Yang": [
+      813
+    ],
+    "2015An": [
+      819
+    ],
+    "algorithm": [
+      822,
+      1242
+    ],
+    "first-order": [
+      825
+    ],
+    "1D": [
+      830
+    ],
+    "earthYanglei": [
+      831
+    ],
+    "Zou": [
+      832
+    ],
+    "2015Multiple": [
+      838
+    ],
+    "removal:": [
+      839,
+      1299
+    ],
+    "open": [
+      840,
+      965
+    ],
+    "issues,": [
+      841
+    ],
+    "pressing": [
+      842,
+      1196
+    ],
+    "challenges": [
+      843,
+      963
+    ],
+    "recent": [
+      845
+    ],
+    "progress": [
+      846
+    ],
+    "towards": [
+      847,
+      1116
+    ],
+    "next": [
+      850
+    ],
+    "higher": [
+      852,
+      1163
+    ],
+    "level": [
+      853
+    ],
+    "required": [
+      855
+    ],
+    "capabilityArthur": [
+      856
+    ],
+    "2015From": [
+      860
+    ],
+    "removing": [
+      861
+    ],
+    "closed-loop": [
+      866
+    ],
+    "imagingD.": [
+      867
+    ],
+    "J.": [
+      868,
+      872,
+      1218,
+      1222,
+      1303,
+      1307
+    ],
+    "Verschuur": [
+      869,
+      1304
+    ],
+    "Berkhout2": [
+      873
+    ],
+    "2015": [
+      875
+    ],
+    "Leading": [
+      878,
+      1018,
+      1059,
+      1095
+    ],
+    "Edge,": [
+      879,
+      1019,
+      1060,
+      1096
+    ],
+    "34,": [
+      881
+    ],
+    "7Numerical": [
+      883
+    ],
+    "1.5D": [
+      886
+    ],
+    "predictionPan": [
+      889
+    ],
+    "Pan*": [
+      890
+    ],
+    "Kris": [
+      892
+    ],
+    "Innanen5": [
+      893
+    ],
+    "2014Cascaded": [
+      895
+    ],
+    "series:": [
+      902
+    ],
+    "Western": [
+      903
+    ],
+    "Canada": [
+      904
+    ],
+    "case": [
+      905
+    ],
+    "studyFrederico": [
+      906
+    ],
+    "Xavier": [
+      907
+    ],
+    "de": [
+      908
+    ],
+    "Melo*,": [
+      909
+    ],
+    "Murad": [
+      910
+    ],
+    "Idris,": [
+      911
+    ],
+    "Zhiming": [
+      912
+    ],
+    "Clement": [
+      916
+    ],
+    "Kostov5": [
+      917
+    ],
+    "2014Internal": [
+      919
+    ],
+    "Encana": [
+      923
+    ],
+    "dataQiang": [
+      924
+    ],
+    "Fu": [
+      925
+    ],
+    "Weglein5": [
+      929,
+      956
+    ],
+    "2014Including": [
+      931
+    ],
+    "higher-order": [
+      932
+    ],
+    "Inverse": [
+      933,
+      1107
+    ],
+    "address": [
+      938
+    ],
+    "serious": [
+      940
+    ],
+    "shortcoming/problem": [
+      941
+    ],
+    "attenuator:": [
+      945
+    ],
+    "Exemplifying": [
+      946
+    ],
+    "its": [
+      950,
+      1038
+    ],
+    "resolutionChao": [
+      951
+    ],
+    "Ma*": [
+      952
+    ],
+    "2014The": [
+      958
+    ],
+    "toolbox:": [
+      961
+    ],
+    "Progress,": [
+      962
+    ],
+    "issuesArthur": [
+      966
+    ],
+    "2013General": [
+      970
+    ],
+    "accommodating": [
+      973
+    ],
+    "Analysis": [
+      981
+    ],
+    "numerical": [
+      983
+    ],
+    "testsHong": [
+      984
+    ],
+    "Liang,": [
+      985
+    ],
+    "2013Multiple": [
+      993
+    ],
+    "Recent": [
+      995
+    ],
+    "advances": [
+      996
+    ],
+    "road": [
+      999
+    ],
+    "ahead": [
+      1000
+    ],
+    "(2011)Arthur": [
+      1001
+    ],
+    "Weglein,": [
+      1003,
+      1051,
+      1370
+    ],
+    "Shih-Ying": [
+      1004,
+      1047,
+      1085
+    ],
+    "Hsu,": [
+      1005,
+      1048,
+      1086,
+      1134,
+      1151
+    ],
+    "Paolo": [
+      1006
+    ],
+    "Terenghi,": [
+      1007,
+      1046
+    ],
+    "Xu": [
+      1008,
+      1053
+    ],
+    "Li,": [
+      1009
+    ],
+    "Robert": [
+      1011
+    ],
+    "Stolt9": [
+      1013
+    ],
+    "2011": [
+      1015,
+      1056,
+      1092
+    ],
+    "30,": [
+      1021,
+      1062,
+      1098
+    ],
+    "8Exemplifying": [
+      1023
+    ],
+    "specific": [
+      1025
+    ],
+    "reside": [
+      1036
+    ],
+    "behind": [
+      1037
+    ],
+    "capability": [
+      1039
+    ],
+    "complex": [
+      1041,
+      1189
+    ],
+    "onshore": [
+      1042
+    ],
+    "marine": [
+      1044
+    ],
+    "multiplesPaolo": [
+      1045
+    ],
+    "Li9": [
+      1054
+    ],
+    "8Elimination": [
+      1064
+    ],
+    "land": [
+      1066,
+      1120,
+      1316
+    ],
+    "seriesYi": [
+      1074
+    ],
+    "Luo,": [
+      1075,
+      1125
+    ],
+    "Panos": [
+      1076,
+      1126
+    ],
+    "G.": [
+      1077,
+      1127
+    ],
+    "Kelamis,": [
+      1078,
+      1128
+    ],
+    "Qiang": [
+      1079
+    ],
+    "ShouDong": [
+      1081,
+      1129
+    ],
+    "Huo,": [
+      1082,
+      1130
+    ],
+    "Ghada": [
+      1083,
+      1131
+    ],
+    "Sindi,": [
+      1084,
+      1132
+    ],
+    "Weglein9": [
+      1090
+    ],
+    "8Internal": [
+      1100
+    ],
+    "Elimination": [
+      1102
+    ],
+    "Land": [
+      1104
+    ],
+    "Data": [
+      1105
+    ],
+    "Using": [
+      1106
+    ],
+    "Series15": [
+      1109
+    ],
+    "2011The": [
+      1111
+    ],
+    "approach": [
+      1115
+    ],
+    "multiplesQiang": [
+      1122
+    ],
+    "Shih‐Ying": [
+      1133
+    ],
+    "Weglein21": [
+      1138
+    ],
+    "2010Quasi‐Monte": [
+      1140
+    ],
+    "Carlo": [
+      1141
+    ],
+    "integration": [
+      1142
+    ],
+    "algorithmShih‐Ying": [
+      1150
+    ],
+    "Einar": [
+      1152
+    ],
+    "Otnes,": [
+      1153
+    ],
+    "C.": [
+      1156
+    ],
+    "Ramírez21": [
+      1157
+    ],
+    "20101‐D": [
+      1159
+    ],
+    "analytical": [
+      1160
+    ],
+    "order": [
+      1164
+    ],
+    "predicted": [
+      1167
+    ],
+    "via": [
+      1168
+    ],
+    "algorithmHaiyan": [
+      1174
+    ],
+    "Simon": [
+      1177
+    ],
+    "Shaw21": [
+      1178
+    ],
+    "2010Removing": [
+      1180
+    ],
+    "inverting": [
+      1185
+    ],
+    "beneath": [
+      1187
+    ],
+    "ill‐defined": [
+      1190
+    ],
+    "overburden:": [
+      1191
+    ],
+    "defining": [
+      1192
+    ],
+    "addressing": [
+      1194
+    ],
+    "challengeArthur": [
+      1198
+    ],
+    "2006Removal": [
+      1202
+    ],
+    "common-focus-point": [
+      1208
+    ],
+    "(CFP)": [
+      1209
+    ],
+    "approach:": [
+      1210
+    ],
+    "1": [
+      1212
+    ],
+    "Explanation": [
+      1214
+    ],
+    "theoryA.": [
+      1217
+    ],
+    "Berkhout": [
+      1219
+    ],
+    "D.": [
+      1221
+    ],
+    "Verschuur23": [
+      1223
+    ],
+    "2005": [
+      1225,
+      1330,
+      1362
+    ],
+    "70,": [
+      1229
+    ],
+    "3An": [
+      1231
+    ],
+    "method:": [
+      1237
+    ],
+    "beyond": [
+      1238
+    ],
+    "attenuation,": [
+      1239
+    ],
+    "testsAdriana": [
+      1245
+    ],
+    "Ramírez": [
+      1247
+    ],
+    "Weglein7": [
+      1251
+    ],
+    "December": [
+      1252
+    ],
+    "2005Surface-Related": [
+      1253
+    ],
+    "Prediction": [
+      1255
+    ],
+    "Suppression": [
+      1257
+    ],
+    "Based": [
+      1258
+    ],
+    "Data-Consistence:": [
+      1260
+    ],
+    "A": [
+      1261
+    ],
+    "Theoretical": [
+      1262
+    ],
+    "Study": [
+      1263
+    ],
+    "Test31": [
+      1265
+    ],
+    "2013": [
+      1267
+    ],
+    "Chinese": [
+      1269
+    ],
+    "Journal": [
+      1270
+    ],
+    "Geophysics,": [
+      1272
+    ],
+    "48,": [
+      1274
+    ],
+    "1Elimination": [
+      1276
+    ],
+    "free‐surface": [
+      1278
+    ],
+    "related": [
+      1279
+    ],
+    "need": [
+      1282
+    ],
+    "waveletLasse": [
+      1286
+    ],
+    "Amundsen7": [
+      1287
+    ],
+    "2012": [
+      1289
+    ],
+    "66,": [
+      1293
+    ],
+    "1CFP‐approach": [
+      1295
+    ],
+    "Field": [
+      1300
+    ],
+    "examplesD.": [
+      1302
+    ],
+    "Berkhout4": [
+      1308
+    ],
+    "2005Removal": [
+      1310
+    ],
+    "elastic": [
+      1312
+    ],
+    "interface": [
+      1313
+    ],
+    "from": [
+      1315
+    ],
+    "ocean": [
+      1318
+    ],
+    "bottom": [
+      1319
+    ],
+    "scatteringKen": [
+      1323
+    ],
+    "Matson": [
+      1324
+    ],
+    "Weglein10": [
+      1328
+    ],
+    "SEG": [
+      1331,
+      1392
+    ],
+    "1994": [
+      1336,
+      1342,
+      1347,
+      1350
+    ],
+    "ISSN": [
+      1337,
+      1339
+    ],
+    "(print):1052-3812": [
+      1338
+    ],
+    "(online):1949-4645": [
+      1340
+    ],
+    "Copyright:": [
+      1341
+    ],
+    "Pages:": [
+      1343
+    ],
+    "1679": [
+      1344
+    ],
+    "publication": [
+      1345
+    ],
+    "data©": [
+      1346
+    ],
+    "Copyright": [
+      1348
+    ],
+    "©": [
+      1349
+    ],
+    "Society": [
+      1351
+    ],
+    "Exploration": [
+      1353,
+      1356
+    ],
+    "GeophysicistsPublisher:Society": [
+      1354
+    ],
+    "Geophysicists": [
+      1357
+    ],
+    "HistoryPublished": [
+      1358
+    ],
+    "Online:": [
+      1359
+    ],
+    "10": [
+      1360
+    ],
+    "Feb": [
+      1361
+    ],
+    "CITATION": [
+      1363
+    ],
+    "INFORMATION": [
+      1364
+    ],
+    "Araújo,": [
+      1367
+    ],
+    "Carvalho,": [
+      1373
+    ],
+    "Stolt,": [
+      1377
+    ],
+    "(1994),": [
+      1378
+    ],
+    "\"Inverse": [
+      1379
+    ],
+    "multiples,\"": [
+      1391
+    ],
+    ":": [
+      1397
+    ],
+    "1039-1041.": [
+      1398
+    ],
+    "https://doi.org/10.1190/1.1822691": [
+      1399
+    ],
+    "Plain-Language": [
+      1400
+    ],
+    "Summary": [
+      1401
+    ],
+    "PDF": [
+      1402
+    ],
+    "DownloadLoading": [
+      1403
+    ],
+    "...": [
+      1404
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-23T05:00:35.095934",
+  "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,1105 @@
+{
+  "id": "https://openalex.org/W3126785917",
+  "doi": "https://doi.org/10.1190/geo2020-0459.1",
+  "title": "Time-lapse image registration by high-resolution time-shift scan",
+  "display_name": "Time-lapse image registration by high-resolution time-shift scan",
+  "publication_year": 2021,
+  "publication_date": "2021-01-27",
+  "ids": {
+    "openalex": "https://openalex.org/W3126785917",
+    "doi": "https://doi.org/10.1190/geo2020-0459.1",
+    "mag": "3126785917"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/geo2020-0459.1",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/geo2020-0459.1",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S106174089",
+      "display_name": "Geophysics",
+      "issn_l": "0016-8033",
+      "issn": [
+        "0016-8033",
+        "1942-2156"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5088413477",
+        "display_name": "Xingye Liu",
+        "orcid": "https://orcid.org/0000-0002-9193-1075"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I110440473",
+          "display_name": "Xi'an University of Science and Technology",
+          "ror": "https://ror.org/046fkpt18",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I110440473"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Xingye Liu",
+      "raw_affiliation_strings": [
+        "Xi’an University of Science and Technology 1 , College of Geology and Environment, Xi’an 710054, China. E-mail: lwxwyh506673@126.com ",
+        "Xi’an University of Science and Technology, College of Geology and Environment, Xi’an 710054, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-9193-1075",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Xi’an University of Science and Technology 1 , College of Geology and Environment, Xi’an 710054, China. E-mail: lwxwyh506673@126.com ",
+          "institution_ids": [
+            "https://openalex.org/I110440473"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Xi’an University of Science and Technology, College of Geology and Environment, Xi’an 710054, China",
+          "institution_ids": [
+            "https://openalex.org/I110440473"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": null,
+        "display_name": "Xiaohong Chen",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204553293",
+          "display_name": "China University of Petroleum, Beijing",
+          "ror": "https://ror.org/041qf4r12",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I204553293"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Xiaohong Chen",
+      "raw_affiliation_strings": [
+        "China University of Petroleum 2 , State Key Laboratory of Petroleum Resources and Prospecting, Fuxue Road 18th, Beijing 102200, China. E-mail: chenxh@cup.edu.cn ",
+        "China University of Petroleum, State Key Laboratory of Petroleum Resources and Prospecting, Fuxue Road 18th, Beijing 102200, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "China University of Petroleum 2 , State Key Laboratory of Petroleum Resources and Prospecting, Fuxue Road 18th, Beijing 102200, China. E-mail: chenxh@cup.edu.cn ",
+          "institution_ids": [
+            "https://openalex.org/I204553293"
+          ]
+        },
+        {
+          "raw_affiliation_string": "China University of Petroleum, State Key Laboratory of Petroleum Resources and Prospecting, Fuxue Road 18th, Beijing 102200, China",
+          "institution_ids": [
+            "https://openalex.org/I204553293"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5018916500",
+        "display_name": "Min Bai",
+        "orcid": "https://orcid.org/0000-0002-7912-0165"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210094876",
+          "display_name": "Ministry of Education",
+          "ror": "https://ror.org/00q919b81",
+          "country_code": "SA",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I4210094876"
+          ]
+        }
+      ],
+      "countries": [
+        "SA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Min Bai",
+      "raw_affiliation_strings": [
+        "Yangtze University 3 , Key Laboratory of Exploration Technology for Oil and Gas Resources of Ministry of Education, Wuhan 430100, China. E-mail: baimin2016@126.com (corresponding author)",
+        "Yangtze University, Key Laboratory of Exploration Technology for Oil and Gas Resources of Ministry of Education, Wuhan 430100, China.(corresponding author)"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-7912-0165",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Yangtze University 3 , Key Laboratory of Exploration Technology for Oil and Gas Resources of Ministry of Education, Wuhan 430100, China. E-mail: baimin2016@126.com (corresponding author)",
+          "institution_ids": [
+            "https://openalex.org/I4210094876"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Yangtze University, Key Laboratory of Exploration Technology for Oil and Gas Resources of Ministry of Education, Wuhan 430100, China.(corresponding author)",
+          "institution_ids": [
+            "https://openalex.org/I4210094876"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5019972279",
+        "display_name": "Yangkang Chen",
+        "orcid": "https://orcid.org/0000-0001-6429-4261"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I76130692",
+          "display_name": "Zhejiang University",
+          "ror": "https://ror.org/00a2xv884",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I76130692"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yangkang Chen",
+      "raw_affiliation_strings": [
+        "Zhejiang University 4 , School of Earth Sciences, Hangzhou 310027, China. E-mail: chenyk2016@gmail.com ",
+        "Zhejiang University, School of Earth Sciences, Hangzhou 310027, China"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-6429-4261",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Zhejiang University 4 , School of Earth Sciences, Hangzhou 310027, China. E-mail: chenyk2016@gmail.com ",
+          "institution_ids": [
+            "https://openalex.org/I76130692"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Zhejiang University, School of Earth Sciences, Hangzhou 310027, China",
+          "institution_ids": [
+            "https://openalex.org/I76130692"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.5353,
+  "has_fulltext": false,
+  "cited_by_count": 7,
+  "citation_normalized_percentile": {
+    "value": 0.59091192,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "86",
+    "issue": "3",
+    "first_page": "M49",
+    "last_page": "M58"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9998000264167786,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10892",
+      "display_name": "Drilling and Well Engineering",
+      "score": 0.9955000281333923,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.993399977684021,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.6598419547080994
+    },
+    {
+      "id": "https://openalex.org/keywords/smoothing",
+      "display_name": "Smoothing",
+      "score": 0.653264045715332
+    },
+    {
+      "id": "https://openalex.org/keywords/mean-shift",
+      "display_name": "Mean-shift",
+      "score": 0.6249690055847168
+    },
+    {
+      "id": "https://openalex.org/keywords/time-shifting",
+      "display_name": "Time shifting",
+      "score": 0.607162356376648
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.6011779308319092
+    },
+    {
+      "id": "https://openalex.org/keywords/image-warping",
+      "display_name": "Image warping",
+      "score": 0.5641353130340576
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-vision",
+      "display_name": "Computer vision",
+      "score": 0.5282133221626282
+    },
+    {
+      "id": "https://openalex.org/keywords/constraint",
+      "display_name": "Constraint (computer-aided design)",
+      "score": 0.5213550329208374
+    },
+    {
+      "id": "https://openalex.org/keywords/similarity",
+      "display_name": "Similarity (geometry)",
+      "score": 0.5137113332748413
+    },
+    {
+      "id": "https://openalex.org/keywords/image",
+      "display_name": "Image (mathematics)",
+      "score": 0.4397156238555908
+    },
+    {
+      "id": "https://openalex.org/keywords/pattern-recognition",
+      "display_name": "Pattern recognition (psychology)",
+      "score": 0.3611293137073517
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.3432196378707886
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.2315482199192047
+    },
+    {
+      "id": "https://openalex.org/keywords/geometry",
+      "display_name": "Geometry",
+      "score": 0.09614425897598267
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.6598419547080994
+    },
+    {
+      "id": "https://openalex.org/C3770464",
+      "wikidata": "https://www.wikidata.org/wiki/Q775963",
+      "display_name": "Smoothing",
+      "level": 2,
+      "score": 0.653264045715332
+    },
+    {
+      "id": "https://openalex.org/C48548287",
+      "wikidata": "https://www.wikidata.org/wiki/Q6803557",
+      "display_name": "Mean-shift",
+      "level": 3,
+      "score": 0.6249690055847168
+    },
+    {
+      "id": "https://openalex.org/C104759252",
+      "wikidata": "https://www.wikidata.org/wiki/Q187120",
+      "display_name": "Time shifting",
+      "level": 3,
+      "score": 0.607162356376648
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.6011779308319092
+    },
+    {
+      "id": "https://openalex.org/C157202957",
+      "wikidata": "https://www.wikidata.org/wiki/Q1659609",
+      "display_name": "Image warping",
+      "level": 2,
+      "score": 0.5641353130340576
+    },
+    {
+      "id": "https://openalex.org/C31972630",
+      "wikidata": "https://www.wikidata.org/wiki/Q844240",
+      "display_name": "Computer vision",
+      "level": 1,
+      "score": 0.5282133221626282
+    },
+    {
+      "id": "https://openalex.org/C2776036281",
+      "wikidata": "https://www.wikidata.org/wiki/Q48769818",
+      "display_name": "Constraint (computer-aided design)",
+      "level": 2,
+      "score": 0.5213550329208374
+    },
+    {
+      "id": "https://openalex.org/C103278499",
+      "wikidata": "https://www.wikidata.org/wiki/Q254465",
+      "display_name": "Similarity (geometry)",
+      "level": 3,
+      "score": 0.5137113332748413
+    },
+    {
+      "id": "https://openalex.org/C115961682",
+      "wikidata": "https://www.wikidata.org/wiki/Q860623",
+      "display_name": "Image (mathematics)",
+      "level": 2,
+      "score": 0.4397156238555908
+    },
+    {
+      "id": "https://openalex.org/C153180895",
+      "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+      "display_name": "Pattern recognition (psychology)",
+      "level": 2,
+      "score": 0.3611293137073517
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.3432196378707886
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.2315482199192047
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.09614425897598267
+    },
+    {
+      "id": "https://openalex.org/C76155785",
+      "wikidata": "https://www.wikidata.org/wiki/Q418",
+      "display_name": "Telecommunications",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C761482",
+      "wikidata": "https://www.wikidata.org/wiki/Q118093",
+      "display_name": "Transmission (telecommunications)",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/geo2020-0459.1",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/geo2020-0459.1",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S106174089",
+        "display_name": "Geophysics",
+        "issn_l": "0016-8033",
+        "issn": [
+          "0016-8033",
+          "1942-2156"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysics",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 40,
+  "referenced_works": [
+    "https://openalex.org/W1513885533",
+    "https://openalex.org/W1838266904",
+    "https://openalex.org/W1973540739",
+    "https://openalex.org/W1977465626",
+    "https://openalex.org/W1982077740",
+    "https://openalex.org/W1982214775",
+    "https://openalex.org/W1984972759",
+    "https://openalex.org/W1991955670",
+    "https://openalex.org/W1995017520",
+    "https://openalex.org/W2003880441",
+    "https://openalex.org/W2007552981",
+    "https://openalex.org/W2009340744",
+    "https://openalex.org/W2021488547",
+    "https://openalex.org/W2021734622",
+    "https://openalex.org/W2045757621",
+    "https://openalex.org/W2046219314",
+    "https://openalex.org/W2057160309",
+    "https://openalex.org/W2074086236",
+    "https://openalex.org/W2075289428",
+    "https://openalex.org/W2094551850",
+    "https://openalex.org/W2095220466",
+    "https://openalex.org/W2110165470",
+    "https://openalex.org/W2115591972",
+    "https://openalex.org/W2126720920",
+    "https://openalex.org/W2126737898",
+    "https://openalex.org/W2130744222",
+    "https://openalex.org/W2139326335",
+    "https://openalex.org/W2146241926",
+    "https://openalex.org/W2155266857",
+    "https://openalex.org/W2320027126",
+    "https://openalex.org/W2328118774",
+    "https://openalex.org/W2339382078",
+    "https://openalex.org/W2509165592",
+    "https://openalex.org/W2529268050",
+    "https://openalex.org/W2536550743",
+    "https://openalex.org/W2778440028",
+    "https://openalex.org/W2909043851",
+    "https://openalex.org/W2968337377",
+    "https://openalex.org/W3021394160",
+    "https://openalex.org/W4234412022"
+  ],
+  "related_works": [
+    "https://openalex.org/W1670332068",
+    "https://openalex.org/W2095618524",
+    "https://openalex.org/W2735770592",
+    "https://openalex.org/W1971024059",
+    "https://openalex.org/W1502062143",
+    "https://openalex.org/W4224236531",
+    "https://openalex.org/W4291993329",
+    "https://openalex.org/W2355091340",
+    "https://openalex.org/W2091357212",
+    "https://openalex.org/W2371614350"
+  ],
+  "abstract_inverted_index": {
+    "ABSTRACT": [
+      0
+    ],
+    "Seismic": [
+      1
+    ],
+    "image": [
+      2,
+      186
+    ],
+    "registration": [
+      3,
+      202
+    ],
+    "is": [
+      4,
+      20,
+      78
+    ],
+    "crucial": [
+      5
+    ],
+    "for": [
+      6,
+      135,
+      198
+    ],
+    "the": [
+      7,
+      27,
+      36,
+      43,
+      47,
+      87,
+      92,
+      103,
+      109,
+      115,
+      124,
+      150,
+      155,
+      159,
+      171,
+      174,
+      184,
+      200,
+      205
+    ],
+    "joint": [
+      8
+    ],
+    "interpretation": [
+      9
+    ],
+    "of": [
+      10,
+      38,
+      49,
+      102,
+      158,
+      173,
+      204
+    ],
+    "multivintage": [
+      11
+    ],
+    "seismic": [
+      12,
+      194
+    ],
+    "images": [
+      13,
+      195
+    ],
+    "in": [
+      14,
+      42,
+      113,
+      131
+    ],
+    "time-lapse": [
+      15,
+      185,
+      193
+    ],
+    "reservoir": [
+      16
+    ],
+    "monitoring.": [
+      17
+    ],
+    "Time-shift": [
+      18
+    ],
+    "analysis": [
+      19,
+      64
+    ],
+    "a": [
+      21,
+      32,
+      50,
+      56,
+      61,
+      99
+    ],
+    "commonly": [
+      22
+    ],
+    "used": [
+      23,
+      197
+    ],
+    "method": [
+      24,
+      58
+    ],
+    "to": [
+      25,
+      59,
+      128,
+      169
+    ],
+    "estimate": [
+      26
+    ],
+    "warping": [
+      28
+    ],
+    "function": [
+      29
+    ],
+    "by": [
+      30,
+      80,
+      107
+    ],
+    "creating": [
+      31
+    ],
+    "time-shift": [
+      33,
+      40,
+      63,
+      75,
+      104,
+      125,
+      161,
+      176
+    ],
+    "map,": [
+      34
+    ],
+    "where": [
+      35
+    ],
+    "energy": [
+      37
+    ],
+    "each": [
+      39
+    ],
+    "point": [
+      41
+    ],
+    "3D": [
+      44
+    ],
+    "map": [
+      45,
+      77,
+      106,
+      127,
+      178
+    ],
+    "indicates": [
+      46
+    ],
+    "probability": [
+      48
+    ],
+    "correct": [
+      51
+    ],
+    "registration.": [
+      52,
+      187
+    ],
+    "We": [
+      53,
+      97,
+      164
+    ],
+    "have": [
+      54
+    ],
+    "adopted": [
+      55
+    ],
+    "new": [
+      57
+    ],
+    "obtain": [
+      60
+    ],
+    "high-resolution": [
+      62,
+      100,
+      175
+    ],
+    "spectrum,": [
+      65
+    ],
+    "which": [
+      66,
+      153
+    ],
+    "can": [
+      67
+    ],
+    "help": [
+      68
+    ],
+    "with": [
+      69
+    ],
+    "manual": [
+      70
+    ],
+    "and": [
+      71,
+      85,
+      94,
+      140,
+      179,
+      190
+    ],
+    "automatic": [
+      72
+    ],
+    "picking.": [
+      73
+    ],
+    "The": [
+      74,
+      119
+    ],
+    "scan": [
+      76,
+      105,
+      126,
+      162,
+      177
+    ],
+    "obtained": [
+      79
+    ],
+    "trying": [
+      81
+    ],
+    "different": [
+      82
+    ],
+    "local": [
+      83,
+      88,
+      116,
+      138
+    ],
+    "shifts": [
+      84
+    ],
+    "calculating": [
+      86
+    ],
+    "similarity": [
+      89,
+      117
+    ],
+    "attributes": [
+      90
+    ],
+    "between": [
+      91
+    ],
+    "shifted": [
+      93
+    ],
+    "reference": [
+      95
+    ],
+    "images.": [
+      96
+    ],
+    "adopt": [
+      98
+    ],
+    "calculation": [
+      101
+    ],
+    "applying": [
+      108
+    ],
+    "nonstationary": [
+      110,
+      120
+    ],
+    "model": [
+      111,
+      121
+    ],
+    "constraint": [
+      112,
+      122
+    ],
+    "solving": [
+      114
+    ],
+    "attributes.": [
+      118
+    ],
+    "ensures": [
+      123
+    ],
+    "be": [
+      129
+    ],
+    "smooth": [
+      130
+    ],
+    "all": [
+      132
+    ],
+    "physical": [
+      133
+    ],
+    "dimensions,": [
+      134
+    ],
+    "example,": [
+      136
+    ],
+    "time,": [
+      137
+    ],
+    "shift,": [
+      139
+    ],
+    "space.": [
+      141
+    ],
+    "In": [
+      142
+    ],
+    "addition,": [
+      143
+    ],
+    "it": [
+      144
+    ],
+    "permits": [
+      145
+    ],
+    "variable": [
+      146
+    ],
+    "smoothing": [
+      147
+    ],
+    "strength": [
+      148
+    ],
+    "across": [
+      149
+    ],
+    "whole": [
+      151
+    ],
+    "volume,": [
+      152
+    ],
+    "enables": [
+      154
+    ],
+    "high": [
+      156
+    ],
+    "resolution": [
+      157
+    ],
+    "calculated": [
+      160
+    ],
+    "map.": [
+      163
+    ],
+    "use": [
+      165
+    ],
+    "an": [
+      166
+    ],
+    "automatic-picking": [
+      167
+    ],
+    "algorithm": [
+      168
+    ],
+    "demonstrate": [
+      170
+    ],
+    "accuracy": [
+      172
+    ],
+    "its": [
+      180
+    ],
+    "positive": [
+      181
+    ],
+    "influence": [
+      182
+    ],
+    "on": [
+      183
+    ],
+    "Synthetic": [
+      188
+    ],
+    "(2D)": [
+      189
+    ],
+    "real": [
+      191
+    ],
+    "(3D)": [
+      192
+    ],
+    "are": [
+      196
+    ],
+    "demonstrating": [
+      199
+    ],
+    "better": [
+      201
+    ],
+    "performance": [
+      203
+    ],
+    "proposed": [
+      206
+    ],
+    "method.": [
+      207
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-05-21T06:26:12.895304",
+  "created_date": "2025-10-10T00:00:00"
+}

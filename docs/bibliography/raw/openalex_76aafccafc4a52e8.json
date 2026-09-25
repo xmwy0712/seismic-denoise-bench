@@ -1,0 +1,776 @@
+{
+  "id": "https://openalex.org/W4243353698",
+  "doi": "https://doi.org/10.1002/9781119052913.ch1",
+  "title": "Study on Method for Relative Fidelity Preservation of Seismic Data",
+  "display_name": "Study on Method for Relative Fidelity Preservation of Seismic Data",
+  "publication_year": 2017,
+  "publication_date": "2017-03-04",
+  "ids": {
+    "openalex": "https://openalex.org/W4243353698",
+    "doi": "https://doi.org/10.1002/9781119052913.ch1"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1002/9781119052913.ch1",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1002/9781119052913.ch1",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Relative Fidelity Processing of Seismic Data",
+    "raw_type": "other"
+  },
+  "type": "other",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5100634071",
+        "display_name": "Xiwen Wang",
+        "orcid": "https://orcid.org/0000-0001-6943-2686"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210129425",
+          "display_name": "Lanzhou Petrochemical Polytechnic",
+          "ror": "https://ror.org/03pkj2z67",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210129425"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Xiwen Wang",
+      "raw_affiliation_strings": [
+        "Petrochina, Lanzhou, Gansu, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Petrochina, Lanzhou, Gansu, China",
+          "institution_ids": [
+            "https://openalex.org/I4210129425"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5100634071"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210129425"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "1",
+    "last_page": "35"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11801",
+      "display_name": "Reservoir Engineering and Simulation Methods",
+      "score": 0.9986000061035156,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/high-fidelity",
+      "display_name": "High fidelity",
+      "score": 0.6697093844413757
+    },
+    {
+      "id": "https://openalex.org/keywords/deconvolution",
+      "display_name": "Deconvolution",
+      "score": 0.6680507063865662
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-inversion",
+      "display_name": "Seismic inversion",
+      "score": 0.5863223075866699
+    },
+    {
+      "id": "https://openalex.org/keywords/fidelity",
+      "display_name": "Fidelity",
+      "score": 0.5750874876976013
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.5531672835350037
+    },
+    {
+      "id": "https://openalex.org/keywords/bandwidth",
+      "display_name": "Bandwidth (computing)",
+      "score": 0.5209439992904663
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.45947638154029846
+    },
+    {
+      "id": "https://openalex.org/keywords/vertical-seismic-profile",
+      "display_name": "Vertical seismic profile",
+      "score": 0.45149916410446167
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-survey",
+      "display_name": "Seismic survey",
+      "score": 0.44515734910964966
+    },
+    {
+      "id": "https://openalex.org/keywords/data-processing",
+      "display_name": "Data processing",
+      "score": 0.4241105616092682
+    },
+    {
+      "id": "https://openalex.org/keywords/remote-sensing",
+      "display_name": "Remote sensing",
+      "score": 0.33442091941833496
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.26239141821861267
+    },
+    {
+      "id": "https://openalex.org/keywords/acoustics",
+      "display_name": "Acoustics",
+      "score": 0.2316717803478241
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.13230305910110474
+    },
+    {
+      "id": "https://openalex.org/keywords/telecommunications",
+      "display_name": "Telecommunications",
+      "score": 0.12384364008903503
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.12010422348976135
+    },
+    {
+      "id": "https://openalex.org/keywords/database",
+      "display_name": "Database",
+      "score": 0.09640908241271973
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C113364801",
+      "wikidata": "https://www.wikidata.org/wiki/Q26674",
+      "display_name": "High fidelity",
+      "level": 2,
+      "score": 0.6697093844413757
+    },
+    {
+      "id": "https://openalex.org/C174576160",
+      "wikidata": "https://www.wikidata.org/wiki/Q1183700",
+      "display_name": "Deconvolution",
+      "level": 2,
+      "score": 0.6680507063865662
+    },
+    {
+      "id": "https://openalex.org/C39267094",
+      "wikidata": "https://www.wikidata.org/wiki/Q7446968",
+      "display_name": "Seismic inversion",
+      "level": 3,
+      "score": 0.5863223075866699
+    },
+    {
+      "id": "https://openalex.org/C2776459999",
+      "wikidata": "https://www.wikidata.org/wiki/Q2119376",
+      "display_name": "Fidelity",
+      "level": 2,
+      "score": 0.5750874876976013
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.5531672835350037
+    },
+    {
+      "id": "https://openalex.org/C2776257435",
+      "wikidata": "https://www.wikidata.org/wiki/Q1576430",
+      "display_name": "Bandwidth (computing)",
+      "level": 2,
+      "score": 0.5209439992904663
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.45947638154029846
+    },
+    {
+      "id": "https://openalex.org/C89787772",
+      "wikidata": "https://www.wikidata.org/wiki/Q7922855",
+      "display_name": "Vertical seismic profile",
+      "level": 2,
+      "score": 0.45149916410446167
+    },
+    {
+      "id": "https://openalex.org/C2994066282",
+      "wikidata": "https://www.wikidata.org/wiki/Q1500431",
+      "display_name": "Seismic survey",
+      "level": 2,
+      "score": 0.44515734910964966
+    },
+    {
+      "id": "https://openalex.org/C138827492",
+      "wikidata": "https://www.wikidata.org/wiki/Q6661985",
+      "display_name": "Data processing",
+      "level": 2,
+      "score": 0.4241105616092682
+    },
+    {
+      "id": "https://openalex.org/C62649853",
+      "wikidata": "https://www.wikidata.org/wiki/Q199687",
+      "display_name": "Remote sensing",
+      "level": 1,
+      "score": 0.33442091941833496
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.26239141821861267
+    },
+    {
+      "id": "https://openalex.org/C24890656",
+      "wikidata": "https://www.wikidata.org/wiki/Q82811",
+      "display_name": "Acoustics",
+      "level": 1,
+      "score": 0.2316717803478241
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.13230305910110474
+    },
+    {
+      "id": "https://openalex.org/C76155785",
+      "wikidata": "https://www.wikidata.org/wiki/Q418",
+      "display_name": "Telecommunications",
+      "level": 1,
+      "score": 0.12384364008903503
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.12010422348976135
+    },
+    {
+      "id": "https://openalex.org/C77088390",
+      "wikidata": "https://www.wikidata.org/wiki/Q8513",
+      "display_name": "Database",
+      "level": 1,
+      "score": 0.09640908241271973
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C159737794",
+      "wikidata": "https://www.wikidata.org/wiki/Q124274",
+      "display_name": "Azimuth",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1002/9781119052913.ch1",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1002/9781119052913.ch1",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Relative Fidelity Processing of Seismic Data",
+      "raw_type": "other"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Climate action",
+      "score": 0.47999998927116394,
+      "id": "https://metadata.un.org/sdg/13"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 8,
+  "referenced_works": [
+    "https://openalex.org/W2158309469",
+    "https://openalex.org/W2358270846",
+    "https://openalex.org/W2361736756",
+    "https://openalex.org/W2381021003",
+    "https://openalex.org/W2382170651",
+    "https://openalex.org/W2754571087",
+    "https://openalex.org/W7018033343",
+    "https://openalex.org/W7061567637"
+  ],
+  "related_works": [
+    "https://openalex.org/W2042649162",
+    "https://openalex.org/W3091720334",
+    "https://openalex.org/W2047159184",
+    "https://openalex.org/W2050202559",
+    "https://openalex.org/W2003814941",
+    "https://openalex.org/W2383747758",
+    "https://openalex.org/W2013987383",
+    "https://openalex.org/W2564376237",
+    "https://openalex.org/W3197460002",
+    "https://openalex.org/W3166030832"
+  ],
+  "abstract_inverted_index": {
+    "On": [
+      0
+    ],
+    "seismic": [
+      1,
+      7,
+      18,
+      25,
+      49,
+      58,
+      81,
+      93,
+      143
+    ],
+    "profile,": [
+      2
+    ],
+    "the": [
+      3,
+      15,
+      31,
+      55,
+      69,
+      75,
+      80,
+      90,
+      100,
+      124,
+      133,
+      142
+    ],
+    "display": [
+      4
+    ],
+    "reliability": [
+      5
+    ],
+    "of": [
+      6,
+      17,
+      24,
+      35,
+      41,
+      48,
+      74,
+      92,
+      115
+    ],
+    "response": [
+      8
+    ],
+    "on": [
+      9,
+      46,
+      79,
+      99,
+      145
+    ],
+    "lithology": [
+      10
+    ],
+    "reservoirs": [
+      11,
+      148
+    ],
+    "is": [
+      12,
+      65
+    ],
+    "subject": [
+      13
+    ],
+    "to": [
+      14,
+      30,
+      53,
+      60,
+      67
+    ],
+    "fidelity": [
+      16,
+      21,
+      112,
+      138
+    ],
+    "processing.": [
+      19
+    ],
+    "Relative": [
+      20
+    ],
+    "preservation": [
+      22,
+      139
+    ],
+    "processing": [
+      23
+    ],
+    "data": [
+      26,
+      59,
+      101
+    ],
+    "should": [
+      27,
+      44
+    ],
+    "pay": [
+      28
+    ],
+    "attention": [
+      29
+    ],
+    "following": [
+      32
+    ],
+    "items:": [
+      33
+    ],
+    "Protection": [
+      34
+    ],
+    "effective": [
+      36,
+      42
+    ],
+    "frequency": [
+      37,
+      62,
+      73
+    ],
+    "band.": [
+      38
+    ],
+    "The": [
+      39
+    ],
+    "widening": [
+      40
+    ],
+    "band": [
+      43
+    ],
+    "rely": [
+      45
+    ],
+    "SNR": [
+      47,
+      108
+    ],
+    "data.": [
+      50
+    ],
+    "In": [
+      51
+    ],
+    "order": [
+      52
+    ],
+    "widen": [
+      54
+    ],
+    "low": [
+      56
+    ],
+    "S/N": [
+      57
+    ],
+    "high": [
+      61,
+      104,
+      107,
+      128,
+      131
+    ],
+    "band,": [
+      63
+    ],
+    "it": [
+      64
+    ],
+    "necessary": [
+      66
+    ],
+    "control": [
+      68
+    ],
+    "bandwidth": [
+      70
+    ],
+    "and": [
+      71,
+      88,
+      96,
+      106,
+      119,
+      130
+    ],
+    "dominant": [
+      72
+    ],
+    "deconvolution": [
+      76
+    ],
+    "operator.": [
+      77
+    ],
+    "Based": [
+      78
+    ],
+    "pilot": [
+      82
+    ],
+    "survey": [
+      83
+    ],
+    "line,": [
+      84
+    ],
+    "this": [
+      85
+    ],
+    "chapter": [
+      86
+    ],
+    "analyzes": [
+      87
+    ],
+    "discusses": [
+      89
+    ],
+    "effects": [
+      91
+    ],
+    "acquisition": [
+      94
+    ],
+    "source": [
+      95
+    ],
+    "observation": [
+      97
+    ],
+    "means": [
+      98
+    ],
+    "processed": [
+      102,
+      126,
+      135
+    ],
+    "by": [
+      103,
+      110,
+      127,
+      136
+    ],
+    "resolution": [
+      105,
+      129
+    ],
+    "or": [
+      109
+    ],
+    "relative": [
+      111,
+      137
+    ],
+    "in": [
+      113
+    ],
+    "terms": [
+      114
+    ],
+    "profile": [
+      116,
+      125,
+      134
+    ],
+    "reflection": [
+      117
+    ],
+    "features": [
+      118
+    ],
+    "spectrum": [
+      120
+    ],
+    "features.": [
+      121
+    ],
+    "Compared": [
+      122
+    ],
+    "with": [
+      123
+    ],
+    "SNR,": [
+      132
+    ],
+    "could": [
+      140
+    ],
+    "reflect": [
+      141
+    ],
+    "effect": [
+      144
+    ],
+    "subsurface": [
+      146
+    ],
+    "sand": [
+      147
+    ],
+    "quite": [
+      149
+    ],
+    "genuinely.": [
+      150
+    ]
+  },
+  "counts_by_year": [],
+  "updated_date": "2025-11-06T03:46:38.306776",
+  "created_date": "2022-05-12T00:00:00"
+}

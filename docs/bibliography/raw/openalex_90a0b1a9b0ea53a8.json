@@ -1,0 +1,773 @@
+{
+  "id": "https://openalex.org/W2006604384",
+  "doi": "https://doi.org/10.1111/j.1365-2478.1962.tb02016.x",
+  "title": "REFLECTION AND TRANSMISSION COEFFICIENTS FOR PLANE LONGITUDINAL INCIDENT WAVES",
+  "display_name": "REFLECTION AND TRANSMISSION COEFFICIENTS FOR PLANE LONGITUDINAL INCIDENT WAVES",
+  "publication_year": 1962,
+  "publication_date": "1962-09-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2006604384",
+    "doi": "https://doi.org/10.1111/j.1365-2478.1962.tb02016.x",
+    "mag": "2006604384"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1111/j.1365-2478.1962.tb02016.x",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1111/j.1365-2478.1962.tb02016.x",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S45030768",
+      "display_name": "Geophysical Prospecting",
+      "issn_l": "0016-8025",
+      "issn": [
+        "0016-8025",
+        "1365-2478"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysical Prospecting",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5020182915",
+        "display_name": "O. Koefoed",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210150103",
+          "display_name": "Geophysical Laboratory",
+          "ror": "https://ror.org/05qyye271",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I196817621",
+            "https://openalex.org/I4210150103",
+            "https://openalex.org/I4387155102"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "O. KOEFOED",
+      "raw_affiliation_strings": [
+        "Geophysical Laboratory of the Technological University at Delft, Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Geophysical Laboratory of the Technological University at Delft, Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I4210150103"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5020182915"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210150103"
+  ],
+  "apc_list": {
+    "value": 4150,
+    "currency": "USD",
+    "value_usd": 4150
+  },
+  "apc_paid": null,
+  "fwci": 2.5487,
+  "has_fulltext": false,
+  "cited_by_count": 58,
+  "citation_normalized_percentile": {
+    "value": 0.88571429,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "10",
+    "issue": "3",
+    "first_page": "304",
+    "last_page": "351"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10662",
+    "display_name": "Ultrasonics and Acoustic Wave Propagation",
+    "score": 0.9904000163078308,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2211",
+      "display_name": "Mechanics of Materials"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10662",
+      "display_name": "Ultrasonics and Acoustic Wave Propagation",
+      "score": 0.9904000163078308,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11609",
+      "display_name": "Geophysical Methods and Applications",
+      "score": 0.9276999831199646,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13493",
+      "display_name": "Optical and Acousto-Optic Technologies",
+      "score": 0.9003000259399414,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3107",
+        "display_name": "Atomic and Molecular Physics, and Optics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/31",
+        "display_name": "Physics and Astronomy"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/plane-of-incidence",
+      "display_name": "Plane of incidence",
+      "score": 0.8022774457931519
+    },
+    {
+      "id": "https://openalex.org/keywords/reflection",
+      "display_name": "Reflection (computer programming)",
+      "score": 0.7840878963470459
+    },
+    {
+      "id": "https://openalex.org/keywords/reflection-coefficient",
+      "display_name": "Reflection coefficient",
+      "score": 0.7241696119308472
+    },
+    {
+      "id": "https://openalex.org/keywords/transmission-coefficient",
+      "display_name": "Transmission coefficient",
+      "score": 0.6924492716789246
+    },
+    {
+      "id": "https://openalex.org/keywords/angle-of-incidence",
+      "display_name": "Angle of incidence (optics)",
+      "score": 0.6481099128723145
+    },
+    {
+      "id": "https://openalex.org/keywords/plane-wave",
+      "display_name": "Plane wave",
+      "score": 0.6442239880561829
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.6402928233146667
+    },
+    {
+      "id": "https://openalex.org/keywords/transmission",
+      "display_name": "Transmission (telecommunications)",
+      "score": 0.6391661167144775
+    },
+    {
+      "id": "https://openalex.org/keywords/incidence",
+      "display_name": "Incidence (geometry)",
+      "score": 0.5759700536727905
+    },
+    {
+      "id": "https://openalex.org/keywords/plane",
+      "display_name": "Plane (geometry)",
+      "score": 0.573161244392395
+    },
+    {
+      "id": "https://openalex.org/keywords/phase",
+      "display_name": "Phase (matter)",
+      "score": 0.49601706862449646
+    },
+    {
+      "id": "https://openalex.org/keywords/total-internal-reflection",
+      "display_name": "Total internal reflection",
+      "score": 0.47483211755752563
+    },
+    {
+      "id": "https://openalex.org/keywords/boundary-value-problem",
+      "display_name": "Boundary value problem",
+      "score": 0.41417741775512695
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.41345149278640747
+    },
+    {
+      "id": "https://openalex.org/keywords/geometry",
+      "display_name": "Geometry",
+      "score": 0.2021443247795105
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.17925187945365906
+    },
+    {
+      "id": "https://openalex.org/keywords/telecommunications",
+      "display_name": "Telecommunications",
+      "score": 0.09140464663505554
+    },
+    {
+      "id": "https://openalex.org/keywords/engineering",
+      "display_name": "Engineering",
+      "score": 0.07504838705062866
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.06752169132232666
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C57616465",
+      "wikidata": "https://www.wikidata.org/wiki/Q1307244",
+      "display_name": "Plane of incidence",
+      "level": 3,
+      "score": 0.8022774457931519
+    },
+    {
+      "id": "https://openalex.org/C65682993",
+      "wikidata": "https://www.wikidata.org/wiki/Q1056451",
+      "display_name": "Reflection (computer programming)",
+      "level": 2,
+      "score": 0.7840878963470459
+    },
+    {
+      "id": "https://openalex.org/C41700454",
+      "wikidata": "https://www.wikidata.org/wiki/Q1852282",
+      "display_name": "Reflection coefficient",
+      "level": 2,
+      "score": 0.7241696119308472
+    },
+    {
+      "id": "https://openalex.org/C55310301",
+      "wikidata": "https://www.wikidata.org/wiki/Q75384",
+      "display_name": "Transmission coefficient",
+      "level": 3,
+      "score": 0.6924492716789246
+    },
+    {
+      "id": "https://openalex.org/C2779116783",
+      "wikidata": "https://www.wikidata.org/wiki/Q1196575",
+      "display_name": "Angle of incidence (optics)",
+      "level": 2,
+      "score": 0.6481099128723145
+    },
+    {
+      "id": "https://openalex.org/C40308292",
+      "wikidata": "https://www.wikidata.org/wiki/Q122518",
+      "display_name": "Plane wave",
+      "level": 2,
+      "score": 0.6442239880561829
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.6402928233146667
+    },
+    {
+      "id": "https://openalex.org/C761482",
+      "wikidata": "https://www.wikidata.org/wiki/Q118093",
+      "display_name": "Transmission (telecommunications)",
+      "level": 2,
+      "score": 0.6391661167144775
+    },
+    {
+      "id": "https://openalex.org/C61511704",
+      "wikidata": "https://www.wikidata.org/wiki/Q1671857",
+      "display_name": "Incidence (geometry)",
+      "level": 2,
+      "score": 0.5759700536727905
+    },
+    {
+      "id": "https://openalex.org/C17825722",
+      "wikidata": "https://www.wikidata.org/wiki/Q17285",
+      "display_name": "Plane (geometry)",
+      "level": 2,
+      "score": 0.573161244392395
+    },
+    {
+      "id": "https://openalex.org/C44280652",
+      "wikidata": "https://www.wikidata.org/wiki/Q104837",
+      "display_name": "Phase (matter)",
+      "level": 2,
+      "score": 0.49601706862449646
+    },
+    {
+      "id": "https://openalex.org/C170395517",
+      "wikidata": "https://www.wikidata.org/wiki/Q234943",
+      "display_name": "Total internal reflection",
+      "level": 2,
+      "score": 0.47483211755752563
+    },
+    {
+      "id": "https://openalex.org/C182310444",
+      "wikidata": "https://www.wikidata.org/wiki/Q1332643",
+      "display_name": "Boundary value problem",
+      "level": 2,
+      "score": 0.41417741775512695
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.41345149278640747
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.2021443247795105
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.17925187945365906
+    },
+    {
+      "id": "https://openalex.org/C76155785",
+      "wikidata": "https://www.wikidata.org/wiki/Q418",
+      "display_name": "Telecommunications",
+      "level": 1,
+      "score": 0.09140464663505554
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.07504838705062866
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.06752169132232666
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1111/j.1365-2478.1962.tb02016.x",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1111/j.1365-2478.1962.tb02016.x",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S45030768",
+        "display_name": "Geophysical Prospecting",
+        "issn_l": "0016-8025",
+        "issn": [
+          "0016-8025",
+          "1365-2478"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysical Prospecting",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 4,
+  "referenced_works": [
+    "https://openalex.org/W2054299903",
+    "https://openalex.org/W2065793291",
+    "https://openalex.org/W2164498777",
+    "https://openalex.org/W4238034646"
+  ],
+  "related_works": [
+    "https://openalex.org/W2358841186",
+    "https://openalex.org/W2332046176",
+    "https://openalex.org/W2006604384",
+    "https://openalex.org/W181463349",
+    "https://openalex.org/W1874437504",
+    "https://openalex.org/W2045389934",
+    "https://openalex.org/W2015184375",
+    "https://openalex.org/W2062328142",
+    "https://openalex.org/W2060340922",
+    "https://openalex.org/W2039621596"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "Tables": [
+      1
+    ],
+    "are": [
+      2
+    ],
+    "presented": [
+      3
+    ],
+    "giving": [
+      4
+    ],
+    "the": [
+      5,
+      10,
+      16,
+      36,
+      40,
+      43,
+      52,
+      55,
+      61,
+      70,
+      73,
+      77,
+      81
+    ],
+    "two": [
+      6,
+      11,
+      28,
+      44
+    ],
+    "reflection": [
+      7,
+      56
+    ],
+    "coefficients": [
+      8,
+      13
+    ],
+    "and": [
+      9,
+      39,
+      80
+    ],
+    "transmission": [
+      12,
+      58
+    ],
+    "resulting": [
+      14
+    ],
+    "from": [
+      15
+    ],
+    "incidence": [
+      17,
+      64,
+      68
+    ],
+    "of": [
+      18,
+      35,
+      42,
+      48,
+      54,
+      63
+    ],
+    "a": [
+      19,
+      24
+    ],
+    "plane": [
+      20,
+      25
+    ],
+    "longitudinal": [
+      21
+    ],
+    "wave": [
+      22,
+      79,
+      85
+    ],
+    "upon": [
+      23,
+      51
+    ],
+    "boundary": [
+      26
+    ],
+    "between": [
+      27,
+      76
+    ],
+    "elastic": [
+      29,
+      37
+    ],
+    "media,": [
+      30
+    ],
+    "for": [
+      31
+    ],
+    "hundred": [
+      32
+    ],
+    "different": [
+      33
+    ],
+    "combinations": [
+      34
+    ],
+    "parameters": [
+      38,
+      50
+    ],
+    "density": [
+      41
+    ],
+    "media.": [
+      45
+    ],
+    "The": [
+      46
+    ],
+    "effect": [
+      47
+    ],
+    "these": [
+      49
+    ],
+    "change": [
+      53
+    ],
+    "or": [
+      57,
+      83
+    ],
+    "coefficient": [
+      59
+    ],
+    "with": [
+      60
+    ],
+    "angle": [
+      62,
+      72
+    ],
+    "is": [
+      65,
+      86
+    ],
+    "discussed.": [
+      66
+    ],
+    "For": [
+      67
+    ],
+    "beyond": [
+      69
+    ],
+    "critical": [
+      71
+    ],
+    "phase": [
+      74
+    ],
+    "shift": [
+      75
+    ],
+    "incident": [
+      78
+    ],
+    "reflected": [
+      82
+    ],
+    "transmitted": [
+      84
+    ],
+    "also": [
+      87
+    ],
+    "given.": [
+      88
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-21T07:43:02.447757",
+  "created_date": "2025-10-10T00:00:00"
+}

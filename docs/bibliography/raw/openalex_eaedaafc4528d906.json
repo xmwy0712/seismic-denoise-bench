@@ -1,0 +1,1142 @@
+{
+  "id": "https://openalex.org/W1989243075",
+  "doi": "https://doi.org/10.1037/1082-989x.2.3.292",
+  "title": "On the meaning and use of kurtosis.",
+  "display_name": "On the meaning and use of kurtosis.",
+  "publication_year": 1997,
+  "publication_date": "1997-09-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1989243075",
+    "doi": "https://doi.org/10.1037/1082-989x.2.3.292",
+    "mag": "1989243075"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1037/1082-989x.2.3.292",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1037/1082-989x.2.3.292",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S45419345",
+      "display_name": "Psychological Methods",
+      "issn_l": "1082-989X",
+      "issn": [
+        "1082-989X",
+        "1939-1463"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "abdc-b",
+        "cwts-core",
+        "erih-plus",
+        "jufo-3",
+        "ki-jl-2",
+        "medline",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310320262",
+      "host_organization_name": "American Psychological Association",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320262"
+      ],
+      "host_organization_lineage_names": [
+        "American Psychological Association"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Psychological Methods",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5073752501",
+        "display_name": "Lawrence T. DeCarlo",
+        "orcid": "https://orcid.org/0000-0001-9510-0212",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-9510-0212"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I164389053",
+          "display_name": "Fordham University",
+          "ror": "https://ror.org/03qnxaf80",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I164389053"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Lawrence T. DeCarlo",
+      "raw_affiliation_strings": [
+        "Fordham U, Dept of Psychology, Bronx, NY, US"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Fordham U, Dept of Psychology, Bronx, NY, US",
+          "institution_ids": [
+            "https://openalex.org/I164389053"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5073752501"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I164389053"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 3.5043,
+  "has_fulltext": false,
+  "cited_by_count": 1554,
+  "citation_normalized_percentile": {
+    "value": 0.93759098,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "2",
+    "issue": "3",
+    "first_page": "292",
+    "last_page": "307"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11871",
+    "display_name": "Advanced Statistical Methods and Models",
+    "score": 0.9972000122070312,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2613",
+      "display_name": "Statistics and Probability"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/26",
+      "display_name": "Mathematics"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11871",
+      "display_name": "Advanced Statistical Methods and Models",
+      "score": 0.9972000122070312,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10968",
+      "display_name": "Statistical Distribution Estimation and Applications",
+      "score": 0.9836000204086304,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10243",
+      "display_name": "Statistical Methods and Bayesian Inference",
+      "score": 0.9632999897003174,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2613",
+        "display_name": "Statistics and Probability"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/kurtosis",
+      "display_name": "Kurtosis",
+      "score": 0.9783258438110352
+    },
+    {
+      "id": "https://openalex.org/keywords/outlier",
+      "display_name": "Outlier",
+      "score": 0.6518915295600891
+    },
+    {
+      "id": "https://openalex.org/keywords/normality",
+      "display_name": "Normality",
+      "score": 0.5958161950111389
+    },
+    {
+      "id": "https://openalex.org/keywords/statistics",
+      "display_name": "Statistics",
+      "score": 0.581216037273407
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.5636113286018372
+    },
+    {
+      "id": "https://openalex.org/keywords/econometrics",
+      "display_name": "Econometrics",
+      "score": 0.5331681966781616
+    },
+    {
+      "id": "https://openalex.org/keywords/estimator",
+      "display_name": "Estimator",
+      "score": 0.5012028217315674
+    },
+    {
+      "id": "https://openalex.org/keywords/univariate",
+      "display_name": "Univariate",
+      "score": 0.478645920753479
+    },
+    {
+      "id": "https://openalex.org/keywords/bimodality",
+      "display_name": "Bimodality",
+      "score": 0.46314239501953125
+    },
+    {
+      "id": "https://openalex.org/keywords/multivariate-statistics",
+      "display_name": "Multivariate statistics",
+      "score": 0.34140580892562866
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.0650007426738739
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C166963901",
+      "wikidata": "https://www.wikidata.org/wiki/Q287251",
+      "display_name": "Kurtosis",
+      "level": 2,
+      "score": 0.9783258438110352
+    },
+    {
+      "id": "https://openalex.org/C79337645",
+      "wikidata": "https://www.wikidata.org/wiki/Q779824",
+      "display_name": "Outlier",
+      "level": 2,
+      "score": 0.6518915295600891
+    },
+    {
+      "id": "https://openalex.org/C2776157432",
+      "wikidata": "https://www.wikidata.org/wiki/Q1375683",
+      "display_name": "Normality",
+      "level": 2,
+      "score": 0.5958161950111389
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.581216037273407
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.5636113286018372
+    },
+    {
+      "id": "https://openalex.org/C149782125",
+      "wikidata": "https://www.wikidata.org/wiki/Q160039",
+      "display_name": "Econometrics",
+      "level": 1,
+      "score": 0.5331681966781616
+    },
+    {
+      "id": "https://openalex.org/C185429906",
+      "wikidata": "https://www.wikidata.org/wiki/Q1130160",
+      "display_name": "Estimator",
+      "level": 2,
+      "score": 0.5012028217315674
+    },
+    {
+      "id": "https://openalex.org/C199163554",
+      "wikidata": "https://www.wikidata.org/wiki/Q1681619",
+      "display_name": "Univariate",
+      "level": 3,
+      "score": 0.478645920753479
+    },
+    {
+      "id": "https://openalex.org/C2779287300",
+      "wikidata": "https://www.wikidata.org/wiki/Q4913752",
+      "display_name": "Bimodality",
+      "level": 3,
+      "score": 0.46314239501953125
+    },
+    {
+      "id": "https://openalex.org/C161584116",
+      "wikidata": "https://www.wikidata.org/wiki/Q1952580",
+      "display_name": "Multivariate statistics",
+      "level": 2,
+      "score": 0.34140580892562866
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0650007426738739
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C98444146",
+      "wikidata": "https://www.wikidata.org/wiki/Q318",
+      "display_name": "Galaxy",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1037/1082-989x.2.3.292",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1037/1082-989x.2.3.292",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S45419345",
+        "display_name": "Psychological Methods",
+        "issn_l": "1082-989X",
+        "issn": [
+          "1082-989X",
+          "1939-1463"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "abdc-b",
+          "cwts-core",
+          "erih-plus",
+          "jufo-3",
+          "ki-jl-2",
+          "medline",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310320262",
+        "host_organization_name": "American Psychological Association",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320262"
+        ],
+        "host_organization_lineage_names": [
+          "American Psychological Association"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Psychological Methods",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:CiteSeerX.psu:10.1.1.454.9547",
+      "is_oa": false,
+      "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.454.9547",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "http://www.finanzaonline.com/forum/attachments/econometria-e-modelli-di-trading-operativo/1715190d1362129683-gruppo-sviluppatori-starca-psymeth97.pdf",
+      "raw_type": "text"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 70,
+  "referenced_works": [
+    "https://openalex.org/W67460294",
+    "https://openalex.org/W112198602",
+    "https://openalex.org/W165229505",
+    "https://openalex.org/W579069022",
+    "https://openalex.org/W582130014",
+    "https://openalex.org/W610242616",
+    "https://openalex.org/W1484864026",
+    "https://openalex.org/W1493250243",
+    "https://openalex.org/W1495953444",
+    "https://openalex.org/W1533179050",
+    "https://openalex.org/W1562811233",
+    "https://openalex.org/W1576726980",
+    "https://openalex.org/W1967665053",
+    "https://openalex.org/W1970655212",
+    "https://openalex.org/W1973598149",
+    "https://openalex.org/W1975107026",
+    "https://openalex.org/W1975656122",
+    "https://openalex.org/W1979593580",
+    "https://openalex.org/W1991486189",
+    "https://openalex.org/W1991567646",
+    "https://openalex.org/W1994521026",
+    "https://openalex.org/W1998259064",
+    "https://openalex.org/W1998435329",
+    "https://openalex.org/W2000031724",
+    "https://openalex.org/W2001994691",
+    "https://openalex.org/W2007683785",
+    "https://openalex.org/W2014944622",
+    "https://openalex.org/W2024607896",
+    "https://openalex.org/W2029500188",
+    "https://openalex.org/W2031479792",
+    "https://openalex.org/W2034826691",
+    "https://openalex.org/W2036899071",
+    "https://openalex.org/W2037033504",
+    "https://openalex.org/W2048489440",
+    "https://openalex.org/W2048630522",
+    "https://openalex.org/W2056004454",
+    "https://openalex.org/W2056434135",
+    "https://openalex.org/W2059334100",
+    "https://openalex.org/W2063730763",
+    "https://openalex.org/W2064669092",
+    "https://openalex.org/W2068648681",
+    "https://openalex.org/W2083482646",
+    "https://openalex.org/W2084719311",
+    "https://openalex.org/W2085067988",
+    "https://openalex.org/W2091406001",
+    "https://openalex.org/W2095534911",
+    "https://openalex.org/W2101804891",
+    "https://openalex.org/W2111669400",
+    "https://openalex.org/W2112440119",
+    "https://openalex.org/W2113158184",
+    "https://openalex.org/W2125334673",
+    "https://openalex.org/W2131070718",
+    "https://openalex.org/W2141759354",
+    "https://openalex.org/W2153635621",
+    "https://openalex.org/W2154106727",
+    "https://openalex.org/W2157095832",
+    "https://openalex.org/W2164085284",
+    "https://openalex.org/W2171074977",
+    "https://openalex.org/W2315710460",
+    "https://openalex.org/W2329006506",
+    "https://openalex.org/W2331052961",
+    "https://openalex.org/W2342340717",
+    "https://openalex.org/W2467213207",
+    "https://openalex.org/W2764433274",
+    "https://openalex.org/W2802703821",
+    "https://openalex.org/W2803461325",
+    "https://openalex.org/W2903825987",
+    "https://openalex.org/W2912234649",
+    "https://openalex.org/W3021544465",
+    "https://openalex.org/W3217457548"
+  ],
+  "related_works": [
+    "https://openalex.org/W2085739372",
+    "https://openalex.org/W2538623560",
+    "https://openalex.org/W3170604491",
+    "https://openalex.org/W2304889509",
+    "https://openalex.org/W2036658304",
+    "https://openalex.org/W3125396235",
+    "https://openalex.org/W1975656122",
+    "https://openalex.org/W2170162231",
+    "https://openalex.org/W2000145235",
+    "https://openalex.org/W2055125872"
+  ],
+  "abstract_inverted_index": {
+    "For": [
+      0
+    ],
+    "symmetric": [
+      1
+    ],
+    "unimodal": [
+      2
+    ],
+    "distributions,": [
+      3,
+      42
+    ],
+    "positive": [
+      4
+    ],
+    "kurtosis": [
+      5,
+      18,
+      30,
+      37,
+      56,
+      91,
+      182,
+      192,
+      214
+    ],
+    "indicates": [
+      6,
+      19
+    ],
+    "heavy": [
+      7
+    ],
+    "tails": [
+      8,
+      21
+    ],
+    "and": [
+      9,
+      22,
+      43,
+      60,
+      75,
+      80,
+      87,
+      116,
+      126,
+      187,
+      215,
+      219
+    ],
+    "peakedness": [
+      10
+    ],
+    "relative": [
+      11
+    ],
+    "to": [
+      12,
+      89,
+      209,
+      216
+    ],
+    "the": [
+      13,
+      90,
+      130,
+      165,
+      189,
+      211,
+      225,
+      237,
+      243
+    ],
+    "normal": [
+      14
+    ],
+    "distribution,": [
+      15
+    ],
+    "whereas": [
+      16
+    ],
+    "negative": [
+      17
+    ],
+    "light": [
+      20
+    ],
+    "flatness.": [
+      23
+    ],
+    "Many": [
+      24
+    ],
+    "textbooks,": [
+      25
+    ],
+    "however,": [
+      26
+    ],
+    "describe": [
+      27
+    ],
+    "or": [
+      28,
+      32,
+      150
+    ],
+    "illustrate": [
+      29
+    ],
+    "incompletely": [
+      31
+    ],
+    "incorrectly.": [
+      33
+    ],
+    "In": [
+      34
+    ],
+    "this": [
+      35,
+      206
+    ],
+    "article,": [
+      36
+    ],
+    "is": [
+      38,
+      97,
+      138,
+      140,
+      147,
+      154,
+      183,
+      199,
+      208,
+      222
+    ],
+    "illustrated": [
+      39,
+      151
+    ],
+    "with": [
+      40
+    ],
+    "well-known": [
+      41
+    ],
+    "aspects": [
+      44,
+      195
+    ],
+    "of": [
+      45,
+      55,
+      66,
+      72,
+      86,
+      112,
+      135,
+      164,
+      175,
+      191,
+      196,
+      205,
+      213
+    ],
+    "its": [
+      46
+    ],
+    "interpretation": [
+      47
+    ],
+    "a": [
+      48,
+      64,
+      173
+    ],
+    "d": [
+      49
+    ],
+    "misinterpretation": [
+      50
+    ],
+    "are": [
+      51,
+      94
+    ],
+    "discussed.": [
+      52,
+      95
+    ],
+    "The": [
+      53,
+      203
+    ],
+    "role": [
+      54,
+      190
+    ],
+    "in": [
+      57,
+      70,
+      77,
+      101,
+      110,
+      159,
+      162,
+      193
+    ],
+    "testing": [
+      58
+    ],
+    "univariate": [
+      59
+    ],
+    "multivariate": [
+      61
+    ],
+    "normality;": [
+      62,
+      69
+    ],
+    "as": [
+      63,
+      82,
+      84,
+      236
+    ],
+    "measure": [
+      65,
+      92,
+      174
+    ],
+    "departures": [
+      67
+    ],
+    "from": [
+      68
+    ],
+    "issues": [
+      71
+    ],
+    "robustness,": [
+      73
+    ],
+    "outliers,": [
+      74
+    ],
+    "bimodality;": [
+      76
+    ],
+    "generalized": [
+      78
+    ],
+    "tests": [
+      79
+    ],
+    "estimators,": [
+      81
+    ],
+    "well": [
+      83,
+      185
+    ],
+    "limitations": [
+      85
+    ],
+    "alternatives": [
+      88
+    ],
+    "[32,": [
+      93
+    ],
+    "It": [
+      96
+    ],
+    "typical": [
+      98
+    ],
+    "ly": [
+      99
+    ],
+    "noted": [
+      100
+    ],
+    "introductory": [
+      102
+    ],
+    "statistics": [
+      103
+    ],
+    "courses": [
+      104
+    ],
+    "that": [
+      105,
+      167
+    ],
+    "distributions": [
+      106
+    ],
+    "can": [
+      107,
+      232
+    ],
+    "be": [
+      108,
+      233
+    ],
+    "characterized": [
+      109
+    ],
+    "terms": [
+      111
+    ],
+    "central": [
+      113
+    ],
+    "tendency,": [
+      114
+    ],
+    "variability,": [
+      115
+    ],
+    "shape.": [
+      117
+    ],
+    "With": [
+      118
+    ],
+    "respect": [
+      119
+    ],
+    "o": [
+      120,
+      228
+    ],
+    "shape,": [
+      121,
+      136
+    ],
+    "virtually": [
+      122,
+      168
+    ],
+    "every": [
+      123,
+      169
+    ],
+    "textbook": [
+      124
+    ],
+    "defines": [
+      125
+    ],
+    "illustrates": [
+      127
+    ],
+    "kewness.": [
+      128
+    ],
+    "On": [
+      129,
+      224
+    ],
+    "other": [
+      131
+    ],
+    "hand,": [
+      132
+    ],
+    "another": [
+      133
+    ],
+    "as-pect": [
+      134
+    ],
+    "which": [
+      137
+    ],
+    "kurtosis,": [
+      139
+    ],
+    "either": [
+      141
+    ],
+    "not": [
+      142,
+      157,
+      184,
+      200
+    ],
+    "discussed": [
+      143
+    ],
+    "or,": [
+      144
+    ],
+    "worse": [
+      145
+    ],
+    "yet,": [
+      146
+    ],
+    "often": [
+      148
+    ],
+    "described": [
+      149
+    ],
+    "incor-rectly.": [
+      152
+    ],
+    "Kurtosis": [
+      153,
+      230,
+      231
+    ],
+    "also": [
+      155
+    ],
+    "frequently": [
+      156
+    ],
+    "reported": [
+      158
+    ],
+    "re-search": [
+      160
+    ],
+    "articles,": [
+      161
+    ],
+    "spite": [
+      163
+    ],
+    "fact": [
+      166
+    ],
+    "statistical": [
+      170,
+      197
+    ],
+    "package": [
+      171
+    ],
+    "provides": [
+      172
+    ],
+    "kurtosis.": [
+      176
+    ],
+    "This": [
+      177
+    ],
+    "occurs": [
+      178
+    ],
+    "most": [
+      179
+    ],
+    "likely": [
+      180
+    ],
+    "because": [
+      181,
+      188
+    ],
+    "understood": [
+      186
+    ],
+    "various": [
+      194
+    ],
+    "analysis": [
+      198
+    ],
+    "widely": [
+      201
+    ],
+    "recognized.": [
+      202
+    ],
+    "purpose": [
+      204
+    ],
+    "article": [
+      207
+    ],
+    "clarify": [
+      210
+    ],
+    "meaning": [
+      212
+    ],
+    "show": [
+      217
+    ],
+    "why": [
+      218
+    ],
+    "how": [
+      220
+    ],
+    "it": [
+      221
+    ],
+    "useful.": [
+      223
+    ],
+    "Mean": [
+      226
+    ],
+    "ing": [
+      227
+    ],
+    "f": [
+      229
+    ],
+    "formally": [
+      234
+    ],
+    "defined": [
+      235
+    ],
+    "standard-ized": [
+      238
+    ],
+    "fourth": [
+      239
+    ],
+    "population": [
+      240
+    ],
+    "moment": [
+      241
+    ],
+    "about": [
+      242
+    ],
+    "mean,": [
+      244
+    ],
+    "E": [
+      245
+    ],
+    "(X-": [
+      246
+    ],
+    "IX)4": [
+      247
+    ],
+    "IX4": [
+      248
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 60
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 66
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 62
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 88
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 97
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 117
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 88
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 93
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 79
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 94
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 135
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 101
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 104
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 74
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 63
+    }
+  ],
+  "updated_date": "2026-09-23T09:40:40.371523",
+  "created_date": "2025-10-10T00:00:00"
+}

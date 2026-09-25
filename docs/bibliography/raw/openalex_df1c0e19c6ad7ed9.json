@@ -1,0 +1,1269 @@
+{
+  "id": "https://openalex.org/W1994682283",
+  "doi": "https://doi.org/10.1088/1742-2132/10/3/035011",
+  "title": "A new stochastic inversion workflow for time-lapse data: hybrid starting model and double-difference inversion",
+  "display_name": "A new stochastic inversion workflow for time-lapse data: hybrid starting model and double-difference inversion",
+  "publication_year": 2013,
+  "publication_date": "2013-06-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1994682283",
+    "doi": "https://doi.org/10.1088/1742-2132/10/3/035011",
+    "mag": "1994682283"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1088/1742-2132/10/3/035011",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1088/1742-2132/10/3/035011",
+    "pdf_url": "https://academic.oup.com/jge/article-pdf/10/3/035011/26786247/jge13_3_035011.pdf",
+    "source": {
+      "id": "https://openalex.org/S35316464",
+      "display_name": "Journal of Geophysics and Engineering",
+      "issn_l": "1742-2132",
+      "issn": [
+        "1742-2132",
+        "1742-2140"
+      ],
+      "is_oa": false,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "jufo-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320083",
+      "host_organization_name": "IOP Publishing",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320083",
+        "https://openalex.org/P4310311669"
+      ],
+      "host_organization_lineage_names": [
+        "IOP Publishing",
+        "Institute of Physics"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Geophysics and Engineering",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "doaj"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://academic.oup.com/jge/article-pdf/10/3/035011/26786247/jge13_3_035011.pdf",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5057769863",
+        "display_name": "Yi Tao",
+        "orcid": "https://orcid.org/0000-0002-6424-8131",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-6424-8131"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I24101674",
+          "display_name": "ConocoPhillips (United States)",
+          "ror": "https://ror.org/04hadnb81",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I24101674"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yi Tao",
+      "raw_affiliation_strings": [
+        "ConocoPhillips, Houston, TX, USA",
+        "ConocoPhillips, Houston, TX, USA#TAB#"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "ConocoPhillips, Houston, TX, USA",
+          "institution_ids": [
+            "https://openalex.org/I24101674"
+          ]
+        },
+        {
+          "raw_affiliation_string": "ConocoPhillips, Houston, TX, USA#TAB#",
+          "institution_ids": [
+            "https://openalex.org/I24101674"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101681422",
+        "display_name": "Mrinal K. Sen",
+        "orcid": "https://orcid.org/0000-0002-5525-0467",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-5525-0467"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I22716965",
+          "display_name": "National Geophysical Research Institute",
+          "ror": "https://ror.org/03dy10t98",
+          "country_code": "IN",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I22716965",
+            "https://openalex.org/I2799351866",
+            "https://openalex.org/I4210134808",
+            "https://openalex.org/I66760702"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "IN",
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mrinal K Sen",
+      "raw_affiliation_strings": [
+        "Jackson School of Geosciences, The University of Texas at Austin, Austin, TX, USA",
+        "National Geophysical Research Institute, Uppal Road, Andhra Pradesh, India"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Jackson School of Geosciences, The University of Texas at Austin, Austin, TX, USA",
+          "institution_ids": [
+            "https://openalex.org/I86519309"
+          ]
+        },
+        {
+          "raw_affiliation_string": "National Geophysical Research Institute, Uppal Road, Andhra Pradesh, India",
+          "institution_ids": [
+            "https://openalex.org/I22716965"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5100421966",
+        "display_name": "Rui Zhang",
+        "orcid": "https://orcid.org/0000-0001-8424-8254",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-8424-8254"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I148283060",
+          "display_name": "Lawrence Berkeley National Laboratory",
+          "ror": "https://ror.org/02jbv0t02",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I1330989302",
+            "https://openalex.org/I148283060",
+            "https://openalex.org/I39565521"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Rui Zhang",
+      "raw_affiliation_strings": [
+        "Lawrence Berkeley National Laboratory, CA, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Lawrence Berkeley National Laboratory, CA, USA",
+          "institution_ids": [
+            "https://openalex.org/I148283060"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5052218776",
+        "display_name": "Kyle T Spikes",
+        "orcid": "https://orcid.org/0000-0002-4732-4657",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-4732-4657"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kyle T Spikes",
+      "raw_affiliation_strings": [
+        "Jackson School of Geosciences, The University of Texas at Austin, Austin, TX, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Jackson School of Geosciences, The University of Texas at Austin, Austin, TX, USA",
+          "institution_ids": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 1550,
+    "currency": "USD",
+    "value_usd": 1550
+  },
+  "apc_paid": null,
+  "fwci": 2.5438,
+  "has_fulltext": true,
+  "cited_by_count": 13,
+  "citation_normalized_percentile": {
+    "value": 0.87031167,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 88,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "10",
+    "issue": "3",
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.9991000294685364,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11801",
+      "display_name": "Reservoir Engineering and Simulation Methods",
+      "score": 0.9991000294685364,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/inversion",
+      "display_name": "Inversion (geology)",
+      "score": 0.7239264845848083
+    },
+    {
+      "id": "https://openalex.org/keywords/synthetic-data",
+      "display_name": "Synthetic data",
+      "score": 0.5449860692024231
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.5347480177879333
+    },
+    {
+      "id": "https://openalex.org/keywords/fractal",
+      "display_name": "Fractal",
+      "score": 0.528935968875885
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.4846497178077698
+    },
+    {
+      "id": "https://openalex.org/keywords/workflow",
+      "display_name": "Workflow",
+      "score": 0.4761381447315216
+    },
+    {
+      "id": "https://openalex.org/keywords/inverse-problem",
+      "display_name": "Inverse problem",
+      "score": 0.42966213822364807
+    },
+    {
+      "id": "https://openalex.org/keywords/simulated-annealing",
+      "display_name": "Simulated annealing",
+      "score": 0.4208589792251587
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.37786614894866943
+    },
+    {
+      "id": "https://openalex.org/keywords/data-mining",
+      "display_name": "Data mining",
+      "score": 0.3260054886341095
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.26497882604599
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.23038598895072937
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C1893757",
+      "wikidata": "https://www.wikidata.org/wiki/Q3653001",
+      "display_name": "Inversion (geology)",
+      "level": 3,
+      "score": 0.7239264845848083
+    },
+    {
+      "id": "https://openalex.org/C160920958",
+      "wikidata": "https://www.wikidata.org/wiki/Q7662746",
+      "display_name": "Synthetic data",
+      "level": 2,
+      "score": 0.5449860692024231
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.5347480177879333
+    },
+    {
+      "id": "https://openalex.org/C40636538",
+      "wikidata": "https://www.wikidata.org/wiki/Q81392",
+      "display_name": "Fractal",
+      "level": 2,
+      "score": 0.528935968875885
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.4846497178077698
+    },
+    {
+      "id": "https://openalex.org/C177212765",
+      "wikidata": "https://www.wikidata.org/wiki/Q627335",
+      "display_name": "Workflow",
+      "level": 2,
+      "score": 0.4761381447315216
+    },
+    {
+      "id": "https://openalex.org/C135252773",
+      "wikidata": "https://www.wikidata.org/wiki/Q1567213",
+      "display_name": "Inverse problem",
+      "level": 2,
+      "score": 0.42966213822364807
+    },
+    {
+      "id": "https://openalex.org/C126980161",
+      "wikidata": "https://www.wikidata.org/wiki/Q863783",
+      "display_name": "Simulated annealing",
+      "level": 2,
+      "score": 0.4208589792251587
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.37786614894866943
+    },
+    {
+      "id": "https://openalex.org/C124101348",
+      "wikidata": "https://www.wikidata.org/wiki/Q172491",
+      "display_name": "Data mining",
+      "level": 1,
+      "score": 0.3260054886341095
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.26497882604599
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.23038598895072937
+    },
+    {
+      "id": "https://openalex.org/C77928131",
+      "wikidata": "https://www.wikidata.org/wiki/Q193343",
+      "display_name": "Tectonics",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C77088390",
+      "wikidata": "https://www.wikidata.org/wiki/Q8513",
+      "display_name": "Database",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1088/1742-2132/10/3/035011",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1088/1742-2132/10/3/035011",
+      "pdf_url": "https://academic.oup.com/jge/article-pdf/10/3/035011/26786247/jge13_3_035011.pdf",
+      "source": {
+        "id": "https://openalex.org/S35316464",
+        "display_name": "Journal of Geophysics and Engineering",
+        "issn_l": "1742-2132",
+        "issn": [
+          "1742-2132",
+          "1742-2140"
+        ],
+        "is_oa": false,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "jufo-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320083",
+        "host_organization_name": "IOP Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320083",
+          "https://openalex.org/P4310311669"
+        ],
+        "host_organization_lineage_names": [
+          "IOP Publishing",
+          "Institute of Physics"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Geophysics and Engineering",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:repository.lsu.edu:physics_astronomy_pubs-7579",
+      "is_oa": false,
+      "landing_page_url": "https://repository.lsu.edu/physics_astronomy_pubs/6499",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210169993",
+        "display_name": "Civil War Book Review",
+        "issn_l": "1528-6592",
+        "issn": [
+          "1528-6592"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/P4310315936",
+        "host_organization_name": "Louisiana State University",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315936"
+        ],
+        "host_organization_lineage_names": [
+          "Louisiana State University"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Faculty Publications",
+      "raw_type": "text"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.1088/1742-2132/10/3/035011",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1088/1742-2132/10/3/035011",
+    "pdf_url": "https://academic.oup.com/jge/article-pdf/10/3/035011/26786247/jge13_3_035011.pdf",
+    "source": {
+      "id": "https://openalex.org/S35316464",
+      "display_name": "Journal of Geophysics and Engineering",
+      "issn_l": "1742-2132",
+      "issn": [
+        "1742-2132",
+        "1742-2140"
+      ],
+      "is_oa": false,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "jufo-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320083",
+      "host_organization_name": "IOP Publishing",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320083",
+        "https://openalex.org/P4310311669"
+      ],
+      "host_organization_lineage_names": [
+        "IOP Publishing",
+        "Institute of Physics"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Geophysics and Engineering",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [
+    {
+      "id": "https://openalex.org/G1840521930",
+      "display_name": "FRONTIERS OF SUBSURFACE ENERGY SECURITY -- EFRC",
+      "funder_award_id": "DESC0001114",
+      "funder_id": "https://openalex.org/F4320306084",
+      "funder_display_name": "U.S. Department of Energy"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320306084",
+      "display_name": "U.S. Department of Energy",
+      "ror": "https://ror.org/01bj3aw27"
+    },
+    {
+      "id": "https://openalex.org/F4320307899",
+      "display_name": "ConocoPhillips",
+      "ror": "https://ror.org/04hadnb81"
+    },
+    {
+      "id": "https://openalex.org/F4320332359",
+      "display_name": "Office of Science",
+      "ror": "https://ror.org/00mmn6b08"
+    },
+    {
+      "id": "https://openalex.org/F4320337480",
+      "display_name": "Basic Energy Sciences",
+      "ror": "https://ror.org/05mg91w61"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": true,
+    "pdf": true
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W1994682283.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W1994682283.grobid-xml"
+  },
+  "referenced_works_count": 48,
+  "referenced_works": [
+    "https://openalex.org/W74712529",
+    "https://openalex.org/W1520704686",
+    "https://openalex.org/W1538120041",
+    "https://openalex.org/W1967714164",
+    "https://openalex.org/W1973540739",
+    "https://openalex.org/W1991522703",
+    "https://openalex.org/W1993807166",
+    "https://openalex.org/W1996864404",
+    "https://openalex.org/W2005006150",
+    "https://openalex.org/W2009552164",
+    "https://openalex.org/W2013109733",
+    "https://openalex.org/W2021647805",
+    "https://openalex.org/W2028895844",
+    "https://openalex.org/W2040602717",
+    "https://openalex.org/W2044322021",
+    "https://openalex.org/W2048193483",
+    "https://openalex.org/W2056760934",
+    "https://openalex.org/W2072727461",
+    "https://openalex.org/W2079017977",
+    "https://openalex.org/W2084554625",
+    "https://openalex.org/W2092013080",
+    "https://openalex.org/W2099857446",
+    "https://openalex.org/W2100245965",
+    "https://openalex.org/W2112917313",
+    "https://openalex.org/W2117655138",
+    "https://openalex.org/W2126136424",
+    "https://openalex.org/W2126737898",
+    "https://openalex.org/W2130023313",
+    "https://openalex.org/W2130744222",
+    "https://openalex.org/W2133630774",
+    "https://openalex.org/W2136247928",
+    "https://openalex.org/W2138873374",
+    "https://openalex.org/W2139326335",
+    "https://openalex.org/W2145050502",
+    "https://openalex.org/W2146241926",
+    "https://openalex.org/W2146309946",
+    "https://openalex.org/W2161618062",
+    "https://openalex.org/W2163505942",
+    "https://openalex.org/W2164375525",
+    "https://openalex.org/W2171646358",
+    "https://openalex.org/W2248100852",
+    "https://openalex.org/W2315758371",
+    "https://openalex.org/W2334669984",
+    "https://openalex.org/W2335691282",
+    "https://openalex.org/W4210788254",
+    "https://openalex.org/W4299384612",
+    "https://openalex.org/W4312608366",
+    "https://openalex.org/W6684318112"
+  ],
+  "related_works": [
+    "https://openalex.org/W2013332237",
+    "https://openalex.org/W1522259561",
+    "https://openalex.org/W2295517574",
+    "https://openalex.org/W2380221404",
+    "https://openalex.org/W2373248682",
+    "https://openalex.org/W2225738837",
+    "https://openalex.org/W944314213",
+    "https://openalex.org/W2044634479",
+    "https://openalex.org/W2331945229",
+    "https://openalex.org/W2153261214"
+  ],
+  "abstract_inverted_index": {
+    "Non-uniqueness": [
+      0
+    ],
+    "presents": [
+      1
+    ],
+    "challenges": [
+      2
+    ],
+    "to": [
+      3,
+      28,
+      40,
+      44,
+      118,
+      169,
+      185
+    ],
+    "seismic": [
+      4,
+      20,
+      34,
+      123,
+      161
+    ],
+    "inverse": [
+      5,
+      154
+    ],
+    "problems,": [
+      6
+    ],
+    "especially": [
+      7
+    ],
+    "for": [
+      8,
+      16,
+      206
+    ],
+    "time-lapse": [
+      9,
+      22,
+      113,
+      122,
+      137,
+      172
+    ],
+    "inversion": [
+      10,
+      54,
+      59
+    ],
+    "where": [
+      11,
+      56,
+      136
+    ],
+    "multiple": [
+      12
+    ],
+    "inversions": [
+      13
+    ],
+    "are": [
+      14,
+      115
+    ],
+    "needed": [
+      15
+    ],
+    "different": [
+      17
+    ],
+    "vintages": [
+      18
+    ],
+    "of": [
+      19,
+      83,
+      91,
+      152,
+      193
+    ],
+    "data.For": [
+      21
+    ],
+    "applications,": [
+      23
+    ],
+    "the": [
+      24,
+      47,
+      57,
+      84,
+      97,
+      100,
+      105,
+      109,
+      120,
+      134,
+      150,
+      153,
+      160,
+      171,
+      187,
+      191
+    ],
+    "focus": [
+      25,
+      95
+    ],
+    "typically": [
+      26
+    ],
+    "is": [
+      27,
+      125,
+      183
+    ],
+    "detect": [
+      29
+    ],
+    "relatively": [
+      30
+    ],
+    "small": [
+      31
+    ],
+    "changes": [
+      32,
+      45,
+      138
+    ],
+    "in": [
+      33,
+      46
+    ],
+    "attributes": [
+      35
+    ],
+    "at": [
+      36
+    ],
+    "limited": [
+      37
+    ],
+    "locations": [
+      38
+    ],
+    "and": [
+      39,
+      70,
+      108,
+      145,
+      199
+    ],
+    "relate": [
+      41
+    ],
+    "these": [
+      42
+    ],
+    "differences": [
+      43
+    ],
+    "underlying": [
+      48
+    ],
+    "physical": [
+      49
+    ],
+    "properties.We": [
+      50
+    ],
+    "propose": [
+      51
+    ],
+    "a": [
+      52,
+      61,
+      66,
+      71,
+      164,
+      178
+    ],
+    "robust": [
+      53
+    ],
+    "workflow": [
+      55
+    ],
+    "baseline": [
+      58,
+      106
+    ],
+    "uses": [
+      60,
+      142
+    ],
+    "starting": [
+      62,
+      78
+    ],
+    "model,": [
+      63
+    ],
+    "which": [
+      64,
+      130
+    ],
+    "combines": [
+      65
+    ],
+    "high-frequency": [
+      67
+    ],
+    "fractal": [
+      68,
+      89
+    ],
+    "component": [
+      69,
+      73
+    ],
+    "low-frequency": [
+      72
+    ],
+    "from": [
+      74,
+      104,
+      202
+    ],
+    "well": [
+      75,
+      92
+    ],
+    "log": [
+      76
+    ],
+    "data.This": [
+      77,
+      124
+    ],
+    "model": [
+      79,
+      107,
+      146
+    ],
+    "provides": [
+      80
+    ],
+    "an": [
+      81
+    ],
+    "estimate": [
+      82
+    ],
+    "null": [
+      85
+    ],
+    "space": [
+      86
+    ],
+    "based": [
+      87
+    ],
+    "on": [
+      88,
+      96,
+      133
+    ],
+    "statistics": [
+      90
+    ],
+    "data.To": [
+      93
+    ],
+    "further": [
+      94
+    ],
+    "localized": [
+      98
+    ],
+    "changes,": [
+      99
+    ],
+    "inverted": [
+      101
+    ],
+    "elastic": [
+      102
+    ],
+    "parameters": [
+      103
+    ],
+    "difference": [
+      110
+    ],
+    "between": [
+      111
+    ],
+    "two": [
+      112
+    ],
+    "data": [
+      114,
+      144,
+      162,
+      198,
+      201
+    ],
+    "summed": [
+      116
+    ],
+    "together": [
+      117
+    ],
+    "produce": [
+      119
+    ],
+    "virtual": [
+      121
+    ],
+    "known": [
+      126
+    ],
+    "as": [
+      127
+    ],
+    "double-difference": [
+      128
+    ],
+    "inversion,": [
+      129
+    ],
+    "focuses": [
+      131
+    ],
+    "primarily": [
+      132
+    ],
+    "areas": [
+      135
+    ],
+    "occur.The": [
+      139
+    ],
+    "misfit": [
+      140,
+      188
+    ],
+    "function": [
+      141
+    ],
+    "both": [
+      143
+    ],
+    "norms": [
+      147
+    ],
+    "so": [
+      148
+    ],
+    "that": [
+      149
+    ],
+    "ill-posedness": [
+      151
+    ],
+    "problem": [
+      155
+    ],
+    "can": [
+      156
+    ],
+    "be": [
+      157
+    ],
+    "regularized.We": [
+      158
+    ],
+    "pre-process": [
+      159
+    ],
+    "using": [
+      163
+    ],
+    "local": [
+      165
+    ],
+    "correlation-based": [
+      166
+    ],
+    "warping": [
+      167
+    ],
+    "algorithm": [
+      168
+    ],
+    "register": [
+      170
+    ],
+    "datasets.Finally,": [
+      173
+    ],
+    "very": [
+      174
+    ],
+    "fast": [
+      175
+    ],
+    "simulated": [
+      176
+    ],
+    "annealing,": [
+      177
+    ],
+    "nonlinear": [
+      179
+    ],
+    "global": [
+      180
+    ],
+    "search": [
+      181
+    ],
+    "method,": [
+      182
+    ],
+    "used": [
+      184,
+      205
+    ],
+    "minimize": [
+      186
+    ],
+    "function.We": [
+      189
+    ],
+    "demonstrate": [
+      190
+    ],
+    "effectiveness": [
+      192
+    ],
+    "our": [
+      194
+    ],
+    "method": [
+      195
+    ],
+    "with": [
+      196
+    ],
+    "synthetic": [
+      197
+    ],
+    "field": [
+      200
+    ],
+    "Cranfield": [
+      203
+    ],
+    "site": [
+      204
+    ],
+    "CO": [
+      207
+    ],
+    "2": [
+      208
+    ],
+    "sequestration": [
+      209
+    ],
+    "studies.": [
+      210
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2016-06-24T00:00:00"
+}

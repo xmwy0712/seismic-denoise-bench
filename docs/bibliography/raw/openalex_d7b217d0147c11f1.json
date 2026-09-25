@@ -1,0 +1,575 @@
+{
+  "id": "https://openalex.org/W1993840502",
+  "doi": "https://doi.org/10.1016/0191-8141(83)90054-8",
+  "title": "Displacement distribution along minor fault traces",
+  "display_name": "Displacement distribution along minor fault traces",
+  "publication_year": 1983,
+  "publication_date": "1983-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1993840502",
+    "doi": "https://doi.org/10.1016/0191-8141(83)90054-8",
+    "mag": "1993840502"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/0191-8141(83)90054-8",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/0191-8141(83)90054-8",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S13481170",
+      "display_name": "Journal of Structural Geology",
+      "issn_l": "0191-8141",
+      "issn": [
+        "0191-8141",
+        "1873-1201"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Structural Geology",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5071985498",
+        "display_name": "Hirofumi Muraoka",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210135230",
+          "display_name": "Geological Survey of Japan",
+          "ror": "https://ror.org/02wzg6d13",
+          "country_code": "JP",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210135230",
+            "https://openalex.org/I73613424"
+          ]
+        }
+      ],
+      "countries": [
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hirofumi Muraoka",
+      "raw_affiliation_strings": [
+        "Geothermal Research Department, Geological Survey of Japan, Higashi 1-chome 1-3, Yatabe-machi, Tsukuba-gun, Ibaraki-ken 305, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Geothermal Research Department, Geological Survey of Japan, Higashi 1-chome 1-3, Yatabe-machi, Tsukuba-gun, Ibaraki-ken 305, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210135230"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5110781481",
+        "display_name": "Hiroki Kamata",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210135230",
+          "display_name": "Geological Survey of Japan",
+          "ror": "https://ror.org/02wzg6d13",
+          "country_code": "JP",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210135230",
+            "https://openalex.org/I73613424"
+          ]
+        }
+      ],
+      "countries": [
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Hiroki Kamata",
+      "raw_affiliation_strings": [
+        "Geothermal Research Department, Geological Survey of Japan, Higashi 1-chome 1-3, Yatabe-machi, Tsukuba-gun, Ibaraki-ken 305, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Geothermal Research Department, Geological Survey of Japan, Higashi 1-chome 1-3, Yatabe-machi, Tsukuba-gun, Ibaraki-ken 305, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210135230"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210135230"
+  ],
+  "apc_list": {
+    "value": 3380,
+    "currency": "USD",
+    "value_usd": 3380
+  },
+  "apc_paid": null,
+  "fwci": 1.6505,
+  "has_fulltext": false,
+  "cited_by_count": 329,
+  "citation_normalized_percentile": {
+    "value": 0.80792295,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "5",
+    "issue": "5",
+    "first_page": "483",
+    "last_page": "495"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10110",
+    "display_name": "earthquake and tectonic studies",
+    "score": 0.9995999932289124,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10110",
+      "display_name": "earthquake and tectonic studies",
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10017",
+      "display_name": "Geology and Paleoclimatology Research",
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1902",
+        "display_name": "Atmospheric Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10535",
+      "display_name": "Landslides and related hazards",
+      "score": 0.9980999827384949,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2308",
+        "display_name": "Management, Monitoring, Policy and Law"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.8369296193122864
+    },
+    {
+      "id": "https://openalex.org/keywords/lithology",
+      "display_name": "Lithology",
+      "score": 0.7121735215187073
+    },
+    {
+      "id": "https://openalex.org/keywords/fault",
+      "display_name": "Fault (geology)",
+      "score": 0.6277620196342468
+    },
+    {
+      "id": "https://openalex.org/keywords/homogeneous",
+      "display_name": "Homogeneous",
+      "score": 0.5739715695381165
+    },
+    {
+      "id": "https://openalex.org/keywords/slip",
+      "display_name": "Slip (aerodynamics)",
+      "score": 0.542772650718689
+    },
+    {
+      "id": "https://openalex.org/keywords/displacement",
+      "display_name": "Displacement (psychology)",
+      "score": 0.5191277861595154
+    },
+    {
+      "id": "https://openalex.org/keywords/geometry",
+      "display_name": "Geometry",
+      "score": 0.45483890175819397
+    },
+    {
+      "id": "https://openalex.org/keywords/fault-trace",
+      "display_name": "Fault trace",
+      "score": 0.4188939929008484
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.3740919828414917
+    },
+    {
+      "id": "https://openalex.org/keywords/mineralogy",
+      "display_name": "Mineralogy",
+      "score": 0.32468003034591675
+    },
+    {
+      "id": "https://openalex.org/keywords/petrology",
+      "display_name": "Petrology",
+      "score": 0.2560904026031494
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.09840777516365051
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.8369296193122864
+    },
+    {
+      "id": "https://openalex.org/C122792734",
+      "wikidata": "https://www.wikidata.org/wiki/Q6538759",
+      "display_name": "Lithology",
+      "level": 2,
+      "score": 0.7121735215187073
+    },
+    {
+      "id": "https://openalex.org/C175551986",
+      "wikidata": "https://www.wikidata.org/wiki/Q47089",
+      "display_name": "Fault (geology)",
+      "level": 2,
+      "score": 0.6277620196342468
+    },
+    {
+      "id": "https://openalex.org/C66882249",
+      "wikidata": "https://www.wikidata.org/wiki/Q169336",
+      "display_name": "Homogeneous",
+      "level": 2,
+      "score": 0.5739715695381165
+    },
+    {
+      "id": "https://openalex.org/C195268267",
+      "wikidata": "https://www.wikidata.org/wiki/Q1928883",
+      "display_name": "Slip (aerodynamics)",
+      "level": 2,
+      "score": 0.542772650718689
+    },
+    {
+      "id": "https://openalex.org/C107551265",
+      "wikidata": "https://www.wikidata.org/wiki/Q1458245",
+      "display_name": "Displacement (psychology)",
+      "level": 2,
+      "score": 0.5191277861595154
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.45483890175819397
+    },
+    {
+      "id": "https://openalex.org/C2776545315",
+      "wikidata": "https://www.wikidata.org/wiki/Q5438168",
+      "display_name": "Fault trace",
+      "level": 3,
+      "score": 0.4188939929008484
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.3740919828414917
+    },
+    {
+      "id": "https://openalex.org/C199289684",
+      "wikidata": "https://www.wikidata.org/wiki/Q83353",
+      "display_name": "Mineralogy",
+      "level": 1,
+      "score": 0.32468003034591675
+    },
+    {
+      "id": "https://openalex.org/C5900021",
+      "wikidata": "https://www.wikidata.org/wiki/Q163082",
+      "display_name": "Petrology",
+      "level": 1,
+      "score": 0.2560904026031494
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.09840777516365051
+    },
+    {
+      "id": "https://openalex.org/C97355855",
+      "wikidata": "https://www.wikidata.org/wiki/Q11473",
+      "display_name": "Thermodynamics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C542102704",
+      "wikidata": "https://www.wikidata.org/wiki/Q183257",
+      "display_name": "Psychotherapist",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C114614502",
+      "wikidata": "https://www.wikidata.org/wiki/Q76592",
+      "display_name": "Combinatorics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1016/0191-8141(83)90054-8",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/0191-8141(83)90054-8",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S13481170",
+        "display_name": "Journal of Structural Geology",
+        "issn_l": "0191-8141",
+        "issn": [
+          "0191-8141",
+          "1873-1201"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Structural Geology",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "score": 0.7699999809265137,
+      "id": "https://metadata.un.org/sdg/14",
+      "display_name": "Life below water"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 8,
+  "referenced_works": [
+    "https://openalex.org/W425052277",
+    "https://openalex.org/W2010339634",
+    "https://openalex.org/W2059727200",
+    "https://openalex.org/W2112498588",
+    "https://openalex.org/W2125871831",
+    "https://openalex.org/W2126256158",
+    "https://openalex.org/W2293984162",
+    "https://openalex.org/W6676578191"
+  ],
+  "related_works": [
+    "https://openalex.org/W2365951008",
+    "https://openalex.org/W2359496214",
+    "https://openalex.org/W2383724031",
+    "https://openalex.org/W4309047080",
+    "https://openalex.org/W2358967818",
+    "https://openalex.org/W4310275134",
+    "https://openalex.org/W4385606723",
+    "https://openalex.org/W2371323192",
+    "https://openalex.org/W3204629695",
+    "https://openalex.org/W3200439477"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 23
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 28
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 5
+    }
+  ],
+  "updated_date": "2026-09-17T22:18:28.273824",
+  "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,1181 @@
+{
+  "id": "https://openalex.org/W2993286645",
+  "doi": "https://doi.org/10.1785/0220190112",
+  "title": "Distributed Acoustic Sensing Turns Fiber‐Optic Cables into Sensitive Seismic Antennas",
+  "display_name": "Distributed Acoustic Sensing Turns Fiber‐Optic Cables into Sensitive Seismic Antennas",
+  "publication_year": 2019,
+  "publication_date": "2019-12-04",
+  "ids": {
+    "openalex": "https://openalex.org/W2993286645",
+    "doi": "https://doi.org/10.1785/0220190112",
+    "mag": "2993286645"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1785/0220190112",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1785/0220190112",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S183957208",
+      "display_name": "Seismological Research Letters",
+      "issn_l": "0895-0695",
+      "issn": [
+        "0895-0695",
+        "1938-2057"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310316854",
+      "host_organization_name": "Seismological Society of America",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316854"
+      ],
+      "host_organization_lineage_names": [
+        "Seismological Society of America"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Seismological Research Letters",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5007353054",
+        "display_name": "Zhongwen Zhan",
+        "orcid": "https://orcid.org/0000-0002-5586-2607",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-5586-2607"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I122411786",
+          "display_name": "California Institute of Technology",
+          "ror": "https://ror.org/05dxps055",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I122411786"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Zhongwen Zhan",
+      "raw_affiliation_strings": [
+        "Seismological Laboratory, Division of Geological and Planetary Sciences, California Institute of Technology, Pasadena, California, U.S.A"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Seismological Laboratory, Division of Geological and Planetary Sciences, California Institute of Technology, Pasadena, California, U.S.A",
+          "institution_ids": [
+            "https://openalex.org/I122411786"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5007353054"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I122411786"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 19.3218,
+  "has_fulltext": false,
+  "cited_by_count": 442,
+  "citation_normalized_percentile": {
+    "value": 0.99811875,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "91",
+    "issue": "1",
+    "first_page": "1",
+    "last_page": "15"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11757",
+    "display_name": "Seismic Waves and Analysis",
+    "score": 0.9998999834060669,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10205",
+      "display_name": "Advanced Fiber Optic Sensors",
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2208",
+        "display_name": "Electrical and Electronic Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13885",
+      "display_name": "Geophysics and Sensor Technology",
+      "score": 0.9980999827384949,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/distributed-acoustic-sensing",
+      "display_name": "Distributed acoustic sensing",
+      "score": 0.7539706230163574
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.7345297336578369
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.673811137676239
+    },
+    {
+      "id": "https://openalex.org/keywords/seismometer",
+      "display_name": "Seismometer",
+      "score": 0.5644025802612305
+    },
+    {
+      "id": "https://openalex.org/keywords/high-fidelity",
+      "display_name": "High fidelity",
+      "score": 0.46929508447647095
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-hazard",
+      "display_name": "Seismic hazard",
+      "score": 0.46268168091773987
+    },
+    {
+      "id": "https://openalex.org/keywords/vertical-seismic-profile",
+      "display_name": "Vertical seismic profile",
+      "score": 0.447661429643631
+    },
+    {
+      "id": "https://openalex.org/keywords/acoustics",
+      "display_name": "Acoustics",
+      "score": 0.43750476837158203
+    },
+    {
+      "id": "https://openalex.org/keywords/optical-fiber",
+      "display_name": "Optical fiber",
+      "score": 0.3573057949542999
+    },
+    {
+      "id": "https://openalex.org/keywords/fiber-optic-sensor",
+      "display_name": "Fiber optic sensor",
+      "score": 0.2582567632198334
+    },
+    {
+      "id": "https://openalex.org/keywords/engineering",
+      "display_name": "Engineering",
+      "score": 0.23704221844673157
+    },
+    {
+      "id": "https://openalex.org/keywords/telecommunications",
+      "display_name": "Telecommunications",
+      "score": 0.19704565405845642
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C158543913",
+      "wikidata": "https://www.wikidata.org/wiki/Q5283133",
+      "display_name": "Distributed acoustic sensing",
+      "level": 4,
+      "score": 0.7539706230163574
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.7345297336578369
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.673811137676239
+    },
+    {
+      "id": "https://openalex.org/C119217923",
+      "wikidata": "https://www.wikidata.org/wiki/Q160567",
+      "display_name": "Seismometer",
+      "level": 2,
+      "score": 0.5644025802612305
+    },
+    {
+      "id": "https://openalex.org/C113364801",
+      "wikidata": "https://www.wikidata.org/wiki/Q26674",
+      "display_name": "High fidelity",
+      "level": 2,
+      "score": 0.46929508447647095
+    },
+    {
+      "id": "https://openalex.org/C69361100",
+      "wikidata": "https://www.wikidata.org/wiki/Q1632490",
+      "display_name": "Seismic hazard",
+      "level": 2,
+      "score": 0.46268168091773987
+    },
+    {
+      "id": "https://openalex.org/C89787772",
+      "wikidata": "https://www.wikidata.org/wiki/Q7922855",
+      "display_name": "Vertical seismic profile",
+      "level": 2,
+      "score": 0.447661429643631
+    },
+    {
+      "id": "https://openalex.org/C24890656",
+      "wikidata": "https://www.wikidata.org/wiki/Q82811",
+      "display_name": "Acoustics",
+      "level": 1,
+      "score": 0.43750476837158203
+    },
+    {
+      "id": "https://openalex.org/C194232370",
+      "wikidata": "https://www.wikidata.org/wiki/Q162",
+      "display_name": "Optical fiber",
+      "level": 2,
+      "score": 0.3573057949542999
+    },
+    {
+      "id": "https://openalex.org/C21651689",
+      "wikidata": "https://www.wikidata.org/wiki/Q1397427",
+      "display_name": "Fiber optic sensor",
+      "level": 3,
+      "score": 0.2582567632198334
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.23704221844673157
+    },
+    {
+      "id": "https://openalex.org/C76155785",
+      "wikidata": "https://www.wikidata.org/wiki/Q418",
+      "display_name": "Telecommunications",
+      "level": 1,
+      "score": 0.19704565405845642
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1785/0220190112",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1785/0220190112",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S183957208",
+        "display_name": "Seismological Research Letters",
+        "issn_l": "0895-0695",
+        "issn": [
+          "0895-0695",
+          "1938-2057"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310316854",
+        "host_organization_name": "Seismological Society of America",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316854"
+        ],
+        "host_organization_lineage_names": [
+          "Seismological Society of America"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Seismological Research Letters",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:authors.library.caltech.edu:100750",
+      "is_oa": false,
+      "landing_page_url": "https://authors.library.caltech.edu/100750/",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402161",
+        "display_name": "CaltechAUTHORS (California Institute of Technology)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I122411786",
+        "host_organization_name": "California Institute of Technology",
+        "host_organization_lineage": [
+          "https://openalex.org/I122411786"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "Article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "score": 0.7599999904632568,
+      "display_name": "Life below water",
+      "id": "https://metadata.un.org/sdg/14"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 107,
+  "referenced_works": [
+    "https://openalex.org/W1900713400",
+    "https://openalex.org/W1909386242",
+    "https://openalex.org/W1921201797",
+    "https://openalex.org/W1927480266",
+    "https://openalex.org/W1970831581",
+    "https://openalex.org/W1975918664",
+    "https://openalex.org/W2015497542",
+    "https://openalex.org/W2017713410",
+    "https://openalex.org/W2027222693",
+    "https://openalex.org/W2050589082",
+    "https://openalex.org/W2072831198",
+    "https://openalex.org/W2077441226",
+    "https://openalex.org/W2102712513",
+    "https://openalex.org/W2108227221",
+    "https://openalex.org/W2111327087",
+    "https://openalex.org/W2118216551",
+    "https://openalex.org/W2123590998",
+    "https://openalex.org/W2127995641",
+    "https://openalex.org/W2132483175",
+    "https://openalex.org/W2139661095",
+    "https://openalex.org/W2140409241",
+    "https://openalex.org/W2143147166",
+    "https://openalex.org/W2144557503",
+    "https://openalex.org/W2146625715",
+    "https://openalex.org/W2148580977",
+    "https://openalex.org/W2151221293",
+    "https://openalex.org/W2152270434",
+    "https://openalex.org/W2171421824",
+    "https://openalex.org/W2224156778",
+    "https://openalex.org/W2272629573",
+    "https://openalex.org/W2285570192",
+    "https://openalex.org/W2327371768",
+    "https://openalex.org/W2329058312",
+    "https://openalex.org/W2343048708",
+    "https://openalex.org/W2487692127",
+    "https://openalex.org/W2512989647",
+    "https://openalex.org/W2517895002",
+    "https://openalex.org/W2529107930",
+    "https://openalex.org/W2547725716",
+    "https://openalex.org/W2551835123",
+    "https://openalex.org/W2557174484",
+    "https://openalex.org/W2584046509",
+    "https://openalex.org/W2589231516",
+    "https://openalex.org/W2624391533",
+    "https://openalex.org/W2735877474",
+    "https://openalex.org/W2748113317",
+    "https://openalex.org/W2754661765",
+    "https://openalex.org/W2756965174",
+    "https://openalex.org/W2769208821",
+    "https://openalex.org/W2769523131",
+    "https://openalex.org/W2785588852",
+    "https://openalex.org/W2789512926",
+    "https://openalex.org/W2789734212",
+    "https://openalex.org/W2791284981",
+    "https://openalex.org/W2794417179",
+    "https://openalex.org/W2800943384",
+    "https://openalex.org/W2802602299",
+    "https://openalex.org/W2803591778",
+    "https://openalex.org/W2804321686",
+    "https://openalex.org/W2808111113",
+    "https://openalex.org/W2809685438",
+    "https://openalex.org/W2881635435",
+    "https://openalex.org/W2885268163",
+    "https://openalex.org/W2886126833",
+    "https://openalex.org/W2887035054",
+    "https://openalex.org/W2887088629",
+    "https://openalex.org/W2890337672",
+    "https://openalex.org/W2891038491",
+    "https://openalex.org/W2891299419",
+    "https://openalex.org/W2891377963",
+    "https://openalex.org/W2895786783",
+    "https://openalex.org/W2898767032",
+    "https://openalex.org/W2899375253",
+    "https://openalex.org/W2905842062",
+    "https://openalex.org/W2908891830",
+    "https://openalex.org/W2911445906",
+    "https://openalex.org/W2911498865",
+    "https://openalex.org/W2913828577",
+    "https://openalex.org/W2914869702",
+    "https://openalex.org/W2920858362",
+    "https://openalex.org/W2921373385",
+    "https://openalex.org/W2925619304",
+    "https://openalex.org/W2935862809",
+    "https://openalex.org/W2940328670",
+    "https://openalex.org/W2945063109",
+    "https://openalex.org/W2955730146",
+    "https://openalex.org/W2973313662",
+    "https://openalex.org/W2991133231",
+    "https://openalex.org/W2999080439",
+    "https://openalex.org/W3020558944",
+    "https://openalex.org/W3100672003",
+    "https://openalex.org/W3105973089",
+    "https://openalex.org/W3122410610",
+    "https://openalex.org/W3170470900",
+    "https://openalex.org/W4200615964",
+    "https://openalex.org/W4211015946",
+    "https://openalex.org/W4211153863",
+    "https://openalex.org/W4233056053",
+    "https://openalex.org/W6626524546",
+    "https://openalex.org/W6682602378",
+    "https://openalex.org/W6701499110",
+    "https://openalex.org/W6747649465",
+    "https://openalex.org/W6751463334",
+    "https://openalex.org/W6754520954",
+    "https://openalex.org/W6754654355",
+    "https://openalex.org/W6772663804",
+    "https://openalex.org/W6776114265"
+  ],
+  "related_works": [
+    "https://openalex.org/W2522330831",
+    "https://openalex.org/W1900713400",
+    "https://openalex.org/W4200485858",
+    "https://openalex.org/W2890726081",
+    "https://openalex.org/W4286498690",
+    "https://openalex.org/W2188665978",
+    "https://openalex.org/W2332449933",
+    "https://openalex.org/W3194371498",
+    "https://openalex.org/W2891462519",
+    "https://openalex.org/W2897868035"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "Distributed": [
+      1
+    ],
+    "acoustic": [
+      2
+    ],
+    "sensing": [
+      3
+    ],
+    "(DAS)": [
+      4
+    ],
+    "is": [
+      5,
+      12
+    ],
+    "a": [
+      6,
+      26,
+      190
+    ],
+    "new,": [
+      7
+    ],
+    "relatively": [
+      8
+    ],
+    "inexpensive": [
+      9
+    ],
+    "technology": [
+      10
+    ],
+    "that": [
+      11
+    ],
+    "rapidly": [
+      13
+    ],
+    "demonstrating": [
+      14
+    ],
+    "its": [
+      15,
+      166,
+      176
+    ],
+    "promise": [
+      16
+    ],
+    "for": [
+      17,
+      59,
+      104,
+      109,
+      127
+    ],
+    "recording": [
+      18
+    ],
+    "earthquake": [
+      19,
+      144
+    ],
+    "waves": [
+      20,
+      116
+    ],
+    "and": [
+      21,
+      31,
+      141,
+      149,
+      154,
+      159,
+      169,
+      198,
+      218,
+      221
+    ],
+    "other": [
+      22,
+      151,
+      224
+    ],
+    "seismic": [
+      23,
+      40,
+      80,
+      84,
+      115,
+      193
+    ],
+    "signals": [
+      24
+    ],
+    "in": [
+      25,
+      92,
+      100,
+      175
+    ],
+    "wide": [
+      27
+    ],
+    "range": [
+      28
+    ],
+    "of": [
+      29,
+      83,
+      129,
+      139,
+      147,
+      203
+    ],
+    "research": [
+      30
+    ],
+    "public": [
+      32
+    ],
+    "safety": [
+      33
+    ],
+    "arenas.": [
+      34
+    ],
+    "It": [
+      35,
+      50
+    ],
+    "should": [
+      36,
+      47,
+      133
+    ],
+    "significantly": [
+      37
+    ],
+    "augment": [
+      38
+    ],
+    "present": [
+      39
+    ],
+    "networks.": [
+      41
+    ],
+    "For": [
+      42
+    ],
+    "several": [
+      43
+    ],
+    "important": [
+      44
+    ],
+    "applications,": [
+      45
+    ],
+    "it": [
+      46,
+      208
+    ],
+    "be": [
+      48
+    ],
+    "superior.": [
+      49
+    ],
+    "employs": [
+      51
+    ],
+    "ordinary": [
+      52
+    ],
+    "fiber‐optic": [
+      53
+    ],
+    "cables,": [
+      54
+    ],
+    "but": [
+      55
+    ],
+    "not": [
+      56
+    ],
+    "as": [
+      57,
+      79,
+      183,
+      214
+    ],
+    "channels": [
+      58
+    ],
+    "data": [
+      60
+    ],
+    "among": [
+      61
+    ],
+    "separate": [
+      62
+    ],
+    "sophisticated": [
+      63
+    ],
+    "instruments.": [
+      64
+    ],
+    "With": [
+      65
+    ],
+    "DAS,": [
+      66
+    ],
+    "the": [
+      67,
+      73,
+      97,
+      135,
+      184
+    ],
+    "hair‐thin": [
+      68
+    ],
+    "glass": [
+      69
+    ],
+    "fibers": [
+      70,
+      89
+    ],
+    "themselves": [
+      71
+    ],
+    "are": [
+      72,
+      90,
+      107
+    ],
+    "sensors.": [
+      74
+    ],
+    "Internal": [
+      75
+    ],
+    "natural": [
+      76
+    ],
+    "flaws": [
+      77
+    ],
+    "serve": [
+      78
+    ],
+    "strainmeters,": [
+      81
+    ],
+    "kinds": [
+      82
+    ],
+    "detector.": [
+      85
+    ],
+    "Unused": [
+      86
+    ],
+    "or": [
+      87,
+      99,
+      122
+    ],
+    "dark": [
+      88
+    ],
+    "common": [
+      91
+    ],
+    "fiber": [
+      93
+    ],
+    "cables": [
+      94,
+      102
+    ],
+    "widespread": [
+      95
+    ],
+    "around": [
+      96
+    ],
+    "globe,": [
+      98
+    ],
+    "dedicated": [
+      101
+    ],
+    "designed": [
+      103
+    ],
+    "special": [
+      105
+    ],
+    "application,": [
+      106
+    ],
+    "appropriate": [
+      108
+    ],
+    "DAS.": [
+      110
+    ],
+    "They": [
+      111
+    ],
+    "can": [
+      112
+    ],
+    "sample": [
+      113
+    ],
+    "passing": [
+      114
+    ],
+    "at": [
+      117
+    ],
+    "locations": [
+      118
+    ],
+    "every": [
+      119
+    ],
+    "few": [
+      120
+    ],
+    "meters": [
+      121
+    ],
+    "closer": [
+      123
+    ],
+    "along": [
+      124
+    ],
+    "paths": [
+      125
+    ],
+    "stretching": [
+      126
+    ],
+    "tens": [
+      128
+    ],
+    "kilometers.": [
+      130
+    ],
+    "DAS": [
+      131,
+      163,
+      178
+    ],
+    "arrays": [
+      132
+    ],
+    "enrich": [
+      134
+    ],
+    "three": [
+      136
+    ],
+    "major": [
+      137
+    ],
+    "areas": [
+      138
+    ],
+    "local": [
+      140
+    ],
+    "regional": [
+      142
+    ],
+    "seismology:": [
+      143
+    ],
+    "monitoring,": [
+      145
+    ],
+    "imaging": [
+      146
+    ],
+    "faults": [
+      148
+    ],
+    "many": [
+      150
+    ],
+    "geologic": [
+      152
+    ],
+    "formations,": [
+      153
+    ],
+    "hazard": [
+      155
+    ],
+    "assessment.": [
+      156
+    ],
+    "Recent": [
+      157
+    ],
+    "laboratory": [
+      158
+    ],
+    "field": [
+      160
+    ],
+    "results": [
+      161
+    ],
+    "from": [
+      162
+    ],
+    "tests": [
+      164
+    ],
+    "underscore": [
+      165
+    ],
+    "broad": [
+      167
+    ],
+    "bandwidth": [
+      168
+    ],
+    "high‐waveform": [
+      170
+    ],
+    "fidelity.": [
+      171
+    ],
+    "Thus,": [
+      172
+    ],
+    "while": [
+      173
+    ],
+    "still": [
+      174
+    ],
+    "infancy,": [
+      177
+    ],
+    "already": [
+      179
+    ],
+    "has": [
+      180
+    ],
+    "shown": [
+      181
+    ],
+    "itself": [
+      182
+    ],
+    "working": [
+      185
+    ],
+    "heart—or": [
+      186
+    ],
+    "perhaps": [
+      187
+    ],
+    "ear": [
+      188
+    ],
+    "drums—of": [
+      189
+    ],
+    "valuable": [
+      191
+    ],
+    "new": [
+      192
+    ],
+    "listening": [
+      194
+    ],
+    "tool.": [
+      195
+    ],
+    "My": [
+      196
+    ],
+    "colleagues": [
+      197
+    ],
+    "I": [
+      199
+    ],
+    "expect": [
+      200,
+      207
+    ],
+    "rapid": [
+      201
+    ],
+    "growth": [
+      202
+    ],
+    "applications.": [
+      204
+    ],
+    "We": [
+      205
+    ],
+    "further": [
+      206
+    ],
+    "to": [
+      209
+    ],
+    "spread": [
+      210
+    ],
+    "into": [
+      211
+    ],
+    "such": [
+      212
+    ],
+    "frontiers": [
+      213
+    ],
+    "ocean‐bottom": [
+      215
+    ],
+    "seismology,": [
+      216
+    ],
+    "glacial": [
+      217
+    ],
+    "related": [
+      219
+    ],
+    "cryoseismology,": [
+      220
+    ],
+    "seismology": [
+      222
+    ],
+    "on": [
+      223
+    ],
+    "solar": [
+      225
+    ],
+    "system": [
+      226
+    ],
+    "bodies.": [
+      227
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 77
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 94
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 87
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 57
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 57
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 48
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 22
+    }
+  ],
+  "updated_date": "2026-09-23T09:40:40.371523",
+  "created_date": "2025-10-10T00:00:00"
+}

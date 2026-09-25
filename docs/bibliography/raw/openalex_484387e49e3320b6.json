@@ -1,0 +1,1200 @@
+{
+  "id": "https://openalex.org/W2052462860",
+  "doi": "https://doi.org/10.1111/j.1365-2478.2004.00447.x",
+  "title": "Wave‐equation migration velocity analysis. I. Theory",
+  "display_name": "Wave‐equation migration velocity analysis. I. Theory",
+  "publication_year": 2004,
+  "publication_date": "2004-11-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2052462860",
+    "doi": "https://doi.org/10.1111/j.1365-2478.2004.00447.x",
+    "mag": "2052462860"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1111/j.1365-2478.2004.00447.x",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1111/j.1365-2478.2004.00447.x",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S45030768",
+      "display_name": "Geophysical Prospecting",
+      "issn_l": "0016-8025",
+      "issn": [
+        "0016-8025",
+        "1365-2478"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320595",
+      "host_organization_name": "Wiley",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320595"
+      ],
+      "host_organization_lineage_names": [
+        "Wiley"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysical Prospecting",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5035843202",
+        "display_name": "Paul C. Sava",
+        "orcid": "https://orcid.org/0000-0002-7813-598X",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-7813-598X"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97018004",
+          "display_name": "Stanford University",
+          "ror": "https://ror.org/00f54p054",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "P. Sava",
+      "raw_affiliation_strings": [
+        "Department of Geophysics, Stanford University, Mitchell Building, Stanford, CA 94305-2215, USA",
+        "Department of Geophysics, Stanford University, Mitchell Building, Stanford, CA 94305‐2215, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Geophysics, Stanford University, Mitchell Building, Stanford, CA 94305-2215, USA",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Geophysics, Stanford University, Mitchell Building, Stanford, CA 94305‐2215, USA",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5060147695",
+        "display_name": "Biondo Biondi",
+        "orcid": "https://orcid.org/0000-0002-0961-2287",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-0961-2287"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I97018004",
+          "display_name": "Stanford University",
+          "ror": "https://ror.org/00f54p054",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "B. Biondi",
+      "raw_affiliation_strings": [
+        "Department of Geophysics, Stanford University, Mitchell Building, Stanford, CA 94305-2215, USA",
+        "Department of Geophysics, Stanford University, Mitchell Building, Stanford, CA 94305‐2215, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Geophysics, Stanford University, Mitchell Building, Stanford, CA 94305-2215, USA",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Geophysics, Stanford University, Mitchell Building, Stanford, CA 94305‐2215, USA",
+          "institution_ids": [
+            "https://openalex.org/I97018004"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5035843202"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I97018004"
+  ],
+  "apc_list": {
+    "value": 4150,
+    "currency": "USD",
+    "value_usd": 4150
+  },
+  "apc_paid": null,
+  "fwci": 4.6056,
+  "has_fulltext": false,
+  "cited_by_count": 321,
+  "citation_normalized_percentile": {
+    "value": 0.9479199,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "52",
+    "issue": "6",
+    "first_page": "593",
+    "last_page": "606"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.9993000030517578,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/residual",
+      "display_name": "Residual",
+      "score": 0.5873618721961975
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematical-analysis",
+      "display_name": "Mathematical analysis",
+      "score": 0.5611497163772583
+    },
+    {
+      "id": "https://openalex.org/keywords/linearization",
+      "display_name": "Linearization",
+      "score": 0.5554302930831909
+    },
+    {
+      "id": "https://openalex.org/keywords/slowness",
+      "display_name": "Slowness",
+      "score": 0.4966183304786682
+    },
+    {
+      "id": "https://openalex.org/keywords/extrapolation",
+      "display_name": "Extrapolation",
+      "score": 0.4875916838645935
+    },
+    {
+      "id": "https://openalex.org/keywords/operator",
+      "display_name": "Operator (biology)",
+      "score": 0.48093265295028687
+    },
+    {
+      "id": "https://openalex.org/keywords/perturbation",
+      "display_name": "Perturbation (astronomy)",
+      "score": 0.4411349892616272
+    },
+    {
+      "id": "https://openalex.org/keywords/wave-equation",
+      "display_name": "Wave equation",
+      "score": 0.4238676428794861
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.4198593199253082
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.3062589168548584
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.29830610752105713
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.21155595779418945
+    },
+    {
+      "id": "https://openalex.org/keywords/nonlinear-system",
+      "display_name": "Nonlinear system",
+      "score": 0.20296615362167358
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C155512373",
+      "wikidata": "https://www.wikidata.org/wiki/Q287450",
+      "display_name": "Residual",
+      "level": 2,
+      "score": 0.5873618721961975
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.5611497163772583
+    },
+    {
+      "id": "https://openalex.org/C11210021",
+      "wikidata": "https://www.wikidata.org/wiki/Q1520713",
+      "display_name": "Linearization",
+      "level": 3,
+      "score": 0.5554302930831909
+    },
+    {
+      "id": "https://openalex.org/C11940443",
+      "wikidata": "https://www.wikidata.org/wiki/Q16965645",
+      "display_name": "Slowness",
+      "level": 2,
+      "score": 0.4966183304786682
+    },
+    {
+      "id": "https://openalex.org/C132459708",
+      "wikidata": "https://www.wikidata.org/wiki/Q744069",
+      "display_name": "Extrapolation",
+      "level": 2,
+      "score": 0.4875916838645935
+    },
+    {
+      "id": "https://openalex.org/C17020691",
+      "wikidata": "https://www.wikidata.org/wiki/Q139677",
+      "display_name": "Operator (biology)",
+      "level": 5,
+      "score": 0.48093265295028687
+    },
+    {
+      "id": "https://openalex.org/C177918212",
+      "wikidata": "https://www.wikidata.org/wiki/Q803623",
+      "display_name": "Perturbation (astronomy)",
+      "level": 2,
+      "score": 0.4411349892616272
+    },
+    {
+      "id": "https://openalex.org/C59696629",
+      "wikidata": "https://www.wikidata.org/wiki/Q193846",
+      "display_name": "Wave equation",
+      "level": 2,
+      "score": 0.4238676428794861
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.4198593199253082
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.3062589168548584
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.29830610752105713
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.21155595779418945
+    },
+    {
+      "id": "https://openalex.org/C158622935",
+      "wikidata": "https://www.wikidata.org/wiki/Q660848",
+      "display_name": "Nonlinear system",
+      "level": 2,
+      "score": 0.20296615362167358
+    },
+    {
+      "id": "https://openalex.org/C86339819",
+      "wikidata": "https://www.wikidata.org/wiki/Q407384",
+      "display_name": "Transcription factor",
+      "level": 3,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C158448853",
+      "wikidata": "https://www.wikidata.org/wiki/Q425218",
+      "display_name": "Repressor",
+      "level": 4,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1111/j.1365-2478.2004.00447.x",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1111/j.1365-2478.2004.00447.x",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S45030768",
+        "display_name": "Geophysical Prospecting",
+        "issn_l": "0016-8025",
+        "issn": [
+          "0016-8025",
+          "1365-2478"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320595",
+        "host_organization_name": "Wiley",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320595"
+        ],
+        "host_organization_lineage_names": [
+          "Wiley"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysical Prospecting",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/10",
+      "display_name": "Reduced inequalities",
+      "score": 0.8100000023841858
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 26,
+  "referenced_works": [
+    "https://openalex.org/W1615989357",
+    "https://openalex.org/W1928577604",
+    "https://openalex.org/W1968851566",
+    "https://openalex.org/W1987853926",
+    "https://openalex.org/W1990298527",
+    "https://openalex.org/W2001408507",
+    "https://openalex.org/W2002404290",
+    "https://openalex.org/W2006709299",
+    "https://openalex.org/W2011570271",
+    "https://openalex.org/W2017324304",
+    "https://openalex.org/W2042857179",
+    "https://openalex.org/W2049899510",
+    "https://openalex.org/W2073321567",
+    "https://openalex.org/W2073559051",
+    "https://openalex.org/W2092225611",
+    "https://openalex.org/W2097594208",
+    "https://openalex.org/W2099204930",
+    "https://openalex.org/W2120704348",
+    "https://openalex.org/W2143507145",
+    "https://openalex.org/W2144860110",
+    "https://openalex.org/W2150240527",
+    "https://openalex.org/W2162474008",
+    "https://openalex.org/W2164084067",
+    "https://openalex.org/W2165805685",
+    "https://openalex.org/W2171700475",
+    "https://openalex.org/W2240262743"
+  ],
+  "related_works": [
+    "https://openalex.org/W3103461978",
+    "https://openalex.org/W2356299150",
+    "https://openalex.org/W2144966994",
+    "https://openalex.org/W2003964906",
+    "https://openalex.org/W4389273484",
+    "https://openalex.org/W4378230892",
+    "https://openalex.org/W3017010751",
+    "https://openalex.org/W2180486137",
+    "https://openalex.org/W2015499150",
+    "https://openalex.org/W2349170468"
+  ],
+  "abstract_inverted_index": {
+    "ABSTRACT": [
+      0
+    ],
+    "We": [
+      1,
+      79,
+      179,
+      224
+    ],
+    "present": [
+      2
+    ],
+    "a": [
+      3,
+      61,
+      109,
+      154,
+      168,
+      245
+    ],
+    "migration": [
+      4,
+      77,
+      84,
+      172
+    ],
+    "velocity": [
+      5,
+      129,
+      238,
+      258
+    ],
+    "analysis": [
+      6
+    ],
+    "(MVA)": [
+      7
+    ],
+    "method": [
+      8,
+      18,
+      232,
+      255
+    ],
+    "based": [
+      9,
+      107
+    ],
+    "on": [
+      10,
+      108
+    ],
+    "wavefield": [
+      11
+    ],
+    "extrapolation.": [
+      12
+    ],
+    "Similarly": [
+      13
+    ],
+    "to": [
+      14,
+      73,
+      85,
+      104,
+      116,
+      175,
+      183
+    ],
+    "conventional": [
+      15
+    ],
+    "MVA,": [
+      16
+    ],
+    "our": [
+      17,
+      197,
+      231,
+      254
+    ],
+    "aims": [
+      19
+    ],
+    "at": [
+      20
+    ],
+    "iteratively": [
+      21
+    ],
+    "improving": [
+      22
+    ],
+    "the": [
+      23,
+      26,
+      32,
+      40,
+      47,
+      70,
+      76,
+      87,
+      92,
+      112,
+      117,
+      124,
+      128,
+      138,
+      146,
+      158,
+      176,
+      186,
+      189,
+      194,
+      209,
+      215,
+      221,
+      236,
+      250
+    ],
+    "quality": [
+      24
+    ],
+    "of": [
+      25,
+      34,
+      45,
+      69,
+      75,
+      96,
+      111,
+      123,
+      137,
+      157,
+      188,
+      196,
+      208,
+      253
+    ],
+    "migrated": [
+      27,
+      71
+    ],
+    "image,": [
+      28
+    ],
+    "as": [
+      29
+    ],
+    "measured": [
+      30,
+      50
+    ],
+    "by": [
+      31,
+      150,
+      167
+    ],
+    "flatness": [
+      33,
+      95
+    ],
+    "angle‐domain": [
+      35
+    ],
+    "common‐image": [
+      36
+    ],
+    "gathers": [
+      37
+    ],
+    "(ADCIGs)": [
+      38
+    ],
+    "over": [
+      39
+    ],
+    "aperture‐angle": [
+      41
+    ],
+    "axis.": [
+      42
+    ],
+    "However,": [
+      43
+    ],
+    "instead": [
+      44
+    ],
+    "inverting": [
+      46
+    ],
+    "depth": [
+      48
+    ],
+    "errors": [
+      49
+    ],
+    "in": [
+      51,
+      204,
+      220
+    ],
+    "ADCIGs": [
+      52
+    ],
+    "using": [
+      53,
+      60
+    ],
+    "ray‐based": [
+      54
+    ],
+    "tomography,": [
+      55
+    ],
+    "we": [
+      56,
+      141,
+      248
+    ],
+    "invert": [
+      57,
+      144
+    ],
+    "‘image": [
+      58
+    ],
+    "perturbations’": [
+      59
+    ],
+    "linearized": [
+      62,
+      99,
+      155,
+      162,
+      169,
+      190
+    ],
+    "wave‐equation": [
+      63
+    ],
+    "operator.": [
+      64
+    ],
+    "This": [
+      65
+    ],
+    "operator": [
+      66,
+      100,
+      173
+    ],
+    "relates": [
+      67,
+      101
+    ],
+    "perturbations": [
+      68,
+      74,
+      89,
+      103,
+      130,
+      148,
+      164,
+      212
+    ],
+    "image": [
+      72,
+      88,
+      105,
+      147,
+      159,
+      163,
+      191,
+      211
+    ],
+    "velocity.": [
+      78
+    ],
+    "use": [
+      80,
+      180
+    ],
+    "prestack": [
+      81,
+      170
+    ],
+    "Stolt": [
+      82
+    ],
+    "residual": [
+      83,
+      151,
+      171
+    ],
+    "define": [
+      86
+    ],
+    "that": [
+      90,
+      230
+    ],
+    "maximize": [
+      91
+    ],
+    "focusing": [
+      93
+    ],
+    "and": [
+      94,
+      217
+    ],
+    "ADCIGs.": [
+      97
+    ],
+    "Our": [
+      98
+    ],
+    "slowness": [
+      102
+    ],
+    "perturbations,": [
+      106,
+      192
+    ],
+    "truncation": [
+      110
+    ],
+    "Born": [
+      113,
+      135
+    ],
+    "scattering": [
+      114
+    ],
+    "series": [
+      115
+    ],
+    "first‐order": [
+      118
+    ],
+    "term.": [
+      119
+    ],
+    "To": [
+      120
+    ],
+    "avoid": [
+      121
+    ],
+    "divergence": [
+      122
+    ],
+    "inversion": [
+      125,
+      216
+    ],
+    "procedure": [
+      126
+    ],
+    "when": [
+      127,
+      206,
+      235
+    ],
+    "are": [
+      131,
+      165
+    ],
+    "too": [
+      132
+    ],
+    "large": [
+      133
+    ],
+    "for": [
+      134,
+      256
+    ],
+    "linearization": [
+      136
+    ],
+    "wave": [
+      139
+    ],
+    "equation,": [
+      140
+    ],
+    "do": [
+      142
+    ],
+    "not": [
+      143
+    ],
+    "directly": [
+      145
+    ],
+    "obtained": [
+      149
+    ],
+    "migration,": [
+      152
+    ],
+    "but": [
+      153
+    ],
+    "version": [
+      156
+    ],
+    "perturbations.": [
+      160
+    ],
+    "The": [
+      161
+    ],
+    "computed": [
+      166
+    ],
+    "applied": [
+      174
+    ],
+    "background": [
+      177
+    ],
+    "image.": [
+      178
+    ],
+    "numerical": [
+      181
+    ],
+    "examples": [
+      182,
+      229
+    ],
+    "illustrate": [
+      184,
+      249
+    ],
+    "how": [
+      185
+    ],
+    "backprojection": [
+      187,
+      207
+    ],
+    "i.e.": [
+      193
+    ],
+    "gradient": [
+      195
+    ],
+    "objective": [
+      198
+    ],
+    "function,": [
+      199
+    ],
+    "is": [
+      200,
+      240
+    ],
+    "well": [
+      201
+    ],
+    "behaved,": [
+      202
+    ],
+    "even": [
+      203,
+      234
+    ],
+    "cases": [
+      205
+    ],
+    "original": [
+      210
+    ],
+    "would": [
+      213
+    ],
+    "mislead": [
+      214
+    ],
+    "take": [
+      218
+    ],
+    "it": [
+      219
+    ],
+    "wrong": [
+      222
+    ],
+    "direction.": [
+      223
+    ],
+    "demonstrate": [
+      225
+    ],
+    "with": [
+      226
+    ],
+    "simple": [
+      227
+    ],
+    "synthetic": [
+      228
+    ],
+    "converges": [
+      233
+    ],
+    "initial": [
+      237
+    ],
+    "model": [
+      239
+    ],
+    "far": [
+      241
+    ],
+    "from": [
+      242
+    ],
+    "correct.": [
+      243
+    ],
+    "In": [
+      244
+    ],
+    "companion": [
+      246
+    ],
+    "paper,": [
+      247
+    ],
+    "full": [
+      251
+    ],
+    "potential": [
+      252
+    ],
+    "estimating": [
+      257
+    ],
+    "anomalies": [
+      259
+    ],
+    "under": [
+      260
+    ],
+    "complex": [
+      261
+    ],
+    "salt": [
+      262
+    ],
+    "bodies.": [
+      263
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 23
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 25
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 10
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

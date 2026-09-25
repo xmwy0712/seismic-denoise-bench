@@ -1,0 +1,954 @@
+{
+  "id": "https://openalex.org/W2127271355",
+  "doi": "https://doi.org/10.1109/tit.2007.909108",
+  "title": "Signal Recovery From Random Measurements Via Orthogonal Matching Pursuit",
+  "display_name": "Signal Recovery From Random Measurements Via Orthogonal Matching Pursuit",
+  "publication_year": 2007,
+  "publication_date": "2007-12-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2127271355",
+    "doi": "https://doi.org/10.1109/tit.2007.909108",
+    "mag": "2127271355"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1109/tit.2007.909108",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1109/tit.2007.909108",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4502562",
+      "display_name": "IEEE Transactions on Information Theory",
+      "issn_l": "0018-9448",
+      "issn": [
+        "0018-9448",
+        "1557-9654"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-3",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310319808",
+      "host_organization_name": "Institute of Electrical and Electronics Engineers",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319808"
+      ],
+      "host_organization_lineage_names": [
+        "Institute of Electrical and Electronics Engineers"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "IEEE Transactions on Information Theory",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5000879912",
+        "display_name": "Joel A. Tropp",
+        "orcid": "https://orcid.org/0000-0003-1024-1791",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-1024-1791"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I122411786",
+          "display_name": "California Institute of Technology",
+          "ror": "https://ror.org/05dxps055",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I122411786"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I27837315",
+          "display_name": "University of Michigan",
+          "ror": "https://ror.org/00jmfr291",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I27837315"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Joel A. Tropp",
+      "raw_affiliation_strings": [
+        "Applied and Computational Mathematics, California Institute of Technology, Pasadena, CA, USA",
+        "Department of Mathematics, University of Michigan, Ann Arbor, MI, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Applied and Computational Mathematics, California Institute of Technology, Pasadena, CA, USA",
+          "institution_ids": [
+            "https://openalex.org/I122411786"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Mathematics, University of Michigan, Ann Arbor, MI, USA",
+          "institution_ids": [
+            "https://openalex.org/I27837315"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5042502878",
+        "display_name": "Anna C. Gilbert",
+        "orcid": "https://orcid.org/0000-0002-9627-9274",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9627-9274"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I27837315",
+          "display_name": "University of Michigan",
+          "ror": "https://ror.org/00jmfr291",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I27837315"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Anna C. Gilbert",
+      "raw_affiliation_strings": [
+        "Department of Mathematics, University of Michigan, Ann Arbor, MI, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Mathematics, University of Michigan, Ann Arbor, MI, USA",
+          "institution_ids": [
+            "https://openalex.org/I27837315"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 2645,
+    "currency": "USD",
+    "value_usd": 2645
+  },
+  "apc_paid": null,
+  "fwci": 207.4636,
+  "has_fulltext": false,
+  "cited_by_count": 9832,
+  "citation_normalized_percentile": {
+    "value": 1.0,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "53",
+    "issue": "12",
+    "first_page": "4655",
+    "last_page": "4666"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10500",
+    "display_name": "Sparse and Compressive Sensing Techniques",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2206",
+      "display_name": "Computational Mechanics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10500",
+      "display_name": "Sparse and Compressive Sensing Techniques",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2206",
+        "display_name": "Computational Mechanics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11447",
+      "display_name": "Blind Source Separation Techniques",
+      "score": 0.9990000128746033,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1711",
+        "display_name": "Signal Processing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11739",
+      "display_name": "Microwave Imaging and Scattering Analysis",
+      "score": 0.9987000226974487,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2204",
+        "display_name": "Biomedical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/emphasis",
+      "display_name": "Emphasis (telecommunications)",
+      "score": 0.9871141910552979
+    },
+    {
+      "id": "https://openalex.org/keywords/matching-pursuit",
+      "display_name": "Matching pursuit",
+      "score": 0.9215407371520996
+    },
+    {
+      "id": "https://openalex.org/keywords/dimension",
+      "display_name": "Dimension (graph theory)",
+      "score": 0.6634359955787659
+    },
+    {
+      "id": "https://openalex.org/keywords/signal",
+      "display_name": "SIGNAL (programming language)",
+      "score": 0.6497839689254761
+    },
+    {
+      "id": "https://openalex.org/keywords/basis-pursuit",
+      "display_name": "Basis pursuit",
+      "score": 0.5412918925285339
+    },
+    {
+      "id": "https://openalex.org/keywords/signal-processing",
+      "display_name": "Signal processing",
+      "score": 0.5001578330993652
+    },
+    {
+      "id": "https://openalex.org/keywords/signal-reconstruction",
+      "display_name": "Signal reconstruction",
+      "score": 0.4874310791492462
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.47894126176834106
+    },
+    {
+      "id": "https://openalex.org/keywords/matching",
+      "display_name": "Matching (statistics)",
+      "score": 0.4695492386817932
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.4540555775165558
+    },
+    {
+      "id": "https://openalex.org/keywords/greedy-algorithm",
+      "display_name": "Greedy algorithm",
+      "score": 0.43267661333084106
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.42418718338012695
+    },
+    {
+      "id": "https://openalex.org/keywords/combinatorics",
+      "display_name": "Combinatorics",
+      "score": 0.35427361726760864
+    },
+    {
+      "id": "https://openalex.org/keywords/statistics",
+      "display_name": "Statistics",
+      "score": 0.1908131241798401
+    },
+    {
+      "id": "https://openalex.org/keywords/compressed-sensing",
+      "display_name": "Compressed sensing",
+      "score": 0.17596110701560974
+    },
+    {
+      "id": "https://openalex.org/keywords/telecommunications",
+      "display_name": "Telecommunications",
+      "score": 0.12574902176856995
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C177454536",
+      "wikidata": "https://www.wikidata.org/wiki/Q578290",
+      "display_name": "Emphasis (telecommunications)",
+      "level": 2,
+      "score": 0.9871141910552979
+    },
+    {
+      "id": "https://openalex.org/C156872377",
+      "wikidata": "https://www.wikidata.org/wiki/Q6786281",
+      "display_name": "Matching pursuit",
+      "level": 3,
+      "score": 0.9215407371520996
+    },
+    {
+      "id": "https://openalex.org/C33676613",
+      "wikidata": "https://www.wikidata.org/wiki/Q13415176",
+      "display_name": "Dimension (graph theory)",
+      "level": 2,
+      "score": 0.6634359955787659
+    },
+    {
+      "id": "https://openalex.org/C2779843651",
+      "wikidata": "https://www.wikidata.org/wiki/Q7390335",
+      "display_name": "SIGNAL (programming language)",
+      "level": 2,
+      "score": 0.6497839689254761
+    },
+    {
+      "id": "https://openalex.org/C99217422",
+      "wikidata": "https://www.wikidata.org/wiki/Q4867576",
+      "display_name": "Basis pursuit",
+      "level": 4,
+      "score": 0.5412918925285339
+    },
+    {
+      "id": "https://openalex.org/C104267543",
+      "wikidata": "https://www.wikidata.org/wiki/Q208163",
+      "display_name": "Signal processing",
+      "level": 3,
+      "score": 0.5001578330993652
+    },
+    {
+      "id": "https://openalex.org/C70958404",
+      "wikidata": "https://www.wikidata.org/wiki/Q7512728",
+      "display_name": "Signal reconstruction",
+      "level": 4,
+      "score": 0.4874310791492462
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.47894126176834106
+    },
+    {
+      "id": "https://openalex.org/C165064840",
+      "wikidata": "https://www.wikidata.org/wiki/Q1321061",
+      "display_name": "Matching (statistics)",
+      "level": 2,
+      "score": 0.4695492386817932
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.4540555775165558
+    },
+    {
+      "id": "https://openalex.org/C51823790",
+      "wikidata": "https://www.wikidata.org/wiki/Q504353",
+      "display_name": "Greedy algorithm",
+      "level": 2,
+      "score": 0.43267661333084106
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.42418718338012695
+    },
+    {
+      "id": "https://openalex.org/C114614502",
+      "wikidata": "https://www.wikidata.org/wiki/Q76592",
+      "display_name": "Combinatorics",
+      "level": 1,
+      "score": 0.35427361726760864
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.1908131241798401
+    },
+    {
+      "id": "https://openalex.org/C124851039",
+      "wikidata": "https://www.wikidata.org/wiki/Q2665459",
+      "display_name": "Compressed sensing",
+      "level": 2,
+      "score": 0.17596110701560974
+    },
+    {
+      "id": "https://openalex.org/C76155785",
+      "wikidata": "https://www.wikidata.org/wiki/Q418",
+      "display_name": "Telecommunications",
+      "level": 1,
+      "score": 0.12574902176856995
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C554190296",
+      "wikidata": "https://www.wikidata.org/wiki/Q47528",
+      "display_name": "Radar",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 4,
+  "locations": [
+    {
+      "id": "doi:10.1109/tit.2007.909108",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1109/tit.2007.909108",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4502562",
+        "display_name": "IEEE Transactions on Information Theory",
+        "issn_l": "0018-9448",
+        "issn": [
+          "0018-9448",
+          "1557-9654"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-3",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310319808",
+        "host_organization_name": "Institute of Electrical and Electronics Engineers",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319808"
+        ],
+        "host_organization_lineage_names": [
+          "Institute of Electrical and Electronics Engineers"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "IEEE Transactions on Information Theory",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:CiteSeerX.psu:10.1.1.112.7317",
+      "is_oa": false,
+      "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.112.7317",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "http://www.math.lsa.umich.edu/~annacg/papers/TG05-signal-recovery-TR.pdf",
+      "raw_type": "text"
+    },
+    {
+      "id": "pmh:oai:CiteSeerX.psu:10.1.1.154.7035",
+      "is_oa": false,
+      "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.154.7035",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "http://www.acm.caltech.edu/~jtropp/papers/TG07-Signal-Recovery.pdf",
+      "raw_type": "text"
+    },
+    {
+      "id": "pmh:oai:authors.library.caltech.edu:9490",
+      "is_oa": false,
+      "landing_page_url": "https://authors.library.caltech.edu/9490/",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402161",
+        "display_name": "CaltechAUTHORS (California Institute of Technology)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I122411786",
+        "host_organization_name": "California Institute of Technology",
+        "host_organization_lineage": [
+          "https://openalex.org/I122411786"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "Article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [
+    {
+      "id": "https://openalex.org/G3087946657",
+      "display_name": "PostDoctoral Research Fellowship",
+      "funder_award_id": "0503299",
+      "funder_id": "https://openalex.org/F4320306076",
+      "funder_display_name": "National Science Foundation"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320306076",
+      "display_name": "National Science Foundation",
+      "ror": "https://ror.org/021nxhr62"
+    }
+  ],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 51,
+  "referenced_works": [
+    "https://openalex.org/W134629238",
+    "https://openalex.org/W1544735579",
+    "https://openalex.org/W1546851689",
+    "https://openalex.org/W1555319958",
+    "https://openalex.org/W1573820523",
+    "https://openalex.org/W1577111082",
+    "https://openalex.org/W1586776267",
+    "https://openalex.org/W1632601927",
+    "https://openalex.org/W1969423031",
+    "https://openalex.org/W1970101292",
+    "https://openalex.org/W1974774078",
+    "https://openalex.org/W2010315317",
+    "https://openalex.org/W2021302824",
+    "https://openalex.org/W2030449718",
+    "https://openalex.org/W2037757210",
+    "https://openalex.org/W2050834445",
+    "https://openalex.org/W2063978378",
+    "https://openalex.org/W2066513831",
+    "https://openalex.org/W2078204800",
+    "https://openalex.org/W2084653541",
+    "https://openalex.org/W2091886411",
+    "https://openalex.org/W2099100030",
+    "https://openalex.org/W2109449402",
+    "https://openalex.org/W2109818394",
+    "https://openalex.org/W2115706991",
+    "https://openalex.org/W2116148865",
+    "https://openalex.org/W2125889434",
+    "https://openalex.org/W2128659236",
+    "https://openalex.org/W2129131372",
+    "https://openalex.org/W2129638195",
+    "https://openalex.org/W2143163931",
+    "https://openalex.org/W2145096794",
+    "https://openalex.org/W2151693816",
+    "https://openalex.org/W2154172459",
+    "https://openalex.org/W2163985430",
+    "https://openalex.org/W2171534739",
+    "https://openalex.org/W2266447120",
+    "https://openalex.org/W2296319761",
+    "https://openalex.org/W2296616510",
+    "https://openalex.org/W2494662548",
+    "https://openalex.org/W2798909945",
+    "https://openalex.org/W2907643919",
+    "https://openalex.org/W2951129094",
+    "https://openalex.org/W2954811775",
+    "https://openalex.org/W4231428347",
+    "https://openalex.org/W4250955649",
+    "https://openalex.org/W4285719527",
+    "https://openalex.org/W4298949291",
+    "https://openalex.org/W4300819821",
+    "https://openalex.org/W4302564868",
+    "https://openalex.org/W6658096495"
+  ],
+  "related_works": [
+    "https://openalex.org/W2127271355",
+    "https://openalex.org/W2388133936",
+    "https://openalex.org/W2067878805",
+    "https://openalex.org/W4243379378",
+    "https://openalex.org/W2086419783",
+    "https://openalex.org/W2436826437",
+    "https://openalex.org/W2523302315",
+    "https://openalex.org/W2381127329",
+    "https://openalex.org/W2059024629",
+    "https://openalex.org/W1983115982"
+  ],
+  "abstract_inverted_index": {
+    "This": [
+      0,
+      33
+    ],
+    "paper": [
+      1
+    ],
+    "demonstrates": [
+      2
+    ],
+    "theoretically": [
+      3
+    ],
+    "and": [
+      4,
+      69
+    ],
+    "empirically": [
+      5
+    ],
+    "that": [
+      6,
+      31
+    ],
+    "a": [
+      7,
+      18,
+      35
+    ],
+    "greedy": [
+      8
+    ],
+    "algorithm": [
+      9,
+      66
+    ],
+    "called": [
+      10,
+      57
+    ],
+    "Orthogonal": [
+      11
+    ],
+    "Matching": [
+      12
+    ],
+    "Pursuit": [
+      13,
+      59
+    ],
+    "(OMP)": [
+      14
+    ],
+    "can": [
+      15
+    ],
+    "reliably": [
+      16
+    ],
+    "recover": [
+      17
+    ],
+    "signal": [
+      19,
+      82
+    ],
+    "with$m$nonzero": [
+      20
+    ],
+    "entries": [
+      21
+    ],
+    "in": [
+      22
+    ],
+    "dimension$d$given$": [
+      23
+    ],
+    "{\\rm": [
+      24
+    ],
+    "O}(m": [
+      25
+    ],
+    "\\ln": [
+      26
+    ],
+    "d)$random": [
+      27
+    ],
+    "linear": [
+      28
+    ],
+    "measurements": [
+      29
+    ],
+    "of": [
+      30
+    ],
+    "signal.": [
+      32
+    ],
+    "is": [
+      34,
+      67,
+      75
+    ],
+    "massive": [
+      36
+    ],
+    "improvement": [
+      37
+    ],
+    "over": [
+      38
+    ],
+    "previous": [
+      39
+    ],
+    "results,": [
+      40
+    ],
+    "which": [
+      41
+    ],
+    "require${\\rm": [
+      42
+    ],
+    "O}(m^{2})$measurements.": [
+      43
+    ],
+    "The": [
+      44
+    ],
+    "new": [
+      45
+    ],
+    "results": [
+      46,
+      53
+    ],
+    "for": [
+      47,
+      54,
+      81
+    ],
+    "OMP": [
+      48,
+      65
+    ],
+    "are": [
+      49
+    ],
+    "comparable": [
+      50
+    ],
+    "with": [
+      51
+    ],
+    "recent": [
+      52
+    ],
+    "another": [
+      55
+    ],
+    "approach": [
+      56
+    ],
+    "Basis": [
+      58
+    ],
+    "(BP).": [
+      60
+    ],
+    "In": [
+      61
+    ],
+    "some": [
+      62
+    ],
+    "settings,": [
+      63
+    ],
+    "the": [
+      64
+    ],
+    "faster": [
+      68
+    ],
+    "easier": [
+      70
+    ],
+    "to": [
+      71,
+      79
+    ],
+    "implement,": [
+      72
+    ],
+    "so": [
+      73
+    ],
+    "it": [
+      74
+    ],
+    "an": [
+      76
+    ],
+    "attractive": [
+      77
+    ],
+    "alternative": [
+      78
+    ],
+    "BP": [
+      80
+    ],
+    "recovery": [
+      83
+    ],
+    "problems.": [
+      84
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 230
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 406
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 425
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 449
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 492
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 546
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 598
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 787
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 774
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 784
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 801
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 773
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 708
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 643
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 493
+    }
+  ],
+  "updated_date": "2026-09-23T09:40:40.371523",
+  "created_date": "2025-10-10T00:00:00"
+}

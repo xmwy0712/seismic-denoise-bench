@@ -1,0 +1,1078 @@
+{
+  "id": "https://openalex.org/W2020205028",
+  "doi": "https://doi.org/10.1190/1.3380591",
+  "title": "Seislet transform and seislet frame",
+  "display_name": "Seislet transform and seislet frame",
+  "publication_year": 2010,
+  "publication_date": "2010-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2020205028",
+    "doi": "https://doi.org/10.1190/1.3380591",
+    "mag": "2020205028"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.3380591",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.3380591",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S106174089",
+      "display_name": "Geophysics",
+      "issn_l": "0016-8033",
+      "issn": [
+        "0016-8033",
+        "1942-2156"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5005237932",
+        "display_name": "Sergey B. Fomel",
+        "orcid": "https://orcid.org/0000-0002-9024-5137",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9024-5137"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sergey Fomel",
+      "raw_affiliation_strings": [
+        "1The University of Texas at Austin, John A. and Katherine G. Jackson School of Geosciences, Austin, Texas, U.S.A. E-mail: sergey.fomel@beg.utexas.edu; yang.liu@beg.utexas.edu",
+        "The University of Texas at Austin, John A. and Katherine G. Jackson School of Geosciences, Austin, Texas, U.S.A. "
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1The University of Texas at Austin, John A. and Katherine G. Jackson School of Geosciences, Austin, Texas, U.S.A. E-mail: sergey.fomel@beg.utexas.edu; yang.liu@beg.utexas.edu",
+          "institution_ids": [
+            "https://openalex.org/I86519309"
+          ]
+        },
+        {
+          "raw_affiliation_string": "The University of Texas at Austin, John A. and Katherine G. Jackson School of Geosciences, Austin, Texas, U.S.A. ",
+          "institution_ids": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5014653096",
+        "display_name": "Yang Liu",
+        "orcid": "https://orcid.org/0000-0001-9786-2093",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-9786-2093"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Yang Liu",
+      "raw_affiliation_strings": [
+        "1The University of Texas at Austin, John A. and Katherine G. Jackson School of Geosciences, Austin, Texas, U.S.A. E-mail: sergey.fomel@beg.utexas.edu; yang.liu@beg.utexas.edu",
+        "The University of Texas at Austin, John A. and Katherine G. Jackson School of Geosciences, Austin, Texas, U.S.A. "
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1The University of Texas at Austin, John A. and Katherine G. Jackson School of Geosciences, Austin, Texas, U.S.A. E-mail: sergey.fomel@beg.utexas.edu; yang.liu@beg.utexas.edu",
+          "institution_ids": [
+            "https://openalex.org/I86519309"
+          ]
+        },
+        {
+          "raw_affiliation_string": "The University of Texas at Austin, John A. and Katherine G. Jackson School of Geosciences, Austin, Texas, U.S.A. ",
+          "institution_ids": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I86519309"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 5.2554,
+  "has_fulltext": false,
+  "cited_by_count": 434,
+  "citation_normalized_percentile": {
+    "value": 0.95558387,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 98,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "75",
+    "issue": "3",
+    "first_page": "V25",
+    "last_page": "V38"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9998999834060669,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10688",
+      "display_name": "Image and Signal Denoising Methods",
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11210",
+      "display_name": "Mathematical Analysis and Transform Methods",
+      "score": 0.9959999918937683,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2604",
+        "display_name": "Applied Mathematics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/26",
+        "display_name": "Mathematics"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/s-transform",
+      "display_name": "S transform",
+      "score": 0.5870967507362366
+    },
+    {
+      "id": "https://openalex.org/keywords/wavelet-transform",
+      "display_name": "Wavelet transform",
+      "score": 0.5867018699645996
+    },
+    {
+      "id": "https://openalex.org/keywords/harmonic-wavelet-transform",
+      "display_name": "Harmonic wavelet transform",
+      "score": 0.5402900576591492
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.517737090587616
+    },
+    {
+      "id": "https://openalex.org/keywords/constant-q-transform",
+      "display_name": "Constant Q transform",
+      "score": 0.5078015923500061
+    },
+    {
+      "id": "https://openalex.org/keywords/stationary-wavelet-transform",
+      "display_name": "Stationary wavelet transform",
+      "score": 0.506995677947998
+    },
+    {
+      "id": "https://openalex.org/keywords/lifting-scheme",
+      "display_name": "Lifting scheme",
+      "score": 0.48143643140792847
+    },
+    {
+      "id": "https://openalex.org/keywords/second-generation-wavelet-transform",
+      "display_name": "Second-generation wavelet transform",
+      "score": 0.4813616871833801
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.4716445803642273
+    },
+    {
+      "id": "https://openalex.org/keywords/hilbert-transform",
+      "display_name": "Hilbert transform",
+      "score": 0.4552052319049835
+    },
+    {
+      "id": "https://openalex.org/keywords/wavelet",
+      "display_name": "Wavelet",
+      "score": 0.43611469864845276
+    },
+    {
+      "id": "https://openalex.org/keywords/discrete-wavelet-transform",
+      "display_name": "Discrete wavelet transform",
+      "score": 0.39682143926620483
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.36767661571502686
+    },
+    {
+      "id": "https://openalex.org/keywords/filter",
+      "display_name": "Filter (signal processing)",
+      "score": 0.27578258514404297
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.24516195058822632
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-vision",
+      "display_name": "Computer vision",
+      "score": 0.21476924419403076
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C99234102",
+      "wikidata": "https://www.wikidata.org/wiki/Q7395403",
+      "display_name": "S transform",
+      "level": 5,
+      "score": 0.5870967507362366
+    },
+    {
+      "id": "https://openalex.org/C196216189",
+      "wikidata": "https://www.wikidata.org/wiki/Q2867",
+      "display_name": "Wavelet transform",
+      "level": 3,
+      "score": 0.5867018699645996
+    },
+    {
+      "id": "https://openalex.org/C1109138",
+      "wikidata": "https://www.wikidata.org/wiki/Q3280930",
+      "display_name": "Harmonic wavelet transform",
+      "level": 5,
+      "score": 0.5402900576591492
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.517737090587616
+    },
+    {
+      "id": "https://openalex.org/C153705960",
+      "wikidata": "https://www.wikidata.org/wiki/Q5163634",
+      "display_name": "Constant Q transform",
+      "level": 5,
+      "score": 0.5078015923500061
+    },
+    {
+      "id": "https://openalex.org/C73339587",
+      "wikidata": "https://www.wikidata.org/wiki/Q1375942",
+      "display_name": "Stationary wavelet transform",
+      "level": 5,
+      "score": 0.506995677947998
+    },
+    {
+      "id": "https://openalex.org/C199550912",
+      "wikidata": "https://www.wikidata.org/wiki/Q3238415",
+      "display_name": "Lifting scheme",
+      "level": 5,
+      "score": 0.48143643140792847
+    },
+    {
+      "id": "https://openalex.org/C111350171",
+      "wikidata": "https://www.wikidata.org/wiki/Q7443700",
+      "display_name": "Second-generation wavelet transform",
+      "level": 5,
+      "score": 0.4813616871833801
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.4716445803642273
+    },
+    {
+      "id": "https://openalex.org/C28799612",
+      "wikidata": "https://www.wikidata.org/wiki/Q685437",
+      "display_name": "Hilbert transform",
+      "level": 3,
+      "score": 0.4552052319049835
+    },
+    {
+      "id": "https://openalex.org/C47432892",
+      "wikidata": "https://www.wikidata.org/wiki/Q831390",
+      "display_name": "Wavelet",
+      "level": 2,
+      "score": 0.43611469864845276
+    },
+    {
+      "id": "https://openalex.org/C46286280",
+      "wikidata": "https://www.wikidata.org/wiki/Q2414958",
+      "display_name": "Discrete wavelet transform",
+      "level": 4,
+      "score": 0.39682143926620483
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.36767661571502686
+    },
+    {
+      "id": "https://openalex.org/C106131492",
+      "wikidata": "https://www.wikidata.org/wiki/Q3072260",
+      "display_name": "Filter (signal processing)",
+      "level": 2,
+      "score": 0.27578258514404297
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.24516195058822632
+    },
+    {
+      "id": "https://openalex.org/C31972630",
+      "wikidata": "https://www.wikidata.org/wiki/Q844240",
+      "display_name": "Computer vision",
+      "level": 1,
+      "score": 0.21476924419403076
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.3380591",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.3380591",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S106174089",
+        "display_name": "Geophysics",
+        "issn_l": "0016-8033",
+        "issn": [
+          "0016-8033",
+          "1942-2156"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysics",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:CiteSeerX.psu:10.1.1.301.355",
+      "is_oa": false,
+      "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.301.355",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "http://www.reproducibility.org/RSF/book/jsg/seislet/paper.pdf",
+      "raw_type": "text"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Sustainable cities and communities",
+      "score": 0.6200000047683716,
+      "id": "https://metadata.un.org/sdg/11"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320310620",
+      "display_name": "University of Texas at Austin",
+      "ror": "https://ror.org/00hj54h04"
+    },
+    {
+      "id": "https://openalex.org/F4320337828",
+      "display_name": "Bureau of Economic Geology, University of Texas at Austin",
+      "ror": "https://ror.org/034bxn811"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 44,
+  "referenced_works": [
+    "https://openalex.org/W91034261",
+    "https://openalex.org/W228380312",
+    "https://openalex.org/W1203142710",
+    "https://openalex.org/W1496923911",
+    "https://openalex.org/W1593527211",
+    "https://openalex.org/W1712399160",
+    "https://openalex.org/W1760895834",
+    "https://openalex.org/W1873368203",
+    "https://openalex.org/W1967884132",
+    "https://openalex.org/W1974581749",
+    "https://openalex.org/W1996287810",
+    "https://openalex.org/W1997419185",
+    "https://openalex.org/W2004603857",
+    "https://openalex.org/W2010236565",
+    "https://openalex.org/W2011181254",
+    "https://openalex.org/W2030343122",
+    "https://openalex.org/W2038233352",
+    "https://openalex.org/W2043147867",
+    "https://openalex.org/W2073143379",
+    "https://openalex.org/W2076393573",
+    "https://openalex.org/W2082864764",
+    "https://openalex.org/W2090319605",
+    "https://openalex.org/W2100864161",
+    "https://openalex.org/W2115706991",
+    "https://openalex.org/W2117853853",
+    "https://openalex.org/W2121226625",
+    "https://openalex.org/W2124283738",
+    "https://openalex.org/W2132680427",
+    "https://openalex.org/W2133629708",
+    "https://openalex.org/W2135818149",
+    "https://openalex.org/W2136085664",
+    "https://openalex.org/W2137155471",
+    "https://openalex.org/W2139663179",
+    "https://openalex.org/W2145263492",
+    "https://openalex.org/W2146842127",
+    "https://openalex.org/W2148628184",
+    "https://openalex.org/W2167651580",
+    "https://openalex.org/W2168141504",
+    "https://openalex.org/W2169244200",
+    "https://openalex.org/W2170860899",
+    "https://openalex.org/W2332304477",
+    "https://openalex.org/W2990598036",
+    "https://openalex.org/W3005363104",
+    "https://openalex.org/W3143942160"
+  ],
+  "related_works": [
+    "https://openalex.org/W2222331773",
+    "https://openalex.org/W237185286",
+    "https://openalex.org/W2110959724",
+    "https://openalex.org/W2045970078",
+    "https://openalex.org/W2390879839",
+    "https://openalex.org/W2378148381",
+    "https://openalex.org/W2551275593",
+    "https://openalex.org/W2349536044",
+    "https://openalex.org/W1992851990",
+    "https://openalex.org/W4364360619"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "We": [
+      1
+    ],
+    "introduce": [
+      2
+    ],
+    "a": [
+      3,
+      18,
+      93,
+      106,
+      110
+    ],
+    "digital": [
+      4,
+      101
+    ],
+    "waveletlike": [
+      5
+    ],
+    "transform,": [
+      6
+    ],
+    "which": [
+      7
+    ],
+    "is": [
+      8,
+      34,
+      55,
+      67,
+      83,
+      104,
+      129
+    ],
+    "tailored": [
+      9
+    ],
+    "specifically": [
+      10
+    ],
+    "for": [
+      11,
+      109,
+      134
+    ],
+    "representing": [
+      12
+    ],
+    "seismic": [
+      13,
+      27,
+      178
+    ],
+    "data.": [
+      14,
+      32
+    ],
+    "The": [
+      15,
+      122
+    ],
+    "transform": [
+      16,
+      54,
+      86,
+      103,
+      108,
+      128,
+      169
+    ],
+    "provides": [
+      17
+    ],
+    "multiscale": [
+      19
+    ],
+    "orthogonal": [
+      20
+    ],
+    "basis": [
+      21,
+      23
+    ],
+    "with": [
+      22,
+      36,
+      44,
+      74
+    ],
+    "functions": [
+      24
+    ],
+    "aligned": [
+      25
+    ],
+    "along": [
+      26
+    ],
+    "events": [
+      28
+    ],
+    "in": [
+      29,
+      152,
+      158,
+      174
+    ],
+    "the": [
+      30,
+      37,
+      40,
+      49,
+      52,
+      63,
+      85,
+      99,
+      126,
+      153,
+      159,
+      167
+    ],
+    "input": [
+      31
+    ],
+    "It": [
+      33
+    ],
+    "defined": [
+      35,
+      151
+    ],
+    "help": [
+      38
+    ],
+    "of": [
+      39,
+      125,
+      177
+    ],
+    "wavelet-lifting": [
+      41
+    ],
+    "scheme": [
+      42
+    ],
+    "combined": [
+      43
+    ],
+    "local": [
+      45,
+      71
+    ],
+    "plane-wave": [
+      46,
+      72
+    ],
+    "destruction.": [
+      47
+    ],
+    "In": [
+      48,
+      62,
+      96
+    ],
+    "1D": [
+      50
+    ],
+    "case,": [
+      51,
+      65
+    ],
+    "seislet": [
+      53,
+      107,
+      154,
+      168
+    ],
+    "designed": [
+      56,
+      68
+    ],
+    "to": [
+      57,
+      69
+    ],
+    "follow": [
+      58,
+      70
+    ],
+    "locally": [
+      59
+    ],
+    "sinusoidal": [
+      60
+    ],
+    "components.": [
+      61
+    ],
+    "2D": [
+      64
+    ],
+    "it": [
+      66
+    ],
+    "components": [
+      73
+    ],
+    "smoothly": [
+      75
+    ],
+    "variable": [
+      76
+    ],
+    "slopes.": [
+      77
+    ],
+    "If": [
+      78
+    ],
+    "more": [
+      79
+    ],
+    "than": [
+      80
+    ],
+    "one": [
+      81,
+      114
+    ],
+    "component": [
+      82
+    ],
+    "present,": [
+      84
+    ],
+    "turns": [
+      87
+    ],
+    "into": [
+      88
+    ],
+    "an": [
+      89,
+      130,
+      171
+    ],
+    "overcomplete": [
+      90
+    ],
+    "representation": [
+      91
+    ],
+    "or": [
+      92,
+      116,
+      164
+    ],
+    "tight": [
+      94
+    ],
+    "frame.": [
+      95
+    ],
+    "these": [
+      97
+    ],
+    "terms,": [
+      98
+    ],
+    "classic": [
+      100
+    ],
+    "wavelet": [
+      102
+    ],
+    "simply": [
+      105,
+      150
+    ],
+    "zero": [
+      111,
+      117
+    ],
+    "frequency": [
+      112
+    ],
+    "(in": [
+      113,
+      119
+    ],
+    "dimension)": [
+      115
+    ],
+    "slope": [
+      118
+    ],
+    "two": [
+      120
+    ],
+    "dimensions).": [
+      121
+    ],
+    "main": [
+      123
+    ],
+    "objective": [
+      124
+    ],
+    "new": [
+      127
+    ],
+    "effective": [
+      131
+    ],
+    "seismic-data": [
+      132
+    ],
+    "compression": [
+      133
+    ],
+    "designing": [
+      135
+    ],
+    "efficient": [
+      136
+    ],
+    "data-analysis": [
+      137
+    ],
+    "algorithms.": [
+      138
+    ],
+    "Traditional": [
+      139
+    ],
+    "signal-processing": [
+      140
+    ],
+    "tasks": [
+      141
+    ],
+    "such": [
+      142
+    ],
+    "as": [
+      143
+    ],
+    "noise": [
+      144
+    ],
+    "attenuation": [
+      145
+    ],
+    "and": [
+      146
+    ],
+    "trace": [
+      147
+    ],
+    "interpolation": [
+      148
+    ],
+    "become": [
+      149
+    ],
+    "domain.": [
+      155
+    ],
+    "When": [
+      156
+    ],
+    "applied": [
+      157
+    ],
+    "offset": [
+      160
+    ],
+    "direction": [
+      161
+    ],
+    "on": [
+      162
+    ],
+    "common-midpoint": [
+      163
+    ],
+    "common-image-point": [
+      165
+    ],
+    "gathers,": [
+      166
+    ],
+    "finds": [
+      170
+    ],
+    "additional": [
+      172
+    ],
+    "application": [
+      173
+    ],
+    "optimal": [
+      175
+    ],
+    "stacking": [
+      176
+    ],
+    "records.": [
+      179
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 23
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 26
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 44
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 34
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 52
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 30
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 41
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 39
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 32
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 28
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 31
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 6
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

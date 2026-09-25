@@ -1,0 +1,698 @@
+{
+  "id": "https://openalex.org/W1662674546",
+  "doi": "https://doi.org/10.1007/978-1-4613-0001-4",
+  "title": "Mathematics of Multidimensional Seismic Imaging, Migration, and Inversion",
+  "display_name": "Mathematics of Multidimensional Seismic Imaging, Migration, and Inversion",
+  "publication_year": 2001,
+  "publication_date": "2001-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1662674546",
+    "doi": "https://doi.org/10.1007/978-1-4613-0001-4",
+    "mag": "1662674546"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1007/978-1-4613-0001-4",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1007/978-1-4613-0001-4",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4210188942",
+      "display_name": "Interdisciplinary applied mathematics",
+      "issn_l": "0939-6047",
+      "issn": [
+        "0939-6047",
+        "2196-9973"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core"
+      ],
+      "host_organization": "https://openalex.org/P4310319965",
+      "host_organization_name": "Springer Nature",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Nature"
+      ],
+      "type": "book series"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Interdisciplinary Applied Mathematics",
+    "raw_type": "book"
+  },
+  "type": "book",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5113612008",
+        "display_name": "Norm Bleistein",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I167576493",
+          "display_name": "Colorado School of Mines",
+          "ror": "https://ror.org/04raf6v53",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I167576493"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "N. Bleistein",
+      "raw_affiliation_strings": [
+        "Center for Wave Phenomena, Colorado School of Mines, Golden, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Wave Phenomena, Colorado School of Mines, Golden, USA",
+          "institution_ids": [
+            "https://openalex.org/I167576493"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5002753264",
+        "display_name": "John W. Stockwell",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I167576493",
+          "display_name": "Colorado School of Mines",
+          "ror": "https://ror.org/04raf6v53",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I167576493"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J. W. Stockwell",
+      "raw_affiliation_strings": [
+        "Center for Wave Phenomena, Colorado School of Mines, Golden, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Center for Wave Phenomena, Colorado School of Mines, Golden, USA",
+          "institution_ids": [
+            "https://openalex.org/I167576493"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5110124748",
+        "display_name": "Jack K. Cohen",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I122411786",
+          "display_name": "California Institute of Technology",
+          "ror": "https://ror.org/05dxps055",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I122411786"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I167576493",
+          "display_name": "Colorado School of Mines",
+          "ror": "https://ror.org/04raf6v53",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I167576493"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I27804330",
+          "display_name": "Brown University",
+          "ror": "https://ror.org/05gq02987",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I27804330"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210140143",
+          "display_name": "Dynamic Systems (United States)",
+          "ror": "https://ror.org/043vm9914",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210140143"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J. K. Cohen",
+      "raw_affiliation_strings": [
+        "California Institute of Technology Pasadena, CA 91125, USA",
+        "Center for Wave Phenomena Colorado School of Mines Golden, CO 80401-1887, USA",
+        "Control and Dynamical Systems",
+        "Control and Dynamical Systems Mail Code 107-",
+        "Division of Applied Mathematics Brown University Providence, RI 02912, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "California Institute of Technology Pasadena, CA 91125, USA",
+          "institution_ids": [
+            "https://openalex.org/I122411786"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Center for Wave Phenomena Colorado School of Mines Golden, CO 80401-1887, USA",
+          "institution_ids": [
+            "https://openalex.org/I167576493"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Control and Dynamical Systems",
+          "institution_ids": [
+            "https://openalex.org/I4210140143"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Control and Dynamical Systems Mail Code 107-",
+          "institution_ids": [
+            "https://openalex.org/I4210140143"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Division of Applied Mathematics Brown University Providence, RI 02912, USA",
+          "institution_ids": [
+            "https://openalex.org/I27804330"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 4,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 15.0268,
+  "has_fulltext": false,
+  "cited_by_count": 535,
+  "citation_normalized_percentile": {
+    "value": 0.98850575,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9866999983787537,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9866999983787537,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10399",
+      "display_name": "Hydrocarbon exploration and reservoir analysis",
+      "score": 0.946399986743927,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.930400013923645,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/inversion",
+      "display_name": "Inversion (geology)",
+      "score": 0.6734490394592285
+    },
+    {
+      "id": "https://openalex.org/keywords/construct",
+      "display_name": "Construct (python library)",
+      "score": 0.5715947151184082
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.5420099496841431
+    },
+    {
+      "id": "https://openalex.org/keywords/yield",
+      "display_name": "Yield (engineering)",
+      "score": 0.470515638589859
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.45989659428596497
+    },
+    {
+      "id": "https://openalex.org/keywords/fossil-fuel",
+      "display_name": "Fossil fuel",
+      "score": 0.4532169699668884
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-inversion",
+      "display_name": "Seismic inversion",
+      "score": 0.4463198482990265
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.31058064103126526
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.24458232522010803
+    },
+    {
+      "id": "https://openalex.org/keywords/geometry",
+      "display_name": "Geometry",
+      "score": 0.1826421022415161
+    },
+    {
+      "id": "https://openalex.org/keywords/engineering",
+      "display_name": "Engineering",
+      "score": 0.15338897705078125
+    },
+    {
+      "id": "https://openalex.org/keywords/materials-science",
+      "display_name": "Materials science",
+      "score": 0.10052010416984558
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C1893757",
+      "wikidata": "https://www.wikidata.org/wiki/Q3653001",
+      "display_name": "Inversion (geology)",
+      "level": 3,
+      "score": 0.6734490394592285
+    },
+    {
+      "id": "https://openalex.org/C2780801425",
+      "wikidata": "https://www.wikidata.org/wiki/Q5164392",
+      "display_name": "Construct (python library)",
+      "level": 2,
+      "score": 0.5715947151184082
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.5420099496841431
+    },
+    {
+      "id": "https://openalex.org/C134121241",
+      "wikidata": "https://www.wikidata.org/wiki/Q899301",
+      "display_name": "Yield (engineering)",
+      "level": 2,
+      "score": 0.470515638589859
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.45989659428596497
+    },
+    {
+      "id": "https://openalex.org/C68189081",
+      "wikidata": "https://www.wikidata.org/wiki/Q12748",
+      "display_name": "Fossil fuel",
+      "level": 2,
+      "score": 0.4532169699668884
+    },
+    {
+      "id": "https://openalex.org/C39267094",
+      "wikidata": "https://www.wikidata.org/wiki/Q7446968",
+      "display_name": "Seismic inversion",
+      "level": 3,
+      "score": 0.4463198482990265
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.31058064103126526
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.24458232522010803
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.1826421022415161
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.15338897705078125
+    },
+    {
+      "id": "https://openalex.org/C192562407",
+      "wikidata": "https://www.wikidata.org/wiki/Q228736",
+      "display_name": "Materials science",
+      "level": 0,
+      "score": 0.10052010416984558
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C548081761",
+      "wikidata": "https://www.wikidata.org/wiki/Q180388",
+      "display_name": "Waste management",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C159737794",
+      "wikidata": "https://www.wikidata.org/wiki/Q124274",
+      "display_name": "Azimuth",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C77928131",
+      "wikidata": "https://www.wikidata.org/wiki/Q193343",
+      "display_name": "Tectonics",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C191897082",
+      "wikidata": "https://www.wikidata.org/wiki/Q11467",
+      "display_name": "Metallurgy",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 3,
+  "locations": [
+    {
+      "id": "doi:10.1007/978-1-4613-0001-4",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1007/978-1-4613-0001-4",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210188942",
+        "display_name": "Interdisciplinary applied mathematics",
+        "issn_l": "0939-6047",
+        "issn": [
+          "0939-6047",
+          "2196-9973"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core"
+        ],
+        "host_organization": "https://openalex.org/P4310319965",
+        "host_organization_name": "Springer Nature",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Nature"
+        ],
+        "type": "book series"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Interdisciplinary Applied Mathematics",
+      "raw_type": "book"
+    },
+    {
+      "id": "pmh:oai:aleph.bib-bvb.de:BVB01-009323548",
+      "is_oa": false,
+      "landing_page_url": "http://bvbr.bib-bvb.de:8991/F?func=service&amp;doc_library=BVB01&amp;local_base=BVB01&amp;doc_number=009323548&amp;sequence=000001&amp;line_number=0001&amp;func_code=DB_RECORDS&amp;service_type=MEDIA",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "text"
+    },
+    {
+      "id": "pmh:oai:cds.cern.ch:1634949",
+      "is_oa": false,
+      "landing_page_url": "http://cds.cern.ch/record/1634949",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402195",
+        "display_name": "CERN Document Server (European Organization for Nuclear Research)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I67311998",
+        "host_organization_name": "European Organization for Nuclear Research",
+        "host_organization_lineage": [
+          "https://openalex.org/I67311998"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": null
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "score": 0.5,
+      "id": "https://metadata.un.org/sdg/10",
+      "display_name": "Reduced inequalities"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 1,
+  "referenced_works": [
+    "https://openalex.org/W144640422"
+  ],
+  "related_works": [
+    "https://openalex.org/W2027690137",
+    "https://openalex.org/W2471474995",
+    "https://openalex.org/W2394411732",
+    "https://openalex.org/W2349368632",
+    "https://openalex.org/W4378230661",
+    "https://openalex.org/W2077263083",
+    "https://openalex.org/W2374132258",
+    "https://openalex.org/W2356317760",
+    "https://openalex.org/W2351412542",
+    "https://openalex.org/W2943397648"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 25
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 27
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 35
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 28
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 25
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 22
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

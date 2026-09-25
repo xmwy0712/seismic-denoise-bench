@@ -1,0 +1,1035 @@
+{
+  "id": "https://openalex.org/W1507181737",
+  "doi": "https://doi.org/10.1201/9780203734032",
+  "title": "WAVELETS in Medicine and Biology",
+  "display_name": "WAVELETS in Medicine and Biology",
+  "publication_year": 2017,
+  "publication_date": "2017-11-22",
+  "ids": {
+    "openalex": "https://openalex.org/W1507181737",
+    "doi": "https://doi.org/10.1201/9780203734032",
+    "mag": "1507181737"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1201/9780203734032",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1201/9780203734032",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": null,
+    "raw_type": "book"
+  },
+  "type": "book",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 3.6368,
+  "has_fulltext": false,
+  "cited_by_count": 355,
+  "citation_normalized_percentile": {
+    "value": 0.94034091,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 94,
+    "max": 100
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12994",
+    "display_name": "Infrared Thermography in Medicine",
+    "score": 0.7057999968528748,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2741",
+      "display_name": "Radiology, Nuclear Medicine and Imaging"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/27",
+      "display_name": "Medicine"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/4",
+      "display_name": "Health Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12994",
+      "display_name": "Infrared Thermography in Medicine",
+      "score": 0.7057999968528748,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2741",
+        "display_name": "Radiology, Nuclear Medicine and Imaging"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/cognitive-science",
+      "display_name": "Cognitive science",
+      "score": 0.3671373128890991
+    },
+    {
+      "id": "https://openalex.org/keywords/computational-biology",
+      "display_name": "Computational biology",
+      "score": 0.3627202808856964
+    },
+    {
+      "id": "https://openalex.org/keywords/biology",
+      "display_name": "Biology",
+      "score": 0.3433755040168762
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.33164888620376587
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.3101993203163147
+    },
+    {
+      "id": "https://openalex.org/keywords/psychology",
+      "display_name": "Psychology",
+      "score": 0.27960139513015747
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C188147891",
+      "wikidata": "https://www.wikidata.org/wiki/Q147638",
+      "display_name": "Cognitive science",
+      "level": 1,
+      "score": 0.3671373128890991
+    },
+    {
+      "id": "https://openalex.org/C70721500",
+      "wikidata": "https://www.wikidata.org/wiki/Q177005",
+      "display_name": "Computational biology",
+      "level": 1,
+      "score": 0.3627202808856964
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.3433755040168762
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.33164888620376587
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.3101993203163147
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.27960139513015747
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1201/9780203734032",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1201/9780203734032",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": null,
+      "raw_type": "book"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2899084033",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2082860237",
+    "https://openalex.org/W2130076355",
+    "https://openalex.org/W1990804418",
+    "https://openalex.org/W1993764875",
+    "https://openalex.org/W1641042124",
+    "https://openalex.org/W2013243191",
+    "https://openalex.org/W2151865869",
+    "https://openalex.org/W2117258802"
+  ],
+  "abstract_inverted_index": {
+    "Preface,": [
+      0
+    ],
+    "A.": [
+      1,
+      17,
+      106
+    ],
+    "Aldroubi": [
+      2,
+      18
+    ],
+    "and": [
+      3,
+      9,
+      35,
+      60,
+      81,
+      93,
+      100,
+      105,
+      120,
+      123,
+      128,
+      132,
+      137,
+      158,
+      162,
+      182,
+      197,
+      206,
+      214,
+      218,
+      229,
+      232,
+      240,
+      255,
+      279,
+      299,
+      320
+    ],
+    "M.": [
+      4,
+      29,
+      52,
+      73,
+      116,
+      129,
+      253,
+      256,
+      276
+    ],
+    "Unser": [
+      5,
+      30
+    ],
+    "Wavelet": [
+      6,
+      12,
+      27,
+      40,
+      46,
+      69,
+      118,
+      149,
+      170,
+      222,
+      250,
+      290,
+      305,
+      313
+    ],
+    "Transform:": [
+      7,
+      13,
+      223
+    ],
+    "Theory": [
+      8
+    ],
+    "Implementation": [
+      10,
+      24
+    ],
+    "The": [
+      11,
+      248,
+      302
+    ],
+    "A": [
+      14,
+      19,
+      284
+    ],
+    "Surfing": [
+      15
+    ],
+    "Guide,": [
+      16
+    ],
+    "Practical": [
+      20
+    ],
+    "Guide": [
+      21
+    ],
+    "to": [
+      22,
+      42,
+      110,
+      172,
+      262,
+      307
+    ],
+    "the": [
+      23,
+      26,
+      169,
+      186,
+      288
+    ],
+    "of": [
+      25,
+      39,
+      48,
+      65,
+      189,
+      268,
+      287,
+      304,
+      315
+    ],
+    "Transform,": [
+      28
+    ],
+    "Wavelets": [
+      31,
+      109,
+      131,
+      161,
+      278
+    ],
+    "in": [
+      32,
+      86,
+      113,
+      192,
+      245,
+      282
+    ],
+    "Medical": [
+      33
+    ],
+    "Imaging": [
+      34
+    ],
+    "Tomography": [
+      36
+    ],
+    "An": [
+      37
+    ],
+    "Application": [
+      38,
+      303
+    ],
+    "Shrinkage": [
+      41
+    ],
+    "Tomography,": [
+      43,
+      134,
+      145
+    ],
+    "E.": [
+      44,
+      333
+    ],
+    "Kolaczyk": [
+      45
+    ],
+    "Denoising": [
+      47
+    ],
+    "Functional": [
+      49
+    ],
+    "MRI": [
+      50
+    ],
+    "Data,": [
+      51,
+      264
+    ],
+    "Hilton,": [
+      53
+    ],
+    "T.": [
+      54,
+      146
+    ],
+    "Ogden,": [
+      55
+    ],
+    "D.": [
+      56,
+      79,
+      82,
+      138,
+      156
+    ],
+    "Hattery,": [
+      57
+    ],
+    "G.": [
+      58,
+      241
+    ],
+    "Eden,": [
+      59
+    ],
+    "B.": [
+      61,
+      91,
+      321
+    ],
+    "Jawerth": [
+      62
+    ],
+    "Statistical": [
+      63
+    ],
+    "Analysis": [
+      64
+    ],
+    "Image": [
+      66
+    ],
+    "Differences": [
+      67
+    ],
+    "by": [
+      68,
+      98,
+      331
+    ],
+    "Decomposition,": [
+      70
+    ],
+    "U.E.": [
+      71
+    ],
+    "Ruttiman,": [
+      72
+    ],
+    "Unser,": [
+      74
+    ],
+    "P.": [
+      75,
+      216,
+      219
+    ],
+    "Thevenaz,": [
+      76
+    ],
+    "C.": [
+      77,
+      135,
+      202
+    ],
+    "Lee,": [
+      78
+    ],
+    "Rio,": [
+      80
+    ],
+    "Hommer": [
+      83
+    ],
+    "Feature": [
+      84
+    ],
+    "Extraction": [
+      85
+    ],
+    "Digital": [
+      87
+    ],
+    "Mammography,": [
+      88
+    ],
+    "R.A.": [
+      89
+    ],
+    "DeVore,": [
+      90
+    ],
+    "Lucier,": [
+      92
+    ],
+    "Z.": [
+      94
+    ],
+    "Yang": [
+      95
+    ],
+    "Contrast": [
+      96
+    ],
+    "Enhancement": [
+      97
+    ],
+    "Multiscale": [
+      99
+    ],
+    "Nonlinear": [
+      101,
+      285
+    ],
+    "Operators,": [
+      102
+    ],
+    "J.": [
+      103,
+      159,
+      318
+    ],
+    "Fan": [
+      104
+    ],
+    "Laine": [
+      107
+    ],
+    "Using": [
+      108,
+      168,
+      195,
+      272
+    ],
+    "Suppress": [
+      111
+    ],
+    "Noise": [
+      112
+    ],
+    "Biomedical": [
+      114,
+      163,
+      246
+    ],
+    "Images,": [
+      115,
+      155
+    ],
+    "Malfait": [
+      117
+    ],
+    "Transform": [
+      119,
+      171,
+      291
+    ],
+    "Tomography:": [
+      121
+    ],
+    "Continuous": [
+      122,
+      221,
+      289
+    ],
+    "Discrete": [
+      124
+    ],
+    "Approaches,": [
+      125
+    ],
+    "F.": [
+      126
+    ],
+    "Peyrin": [
+      127
+    ],
+    "Zaim": [
+      130
+    ],
+    "Local": [
+      133
+    ],
+    "Berenstein": [
+      136
+    ],
+    "Walnut": [
+      139
+    ],
+    "Optimal": [
+      140
+    ],
+    "Time-Frequency": [
+      141
+    ],
+    "Projections": [
+      142
+    ],
+    "for": [
+      143,
+      151
+    ],
+    "Localized": [
+      144
+    ],
+    "Olson": [
+      147
+    ],
+    "Adapted": [
+      148
+    ],
+    "Techniques": [
+      150
+    ],
+    "Encoding": [
+      152
+    ],
+    "Magnetic": [
+      153
+    ],
+    "Resonance": [
+      154
+    ],
+    "Healy": [
+      157
+    ],
+    "Weaver": [
+      160
+    ],
+    "Signal": [
+      164,
+      259
+    ],
+    "Processing": [
+      165,
+      260
+    ],
+    "Sleep": [
+      166
+    ],
+    "Images": [
+      167
+    ],
+    "Process": [
+      173
+    ],
+    "Polysomnographic": [
+      174
+    ],
+    "Signals,": [
+      175
+    ],
+    "R.": [
+      176
+    ],
+    "Sartene,": [
+      177
+    ],
+    "L.": [
+      178,
+      236,
+      238,
+      311
+    ],
+    "Poupard,": [
+      179
+    ],
+    "J.L.": [
+      180
+    ],
+    "Bernard,": [
+      181
+    ],
+    "J.C.": [
+      183
+    ],
+    "Wallet": [
+      184
+    ],
+    "Estimating": [
+      185
+    ],
+    "Fractal": [
+      187
+    ],
+    "Exponent": [
+      188
+    ],
+    "Point": [
+      190,
+      209
+    ],
+    "Processes": [
+      191
+    ],
+    "Biological": [
+      193
+    ],
+    "Systems": [
+      194
+    ],
+    "Wavelet-": [
+      196
+    ],
+    "Fourier-Transform": [
+      198
+    ],
+    "Methods,": [
+      199
+    ],
+    "M.C.": [
+      200
+    ],
+    "Teich,": [
+      201
+    ],
+    "Heneghan,": [
+      203
+    ],
+    "S.B.": [
+      204
+    ],
+    "Lowen,": [
+      205
+    ],
+    "R.G.": [
+      207
+    ],
+    "Turcott": [
+      208
+    ],
+    "Processes,": [
+      210
+    ],
+    "Long": [
+      211
+    ],
+    "Range": [
+      212
+    ],
+    "Dependence,": [
+      213
+    ],
+    "Wavelets,": [
+      215,
+      332
+    ],
+    "Abry": [
+      217
+    ],
+    "Flandrin": [
+      220
+    ],
+    "ECG": [
+      224
+    ],
+    "Recognition": [
+      225
+    ],
+    "Based": [
+      226,
+      292,
+      326
+    ],
+    "on": [
+      227,
+      293,
+      327
+    ],
+    "Phase": [
+      228
+    ],
+    "Modulus": [
+      230
+    ],
+    "Representations": [
+      231
+    ],
+    "Hidden": [
+      233
+    ],
+    "Markov": [
+      234
+    ],
+    "Models,": [
+      235,
+      296
+    ],
+    "Senhadji,": [
+      237
+    ],
+    "Thoraval,": [
+      239
+    ],
+    "Carrault": [
+      242
+    ],
+    "Interference": [
+      243
+    ],
+    "Canceling": [
+      244
+    ],
+    "Systems:": [
+      247
+    ],
+    "Mutual": [
+      249
+    ],
+    "Packet": [
+      251
+    ],
+    "Approach,": [
+      252
+    ],
+    "Karrakchou": [
+      254
+    ],
+    "Kunt": [
+      257
+    ],
+    "Frame": [
+      258
+    ],
+    "Applied": [
+      261
+    ],
+    "Bioelectric": [
+      263
+    ],
+    "J.J.": [
+      265
+    ],
+    "Benedetto": [
+      266
+    ],
+    "Diagnosis": [
+      267
+    ],
+    "Coronary": [
+      269
+    ],
+    "Artery": [
+      270
+    ],
+    "Disease": [
+      271
+    ],
+    "Wavelet-Based": [
+      273
+    ],
+    "Neural": [
+      274
+    ],
+    "Networks,": [
+      275
+    ],
+    "Akay": [
+      277
+    ],
+    "Mathematical": [
+      280
+    ],
+    "Models": [
+      281,
+      314
+    ],
+    "Biology": [
+      283
+    ],
+    "Squeezing": [
+      286
+    ],
+    "Auditory": [
+      294
+    ],
+    "Nerve": [
+      295
+    ],
+    "I.": [
+      297
+    ],
+    "Daubechies": [
+      298
+    ],
+    "S.": [
+      300
+    ],
+    "Maes": [
+      301
+    ],
+    "Transforms": [
+      306
+    ],
+    "Blood": [
+      308
+    ],
+    "Flow": [
+      309
+    ],
+    "Velocimetry,": [
+      310
+    ],
+    "Weiss": [
+      312
+    ],
+    "Event-Related": [
+      316
+    ],
+    "Potential,": [
+      317
+    ],
+    "Raz": [
+      319
+    ],
+    "Turetsky": [
+      322
+    ],
+    "Macromolecular": [
+      323
+    ],
+    "Structure": [
+      324
+    ],
+    "Computation": [
+      325
+    ],
+    "Energy": [
+      328
+    ],
+    "Function": [
+      329
+    ],
+    "Approximation": [
+      330
+    ],
+    "Schmitt": [
+      334
+    ],
+    "Index": [
+      335
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 12
+    }
+  ],
+  "updated_date": "2025-11-06T03:46:38.306776",
+  "created_date": "2016-06-24T00:00:00"
+}

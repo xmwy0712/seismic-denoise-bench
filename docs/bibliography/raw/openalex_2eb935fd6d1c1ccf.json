@@ -1,0 +1,557 @@
+{
+  "id": "https://openalex.org/W2080690793",
+  "doi": "https://doi.org/10.1023/a:1021216313892",
+  "title": "Statistical tests for regional seismic phase characterizations",
+  "display_name": "Statistical tests for regional seismic phase characterizations",
+  "publication_year": 2003,
+  "publication_date": "2003-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2080690793",
+    "doi": "https://doi.org/10.1023/a:1021216313892",
+    "mag": "2080690793"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1023/a:1021216313892",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1023/a:1021216313892",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S198209080",
+      "display_name": "Journal of Seismology",
+      "issn_l": "1383-4649",
+      "issn": [
+        "1383-4649",
+        "1573-157X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319900",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Science+Business Media",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Seismology",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5101507478",
+        "display_name": "Leif Persson",
+        "orcid": "https://orcid.org/0000-0002-5172-5701"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I123387679",
+          "display_name": "Uppsala University",
+          "ror": "https://ror.org/048a87296",
+          "country_code": "SE",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I123387679"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1291458624",
+          "display_name": "Swedish Defence Research Agency",
+          "ror": "https://ror.org/0470cgs30",
+          "country_code": "SE",
+          "type": "funder",
+          "lineage": [
+            "https://openalex.org/I1291458624"
+          ]
+        }
+      ],
+      "countries": [
+        "SE"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "L. Persson",
+      "raw_affiliation_strings": [
+        "Dept. of Earth Sciences, Seismology, Villav. 16, Uppsala University, SE-752 36, Uppsala, Sweden",
+        "Swedish Defence Research Agency, FOI, S-172 90, Stockholm, Sweden",
+        "Dept. of Earth Sciences, Seismology, Villav. 16, Uppsala University, Uppsala, Sweden",
+        "Swedish Defence Research Agency, FOI, Stockholm, Sweden"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Dept. of Earth Sciences, Seismology, Villav. 16, Uppsala University, SE-752 36, Uppsala, Sweden",
+          "institution_ids": [
+            "https://openalex.org/I123387679"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Swedish Defence Research Agency, FOI, S-172 90, Stockholm, Sweden",
+          "institution_ids": [
+            "https://openalex.org/I1291458624"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Dept. of Earth Sciences, Seismology, Villav. 16, Uppsala University, Uppsala, Sweden",
+          "institution_ids": [
+            "https://openalex.org/I123387679"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Swedish Defence Research Agency, FOI, Stockholm, Sweden",
+          "institution_ids": [
+            "https://openalex.org/I1291458624"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5101507478"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I123387679",
+    "https://openalex.org/I1291458624"
+  ],
+  "apc_list": {
+    "value": 3290,
+    "currency": "USD",
+    "value_usd": 3290
+  },
+  "apc_paid": null,
+  "fwci": 0.0,
+  "has_fulltext": false,
+  "cited_by_count": 8,
+  "citation_normalized_percentile": {
+    "value": 0.0872948,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 90,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "7",
+    "issue": "1",
+    "first_page": "19",
+    "last_page": "33"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10876",
+    "display_name": "Fault Detection and Control Systems",
+    "score": 0.965399980545044,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2207",
+      "display_name": "Control and Systems Engineering"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10876",
+      "display_name": "Fault Detection and Control Systems",
+      "score": 0.965399980545044,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11512",
+      "display_name": "Anomaly Detection Techniques and Applications",
+      "score": 0.9473000168800354,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.7032982110977173
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.6066722869873047
+    },
+    {
+      "id": "https://openalex.org/keywords/gaussian",
+      "display_name": "Gaussian",
+      "score": 0.5664584040641785
+    },
+    {
+      "id": "https://openalex.org/keywords/noise",
+      "display_name": "Noise (video)",
+      "score": 0.5398999452590942
+    },
+    {
+      "id": "https://openalex.org/keywords/symmetry",
+      "display_name": "Symmetry (geometry)",
+      "score": 0.45669111609458923
+    },
+    {
+      "id": "https://openalex.org/keywords/range",
+      "display_name": "Range (aeronautics)",
+      "score": 0.45088115334510803
+    },
+    {
+      "id": "https://openalex.org/keywords/gaussian-noise",
+      "display_name": "Gaussian noise",
+      "score": 0.44717076420783997
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-array",
+      "display_name": "Seismic array",
+      "score": 0.43966183066368103
+    },
+    {
+      "id": "https://openalex.org/keywords/phase",
+      "display_name": "Phase (matter)",
+      "score": 0.4295293688774109
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.3850781321525574
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.3077790439128876
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.13775861263275146
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.12362277507781982
+    },
+    {
+      "id": "https://openalex.org/keywords/engineering",
+      "display_name": "Engineering",
+      "score": 0.12277370691299438
+    },
+    {
+      "id": "https://openalex.org/keywords/geometry",
+      "display_name": "Geometry",
+      "score": 0.12153354287147522
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.7032982110977173
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.6066722869873047
+    },
+    {
+      "id": "https://openalex.org/C163716315",
+      "wikidata": "https://www.wikidata.org/wiki/Q901177",
+      "display_name": "Gaussian",
+      "level": 2,
+      "score": 0.5664584040641785
+    },
+    {
+      "id": "https://openalex.org/C99498987",
+      "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+      "display_name": "Noise (video)",
+      "level": 3,
+      "score": 0.5398999452590942
+    },
+    {
+      "id": "https://openalex.org/C2779886137",
+      "wikidata": "https://www.wikidata.org/wiki/Q21030012",
+      "display_name": "Symmetry (geometry)",
+      "level": 2,
+      "score": 0.45669111609458923
+    },
+    {
+      "id": "https://openalex.org/C204323151",
+      "wikidata": "https://www.wikidata.org/wiki/Q905424",
+      "display_name": "Range (aeronautics)",
+      "level": 2,
+      "score": 0.45088115334510803
+    },
+    {
+      "id": "https://openalex.org/C4199805",
+      "wikidata": "https://www.wikidata.org/wiki/Q2725903",
+      "display_name": "Gaussian noise",
+      "level": 2,
+      "score": 0.44717076420783997
+    },
+    {
+      "id": "https://openalex.org/C2776845669",
+      "wikidata": "https://www.wikidata.org/wiki/Q25325338",
+      "display_name": "Seismic array",
+      "level": 2,
+      "score": 0.43966183066368103
+    },
+    {
+      "id": "https://openalex.org/C44280652",
+      "wikidata": "https://www.wikidata.org/wiki/Q104837",
+      "display_name": "Phase (matter)",
+      "level": 2,
+      "score": 0.4295293688774109
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.3850781321525574
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.3077790439128876
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.13775861263275146
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.12362277507781982
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.12277370691299438
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.12153354287147522
+    },
+    {
+      "id": "https://openalex.org/C115961682",
+      "wikidata": "https://www.wikidata.org/wiki/Q860623",
+      "display_name": "Image (mathematics)",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C146978453",
+      "wikidata": "https://www.wikidata.org/wiki/Q3798668",
+      "display_name": "Aerospace engineering",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1023/a:1021216313892",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1023/a:1021216313892",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S198209080",
+        "display_name": "Journal of Seismology",
+        "issn_l": "1383-4649",
+        "issn": [
+          "1383-4649",
+          "1573-157X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310319900",
+        "host_organization_name": "Springer Science+Business Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319900",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Science+Business Media",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Seismology",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/11",
+      "display_name": "Sustainable cities and communities",
+      "score": 0.5400000214576721
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320325344",
+      "display_name": "Totalförsvarets Forskningsinstitut",
+      "ror": "https://ror.org/0470cgs30"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 31,
+  "referenced_works": [
+    "https://openalex.org/W972046272",
+    "https://openalex.org/W987301761",
+    "https://openalex.org/W1579868249",
+    "https://openalex.org/W1652527472",
+    "https://openalex.org/W1947130700",
+    "https://openalex.org/W1970655212",
+    "https://openalex.org/W1982143695",
+    "https://openalex.org/W1993341140",
+    "https://openalex.org/W2001528038",
+    "https://openalex.org/W2004406940",
+    "https://openalex.org/W2013047712",
+    "https://openalex.org/W2016787147",
+    "https://openalex.org/W2018388266",
+    "https://openalex.org/W2040637789",
+    "https://openalex.org/W2050765798",
+    "https://openalex.org/W2052356609",
+    "https://openalex.org/W2056929675",
+    "https://openalex.org/W2056998635",
+    "https://openalex.org/W2080802633",
+    "https://openalex.org/W2098301339",
+    "https://openalex.org/W2115336287",
+    "https://openalex.org/W2115449888",
+    "https://openalex.org/W2139983789",
+    "https://openalex.org/W2527220585",
+    "https://openalex.org/W2581508616",
+    "https://openalex.org/W2913763659",
+    "https://openalex.org/W3016175113",
+    "https://openalex.org/W3142514135",
+    "https://openalex.org/W4255446016",
+    "https://openalex.org/W6602214657",
+    "https://openalex.org/W6814597589"
+  ],
+  "related_works": [
+    "https://openalex.org/W1970319972",
+    "https://openalex.org/W2139661095",
+    "https://openalex.org/W2094285914",
+    "https://openalex.org/W4319034325",
+    "https://openalex.org/W2411389063",
+    "https://openalex.org/W2953254336",
+    "https://openalex.org/W1549552441",
+    "https://openalex.org/W2009039413",
+    "https://openalex.org/W2606622687",
+    "https://openalex.org/W4212928171"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 4
+    }
+  ],
+  "updated_date": "2026-08-21T09:56:20.448147",
+  "created_date": "2016-06-24T00:00:00"
+}

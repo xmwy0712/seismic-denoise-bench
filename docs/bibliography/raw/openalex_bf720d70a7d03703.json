@@ -1,0 +1,742 @@
+{
+  "id": "https://openalex.org/W1984003326",
+  "doi": "https://doi.org/10.1088/0370-1298/65/5/307",
+  "title": "The Elastic Behaviour of a Crystalline Aggregate",
+  "display_name": "The Elastic Behaviour of a Crystalline Aggregate",
+  "publication_year": 1952,
+  "publication_date": "1952-05-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1984003326",
+    "doi": "https://doi.org/10.1088/0370-1298/65/5/307",
+    "mag": "1984003326"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1088/0370-1298/65/5/307",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1088/0370-1298/65/5/307",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4210230229",
+      "display_name": "Proceedings of the Physical Society Section A",
+      "issn_l": "0370-1298",
+      "issn": [
+        "0370-1298",
+        "1747-3829"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/P4310320083",
+      "host_organization_name": "IOP Publishing",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320083",
+        "https://openalex.org/P4310311669"
+      ],
+      "host_organization_lineage_names": [
+        "IOP Publishing",
+        "Institute of Physics"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Proceedings of the Physical Society. Section A",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5105463014",
+        "display_name": "R. Hill",
+        "orcid": "https://orcid.org/0000-0003-1973-7435",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-1973-7435"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36234482",
+          "display_name": "University of Bristol",
+          "ror": "https://ror.org/0524sp257",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I36234482"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210161128",
+          "display_name": "Bristol Robotics Laboratory",
+          "ror": "https://ror.org/056sbyc67",
+          "country_code": "GB",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210161128"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "R Hill",
+      "raw_affiliation_strings": [
+        "H. H Wills Physical Laboratory, University of Bristol",
+        "H. H. Wills Physical Laboratory, University of Bristol"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "H. H Wills Physical Laboratory, University of Bristol",
+          "institution_ids": [
+            "https://openalex.org/I36234482",
+            "https://openalex.org/I4210161128"
+          ]
+        },
+        {
+          "raw_affiliation_string": "H. H. Wills Physical Laboratory, University of Bristol",
+          "institution_ids": [
+            "https://openalex.org/I36234482",
+            "https://openalex.org/I4210161128"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5105463014"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I36234482",
+    "https://openalex.org/I4210161128"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 3.6232,
+  "has_fulltext": false,
+  "cited_by_count": 11564,
+  "citation_normalized_percentile": {
+    "value": 0.89786585,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "65",
+    "issue": "5",
+    "first_page": "349",
+    "last_page": "354"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10413",
+    "display_name": "High-pressure geophysics and materials",
+    "score": 0.9991999864578247,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10413",
+      "display_name": "High-pressure geophysics and materials",
+      "score": 0.9991999864578247,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10161",
+      "display_name": "Rock Mechanics and Modeling",
+      "score": 0.9987999796867371,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10514",
+      "display_name": "Numerical methods in engineering",
+      "score": 0.996399998664856,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/aggregate",
+      "display_name": "Aggregate (composite)",
+      "score": 0.8296577334403992
+    },
+    {
+      "id": "https://openalex.org/keywords/limit",
+      "display_name": "Limit (mathematics)",
+      "score": 0.632317841053009
+    },
+    {
+      "id": "https://openalex.org/keywords/distortion",
+      "display_name": "Distortion (music)",
+      "score": 0.5458961725234985
+    },
+    {
+      "id": "https://openalex.org/keywords/connection",
+      "display_name": "Connection (principal bundle)",
+      "score": 0.5308405160903931
+    },
+    {
+      "id": "https://openalex.org/keywords/stress",
+      "display_name": "Stress (linguistics)",
+      "score": 0.4808855354785919
+    },
+    {
+      "id": "https://openalex.org/keywords/elasticity",
+      "display_name": "Elasticity (physics)",
+      "score": 0.4710376560688019
+    },
+    {
+      "id": "https://openalex.org/keywords/ultimate-tensile-strength",
+      "display_name": "Ultimate tensile strength",
+      "score": 0.42375653982162476
+    },
+    {
+      "id": "https://openalex.org/keywords/materials-science",
+      "display_name": "Materials science",
+      "score": 0.40535518527030945
+    },
+    {
+      "id": "https://openalex.org/keywords/classical-mechanics",
+      "display_name": "Classical mechanics",
+      "score": 0.33594629168510437
+    },
+    {
+      "id": "https://openalex.org/keywords/mechanics",
+      "display_name": "Mechanics",
+      "score": 0.3297353982925415
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.3116432726383209
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.29334479570388794
+    },
+    {
+      "id": "https://openalex.org/keywords/composite-material",
+      "display_name": "Composite material",
+      "score": 0.27728280425071716
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematical-analysis",
+      "display_name": "Mathematical analysis",
+      "score": 0.18836495280265808
+    },
+    {
+      "id": "https://openalex.org/keywords/geometry",
+      "display_name": "Geometry",
+      "score": 0.11989164352416992
+    },
+    {
+      "id": "https://openalex.org/keywords/philosophy",
+      "display_name": "Philosophy",
+      "score": 0.05160602927207947
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C4679612",
+      "wikidata": "https://www.wikidata.org/wiki/Q866298",
+      "display_name": "Aggregate (composite)",
+      "level": 2,
+      "score": 0.8296577334403992
+    },
+    {
+      "id": "https://openalex.org/C151201525",
+      "wikidata": "https://www.wikidata.org/wiki/Q177239",
+      "display_name": "Limit (mathematics)",
+      "level": 2,
+      "score": 0.632317841053009
+    },
+    {
+      "id": "https://openalex.org/C126780896",
+      "wikidata": "https://www.wikidata.org/wiki/Q899871",
+      "display_name": "Distortion (music)",
+      "level": 4,
+      "score": 0.5458961725234985
+    },
+    {
+      "id": "https://openalex.org/C13355873",
+      "wikidata": "https://www.wikidata.org/wiki/Q2920850",
+      "display_name": "Connection (principal bundle)",
+      "level": 2,
+      "score": 0.5308405160903931
+    },
+    {
+      "id": "https://openalex.org/C21036866",
+      "wikidata": "https://www.wikidata.org/wiki/Q181767",
+      "display_name": "Stress (linguistics)",
+      "level": 2,
+      "score": 0.4808855354785919
+    },
+    {
+      "id": "https://openalex.org/C121854251",
+      "wikidata": "https://www.wikidata.org/wiki/Q62932",
+      "display_name": "Elasticity (physics)",
+      "level": 2,
+      "score": 0.4710376560688019
+    },
+    {
+      "id": "https://openalex.org/C112950240",
+      "wikidata": "https://www.wikidata.org/wiki/Q76005",
+      "display_name": "Ultimate tensile strength",
+      "level": 2,
+      "score": 0.42375653982162476
+    },
+    {
+      "id": "https://openalex.org/C192562407",
+      "wikidata": "https://www.wikidata.org/wiki/Q228736",
+      "display_name": "Materials science",
+      "level": 0,
+      "score": 0.40535518527030945
+    },
+    {
+      "id": "https://openalex.org/C74650414",
+      "wikidata": "https://www.wikidata.org/wiki/Q11397",
+      "display_name": "Classical mechanics",
+      "level": 1,
+      "score": 0.33594629168510437
+    },
+    {
+      "id": "https://openalex.org/C57879066",
+      "wikidata": "https://www.wikidata.org/wiki/Q41217",
+      "display_name": "Mechanics",
+      "level": 1,
+      "score": 0.3297353982925415
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.3116432726383209
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.29334479570388794
+    },
+    {
+      "id": "https://openalex.org/C159985019",
+      "wikidata": "https://www.wikidata.org/wiki/Q181790",
+      "display_name": "Composite material",
+      "level": 1,
+      "score": 0.27728280425071716
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.18836495280265808
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.11989164352416992
+    },
+    {
+      "id": "https://openalex.org/C138885662",
+      "wikidata": "https://www.wikidata.org/wiki/Q5891",
+      "display_name": "Philosophy",
+      "level": 0,
+      "score": 0.05160602927207947
+    },
+    {
+      "id": "https://openalex.org/C41895202",
+      "wikidata": "https://www.wikidata.org/wiki/Q8162",
+      "display_name": "Linguistics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C194257627",
+      "wikidata": "https://www.wikidata.org/wiki/Q211554",
+      "display_name": "Amplifier",
+      "level": 3,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C46362747",
+      "wikidata": "https://www.wikidata.org/wiki/Q173431",
+      "display_name": "CMOS",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C49040817",
+      "wikidata": "https://www.wikidata.org/wiki/Q193091",
+      "display_name": "Optoelectronics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1088/0370-1298/65/5/307",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1088/0370-1298/65/5/307",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210230229",
+        "display_name": "Proceedings of the Physical Society Section A",
+        "issn_l": "0370-1298",
+        "issn": [
+          "0370-1298",
+          "1747-3829"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/P4310320083",
+        "host_organization_name": "IOP Publishing",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320083",
+          "https://openalex.org/P4310311669"
+        ],
+        "host_organization_lineage_names": [
+          "IOP Publishing",
+          "Institute of Physics"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings of the Physical Society. Section A",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 5,
+  "referenced_works": [
+    "https://openalex.org/W1972510192",
+    "https://openalex.org/W1990673485",
+    "https://openalex.org/W1998453954",
+    "https://openalex.org/W2093666824",
+    "https://openalex.org/W2147699377"
+  ],
+  "related_works": [
+    "https://openalex.org/W587735977",
+    "https://openalex.org/W1978142926",
+    "https://openalex.org/W3157395178",
+    "https://openalex.org/W2028768252",
+    "https://openalex.org/W2371558776",
+    "https://openalex.org/W2045569473",
+    "https://openalex.org/W2364426643",
+    "https://openalex.org/W2022216752",
+    "https://openalex.org/W2399388599",
+    "https://openalex.org/W1571672327"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0,
+      28
+    ],
+    "connection": [
+      1
+    ],
+    "between": [
+      2
+    ],
+    "the": [
+      3,
+      19,
+      44,
+      56
+    ],
+    "elastic": [
+      4,
+      29,
+      46
+    ],
+    "behaviour": [
+      5
+    ],
+    "of": [
+      6,
+      21,
+      48,
+      55
+    ],
+    "an": [
+      7
+    ],
+    "aggregate": [
+      8,
+      51
+    ],
+    "and": [
+      9,
+      24,
+      26
+    ],
+    "a": [
+      10,
+      49
+    ],
+    "single": [
+      11
+    ],
+    "crystal": [
+      12
+    ],
+    "is": [
+      13,
+      35,
+      41
+    ],
+    "considered,": [
+      14,
+      37
+    ],
+    "with": [
+      15
+    ],
+    "special": [
+      16
+    ],
+    "reference": [
+      17
+    ],
+    "to": [
+      18
+    ],
+    "theories": [
+      20
+    ],
+    "Voigt,": [
+      22
+    ],
+    "Reuss,": [
+      23
+    ],
+    "Huber": [
+      25
+    ],
+    "Schmid.": [
+      27
+    ],
+    "limit": [
+      30,
+      47
+    ],
+    "under": [
+      31
+    ],
+    "various": [
+      32
+    ],
+    "stress": [
+      33,
+      57
+    ],
+    "systems": [
+      34
+    ],
+    "also": [
+      36
+    ],
+    "in": [
+      38
+    ],
+    "particular,": [
+      39
+    ],
+    "it": [
+      40
+    ],
+    "shown": [
+      42
+    ],
+    "that": [
+      43
+    ],
+    "tensile": [
+      45
+    ],
+    "face-centred": [
+      50
+    ],
+    "cannot": [
+      52
+    ],
+    "exceed": [
+      53
+    ],
+    "two-thirds": [
+      54
+    ],
+    "at": [
+      58
+    ],
+    "which": [
+      59
+    ],
+    "pronounced": [
+      60
+    ],
+    "plastic": [
+      61
+    ],
+    "distortion": [
+      62
+    ],
+    "occurs.": [
+      63
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 826
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 1131
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 1046
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 928
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 843
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 787
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 685
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 639
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 551
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 548
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 467
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 402
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 391
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 296
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 247
+    }
+  ],
+  "updated_date": "2026-09-24T07:57:37.273135",
+  "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,678 @@
+{
+  "id": "https://openalex.org/W2361736756",
+  "doi": null,
+  "title": "Application of reservoir prediction technique in the exploration and development of lithologic oil-gas reservoirs",
+  "display_name": "Application of reservoir prediction technique in the exploration and development of lithologic oil-gas reservoirs",
+  "publication_year": 2006,
+  "publication_date": "2006-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2361736756",
+    "mag": "2361736756"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "mag:2361736756",
+    "is_oa": false,
+    "landing_page_url": "https://en.cnki.com.cn/Article_en/CJFDTotal-SKYK200602013.htm",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S142630227",
+      "display_name": "Petroleum Exploration and Development",
+      "issn_l": "1876-3804",
+      "issn": [
+        "1876-3804",
+        "2096-4803"
+      ],
+      "is_oa": false,
+      "is_in_doaj": true,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": null,
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "Petroleum Exploration and Development",
+    "raw_type": null
+  },
+  "type": "article",
+  "indexed_in": [],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5041826210",
+        "display_name": "Liu Quan-xin",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "Liu Quan-xin",
+      "raw_affiliation_strings": [
+        "L Huan-tong2,SU Ming-jun1,CAI Gang1,GAO Jian-hu1,YAO Qing-zhou1,SHA Xue-mei1"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "L Huan-tong2,SU Ming-jun1,CAI Gang1,GAO Jian-hu1,YAO Qing-zhou1,SHA Xue-mei1",
+          "institution_ids": []
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5041826210"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 0,
+    "currency": "USD",
+    "value_usd": 0
+  },
+  "apc_paid": null,
+  "fwci": 0.5954,
+  "has_fulltext": false,
+  "cited_by_count": 2,
+  "citation_normalized_percentile": {
+    "value": 0.74711435,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 90,
+    "max": 94
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10399",
+    "display_name": "Hydrocarbon exploration and reservoir analysis",
+    "score": 0.9819999933242798,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2211",
+      "display_name": "Mechanics of Materials"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10399",
+      "display_name": "Hydrocarbon exploration and reservoir analysis",
+      "score": 0.9819999933242798,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11801",
+      "display_name": "Reservoir Engineering and Simulation Methods",
+      "score": 0.9810000061988831,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9750999808311462,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/lithology",
+      "display_name": "Lithology",
+      "score": 0.9566384553909302
+    },
+    {
+      "id": "https://openalex.org/keywords/inversion",
+      "display_name": "Inversion (geology)",
+      "score": 0.8137657642364502
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.8047661781311035
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-inversion",
+      "display_name": "Seismic inversion",
+      "score": 0.6580793857574463
+    },
+    {
+      "id": "https://openalex.org/keywords/petroleum-engineering",
+      "display_name": "Petroleum engineering",
+      "score": 0.6084752082824707
+    },
+    {
+      "id": "https://openalex.org/keywords/reservoir-modeling",
+      "display_name": "Reservoir modeling",
+      "score": 0.49688008427619934
+    },
+    {
+      "id": "https://openalex.org/keywords/fossil-fuel",
+      "display_name": "Fossil fuel",
+      "score": 0.46705710887908936
+    },
+    {
+      "id": "https://openalex.org/keywords/petroleum-reservoir",
+      "display_name": "Petroleum reservoir",
+      "score": 0.4604424238204956
+    },
+    {
+      "id": "https://openalex.org/keywords/petrology",
+      "display_name": "Petrology",
+      "score": 0.4564911723136902
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-attribute",
+      "display_name": "Seismic attribute",
+      "score": 0.4346970319747925
+    },
+    {
+      "id": "https://openalex.org/keywords/stratigraphy",
+      "display_name": "Stratigraphy",
+      "score": 0.42855706810951233
+    },
+    {
+      "id": "https://openalex.org/keywords/sequence-stratigraphy",
+      "display_name": "Sequence stratigraphy",
+      "score": 0.41810932755470276
+    },
+    {
+      "id": "https://openalex.org/keywords/geomorphology",
+      "display_name": "Geomorphology",
+      "score": 0.29531919956207275
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.1732402741909027
+    },
+    {
+      "id": "https://openalex.org/keywords/structural-basin",
+      "display_name": "Structural basin",
+      "score": 0.10236197710037231
+    },
+    {
+      "id": "https://openalex.org/keywords/engineering",
+      "display_name": "Engineering",
+      "score": 0.0769314169883728
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C122792734",
+      "wikidata": "https://www.wikidata.org/wiki/Q6538759",
+      "display_name": "Lithology",
+      "level": 2,
+      "score": 0.9566384553909302
+    },
+    {
+      "id": "https://openalex.org/C1893757",
+      "wikidata": "https://www.wikidata.org/wiki/Q3653001",
+      "display_name": "Inversion (geology)",
+      "level": 3,
+      "score": 0.8137657642364502
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.8047661781311035
+    },
+    {
+      "id": "https://openalex.org/C39267094",
+      "wikidata": "https://www.wikidata.org/wiki/Q7446968",
+      "display_name": "Seismic inversion",
+      "level": 3,
+      "score": 0.6580793857574463
+    },
+    {
+      "id": "https://openalex.org/C78762247",
+      "wikidata": "https://www.wikidata.org/wiki/Q1273174",
+      "display_name": "Petroleum engineering",
+      "level": 1,
+      "score": 0.6084752082824707
+    },
+    {
+      "id": "https://openalex.org/C14641988",
+      "wikidata": "https://www.wikidata.org/wiki/Q7315329",
+      "display_name": "Reservoir modeling",
+      "level": 2,
+      "score": 0.49688008427619934
+    },
+    {
+      "id": "https://openalex.org/C68189081",
+      "wikidata": "https://www.wikidata.org/wiki/Q12748",
+      "display_name": "Fossil fuel",
+      "level": 2,
+      "score": 0.46705710887908936
+    },
+    {
+      "id": "https://openalex.org/C113215200",
+      "wikidata": "https://www.wikidata.org/wiki/Q1845437",
+      "display_name": "Petroleum reservoir",
+      "level": 2,
+      "score": 0.4604424238204956
+    },
+    {
+      "id": "https://openalex.org/C5900021",
+      "wikidata": "https://www.wikidata.org/wiki/Q163082",
+      "display_name": "Petrology",
+      "level": 1,
+      "score": 0.4564911723136902
+    },
+    {
+      "id": "https://openalex.org/C2781294565",
+      "wikidata": "https://www.wikidata.org/wiki/Q5711131",
+      "display_name": "Seismic attribute",
+      "level": 2,
+      "score": 0.4346970319747925
+    },
+    {
+      "id": "https://openalex.org/C109281948",
+      "wikidata": "https://www.wikidata.org/wiki/Q134783",
+      "display_name": "Stratigraphy",
+      "level": 3,
+      "score": 0.42855706810951233
+    },
+    {
+      "id": "https://openalex.org/C42907665",
+      "wikidata": "https://www.wikidata.org/wiki/Q1732190",
+      "display_name": "Sequence stratigraphy",
+      "level": 4,
+      "score": 0.41810932755470276
+    },
+    {
+      "id": "https://openalex.org/C114793014",
+      "wikidata": "https://www.wikidata.org/wiki/Q52109",
+      "display_name": "Geomorphology",
+      "level": 1,
+      "score": 0.29531919956207275
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.1732402741909027
+    },
+    {
+      "id": "https://openalex.org/C109007969",
+      "wikidata": "https://www.wikidata.org/wiki/Q749565",
+      "display_name": "Structural basin",
+      "level": 2,
+      "score": 0.10236197710037231
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.0769314169883728
+    },
+    {
+      "id": "https://openalex.org/C153294291",
+      "wikidata": "https://www.wikidata.org/wiki/Q25261",
+      "display_name": "Meteorology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C548081761",
+      "wikidata": "https://www.wikidata.org/wiki/Q180388",
+      "display_name": "Waste management",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C126753816",
+      "wikidata": "https://www.wikidata.org/wiki/Q1994702",
+      "display_name": "Sedimentary depositional environment",
+      "level": 3,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C77928131",
+      "wikidata": "https://www.wikidata.org/wiki/Q193343",
+      "display_name": "Tectonics",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C24552861",
+      "wikidata": "https://www.wikidata.org/wiki/Q2670177",
+      "display_name": "Data assimilation",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "mag:2361736756",
+      "is_oa": false,
+      "landing_page_url": "https://en.cnki.com.cn/Article_en/CJFDTotal-SKYK200602013.htm",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S142630227",
+        "display_name": "Petroleum Exploration and Development",
+        "issn_l": "1876-3804",
+        "issn": [
+          "1876-3804",
+          "2096-4803"
+        ],
+        "is_oa": false,
+        "is_in_doaj": true,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": null,
+      "raw_source_name": "Petroleum Exploration and Development",
+      "raw_type": null
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2357988052",
+    "https://openalex.org/W2386319043",
+    "https://openalex.org/W2385446191",
+    "https://openalex.org/W2389462969",
+    "https://openalex.org/W2361401108",
+    "https://openalex.org/W2366119322",
+    "https://openalex.org/W2283360800",
+    "https://openalex.org/W2386571173",
+    "https://openalex.org/W3027226682",
+    "https://openalex.org/W2370961796",
+    "https://openalex.org/W2394029201",
+    "https://openalex.org/W2374849676",
+    "https://openalex.org/W2367329490",
+    "https://openalex.org/W2359327688",
+    "https://openalex.org/W2378174748",
+    "https://openalex.org/W2333972267",
+    "https://openalex.org/W2932625038",
+    "https://openalex.org/W3175739557",
+    "https://openalex.org/W1987813452",
+    "https://openalex.org/W2814247287"
+  ],
+  "abstract_inverted_index": {
+    "A": [
+      0
+    ],
+    "technique": [
+      1,
+      30,
+      40,
+      54,
+      64
+    ],
+    "of": [
+      2,
+      24,
+      26,
+      31,
+      41,
+      55,
+      73,
+      85
+    ],
+    "predicting": [
+      3
+    ],
+    "and": [
+      4,
+      17,
+      48,
+      71,
+      83
+    ],
+    "appraising": [
+      5,
+      29,
+      39,
+      53
+    ],
+    "lithologic": [
+      6,
+      33,
+      42,
+      56,
+      75,
+      86
+    ],
+    "reservoir": [
+      7,
+      34,
+      43,
+      57,
+      77
+    ],
+    "is": [
+      8,
+      65
+    ],
+    "put": [
+      9
+    ],
+    "forward": [
+      10
+    ],
+    "in": [
+      11,
+      22,
+      62,
+      68,
+      78
+    ],
+    "this": [
+      12
+    ],
+    "paper,including:": [
+      13
+    ],
+    "log": [
+      14,
+      49,
+      59
+    ],
+    "layer": [
+      15
+    ],
+    "interpretation": [
+      16,
+      21
+    ],
+    "3D": [
+      18
+    ],
+    "seismic": [
+      19,
+      36,
+      45
+    ],
+    "structure": [
+      20
+    ],
+    "terms": [
+      23
+    ],
+    "principle": [
+      25
+    ],
+    "sequence": [
+      27
+    ],
+    "stratigraphy;qualitative": [
+      28
+    ],
+    "identifying": [
+      32
+    ],
+    "by": [
+      35,
+      44,
+      58
+    ],
+    "attribute;quantitative": [
+      37
+    ],
+    "static": [
+      38
+    ],
+    "impedance": [
+      46
+    ],
+    "inversion": [
+      47,
+      61
+    ],
+    "parameters": [
+      50,
+      60
+    ],
+    "inversion;quantitative": [
+      51
+    ],
+    "dynamic": [
+      52
+    ],
+    "wells.The": [
+      63
+    ],
+    "successfully": [
+      66
+    ],
+    "used": [
+      67
+    ],
+    "the": [
+      69,
+      74,
+      81
+    ],
+    "exploration": [
+      70,
+      82
+    ],
+    "development": [
+      72,
+      84
+    ],
+    "oil-gas": [
+      76,
+      87
+    ],
+    "Well": [
+      79
+    ],
+    "SN31,improving": [
+      80
+    ],
+    "reservoirs.": [
+      88
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-08-21T09:56:20.448147",
+  "created_date": "2025-10-10T00:00:00"
+}

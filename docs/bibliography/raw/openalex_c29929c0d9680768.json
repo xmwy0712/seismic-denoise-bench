@@ -1,0 +1,622 @@
+{
+  "id": "https://openalex.org/W3014375287",
+  "doi": "https://doi.org/10.1007/s11001-020-09409-7",
+  "title": "Feature extraction based on the convolutional neural network for adaptive multiple subtraction",
+  "display_name": "Feature extraction based on the convolutional neural network for adaptive multiple subtraction",
+  "publication_year": 2020,
+  "publication_date": "2020-04-03",
+  "ids": {
+    "openalex": "https://openalex.org/W3014375287",
+    "doi": "https://doi.org/10.1007/s11001-020-09409-7",
+    "mag": "3014375287"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1007/s11001-020-09409-7",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1007/s11001-020-09409-7",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S82978933",
+      "display_name": "Marine Geophysical Research",
+      "issn_l": "0025-3235",
+      "issn": [
+        "0025-3235",
+        "1573-0581"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310319900",
+      "host_organization_name": "Springer Science+Business Media",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310319900",
+        "https://openalex.org/P4310319965"
+      ],
+      "host_organization_lineage_names": [
+        "Springer Science+Business Media",
+        "Springer Nature"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Marine Geophysical Research",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5101660187",
+        "display_name": "Zhongxiao Li",
+        "orcid": "https://orcid.org/0000-0002-5836-6406",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-5836-6406"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I108688024",
+          "display_name": "Qingdao University",
+          "ror": "https://ror.org/021cj6z65",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I108688024"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Zhongxiao Li",
+      "raw_affiliation_strings": [
+        "Department of Electronic Engineering, School of Electronic Information, Qingdao University, Qingdao, 266071, Shandong, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Electronic Engineering, School of Electronic Information, Qingdao University, Qingdao, 266071, Shandong, China",
+          "institution_ids": [
+            "https://openalex.org/I108688024"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5026956315",
+        "display_name": "Haotian Gao",
+        "orcid": "https://orcid.org/0000-0002-6153-6058",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-6153-6058",
+          "https://orcid.org/0009-0008-5333-2769"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I108688024",
+          "display_name": "Qingdao University",
+          "ror": "https://ror.org/021cj6z65",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I108688024"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Haotian Gao",
+      "raw_affiliation_strings": [
+        "Department of Electronic Engineering, School of Electronic Information, Qingdao University, Qingdao, 266071, Shandong, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Electronic Engineering, School of Electronic Information, Qingdao University, Qingdao, 266071, Shandong, China",
+          "institution_ids": [
+            "https://openalex.org/I108688024"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5101660187"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I108688024"
+  ],
+  "apc_list": {
+    "value": 3260,
+    "currency": "USD",
+    "value_usd": 3260
+  },
+  "apc_paid": null,
+  "fwci": 1.4615,
+  "has_fulltext": false,
+  "cited_by_count": 15,
+  "citation_normalized_percentile": {
+    "value": 0.77008788,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "41",
+    "issue": "2",
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9976000189781189,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9976000189781189,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10688",
+      "display_name": "Image and Signal Denoising Methods",
+      "score": 0.9940000176429749,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11698",
+      "display_name": "Underwater Acoustics Research",
+      "score": 0.9818000197410583,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1910",
+        "display_name": "Oceanography"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/multiple",
+      "display_name": "Multiple",
+      "score": 0.9571603536605835
+    },
+    {
+      "id": "https://openalex.org/keywords/subtraction",
+      "display_name": "Subtraction",
+      "score": 0.8204412460327148
+    },
+    {
+      "id": "https://openalex.org/keywords/feature",
+      "display_name": "Feature (linguistics)",
+      "score": 0.6734874248504639
+    },
+    {
+      "id": "https://openalex.org/keywords/filter",
+      "display_name": "Filter (signal processing)",
+      "score": 0.5995950102806091
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.5952545404434204
+    },
+    {
+      "id": "https://openalex.org/keywords/convolutional-neural-network",
+      "display_name": "Convolutional neural network",
+      "score": 0.5749248266220093
+    },
+    {
+      "id": "https://openalex.org/keywords/matching",
+      "display_name": "Matching (statistics)",
+      "score": 0.5658707022666931
+    },
+    {
+      "id": "https://openalex.org/keywords/pattern-recognition",
+      "display_name": "Pattern recognition (psychology)",
+      "score": 0.5366811752319336
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.4987051486968994
+    },
+    {
+      "id": "https://openalex.org/keywords/feature-extraction",
+      "display_name": "Feature extraction",
+      "score": 0.4480741322040558
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-neural-network",
+      "display_name": "Artificial neural network",
+      "score": 0.42048177123069763
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.4129062592983246
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.2402060329914093
+    },
+    {
+      "id": "https://openalex.org/keywords/statistics",
+      "display_name": "Statistics",
+      "score": 0.13368889689445496
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-vision",
+      "display_name": "Computer vision",
+      "score": 0.13211196660995483
+    },
+    {
+      "id": "https://openalex.org/keywords/arithmetic",
+      "display_name": "Arithmetic",
+      "score": 0.08972257375717163
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C164680029",
+      "wikidata": "https://www.wikidata.org/wiki/Q1055293",
+      "display_name": "Multiple",
+      "level": 2,
+      "score": 0.9571603536605835
+    },
+    {
+      "id": "https://openalex.org/C68060419",
+      "wikidata": "https://www.wikidata.org/wiki/Q40754",
+      "display_name": "Subtraction",
+      "level": 2,
+      "score": 0.8204412460327148
+    },
+    {
+      "id": "https://openalex.org/C2776401178",
+      "wikidata": "https://www.wikidata.org/wiki/Q12050496",
+      "display_name": "Feature (linguistics)",
+      "level": 2,
+      "score": 0.6734874248504639
+    },
+    {
+      "id": "https://openalex.org/C106131492",
+      "wikidata": "https://www.wikidata.org/wiki/Q3072260",
+      "display_name": "Filter (signal processing)",
+      "level": 2,
+      "score": 0.5995950102806091
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.5952545404434204
+    },
+    {
+      "id": "https://openalex.org/C81363708",
+      "wikidata": "https://www.wikidata.org/wiki/Q17084460",
+      "display_name": "Convolutional neural network",
+      "level": 2,
+      "score": 0.5749248266220093
+    },
+    {
+      "id": "https://openalex.org/C165064840",
+      "wikidata": "https://www.wikidata.org/wiki/Q1321061",
+      "display_name": "Matching (statistics)",
+      "level": 2,
+      "score": 0.5658707022666931
+    },
+    {
+      "id": "https://openalex.org/C153180895",
+      "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+      "display_name": "Pattern recognition (psychology)",
+      "level": 2,
+      "score": 0.5366811752319336
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.4987051486968994
+    },
+    {
+      "id": "https://openalex.org/C52622490",
+      "wikidata": "https://www.wikidata.org/wiki/Q1026626",
+      "display_name": "Feature extraction",
+      "level": 2,
+      "score": 0.4480741322040558
+    },
+    {
+      "id": "https://openalex.org/C50644808",
+      "wikidata": "https://www.wikidata.org/wiki/Q192776",
+      "display_name": "Artificial neural network",
+      "level": 2,
+      "score": 0.42048177123069763
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.4129062592983246
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.2402060329914093
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.13368889689445496
+    },
+    {
+      "id": "https://openalex.org/C31972630",
+      "wikidata": "https://www.wikidata.org/wiki/Q844240",
+      "display_name": "Computer vision",
+      "level": 1,
+      "score": 0.13211196660995483
+    },
+    {
+      "id": "https://openalex.org/C94375191",
+      "wikidata": "https://www.wikidata.org/wiki/Q11205",
+      "display_name": "Arithmetic",
+      "level": 1,
+      "score": 0.08972257375717163
+    },
+    {
+      "id": "https://openalex.org/C41895202",
+      "wikidata": "https://www.wikidata.org/wiki/Q8162",
+      "display_name": "Linguistics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C138885662",
+      "wikidata": "https://www.wikidata.org/wiki/Q5891",
+      "display_name": "Philosophy",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1007/s11001-020-09409-7",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1007/s11001-020-09409-7",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S82978933",
+        "display_name": "Marine Geophysical Research",
+        "issn_l": "0025-3235",
+        "issn": [
+          "0025-3235",
+          "1573-0581"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310319900",
+        "host_organization_name": "Springer Science+Business Media",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310319900",
+          "https://openalex.org/P4310319965"
+        ],
+        "host_organization_lineage_names": [
+          "Springer Science+Business Media",
+          "Springer Nature"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Marine Geophysical Research",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/15",
+      "display_name": "Life in Land",
+      "score": 0.6899999976158142
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [
+    {
+      "id": "https://openalex.org/G3029793460",
+      "display_name": null,
+      "funder_award_id": "41804110",
+      "funder_id": "https://openalex.org/F4320321001",
+      "funder_display_name": "National Natural Science Foundation of China"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320321001",
+      "display_name": "National Natural Science Foundation of China",
+      "ror": "https://ror.org/01h0zpd94"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 35,
+  "referenced_works": [
+    "https://openalex.org/W1962625785",
+    "https://openalex.org/W1970854984",
+    "https://openalex.org/W1976884569",
+    "https://openalex.org/W1978917226",
+    "https://openalex.org/W2000088183",
+    "https://openalex.org/W2000865652",
+    "https://openalex.org/W2005934691",
+    "https://openalex.org/W2009988422",
+    "https://openalex.org/W2019961656",
+    "https://openalex.org/W2039831567",
+    "https://openalex.org/W2074874815",
+    "https://openalex.org/W2100556411",
+    "https://openalex.org/W2112796928",
+    "https://openalex.org/W2170856713",
+    "https://openalex.org/W2194775991",
+    "https://openalex.org/W2206672409",
+    "https://openalex.org/W2243377743",
+    "https://openalex.org/W2406522397",
+    "https://openalex.org/W2512351403",
+    "https://openalex.org/W2574952845",
+    "https://openalex.org/W2618551010",
+    "https://openalex.org/W2751620892",
+    "https://openalex.org/W2773085088",
+    "https://openalex.org/W2785794719",
+    "https://openalex.org/W2888262239",
+    "https://openalex.org/W2892108217",
+    "https://openalex.org/W2894410771",
+    "https://openalex.org/W2912052494",
+    "https://openalex.org/W2914484425",
+    "https://openalex.org/W2919115771",
+    "https://openalex.org/W2947787079",
+    "https://openalex.org/W2967394486",
+    "https://openalex.org/W2970443228",
+    "https://openalex.org/W2979519023",
+    "https://openalex.org/W4238404964"
+  ],
+  "related_works": [
+    "https://openalex.org/W2811390910",
+    "https://openalex.org/W2146076056",
+    "https://openalex.org/W4312376745",
+    "https://openalex.org/W2767651786",
+    "https://openalex.org/W2144059113",
+    "https://openalex.org/W3003836766",
+    "https://openalex.org/W1964120219",
+    "https://openalex.org/W2406522397",
+    "https://openalex.org/W2912288872",
+    "https://openalex.org/W2546942002"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-24T07:57:37.273135",
+  "created_date": "2025-10-10T00:00:00"
+}

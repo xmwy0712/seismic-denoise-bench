@@ -1,0 +1,793 @@
+{
+  "id": "https://openalex.org/W2096967722",
+  "doi": "https://doi.org/10.1016/j.epsl.2011.02.048",
+  "title": "Linking microseismic event observations with geomechanical models to minimise the risks of storing CO2 in geological formations",
+  "display_name": "Linking microseismic event observations with geomechanical models to minimise the risks of storing CO2 in geological formations",
+  "publication_year": 2011,
+  "publication_date": "2011-04-11",
+  "ids": {
+    "openalex": "https://openalex.org/W2096967722",
+    "doi": "https://doi.org/10.1016/j.epsl.2011.02.048",
+    "mag": "2096967722"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/j.epsl.2011.02.048",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.epsl.2011.02.048",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S119230507",
+      "display_name": "Earth and Planetary Science Letters",
+      "issn_l": "0012-821X",
+      "issn": [
+        "0012-821X",
+        "1385-013X"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-3",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Earth and Planetary Science Letters",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5064452935",
+        "display_name": "James  Phillip Verdon",
+        "orcid": "https://orcid.org/0000-0002-8410-2703",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-8410-2703"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36234482",
+          "display_name": "University of Bristol",
+          "ror": "https://ror.org/0524sp257",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I36234482"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "J.P. Verdon",
+      "raw_affiliation_strings": [
+        "Department of Earth Sciences, Wills Memorial Building, University of Bristol, Bristol, UK",
+        "Department of Earth Sciences Wills Memorial Building, University of Bristol, Bristol, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Earth Sciences, Wills Memorial Building, University of Bristol, Bristol, UK",
+          "institution_ids": [
+            "https://openalex.org/I36234482"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Earth Sciences Wills Memorial Building, University of Bristol, Bristol, UK",
+          "institution_ids": [
+            "https://openalex.org/I36234482"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5086300371",
+        "display_name": "J. M. Kendall",
+        "orcid": "https://orcid.org/0000-0002-1486-3945",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-1486-3945"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I36234482",
+          "display_name": "University of Bristol",
+          "ror": "https://ror.org/0524sp257",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I36234482"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J.-M. Kendall",
+      "raw_affiliation_strings": [
+        "Department of Earth Sciences, Wills Memorial Building, University of Bristol, Bristol, UK",
+        "Department of Earth Sciences Wills Memorial Building, University of Bristol, Bristol, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Earth Sciences, Wills Memorial Building, University of Bristol, Bristol, UK",
+          "institution_ids": [
+            "https://openalex.org/I36234482"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Earth Sciences Wills Memorial Building, University of Bristol, Bristol, UK",
+          "institution_ids": [
+            "https://openalex.org/I36234482"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5048862123",
+        "display_name": "Don White",
+        "orcid": "https://orcid.org/0000-0001-5711-1009",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-5711-1009"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1327020802",
+          "display_name": "Geological Survey of Canada",
+          "ror": "https://ror.org/03wm7z656",
+          "country_code": "CA",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I1281735042",
+            "https://openalex.org/I1327020802",
+            "https://openalex.org/I2802286613"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "D.J. White",
+      "raw_affiliation_strings": [
+        "Geological Survey of Canada, 580 Booth, Ottawa, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Geological Survey of Canada, 580 Booth, Ottawa, Canada",
+          "institution_ids": [
+            "https://openalex.org/I1327020802"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5082689325",
+        "display_name": "Doug A. Angus",
+        "orcid": "https://orcid.org/0000-0003-0734-7835",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-0734-7835"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I130828816",
+          "display_name": "University of Leeds",
+          "ror": "https://ror.org/024mrxd33",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I130828816"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "D.A. Angus",
+      "raw_affiliation_strings": [
+        "School of Earth and Environment, University of Leeds, Leeds, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "School of Earth and Environment, University of Leeds, Leeds, UK",
+          "institution_ids": [
+            "https://openalex.org/I130828816"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5064452935"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I36234482"
+  ],
+  "apc_list": {
+    "value": 4670,
+    "currency": "USD",
+    "value_usd": 4670
+  },
+  "apc_paid": null,
+  "fwci": 10.0365,
+  "has_fulltext": false,
+  "cited_by_count": 157,
+  "citation_normalized_percentile": {
+    "value": 0.9890202,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 93,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "305",
+    "issue": "1-2",
+    "first_page": "143",
+    "last_page": "152"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9997000098228455,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11302",
+      "display_name": "CO2 Sequestration and Geologic Interactions",
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2305",
+        "display_name": "Environmental Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.9986000061035156,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/microseism",
+      "display_name": "Microseism",
+      "score": 0.978915274143219
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.8101512789726257
+    },
+    {
+      "id": "https://openalex.org/keywords/geomechanics",
+      "display_name": "Geomechanics",
+      "score": 0.7685149312019348
+    },
+    {
+      "id": "https://openalex.org/keywords/induced-seismicity",
+      "display_name": "Induced seismicity",
+      "score": 0.7397645711898804
+    },
+    {
+      "id": "https://openalex.org/keywords/overburden",
+      "display_name": "Overburden",
+      "score": 0.6487006545066833
+    },
+    {
+      "id": "https://openalex.org/keywords/caprock",
+      "display_name": "Caprock",
+      "score": 0.6480090022087097
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.6007775068283081
+    },
+    {
+      "id": "https://openalex.org/keywords/borehole",
+      "display_name": "Borehole",
+      "score": 0.46570828557014465
+    },
+    {
+      "id": "https://openalex.org/keywords/geophysics",
+      "display_name": "Geophysics",
+      "score": 0.35563743114471436
+    },
+    {
+      "id": "https://openalex.org/keywords/petroleum-engineering",
+      "display_name": "Petroleum engineering",
+      "score": 0.3432673513889313
+    },
+    {
+      "id": "https://openalex.org/keywords/mining-engineering",
+      "display_name": "Mining engineering",
+      "score": 0.3205640912055969
+    },
+    {
+      "id": "https://openalex.org/keywords/geotechnical-engineering",
+      "display_name": "Geotechnical engineering",
+      "score": 0.283108115196228
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C7266685",
+      "wikidata": "https://www.wikidata.org/wiki/Q1303250",
+      "display_name": "Microseism",
+      "level": 2,
+      "score": 0.978915274143219
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.8101512789726257
+    },
+    {
+      "id": "https://openalex.org/C185715996",
+      "wikidata": "https://www.wikidata.org/wiki/Q2670285",
+      "display_name": "Geomechanics",
+      "level": 2,
+      "score": 0.7685149312019348
+    },
+    {
+      "id": "https://openalex.org/C83176761",
+      "wikidata": "https://www.wikidata.org/wiki/Q1394636",
+      "display_name": "Induced seismicity",
+      "level": 2,
+      "score": 0.7397645711898804
+    },
+    {
+      "id": "https://openalex.org/C2777201227",
+      "wikidata": "https://www.wikidata.org/wiki/Q331224",
+      "display_name": "Overburden",
+      "level": 2,
+      "score": 0.6487006545066833
+    },
+    {
+      "id": "https://openalex.org/C2778887201",
+      "wikidata": "https://www.wikidata.org/wiki/Q3440812",
+      "display_name": "Caprock",
+      "level": 2,
+      "score": 0.6480090022087097
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.6007775068283081
+    },
+    {
+      "id": "https://openalex.org/C150560799",
+      "wikidata": "https://www.wikidata.org/wiki/Q502102",
+      "display_name": "Borehole",
+      "level": 2,
+      "score": 0.46570828557014465
+    },
+    {
+      "id": "https://openalex.org/C8058405",
+      "wikidata": "https://www.wikidata.org/wiki/Q46255",
+      "display_name": "Geophysics",
+      "level": 1,
+      "score": 0.35563743114471436
+    },
+    {
+      "id": "https://openalex.org/C78762247",
+      "wikidata": "https://www.wikidata.org/wiki/Q1273174",
+      "display_name": "Petroleum engineering",
+      "level": 1,
+      "score": 0.3432673513889313
+    },
+    {
+      "id": "https://openalex.org/C16674752",
+      "wikidata": "https://www.wikidata.org/wiki/Q1370637",
+      "display_name": "Mining engineering",
+      "level": 1,
+      "score": 0.3205640912055969
+    },
+    {
+      "id": "https://openalex.org/C187320778",
+      "wikidata": "https://www.wikidata.org/wiki/Q1349130",
+      "display_name": "Geotechnical engineering",
+      "level": 1,
+      "score": 0.283108115196228
+    }
+  ],
+  "mesh": [],
+  "locations_count": 4,
+  "locations": [
+    {
+      "id": "doi:10.1016/j.epsl.2011.02.048",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.epsl.2011.02.048",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S119230507",
+        "display_name": "Earth and Planetary Science Letters",
+        "issn_l": "0012-821X",
+        "issn": [
+          "0012-821X",
+          "1385-013X"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-3",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Earth and Planetary Science Letters",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:eprints.whiterose.ac.uk:43865",
+      "is_oa": false,
+      "landing_page_url": "https://eprints.whiterose.ac.uk/43865/8/EPSL-2011_with_coversheet.pdf",
+      "pdf_url": "https://eprints.whiterose.ac.uk/43865/8/EPSL-2011_with_coversheet.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400854",
+        "display_name": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I2800616092",
+        "host_organization_name": "White Rose University Consortium",
+        "host_organization_lineage": [
+          "https://openalex.org/I2800616092"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "Article"
+    },
+    {
+      "id": "pmh:oai:eprints.whiterose.ac.uk:77380",
+      "is_oa": false,
+      "landing_page_url": "http://eprints.whiterose.ac.uk/77380/14/EPSL-2011_with_coversheet.pdf",
+      "pdf_url": "http://eprints.whiterose.ac.uk/77380/14/EPSL-2011_with_coversheet.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400854",
+        "display_name": "White Rose Research Online (University of Leeds, The University of Sheffield, University of York)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I2800616092",
+        "host_organization_name": "White Rose University Consortium",
+        "host_organization_lineage": [
+          "https://openalex.org/I2800616092"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "Article"
+    },
+    {
+      "id": "pmh:oai:research-information.bris.ac.uk:openaire_cris_publications/eb55a51c-605c-4709-a5f4-3df7c622a72e",
+      "is_oa": false,
+      "landing_page_url": "https://hdl.handle.net/1983/eb55a51c-605c-4709-a5f4-3df7c622a72e",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306400895",
+        "display_name": "Bristol Research (University of Bristol)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I36234482",
+        "host_organization_name": "University of Bristol",
+        "host_organization_lineage": [
+          "https://openalex.org/I36234482"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "Verdon, JP, Kendall, J-M, Don J., W & Doug A., A 2011, 'Linking microseismic event observations with geomechanical models to minimise the risks of storing CO2 in geological formations', Earth and Planetary Science Letters, vol. 305, no. 1-2, pp. 143 - 152. https://doi.org/10.1016/j.epsl.2011.02.048",
+      "raw_type": "info:eu-repo/semantics/publishedVersion"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [
+    {
+      "id": "https://openalex.org/G2835435563",
+      "display_name": null,
+      "funder_award_id": "NE/I010904/1",
+      "funder_id": "https://openalex.org/F4320334631",
+      "funder_display_name": "Natural Environment Research Council"
+    },
+    {
+      "id": "https://openalex.org/G521172287",
+      "display_name": null,
+      "funder_award_id": "NE/I010904/1",
+      "funder_id": "https://openalex.org/F4320320022",
+      "funder_display_name": "Sight Research UK"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320320022",
+      "display_name": "Sight Research UK",
+      "ror": "https://ror.org/03z2py885"
+    },
+    {
+      "id": "https://openalex.org/F4320322470",
+      "display_name": "Petroleum Technology Research Centre",
+      "ror": "https://ror.org/01gzy0g74"
+    },
+    {
+      "id": "https://openalex.org/F4320334631",
+      "display_name": "Natural Environment Research Council",
+      "ror": "https://ror.org/02b5d8509"
+    }
+  ],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 44,
+  "referenced_works": [
+    "https://openalex.org/W164518423",
+    "https://openalex.org/W1519267274",
+    "https://openalex.org/W1558785367",
+    "https://openalex.org/W1625426995",
+    "https://openalex.org/W1907781017",
+    "https://openalex.org/W1964405590",
+    "https://openalex.org/W1980749707",
+    "https://openalex.org/W1995892200",
+    "https://openalex.org/W2000240386",
+    "https://openalex.org/W2003296510",
+    "https://openalex.org/W2007097118",
+    "https://openalex.org/W2022063721",
+    "https://openalex.org/W2026929318",
+    "https://openalex.org/W2032841194",
+    "https://openalex.org/W2041991630",
+    "https://openalex.org/W2042889142",
+    "https://openalex.org/W2044590630",
+    "https://openalex.org/W2066690748",
+    "https://openalex.org/W2071300970",
+    "https://openalex.org/W2074738270",
+    "https://openalex.org/W2112567193",
+    "https://openalex.org/W2118699446",
+    "https://openalex.org/W2124099092",
+    "https://openalex.org/W2126372509",
+    "https://openalex.org/W2127887153",
+    "https://openalex.org/W2136172518",
+    "https://openalex.org/W2138038170",
+    "https://openalex.org/W2141328129",
+    "https://openalex.org/W2149490601",
+    "https://openalex.org/W2152491501",
+    "https://openalex.org/W2170483840",
+    "https://openalex.org/W2172000677",
+    "https://openalex.org/W2178317147",
+    "https://openalex.org/W2285528348",
+    "https://openalex.org/W2332427495",
+    "https://openalex.org/W2498998502",
+    "https://openalex.org/W2600255538",
+    "https://openalex.org/W2940929308",
+    "https://openalex.org/W4251108507",
+    "https://openalex.org/W6606703115",
+    "https://openalex.org/W6645663012",
+    "https://openalex.org/W6667012415",
+    "https://openalex.org/W6676781125",
+    "https://openalex.org/W6702591141"
+  ],
+  "related_works": [
+    "https://openalex.org/W1991562690",
+    "https://openalex.org/W2326651046",
+    "https://openalex.org/W4294969271",
+    "https://openalex.org/W4235678604",
+    "https://openalex.org/W2332561103",
+    "https://openalex.org/W3179212216",
+    "https://openalex.org/W3162854309",
+    "https://openalex.org/W2731855199",
+    "https://openalex.org/W1994443950",
+    "https://openalex.org/W2782010217"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 15
+    }
+  ],
+  "updated_date": "2026-09-23T05:00:35.095934",
+  "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,1479 @@
+{
+  "meta": {
+    "count": 1,
+    "db_response_time_ms": 31,
+    "page": 1,
+    "per_page": 10,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where it cites (W7164938999)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "referenced_works",
+            "value": "W7164938999"
+          }
+        ]
+      },
+      "url": "/works?filter=referenced_works:W7164938999&per_page=10"
+    },
+    "cost_usd": 0.0001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W7213348319",
+      "doi": "https://doi.org/10.3390/pr14182921",
+      "title": "High-Density Seismic Signal Processing Methods for the Gongshanmiao 3D Oil Survey of the Lianggaoshan Formation in the Sichuan Basin: A Case Study",
+      "display_name": "High-Density Seismic Signal Processing Methods for the Gongshanmiao 3D Oil Survey of the Lianggaoshan Formation in the Sichuan Basin: A Case Study",
+      "publication_year": 2026,
+      "publication_date": "2026-09-15",
+      "ids": {
+        "openalex": "https://openalex.org/W7213348319",
+        "doi": "https://doi.org/10.3390/pr14182921"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.3390/pr14182921",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/pr14182921",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210201879",
+          "display_name": "Processes",
+          "issn_l": "2227-9717",
+          "issn": [
+            "2227-9717"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core"
+          ],
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Processes",
+        "raw_type": "journal-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "gold",
+        "oa_url": "https://doi.org/10.3390/pr14182921",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5151709827",
+            "display_name": "Ming Zeng",
+            "orcid": null
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Ming Zeng",
+          "raw_affiliation_strings": [
+            "Exploration and Development Research Institute, PetroChina Southwest Oil and Gas Field Company, Chengdu 610041, China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Exploration and Development Research Institute, PetroChina Southwest Oil and Gas Field Company, Chengdu 610041, China",
+              "institution_ids": []
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5004053487",
+            "display_name": "He Bing",
+            "orcid": "https://orcid.org/0000-0002-9606-6295"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I165745306",
+              "display_name": "Southwest Petroleum University",
+              "ror": "https://ror.org/03h17x602",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I165745306"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Bing He",
+          "raw_affiliation_strings": [
+            "Development Management Department, PetroChina Southwest Oil and Gas Field Company, Chengdu 610081, China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Development Management Department, PetroChina Southwest Oil and Gas Field Company, Chengdu 610081, China",
+              "institution_ids": [
+                "https://openalex.org/I165745306"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5003143068",
+            "display_name": "Qingsong Tang",
+            "orcid": "https://orcid.org/0000-0002-0192-1042"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I165745306",
+              "display_name": "Southwest Petroleum University",
+              "ror": "https://ror.org/03h17x602",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I165745306"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Qingsong Tang",
+          "raw_affiliation_strings": [
+            "Crude Oil Department, PetroChina Southwest Oil and Gas Field Company, Chengdu 610081, China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Crude Oil Department, PetroChina Southwest Oil and Gas Field Company, Chengdu 610081, China",
+              "institution_ids": [
+                "https://openalex.org/I165745306"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5100325866",
+            "display_name": "Fei Li",
+            "orcid": "https://orcid.org/0000-0002-9718-6627"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I165745306",
+              "display_name": "Southwest Petroleum University",
+              "ror": "https://ror.org/03h17x602",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I165745306"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Fei Li",
+          "raw_affiliation_strings": [
+            "Development Management Department, PetroChina Southwest Oil and Gas Field Company, Chengdu 610081, China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Development Management Department, PetroChina Southwest Oil and Gas Field Company, Chengdu 610081, China",
+              "institution_ids": [
+                "https://openalex.org/I165745306"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5147657347",
+            "display_name": "Deming Zhang",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I31595395",
+              "display_name": "Chengdu University of Technology",
+              "ror": "https://ror.org/05pejbw21",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I31595395"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Deming Zhang",
+          "raw_affiliation_strings": [
+            "College of Energy, Chengdu University of Technology, Chengdu 610059, China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "College of Energy, Chengdu University of Technology, Chengdu 610059, China",
+              "institution_ids": [
+                "https://openalex.org/I31595395"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5007184853",
+            "display_name": "Zhigang Liu",
+            "orcid": "https://orcid.org/0000-0003-1013-8321"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I165745306",
+              "display_name": "Southwest Petroleum University",
+              "ror": "https://ror.org/03h17x602",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I165745306"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I98227222",
+              "display_name": "China National Petroleum Corporation (China)",
+              "ror": "https://ror.org/05269d038",
+              "country_code": "CN",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I98227222"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Zhigang Liu",
+          "raw_affiliation_strings": [
+            "Southwest Geophysical Research Institute, BGP Inc., China National Petroleum Corporation, Chengdu 610200, China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Southwest Geophysical Research Institute, BGP Inc., China National Petroleum Corporation, Chengdu 610200, China",
+              "institution_ids": [
+                "https://openalex.org/I165745306",
+                "https://openalex.org/I98227222"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5101386677",
+            "display_name": "Haotian Peng",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I165745306",
+              "display_name": "Southwest Petroleum University",
+              "ror": "https://ror.org/03h17x602",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I165745306"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Haotian Peng",
+          "raw_affiliation_strings": [
+            "Development Management Department, PetroChina Southwest Oil and Gas Field Company, Chengdu 610081, China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Development Management Department, PetroChina Southwest Oil and Gas Field Company, Chengdu 610081, China",
+              "institution_ids": [
+                "https://openalex.org/I165745306"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5151761002",
+            "display_name": "Cong Tang",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I165745306",
+              "display_name": "Southwest Petroleum University",
+              "ror": "https://ror.org/03h17x602",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I165745306"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Cong Tang",
+          "raw_affiliation_strings": [
+            "Crude Oil Department, PetroChina Southwest Oil and Gas Field Company, Chengdu 610081, China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Crude Oil Department, PetroChina Southwest Oil and Gas Field Company, Chengdu 610081, China",
+              "institution_ids": [
+                "https://openalex.org/I165745306"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5151746549",
+            "display_name": "Xiaowei Yan",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I165745306",
+              "display_name": "Southwest Petroleum University",
+              "ror": "https://ror.org/03h17x602",
+              "country_code": "CN",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I165745306"
+              ]
+            },
+            {
+              "id": "https://openalex.org/I98227222",
+              "display_name": "China National Petroleum Corporation (China)",
+              "ror": "https://ror.org/05269d038",
+              "country_code": "CN",
+              "type": "company",
+              "lineage": [
+                "https://openalex.org/I98227222"
+              ]
+            }
+          ],
+          "countries": [
+            "CN"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Xiaowei Yan",
+          "raw_affiliation_strings": [
+            "Southwest Geophysical Research Institute, BGP Inc., China National Petroleum Corporation, Chengdu 610200, China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Southwest Geophysical Research Institute, BGP Inc., China National Petroleum Corporation, Chengdu 610200, China",
+              "institution_ids": [
+                "https://openalex.org/I165745306",
+                "https://openalex.org/I98227222"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5151800300",
+            "display_name": "Zhihui Tu",
+            "orcid": null
+          },
+          "institutions": [],
+          "countries": [],
+          "is_corresponding": false,
+          "raw_author_name": "Zhihui Tu",
+          "raw_affiliation_strings": [
+            "Exploration and Development Research Institute, PetroChina Southwest Oil and Gas Field Company, Chengdu 610041, China"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Exploration and Development Research Institute, PetroChina Southwest Oil and Gas Field Company, Chengdu 610041, China",
+              "institution_ids": []
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 3,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5147657347"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I31595395"
+      ],
+      "apc_list": {
+        "value": 2400,
+        "currency": "CHF",
+        "value_usd": 2896
+      },
+      "apc_paid": {
+        "value": 2400,
+        "currency": "CHF",
+        "value_usd": 2896
+      },
+      "fwci": 0.0,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.84028984,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": "14",
+        "issue": "18",
+        "first_page": "2921",
+        "last_page": "2921"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10271",
+        "display_name": "Seismic Imaging and Inversion Techniques",
+        "score": 0.7102000117301941,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1908",
+          "display_name": "Geophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10271",
+          "display_name": "Seismic Imaging and Inversion Techniques",
+          "score": 0.7102000117301941,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11757",
+          "display_name": "Seismic Waves and Analysis",
+          "score": 0.26840001344680786,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10413",
+          "display_name": "High-pressure geophysics and materials",
+          "score": 0.005200000014156103,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/attenuation",
+          "display_name": "Attenuation",
+          "score": 0.7055000066757202
+        },
+        {
+          "id": "https://openalex.org/keywords/wavelet",
+          "display_name": "Wavelet",
+          "score": 0.6793000102043152
+        },
+        {
+          "id": "https://openalex.org/keywords/deconvolution",
+          "display_name": "Deconvolution",
+          "score": 0.6021999716758728
+        },
+        {
+          "id": "https://openalex.org/keywords/singular-value-decomposition",
+          "display_name": "Singular value decomposition",
+          "score": 0.4803999960422516
+        },
+        {
+          "id": "https://openalex.org/keywords/geophysical-imaging",
+          "display_name": "Geophysical imaging",
+          "score": 0.4447000026702881
+        },
+        {
+          "id": "https://openalex.org/keywords/signal",
+          "display_name": "SIGNAL (programming language)",
+          "score": 0.43650001287460327
+        },
+        {
+          "id": "https://openalex.org/keywords/noise",
+          "display_name": "Noise (video)",
+          "score": 0.4214000105857849
+        },
+        {
+          "id": "https://openalex.org/keywords/broadband",
+          "display_name": "Broadband",
+          "score": 0.40639999508857727
+        },
+        {
+          "id": "https://openalex.org/keywords/reservoir-modeling",
+          "display_name": "Reservoir modeling",
+          "score": 0.4020000100135803
+        },
+        {
+          "id": "https://openalex.org/keywords/seismic-inversion",
+          "display_name": "Seismic inversion",
+          "score": 0.38510000705718994
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C184652730",
+          "wikidata": "https://www.wikidata.org/wiki/Q2357982",
+          "display_name": "Attenuation",
+          "level": 2,
+          "score": 0.7055000066757202
+        },
+        {
+          "id": "https://openalex.org/C47432892",
+          "wikidata": "https://www.wikidata.org/wiki/Q831390",
+          "display_name": "Wavelet",
+          "level": 2,
+          "score": 0.6793000102043152
+        },
+        {
+          "id": "https://openalex.org/C127313418",
+          "wikidata": "https://www.wikidata.org/wiki/Q1069",
+          "display_name": "Geology",
+          "level": 0,
+          "score": 0.6690000295639038
+        },
+        {
+          "id": "https://openalex.org/C174576160",
+          "wikidata": "https://www.wikidata.org/wiki/Q1183700",
+          "display_name": "Deconvolution",
+          "level": 2,
+          "score": 0.6021999716758728
+        },
+        {
+          "id": "https://openalex.org/C165205528",
+          "wikidata": "https://www.wikidata.org/wiki/Q83371",
+          "display_name": "Seismology",
+          "level": 1,
+          "score": 0.5164999961853027
+        },
+        {
+          "id": "https://openalex.org/C22789450",
+          "wikidata": "https://www.wikidata.org/wiki/Q420904",
+          "display_name": "Singular value decomposition",
+          "level": 2,
+          "score": 0.4803999960422516
+        },
+        {
+          "id": "https://openalex.org/C79675319",
+          "wikidata": "https://www.wikidata.org/wiki/Q5535575",
+          "display_name": "Geophysical imaging",
+          "level": 2,
+          "score": 0.4447000026702881
+        },
+        {
+          "id": "https://openalex.org/C2779843651",
+          "wikidata": "https://www.wikidata.org/wiki/Q7390335",
+          "display_name": "SIGNAL (programming language)",
+          "level": 2,
+          "score": 0.43650001287460327
+        },
+        {
+          "id": "https://openalex.org/C99498987",
+          "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+          "display_name": "Noise (video)",
+          "level": 3,
+          "score": 0.4214000105857849
+        },
+        {
+          "id": "https://openalex.org/C509933004",
+          "wikidata": "https://www.wikidata.org/wiki/Q194163",
+          "display_name": "Broadband",
+          "level": 2,
+          "score": 0.40639999508857727
+        },
+        {
+          "id": "https://openalex.org/C14641988",
+          "wikidata": "https://www.wikidata.org/wiki/Q7315329",
+          "display_name": "Reservoir modeling",
+          "level": 2,
+          "score": 0.4020000100135803
+        },
+        {
+          "id": "https://openalex.org/C39267094",
+          "wikidata": "https://www.wikidata.org/wiki/Q7446968",
+          "display_name": "Seismic inversion",
+          "level": 3,
+          "score": 0.38510000705718994
+        },
+        {
+          "id": "https://openalex.org/C138827492",
+          "wikidata": "https://www.wikidata.org/wiki/Q6661985",
+          "display_name": "Data processing",
+          "level": 2,
+          "score": 0.37720000743865967
+        },
+        {
+          "id": "https://openalex.org/C2780942248",
+          "wikidata": "https://www.wikidata.org/wiki/Q1048443",
+          "display_name": "Passive seismic",
+          "level": 2,
+          "score": 0.367900013923645
+        },
+        {
+          "id": "https://openalex.org/C127162648",
+          "wikidata": "https://www.wikidata.org/wiki/Q16858953",
+          "display_name": "Channel (broadcasting)",
+          "level": 2,
+          "score": 0.3675000071525574
+        },
+        {
+          "id": "https://openalex.org/C24890656",
+          "wikidata": "https://www.wikidata.org/wiki/Q82811",
+          "display_name": "Acoustics",
+          "level": 1,
+          "score": 0.3555000126361847
+        },
+        {
+          "id": "https://openalex.org/C187691185",
+          "wikidata": "https://www.wikidata.org/wiki/Q2020720",
+          "display_name": "Grid",
+          "level": 2,
+          "score": 0.3531000018119812
+        },
+        {
+          "id": "https://openalex.org/C104267543",
+          "wikidata": "https://www.wikidata.org/wiki/Q208163",
+          "display_name": "Signal processing",
+          "level": 3,
+          "score": 0.35190001130104065
+        },
+        {
+          "id": "https://openalex.org/C13944312",
+          "wikidata": "https://www.wikidata.org/wiki/Q7512748",
+          "display_name": "Signal-to-noise ratio (imaging)",
+          "level": 2,
+          "score": 0.337799996137619
+        },
+        {
+          "id": "https://openalex.org/C196216189",
+          "wikidata": "https://www.wikidata.org/wiki/Q2867",
+          "display_name": "Wavelet transform",
+          "level": 3,
+          "score": 0.3343000113964081
+        },
+        {
+          "id": "https://openalex.org/C106487976",
+          "wikidata": "https://www.wikidata.org/wiki/Q685816",
+          "display_name": "Matrix (chemical analysis)",
+          "level": 2,
+          "score": 0.3287000060081482
+        },
+        {
+          "id": "https://openalex.org/C2781181686",
+          "wikidata": "https://www.wikidata.org/wiki/Q4226068",
+          "display_name": "Coherence (philosophical gambling strategy)",
+          "level": 2,
+          "score": 0.3278999924659729
+        },
+        {
+          "id": "https://openalex.org/C64370902",
+          "wikidata": "https://www.wikidata.org/wiki/Q7315329",
+          "display_name": "Seismic to simulation",
+          "level": 4,
+          "score": 0.32760000228881836
+        },
+        {
+          "id": "https://openalex.org/C62649853",
+          "wikidata": "https://www.wikidata.org/wiki/Q199687",
+          "display_name": "Remote sensing",
+          "level": 1,
+          "score": 0.31709998846054077
+        },
+        {
+          "id": "https://openalex.org/C186370098",
+          "wikidata": "https://www.wikidata.org/wiki/Q442787",
+          "display_name": "Energy (signal processing)",
+          "level": 2,
+          "score": 0.31209999322891235
+        },
+        {
+          "id": "https://openalex.org/C2776871995",
+          "wikidata": "https://www.wikidata.org/wiki/Q85794422",
+          "display_name": "Prestack",
+          "level": 2,
+          "score": 0.310699999332428
+        },
+        {
+          "id": "https://openalex.org/C65682993",
+          "wikidata": "https://www.wikidata.org/wiki/Q1056451",
+          "display_name": "Reflection (computer programming)",
+          "level": 2,
+          "score": 0.30660000443458557
+        },
+        {
+          "id": "https://openalex.org/C33708915",
+          "wikidata": "https://www.wikidata.org/wiki/Q4761629",
+          "display_name": "Anelastic attenuation factor",
+          "level": 3,
+          "score": 0.3021000027656555
+        },
+        {
+          "id": "https://openalex.org/C89787772",
+          "wikidata": "https://www.wikidata.org/wiki/Q7922855",
+          "display_name": "Vertical seismic profile",
+          "level": 2,
+          "score": 0.2888999879360199
+        },
+        {
+          "id": "https://openalex.org/C95722684",
+          "wikidata": "https://www.wikidata.org/wiki/Q2622756",
+          "display_name": "Continuous wavelet transform",
+          "level": 5,
+          "score": 0.2883000075817108
+        },
+        {
+          "id": "https://openalex.org/C85725439",
+          "wikidata": "https://www.wikidata.org/wiki/Q466686",
+          "display_name": "Anisotropy",
+          "level": 2,
+          "score": 0.2815999984741211
+        },
+        {
+          "id": "https://openalex.org/C2776436953",
+          "wikidata": "https://www.wikidata.org/wiki/Q5163215",
+          "display_name": "Consistency (knowledge bases)",
+          "level": 2,
+          "score": 0.27970001101493835
+        },
+        {
+          "id": "https://openalex.org/C2777210771",
+          "wikidata": "https://www.wikidata.org/wiki/Q4927124",
+          "display_name": "Block (permutation group theory)",
+          "level": 2,
+          "score": 0.27410000562667847
+        },
+        {
+          "id": "https://openalex.org/C2993562611",
+          "wikidata": "https://www.wikidata.org/wiki/Q271294",
+          "display_name": "Sichuan basin",
+          "level": 2,
+          "score": 0.2711000144481659
+        },
+        {
+          "id": "https://openalex.org/C78542244",
+          "wikidata": "https://www.wikidata.org/wiki/Q186167",
+          "display_name": "Seismic wave",
+          "level": 2,
+          "score": 0.2709999978542328
+        },
+        {
+          "id": "https://openalex.org/C42355184",
+          "wikidata": "https://www.wikidata.org/wiki/Q1361088",
+          "display_name": "Matrix decomposition",
+          "level": 3,
+          "score": 0.2671000063419342
+        },
+        {
+          "id": "https://openalex.org/C30044814",
+          "wikidata": "https://www.wikidata.org/wiki/Q11334452",
+          "display_name": "Blind deconvolution",
+          "level": 3,
+          "score": 0.2655999958515167
+        },
+        {
+          "id": "https://openalex.org/C3020199158",
+          "wikidata": "https://www.wikidata.org/wiki/Q210521",
+          "display_name": "High resolution",
+          "level": 2,
+          "score": 0.2603999972343445
+        },
+        {
+          "id": "https://openalex.org/C169744125",
+          "wikidata": "https://www.wikidata.org/wiki/Q510375",
+          "display_name": "Seismogram",
+          "level": 2,
+          "score": 0.251800000667572
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.3390/pr14182921",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.3390/pr14182921",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210201879",
+            "display_name": "Processes",
+            "issn_l": "2227-9717",
+            "issn": [
+              "2227-9717"
+            ],
+            "is_oa": true,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core"
+            ],
+            "host_organization": "https://openalex.org/P4310310987",
+            "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310310987"
+            ],
+            "host_organization_lineage_names": [
+              "Multidisciplinary Digital Publishing Institute"
+            ],
+            "type": "journal"
+          },
+          "license": "cc-by",
+          "license_id": "https://openalex.org/licenses/cc-by",
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Processes",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.3390/pr14182921",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.3390/pr14182921",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210201879",
+          "display_name": "Processes",
+          "issn_l": "2227-9717",
+          "issn": [
+            "2227-9717"
+          ],
+          "is_oa": true,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core"
+          ],
+          "host_organization": "https://openalex.org/P4310310987",
+          "host_organization_name": "Multidisciplinary Digital Publishing Institute",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310310987"
+          ],
+          "host_organization_lineage_names": [
+            "Multidisciplinary Digital Publishing Institute"
+          ],
+          "type": "journal"
+        },
+        "license": "cc-by",
+        "license_id": "https://openalex.org/licenses/cc-by",
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Processes",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [],
+      "x_sdgs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "grobid_xml": false,
+        "pdf": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 32,
+      "referenced_works": [
+        "https://openalex.org/W2022351746",
+        "https://openalex.org/W2022959475",
+        "https://openalex.org/W2092510621",
+        "https://openalex.org/W2115486222",
+        "https://openalex.org/W2359154672",
+        "https://openalex.org/W2564696896",
+        "https://openalex.org/W2767061773",
+        "https://openalex.org/W2802987501",
+        "https://openalex.org/W2810866471",
+        "https://openalex.org/W2944102654",
+        "https://openalex.org/W3009137917",
+        "https://openalex.org/W3130491436",
+        "https://openalex.org/W4214577092",
+        "https://openalex.org/W4220777196",
+        "https://openalex.org/W4298395801",
+        "https://openalex.org/W4385606434",
+        "https://openalex.org/W4388639726",
+        "https://openalex.org/W4391733027",
+        "https://openalex.org/W4399925594",
+        "https://openalex.org/W4404210461",
+        "https://openalex.org/W4405963912",
+        "https://openalex.org/W4409452071",
+        "https://openalex.org/W4411264401",
+        "https://openalex.org/W4413003078",
+        "https://openalex.org/W4413388335",
+        "https://openalex.org/W4414398658",
+        "https://openalex.org/W4415942869",
+        "https://openalex.org/W4416767951",
+        "https://openalex.org/W4417436430",
+        "https://openalex.org/W7133235827",
+        "https://openalex.org/W7160312714",
+        "https://openalex.org/W7164938999"
+      ],
+      "related_works": [],
+      "abstract_inverted_index": {
+        "The": [
+          0
+        ],
+        "Lianggaoshan": [
+          1
+        ],
+        "Formation": [
+          2
+        ],
+        "in": [
+          3,
+          22,
+          49
+        ],
+        "the": [
+          4,
+          8,
+          125,
+          149,
+          154
+        ],
+        "Gongshanmiao": [
+          5
+        ],
+        "block": [
+          6
+        ],
+        "of": [
+          7,
+          31,
+          139,
+          153
+        ],
+        "Sichuan": [
+          9
+        ],
+        "Basin": [
+          10
+        ],
+        "is": [
+          11,
+          68,
+          145
+        ],
+        "characterized": [
+          12
+        ],
+        "by": [
+          13,
+          90
+        ],
+        "narrow": [
+          14
+        ],
+        "channel": [
+          15,
+          150
+        ],
+        "sand": [
+          16
+        ],
+        "bodies": [
+          17
+        ],
+        "and": [
+          18,
+          45,
+          51,
+          57,
+          77,
+          102,
+          116,
+          134,
+          148,
+          169,
+          179
+        ],
+        "thin": [
+          19
+        ],
+        "layers,": [
+          20
+        ],
+        "resulting": [
+          21
+        ],
+        "weak": [
+          23
+        ],
+        "seismic": [
+          24,
+          38
+        ],
+        "responses,": [
+          25
+        ],
+        "which": [
+          26
+        ],
+        "leads": [
+          27
+        ],
+        "to": [
+          28,
+          82,
+          161
+        ],
+        "poor": [
+          29
+        ],
+        "identification": [
+          30
+        ],
+        "small-scale": [
+          32
+        ],
+        "fault–fracture": [
+          33
+        ],
+        "systems.": [
+          34
+        ],
+        "Initial": [
+          35
+        ],
+        "high-density": [
+          36,
+          127
+        ],
+        "3D": [
+          37
+        ],
+        "data": [
+          39,
+          128
+        ],
+        "exhibit": [
+          40
+        ],
+        "strong": [
+          41
+        ],
+        "shallow": [
+          42
+        ],
+        "surface": [
+          43
+        ],
+        "waves": [
+          44
+        ],
+        "significant": [
+          46
+        ],
+        "shot-to-shot": [
+          47
+        ],
+        "variations": [
+          48
+        ],
+        "energy": [
+          50
+        ],
+        "frequency,": [
+          52
+        ],
+        "necessitating": [
+          53
+        ],
+        "amplitude-preserving": [
+          54,
+          65
+        ],
+        "noise": [
+          55,
+          66
+        ],
+        "attenuation": [
+          56,
+          67
+        ],
+        "broadband": [
+          58,
+          95
+        ],
+        "wavelet": [
+          59,
+          75,
+          93
+        ],
+        "consistency": [
+          60
+        ],
+        "processing.": [
+          61
+        ],
+        "First,": [
+          62
+        ],
+        "pre-stack": [
+          63
+        ],
+        "multi-domain": [
+          64
+        ],
+        "applied,": [
+          69
+        ],
+        "integrating": [
+          70
+        ],
+        "surface-wave": [
+          71
+        ],
+        "forward": [
+          72
+        ],
+        "modeling,": [
+          73
+        ],
+        "stationary": [
+          74
+        ],
+        "transform,": [
+          76
+        ],
+        "matrix": [
+          78
+        ],
+        "singular": [
+          79
+        ],
+        "value": [
+          80
+        ],
+        "decomposition": [
+          81
+        ],
+        "suppress": [
+          83
+        ],
+        "complex": [
+          84
+        ],
+        "noise.": [
+          85
+        ],
+        "Next,": [
+          86
+        ],
+        "robust": [
+          87
+        ],
+        "deconvolution": [
+          88
+        ],
+        "constrained": [
+          89
+        ],
+        "a": [
+          91,
+          110,
+          173
+        ],
+        "target": [
+          92
+        ],
+        "improves": [
+          94
+        ],
+        "consistency.": [
+          96
+        ],
+        "Subsequently,": [
+          97
+        ],
+        "anisotropic": [
+          98
+        ],
+        "depth-domain": [
+          99
+        ],
+        "velocity": [
+          100,
+          114
+        ],
+        "modeling": [
+          101
+        ],
+        "imaging": [
+          103
+        ],
+        "under": [
+          104
+        ],
+        "rugged": [
+          105
+        ],
+        "topography": [
+          106
+        ],
+        "are": [
+          107
+        ],
+        "conducted": [
+          108
+        ],
+        "using": [
+          109
+        ],
+        "well-constrained": [
+          111
+        ],
+        "TTI": [
+          112
+        ],
+        "initial": [
+          113
+        ],
+        "model": [
+          115
+        ],
+        "full-azimuth": [
+          117
+        ],
+        "angle-domain": [
+          118
+        ],
+        "grid": [
+          119
+        ],
+        "tomography.": [
+          120
+        ],
+        "Compared": [
+          121
+        ],
+        "with": [
+          122
+        ],
+        "conventional": [
+          123
+        ],
+        "data,": [
+          124
+        ],
+        "processed": [
+          126
+        ],
+        "significantly": [
+          129
+        ],
+        "enhance": [
+          130
+        ],
+        "bandwidth,": [
+          131
+        ],
+        "structural": [
+          132
+        ],
+        "imaging,": [
+          133
+        ],
+        "thin-layer": [
+          135
+        ],
+        "resolution.": [
+          136
+        ],
+        "Imaging": [
+          137
+        ],
+        "continuity": [
+          138
+        ],
+        "small": [
+          140
+        ],
+        "faults": [
+          141
+        ],
+        "(6–10": [
+          142
+        ],
+        "m": [
+          143,
+          160
+        ],
+        "throw)": [
+          144
+        ],
+        "markedly": [
+          146
+        ],
+        "improved,": [
+          147
+        ],
+        "characterization": [
+          151
+        ],
+        "accuracy": [
+          152
+        ],
+        "Liang-2": [
+          155
+        ],
+        "Member": [
+          156
+        ],
+        "increases": [
+          157
+        ],
+        "from": [
+          158
+        ],
+        "180": [
+          159
+        ],
+        "60": [
+          162
+        ],
+        "m.": [
+          163
+        ],
+        "This": [
+          164
+        ],
+        "workflow": [
+          165
+        ],
+        "delivers": [
+          166
+        ],
+        "high-SNR,": [
+          167
+        ],
+        "high-resolution,": [
+          168
+        ],
+        "high-fidelity": [
+          170
+        ],
+        "results,": [
+          171
+        ],
+        "providing": [
+          172
+        ],
+        "reliable": [
+          174
+        ],
+        "basis": [
+          175
+        ],
+        "for": [
+          176
+        ],
+        "thin-sandbody": [
+          177
+        ],
+        "prediction": [
+          178
+        ],
+        "reservoir": [
+          180
+        ],
+        "evaluation.": [
+          181
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-09-23T05:00:35.095934",
+      "created_date": "2026-09-16T00:00:00"
+    }
+  ],
+  "group_by": []
+}

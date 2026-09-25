@@ -1,0 +1,834 @@
+{
+  "id": "https://openalex.org/W1551395222",
+  "doi": "https://doi.org/10.3133/ofr75311",
+  "title": "HYPO71 (revised; a computer program for determining hypocenter, magnitude, and first motion pattern of local earthquakes",
+  "display_name": "HYPO71 (revised; a computer program for determining hypocenter, magnitude, and first motion pattern of local earthquakes",
+  "publication_year": 1975,
+  "publication_date": "1975-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1551395222",
+    "doi": "https://doi.org/10.3133/ofr75311",
+    "mag": "1551395222"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.3133/ofr75311",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3133/ofr75311",
+    "pdf_url": "https://pubs.usgs.gov/of/1975/0311/report.pdf",
+    "source": {
+      "id": "https://openalex.org/S4210194219",
+      "display_name": "Antarctica A Keystone in a Changing World",
+      "issn_l": "0196-1497",
+      "issn": [
+        "0196-1497",
+        "2331-1258",
+        "2332-4899"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core"
+      ],
+      "host_organization": "https://openalex.org/P4310316088",
+      "host_organization_name": "United States Department of the Interior",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316088"
+      ],
+      "host_organization_lineage_names": [
+        "United States Department of the Interior"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Open-File Report",
+    "raw_type": "report-component"
+  },
+  "type": "report",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "bronze",
+    "oa_url": "https://pubs.usgs.gov/of/1975/0311/report.pdf",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5109865818",
+        "display_name": "W. H. K. Lee",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "William Hung Lee",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5047119744",
+        "display_name": "John C. Lahr",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "John C. Lahr",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": true,
+  "cited_by_count": 1057,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T13018",
+    "display_name": "Seismology and Earthquake Studies",
+    "score": 0.9552000164985657,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T13018",
+      "display_name": "Seismology and Earthquake Studies",
+      "score": 0.9552000164985657,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10110",
+      "display_name": "earthquake and tectonic studies",
+      "score": 0.949400007724762,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12424",
+      "display_name": "Earthquake Detection and Analysis",
+      "score": 0.9375,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/hypocenter",
+      "display_name": "Hypocenter",
+      "score": 0.9510284066200256
+    },
+    {
+      "id": "https://openalex.org/keywords/magnitude",
+      "display_name": "Magnitude (astronomy)",
+      "score": 0.8796507120132446
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.6772457957267761
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.6070959568023682
+    },
+    {
+      "id": "https://openalex.org/keywords/motion",
+      "display_name": "Motion (physics)",
+      "score": 0.5239161252975464
+    },
+    {
+      "id": "https://openalex.org/keywords/geodesy",
+      "display_name": "Geodesy",
+      "score": 0.4502701461315155
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.27927666902542114
+    },
+    {
+      "id": "https://openalex.org/keywords/induced-seismicity",
+      "display_name": "Induced seismicity",
+      "score": 0.10985273122787476
+    },
+    {
+      "id": "https://openalex.org/keywords/classical-mechanics",
+      "display_name": "Classical mechanics",
+      "score": 0.08329305052757263
+    },
+    {
+      "id": "https://openalex.org/keywords/astrophysics",
+      "display_name": "Astrophysics",
+      "score": 0.03777012228965759
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C111357193",
+      "wikidata": "https://www.wikidata.org/wiki/Q107410",
+      "display_name": "Hypocenter",
+      "level": 3,
+      "score": 0.9510284066200256
+    },
+    {
+      "id": "https://openalex.org/C126691448",
+      "wikidata": "https://www.wikidata.org/wiki/Q2028919",
+      "display_name": "Magnitude (astronomy)",
+      "level": 2,
+      "score": 0.8796507120132446
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.6772457957267761
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.6070959568023682
+    },
+    {
+      "id": "https://openalex.org/C104114177",
+      "wikidata": "https://www.wikidata.org/wiki/Q79782",
+      "display_name": "Motion (physics)",
+      "level": 2,
+      "score": 0.5239161252975464
+    },
+    {
+      "id": "https://openalex.org/C13280743",
+      "wikidata": "https://www.wikidata.org/wiki/Q131089",
+      "display_name": "Geodesy",
+      "level": 1,
+      "score": 0.4502701461315155
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.27927666902542114
+    },
+    {
+      "id": "https://openalex.org/C83176761",
+      "wikidata": "https://www.wikidata.org/wiki/Q1394636",
+      "display_name": "Induced seismicity",
+      "level": 2,
+      "score": 0.10985273122787476
+    },
+    {
+      "id": "https://openalex.org/C74650414",
+      "wikidata": "https://www.wikidata.org/wiki/Q11397",
+      "display_name": "Classical mechanics",
+      "level": 1,
+      "score": 0.08329305052757263
+    },
+    {
+      "id": "https://openalex.org/C44870925",
+      "wikidata": "https://www.wikidata.org/wiki/Q37547",
+      "display_name": "Astrophysics",
+      "level": 1,
+      "score": 0.03777012228965759
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.3133/ofr75311",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.3133/ofr75311",
+      "pdf_url": "https://pubs.usgs.gov/of/1975/0311/report.pdf",
+      "source": {
+        "id": "https://openalex.org/S4210194219",
+        "display_name": "Antarctica A Keystone in a Changing World",
+        "issn_l": "0196-1497",
+        "issn": [
+          "0196-1497",
+          "2331-1258",
+          "2332-4899"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core"
+        ],
+        "host_organization": "https://openalex.org/P4310316088",
+        "host_organization_name": "United States Department of the Interior",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316088"
+        ],
+        "host_organization_lineage_names": [
+          "United States Department of the Interior"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Open-File Report",
+      "raw_type": "report-component"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.3133/ofr75311",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.3133/ofr75311",
+    "pdf_url": "https://pubs.usgs.gov/of/1975/0311/report.pdf",
+    "source": {
+      "id": "https://openalex.org/S4210194219",
+      "display_name": "Antarctica A Keystone in a Changing World",
+      "issn_l": "0196-1497",
+      "issn": [
+        "0196-1497",
+        "2331-1258",
+        "2332-4899"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core"
+      ],
+      "host_organization": "https://openalex.org/P4310316088",
+      "host_organization_name": "United States Department of the Interior",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316088"
+      ],
+      "host_organization_lineage_names": [
+        "United States Department of the Interior"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Open-File Report",
+    "raw_type": "report-component"
+  },
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/13",
+      "score": 0.7799999713897705,
+      "display_name": "Climate action"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": true,
+    "pdf": true
+  },
+  "content_urls": {
+    "pdf": "https://content.openalex.org/works/W1551395222.pdf",
+    "grobid_xml": "https://content.openalex.org/works/W1551395222.grobid-xml"
+  },
+  "referenced_works_count": 6,
+  "referenced_works": [
+    "https://openalex.org/W29813784",
+    "https://openalex.org/W999579067",
+    "https://openalex.org/W4248025162",
+    "https://openalex.org/W4301041382",
+    "https://openalex.org/W6600005074",
+    "https://openalex.org/W6836320567"
+  ],
+  "related_works": [
+    "https://openalex.org/W2049297592",
+    "https://openalex.org/W2791434102",
+    "https://openalex.org/W2284144712",
+    "https://openalex.org/W2108377353",
+    "https://openalex.org/W1986631092",
+    "https://openalex.org/W2118597043",
+    "https://openalex.org/W3144626739",
+    "https://openalex.org/W2093059543",
+    "https://openalex.org/W4231648903",
+    "https://openalex.org/W2596288408"
+  ],
+  "abstract_inverted_index": {
+    "Jeffreys'": [
+      0,
+      23
+    ],
+    "weighting": [
+      1,
+      24
+    ],
+    "is": [
+      2,
+      10,
+      25
+    ],
+    "designed": [
+      3
+    ],
+    "to": [
+      4,
+      12,
+      30
+    ],
+    "catch": [
+      5
+    ],
+    "large": [
+      6,
+      32
+    ],
+    "arrival-time": [
+      7,
+      18
+    ],
+    "errors.Therefore,": [
+      8
+    ],
+    "it": [
+      9,
+      14
+    ],
+    "useful": [
+      11
+    ],
+    "use": [
+      13
+    ],
+    "on": [
+      15
+    ],
+    "preliminary": [
+      16
+    ],
+    "runs.After": [
+      17
+    ],
+    "errors": [
+      19
+    ],
+    "have": [
+      20
+    ],
+    "been": [
+      21
+    ],
+    "corrected,": [
+      22
+    ],
+    "not": [
+      26
+    ],
+    "recommended,": [
+      27
+    ],
+    "(i.e.Reset": [
+      28
+    ],
+    "TEST(Ol)": [
+      29
+    ],
+    "a": [
+      31
+    ],
+    "value,such": [
+      33
+    ],
+    "as": [
+      34
+    ],
+    "0.5,on": [
+      35
+    ],
+    "your": [
+      36
+    ],
+    "final": [
+      37
+    ],
+    "run).-7": [
+      38
+    ],
+    "-(DEC.2lt": [
+      39
+    ],
+    "1971?REVISED": [
+      40
+    ],
+    "NOV.25t": [
+      41
+    ],
+    "1973)": [
+      42
+    ],
+    "-PROGRAM:": [
+      43
+    ],
+    "HYP071": [
+      44
+    ],
+    "INTEGFR*2": [
+      45
+    ],
+    "SYM": [
+      46
+    ],
+    "REAL**": [
+      47
+    ],
+    "TIMEUTIME2": [
+      48
+    ],
+    "REAL": [
+      49
+    ],
+    "LATtLON»LAT2»LON2»LATFP»LQN£PfMAG»LATR»LQNR": [
+      50
+    ],
+    "COMMON": [
+      51,
+      55,
+      58,
+      61,
+      64,
+      69,
+      79,
+      82,
+      85,
+      88,
+      91,
+      94
+    ],
+    "/A3/": [
+      52
+    ],
+    "NRES(2.151)>NXM(151).NFM(151)«SW(?tl5l)tSRSQ(2»151)t": [
+      53
+    ],
+    "SRWT(2»151)fSXM(lSl)fSXMSO(lSl)»SFM(151)tSFMSQUSl)»QNO<4)": [
+      54
+    ],
+    "/AS/": [
+      56
+    ],
+    "ZTR»XNEAR»XFAR«POS»IQ»KMSfKFM»IPUNtIMAG»IRtOSPA(9»40)": [
+      57
+    ],
+    "/A6/": [
+      59
+    ],
+    "NMAX.LMAX»NS.NL»MMAXfNR»FNO»Z»X(4f101)»ZSOtNRP»DF(101)": [
+      60
+    ],
+    "/A7/": [
+      62
+    ],
+    "KP»KZ»KOUT,wlTU01>tY(4)»SE(4)tXMEAN(4)tCP(180).SPU80)": [
+      63
+    ],
+    "/Afl/": [
+      65
+    ],
+    "CAL(lOl).XMAG(lOl)»FMAG(101)»NM»AVXMtSDXM»NFtAVFM,": [
+      66
+    ],
+    "SOFM»MAGfKDX(ini)tAMX(lOl)fP«X(10D": [
+      67
+    ],
+    "»CALX(101)tFMP(iOl)": [
+      68
+    ],
+    "/A12/": [
+      70
+    ],
+    "MSTA(lOl)": [
+      71
+    ],
+    "»PRMK<101)": [
+      72
+    ],
+    "»W(101)": [
+      73
+    ],
+    "tJMINUOD": [
+      74
+    ],
+    ".P(lOl)": [
+      75
+    ],
+    "t": [
+      76,
+      100
+    ],
+    "KMK(lOl),WRK(101),TP(101)": [
+      77
+    ],
+    ".OTU01),COSL(701)": [
+      78
+    ],
+    "/A14/": [
+      80
+    ],
+    "MRKfMDOL»HLANK»MSTAR»DOTtSTAR4iQUES»CRMK»MCENT,ISTAR": [
+      81
+    ],
+    "/A15/": [
+      83
+    ],
+    "MtL»J»ORG»JAV»PMIN»AZRES(101).NEAR»!OXStLATEP»LONEP": [
+      84
+    ],
+    "/A17/": [
+      86
+    ],
+    "TlMEltTIME2»LATR.LONR,KTEST»KAZ»KSORT»KSEL»XFN": [
+      87
+    ],
+    "/A19/": [
+      89
+    ],
+    "KNO,IELV(151)tTEST(15)tFLT(2t!51)iMNO(151)»IW(15l)": [
+      90
+    ],
+    "/A21/": [
+      92
+    ],
+    "KSMP(lSl)»FMO»ONF»8(4)»IPHtKF»AVRPS»lEXIT": [
+      93
+    ],
+    "/A?3/": [
+      95
+    ],
+    "AIN(IOI)«RMS.ADJ»SYM(101)": [
+      96
+    ],
+    "COMMO^'": [
+      97
+    ],
+    "/A25/": [
+      98
+    ],
+    "INS(lSl)": [
+      99
+    ],
+    "IFW(lSl)": [
+      101
+    ],
+    "tJPH": [
+      102
+    ],
+    ",": [
+      103
+    ],
+    "RESET": [
+      104
+    ],
+    "SOME": [
+      105
+    ],
+    "LIMITS": [
+      106
+    ],
+    "OF": [
+      107,
+      111
+    ],
+    "ERROR": [
+      108
+    ],
+    "HANDLING": [
+      109
+    ],
+    "FACILITY": [
+      110
+    ],
+    "IBM": [
+      112
+    ],
+    "FORTH": [
+      113
+    ],
+    "CALL": [
+      114,
+      116,
+      118
+    ],
+    "ERHSET(207»256»lfO)": [
+      115
+    ],
+    "ER*SFT(208t256»l»0)": [
+      117
+    ],
+    "F_R«SET(209»256iltO)": [
+      119
+    ],
+    "*": [
+      120,
+      124
+    ],
+    "x": [
+      121,
+      122
+    ],
+    "z": [
+      123
+    ],
+    "~": [
+      125
+    ],
+    "3t": [
+      126
+    ],
+    "r>»-^": [
+      127
+    ],
+    "«^": [
+      128
+    ],
+    "o": [
+      129
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 38
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 38
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 23
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 20
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 30
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 30
+    }
+  ],
+  "updated_date": "2026-09-23T09:40:40.371523",
+  "created_date": "2025-10-10T00:00:00"
+}

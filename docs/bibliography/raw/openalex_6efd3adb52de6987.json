@@ -1,0 +1,1115 @@
+{
+  "id": "https://openalex.org/W4408484505",
+  "doi": "https://doi.org/10.5194/egusphere-egu25-20208",
+  "title": "Operational Seismic Denoising Workflow to Enhance Seismic Catalogues",
+  "display_name": "Operational Seismic Denoising Workflow to Enhance Seismic Catalogues",
+  "publication_year": 2025,
+  "publication_date": "2025-03-15",
+  "ids": {
+    "openalex": "https://openalex.org/W4408484505",
+    "doi": "https://doi.org/10.5194/egusphere-egu25-20208"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.5194/egusphere-egu25-20208",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.5194/egusphere-egu25-20208",
+    "pdf_url": null,
+    "source": null,
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "posted-content"
+  },
+  "type": "conference-abstract",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "gold",
+    "oa_url": "https://doi.org/10.5194/egusphere-egu25-20208",
+    "any_repository_has_fulltext": null
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5003836238",
+        "display_name": "Nikolaj Dahmen",
+        "orcid": "https://orcid.org/0000-0002-9114-6747",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9114-6747"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I35440088",
+          "display_name": "ETH Zurich",
+          "ror": "https://ror.org/05a28rw58",
+          "country_code": "CH",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2799323385",
+            "https://openalex.org/I35440088"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Nikolaj Dahmen",
+      "raw_affiliation_strings": [
+        "D-EAPS, ETH Zürich, Zürich, Switzerland (nikolaj.dahmen@eaps.ethz.ch)"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "D-EAPS, ETH Zürich, Zürich, Switzerland (nikolaj.dahmen@eaps.ethz.ch)",
+          "institution_ids": [
+            "https://openalex.org/I35440088"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5014595285",
+        "display_name": "John Clinton",
+        "orcid": "https://orcid.org/0000-0001-8626-2703",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-8626-2703"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I35440088",
+          "display_name": "ETH Zurich",
+          "ror": "https://ror.org/05a28rw58",
+          "country_code": "CH",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2799323385",
+            "https://openalex.org/I35440088"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4405253051",
+          "display_name": "Swiss Seismological Service",
+          "ror": "https://ror.org/008eg3158",
+          "country_code": "CH",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I2799323385",
+            "https://openalex.org/I35440088",
+            "https://openalex.org/I4405253051"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "John Clinton",
+      "raw_affiliation_strings": [
+        "Swiss Seismological Service, ETH Zürich, Zürich, Switzerland"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0001-8626-2703",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Swiss Seismological Service, ETH Zürich, Zürich, Switzerland",
+          "institution_ids": [
+            "https://openalex.org/I35440088",
+            "https://openalex.org/I4405253051"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5002626127",
+        "display_name": "Men‐Andrin Meier",
+        "orcid": "https://orcid.org/0000-0002-2949-8602",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-2949-8602"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I35440088",
+          "display_name": "ETH Zurich",
+          "ror": "https://ror.org/05a28rw58",
+          "country_code": "CH",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I2799323385",
+            "https://openalex.org/I35440088"
+          ]
+        }
+      ],
+      "countries": [
+        "CH"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Men-Andrin Meier",
+      "raw_affiliation_strings": [
+        "D-EAPS, ETH Zürich, Zürich, Switzerland (nikolaj.dahmen@eaps.ethz.ch)"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-2949-8602",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "D-EAPS, ETH Zürich, Zürich, Switzerland (nikolaj.dahmen@eaps.ethz.ch)",
+          "institution_ids": [
+            "https://openalex.org/I35440088"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5002626127",
+    "https://openalex.org/A5014595285"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I35440088",
+    "https://openalex.org/I4405253051"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": null,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": null,
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9988999962806702,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9988999962806702,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11801",
+      "display_name": "Reservoir Engineering and Simulation Methods",
+      "score": 0.9916999936103821,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13067",
+      "display_name": "Geological Modeling and Analysis",
+      "score": 0.9718999862670898,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1906",
+        "display_name": "Geochemistry and Petrology"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/workflow",
+      "display_name": "Workflow",
+      "score": 0.8343944549560547
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.5961893200874329
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.4814854860305786
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.4194120168685913
+    },
+    {
+      "id": "https://openalex.org/keywords/data-mining",
+      "display_name": "Data mining",
+      "score": 0.32192865014076233
+    },
+    {
+      "id": "https://openalex.org/keywords/database",
+      "display_name": "Database",
+      "score": 0.22761669754981995
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C177212765",
+      "wikidata": "https://www.wikidata.org/wiki/Q627335",
+      "display_name": "Workflow",
+      "level": 2,
+      "score": 0.8343944549560547
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.5961893200874329
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.4814854860305786
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.4194120168685913
+    },
+    {
+      "id": "https://openalex.org/C124101348",
+      "wikidata": "https://www.wikidata.org/wiki/Q172491",
+      "display_name": "Data mining",
+      "level": 1,
+      "score": 0.32192865014076233
+    },
+    {
+      "id": "https://openalex.org/C77088390",
+      "wikidata": "https://www.wikidata.org/wiki/Q8513",
+      "display_name": "Database",
+      "level": 1,
+      "score": 0.22761669754981995
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.5194/egusphere-egu25-20208",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.5194/egusphere-egu25-20208",
+      "pdf_url": null,
+      "source": null,
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "posted-content"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.5194/egusphere-egu25-20208",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.5194/egusphere-egu25-20208",
+    "pdf_url": null,
+    "source": null,
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "acceptedVersion",
+    "is_accepted": true,
+    "is_published": false,
+    "raw_source_name": null,
+    "raw_type": "posted-content"
+  },
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W4391375266",
+    "https://openalex.org/W2899084033",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W1981780420",
+    "https://openalex.org/W2182707996",
+    "https://openalex.org/W45233828",
+    "https://openalex.org/W2964988449",
+    "https://openalex.org/W2397952901",
+    "https://openalex.org/W2029380707",
+    "https://openalex.org/W188202134"
+  ],
+  "abstract_inverted_index": {
+    "Recent": [
+      0
+    ],
+    "studies": [
+      1
+    ],
+    "have": [
+      2
+    ],
+    "demonstrated": [
+      3
+    ],
+    "the": [
+      4,
+      42,
+      53,
+      85,
+      102,
+      169,
+      183,
+      190,
+      209,
+      216,
+      219,
+      244,
+      259,
+      270,
+      295
+    ],
+    "potential": [
+      5,
+      44
+    ],
+    "of": [
+      6,
+      37,
+      45,
+      105,
+      157,
+      168,
+      208,
+      218,
+      233
+    ],
+    "deep": [
+      7
+    ],
+    "learning": [
+      8
+    ],
+    "(DL)": [
+      9
+    ],
+    "techniques": [
+      10
+    ],
+    "for": [
+      11,
+      49,
+      261
+    ],
+    "denoising": [
+      12,
+      47,
+      106
+    ],
+    "seismic": [
+      13,
+      27,
+      114,
+      186,
+      227,
+      234
+    ],
+    "signals": [
+      14,
+      81
+    ],
+    "and": [
+      15,
+      122,
+      153,
+      171,
+      178,
+      193,
+      200,
+      239,
+      250,
+      265,
+      279,
+      298,
+      315
+    ],
+    "improving": [
+      16,
+      118
+    ],
+    "signal": [
+      17
+    ],
+    "analysis,": [
+      18
+    ],
+    "but": [
+      19,
+      308
+    ],
+    "they": [
+      20
+    ],
+    "are": [
+      21,
+      31,
+      128,
+      136
+    ],
+    "not": [
+      22
+    ],
+    "yet": [
+      23
+    ],
+    "widely": [
+      24
+    ],
+    "adopted": [
+      25
+    ],
+    "in": [
+      26,
+      65,
+      68,
+      131,
+      142,
+      294
+    ],
+    "monitoring.": [
+      28
+    ],
+    "Denoising": [
+      29
+    ],
+    "models": [
+      30,
+      48,
+      75
+    ],
+    "typically": [
+      32
+    ],
+    "applied": [
+      33,
+      284
+    ],
+    "to": [
+      34,
+      56,
+      59,
+      78,
+      94,
+      112,
+      149,
+      175,
+      206,
+      246,
+      273,
+      302
+    ],
+    "short": [
+      35
+    ],
+    "segments": [
+      36
+    ],
+    "triggered": [
+      38
+    ],
+    "data.": [
+      39,
+      61,
+      287
+    ],
+    "To": [
+      40,
+      214
+    ],
+    "use": [
+      41
+    ],
+    "full": [
+      43
+    ],
+    "state-of-the-art": [
+      46
+    ],
+    "seismicity": [
+      50
+    ],
+    "catalogue": [
+      51,
+      272
+    ],
+    "generation,": [
+      52
+    ],
+    "methods": [
+      54
+    ],
+    "need": [
+      55
+    ],
+    "be": [
+      57
+    ],
+    "applicable": [
+      58
+    ],
+    "continuous": [
+      60,
+      252
+    ],
+    "Several": [
+      62
+    ],
+    "challenges": [
+      63
+    ],
+    "arise": [
+      64
+    ],
+    "this": [
+      66
+    ],
+    "case,": [
+      67,
+      297
+    ],
+    "particular": [
+      69
+    ],
+    "during": [
+      70
+    ],
+    "dense": [
+      71,
+      226
+    ],
+    "(aftershock)": [
+      72
+    ],
+    "sequences,": [
+      73
+    ],
+    "as": [
+      74,
+      258
+    ],
+    "may": [
+      76
+    ],
+    "fail": [
+      77
+    ],
+    "consistently": [
+      79
+    ],
+    "detect": [
+      80,
+      247
+    ],
+    "near": [
+      82
+    ],
+    "or": [
+      83,
+      88,
+      139
+    ],
+    "across": [
+      84
+    ],
+    "window": [
+      86
+    ],
+    "edges,": [
+      87
+    ],
+    "require": [
+      89
+    ],
+    "overlapping": [
+      90
+    ],
+    "windows": [
+      91
+    ],
+    "that": [
+      92,
+      135,
+      163
+    ],
+    "lead": [
+      93
+    ],
+    "several": [
+      95
+    ],
+    "parallel": [
+      96
+    ],
+    "denoised": [
+      97,
+      253
+    ],
+    "waveform": [
+      98
+    ],
+    "solutions.": [
+      99
+    ],
+    "We": [
+      100,
+      151,
+      181,
+      242,
+      268,
+      288
+    ],
+    "investigate": [
+      101
+    ],
+    "optimal": [
+      103
+    ],
+    "integration": [
+      104
+    ],
+    "approaches": [
+      107
+    ],
+    "into": [
+      108
+    ],
+    "operational": [
+      109
+    ],
+    "network": [
+      110
+    ],
+    "settings": [
+      111
+    ],
+    "enhance": [
+      113
+    ],
+    "catalogues,": [
+      115,
+      144
+    ],
+    "focusing": [
+      116
+    ],
+    "on": [
+      117,
+      165,
+      185,
+      197,
+      224,
+      285
+    ],
+    "detections,": [
+      119
+    ],
+    "phase": [
+      120,
+      263
+    ],
+    "picks,": [
+      121
+    ],
+    "peak": [
+      123
+    ],
+    "amplitude": [
+      124
+    ],
+    "measurements.": [
+      125
+    ],
+    "As": [
+      126
+    ],
+    "we": [
+      127,
+      221
+    ],
+    "most": [
+      129,
+      207
+    ],
+    "interested": [
+      130
+    ],
+    "characterising": [
+      132
+    ],
+    "weak": [
+      133
+    ],
+    "events": [
+      134
+    ],
+    "commonly": [
+      137
+    ],
+    "missing": [
+      138
+    ],
+    "poorly": [
+      140
+    ],
+    "described": [
+      141
+    ],
+    "existing": [
+      143
+    ],
+    "special": [
+      145
+    ],
+    "attention": [
+      146
+    ],
+    "is": [
+      147
+    ],
+    "given": [
+      148
+    ],
+    "them.": [
+      150
+    ],
+    "train": [
+      152,
+      194
+    ],
+    "compare": [
+      154,
+      269
+    ],
+    "a": [
+      155,
+      161,
+      195,
+      225
+    ],
+    "range": [
+      156
+    ],
+    "promising": [
+      158
+    ],
+    "algorithms,": [
+      159
+    ],
+    "including": [
+      160,
+      312
+    ],
+    "method": [
+      162
+    ],
+    "operates": [
+      164
+    ],
+    "time-frequency": [
+      166
+    ],
+    "representation": [
+      167
+    ],
+    "data": [
+      170,
+      187
+    ],
+    "outputs": [
+      172
+    ],
+    "segmentation": [
+      173
+    ],
+    "masks": [
+      174
+    ],
+    "separate": [
+      176
+    ],
+    "event": [
+      177,
+      248,
+      266,
+      313
+    ],
+    "noise": [
+      179,
+      199,
+      240
+    ],
+    "signals.": [
+      180
+    ],
+    "evaluate": [
+      182
+    ],
+    "approach": [
+      184
+    ],
+    "recorded": [
+      188,
+      198,
+      229
+    ],
+    "by": [
+      189,
+      230
+    ],
+    "Swiss": [
+      191
+    ],
+    "network,": [
+      192
+    ],
+    "model": [
+      196
+    ],
+    "about": [
+      201
+    ],
+    "25k": [
+      202
+    ],
+    "earthquake": [
+      203
+    ],
+    "signals,": [
+      204,
+      249
+    ],
+    "corresponding": [
+      205
+    ],
+    "available": [
+      210
+    ],
+    "high-quality,": [
+      211
+    ],
+    "local": [
+      212
+    ],
+    "recordings.": [
+      213
+    ],
+    "assess": [
+      215
+    ],
+    "benefit": [
+      217
+    ],
+    "denoiser,": [
+      220
+    ],
+    "test": [
+      222
+    ],
+    "it": [
+      223
+    ],
+    "sequence": [
+      228
+    ],
+    "different": [
+      231
+    ],
+    "types": [
+      232
+    ],
+    "sensors": [
+      235
+    ],
+    "under": [
+      236
+    ],
+    "diverse": [
+      237
+    ],
+    "site": [
+      238
+    ],
+    "conditions.": [
+      241
+    ],
+    "employ": [
+      243
+    ],
+    "denoiser": [
+      245
+    ],
+    "produce": [
+      251
+    ],
+    "data,": [
+      254
+    ],
+    "which": [
+      255
+    ],
+    "then": [
+      256
+    ],
+    "serve": [
+      257
+    ],
+    "input": [
+      260
+    ],
+    "standard": [
+      262,
+      278
+    ],
+    "pickers": [
+      264
+    ],
+    "associators.": [
+      267
+    ],
+    "derived": [
+      271
+    ],
+    "those": [
+      274,
+      303
+    ],
+    "obtained": [
+      275,
+      304
+    ],
+    "with": [
+      276,
+      305,
+      309
+    ],
+    "i)": [
+      277,
+      290
+    ],
+    "ii)": [
+      280,
+      299
+    ],
+    "DL": [
+      281,
+      306
+    ],
+    "tools,": [
+      282
+    ],
+    "both": [
+      283
+    ],
+    "raw": [
+      286
+    ],
+    "demonstrate": [
+      289
+    ],
+    "significantly": [
+      291
+    ],
+    "deeper": [
+      292
+    ],
+    "catalogues": [
+      293,
+      300
+    ],
+    "first": [
+      296
+    ],
+    "comparable": [
+      301
+    ],
+    "pickers,": [
+      307
+    ],
+    "enhanced": [
+      310
+    ],
+    "characterisation,": [
+      311
+    ],
+    "location": [
+      314
+    ],
+    "magnitudes.": [
+      316
+    ]
+  },
+  "counts_by_year": [],
+  "updated_date": "2026-09-22T17:25:34.749102",
+  "created_date": "2025-10-10T00:00:00"
+}

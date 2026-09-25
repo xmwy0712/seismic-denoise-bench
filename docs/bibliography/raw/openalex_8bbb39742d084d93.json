@@ -1,0 +1,988 @@
+{
+  "id": "https://openalex.org/W1913881199",
+  "doi": "https://doi.org/10.1190/1.9781560801993",
+  "title": "Seismic Amplitude Interpretation",
+  "display_name": "Seismic Amplitude Interpretation",
+  "publication_year": 2001,
+  "publication_date": "2001-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1913881199",
+    "doi": "https://doi.org/10.1190/1.9781560801993",
+    "mag": "1913881199"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.9781560801993",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.9781560801993",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306489697",
+      "display_name": "Society of Exploration Geophysicists and European Association of Geoscientists and Engineers eBooks",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "ebook platform"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": null,
+    "raw_type": "monograph"
+  },
+  "type": "book",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5001948466",
+        "display_name": "Fred Hilterman",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210136396",
+          "display_name": "Microelectronics Research Development (United States)",
+          "ror": "https://ror.org/0338vpb86",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210136396"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Fred J. Hilterman",
+      "raw_affiliation_strings": [
+        "Geophysical Development Corporation, Houston, TX 77063,                  USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Geophysical Development Corporation, Houston, TX 77063,                  USA",
+          "institution_ids": [
+            "https://openalex.org/I4210136396"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5001948466"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210136396"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 4.2086,
+  "has_fulltext": false,
+  "cited_by_count": 225,
+  "citation_normalized_percentile": {
+    "value": 0.96648045,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 97,
+    "max": 99
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9991000294685364,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9991000294685364,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11801",
+      "display_name": "Reservoir Engineering and Simulation Methods",
+      "score": 0.9980999827384949,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.9969000220298767,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/interpretation",
+      "display_name": "Interpretation (philosophy)",
+      "score": 0.7064100503921509
+    },
+    {
+      "id": "https://openalex.org/keywords/amplitude",
+      "display_name": "Amplitude",
+      "score": 0.5800354480743408
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.43067318201065063
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.4011552631855011
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.30462926626205444
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.22201958298683167
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.11071354150772095
+    },
+    {
+      "id": "https://openalex.org/keywords/programming-language",
+      "display_name": "Programming language",
+      "score": 0.09479540586471558
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C527412718",
+      "wikidata": "https://www.wikidata.org/wiki/Q855395",
+      "display_name": "Interpretation (philosophy)",
+      "level": 2,
+      "score": 0.7064100503921509
+    },
+    {
+      "id": "https://openalex.org/C180205008",
+      "wikidata": "https://www.wikidata.org/wiki/Q159190",
+      "display_name": "Amplitude",
+      "level": 2,
+      "score": 0.5800354480743408
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.43067318201065063
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.4011552631855011
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.30462926626205444
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.22201958298683167
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.11071354150772095
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.09479540586471558
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.9781560801993",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.9781560801993",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306489697",
+        "display_name": "Society of Exploration Geophysicists and European Association of Geoscientists and Engineers eBooks",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "ebook platform"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": null,
+      "raw_type": "monograph"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/6",
+      "display_name": "Clean water and sanitation",
+      "score": 0.6899999976158142
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2899084033",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W3183204001",
+    "https://openalex.org/W4327743144",
+    "https://openalex.org/W2324615561",
+    "https://openalex.org/W4386782890",
+    "https://openalex.org/W2086120259",
+    "https://openalex.org/W4313320911",
+    "https://openalex.org/W2390279801",
+    "https://openalex.org/W2607424049"
+  ],
+  "abstract_inverted_index": {
+    "During": [
+      0
+    ],
+    "the": [
+      1,
+      38,
+      56,
+      60,
+      70,
+      77,
+      97,
+      119,
+      143,
+      173,
+      208
+    ],
+    "last": [
+      2,
+      205
+    ],
+    "30": [
+      3
+    ],
+    "years,": [
+      4
+    ],
+    "seismic": [
+      5,
+      144,
+      161,
+      175,
+      217
+    ],
+    "interpreters": [
+      6
+    ],
+    "have": [
+      7
+    ],
+    "routinely": [
+      8
+    ],
+    "applied": [
+      9
+    ],
+    "bright": [
+      10
+    ],
+    "spot": [
+      11
+    ],
+    "and": [
+      12,
+      18,
+      76,
+      80,
+      113,
+      121,
+      128,
+      132,
+      192,
+      224,
+      239
+    ],
+    "AVO": [
+      13,
+      190
+    ],
+    "technology": [
+      14,
+      28
+    ],
+    "for": [
+      15,
+      94,
+      130,
+      148,
+      166,
+      177,
+      188
+    ],
+    "recognizing": [
+      16
+    ],
+    "prospects": [
+      17
+    ],
+    "predicting": [
+      19,
+      189
+    ],
+    "lithology.": [
+      20
+    ],
+    "New": [
+      21
+    ],
+    "amplitude": [
+      22,
+      41,
+      74,
+      179,
+      210
+    ],
+    "attributes": [
+      23,
+      211,
+      228
+    ],
+    "were": [
+      24,
+      33
+    ],
+    "added": [
+      25
+    ],
+    "to": [
+      26,
+      180,
+      219,
+      231
+    ],
+    "this": [
+      27,
+      67
+    ],
+    "as": [
+      29,
+      48,
+      55
+    ],
+    "new": [
+      30
+    ],
+    "exploration": [
+      31,
+      65
+    ],
+    "problems": [
+      32,
+      117
+    ],
+    "defined.": [
+      34
+    ],
+    "R&D": [
+      35
+    ],
+    "continues": [
+      36
+    ],
+    "in": [
+      37,
+      63,
+      86,
+      229,
+      240
+    ],
+    "field": [
+      39
+    ],
+    "of": [
+      40,
+      72,
+      108,
+      123,
+      142,
+      160,
+      184,
+      226
+    ],
+    "interpretation,": [
+      42
+    ],
+    "especially": [
+      43
+    ],
+    "when": [
+      44
+    ],
+    "E&P": [
+      45
+    ],
+    "costs": [
+      46
+    ],
+    "escalate": [
+      47
+    ],
+    "more": [
+      49
+    ],
+    "severe": [
+      50
+    ],
+    "environments": [
+      51,
+      233
+    ],
+    "are": [
+      52,
+      136,
+      186,
+      234
+    ],
+    "explored,": [
+      53
+    ],
+    "such": [
+      54
+    ],
+    "ultra-deepwater": [
+      57
+    ],
+    "plays.": [
+      58
+    ],
+    "With": [
+      59
+    ],
+    "high": [
+      61
+    ],
+    "interest": [
+      62
+    ],
+    "reducing": [
+      64
+    ],
+    "risk,": [
+      66
+    ],
+    "course": [
+      68
+    ],
+    "addresses": [
+      69
+    ],
+    "methodology": [
+      71
+    ],
+    "an": [
+      73,
+      221
+    ],
+    "interpretation": [
+      75
+    ],
+    "subsequent": [
+      78
+    ],
+    "benefits": [
+      79
+    ],
+    "limitations": [
+      81,
+      122,
+      225
+    ],
+    "that": [
+      82,
+      212
+    ],
+    "one": [
+      83
+    ],
+    "can": [
+      84,
+      213
+    ],
+    "expect": [
+      85
+    ],
+    "various": [
+      87
+    ],
+    "rock-property": [
+      88,
+      168
+    ],
+    "settings.": [
+      89
+    ],
+    "This": [
+      90
+    ],
+    "book,": [
+      91
+    ],
+    "originally": [
+      92
+    ],
+    "produced": [
+      93
+    ],
+    "use": [
+      95
+    ],
+    "with": [
+      96,
+      105,
+      236
+    ],
+    "fourth": [
+      98
+    ],
+    "SEG∕EAGE": [
+      99
+    ],
+    "Distinguished": [
+      100
+    ],
+    "Instructor": [
+      101
+    ],
+    "Short": [
+      102
+    ],
+    "Course,": [
+      103
+    ],
+    "begins": [
+      104
+    ],
+    "a": [
+      106
+    ],
+    "review": [
+      107
+    ],
+    "relationships": [
+      109
+    ],
+    "between": [
+      110
+    ],
+    "rock": [
+      111,
+      181
+    ],
+    "properties": [
+      112
+    ],
+    "geophysical": [
+      114
+    ],
+    "observations.": [
+      115
+    ],
+    "Practical": [
+      116
+    ],
+    "illustrate": [
+      118
+    ],
+    "assumptions": [
+      120
+    ],
+    "commonly": [
+      124
+    ],
+    "used": [
+      125
+    ],
+    "empirical": [
+      126
+    ],
+    "transforms,": [
+      127
+    ],
+    "procedures": [
+      129
+    ],
+    "conducting": [
+      131
+    ],
+    "verifying": [
+      133
+    ],
+    "fluid-substitution": [
+      134
+    ],
+    "techniques": [
+      135
+    ],
+    "presented.": [
+      137
+    ],
+    "The": [
+      138,
+      204
+    ],
+    "book": [
+      139
+    ],
+    "identifies": [
+      140
+    ],
+    "components": [
+      141
+    ],
+    "response": [
+      145
+    ],
+    "best": [
+      146,
+      174
+    ],
+    "suited": [
+      147
+    ],
+    "differentiating": [
+      149
+    ],
+    "pore": [
+      150
+    ],
+    "fluid": [
+      151
+    ],
+    "from": [
+      152,
+      195,
+      216
+    ],
+    "lithologic": [
+      153
+    ],
+    "effects.": [
+      154
+    ],
+    "Field": [
+      155
+    ],
+    "examples": [
+      156
+    ],
+    "emphasize": [
+      157
+    ],
+    "what": [
+      158
+    ],
+    "combination": [
+      159
+    ],
+    "signatures": [
+      162
+    ],
+    "should": [
+      163
+    ],
+    "be": [
+      164,
+      214
+    ],
+    "expected": [
+      165
+    ],
+    "different": [
+      167
+    ],
+    "environments.": [
+      169
+    ],
+    "To": [
+      170
+    ],
+    "help": [
+      171
+    ],
+    "select": [
+      172
+    ],
+    "attribute": [
+      176
+    ],
+    "calibrating": [
+      178
+    ],
+    "properties,": [
+      182
+    ],
+    "rules": [
+      183
+    ],
+    "thumb": [
+      185
+    ],
+    "provided": [
+      187
+    ],
+    "responses": [
+      191
+    ],
+    "interpreting": [
+      193
+    ],
+    "lithology": [
+      194
+    ],
+    "observed": [
+      196
+    ],
+    "responses.": [
+      197
+    ],
+    "A": [
+      198
+    ],
+    "case": [
+      199,
+      241
+    ],
+    "history": [
+      200
+    ],
+    "is": [
+      201
+    ],
+    "also": [
+      202
+    ],
+    "provided.": [
+      203
+    ],
+    "part": [
+      206
+    ],
+    "examines": [
+      207
+    ],
+    "numerous": [
+      209
+    ],
+    "extracted": [
+      215
+    ],
+    "data": [
+      218,
+      238
+    ],
+    "quantify": [
+      220
+    ],
+    "interpretation.": [
+      222
+    ],
+    "Benefits": [
+      223
+    ],
+    "these": [
+      227
+    ],
+    "soft-": [
+      230
+    ],
+    "hard-rock": [
+      232
+    ],
+    "discussed": [
+      235
+    ],
+    "model": [
+      237
+    ],
+    "histories.": [
+      242
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 7
+    }
+  ],
+  "updated_date": "2026-07-18T07:39:51.176621",
+  "created_date": "2025-10-10T00:00:00"
+}

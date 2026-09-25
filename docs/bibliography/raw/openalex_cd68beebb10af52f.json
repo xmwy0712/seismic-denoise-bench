@@ -1,0 +1,765 @@
+{
+  "id": "https://openalex.org/W2024817664",
+  "doi": "https://doi.org/10.3997/2214-4609.201408619",
+  "title": "Analyzing and zerophazing seismic data using the wavelet transform",
+  "display_name": "Analyzing and zerophazing seismic data using the wavelet transform",
+  "publication_year": 1996,
+  "publication_date": "1996-06-05",
+  "ids": {
+    "openalex": "https://openalex.org/W2024817664",
+    "doi": "https://doi.org/10.3997/2214-4609.201408619",
+    "mag": "2024817664"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.3997/2214-4609.201408619",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.3997/2214-4609.201408619",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4220650854",
+      "display_name": "Proceedings",
+      "issn_l": "2214-4609",
+      "issn": [
+        "2214-4609"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Proceedings",
+    "raw_type": "proceedings-article"
+  },
+  "type": "conference-paper",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5030774755",
+        "display_name": "S. Mansar",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "S. Mansar",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5109284896",
+        "display_name": "J. -M. Rodriguez",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "J. -M. Rodriguez",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.0,
+  "has_fulltext": false,
+  "cited_by_count": 2,
+  "citation_normalized_percentile": {
+    "value": 0.23895401,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 94,
+    "max": 96
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9987999796867371,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9987999796867371,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11801",
+      "display_name": "Reservoir Engineering and Simulation Methods",
+      "score": 0.9914000034332275,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.9890999794006348,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/wavelet-transform",
+      "display_name": "Wavelet transform",
+      "score": 0.6758379340171814
+    },
+    {
+      "id": "https://openalex.org/keywords/harmonic-wavelet-transform",
+      "display_name": "Harmonic wavelet transform",
+      "score": 0.64634770154953
+    },
+    {
+      "id": "https://openalex.org/keywords/continuous-wavelet-transform",
+      "display_name": "Continuous wavelet transform",
+      "score": 0.6431564092636108
+    },
+    {
+      "id": "https://openalex.org/keywords/wavelet",
+      "display_name": "Wavelet",
+      "score": 0.6220443844795227
+    },
+    {
+      "id": "https://openalex.org/keywords/fourier-transform",
+      "display_name": "Fourier transform",
+      "score": 0.6159502267837524
+    },
+    {
+      "id": "https://openalex.org/keywords/short-time-fourier-transform",
+      "display_name": "Short-time Fourier transform",
+      "score": 0.5994047522544861
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.5828829407691956
+    },
+    {
+      "id": "https://openalex.org/keywords/time–frequency-analysis",
+      "display_name": "Time–frequency analysis",
+      "score": 0.5438516736030579
+    },
+    {
+      "id": "https://openalex.org/keywords/signal",
+      "display_name": "SIGNAL (programming language)",
+      "score": 0.539264976978302
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.47032248973846436
+    },
+    {
+      "id": "https://openalex.org/keywords/constant-q-transform",
+      "display_name": "Constant Q transform",
+      "score": 0.4685894846916199
+    },
+    {
+      "id": "https://openalex.org/keywords/signal-processing",
+      "display_name": "Signal processing",
+      "score": 0.45126038789749146
+    },
+    {
+      "id": "https://openalex.org/keywords/s-transform",
+      "display_name": "S transform",
+      "score": 0.4348739981651306
+    },
+    {
+      "id": "https://openalex.org/keywords/discrete-wavelet-transform",
+      "display_name": "Discrete wavelet transform",
+      "score": 0.4188503623008728
+    },
+    {
+      "id": "https://openalex.org/keywords/pattern-recognition",
+      "display_name": "Pattern recognition (psychology)",
+      "score": 0.4154691696166992
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.3224453628063202
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.2733978033065796
+    },
+    {
+      "id": "https://openalex.org/keywords/fourier-analysis",
+      "display_name": "Fourier analysis",
+      "score": 0.2565152049064636
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-vision",
+      "display_name": "Computer vision",
+      "score": 0.2296316921710968
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematical-analysis",
+      "display_name": "Mathematical analysis",
+      "score": 0.12732025980949402
+    },
+    {
+      "id": "https://openalex.org/keywords/telecommunications",
+      "display_name": "Telecommunications",
+      "score": 0.12343761324882507
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C196216189",
+      "wikidata": "https://www.wikidata.org/wiki/Q2867",
+      "display_name": "Wavelet transform",
+      "level": 3,
+      "score": 0.6758379340171814
+    },
+    {
+      "id": "https://openalex.org/C1109138",
+      "wikidata": "https://www.wikidata.org/wiki/Q3280930",
+      "display_name": "Harmonic wavelet transform",
+      "level": 5,
+      "score": 0.64634770154953
+    },
+    {
+      "id": "https://openalex.org/C95722684",
+      "wikidata": "https://www.wikidata.org/wiki/Q2622756",
+      "display_name": "Continuous wavelet transform",
+      "level": 5,
+      "score": 0.6431564092636108
+    },
+    {
+      "id": "https://openalex.org/C47432892",
+      "wikidata": "https://www.wikidata.org/wiki/Q831390",
+      "display_name": "Wavelet",
+      "level": 2,
+      "score": 0.6220443844795227
+    },
+    {
+      "id": "https://openalex.org/C102519508",
+      "wikidata": "https://www.wikidata.org/wiki/Q6520159",
+      "display_name": "Fourier transform",
+      "level": 2,
+      "score": 0.6159502267837524
+    },
+    {
+      "id": "https://openalex.org/C166386157",
+      "wikidata": "https://www.wikidata.org/wiki/Q1477735",
+      "display_name": "Short-time Fourier transform",
+      "level": 4,
+      "score": 0.5994047522544861
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.5828829407691956
+    },
+    {
+      "id": "https://openalex.org/C142433447",
+      "wikidata": "https://www.wikidata.org/wiki/Q7806653",
+      "display_name": "Time–frequency analysis",
+      "level": 3,
+      "score": 0.5438516736030579
+    },
+    {
+      "id": "https://openalex.org/C2779843651",
+      "wikidata": "https://www.wikidata.org/wiki/Q7390335",
+      "display_name": "SIGNAL (programming language)",
+      "level": 2,
+      "score": 0.539264976978302
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.47032248973846436
+    },
+    {
+      "id": "https://openalex.org/C153705960",
+      "wikidata": "https://www.wikidata.org/wiki/Q5163634",
+      "display_name": "Constant Q transform",
+      "level": 5,
+      "score": 0.4685894846916199
+    },
+    {
+      "id": "https://openalex.org/C104267543",
+      "wikidata": "https://www.wikidata.org/wiki/Q208163",
+      "display_name": "Signal processing",
+      "level": 3,
+      "score": 0.45126038789749146
+    },
+    {
+      "id": "https://openalex.org/C99234102",
+      "wikidata": "https://www.wikidata.org/wiki/Q7395403",
+      "display_name": "S transform",
+      "level": 5,
+      "score": 0.4348739981651306
+    },
+    {
+      "id": "https://openalex.org/C46286280",
+      "wikidata": "https://www.wikidata.org/wiki/Q2414958",
+      "display_name": "Discrete wavelet transform",
+      "level": 4,
+      "score": 0.4188503623008728
+    },
+    {
+      "id": "https://openalex.org/C153180895",
+      "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+      "display_name": "Pattern recognition (psychology)",
+      "level": 2,
+      "score": 0.4154691696166992
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.3224453628063202
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.2733978033065796
+    },
+    {
+      "id": "https://openalex.org/C203024314",
+      "wikidata": "https://www.wikidata.org/wiki/Q1365258",
+      "display_name": "Fourier analysis",
+      "level": 3,
+      "score": 0.2565152049064636
+    },
+    {
+      "id": "https://openalex.org/C31972630",
+      "wikidata": "https://www.wikidata.org/wiki/Q844240",
+      "display_name": "Computer vision",
+      "level": 1,
+      "score": 0.2296316921710968
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.12732025980949402
+    },
+    {
+      "id": "https://openalex.org/C76155785",
+      "wikidata": "https://www.wikidata.org/wiki/Q418",
+      "display_name": "Telecommunications",
+      "level": 1,
+      "score": 0.12343761324882507
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C554190296",
+      "wikidata": "https://www.wikidata.org/wiki/Q47528",
+      "display_name": "Radar",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C106131492",
+      "wikidata": "https://www.wikidata.org/wiki/Q3072260",
+      "display_name": "Filter (signal processing)",
+      "level": 2,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.3997/2214-4609.201408619",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.3997/2214-4609.201408619",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4220650854",
+        "display_name": "Proceedings",
+        "issn_l": "2214-4609",
+        "issn": [
+          "2214-4609"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings",
+      "raw_type": "proceedings-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2090582869",
+    "https://openalex.org/W19668000",
+    "https://openalex.org/W2376691490",
+    "https://openalex.org/W2178843752",
+    "https://openalex.org/W3100288155",
+    "https://openalex.org/W1963506688",
+    "https://openalex.org/W4383502298",
+    "https://openalex.org/W1970853565",
+    "https://openalex.org/W2776458646",
+    "https://openalex.org/W2363944003"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0,
+      64
+    ],
+    "aim": [
+      1
+    ],
+    "of": [
+      2,
+      18,
+      55,
+      58
+    ],
+    "any": [
+      3
+    ],
+    "signal": [
+      4,
+      11,
+      79
+    ],
+    "analysis": [
+      5,
+      80
+    ],
+    "method": [
+      6,
+      94
+    ],
+    "is": [
+      7,
+      21,
+      28,
+      84,
+      95
+    ],
+    "to": [
+      8
+    ],
+    "transform": [
+      9
+    ],
+    "a": [
+      10,
+      13,
+      53,
+      91
+    ],
+    "into": [
+      12
+    ],
+    "new": [
+      14
+    ],
+    "space": [
+      15
+    ],
+    "where": [
+      16
+    ],
+    "extraction": [
+      17
+    ],
+    "relevant": [
+      19
+    ],
+    "information": [
+      20,
+      27,
+      38
+    ],
+    "possible.": [
+      22
+    ],
+    "For": [
+      23
+    ],
+    "instance,": [
+      24
+    ],
+    "time": [
+      25,
+      32
+    ],
+    "structure": [
+      26,
+      37,
+      61
+    ],
+    "obtained": [
+      29
+    ],
+    "via": [
+      30,
+      39
+    ],
+    "the": [
+      31,
+      35,
+      40,
+      56,
+      59,
+      85
+    ],
+    "sampling": [
+      33
+    ],
+    "and": [
+      34,
+      48,
+      81
+    ],
+    "frequency": [
+      36,
+      60
+    ],
+    "Fourier": [
+      41
+    ],
+    "transform.": [
+      42
+    ],
+    "When": [
+      43
+    ],
+    "dealing": [
+      44
+    ],
+    "with": [
+      45,
+      62
+    ],
+    "seismic": [
+      46,
+      78
+    ],
+    "signals": [
+      47
+    ],
+    "reservoir": [
+      49,
+      82
+    ],
+    "characterization,": [
+      50
+    ],
+    "we": [
+      51
+    ],
+    "need": [
+      52
+    ],
+    "description": [
+      54
+    ],
+    "evolution": [
+      57
+    ],
+    "time.": [
+      63
+    ],
+    "Continuous": [
+      65
+    ],
+    "Wavelet": [
+      66
+    ],
+    "Transform": [
+      67
+    ],
+    "(CWT)": [
+      68
+    ],
+    "[1]": [
+      69
+    ],
+    "can": [
+      70
+    ],
+    "achieve": [
+      71
+    ],
+    "this": [
+      72,
+      89
+    ],
+    "purpose.": [
+      73
+    ],
+    "An": [
+      74
+    ],
+    "important": [
+      75
+    ],
+    "condition": [
+      76
+    ],
+    "for": [
+      77,
+      97
+    ],
+    "characterization": [
+      83
+    ],
+    "zero-phase": [
+      86
+    ],
+    "condition.": [
+      87
+    ],
+    "In": [
+      88
+    ],
+    "paper": [
+      90
+    ],
+    "CWT": [
+      92
+    ],
+    "based": [
+      93
+    ],
+    "derived": [
+      96
+    ],
+    "target": [
+      98
+    ],
+    "ori": [
+      99
+    ],
+    "ented": [
+      100
+    ],
+    "zero-phasing.": [
+      101
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2016,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2026-07-29T14:22:42.915294",
+  "created_date": "2025-10-10T00:00:00"
+}

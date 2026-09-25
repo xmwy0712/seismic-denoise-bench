@@ -1,0 +1,1094 @@
+{
+  "id": "https://openalex.org/W1997096697",
+  "doi": "https://doi.org/10.1029/94gl00977",
+  "title": "Frequency dependent crustal scattering and absorption at 5–160 Hz from coda decay observed at 2.5 km Depth",
+  "display_name": "Frequency dependent crustal scattering and absorption at 5–160 Hz from coda decay observed at 2.5 km Depth",
+  "publication_year": 1994,
+  "publication_date": "1994-06-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1997096697",
+    "doi": "https://doi.org/10.1029/94gl00977",
+    "mag": "1997096697"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1029/94gl00977",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1029/94gl00977",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S36624081",
+      "display_name": "Geophysical Research Letters",
+      "issn_l": "0094-8276",
+      "issn": [
+        "0094-8276",
+        "1944-8007"
+      ],
+      "is_oa": false,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "jufo-3",
+        "ki-jl-1",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310315809",
+      "host_organization_name": "American Geophysical Union",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315809"
+      ],
+      "host_organization_lineage_names": [
+        "American Geophysical Union"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysical Research Letters",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "doaj"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5062742023",
+        "display_name": "Peter C. Leary",
+        "orcid": "https://orcid.org/0000-0002-6485-9768",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-6485-9768"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1174212",
+          "display_name": "University of Southern California",
+          "ror": "https://ror.org/03taz7m60",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I1174212"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1289592571",
+          "display_name": "Statewide California Earthquake Center",
+          "ror": "https://ror.org/03vhnve41",
+          "country_code": "US",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I1289592571"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Peter Leary",
+      "raw_affiliation_strings": [
+        "Southern California Earthquake Center, University of Southern California"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Southern California Earthquake Center, University of Southern California",
+          "institution_ids": [
+            "https://openalex.org/I1174212",
+            "https://openalex.org/I1289592571"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5091060636",
+        "display_name": "Rachel E. Abercrombie",
+        "orcid": "https://orcid.org/0000-0003-4515-5420",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-4515-5420"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I1174212",
+          "display_name": "University of Southern California",
+          "ror": "https://ror.org/03taz7m60",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I1174212"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I1289592571",
+          "display_name": "Statewide California Earthquake Center",
+          "ror": "https://ror.org/03vhnve41",
+          "country_code": "US",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I1289592571"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Rachel Abercrombie",
+      "raw_affiliation_strings": [
+        "Southern California Earthquake Center, University of Southern California"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Southern California Earthquake Center, University of Southern California",
+          "institution_ids": [
+            "https://openalex.org/I1174212",
+            "https://openalex.org/I1289592571"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 3190,
+    "currency": "USD",
+    "value_usd": 3190
+  },
+  "apc_paid": null,
+  "fwci": 4.1536,
+  "has_fulltext": false,
+  "cited_by_count": 56,
+  "citation_normalized_percentile": {
+    "value": 0.93496881,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 96
+  },
+  "biblio": {
+    "volume": "21",
+    "issue": "11",
+    "first_page": "971",
+    "last_page": "974"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9998000264167786,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10110",
+      "display_name": "earthquake and tectonic studies",
+      "score": 0.9972000122070312,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/coda",
+      "display_name": "Coda",
+      "score": 0.9627488851547241
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.6153185963630676
+    },
+    {
+      "id": "https://openalex.org/keywords/scattering",
+      "display_name": "Scattering",
+      "score": 0.5740258693695068
+    },
+    {
+      "id": "https://openalex.org/keywords/absorption",
+      "display_name": "Absorption (acoustics)",
+      "score": 0.5587918758392334
+    },
+    {
+      "id": "https://openalex.org/keywords/frequency-dependence",
+      "display_name": "Frequency dependence",
+      "score": 0.41149652004241943
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.3955317735671997
+    },
+    {
+      "id": "https://openalex.org/keywords/geophysics",
+      "display_name": "Geophysics",
+      "score": 0.391196072101593
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.2471333146095276
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.2429182231426239
+    },
+    {
+      "id": "https://openalex.org/keywords/nuclear-magnetic-resonance",
+      "display_name": "Nuclear magnetic resonance",
+      "score": 0.08625981211662292
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C3962253",
+      "wikidata": "https://www.wikidata.org/wiki/Q852466",
+      "display_name": "Coda",
+      "level": 2,
+      "score": 0.9627488851547241
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.6153185963630676
+    },
+    {
+      "id": "https://openalex.org/C191486275",
+      "wikidata": "https://www.wikidata.org/wiki/Q210028",
+      "display_name": "Scattering",
+      "level": 2,
+      "score": 0.5740258693695068
+    },
+    {
+      "id": "https://openalex.org/C125287762",
+      "wikidata": "https://www.wikidata.org/wiki/Q1758948",
+      "display_name": "Absorption (acoustics)",
+      "level": 2,
+      "score": 0.5587918758392334
+    },
+    {
+      "id": "https://openalex.org/C3018695096",
+      "wikidata": "https://www.wikidata.org/wiki/Q11652",
+      "display_name": "Frequency dependence",
+      "level": 2,
+      "score": 0.41149652004241943
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.3955317735671997
+    },
+    {
+      "id": "https://openalex.org/C8058405",
+      "wikidata": "https://www.wikidata.org/wiki/Q46255",
+      "display_name": "Geophysics",
+      "level": 1,
+      "score": 0.391196072101593
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.2471333146095276
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.2429182231426239
+    },
+    {
+      "id": "https://openalex.org/C46141821",
+      "wikidata": "https://www.wikidata.org/wiki/Q209402",
+      "display_name": "Nuclear magnetic resonance",
+      "level": 1,
+      "score": 0.08625981211662292
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1029/94gl00977",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1029/94gl00977",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S36624081",
+        "display_name": "Geophysical Research Letters",
+        "issn_l": "0094-8276",
+        "issn": [
+          "0094-8276",
+          "1944-8007"
+        ],
+        "is_oa": false,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "jufo-3",
+          "ki-jl-1",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310315809",
+        "host_organization_name": "American Geophysical Union",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315809"
+        ],
+        "host_organization_lineage_names": [
+          "American Geophysical Union"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysical Research Letters",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Affordable and clean energy",
+      "score": 0.8500000238418579,
+      "id": "https://metadata.un.org/sdg/7"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 9,
+  "referenced_works": [
+    "https://openalex.org/W1501597519",
+    "https://openalex.org/W1994729497",
+    "https://openalex.org/W2025014051",
+    "https://openalex.org/W2075060135",
+    "https://openalex.org/W2078390399",
+    "https://openalex.org/W2084982717",
+    "https://openalex.org/W2146036776",
+    "https://openalex.org/W2166260557",
+    "https://openalex.org/W2347092522"
+  ],
+  "related_works": [
+    "https://openalex.org/W2348058705",
+    "https://openalex.org/W2119712994",
+    "https://openalex.org/W1974858343",
+    "https://openalex.org/W4233797104",
+    "https://openalex.org/W2054213059",
+    "https://openalex.org/W4213414411",
+    "https://openalex.org/W2062753763",
+    "https://openalex.org/W2181757556",
+    "https://openalex.org/W2339136562",
+    "https://openalex.org/W2581410541"
+  ],
+  "abstract_inverted_index": {
+    "A": [
+      0
+    ],
+    "triaxial": [
+      1
+    ],
+    "10": [
+      2
+    ],
+    "Hz": [
+      3,
+      43
+    ],
+    "seismometer": [
+      4
+    ],
+    "at": [
+      5,
+      112,
+      151,
+      239
+    ],
+    "2.5": [
+      6
+    ],
+    "km": [
+      7
+    ],
+    "depth": [
+      8
+    ],
+    "in": [
+      9,
+      19,
+      93
+    ],
+    "the": [
+      10,
+      15,
+      49,
+      62,
+      86,
+      135,
+      141,
+      144,
+      148,
+      153,
+      183,
+      190,
+      204
+    ],
+    "Cajon": [
+      11
+    ],
+    "Pass": [
+      12
+    ],
+    "borehole": [
+      13
+    ],
+    "near": [
+      14
+    ],
+    "San": [
+      16
+    ],
+    "Andreas": [
+      17
+    ],
+    "fault": [
+      18
+    ],
+    "southern": [
+      20
+    ],
+    "California": [
+      21
+    ],
+    "records": [
+      22
+    ],
+    "shear‐wave": [
+      23
+    ],
+    "coda": [
+      24,
+      52,
+      170
+    ],
+    "motion": [
+      25,
+      40
+    ],
+    "from": [
+      26
+    ],
+    "small": [
+      27
+    ],
+    "local": [
+      28
+    ],
+    "events": [
+      29,
+      68
+    ],
+    "for": [
+      30,
+      128,
+      132,
+      192
+    ],
+    "over": [
+      31
+    ],
+    "20": [
+      32
+    ],
+    "seconds": [
+      33
+    ],
+    "duration.": [
+      34
+    ],
+    "The": [
+      35,
+      89,
+      116,
+      177,
+      196
+    ],
+    "passband": [
+      36,
+      95
+    ],
+    "of": [
+      37,
+      51,
+      58,
+      66,
+      143,
+      169,
+      200
+    ],
+    "recorded": [
+      38
+    ],
+    "seismic": [
+      39
+    ],
+    "is": [
+      41,
+      96,
+      138,
+      150,
+      157,
+      202
+    ],
+    "5": [
+      42
+    ],
+    "to": [
+      44,
+      173,
+      213
+    ],
+    "200": [
+      45
+    ],
+    "Hz.": [
+      46
+    ],
+    "To": [
+      47
+    ],
+    "measure": [
+      48
+    ],
+    "rate": [
+      50
+    ],
+    "energy": [
+      53,
+      91,
+      120,
+      161,
+      171,
+      179,
+      214
+    ],
+    "decay": [
+      54,
+      92,
+      121
+    ],
+    "as": [
+      55,
+      108,
+      124
+    ],
+    "a": [
+      56
+    ],
+    "function": [
+      57
+    ],
+    "frequency,": [
+      59,
+      226,
+      233
+    ],
+    "we": [
+      60
+    ],
+    "filter": [
+      61
+    ],
+    "vector": [
+      63
+    ],
+    "velocity": [
+      64
+    ],
+    "seismograms": [
+      65
+    ],
+    "seven": [
+      67
+    ],
+    "into": [
+      69
+    ],
+    "five": [
+      70
+    ],
+    "octave‐wide": [
+      71
+    ],
+    "frequency": [
+      72,
+      198,
+      209
+    ],
+    "bands": [
+      73
+    ],
+    "(mean": [
+      74
+    ],
+    "frequencies": [
+      75
+    ],
+    "≈": [
+      76
+    ],
+    "7,": [
+      77
+    ],
+    "14,": [
+      78
+    ],
+    "28,": [
+      79
+    ],
+    "56": [
+      80
+    ],
+    "and": [
+      81,
+      84,
+      101,
+      130,
+      147,
+      165,
+      188
+    ],
+    "112": [
+      82
+    ],
+    "Hz)": [
+      83
+    ],
+    "square": [
+      85
+    ],
+    "filtered": [
+      87
+    ],
+    "seismograms.": [
+      88
+    ],
+    "observed": [
+      90,
+      197,
+      241
+    ],
+    "each": [
+      94
+    ],
+    "well": [
+      97
+    ],
+    "approximated": [
+      98
+    ],
+    "by": [
+      99,
+      110,
+      159
+    ],
+    "first": [
+      100
+    ],
+    "second": [
+      102
+    ],
+    "order": [
+      103
+    ],
+    "scattering": [
+      104,
+      129,
+      184,
+      201,
+      229
+    ],
+    "plus": [
+      105
+    ],
+    "intrinsic": [
+      106,
+      205,
+      222
+    ],
+    "attenuation": [
+      107,
+      185,
+      206,
+      223,
+      230
+    ],
+    "formulated": [
+      109
+    ],
+    "Zeng": [
+      111
+    ],
+    "al.": [
+      113
+    ],
+    "(JGR": [
+      114
+    ],
+    "1991).": [
+      115
+    ],
+    "fits": [
+      117
+    ],
+    "determine": [
+      118
+    ],
+    "two": [
+      119
+    ],
+    "parameters": [
+      122
+    ],
+    "expressed": [
+      123
+    ],
+    "inverse": [
+      125
+    ],
+    "lengths,": [
+      126
+    ],
+    "ßscat": [
+      127,
+      187
+    ],
+    "ßintr": [
+      131
+    ],
+    "absorption.": [
+      133
+    ],
+    "Because": [
+      134
+    ],
+    "source‐receiver": [
+      136
+    ],
+    "distance": [
+      137
+    ],
+    "less": [
+      139
+    ],
+    "than": [
+      140
+    ],
+    "thickness": [
+      142
+    ],
+    "upper": [
+      145
+    ],
+    "crust": [
+      146
+    ],
+    "receiver": [
+      149
+    ],
+    "depth,": [
+      152
+    ],
+    "direct": [
+      154
+    ],
+    "body": [
+      155
+    ],
+    "wave": [
+      156
+    ],
+    "uncomplicated": [
+      158
+    ],
+    "refracted": [
+      160
+    ],
+    "and/or": [
+      162
+    ],
+    "surface": [
+      163
+    ],
+    "waves": [
+      164
+    ],
+    "allows": [
+      166
+    ],
+    "accurate": [
+      167
+    ],
+    "recording": [
+      168
+    ],
+    "relative": [
+      172
+    ],
+    "source": [
+      174
+    ],
+    "pulse": [
+      175
+    ],
+    "energy.": [
+      176
+    ],
+    "coda/source": [
+      178
+    ],
+    "ratio": [
+      180
+    ],
+    "directly": [
+      181
+    ],
+    "defines": [
+      182
+    ],
+    "parameter": [
+      186,
+      207
+    ],
+    "voids": [
+      189
+    ],
+    "need": [
+      191
+    ],
+    "multiple": [
+      193
+    ],
+    "offset": [
+      194
+    ],
+    "observations.": [
+      195
+    ],
+    "behavior": [
+      199
+    ],
+    "ßscat≈f1.3;": [
+      203
+    ],
+    "has": [
+      208
+    ],
+    "dependence": [
+      210
+    ],
+    "ßintr≈f0.43.": [
+      211
+    ],
+    "Normalized": [
+      212
+    ],
+    "lost": [
+      215
+    ],
+    "per": [
+      216
+    ],
+    "unit": [
+      217
+    ],
+    "cycle": [
+      218
+    ],
+    "(quality": [
+      219
+    ],
+    "factor": [
+      220
+    ],
+    "Q),": [
+      221
+    ],
+    "decreases": [
+      224
+    ],
+    "with": [
+      225,
+      232,
+      235
+    ],
+    "Qintr≈f0.57,": [
+      227
+    ],
+    "while": [
+      228
+    ],
+    "increases": [
+      231
+    ],
+    "Qscat≈1/f0.3": [
+      234
+    ],
+    "Qscat": [
+      236
+    ],
+    ">": [
+      237
+    ],
+    "10Qintr": [
+      238
+    ],
+    "all": [
+      240
+    ],
+    "frequencies.": [
+      242
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

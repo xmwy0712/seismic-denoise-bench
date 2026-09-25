@@ -1,0 +1,25 @@
+{
+  "meta": {
+    "count": 0,
+    "db_response_time_ms": 25,
+    "page": 1,
+    "per_page": 10,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where it cites (W2325774324)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "referenced_works",
+            "value": "W2325774324"
+          }
+        ]
+      },
+      "url": "/works?filter=referenced_works:W2325774324&per_page=10"
+    },
+    "cost_usd": 0.0001
+  },
+  "results": [],
+  "group_by": []
+}

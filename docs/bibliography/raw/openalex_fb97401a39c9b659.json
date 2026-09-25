@@ -1,0 +1,847 @@
+{
+  "id": "https://openalex.org/W2170765642",
+  "doi": "https://doi.org/10.1190/1.1443014",
+  "title": "Spatial prediction filtering in the t-x and f-x domains",
+  "display_name": "Spatial prediction filtering in the t-x and f-x domains",
+  "publication_year": 1991,
+  "publication_date": "1991-12-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2170765642",
+    "doi": "https://doi.org/10.1190/1.1443014",
+    "mag": "2170765642"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.1443014",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.1443014",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S106174089",
+      "display_name": "Geophysics",
+      "issn_l": "0016-8033",
+      "issn": [
+        "0016-8033",
+        "1942-2156"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5038299256",
+        "display_name": "Scott C. Hornbostel",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I923382979",
+          "display_name": "ExxonMobil (United States)",
+          "ror": "https://ror.org/01xcepn55",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I923382979"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Scott C. Hornbostel",
+      "raw_affiliation_strings": [
+        "Exxon Prod. Res. Co., Houston, TX, United States",
+        "Exxon Production Research Company, P.O. Box 2189, Houston, TX 77252-2189"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Exxon Prod. Res. Co., Houston, TX, United States",
+          "institution_ids": [
+            "https://openalex.org/I923382979"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Exxon Production Research Company, P.O. Box 2189, Houston, TX 77252-2189",
+          "institution_ids": [
+            "https://openalex.org/I923382979"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5038299256"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I923382979"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.3696,
+  "has_fulltext": false,
+  "cited_by_count": 54,
+  "citation_normalized_percentile": {
+    "value": 0.62197873,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "56",
+    "issue": "12",
+    "first_page": "2019",
+    "last_page": "2026"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9998999834060669,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10534",
+      "display_name": "Structural Health Monitoring Techniques",
+      "score": 0.9965999722480774,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/noise",
+      "display_name": "Noise (video)",
+      "score": 0.6847959756851196
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.6407216787338257
+    },
+    {
+      "id": "https://openalex.org/keywords/filter",
+      "display_name": "Filter (signal processing)",
+      "score": 0.626502275466919
+    },
+    {
+      "id": "https://openalex.org/keywords/signal",
+      "display_name": "SIGNAL (programming language)",
+      "score": 0.6085136532783508
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.5749763250350952
+    },
+    {
+      "id": "https://openalex.org/keywords/random-noise",
+      "display_name": "Random noise",
+      "score": 0.49729326367378235
+    },
+    {
+      "id": "https://openalex.org/keywords/domain",
+      "display_name": "Domain (mathematical analysis)",
+      "score": 0.4915245473384857
+    },
+    {
+      "id": "https://openalex.org/keywords/wiener-filter",
+      "display_name": "Wiener filter",
+      "score": 0.4632943868637085
+    },
+    {
+      "id": "https://openalex.org/keywords/trace",
+      "display_name": "TRACE (psycholinguistics)",
+      "score": 0.45288681983947754
+    },
+    {
+      "id": "https://openalex.org/keywords/function",
+      "display_name": "Function (biology)",
+      "score": 0.452421098947525
+    },
+    {
+      "id": "https://openalex.org/keywords/predictability",
+      "display_name": "Predictability",
+      "score": 0.43173813819885254
+    },
+    {
+      "id": "https://openalex.org/keywords/time-domain",
+      "display_name": "Time domain",
+      "score": 0.4268040060997009
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.2890758812427521
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.2264072597026825
+    },
+    {
+      "id": "https://openalex.org/keywords/statistics",
+      "display_name": "Statistics",
+      "score": 0.15687227249145508
+    },
+    {
+      "id": "https://openalex.org/keywords/image",
+      "display_name": "Image (mathematics)",
+      "score": 0.12450352311134338
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematical-analysis",
+      "display_name": "Mathematical analysis",
+      "score": 0.11387577652931213
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-vision",
+      "display_name": "Computer vision",
+      "score": 0.1119147539138794
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C99498987",
+      "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+      "display_name": "Noise (video)",
+      "level": 3,
+      "score": 0.6847959756851196
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.6407216787338257
+    },
+    {
+      "id": "https://openalex.org/C106131492",
+      "wikidata": "https://www.wikidata.org/wiki/Q3072260",
+      "display_name": "Filter (signal processing)",
+      "level": 2,
+      "score": 0.626502275466919
+    },
+    {
+      "id": "https://openalex.org/C2779843651",
+      "wikidata": "https://www.wikidata.org/wiki/Q7390335",
+      "display_name": "SIGNAL (programming language)",
+      "level": 2,
+      "score": 0.6085136532783508
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.5749763250350952
+    },
+    {
+      "id": "https://openalex.org/C2986577269",
+      "wikidata": "https://www.wikidata.org/wiki/Q11306265",
+      "display_name": "Random noise",
+      "level": 2,
+      "score": 0.49729326367378235
+    },
+    {
+      "id": "https://openalex.org/C36503486",
+      "wikidata": "https://www.wikidata.org/wiki/Q11235244",
+      "display_name": "Domain (mathematical analysis)",
+      "level": 2,
+      "score": 0.4915245473384857
+    },
+    {
+      "id": "https://openalex.org/C18537770",
+      "wikidata": "https://www.wikidata.org/wiki/Q25523",
+      "display_name": "Wiener filter",
+      "level": 2,
+      "score": 0.4632943868637085
+    },
+    {
+      "id": "https://openalex.org/C75291252",
+      "wikidata": "https://www.wikidata.org/wiki/Q1315756",
+      "display_name": "TRACE (psycholinguistics)",
+      "level": 2,
+      "score": 0.45288681983947754
+    },
+    {
+      "id": "https://openalex.org/C14036430",
+      "wikidata": "https://www.wikidata.org/wiki/Q3736076",
+      "display_name": "Function (biology)",
+      "level": 2,
+      "score": 0.452421098947525
+    },
+    {
+      "id": "https://openalex.org/C197640229",
+      "wikidata": "https://www.wikidata.org/wiki/Q2534066",
+      "display_name": "Predictability",
+      "level": 2,
+      "score": 0.43173813819885254
+    },
+    {
+      "id": "https://openalex.org/C103824480",
+      "wikidata": "https://www.wikidata.org/wiki/Q185889",
+      "display_name": "Time domain",
+      "level": 2,
+      "score": 0.4268040060997009
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.2890758812427521
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.2264072597026825
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.15687227249145508
+    },
+    {
+      "id": "https://openalex.org/C115961682",
+      "wikidata": "https://www.wikidata.org/wiki/Q860623",
+      "display_name": "Image (mathematics)",
+      "level": 2,
+      "score": 0.12450352311134338
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.11387577652931213
+    },
+    {
+      "id": "https://openalex.org/C31972630",
+      "wikidata": "https://www.wikidata.org/wiki/Q844240",
+      "display_name": "Computer vision",
+      "level": 1,
+      "score": 0.1119147539138794
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C41895202",
+      "wikidata": "https://www.wikidata.org/wiki/Q8162",
+      "display_name": "Linguistics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C138885662",
+      "wikidata": "https://www.wikidata.org/wiki/Q5891",
+      "display_name": "Philosophy",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C78458016",
+      "wikidata": "https://www.wikidata.org/wiki/Q840400",
+      "display_name": "Evolutionary biology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.1443014",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.1443014",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S106174089",
+        "display_name": "Geophysics",
+        "issn_l": "0016-8033",
+        "issn": [
+          "0016-8033",
+          "1942-2156"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysics",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2726467123",
+    "https://openalex.org/W2064726690",
+    "https://openalex.org/W4254065731",
+    "https://openalex.org/W4252678288",
+    "https://openalex.org/W1607297154",
+    "https://openalex.org/W4210820789",
+    "https://openalex.org/W2913177154",
+    "https://openalex.org/W4237782192",
+    "https://openalex.org/W4235131201",
+    "https://openalex.org/W4232793539"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "The": [
+      1,
+      21
+    ],
+    "predictability": [
+      2
+    ],
+    "of": [
+      3,
+      23,
+      35,
+      90
+    ],
+    "seismic": [
+      4
+    ],
+    "signals": [
+      5
+    ],
+    "from": [
+      6
+    ],
+    "nearby": [
+      7
+    ],
+    "traces": [
+      8
+    ],
+    "can": [
+      9,
+      60,
+      84,
+      96
+    ],
+    "be": [
+      10,
+      61,
+      85,
+      98
+    ],
+    "a": [
+      11,
+      29,
+      33,
+      51,
+      73,
+      93
+    ],
+    "powerful": [
+      12
+    ],
+    "tool": [
+      13
+    ],
+    "for": [
+      14,
+      28
+    ],
+    "reducing": [
+      15
+    ],
+    "random": [
+      16
+    ],
+    "or": [
+      17,
+      71
+    ],
+    "locally": [
+      18,
+      103
+    ],
+    "coherent": [
+      19,
+      104
+    ],
+    "noise.": [
+      20
+    ],
+    "choice": [
+      22
+    ],
+    "algorithm": [
+      24
+    ],
+    "to": [
+      25,
+      101
+    ],
+    "reduce": [
+      26
+    ],
+    "noise": [
+      27,
+      40,
+      46,
+      105
+    ],
+    "given": [
+      30,
+      52
+    ],
+    "application": [
+      31
+    ],
+    "is": [
+      32
+    ],
+    "function": [
+      34
+    ],
+    "the": [
+      36,
+      43,
+      67,
+      81
+    ],
+    "data": [
+      37,
+      68
+    ],
+    "signal": [
+      38,
+      44,
+      108
+    ],
+    "and": [
+      39,
+      45
+    ],
+    "characteristics.": [
+      41
+    ],
+    "When": [
+      42
+    ],
+    "are": [
+      47,
+      69,
+      110
+    ],
+    "relatively": [
+      48
+    ],
+    "consistent": [
+      49
+    ],
+    "over": [
+      50
+    ],
+    "design": [
+      53
+    ],
+    "window,": [
+      54
+    ],
+    "an": [
+      55
+    ],
+    "f-x": [
+      56
+    ],
+    "domain": [
+      57,
+      83
+    ],
+    "Wiener-filter": [
+      58
+    ],
+    "approach": [
+      59,
+      75
+    ],
+    "used.": [
+      62
+    ],
+    "For": [
+      63
+    ],
+    "cases": [
+      64
+    ],
+    "in": [
+      65,
+      80
+    ],
+    "which": [
+      66
+    ],
+    "time-": [
+      70
+    ],
+    "space-varying,": [
+      72
+    ],
+    "new": [
+      74
+    ],
+    "using": [
+      76
+    ],
+    "2-D": [
+      77
+    ],
+    "adaptive": [
+      78
+    ],
+    "filtering": [
+      79
+    ],
+    "t-x": [
+      82
+    ],
+    "very": [
+      86
+    ],
+    "effective.": [
+      87
+    ],
+    "In": [
+      88
+    ],
+    "either": [
+      89
+    ],
+    "these": [
+      91
+    ],
+    "approaches,": [
+      92
+    ],
+    "prediction": [
+      94
+    ],
+    "trace-gap": [
+      95
+    ],
+    "often": [
+      97
+    ],
+    "successfully": [
+      99
+    ],
+    "used": [
+      100
+    ],
+    "remove": [
+      102
+    ],
+    "when": [
+      106
+    ],
+    "lateral": [
+      107
+    ],
+    "changes": [
+      109
+    ],
+    "not": [
+      111
+    ],
+    "too": [
+      112
+    ],
+    "rapid.": [
+      113
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 4
+    }
+  ],
+  "updated_date": "2026-05-21T06:26:12.895304",
+  "created_date": "2025-10-10T00:00:00"
+}

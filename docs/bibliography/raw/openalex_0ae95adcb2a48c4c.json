@@ -1,0 +1,972 @@
+{
+  "id": "https://openalex.org/W2312988239",
+  "doi": "https://doi.org/10.3997/2214-4609.201413416",
+  "title": "Double Sparsity Dictionary for Seismic Noise Attenuation",
+  "display_name": "Double Sparsity Dictionary for Seismic Noise Attenuation",
+  "publication_year": 2015,
+  "publication_date": "2015-05-26",
+  "ids": {
+    "openalex": "https://openalex.org/W2312988239",
+    "doi": "https://doi.org/10.3997/2214-4609.201413416",
+    "mag": "2312988239"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.3997/2214-4609.201413416",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.3997/2214-4609.201413416",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4220650854",
+      "display_name": "Proceedings",
+      "issn_l": "2214-4609",
+      "issn": [
+        "2214-4609"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core"
+      ],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Proceedings",
+    "raw_type": "proceedings-article"
+  },
+  "type": "conference-paper",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5102769818",
+        "display_name": "Yu Chen",
+        "orcid": "https://orcid.org/0000-0002-3597-1064",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-3597-1064"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Y. Chen",
+      "raw_affiliation_strings": [
+        "University of Texas at Austin"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Texas at Austin",
+          "institution_ids": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5078652354",
+        "display_name": "Jianwei Ma",
+        "orcid": "https://orcid.org/0000-0002-9803-0763",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9803-0763"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204983213",
+          "display_name": "Harbin Institute of Technology",
+          "ror": "https://ror.org/01yqg2h08",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I204983213"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "J. Ma",
+      "raw_affiliation_strings": [
+        "Harbin Institute of Technology"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Harbin Institute of Technology",
+          "institution_ids": [
+            "https://openalex.org/I204983213"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5005237932",
+        "display_name": "Sergey B. Fomel",
+        "orcid": "https://orcid.org/0000-0002-9024-5137",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9024-5137"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. Fomel",
+      "raw_affiliation_strings": [
+        "University of Texas at Austin"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Texas at Austin",
+          "institution_ids": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 2.2553,
+  "has_fulltext": false,
+  "cited_by_count": 3,
+  "citation_normalized_percentile": {
+    "value": 0.85126307,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 94
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9998000264167786,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10688",
+      "display_name": "Image and Signal Denoising Methods",
+      "score": 0.9957000017166138,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1707",
+        "display_name": "Computer Vision and Pattern Recognition"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10892",
+      "display_name": "Drilling and Well Engineering",
+      "score": 0.9926999807357788,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.7963520288467407
+    },
+    {
+      "id": "https://openalex.org/keywords/noise-reduction",
+      "display_name": "Noise reduction",
+      "score": 0.6710667014122009
+    },
+    {
+      "id": "https://openalex.org/keywords/sparse-approximation",
+      "display_name": "Sparse approximation",
+      "score": 0.5895506739616394
+    },
+    {
+      "id": "https://openalex.org/keywords/regularization",
+      "display_name": "Regularization (linguistics)",
+      "score": 0.5281134843826294
+    },
+    {
+      "id": "https://openalex.org/keywords/transformation",
+      "display_name": "Transformation (genetics)",
+      "score": 0.5035757422447205
+    },
+    {
+      "id": "https://openalex.org/keywords/field",
+      "display_name": "Field (mathematics)",
+      "score": 0.47247669100761414
+    },
+    {
+      "id": "https://openalex.org/keywords/dependency",
+      "display_name": "Dependency (UML)",
+      "score": 0.4705790877342224
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.46834227442741394
+    },
+    {
+      "id": "https://openalex.org/keywords/noise",
+      "display_name": "Noise (video)",
+      "score": 0.44699913263320923
+    },
+    {
+      "id": "https://openalex.org/keywords/domain",
+      "display_name": "Domain (mathematical analysis)",
+      "score": 0.43460613489151
+    },
+    {
+      "id": "https://openalex.org/keywords/dictionary-learning",
+      "display_name": "Dictionary learning",
+      "score": 0.43391939997673035
+    },
+    {
+      "id": "https://openalex.org/keywords/frame",
+      "display_name": "Frame (networking)",
+      "score": 0.4301716685295105
+    },
+    {
+      "id": "https://openalex.org/keywords/representation",
+      "display_name": "Representation (politics)",
+      "score": 0.4136570990085602
+    },
+    {
+      "id": "https://openalex.org/keywords/pattern-recognition",
+      "display_name": "Pattern recognition (psychology)",
+      "score": 0.4087807536125183
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.37295782566070557
+    },
+    {
+      "id": "https://openalex.org/keywords/image",
+      "display_name": "Image (mathematics)",
+      "score": 0.3316243290901184
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.10662257671356201
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.7963520288467407
+    },
+    {
+      "id": "https://openalex.org/C163294075",
+      "wikidata": "https://www.wikidata.org/wiki/Q581861",
+      "display_name": "Noise reduction",
+      "level": 2,
+      "score": 0.6710667014122009
+    },
+    {
+      "id": "https://openalex.org/C124066611",
+      "wikidata": "https://www.wikidata.org/wiki/Q28684319",
+      "display_name": "Sparse approximation",
+      "level": 2,
+      "score": 0.5895506739616394
+    },
+    {
+      "id": "https://openalex.org/C2776135515",
+      "wikidata": "https://www.wikidata.org/wiki/Q17143721",
+      "display_name": "Regularization (linguistics)",
+      "level": 2,
+      "score": 0.5281134843826294
+    },
+    {
+      "id": "https://openalex.org/C204241405",
+      "wikidata": "https://www.wikidata.org/wiki/Q461499",
+      "display_name": "Transformation (genetics)",
+      "level": 3,
+      "score": 0.5035757422447205
+    },
+    {
+      "id": "https://openalex.org/C9652623",
+      "wikidata": "https://www.wikidata.org/wiki/Q190109",
+      "display_name": "Field (mathematics)",
+      "level": 2,
+      "score": 0.47247669100761414
+    },
+    {
+      "id": "https://openalex.org/C19768560",
+      "wikidata": "https://www.wikidata.org/wiki/Q320727",
+      "display_name": "Dependency (UML)",
+      "level": 2,
+      "score": 0.4705790877342224
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.46834227442741394
+    },
+    {
+      "id": "https://openalex.org/C99498987",
+      "wikidata": "https://www.wikidata.org/wiki/Q2210247",
+      "display_name": "Noise (video)",
+      "level": 3,
+      "score": 0.44699913263320923
+    },
+    {
+      "id": "https://openalex.org/C36503486",
+      "wikidata": "https://www.wikidata.org/wiki/Q11235244",
+      "display_name": "Domain (mathematical analysis)",
+      "level": 2,
+      "score": 0.43460613489151
+    },
+    {
+      "id": "https://openalex.org/C2988886741",
+      "wikidata": "https://www.wikidata.org/wiki/Q25304494",
+      "display_name": "Dictionary learning",
+      "level": 3,
+      "score": 0.43391939997673035
+    },
+    {
+      "id": "https://openalex.org/C126042441",
+      "wikidata": "https://www.wikidata.org/wiki/Q1324888",
+      "display_name": "Frame (networking)",
+      "level": 2,
+      "score": 0.4301716685295105
+    },
+    {
+      "id": "https://openalex.org/C2776359362",
+      "wikidata": "https://www.wikidata.org/wiki/Q2145286",
+      "display_name": "Representation (politics)",
+      "level": 3,
+      "score": 0.4136570990085602
+    },
+    {
+      "id": "https://openalex.org/C153180895",
+      "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+      "display_name": "Pattern recognition (psychology)",
+      "level": 2,
+      "score": 0.4087807536125183
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.37295782566070557
+    },
+    {
+      "id": "https://openalex.org/C115961682",
+      "wikidata": "https://www.wikidata.org/wiki/Q860623",
+      "display_name": "Image (mathematics)",
+      "level": 2,
+      "score": 0.3316243290901184
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.10662257671356201
+    },
+    {
+      "id": "https://openalex.org/C55493867",
+      "wikidata": "https://www.wikidata.org/wiki/Q7094",
+      "display_name": "Biochemistry",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C202444582",
+      "wikidata": "https://www.wikidata.org/wiki/Q837863",
+      "display_name": "Pure mathematics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C104317684",
+      "wikidata": "https://www.wikidata.org/wiki/Q7187",
+      "display_name": "Gene",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C17744445",
+      "wikidata": "https://www.wikidata.org/wiki/Q36442",
+      "display_name": "Political science",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C94625758",
+      "wikidata": "https://www.wikidata.org/wiki/Q7163",
+      "display_name": "Politics",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C185592680",
+      "wikidata": "https://www.wikidata.org/wiki/Q2329",
+      "display_name": "Chemistry",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199539241",
+      "wikidata": "https://www.wikidata.org/wiki/Q7748",
+      "display_name": "Law",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C76155785",
+      "wikidata": "https://www.wikidata.org/wiki/Q418",
+      "display_name": "Telecommunications",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.3997/2214-4609.201413416",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.3997/2214-4609.201413416",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4220650854",
+        "display_name": "Proceedings",
+        "issn_l": "2214-4609",
+        "issn": [
+          "2214-4609"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core"
+        ],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Proceedings",
+      "raw_type": "proceedings-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Quality Education",
+      "id": "https://metadata.un.org/sdg/4",
+      "score": 0.7599999904632568
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2369564042",
+    "https://openalex.org/W2509955295",
+    "https://openalex.org/W3209466624",
+    "https://openalex.org/W2572092625",
+    "https://openalex.org/W2126683262",
+    "https://openalex.org/W1987225540",
+    "https://openalex.org/W2363993830",
+    "https://openalex.org/W2008821896",
+    "https://openalex.org/W2561456314",
+    "https://openalex.org/W1992008660"
+  ],
+  "abstract_inverted_index": {
+    "Summary": [
+      0
+    ],
+    "In": [
+      1
+    ],
+    "this": [
+      2
+    ],
+    "paper,": [
+      3
+    ],
+    "we": [
+      4,
+      64
+    ],
+    "propose": [
+      5,
+      73
+    ],
+    "a": [
+      6,
+      62,
+      109,
+      124,
+      147
+    ],
+    "double": [
+      7
+    ],
+    "sparsity": [
+      8
+    ],
+    "dictionary": [
+      9,
+      90,
+      132
+    ],
+    "(DSD)": [
+      10
+    ],
+    "for": [
+      11
+    ],
+    "seismic": [
+      12
+    ],
+    "data": [
+      13,
+      144
+    ],
+    "in": [
+      14,
+      47,
+      57,
+      91,
+      140
+    ],
+    "order": [
+      15
+    ],
+    "to": [
+      16,
+      31,
+      74
+    ],
+    "combine": [
+      17
+    ],
+    "the": [
+      18,
+      33,
+      35,
+      39,
+      48,
+      52,
+      58,
+      69,
+      76,
+      85,
+      92,
+      105,
+      112,
+      128,
+      152
+    ],
+    "benefits": [
+      19
+    ],
+    "of": [
+      20,
+      68,
+      111,
+      151
+    ],
+    "both": [
+      21
+    ],
+    "analytic": [
+      22
+    ],
+    "and": [
+      23,
+      38,
+      51,
+      72,
+      79,
+      88,
+      131,
+      133
+    ],
+    "learning-based": [
+      24
+    ],
+    "sparsity-promoting": [
+      25
+    ],
+    "transforms.": [
+      26
+    ],
+    "We": [
+      27
+    ],
+    "provide": [
+      28,
+      123
+    ],
+    "two": [
+      29
+    ],
+    "models": [
+      30
+    ],
+    "learn": [
+      32
+    ],
+    "DSD:": [
+      34
+    ],
+    "synthesis": [
+      36,
+      43
+    ],
+    "model": [
+      37,
+      44,
+      54,
+      59,
+      71
+    ],
+    "analysis": [
+      40,
+      53,
+      70
+    ],
+    "model.": [
+      41
+    ],
+    "The": [
+      42,
+      119
+    ],
+    "learns": [
+      45,
+      55
+    ],
+    "DSD": [
+      46,
+      56,
+      93,
+      121
+    ],
+    "image": [
+      49
+    ],
+    "domain,": [
+      50
+    ],
+    "domain.": [
+      60
+    ],
+    "As": [
+      61
+    ],
+    "tutorial,": [
+      63
+    ],
+    "give": [
+      65
+    ],
+    "an": [
+      66,
+      97
+    ],
+    "example": [
+      67,
+      145
+    ],
+    "use": [
+      75
+    ],
+    "seislet": [
+      77,
+      106
+    ],
+    "transform": [
+      78,
+      87,
+      107,
+      130
+    ],
+    "data-drive": [
+      80
+    ],
+    "tight": [
+      81
+    ],
+    "frame": [
+      82
+    ],
+    "(DDTF)": [
+      83
+    ],
+    "as": [
+      84
+    ],
+    "base": [
+      86
+    ],
+    "adaptive": [
+      89
+    ],
+    "framework.": [
+      94
+    ],
+    "DDTF": [
+      95
+    ],
+    "obtains": [
+      96,
+      108
+    ],
+    "extra": [
+      98
+    ],
+    "structure": [
+      99
+    ],
+    "regularization": [
+      100
+    ],
+    "when": [
+      101
+    ],
+    "learning": [
+      102
+    ],
+    "dictionaries,": [
+      103
+    ],
+    "while": [
+      104
+    ],
+    "compensation": [
+      110
+    ],
+    "transformation": [
+      113
+    ],
+    "error": [
+      114
+    ],
+    "caused": [
+      115
+    ],
+    "by": [
+      116
+    ],
+    "slope": [
+      117
+    ],
+    "dependency.": [
+      118
+    ],
+    "given": [
+      120
+    ],
+    "can": [
+      122,
+      135
+    ],
+    "sparser": [
+      125
+    ],
+    "representation": [
+      126
+    ],
+    "than": [
+      127
+    ],
+    "individual": [
+      129
+    ],
+    "therefore": [
+      134
+    ],
+    "help": [
+      136
+    ],
+    "achieve": [
+      137
+    ],
+    "better": [
+      138
+    ],
+    "performance": [
+      139,
+      150
+    ],
+    "denoising": [
+      141,
+      149
+    ],
+    "applications.": [
+      142
+    ],
+    "Field": [
+      143
+    ],
+    "confirms": [
+      146
+    ],
+    "superior": [
+      148
+    ],
+    "proposed": [
+      153
+    ],
+    "approach.": [
+      154
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

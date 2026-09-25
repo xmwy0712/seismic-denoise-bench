@@ -1,0 +1,801 @@
+{
+  "id": "https://openalex.org/W2509165592",
+  "doi": "https://doi.org/10.1190/segam2016-13773139.1",
+  "title": "Seismic time-lapse image registration using amplitude-adjusted plane-wave destruction",
+  "display_name": "Seismic time-lapse image registration using amplitude-adjusted plane-wave destruction",
+  "publication_year": 2016,
+  "publication_date": "2016-09-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2509165592",
+    "doi": "https://doi.org/10.1190/segam2016-13773139.1",
+    "mag": "2509165592"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/segam2016-13773139.1",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/segam2016-13773139.1",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "International Meeting for Applied Geoscience &amp; Energy",
+    "raw_type": "proceedings-article"
+  },
+  "type": "conference-paper",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5089411800",
+        "display_name": "Mason Phillips",
+        "orcid": "https://orcid.org/0000-0003-0191-5774",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-0191-5774"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Mason Phillips",
+      "raw_affiliation_strings": [
+        "University of Texas–Austin"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Texas–Austin",
+          "institution_ids": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5005237932",
+        "display_name": "Sergey B. Fomel",
+        "orcid": "https://orcid.org/0000-0002-9024-5137",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9024-5137"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I86519309",
+          "display_name": "The University of Texas at Austin",
+          "ror": "https://ror.org/00hj54h04",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Sergey Fomel",
+      "raw_affiliation_strings": [
+        "University of Texas–Austin"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Texas–Austin",
+          "institution_ids": [
+            "https://openalex.org/I86519309"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I86519309"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 5.9765,
+  "has_fulltext": false,
+  "cited_by_count": 17,
+  "citation_normalized_percentile": {
+    "value": 0.95614398,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 93,
+    "max": 98
+  },
+  "biblio": {
+    "volume": "1",
+    "issue": null,
+    "first_page": "5473",
+    "last_page": "5478"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9998999834060669,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.9968000054359436,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10892",
+      "display_name": "Drilling and Well Engineering",
+      "score": 0.9937000274658203,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/amplitude",
+      "display_name": "Amplitude",
+      "score": 0.682255208492279
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.5140994191169739
+    },
+    {
+      "id": "https://openalex.org/keywords/image-registration",
+      "display_name": "Image registration",
+      "score": 0.513002336025238
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.4919111728668213
+    },
+    {
+      "id": "https://openalex.org/keywords/plane",
+      "display_name": "Plane (geometry)",
+      "score": 0.4503468871116638
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.4032678008079529
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-vision",
+      "display_name": "Computer vision",
+      "score": 0.3989201784133911
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.3852696418762207
+    },
+    {
+      "id": "https://openalex.org/keywords/image",
+      "display_name": "Image (mathematics)",
+      "score": 0.377414733171463
+    },
+    {
+      "id": "https://openalex.org/keywords/geodesy",
+      "display_name": "Geodesy",
+      "score": 0.337415874004364
+    },
+    {
+      "id": "https://openalex.org/keywords/remote-sensing",
+      "display_name": "Remote sensing",
+      "score": 0.32558906078338623
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.202863872051239
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.17415457963943481
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.12090852856636047
+    },
+    {
+      "id": "https://openalex.org/keywords/geometry",
+      "display_name": "Geometry",
+      "score": 0.07825198769569397
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C180205008",
+      "wikidata": "https://www.wikidata.org/wiki/Q159190",
+      "display_name": "Amplitude",
+      "level": 2,
+      "score": 0.682255208492279
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.5140994191169739
+    },
+    {
+      "id": "https://openalex.org/C166704113",
+      "wikidata": "https://www.wikidata.org/wiki/Q861092",
+      "display_name": "Image registration",
+      "level": 3,
+      "score": 0.513002336025238
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.4919111728668213
+    },
+    {
+      "id": "https://openalex.org/C17825722",
+      "wikidata": "https://www.wikidata.org/wiki/Q17285",
+      "display_name": "Plane (geometry)",
+      "level": 2,
+      "score": 0.4503468871116638
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.4032678008079529
+    },
+    {
+      "id": "https://openalex.org/C31972630",
+      "wikidata": "https://www.wikidata.org/wiki/Q844240",
+      "display_name": "Computer vision",
+      "level": 1,
+      "score": 0.3989201784133911
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.3852696418762207
+    },
+    {
+      "id": "https://openalex.org/C115961682",
+      "wikidata": "https://www.wikidata.org/wiki/Q860623",
+      "display_name": "Image (mathematics)",
+      "level": 2,
+      "score": 0.377414733171463
+    },
+    {
+      "id": "https://openalex.org/C13280743",
+      "wikidata": "https://www.wikidata.org/wiki/Q131089",
+      "display_name": "Geodesy",
+      "level": 1,
+      "score": 0.337415874004364
+    },
+    {
+      "id": "https://openalex.org/C62649853",
+      "wikidata": "https://www.wikidata.org/wiki/Q199687",
+      "display_name": "Remote sensing",
+      "level": 1,
+      "score": 0.32558906078338623
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.202863872051239
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.17415457963943481
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.12090852856636047
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.07825198769569397
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/segam2016-13773139.1",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/segam2016-13773139.1",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "International Meeting for Applied Geoscience &amp; Energy",
+      "raw_type": "proceedings-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Climate action",
+      "id": "https://metadata.un.org/sdg/13",
+      "score": 0.6899999976158142
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 19,
+  "referenced_works": [
+    "https://openalex.org/W1838266904",
+    "https://openalex.org/W1989573922",
+    "https://openalex.org/W2000793954",
+    "https://openalex.org/W2018089423",
+    "https://openalex.org/W2075289428",
+    "https://openalex.org/W2094551850",
+    "https://openalex.org/W2100387151",
+    "https://openalex.org/W2110165470",
+    "https://openalex.org/W2126720920",
+    "https://openalex.org/W2126737898",
+    "https://openalex.org/W2128160875",
+    "https://openalex.org/W2139663179",
+    "https://openalex.org/W2145438866",
+    "https://openalex.org/W2146241926",
+    "https://openalex.org/W2155266857",
+    "https://openalex.org/W2195058446",
+    "https://openalex.org/W2205585064",
+    "https://openalex.org/W2207256519",
+    "https://openalex.org/W2739833408"
+  ],
+  "related_works": [
+    "https://openalex.org/W2004357175",
+    "https://openalex.org/W2064502186",
+    "https://openalex.org/W1990192565",
+    "https://openalex.org/W2011422850",
+    "https://openalex.org/W2080868394",
+    "https://openalex.org/W2618134602",
+    "https://openalex.org/W2369139941",
+    "https://openalex.org/W2084267543",
+    "https://openalex.org/W3174521120",
+    "https://openalex.org/W2168410743"
+  ],
+  "abstract_inverted_index": {
+    "We": [
+      0
+    ],
+    "propose": [
+      1
+    ],
+    "a": [
+      2,
+      29,
+      89,
+      93
+    ],
+    "method": [
+      3
+    ],
+    "to": [
+      4,
+      48,
+      64,
+      88
+    ],
+    "efficiently": [
+      5,
+      23
+    ],
+    "measure": [
+      6,
+      24
+    ],
+    "time": [
+      7
+    ],
+    "shifts": [
+      8,
+      25,
+      42,
+      54
+    ],
+    "and": [
+      9,
+      43,
+      80,
+      92
+    ],
+    "scaling": [
+      10,
+      81
+    ],
+    "functions": [
+      11,
+      47,
+      82
+    ],
+    "between": [
+      12
+    ],
+    "seismic": [
+      13
+    ],
+    "images": [
+      14
+    ],
+    "using": [
+      15
+    ],
+    "amplitude-adjusted": [
+      16,
+      57
+    ],
+    "plane-wave": [
+      17,
+      58
+    ],
+    "destruction": [
+      18,
+      21,
+      59
+    ],
+    "filters.": [
+      19
+    ],
+    "Plane-wave": [
+      20
+    ],
+    "can": [
+      22,
+      60
+    ],
+    "of": [
+      26,
+      74
+    ],
+    "less": [
+      27
+    ],
+    "than": [
+      28
+    ],
+    "few": [
+      30
+    ],
+    "samples,": [
+      31
+    ],
+    "making": [
+      32
+    ],
+    "this": [
+      33,
+      75
+    ],
+    "algorithm": [
+      34,
+      76
+    ],
+    "particularly": [
+      35
+    ],
+    "effective": [
+      36
+    ],
+    "for": [
+      37
+    ],
+    "detecting": [
+      38
+    ],
+    "small": [
+      39
+    ],
+    "shifts.": [
+      40
+    ],
+    "Separating": [
+      41
+    ],
+    "scales": [
+      44
+    ],
+    "allows": [
+      45
+    ],
+    "shifting": [
+      46,
+      79
+    ],
+    "be": [
+      49,
+      62
+    ],
+    "measured": [
+      50
+    ],
+    "more": [
+      51
+    ],
+    "accurately.": [
+      52
+    ],
+    "When": [
+      53
+    ],
+    "are": [
+      55
+    ],
+    "large,": [
+      56
+    ],
+    "also": [
+      61
+    ],
+    "used": [
+      63
+    ],
+    "refine": [
+      65
+    ],
+    "shift": [
+      66
+    ],
+    "estimates": [
+      67
+    ],
+    "obtained": [
+      68
+    ],
+    "by": [
+      69,
+      85
+    ],
+    "other": [
+      70
+    ],
+    "methods.": [
+      71
+    ],
+    "The": [
+      72
+    ],
+    "effectiveness": [
+      73
+    ],
+    "in": [
+      77
+    ],
+    "predicting": [
+      78
+    ],
+    "is": [
+      83
+    ],
+    "demonstrated": [
+      84
+    ],
+    "applying": [
+      86
+    ],
+    "it": [
+      87
+    ],
+    "synthetic": [
+      90
+    ],
+    "trace": [
+      91
+    ],
+    "time-lapse": [
+      94
+    ],
+    "field": [
+      95
+    ],
+    "data": [
+      96
+    ],
+    "example": [
+      97
+    ],
+    "from": [
+      98
+    ],
+    "the": [
+      99
+    ],
+    "Cranfield": [
+      100
+    ],
+    "CO2": [
+      101
+    ],
+    "sequestration": [
+      102
+    ],
+    "project.": [
+      103
+    ],
+    "Presentation": [
+      104,
+      116
+    ],
+    "Date:": [
+      105
+    ],
+    "Wednesday,": [
+      106
+    ],
+    "October": [
+      107
+    ],
+    "19,": [
+      108
+    ],
+    "2016": [
+      109
+    ],
+    "Start": [
+      110
+    ],
+    "Time:": [
+      111
+    ],
+    "4:25:00": [
+      112
+    ],
+    "PM": [
+      113
+    ],
+    "Location:": [
+      114
+    ],
+    "146": [
+      115
+    ],
+    "Type:": [
+      117
+    ],
+    "ORAL": [
+      118
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 5
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

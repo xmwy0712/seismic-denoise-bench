@@ -1,0 +1,1095 @@
+{
+  "id": "https://openalex.org/W7203745601",
+  "doi": "https://doi.org/10.36922/jse026270125",
+  "title": "Pre-stack seismic lithology prediction constrained by multi-scale structural similarity and logarithmic opinion pool fusion",
+  "display_name": "Pre-stack seismic lithology prediction constrained by multi-scale structural similarity and logarithmic opinion pool fusion",
+  "publication_year": 2026,
+  "publication_date": "2026-08-18",
+  "ids": {
+    "openalex": "https://openalex.org/W7203745601",
+    "doi": "https://doi.org/10.36922/jse026270125"
+  },
+  "language": null,
+  "primary_location": {
+    "id": "doi:10.36922/jse026270125",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.36922/jse026270125",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S131394487",
+      "display_name": "Journal of seismic exploration",
+      "issn_l": "0963-0651",
+      "issn": [
+        "0963-0651"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Seismic Exploration",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "hybrid",
+    "oa_url": "https://doi.org/10.36922/jse026270125",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5147494586",
+        "display_name": "Qixin Li",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Qixin Li",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5135548262",
+        "display_name": "Bo Wang",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Bo Wang",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5068740373",
+        "display_name": "Lijun Mi",
+        "orcid": "https://orcid.org/0000-0002-2783-3454"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Lijun Mi",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5101058815",
+        "display_name": "Haizhang Yang",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Haizhang Yang",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5147612028",
+        "display_name": "Bin Jiang",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Bin Jiang",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5147656440",
+        "display_name": "Sanyi Yuan",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "Sanyi Yuan",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5147656440"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.0,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": {
+    "value": 0.73224011,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": "0",
+    "issue": "0",
+    "first_page": "026270125",
+    "last_page": "026270125"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.77920001745224,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.77920001745224,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10399",
+      "display_name": "Hydrocarbon exploration and reservoir analysis",
+      "score": 0.07559999823570251,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11801",
+      "display_name": "Reservoir Engineering and Simulation Methods",
+      "score": 0.04410000145435333,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/lithology",
+      "display_name": "Lithology",
+      "score": 0.796500027179718
+    },
+    {
+      "id": "https://openalex.org/keywords/bayesian-probability",
+      "display_name": "Bayesian probability",
+      "score": 0.6036999821662903
+    },
+    {
+      "id": "https://openalex.org/keywords/weighting",
+      "display_name": "Weighting",
+      "score": 0.5077999830245972
+    },
+    {
+      "id": "https://openalex.org/keywords/similarity",
+      "display_name": "Similarity (geometry)",
+      "score": 0.4781999886035919
+    },
+    {
+      "id": "https://openalex.org/keywords/logarithm",
+      "display_name": "Logarithm",
+      "score": 0.4431000053882599
+    },
+    {
+      "id": "https://openalex.org/keywords/bayesian-inference",
+      "display_name": "Bayesian inference",
+      "score": 0.43720000982284546
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C122792734",
+      "wikidata": "https://www.wikidata.org/wiki/Q6538759",
+      "display_name": "Lithology",
+      "level": 2,
+      "score": 0.796500027179718
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.6873999834060669
+    },
+    {
+      "id": "https://openalex.org/C107673813",
+      "wikidata": "https://www.wikidata.org/wiki/Q812534",
+      "display_name": "Bayesian probability",
+      "level": 2,
+      "score": 0.6036999821662903
+    },
+    {
+      "id": "https://openalex.org/C183115368",
+      "wikidata": "https://www.wikidata.org/wiki/Q856577",
+      "display_name": "Weighting",
+      "level": 2,
+      "score": 0.5077999830245972
+    },
+    {
+      "id": "https://openalex.org/C103278499",
+      "wikidata": "https://www.wikidata.org/wiki/Q254465",
+      "display_name": "Similarity (geometry)",
+      "level": 3,
+      "score": 0.4781999886035919
+    },
+    {
+      "id": "https://openalex.org/C39927690",
+      "wikidata": "https://www.wikidata.org/wiki/Q11197",
+      "display_name": "Logarithm",
+      "level": 2,
+      "score": 0.4431000053882599
+    },
+    {
+      "id": "https://openalex.org/C160234255",
+      "wikidata": "https://www.wikidata.org/wiki/Q812535",
+      "display_name": "Bayesian inference",
+      "level": 3,
+      "score": 0.43720000982284546
+    },
+    {
+      "id": "https://openalex.org/C1893757",
+      "wikidata": "https://www.wikidata.org/wiki/Q3653001",
+      "display_name": "Inversion (geology)",
+      "level": 3,
+      "score": 0.4302999973297119
+    },
+    {
+      "id": "https://openalex.org/C153180895",
+      "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+      "display_name": "Pattern recognition (psychology)",
+      "level": 2,
+      "score": 0.3296999931335449
+    },
+    {
+      "id": "https://openalex.org/C124101348",
+      "wikidata": "https://www.wikidata.org/wiki/Q172491",
+      "display_name": "Data mining",
+      "level": 1,
+      "score": 0.30970001220703125
+    },
+    {
+      "id": "https://openalex.org/C57830394",
+      "wikidata": "https://www.wikidata.org/wiki/Q278079",
+      "display_name": "Posterior probability",
+      "level": 3,
+      "score": 0.30329999327659607
+    },
+    {
+      "id": "https://openalex.org/C39267094",
+      "wikidata": "https://www.wikidata.org/wiki/Q7446968",
+      "display_name": "Seismic inversion",
+      "level": 3,
+      "score": 0.28999999165534973
+    },
+    {
+      "id": "https://openalex.org/C207201462",
+      "wikidata": "https://www.wikidata.org/wiki/Q182505",
+      "display_name": "Bayes' theorem",
+      "level": 3,
+      "score": 0.28299999237060547
+    },
+    {
+      "id": "https://openalex.org/C101112237",
+      "wikidata": "https://www.wikidata.org/wiki/Q4874481",
+      "display_name": "Bayesian statistics",
+      "level": 4,
+      "score": 0.25619998574256897
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.25060001015663147
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.36922/jse026270125",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.36922/jse026270125",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S131394487",
+        "display_name": "Journal of seismic exploration",
+        "issn_l": "0963-0651",
+        "issn": [
+          "0963-0651"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Seismic Exploration",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.36922/jse026270125",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.36922/jse026270125",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S131394487",
+      "display_name": "Journal of seismic exploration",
+      "issn_l": "0963-0651",
+      "issn": [
+        "0963-0651"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Seismic Exploration",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [],
+  "abstract_inverted_index": {
+    "Lithology": [
+      0
+    ],
+    "prediction": [
+      1,
+      67,
+      248,
+      280
+    ],
+    "from": [
+      2,
+      76,
+      94,
+      202,
+      213,
+      222,
+      251
+    ],
+    "pre-stack": [
+      3,
+      95
+    ],
+    "seismic": [
+      4,
+      34
+    ],
+    "inversion": [
+      5,
+      203
+    ],
+    "is": [
+      6,
+      187
+    ],
+    "a": [
+      7,
+      16,
+      130,
+      141,
+      219
+    ],
+    "key": [
+      8
+    ],
+    "step": [
+      9
+    ],
+    "in": [
+      10,
+      281
+    ],
+    "reservoir": [
+      11,
+      283
+    ],
+    "characterization.": [
+      12
+    ],
+    "Bayesian": [
+      13,
+      30,
+      65,
+      80,
+      150,
+      173,
+      191,
+      256
+    ],
+    "classification": [
+      14,
+      31,
+      81,
+      151,
+      174
+    ],
+    "provides": [
+      15,
+      271
+    ],
+    "common": [
+      17
+    ],
+    "way": [
+      18
+    ],
+    "to": [
+      19,
+      47,
+      103,
+      147,
+      166,
+      189,
+      204,
+      218,
+      258
+    ],
+    "transform": [
+      20
+    ],
+    "inversion-derived": [
+      21
+    ],
+    "elastic": [
+      22,
+      91,
+      110
+    ],
+    "parameters": [
+      23,
+      92,
+      165
+    ],
+    "into": [
+      24,
+      129
+    ],
+    "lithology": [
+      25,
+      66,
+      127,
+      132,
+      156,
+      179,
+      279
+    ],
+    "probabilities.": [
+      26,
+      157,
+      180
+    ],
+    "However,": [
+      27
+    ],
+    "conventional": [
+      28,
+      255
+    ],
+    "point-wise": [
+      29
+    ],
+    "assumes": [
+      32
+    ],
+    "independent": [
+      33
+    ],
+    "samples": [
+      35
+    ],
+    "and": [
+      36,
+      53,
+      113,
+      176,
+      196,
+      238,
+      274
+    ],
+    "ignores": [
+      37
+    ],
+    "the": [
+      38,
+      90,
+      105,
+      123,
+      136,
+      149,
+      154,
+      168,
+      172,
+      177,
+      208,
+      223,
+      229,
+      246,
+      254,
+      261,
+      268
+    ],
+    "spatial": [
+      39,
+      74
+    ],
+    "structure": [
+      40
+    ],
+    "of": [
+      41,
+      125,
+      171
+    ],
+    "lithological": [
+      42,
+      51,
+      77,
+      137,
+      209,
+      233
+    ],
+    "assemblages.": [
+      43,
+      78
+    ],
+    "This": [
+      44
+    ],
+    "often": [
+      45
+    ],
+    "leads": [
+      46
+    ],
+    "salt-and-pepper": [
+      48,
+      236
+    ],
+    "noise,": [
+      49,
+      237
+    ],
+    "fragmented": [
+      50
+    ],
+    "distributions,": [
+      52
+    ],
+    "poor": [
+      54
+    ],
+    "lateral": [
+      55
+    ],
+    "continuity.": [
+      56
+    ],
+    "To": [
+      57
+    ],
+    "overcome": [
+      58
+    ],
+    "these": [
+      59
+    ],
+    "limitations,": [
+      60
+    ],
+    "we": [
+      61
+    ],
+    "propose": [
+      62
+    ],
+    "an": [
+      63,
+      272
+    ],
+    "improved": [
+      64
+    ],
+    "method": [
+      68,
+      231,
+      257
+    ],
+    "that": [
+      69,
+      184,
+      228,
+      245,
+      267
+    ],
+    "combines": [
+      70
+    ],
+    "rock-physics": [
+      71,
+      86,
+      200
+    ],
+    "constraints": [
+      72,
+      75,
+      211
+    ],
+    "with": [
+      73,
+      153,
+      193,
+      207
+    ],
+    "First,": [
+      79
+    ],
+    "probabilities": [
+      82,
+      152,
+      175
+    ],
+    "were": [
+      83
+    ],
+    "constructed": [
+      84
+    ],
+    "through": [
+      85
+    ],
+    "analysis": [
+      87,
+      182
+    ],
+    "based": [
+      88
+    ],
+    "on": [
+      89
+    ],
+    "derived": [
+      93,
+      212
+    ],
+    "inversion.": [
+      96
+    ],
+    "Second,": [
+      97
+    ],
+    "multi-scale": [
+      98,
+      214
+    ],
+    "structural": [
+      99,
+      106,
+      215
+    ],
+    "similarity": [
+      100,
+      107,
+      120
+    ],
+    "was": [
+      101,
+      145
+    ],
+    "used": [
+      102,
+      146
+    ],
+    "measure": [
+      104
+    ],
+    "between": [
+      108
+    ],
+    "inverted": [
+      109
+    ],
+    "parameter": [
+      111
+    ],
+    "traces": [
+      112
+    ],
+    "well": [
+      114
+    ],
+    "logs": [
+      115
+    ],
+    "at": [
+      116
+    ],
+    "multiple": [
+      117
+    ],
+    "scales.": [
+      118
+    ],
+    "The": [
+      119,
+      158
+    ],
+    "weights": [
+      121
+    ],
+    "guide": [
+      122
+    ],
+    "propagation": [
+      124
+    ],
+    "well-based": [
+      126
+    ],
+    "sequences": [
+      128
+    ],
+    "non-stationary": [
+      131
+    ],
+    "probability": [
+      133
+    ],
+    "volume": [
+      134
+    ],
+    "under": [
+      135
+    ],
+    "assemblage": [
+      138,
+      210
+    ],
+    "constraints.": [
+      139
+    ],
+    "Finally,": [
+      140
+    ],
+    "logarithmic": [
+      142,
+      159
+    ],
+    "opinion": [
+      143,
+      160
+    ],
+    "pool": [
+      144,
+      161
+    ],
+    "fuse": [
+      148
+    ],
+    "assemblage-constrained": [
+      155,
+      178
+    ],
+    "fusion": [
+      162
+    ],
+    "introduces": [
+      163
+    ],
+    "weighting": [
+      164
+    ],
+    "control": [
+      167
+    ],
+    "relative": [
+      169
+    ],
+    "contributions": [
+      170
+    ],
+    "Theoretical": [
+      181
+    ],
+    "shows": [
+      183,
+      227
+    ],
+    "this": [
+      185
+    ],
+    "formulation": [
+      186
+    ],
+    "equivalent": [
+      188
+    ],
+    "generalized": [
+      190
+    ],
+    "inference": [
+      192
+    ],
+    "power": [
+      194,
+      197
+    ],
+    "likelihoods": [
+      195
+    ],
+    "priors,": [
+      198
+    ],
+    "allowing": [
+      199
+    ],
+    "evidence": [
+      201
+    ],
+    "be": [
+      205
+    ],
+    "balanced": [
+      206
+    ],
+    "similarity.": [
+      216
+    ],
+    "Application": [
+      217
+    ],
+    "field": [
+      220
+    ],
+    "dataset": [
+      221
+    ],
+    "northeastern": [
+      224
+    ],
+    "Ordos": [
+      225
+    ],
+    "Basin": [
+      226
+    ],
+    "proposed": [
+      230,
+      262,
+      269
+    ],
+    "improves": [
+      232
+    ],
+    "continuity,": [
+      234
+    ],
+    "reduces": [
+      235
+    ],
+    "preserves": [
+      239
+    ],
+    "local": [
+      240
+    ],
+    "details.": [
+      241
+    ],
+    "Blind-well": [
+      242
+    ],
+    "validation": [
+      243
+    ],
+    "indicates": [
+      244
+    ],
+    "overall": [
+      247
+    ],
+    "accuracy": [
+      249
+    ],
+    "increases": [
+      250
+    ],
+    "71.1%": [
+      252
+    ],
+    "for": [
+      253,
+      260,
+      278
+    ],
+    "82.5%": [
+      259
+    ],
+    "method.": [
+      263
+    ],
+    "These": [
+      264
+    ],
+    "results": [
+      265
+    ],
+    "suggest": [
+      266
+    ],
+    "framework": [
+      270
+    ],
+    "accurate": [
+      273
+    ],
+    "geologically": [
+      275
+    ],
+    "consistent": [
+      276
+    ],
+    "workflow": [
+      277
+    ],
+    "complex": [
+      282
+    ],
+    "settings.": [
+      284
+    ]
+  },
+  "counts_by_year": [],
+  "updated_date": "2026-09-21T07:43:02.447757",
+  "created_date": "2026-08-20T00:00:00"
+}

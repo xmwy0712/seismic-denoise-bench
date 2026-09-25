@@ -1,0 +1,536 @@
+{
+  "id": "https://openalex.org/W2012244360",
+  "doi": "https://doi.org/10.1007/bf00879499",
+  "title": "Scattering and anelastic attenuation of seismic energy in northern Greece",
+  "display_name": "Scattering and anelastic attenuation of seismic energy in northern Greece",
+  "publication_year": 1994,
+  "publication_date": "1994-12-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2012244360",
+    "doi": "https://doi.org/10.1007/bf00879499",
+    "mag": "2012244360"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1007/bf00879499",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1007/bf00879499",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S78180602",
+      "display_name": "Pure and Applied Geophysics",
+      "issn_l": "0033-4533",
+      "issn": [
+        "0033-4533",
+        "0033-4553",
+        "1420-9136"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320186",
+      "host_organization_name": "Birkhäuser",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320186",
+        "https://openalex.org/P4310319900"
+      ],
+      "host_organization_lineage_names": [
+        "Birkhäuser",
+        "Springer Science+Business Media"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "pure and applied geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5029505036",
+        "display_name": "Panagiotis M. Hatzidimitriou",
+        "orcid": "https://orcid.org/0000-0002-9366-1187",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-9366-1187"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I21370196",
+          "display_name": "Aristotle University of Thessaloniki",
+          "ror": "https://ror.org/02j61yw88",
+          "country_code": "GR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I21370196"
+          ]
+        }
+      ],
+      "countries": [
+        "GR"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "P. M. Hatzidimitriou",
+      "raw_affiliation_strings": [
+        "Geophysical Laboratory, Aristotelian University of Thessaloniki, GR54006, Thessaloniki, Greece",
+        "Geophysical Laboratory, Aristotelian University of Thessaloniki, Thessaloniki, Greece"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Geophysical Laboratory, Aristotelian University of Thessaloniki, GR54006, Thessaloniki, Greece",
+          "institution_ids": [
+            "https://openalex.org/I21370196"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Geophysical Laboratory, Aristotelian University of Thessaloniki, Thessaloniki, Greece",
+          "institution_ids": [
+            "https://openalex.org/I21370196"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5029505036"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I21370196"
+  ],
+  "apc_list": {
+    "value": 3790,
+    "currency": "USD",
+    "value_usd": 3790
+  },
+  "apc_paid": null,
+  "fwci": 0.0,
+  "has_fulltext": false,
+  "cited_by_count": 21,
+  "citation_normalized_percentile": {
+    "value": 0.09918579,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 96
+  },
+  "biblio": {
+    "volume": "143",
+    "issue": "4",
+    "first_page": "587",
+    "last_page": "601"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11757",
+    "display_name": "Seismic Waves and Analysis",
+    "score": 0.9998000264167786,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10110",
+      "display_name": "earthquake and tectonic studies",
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9988999962806702,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/attenuation",
+      "display_name": "Attenuation",
+      "score": 0.9579495191574097
+    },
+    {
+      "id": "https://openalex.org/keywords/scattering",
+      "display_name": "Scattering",
+      "score": 0.8519970178604126
+    },
+    {
+      "id": "https://openalex.org/keywords/coda",
+      "display_name": "Coda",
+      "score": 0.7810533046722412
+    },
+    {
+      "id": "https://openalex.org/keywords/anelastic-attenuation-factor",
+      "display_name": "Anelastic attenuation factor",
+      "score": 0.47906145453453064
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.47121185064315796
+    },
+    {
+      "id": "https://openalex.org/keywords/frequency-dependence",
+      "display_name": "Frequency dependence",
+      "score": 0.44307368993759155
+    },
+    {
+      "id": "https://openalex.org/keywords/absorption",
+      "display_name": "Absorption (acoustics)",
+      "score": 0.4425981640815735
+    },
+    {
+      "id": "https://openalex.org/keywords/computational-physics",
+      "display_name": "Computational physics",
+      "score": 0.4403609037399292
+    },
+    {
+      "id": "https://openalex.org/keywords/radiative-transfer",
+      "display_name": "Radiative transfer",
+      "score": 0.43178772926330566
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.3877820372581482
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.29947978258132935
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.29317617416381836
+    },
+    {
+      "id": "https://openalex.org/keywords/nuclear-magnetic-resonance",
+      "display_name": "Nuclear magnetic resonance",
+      "score": 0.10140708088874817
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C184652730",
+      "wikidata": "https://www.wikidata.org/wiki/Q2357982",
+      "display_name": "Attenuation",
+      "level": 2,
+      "score": 0.9579495191574097
+    },
+    {
+      "id": "https://openalex.org/C191486275",
+      "wikidata": "https://www.wikidata.org/wiki/Q210028",
+      "display_name": "Scattering",
+      "level": 2,
+      "score": 0.8519970178604126
+    },
+    {
+      "id": "https://openalex.org/C3962253",
+      "wikidata": "https://www.wikidata.org/wiki/Q852466",
+      "display_name": "Coda",
+      "level": 2,
+      "score": 0.7810533046722412
+    },
+    {
+      "id": "https://openalex.org/C33708915",
+      "wikidata": "https://www.wikidata.org/wiki/Q4761629",
+      "display_name": "Anelastic attenuation factor",
+      "level": 3,
+      "score": 0.47906145453453064
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.47121185064315796
+    },
+    {
+      "id": "https://openalex.org/C3018695096",
+      "wikidata": "https://www.wikidata.org/wiki/Q11652",
+      "display_name": "Frequency dependence",
+      "level": 2,
+      "score": 0.44307368993759155
+    },
+    {
+      "id": "https://openalex.org/C125287762",
+      "wikidata": "https://www.wikidata.org/wiki/Q1758948",
+      "display_name": "Absorption (acoustics)",
+      "level": 2,
+      "score": 0.4425981640815735
+    },
+    {
+      "id": "https://openalex.org/C30475298",
+      "wikidata": "https://www.wikidata.org/wiki/Q909554",
+      "display_name": "Computational physics",
+      "level": 1,
+      "score": 0.4403609037399292
+    },
+    {
+      "id": "https://openalex.org/C74902906",
+      "wikidata": "https://www.wikidata.org/wiki/Q1190858",
+      "display_name": "Radiative transfer",
+      "level": 2,
+      "score": 0.43178772926330566
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.3877820372581482
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.29947978258132935
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.29317617416381836
+    },
+    {
+      "id": "https://openalex.org/C46141821",
+      "wikidata": "https://www.wikidata.org/wiki/Q209402",
+      "display_name": "Nuclear magnetic resonance",
+      "level": 1,
+      "score": 0.10140708088874817
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1007/bf00879499",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1007/bf00879499",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S78180602",
+        "display_name": "Pure and Applied Geophysics",
+        "issn_l": "0033-4533",
+        "issn": [
+          "0033-4533",
+          "0033-4553",
+          "1420-9136"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320186",
+        "host_organization_name": "Birkhäuser",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320186",
+          "https://openalex.org/P4310319900"
+        ],
+        "host_organization_lineage_names": [
+          "Birkhäuser",
+          "Springer Science+Business Media"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "pure and applied geophysics",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Affordable and clean energy",
+      "id": "https://metadata.un.org/sdg/7",
+      "score": 0.8700000047683716
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320323894",
+      "display_name": "Aristotle University of Thessaloniki",
+      "ror": "https://ror.org/02j61yw88"
+    }
+  ],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 35,
+  "referenced_works": [
+    "https://openalex.org/W934418508",
+    "https://openalex.org/W1501597519",
+    "https://openalex.org/W1551395222",
+    "https://openalex.org/W1573293896",
+    "https://openalex.org/W1965753192",
+    "https://openalex.org/W1966223054",
+    "https://openalex.org/W1974028875",
+    "https://openalex.org/W1991538675",
+    "https://openalex.org/W1991687831",
+    "https://openalex.org/W1992133087",
+    "https://openalex.org/W1994729497",
+    "https://openalex.org/W2010953094",
+    "https://openalex.org/W2021121782",
+    "https://openalex.org/W2022716782",
+    "https://openalex.org/W2025014051",
+    "https://openalex.org/W2026725876",
+    "https://openalex.org/W2040398110",
+    "https://openalex.org/W2042266987",
+    "https://openalex.org/W2047747114",
+    "https://openalex.org/W2068571834",
+    "https://openalex.org/W2084982717",
+    "https://openalex.org/W2094273345",
+    "https://openalex.org/W2106643862",
+    "https://openalex.org/W2139181031",
+    "https://openalex.org/W2146036776",
+    "https://openalex.org/W2161913360",
+    "https://openalex.org/W2181757556",
+    "https://openalex.org/W2259627947",
+    "https://openalex.org/W2263869820",
+    "https://openalex.org/W2297959613",
+    "https://openalex.org/W2347092522",
+    "https://openalex.org/W2520860470",
+    "https://openalex.org/W2585480592",
+    "https://openalex.org/W3010956862",
+    "https://openalex.org/W4256734399"
+  ],
+  "related_works": [
+    "https://openalex.org/W2986559575",
+    "https://openalex.org/W2620045555",
+    "https://openalex.org/W64999349",
+    "https://openalex.org/W2085413271",
+    "https://openalex.org/W2283628124",
+    "https://openalex.org/W2113588261",
+    "https://openalex.org/W2334143917",
+    "https://openalex.org/W2613577276",
+    "https://openalex.org/W2949287373",
+    "https://openalex.org/W2128227401"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

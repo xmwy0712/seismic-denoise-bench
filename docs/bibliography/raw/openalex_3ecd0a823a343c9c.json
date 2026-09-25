@@ -1,0 +1,1413 @@
+{
+  "id": "https://openalex.org/W2011952715",
+  "doi": "https://doi.org/10.1190/1.3304820",
+  "title": "Quantitative analysis of time-lapse seismic monitoring data at the Sleipner CO2 storage operation",
+  "display_name": "Quantitative analysis of time-lapse seismic monitoring data at the Sleipner CO2 storage operation",
+  "publication_year": 2010,
+  "publication_date": "2010-02-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2011952715",
+    "doi": "https://doi.org/10.1190/1.3304820",
+    "mag": "2011952715"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.3304820",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.3304820",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4210172657",
+      "display_name": "The Leading Edge",
+      "issn_l": "1070-485X",
+      "issn": [
+        "1070-485X",
+        "1938-3789"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "The Leading Edge",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5055390739",
+        "display_name": "Andy Chadwick",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I139290333",
+          "display_name": "British Geological Survey",
+          "ror": "https://ror.org/04a7gbp98",
+          "country_code": "GB",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I139290333",
+            "https://openalex.org/I141816643",
+            "https://openalex.org/I4210087105"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Andy Chadwick",
+      "raw_affiliation_strings": [
+        "1 British Geological Survey",
+        "British Geological Survey#TAB#"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1 British Geological Survey",
+          "institution_ids": [
+            "https://openalex.org/I139290333"
+          ]
+        },
+        {
+          "raw_affiliation_string": "British Geological Survey#TAB#",
+          "institution_ids": [
+            "https://openalex.org/I139290333"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5113839055",
+        "display_name": "Gareth A. Williams",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I139290333",
+          "display_name": "British Geological Survey",
+          "ror": "https://ror.org/04a7gbp98",
+          "country_code": "GB",
+          "type": "government",
+          "lineage": [
+            "https://openalex.org/I139290333",
+            "https://openalex.org/I141816643",
+            "https://openalex.org/I4210087105"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Gareth Williams",
+      "raw_affiliation_strings": [
+        "1 British Geological Survey",
+        "British Geological Survey#TAB#"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1 British Geological Survey",
+          "institution_ids": [
+            "https://openalex.org/I139290333"
+          ]
+        },
+        {
+          "raw_affiliation_string": "British Geological Survey#TAB#",
+          "institution_ids": [
+            "https://openalex.org/I139290333"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5083291888",
+        "display_name": "Nicolas Delépine",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210137568",
+          "display_name": "Independent Filmmaker Project",
+          "ror": "https://ror.org/04w97d535",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210137568"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Nicolas Delepine",
+      "raw_affiliation_strings": [
+        "2 IFP"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "2 IFP",
+          "institution_ids": [
+            "https://openalex.org/I4210137568"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5042587952",
+        "display_name": "V. Clochard",
+        "orcid": "https://orcid.org/0000-0003-0481-3917",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-0481-3917"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210137568",
+          "display_name": "Independent Filmmaker Project",
+          "ror": "https://ror.org/04w97d535",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210137568"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Vincent Clochard",
+      "raw_affiliation_strings": [
+        "2 IFP"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "2 IFP",
+          "institution_ids": [
+            "https://openalex.org/I4210137568"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5088574559",
+        "display_name": "K. Labat",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210137568",
+          "display_name": "Independent Filmmaker Project",
+          "ror": "https://ror.org/04w97d535",
+          "country_code": "US",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210137568"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Karine Labat",
+      "raw_affiliation_strings": [
+        "2 IFP"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "2 IFP",
+          "institution_ids": [
+            "https://openalex.org/I4210137568"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5057600062",
+        "display_name": "Susan Sturton",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I173888879",
+          "display_name": "SINTEF",
+          "ror": "https://ror.org/01f677e56",
+          "country_code": "NO",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I173888879"
+          ]
+        }
+      ],
+      "countries": [
+        "NO"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Susan Sturton",
+      "raw_affiliation_strings": [
+        "3 SINTEF",
+        "[SINTEF]"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "3 SINTEF",
+          "institution_ids": [
+            "https://openalex.org/I173888879"
+          ]
+        },
+        {
+          "raw_affiliation_string": "[SINTEF]",
+          "institution_ids": [
+            "https://openalex.org/I173888879"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5031544762",
+        "display_name": "Maike-L Buddensiek",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I173888879",
+          "display_name": "SINTEF",
+          "ror": "https://ror.org/01f677e56",
+          "country_code": "NO",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I173888879"
+          ]
+        }
+      ],
+      "countries": [
+        "NO"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Maike-L Buddensiek",
+      "raw_affiliation_strings": [
+        "3 SINTEF",
+        "[SINTEF]"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "3 SINTEF",
+          "institution_ids": [
+            "https://openalex.org/I173888879"
+          ]
+        },
+        {
+          "raw_affiliation_string": "[SINTEF]",
+          "institution_ids": [
+            "https://openalex.org/I173888879"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5111832129",
+        "display_name": "Menno Dillen",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I173888879",
+          "display_name": "SINTEF",
+          "ror": "https://ror.org/01f677e56",
+          "country_code": "NO",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I173888879"
+          ]
+        }
+      ],
+      "countries": [
+        "NO"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Menno Dillen",
+      "raw_affiliation_strings": [
+        "3 SINTEF",
+        "[SINTEF]"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "3 SINTEF",
+          "institution_ids": [
+            "https://openalex.org/I173888879"
+          ]
+        },
+        {
+          "raw_affiliation_string": "[SINTEF]",
+          "institution_ids": [
+            "https://openalex.org/I173888879"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5103206407",
+        "display_name": "Michael Nickel",
+        "orcid": "https://orcid.org/0000-0002-6059-2461",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-6059-2461"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I154100212",
+          "display_name": "Schlumberger (British Virgin Islands)",
+          "ror": "https://ror.org/01ydfc370",
+          "country_code": "VG",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I154100212",
+            "https://openalex.org/I4210092184"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210090857",
+          "display_name": "Schlumberger (United States)",
+          "ror": "https://ror.org/009m79n22",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210090857",
+            "https://openalex.org/I4210092184"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210133462",
+          "display_name": "Schlumberger (United Kingdom)",
+          "ror": "https://ror.org/03q6ms497",
+          "country_code": "GB",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210092184",
+            "https://openalex.org/I4210133462"
+          ]
+        }
+      ],
+      "countries": [
+        "GB",
+        "US",
+        "VG"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Michael Nickel",
+      "raw_affiliation_strings": [
+        "4 Schlumberger",
+        "Schlumberger"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "4 Schlumberger",
+          "institution_ids": [
+            "https://openalex.org/I154100212",
+            "https://openalex.org/I4210090857",
+            "https://openalex.org/I4210133462"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Schlumberger",
+          "institution_ids": [
+            "https://openalex.org/I154100212"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5060998145",
+        "display_name": "Anne Louise Lima",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I154100212",
+          "display_name": "Schlumberger (British Virgin Islands)",
+          "ror": "https://ror.org/01ydfc370",
+          "country_code": "VG",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I154100212",
+            "https://openalex.org/I4210092184"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210090857",
+          "display_name": "Schlumberger (United States)",
+          "ror": "https://ror.org/009m79n22",
+          "country_code": "US",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210090857",
+            "https://openalex.org/I4210092184"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210133462",
+          "display_name": "Schlumberger (United Kingdom)",
+          "ror": "https://ror.org/03q6ms497",
+          "country_code": "GB",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210092184",
+            "https://openalex.org/I4210133462"
+          ]
+        }
+      ],
+      "countries": [
+        "GB",
+        "US",
+        "VG"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Anne Louise Lima",
+      "raw_affiliation_strings": [
+        "4 Schlumberger",
+        "Schlumberger"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "4 Schlumberger",
+          "institution_ids": [
+            "https://openalex.org/I154100212",
+            "https://openalex.org/I4210090857",
+            "https://openalex.org/I4210133462"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Schlumberger",
+          "institution_ids": [
+            "https://openalex.org/I154100212"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5025460158",
+        "display_name": "Rob J. Arts",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210098610",
+          "display_name": "Tamil Nadu Open University",
+          "ror": "https://ror.org/013aqa754",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210098610"
+          ]
+        }
+      ],
+      "countries": [
+        "IN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Rob Arts",
+      "raw_affiliation_strings": [
+        "5 TNO",
+        "TNO >  >  >  >"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "5 TNO",
+          "institution_ids": [
+            "https://openalex.org/I4210098610"
+          ]
+        },
+        {
+          "raw_affiliation_string": "TNO >  >  >  >",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5031539136",
+        "display_name": "Filip P. Neele",
+        "orcid": "https://orcid.org/0000-0001-8279-8252",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-8279-8252"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210098610",
+          "display_name": "Tamil Nadu Open University",
+          "ror": "https://ror.org/013aqa754",
+          "country_code": "IN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I4210098610"
+          ]
+        }
+      ],
+      "countries": [
+        "IN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Filip Neele",
+      "raw_affiliation_strings": [
+        "5 TNO",
+        "TNO >  >  >  >"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "5 TNO",
+          "institution_ids": [
+            "https://openalex.org/I4210098610"
+          ]
+        },
+        {
+          "raw_affiliation_string": "TNO >  >  >  >",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5019682740",
+        "display_name": "Giuliana Rossi",
+        "orcid": "https://orcid.org/0000-0002-5572-1759",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-5572-1759"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210164369",
+          "display_name": "National Institute of Oceanography and Applied Geophysics",
+          "ror": "https://ror.org/04y4t7k95",
+          "country_code": "IT",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I4210164369"
+          ]
+        }
+      ],
+      "countries": [
+        "IT"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Giuliana Rossi",
+      "raw_affiliation_strings": [
+        "6 Italian National Insitute for Oceanography and Applied Geophysics",
+        "Italian National Insitute for Oceanography and Applied Geophysics"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "6 Italian National Insitute for Oceanography and Applied Geophysics",
+          "institution_ids": [
+            "https://openalex.org/I4210164369"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Italian National Insitute for Oceanography and Applied Geophysics",
+          "institution_ids": [
+            "https://openalex.org/I4210164369"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 6,
+  "institutions_distinct_count": 8,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 9.5098,
+  "has_fulltext": false,
+  "cited_by_count": 283,
+  "citation_normalized_percentile": {
+    "value": 0.98889597,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "29",
+    "issue": "2",
+    "first_page": "170",
+    "last_page": "177"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9998999834060669,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11302",
+      "display_name": "CO2 Sequestration and Geologic Interactions",
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2305",
+        "display_name": "Environmental Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/plume",
+      "display_name": "Plume",
+      "score": 0.6685565710067749
+    },
+    {
+      "id": "https://openalex.org/keywords/north-sea",
+      "display_name": "North sea",
+      "score": 0.6684479713439941
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.596342921257019
+    },
+    {
+      "id": "https://openalex.org/keywords/petroleum-engineering",
+      "display_name": "Petroleum engineering",
+      "score": 0.558795154094696
+    },
+    {
+      "id": "https://openalex.org/keywords/submarine-pipeline",
+      "display_name": "Submarine pipeline",
+      "score": 0.5336991548538208
+    },
+    {
+      "id": "https://openalex.org/keywords/aquifer",
+      "display_name": "Aquifer",
+      "score": 0.5024075508117676
+    },
+    {
+      "id": "https://openalex.org/keywords/natural-gas",
+      "display_name": "Natural gas",
+      "score": 0.4329231381416321
+    },
+    {
+      "id": "https://openalex.org/keywords/oceanography",
+      "display_name": "Oceanography",
+      "score": 0.32213374972343445
+    },
+    {
+      "id": "https://openalex.org/keywords/groundwater",
+      "display_name": "Groundwater",
+      "score": 0.1599104404449463
+    },
+    {
+      "id": "https://openalex.org/keywords/geotechnical-engineering",
+      "display_name": "Geotechnical engineering",
+      "score": 0.12643197178840637
+    },
+    {
+      "id": "https://openalex.org/keywords/meteorology",
+      "display_name": "Meteorology",
+      "score": 0.12546592950820923
+    },
+    {
+      "id": "https://openalex.org/keywords/geography",
+      "display_name": "Geography",
+      "score": 0.09413263201713562
+    },
+    {
+      "id": "https://openalex.org/keywords/engineering",
+      "display_name": "Engineering",
+      "score": 0.09384232759475708
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2775840915",
+      "wikidata": "https://www.wikidata.org/wiki/Q3817528",
+      "display_name": "Plume",
+      "level": 2,
+      "score": 0.6685565710067749
+    },
+    {
+      "id": "https://openalex.org/C2983223943",
+      "wikidata": "https://www.wikidata.org/wiki/Q1693",
+      "display_name": "North sea",
+      "level": 2,
+      "score": 0.6684479713439941
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.596342921257019
+    },
+    {
+      "id": "https://openalex.org/C78762247",
+      "wikidata": "https://www.wikidata.org/wiki/Q1273174",
+      "display_name": "Petroleum engineering",
+      "level": 1,
+      "score": 0.558795154094696
+    },
+    {
+      "id": "https://openalex.org/C162284963",
+      "wikidata": "https://www.wikidata.org/wiki/Q17106102",
+      "display_name": "Submarine pipeline",
+      "level": 2,
+      "score": 0.5336991548538208
+    },
+    {
+      "id": "https://openalex.org/C75622301",
+      "wikidata": "https://www.wikidata.org/wiki/Q208791",
+      "display_name": "Aquifer",
+      "level": 3,
+      "score": 0.5024075508117676
+    },
+    {
+      "id": "https://openalex.org/C59427239",
+      "wikidata": "https://www.wikidata.org/wiki/Q40858",
+      "display_name": "Natural gas",
+      "level": 2,
+      "score": 0.4329231381416321
+    },
+    {
+      "id": "https://openalex.org/C111368507",
+      "wikidata": "https://www.wikidata.org/wiki/Q43518",
+      "display_name": "Oceanography",
+      "level": 1,
+      "score": 0.32213374972343445
+    },
+    {
+      "id": "https://openalex.org/C76177295",
+      "wikidata": "https://www.wikidata.org/wiki/Q161598",
+      "display_name": "Groundwater",
+      "level": 2,
+      "score": 0.1599104404449463
+    },
+    {
+      "id": "https://openalex.org/C187320778",
+      "wikidata": "https://www.wikidata.org/wiki/Q1349130",
+      "display_name": "Geotechnical engineering",
+      "level": 1,
+      "score": 0.12643197178840637
+    },
+    {
+      "id": "https://openalex.org/C153294291",
+      "wikidata": "https://www.wikidata.org/wiki/Q25261",
+      "display_name": "Meteorology",
+      "level": 1,
+      "score": 0.12546592950820923
+    },
+    {
+      "id": "https://openalex.org/C205649164",
+      "wikidata": "https://www.wikidata.org/wiki/Q1071",
+      "display_name": "Geography",
+      "level": 0,
+      "score": 0.09413263201713562
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.09384232759475708
+    },
+    {
+      "id": "https://openalex.org/C548081761",
+      "wikidata": "https://www.wikidata.org/wiki/Q180388",
+      "display_name": "Waste management",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 3,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.3304820",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.3304820",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4210172657",
+        "display_name": "The Leading Edge",
+        "issn_l": "1070-485X",
+        "issn": [
+          "1070-485X",
+          "1938-3789"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "The Leading Edge",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:nora.nerc.ac.uk:9418",
+      "is_oa": false,
+      "landing_page_url": "http://nora.nerc.ac.uk/id/eprint/9418/1/Sleipner_TLE_v7_revised.pdf",
+      "pdf_url": "http://nora.nerc.ac.uk/id/eprint/9418/1/Sleipner_TLE_v7_revised.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400758",
+        "display_name": "NERC Open Research Archive (Natural Environment Research Council)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I141816643",
+        "host_organization_name": "Natural Environment Research Council",
+        "host_organization_lineage": [
+          "https://openalex.org/I141816643"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": "Publication - Article"
+    },
+    {
+      "id": "pmh:oai:oai-pmh.tno.nl:74627",
+      "is_oa": false,
+      "landing_page_url": "https://resolver.tno.nl/uuid:1509eae8-145b-4bcc-b9f2-ec727a2bc635",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S7407055233",
+        "display_name": "TNO Repository",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "the Leading Edge, 29(2), pp. 170-177.",
+      "raw_type": "info:eu-repo/semantics/article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Life below water",
+      "score": 0.8799999952316284,
+      "id": "https://metadata.un.org/sdg/14"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 7,
+  "referenced_works": [
+    "https://openalex.org/W1842267534",
+    "https://openalex.org/W2031347898",
+    "https://openalex.org/W2036954297",
+    "https://openalex.org/W2040115694",
+    "https://openalex.org/W2155357655",
+    "https://openalex.org/W2318768608",
+    "https://openalex.org/W2328229450"
+  ],
+  "related_works": [
+    "https://openalex.org/W985732587",
+    "https://openalex.org/W2350422742",
+    "https://openalex.org/W1947007732",
+    "https://openalex.org/W2922239277",
+    "https://openalex.org/W3036980091",
+    "https://openalex.org/W2034460869",
+    "https://openalex.org/W1608852890",
+    "https://openalex.org/W1989806452",
+    "https://openalex.org/W1985934875",
+    "https://openalex.org/W2023066571"
+  ],
+  "abstract_inverted_index": {
+    "The": [
+      0
+    ],
+    "CO2": [
+      1,
+      24,
+      37,
+      56
+    ],
+    "storage": [
+      2
+    ],
+    "operation": [
+      3
+    ],
+    "at": [
+      4,
+      32,
+      63,
+      81
+    ],
+    "Sleipner": [
+      5,
+      33
+    ],
+    "in": [
+      6,
+      34
+    ],
+    "the": [
+      7,
+      16,
+      45,
+      78
+    ],
+    "Norwegian": [
+      8
+    ],
+    "North": [
+      9
+    ],
+    "Sea": [
+      10
+    ],
+    "provides": [
+      11
+    ],
+    "an": [
+      12
+    ],
+    "excellent": [
+      13
+    ],
+    "demonstration": [
+      14
+    ],
+    "of": [
+      15,
+      18,
+      52,
+      66
+    ],
+    "application": [
+      17
+    ],
+    "time-lapse": [
+      19
+    ],
+    "surface": [
+      20
+    ],
+    "seismic": [
+      21
+    ],
+    "methods": [
+      22
+    ],
+    "to": [
+      23
+    ],
+    "plume": [
+      25
+    ],
+    "monitoring": [
+      26
+    ],
+    "under": [
+      27
+    ],
+    "favorable": [
+      28
+    ],
+    "conditions.": [
+      29
+    ],
+    "Injection": [
+      30
+    ],
+    "commenced": [
+      31
+    ],
+    "1996": [
+      35
+    ],
+    "with": [
+      36,
+      91
+    ],
+    "separated": [
+      38
+    ],
+    "from": [
+      39
+    ],
+    "natural": [
+      40
+    ],
+    "gas": [
+      41
+    ],
+    "being": [
+      42
+    ],
+    "injected": [
+      43
+    ],
+    "into": [
+      44
+    ],
+    "Utsira": [
+      46
+    ],
+    "Sand,": [
+      47
+    ],
+    "a": [
+      48,
+      60,
+      64,
+      82
+    ],
+    "major": [
+      49
+    ],
+    "saline": [
+      50
+    ],
+    "aquifer": [
+      51
+    ],
+    "late": [
+      53
+    ],
+    "Cenozoic": [
+      54
+    ],
+    "age.": [
+      55
+    ],
+    "injection": [
+      57
+    ],
+    "is": [
+      58
+    ],
+    "via": [
+      59
+    ],
+    "near-horizontal": [
+      61
+    ],
+    "well": [
+      62
+    ],
+    "depth": [
+      65
+    ],
+    "about": [
+      67
+    ],
+    "1012": [
+      68
+    ],
+    "m": [
+      69,
+      76
+    ],
+    "below": [
+      70,
+      77
+    ],
+    "sea": [
+      71
+    ],
+    "level": [
+      72
+    ],
+    "(bsl)": [
+      73
+    ],
+    "some": [
+      74
+    ],
+    "200": [
+      75
+    ],
+    "reservoir": [
+      79
+    ],
+    "top,": [
+      80
+    ],
+    "rate": [
+      83
+    ],
+    "approaching": [
+      84
+    ],
+    "1": [
+      85
+    ],
+    "million": [
+      86
+    ],
+    "tonnes": [
+      87
+    ],
+    "(Mt)": [
+      88
+    ],
+    "per": [
+      89
+    ],
+    "year,": [
+      90
+    ],
+    "more": [
+      92
+    ],
+    "than": [
+      93
+    ],
+    "11": [
+      94
+    ],
+    "Mt": [
+      95
+    ],
+    "currently": [
+      96
+    ],
+    "stored.": [
+      97
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 21
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 30
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 26
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 25
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 15
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 17
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 22
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 10
+    }
+  ],
+  "updated_date": "2026-09-23T05:00:35.095934",
+  "created_date": "2016-06-24T00:00:00"
+}

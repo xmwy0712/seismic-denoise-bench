@@ -1,0 +1,851 @@
+{
+  "id": "https://openalex.org/W163612977",
+  "doi": null,
+  "title": "On empirical mode decomposition and its algorithms",
+  "display_name": "On empirical mode decomposition and its algorithms",
+  "publication_year": 2003,
+  "publication_date": "2003-06-01",
+  "ids": {
+    "openalex": "https://openalex.org/W163612977",
+    "mag": "163612977"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "pmh:oai:CiteSeerX.psu:10.1.1.585.9362",
+    "is_oa": false,
+    "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.585.9362",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "http://perso.ens-lyon.fr/paulo.goncalves/pub/emd-eurasip03.pdf",
+    "raw_type": "text"
+  },
+  "type": "article",
+  "indexed_in": [],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "green",
+    "oa_url": "https://inria.hal.science/inria-00570628",
+    "any_repository_has_fulltext": true
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5053505180",
+        "display_name": "Gabriel Rilling",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I113428412",
+          "display_name": "École Normale Supérieure de Lyon",
+          "ror": "https://ror.org/04zmssz18",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I113428412",
+            "https://openalex.org/I203339264"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210096929",
+          "display_name": "Laboratoire de Physique de l'ENS de Lyon",
+          "ror": "https://ror.org/00w5ay796",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I100532134",
+            "https://openalex.org/I112936343",
+            "https://openalex.org/I113428412",
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I203339264",
+            "https://openalex.org/I4210096929",
+            "https://openalex.org/I4405259976",
+            "https://openalex.org/I4405263940",
+            "https://openalex.org/I48430043"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Gabriel Rilling",
+      "raw_affiliation_strings": [
+        "Laboratoire de Physique de l'ENS Lyon"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Laboratoire de Physique de l'ENS Lyon",
+          "institution_ids": [
+            "https://openalex.org/I113428412",
+            "https://openalex.org/I4210096929"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5054988467",
+        "display_name": "Patrick Flandrin",
+        "orcid": "https://orcid.org/0000-0003-2846-6200"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I113428412",
+          "display_name": "École Normale Supérieure de Lyon",
+          "ror": "https://ror.org/04zmssz18",
+          "country_code": "FR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I113428412",
+            "https://openalex.org/I203339264"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210096929",
+          "display_name": "Laboratoire de Physique de l'ENS de Lyon",
+          "ror": "https://ror.org/00w5ay796",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I100532134",
+            "https://openalex.org/I112936343",
+            "https://openalex.org/I113428412",
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I203339264",
+            "https://openalex.org/I4210096929",
+            "https://openalex.org/I4405259976",
+            "https://openalex.org/I4405263940",
+            "https://openalex.org/I48430043"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Patrick Flandrin",
+      "raw_affiliation_strings": [
+        "Laboratoire de Physique de l'ENS Lyon"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0003-2846-6200",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Laboratoire de Physique de l'ENS Lyon",
+          "institution_ids": [
+            "https://openalex.org/I113428412",
+            "https://openalex.org/I4210096929"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5101823619",
+        "display_name": "Paulo Gonçalvès",
+        "orcid": "https://orcid.org/0000-0002-1781-6159"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210144566",
+          "display_name": "Laboratoire de l'Informatique du Parallélisme",
+          "ror": "https://ror.org/04msnz457",
+          "country_code": "FR",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I100532134",
+            "https://openalex.org/I113428412",
+            "https://openalex.org/I1294671590",
+            "https://openalex.org/I1326498283",
+            "https://openalex.org/I203339264",
+            "https://openalex.org/I4210144566"
+          ]
+        }
+      ],
+      "countries": [
+        "FR"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Paulo Gonçalvès",
+      "raw_affiliation_strings": [
+        "Laboratoire de l'Informatique du Parallélisme"
+      ],
+      "raw_orcid": "https://orcid.org/0000-0002-1781-6159",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Laboratoire de l'Informatique du Parallélisme",
+          "institution_ids": [
+            "https://openalex.org/I4210144566"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 47.9261,
+  "has_fulltext": false,
+  "cited_by_count": 1329,
+  "citation_normalized_percentile": {
+    "value": 0.99897576,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 99,
+    "max": 100
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10220",
+    "display_name": "Machine Fault Diagnosis Techniques",
+    "score": 0.9991999864578247,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2207",
+      "display_name": "Control and Systems Engineering"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10220",
+      "display_name": "Machine Fault Diagnosis Techniques",
+      "score": 0.9991999864578247,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11447",
+      "display_name": "Blind Source Separation Techniques",
+      "score": 0.9848999977111816,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1711",
+        "display_name": "Signal Processing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12419",
+      "display_name": "Phonocardiography and Auscultation Techniques",
+      "score": 0.9764999747276306,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2740",
+        "display_name": "Pulmonary and Respiratory Medicine"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/27",
+        "display_name": "Medicine"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/4",
+        "display_name": "Health Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/hilbert–huang-transform",
+      "display_name": "Hilbert–Huang transform",
+      "score": 0.8149402737617493
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.6739702224731445
+    },
+    {
+      "id": "https://openalex.org/keywords/decomposition",
+      "display_name": "Decomposition",
+      "score": 0.5913990139961243
+    },
+    {
+      "id": "https://openalex.org/keywords/filter",
+      "display_name": "Filter (signal processing)",
+      "score": 0.5865406394004822
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.5733084678649902
+    },
+    {
+      "id": "https://openalex.org/keywords/mode",
+      "display_name": "Mode (computer interface)",
+      "score": 0.5413612723350525
+    },
+    {
+      "id": "https://openalex.org/keywords/adaptive-filter",
+      "display_name": "Adaptive filter",
+      "score": 0.5031463503837585
+    },
+    {
+      "id": "https://openalex.org/keywords/interpretation",
+      "display_name": "Interpretation (philosophy)",
+      "score": 0.4445478320121765
+    },
+    {
+      "id": "https://openalex.org/keywords/identification",
+      "display_name": "Identification (biology)",
+      "score": 0.4415878653526306
+    },
+    {
+      "id": "https://openalex.org/keywords/constant",
+      "display_name": "Constant (computer programming)",
+      "score": 0.4394459128379822
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C25570617",
+      "wikidata": "https://www.wikidata.org/wiki/Q1006462",
+      "display_name": "Hilbert–Huang transform",
+      "level": 3,
+      "score": 0.8149402737617493
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.6739702224731445
+    },
+    {
+      "id": "https://openalex.org/C124681953",
+      "wikidata": "https://www.wikidata.org/wiki/Q339062",
+      "display_name": "Decomposition",
+      "level": 2,
+      "score": 0.5913990139961243
+    },
+    {
+      "id": "https://openalex.org/C106131492",
+      "wikidata": "https://www.wikidata.org/wiki/Q3072260",
+      "display_name": "Filter (signal processing)",
+      "level": 2,
+      "score": 0.5865406394004822
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.5733084678649902
+    },
+    {
+      "id": "https://openalex.org/C48677424",
+      "wikidata": "https://www.wikidata.org/wiki/Q6888088",
+      "display_name": "Mode (computer interface)",
+      "level": 2,
+      "score": 0.5413612723350525
+    },
+    {
+      "id": "https://openalex.org/C102248274",
+      "wikidata": "https://www.wikidata.org/wiki/Q168388",
+      "display_name": "Adaptive filter",
+      "level": 2,
+      "score": 0.5031463503837585
+    },
+    {
+      "id": "https://openalex.org/C527412718",
+      "wikidata": "https://www.wikidata.org/wiki/Q855395",
+      "display_name": "Interpretation (philosophy)",
+      "level": 2,
+      "score": 0.4445478320121765
+    },
+    {
+      "id": "https://openalex.org/C116834253",
+      "wikidata": "https://www.wikidata.org/wiki/Q2039217",
+      "display_name": "Identification (biology)",
+      "level": 2,
+      "score": 0.4415878653526306
+    },
+    {
+      "id": "https://openalex.org/C2777027219",
+      "wikidata": "https://www.wikidata.org/wiki/Q1284190",
+      "display_name": "Constant (computer programming)",
+      "level": 2,
+      "score": 0.4394459128379822
+    },
+    {
+      "id": "https://openalex.org/C111919701",
+      "wikidata": "https://www.wikidata.org/wiki/Q9135",
+      "display_name": "Operating system",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C18903297",
+      "wikidata": "https://www.wikidata.org/wiki/Q7150",
+      "display_name": "Ecology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C31972630",
+      "wikidata": "https://www.wikidata.org/wiki/Q844240",
+      "display_name": "Computer vision",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C59822182",
+      "wikidata": "https://www.wikidata.org/wiki/Q441",
+      "display_name": "Botany",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C199360897",
+      "wikidata": "https://www.wikidata.org/wiki/Q9143",
+      "display_name": "Programming language",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 4,
+  "locations": [
+    {
+      "id": "pmh:oai:CiteSeerX.psu:10.1.1.585.9362",
+      "is_oa": false,
+      "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.585.9362",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "http://perso.ens-lyon.fr/paulo.goncalves/pub/emd-eurasip03.pdf",
+      "raw_type": "text"
+    },
+    {
+      "id": "pmh:oai:CiteSeerX.psu:10.1.1.586.812",
+      "is_oa": false,
+      "landing_page_url": "http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.586.812",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "http://perso.ens-lyon.fr/patrick.flandrin/NSIP03.pdf",
+      "raw_type": "text"
+    },
+    {
+      "id": "pmh:oai:HAL:inria-00570628v1",
+      "is_oa": true,
+      "landing_page_url": "https://inria.hal.science/inria-00570628",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402512",
+        "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I1294671590",
+        "host_organization_name": "Centre National de la Recherche Scientifique",
+        "host_organization_lineage": [
+          "https://openalex.org/I1294671590"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": "cc-by",
+      "license_id": "https://openalex.org/licenses/cc-by",
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "IEEE-EURASIP Workshop on Nonlinear Signal and Image Processing NSIP-03, Jun 2003, Grado, Italy",
+      "raw_type": "info:eu-repo/semantics/conferenceObject"
+    },
+    {
+      "id": "mag:163612977",
+      "is_oa": false,
+      "landing_page_url": "https://hal.archives-ouvertes.fr/inria-00570628",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": null,
+      "is_accepted": false,
+      "is_published": null,
+      "raw_source_name": null,
+      "raw_type": null
+    }
+  ],
+  "best_oa_location": {
+    "id": "pmh:oai:HAL:inria-00570628v1",
+    "is_oa": true,
+    "landing_page_url": "https://inria.hal.science/inria-00570628",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306402512",
+      "display_name": "HAL (Le Centre pour la Communication Scientifique Directe)",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": "https://openalex.org/I1294671590",
+      "host_organization_name": "Centre National de la Recherche Scientifique",
+      "host_organization_lineage": [
+        "https://openalex.org/I1294671590"
+      ],
+      "host_organization_lineage_names": [],
+      "type": "repository"
+    },
+    "license": "cc-by",
+    "license_id": "https://openalex.org/licenses/cc-by",
+    "version": "submittedVersion",
+    "is_accepted": false,
+    "is_published": false,
+    "raw_source_name": "IEEE-EURASIP Workshop on Nonlinear Signal and Image Processing NSIP-03, Jun 2003, Grado, Italy",
+    "raw_type": "info:eu-repo/semantics/conferenceObject"
+  },
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 7,
+  "referenced_works": [
+    "https://openalex.org/W41116671",
+    "https://openalex.org/W413682001",
+    "https://openalex.org/W1598517949",
+    "https://openalex.org/W2007221293",
+    "https://openalex.org/W2074415591",
+    "https://openalex.org/W2098395403",
+    "https://openalex.org/W2160097539"
+  ],
+  "related_works": [
+    "https://openalex.org/W397076878",
+    "https://openalex.org/W3151807103",
+    "https://openalex.org/W2165761444",
+    "https://openalex.org/W2160097539",
+    "https://openalex.org/W2138402108",
+    "https://openalex.org/W2134249575",
+    "https://openalex.org/W2132085292",
+    "https://openalex.org/W2125056386",
+    "https://openalex.org/W2123563890",
+    "https://openalex.org/W2120390927",
+    "https://openalex.org/W2106665847",
+    "https://openalex.org/W2098395403",
+    "https://openalex.org/W2088202114",
+    "https://openalex.org/W2077664060",
+    "https://openalex.org/W2028497691",
+    "https://openalex.org/W2015544881",
+    "https://openalex.org/W2007221293",
+    "https://openalex.org/W1986831525",
+    "https://openalex.org/W1976836781",
+    "https://openalex.org/W1482474999"
+  ],
+  "abstract_inverted_index": {
+    "Huang’s": [
+      0
+    ],
+    "data-driven": [
+      1
+    ],
+    "technique": [
+      2
+    ],
+    "of": [
+      3,
+      21,
+      32,
+      58,
+      63
+    ],
+    "Empirical": [
+      4
+    ],
+    "Mode": [
+      5
+    ],
+    "Decomposition": [
+      6
+    ],
+    "(EMD)": [
+      7
+    ],
+    "is": [
+      8
+    ],
+    "presented,": [
+      9
+    ],
+    "and": [
+      10,
+      28,
+      50
+    ],
+    "issues": [
+      11
+    ],
+    "re-lated": [
+      12
+    ],
+    "to": [
+      13,
+      47
+    ],
+    "its": [
+      14
+    ],
+    "effective": [
+      15
+    ],
+    "implementation": [
+      16
+    ],
+    "are": [
+      17,
+      35,
+      39
+    ],
+    "discussed.": [
+      18
+    ],
+    "A": [
+      19
+    ],
+    "number": [
+      20
+    ],
+    "algorithmic": [
+      22
+    ],
+    "variations,": [
+      23
+    ],
+    "including": [
+      24
+    ],
+    "new": [
+      25
+    ],
+    "stopping": [
+      26
+    ],
+    "criteria": [
+      27
+    ],
+    "an": [
+      29,
+      56
+    ],
+    "on-line": [
+      30
+    ],
+    "version": [
+      31
+    ],
+    "the": [
+      33,
+      59
+    ],
+    "al-gorithm,": [
+      34
+    ],
+    "proposed.": [
+      36
+    ],
+    "Numerical": [
+      37
+    ],
+    "simulations": [
+      38
+    ],
+    "used": [
+      40
+    ],
+    "for": [
+      41
+    ],
+    "empirically": [
+      42
+    ],
+    "assessing": [
+      43
+    ],
+    "performance": [
+      44
+    ],
+    "elements": [
+      45
+    ],
+    "related": [
+      46
+    ],
+    "tone": [
+      48
+    ],
+    "identification": [
+      49
+    ],
+    "separation.": [
+      51
+    ],
+    "The": [
+      52
+    ],
+    "obtained": [
+      53
+    ],
+    "results": [
+      54
+    ],
+    "support": [
+      55
+    ],
+    "interpretation": [
+      57
+    ],
+    "method": [
+      60
+    ],
+    "in": [
+      61
+    ],
+    "terms": [
+      62
+    ],
+    "adaptive": [
+      64
+    ],
+    "constant-Q": [
+      65
+    ],
+    "filter": [
+      66
+    ],
+    "banks.": [
+      67
+    ],
+    "1": [
+      68
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 18
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 19
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 41
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 32
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 63
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 63
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 62
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 67
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 86
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 82
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 93
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 96
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 104
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 81
+    }
+  ],
+  "updated_date": "2026-09-21T07:43:02.447757",
+  "created_date": "2025-10-10T00:00:00"
+}

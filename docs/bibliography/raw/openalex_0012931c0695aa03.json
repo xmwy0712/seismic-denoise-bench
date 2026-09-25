@@ -1,0 +1,724 @@
+{
+  "id": "https://openalex.org/W1800900641",
+  "doi": "https://doi.org/10.1016/j.ijggc.2015.06.002",
+  "title": "Developments in public communications on CCS",
+  "display_name": "Developments in public communications on CCS",
+  "publication_year": 2015,
+  "publication_date": "2015-07-22",
+  "ids": {
+    "openalex": "https://openalex.org/W1800900641",
+    "doi": "https://doi.org/10.1016/j.ijggc.2015.06.002",
+    "mag": "1800900641"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/j.ijggc.2015.06.002",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.ijggc.2015.06.002",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S21262371",
+      "display_name": "International journal of greenhouse gas control",
+      "issn_l": "1750-5836",
+      "issn": [
+        "1750-5836",
+        "1878-0148"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-2",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "public-domain",
+    "license_id": "https://openalex.org/licenses/public-domain",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "International Journal of Greenhouse Gas Control",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5086503053",
+        "display_name": "Peta Ashworth",
+        "orcid": "https://orcid.org/0000-0003-4648-7531",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-4648-7531"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I165143802",
+          "display_name": "The University of Queensland",
+          "ror": "https://ror.org/00rqy9422",
+          "country_code": "AU",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I165143802"
+          ]
+        }
+      ],
+      "countries": [
+        "AU"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Peta Ashworth",
+      "raw_affiliation_strings": [
+        "University of Queensland, St Lucia 4072, Australia",
+        "University of Queensland , St. Lucia, 4072, Australia"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "University of Queensland, St Lucia 4072, Australia",
+          "institution_ids": [
+            "https://openalex.org/I165143802"
+          ]
+        },
+        {
+          "raw_affiliation_string": "University of Queensland , St. Lucia, 4072, Australia",
+          "institution_ids": [
+            "https://openalex.org/I165143802"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5047778588",
+        "display_name": "Sarah Wade",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Sarah Wade",
+      "raw_affiliation_strings": [
+        "Wade LLC, Washington DC, USA"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Wade LLC, Washington DC, USA",
+          "institution_ids": []
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5085217342",
+        "display_name": "David M. Reiner",
+        "orcid": "https://orcid.org/0000-0003-2004-8696",
+        "observed_orcids": [
+          "https://orcid.org/0000-0003-2004-8696"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I241749",
+          "display_name": "University of Cambridge",
+          "ror": "https://ror.org/013meh722",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I241749"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "David Reiner",
+      "raw_affiliation_strings": [
+        "Judge Business School, University of Cambridge, Cambridge CB2 1AG, UK",
+        "Judge Business School, University of Cambridge Cambridge CB2 1AG, UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Judge Business School, University of Cambridge, Cambridge CB2 1AG, UK",
+          "institution_ids": [
+            "https://openalex.org/I241749"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Judge Business School, University of Cambridge Cambridge CB2 1AG, UK",
+          "institution_ids": [
+            "https://openalex.org/I241749"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5054879966",
+        "display_name": "Xi Liang",
+        "orcid": "https://orcid.org/0000-0002-0674-2246",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-0674-2246"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98677209",
+          "display_name": "University of Edinburgh",
+          "ror": "https://ror.org/01nrxwf90",
+          "country_code": "GB",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ],
+      "countries": [
+        "GB"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Xi Liang",
+      "raw_affiliation_strings": [
+        "Business School, University of Edinburgh, Edinburgh EH8 9JS, UK",
+        "Business School University of Edinburgh Edinburgh EH8 9JS UK"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Business School, University of Edinburgh, Edinburgh EH8 9JS, UK",
+          "institution_ids": [
+            "https://openalex.org/I98677209"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Business School University of Edinburgh Edinburgh EH8 9JS UK",
+          "institution_ids": [
+            "https://openalex.org/I98677209"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5086503053"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I165143802"
+  ],
+  "apc_list": {
+    "value": 4100,
+    "currency": "USD",
+    "value_usd": 4100
+  },
+  "apc_paid": null,
+  "fwci": 24.1367,
+  "has_fulltext": false,
+  "cited_by_count": 106,
+  "citation_normalized_percentile": {
+    "value": 0.99281506,
+    "is_in_top_1_percent": true,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 94,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "40",
+    "issue": null,
+    "first_page": "449",
+    "last_page": "458"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T12503",
+    "display_name": "Social Acceptance of Renewable Energy",
+    "score": 0.9987000226974487,
+    "subfield": {
+      "id": "https://openalex.org/subfields/3312",
+      "display_name": "Sociology and Political Science"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/33",
+      "display_name": "Social Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/2",
+      "display_name": "Social Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T12503",
+      "display_name": "Social Acceptance of Renewable Energy",
+      "score": 0.9987000226974487,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11488",
+      "display_name": "Climate Change Communication and Perception",
+      "score": 0.9980999827384949,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3312",
+        "display_name": "Sociology and Political Science"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10119",
+      "display_name": "Sustainability and Climate Change Governance",
+      "score": 0.9599999785423279,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2306",
+        "display_name": "Global and Planetary Change"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/23",
+        "display_name": "Environmental Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/work",
+      "display_name": "Work (physics)",
+      "score": 0.663349986076355
+    },
+    {
+      "id": "https://openalex.org/keywords/context",
+      "display_name": "Context (archaeology)",
+      "score": 0.650444507598877
+    },
+    {
+      "id": "https://openalex.org/keywords/political-science",
+      "display_name": "Political science",
+      "score": 0.4883987307548523
+    },
+    {
+      "id": "https://openalex.org/keywords/climate-change",
+      "display_name": "Climate change",
+      "score": 0.4856775999069214
+    },
+    {
+      "id": "https://openalex.org/keywords/environmental-planning",
+      "display_name": "Environmental planning",
+      "score": 0.4643422067165375
+    },
+    {
+      "id": "https://openalex.org/keywords/public-domain",
+      "display_name": "Public domain",
+      "score": 0.45683687925338745
+    },
+    {
+      "id": "https://openalex.org/keywords/public-relations",
+      "display_name": "Public relations",
+      "score": 0.45343533158302307
+    },
+    {
+      "id": "https://openalex.org/keywords/public-engagement",
+      "display_name": "Public engagement",
+      "score": 0.43514636158943176
+    },
+    {
+      "id": "https://openalex.org/keywords/environmental-resource-management",
+      "display_name": "Environmental resource management",
+      "score": 0.39407411217689514
+    },
+    {
+      "id": "https://openalex.org/keywords/engineering",
+      "display_name": "Engineering",
+      "score": 0.3422148823738098
+    },
+    {
+      "id": "https://openalex.org/keywords/business",
+      "display_name": "Business",
+      "score": 0.3293266296386719
+    },
+    {
+      "id": "https://openalex.org/keywords/environmental-science",
+      "display_name": "Environmental science",
+      "score": 0.24514856934547424
+    },
+    {
+      "id": "https://openalex.org/keywords/geography",
+      "display_name": "Geography",
+      "score": 0.239464670419693
+    },
+    {
+      "id": "https://openalex.org/keywords/ecology",
+      "display_name": "Ecology",
+      "score": 0.13983675837516785
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C18762648",
+      "wikidata": "https://www.wikidata.org/wiki/Q42213",
+      "display_name": "Work (physics)",
+      "level": 2,
+      "score": 0.663349986076355
+    },
+    {
+      "id": "https://openalex.org/C2779343474",
+      "wikidata": "https://www.wikidata.org/wiki/Q3109175",
+      "display_name": "Context (archaeology)",
+      "level": 2,
+      "score": 0.650444507598877
+    },
+    {
+      "id": "https://openalex.org/C17744445",
+      "wikidata": "https://www.wikidata.org/wiki/Q36442",
+      "display_name": "Political science",
+      "level": 0,
+      "score": 0.4883987307548523
+    },
+    {
+      "id": "https://openalex.org/C132651083",
+      "wikidata": "https://www.wikidata.org/wiki/Q7942",
+      "display_name": "Climate change",
+      "level": 2,
+      "score": 0.4856775999069214
+    },
+    {
+      "id": "https://openalex.org/C91375879",
+      "wikidata": "https://www.wikidata.org/wiki/Q15473274",
+      "display_name": "Environmental planning",
+      "level": 1,
+      "score": 0.4643422067165375
+    },
+    {
+      "id": "https://openalex.org/C512654426",
+      "wikidata": "https://www.wikidata.org/wiki/Q19652",
+      "display_name": "Public domain",
+      "level": 2,
+      "score": 0.45683687925338745
+    },
+    {
+      "id": "https://openalex.org/C39549134",
+      "wikidata": "https://www.wikidata.org/wiki/Q133080",
+      "display_name": "Public relations",
+      "level": 1,
+      "score": 0.45343533158302307
+    },
+    {
+      "id": "https://openalex.org/C205112559",
+      "wikidata": "https://www.wikidata.org/wiki/Q7257735",
+      "display_name": "Public engagement",
+      "level": 2,
+      "score": 0.43514636158943176
+    },
+    {
+      "id": "https://openalex.org/C107826830",
+      "wikidata": "https://www.wikidata.org/wiki/Q929380",
+      "display_name": "Environmental resource management",
+      "level": 1,
+      "score": 0.39407411217689514
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.3422148823738098
+    },
+    {
+      "id": "https://openalex.org/C144133560",
+      "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+      "display_name": "Business",
+      "level": 0,
+      "score": 0.3293266296386719
+    },
+    {
+      "id": "https://openalex.org/C39432304",
+      "wikidata": "https://www.wikidata.org/wiki/Q188847",
+      "display_name": "Environmental science",
+      "level": 0,
+      "score": 0.24514856934547424
+    },
+    {
+      "id": "https://openalex.org/C205649164",
+      "wikidata": "https://www.wikidata.org/wiki/Q1071",
+      "display_name": "Geography",
+      "level": 0,
+      "score": 0.239464670419693
+    },
+    {
+      "id": "https://openalex.org/C18903297",
+      "wikidata": "https://www.wikidata.org/wiki/Q7150",
+      "display_name": "Ecology",
+      "level": 1,
+      "score": 0.13983675837516785
+    },
+    {
+      "id": "https://openalex.org/C166957645",
+      "wikidata": "https://www.wikidata.org/wiki/Q23498",
+      "display_name": "Archaeology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C78519656",
+      "wikidata": "https://www.wikidata.org/wiki/Q101333",
+      "display_name": "Mechanical engineering",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1016/j.ijggc.2015.06.002",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.ijggc.2015.06.002",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S21262371",
+        "display_name": "International journal of greenhouse gas control",
+        "issn_l": "1750-5836",
+        "issn": [
+          "1750-5836",
+          "1878-0148"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-2",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "public-domain",
+      "license_id": "https://openalex.org/licenses/public-domain",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "International Journal of Greenhouse Gas Control",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/13",
+      "score": 0.8299999833106995,
+      "display_name": "Climate action"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 73,
+  "referenced_works": [
+    "https://openalex.org/W156345637",
+    "https://openalex.org/W609012612",
+    "https://openalex.org/W987739650",
+    "https://openalex.org/W1495364252",
+    "https://openalex.org/W1499658718",
+    "https://openalex.org/W1512790066",
+    "https://openalex.org/W1516710914",
+    "https://openalex.org/W1567852769",
+    "https://openalex.org/W1592955153",
+    "https://openalex.org/W1605123133",
+    "https://openalex.org/W1756628360",
+    "https://openalex.org/W1963784156",
+    "https://openalex.org/W1964757149",
+    "https://openalex.org/W1970684715",
+    "https://openalex.org/W1973910712",
+    "https://openalex.org/W1994462283",
+    "https://openalex.org/W1994567290",
+    "https://openalex.org/W1995920515",
+    "https://openalex.org/W2003413010",
+    "https://openalex.org/W2016684647",
+    "https://openalex.org/W2017664162",
+    "https://openalex.org/W2018521522",
+    "https://openalex.org/W2021868059",
+    "https://openalex.org/W2026183357",
+    "https://openalex.org/W2036841671",
+    "https://openalex.org/W2038836522",
+    "https://openalex.org/W2045519585",
+    "https://openalex.org/W2057644036",
+    "https://openalex.org/W2062550883",
+    "https://openalex.org/W2065618521",
+    "https://openalex.org/W2066841506",
+    "https://openalex.org/W2069023087",
+    "https://openalex.org/W2069135309",
+    "https://openalex.org/W2078386898",
+    "https://openalex.org/W2081882578",
+    "https://openalex.org/W2083579659",
+    "https://openalex.org/W2084621721",
+    "https://openalex.org/W2086852115",
+    "https://openalex.org/W2092011434",
+    "https://openalex.org/W2094281639",
+    "https://openalex.org/W2098393822",
+    "https://openalex.org/W2098478122",
+    "https://openalex.org/W2104282871",
+    "https://openalex.org/W2105302543",
+    "https://openalex.org/W2106538087",
+    "https://openalex.org/W2108435181",
+    "https://openalex.org/W2119542915",
+    "https://openalex.org/W2120700168",
+    "https://openalex.org/W2123425181",
+    "https://openalex.org/W2126416729",
+    "https://openalex.org/W2131246733",
+    "https://openalex.org/W2131853220",
+    "https://openalex.org/W2138017433",
+    "https://openalex.org/W2148682689",
+    "https://openalex.org/W2158336032",
+    "https://openalex.org/W2158958034",
+    "https://openalex.org/W2159352443",
+    "https://openalex.org/W2160939297",
+    "https://openalex.org/W2164872310",
+    "https://openalex.org/W2165150070",
+    "https://openalex.org/W2167115658",
+    "https://openalex.org/W2170331786",
+    "https://openalex.org/W2171969307",
+    "https://openalex.org/W2198528783",
+    "https://openalex.org/W2945066872",
+    "https://openalex.org/W2946247036",
+    "https://openalex.org/W3037140226",
+    "https://openalex.org/W3200306893",
+    "https://openalex.org/W6606358892",
+    "https://openalex.org/W6629853991",
+    "https://openalex.org/W6654285032",
+    "https://openalex.org/W6683131551",
+    "https://openalex.org/W7019072565"
+  ],
+  "related_works": [
+    "https://openalex.org/W2345282316",
+    "https://openalex.org/W2070248261",
+    "https://openalex.org/W147115947",
+    "https://openalex.org/W2220789231",
+    "https://openalex.org/W3125837273",
+    "https://openalex.org/W2037605929",
+    "https://openalex.org/W2490036132",
+    "https://openalex.org/W2621006370",
+    "https://openalex.org/W3125862437",
+    "https://openalex.org/W2948074202"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 12
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 16
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 11
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 10
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2026-09-24T07:57:37.273135",
+  "created_date": "2025-10-10T00:00:00"
+}

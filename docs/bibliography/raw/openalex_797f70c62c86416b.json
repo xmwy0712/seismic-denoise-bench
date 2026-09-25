@@ -1,0 +1,729 @@
+{
+  "id": "https://openalex.org/W1544388232",
+  "doi": "https://doi.org/10.1201/b16841",
+  "title": "Using R for Numerical Analysis in Science and Engineering",
+  "display_name": "Using R for Numerical Analysis in Science and Engineering",
+  "publication_year": 2014,
+  "publication_date": "2014-04-24",
+  "ids": {
+    "openalex": "https://openalex.org/W1544388232",
+    "doi": "https://doi.org/10.1201/b16841",
+    "mag": "1544388232"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1201/b16841",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1201/b16841",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": null,
+    "raw_type": "book"
+  },
+  "type": "book",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5111634041",
+        "display_name": "Victor A. Bloomfield",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": true,
+      "raw_author_name": "Victor A. Bloomfield",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5111634041"
+  ],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 6.2393,
+  "has_fulltext": false,
+  "cited_by_count": 81,
+  "citation_normalized_percentile": {
+    "value": 0.97064579,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 100
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T13398",
+    "display_name": "Data Analysis with R",
+    "score": 0.5817999839782715,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1702",
+      "display_name": "Artificial Intelligence"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T13398",
+      "display_name": "Data Analysis with R",
+      "score": 0.5817999839782715,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/science-and-engineering",
+      "display_name": "Science and engineering",
+      "score": 0.48982569575309753
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.4673369824886322
+    },
+    {
+      "id": "https://openalex.org/keywords/engineering",
+      "display_name": "Engineering",
+      "score": 0.30730950832366943
+    },
+    {
+      "id": "https://openalex.org/keywords/engineering-ethics",
+      "display_name": "Engineering ethics",
+      "score": 0.24290615320205688
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2993955422",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Science and engineering",
+      "level": 2,
+      "score": 0.48982569575309753
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.4673369824886322
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.30730950832366943
+    },
+    {
+      "id": "https://openalex.org/C55587333",
+      "wikidata": "https://www.wikidata.org/wiki/Q1133029",
+      "display_name": "Engineering ethics",
+      "level": 1,
+      "score": 0.24290615320205688
+    }
+  ],
+  "mesh": [],
+  "locations_count": 3,
+  "locations": [
+    {
+      "id": "doi:10.1201/b16841",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1201/b16841",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": null,
+      "raw_type": "book"
+    },
+    {
+      "id": "pmh:oai:aleph.bib-bvb.de:BVB01-028016931",
+      "is_oa": false,
+      "landing_page_url": "http://search.ebscohost.com/login.aspx?direct=true&db=nlebk&AN=772945&lang=de&site=ehost-live",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": null,
+      "raw_type": "text"
+    },
+    {
+      "id": "pmh:oai:cds.cern.ch:1706425",
+      "is_oa": false,
+      "landing_page_url": "http://cds.cern.ch/record/1706425",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306402195",
+        "display_name": "CERN Document Server (European Organization for Nuclear Research)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I67311998",
+        "host_organization_name": "European Organization for Nuclear Research",
+        "host_organization_lineage": [
+          "https://openalex.org/I67311998"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "submittedVersion",
+      "is_accepted": false,
+      "is_published": false,
+      "raw_source_name": "",
+      "raw_type": null
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2899084033",
+    "https://openalex.org/W2748952813",
+    "https://openalex.org/W2390279801",
+    "https://openalex.org/W2358668433",
+    "https://openalex.org/W2376932109",
+    "https://openalex.org/W2382290278",
+    "https://openalex.org/W2350741829",
+    "https://openalex.org/W2130043461",
+    "https://openalex.org/W2530322880",
+    "https://openalex.org/W1596801655"
+  ],
+  "abstract_inverted_index": {
+    "Instead": [
+      0
+    ],
+    "of": [
+      1,
+      57,
+      71,
+      79,
+      81,
+      113,
+      158
+    ],
+    "presenting": [
+      2
+    ],
+    "the": [
+      3,
+      9,
+      41,
+      55,
+      77,
+      111,
+      156,
+      175
+    ],
+    "standard": [
+      4
+    ],
+    "theoretical": [
+      5
+    ],
+    "treatments": [
+      6
+    ],
+    "that": [
+      7
+    ],
+    "underlie": [
+      8
+    ],
+    "various": [
+      10
+    ],
+    "numerical": [
+      11,
+      38,
+      66,
+      138,
+      178
+    ],
+    "methods": [
+      12,
+      67,
+      179
+    ],
+    "used": [
+      13
+    ],
+    "by": [
+      14,
+      47
+    ],
+    "scientists": [
+      15,
+      48
+    ],
+    "and": [
+      16,
+      25,
+      32,
+      49,
+      64,
+      74,
+      85,
+      94,
+      119,
+      129,
+      134,
+      141,
+      148,
+      152,
+      168,
+      182
+    ],
+    "engineers,": [
+      17
+    ],
+    "Using": [
+      18,
+      161
+    ],
+    "R": [
+      19,
+      31,
+      58,
+      162
+    ],
+    "for": [
+      20,
+      163,
+      180
+    ],
+    "Numerical": [
+      21,
+      164
+    ],
+    "Analysis": [
+      22,
+      165
+    ],
+    "in": [
+      23,
+      117,
+      166
+    ],
+    "Science": [
+      24,
+      167
+    ],
+    "Engineering": [
+      26,
+      169
+    ],
+    "shows": [
+      27,
+      101
+    ],
+    "how": [
+      28,
+      102,
+      125,
+      144
+    ],
+    "to": [
+      29,
+      36,
+      40,
+      54,
+      103,
+      109,
+      126,
+      132,
+      145,
+      174
+    ],
+    "use": [
+      30,
+      104
+    ],
+    "its": [
+      33
+    ],
+    "add-on": [
+      34
+    ],
+    "packages": [
+      35
+    ],
+    "obtain": [
+      37
+    ],
+    "solutions": [
+      39
+    ],
+    "complex": [
+      42
+    ],
+    "mathematical": [
+      43
+    ],
+    "problems": [
+      44
+    ],
+    "commonly": [
+      45
+    ],
+    "faced": [
+      46
+    ],
+    "engineers.": [
+      50
+    ],
+    "This": [
+      51
+    ],
+    "practical": [
+      52
+    ],
+    "guide": [
+      53
+    ],
+    "capabilities": [
+      56
+    ],
+    "demonstrates": [
+      59
+    ],
+    "Monte": [
+      60
+    ],
+    "Carlo,": [
+      61
+    ],
+    "stochastic,": [
+      62
+    ],
+    "deterministic,": [
+      63
+    ],
+    "other": [
+      65
+    ],
+    "through": [
+      68
+    ],
+    "an": [
+      69
+    ],
+    "abundance": [
+      70
+    ],
+    "worked": [
+      72
+    ],
+    "examples": [
+      73
+    ],
+    "code,": [
+      75
+    ],
+    "covering": [
+      76
+    ],
+    "solution": [
+      78
+    ],
+    "systems": [
+      80
+    ],
+    "linear": [
+      82,
+      133
+    ],
+    "algebraic": [
+      83
+    ],
+    "equations": [
+      84,
+      87,
+      93
+    ],
+    "nonlinear": [
+      86,
+      135
+    ],
+    "as": [
+      88,
+      90
+    ],
+    "well": [
+      89
+    ],
+    "ordinary": [
+      91
+    ],
+    "differential": [
+      92,
+      96
+    ],
+    "partial": [
+      95
+    ],
+    "equations.": [
+      97
+    ],
+    "It": [
+      98
+    ],
+    "not": [
+      99
+    ],
+    "only": [
+      100
+    ],
+    "R’s": [
+      105
+    ],
+    "powerful": [
+      106
+    ],
+    "graphic": [
+      107
+    ],
+    "tools": [
+      108
+    ],
+    "construct": [
+      110
+    ],
+    "types": [
+      112
+    ],
+    "plots": [
+      114
+    ],
+    "most": [
+      115,
+      176
+    ],
+    "useful": [
+      116,
+      177
+    ],
+    "scientific": [
+      118,
+      181
+    ],
+    "engineering": [
+      120,
+      183
+    ],
+    "work,": [
+      121
+    ],
+    "but": [
+      122
+    ],
+    "also:": [
+      123
+    ],
+    "Explains": [
+      124
+    ],
+    "statistically": [
+      127
+    ],
+    "analyze": [
+      128
+    ],
+    "fit": [
+      130
+    ],
+    "data": [
+      131,
+      184
+    ],
+    "models": [
+      136
+    ],
+    "Explores": [
+      137
+    ],
+    "differentiation,": [
+      139
+    ],
+    "integration,": [
+      140
+    ],
+    "optimization": [
+      142
+    ],
+    "Describes": [
+      143
+    ],
+    "find": [
+      146
+    ],
+    "eigenvalues": [
+      147
+    ],
+    "eigenfunctions": [
+      149
+    ],
+    "Discusses": [
+      150
+    ],
+    "interpolation": [
+      151
+    ],
+    "curve": [
+      153
+    ],
+    "fitting": [
+      154
+    ],
+    "Considers": [
+      155
+    ],
+    "analysis": [
+      157,
+      185
+    ],
+    "time": [
+      159
+    ],
+    "series": [
+      160
+    ],
+    "provides": [
+      170
+    ],
+    "a": [
+      171
+    ],
+    "solid": [
+      172
+    ],
+    "introduction": [
+      173
+    ],
+    "using": [
+      186
+    ],
+    "R.": [
+      187
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 24
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-21T07:43:02.447757",
+  "created_date": "2025-10-10T00:00:00"
+}

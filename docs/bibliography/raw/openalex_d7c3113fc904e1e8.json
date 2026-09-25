@@ -1,0 +1,1065 @@
+{
+  "id": "https://openalex.org/W1995407865",
+  "doi": "https://doi.org/10.1007/978-3-0348-9204-9_7",
+  "title": "Rock-mass Characterization Using Intrinsic and Scattering Attenuation Estimates at Frequencies from 400 to 1600 Hz",
+  "display_name": "Rock-mass Characterization Using Intrinsic and Scattering Attenuation Estimates at Frequencies from 400 to 1600 Hz",
+  "publication_year": 1996,
+  "publication_date": "1996-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1995407865",
+    "doi": "https://doi.org/10.1007/978-3-0348-9204-9_7",
+    "mag": "1995407865"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1007/978-3-0348-9204-9_7",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1007/978-3-0348-9204-9_7",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S4306462920",
+      "display_name": "Birkhäuser Basel eBooks",
+      "issn_l": null,
+      "issn": null,
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": false,
+      "listed_in": [],
+      "host_organization": null,
+      "host_organization_name": null,
+      "host_organization_lineage": [],
+      "host_organization_lineage_names": [],
+      "type": "ebook platform"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Induced Seismic Events",
+    "raw_type": "book-chapter"
+  },
+  "type": "book-chapter",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5012761103",
+        "display_name": "Andrew J. Feustel",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204722609",
+          "display_name": "Queen's University",
+          "ror": "https://ror.org/02y72wh86",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I204722609"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Andrew J. Feustel",
+      "raw_affiliation_strings": [
+        "Department of Geological Sciences, Queen’s University, Kingston, Canada, K7L 3N6",
+        "Queen's University"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Geological Sciences, Queen’s University, Kingston, Canada, K7L 3N6",
+          "institution_ids": [
+            "https://openalex.org/I204722609"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Queen's University",
+          "institution_ids": [
+            "https://openalex.org/I204722609"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5113607748",
+        "display_name": "Cezar‐Ioan Trifu",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210095921",
+          "display_name": "Canadian Apheresis Group",
+          "ror": "https://ror.org/00yk8z483",
+          "country_code": "CA",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210095921"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Cezar-Ioan Trifu",
+      "raw_affiliation_strings": [
+        "Engineering Seismology Group Canada, Kingston, Canada, K7L 2Z4",
+        "Engineering Seismology Group Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Engineering Seismology Group Canada, Kingston, Canada, K7L 2Z4",
+          "institution_ids": [
+            "https://openalex.org/I4210095921"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Engineering Seismology Group Canada",
+          "institution_ids": [
+            "https://openalex.org/I4210095921"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5110061498",
+        "display_name": "Theodore I. Urbancic",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210095921",
+          "display_name": "Canadian Apheresis Group",
+          "ror": "https://ror.org/00yk8z483",
+          "country_code": "CA",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I4210095921"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Theodore I. Urbancic",
+      "raw_affiliation_strings": [
+        "Engineering Seismology Group Canada, Kingston, Canada, K7L 2Z4",
+        "Engineering Seismology Group Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Engineering Seismology Group Canada, Kingston, Canada, K7L 2Z4",
+          "institution_ids": [
+            "https://openalex.org/I4210095921"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Engineering Seismology Group Canada",
+          "institution_ids": [
+            "https://openalex.org/I4210095921"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 1.6846,
+  "has_fulltext": false,
+  "cited_by_count": 7,
+  "citation_normalized_percentile": {
+    "value": 0.78043912,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 94
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "289",
+    "last_page": "304"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11757",
+    "display_name": "Seismic Waves and Analysis",
+    "score": 0.9998000264167786,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13018",
+      "display_name": "Seismology and Earthquake Studies",
+      "score": 0.9991000294685364,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1702",
+        "display_name": "Artificial Intelligence"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9987999796867371,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/coda",
+      "display_name": "Coda",
+      "score": 0.8114579916000366
+    },
+    {
+      "id": "https://openalex.org/keywords/attenuation",
+      "display_name": "Attenuation",
+      "score": 0.7774627208709717
+    },
+    {
+      "id": "https://openalex.org/keywords/scattering",
+      "display_name": "Scattering",
+      "score": 0.7765406966209412
+    },
+    {
+      "id": "https://openalex.org/keywords/scaling",
+      "display_name": "Scaling",
+      "score": 0.503375232219696
+    },
+    {
+      "id": "https://openalex.org/keywords/quality",
+      "display_name": "Quality (philosophy)",
+      "score": 0.48667651414871216
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.45904725790023804
+    },
+    {
+      "id": "https://openalex.org/keywords/computational-physics",
+      "display_name": "Computational physics",
+      "score": 0.45123088359832764
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.4432207942008972
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.4378040134906769
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.3701402544975281
+    },
+    {
+      "id": "https://openalex.org/keywords/acoustics",
+      "display_name": "Acoustics",
+      "score": 0.32312411069869995
+    },
+    {
+      "id": "https://openalex.org/keywords/geometry",
+      "display_name": "Geometry",
+      "score": 0.20465639233589172
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.1582387387752533
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C3962253",
+      "wikidata": "https://www.wikidata.org/wiki/Q852466",
+      "display_name": "Coda",
+      "level": 2,
+      "score": 0.8114579916000366
+    },
+    {
+      "id": "https://openalex.org/C184652730",
+      "wikidata": "https://www.wikidata.org/wiki/Q2357982",
+      "display_name": "Attenuation",
+      "level": 2,
+      "score": 0.7774627208709717
+    },
+    {
+      "id": "https://openalex.org/C191486275",
+      "wikidata": "https://www.wikidata.org/wiki/Q210028",
+      "display_name": "Scattering",
+      "level": 2,
+      "score": 0.7765406966209412
+    },
+    {
+      "id": "https://openalex.org/C99844830",
+      "wikidata": "https://www.wikidata.org/wiki/Q102441924",
+      "display_name": "Scaling",
+      "level": 2,
+      "score": 0.503375232219696
+    },
+    {
+      "id": "https://openalex.org/C2779530757",
+      "wikidata": "https://www.wikidata.org/wiki/Q1207505",
+      "display_name": "Quality (philosophy)",
+      "level": 2,
+      "score": 0.48667651414871216
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.45904725790023804
+    },
+    {
+      "id": "https://openalex.org/C30475298",
+      "wikidata": "https://www.wikidata.org/wiki/Q909554",
+      "display_name": "Computational physics",
+      "level": 1,
+      "score": 0.45123088359832764
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.4432207942008972
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.4378040134906769
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.3701402544975281
+    },
+    {
+      "id": "https://openalex.org/C24890656",
+      "wikidata": "https://www.wikidata.org/wiki/Q82811",
+      "display_name": "Acoustics",
+      "level": 1,
+      "score": 0.32312411069869995
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.20465639233589172
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.1582387387752533
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1007/978-3-0348-9204-9_7",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1007/978-3-0348-9204-9_7",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S4306462920",
+        "display_name": "Birkhäuser Basel eBooks",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": null,
+        "host_organization_name": null,
+        "host_organization_lineage": [],
+        "host_organization_lineage_names": [],
+        "type": "ebook platform"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Induced Seismic Events",
+      "raw_type": "book-chapter"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 27,
+  "referenced_works": [
+    "https://openalex.org/W589302497",
+    "https://openalex.org/W643763006",
+    "https://openalex.org/W1834924344",
+    "https://openalex.org/W1974028875",
+    "https://openalex.org/W1992133087",
+    "https://openalex.org/W1994553199",
+    "https://openalex.org/W2004296849",
+    "https://openalex.org/W2007145920",
+    "https://openalex.org/W2007578942",
+    "https://openalex.org/W2016962310",
+    "https://openalex.org/W2018534478",
+    "https://openalex.org/W2021121782",
+    "https://openalex.org/W2022716782",
+    "https://openalex.org/W2023328331",
+    "https://openalex.org/W2024031334",
+    "https://openalex.org/W2025008975",
+    "https://openalex.org/W2038057648",
+    "https://openalex.org/W2049188354",
+    "https://openalex.org/W2059765942",
+    "https://openalex.org/W2084982717",
+    "https://openalex.org/W2110603984",
+    "https://openalex.org/W2146036776",
+    "https://openalex.org/W2307667365",
+    "https://openalex.org/W2347092522",
+    "https://openalex.org/W2589779579",
+    "https://openalex.org/W4233189709",
+    "https://openalex.org/W4252395531"
+  ],
+  "related_works": [
+    "https://openalex.org/W2047487744",
+    "https://openalex.org/W2101702422",
+    "https://openalex.org/W2130115884",
+    "https://openalex.org/W306191460",
+    "https://openalex.org/W159997555",
+    "https://openalex.org/W2389879838",
+    "https://openalex.org/W270592066",
+    "https://openalex.org/W2289604260",
+    "https://openalex.org/W2095055632",
+    "https://openalex.org/W2348058705"
+  ],
+  "abstract_inverted_index": {
+    "Intrinsic": [
+      0,
+      59
+    ],
+    "and": [
+      1,
+      84
+    ],
+    "scattering": [
+      2,
+      91,
+      106,
+      157
+    ],
+    "S-wave": [
+      3
+    ],
+    "quality": [
+      4,
+      74,
+      92,
+      204
+    ],
+    "factors": [
+      5
+    ],
+    "(Q": [
+      6
+    ],
+    "β": [
+      7,
+      61
+    ],
+    ")": [
+      8
+    ],
+    "were": [
+      9,
+      66,
+      134,
+      151
+    ],
+    "estimated": [
+      10
+    ],
+    "using": [
+      11,
+      81
+    ],
+    "the": [
+      12,
+      49,
+      68,
+      105,
+      113,
+      121,
+      128,
+      146,
+      154,
+      171,
+      203
+    ],
+    "Multiple": [
+      13
+    ],
+    "Lapse": [
+      14
+    ],
+    "Time": [
+      15
+    ],
+    "Window": [
+      16
+    ],
+    "Analysis": [
+      17
+    ],
+    "(MLTWA)": [
+      18
+    ],
+    "for": [
+      19,
+      159,
+      200
+    ],
+    "microseismic": [
+      20
+    ],
+    "events": [
+      21
+    ],
+    "(M": [
+      22
+    ],
+    "<": [
+      23
+    ],
+    "−1)": [
+      24
+    ],
+    "with": [
+      25,
+      34,
+      117,
+      162
+    ],
+    "source-sensor": [
+      26
+    ],
+    "distance": [
+      27
+    ],
+    "of": [
+      28,
+      70,
+      104,
+      115,
+      123,
+      205
+    ],
+    "45": [
+      29
+    ],
+    "to": [
+      30,
+      73,
+      88,
+      136,
+      140,
+      183
+    ],
+    "120": [
+      31
+    ],
+    "m,": [
+      32,
+      125
+    ],
+    "associated": [
+      33
+    ],
+    "an": [
+      35
+    ],
+    "excavation": [
+      36
+    ],
+    "at": [
+      37,
+      63,
+      94,
+      127
+    ],
+    "630": [
+      38
+    ],
+    "m": [
+      39,
+      142
+    ],
+    "depth": [
+      40
+    ],
+    "in": [
+      41,
+      78,
+      112,
+      145,
+      156,
+      187
+    ],
+    "Strathcona": [
+      42
+    ],
+    "Mine,": [
+      43
+    ],
+    "Sudbury,": [
+      44
+    ],
+    "Canada.": [
+      45
+    ],
+    "Additional": [
+      46
+    ],
+    "information": [
+      47
+    ],
+    "on": [
+      48,
+      67,
+      120
+    ],
+    "rock": [
+      50,
+      207
+    ],
+    "mass": [
+      51,
+      208
+    ],
+    "was": [
+      52,
+      97
+    ],
+    "provided": [
+      53
+    ],
+    "by": [
+      54,
+      153
+    ],
+    "underground": [
+      55
+    ],
+    "structural": [
+      56
+    ],
+    "mapping": [
+      57,
+      147
+    ],
+    "data.": [
+      58,
+      148
+    ],
+    "Q": [
+      60
+    ],
+    "values,": [
+      62
+    ],
+    "800": [
+      64
+    ],
+    "Hz,": [
+      65
+    ],
+    "order": [
+      69,
+      122
+    ],
+    "140,": [
+      71
+    ],
+    "similar": [
+      72
+    ],
+    "factor": [
+      75,
+      93
+    ],
+    "values": [
+      76
+    ],
+    "obtained": [
+      77
+    ],
+    "previous": [
+      79
+    ],
+    "studies": [
+      80
+    ],
+    "Spectral": [
+      82
+    ],
+    "Decay": [
+      83
+    ],
+    "Coda-Q": [
+      85
+    ],
+    "methods": [
+      86
+    ],
+    "(120": [
+      87
+    ],
+    "170).": [
+      89
+    ],
+    "The": [
+      90
+    ],
+    "this": [
+      95
+    ],
+    "frequency": [
+      96,
+      102
+    ],
+    "about": [
+      98
+    ],
+    "520.": [
+      99
+    ],
+    "An": [
+      100
+    ],
+    "observed": [
+      101
+    ],
+    "dependence": [
+      103
+    ],
+    "attenuation": [
+      107
+    ],
+    "suggested": [
+      108
+    ],
+    "that": [
+      109,
+      170,
+      194
+    ],
+    "a": [
+      110,
+      197,
+      206
+    ],
+    "decrease": [
+      111
+    ],
+    "density": [
+      114
+    ],
+    "scatterers,": [
+      116
+    ],
+    "scale": [
+      118,
+      132
+    ],
+    "lengths": [
+      119,
+      133
+    ],
+    "2": [
+      124
+    ],
+    "exists": [
+      126
+    ],
+    "site.": [
+      129
+    ],
+    "Characteristic": [
+      130
+    ],
+    "fracture": [
+      131
+    ],
+    "considered": [
+      135,
+      182
+    ],
+    "range": [
+      137
+    ],
+    "from": [
+      138
+    ],
+    "4": [
+      139
+    ],
+    "6": [
+      141
+    ],
+    "as": [
+      143
+    ],
+    "identified": [
+      144,
+      172
+    ],
+    "These": [
+      149
+    ],
+    "observations": [
+      150,
+      211
+    ],
+    "supported": [
+      152
+    ],
+    "increase": [
+      155,
+      184
+    ],
+    "found": [
+      158
+    ],
+    "seismic": [
+      160
+    ],
+    "waves": [
+      161
+    ],
+    "frequencies": [
+      163
+    ],
+    "less": [
+      164
+    ],
+    "than": [
+      165
+    ],
+    "1000": [
+      166
+    ],
+    "Hz.": [
+      167
+    ],
+    "By": [
+      168
+    ],
+    "assuming": [
+      169
+    ],
+    "scatters": [
+      173
+    ],
+    "are": [
+      174,
+      212
+    ],
+    "characteristic": [
+      175
+    ],
+    "faults,": [
+      176
+    ],
+    "these": [
+      177
+    ],
+    "scatterers": [
+      178
+    ],
+    "can": [
+      179
+    ],
+    "then": [
+      180
+    ],
+    "be": [
+      181
+    ],
+    "nonsimilar": [
+      185
+    ],
+    "behavior": [
+      186
+    ],
+    "source": [
+      188
+    ],
+    "scaling.": [
+      189
+    ],
+    "Overall,": [
+      190
+    ],
+    "our": [
+      191
+    ],
+    "results": [
+      192
+    ],
+    "suggest": [
+      193
+    ],
+    "MLTWA": [
+      195
+    ],
+    "provides": [
+      196
+    ],
+    "practical": [
+      198
+    ],
+    "method": [
+      199
+    ],
+    "remotely": [
+      201
+    ],
+    "characterizing": [
+      202
+    ],
+    "when": [
+      209
+    ],
+    "visual": [
+      210
+    ],
+    "not": [
+      213
+    ],
+    "attainable.": [
+      214
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,2407 @@
+{
+  "meta": {
+    "count": 2,
+    "db_response_time_ms": 15,
+    "page": 1,
+    "per_page": 10,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where it cites (W2553996021)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "referenced_works",
+            "value": "W2553996021"
+          }
+        ]
+      },
+      "url": "/works?filter=referenced_works:W2553996021&per_page=10"
+    },
+    "cost_usd": 0.0001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W2606281852",
+      "doi": "https://doi.org/10.1088/1742-2140/aa6ddf",
+      "title": "Enhancement of temporal resolution using improved time-variant spectral whitening",
+      "display_name": "Enhancement of temporal resolution using improved time-variant spectral whitening",
+      "publication_year": 2017,
+      "publication_date": "2017-04-19",
+      "ids": {
+        "openalex": "https://openalex.org/W2606281852",
+        "doi": "https://doi.org/10.1088/1742-2140/aa6ddf",
+        "mag": "2606281852"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1088/1742-2140/aa6ddf",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1088/1742-2140/aa6ddf",
+        "pdf_url": "https://academic.oup.com/jge/article-pdf/14/4/822/26788343/jge_14_4_822.pdf",
+        "source": {
+          "id": "https://openalex.org/S35316464",
+          "display_name": "Journal of Geophysics and Engineering",
+          "issn_l": "1742-2132",
+          "issn": [
+            "1742-2132",
+            "1742-2140"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "doaj",
+            "jufo-1",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310320083",
+          "host_organization_name": "IOP Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320083",
+            "https://openalex.org/P4310311669"
+          ],
+          "host_organization_lineage_names": [
+            "IOP Publishing",
+            "Institute of Physics"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Geophysics and Engineering",
+        "raw_type": "journal-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref",
+        "doaj"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "bronze",
+        "oa_url": "https://academic.oup.com/jge/article-pdf/14/4/822/26788343/jge_14_4_822.pdf",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5081748937",
+            "display_name": "Diako Hariri Naghadeh",
+            "orcid": "https://orcid.org/0000-0002-4750-3188"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I48076826",
+              "display_name": "Chiang Mai University",
+              "ror": "https://ror.org/05m2fqn25",
+              "country_code": "TH",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I48076826"
+              ]
+            }
+          ],
+          "countries": [
+            "TH"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Diako Hariri Naghadeh",
+          "raw_affiliation_strings": [
+            "Petroleum Geophysics, Department of Geological Sciences, Chiang Mai University, Chiang Mai, Thailand",
+            "Petroleum Geophysics, Department of Geological sciences, Chiang Mai University, Chiang Mai, Thailand"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Petroleum Geophysics, Department of Geological Sciences, Chiang Mai University, Chiang Mai, Thailand",
+              "institution_ids": [
+                "https://openalex.org/I48076826"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Petroleum Geophysics, Department of Geological sciences, Chiang Mai University, Chiang Mai, Thailand",
+              "institution_ids": [
+                "https://openalex.org/I48076826"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5084273448",
+            "display_name": "C.K. Morley",
+            "orcid": "https://orcid.org/0000-0002-6075-9022"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I48076826",
+              "display_name": "Chiang Mai University",
+              "ror": "https://ror.org/05m2fqn25",
+              "country_code": "TH",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I48076826"
+              ]
+            }
+          ],
+          "countries": [
+            "TH"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Christopher Keith Morley",
+          "raw_affiliation_strings": [
+            "Petroleum Geophysics, Department of Geological Sciences, Chiang Mai University, Chiang Mai, Thailand",
+            "Petroleum Geophysics, Department of Geological sciences, Chiang Mai University, Chiang Mai, Thailand"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Petroleum Geophysics, Department of Geological Sciences, Chiang Mai University, Chiang Mai, Thailand",
+              "institution_ids": [
+                "https://openalex.org/I48076826"
+              ]
+            },
+            {
+              "raw_affiliation_string": "Petroleum Geophysics, Department of Geological sciences, Chiang Mai University, Chiang Mai, Thailand",
+              "institution_ids": [
+                "https://openalex.org/I48076826"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I48076826"
+      ],
+      "apc_list": {
+        "value": 1550,
+        "currency": "USD",
+        "value_usd": 1550
+      },
+      "apc_paid": null,
+      "fwci": 0.1118,
+      "has_fulltext": false,
+      "cited_by_count": 10,
+      "citation_normalized_percentile": {
+        "value": 0.5071424,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 89,
+        "max": 98
+      },
+      "biblio": {
+        "volume": "14",
+        "issue": "4",
+        "first_page": "822",
+        "last_page": "832"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10688",
+        "display_name": "Image and Signal Denoising Methods",
+        "score": 0.9995999932289124,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1707",
+          "display_name": "Computer Vision and Pattern Recognition"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/17",
+          "display_name": "Computer Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10688",
+          "display_name": "Image and Signal Denoising Methods",
+          "score": 0.9995999932289124,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1707",
+            "display_name": "Computer Vision and Pattern Recognition"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11447",
+          "display_name": "Blind Source Separation Techniques",
+          "score": 0.9958000183105469,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1711",
+            "display_name": "Signal Processing"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11105",
+          "display_name": "Advanced Image Processing Techniques",
+          "score": 0.9955999851226807,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1707",
+            "display_name": "Computer Vision and Pattern Recognition"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/17",
+            "display_name": "Computer Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/resolution",
+          "display_name": "Resolution (logic)",
+          "score": 0.573120653629303
+        },
+        {
+          "id": "https://openalex.org/keywords/temporal-resolution",
+          "display_name": "Temporal resolution",
+          "score": 0.49172690510749817
+        },
+        {
+          "id": "https://openalex.org/keywords/computer-science",
+          "display_name": "Computer science",
+          "score": 0.432988703250885
+        },
+        {
+          "id": "https://openalex.org/keywords/spectral-analysis",
+          "display_name": "Spectral analysis",
+          "score": 0.4144590497016907
+        },
+        {
+          "id": "https://openalex.org/keywords/artificial-intelligence",
+          "display_name": "Artificial intelligence",
+          "score": 0.39124125242233276
+        },
+        {
+          "id": "https://openalex.org/keywords/geology",
+          "display_name": "Geology",
+          "score": 0.3524453043937683
+        },
+        {
+          "id": "https://openalex.org/keywords/pattern-recognition",
+          "display_name": "Pattern recognition (psychology)",
+          "score": 0.34293442964553833
+        },
+        {
+          "id": "https://openalex.org/keywords/remote-sensing",
+          "display_name": "Remote sensing",
+          "score": 0.33885225653648376
+        },
+        {
+          "id": "https://openalex.org/keywords/physics",
+          "display_name": "Physics",
+          "score": 0.13926634192466736
+        },
+        {
+          "id": "https://openalex.org/keywords/optics",
+          "display_name": "Optics",
+          "score": 0.09577849507331848
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C138268822",
+          "wikidata": "https://www.wikidata.org/wiki/Q1051925",
+          "display_name": "Resolution (logic)",
+          "level": 2,
+          "score": 0.573120653629303
+        },
+        {
+          "id": "https://openalex.org/C119666444",
+          "wikidata": "https://www.wikidata.org/wiki/Q5977280",
+          "display_name": "Temporal resolution",
+          "level": 2,
+          "score": 0.49172690510749817
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.432988703250885
+        },
+        {
+          "id": "https://openalex.org/C2983668108",
+          "wikidata": "https://www.wikidata.org/wiki/Q280453",
+          "display_name": "Spectral analysis",
+          "level": 3,
+          "score": 0.4144590497016907
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.39124125242233276
+        },
+        {
+          "id": "https://openalex.org/C127313418",
+          "wikidata": "https://www.wikidata.org/wiki/Q1069",
+          "display_name": "Geology",
+          "level": 0,
+          "score": 0.3524453043937683
+        },
+        {
+          "id": "https://openalex.org/C153180895",
+          "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+          "display_name": "Pattern recognition (psychology)",
+          "level": 2,
+          "score": 0.34293442964553833
+        },
+        {
+          "id": "https://openalex.org/C62649853",
+          "wikidata": "https://www.wikidata.org/wiki/Q199687",
+          "display_name": "Remote sensing",
+          "level": 1,
+          "score": 0.33885225653648376
+        },
+        {
+          "id": "https://openalex.org/C121332964",
+          "wikidata": "https://www.wikidata.org/wiki/Q413",
+          "display_name": "Physics",
+          "level": 0,
+          "score": 0.13926634192466736
+        },
+        {
+          "id": "https://openalex.org/C120665830",
+          "wikidata": "https://www.wikidata.org/wiki/Q14620",
+          "display_name": "Optics",
+          "level": 1,
+          "score": 0.09577849507331848
+        },
+        {
+          "id": "https://openalex.org/C32891209",
+          "wikidata": "https://www.wikidata.org/wiki/Q483666",
+          "display_name": "Spectroscopy",
+          "level": 2,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C62520636",
+          "wikidata": "https://www.wikidata.org/wiki/Q944",
+          "display_name": "Quantum mechanics",
+          "level": 1,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1088/1742-2140/aa6ddf",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1088/1742-2140/aa6ddf",
+          "pdf_url": "https://academic.oup.com/jge/article-pdf/14/4/822/26788343/jge_14_4_822.pdf",
+          "source": {
+            "id": "https://openalex.org/S35316464",
+            "display_name": "Journal of Geophysics and Engineering",
+            "issn_l": "1742-2132",
+            "issn": [
+              "1742-2132",
+              "1742-2140"
+            ],
+            "is_oa": false,
+            "is_in_doaj": true,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "doaj",
+              "jufo-1",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310320083",
+            "host_organization_name": "IOP Publishing",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320083",
+              "https://openalex.org/P4310311669"
+            ],
+            "host_organization_lineage_names": [
+              "IOP Publishing",
+              "Institute of Physics"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of Geophysics and Engineering",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.1088/1742-2140/aa6ddf",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1088/1742-2140/aa6ddf",
+        "pdf_url": "https://academic.oup.com/jge/article-pdf/14/4/822/26788343/jge_14_4_822.pdf",
+        "source": {
+          "id": "https://openalex.org/S35316464",
+          "display_name": "Journal of Geophysics and Engineering",
+          "issn_l": "1742-2132",
+          "issn": [
+            "1742-2132",
+            "1742-2140"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "doaj",
+            "jufo-1",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310320083",
+          "host_organization_name": "IOP Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320083",
+            "https://openalex.org/P4310311669"
+          ],
+          "host_organization_lineage_names": [
+            "IOP Publishing",
+            "Institute of Physics"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Geophysics and Engineering",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [
+        {
+          "score": 0.4699999988079071,
+          "id": "https://metadata.un.org/sdg/13",
+          "display_name": "Climate action"
+        }
+      ],
+      "x_sdgs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": true,
+        "grobid_xml": false
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W2606281852.pdf"
+      },
+      "referenced_works_count": 28,
+      "referenced_works": [
+        "https://openalex.org/W1980811494",
+        "https://openalex.org/W1984235980",
+        "https://openalex.org/W1987836090",
+        "https://openalex.org/W2007686958",
+        "https://openalex.org/W2014577948",
+        "https://openalex.org/W2030400978",
+        "https://openalex.org/W2037733922",
+        "https://openalex.org/W2044292076",
+        "https://openalex.org/W2050847261",
+        "https://openalex.org/W2074371496",
+        "https://openalex.org/W2087054292",
+        "https://openalex.org/W2099885111",
+        "https://openalex.org/W2105536862",
+        "https://openalex.org/W2112072801",
+        "https://openalex.org/W2113920449",
+        "https://openalex.org/W2122373419",
+        "https://openalex.org/W2136085645",
+        "https://openalex.org/W2139182202",
+        "https://openalex.org/W2143504795",
+        "https://openalex.org/W2148026557",
+        "https://openalex.org/W2296464123",
+        "https://openalex.org/W2338893532",
+        "https://openalex.org/W2527970382",
+        "https://openalex.org/W2553996021",
+        "https://openalex.org/W2560653596",
+        "https://openalex.org/W2602049933",
+        "https://openalex.org/W2923931914",
+        "https://openalex.org/W4230300591"
+      ],
+      "related_works": [
+        "https://openalex.org/W2033914206",
+        "https://openalex.org/W2146076056",
+        "https://openalex.org/W2163831990",
+        "https://openalex.org/W3003836766",
+        "https://openalex.org/W2046077695",
+        "https://openalex.org/W2378160586",
+        "https://openalex.org/W2042327336",
+        "https://openalex.org/W2996038082",
+        "https://openalex.org/W3047965787",
+        "https://openalex.org/W3184582087"
+      ],
+      "abstract_inverted_index": null,
+      "counts_by_year": [
+        {
+          "year": 2026,
+          "cited_by_count": 2
+        },
+        {
+          "year": 2025,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2024,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2023,
+          "cited_by_count": 3
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-06-18T08:10:14.011955",
+      "created_date": "2025-10-10T00:00:00"
+    },
+    {
+      "id": "https://openalex.org/W2748535441",
+      "doi": "https://doi.org/10.1088/1742-2140/aa8710",
+      "title": "Stochastic Gabor reflectivity and acoustic impedance inversion",
+      "display_name": "Stochastic Gabor reflectivity and acoustic impedance inversion",
+      "publication_year": 2017,
+      "publication_date": "2017-08-18",
+      "ids": {
+        "openalex": "https://openalex.org/W2748535441",
+        "doi": "https://doi.org/10.1088/1742-2140/aa8710",
+        "mag": "2748535441"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1088/1742-2140/aa8710",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1088/1742-2140/aa8710",
+        "pdf_url": "https://academic.oup.com/jge/article-pdf/15/1/179/26789535/jge_15_1_179.pdf",
+        "source": {
+          "id": "https://openalex.org/S35316464",
+          "display_name": "Journal of Geophysics and Engineering",
+          "issn_l": "1742-2132",
+          "issn": [
+            "1742-2132",
+            "1742-2140"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "doaj",
+            "jufo-1",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310320083",
+          "host_organization_name": "IOP Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320083",
+            "https://openalex.org/P4310311669"
+          ],
+          "host_organization_lineage_names": [
+            "IOP Publishing",
+            "Institute of Physics"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Geophysics and Engineering",
+        "raw_type": "journal-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref",
+        "doaj"
+      ],
+      "open_access": {
+        "is_oa": true,
+        "oa_status": "bronze",
+        "oa_url": "https://academic.oup.com/jge/article-pdf/15/1/179/26789535/jge_15_1_179.pdf",
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5081748937",
+            "display_name": "Diako Hariri Naghadeh",
+            "orcid": "https://orcid.org/0000-0002-4750-3188"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I48076826",
+              "display_name": "Chiang Mai University",
+              "ror": "https://ror.org/05m2fqn25",
+              "country_code": "TH",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I48076826"
+              ]
+            }
+          ],
+          "countries": [
+            "TH"
+          ],
+          "is_corresponding": true,
+          "raw_author_name": "Diako Hariri Naghadeh",
+          "raw_affiliation_strings": [
+            "Petroleum Geophysics, Department of Geological Sciences, Chiang Mai University, Chiang Mai, Thailand"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Petroleum Geophysics, Department of Geological Sciences, Chiang Mai University, Chiang Mai, Thailand",
+              "institution_ids": [
+                "https://openalex.org/I48076826"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5084273448",
+            "display_name": "C.K. Morley",
+            "orcid": "https://orcid.org/0000-0002-6075-9022"
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I48076826",
+              "display_name": "Chiang Mai University",
+              "ror": "https://ror.org/05m2fqn25",
+              "country_code": "TH",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I48076826"
+              ]
+            }
+          ],
+          "countries": [
+            "TH"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Christopher Keith Morley",
+          "raw_affiliation_strings": [
+            "Petroleum Geophysics, Department of Geological Sciences, Chiang Mai University, Chiang Mai, Thailand"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Petroleum Geophysics, Department of Geological Sciences, Chiang Mai University, Chiang Mai, Thailand",
+              "institution_ids": [
+                "https://openalex.org/I48076826"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": null,
+            "display_name": "Angus John Ferguson",
+            "orcid": null
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I158708052",
+              "display_name": "Chulalongkorn University",
+              "ror": "https://ror.org/028wp3y58",
+              "country_code": "TH",
+              "type": "education",
+              "lineage": [
+                "https://openalex.org/I158708052"
+              ]
+            }
+          ],
+          "countries": [
+            "TH"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Angus John Ferguson",
+          "raw_affiliation_strings": [
+            "Petroleum Geoscience, Department of Geological Sciences, Chulalongkorn University, Bangkok, Thailand"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Petroleum Geoscience, Department of Geological Sciences, Chulalongkorn University, Bangkok, Thailand",
+              "institution_ids": [
+                "https://openalex.org/I158708052"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 2,
+      "corresponding_author_ids": [
+        "https://openalex.org/A5081748937"
+      ],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I48076826"
+      ],
+      "apc_list": {
+        "value": 1550,
+        "currency": "USD",
+        "value_usd": 1550
+      },
+      "apc_paid": null,
+      "fwci": 0.1862,
+      "has_fulltext": true,
+      "cited_by_count": 2,
+      "citation_normalized_percentile": {
+        "value": 0.52135443,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": {
+        "min": 88,
+        "max": 94
+      },
+      "biblio": {
+        "volume": "15",
+        "issue": "1",
+        "first_page": "179",
+        "last_page": "191"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T10271",
+        "display_name": "Seismic Imaging and Inversion Techniques",
+        "score": 0.9998000264167786,
+        "subfield": {
+          "id": "https://openalex.org/subfields/1908",
+          "display_name": "Geophysics"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/19",
+          "display_name": "Earth and Planetary Sciences"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T10271",
+          "display_name": "Seismic Imaging and Inversion Techniques",
+          "score": 0.9998000264167786,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11757",
+          "display_name": "Seismic Waves and Analysis",
+          "score": 0.9980000257492065,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10892",
+          "display_name": "Drilling and Well Engineering",
+          "score": 0.9973999857902527,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2212",
+            "display_name": "Ocean Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/22",
+            "display_name": "Engineering"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/seismic-inversion",
+          "display_name": "Seismic inversion",
+          "score": 0.7415762543678284
+        },
+        {
+          "id": "https://openalex.org/keywords/deconvolution",
+          "display_name": "Deconvolution",
+          "score": 0.7253878116607666
+        },
+        {
+          "id": "https://openalex.org/keywords/inversion",
+          "display_name": "Inversion (geology)",
+          "score": 0.6680970191955566
+        },
+        {
+          "id": "https://openalex.org/keywords/seismic-trace",
+          "display_name": "Seismic trace",
+          "score": 0.573504626750946
+        },
+        {
+          "id": "https://openalex.org/keywords/wavelet",
+          "display_name": "Wavelet",
+          "score": 0.545734703540802
+        },
+        {
+          "id": "https://openalex.org/keywords/synthetic-seismogram",
+          "display_name": "Synthetic seismogram",
+          "score": 0.5364559292793274
+        },
+        {
+          "id": "https://openalex.org/keywords/amplitude",
+          "display_name": "Amplitude",
+          "score": 0.5194846391677856
+        },
+        {
+          "id": "https://openalex.org/keywords/geology",
+          "display_name": "Geology",
+          "score": 0.4784117639064789
+        },
+        {
+          "id": "https://openalex.org/keywords/reflection",
+          "display_name": "Reflection (computer programming)",
+          "score": 0.4651084542274475
+        },
+        {
+          "id": "https://openalex.org/keywords/instantaneous-phase",
+          "display_name": "Instantaneous phase",
+          "score": 0.4609087109565735
+        },
+        {
+          "id": "https://openalex.org/keywords/acoustic-impedance",
+          "display_name": "Acoustic impedance",
+          "score": 0.417125403881073
+        },
+        {
+          "id": "https://openalex.org/keywords/algorithm",
+          "display_name": "Algorithm",
+          "score": 0.4146631956100464
+        },
+        {
+          "id": "https://openalex.org/keywords/computer-science",
+          "display_name": "Computer science",
+          "score": 0.37029391527175903
+        },
+        {
+          "id": "https://openalex.org/keywords/acoustics",
+          "display_name": "Acoustics",
+          "score": 0.3647855520248413
+        },
+        {
+          "id": "https://openalex.org/keywords/mathematics",
+          "display_name": "Mathematics",
+          "score": 0.31062352657318115
+        },
+        {
+          "id": "https://openalex.org/keywords/seismology",
+          "display_name": "Seismology",
+          "score": 0.28261151909828186
+        },
+        {
+          "id": "https://openalex.org/keywords/optics",
+          "display_name": "Optics",
+          "score": 0.23045110702514648
+        },
+        {
+          "id": "https://openalex.org/keywords/artificial-intelligence",
+          "display_name": "Artificial intelligence",
+          "score": 0.14632582664489746
+        },
+        {
+          "id": "https://openalex.org/keywords/azimuth",
+          "display_name": "Azimuth",
+          "score": 0.1232297420501709
+        },
+        {
+          "id": "https://openalex.org/keywords/telecommunications",
+          "display_name": "Telecommunications",
+          "score": 0.11776342988014221
+        },
+        {
+          "id": "https://openalex.org/keywords/geometry",
+          "display_name": "Geometry",
+          "score": 0.10993561148643494
+        },
+        {
+          "id": "https://openalex.org/keywords/physics",
+          "display_name": "Physics",
+          "score": 0.10923153162002563
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C39267094",
+          "wikidata": "https://www.wikidata.org/wiki/Q7446968",
+          "display_name": "Seismic inversion",
+          "level": 3,
+          "score": 0.7415762543678284
+        },
+        {
+          "id": "https://openalex.org/C174576160",
+          "wikidata": "https://www.wikidata.org/wiki/Q1183700",
+          "display_name": "Deconvolution",
+          "level": 2,
+          "score": 0.7253878116607666
+        },
+        {
+          "id": "https://openalex.org/C1893757",
+          "wikidata": "https://www.wikidata.org/wiki/Q3653001",
+          "display_name": "Inversion (geology)",
+          "level": 3,
+          "score": 0.6680970191955566
+        },
+        {
+          "id": "https://openalex.org/C25227454",
+          "wikidata": "https://www.wikidata.org/wiki/Q7446975",
+          "display_name": "Seismic trace",
+          "level": 3,
+          "score": 0.573504626750946
+        },
+        {
+          "id": "https://openalex.org/C47432892",
+          "wikidata": "https://www.wikidata.org/wiki/Q831390",
+          "display_name": "Wavelet",
+          "level": 2,
+          "score": 0.545734703540802
+        },
+        {
+          "id": "https://openalex.org/C137219930",
+          "wikidata": "https://www.wikidata.org/wiki/Q7662785",
+          "display_name": "Synthetic seismogram",
+          "level": 2,
+          "score": 0.5364559292793274
+        },
+        {
+          "id": "https://openalex.org/C180205008",
+          "wikidata": "https://www.wikidata.org/wiki/Q159190",
+          "display_name": "Amplitude",
+          "level": 2,
+          "score": 0.5194846391677856
+        },
+        {
+          "id": "https://openalex.org/C127313418",
+          "wikidata": "https://www.wikidata.org/wiki/Q1069",
+          "display_name": "Geology",
+          "level": 0,
+          "score": 0.4784117639064789
+        },
+        {
+          "id": "https://openalex.org/C65682993",
+          "wikidata": "https://www.wikidata.org/wiki/Q1056451",
+          "display_name": "Reflection (computer programming)",
+          "level": 2,
+          "score": 0.4651084542274475
+        },
+        {
+          "id": "https://openalex.org/C137798554",
+          "wikidata": "https://www.wikidata.org/wiki/Q6038852",
+          "display_name": "Instantaneous phase",
+          "level": 3,
+          "score": 0.4609087109565735
+        },
+        {
+          "id": "https://openalex.org/C98937189",
+          "wikidata": "https://www.wikidata.org/wiki/Q975684",
+          "display_name": "Acoustic impedance",
+          "level": 3,
+          "score": 0.417125403881073
+        },
+        {
+          "id": "https://openalex.org/C11413529",
+          "wikidata": "https://www.wikidata.org/wiki/Q8366",
+          "display_name": "Algorithm",
+          "level": 1,
+          "score": 0.4146631956100464
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.37029391527175903
+        },
+        {
+          "id": "https://openalex.org/C24890656",
+          "wikidata": "https://www.wikidata.org/wiki/Q82811",
+          "display_name": "Acoustics",
+          "level": 1,
+          "score": 0.3647855520248413
+        },
+        {
+          "id": "https://openalex.org/C33923547",
+          "wikidata": "https://www.wikidata.org/wiki/Q395",
+          "display_name": "Mathematics",
+          "level": 0,
+          "score": 0.31062352657318115
+        },
+        {
+          "id": "https://openalex.org/C165205528",
+          "wikidata": "https://www.wikidata.org/wiki/Q83371",
+          "display_name": "Seismology",
+          "level": 1,
+          "score": 0.28261151909828186
+        },
+        {
+          "id": "https://openalex.org/C120665830",
+          "wikidata": "https://www.wikidata.org/wiki/Q14620",
+          "display_name": "Optics",
+          "level": 1,
+          "score": 0.23045110702514648
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.14632582664489746
+        },
+        {
+          "id": "https://openalex.org/C159737794",
+          "wikidata": "https://www.wikidata.org/wiki/Q124274",
+          "display_name": "Azimuth",
+          "level": 2,
+          "score": 0.1232297420501709
+        },
+        {
+          "id": "https://openalex.org/C76155785",
+          "wikidata": "https://www.wikidata.org/wiki/Q418",
+          "display_name": "Telecommunications",
+          "level": 1,
+          "score": 0.11776342988014221
+        },
+        {
+          "id": "https://openalex.org/C2524010",
+          "wikidata": "https://www.wikidata.org/wiki/Q8087",
+          "display_name": "Geometry",
+          "level": 1,
+          "score": 0.10993561148643494
+        },
+        {
+          "id": "https://openalex.org/C121332964",
+          "wikidata": "https://www.wikidata.org/wiki/Q413",
+          "display_name": "Physics",
+          "level": 0,
+          "score": 0.10923153162002563
+        },
+        {
+          "id": "https://openalex.org/C199360897",
+          "wikidata": "https://www.wikidata.org/wiki/Q9143",
+          "display_name": "Programming language",
+          "level": 1,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C81288441",
+          "wikidata": "https://www.wikidata.org/wiki/Q20736125",
+          "display_name": "Ultrasonic sensor",
+          "level": 2,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C77928131",
+          "wikidata": "https://www.wikidata.org/wiki/Q193343",
+          "display_name": "Tectonics",
+          "level": 2,
+          "score": 0.0
+        },
+        {
+          "id": "https://openalex.org/C554190296",
+          "wikidata": "https://www.wikidata.org/wiki/Q47528",
+          "display_name": "Radar",
+          "level": 2,
+          "score": 0.0
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1088/1742-2140/aa8710",
+          "is_oa": true,
+          "landing_page_url": "https://doi.org/10.1088/1742-2140/aa8710",
+          "pdf_url": "https://academic.oup.com/jge/article-pdf/15/1/179/26789535/jge_15_1_179.pdf",
+          "source": {
+            "id": "https://openalex.org/S35316464",
+            "display_name": "Journal of Geophysics and Engineering",
+            "issn_l": "1742-2132",
+            "issn": [
+              "1742-2132",
+              "1742-2140"
+            ],
+            "is_oa": false,
+            "is_in_doaj": true,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "doaj",
+              "jufo-1",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310320083",
+            "host_organization_name": "IOP Publishing",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310320083",
+              "https://openalex.org/P4310311669"
+            ],
+            "host_organization_lineage_names": [
+              "IOP Publishing",
+              "Institute of Physics"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "Journal of Geophysics and Engineering",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": {
+        "id": "doi:10.1088/1742-2140/aa8710",
+        "is_oa": true,
+        "landing_page_url": "https://doi.org/10.1088/1742-2140/aa8710",
+        "pdf_url": "https://academic.oup.com/jge/article-pdf/15/1/179/26789535/jge_15_1_179.pdf",
+        "source": {
+          "id": "https://openalex.org/S35316464",
+          "display_name": "Journal of Geophysics and Engineering",
+          "issn_l": "1742-2132",
+          "issn": [
+            "1742-2132",
+            "1742-2140"
+          ],
+          "is_oa": false,
+          "is_in_doaj": true,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "doaj",
+            "jufo-1",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310320083",
+          "host_organization_name": "IOP Publishing",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310320083",
+            "https://openalex.org/P4310311669"
+          ],
+          "host_organization_lineage_names": [
+            "IOP Publishing",
+            "Institute of Physics"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "Journal of Geophysics and Engineering",
+        "raw_type": "journal-article"
+      },
+      "sustainable_development_goals": [],
+      "x_sdgs": [],
+      "awards": [],
+      "funders": [
+        {
+          "id": "https://openalex.org/F4320321529",
+          "display_name": "Chiang Mai University",
+          "ror": "https://ror.org/05m2fqn25"
+        }
+      ],
+      "has_content": {
+        "pdf": true,
+        "grobid_xml": true
+      },
+      "content_urls": {
+        "pdf": "https://content.openalex.org/works/W2748535441.pdf",
+        "grobid_xml": "https://content.openalex.org/works/W2748535441.grobid-xml"
+      },
+      "referenced_works_count": 30,
+      "referenced_works": [
+        "https://openalex.org/W1966786488",
+        "https://openalex.org/W1984235980",
+        "https://openalex.org/W2007686958",
+        "https://openalex.org/W2030400978",
+        "https://openalex.org/W2032828458",
+        "https://openalex.org/W2037733922",
+        "https://openalex.org/W2044292076",
+        "https://openalex.org/W2050847261",
+        "https://openalex.org/W2074371496",
+        "https://openalex.org/W2087054292",
+        "https://openalex.org/W2099885111",
+        "https://openalex.org/W2105536862",
+        "https://openalex.org/W2112072801",
+        "https://openalex.org/W2113920449",
+        "https://openalex.org/W2114018052",
+        "https://openalex.org/W2122373419",
+        "https://openalex.org/W2136085645",
+        "https://openalex.org/W2141713516",
+        "https://openalex.org/W2143504795",
+        "https://openalex.org/W2148026557",
+        "https://openalex.org/W2296464123",
+        "https://openalex.org/W2338893532",
+        "https://openalex.org/W2500614245",
+        "https://openalex.org/W2527970382",
+        "https://openalex.org/W2553996021",
+        "https://openalex.org/W2559026145",
+        "https://openalex.org/W2560520378",
+        "https://openalex.org/W2560653596",
+        "https://openalex.org/W2606281852",
+        "https://openalex.org/W2923931914"
+      ],
+      "related_works": [
+        "https://openalex.org/W2392303176",
+        "https://openalex.org/W8293889",
+        "https://openalex.org/W1993696404",
+        "https://openalex.org/W2341305366",
+        "https://openalex.org/W2906364729",
+        "https://openalex.org/W2516404800",
+        "https://openalex.org/W2313874398",
+        "https://openalex.org/W1757658645",
+        "https://openalex.org/W4285215441",
+        "https://openalex.org/W2164503247"
+      ],
+      "abstract_inverted_index": {
+        "To": [
+          0,
+          26,
+          55,
+          83,
+          184,
+          311
+        ],
+        "delineate": [
+          1,
+          540
+        ],
+        "subsurface": [
+          2
+        ],
+        "lithology": [
+          3,
+          522,
+          542
+        ],
+        "to": [
+          4,
+          14,
+          29,
+          41,
+          51,
+          64,
+          111,
+          130,
+          135,
+          154,
+          158,
+          168,
+          174,
+          221,
+          230,
+          254,
+          258,
+          270,
+          285,
+          292,
+          307,
+          332,
+          391,
+          465,
+          472,
+          497,
+          502,
+          511,
+          539
+        ],
+        "estimate": [
+          5,
+          112,
+          308,
+          372,
+          492
+        ],
+        "petrophysical": [
+          6
+        ],
+        "properties": [
+          7,
+          209,
+          376,
+          495
+        ],
+        "of": [
+          8,
+          23,
+          32,
+          100,
+          116,
+          150,
+          274,
+          315,
+          341,
+          356,
+          364,
+          380,
+          416,
+          469,
+          481,
+          515,
+          521,
+          535,
+          545,
+          553
+        ],
+        "a": [
+          9,
+          43,
+          223,
+          240,
+          324,
+          347,
+          353,
+          402,
+          503
+        ],
+        "reservoir,": [
+          10
+        ],
+        "it": [
+          11,
+          61
+        ],
+        "is": [
+          12,
+          20,
+          53,
+          62,
+          71,
+          289,
+          388,
+          432,
+          449,
+          463
+        ],
+        "possible": [
+          13
+        ],
+        "use": [
+          15
+        ],
+        "acoustic": [
+          16
+        ],
+        "impedance": [
+          17
+        ],
+        "(AI)": [
+          18
+        ],
+        "which": [
+          19,
+          227
+        ],
+        "the": [
+          21,
+          36,
+          68,
+          140,
+          165,
+          170,
+          175,
+          193,
+          202,
+          247,
+          272,
+          275,
+          282,
+          297,
+          305,
+          313,
+          339,
+          361,
+          374,
+          385,
+          392,
+          413,
+          446,
+          459,
+          466,
+          474,
+          479,
+          498,
+          513,
+          519,
+          526,
+          529,
+          533,
+          546,
+          554
+        ],
+        "result": [
+          22,
+          238,
+          387
+        ],
+        "seismic": [
+          24,
+          37,
+          58,
+          69,
+          235,
+          287,
+          417,
+          427
+        ],
+        "inversion.": [
+          25,
+          103,
+          438
+        ],
+        "change": [
+          27
+        ],
+        "amplitude": [
+          28,
+          90
+        ],
+        "AI,": [
+          30,
+          52,
+          136
+        ],
+        "removal": [
+          31
+        ],
+        "wavelet": [
+          33,
+          162,
+          208
+        ],
+        "effects": [
+          34,
+          163,
+          233
+        ],
+        "from": [
+          35,
+          164,
+          181,
+          210,
+          234,
+          382
+        ],
+        "signal": [
+          38,
+          70,
+          166
+        ],
+        "in": [
+          39,
+          192,
+          296,
+          344,
+          412,
+          445,
+          458
+        ],
+        "order": [
+          40
+        ],
+        "get": [
+          42,
+          286
+        ],
+        "reflection": [
+          44,
+          133,
+          172,
+          241
+        ],
+        "series,": [
+          45,
+          114
+        ],
+        "and": [
+          46,
+          87,
+          92,
+          167,
+          206,
+          264,
+          320,
+          397,
+          452,
+          477,
+          518,
+          550
+        ],
+        "subsequently": [
+          47
+        ],
+        "transforming": [
+          48
+        ],
+        "those": [
+          49,
+          132,
+          256
+        ],
+        "reflections": [
+          50,
+          257
+        ],
+        "vital.": [
+          54
+        ],
+        "carry": [
+          56,
+          185
+        ],
+        "out": [
+          57,
+          186
+        ],
+        "inversion": [
+          59,
+          107,
+          191,
+          288,
+          295,
+          322,
+          343,
+          368,
+          386,
+          399,
+          444,
+          457,
+          490,
+          530,
+          538,
+          556
+        ],
+        "correctly": [
+          60,
+          373
+        ],
+        "important": [
+          63
+        ],
+        "not": [
+          65,
+          122,
+          245,
+          369
+        ],
+        "assume": [
+          66
+        ],
+        "that": [
+          67,
+          81,
+          243,
+          281,
+          407
+        ],
+        "stationary.": [
+          72
+        ],
+        "However,": [
+          73
+        ],
+        "all": [
+          74
+        ],
+        "stationary": [
+          75,
+          101,
+          105,
+          248,
+          325
+        ],
+        "deconvolution": [
+          76,
+          157
+        ],
+        "methods": [
+          77,
+          108
+        ],
+        "are": [
+          78,
+          95,
+          98,
+          109
+        ],
+        "designed": [
+          79
+        ],
+        "following": [
+          80
+        ],
+        "assumption.": [
+          82,
+          249
+        ],
+        "increase": [
+          84
+        ],
+        "temporal": [
+          85,
+          482
+        ],
+        "resolution": [
+          86,
+          409
+        ],
+        "interpretation": [
+          88
+        ],
+        "ability,": [
+          89
+        ],
+        "compensation": [
+          91
+        ],
+        "phase": [
+          93
+        ],
+        "correction": [
+          94
+        ],
+        "inevitable.": [
+          96
+        ],
+        "Those": [
+          97
+        ],
+        "pitfalls": [
+          99
+        ],
+        "reflectivity": [
+          102,
+          106,
+          113
+        ],
+        "Although": [
+          104
+        ],
+        "trying": [
+          110
+        ],
+        "because": [
+          115,
+          379,
+          544
+        ],
+        "incorrect": [
+          117
+        ],
+        "assumptions": [
+          118
+        ],
+        "their": [
+          119
+        ],
+        "estimations": [
+          120
+        ],
+        "will": [
+          121
+        ],
+        "be": [
+          123,
+          127
+        ],
+        "correct,": [
+          124
+        ],
+        "but": [
+          125,
+          377,
+          429
+        ],
+        "may": [
+          126
+        ],
+        "useful.": [
+          128
+        ],
+        "Trying": [
+          129
+        ],
+        "convert": [
+          131,
+          169,
+          255
+        ],
+        "series": [
+          134,
+          173,
+          242
+        ],
+        "also": [
+          137,
+          478
+        ],
+        "merging": [
+          138
+        ],
+        "with": [
+          139,
+          214,
+          328,
+          346
+        ],
+        "low": [
+          141,
+          362,
+          408
+        ],
+        "frequency": [
+          142,
+          298,
+          460,
+          548
+        ],
+        "initial": [
+          143
+        ],
+        "model,": [
+          144
+        ],
+        "can": [
+          145,
+          371,
+          491
+        ],
+        "help": [
+          146,
+          304
+        ],
+        "us.": [
+          147
+        ],
+        "The": [
+          148,
+          198,
+          237,
+          250,
+          278,
+          336,
+          439
+        ],
+        "aim": [
+          149
+        ],
+        "this": [
+          151,
+          187,
+          430
+        ],
+        "study": [
+          152
+        ],
+        "was": [
+          153,
+          196,
+          228,
+          239,
+          253,
+          334
+        ],
+        "apply": [
+          155
+        ],
+        "non-stationary": [
+          156
+        ],
+        "eliminate": [
+          159
+        ],
+        "time": [
+          160,
+          194,
+          216,
+          283,
+          447
+        ],
+        "variant": [
+          161
+        ],
+        "estimated": [
+          171,
+          207,
+          440
+        ],
+        "absolute": [
+          176
+        ],
+        "AI": [
+          177,
+          259,
+          441
+        ],
+        "by": [
+          178
+        ],
+        "getting": [
+          179
+        ],
+        "bias": [
+          180,
+          302,
+          381
+        ],
+        "well": [
+          182,
+          261,
+          383
+        ],
+        "logs.": [
+          183
+        ],
+        "aim,": [
+          188
+        ],
+        "stochastic": [
+          189,
+          321,
+          366,
+          436,
+          488,
+          536
+        ],
+        "Gabor": [
+          190,
+          199,
+          294,
+          367,
+          437,
+          443,
+          456,
+          489,
+          537
+        ],
+        "domain": [
+          195,
+          448
+        ],
+        "used.": [
+          197,
+          335
+        ],
+        "transform": [
+          200
+        ],
+        "derived": [
+          201
+        ],
+        "signal's": [
+          203
+        ],
+        "time–frequency": [
+          204,
+          475
+        ],
+        "analysis": [
+          205
+        ],
+        "different": [
+          211,
+          215
+        ],
+        "windows.": [
+          212,
+          485
+        ],
+        "Dealing": [
+          213
+        ],
+        "windows": [
+          217,
+          470
+        ],
+        "gave": [
+          218
+        ],
+        "an": [
+          219,
+          509
+        ],
+        "ability": [
+          220,
+          273,
+          510,
+          520
+        ],
+        "create": [
+          222
+        ],
+        "time-variant": [
+          224
+        ],
+        "kernel": [
+          225
+        ],
+        "matrix,": [
+          226
+        ],
+        "used": [
+          229,
+          269
+        ],
+        "remove": [
+          231
+        ],
+        "matrix": [
+          232
+        ],
+        "data.": [
+          236
+        ],
+        "does": [
+          244
+        ],
+        "follow": [
+          246
+        ],
+        "subsequent": [
+          251
+        ],
+        "step": [
+          252
+        ],
+        "using": [
+          260,
+          352,
+          419,
+          435,
+          442
+        ],
+        "information.": [
+          262
+        ],
+        "Synthetic": [
+          263
+        ],
+        "real": [
+          265,
+          393,
+          403,
+          499,
+          504
+        ],
+        "data": [
+          266,
+          349,
+          404,
+          505
+        ],
+        "sets": [
+          267
+        ],
+        "were": [
+          268
+        ],
+        "show": [
+          271
+        ],
+        "introduced": [
+          276,
+          398
+        ],
+        "method.": [
+          277
+        ],
+        "results": [
+          279,
+          337,
+          400,
+          531
+        ],
+        "highlight": [
+          280,
+          338
+        ],
+        "cost": [
+          284
+        ],
+        "negligible": [
+          290
+        ],
+        "related": [
+          291
+        ],
+        "general": [
+          293,
+          455
+        ],
+        "domain.": [
+          299,
+          461
+        ],
+        "Also,": [
+          300,
+          359
+        ],
+        "obtaining": [
+          301
+        ],
+        "could": [
+          303,
+          507
+        ],
+        "method": [
+          306
+        ],
+        "reliable": [
+          309
+        ],
+        "AI.": [
+          310,
+          394
+        ],
+        "justify": [
+          312
+        ],
+        "effect": [
+          314
+        ],
+        "random": [
+          316
+        ],
+        "noise": [
+          317
+        ],
+        "on": [
+          318,
+          401
+        ],
+        "deterministic": [
+          319,
+          342,
+          396,
+          420
+        ],
+        "results,": [
+          323,
+          410
+        ],
+        "noisy": [
+          326,
+          348
+        ],
+        "trace": [
+          327
+        ],
+        "signal-to-noise": [
+          329
+        ],
+        "ratio": [
+          330
+        ],
+        "equal": [
+          331
+        ],
+        "2": [
+          333
+        ],
+        "inability": [
+          340
+        ],
+        "dealing": [
+          345
+        ],
+        "set": [
+          350,
+          405,
+          506
+        ],
+        "even": [
+          351
+        ],
+        "high": [
+          354
+        ],
+        "number": [
+          355,
+          468
+        ],
+        "regularization": [
+          357
+        ],
+        "parameters.": [
+          358
+        ],
+        "despite": [
+          360
+        ],
+        "level": [
+          363
+        ],
+        "signal,": [
+          365
+        ],
+        "only": [
+          370
+        ],
+        "wavelet's": [
+          375
+        ],
+        "also,": [
+          378
+        ],
+        "logs,": [
+          384
+        ],
+        "very": [
+          389
+        ],
+        "close": [
+          390,
+          496
+        ],
+        "Comparing": [
+          395,
+          528
+        ],
+        "shows": [
+          406
+        ],
+        "especially": [
+          411
+        ],
+        "deeper": [
+          414
+        ],
+        "parts": [
+          415
+        ],
+        "sections": [
+          418
+        ],
+        "inversion,": [
+          421
+        ],
+        "creates": [
+          422
+        ],
+        "significant": [
+          423
+        ],
+        "reliability": [
+          424
+        ],
+        "problems": [
+          425
+        ],
+        "for": [
+          426
+        ],
+        "prospects,": [
+          428
+        ],
+        "pitfall": [
+          431
+        ],
+        "solved": [
+          433
+        ],
+        "completely": [
+          434
+        ],
+        "much": [
+          450
+        ],
+        "better": [
+          451
+        ],
+        "faster": [
+          453
+        ],
+        "than": [
+          454
+        ],
+        "This": [
+          462
+        ],
+        "due": [
+          464
+        ],
+        "extra": [
+          467
+        ],
+        "required": [
+          471
+        ],
+        "analyze": [
+          473
+        ],
+        "information": [
+          476
+        ],
+        "amount": [
+          480
+        ],
+        "increment": [
+          483
+        ],
+        "between": [
+          484
+        ],
+        "In": [
+          486
+        ],
+        "contrast,": [
+          487
+        ],
+        "trustable": [
+          493
+        ],
+        "physical": [
+          494
+        ],
+        "characteristics.": [
+          500
+        ],
+        "Applying": [
+          501
+        ],
+        "give": [
+          508
+        ],
+        "detect": [
+          512
+        ],
+        "direction": [
+          514
+        ],
+        "volcanic": [
+          516
+        ],
+        "intrusion": [
+          517
+        ],
+        "distribution": [
+          523
+        ],
+        "delineation": [
+          524
+        ],
+        "along": [
+          525
+        ],
+        "fan.": [
+          527
+        ],
+        "highlights": [
+          532
+        ],
+        "efficiency": [
+          534
+        ],
+        "lateral": [
+          541
+        ],
+        "changes": [
+          543
+        ],
+        "improved": [
+          547
+        ],
+        "content": [
+          549
+        ],
+        "zero": [
+          551
+        ],
+        "phasing": [
+          552
+        ],
+        "final": [
+          555
+        ],
+        "volume.": [
+          557
+        ]
+      },
+      "counts_by_year": [
+        {
+          "year": 2021,
+          "cited_by_count": 1
+        },
+        {
+          "year": 2017,
+          "cited_by_count": 1
+        }
+      ],
+      "updated_date": "2026-09-16T18:09:00.828671",
+      "created_date": "2025-10-10T00:00:00"
+    }
+  ],
+  "group_by": []
+}

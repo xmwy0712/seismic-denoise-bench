@@ -1,0 +1,1292 @@
+{
+  "id": "https://openalex.org/W1986777645",
+  "doi": "https://doi.org/10.1190/1.2752175",
+  "title": "V p / V s ratio versus differential stress and rock consolidation — A comparison between rock models and time-lapse AVO data",
+  "display_name": "V p / V s ratio versus differential stress and rock consolidation — A comparison between rock models and time-lapse AVO data",
+  "publication_year": 2007,
+  "publication_date": "2007-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1986777645",
+    "doi": "https://doi.org/10.1190/1.2752175",
+    "mag": "1986777645"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.2752175",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.2752175",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S106174089",
+      "display_name": "Geophysics",
+      "issn_l": "0016-8033",
+      "issn": [
+        "0016-8033",
+        "1942-2156"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5070683837",
+        "display_name": "Kenneth Duffaut",
+        "orcid": "https://orcid.org/0000-0003-3091-9598"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204778367",
+          "display_name": "Norwegian University of Science and Technology",
+          "ror": "https://ror.org/05xg72x27",
+          "country_code": "NO",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I204778367"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210130289",
+          "display_name": "Applied Petroleum Technology (Norway)",
+          "ror": "https://ror.org/03hjz0g77",
+          "country_code": "NO",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210130289"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I49324905",
+          "display_name": "Equinor (Norway)",
+          "ror": "https://ror.org/017mte255",
+          "country_code": "NO",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I49324905"
+          ]
+        }
+      ],
+      "countries": [
+        "NO"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Kenneth Duffaut",
+      "raw_affiliation_strings": [
+        "1Norwegian University of Science and Technology (NTNU), Faculty of Engineering Science and Technology, Department of Petroleum Engineering and Applied Geophysics, Trondheim, Norway, and Statoil Research Centre, Trondheim, Norway. E-mail: kdu@statoil.com",
+        "NTNU, Faculty of Engineering Science and Technology, Department of Petroleum Engineering and Applied Geophysics, Trondheim, Norway. ",
+        "Norwegian University of Science and Technology (NTNU), Faculty of Engineering Science and Technology, Department of Petroleum Engineering and Applied Geophysics, Trondheim, Norway, and Statoil Research Centre, Trondheim, Norway. E-mail: "
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "1Norwegian University of Science and Technology (NTNU), Faculty of Engineering Science and Technology, Department of Petroleum Engineering and Applied Geophysics, Trondheim, Norway, and Statoil Research Centre, Trondheim, Norway. E-mail: kdu@statoil.com",
+          "institution_ids": [
+            "https://openalex.org/I49324905"
+          ]
+        },
+        {
+          "raw_affiliation_string": "NTNU, Faculty of Engineering Science and Technology, Department of Petroleum Engineering and Applied Geophysics, Trondheim, Norway. ",
+          "institution_ids": [
+            "https://openalex.org/I4210130289"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Norwegian University of Science and Technology (NTNU), Faculty of Engineering Science and Technology, Department of Petroleum Engineering and Applied Geophysics, Trondheim, Norway, and Statoil Research Centre, Trondheim, Norway. E-mail: ",
+          "institution_ids": [
+            "https://openalex.org/I204778367",
+            "https://openalex.org/I49324905"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5016479568",
+        "display_name": "Martin Landrø",
+        "orcid": "https://orcid.org/0000-0003-4556-2667"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I204778367",
+          "display_name": "Norwegian University of Science and Technology",
+          "ror": "https://ror.org/05xg72x27",
+          "country_code": "NO",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I204778367"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210130289",
+          "display_name": "Applied Petroleum Technology (Norway)",
+          "ror": "https://ror.org/03hjz0g77",
+          "country_code": "NO",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210130289"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I49324905",
+          "display_name": "Equinor (Norway)",
+          "ror": "https://ror.org/017mte255",
+          "country_code": "NO",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I49324905"
+          ]
+        }
+      ],
+      "countries": [
+        "NO"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Martin Landrø",
+      "raw_affiliation_strings": [
+        "2NTNU, Faculty of Engineering Science and Technology, Department of Petroleum Engineering and Applied Geophysics, Trondheim, Norway. E-mail: martin.landro@ntnu.no",
+        "NTNU, Faculty of Engineering Science and Technology, Department of Petroleum Engineering and Applied Geophysics, Trondheim, Norway. ",
+        "Norwegian University of Science and Technology (NTNU), Faculty of Engineering Science and Technology, Department of Petroleum Engineering and Applied Geophysics, Trondheim, Norway, and Statoil Research Centre, Trondheim, Norway. "
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "2NTNU, Faculty of Engineering Science and Technology, Department of Petroleum Engineering and Applied Geophysics, Trondheim, Norway. E-mail: martin.landro@ntnu.no",
+          "institution_ids": [
+            "https://openalex.org/I4210130289"
+          ]
+        },
+        {
+          "raw_affiliation_string": "NTNU, Faculty of Engineering Science and Technology, Department of Petroleum Engineering and Applied Geophysics, Trondheim, Norway. ",
+          "institution_ids": [
+            "https://openalex.org/I4210130289"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Norwegian University of Science and Technology (NTNU), Faculty of Engineering Science and Technology, Department of Petroleum Engineering and Applied Geophysics, Trondheim, Norway, and Statoil Research Centre, Trondheim, Norway. ",
+          "institution_ids": [
+            "https://openalex.org/I204778367",
+            "https://openalex.org/I49324905"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 3.354,
+  "has_fulltext": false,
+  "cited_by_count": 65,
+  "citation_normalized_percentile": {
+    "value": 0.90785392,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "72",
+    "issue": "5",
+    "first_page": "C81",
+    "last_page": "C94"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 1.0,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 1.0,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/consolidation",
+      "display_name": "Consolidation (business)",
+      "score": 0.7107757329940796
+    },
+    {
+      "id": "https://openalex.org/keywords/differential-stress",
+      "display_name": "Differential stress",
+      "score": 0.6216853857040405
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.5847253799438477
+    },
+    {
+      "id": "https://openalex.org/keywords/differential-pressure",
+      "display_name": "Differential pressure",
+      "score": 0.4658088982105255
+    },
+    {
+      "id": "https://openalex.org/keywords/rock-mechanics",
+      "display_name": "Rock mechanics",
+      "score": 0.4347495436668396
+    },
+    {
+      "id": "https://openalex.org/keywords/geotechnical-engineering",
+      "display_name": "Geotechnical engineering",
+      "score": 0.4268147349357605
+    },
+    {
+      "id": "https://openalex.org/keywords/amplitude",
+      "display_name": "Amplitude",
+      "score": 0.4130130708217621
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.3251086175441742
+    },
+    {
+      "id": "https://openalex.org/keywords/mineralogy",
+      "display_name": "Mineralogy",
+      "score": 0.3226333260536194
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematical-analysis",
+      "display_name": "Mathematical analysis",
+      "score": 0.26390090584754944
+    },
+    {
+      "id": "https://openalex.org/keywords/mechanics",
+      "display_name": "Mechanics",
+      "score": 0.2626824378967285
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.18967804312705994
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2776014549",
+      "wikidata": "https://www.wikidata.org/wiki/Q3050847",
+      "display_name": "Consolidation (business)",
+      "level": 2,
+      "score": 0.7107757329940796
+    },
+    {
+      "id": "https://openalex.org/C2780012869",
+      "wikidata": "https://www.wikidata.org/wiki/Q1977085",
+      "display_name": "Differential stress",
+      "level": 3,
+      "score": 0.6216853857040405
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.5847253799438477
+    },
+    {
+      "id": "https://openalex.org/C2984663118",
+      "wikidata": "https://www.wikidata.org/wiki/Q7424019",
+      "display_name": "Differential pressure",
+      "level": 2,
+      "score": 0.4658088982105255
+    },
+    {
+      "id": "https://openalex.org/C97842125",
+      "wikidata": "https://www.wikidata.org/wiki/Q1191291",
+      "display_name": "Rock mechanics",
+      "level": 2,
+      "score": 0.4347495436668396
+    },
+    {
+      "id": "https://openalex.org/C187320778",
+      "wikidata": "https://www.wikidata.org/wiki/Q1349130",
+      "display_name": "Geotechnical engineering",
+      "level": 1,
+      "score": 0.4268147349357605
+    },
+    {
+      "id": "https://openalex.org/C180205008",
+      "wikidata": "https://www.wikidata.org/wiki/Q159190",
+      "display_name": "Amplitude",
+      "level": 2,
+      "score": 0.4130130708217621
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.3251086175441742
+    },
+    {
+      "id": "https://openalex.org/C199289684",
+      "wikidata": "https://www.wikidata.org/wiki/Q83353",
+      "display_name": "Mineralogy",
+      "level": 1,
+      "score": 0.3226333260536194
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.26390090584754944
+    },
+    {
+      "id": "https://openalex.org/C57879066",
+      "wikidata": "https://www.wikidata.org/wiki/Q41217",
+      "display_name": "Mechanics",
+      "level": 1,
+      "score": 0.2626824378967285
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.18967804312705994
+    },
+    {
+      "id": "https://openalex.org/C171338203",
+      "wikidata": "https://www.wikidata.org/wiki/Q13409892",
+      "display_name": "Cauchy stress tensor",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C121955636",
+      "wikidata": "https://www.wikidata.org/wiki/Q4116214",
+      "display_name": "Accounting",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C144133560",
+      "wikidata": "https://www.wikidata.org/wiki/Q4830453",
+      "display_name": "Business",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.2752175",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.2752175",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S106174089",
+        "display_name": "Geophysics",
+        "issn_l": "0016-8033",
+        "issn": [
+          "0016-8033",
+          "1942-2156"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysics",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 85,
+  "referenced_works": [
+    "https://openalex.org/W15242090",
+    "https://openalex.org/W62547495",
+    "https://openalex.org/W118094499",
+    "https://openalex.org/W176189099",
+    "https://openalex.org/W201967368",
+    "https://openalex.org/W265981341",
+    "https://openalex.org/W1538120041",
+    "https://openalex.org/W1546028642",
+    "https://openalex.org/W1551822905",
+    "https://openalex.org/W1780963532",
+    "https://openalex.org/W1964396798",
+    "https://openalex.org/W1967853035",
+    "https://openalex.org/W1970202449",
+    "https://openalex.org/W1983794113",
+    "https://openalex.org/W1984100301",
+    "https://openalex.org/W1988723886",
+    "https://openalex.org/W1993252592",
+    "https://openalex.org/W1996388813",
+    "https://openalex.org/W1999647928",
+    "https://openalex.org/W1999839164",
+    "https://openalex.org/W2001153805",
+    "https://openalex.org/W2002324930",
+    "https://openalex.org/W2002964885",
+    "https://openalex.org/W2003113676",
+    "https://openalex.org/W2004124997",
+    "https://openalex.org/W2007374620",
+    "https://openalex.org/W2007552981",
+    "https://openalex.org/W2012351921",
+    "https://openalex.org/W2022845734",
+    "https://openalex.org/W2022930178",
+    "https://openalex.org/W2027689719",
+    "https://openalex.org/W2030619630",
+    "https://openalex.org/W2030724072",
+    "https://openalex.org/W2032783766",
+    "https://openalex.org/W2033280612",
+    "https://openalex.org/W2036608402",
+    "https://openalex.org/W2039091575",
+    "https://openalex.org/W2041091843",
+    "https://openalex.org/W2041210248",
+    "https://openalex.org/W2042535472",
+    "https://openalex.org/W2049087606",
+    "https://openalex.org/W2052819817",
+    "https://openalex.org/W2053813857",
+    "https://openalex.org/W2054452016",
+    "https://openalex.org/W2058351408",
+    "https://openalex.org/W2058720773",
+    "https://openalex.org/W2061743691",
+    "https://openalex.org/W2072230959",
+    "https://openalex.org/W2074650791",
+    "https://openalex.org/W2078092904",
+    "https://openalex.org/W2082667383",
+    "https://openalex.org/W2082743869",
+    "https://openalex.org/W2091961055",
+    "https://openalex.org/W2094835451",
+    "https://openalex.org/W2095415570",
+    "https://openalex.org/W2098274171",
+    "https://openalex.org/W2104489297",
+    "https://openalex.org/W2115714511",
+    "https://openalex.org/W2116088582",
+    "https://openalex.org/W2122139894",
+    "https://openalex.org/W2123023966",
+    "https://openalex.org/W2126183005",
+    "https://openalex.org/W2132294442",
+    "https://openalex.org/W2133824090",
+    "https://openalex.org/W2138873374",
+    "https://openalex.org/W2141708759",
+    "https://openalex.org/W2143045253",
+    "https://openalex.org/W2144595373",
+    "https://openalex.org/W2150849104",
+    "https://openalex.org/W2151968160",
+    "https://openalex.org/W2152225778",
+    "https://openalex.org/W2152957974",
+    "https://openalex.org/W2156193302",
+    "https://openalex.org/W2163035644",
+    "https://openalex.org/W2165626472",
+    "https://openalex.org/W2168331961",
+    "https://openalex.org/W2216158371",
+    "https://openalex.org/W2248100852",
+    "https://openalex.org/W2254876335",
+    "https://openalex.org/W2307550859",
+    "https://openalex.org/W2410976161",
+    "https://openalex.org/W2530038911",
+    "https://openalex.org/W2799112465",
+    "https://openalex.org/W2917955268",
+    "https://openalex.org/W3170842087"
+  ],
+  "related_works": [
+    "https://openalex.org/W845329250",
+    "https://openalex.org/W4213037952",
+    "https://openalex.org/W3158980180",
+    "https://openalex.org/W2349122274",
+    "https://openalex.org/W4290635041",
+    "https://openalex.org/W1990912143",
+    "https://openalex.org/W2376759125",
+    "https://openalex.org/W2366215185",
+    "https://openalex.org/W1999710736",
+    "https://openalex.org/W2084255216"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "The": [
+      1,
+      34,
+      72,
+      197,
+      256
+    ],
+    "compressional": [
+      2
+    ],
+    "to": [
+      3,
+      114,
+      137,
+      163,
+      177
+    ],
+    "shear": [
+      4
+    ],
+    "wave": [
+      5
+    ],
+    "velocity": [
+      6,
+      36,
+      52
+    ],
+    "ratio": [
+      7,
+      66,
+      80,
+      119,
+      227
+    ],
+    "(Vp/Vs)": [
+      8
+    ],
+    "is": [
+      9,
+      37,
+      68,
+      112,
+      120,
+      205,
+      243,
+      273
+    ],
+    "an": [
+      10,
+      222
+    ],
+    "important": [
+      11
+    ],
+    "parameter": [
+      12,
+      22,
+      40,
+      176
+    ],
+    "in": [
+      13,
+      41,
+      50,
+      86,
+      224
+    ],
+    "seismic": [
+      14
+    ],
+    "amplitude": [
+      15
+    ],
+    "versus": [
+      16
+    ],
+    "offset": [
+      17
+    ],
+    "(AVO)": [
+      18
+    ],
+    "analysis,": [
+      19
+    ],
+    "and": [
+      20,
+      30,
+      148,
+      201
+    ],
+    "this": [
+      21,
+      174
+    ],
+    "plays": [
+      23
+    ],
+    "a": [
+      24,
+      38,
+      51,
+      69,
+      77,
+      87,
+      139,
+      237,
+      250,
+      260,
+      274
+    ],
+    "key": [
+      25,
+      39,
+      70
+    ],
+    "role": [
+      26
+    ],
+    "especially": [
+      27,
+      105
+    ],
+    "for": [
+      28,
+      55,
+      106,
+      187
+    ],
+    "lithology": [
+      29
+    ],
+    "fluid": [
+      31
+    ],
+    "prediction": [
+      32,
+      44,
+      59
+    ],
+    "methods.": [
+      33
+    ],
+    "P-wave": [
+      35
+    ],
+    "traditional": [
+      42
+    ],
+    "pressure": [
+      43,
+      58,
+      239,
+      251
+    ],
+    "methods,": [
+      45,
+      60
+    ],
+    "because": [
+      46
+    ],
+    "overpressure": [
+      47
+    ],
+    "often": [
+      48
+    ],
+    "results": [
+      49
+    ],
+    "reduction.": [
+      53
+    ],
+    "However,": [
+      54
+    ],
+    "AVO-based": [
+      56
+    ],
+    "pore": [
+      57,
+      238
+    ],
+    "one": [
+      61,
+      111
+    ],
+    "expects": [
+      62
+    ],
+    "that": [
+      63,
+      116
+    ],
+    "the": [
+      64,
+      82,
+      101,
+      117,
+      127,
+      131,
+      145,
+      149,
+      156,
+      165,
+      183,
+      188,
+      208,
+      212,
+      225,
+      229,
+      234,
+      246,
+      270
+    ],
+    "Vp/Vs": [
+      65,
+      79,
+      98,
+      118,
+      185,
+      203,
+      226
+    ],
+    "also": [
+      67
+    ],
+    "parameter.": [
+      71
+    ],
+    "Hertz-Mindlin": [
+      73,
+      128
+    ],
+    "geomechanical": [
+      74
+    ],
+    "model": [
+      75,
+      129
+    ],
+    "predicts": [
+      76
+    ],
+    "constant": [
+      78
+    ],
+    "as": [
+      81,
+      100,
+      228
+    ],
+    "differential": [
+      83,
+      102,
+      146,
+      230
+    ],
+    "stress": [
+      84,
+      103,
+      147,
+      179,
+      231
+    ],
+    "changes": [
+      85
+    ],
+    "dry": [
+      88
+    ],
+    "package": [
+      89
+    ],
+    "of": [
+      90,
+      151,
+      158,
+      211,
+      241,
+      253,
+      264
+    ],
+    "identical": [
+      91
+    ],
+    "spheres.": [
+      92
+    ],
+    "Ultrasonic": [
+      93
+    ],
+    "core": [
+      94
+    ],
+    "measurements": [
+      95
+    ],
+    "show": [
+      96,
+      135
+    ],
+    "increased": [
+      97
+    ],
+    "ratios": [
+      99,
+      186,
+      204
+    ],
+    "decreases,": [
+      104
+    ],
+    "unconsolidated": [
+      107
+    ],
+    "wet": [
+      108
+    ],
+    "sands.": [
+      109
+    ],
+    "Thus,": [
+      110
+    ],
+    "likely": [
+      113
+    ],
+    "assume": [
+      115
+    ],
+    "dependent": [
+      121
+    ],
+    "on": [
+      122,
+      267
+    ],
+    "rock": [
+      123,
+      152,
+      166
+    ],
+    "consolidation.": [
+      124,
+      153,
+      167
+    ],
+    "By": [
+      125
+    ],
+    "combining": [
+      126
+    ],
+    "with": [
+      130,
+      192,
+      278
+    ],
+    "Gassmann": [
+      132
+    ],
+    "model,": [
+      133
+    ],
+    "we": [
+      134,
+      172,
+      220
+    ],
+    "how": [
+      136
+    ],
+    "obtain": [
+      138
+    ],
+    "sim-ple": [
+      140
+    ],
+    "rock-physics": [
+      141
+    ],
+    "framework": [
+      142
+    ],
+    "including": [
+      143
+    ],
+    "both": [
+      144,
+      218
+    ],
+    "degree": [
+      150
+    ],
+    "We": [
+      154
+    ],
+    "use": [
+      155
+    ],
+    "number": [
+      157
+    ],
+    "grain-to-grain": [
+      159
+    ],
+    "contacts": [
+      160
+    ],
+    "(coordination": [
+      161
+    ],
+    "number)": [
+      162
+    ],
+    "represent": [
+      164
+    ],
+    "For": [
+      168
+    ],
+    "two": [
+      169
+    ],
+    "field": [
+      170
+    ],
+    "examples,": [
+      171
+    ],
+    "calibrate": [
+      173
+    ],
+    "consolidation": [
+      175
+    ],
+    "in-situ": [
+      178
+    ],
+    "conditions,": [
+      180
+    ],
+    "then": [
+      181
+    ],
+    "compare": [
+      182
+    ],
+    "predicted": [
+      184
+    ],
+    "overpressured": [
+      189
+    ],
+    "reservoir": [
+      190,
+      258,
+      263,
+      272
+    ],
+    "conditions": [
+      191
+    ],
+    "observed": [
+      193
+    ],
+    "time-lapse": [
+      194,
+      214
+    ],
+    "AVO": [
+      195,
+      215
+    ],
+    "changes.": [
+      196,
+      216
+    ],
+    "correspondence": [
+      198
+    ],
+    "between": [
+      199
+    ],
+    "modeled": [
+      200
+    ],
+    "AVO-estimated": [
+      202
+    ],
+    "good": [
+      206
+    ],
+    "within": [
+      207
+    ],
+    "assumed": [
+      209
+    ],
+    "accuracy": [
+      210
+    ],
+    "real": [
+      213
+    ],
+    "In": [
+      217,
+      233
+    ],
+    "cases,": [
+      219
+    ],
+    "observe": [
+      221
+    ],
+    "increase": [
+      223,
+      240,
+      252
+    ],
+    "decreases.": [
+      232
+    ],
+    "first": [
+      235,
+      257
+    ],
+    "case,": [
+      236
+    ],
+    "5–7MPa": [
+      242
+    ],
+    "measured,": [
+      244
+    ],
+    "whereas": [
+      245,
+      269
+    ],
+    "other": [
+      247
+    ],
+    "case": [
+      248
+    ],
+    "shows": [
+      249
+    ],
+    "approximately": [
+      254
+    ],
+    "15MPa.": [
+      255
+    ],
+    "represents": [
+      259
+    ],
+    "low-to-medium-consolidated": [
+      261
+    ],
+    "sandstone": [
+      262
+    ],
+    "33%": [
+      265
+    ],
+    "porosity": [
+      266
+    ],
+    "average,": [
+      268
+    ],
+    "second": [
+      271
+    ],
+    "more": [
+      275
+    ],
+    "consolidated": [
+      276
+    ],
+    "sand": [
+      277
+    ],
+    "similar": [
+      279
+    ],
+    "porosities": [
+      280
+    ],
+    "(30%).": [
+      281
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2026-08-21T09:56:20.448147",
+  "created_date": "2025-10-10T00:00:00"
+}

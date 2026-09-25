@@ -1,0 +1,673 @@
+{
+  "id": "https://openalex.org/W2009106539",
+  "doi": "https://doi.org/10.1016/j.sigpro.2009.04.013",
+  "title": "Improved bispectrum based tests for Gaussianity and linearity",
+  "display_name": "Improved bispectrum based tests for Gaussianity and linearity",
+  "publication_year": 2009,
+  "publication_date": "2009-04-24",
+  "ids": {
+    "openalex": "https://openalex.org/W2009106539",
+    "doi": "https://doi.org/10.1016/j.sigpro.2009.04.013",
+    "mag": "2009106539"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/j.sigpro.2009.04.013",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/j.sigpro.2009.04.013",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S154637859",
+      "display_name": "Signal Processing",
+      "issn_l": "0165-1684",
+      "issn": [
+        "0165-1684",
+        "1872-7557"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Signal Processing",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5024449269",
+        "display_name": "Yngve Birkelund",
+        "orcid": "https://orcid.org/0000-0003-3244-5613"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I78037679",
+          "display_name": "UiT The Arctic University of Norway",
+          "ror": "https://ror.org/00wge5k78",
+          "country_code": "NO",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I78037679"
+          ]
+        }
+      ],
+      "countries": [
+        "NO"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Yngve Birkelund",
+      "raw_affiliation_strings": [
+        "Department of Physics and Technology, University of Tromsø, NO-9037 Tromso, Norway"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Physics and Technology, University of Tromsø, NO-9037 Tromso, Norway",
+          "institution_ids": [
+            "https://openalex.org/I78037679"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5040898399",
+        "display_name": "Alfred Hanssen",
+        "orcid": "https://orcid.org/0000-0001-8553-2935"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I78037679",
+          "display_name": "UiT The Arctic University of Norway",
+          "ror": "https://ror.org/00wge5k78",
+          "country_code": "NO",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I78037679"
+          ]
+        }
+      ],
+      "countries": [
+        "NO"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Alfred Hanssen",
+      "raw_affiliation_strings": [
+        "Department of Physics and Technology, University of Tromsø, NO-9037 Tromso, Norway"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Physics and Technology, University of Tromsø, NO-9037 Tromso, Norway",
+          "institution_ids": [
+            "https://openalex.org/I78037679"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5024449269"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I78037679"
+  ],
+  "apc_list": {
+    "value": 3190,
+    "currency": "USD",
+    "value_usd": 3190
+  },
+  "apc_paid": null,
+  "fwci": 1.088,
+  "has_fulltext": false,
+  "cited_by_count": 20,
+  "citation_normalized_percentile": {
+    "value": 0.77523461,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "89",
+    "issue": "12",
+    "first_page": "2537",
+    "last_page": "2546"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11447",
+    "display_name": "Blind Source Separation Techniques",
+    "score": 0.9994000196456909,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1711",
+      "display_name": "Signal Processing"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/17",
+      "display_name": "Computer Science"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11447",
+      "display_name": "Blind Source Separation Techniques",
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1711",
+        "display_name": "Signal Processing"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/17",
+        "display_name": "Computer Science"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10640",
+      "display_name": "Spectroscopy and Chemometric Analyses",
+      "score": 0.9987000226974487,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1602",
+        "display_name": "Analytical Chemistry"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/16",
+        "display_name": "Chemistry"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10876",
+      "display_name": "Fault Detection and Control Systems",
+      "score": 0.9789999723434448,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2207",
+        "display_name": "Control and Systems Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/bispectrum",
+      "display_name": "Bispectrum",
+      "score": 0.9864375591278076
+    },
+    {
+      "id": "https://openalex.org/keywords/linearity",
+      "display_name": "Linearity",
+      "score": 0.6570088863372803
+    },
+    {
+      "id": "https://openalex.org/keywords/smoothing",
+      "display_name": "Smoothing",
+      "score": 0.6132727265357971
+    },
+    {
+      "id": "https://openalex.org/keywords/skewness",
+      "display_name": "Skewness",
+      "score": 0.6082477569580078
+    },
+    {
+      "id": "https://openalex.org/keywords/gaussian",
+      "display_name": "Gaussian",
+      "score": 0.6050875782966614
+    },
+    {
+      "id": "https://openalex.org/keywords/kurtosis",
+      "display_name": "Kurtosis",
+      "score": 0.6000645160675049
+    },
+    {
+      "id": "https://openalex.org/keywords/series",
+      "display_name": "Series (stratigraphy)",
+      "score": 0.5458042025566101
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.5359343886375427
+    },
+    {
+      "id": "https://openalex.org/keywords/monte-carlo-method",
+      "display_name": "Monte Carlo method",
+      "score": 0.5220389366149902
+    },
+    {
+      "id": "https://openalex.org/keywords/statistical-hypothesis-testing",
+      "display_name": "Statistical hypothesis testing",
+      "score": 0.4817826449871063
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.47798269987106323
+    },
+    {
+      "id": "https://openalex.org/keywords/non-gaussianity",
+      "display_name": "Non-Gaussianity",
+      "score": 0.4727405309677124
+    },
+    {
+      "id": "https://openalex.org/keywords/statistics",
+      "display_name": "Statistics",
+      "score": 0.3795405328273773
+    },
+    {
+      "id": "https://openalex.org/keywords/statistical-physics",
+      "display_name": "Statistical physics",
+      "score": 0.32949668169021606
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.3288164734840393
+    },
+    {
+      "id": "https://openalex.org/keywords/engineering",
+      "display_name": "Engineering",
+      "score": 0.10789227485656738
+    },
+    {
+      "id": "https://openalex.org/keywords/spectral-density",
+      "display_name": "Spectral density",
+      "score": 0.10697486996650696
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.09847652912139893
+    },
+    {
+      "id": "https://openalex.org/keywords/electronic-engineering",
+      "display_name": "Electronic engineering",
+      "score": 0.08579602837562561
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C114148568",
+      "wikidata": "https://www.wikidata.org/wiki/Q2410583",
+      "display_name": "Bispectrum",
+      "level": 3,
+      "score": 0.9864375591278076
+    },
+    {
+      "id": "https://openalex.org/C77170095",
+      "wikidata": "https://www.wikidata.org/wiki/Q1753188",
+      "display_name": "Linearity",
+      "level": 2,
+      "score": 0.6570088863372803
+    },
+    {
+      "id": "https://openalex.org/C3770464",
+      "wikidata": "https://www.wikidata.org/wiki/Q775963",
+      "display_name": "Smoothing",
+      "level": 2,
+      "score": 0.6132727265357971
+    },
+    {
+      "id": "https://openalex.org/C122342681",
+      "wikidata": "https://www.wikidata.org/wiki/Q330828",
+      "display_name": "Skewness",
+      "level": 2,
+      "score": 0.6082477569580078
+    },
+    {
+      "id": "https://openalex.org/C163716315",
+      "wikidata": "https://www.wikidata.org/wiki/Q901177",
+      "display_name": "Gaussian",
+      "level": 2,
+      "score": 0.6050875782966614
+    },
+    {
+      "id": "https://openalex.org/C166963901",
+      "wikidata": "https://www.wikidata.org/wiki/Q287251",
+      "display_name": "Kurtosis",
+      "level": 2,
+      "score": 0.6000645160675049
+    },
+    {
+      "id": "https://openalex.org/C143724316",
+      "wikidata": "https://www.wikidata.org/wiki/Q312468",
+      "display_name": "Series (stratigraphy)",
+      "level": 2,
+      "score": 0.5458042025566101
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.5359343886375427
+    },
+    {
+      "id": "https://openalex.org/C19499675",
+      "wikidata": "https://www.wikidata.org/wiki/Q232207",
+      "display_name": "Monte Carlo method",
+      "level": 2,
+      "score": 0.5220389366149902
+    },
+    {
+      "id": "https://openalex.org/C87007009",
+      "wikidata": "https://www.wikidata.org/wiki/Q210832",
+      "display_name": "Statistical hypothesis testing",
+      "level": 2,
+      "score": 0.4817826449871063
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.47798269987106323
+    },
+    {
+      "id": "https://openalex.org/C152321242",
+      "wikidata": "https://www.wikidata.org/wiki/Q7048759",
+      "display_name": "Non-Gaussianity",
+      "level": 4,
+      "score": 0.4727405309677124
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.3795405328273773
+    },
+    {
+      "id": "https://openalex.org/C121864883",
+      "wikidata": "https://www.wikidata.org/wiki/Q677916",
+      "display_name": "Statistical physics",
+      "level": 1,
+      "score": 0.32949668169021606
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.3288164734840393
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.10789227485656738
+    },
+    {
+      "id": "https://openalex.org/C168110828",
+      "wikidata": "https://www.wikidata.org/wiki/Q1331626",
+      "display_name": "Spectral density",
+      "level": 2,
+      "score": 0.10697486996650696
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.09847652912139893
+    },
+    {
+      "id": "https://openalex.org/C24326235",
+      "wikidata": "https://www.wikidata.org/wiki/Q126095",
+      "display_name": "Electronic engineering",
+      "level": 1,
+      "score": 0.08579602837562561
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C151730666",
+      "wikidata": "https://www.wikidata.org/wiki/Q7205",
+      "display_name": "Paleontology",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C207297109",
+      "wikidata": "https://www.wikidata.org/wiki/Q15605",
+      "display_name": "Cosmic microwave background",
+      "level": 3,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C85725439",
+      "wikidata": "https://www.wikidata.org/wiki/Q466686",
+      "display_name": "Anisotropy",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C86803240",
+      "wikidata": "https://www.wikidata.org/wiki/Q420",
+      "display_name": "Biology",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1016/j.sigpro.2009.04.013",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/j.sigpro.2009.04.013",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S154637859",
+        "display_name": "Signal Processing",
+        "issn_l": "0165-1684",
+        "issn": [
+          "0165-1684",
+          "1872-7557"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Signal Processing",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 46,
+  "referenced_works": [
+    "https://openalex.org/W206349637",
+    "https://openalex.org/W953353200",
+    "https://openalex.org/W1504296355",
+    "https://openalex.org/W1507259579",
+    "https://openalex.org/W1567669715",
+    "https://openalex.org/W1568179017",
+    "https://openalex.org/W1585414268",
+    "https://openalex.org/W1629040618",
+    "https://openalex.org/W1963520257",
+    "https://openalex.org/W1964435764",
+    "https://openalex.org/W1975591141",
+    "https://openalex.org/W1985294266",
+    "https://openalex.org/W1991154420",
+    "https://openalex.org/W2001150980",
+    "https://openalex.org/W2018388266",
+    "https://openalex.org/W2023827082",
+    "https://openalex.org/W2027037044",
+    "https://openalex.org/W2030742879",
+    "https://openalex.org/W2034693484",
+    "https://openalex.org/W2043995299",
+    "https://openalex.org/W2045443845",
+    "https://openalex.org/W2052356609",
+    "https://openalex.org/W2056929675",
+    "https://openalex.org/W2065054065",
+    "https://openalex.org/W2068844879",
+    "https://openalex.org/W2074656523",
+    "https://openalex.org/W2080802633",
+    "https://openalex.org/W2097638521",
+    "https://openalex.org/W2098746383",
+    "https://openalex.org/W2108959409",
+    "https://openalex.org/W2124024908",
+    "https://openalex.org/W2132734056",
+    "https://openalex.org/W2143082178",
+    "https://openalex.org/W2501490139",
+    "https://openalex.org/W2896916590",
+    "https://openalex.org/W3015894552",
+    "https://openalex.org/W3099919611",
+    "https://openalex.org/W3105097760",
+    "https://openalex.org/W3147705998",
+    "https://openalex.org/W4300681223",
+    "https://openalex.org/W4301444643",
+    "https://openalex.org/W4303090068",
+    "https://openalex.org/W6633997232",
+    "https://openalex.org/W6641057490",
+    "https://openalex.org/W6663266106",
+    "https://openalex.org/W6755490977"
+  ],
+  "related_works": [
+    "https://openalex.org/W3123992650",
+    "https://openalex.org/W1998031344",
+    "https://openalex.org/W2094348232",
+    "https://openalex.org/W4225568567",
+    "https://openalex.org/W2012293642",
+    "https://openalex.org/W1496883226",
+    "https://openalex.org/W4297337052",
+    "https://openalex.org/W2028605949",
+    "https://openalex.org/W4286378979",
+    "https://openalex.org/W1995699895"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 2
+    }
+  ],
+  "updated_date": "2026-08-21T09:56:20.448147",
+  "created_date": "2025-10-10T00:00:00"
+}

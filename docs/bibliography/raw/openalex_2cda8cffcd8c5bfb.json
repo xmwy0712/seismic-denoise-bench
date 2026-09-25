@@ -1,0 +1,541 @@
+{
+  "id": "https://openalex.org/W1966223054",
+  "doi": "https://doi.org/10.1007/bf00876882",
+  "title": "Anisotropic radiation modelling of macroseismic intensities for estimation of the attenuation structure of the upper crust in Greece",
+  "display_name": "Anisotropic radiation modelling of macroseismic intensities for estimation of the attenuation structure of the upper crust in Greece",
+  "publication_year": 1992,
+  "publication_date": "1992-09-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1966223054",
+    "doi": "https://doi.org/10.1007/bf00876882",
+    "mag": "1966223054"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1007/bf00876882",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1007/bf00876882",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S78180602",
+      "display_name": "Pure and Applied Geophysics",
+      "issn_l": "0033-4533",
+      "issn": [
+        "0033-4533",
+        "0033-4553",
+        "1420-9136"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320186",
+      "host_organization_name": "Birkhäuser",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320186",
+        "https://openalex.org/P4310319900"
+      ],
+      "host_organization_lineage_names": [
+        "Birkhäuser",
+        "Springer Science+Business Media"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "pure and applied geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5001396493",
+        "display_name": "Constantinos B. Papazachos",
+        "orcid": "https://orcid.org/0000-0001-7408-3070",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-7408-3070"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I192756129",
+          "display_name": "University of Macedonia",
+          "ror": "https://ror.org/05fg6gr82",
+          "country_code": "GR",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I192756129"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210150103",
+          "display_name": "Geophysical Laboratory",
+          "ror": "https://ror.org/05qyye271",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I196817621",
+            "https://openalex.org/I4210150103",
+            "https://openalex.org/I4387155102"
+          ]
+        }
+      ],
+      "countries": [
+        "GR",
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Constantinos B. Papazachos",
+      "raw_affiliation_strings": [
+        "Geophysical Laboratory, University of Thessaloniki, GR-54006 Thessaloniki, Macedonia, Greece",
+        "Geophysical Laboratory, University of Thessaloniki, Macedonia, Greece"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Geophysical Laboratory, University of Thessaloniki, GR-54006 Thessaloniki, Macedonia, Greece",
+          "institution_ids": [
+            "https://openalex.org/I192756129",
+            "https://openalex.org/I4210150103"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Geophysical Laboratory, University of Thessaloniki, Macedonia, Greece",
+          "institution_ids": [
+            "https://openalex.org/I192756129"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5001396493"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I192756129",
+    "https://openalex.org/I4210150103"
+  ],
+  "apc_list": {
+    "value": 3790,
+    "currency": "USD",
+    "value_usd": 3790
+  },
+  "apc_paid": null,
+  "fwci": 1.6388,
+  "has_fulltext": false,
+  "cited_by_count": 40,
+  "citation_normalized_percentile": {
+    "value": 0.7952113,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 88,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "138",
+    "issue": "3",
+    "first_page": "445",
+    "last_page": "469"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10110",
+    "display_name": "earthquake and tectonic studies",
+    "score": 0.9998000264167786,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10110",
+      "display_name": "earthquake and tectonic studies",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10413",
+      "display_name": "High-pressure geophysics and materials",
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10001",
+      "display_name": "Geological and Geochemical Analysis",
+      "score": 0.9991999864578247,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/crust",
+      "display_name": "Crust",
+      "score": 0.7566853761672974
+    },
+    {
+      "id": "https://openalex.org/keywords/anisotropy",
+      "display_name": "Anisotropy",
+      "score": 0.7423216104507446
+    },
+    {
+      "id": "https://openalex.org/keywords/attenuation",
+      "display_name": "Attenuation",
+      "score": 0.7188854813575745
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.6836395859718323
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.626266360282898
+    },
+    {
+      "id": "https://openalex.org/keywords/radiation",
+      "display_name": "Radiation",
+      "score": 0.5983809232711792
+    },
+    {
+      "id": "https://openalex.org/keywords/upper-crust",
+      "display_name": "Upper crust",
+      "score": 0.5623044371604919
+    },
+    {
+      "id": "https://openalex.org/keywords/estimation",
+      "display_name": "Estimation",
+      "score": 0.48261603713035583
+    },
+    {
+      "id": "https://openalex.org/keywords/geodesy",
+      "display_name": "Geodesy",
+      "score": 0.3894626498222351
+    },
+    {
+      "id": "https://openalex.org/keywords/geophysics",
+      "display_name": "Geophysics",
+      "score": 0.37262850999832153
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.17470133304595947
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.1378202736377716
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2776698055",
+      "wikidata": "https://www.wikidata.org/wiki/Q4232578",
+      "display_name": "Crust",
+      "level": 2,
+      "score": 0.7566853761672974
+    },
+    {
+      "id": "https://openalex.org/C85725439",
+      "wikidata": "https://www.wikidata.org/wiki/Q466686",
+      "display_name": "Anisotropy",
+      "level": 2,
+      "score": 0.7423216104507446
+    },
+    {
+      "id": "https://openalex.org/C184652730",
+      "wikidata": "https://www.wikidata.org/wiki/Q2357982",
+      "display_name": "Attenuation",
+      "level": 2,
+      "score": 0.7188854813575745
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.6836395859718323
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.626266360282898
+    },
+    {
+      "id": "https://openalex.org/C153385146",
+      "wikidata": "https://www.wikidata.org/wiki/Q18335",
+      "display_name": "Radiation",
+      "level": 2,
+      "score": 0.5983809232711792
+    },
+    {
+      "id": "https://openalex.org/C2994012208",
+      "wikidata": "https://www.wikidata.org/wiki/Q7899037",
+      "display_name": "Upper crust",
+      "level": 3,
+      "score": 0.5623044371604919
+    },
+    {
+      "id": "https://openalex.org/C96250715",
+      "wikidata": "https://www.wikidata.org/wiki/Q965330",
+      "display_name": "Estimation",
+      "level": 2,
+      "score": 0.48261603713035583
+    },
+    {
+      "id": "https://openalex.org/C13280743",
+      "wikidata": "https://www.wikidata.org/wiki/Q131089",
+      "display_name": "Geodesy",
+      "level": 1,
+      "score": 0.3894626498222351
+    },
+    {
+      "id": "https://openalex.org/C8058405",
+      "wikidata": "https://www.wikidata.org/wiki/Q46255",
+      "display_name": "Geophysics",
+      "level": 1,
+      "score": 0.37262850999832153
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.17470133304595947
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.1378202736377716
+    },
+    {
+      "id": "https://openalex.org/C187736073",
+      "wikidata": "https://www.wikidata.org/wiki/Q2920921",
+      "display_name": "Management",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C162324750",
+      "wikidata": "https://www.wikidata.org/wiki/Q8134",
+      "display_name": "Economics",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1007/bf00876882",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1007/bf00876882",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S78180602",
+        "display_name": "Pure and Applied Geophysics",
+        "issn_l": "0033-4533",
+        "issn": [
+          "0033-4533",
+          "0033-4553",
+          "1420-9136"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320186",
+        "host_organization_name": "Birkhäuser",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320186",
+          "https://openalex.org/P4310319900"
+        ],
+        "host_organization_lineage_names": [
+          "Birkhäuser",
+          "Springer Science+Business Media"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "pure and applied geophysics",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Life below water",
+      "score": 0.46000000834465027,
+      "id": "https://metadata.un.org/sdg/14"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 41,
+  "referenced_works": [
+    "https://openalex.org/W173205224",
+    "https://openalex.org/W592011823",
+    "https://openalex.org/W625928471",
+    "https://openalex.org/W1544336012",
+    "https://openalex.org/W1960534147",
+    "https://openalex.org/W1966942475",
+    "https://openalex.org/W1977950835",
+    "https://openalex.org/W1981648444",
+    "https://openalex.org/W1991538675",
+    "https://openalex.org/W1991687831",
+    "https://openalex.org/W2007719758",
+    "https://openalex.org/W2010308068",
+    "https://openalex.org/W2018924626",
+    "https://openalex.org/W2028317725",
+    "https://openalex.org/W2028452457",
+    "https://openalex.org/W2039175995",
+    "https://openalex.org/W2048403692",
+    "https://openalex.org/W2057533792",
+    "https://openalex.org/W2063015866",
+    "https://openalex.org/W2063737715",
+    "https://openalex.org/W2076293737",
+    "https://openalex.org/W2087070363",
+    "https://openalex.org/W2096154525",
+    "https://openalex.org/W2101692651",
+    "https://openalex.org/W2130702223",
+    "https://openalex.org/W2146079138",
+    "https://openalex.org/W2166074915",
+    "https://openalex.org/W2247170846",
+    "https://openalex.org/W2253207088",
+    "https://openalex.org/W2256578114",
+    "https://openalex.org/W2312699173",
+    "https://openalex.org/W2318968283",
+    "https://openalex.org/W2339089448",
+    "https://openalex.org/W2339683945",
+    "https://openalex.org/W2346298924",
+    "https://openalex.org/W2479138510",
+    "https://openalex.org/W2507678622",
+    "https://openalex.org/W2565081784",
+    "https://openalex.org/W2585480592",
+    "https://openalex.org/W2795323524",
+    "https://openalex.org/W4285719527"
+  ],
+  "related_works": [
+    "https://openalex.org/W2062675502",
+    "https://openalex.org/W2185387157",
+    "https://openalex.org/W1977573430",
+    "https://openalex.org/W2575482651",
+    "https://openalex.org/W2359241047",
+    "https://openalex.org/W2043767945",
+    "https://openalex.org/W2376496168",
+    "https://openalex.org/W2029687013",
+    "https://openalex.org/W4315485038",
+    "https://openalex.org/W1968669257"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

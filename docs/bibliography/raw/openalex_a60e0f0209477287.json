@@ -1,0 +1,1041 @@
+{
+  "id": "https://openalex.org/W7164938999",
+  "doi": "https://doi.org/10.1016/j.petsci.2026.06.021",
+  "title": "A fluidic hammer as a high-fidelity seismic-while-drilling source: A direct, quantitative comparison with conventional drill bits",
+  "display_name": "A fluidic hammer as a high-fidelity seismic-while-drilling source: A direct, quantitative comparison with conventional drill bits",
+  "publication_year": 2026,
+  "publication_date": "2026-06-01",
+  "ids": {
+    "openalex": "https://openalex.org/W7164938999",
+    "doi": "https://doi.org/10.1016/j.petsci.2026.06.021"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/j.petsci.2026.06.021",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.petsci.2026.06.021",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S177501576",
+      "display_name": "Petroleum Science",
+      "issn_l": "1995-8226",
+      "issn": [
+        "1995-8226",
+        "1672-5107"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "jufo-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Petroleum Science",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref",
+    "doaj"
+  ],
+  "open_access": {
+    "is_oa": true,
+    "oa_status": "diamond",
+    "oa_url": "https://doi.org/10.1016/j.petsci.2026.06.021",
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5135747699",
+        "display_name": "Bo-yao Zhang",
+        "orcid": "https://orcid.org/0009-0004-1770-7616"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I194450716",
+          "display_name": "Jilin University",
+          "ror": "https://ror.org/00js3aw79",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I194450716"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Bo-Yao Zhang",
+      "raw_affiliation_strings": [
+        "College of Construction Engineering, Jilin University, Changchun, 130026, Jilin, China",
+        "Key Laboratory of Geophysical Exploration Equipment, Ministry of Education, Jilin University, Changchun, 130026, Jilin, China"
+      ],
+      "raw_orcid": "https://orcid.org/0009-0004-1770-7616",
+      "affiliations": [
+        {
+          "raw_affiliation_string": "College of Construction Engineering, Jilin University, Changchun, 130026, Jilin, China",
+          "institution_ids": [
+            "https://openalex.org/I194450716"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Key Laboratory of Geophysical Exploration Equipment, Ministry of Education, Jilin University, Changchun, 130026, Jilin, China",
+          "institution_ids": [
+            "https://openalex.org/I194450716"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "middle",
+      "author": {
+        "id": "https://openalex.org/A5138719244",
+        "display_name": "Jian-Ming Peng",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I194450716",
+          "display_name": "Jilin University",
+          "ror": "https://ror.org/00js3aw79",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I194450716"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Jian-Ming Peng",
+      "raw_affiliation_strings": [
+        "College of Construction Engineering, Jilin University, Changchun, 130026, Jilin, China",
+        "Key Laboratory of Geophysical Exploration Equipment, Ministry of Education, Jilin University, Changchun, 130026, Jilin, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "College of Construction Engineering, Jilin University, Changchun, 130026, Jilin, China",
+          "institution_ids": [
+            "https://openalex.org/I194450716"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Key Laboratory of Geophysical Exploration Equipment, Ministry of Education, Jilin University, Changchun, 130026, Jilin, China",
+          "institution_ids": [
+            "https://openalex.org/I194450716"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5100780953",
+        "display_name": "Ge Dong",
+        "orcid": "https://orcid.org/0000-0003-3950-222X"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I194450716",
+          "display_name": "Jilin University",
+          "ror": "https://ror.org/00js3aw79",
+          "country_code": "CN",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I194450716"
+          ]
+        }
+      ],
+      "countries": [
+        "CN"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "Dong Ge",
+      "raw_affiliation_strings": [
+        "College of Construction Engineering, Jilin University, Changchun, 130026, Jilin, China",
+        "Key Laboratory of Geophysical Exploration Equipment, Ministry of Education, Jilin University, Changchun, 130026, Jilin, China"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "College of Construction Engineering, Jilin University, Changchun, 130026, Jilin, China",
+          "institution_ids": [
+            "https://openalex.org/I194450716"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Key Laboratory of Geophysical Exploration Equipment, Ministry of Education, Jilin University, Changchun, 130026, Jilin, China",
+          "institution_ids": [
+            "https://openalex.org/I194450716"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5100780953"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I194450716"
+  ],
+  "apc_list": {
+    "value": 0,
+    "currency": "USD",
+    "value_usd": 0
+  },
+  "apc_paid": null,
+  "fwci": 3.2392,
+  "has_fulltext": false,
+  "cited_by_count": 1,
+  "citation_normalized_percentile": {
+    "value": 0.92880216,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 93,
+    "max": 96
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10892",
+    "display_name": "Drilling and Well Engineering",
+    "score": 0.920199990272522,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2212",
+      "display_name": "Ocean Engineering"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10892",
+      "display_name": "Drilling and Well Engineering",
+      "score": 0.920199990272522,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2212",
+        "display_name": "Ocean Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13619",
+      "display_name": "Geotechnical and Geomechanical Engineering",
+      "score": 0.009800000116229057,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.007600000128149986,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/hammer",
+      "display_name": "Hammer",
+      "score": 0.8806999921798706
+    },
+    {
+      "id": "https://openalex.org/keywords/drill",
+      "display_name": "Drill",
+      "score": 0.680899977684021
+    },
+    {
+      "id": "https://openalex.org/keywords/fluidics",
+      "display_name": "Fluidics",
+      "score": 0.5605999827384949
+    },
+    {
+      "id": "https://openalex.org/keywords/drill-bit",
+      "display_name": "Drill bit",
+      "score": 0.4041999876499176
+    },
+    {
+      "id": "https://openalex.org/keywords/drill-pipe",
+      "display_name": "Drill pipe",
+      "score": 0.3260999917984009
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C13655849",
+      "wikidata": "https://www.wikidata.org/wiki/Q25294",
+      "display_name": "Hammer",
+      "level": 2,
+      "score": 0.8806999921798706
+    },
+    {
+      "id": "https://openalex.org/C173736775",
+      "wikidata": "https://www.wikidata.org/wiki/Q58964",
+      "display_name": "Drill",
+      "level": 2,
+      "score": 0.680899977684021
+    },
+    {
+      "id": "https://openalex.org/C132651336",
+      "wikidata": "https://www.wikidata.org/wiki/Q185571",
+      "display_name": "Fluidics",
+      "level": 2,
+      "score": 0.5605999827384949
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.5547000169754028
+    },
+    {
+      "id": "https://openalex.org/C78519656",
+      "wikidata": "https://www.wikidata.org/wiki/Q101333",
+      "display_name": "Mechanical engineering",
+      "level": 1,
+      "score": 0.499099999666214
+    },
+    {
+      "id": "https://openalex.org/C2778382975",
+      "wikidata": "https://www.wikidata.org/wiki/Q335283",
+      "display_name": "Drill bit",
+      "level": 3,
+      "score": 0.4041999876499176
+    },
+    {
+      "id": "https://openalex.org/C78762247",
+      "wikidata": "https://www.wikidata.org/wiki/Q1273174",
+      "display_name": "Petroleum engineering",
+      "level": 1,
+      "score": 0.3781000077724457
+    },
+    {
+      "id": "https://openalex.org/C199639397",
+      "wikidata": "https://www.wikidata.org/wiki/Q1788588",
+      "display_name": "Engineering drawing",
+      "level": 1,
+      "score": 0.35109999775886536
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.3264000117778778
+    },
+    {
+      "id": "https://openalex.org/C2776088076",
+      "wikidata": "https://www.wikidata.org/wiki/Q4199385",
+      "display_name": "Drill pipe",
+      "level": 3,
+      "score": 0.3260999917984009
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.3206999897956848
+    },
+    {
+      "id": "https://openalex.org/C2992960596",
+      "wikidata": "https://www.wikidata.org/wiki/Q502102",
+      "display_name": "Drill hole",
+      "level": 3,
+      "score": 0.31279999017715454
+    },
+    {
+      "id": "https://openalex.org/C66938386",
+      "wikidata": "https://www.wikidata.org/wiki/Q633538",
+      "display_name": "Structural engineering",
+      "level": 1,
+      "score": 0.30169999599456787
+    },
+    {
+      "id": "https://openalex.org/C199104240",
+      "wikidata": "https://www.wikidata.org/wiki/Q118291",
+      "display_name": "Marine engineering",
+      "level": 1,
+      "score": 0.2912999987602234
+    },
+    {
+      "id": "https://openalex.org/C548895740",
+      "wikidata": "https://www.wikidata.org/wiki/Q22656",
+      "display_name": "Petroleum",
+      "level": 2,
+      "score": 0.251800000667572
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1016/j.petsci.2026.06.021",
+      "is_oa": true,
+      "landing_page_url": "https://doi.org/10.1016/j.petsci.2026.06.021",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S177501576",
+        "display_name": "Petroleum Science",
+        "issn_l": "1995-8226",
+        "issn": [
+          "1995-8226",
+          "1672-5107"
+        ],
+        "is_oa": true,
+        "is_in_doaj": true,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "doaj",
+          "jufo-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": "cc-by-nc-nd",
+      "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Petroleum Science",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": {
+    "id": "doi:10.1016/j.petsci.2026.06.021",
+    "is_oa": true,
+    "landing_page_url": "https://doi.org/10.1016/j.petsci.2026.06.021",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S177501576",
+      "display_name": "Petroleum Science",
+      "issn_l": "1995-8226",
+      "issn": [
+        "1995-8226",
+        "1672-5107"
+      ],
+      "is_oa": true,
+      "is_in_doaj": true,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "doaj",
+        "jufo-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": "cc-by-nc-nd",
+    "license_id": "https://openalex.org/licenses/cc-by-nc-nd",
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Petroleum Science",
+    "raw_type": "journal-article"
+  },
+  "sustainable_development_goals": [
+    {
+      "display_name": "Climate action",
+      "id": "https://metadata.un.org/sdg/13",
+      "score": 0.5165925025939941
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [
+    {
+      "id": "https://openalex.org/G164408805",
+      "display_name": null,
+      "funder_award_id": "GEIOF2023002",
+      "funder_id": "https://openalex.org/F4320322300",
+      "funder_display_name": "Jilin University"
+    }
+  ],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320322300",
+      "display_name": "Jilin University",
+      "ror": "https://ror.org/00js3aw79"
+    }
+  ],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 21,
+  "referenced_works": [
+    "https://openalex.org/W1532375194",
+    "https://openalex.org/W2034927667",
+    "https://openalex.org/W2046204180",
+    "https://openalex.org/W2055553006",
+    "https://openalex.org/W2058359126",
+    "https://openalex.org/W2066789118",
+    "https://openalex.org/W2075339560",
+    "https://openalex.org/W2083391165",
+    "https://openalex.org/W2097567764",
+    "https://openalex.org/W2137821086",
+    "https://openalex.org/W2162847366",
+    "https://openalex.org/W2215702713",
+    "https://openalex.org/W2313648928",
+    "https://openalex.org/W2487692127",
+    "https://openalex.org/W2725155761",
+    "https://openalex.org/W3094660067",
+    "https://openalex.org/W4220957892",
+    "https://openalex.org/W4239321321",
+    "https://openalex.org/W4307953191",
+    "https://openalex.org/W4319842949",
+    "https://openalex.org/W4400182761"
+  ],
+  "related_works": [],
+  "abstract_inverted_index": {
+    "We": [
+      0
+    ],
+    "performed": [
+      1
+    ],
+    "a": [
+      2,
+      23,
+      86,
+      108,
+      129,
+      138,
+      181
+    ],
+    "direct": [
+      3
+    ],
+    "comparative": [
+      4
+    ],
+    "analysis": [
+      5,
+      48,
+      79
+    ],
+    "of": [
+      6,
+      42,
+      49,
+      96,
+      175
+    ],
+    "the": [
+      7,
+      39,
+      43,
+      50,
+      55,
+      66,
+      75,
+      82,
+      148,
+      153,
+      162,
+      169
+    ],
+    "seismic": [
+      8,
+      63
+    ],
+    "wavefields": [
+      9
+    ],
+    "radiated": [
+      10
+    ],
+    "from": [
+      11
+    ],
+    "three": [
+      12
+    ],
+    "distinct": [
+      13
+    ],
+    "drilling": [
+      14,
+      21,
+      29
+    ],
+    "mechanisms": [
+      15
+    ],
+    "under": [
+      16
+    ],
+    "controlled": [
+      17
+    ],
+    "laboratory": [
+      18
+    ],
+    "conditions:": [
+      19
+    ],
+    "percussion-rotary": [
+      20
+    ],
+    "with": [
+      22,
+      30,
+      147
+    ],
+    "fluidic": [
+      24,
+      44,
+      56,
+      83,
+      163
+    ],
+    "hammer,": [
+      25
+    ],
+    "and": [
+      26,
+      32,
+      69,
+      88,
+      117,
+      172
+    ],
+    "conventional": [
+      27
+    ],
+    "rotary": [
+      28
+    ],
+    "roller-cone": [
+      31,
+      67
+    ],
+    "polycrystalline-diamond-compact": [
+      33
+    ],
+    "(PDC)": [
+      34
+    ],
+    "bits.": [
+      35
+    ],
+    "The": [
+      36,
+      93
+    ],
+    "results": [
+      37
+    ],
+    "reveal": [
+      38
+    ],
+    "comprehensive": [
+      40
+    ],
+    "superiority": [
+      41
+    ],
+    "hammer.": [
+      45
+    ],
+    "A": [
+      46
+    ],
+    "quantitative": [
+      47,
+      186
+    ],
+    "peak": [
+      51
+    ],
+    "signals": [
+      52
+    ],
+    "indicates": [
+      53
+    ],
+    "that": [
+      54,
+      81,
+      161
+    ],
+    "hammer": [
+      57,
+      84,
+      111,
+      164
+    ],
+    "radiates": [
+      58
+    ],
+    "approximately": [
+      59
+    ],
+    "12.2": [
+      60
+    ],
+    "times": [
+      61,
+      72
+    ],
+    "more": [
+      62,
+      73
+    ],
+    "energy": [
+      64,
+      123,
+      135,
+      171
+    ],
+    "than": [
+      65,
+      74
+    ],
+    "bit": [
+      68
+    ],
+    "over": [
+      70
+    ],
+    "809.3": [
+      71
+    ],
+    "PDC": [
+      76
+    ],
+    "bit.": [
+      77
+    ],
+    "Further": [
+      78
+    ],
+    "demonstrates": [
+      80
+    ],
+    "produces": [
+      85
+    ],
+    "high-energy": [
+      87
+    ],
+    "broadband": [
+      89
+    ],
+    "(50–150": [
+      90
+    ],
+    "Hz)": [
+      91
+    ],
+    "wavefield.": [
+      92
+    ],
+    "kinematic": [
+      94,
+      119
+    ],
+    "fidelity": [
+      95
+    ],
+    "this": [
+      97
+    ],
+    "wavefield": [
+      98
+    ],
+    "was": [
+      99
+    ],
+    "robustly": [
+      100
+    ],
+    "validated": [
+      101
+    ],
+    "against": [
+      102
+    ],
+    "an": [
+      103
+    ],
+    "independent": [
+      104
+    ],
+    "benchmark": [
+      105
+    ],
+    "experiment": [
+      106
+    ],
+    "using": [
+      107
+    ],
+    "traditional": [
+      109,
+      176
+    ],
+    "instrumented": [
+      110
+    ],
+    "source.": [
+      112,
+      132
+    ],
+    "Its": [
+      113
+    ],
+    "highly": [
+      114
+    ],
+    "repeatable": [
+      115
+    ],
+    "wavelet": [
+      116
+    ],
+    "unwavering": [
+      118
+    ],
+    "response": [
+      120
+    ],
+    "across": [
+      121
+    ],
+    "all": [
+      122
+    ],
+    "levels": [
+      124
+    ],
+    "cement": [
+      125
+    ],
+    "its": [
+      126,
+      134
+    ],
+    "status": [
+      127
+    ],
+    "as": [
+      128
+    ],
+    "truly": [
+      130
+    ],
+    "high-fidelity": [
+      131
+    ],
+    "Crucially,": [
+      133
+    ],
+    "output": [
+      136
+    ],
+    "exhibits": [
+      137
+    ],
+    "strong": [
+      139
+    ],
+    "linear": [
+      140
+    ],
+    "relationship": [
+      141
+    ],
+    "(": [
+      142
+    ],
+    "R": [
+      143
+    ],
+    "2": [
+      144
+    ],
+    "=": [
+      145
+    ],
+    "0.9360)": [
+      146
+    ],
+    "operational": [
+      149
+    ],
+    "flow": [
+      150
+    ],
+    "rate,": [
+      151
+    ],
+    "proving": [
+      152
+    ],
+    "source": [
+      154,
+      165
+    ],
+    "is": [
+      155
+    ],
+    "quantitatively": [
+      156
+    ],
+    "controllable.": [
+      157
+    ],
+    "These": [
+      158
+    ],
+    "findings": [
+      159
+    ],
+    "demonstrate": [
+      160
+    ],
+    "mechanism": [
+      166
+    ],
+    "can": [
+      167
+    ],
+    "overcome": [
+      168
+    ],
+    "fundamental": [
+      170
+    ],
+    "stability": [
+      173
+    ],
+    "limitations": [
+      174
+    ],
+    "drill-bit": [
+      177
+    ],
+    "seismic-while-drilling": [
+      178
+    ],
+    "(DB-SWD),": [
+      179
+    ],
+    "offering": [
+      180
+    ],
+    "promising": [
+      182
+    ],
+    "pathway": [
+      183
+    ],
+    "toward": [
+      184
+    ],
+    "high-fidelity,": [
+      185
+    ],
+    "subsurface": [
+      187
+    ],
+    "imaging.": [
+      188
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 1
+    }
+  ],
+  "updated_date": "2026-09-21T07:43:02.447757",
+  "created_date": "2026-06-17T00:00:00"
+}

@@ -1,0 +1,751 @@
+{
+  "id": "https://openalex.org/W2197861187",
+  "doi": "https://doi.org/10.1115/pvp2015-45721",
+  "title": "Benchmark of Elastic Plastic Seismic Response Analysis and Fatigue Evaluation for Piping",
+  "display_name": "Benchmark of Elastic Plastic Seismic Response Analysis and Fatigue Evaluation for Piping",
+  "publication_year": 2015,
+  "publication_date": "2015-07-19",
+  "ids": {
+    "openalex": "https://openalex.org/W2197861187",
+    "doi": "https://doi.org/10.1115/pvp2015-45721",
+    "mag": "2197861187"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1115/pvp2015-45721",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1115/pvp2015-45721",
+    "pdf_url": null,
+    "source": null,
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Volume 1B: Codes and Standards",
+    "raw_type": "proceedings-article"
+  },
+  "type": "conference-paper",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5026780771",
+        "display_name": "Teruyoshi Otoyo",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210101228",
+          "display_name": "IHI Corporation (Japan)",
+          "ror": "https://ror.org/018nb9n34",
+          "country_code": "JP",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210101228"
+          ]
+        }
+      ],
+      "countries": [
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Teruyoshi Otoyo",
+      "raw_affiliation_strings": [
+        "IHI Corporation, Yokohama, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "IHI Corporation, Yokohama, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210101228"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5016114720",
+        "display_name": "Akihito Otani",
+        "orcid": null
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210101228",
+          "display_name": "IHI Corporation (Japan)",
+          "ror": "https://ror.org/018nb9n34",
+          "country_code": "JP",
+          "type": "company",
+          "lineage": [
+            "https://openalex.org/I4210101228"
+          ]
+        }
+      ],
+      "countries": [
+        "JP"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "Akihito Otani",
+      "raw_affiliation_strings": [
+        "IHI Corporation, Yokohama, Japan"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "IHI Corporation, Yokohama, Japan",
+          "institution_ids": [
+            "https://openalex.org/I4210101228"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210101228"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 0.0,
+  "has_fulltext": false,
+  "cited_by_count": 0,
+  "citation_normalized_percentile": {
+    "value": 0.12818718,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": null,
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": null,
+    "last_page": null
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T14156",
+    "display_name": "Engineering Applied Research",
+    "score": 0.7797999978065491,
+    "subfield": {
+      "id": "https://openalex.org/subfields/2205",
+      "display_name": "Civil and Structural Engineering"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/22",
+      "display_name": "Engineering"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T14156",
+      "display_name": "Engineering Applied Research",
+      "score": 0.7797999978065491,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T13800",
+      "display_name": "Earthquake and Disaster Impact Studies",
+      "score": 0.7405999898910522,
+      "subfield": {
+        "id": "https://openalex.org/subfields/3313",
+        "display_name": "Transportation"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/33",
+        "display_name": "Social Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/2",
+        "display_name": "Social Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10160",
+      "display_name": "Seismic Performance and Analysis",
+      "score": 0.7250999808311462,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2205",
+        "display_name": "Civil and Structural Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/piping",
+      "display_name": "Piping",
+      "score": 0.8850552439689636
+    },
+    {
+      "id": "https://openalex.org/keywords/benchmark",
+      "display_name": "Benchmark (surveying)",
+      "score": 0.7551091909408569
+    },
+    {
+      "id": "https://openalex.org/keywords/earthquake-shaking-table",
+      "display_name": "Earthquake shaking table",
+      "score": 0.754572868347168
+    },
+    {
+      "id": "https://openalex.org/keywords/structural-engineering",
+      "display_name": "Structural engineering",
+      "score": 0.6615992784500122
+    },
+    {
+      "id": "https://openalex.org/keywords/acceleration",
+      "display_name": "Acceleration",
+      "score": 0.6195998787879944
+    },
+    {
+      "id": "https://openalex.org/keywords/displacement",
+      "display_name": "Displacement (psychology)",
+      "score": 0.5331895351409912
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-analysis",
+      "display_name": "Seismic analysis",
+      "score": 0.4364132881164551
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.4079604744911194
+    },
+    {
+      "id": "https://openalex.org/keywords/engineering",
+      "display_name": "Engineering",
+      "score": 0.3880714178085327
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.35736316442489624
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.14847931265830994
+    },
+    {
+      "id": "https://openalex.org/keywords/mechanical-engineering",
+      "display_name": "Mechanical engineering",
+      "score": 0.09133055806159973
+    },
+    {
+      "id": "https://openalex.org/keywords/geodesy",
+      "display_name": "Geodesy",
+      "score": 0.07820180058479309
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C2779095084",
+      "wikidata": "https://www.wikidata.org/wiki/Q3679502",
+      "display_name": "Piping",
+      "level": 2,
+      "score": 0.8850552439689636
+    },
+    {
+      "id": "https://openalex.org/C185798385",
+      "wikidata": "https://www.wikidata.org/wiki/Q1161707",
+      "display_name": "Benchmark (surveying)",
+      "level": 2,
+      "score": 0.7551091909408569
+    },
+    {
+      "id": "https://openalex.org/C149007308",
+      "wikidata": "https://www.wikidata.org/wiki/Q5327279",
+      "display_name": "Earthquake shaking table",
+      "level": 2,
+      "score": 0.754572868347168
+    },
+    {
+      "id": "https://openalex.org/C66938386",
+      "wikidata": "https://www.wikidata.org/wiki/Q633538",
+      "display_name": "Structural engineering",
+      "level": 1,
+      "score": 0.6615992784500122
+    },
+    {
+      "id": "https://openalex.org/C117896860",
+      "wikidata": "https://www.wikidata.org/wiki/Q11376",
+      "display_name": "Acceleration",
+      "level": 2,
+      "score": 0.6195998787879944
+    },
+    {
+      "id": "https://openalex.org/C107551265",
+      "wikidata": "https://www.wikidata.org/wiki/Q1458245",
+      "display_name": "Displacement (psychology)",
+      "level": 2,
+      "score": 0.5331895351409912
+    },
+    {
+      "id": "https://openalex.org/C182358397",
+      "wikidata": "https://www.wikidata.org/wiki/Q2656128",
+      "display_name": "Seismic analysis",
+      "level": 2,
+      "score": 0.4364132881164551
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.4079604744911194
+    },
+    {
+      "id": "https://openalex.org/C127413603",
+      "wikidata": "https://www.wikidata.org/wiki/Q11023",
+      "display_name": "Engineering",
+      "level": 0,
+      "score": 0.3880714178085327
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.35736316442489624
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.14847931265830994
+    },
+    {
+      "id": "https://openalex.org/C78519656",
+      "wikidata": "https://www.wikidata.org/wiki/Q101333",
+      "display_name": "Mechanical engineering",
+      "level": 1,
+      "score": 0.09133055806159973
+    },
+    {
+      "id": "https://openalex.org/C13280743",
+      "wikidata": "https://www.wikidata.org/wiki/Q131089",
+      "display_name": "Geodesy",
+      "level": 1,
+      "score": 0.07820180058479309
+    },
+    {
+      "id": "https://openalex.org/C542102704",
+      "wikidata": "https://www.wikidata.org/wiki/Q183257",
+      "display_name": "Psychotherapist",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C74650414",
+      "wikidata": "https://www.wikidata.org/wiki/Q11397",
+      "display_name": "Classical mechanics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C15744967",
+      "wikidata": "https://www.wikidata.org/wiki/Q9418",
+      "display_name": "Psychology",
+      "level": 0,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1115/pvp2015-45721",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1115/pvp2015-45721",
+      "pdf_url": null,
+      "source": null,
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Volume 1B: Codes and Standards",
+      "raw_type": "proceedings-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "score": 0.8100000023841858,
+      "id": "https://metadata.un.org/sdg/13",
+      "display_name": "Climate action"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 0,
+  "referenced_works": [],
+  "related_works": [
+    "https://openalex.org/W2642647287",
+    "https://openalex.org/W2460600108",
+    "https://openalex.org/W2092522664",
+    "https://openalex.org/W2614019867",
+    "https://openalex.org/W2385777912",
+    "https://openalex.org/W1606571145",
+    "https://openalex.org/W2372546313",
+    "https://openalex.org/W4389140740",
+    "https://openalex.org/W415128147",
+    "https://openalex.org/W2902434157"
+  ],
+  "abstract_inverted_index": {
+    "This": [
+      0
+    ],
+    "paper": [
+      1
+    ],
+    "shows": [
+      2
+    ],
+    "a": [
+      3,
+      31,
+      54,
+      90
+    ],
+    "benchmark": [
+      4,
+      61,
+      91
+    ],
+    "result": [
+      5
+    ],
+    "regarding": [
+      6
+    ],
+    "elastic-plastic": [
+      7
+    ],
+    "seismic": [
+      8,
+      45,
+      52,
+      66,
+      93,
+      97
+    ],
+    "response": [
+      9,
+      67,
+      94,
+      125
+    ],
+    "analysis": [
+      10,
+      68,
+      95
+    ],
+    "and": [
+      11,
+      26,
+      69,
+      86,
+      96,
+      111,
+      127
+    ],
+    "fatigue": [
+      12,
+      106
+    ],
+    "evaluation": [
+      13,
+      46,
+      70,
+      98
+    ],
+    "for": [
+      14,
+      23,
+      48,
+      63,
+      71,
+      131
+    ],
+    "of": [
+      15,
+      33,
+      36,
+      40,
+      92,
+      114
+    ],
+    "piping": [
+      16,
+      49,
+      72
+    ],
+    "model": [
+      17
+    ],
+    "excitation": [
+      18
+    ],
+    "test.": [
+      19
+    ],
+    "National": [
+      20
+    ],
+    "Research": [
+      21
+    ],
+    "Institute": [
+      22
+    ],
+    "Earth": [
+      24
+    ],
+    "Science": [
+      25
+    ],
+    "Disaster": [
+      27
+    ],
+    "Prevention": [
+      28
+    ],
+    "(NIED)": [
+      29
+    ],
+    "has": [
+      30
+    ],
+    "lot": [
+      32
+    ],
+    "experimental": [
+      34,
+      76,
+      103
+    ],
+    "results": [
+      35,
+      77
+    ],
+    "shaking": [
+      37
+    ],
+    "table": [
+      38
+    ],
+    "test": [
+      39
+    ],
+    "piping.": [
+      41
+    ],
+    "To": [
+      42
+    ],
+    "propose": [
+      43
+    ],
+    "advance": [
+      44
+    ],
+    "method": [
+      47
+    ],
+    "under": [
+      50
+    ],
+    "severe": [
+      51
+    ],
+    "event,": [
+      53
+    ],
+    "task": [
+      55,
+      85
+    ],
+    "in": [
+      56,
+      83
+    ],
+    "JSME": [
+      57
+    ],
+    "Code": [
+      58
+    ],
+    "committee": [
+      59
+    ],
+    "performs": [
+      60
+    ],
+    "activity": [
+      62
+    ],
+    "elastic": [
+      64
+    ],
+    "plastic": [
+      65,
+      132
+    ],
+    "by": [
+      73,
+      99
+    ],
+    "using": [
+      74
+    ],
+    "NIED’s": [
+      75
+    ],
+    "[1].": [
+      78
+    ],
+    "Authors": [
+      79
+    ],
+    "are": [
+      80
+    ],
+    "taking": [
+      81
+    ],
+    "part": [
+      82
+    ],
+    "the": [
+      84,
+      102,
+      108,
+      112
+    ],
+    "have": [
+      87
+    ],
+    "been": [
+      88
+    ],
+    "performed": [
+      89
+    ],
+    "comparing": [
+      100
+    ],
+    "with": [
+      101
+    ],
+    "results.": [
+      104
+    ],
+    "For": [
+      105
+    ],
+    "evaluation,": [
+      107
+    ],
+    "strain": [
+      109,
+      119
+    ],
+    "ranges": [
+      110
+    ],
+    "cycles": [
+      113
+    ],
+    "each": [
+      115
+    ],
+    "range": [
+      116
+    ],
+    "obtained": [
+      117
+    ],
+    "from": [
+      118
+    ],
+    "time": [
+      120
+    ],
+    "history": [
+      121
+    ],
+    "were": [
+      122
+    ],
+    "evaluated.": [
+      123
+    ],
+    "The": [
+      124
+    ],
+    "acceleration": [
+      126
+    ],
+    "displacement": [
+      128
+    ],
+    "was": [
+      129
+    ],
+    "evaluated": [
+      130
+    ],
+    "collapse.": [
+      133
+    ]
+  },
+  "counts_by_year": [],
+  "updated_date": "2026-07-29T14:22:42.915294",
+  "created_date": "2025-10-10T00:00:00"
+}

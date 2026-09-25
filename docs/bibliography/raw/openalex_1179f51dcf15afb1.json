@@ -1,0 +1,958 @@
+{
+  "id": "https://openalex.org/W2014084343",
+  "doi": "https://doi.org/10.1190/1.1442240",
+  "title": "Automatic phase correction of common-midpoint stacked data",
+  "display_name": "Automatic phase correction of common-midpoint stacked data",
+  "publication_year": 1987,
+  "publication_date": "1987-01-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2014084343",
+    "doi": "https://doi.org/10.1190/1.1442240",
+    "mag": "2014084343"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.1442240",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.1442240",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S106174089",
+      "display_name": "Geophysics",
+      "issn_l": "0016-8033",
+      "issn": [
+        "0016-8033",
+        "1942-2156"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5042654827",
+        "display_name": "Shlomo Levy",
+        "orcid": "https://orcid.org/0009-0008-0647-6882",
+        "observed_orcids": [
+          "https://orcid.org/0009-0008-0647-6882"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I141945490",
+          "display_name": "University of British Columbia",
+          "ror": "https://ror.org/03rmrcq20",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I141945490"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I4210089520",
+          "display_name": "Geoscience BC",
+          "ror": "https://ror.org/00bke8n58",
+          "country_code": "CA",
+          "type": "nonprofit",
+          "lineage": [
+            "https://openalex.org/I4210089520"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I922237871",
+          "display_name": "Netherlands Institute for Radio Astronomy",
+          "ror": "https://ror.org/000k1q888",
+          "country_code": "NL",
+          "type": "other",
+          "lineage": [
+            "https://openalex.org/I2800991832",
+            "https://openalex.org/I4405262988",
+            "https://openalex.org/I922237871"
+          ]
+        }
+      ],
+      "countries": [
+        "CA",
+        "NL"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "S. Levy",
+      "raw_affiliation_strings": [
+        "Univ. B.C., Dep. Geophys. and Astron., Vancouver, BC, Canada",
+        "Department of Geophysics and Astronomy, University of British Columbia",
+        "Univ. B. C., Dep. Geophys. and Astron., Vancouver, BC, Canada"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Univ. B.C., Dep. Geophys. and Astron., Vancouver, BC, Canada",
+          "institution_ids": [
+            "https://openalex.org/I4210089520"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Department of Geophysics and Astronomy, University of British Columbia",
+          "institution_ids": [
+            "https://openalex.org/I141945490"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Univ. B. C., Dep. Geophys. and Astron., Vancouver, BC, Canada",
+          "institution_ids": [
+            "https://openalex.org/I922237871"
+          ]
+        }
+      ]
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5062033750",
+        "display_name": "Douglas W. Oldenburg",
+        "orcid": "https://orcid.org/0000-0002-4327-2124",
+        "observed_orcids": [
+          "https://orcid.org/0000-0002-4327-2124"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I141945490",
+          "display_name": "University of British Columbia",
+          "ror": "https://ror.org/03rmrcq20",
+          "country_code": "CA",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I141945490"
+          ]
+        }
+      ],
+      "countries": [
+        "CA"
+      ],
+      "is_corresponding": false,
+      "raw_author_name": "D. W. Oldenburg",
+      "raw_affiliation_strings": [
+        "Department of Geophysics and Astronomy, University of British Columbia, Vancouver, B.C., Canada V6T 1W5"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Department of Geophysics and Astronomy, University of British Columbia, Vancouver, B.C., Canada V6T 1W5",
+          "institution_ids": [
+            "https://openalex.org/I141945490"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 2,
+  "institutions_distinct_count": 3,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 1.7672,
+  "has_fulltext": false,
+  "cited_by_count": 101,
+  "citation_normalized_percentile": {
+    "value": 0.82030274,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 94,
+    "max": 99
+  },
+  "biblio": {
+    "volume": "52",
+    "issue": "1",
+    "first_page": "51",
+    "last_page": "59"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9998999834060669,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9998000264167786,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10662",
+      "display_name": "Ultrasonics and Acoustic Wave Propagation",
+      "score": 0.9993000030517578,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2211",
+        "display_name": "Mechanics of Materials"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/residual",
+      "display_name": "Residual",
+      "score": 0.8199209570884705
+    },
+    {
+      "id": "https://openalex.org/keywords/midpoint",
+      "display_name": "Midpoint",
+      "score": 0.7134173512458801
+    },
+    {
+      "id": "https://openalex.org/keywords/interpretability",
+      "display_name": "Interpretability",
+      "score": 0.5869152545928955
+    },
+    {
+      "id": "https://openalex.org/keywords/seismogram",
+      "display_name": "Seismogram",
+      "score": 0.5744071006774902
+    },
+    {
+      "id": "https://openalex.org/keywords/wavelet",
+      "display_name": "Wavelet",
+      "score": 0.5688195824623108
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.5229478478431702
+    },
+    {
+      "id": "https://openalex.org/keywords/acoustic-impedance",
+      "display_name": "Acoustic impedance",
+      "score": 0.5111613869667053
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.5030407309532166
+    },
+    {
+      "id": "https://openalex.org/keywords/varimax-rotation",
+      "display_name": "Varimax rotation",
+      "score": 0.4730781018733978
+    },
+    {
+      "id": "https://openalex.org/keywords/gaussian",
+      "display_name": "Gaussian",
+      "score": 0.4728009104728699
+    },
+    {
+      "id": "https://openalex.org/keywords/phase",
+      "display_name": "Phase (matter)",
+      "score": 0.4446799159049988
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.3457685708999634
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.29525256156921387
+    },
+    {
+      "id": "https://openalex.org/keywords/electrical-impedance",
+      "display_name": "Electrical impedance",
+      "score": 0.28151267766952515
+    },
+    {
+      "id": "https://openalex.org/keywords/statistics",
+      "display_name": "Statistics",
+      "score": 0.20234465599060059
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.1870150864124298
+    },
+    {
+      "id": "https://openalex.org/keywords/artificial-intelligence",
+      "display_name": "Artificial intelligence",
+      "score": 0.1784694790840149
+    },
+    {
+      "id": "https://openalex.org/keywords/geometry",
+      "display_name": "Geometry",
+      "score": 0.1598517894744873
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.1226174533367157
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C155512373",
+      "wikidata": "https://www.wikidata.org/wiki/Q287450",
+      "display_name": "Residual",
+      "level": 2,
+      "score": 0.8199209570884705
+    },
+    {
+      "id": "https://openalex.org/C34130140",
+      "wikidata": "https://www.wikidata.org/wiki/Q1645406",
+      "display_name": "Midpoint",
+      "level": 2,
+      "score": 0.7134173512458801
+    },
+    {
+      "id": "https://openalex.org/C2781067378",
+      "wikidata": "https://www.wikidata.org/wiki/Q17027399",
+      "display_name": "Interpretability",
+      "level": 2,
+      "score": 0.5869152545928955
+    },
+    {
+      "id": "https://openalex.org/C169744125",
+      "wikidata": "https://www.wikidata.org/wiki/Q510375",
+      "display_name": "Seismogram",
+      "level": 2,
+      "score": 0.5744071006774902
+    },
+    {
+      "id": "https://openalex.org/C47432892",
+      "wikidata": "https://www.wikidata.org/wiki/Q831390",
+      "display_name": "Wavelet",
+      "level": 2,
+      "score": 0.5688195824623108
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.5229478478431702
+    },
+    {
+      "id": "https://openalex.org/C98937189",
+      "wikidata": "https://www.wikidata.org/wiki/Q975684",
+      "display_name": "Acoustic impedance",
+      "level": 3,
+      "score": 0.5111613869667053
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.5030407309532166
+    },
+    {
+      "id": "https://openalex.org/C179861144",
+      "wikidata": "https://www.wikidata.org/wiki/Q2168094",
+      "display_name": "Varimax rotation",
+      "level": 4,
+      "score": 0.4730781018733978
+    },
+    {
+      "id": "https://openalex.org/C163716315",
+      "wikidata": "https://www.wikidata.org/wiki/Q901177",
+      "display_name": "Gaussian",
+      "level": 2,
+      "score": 0.4728009104728699
+    },
+    {
+      "id": "https://openalex.org/C44280652",
+      "wikidata": "https://www.wikidata.org/wiki/Q104837",
+      "display_name": "Phase (matter)",
+      "level": 2,
+      "score": 0.4446799159049988
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.3457685708999634
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.29525256156921387
+    },
+    {
+      "id": "https://openalex.org/C17829176",
+      "wikidata": "https://www.wikidata.org/wiki/Q179043",
+      "display_name": "Electrical impedance",
+      "level": 2,
+      "score": 0.28151267766952515
+    },
+    {
+      "id": "https://openalex.org/C105795698",
+      "wikidata": "https://www.wikidata.org/wiki/Q12483",
+      "display_name": "Statistics",
+      "level": 1,
+      "score": 0.20234465599060059
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.1870150864124298
+    },
+    {
+      "id": "https://openalex.org/C154945302",
+      "wikidata": "https://www.wikidata.org/wiki/Q11660",
+      "display_name": "Artificial intelligence",
+      "level": 1,
+      "score": 0.1784694790840149
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.1598517894744873
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.1226174533367157
+    },
+    {
+      "id": "https://openalex.org/C39896193",
+      "wikidata": "https://www.wikidata.org/wiki/Q380344",
+      "display_name": "Descriptive statistics",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C62520636",
+      "wikidata": "https://www.wikidata.org/wiki/Q944",
+      "display_name": "Quantum mechanics",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C106906290",
+      "wikidata": "https://www.wikidata.org/wiki/Q1140909",
+      "display_name": "Cronbach's alpha",
+      "level": 3,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.1442240",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.1442240",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S106174089",
+        "display_name": "Geophysics",
+        "issn_l": "0016-8033",
+        "issn": [
+          "0016-8033",
+          "1942-2156"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysics",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 12,
+  "referenced_works": [
+    "https://openalex.org/W1579868249",
+    "https://openalex.org/W1965715091",
+    "https://openalex.org/W1972007889",
+    "https://openalex.org/W1983794113",
+    "https://openalex.org/W2019024593",
+    "https://openalex.org/W2108010353",
+    "https://openalex.org/W2112680691",
+    "https://openalex.org/W2148026557",
+    "https://openalex.org/W2150978178",
+    "https://openalex.org/W2157932527",
+    "https://openalex.org/W2168335598",
+    "https://openalex.org/W2747835101"
+  ],
+  "related_works": [
+    "https://openalex.org/W2999652957",
+    "https://openalex.org/W2013765832",
+    "https://openalex.org/W1978155988",
+    "https://openalex.org/W3094412894",
+    "https://openalex.org/W3139439470",
+    "https://openalex.org/W2377333480",
+    "https://openalex.org/W2170878841",
+    "https://openalex.org/W2086039137",
+    "https://openalex.org/W2014084343",
+    "https://openalex.org/W2540468696"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "The": [
+      1
+    ],
+    "residual": [
+      2,
+      36,
+      58
+    ],
+    "wavelet": [
+      3
+    ],
+    "on": [
+      4
+    ],
+    "a": [
+      5,
+      43,
+      115
+    ],
+    "processed": [
+      6,
+      31
+    ],
+    "seismic": [
+      7,
+      100
+    ],
+    "section": [
+      8,
+      101
+    ],
+    "is": [
+      9,
+      85
+    ],
+    "often": [
+      10
+    ],
+    "not": [
+      11
+    ],
+    "zero": [
+      12
+    ],
+    "phase": [
+      13,
+      37,
+      59
+    ],
+    "despite": [
+      14
+    ],
+    "all": [
+      15
+    ],
+    "efforts": [
+      16
+    ],
+    "to": [
+      17,
+      51,
+      55,
+      65,
+      92,
+      104
+    ],
+    "make": [
+      18
+    ],
+    "it": [
+      19,
+      72
+    ],
+    "so.": [
+      20
+    ],
+    "In": [
+      21
+    ],
+    "this": [
+      22
+    ],
+    "paper": [
+      23
+    ],
+    "we": [
+      24
+    ],
+    "adopt": [
+      25
+    ],
+    "the": [
+      26,
+      30,
+      35,
+      48,
+      57,
+      76,
+      83,
+      96,
+      99,
+      109
+    ],
+    "convolutional": [
+      27
+    ],
+    "model": [
+      28
+    ],
+    "for": [
+      29
+    ],
+    "seismogram,": [
+      32
+    ],
+    "assume": [
+      33
+    ],
+    "that": [
+      34,
+      71
+    ],
+    "shift": [
+      38
+    ],
+    "can": [
+      39
+    ],
+    "be": [
+      40
+    ],
+    "approximated": [
+      41
+    ],
+    "by": [
+      42
+    ],
+    "frequency-independent": [
+      44
+    ],
+    "constant,": [
+      45
+    ],
+    "and": [
+      46,
+      102,
+      114
+    ],
+    "use": [
+      47
+    ],
+    "varimax": [
+      49
+    ],
+    "norm": [
+      50
+    ],
+    "generate": [
+      52
+    ],
+    "an": [
+      53,
+      105
+    ],
+    "algorithm": [
+      54,
+      64,
+      91
+    ],
+    "estimate": [
+      56
+    ],
+    "directly.": [
+      60
+    ],
+    "Application": [
+      61
+    ],
+    "of": [
+      62,
+      78,
+      89,
+      98
+    ],
+    "our": [
+      63,
+      90
+    ],
+    "reflectivities": [
+      66
+    ],
+    "from": [
+      67
+    ],
+    "well": [
+      68
+    ],
+    "logs": [
+      69
+    ],
+    "suggests": [
+      70
+    ],
+    "should": [
+      73
+    ],
+    "work": [
+      74
+    ],
+    "in": [
+      75
+    ],
+    "majority": [
+      77
+    ],
+    "cases": [
+      79
+    ],
+    "so": [
+      80
+    ],
+    "long": [
+      81
+    ],
+    "as": [
+      82
+    ],
+    "reflectivity": [
+      84
+    ],
+    "non-Gaussian.": [
+      86
+    ],
+    "An": [
+      87
+    ],
+    "application": [
+      88
+    ],
+    "stacked": [
+      93
+    ],
+    "data": [
+      94
+    ],
+    "enhances": [
+      95
+    ],
+    "interpretability": [
+      97
+    ],
+    "leads": [
+      103
+    ],
+    "improved": [
+      106
+    ],
+    "match": [
+      107
+    ],
+    "between": [
+      108
+    ],
+    "recovered": [
+      110
+    ],
+    "relative": [
+      111
+    ],
+    "acoustic": [
+      112
+    ],
+    "impedance": [
+      113
+    ],
+    "measured": [
+      116
+    ],
+    "velocity": [
+      117
+    ],
+    "log.": [
+      118
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 6
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

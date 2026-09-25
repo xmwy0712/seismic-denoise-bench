@@ -1,0 +1,999 @@
+{
+  "meta": {
+    "count": 1,
+    "db_response_time_ms": 23,
+    "page": 1,
+    "per_page": 10,
+    "groups_count": null,
+    "x_query": {
+      "oql": "works where it cites (W4413318404)",
+      "oqo": {
+        "get_rows": "works",
+        "filter_rows": [
+          {
+            "column_id": "referenced_works",
+            "value": "W4413318404"
+          }
+        ]
+      },
+      "url": "/works?filter=referenced_works:W4413318404&per_page=10"
+    },
+    "cost_usd": 0.0001
+  },
+  "results": [
+    {
+      "id": "https://openalex.org/W7138920780",
+      "doi": "https://doi.org/10.1190/tle-2025-1046",
+      "title": "Automated CO2 plume detection from time-lapse seismic using local orthogonalization and deep learning",
+      "display_name": "Automated CO2 plume detection from time-lapse seismic using local orthogonalization and deep learning",
+      "publication_year": 2026,
+      "publication_date": "2026-03-18",
+      "ids": {
+        "openalex": "https://openalex.org/W7138920780",
+        "doi": "https://doi.org/10.1190/tle-2025-1046"
+      },
+      "language": "en",
+      "primary_location": {
+        "id": "doi:10.1190/tle-2025-1046",
+        "is_oa": false,
+        "landing_page_url": "https://doi.org/10.1190/tle-2025-1046",
+        "pdf_url": null,
+        "source": {
+          "id": "https://openalex.org/S4210172657",
+          "display_name": "The Leading Edge",
+          "issn_l": "1070-485X",
+          "issn": [
+            "1070-485X",
+            "1938-3789"
+          ],
+          "is_oa": false,
+          "is_in_doaj": false,
+          "is_core": true,
+          "listed_in": [
+            "cwts-core",
+            "norway-1"
+          ],
+          "host_organization": "https://openalex.org/P4310316678",
+          "host_organization_name": "Society of Exploration Geophysicists",
+          "host_organization_lineage": [
+            "https://openalex.org/P4310316678"
+          ],
+          "host_organization_lineage_names": [
+            "Society of Exploration Geophysicists"
+          ],
+          "type": "journal"
+        },
+        "license": null,
+        "license_id": null,
+        "version": "publishedVersion",
+        "is_accepted": true,
+        "is_published": true,
+        "raw_source_name": "The Leading Edge",
+        "raw_type": "journal-article"
+      },
+      "type": "article",
+      "indexed_in": [
+        "crossref"
+      ],
+      "open_access": {
+        "is_oa": false,
+        "oa_status": "closed",
+        "oa_url": null,
+        "any_repository_has_fulltext": false
+      },
+      "authorships": [
+        {
+          "author_position": "first",
+          "author": {
+            "id": "https://openalex.org/A5029877998",
+            "display_name": "Shuang Gao",
+            "orcid": "https://orcid.org/0000-0003-2012-8768",
+            "observed_orcids": [
+              "https://orcid.org/0000-0003-2012-8768"
+            ]
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1288783943",
+              "display_name": "Bureau of Economic Analysis",
+              "ror": "https://ror.org/03b17a012",
+              "country_code": "US",
+              "type": "government",
+              "lineage": [
+                "https://openalex.org/I1288783943",
+                "https://openalex.org/I1343035065"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Shuang Gao",
+          "raw_affiliation_strings": [
+            "Bureau of Economic Geology, John A. and Katherine G. Jackson School of Geosciences 1 , , , ,"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Bureau of Economic Geology, John A. and Katherine G. Jackson School of Geosciences 1 , , , ,",
+              "institution_ids": [
+                "https://openalex.org/I1288783943"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "middle",
+          "author": {
+            "id": "https://openalex.org/A5132709146",
+            "display_name": "Sergey Fomel",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1288783943",
+              "display_name": "Bureau of Economic Analysis",
+              "ror": "https://ror.org/03b17a012",
+              "country_code": "US",
+              "type": "government",
+              "lineage": [
+                "https://openalex.org/I1288783943",
+                "https://openalex.org/I1343035065"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Sergey Fomel",
+          "raw_affiliation_strings": [
+            "Bureau of Economic Geology, John A. and Katherine G. Jackson School of Geosciences 1 , , , ,"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Bureau of Economic Geology, John A. and Katherine G. Jackson School of Geosciences 1 , , , ,",
+              "institution_ids": [
+                "https://openalex.org/I1288783943"
+              ]
+            }
+          ]
+        },
+        {
+          "author_position": "last",
+          "author": {
+            "id": "https://openalex.org/A5130199880",
+            "display_name": "Yangkang Chen",
+            "orcid": null,
+            "observed_orcids": []
+          },
+          "institutions": [
+            {
+              "id": "https://openalex.org/I1288783943",
+              "display_name": "Bureau of Economic Analysis",
+              "ror": "https://ror.org/03b17a012",
+              "country_code": "US",
+              "type": "government",
+              "lineage": [
+                "https://openalex.org/I1288783943",
+                "https://openalex.org/I1343035065"
+              ]
+            }
+          ],
+          "countries": [
+            "US"
+          ],
+          "is_corresponding": false,
+          "raw_author_name": "Yangkang Chen",
+          "raw_affiliation_strings": [
+            "Bureau of Economic Geology, John A. and Katherine G. Jackson School of Geosciences 1 , , , ,"
+          ],
+          "raw_orcid": null,
+          "affiliations": [
+            {
+              "raw_affiliation_string": "Bureau of Economic Geology, John A. and Katherine G. Jackson School of Geosciences 1 , , , ,",
+              "institution_ids": [
+                "https://openalex.org/I1288783943"
+              ]
+            }
+          ]
+        }
+      ],
+      "institutions": [],
+      "countries_distinct_count": 1,
+      "institutions_distinct_count": 1,
+      "corresponding_author_ids": [],
+      "corresponding_institution_ids": [
+        "https://openalex.org/I1288783943"
+      ],
+      "apc_list": null,
+      "apc_paid": null,
+      "fwci": 0.0,
+      "has_fulltext": false,
+      "cited_by_count": 0,
+      "citation_normalized_percentile": {
+        "value": 0.15715352,
+        "is_in_top_1_percent": false,
+        "is_in_top_10_percent": false
+      },
+      "cited_by_percentile_year": null,
+      "biblio": {
+        "volume": "45",
+        "issue": "4",
+        "first_page": "304",
+        "last_page": "314"
+      },
+      "is_retracted": false,
+      "is_paratext": false,
+      "is_xpac": false,
+      "primary_topic": {
+        "id": "https://openalex.org/T11302",
+        "display_name": "CO2 Sequestration and Geologic Interactions",
+        "score": 0.7777000069618225,
+        "subfield": {
+          "id": "https://openalex.org/subfields/2305",
+          "display_name": "Environmental Engineering"
+        },
+        "field": {
+          "id": "https://openalex.org/fields/23",
+          "display_name": "Environmental Science"
+        },
+        "domain": {
+          "id": "https://openalex.org/domains/3",
+          "display_name": "Physical Sciences"
+        }
+      },
+      "topics": [
+        {
+          "id": "https://openalex.org/T11302",
+          "display_name": "CO2 Sequestration and Geologic Interactions",
+          "score": 0.7777000069618225,
+          "subfield": {
+            "id": "https://openalex.org/subfields/2305",
+            "display_name": "Environmental Engineering"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/23",
+            "display_name": "Environmental Science"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T10271",
+          "display_name": "Seismic Imaging and Inversion Techniques",
+          "score": 0.09570000320672989,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        },
+        {
+          "id": "https://openalex.org/T11757",
+          "display_name": "Seismic Waves and Analysis",
+          "score": 0.04439999908208847,
+          "subfield": {
+            "id": "https://openalex.org/subfields/1908",
+            "display_name": "Geophysics"
+          },
+          "field": {
+            "id": "https://openalex.org/fields/19",
+            "display_name": "Earth and Planetary Sciences"
+          },
+          "domain": {
+            "id": "https://openalex.org/domains/3",
+            "display_name": "Physical Sciences"
+          }
+        }
+      ],
+      "keywords": [
+        {
+          "id": "https://openalex.org/keywords/workflow",
+          "display_name": "Workflow",
+          "score": 0.6937000155448914
+        },
+        {
+          "id": "https://openalex.org/keywords/deep-learning",
+          "display_name": "Deep learning",
+          "score": 0.680400013923645
+        },
+        {
+          "id": "https://openalex.org/keywords/robustness",
+          "display_name": "Robustness (evolution)",
+          "score": 0.6204000115394592
+        },
+        {
+          "id": "https://openalex.org/keywords/plume",
+          "display_name": "Plume",
+          "score": 0.6161999702453613
+        },
+        {
+          "id": "https://openalex.org/keywords/weighting",
+          "display_name": "Weighting",
+          "score": 0.515999972820282
+        },
+        {
+          "id": "https://openalex.org/keywords/orthogonalization",
+          "display_name": "Orthogonalization",
+          "score": 0.5102999806404114
+        },
+        {
+          "id": "https://openalex.org/keywords/artificial-neural-network",
+          "display_name": "Artificial neural network",
+          "score": 0.4099999964237213
+        }
+      ],
+      "concepts": [
+        {
+          "id": "https://openalex.org/C177212765",
+          "wikidata": "https://www.wikidata.org/wiki/Q627335",
+          "display_name": "Workflow",
+          "level": 2,
+          "score": 0.6937000155448914
+        },
+        {
+          "id": "https://openalex.org/C108583219",
+          "wikidata": "https://www.wikidata.org/wiki/Q197536",
+          "display_name": "Deep learning",
+          "level": 2,
+          "score": 0.680400013923645
+        },
+        {
+          "id": "https://openalex.org/C63479239",
+          "wikidata": "https://www.wikidata.org/wiki/Q7353546",
+          "display_name": "Robustness (evolution)",
+          "level": 3,
+          "score": 0.6204000115394592
+        },
+        {
+          "id": "https://openalex.org/C2775840915",
+          "wikidata": "https://www.wikidata.org/wiki/Q3817528",
+          "display_name": "Plume",
+          "level": 2,
+          "score": 0.6161999702453613
+        },
+        {
+          "id": "https://openalex.org/C154945302",
+          "wikidata": "https://www.wikidata.org/wiki/Q11660",
+          "display_name": "Artificial intelligence",
+          "level": 1,
+          "score": 0.5329999923706055
+        },
+        {
+          "id": "https://openalex.org/C183115368",
+          "wikidata": "https://www.wikidata.org/wiki/Q856577",
+          "display_name": "Weighting",
+          "level": 2,
+          "score": 0.515999972820282
+        },
+        {
+          "id": "https://openalex.org/C47559304",
+          "wikidata": "https://www.wikidata.org/wiki/Q1702189",
+          "display_name": "Orthogonalization",
+          "level": 2,
+          "score": 0.5102999806404114
+        },
+        {
+          "id": "https://openalex.org/C62649853",
+          "wikidata": "https://www.wikidata.org/wiki/Q199687",
+          "display_name": "Remote sensing",
+          "level": 1,
+          "score": 0.4404999911785126
+        },
+        {
+          "id": "https://openalex.org/C127313418",
+          "wikidata": "https://www.wikidata.org/wiki/Q1069",
+          "display_name": "Geology",
+          "level": 0,
+          "score": 0.41850000619888306
+        },
+        {
+          "id": "https://openalex.org/C50644808",
+          "wikidata": "https://www.wikidata.org/wiki/Q192776",
+          "display_name": "Artificial neural network",
+          "level": 2,
+          "score": 0.4099999964237213
+        },
+        {
+          "id": "https://openalex.org/C124101348",
+          "wikidata": "https://www.wikidata.org/wiki/Q172491",
+          "display_name": "Data mining",
+          "level": 1,
+          "score": 0.36070001125335693
+        },
+        {
+          "id": "https://openalex.org/C153180895",
+          "wikidata": "https://www.wikidata.org/wiki/Q7148389",
+          "display_name": "Pattern recognition (psychology)",
+          "level": 2,
+          "score": 0.3481999933719635
+        },
+        {
+          "id": "https://openalex.org/C2988134249",
+          "wikidata": "https://www.wikidata.org/wiki/Q22932371",
+          "display_name": "Deep water",
+          "level": 2,
+          "score": 0.3310999870300293
+        },
+        {
+          "id": "https://openalex.org/C2984842247",
+          "wikidata": "https://www.wikidata.org/wiki/Q197536",
+          "display_name": "Deep neural networks",
+          "level": 3,
+          "score": 0.3264000117778778
+        },
+        {
+          "id": "https://openalex.org/C31972630",
+          "wikidata": "https://www.wikidata.org/wiki/Q844240",
+          "display_name": "Computer vision",
+          "level": 1,
+          "score": 0.3246000111103058
+        },
+        {
+          "id": "https://openalex.org/C163985040",
+          "wikidata": "https://www.wikidata.org/wiki/Q1172399",
+          "display_name": "Data acquisition",
+          "level": 2,
+          "score": 0.3240000009536743
+        },
+        {
+          "id": "https://openalex.org/C41008148",
+          "wikidata": "https://www.wikidata.org/wiki/Q21198",
+          "display_name": "Computer science",
+          "level": 0,
+          "score": 0.32359999418258667
+        },
+        {
+          "id": "https://openalex.org/C2780598303",
+          "wikidata": "https://www.wikidata.org/wiki/Q65921492",
+          "display_name": "Flexibility (engineering)",
+          "level": 2,
+          "score": 0.30000001192092896
+        },
+        {
+          "id": "https://openalex.org/C119857082",
+          "wikidata": "https://www.wikidata.org/wiki/Q2539",
+          "display_name": "Machine learning",
+          "level": 1,
+          "score": 0.2842000126838684
+        },
+        {
+          "id": "https://openalex.org/C137800194",
+          "wikidata": "https://www.wikidata.org/wiki/Q11713455",
+          "display_name": "Interpolation (computer graphics)",
+          "level": 3,
+          "score": 0.2766000032424927
+        },
+        {
+          "id": "https://openalex.org/C36464697",
+          "wikidata": "https://www.wikidata.org/wiki/Q451553",
+          "display_name": "Visualization",
+          "level": 2,
+          "score": 0.27559998631477356
+        },
+        {
+          "id": "https://openalex.org/C138827492",
+          "wikidata": "https://www.wikidata.org/wiki/Q6661985",
+          "display_name": "Data processing",
+          "level": 2,
+          "score": 0.274399995803833
+        },
+        {
+          "id": "https://openalex.org/C11413529",
+          "wikidata": "https://www.wikidata.org/wiki/Q8366",
+          "display_name": "Algorithm",
+          "level": 1,
+          "score": 0.25940001010894775
+        }
+      ],
+      "mesh": [],
+      "locations_count": 1,
+      "locations": [
+        {
+          "id": "doi:10.1190/tle-2025-1046",
+          "is_oa": false,
+          "landing_page_url": "https://doi.org/10.1190/tle-2025-1046",
+          "pdf_url": null,
+          "source": {
+            "id": "https://openalex.org/S4210172657",
+            "display_name": "The Leading Edge",
+            "issn_l": "1070-485X",
+            "issn": [
+              "1070-485X",
+              "1938-3789"
+            ],
+            "is_oa": false,
+            "is_in_doaj": false,
+            "is_core": true,
+            "listed_in": [
+              "cwts-core",
+              "norway-1"
+            ],
+            "host_organization": "https://openalex.org/P4310316678",
+            "host_organization_name": "Society of Exploration Geophysicists",
+            "host_organization_lineage": [
+              "https://openalex.org/P4310316678"
+            ],
+            "host_organization_lineage_names": [
+              "Society of Exploration Geophysicists"
+            ],
+            "type": "journal"
+          },
+          "license": null,
+          "license_id": null,
+          "version": "publishedVersion",
+          "is_accepted": true,
+          "is_published": true,
+          "raw_source_name": "The Leading Edge",
+          "raw_type": "journal-article"
+        }
+      ],
+      "best_oa_location": null,
+      "sustainable_development_goals": [
+        {
+          "display_name": "Life below water",
+          "id": "https://metadata.un.org/sdg/14",
+          "score": 0.7895748019218445
+        }
+      ],
+      "x_sdgs": [],
+      "awards": [],
+      "funders": [],
+      "has_content": {
+        "pdf": false,
+        "grobid_xml": false
+      },
+      "content_urls": null,
+      "referenced_works_count": 13,
+      "referenced_works": [
+        "https://openalex.org/W1838266904",
+        "https://openalex.org/W1989243075",
+        "https://openalex.org/W2021734622",
+        "https://openalex.org/W2094551850",
+        "https://openalex.org/W2126720920",
+        "https://openalex.org/W2146241926",
+        "https://openalex.org/W2509165592",
+        "https://openalex.org/W2911424749",
+        "https://openalex.org/W3126785917",
+        "https://openalex.org/W4297324640",
+        "https://openalex.org/W4312099228",
+        "https://openalex.org/W4323568666",
+        "https://openalex.org/W4413318404"
+      ],
+      "related_works": [],
+      "abstract_inverted_index": {
+        "Abstract": [
+          0
+        ],
+        "Reliable": [
+          1
+        ],
+        "interpretation": [
+          2
+        ],
+        "of": [
+          3
+        ],
+        "time-lapse": [
+          4
+        ],
+        "(4D)": [
+          5
+        ],
+        "seismic": [
+          6,
+          108
+        ],
+        "data": [
+          7
+        ],
+        "is": [
+          8
+        ],
+        "essential": [
+          9
+        ],
+        "for": [
+          10
+        ],
+        "monitoring": [
+          11
+        ],
+        "injected": [
+          12
+        ],
+        "CO2": [
+          13,
+          62,
+          126,
+          155
+        ],
+        "and": [
+          14,
+          32,
+          75,
+          83,
+          116,
+          129,
+          139,
+          147,
+          151,
+          154,
+          156
+        ],
+        "ensuring": [
+          15
+        ],
+        "safe": [
+          16
+        ],
+        "long-term": [
+          17
+        ],
+        "storage,": [
+          18
+        ],
+        "yet": [
+          19
+        ],
+        "observed": [
+          20
+        ],
+        "differences": [
+          21
+        ],
+        "between": [
+          22
+        ],
+        "vintages": [
+          23
+        ],
+        "are": [
+          24
+        ],
+        "often": [
+          25
+        ],
+        "dominated": [
+          26
+        ],
+        "by": [
+          27
+        ],
+        "acquisition": [
+          28
+        ],
+        "nonrepeatability,": [
+          29
+        ],
+        "near-surface": [
+          30
+        ],
+        "variability,": [
+          31,
+          115
+        ],
+        "imaging": [
+          33
+        ],
+        "artifacts.": [
+          34
+        ],
+        "An": [
+          35
+        ],
+        "automated": [
+          36
+        ],
+        "workflow": [
+          37,
+          120
+        ],
+        "that": [
+          38,
+          47,
+          60,
+          105
+        ],
+        "combines": [
+          39
+        ],
+        "local": [
+          40
+        ],
+        "orthogonalization": [
+          41
+        ],
+        "weighting": [
+          42
+        ],
+        "(LOW),": [
+          43
+        ],
+        "a": [
+          44,
+          53
+        ],
+        "physics-guided": [
+          45
+        ],
+        "method": [
+          46
+        ],
+        "isolates": [
+          48
+        ],
+        "dynamic": [
+          49,
+          78
+        ],
+        "fluid-induced": [
+          50
+        ],
+        "changes,": [
+          51
+        ],
+        "with": [
+          52,
+          111
+        ],
+        "compact": [
+          54
+        ],
+        "3D": [
+          55
+        ],
+        "deep": [
+          56,
+          152
+        ],
+        "learning": [
+          57
+        ],
+        "model": [
+          58
+        ],
+        "(TLNet)": [
+          59
+        ],
+        "predicts": [
+          61
+        ],
+        "plume": [
+          63,
+          89,
+          102
+        ],
+        "probability": [
+          64,
+          103
+        ],
+        "from": [
+          65,
+          96
+        ],
+        "paired": [
+          66
+        ],
+        "baseline–monitor": [
+          67
+        ],
+        "volumes": [
+          68,
+          104
+        ],
+        "was": [
+          69,
+          121,
+          133
+        ],
+        "developed.": [
+          70
+        ],
+        "LOW": [
+          71,
+          131
+        ],
+        "suppresses": [
+          72
+        ],
+        "repeatable": [
+          73
+        ],
+        "geology": [
+          74
+        ],
+        "stabilizes": [
+          76
+        ],
+        "the": [
+          77,
+          124,
+          130,
+          137
+        ],
+        "anomaly,": [
+          79
+        ],
+        "enabling": [
+          80
+        ],
+        "simple": [
+          81
+        ],
+        "value": [
+          82
+        ],
+        "texture": [
+          84
+        ],
+        "gates": [
+          85
+        ],
+        "to": [
+          86,
+          123,
+          142
+        ],
+        "produce": [
+          87
+        ],
+        "volumetric": [
+          88
+        ],
+        "labels": [
+          90
+        ],
+        "without": [
+          91
+        ],
+        "manual": [
+          92
+        ],
+        "interpretation.": [
+          93
+        ],
+        "TLNet": [
+          94
+        ],
+        "learns": [
+          95
+        ],
+        "these": [
+          97
+        ],
+        "seismic-driven": [
+          98
+        ],
+        "labels,": [
+          99
+        ],
+        "generating": [
+          100
+        ],
+        "high-resolution": [
+          101
+        ],
+        "highlight": [
+          106
+        ],
+        "confinement-related": [
+          107
+        ],
+        "responses": [
+          109
+        ],
+        "associated": [
+          110
+        ],
+        "thin": [
+          112
+        ],
+        "layers,": [
+          113
+        ],
+        "lateral": [
+          114
+        ],
+        "intratier": [
+          117
+        ],
+        "fingering.": [
+          118
+        ],
+        "The": [
+          119
+        ],
+        "applied": [
+          122
+        ],
+        "Sleipner": [
+          125
+        ],
+        "storage": [
+          127
+        ],
+        "project,": [
+          128
+        ],
+        "component": [
+          132
+        ],
+        "further": [
+          134
+        ],
+        "evaluated": [
+          135
+        ],
+        "on": [
+          136
+        ],
+        "Cranfield": [
+          138
+        ],
+        "Duri": [
+          140
+        ],
+        "fields": [
+          141
+        ],
+        "assess": [
+          143
+        ],
+        "robustness": [
+          144
+        ],
+        "across": [
+          145
+        ],
+        "marine": [
+          146
+        ],
+        "land": [
+          148
+        ],
+        "surveys,": [
+          149
+        ],
+        "shallow": [
+          150
+        ],
+        "targets,": [
+          153
+        ],
+        "thermal-enhanced": [
+          157
+        ],
+        "oil": [
+          158
+        ],
+        "recovery": [
+          159
+        ],
+        "(EOR)": [
+          160
+        ],
+        "settings.": [
+          161
+        ]
+      },
+      "counts_by_year": [],
+      "updated_date": "2026-09-24T07:57:37.273135",
+      "created_date": "2026-03-20T00:00:00"
+    }
+  ],
+  "group_by": []
+}

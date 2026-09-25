@@ -1,0 +1,750 @@
+{
+  "id": "https://openalex.org/W1541243302",
+  "doi": "https://doi.org/10.1029/gm037p0311",
+  "title": "Implication of Attenuation for Studies of the Earthquake Source",
+  "display_name": "Implication of Attenuation for Studies of the Earthquake Source",
+  "publication_year": 2011,
+  "publication_date": "2011-09-09",
+  "ids": {
+    "openalex": "https://openalex.org/W1541243302",
+    "doi": "https://doi.org/10.1029/gm037p0311",
+    "mag": "1541243302"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1029/gm037p0311",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1029/gm037p0311",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S2764668805",
+      "display_name": "Geophysical monograph",
+      "issn_l": "0065-8448",
+      "issn": [
+        "0065-8448",
+        "2328-8779"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315809",
+      "host_organization_name": "American Geophysical Union",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315809"
+      ],
+      "host_organization_lineage_names": [
+        "American Geophysical Union"
+      ],
+      "type": "book series"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysical Monograph Series",
+    "raw_type": "book-chapter"
+  },
+  "type": "book-chapter",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5029296476",
+        "display_name": "John G. Anderson",
+        "orcid": "https://orcid.org/0000-0002-8882-6039"
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I150209017",
+          "display_name": "Scripps Institution of Oceanography",
+          "ror": "https://ror.org/04v7hvq31",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I150209017",
+            "https://openalex.org/I36258959"
+          ]
+        },
+        {
+          "id": "https://openalex.org/I36258959",
+          "display_name": "University of California San Diego",
+          "ror": "https://ror.org/0168r3w48",
+          "country_code": "US",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I36258959"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "John G. Anderson",
+      "raw_affiliation_strings": [
+        "Institute of Geophysics and Planetary Physics, Scripps Institution of Oceanography, University of California, San Diego, La Jolla, California 92093",
+        "Institute of Geophysics and Planetary Physics Scripps Institution of Oceanography University of California San Diego La Jolla, California 92093"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Institute of Geophysics and Planetary Physics, Scripps Institution of Oceanography, University of California, San Diego, La Jolla, California 92093",
+          "institution_ids": [
+            "https://openalex.org/I150209017",
+            "https://openalex.org/I36258959"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Institute of Geophysics and Planetary Physics Scripps Institution of Oceanography University of California San Diego La Jolla, California 92093",
+          "institution_ids": [
+            "https://openalex.org/I150209017",
+            "https://openalex.org/I36258959"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 2,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5029296476"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I150209017",
+    "https://openalex.org/I36258959"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 5.0889,
+  "has_fulltext": false,
+  "cited_by_count": 148,
+  "citation_normalized_percentile": {
+    "value": 0.94943486,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 99
+  },
+  "biblio": {
+    "volume": null,
+    "issue": null,
+    "first_page": "311",
+    "last_page": "318"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10110",
+    "display_name": "earthquake and tectonic studies",
+    "score": 0.9998999834060669,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10110",
+      "display_name": "earthquake and tectonic studies",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10413",
+      "display_name": "High-pressure geophysics and materials",
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12424",
+      "display_name": "Earthquake Detection and Analysis",
+      "score": 0.9994000196456909,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/attenuation",
+      "display_name": "Attenuation",
+      "score": 0.6307635307312012
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.6265616416931152
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.6117032170295715
+    },
+    {
+      "id": "https://openalex.org/keywords/geophysics",
+      "display_name": "Geophysics",
+      "score": 0.45050951838493347
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.21158796548843384
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C184652730",
+      "wikidata": "https://www.wikidata.org/wiki/Q2357982",
+      "display_name": "Attenuation",
+      "level": 2,
+      "score": 0.6307635307312012
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.6265616416931152
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.6117032170295715
+    },
+    {
+      "id": "https://openalex.org/C8058405",
+      "wikidata": "https://www.wikidata.org/wiki/Q46255",
+      "display_name": "Geophysics",
+      "level": 1,
+      "score": 0.45050951838493347
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.21158796548843384
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1029/gm037p0311",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1029/gm037p0311",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S2764668805",
+        "display_name": "Geophysical monograph",
+        "issn_l": "0065-8448",
+        "issn": [
+          "0065-8448",
+          "2328-8779"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315809",
+        "host_organization_name": "American Geophysical Union",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315809"
+        ],
+        "host_organization_lineage_names": [
+          "American Geophysical Union"
+        ],
+        "type": "book series"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysical Monograph Series",
+      "raw_type": "book-chapter"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "id": "https://metadata.un.org/sdg/13",
+      "score": 0.7599999904632568,
+      "display_name": "Climate action"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "pdf": false,
+    "grobid_xml": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 18,
+  "referenced_works": [
+    "https://openalex.org/W1992626998",
+    "https://openalex.org/W1994553199",
+    "https://openalex.org/W1999555122",
+    "https://openalex.org/W2055184659",
+    "https://openalex.org/W2074092707",
+    "https://openalex.org/W2105658614",
+    "https://openalex.org/W2110114457",
+    "https://openalex.org/W2185410891",
+    "https://openalex.org/W2258563751",
+    "https://openalex.org/W2272128545",
+    "https://openalex.org/W2286620461",
+    "https://openalex.org/W2343862836",
+    "https://openalex.org/W2403056962",
+    "https://openalex.org/W4230540501",
+    "https://openalex.org/W6648823965",
+    "https://openalex.org/W6676612418",
+    "https://openalex.org/W6686238190",
+    "https://openalex.org/W6712880391"
+  ],
+  "related_works": [
+    "https://openalex.org/W2062605435",
+    "https://openalex.org/W2273182195",
+    "https://openalex.org/W2186374051",
+    "https://openalex.org/W2377963109",
+    "https://openalex.org/W2022279172",
+    "https://openalex.org/W2352247021",
+    "https://openalex.org/W2145835458",
+    "https://openalex.org/W2059332403",
+    "https://openalex.org/W2066034608",
+    "https://openalex.org/W1990381203"
+  ],
+  "abstract_inverted_index": {
+    "This": [
+      0,
+      26
+    ],
+    "paper": [
+      1
+    ],
+    "assumes": [
+      2
+    ],
+    "that": [
+      3,
+      42,
+      123
+    ],
+    "the": [
+      4,
+      43,
+      65,
+      79,
+      109,
+      129,
+      135
+    ],
+    "spectral": [
+      5
+    ],
+    "decay": [
+      6
+    ],
+    "at": [
+      7
+    ],
+    "high": [
+      8
+    ],
+    "frequencies,": [
+      9
+    ],
+    "as": [
+      10
+    ],
+    "recognized": [
+      11
+    ],
+    "by": [
+      12,
+      134
+    ],
+    "Anderson": [
+      13
+    ],
+    "and": [
+      14,
+      60,
+      82
+    ],
+    "Hough": [
+      15
+    ],
+    "(1984)": [
+      16
+    ],
+    "on": [
+      17,
+      52,
+      88,
+      112
+    ],
+    "large": [
+      18
+    ],
+    "magnitude": [
+      19,
+      37,
+      66,
+      86
+    ],
+    "events,": [
+      20
+    ],
+    "is": [
+      21,
+      29,
+      41,
+      96,
+      118
+    ],
+    "an": [
+      22,
+      47,
+      113
+    ],
+    "effect": [
+      23,
+      28,
+      51
+    ],
+    "of": [
+      24,
+      54,
+      68,
+      78,
+      99
+    ],
+    "attenuation.": [
+      25
+    ],
+    "attenuation": [
+      27,
+      45,
+      83
+    ],
+    "then": [
+      30,
+      116
+    ],
+    "applied": [
+      31
+    ],
+    "to": [
+      32,
+      49,
+      74,
+      107,
+      121
+    ],
+    "hypothetical": [
+      33
+    ],
+    "spectra": [
+      34
+    ],
+    "for": [
+      35,
+      57,
+      71
+    ],
+    "small": [
+      36,
+      58
+    ],
+    "earthquakes.": [
+      38
+    ],
+    "The": [
+      39,
+      76
+    ],
+    "result": [
+      40
+    ],
+    "assumed": [
+      44
+    ],
+    "has": [
+      46
+    ],
+    "important": [
+      48
+    ],
+    "dominant": [
+      50
+    ],
+    "inferences": [
+      53,
+      63
+    ],
+    "corner": [
+      55,
+      80,
+      110,
+      126,
+      131
+    ],
+    "frequency": [
+      56,
+      81,
+      111,
+      127,
+      132
+    ],
+    "earthquakes,": [
+      59
+    ],
+    "may": [
+      61
+    ],
+    "affect": [
+      62
+    ],
+    "about": [
+      64
+    ],
+    "dependence": [
+      67,
+      87
+    ],
+    "stress": [
+      69
+    ],
+    "drop": [
+      70
+    ],
+    "magnitudes": [
+      72
+    ],
+    "up": [
+      73
+    ],
+    "6.": [
+      75
+    ],
+    "interaction": [
+      77
+    ],
+    "causes": [
+      84
+    ],
+    "a": [
+      85,
+      97
+    ],
+    "“f": [
+      89,
+      94
+    ],
+    "max”": [
+      90,
+      95
+    ],
+    "(Hanks,": [
+      91
+    ],
+    "1982)": [
+      92
+    ],
+    "When": [
+      93
+    ],
+    "factor": [
+      98
+    ],
+    "ten": [
+      100
+    ],
+    "or": [
+      101
+    ],
+    "more": [
+      102
+    ],
+    "larger": [
+      103
+    ],
+    "than": [
+      104
+    ],
+    "what": [
+      105
+    ],
+    "appears": [
+      106
+    ],
+    "be": [
+      108
+    ],
+    "acceleration": [
+      114
+    ],
+    "spectrum,": [
+      115
+    ],
+    "it": [
+      117
+    ],
+    "reasonably": [
+      119
+    ],
+    "safe": [
+      120
+    ],
+    "conclude": [
+      122
+    ],
+    "this": [
+      124
+    ],
+    "apparent": [
+      125
+    ],
+    "approximates": [
+      128
+    ],
+    "true": [
+      130
+    ],
+    "caused": [
+      133
+    ],
+    "earthquake": [
+      136
+    ],
+    "source.": [
+      137
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 4
+    }
+  ],
+  "updated_date": "2026-07-31T08:31:51.225901",
+  "created_date": "2025-10-10T00:00:00"
+}

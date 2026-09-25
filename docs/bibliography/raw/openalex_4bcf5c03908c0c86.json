@@ -1,0 +1,1046 @@
+{
+  "id": "https://openalex.org/W2039940920",
+  "doi": "https://doi.org/10.1029/98jb01757",
+  "title": "Seismic attenuation above 10 Hz in southern California from coda waves recorded in the Cajon Pass borehole",
+  "display_name": "Seismic attenuation above 10 Hz in southern California from coda waves recorded in the Cajon Pass borehole",
+  "publication_year": 1998,
+  "publication_date": "1998-10-10",
+  "ids": {
+    "openalex": "https://openalex.org/W2039940920",
+    "doi": "https://doi.org/10.1029/98jb01757",
+    "mag": "2039940920"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1029/98jb01757",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1029/98jb01757",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S207178839",
+      "display_name": "Journal of Geophysical Research Atmospheres",
+      "issn_l": "0148-0227",
+      "issn": [
+        "0148-0227",
+        "2156-2202",
+        "2169-897X",
+        "2169-8996"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "host_organization": "https://openalex.org/P4310315809",
+      "host_organization_name": "American Geophysical Union",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310315809"
+      ],
+      "host_organization_lineage_names": [
+        "American Geophysical Union"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Journal of Geophysical Research: Solid Earth",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5103696442",
+        "display_name": "David A. Adams",
+        "orcid": null
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "David A. Adams",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    },
+    {
+      "author_position": "last",
+      "author": {
+        "id": "https://openalex.org/A5091060636",
+        "display_name": "Rachel E. Abercrombie",
+        "orcid": "https://orcid.org/0000-0003-4515-5420"
+      },
+      "institutions": [],
+      "countries": [],
+      "is_corresponding": false,
+      "raw_author_name": "Rachel E. Abercrombie",
+      "raw_affiliation_strings": [],
+      "raw_orcid": null,
+      "affiliations": []
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 0,
+  "institutions_distinct_count": 0,
+  "corresponding_author_ids": [],
+  "corresponding_institution_ids": [],
+  "apc_list": {
+    "value": 4070,
+    "currency": "USD",
+    "value_usd": 4070
+  },
+  "apc_paid": null,
+  "fwci": 2.2363,
+  "has_fulltext": false,
+  "cited_by_count": 45,
+  "citation_normalized_percentile": {
+    "value": 0.85915493,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": false
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 97
+  },
+  "biblio": {
+    "volume": "103",
+    "issue": "B10",
+    "first_page": "24257",
+    "last_page": "24270"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T11757",
+    "display_name": "Seismic Waves and Analysis",
+    "score": 0.9998999834060669,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10110",
+      "display_name": "earthquake and tectonic studies",
+      "score": 0.9995999932289124,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9994999766349792,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/coda",
+      "display_name": "Coda",
+      "score": 0.8579539060592651
+    },
+    {
+      "id": "https://openalex.org/keywords/attenuation",
+      "display_name": "Attenuation",
+      "score": 0.83407062292099
+    },
+    {
+      "id": "https://openalex.org/keywords/seismogram",
+      "display_name": "Seismogram",
+      "score": 0.8100874423980713
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.7542576789855957
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.7345656156539917
+    },
+    {
+      "id": "https://openalex.org/keywords/frequency-dependence",
+      "display_name": "Frequency dependence",
+      "score": 0.5804402828216553
+    },
+    {
+      "id": "https://openalex.org/keywords/scattering",
+      "display_name": "Scattering",
+      "score": 0.5439320802688599
+    },
+    {
+      "id": "https://openalex.org/keywords/borehole",
+      "display_name": "Borehole",
+      "score": 0.4980955123901367
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-wave",
+      "display_name": "Seismic wave",
+      "score": 0.45008179545402527
+    },
+    {
+      "id": "https://openalex.org/keywords/geophysics",
+      "display_name": "Geophysics",
+      "score": 0.3525526523590088
+    },
+    {
+      "id": "https://openalex.org/keywords/geodesy",
+      "display_name": "Geodesy",
+      "score": 0.32094454765319824
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.24430790543556213
+    },
+    {
+      "id": "https://openalex.org/keywords/optics",
+      "display_name": "Optics",
+      "score": 0.21990713477134705
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C3962253",
+      "wikidata": "https://www.wikidata.org/wiki/Q852466",
+      "display_name": "Coda",
+      "level": 2,
+      "score": 0.8579539060592651
+    },
+    {
+      "id": "https://openalex.org/C184652730",
+      "wikidata": "https://www.wikidata.org/wiki/Q2357982",
+      "display_name": "Attenuation",
+      "level": 2,
+      "score": 0.83407062292099
+    },
+    {
+      "id": "https://openalex.org/C169744125",
+      "wikidata": "https://www.wikidata.org/wiki/Q510375",
+      "display_name": "Seismogram",
+      "level": 2,
+      "score": 0.8100874423980713
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.7542576789855957
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.7345656156539917
+    },
+    {
+      "id": "https://openalex.org/C3018695096",
+      "wikidata": "https://www.wikidata.org/wiki/Q11652",
+      "display_name": "Frequency dependence",
+      "level": 2,
+      "score": 0.5804402828216553
+    },
+    {
+      "id": "https://openalex.org/C191486275",
+      "wikidata": "https://www.wikidata.org/wiki/Q210028",
+      "display_name": "Scattering",
+      "level": 2,
+      "score": 0.5439320802688599
+    },
+    {
+      "id": "https://openalex.org/C150560799",
+      "wikidata": "https://www.wikidata.org/wiki/Q502102",
+      "display_name": "Borehole",
+      "level": 2,
+      "score": 0.4980955123901367
+    },
+    {
+      "id": "https://openalex.org/C78542244",
+      "wikidata": "https://www.wikidata.org/wiki/Q186167",
+      "display_name": "Seismic wave",
+      "level": 2,
+      "score": 0.45008179545402527
+    },
+    {
+      "id": "https://openalex.org/C8058405",
+      "wikidata": "https://www.wikidata.org/wiki/Q46255",
+      "display_name": "Geophysics",
+      "level": 1,
+      "score": 0.3525526523590088
+    },
+    {
+      "id": "https://openalex.org/C13280743",
+      "wikidata": "https://www.wikidata.org/wiki/Q131089",
+      "display_name": "Geodesy",
+      "level": 1,
+      "score": 0.32094454765319824
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.24430790543556213
+    },
+    {
+      "id": "https://openalex.org/C120665830",
+      "wikidata": "https://www.wikidata.org/wiki/Q14620",
+      "display_name": "Optics",
+      "level": 1,
+      "score": 0.21990713477134705
+    },
+    {
+      "id": "https://openalex.org/C187320778",
+      "wikidata": "https://www.wikidata.org/wiki/Q1349130",
+      "display_name": "Geotechnical engineering",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C46141821",
+      "wikidata": "https://www.wikidata.org/wiki/Q209402",
+      "display_name": "Nuclear magnetic resonance",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1029/98jb01757",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1029/98jb01757",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S207178839",
+        "display_name": "Journal of Geophysical Research Atmospheres",
+        "issn_l": "0148-0227",
+        "issn": [
+          "0148-0227",
+          "2156-2202",
+          "2169-897X",
+          "2169-8996"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "host_organization": "https://openalex.org/P4310315809",
+        "host_organization_name": "American Geophysical Union",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310315809"
+        ],
+        "host_organization_lineage_names": [
+          "American Geophysical Union"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Journal of Geophysical Research: Solid Earth",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [
+    {
+      "id": "https://openalex.org/F4320312836",
+      "display_name": "Southern California Earthquake Center",
+      "ror": "https://ror.org/03vhnve41"
+    }
+  ],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 51,
+  "referenced_works": [
+    "https://openalex.org/W1501597519",
+    "https://openalex.org/W1541243302",
+    "https://openalex.org/W1766888123",
+    "https://openalex.org/W1835048784",
+    "https://openalex.org/W1880820850",
+    "https://openalex.org/W1968220253",
+    "https://openalex.org/W1992133087",
+    "https://openalex.org/W1994594371",
+    "https://openalex.org/W1994729497",
+    "https://openalex.org/W1995407865",
+    "https://openalex.org/W1997096697",
+    "https://openalex.org/W1997923452",
+    "https://openalex.org/W2002225815",
+    "https://openalex.org/W2004296849",
+    "https://openalex.org/W2005434259",
+    "https://openalex.org/W2007983892",
+    "https://openalex.org/W2014878983",
+    "https://openalex.org/W2020172462",
+    "https://openalex.org/W2022716782",
+    "https://openalex.org/W2055184659",
+    "https://openalex.org/W2068571834",
+    "https://openalex.org/W2081377921",
+    "https://openalex.org/W2084982717",
+    "https://openalex.org/W2090287310",
+    "https://openalex.org/W2094604021",
+    "https://openalex.org/W2108098146",
+    "https://openalex.org/W2109280842",
+    "https://openalex.org/W2110603984",
+    "https://openalex.org/W2125811752",
+    "https://openalex.org/W2126280087",
+    "https://openalex.org/W2130917613",
+    "https://openalex.org/W2139350263",
+    "https://openalex.org/W2142281070",
+    "https://openalex.org/W2146036776",
+    "https://openalex.org/W2164052654",
+    "https://openalex.org/W2165944046",
+    "https://openalex.org/W2166260557",
+    "https://openalex.org/W2169315447",
+    "https://openalex.org/W2277533529",
+    "https://openalex.org/W2297959613",
+    "https://openalex.org/W2338294494",
+    "https://openalex.org/W2345685999",
+    "https://openalex.org/W2347092522",
+    "https://openalex.org/W2475116189",
+    "https://openalex.org/W2562458233",
+    "https://openalex.org/W2575564703",
+    "https://openalex.org/W2586723471",
+    "https://openalex.org/W2603655211",
+    "https://openalex.org/W4243396246",
+    "https://openalex.org/W4248679528",
+    "https://openalex.org/W6732046431"
+  ],
+  "related_works": [
+    "https://openalex.org/W2077676242",
+    "https://openalex.org/W2189040265",
+    "https://openalex.org/W2170075128",
+    "https://openalex.org/W2792541813",
+    "https://openalex.org/W2094604021",
+    "https://openalex.org/W2526127384",
+    "https://openalex.org/W2530187926",
+    "https://openalex.org/W2121823475",
+    "https://openalex.org/W2946331930",
+    "https://openalex.org/W2130102453"
+  ],
+  "abstract_inverted_index": {
+    "We": [
+      0,
+      121
+    ],
+    "estimate": [
+      1
+    ],
+    "the": [
+      2,
+      42,
+      45,
+      60,
+      101,
+      105,
+      111,
+      139,
+      191,
+      208,
+      225
+    ],
+    "attenuation": [
+      3,
+      38,
+      147
+    ],
+    "around": [
+      4
+    ],
+    "Cajon": [
+      5
+    ],
+    "Pass,": [
+      6
+    ],
+    "southern": [
+      7
+    ],
+    "California,": [
+      8
+    ],
+    "for": [
+      9,
+      199,
+      207
+    ],
+    "frequencies": [
+      10,
+      176
+    ],
+    "above": [
+      11,
+      118
+    ],
+    "10": [
+      12,
+      29,
+      131,
+      157
+    ],
+    "Hz,": [
+      13
+    ],
+    "and": [
+      14,
+      74,
+      104,
+      130,
+      133,
+      145,
+      169
+    ],
+    "we": [
+      15
+    ],
+    "find": [
+      16,
+      134
+    ],
+    "total": [
+      17
+    ],
+    "Q": [
+      18,
+      81,
+      92,
+      124,
+      151,
+      188,
+      215
+    ],
+    "to": [
+      19,
+      31,
+      97,
+      186,
+      223
+    ],
+    "exhibit": [
+      20
+    ],
+    "only": [
+      21,
+      170
+    ],
+    "weak": [
+      22,
+      171
+    ],
+    "frequency": [
+      23,
+      140,
+      154,
+      172,
+      192,
+      212
+    ],
+    "dependence,": [
+      24
+    ],
+    "ranging": [
+      25
+    ],
+    "from": [
+      26,
+      83,
+      125,
+      194
+    ],
+    "∼800": [
+      27
+    ],
+    "at": [
+      28,
+      33,
+      55,
+      87,
+      116,
+      148,
+      174
+    ],
+    "Hz": [
+      30,
+      132,
+      158
+    ],
+    "∼1500": [
+      32
+    ],
+    "100": [
+      34
+    ],
+    "Hz.": [
+      35,
+      120,
+      150
+    ],
+    "The": [
+      36,
+      66
+    ],
+    "intrinsic": [
+      37,
+      144
+    ],
+    "is": [
+      39,
+      108,
+      220
+    ],
+    "approximately": [
+      40
+    ],
+    "twice": [
+      41
+    ],
+    "level": [
+      43
+    ],
+    "of": [
+      44,
+      80,
+      100,
+      142,
+      214,
+      227
+    ],
+    "scattering": [
+      46,
+      146
+    ],
+    "attenuation.": [
+      47
+    ],
+    "Measurements": [
+      48
+    ],
+    "are": [
+      49,
+      68,
+      75,
+      94,
+      216
+    ],
+    "made": [
+      50,
+      82
+    ],
+    "using": [
+      51,
+      59
+    ],
+    "earthquake": [
+      52
+    ],
+    "seismograms": [
+      53
+    ],
+    "recorded": [
+      54,
+      86
+    ],
+    "0–3": [
+      56
+    ],
+    "km": [
+      57,
+      89
+    ],
+    "depth": [
+      58,
+      73
+    ],
+    "multiple": [
+      61
+    ],
+    "lapse": [
+      62
+    ],
+    "time": [
+      63
+    ],
+    "window": [
+      64
+    ],
+    "method.": [
+      65
+    ],
+    "results": [
+      67
+    ],
+    "not": [
+      69
+    ],
+    "dependent": [
+      70
+    ],
+    "on": [
+      71
+    ],
+    "receiver": [
+      72
+    ],
+    "consistent": [
+      76,
+      161
+    ],
+    "with": [
+      77,
+      162
+    ],
+    "previous": [
+      78,
+      163
+    ],
+    "estimates": [
+      79
+    ],
+    "direct": [
+      84
+    ],
+    "waves": [
+      85
+    ],
+    "2.5": [
+      88
+    ],
+    "depth.": [
+      90
+    ],
+    "Our": [
+      91
+    ],
+    "values": [
+      93
+    ],
+    "therefore": [
+      95
+    ],
+    "thought": [
+      96
+    ],
+    "be": [
+      98
+    ],
+    "representative": [
+      99
+    ],
+    "seismogenic": [
+      102
+    ],
+    "crust,": [
+      103
+    ],
+    "technique": [
+      106
+    ],
+    "used": [
+      107
+    ],
+    "uncontaminated": [
+      109
+    ],
+    "by": [
+      110
+    ],
+    "highly": [
+      112
+    ],
+    "attenuating": [
+      113
+    ],
+    "near": [
+      114
+    ],
+    "surface,": [
+      115
+    ],
+    "least": [
+      117
+    ],
+    "∼10": [
+      119,
+      149
+    ],
+    "also": [
+      122
+    ],
+    "calculate": [
+      123
+    ],
+    "surface": [
+      126
+    ],
+    "data": [
+      127
+    ],
+    "between": [
+      128
+    ],
+    "1": [
+      129
+    ],
+    "a": [
+      135
+    ],
+    "clear": [
+      136
+    ],
+    "change": [
+      137,
+      180,
+      210
+    ],
+    "in": [
+      138,
+      165,
+      181,
+      201,
+      211
+    ],
+    "dependence": [
+      141,
+      155,
+      173,
+      213
+    ],
+    "both": [
+      143
+    ],
+    "exhibits": [
+      152
+    ],
+    "strong": [
+      153
+    ],
+    "below": [
+      156
+    ],
+    "(": [
+      159,
+      177
+    ],
+    "∝ƒ1.8),": [
+      160
+    ],
+    "studies": [
+      164
+    ],
+    "active": [
+      166
+    ],
+    "tectonic": [
+      167
+    ],
+    "regions,": [
+      168
+    ],
+    "higher": [
+      175
+    ],
+    "∝ƒ0.34).": [
+      178
+    ],
+    "This": [
+      179
+    ],
+    "behavior": [
+      182
+    ],
+    "renders": [
+      183
+    ],
+    "it": [
+      184
+    ],
+    "unwise": [
+      185
+    ],
+    "extrapolate": [
+      187
+    ],
+    "measurements": [
+      189
+    ],
+    "outside": [
+      190
+    ],
+    "range": [
+      193
+    ],
+    "which": [
+      195
+    ],
+    "they": [
+      196
+    ],
+    "were": [
+      197
+    ],
+    "derived,": [
+      198
+    ],
+    "example,": [
+      200
+    ],
+    "earthquake‐source": [
+      202
+    ],
+    "studies.": [
+      203
+    ],
+    "Possible": [
+      204
+    ],
+    "factors": [
+      205
+    ],
+    "responsible": [
+      206
+    ],
+    "apparent": [
+      209
+    ],
+    "considered.": [
+      217
+    ],
+    "Further": [
+      218
+    ],
+    "work": [
+      219
+    ],
+    "required,": [
+      221
+    ],
+    "however,": [
+      222
+    ],
+    "resolve": [
+      224
+    ],
+    "causes": [
+      226
+    ],
+    "this": [
+      228
+    ],
+    "change.": [
+      229
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2025,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2026-08-21T09:56:20.448147",
+  "created_date": "2025-10-10T00:00:00"
+}

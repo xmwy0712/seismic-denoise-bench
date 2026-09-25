@@ -1,0 +1,1403 @@
+{
+  "id": "https://openalex.org/W2041533968",
+  "doi": "https://doi.org/10.1190/1.1441172",
+  "title": "Wave field extrapolation techniques in seismic migration; a tutorial",
+  "display_name": "Wave field extrapolation techniques in seismic migration; a tutorial",
+  "publication_year": 1981,
+  "publication_date": "1981-12-01",
+  "ids": {
+    "openalex": "https://openalex.org/W2041533968",
+    "doi": "https://doi.org/10.1190/1.1441172",
+    "mag": "2041533968"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1190/1.1441172",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1190/1.1441172",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S106174089",
+      "display_name": "Geophysics",
+      "issn_l": "0016-8033",
+      "issn": [
+        "0016-8033",
+        "1942-2156"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-2"
+      ],
+      "host_organization": "https://openalex.org/P4310316678",
+      "host_organization_name": "Society of Exploration Geophysicists",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310316678"
+      ],
+      "host_organization_lineage_names": [
+        "Society of Exploration Geophysicists"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Geophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5022249214",
+        "display_name": "A. J. C. Stijn Berkhout",
+        "orcid": "https://orcid.org/0000-0001-5447-8868",
+        "observed_orcids": [
+          "https://orcid.org/0000-0001-5447-8868"
+        ]
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I98358874",
+          "display_name": "Delft University of Technology",
+          "ror": "https://ror.org/02e2c7k09",
+          "country_code": "NL",
+          "type": "education",
+          "lineage": [
+            "https://openalex.org/I98358874"
+          ]
+        }
+      ],
+      "countries": [
+        "NL"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "A. J. Berkhout",
+      "raw_affiliation_strings": [
+        "Tech. Hogeschool Delft, Lab. Tech. Natuurkd., Delft, Netherlands",
+        "Technische Hogeschool Delft, Laboratorium voor Technische Natuurkunde, Postbus 5046, 2600 GA Delft, The Netherlands"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Tech. Hogeschool Delft, Lab. Tech. Natuurkd., Delft, Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I98358874"
+          ]
+        },
+        {
+          "raw_affiliation_string": "Technische Hogeschool Delft, Laboratorium voor Technische Natuurkunde, Postbus 5046, 2600 GA Delft, The Netherlands",
+          "institution_ids": [
+            "https://openalex.org/I98358874"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5022249214"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I98358874"
+  ],
+  "apc_list": null,
+  "apc_paid": null,
+  "fwci": 5.02,
+  "has_fulltext": false,
+  "cited_by_count": 126,
+  "citation_normalized_percentile": {
+    "value": 0.9548399,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 89,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "46",
+    "issue": "12",
+    "first_page": "1638",
+    "last_page": "1656"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10271",
+    "display_name": "Seismic Imaging and Inversion Techniques",
+    "score": 0.9998999834060669,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10271",
+      "display_name": "Seismic Imaging and Inversion Techniques",
+      "score": 0.9998999834060669,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T11757",
+      "display_name": "Seismic Waves and Analysis",
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10635",
+      "display_name": "Hydraulic Fracturing and Reservoir Analysis",
+      "score": 0.9972000122070312,
+      "subfield": {
+        "id": "https://openalex.org/subfields/2210",
+        "display_name": "Mechanical Engineering"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/22",
+        "display_name": "Engineering"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/extrapolation",
+      "display_name": "Extrapolation",
+      "score": 0.8301681876182556
+    },
+    {
+      "id": "https://openalex.org/keywords/convolution",
+      "display_name": "Convolution (computer science)",
+      "score": 0.5825366973876953
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematical-analysis",
+      "display_name": "Mathematical analysis",
+      "score": 0.5745638012886047
+    },
+    {
+      "id": "https://openalex.org/keywords/fourier-transform",
+      "display_name": "Fourier transform",
+      "score": 0.521865725517273
+    },
+    {
+      "id": "https://openalex.org/keywords/mathematics",
+      "display_name": "Mathematics",
+      "score": 0.5194560885429382
+    },
+    {
+      "id": "https://openalex.org/keywords/frequency-domain",
+      "display_name": "Frequency domain",
+      "score": 0.517734944820404
+    },
+    {
+      "id": "https://openalex.org/keywords/discretization",
+      "display_name": "Discretization",
+      "score": 0.4934619963169098
+    },
+    {
+      "id": "https://openalex.org/keywords/taylor-series",
+      "display_name": "Taylor series",
+      "score": 0.48873186111450195
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-wave",
+      "display_name": "Seismic wave",
+      "score": 0.4486904740333557
+    },
+    {
+      "id": "https://openalex.org/keywords/deconvolution",
+      "display_name": "Deconvolution",
+      "score": 0.4292443096637726
+    },
+    {
+      "id": "https://openalex.org/keywords/algorithm",
+      "display_name": "Algorithm",
+      "score": 0.3266984224319458
+    },
+    {
+      "id": "https://openalex.org/keywords/computer-science",
+      "display_name": "Computer science",
+      "score": 0.20273852348327637
+    },
+    {
+      "id": "https://openalex.org/keywords/physics",
+      "display_name": "Physics",
+      "score": 0.1736423671245575
+    },
+    {
+      "id": "https://openalex.org/keywords/geophysics",
+      "display_name": "Geophysics",
+      "score": 0.12830692529678345
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C132459708",
+      "wikidata": "https://www.wikidata.org/wiki/Q744069",
+      "display_name": "Extrapolation",
+      "level": 2,
+      "score": 0.8301681876182556
+    },
+    {
+      "id": "https://openalex.org/C45347329",
+      "wikidata": "https://www.wikidata.org/wiki/Q5166604",
+      "display_name": "Convolution (computer science)",
+      "level": 3,
+      "score": 0.5825366973876953
+    },
+    {
+      "id": "https://openalex.org/C134306372",
+      "wikidata": "https://www.wikidata.org/wiki/Q7754",
+      "display_name": "Mathematical analysis",
+      "level": 1,
+      "score": 0.5745638012886047
+    },
+    {
+      "id": "https://openalex.org/C102519508",
+      "wikidata": "https://www.wikidata.org/wiki/Q6520159",
+      "display_name": "Fourier transform",
+      "level": 2,
+      "score": 0.521865725517273
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.5194560885429382
+    },
+    {
+      "id": "https://openalex.org/C19118579",
+      "wikidata": "https://www.wikidata.org/wiki/Q786423",
+      "display_name": "Frequency domain",
+      "level": 2,
+      "score": 0.517734944820404
+    },
+    {
+      "id": "https://openalex.org/C73000952",
+      "wikidata": "https://www.wikidata.org/wiki/Q17007827",
+      "display_name": "Discretization",
+      "level": 2,
+      "score": 0.4934619963169098
+    },
+    {
+      "id": "https://openalex.org/C158946198",
+      "wikidata": "https://www.wikidata.org/wiki/Q131187",
+      "display_name": "Taylor series",
+      "level": 2,
+      "score": 0.48873186111450195
+    },
+    {
+      "id": "https://openalex.org/C78542244",
+      "wikidata": "https://www.wikidata.org/wiki/Q186167",
+      "display_name": "Seismic wave",
+      "level": 2,
+      "score": 0.4486904740333557
+    },
+    {
+      "id": "https://openalex.org/C174576160",
+      "wikidata": "https://www.wikidata.org/wiki/Q1183700",
+      "display_name": "Deconvolution",
+      "level": 2,
+      "score": 0.4292443096637726
+    },
+    {
+      "id": "https://openalex.org/C11413529",
+      "wikidata": "https://www.wikidata.org/wiki/Q8366",
+      "display_name": "Algorithm",
+      "level": 1,
+      "score": 0.3266984224319458
+    },
+    {
+      "id": "https://openalex.org/C41008148",
+      "wikidata": "https://www.wikidata.org/wiki/Q21198",
+      "display_name": "Computer science",
+      "level": 0,
+      "score": 0.20273852348327637
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.1736423671245575
+    },
+    {
+      "id": "https://openalex.org/C8058405",
+      "wikidata": "https://www.wikidata.org/wiki/Q46255",
+      "display_name": "Geophysics",
+      "level": 1,
+      "score": 0.12830692529678345
+    },
+    {
+      "id": "https://openalex.org/C50644808",
+      "wikidata": "https://www.wikidata.org/wiki/Q192776",
+      "display_name": "Artificial neural network",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C119857082",
+      "wikidata": "https://www.wikidata.org/wiki/Q2539",
+      "display_name": "Machine learning",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 2,
+  "locations": [
+    {
+      "id": "doi:10.1190/1.1441172",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1190/1.1441172",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S106174089",
+        "display_name": "Geophysics",
+        "issn_l": "0016-8033",
+        "issn": [
+          "0016-8033",
+          "1942-2156"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-2"
+        ],
+        "host_organization": "https://openalex.org/P4310316678",
+        "host_organization_name": "Society of Exploration Geophysicists",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310316678"
+        ],
+        "host_organization_lineage_names": [
+          "Society of Exploration Geophysicists"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Geophysics",
+      "raw_type": "journal-article"
+    },
+    {
+      "id": "pmh:oai:oceanrep.geomar.de:30943",
+      "is_oa": false,
+      "landing_page_url": "http://oceanrep.geomar.de/30943/1/Berkhout.pdf",
+      "pdf_url": "http://oceanrep.geomar.de/30943/1/Berkhout.pdf",
+      "source": {
+        "id": "https://openalex.org/S4306400264",
+        "display_name": "Helmholtz Centre for Ocean Research Kiel (GEOMAR)",
+        "issn_l": null,
+        "issn": null,
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": false,
+        "listed_in": [],
+        "host_organization": "https://openalex.org/I34403800",
+        "host_organization_name": "GEOMAR Helmholtz Centre for Ocean Research Kiel",
+        "host_organization_lineage": [
+          "https://openalex.org/I34403800"
+        ],
+        "host_organization_lineage_names": [],
+        "type": "repository"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "acceptedVersion",
+      "is_accepted": true,
+      "is_published": false,
+      "raw_source_name": "Geophysics, 46 (12). pp. 1638-1656.",
+      "raw_type": "Article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "display_name": "Reduced inequalities",
+      "id": "https://metadata.un.org/sdg/10",
+      "score": 0.6600000262260437
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 2,
+  "referenced_works": [
+    "https://openalex.org/W1997678737",
+    "https://openalex.org/W2118512125"
+  ],
+  "related_works": [
+    "https://openalex.org/W1601492201",
+    "https://openalex.org/W124121838",
+    "https://openalex.org/W2161171760",
+    "https://openalex.org/W2067306562",
+    "https://openalex.org/W1535188164",
+    "https://openalex.org/W2019356682",
+    "https://openalex.org/W2960058236",
+    "https://openalex.org/W2181789249",
+    "https://openalex.org/W2389661795",
+    "https://openalex.org/W2155472253"
+  ],
+  "abstract_inverted_index": {
+    "Abstract": [
+      0
+    ],
+    "The": [
+      1,
+      110,
+      192
+    ],
+    "objective": [
+      2
+    ],
+    "of": [
+      3,
+      14,
+      101,
+      158,
+      180,
+      195,
+      251,
+      261,
+      313,
+      358
+    ],
+    "this": [
+      4,
+      235,
+      387
+    ],
+    "paper": [
+      5
+    ],
+    "is": [
+      6,
+      40,
+      81,
+      91,
+      113,
+      136,
+      198,
+      219,
+      236,
+      255,
+      309,
+      362
+    ],
+    "to": [
+      7,
+      42,
+      164,
+      281,
+      351,
+      396,
+      408
+    ],
+    "provide": [
+      8
+    ],
+    "a": [
+      9,
+      61,
+      84,
+      94,
+      181,
+      248,
+      274,
+      374
+    ],
+    "general": [
+      10
+    ],
+    "view": [
+      11
+    ],
+    "on": [
+      12,
+      144
+    ],
+    "methods": [
+      13,
+      141,
+      292
+    ],
+    "wave": [
+      15,
+      150,
+      203,
+      306
+    ],
+    "field": [
+      16,
+      307
+    ],
+    "extrapolation": [
+      17,
+      80,
+      90,
+      140,
+      176,
+      241,
+      390
+    ],
+    "as": [
+      18,
+      126
+    ],
+    "used": [
+      19,
+      199,
+      256
+    ],
+    "in": [
+      20,
+      53,
+      69,
+      178,
+      189,
+      200,
+      213,
+      223,
+      270,
+      311
+    ],
+    "seismic": [
+      21,
+      24,
+      367
+    ],
+    "modeling": [
+      22
+    ],
+    "and": [
+      23,
+      35,
+      71,
+      88,
+      129,
+      149,
+      295,
+      318,
+      382,
+      403
+    ],
+    "migration,": [
+      25
+    ],
+    "i.e.,": [
+      26
+    ],
+    "the": [
+      27,
+      30,
+      36,
+      43,
+      46,
+      51,
+      54,
+      99,
+      105,
+      153,
+      159,
+      175,
+      196,
+      201,
+      214,
+      224,
+      240,
+      252,
+      262,
+      271,
+      284,
+      305,
+      359,
+      365,
+      399,
+      411
+    ],
+    "Kirchhoff-summation": [
+      28,
+      154
+    ],
+    "approach,": [
+      29
+    ],
+    "plane-wave": [
+      31
+    ],
+    "method": [
+      32,
+      204
+    ],
+    "(k-f": [
+      33,
+      205
+    ],
+    "method),": [
+      34
+    ],
+    "finite-difference": [
+      37,
+      246,
+      303
+    ],
+    "technique.Particular": [
+      38
+    ],
+    "emphasis": [
+      39
+    ],
+    "given": [
+      41
+    ],
+    "relationship": [
+      44
+    ],
+    "between": [
+      45
+    ],
+    "different": [
+      47
+    ],
+    "methods.": [
+      48
+    ],
+    "By": [
+      49
+    ],
+    "formulating": [
+      50
+    ],
+    "problem": [
+      52
+    ],
+    "space-frequency": [
+      55,
+      111
+    ],
+    "domain": [
+      56,
+      112
+    ],
+    "(x,": [
+      57
+    ],
+    "y,": [
+      58,
+      216
+    ],
+    "omega": [
+      59,
+      217,
+      231
+    ],
+    "-domain),": [
+      60
+    ],
+    "systems": [
+      62
+    ],
+    "approach": [
+      63,
+      155
+    ],
+    "can": [
+      64,
+      132,
+      369
+    ],
+    "be": [
+      65,
+      133,
+      187,
+      279,
+      339,
+      370
+    ],
+    "adopted": [
+      66
+    ],
+    "which": [
+      67,
+      185
+    ],
+    "results": [
+      68
+    ],
+    "simple": [
+      70,
+      294
+    ],
+    "concise": [
+      72
+    ],
+    "expressions.": [
+      73
+    ],
+    "These": [
+      74
+    ],
+    "expressions": [
+      75
+    ],
+    "clearly": [
+      76
+    ],
+    "show": [
+      77,
+      329
+    ],
+    "that": [
+      78,
+      138,
+      210,
+      364
+    ],
+    "forward": [
+      79,
+      316,
+      366
+    ],
+    "described": [
+      82,
+      92,
+      372
+    ],
+    "by": [
+      83,
+      93,
+      373
+    ],
+    "spatial": [
+      85,
+      95,
+      130,
+      182,
+      211,
+      275
+    ],
+    "convolution": [
+      86,
+      183
+    ],
+    "procedure": [
+      87,
+      107,
+      177,
+      395,
+      407
+    ],
+    "inverse": [
+      89,
+      321,
+      389
+    ],
+    "deconvolution": [
+      96
+    ],
+    "procedure.": [
+      97
+    ],
+    "In": [
+      98,
+      120,
+      152,
+      341
+    ],
+    "situation": [
+      100
+    ],
+    "lateral": [
+      102
+    ],
+    "velocity": [
+      103
+    ],
+    "variations,": [
+      104
+    ],
+    "(de)convolution": [
+      106,
+      212
+    ],
+    "becomes": [
+      108
+    ],
+    "space-variant.": [
+      109
+    ],
+    "most": [
+      114,
+      296
+    ],
+    "suitable": [
+      115,
+      297
+    ],
+    "for": [
+      116,
+      170,
+      283,
+      298,
+      380,
+      398,
+      410
+    ],
+    "recursive": [
+      117
+    ],
+    "depth": [
+      118
+    ],
+    "migration.": [
+      119
+    ],
+    "addition,": [
+      121
+    ],
+    "frequency": [
+      122
+    ],
+    "dependent": [
+      123
+    ],
+    "properties": [
+      124
+    ],
+    "such": [
+      125
+    ],
+    "absorption,": [
+      127
+    ],
+    "dispersion,": [
+      128
+    ],
+    "bandwidth": [
+      131
+    ],
+    "handled": [
+      134
+    ],
+    "easily.It": [
+      135
+    ],
+    "shown": [
+      137,
+      363
+    ],
+    "all": [
+      139,
+      156
+    ],
+    "are": [
+      142,
+      162,
+      243,
+      293,
+      348
+    ],
+    "based": [
+      143
+    ],
+    "two": [
+      145,
+      268
+    ],
+    "equations:": [
+      146
+    ],
+    "Taylor": [
+      147,
+      160,
+      253,
+      272
+    ],
+    "series": [
+      148,
+      161,
+      254
+    ],
+    "equation.": [
+      151
+    ],
+    "terms": [
+      157,
+      179,
+      269,
+      312
+    ],
+    "summed": [
+      163
+    ],
+    "an": [
+      165,
+      314,
+      319
+    ],
+    "exact": [
+      166
+    ],
+    "analytical": [
+      167
+    ],
+    "expression--the": [
+      168
+    ],
+    "Kirchhoff-integral": [
+      169,
+      197
+    ],
+    "plane": [
+      171,
+      202
+    ],
+    "surfaces.": [
+      172
+    ],
+    "It": [
+      173
+    ],
+    "formulates": [
+      174
+    ],
+    "integral": [
+      184
+    ],
+    "must": [
+      186,
+      278
+    ],
+    "discretized": [
+      188
+    ],
+    "practical": [
+      190
+    ],
+    "applications.": [
+      191
+    ],
+    "Fourier-transformed": [
+      193
+    ],
+    "version": [
+      194,
+      250
+    ],
+    "method).": [
+      206
+    ],
+    "This": [
+      207
+    ],
+    "actually": [
+      208
+    ],
+    "means": [
+      209
+    ],
+    "x,": [
+      215
+    ],
+    "-domain": [
+      218
+    ],
+    "translated": [
+      220
+    ],
+    "into": [
+      221
+    ],
+    "multiplication": [
+      222
+    ],
+    "k": [
+      225,
+      228
+    ],
+    "x": [
+      226
+    ],
+    ",": [
+      227,
+      230
+    ],
+    "y": [
+      229
+    ],
+    "-domain.": [
+      232
+    ],
+    "Of": [
+      233
+    ],
+    "course,": [
+      234
+    ],
+    "not": [
+      237,
+      328,
+      338
+    ],
+    "allowed": [
+      238
+    ],
+    "if": [
+      239
+    ],
+    "operators": [
+      242,
+      379
+    ],
+    "space-variant.In": [
+      244
+    ],
+    "explicit": [
+      245,
+      315,
+      320,
+      344
+    ],
+    "techniques": [
+      247
+    ],
+    "truncated": [
+      249
+    ],
+    "with": [
+      257,
+      343
+    ],
+    "some": [
+      258
+    ],
+    "optimum": [
+      259
+    ],
+    "adjustments": [
+      260
+    ],
+    "coefficients.": [
+      263
+    ],
+    "For": [
+      264
+    ],
+    "only": [
+      265
+    ],
+    "one": [
+      266,
+      392,
+      404
+    ],
+    "or": [
+      267
+    ],
+    "series,": [
+      273
+    ],
+    "low-pass": [
+      276
+    ],
+    "filter": [
+      277
+    ],
+    "applied": [
+      280
+    ],
+    "compensate": [
+      282,
+      397,
+      409
+    ],
+    "amplitude": [
+      285,
+      330,
+      334
+    ],
+    "errors": [
+      286,
+      331
+    ],
+    "at": [
+      287,
+      355
+    ],
+    "high": [
+      288
+    ],
+    "tilt": [
+      289
+    ],
+    "angles.": [
+      290
+    ],
+    "Explicit": [
+      291
+    ],
+    "three-dimensional": [
+      299
+    ],
+    "(3-D)": [
+      300
+    ],
+    "applications.In": [
+      301
+    ],
+    "implicit": [
+      302,
+      325,
+      346
+    ],
+    "schemes": [
+      304,
+      326,
+      347
+    ],
+    "extrapolator": [
+      308,
+      317
+    ],
+    "written": [
+      310
+    ],
+    "extrapolator.": [
+      322
+    ],
+    "Properly": [
+      323
+    ],
+    "designed": [
+      324
+    ],
+    "do": [
+      327
+    ],
+    "and,": [
+      332
+    ],
+    "therefore,": [
+      333
+    ],
+    "correction": [
+      335
+    ],
+    "filters": [
+      336
+    ],
+    "need": [
+      337
+    ],
+    "applied.": [
+      340
+    ],
+    "comparison": [
+      342
+    ],
+    "schemes,": [
+      345
+    ],
+    "more": [
+      349
+    ],
+    "sensitive": [
+      350
+    ],
+    "improper": [
+      352
+    ],
+    "boundary": [
+      353
+    ],
+    "conditions": [
+      354
+    ],
+    "both": [
+      356
+    ],
+    "ends": [
+      357
+    ],
+    "data": [
+      360
+    ],
+    "file.It": [
+      361
+    ],
+    "model": [
+      368
+    ],
+    "elegantly": [
+      371
+    ],
+    "matrix": [
+      375,
+      393,
+      405
+    ],
+    "equation,": [
+      376
+    ],
+    "using": [
+      377
+    ],
+    "separate": [
+      378
+    ],
+    "downward": [
+      381,
+      400
+    ],
+    "upward": [
+      383,
+      412
+    ],
+    "traveling": [
+      384
+    ],
+    "waves.": [
+      385
+    ],
+    "Using": [
+      386
+    ],
+    "model,": [
+      388
+    ],
+    "involves": [
+      391
+    ],
+    "inversion": [
+      394,
+      406
+    ],
+    "propagation": [
+      401,
+      413
+    ],
+    "effects": [
+      402
+    ],
+    "effects.": [
+      414
+    ]
+  },
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 5
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 2
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 3
+    }
+  ],
+  "updated_date": "2026-09-22T06:50:58.402377",
+  "created_date": "2025-10-10T00:00:00"
+}

@@ -1,0 +1,524 @@
+{
+  "id": "https://openalex.org/W1991538675",
+  "doi": "https://doi.org/10.1016/0040-1951(90)90155-2",
+  "title": "Seismicity of the Aegean and surrounding area",
+  "display_name": "Seismicity of the Aegean and surrounding area",
+  "publication_year": 1990,
+  "publication_date": "1990-06-01",
+  "ids": {
+    "openalex": "https://openalex.org/W1991538675",
+    "doi": "https://doi.org/10.1016/0040-1951(90)90155-2",
+    "mag": "1991538675"
+  },
+  "language": "en",
+  "primary_location": {
+    "id": "doi:10.1016/0040-1951(90)90155-2",
+    "is_oa": false,
+    "landing_page_url": "https://doi.org/10.1016/0040-1951(90)90155-2",
+    "pdf_url": null,
+    "source": {
+      "id": "https://openalex.org/S195250905",
+      "display_name": "Tectonophysics",
+      "issn_l": "0040-1951",
+      "issn": [
+        "0040-1951",
+        "1879-3266"
+      ],
+      "is_oa": false,
+      "is_in_doaj": false,
+      "is_core": true,
+      "listed_in": [
+        "cwts-core",
+        "jufo-1",
+        "norway-1"
+      ],
+      "host_organization": "https://openalex.org/P4310320990",
+      "host_organization_name": "Elsevier BV",
+      "host_organization_lineage": [
+        "https://openalex.org/P4310320990"
+      ],
+      "host_organization_lineage_names": [
+        "Elsevier BV"
+      ],
+      "type": "journal"
+    },
+    "license": null,
+    "license_id": null,
+    "version": "publishedVersion",
+    "is_accepted": true,
+    "is_published": true,
+    "raw_source_name": "Tectonophysics",
+    "raw_type": "journal-article"
+  },
+  "type": "article",
+  "indexed_in": [
+    "crossref"
+  ],
+  "open_access": {
+    "is_oa": false,
+    "oa_status": "closed",
+    "oa_url": null,
+    "any_repository_has_fulltext": false
+  },
+  "authorships": [
+    {
+      "author_position": "first",
+      "author": {
+        "id": "https://openalex.org/A5111581213",
+        "display_name": "Basil C. Papazachos",
+        "orcid": null,
+        "observed_orcids": []
+      },
+      "institutions": [
+        {
+          "id": "https://openalex.org/I4210150103",
+          "display_name": "Geophysical Laboratory",
+          "ror": "https://ror.org/05qyye271",
+          "country_code": "US",
+          "type": "facility",
+          "lineage": [
+            "https://openalex.org/I196817621",
+            "https://openalex.org/I4210150103",
+            "https://openalex.org/I4387155102"
+          ]
+        }
+      ],
+      "countries": [
+        "US"
+      ],
+      "is_corresponding": true,
+      "raw_author_name": "B.C. Papazachos",
+      "raw_affiliation_strings": [
+        "Geophysical Laboratory, University of Thessaloniki, Mail Box 352-1, GR-54006 ThessalonikiGreece"
+      ],
+      "raw_orcid": null,
+      "affiliations": [
+        {
+          "raw_affiliation_string": "Geophysical Laboratory, University of Thessaloniki, Mail Box 352-1, GR-54006 ThessalonikiGreece",
+          "institution_ids": [
+            "https://openalex.org/I4210150103"
+          ]
+        }
+      ]
+    }
+  ],
+  "institutions": [],
+  "countries_distinct_count": 1,
+  "institutions_distinct_count": 1,
+  "corresponding_author_ids": [
+    "https://openalex.org/A5111581213"
+  ],
+  "corresponding_institution_ids": [
+    "https://openalex.org/I4210150103"
+  ],
+  "apc_list": {
+    "value": 3190,
+    "currency": "USD",
+    "value_usd": 3190
+  },
+  "apc_paid": null,
+  "fwci": 5.843,
+  "has_fulltext": false,
+  "cited_by_count": 233,
+  "citation_normalized_percentile": {
+    "value": 0.97010837,
+    "is_in_top_1_percent": false,
+    "is_in_top_10_percent": true
+  },
+  "cited_by_percentile_year": {
+    "min": 93,
+    "max": 100
+  },
+  "biblio": {
+    "volume": "178",
+    "issue": "2-4",
+    "first_page": "287",
+    "last_page": "308"
+  },
+  "is_retracted": false,
+  "is_paratext": false,
+  "is_xpac": false,
+  "primary_topic": {
+    "id": "https://openalex.org/T10110",
+    "display_name": "earthquake and tectonic studies",
+    "score": 0.9997000098228455,
+    "subfield": {
+      "id": "https://openalex.org/subfields/1908",
+      "display_name": "Geophysics"
+    },
+    "field": {
+      "id": "https://openalex.org/fields/19",
+      "display_name": "Earth and Planetary Sciences"
+    },
+    "domain": {
+      "id": "https://openalex.org/domains/3",
+      "display_name": "Physical Sciences"
+    }
+  },
+  "topics": [
+    {
+      "id": "https://openalex.org/T10110",
+      "display_name": "earthquake and tectonic studies",
+      "score": 0.9997000098228455,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T10413",
+      "display_name": "High-pressure geophysics and materials",
+      "score": 0.9642999768257141,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    },
+    {
+      "id": "https://openalex.org/T12424",
+      "display_name": "Earthquake Detection and Analysis",
+      "score": 0.9556999802589417,
+      "subfield": {
+        "id": "https://openalex.org/subfields/1908",
+        "display_name": "Geophysics"
+      },
+      "field": {
+        "id": "https://openalex.org/fields/19",
+        "display_name": "Earth and Planetary Sciences"
+      },
+      "domain": {
+        "id": "https://openalex.org/domains/3",
+        "display_name": "Physical Sciences"
+      }
+    }
+  ],
+  "keywords": [
+    {
+      "id": "https://openalex.org/keywords/induced-seismicity",
+      "display_name": "Induced seismicity",
+      "score": 0.8982909917831421
+    },
+    {
+      "id": "https://openalex.org/keywords/geology",
+      "display_name": "Geology",
+      "score": 0.8962187767028809
+    },
+    {
+      "id": "https://openalex.org/keywords/seismology",
+      "display_name": "Seismology",
+      "score": 0.8308257460594177
+    },
+    {
+      "id": "https://openalex.org/keywords/magnitude",
+      "display_name": "Magnitude (astronomy)",
+      "score": 0.7023388743400574
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-moment",
+      "display_name": "Seismic moment",
+      "score": 0.5451594591140747
+    },
+    {
+      "id": "https://openalex.org/keywords/seismic-hazard",
+      "display_name": "Seismic hazard",
+      "score": 0.5420587062835693
+    },
+    {
+      "id": "https://openalex.org/keywords/moment-magnitude-scale",
+      "display_name": "Moment magnitude scale",
+      "score": 0.539014995098114
+    },
+    {
+      "id": "https://openalex.org/keywords/fault",
+      "display_name": "Fault (geology)",
+      "score": 0.4949786067008972
+    },
+    {
+      "id": "https://openalex.org/keywords/focal-mechanism",
+      "display_name": "Focal mechanism",
+      "score": 0.4166809916496277
+    }
+  ],
+  "concepts": [
+    {
+      "id": "https://openalex.org/C83176761",
+      "wikidata": "https://www.wikidata.org/wiki/Q1394636",
+      "display_name": "Induced seismicity",
+      "level": 2,
+      "score": 0.8982909917831421
+    },
+    {
+      "id": "https://openalex.org/C127313418",
+      "wikidata": "https://www.wikidata.org/wiki/Q1069",
+      "display_name": "Geology",
+      "level": 0,
+      "score": 0.8962187767028809
+    },
+    {
+      "id": "https://openalex.org/C165205528",
+      "wikidata": "https://www.wikidata.org/wiki/Q83371",
+      "display_name": "Seismology",
+      "level": 1,
+      "score": 0.8308257460594177
+    },
+    {
+      "id": "https://openalex.org/C126691448",
+      "wikidata": "https://www.wikidata.org/wiki/Q2028919",
+      "display_name": "Magnitude (astronomy)",
+      "level": 2,
+      "score": 0.7023388743400574
+    },
+    {
+      "id": "https://openalex.org/C120447056",
+      "wikidata": "https://www.wikidata.org/wiki/Q1481983",
+      "display_name": "Seismic moment",
+      "level": 3,
+      "score": 0.5451594591140747
+    },
+    {
+      "id": "https://openalex.org/C69361100",
+      "wikidata": "https://www.wikidata.org/wiki/Q1632490",
+      "display_name": "Seismic hazard",
+      "level": 2,
+      "score": 0.5420587062835693
+    },
+    {
+      "id": "https://openalex.org/C90987359",
+      "wikidata": "https://www.wikidata.org/wiki/Q201605",
+      "display_name": "Moment magnitude scale",
+      "level": 3,
+      "score": 0.539014995098114
+    },
+    {
+      "id": "https://openalex.org/C175551986",
+      "wikidata": "https://www.wikidata.org/wiki/Q47089",
+      "display_name": "Fault (geology)",
+      "level": 2,
+      "score": 0.4949786067008972
+    },
+    {
+      "id": "https://openalex.org/C97490223",
+      "wikidata": "https://www.wikidata.org/wiki/Q1609712",
+      "display_name": "Focal mechanism",
+      "level": 3,
+      "score": 0.4166809916496277
+    },
+    {
+      "id": "https://openalex.org/C33923547",
+      "wikidata": "https://www.wikidata.org/wiki/Q395",
+      "display_name": "Mathematics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C99844830",
+      "wikidata": "https://www.wikidata.org/wiki/Q102441924",
+      "display_name": "Scaling",
+      "level": 2,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C121332964",
+      "wikidata": "https://www.wikidata.org/wiki/Q413",
+      "display_name": "Physics",
+      "level": 0,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C2524010",
+      "wikidata": "https://www.wikidata.org/wiki/Q8087",
+      "display_name": "Geometry",
+      "level": 1,
+      "score": 0.0
+    },
+    {
+      "id": "https://openalex.org/C1276947",
+      "wikidata": "https://www.wikidata.org/wiki/Q333",
+      "display_name": "Astronomy",
+      "level": 1,
+      "score": 0.0
+    }
+  ],
+  "mesh": [],
+  "locations_count": 1,
+  "locations": [
+    {
+      "id": "doi:10.1016/0040-1951(90)90155-2",
+      "is_oa": false,
+      "landing_page_url": "https://doi.org/10.1016/0040-1951(90)90155-2",
+      "pdf_url": null,
+      "source": {
+        "id": "https://openalex.org/S195250905",
+        "display_name": "Tectonophysics",
+        "issn_l": "0040-1951",
+        "issn": [
+          "0040-1951",
+          "1879-3266"
+        ],
+        "is_oa": false,
+        "is_in_doaj": false,
+        "is_core": true,
+        "listed_in": [
+          "cwts-core",
+          "jufo-1",
+          "norway-1"
+        ],
+        "host_organization": "https://openalex.org/P4310320990",
+        "host_organization_name": "Elsevier BV",
+        "host_organization_lineage": [
+          "https://openalex.org/P4310320990"
+        ],
+        "host_organization_lineage_names": [
+          "Elsevier BV"
+        ],
+        "type": "journal"
+      },
+      "license": null,
+      "license_id": null,
+      "version": "publishedVersion",
+      "is_accepted": true,
+      "is_published": true,
+      "raw_source_name": "Tectonophysics",
+      "raw_type": "journal-article"
+    }
+  ],
+  "best_oa_location": null,
+  "sustainable_development_goals": [
+    {
+      "score": 0.8399999737739563,
+      "id": "https://metadata.un.org/sdg/14",
+      "display_name": "Life below water"
+    }
+  ],
+  "x_sdgs": [],
+  "awards": [],
+  "funders": [],
+  "has_content": {
+    "grobid_xml": false,
+    "pdf": false
+  },
+  "content_urls": null,
+  "referenced_works_count": 27,
+  "referenced_works": [
+    "https://openalex.org/W592011823",
+    "https://openalex.org/W1544336012",
+    "https://openalex.org/W1761867724",
+    "https://openalex.org/W1904429860",
+    "https://openalex.org/W1972975630",
+    "https://openalex.org/W2008264024",
+    "https://openalex.org/W2010308068",
+    "https://openalex.org/W2018658949",
+    "https://openalex.org/W2020504122",
+    "https://openalex.org/W2027287476",
+    "https://openalex.org/W2027870974",
+    "https://openalex.org/W2048403692",
+    "https://openalex.org/W2054060475",
+    "https://openalex.org/W2058711412",
+    "https://openalex.org/W2058780477",
+    "https://openalex.org/W2076293737",
+    "https://openalex.org/W2092766161",
+    "https://openalex.org/W2096154525",
+    "https://openalex.org/W2101692651",
+    "https://openalex.org/W2105658614",
+    "https://openalex.org/W2299616961",
+    "https://openalex.org/W2301875544",
+    "https://openalex.org/W4285719527",
+    "https://openalex.org/W6617473158",
+    "https://openalex.org/W6632554622",
+    "https://openalex.org/W6674849083",
+    "https://openalex.org/W6697848811"
+  ],
+  "related_works": [
+    "https://openalex.org/W2350013445",
+    "https://openalex.org/W4386525383",
+    "https://openalex.org/W4306923024",
+    "https://openalex.org/W2789632753",
+    "https://openalex.org/W2364955367",
+    "https://openalex.org/W2508313053",
+    "https://openalex.org/W2483398626",
+    "https://openalex.org/W324282989",
+    "https://openalex.org/W612741001",
+    "https://openalex.org/W4389732050"
+  ],
+  "abstract_inverted_index": null,
+  "counts_by_year": [
+    {
+      "year": 2026,
+      "cited_by_count": 1
+    },
+    {
+      "year": 2025,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2024,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2023,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2022,
+      "cited_by_count": 4
+    },
+    {
+      "year": 2021,
+      "cited_by_count": 13
+    },
+    {
+      "year": 2020,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2019,
+      "cited_by_count": 3
+    },
+    {
+      "year": 2018,
+      "cited_by_count": 8
+    },
+    {
+      "year": 2017,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2016,
+      "cited_by_count": 9
+    },
+    {
+      "year": 2015,
+      "cited_by_count": 6
+    },
+    {
+      "year": 2014,
+      "cited_by_count": 7
+    },
+    {
+      "year": 2013,
+      "cited_by_count": 14
+    },
+    {
+      "year": 2012,
+      "cited_by_count": 6
+    }
+  ],
+  "updated_date": "2026-09-22T17:25:34.749102",
+  "created_date": "2025-10-10T00:00:00"
+}
