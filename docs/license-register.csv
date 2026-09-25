@@ -268,3 +268,102 @@ blob SHA=`4900f40a438afece719bc8d1f15e42771697d9cc`，size=7641 B。
 本执行方**在期限内**报告阻断，**未逾期**。
 
 ---
+---
+
+### 3.3 选中数据集（P0.6-Am3，2026-09-25）—— **Zenodo Martha's Vineyard / Nantucket 炮集**
+
+| 项 | 内容 |
+| :--- | :--- |
+| **DOI** | **`10.5281/zenodo.10407771`** |
+| 标题 | Seismic and Hydrostratigraphic Characterization of the Onshore-Offshore Freshwater Systems of Martha's Vineyard and Nantucket, Massachusetts, USA: Field Survey Report |
+| **许可 id** | **`cc-by-4.0`**（Creative Commons Attribution 4.0 International） |
+| **许可原文 URL** | `https://creativecommons.org/licenses/by/4.0/` （Zenodo 记录内标注 `license.id = cc-by-4.0`） |
+| 数据形态 | **野外炮集（shot gathers）**；陆上—近海浅层反射；两测区（Martha's Vineyard + Nantucket） |
+| 创作人 | **Dugan, Brandon**（Colorado School of Mines；ORCID `0000-0002-2555-6430`） |
+| 发布日 / 类型 | 2023-12-19 / Dataset |
+| 获取方式 | **`access_right = open`**，无需账号；支持 HTTP Range（实测 **206**） |
+
+**原始文件清单（Zenodo API 实测，2026-09-25）**
+
+| 文件 | 大小 (B) | 校验（Zenodo 提供） |
+| :--- | ---: | :--- |
+| `mv1001shots.segy` | 890,138,560 | `md5:74d3ac94016c4752580365629abddadd` |
+| `nan3001shots.segy` | 944,017,440 | `md5:905965bd21226d68a23ffabdb02551ae` |
+| `nsf_2052794_field_survey_report.pdf` | 10,820,945 | `md5:c6b6037e1bf88a3ff1722a4db8dfa3f1` |
+
+**本项目采集的子集（按道截取，P0.6-Am1 流程）**
+
+| 子集文件 | 道数 | 字节数 | **SHA256** |
+| :--- | ---: | ---: | :--- |
+| `data/field/zenodo-mv/mv1001shots_subset8000.sgy` | 8,000 | 161,923,600 | `1cdd7e27d0d79a99178de2e5de392367e48050183cf40623aec7e221a6acb9e0` |
+| `data/field/zenodo-mv/nan3001shots_subset8000.sgy` | 8,000 | 161,923,600 | `15dfa5dbc06850fc5631335d16b27c49d5774e9f98028fa229523b9c50714c66` |
+
+> 数据文件本身**不入 git**（`data/**` 已由 `.gitignore` 覆盖）；仓库内仅登记清单与校验值。
+
+**segyio 有效性实测（断言全通过）**
+
+| 断言 | 期望 | 实测（两文件） | 结果 |
+| :--- | ---: | ---: | :--- |
+| 道数 | 8,000 | 8,000 | ✅ |
+| 采样数 `ns` | 5,000 | 5,000 | ✅ |
+| 格式码 `fmt` | 1（IBM 32-bit） | 1 | ✅ |
+| 采样间隔 `dt` | 1000 µs | 1000 | ✅ |
+| 数值有限（抽 3 道） | 无 NaN/Inf | 通过 | ✅ |
+
+**签名文本（CC BY 4.0 要求署名，建议引用格式）**
+
+> Dugan, B. (2023). *Seismic and Hydrostratigraphic Characterization of the Onshore-Offshore Freshwater Systems of Martha's Vineyard and Nantucket, Massachusetts, USA: Field Survey Report* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.10407771 — licensed under **CC BY 4.0**.
+
+**结论（录取条件 (i)）**：✅ **允许学术分析 + 衍生结果发表 + 再分发衍生结果**。
+CC BY 4.0 允许在任何媒介以任何形式复制、再分发、改编、转换与基于该材料的创作（含商业用途），
+**仅要求署名**（并标明是否作了修改）。本项目产出（面板、残差剖面、图表、融合结果）属衍生作品，**在许可范围内**。
+
+**录取条件逐项**
+
+| 条件 | 结果 | 依据 |
+| :--- | :--- | :--- |
+| (i) 许可原文核验 | ✅ | Zenodo API `license.id = cc-by-4.0`；原文 URL `creativecommons.org/licenses/by/4.0/` |
+| (ii) 当前可访问 | ✅ | 实测 **HTTP 206**（Range 成功）、`access_right = open`、无需账号 |
+| (iii) 数据形态 | ✅ | 摘要逐字：「*seisimic data (shot gathers) from Martha's Vineyard, and seismic data (shot gathers) from Nantucket*」——**炮集**；两测区天然给出多面板候选 |
+| (iv) 子集 ≤500 MB | ✅ | 两子集合计 **323.8 MB** |
+
+---
+
+### 3.4 Zenodo 候选勘察记录（P0.6-Am3，含失败与排除项）
+
+| 优先级 | DOI | 内容 | 许可 | 可达性 | 结论 |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **1** | `10.5281/zenodo.10407771` | Martha's Vineyard / Nantucket **野外炮集** | **CC BY 4.0** | 实测 206 | ✅ **选中（不再核验后续）** |
+| 2 | `10.5281/zenodo.14212172` | Kentland 撞击构造反射（SGY，含 stacked） | CC BY 4.0 | 未核验 | 因优先级 1 通过而未核验 |
+| 3 | `10.5281/zenodo.10818063` | RV METEOR M199 海洋多道 SEG-Y | CC BY 4.0 | 未核验 | 同上 |
+| 4 | `10.5281/zenodo.8429605` | Stryde/KAUST 陆上节点（tar.xz 1.35 GB） | CC BY 4.0 | 未核验 | 同上 |
+| — | `10.5281/zenodo.21325738` | 拖缆近偏移距恢复（含预训练模型） | CC BY 4.0 | 未核验 | 备选；若采用须**单独登记权重许可** |
+| — | `10.5281/zenodo.20839818` | 花岗岩露区地球物理成像 | CC BY 4.0 | 未核验 | 备选（非专门反射采集） |
+
+**已排除（不得采用）**
+
+| DOI | 许可 | 排除理由 |
+| :--- | :--- | :--- |
+| `10.5281/zenodo.21707754` | **CC BY-ND 4.0** | **ND 禁止衍生**，而本项目产出面板/残差/图表/融合结果**均为衍生品** → 一律排除 |
+| `10.5281/zenodo.21707989` | **CC BY-ND 4.0** | 同上 |
+
+**许可接受规则（本批起沿用，写入常设口径）**
+
+- **接受**：`CC BY 4.0`、`CC BY 3.0`、`CC0 1.0`、`CC BY-SA 4.0 / 3.0`。
+- **一律排除**：**`CC BY-ND`（NoDerivatives）** 与 **`NC`（NonCommercial）** 系。
+  理由：本项目产出衍生作品并用于学术发表与开源发布；ND 明确禁止衍生；
+  NC 在开源仓库与后续再利用场景存在不确定性。
+
+---
+
+### 3.5 判定更正：USGS 的 405 ≠ 不可访问（P0.6-Am3 第五节）
+
+- 上一批勘察表将 USGS 记为 "405 → 未通过 (ii) 可访问"，**该判定不当**。
+- **405 = Method Not Allowed**，是**请求方法 / 端点不匹配**的信号（如对只接受 GET 的资源发 HEAD），
+  与 **403（明确拒绝）性质不同**。
+- **更正后表述**：USGS 直源本批**未能以所试方法取得数据**（405 / 403 混合），
+  **不代表其不可用**；将来若需 USGS 数据，须以 **GET + 正确端点复测**后再下结论。
+- 同批 **TerraNubis / ShareFile 的 AWS WAF 拦截**（响应头含 `awswaf.com/challenge.js`）
+  属**明确的技术性阻断**，与 USGS 的 405 性质不同，**原判定维持**。
+
+---

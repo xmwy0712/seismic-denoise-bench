@@ -1322,3 +1322,161 @@ Am2 已将勘察+采集期限**延至 2026-10-04**（协议约束实为"看方�
 本执行方**在期限内报告阻断，未逾期**；`2026-10-04` 之后**不得再顺延**。
 
 ---
+
+---
+
+## 五、2026-09-25 · P0.6-Am3 记录
+
+### 5.1 判定更正（针对上一批勘察表）
+
+**Am3 第五节更正**：上一批勘察表把 **USGS** 记为 "HTTP 405 → 未通过 (ii) 可访问"，
+**该判定不当**。
+
+- **405 = Method Not Allowed**，是**请求方法 / 端点不匹配**的信号
+  （例如对只接受 GET 的资源发了 HEAD，或端点需不同调用形式）；
+- 与 **403（明确拒绝）性质不同**；
+- **不得**据此判为"不可用"。
+
+**更正后表述**：USGS 直源本批**未能以所试方法取得数据**（405 / 403 混合），
+**不代表其不可用**；**将来若需 USGS 数据，须以 GET + 正确端点复测后再下结论**。
+本更正在此留痕，勘察表相应行已按此口径理解。
+
+> 同批中 **TerraNubis / ShareFile 的 AWS WAF 拦截**（含 `awswaf.com/challenge.js`）
+> 属**明确的技术性阻断**，与 USGS 的 405 性质不同，原判定**维持**。
+
+---
+
+---
+
+### 2026-09-25 | P0.6-Am3 Commit 1 · Zenodo 野外数据采集（优先级 1 通过）
+
+**依据**：`P0.6-Am3-Zenodo野外数据路径-2026-09-25.md`
+（SHA256 `11F5EB993A4BC7DCF2CF0665F4AFA88F9B47F5E9D0C72C1EE89ADDF60CF3634C`，6917 B）
+第一/二/三/四节。
+
+**签发方裁定**：上一批报告的四个方向 (a)(b)(c)(d) **本轮均不授权**
+（(b)(c)(d) 涉及第三方账号注册 / 重启用户基础设施 / 以用户身份发邮件，超出执行层权限；
+(a) 保留为备选）。**改走 Zenodo 已发表数据集路径**（开放 API、无需账号、CC BY 4.0、支持 Range）。
+
+#### 执行结果：**优先级 1 通过，采集完成**
+
+**选中数据集**
+
+| 项 | 内容 |
+| :--- | :--- |
+| **DOI** | **`10.5281/zenodo.10407771`** |
+| 标题 | Seismic and Hydrostratigraphic Characterization of the Onshore-Offshore Freshwater Systems of Martha's Vineyard and Nantucket, Massachusetts, USA: Field Survey Report |
+| **许可** | **CC BY 4.0**（`license.id = cc-by-4.0`）；原文 URL `https://creativecommons.org/licenses/by/4.0/` |
+| 创作人 | **Dugan, Brandon**（Colorado School of Mines，ORCID `0000-0002-2555-6430`） |
+| 数据形态 | **野外炮集（shot gathers）**，两测区（Martha's Vineyard + Nantucket） |
+| 获取 | `access_right = open`，无需账号，实测 **HTTP 206**（Range 支持） |
+
+> 摘要逐字（证明为炮集，条件 iii）：`This data archive includes three files: field project report,
+> seisimic data (shot gathers) from Martha's Vineyard, and seismic data (shot gathers) from Nantucket.`
+
+**原始文件（Zenodo API 实测）**
+
+| 文件 | 大小 (B) | MD5（Zenodo 提供） |
+| :--- | ---: | :--- |
+| `mv1001shots.segy` | 890,138,560 | `74d3ac94016c4752580365629abddadd` |
+| `nan3001shots.segy` | 944,017,440 | `905965bd21226d68a23ffabdb02551ae` |
+| `nsf_2052794_field_survey_report.pdf` | 10,820,945 | `c6b6037e1bf88a3ff1722a4db8dfa3f1` |
+
+#### 步骤 1 · SEG-Y 头探测（P0.6-Am1 第一节流程）
+
+对两个 `.segy` 各取前 **3600 B**（Range），解析二进制头：
+
+| 字段 | 偏移 | 实测值 |
+| :--- | :--- | ---: |
+| `ns`（采样数） | bytes 3221–3222 | **5000** |
+| `dt`（采样间隔） | bytes 3217–3218 | **1000 µs** |
+| `fmt`（格式码） | bytes 3225–3226 | **1**（IBM 32-bit float，每样点 4 B） |
+| `hdt`（扩展文本头数） | bytes 3505–3506 | **0** |
+| SEG-Y major revision | byte 3501 | **1** |
+
+- **定长道判定**：`hdt = 0`（**非** `-1`）→ **定长道**，**未触发**"改整文件下载"分支。
+- 单道字节数 = `240`（道头）+ `5000 × 4`（数据）= **20,240 B**
+- 两文件均为 `HTTP 206`，`Content-Range` 形如 `bytes 0-3599/890138560`
+
+#### 步骤 2 · 按道截取（P0.6-Am1 第 3 步）
+
+取每个文件**前 8000 条整数道**（含 3600 B 头）：
+`Range: bytes=0-161923599`（= 3600 + 8000×20240 − 1）
+
+| 子集文件 | HTTP | Content-Range | 落盘字节 | **SHA256** |
+| :--- | ---: | :--- | ---: | :--- |
+| `mv1001shots_subset8000.sgy` | 206 | `bytes 0-161923599/890138560` | **161,923,600** | `1cdd7e27d0d79a99178de2e5de392367e48050183cf40623aec7e221a6acb9e0` |
+| `nan3001shots_subset8000.sgy` | 206 | `bytes 0-161923599/944017440` | **161,923,600** | `15dfa5dbc06850fc5631335d16b27c49d5774e9f98028fa229523b9c50714c66` |
+
+- 落盘字节数 **与期望值逐字节相等**（161,923,600 = 3600 + 8000×20240）
+- **总计 323.8 MB** ≤ 500 MB（条件 iv ✅）
+- 采集时间戳、URL、Range、Content-Length 均已记入 `data/field/zenodo-mv/_collection_meta.json`
+
+#### 步骤 3 · segyio 有效性实测（P0.6-Am1 第 4 步，**断言全通过**）
+
+| 断言 | 期望 | 实测（两文件） | 结果 |
+| :--- | ---: | ---: | :--- |
+| 道数 | 8,000 | **8,000** | ✅ |
+| 采样数 `ns` | 5,000 | **5,000** | ✅ |
+| 格式码 `fmt` | 1 | **1** | ✅ |
+| 采样间隔 `dt` | 1000 µs | **1000** | ✅ |
+| 抽 3 道数值有限 | 无 NaN/Inf | **通过** | ✅ |
+
+抽样统计（说明数据非零、量级合理）：
+
+| 子集 | trace0 min | trace0 max | trace0 RMS |
+| :--- | ---: | ---: | ---: |
+| `mv1001shots_subset8000` | −31.064 | 26.554 | 2.974 |
+| `nan3001shots_subset8000` | −383.029 | 375.221 | 34.402 |
+
+→ **子集有效性判定：PASS（两文件均通过）**。**未触发**"子集作废、改整文件"分支。
+
+#### 步骤 4 · 后续候选处理
+
+按 Am3 第四节第 1 条"**取第一个通过者**"：优先级 1 已通过 →
+**优先级 2 / 3 / 4 及备选项未予核验**（如实记录，非失败）。
+
+**已排除项（Am3 第三节，明令不得采用）**：
+
+| DOI | 许可 | 排除理由 |
+| :--- | :--- | :--- |
+| `10.5281/zenodo.21707754` | **CC BY-ND 4.0** | ND 禁止衍生；本项目产出面板/残差/图表/融合结果**均为衍生品** |
+| `10.5281/zenodo.21707989` | **CC BY-ND 4.0** | 同上 |
+
+#### 步骤 5 · 许可与登记
+
+- `docs/license-register.csv` 新增 **3.3 选中数据集**（含 DOI / 许可 id / 许可原文 URL /
+  数据形态 / 文件清单与 SHA256 / **CC BY 署名文本** / "允许学术分析 + 衍生发表 + 再分发衍生结果"结论）
+- 新增 **3.4 Zenodo 候选勘察记录**（含未核验项与排除项）
+- 新增 **3.5 USGS 405 判定更正**（见下）
+- Stratton 条目**保留**并标注 "官方源 403，不可用（2026-09-25 已独立复现）"
+
+**CC BY 4.0 署名文本（本项目须沿用）**：
+
+> Dugan, B. (2023). *Seismic and Hydrostratigraphic Characterization of the Onshore-Offshore
+> Freshwater Systems of Martha's Vineyard and Nantucket, Massachusetts, USA: Field Survey Report*
+> [Data set]. Zenodo. https://doi.org/10.5281/zenodo.10407771 — licensed under **CC BY 4.0**.
+
+#### 步骤 6 · 判定更正（Am3 第五节）
+
+本执行方接受更正：上一批勘察表把 **USGS 的 405** 判为"未通过 (ii) 可访问"**不当**。
+**405 = Method Not Allowed**（请求方法/端点不匹配），与 **403（明确拒绝）性质不同**，
+**不得**据此判为"不可用"。**更正**：USGS 直源本批**未能以所试方法取得数据**，
+**不代表不可用**；将来若需 USGS 数据须以 **GET + 正确端点复测**后再下结论。
+（TerraNubis 的 WAF 拦截属明确技术性阻断，**原判定维持**。）
+
+#### 红线遵守
+
+- **未注册任何平台账号**（Zenodo 全程匿名公开 API，`access_right = open`）
+- **未重启 gateway**；**未以用户身份发邮件**
+- **未使用来源不明镜像**
+- **数据文件不入 git**（`data/**` 已由 `.gitignore` 覆盖；仓库内仅登记清单与校验值）
+- **3 个面板/时窗的选定仍留 P1**（10/04 前、**看方法输出之前**）——本单只做采集与可用性验证
+
+#### 阶段性结论
+
+**野外数据采集完成**：Zenodo `10.5281/zenodo.10407771`（CC BY 4.0，野外炮集，两测区）
+两个子集共 **323.8 MB**，segyio 有效性实测**全部通过**。
+**面板选定**留待 P1（`2026-10-04` 前，看任何方法输出之前）。
+
+---
