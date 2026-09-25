@@ -1200,3 +1200,125 @@ e9e3c9d 09:37 → c6b697a 09:38 → 9c21264 09:47
 > **结论**：**全部 (a) 类归属中，仅此 1 条引文有误，已更正；无其他 (a) 类引文错误。**
 
 ---
+
+---
+
+### 2026-09-25 | Commit 2 · 野外数据候选勘察（P0.6-Am2 第一节）
+
+**依据**：`P0.6-Am2-数据集替换与题录补筛-2026-09-25.md`
+（SHA256 `C0B69973908C4A79771BB4B7539887716475EEE93B3E4579CC46BFD41998A701`）第一节。
+**授权**：Stratton 403 已由签发方独立复现并判定成立 → **授权数据集替换**。
+
+**录取条件（Am2 明定，缺一即换下一个）**
+
+| 条件 | 内容 |
+| :--- | :--- |
+| (i) | 许可**以官方来源原文核验**，且允许学术分析 + 衍生结果发表 + 再分发衍生结果 |
+| (ii) | 当前**可访问**（实测 200，非 403/Cloudflare 拦截） |
+| (iii) | 数据形态支持相干噪声分析：**叠前/炮集优先**；叠后须给出"仍含可评估相干噪声"的理由 |
+| (iv) | 子集规模 ≤ 约 **500 MB**（按 P0.6-Am1 的按道截取 + segyio 验证流程） |
+
+**硬约束（Am2 明定）**：不得使用来源不明镜像；不得绕过官方访问控制；
+许可未核验前不得下载；数据文件不入 git；验收日志逐项留痕。
+
+#### 勘察结果（2026-09-25 实测）
+
+| 优先级 | 候选 | (i) 许可 | (ii) 可访问 | (iii) 形态 | (iv) ≤500MB | 结论 |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 1 | **Volve**（Equinor） | ✅ **通过** | ❌ **需 Databricks 注册** | ❓ 未明示 | ? | **未通过 (ii)** |
+| 1 | Volve 数据门户 `data.equinor.com` | — | 200（但仅门户） | — | — | — |
+| 2 | **USGS 直源** | ✅ 公共领域 | ❌ **405 / 403** | — | — | **未通过 (ii)** |
+| 2' | **USGS via TerraNubis** | ✅ CC 3.0 | ❌ **ShareFile WAF 阻断** | ❌ 2D 叠后 | ✅ 160 MB | **未通过 (ii)** |
+| 3 | **NOPIMS**（GA） | 未核验 | ❌ **数据需邮件申请** | — | — | **未通过 (ii)** |
+| 4 | **dGB OSR / TerraNubis** | ✅ CC 3.0–4.0 | ❌ **ShareFile WAF 阻断** | 部分 ✅ 叠前 | 部分 ✅ | **未通过 (ii)** |
+
+#### 1 · Volve（Equinor）—— 许可 ✅ / 访问 ❌
+
+**许可原文核验（条件 i）：通过**（`pdf` 工具逐字提取官方 PDF）
+
+- URL：`https://www.equinor.com/content/dam/statoil/documents/what-we-do/Equinor-HRS-Terms-and-conditions-for-licence-to-data-Volve.pdf`
+- 自述：`This license is based on CC BY 4.0 license, two important changes are: The licensed material may not be sold; The license covers all data in the dataset whether or not it is by law covered by copyright`
+- **§3.1 授权**：`… grants you a worldwide, royalty-free, non-sublicensable, non-exclusive, irrevocable license to download and use the Licensed Material for non-commercial and commercial purposes, including to create, produce and reproduce Adapted Material`
+- **§3.3 共享**：`You may share the Licensed Material and/or the Adapted Material, either openly or not, as long as Equinor and the former Volve license partners are attributed.`
+- **限制**：`You may not sell the Licensed Material.`；不得误导性呈现；不得用其名义背书
+- 官方页面声明：`We hereby grant all academic institutions, students and researchers permission to use this dataset … without any need for further written permission from us.`
+- → **学术分析 + 衍生发表 + 再分发衍生结果 均被允许** ✅
+
+**访问核验（条件 ii）：未通过**
+
+- 官方用户指南原文（`Equinor open data - User Guide.pdf`）：
+  `Click 'Get Access' …` / `if you are not already logged in, the system will prompt you to Log in / Sign-up.` /
+  `If you do not have an account, you can sign-up using your university or company account.` /
+  `Wait for the data to appear in your Catalog (may take up to one hour).`
+- → 需**注册 Databricks 账号**；本执行方**不得自行注册第三方账号**（超出授权范围）。
+- 用户指南**未**列出数据类别、**未**提及叠前/炮集、**未**提及格式与大小 → (iii)(iv) **无法核验**。
+
+#### 2 · USGS 直源 —— 未通过
+
+| URL | 结果 |
+| :--- | :--- |
+| `https://www.usgs.gov/` | **HTTP 405** |
+| `https://www.sciencebase.gov/catalog/` | **HTTP 403** |
+| `https://www.sciencebase.gov/catalog/items?format=json`（API） | **HTTP 403** |
+| `https://energy.usgs.gov/` | **HTTP 405** |
+
+#### 2'/4 · TerraNubis / dGB OSR 系列 —— 许可 ✅ / 下载 ❌
+
+**逐项元数据（官方页逐字提取）**
+
+| 项目 | 原始地震来源 | 下载规模 | 许可 | 叠前 |
+| :--- | :--- | ---: | :--- | :--- |
+| USGS-Central-Alaska-2023 | **USGS**（公共领域） | **160 MB** | Creative Commons 3.0 | ❌ 2D 叠后 |
+| USGS-Beaufort-Sea-Arctic-Alaska-2023 | **USGS**（公共领域） | 516 MB | Creative Commons 3.0 | ❌ 2D 叠后 |
+| Penobscot | Nova Scotia DOE / CNSOPB | **8.7 GB** | Creative Commons 3.0 | ✅ 含叠前 |
+| Laurentian-Basin-Complete | NRCan | **2 GB** | Creative Commons 3.0 | ✅ 含叠前 |
+| F3-Demo-2023 | dGB | 4.5 GB | Creative Commons 3.0 | ❌ |
+| FORCE-ML-Competition-2020-Synthetic | FORCE | 1.6 GB | **Creative Commons 4.0** | ❌ |
+| Delft | dGB | ? | Creative Commons 3.0 | ❌ |
+| Blake-Ridge-Hydrates-3D | USGS | ? | Creative Commons 3.0 | ❌ |
+| NW-Shelf-Australia-Poseidon-3D | TGS / GA | 22.1 GB | Creative Commons 3.0 | ❌ |
+| OGA-MNSH / OGA-Rockall-Trough | OGA | 12 GB | Open Government Licence v3.0 | ❌ |
+
+**致谢义务原文**：`Using the data and value-added products in this project in publications is permitted. We kindly request to be acknowledged in the following manner: We thank dGB Earth Sciences for making the data available as an OpendTect project via their TerraNubis portal terranubis.com.`
+
+**下载路径阻断（条件 ii）**：
+
+- 下载按钮 → `https://terranubis.com/download/<name>.zip/2` → **HTTP 302** → Citrix **ShareFile** 分享页
+- ShareFile 响应头含 `script-src … awswaf.com/…/challenge.js` → **AWS WAF 人机验证**，程序化下载被阻断
+- 程序化尝试（**全部失败，且未绕过任何访问控制**）：
+
+| # | 方式 | 结果 |
+| :--- | :--- | :--- |
+| 1 | Python `urlopen` GET | 200 但为 ShareFile **"browser out of date" 页**（43819 B），非数据 |
+| 2 | `curl -L` 跟随重定向 | 302 → 200，仍为 JS 挑战页 |
+| 3 | **浏览器工具 `navigate`** | **超时**（重试 1 次仍超时，工具自报 "may be a transient browser error"）→ **浏览器当前不可用** |
+| 4 | ShareFile v3 API（5 端点变体） | **401 / 403 / 404**（需认证） |
+| 5 | 备用路径 `opendtect.org/osr/download/...`、`/osr/data/...` | **404**（4790 B 404 页） |
+
+#### 3 · NOPIMS（Geoscience Australia）
+
+- 门户 `https://nopims.dmp.wa.gov.au/NOPIMS/` → **200**（可达）
+- 数据获取方式为**邮件申请**：页面明示 `Data requests: ausgeodata@ga.gov.au`
+- → **未通过 (ii)**（非自助下载；发邮件属对外通信，须另行授权）
+
+#### 处置（依 Am2 明令）
+
+1. **未使用任何来源不明镜像**；
+2. **未绕过任何访问控制**（ShareFile WAF **不尝试规避**；**未注册**任何第三方账号）；
+3. **未下载任何数据**（`data/field/` 保持仅 `.gitkeep`）；
+4. **不自行更换数据集、不降低录取条件**；
+5. **停机报告**，等待签发方裁定。
+
+#### 最接近通过者（供裁定参考）
+
+**`USGS-Central-Alaska-2023`**：许可 ✅（CC 3.0，原始数据为 USGS 公共领域）；
+规模 ✅（下载 160 MB ≤ 500 MB）。缺口：(ii) 下载被 ShareFile WAF 阻断；(iii) 属 **2D 叠后**
+（若采用须补"仍含可评估相干噪声"的理由）。**另一路径**：Volve 许可最佳但其为
+**叠后处理成果**且需 Databricks 账号，且用户指南未明示数据形态。
+
+#### 期限状态
+
+Am2 已将勘察+采集期限**延至 2026-10-04**（协议约束实为"看方法输出前冻结面板"）。
+本执行方**在期限内报告阻断，未逾期**；`2026-10-04` 之后**不得再顺延**。
+
+---
