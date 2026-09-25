@@ -111,3 +111,180 @@
 - 结构化列：`doi,title,year,venue,source_db,query_line,track,relevance_flag,note`
 - 缺 DOI 者 `note` 标 `no-doi`（**未编造任何 DOI**）
 - 两条线均满足"≥30 条"验收门（机制线 340 / 基准线 293）
+---
+
+## 八、相关性初筛判据（F1 补做，**先冻结后标注**）
+
+> **冻结声明**：本节判据在**执行标注之前**写入本文件并冻结。
+> 标注完成后**不得调整判据**；若发现判据缺陷，只能**追加**新判据并重新标注，
+> 且须保留两轮结果与差异说明。
+
+### 8.1 判据（两级判定）
+
+对每一条题录，仅依据其 **`title`** 字段（判据不使用 `venue`，避免"期刊名含 seismic"类误命中）执行：
+
+**第一级 · 领域词（domain）—— 必要条件**
+
+标题须命中**至少一个**地震学/地球物理领域词。词表（不区分大小写，按词干匹配）：
+
+```
+seismic, seismolog, seismogram, seismograph, geophysic, reflection,
+refraction, wavefield / wave field, trace, gather, shot gather, receiver,
+migration, prestack / pre-stack, poststack / post-stack, avo / amplitude
+variation, reservoir, subsurface, well log, borehole, vsp, ground roll,
+surface wave, rayleigh, dispersion, multiple, deghost, velocity model,
+imaging, common midpoint, cmp, cdp, offset, stratum, horizon, fault, salt,
+marine, land acquisition, vibrator, vibroseis, geophone, p-wave, s-wave,
+elastic, acoustic impedance, sonic, wavelet, deconvolution, stack, band-limited,
+random noise, coherent noise, denois, noise attenuation, noise suppression
+```
+
+**第二级 · 主题词（topic）—— 用于区分"相关 / 待定"**
+
+在第一级命中的前提下，标题须再命中**至少一个**去噪 / 基准 / 互补性 / 信号保真主题词：
+
+```
+denois, noise, noise attenuation, suppression, snr, signal-to-noise,
+fidelity, preservation, benchmark, comparison, evaluation, fusion,
+combination, ensemble, local similarity, orthogonalization, blind,
+filter, filtering, sparse, low-rank / low rank, decomposition, threshold,
+svd, dictionary learning, deep learning, neural, cnn, u-net, attention,
+transformer, inversion, separation, removal, attenuation
+```
+
+### 8.2 判定规则
+
+| 条件 | 标记 | 说明 |
+| :--- | :--- | :--- |
+| 命中**第一级** 且 命中**第二级** | **`相关`** | 领域 + 主题均相符 |
+| 命中**第一级** 但**未**命中第二级 | **`待定`** | 属本领域但主题不明确（如纯成像/反演类） |
+| **未**命中第一级 | **`不相关`** | 仅因 OR 展开词（ensemble / fusion / fidelity / preservation…）跨域命中 |
+
+### 8.3 判据设计意图（防事后调整的说明）
+
+- **第一级为必要条件**：协议布尔式含 `OR combination OR ensemble OR ...` 等通用词，
+  会大量命中跨域文献（实测样本含 peptide hormones、Speech Emotion Recognition、
+  Diffusion Tensor Imaging 等）。以"是否属地震/地球物理领域"作为**必要条件**，
+  是把"领域外假阳性"直接判为 `不相关` 的核心手段。
+- **第二级用于分层，不用于排除**：属本领域但主题偏离的（如基础成像、速度建模）
+  标 `待定` 而非 `不相关`——保留给 P1 滚雪球阶段人工复核，避免过早丢弃。
+- **只读 `title`**：`title` 为各来源稳定提供的字段；`venue` 含期刊名，
+  用其判断会引入"期刊领域 ≠ 论文领域"的偏差。
+- **`no-doi` 行不特殊处理**：7 条缺 DOI 的记录同样按上述判据标注；
+  `note` 列保留 `no-doi` 标记不变（两者互不覆盖）。
+
+---
+
+---
+
+## 九、F1 相关性初筛结果（判据见第八节，标注前已冻结）
+
+### 9.1 分布（全部 782 行已标注，**空标记 0 行**）
+
+**总体**
+
+| 标记 | 条数 | 占比 |
+| :--- | ---: | ---: |
+| **相关** | **417** | 53.3% |
+| **待定** | **60** | 7.7% |
+| **不相关** | **305** | 39.0% |
+| 合计 | 782 | 100% |
+
+**逐线 × 标记**
+
+| 线 | 相关 | 待定 | 不相关 | 合计 |
+| :--- | ---: | ---: | ---: | ---: |
+| `mechanism`（机制线主检索） | 172 | 15 | 153 | 340 |
+| `benchmark`（基准线） | 130 | 13 | 150 | 293 |
+| `mechanism_author_Chen`（作者追踪） | 83 | 0 | 0 | 83 |
+| `mechanism_author_Fomel`（作者追踪） | 32 | 32 | 2 | 66 |
+
+**两条线合计**
+
+| 线 | 相关条数 | 是否≥30 |
+| :--- | ---: | :--- |
+| 机制线（含作者追踪 Chen+Fomel） | **287** | ✅ |
+| 基准线 | **130** | ✅ |
+
+### 9.2 说明
+
+- **「不相关」305 条为预期现象**：协议布尔式含 `OR combination OR ensemble OR ...` 等通用词，
+  跨域假阳性必然出现。判据以「领域词为必要条件」将其判为不相关。
+  实测样本示例（均判为不相关）：`Trademark Similarity Evaluation Using Combination of ViT and Local Features`、
+  `Ensemble decision of local similarity indices on the biological network...`、
+  `Local softness and local molecular quantum similarity relationship...`。
+- **「待定」60 条**：属地震/地球物理领域但主题偏离（如地震目录标度关系、震源参数、碎屑流地震记录），
+  或作者追踪中仅含人名而无主题词者。留待 P1 滚雪球阶段人工复核，**不提前丢弃**。
+- **「相关」417 条**为 P1 滚雪球阶段的候选池；两条线均远超 30 条门槛。
+- 判据**未使用** `venue` 字段；**未**对 7 条 `no-doi` 记录做特殊处理（同样按判据标注，
+  `note` 列的 `no-doi` 标记保持不变）。
+
+---
+
+## 十、S2 检索式替代映射（F4 披露）
+
+### 10.1 事实
+
+Semantic Scholar Graph API **不支持** Crossref 式布尔语法：协议原式中的 `denois*` 通配符
+会返回 **HTTP 400**；而带括号的复杂布尔式（`A AND (B OR C OR ...)`）虽返回 200，
+但 S2 为**相关性检索引擎**而非严格布尔引擎，实测返回 **total=0**。
+
+故对 S2 采用**简化关键词形式**。Crossref **仍严格使用协议原式逐字**。
+
+### 10.2 替代映射（逐串）
+
+| # | 协议原式（Crossref 使用，逐字） | S2 替代串 | 对应协议词项 | 概念是否增删 |
+| ---: | :--- | :--- | :--- | :--- |
+| 1 | `seismic AND denois* AND (fusion OR combination OR ensemble OR local similarity OR orthogonalization)` | `seismic denoising fusion ensemble` | seismic、denois*、fusion、ensemble | **未增删**（取了 OR 组的两个代表词项） |
+| 2 | 同上（机制线补充采集） | `seismic denoising orthogonalization local similarity` | seismic、denois*、orthogonalization、local similarity | **未增删**（覆盖 OR 组剩余代表词项） |
+| 3 | `seismic AND denois* AND (benchmark OR quantitative comparison OR evaluation OR signal preservation OR fidelity)` | `seismic denoising benchmark evaluation fidelity` | seismic、denois*、benchmark、evaluation、fidelity | **未增删**（取 OR 组三个代表词项） |
+| 4 | 机制线**作者追踪**子项（协议：Chen、Fomel） | `seismic denoising Chen` | seismic、denois*、作者 Chen | **未增删** |
+| 5 | 同上 | `seismic denoising Fomel` | seismic、denois*、作者 Fomel | **未增删** |
+
+> **「概念未增删」核对结论**：5 个替代串的**全部词项均取自协议原式**，
+> 未引入协议外概念，亦未删除协议概念（OR 组内的词项由映射 #1 + #2 共同覆盖）。
+> 差异仅在**语法形式**（`AND`/`OR`/`*` → 空格分隔的关键词），
+> 系 S2 引擎能力限制所致，**非研究设计变更**。
+
+### 10.3 各来源实际使用的检索串（含记录数）
+
+| 来源 | 线 | 实际检索串 | 入库（去重后） |
+| :--- | :--- | :--- | ---: |
+| Crossref | mechanism | `seismic AND denois* AND (fusion OR combination OR ensemble OR local similarity OR orthogonalization)` | 200 |
+| Crossref | benchmark | `seismic AND denois* AND (benchmark OR quantitative comparison OR evaluation OR signal preservation OR fidelity)` | 196 |
+| Crossref | author Chen | `seismic denoising Chen` | 46 |
+| Crossref | author Fomel | `seismic denoising Fomel` | 40 |
+| Semantic Scholar | mechanism | `seismic denoising fusion ensemble` | 100 |
+| Semantic Scholar | mechanism | `seismic denoising orthogonalization local similarity` | 40 |
+| Semantic Scholar | benchmark | `seismic denoising benchmark evaluation fidelity` | 97 |
+| Semantic Scholar | author Chen | `seismic denoising Chen` | 37 |
+| Semantic Scholar | author Fomel | `seismic denoising Fomel` | 26 |
+
+> 注：上表为**去重后**按 (来源 × 线 × 检索串) 的实际保留数；
+> 采集阶段原始命中数见第一节检索记录表。
+
+---
+
+## 十一、覆盖限制（补充本节，**必须明写**）
+
+1. **Google Scholar —— 本阶段未执行（入库 0 条）**。
+   该库无稳定公开 API，需人工/半自动检索。本阶段（P0.5）**未执行**，
+   **入库条数为 0**。这是**明确的覆盖缺口**，**不因总量达标而省略**。
+   留待 P1 滚雪球阶段以人工方式补充，届时须在日志中标注为**人工检索**。
+
+2. **Scopus / Web of Science —— 访问性未确认，未纳入**（原样保留）。
+   **不宣称**已完成与它们同等的查全。
+
+3. **Semantic Scholar 采用替代检索串** —— 详见第十节。
+   S2 不支持协议式布尔通配符；替代串词项取自协议原式，**概念未增删**。
+
+4. **S2 额度受限** —— 带 key 仍有间歇 429，已用退避重试。
+   若 P1 需更多 S2 结果，须重新评估额度或分批慢跑。
+
+5. **本阶段未做滚雪球** —— 前向/后向引文滚雪球、排除理由与查全交叉复核
+   均属 **P1** 任务（依 P0.5 任务单第一节明示）。
+
+6. **相关性初筛为单轮规则判定** —— 判据见第八节，仅依据 `title` 字段；
+   未做摘要级复核。`待定` 60 条为人工复核的入口，**不视为已判定**。
+
+---

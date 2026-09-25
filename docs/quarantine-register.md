@@ -191,7 +191,7 @@
 
 | 最长公共串（token） | 长度 | 类别 | 归属依据 |
 | :--- | ---: | :--- | :--- |
-| `def event_mask ( s : np . ndarray , f_main : float , dt : float , threshold : float , ) -> np . ndarray :` | 27 | **(a)** | **任务单强制规定的签名**，逐字见 `P0.1R+P0.2-联合任务单-2026-09-24.md` 第二部分第 1 条（`def event_mask(s, f_main, dt, threshold) -> np.ndarray`）与 `P0.3-metrics与解析解对拍-2026-09-25.md` 任务 1。**必须使用该签名**，故本串不可消除。 |
+| `def event_mask ( s : np . ndarray , f_main : float , dt : float , threshold : float , ) -> np . ndarray :` | 27 | **(a)** | **任务单强制规定的签名**，正确出处为 `P0.3-metrics与解析解对拍-2026-09-25.md` **第 24 行**：`def event_mask(s, f_main, dt, threshold) -> np.ndarray`。**必须使用该签名**，故本串不可消除。**（F2 更正，2026-09-25：本条原引 `P0.1R+P0.2` 第二部分第 1 条有误——该条实为 venv 创建项，与签名无关；已按核验结果更正。）** |
 | `arr . astype ( np . float64 , copy = False )` | 12 | **(b)** | `arr` 为长度 ≤4 的通用局部名；`astype` / `float64` / `copy` 为 numpy API 名。 |
 | `if not np . issubdtype ( arr . dtype , np . number ) : raise ValueError (` | 16 | **(b)** | `np.issubdtype` / `np.number` / `dtype` 为 numpy API；`arr` 属 ≤4 通用局部名；`raise ValueError` 为 Python 关键字与内建。 |
 | `if n_T < 1 : raise ValueError (` 等 | 10–14 | **(b)** | `n_T` 为**任务单规定的符号**（`P0.3-Am1` 裁定 1 明定 `n_T`）；其余为 Python 关键字与内建。 |
