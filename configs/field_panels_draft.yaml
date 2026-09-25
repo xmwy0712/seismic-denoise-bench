@@ -1,0 +1,179 @@
+# ============================================================
+# configs/field_panels_draft.yaml
+#
+# P1.3 野外 3 面板/时窗选定（**草案** —— 正式冻结在 P1.5）
+# 编码约定：UTF-8 无 BOM，LF 换行
+#
+# ⚠️ 时序约束（协议硬规则，违反即本单作废）
+#   选择过程中**不得运行任何去噪方法**，**不得参考任何去噪/滤波结果**。
+#   本文件中的全部量**均由原始数据直接定义**（无滤波、无 f-k 滤波、无反褶积、无分解、无低秩、无 DL）。
+# ============================================================
+
+meta:
+  stage: P1.3-draft
+  frozen: false
+  frozen_on: P1.5
+  source_doi: "10.5281/zenodo.10407771"
+  source_files:
+    MV: "data/field/zenodo-mv/mv1001shots_subset8000.sgy"     # Martha's Vineyard 测区
+    NAN: "data/field/zenodo-mv/nan3001shots_subset8000.sgy"   # Nantucket 测区
+  acquisition:
+    n_traces: 8000
+    n_samples: 5000
+    dt_s: 0.001            # 1 ms
+    record_length_s: 5.0
+    format_code: 1         # IBM 32-bit float
+    bytes_per_trace: 20240
+
+# ------------------------------------------------------------
+# 事前判据（**在看到任何测量结果之前冻结**，2026-09-25）
+#
+# 选择优先级（依任务单"优先包含相干噪声明显的区间"）：
+#   P1 相干噪声显著（地滚波/水中波/线性干扰能量占比高）
+#   P2 几何与质量完整（坏道/死道比例低）
+#   P3 反射同相轴可辨（原始数据上的横向相干性）
+# 三者冲突时按 P1 > P2 > P3 取舍；同分时取更早的时间窗（确定性 tie-break）。
+# ------------------------------------------------------------
+preregistered_criteria:
+  frozen_at: "2026-09-25"
+  priority_order: [coherent_noise_prominence, geometry_quality, reflector_visibility]
+
+  # —— 检查项（逐项写明"测什么、怎么测、如何判"）——
+  inspected_raw_quantities:
+    - id: dead_trace_fraction
+      what: "死道比例：整道 RMS 低于该面板中位 RMS 的 1%"
+      why: "几何完整性（P2）"
+      good: "< 0.05"
+    - id: outlier_trace_fraction
+      what: "异常道比例：整道 RMS 偏离中位 ±3 倍范围"
+      why: "几何完整性（P2）"
+      good: "< 0.05"
+    - id: coherent_energy_ratio
+      what: >
+        相干能量占比：在 f-k 幅度谱上，取 |k|>=k_min 且 f<=f_max 的"低速相干区"能量，
+        除以全谱能量。**仅计算谱，不做任何滤波**。
+      why: "相干噪声显著性（P1）"
+      good: "越高越优先"
+    - id: low_freq_energy_ratio
+      what: "低频能量占比：f <= 15 Hz 的能量 / 全频带能量（原始道集，逐道平均）"
+      why: "地滚波/面波通常集中在低频（P1 佐证）"
+      good: "越高越优先"
+    - id: lateral_coherence
+      what: >
+        横向相干性：相邻道零延迟互相关的绝对值中位（原始数据，无滤波）。
+        真实反射同相轴在相邻道上相似度高。
+      why: "反射同相轴可辨性（P3）"
+      good: "越高越优先"
+  # —— 派生项 ——
+  panel_definition: "面板 = 道范围 [t0,t1) × 时间窗 [s0,s1) 的组合"
+  coverage_requirement: "3 个面板须覆盖两个测区（2+1 或 1+2，须给理由）"
+  tie_break: "同分时取道号与时间窗都更早者（确定性，防事后挑选）"
+
+# ------------------------------------------------------------
+# 候选区间网格（**先固定网格，再在其中选择**，避免任意挑选）
+# 道：8000 道按 2000 道切片 -> 4 块
+# 时间：5000 样点按 1000 样点切片 -> 5 块
+# 候选组合 = 4 x 5 = 20 个/测区，共 40 个；在其中选 3 个。
+# ------------------------------------------------------------
+candidate_grid:
+  trace_blocks: [[0, 2000], [2000, 4000], [4000, 6000], [6000, 8000]]
+  time_blocks_samples: [[0, 1000], [1000, 2000], [2000, 3000], [3000, 4000], [4000, 5000]]
+
+# 选定的 3 个面板（**待填写**；由测量结果按上述判据确定）
+panels:
+  - panel_id: FP1
+    region: NAN
+    trace_range: [2000, 4000]
+    sample_range: [0, 1000]
+    time_window_ms: [0.0, 1000.0]
+    measured_raw_quantities:
+      coherent_energy_ratio: 0.3777
+      lateral_coherence: 0.1309
+      dead_trace_fraction: 0.0
+    n_events: 1
+    event_windows_samples: [[0, 356]]
+    n_T_samples: 40
+    dip_median_deg: 82.168
+    envelope_threshold: {median: 0.063831, mad: 0.038307, k_mad: 3.0}
+    figure: docs/figures/p1_field_panel_1.png
+  - panel_id: FP2
+    region: MV
+    trace_range: [4000, 6000]
+    sample_range: [1000, 2000]
+    time_window_ms: [1000.0, 2000.0]
+    measured_raw_quantities:
+      coherent_energy_ratio: 0.3562
+      lateral_coherence: 0.1787
+      dead_trace_fraction: 0.0
+    n_events: 3
+    event_windows_samples: [[83, 134], [137, 195], [270, 326]]
+    n_T_samples: 40
+    dip_median_deg: 84.983
+    envelope_threshold: {median: 0.031806, mad: 0.008486, k_mad: 3.0}
+    figure: docs/figures/p1_field_panel_2.png
+  - panel_id: FP3
+    region: MV
+    trace_range: [2000, 4000]
+    sample_range: [1000, 2000]
+    time_window_ms: [1000.0, 2000.0]
+    measured_raw_quantities:
+      coherent_energy_ratio: 0.3544
+      lateral_coherence: 0.2058
+      dead_trace_fraction: 0.0
+    n_events: 0
+    event_windows_samples: []
+    n_T_samples: 40
+    dip_median_deg: 84.907
+    envelope_threshold: {median: 0.020173, mad: 0.007981, k_mad: 3.0}
+    figure: docs/figures/p1_field_panel_3.png
+
+# 融合保守度 3 档标称值（草案，语义见下；正式冻结在 P1.5）
+fusion_conservativeness_draft:
+  semantics: >
+    "保守度"控制融合权重对相干噪声鉴别分数的响应强度：
+    越保守 => 越接近输入（越少改动被测数据）；越激进 => 越充分抑制相干噪声但可能损伤信号。
+    参数化为相干噪声权重抑制系数 gamma：修正后权重 w' = w * (1 - gamma * s)，s 为鉴别分数。
+  levels:
+    - {id: G_nom, gamma: 0.50, note: "标称值"}
+    - {id: G_minus20, gamma: 0.40, note: "标称值 -20%"}
+    - {id: G_plus20, gamma: 0.60, note: "标称值 +20%"}
+  frozen_on: P1.5
+
+
+# ------------------------------------------------------------
+# 选定结果与理由（按**已冻结判据**排序，非事后挑选）
+# ------------------------------------------------------------
+selection_outcome:
+  rule_used: "P1 相干能量比降序 -> P2（见下：无区分力）-> P3 横向相干降序 -> 位置 tie-break"
+  coverage: "MV=2, NAN=1（满足两测区覆盖）"
+  coverage_rationale: >
+    严格排序前三即为 2+1，**无需**为凑覆盖而替换任何面板；
+    故本选定完全由冻结判据决定，不含人为取舍。
+
+criterion_defects_found:
+  - id: outlier_trace_fraction
+    issue: >
+      阈值 < 0.05 **不可满足**：40 个候选实测取值范围 0.0595–0.5165（中位 0.2410），
+      **无一满足**。定义失当——炮集振幅随炮检距与时间天然剧烈变化，
+      逐道 RMS 分布本就宽，用"偏离中位 ±3 倍"衡量对炮集无意义。
+    impact: "P2 的该项**无区分力**；本批选取实际由 P1（相干能量比）与 P3（横向相干）决定。"
+    handling: >
+      **本批不改判据**（判据已先冻结，事后改即违规）；如实记录该缺陷，
+      并在 P1.5 冻结时修正为炮集适用的坏道判据（如"相邻道波形相关系数低于阈值"）。
+  - id: dead_trace_fraction
+    issue: "40/40 全部满足（max 0.0010），**亦无区分力**（但方向正确，非缺陷定义错误）。"
+    impact: "同上，P2 整体未参与实际排序。"
+
+honest_notes:
+  - "FP3 的 n_events = 0：在 k_mad = 3.0 阈值下该面板包络未检出任何超阈区段。如实记录。"
+  - "三个面板的倾角中位均在 82–85 度：原始炮集上主要能量为近垂直的初至/地滚波，"
+  - "  该量仅作说明性记录，不参与面板选取（判据 P3 用的是横向相干，不是倾角）。"
+
+attribution:
+  required: true
+  text: >
+    Dugan, B. (2023). Seismic and Hydrostratigraphic Characterization of the
+    Onshore-Offshore Freshwater Systems of Martha's Vineyard and Nantucket,
+    Massachusetts, USA: Field Survey Report [Data set]. Zenodo.
+    https://doi.org/10.5281/zenodo.10407771 — licensed under CC BY 4.0.
+  license_id: cc-by-4.0
