@@ -376,3 +376,61 @@ tests\test_ricker.py .............                                       [100%]
 **P1 义务**：以上 3 条 amendment 与前述「膨胀规则 / event_mask 阈值 / 逐配置 n_T 三元组」必须在 **P1 冻结**时一并体现在 `configs/frozen.yaml` 与相关文档中。
 
 **执行结论**：R5–R8 四项整改**全部完成**。
+
+---
+
+### 2026-09-25 | Commit ① 归档件入库（授权先于执行）
+
+**授权**：P0.3-Am2（SHA256 `7ADA6ED9B1C09466BACED693E25793D1B82C48B94CBFAEAF4C531D78389E62D4`）第一节裁定将提交次序改为 4 个独立 commit，理由"授权文书必须先于被授权的工作进入历史"。
+**OTP**：2026-09-25 09:35 校验 `VALID`（明文未记录）。权限 **L2**。
+**哈希门禁**：8 份归档件逐一比对 MANIFEST —— **8/8 一致**，字节数吻合，UTF-8 无 BOM、纯 LF；既往各行哈希全部未变（仅追加成立）。
+**内容**：`docs/task-sheets/` 下 P0.3、P0.3-Am1、P0.3-Am2、P0.LIC 四份新件 + MANIFEST.md（v4）。
+**commit**：`55a854e`。
+**偏离声明**：Am2 第一节仅列举"P0.3-…、P0.3-Am1-…、MANIFEST.md"，**未列** `P0.LIC-…`。本执行方**主动纳入**同一 commit，理由：P0.LIC 是 Commit ② 的授权文书，须先于 Commit ② 进入历史，否则同类问题重演。**此为对 Am2 的显式偏离，如实声明。** 同时 P0.3-Am2 本身也未列入，一并纳入。
+
+---
+
+### 2026-09-25 | Commit ② P0.LIC 预研（SEG-Y 许可核验 + 依赖许可登记）
+
+**授权**：归档件 `P0.LIC-预研-许可核验-2026-09-25.md`（SHA256 `D9E57CAB9EC5A8D1933099FC90724430498A2D88CCEDAEBFD30BD44DE042E5AF`）；执行批准见 P0.3-Am2 第四节（"批准单独执行、单独 commit"）。
+**性质**：只读联网、零副作用。**未** `pip install`/卸载；**未**下载任何数据；**未**改依赖/代码/配置/归档件；**未**代替 P0.6 做采用决策。
+
+**检索来源与时间**：2026-09-25（GMT+8） 09:36–09:40；渠道 = GitHub API（上游 LICENSE 原文）、PyPI JSON API（依赖许可元数据）。
+
+**1. SEG-Y 读取库取证**
+
+| 材料 | 上游原文 URL | blob SHA | size | 许可 | 逐字引文 |
+| :--- | :--- | :--- | ---: | :--- | :--- |
+| segyio | `https://github.com/equinor/segyio/blob/main/License.md` | `4900f40a438afece719bc8d1f15e42771697d9cc` | 7641 | **LGPL-3.0** | `### GNU LESSER GENERAL PUBLIC LICENSE` / `Version 3, 29 June 2007` |
+| obspy | `https://github.com/obspy/obspy/blob/master/LICENSE.txt` | `e910096069b6d4b8d4dfaa28896288716c1ce867` | 42989 | **LGPL-3.0** | `ObsPy is licensed under the LGPL v3.0, i.e. it is licensed with the GPL v3.0 and the additional set of permissions granted by the LGPL v3.0 license. This file contains both licenses.` |
+
+- **修改标注义务**：LGPL-3.0 §2 要求修改版须依 LGPL-3.0 或 GPL-3.0 分发；§5 要求 GPL 式修改标注（保留许可与修改声明）。
+- **专利条款**：LGPL-3.0 经由 GPL-3.0 §11 提供 contributor 专利许可（非排他、全球、免版税）；§10 禁止附加限制。
+- **再分发条件**：允许再分发；**copyleft 条件**见登记表。**仅作为 pip 依赖调用 vs 随附源码/修改版的具体影响，登记表已"只描述、不决策"**。
+- **未能确证项**：segyio `external/` 第三方子目录的逐项许可；obspy 传递依赖许可。均如实标注"未能确证"。
+- **元数据异常**：obspy `LICENSE.txt` 在目录 API 中元数据 size 显示 17 B，与实际 blob 42989 B 不符；已以 blob 实测为准并记录。
+
+**2. Python 直接依赖许可登记**（9 项，来自 PyPI 官方 JSON API，版本 = venv 锁定版本）
+
+| 包 | 版本 | 许可 | 判定 |
+| :--- | :--- | :--- | :--- |
+| numpy | 2.5.3 | `BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0` | 宽松 |
+| scipy | 1.18.1 | BSD-3-Clause（wheel 捆绑 OpenBLAS/LAPACK/GCC-runtime-exception/libquadmath） | 宽松（含例外条款） |
+| matplotlib | 3.11.2 | PSF License | 宽松 |
+| pandas | 3.0.6 | BSD-3-Clause | 宽松 |
+| pyyaml | 6.0.3 | MIT | 宽松 |
+| PyWavelets | 1.10.0 | `MIT AND BSD-3-Clause` | 宽松 |
+| scikit-image | 0.26.0 | BSD-3-Clause | 宽松 |
+| scikit-learn | 1.9.1 | BSD-3-Clause | 宽松 |
+| pytest | 9.1.1 | MIT | 宽松（仅 dev 依赖） |
+
+> **草稿结论**：9 项全部宽松许可，无 GPL/LGPL 传染风险，与 MIT 仓库 + GitHub/Zenodo 发布方式初步兼容。
+> **结论列一律填"草稿（待 WorkBuddy 核定）"**，本单不构成采用决策。
+
+**3. 成本留痕**：本次取证全部使用**免费渠道**（GitHub API 公开端点、PyPI JSON API）。
+**免费额度，无现金支出。**（`api-ledger.csv` 无需新增行。）
+
+**交付**：`docs/license-register.csv`（更新）。
+**偏离**：无（除 Commit ① 已声明的 P0.LIC 归档时序偏离）。
+
+---

@@ -7,26 +7,53 @@
 > **规则**：本表必须在**任何第三方源码/权重/数据被采用之前**填写完毕。
 > 登记完成前不得将对应材料写入 `pyproject.toml` 依赖或仓库代码。
 > 未通过核验的材料只能发布下载脚本、校验值与自行获取说明。
+>
+> **本表状态**：表中的「待核验」材料结论列**一律填"草稿（待 WorkBuddy 核定）"**；
+> 本表**不构成采用决策**（采用决策时点为 P0.6）。
 
 ---
 
-## 待核验（P0.6）
+## 一、待核验：SEG-Y 读取库（P0.LIC 预研产物，草稿）
 
-| 材料 | 类型 | 官方许可 | 许可允许修改/再分发 | 与 GitHub+Zenodo 兼容 | 核验日期 | 结论 | 备注 |
+> 取证方式：GitHub 上游仓库官方 LICENSE 原文（经 API 取 blob 原文）。
+> 取证时间：**2026-09-25 09:3x (GMT+8)**。
+
+| 材料 | 类型 | 官方许可 | 允许修改/再分发 | 与 GitHub+Zenodo 兼容 | 核验日期 | 结论 | 备注 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| `segyio` | SEG-Y 读取库 | 待核验 | 待核验 | 待核验 | — | **未决定** | 联合任务单第二部分第 2 条注：本单不装，P0.6 前按许可核验结果单独决定 |
-| `obspy` | 地震学工具库 | 待核验 | 待核验 | 待核验 | — | **未决定** | 同上；按第七节须在采用前完成核验 |
+| `segyio` | SEG-Y 读取库 | **LGPL-3.0**（GNU Lesser General Public License v3, 29 June 2007） | 允许修改与再分发，**附 copyleft 条件**：修改版须依 LGPL-3.0 或 GPL-3.0 分发；§3 允许应用以任意条款分发其目标码（含头文件材料仅在超出"数值参数/数据结构布局/访问器/≤10 行宏与内联函数"时须给出显著通告并附 GPL+LGPL 文本）；§4 对 Combined Work 要求显著通告、随附 GPL 与 LGPL 文本，并满足 §4d0 或 §4d1；§2 要求修改标注（modified version 须保留许可与修改声明）。 | **未决（草稿）**。仅作为 pip 依赖调用、不修改其源码、不静态链接时，通常不触发对本仓库 MIT 代码的传染；但**若随本项目分发其源码或修改版**，则须随附 GPL+LGPL 全文并满足修改标注义务。**具体影响由 WorkBuddy 在 P0.6 核定。** | 2026-09-25 | **草稿（待 WorkBuddy 核定）** | 上游原文 URL：`https://github.com/equinor/segyio/blob/main/License.md`（raw：`https://raw.githubusercontent.com/equinor/segyio/main/License.md`）。blob SHA=`4900f40a438afece719bc8d1f15e42771697d9cc`，size=7641 B。逐字引文：`### GNU LESSER GENERAL PUBLIC LICENSE` / `Version 3, 29 June 2007`。另含 `external/` 第三方子目录（未逐项取证，**未能确证**其全部许可）。 |
+| `obspy` | 地震学工具库 | **LGPL-3.0**（文件首行自述："ObsPy is licensed under the LGPL v3.0, i.e. it is licensed with the GPL v3.0 and the additional set of permissions granted by the LGPL v3.0 license. This file contains both licenses."） | 允许修改与再分发，**附 copyleft 条件**（同 LGPL-3.0 条款）。 | **未决（草稿）**。分析与 segyio 同理，取决于是否随附源码/修改版。**具体影响由 WorkBuddy 在 P0.6 核定。** | 2026-09-25 | **草稿（待 WorkBuddy 核定）** | 上游原文 URL：`https://github.com/obspy/obspy/blob/master/LICENSE.txt`（raw：`https://raw.githubusercontent.com/obspy/obspy/master/LICENSE.txt`）。blob SHA=`e910096069b6d4b8d4dfaa28896288716c1ce867`，size=42989 B。逐字引文见上。**注意**：目录列表中 `LICENSE.txt` 元数据 size 显示为 17 B，与实际内容 42989 B 不符（疑为 API 元数据异常），已以 **blob 内容实测**为准；此异常如实记录。 |
+| `segyio` 的 `external/` 子目录 | 第三方捆绑源码 | **未能确证** | 未能确证 | 未能确证 | — | **草稿（待 WorkBuddy 核定）** | 未逐项取证；若将来决定采用 segyio，须补充取证。 |
 
-> 核验须以**官方 LICENSE 页面**为准，并确认是否允许本项目的 GitHub 与
-> Zenodo 发布方式（含衍生结果发表权与再分发限制）。
+> **依赖链与平台限制（仅参考信息，不作决策依据，未逐项取证）**：segyio 提供 C 库 + Python 绑定，
+> 含预编译 wheel；obspy 为纯 Python + 可选 C 扩展。二者均可通过 pip 安装。**未逐项核验**其
+> 传递依赖的许可，如需可另行取证。
 
 ---
 
-## 已核验
+## 二、已核验：Python 直接依赖许可登记
 
-| 材料 | 类型 | 官方许可 | 与 GitHub+Zenodo 兼容 | 核验日期 | 结论 | 备注 |
-| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| （暂无） | | | | | | |
+> 取证方式：**PyPI 官方 JSON API**（`https://pypi.org/pypi/<pkg>/json`）的 `info.license` /
+> `info.license_expression` / `info.classifiers` 字段。版本为**本项目 venv 实际锁定版本**。
+> 取证时间：**2026-09-25 09:3x (GMT+8)**。
+>
+> **说明**：`license_expression` 为 SPDX 表达式（PEP 639），优先采信；无该字段时采信
+> `classifiers` 中的 License 分类；两者皆无时如实标注。
+
+| 包 | 锁定版本 | 许可证名称 | 来源 URL | 备注 |
+| :--- | :--- | :--- | :--- | :--- |
+| numpy | 2.5.3 | `BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0`（SPDX 组合表达式；**整体为宽松许可**，无 copyleft） | https://pypi.org/pypi/numpy/json | `info.license` 字段为空；采信 `license_expression`。组合式源于捆绑的第三方组件。 |
+| scipy | 1.18.1 | **BSD-3-Clause**（`info.license` 正文："Copyright (c) 2001-2002 Enthought, Inc. 2003, SciPy Developers. All rights reserved."；classifier: `License :: OSI Approved :: BSD License`） | https://pypi.org/pypi/scipy/json | 二进制 wheel 另捆绑 OpenBLAS(BSD-3-Clause)、LAPACK(BSD-3-Clause-Open-MPI)、GCC runtime(GPL-3.0-or-later WITH GCC-exception-3.1)、libquadmath(LGPL-2.1-or-later)。这些为**运行时动态库**，均有例外条款。 |
+| matplotlib | 3.11.2 | **PSF License（Python Software Foundation License）**（classifier: `License :: OSI Approved :: Python Software Foundation License`；`info.license` 为"License agreement for matplotlib versions 1.3.0 and later"全文） | https://pypi.org/pypi/matplotlib/json | matplotlib ≥1.3.0 采用 PSF 式许可（BSD 兼容）。 |
+| pandas | 3.0.6 | **BSD-3-Clause**（`info.license` 正文："BSD 3-Clause License Copyright (c) 2008-2011, AQR Capital Management, LLC, Lambda Foundry, Inc. and PyData Development Team"） | https://pypi.org/pypi/pandas/json | — |
+| pyyaml | 6.0.3 | **MIT** | https://pypi.org/pypi/pyyaml/json | — |
+| PyWavelets | 1.10.0 | `MIT AND BSD-3-Clause`（SPDX 组合表达式） | https://pypi.org/pypi/PyWavelets/json | `info.license` 为空；采信 `license_expression`。 |
+| scikit-image | 0.26.0 | **BSD-3-Clause**（`info.license` 正文为 DEP-5 格式："Files: * Copyright: 2009-2022 the scikit-image team License: BSD-3-Clause"） | https://pypi.org/pypi/scikit-image/json | 部分子文件另有许可（license 字段中列出）；如将来**复制其源码**须逐文件复核。当前为依赖调用。 |
+| scikit-learn | 1.9.1 | **BSD-3-Clause** | https://pypi.org/pypi/scikit-learn/json | `info.license` 为空；采信 `license_expression`。 |
+| pytest | 9.1.1 | **MIT** | https://pypi.org/pypi/pytest/json | 仅为开发/测试依赖（`[project.optional-dependencies].dev`），不进入运行时依赖。 |
+
+> **结论（草稿）**：9 项直接依赖**全部为宽松许可**（BSD / MIT / PSF 系），**无 GPL/LGPL 传染风险**，
+> 与 MIT 仓库及 GitHub + Zenodo 发布方式**初步兼容**。
+> **正式结论由 WorkBuddy 核定**（本单规定结论列一律填"草稿"）。
 
 ---
 
