@@ -480,6 +480,80 @@ def _import_lines(path) -> list[str]:
 
 
 # =============================================================================
+# 九、方法防（更正 1 要求）· 回收/回放类测量的前置断言
+# =============================================================================
+# 背景：本项目已出现 **两次** 同类错误 ——
+#   (1) 最初的先决门禁用了"建基所用模板本身"作被测对象（退化测量）；
+#   (2) k=40 那行用了 **256x16 网格**，而注册配置是 **512x64**；
+#       面波家族在 256x16 上有效维仅 16（谱快速衰减），k=40 因此假性收敛（0.058%），
+#       而在注册网格 512x64 上同一 k=40 为 39.47%。
+# 故凡"回收/回放"类测量，**必须**先过以下两项断言。
+
+REG_GRID = (512, 64)          # 注册配置网格（config_matrix.yaml: n_samples, n_traces）
+
+
+def _assert_disjoint(basis_seeds: range, test_seeds: range) -> None:
+    """断言被测对象与建基集合**不相交**（防"被测在基内"的退化测量）。"""
+    inter = set(basis_seeds) & set(test_seeds)
+    assert not inter, f"被测量与建基集合相交：{sorted(inter)[:5]}"
+
+
+def _assert_registered_grid(ns: int, ntr: int) -> None:
+    """断言观测网格 = **注册配置网格**（防"网格不符"导致的假性收敛）。"""
+    assert (ns, ntr) == REG_GRID, (
+        f"观测网格 {(ns, ntr)} 与注册配置 {REG_GRID} 不符 —— "
+        f"面波家族的有效维数与奇异值谱强烈依赖网格，换网格会使回收误差不可比"
+    )
+
+
+def test_guard_disjointness_and_grid_are_enforced() -> None:
+    """守卫自身有效性：两项断言在**违规输入**下必须失败。"""
+    with pytest.raises(AssertionError):
+        _assert_disjoint(range(96000, 96040), range(96020, 96030))   # 有交集
+    _assert_disjoint(range(96000, 96040), range(97000, 97010))       # 无交集 -> 通过
+
+    with pytest.raises(AssertionError):
+        _assert_registered_grid(256, 16)                              # 非注册网格
+    _assert_registered_grid(*REG_GRID)                                # 注册网格 -> 通过
+
+
+def test_grid_dependency_of_family_spectrum_is_real() -> None:
+    """**更正 1 的根因验证**：家族奇异值谱依赖观测网格，且该依赖可量化。
+
+    在 256x16 上第 40 个相对奇异值远小于 512x64 上的同名量 ——
+    这正是"同一 k 在两个网格下回收误差差异巨大（0.058% vs 39.47%）"的原因。
+    """
+    def disp_family(ns: int, ntr: int, base: int = 80000, n: int = 60):
+        base_arr = np.zeros((ns, ntr), dtype=np.float64)
+        out = []
+        for i in range(n):
+            d = add_dispersive_surface_wave(
+                base_arr, DT, DX, np.random.default_rng(base + i),
+                v_model=TPL_DISP_V_MODEL, v0=TPL_DISP_V0, c=TPL_DISP_C,
+                a=TPL_DISP_A, b=TPL_DISP_B,
+                f_lo=TPL_DISP_F_LO, f_hi=TPL_DISP_F_HI,
+                amplitude=1.0, n_components=TPL_DISP_NCOMP,
+            )
+            out.append((d - base_arr).ravel())
+        return np.stack(out, axis=0)
+
+    sv_small = np.linalg.svd(disp_family(256, 16), compute_uv=False)
+    sv_reg = np.linalg.svd(disp_family(*REG_GRID), compute_uv=False)
+    rel_small = (sv_small / sv_small[0])[39]
+    rel_reg = (sv_reg / sv_reg[0])[39]
+
+    # 阈值按**实测值留足余量**设定（实测：注册网格 2.285e-01；256x16 网格 2.397e-04）。
+    # 注意：本题测的是 **60 个随机实现** 的谱，其第 40 个相对奇异值随随机幅度/相位分布变化，
+    # 与"分量基（48 个正交基向量）"的谱不是同一对象（后者在注册网格上为 9.079e-01）；
+    # 故此处不得沿用基向量的阈值。
+    assert rel_reg > 0.10, f"注册网格上第 40 个相对奇异值应显著非零，实测 {rel_reg:.3e}"
+    assert rel_small < 1e-2, f"256x16 网格上第 40 个相对奇异值应很小，实测 {rel_small:.3e}"
+    assert rel_reg > rel_small * 50, (
+        f"网格依赖应显著（{rel_reg:.3e} vs {rel_small:.3e}）—— 该差异正是更正 1 的根因"
+    )
+
+
+# =============================================================================
 # 六、R16-a 基导出（分量基）正确性
 # =============================================================================
 def test_linear_basis_spans_injection_scalar_multiple() -> None:

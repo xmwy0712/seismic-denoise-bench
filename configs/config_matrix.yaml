@@ -158,9 +158,21 @@ dispersion_physics:
 cna_subspace:
   construction: "分量基精确张成（禁用抽样建基）"
   rationale: >
-    抽样建基不收敛：频散面波家族维数 = 2*n_components（每分量 sin/cos 两自由度），
-    实测抽 1/5/20 个实现的回收误差中位为 98.9%/86.5%/51.0%，抽 40 个仍需 0.06%；
-    而分量基精确张成后独立新实现误差 ~1e-15。
+    禁用抽样建基的三条理由（**更正 2，2026-09-25 改写；原"不收敛"表述不准确，已删**）：
+    （1）需要 >= 48 个**同一参数族**的实现才能张成该家族（实测 k=48 与 k=60 均可达 0.0000%，
+         即抽样在 k >= 家族维数时**收敛**，并非不收敛）；
+    （2）**参数一变家族就变**——v0 / c / f_lo / f_hi / n_components 任一变化都需重新抽样；
+    （3）模板集合依赖**任意种子选择**，可复现性与参数显式性都差。
+    故以**分量基**为准（精确张成、参数显式、确定性）。
+  empirical_dimension:
+    value: 48
+    equals: "2 * n_components"
+    verification: "60 个独立实现做 SVD：第 48 个相对奇异值 4.842e-08，第 49 个 6.782e-16（断层下跌）"
+  grid_dependency_warning: >
+    **重要（更正 1 的根因）**：家族奇异值谱**强烈依赖观测网格**。
+    在 256x16 网格上谱快速衰减（第 40 个相对奇异值 5.88e-04），抽样 k=40 的回收误差仅 0.058%；
+    而在**注册配置 512x64** 网格上谱近乎平坦（第 40 个 9.08e-01），同一 k=40 的回收误差为 **39.47%**。
+    故凡涉及回收/回放的测量，**必须使用注册配置网格**（本项写入 P1.5 冻结清单）。
   basis_sources:
     linear_coherent:
       function: "bench.data.synthetic.linear_coherent_basis"
@@ -183,3 +195,48 @@ cna_subspace:
     semantics: "保留奇异值 >= rank_tol * sigma_max 的方向；P1.5 冻结"
   frozen_on: P1.5
   prohibition: "不得再用“抽 N 个随机实现”建基（已实测不收敛）"
+
+# ------------------------------------------------------------
+# 裁定 E（预注册）· 两个噪声强度口径的关系
+# ------------------------------------------------------------
+noise_level_semantics:
+  criterion_i:
+    name: "target_input_snr_db"
+    role: "**规范口径（normative）**"
+    usage: "对外报告与三态判定以此为准；协议首要质量指标即以 SNR 表达"
+    requirement: "每个观测的**实测输入 SNR 必须逐个记录并报告**（不得按名义值假定）"
+  criterion_ii:
+    name: "amplitude_ratio"
+    role: "**描述性口径（descriptive）**"
+    usage: "仅用于生成实现；不作为对外声明"
+  mapping_policy:
+    rule: "按实测冻结；**不得强行统一为单一映射**"
+    table_dimensions: "模型 x 噪声类型 x 档位"
+    on_significant_difference: "如实并列，并在论文说明「档位以输入 SNR 为准」"
+
+# 实测标定表（网格 512x64 = 注册配置；种子 101/202/303 取中位；2026-09-25 实测）
+calibration_table:
+  grid: [512, 64]
+  seeds: [101, 202, 303]
+  # amplitude_ratio -> 实测输入 SNR (dB)
+  rows:
+    - {model: M1, noise: N1_band_limited_random, level: L1, amplitude_ratio: 0.30, snr_median_db: 10.46, snr_range_db: [10.46, 10.46]}
+    - {model: M1, noise: N1_band_limited_random, level: L2, amplitude_ratio: 0.60, snr_median_db: 4.44,  snr_range_db: [4.44, 4.44]}
+    - {model: M1, noise: N1_band_limited_random, level: L3, amplitude_ratio: 1.00, snr_median_db: 0.00,  snr_range_db: [-0.00, 0.00]}
+    - {model: M2, noise: N1_band_limited_random, level: L1, amplitude_ratio: 0.30, snr_median_db: 10.46, snr_range_db: [10.46, 10.46]}
+    - {model: M2, noise: N1_band_limited_random, level: L2, amplitude_ratio: 0.60, snr_median_db: 4.44,  snr_range_db: [4.44, 4.44]}
+    - {model: M2, noise: N1_band_limited_random, level: L3, amplitude_ratio: 1.00, snr_median_db: 0.00,  snr_range_db: [-0.00, 0.00]}
+    - {model: M1, noise: N3_dispersive_surface, level: L1, amplitude_ratio: 0.30, snr_median_db: 10.46, snr_range_db: [10.46, 10.46]}
+    - {model: M1, noise: N3_dispersive_surface, level: L2, amplitude_ratio: 0.60, snr_median_db: 4.44,  snr_range_db: [4.44, 4.44]}
+    - {model: M1, noise: N3_dispersive_surface, level: L3, amplitude_ratio: 1.00, snr_median_db: -0.00, snr_range_db: [-0.00, 0.00]}
+    - {model: M2, noise: N3_dispersive_surface, level: L1, amplitude_ratio: 0.30, snr_median_db: 10.46, snr_range_db: [10.46, 10.46]}
+    - {model: M2, noise: N3_dispersive_surface, level: L2, amplitude_ratio: 0.60, snr_median_db: 4.44,  snr_range_db: [4.44, 4.44]}
+    - {model: M2, noise: N3_dispersive_surface, level: L3, amplitude_ratio: 1.00, snr_median_db: 0.00,  snr_range_db: [-0.00, 0.00]}
+    - {model: M1, noise: N2_linear_coherent, level: null, amplitude_ratio: null, snr_median_db: 11.12, snr_range_db: [10.48, 16.10]}
+    - {model: M2, noise: N2_linear_coherent, level: null, amplitude_ratio: null, snr_median_db: 13.90, snr_range_db: [7.55, 14.84]}
+  findings:
+    - "N1 与 N3：两模型映射**完全一致**（差 0.00 dB），因噪声按干净数据 RMS 归一化，SNR 由 ratio 唯一决定"
+    - "N2（线性相干干扰）：**口径 (ii) 不适用** —— add_linear_coherent 的幅度由内部随机源给出
+       (uniform 0.5-1.5)，**不接受 amplitude_ratio 参数**；三档 SNR 完全相同"
+    - "N2 下 M1 (11.12 dB) 与 M2 (13.90 dB) 相差 **2.78 dB** ⇒ 映射**不统一**，按裁定 E 如实并列"
+  frozen_on: P1.5
