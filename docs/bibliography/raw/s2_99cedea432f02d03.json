@@ -1,0 +1,1097 @@
+{
+  "total": 225,
+  "offset": 0,
+  "next": 100,
+  "data": [
+    {
+      "paperId": "3d848355eee5d1fe7e59c72df380081ccce057d5",
+      "externalIds": {
+        "DOI": "10.22564/19cisbgf2025.028",
+        "CorpusId": 285083341
+      },
+      "title": "A Real Benchmark Swell Noise Dataset for Performing Seismic Data Denoising via Deep Learning",
+      "venue": "Proceedings",
+      "year": 2025
+    },
+    {
+      "paperId": "e9e30c22b923314468f032fbf83942815e9eb867",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2410-08231",
+        "ArXiv": "2410.08231",
+        "DOI": "10.48550/arXiv.2410.08231",
+        "CorpusId": 273323857
+      },
+      "title": "A Real Benchmark Swell Noise Dataset for Performing Seismic Data Denoising via Deep Learning",
+      "venue": "arXiv.org",
+      "year": 2024
+    },
+    {
+      "paperId": "87e876ab03999fe5a296a000be72f8a0a2b679cc",
+      "externalIds": {
+        "DOI": "10.1029/2025jh000646",
+        "CorpusId": 282445276
+      },
+      "title": "Seismic Denoising by Deep Learning From Natural Repeating Earthquakes",
+      "venue": "Journal of Geophysical Research",
+      "year": 2025
+    },
+    {
+      "paperId": "dc151599de1c51b6cce9bc6b09f80b8fa12209b4",
+      "externalIds": {
+        "DOI": "10.2118/233244-ms",
+        "CorpusId": 289513956
+      },
+      "title": "Assessing Geological Fidelity of GAN-Generated Seismic Images for CO2 Monitoring at Sleipner",
+      "venue": "SPE Europe Energy Conference and Exhibition",
+      "year": 2026
+    },
+    {
+      "paperId": "503080e0fb50fddef8958f6a70bef87f80ee7c50",
+      "externalIds": {
+        "DOI": "10.1016/j.aiig.2026.100219",
+        "CorpusId": 287685452
+      },
+      "title": "An open benchmark dataset of synthetic seismic data and real swell noise for evaluating deep learning denoising models",
+      "venue": "Artificial Intelligence in Geosciences",
+      "year": 2026
+    },
+    {
+      "paperId": "0352c0629081cbf1748f30cf38a13971d5224a6b",
+      "externalIds": {
+        "DOI": "10.1109/ISCIPT67144.2025.11265718",
+        "CorpusId": 283477434
+      },
+      "title": "Attention U-Net with DenseBlock for Seismic Signal Denoising",
+      "venue": "2025 10th International Conference on Computer and Information Processing Technology (ISCIPT)",
+      "year": 2025
+    },
+    {
+      "paperId": "9e5f826a5bcb6a63b3dd6b563978edf6c460e09b",
+      "externalIds": {
+        "DOI": "10.22564/brjg.v43i1.2336",
+        "CorpusId": 280064218
+      },
+      "title": "Improving Seismic First Arrival Picking in Noisy Data: A Wavelet-Based Denoising Technique",
+      "venue": "Brazilian Journal of Geophysics",
+      "year": 2025
+    },
+    {
+      "paperId": "68f9470b6eb1d4053013d9dcaec450960dcf59a4",
+      "externalIds": {
+        "DOI": "10.21009/spektra.112.04",
+        "CorpusId": 291624998
+      },
+      "title": "Edge Seismic Denoising: Benchmarking the Hailo-8L on Raspberry Pi 5",
+      "venue": "SPEKTRA Jurnal Fisika dan Aplikasinya",
+      "year": 2026
+    },
+    {
+      "paperId": "38a32ff3cfdb5531fe27ab855c8b74e9f0acd883",
+      "externalIds": {
+        "DOI": "10.1109/I4C62240.2024.10748449",
+        "CorpusId": 274061137
+      },
+      "title": "Residual Learning for Enhanced Seismic Signal Quality with Denoising CNN and Kalman Filtering",
+      "venue": "2024 5th International Conference on Circuits, Control, Communication and Computing (I4C)",
+      "year": 2024
+    },
+    {
+      "paperId": "ef6856ddaba7a7f3cf9c44f8a30c5b54f00190a8",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2505-08585",
+        "ArXiv": "2505.08585",
+        "DOI": "10.1109/ACCESS.2025.3643616",
+        "CorpusId": 278535539
+      },
+      "title": "A Large-Scale Benchmark on Geological Fault Delineation Models: Domain Shift, Training Dynamics, Generalizability, Evaluation, and Inferential Behavior",
+      "venue": "IEEE Access",
+      "year": 2025
+    },
+    {
+      "paperId": "bc9acd7fc301b62538332723f9f5d4c19b4b83a8",
+      "externalIds": {
+        "DOI": "10.1109/TGRS.2025.3648809",
+        "CorpusId": 284270276
+      },
+      "title": "Satellite Image Denoising Techniques Using CSC Data Fidelity With Adaptive Total Variation Regularization",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2026
+    },
+    {
+      "paperId": "c0ceb8103c324137859ed2b3108431d2de3c476e",
+      "externalIds": {
+        "DOI": "10.1785/0220250366",
+        "CorpusId": 289856582
+      },
+      "title": "Deep Learning Denoising for Synchronous Surface Three-Component Seismic Data Based on Huainan Deep Underground Observation",
+      "venue": "Seismological Research Letters",
+      "year": 2026
+    },
+    {
+      "paperId": "4534e2d66dc62a67528d6da441ff587c1df04bec",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2603-14284",
+        "ArXiv": "2603.14284",
+        "DOI": "10.48550/arXiv.2603.14284",
+        "CorpusId": 286573099
+      },
+      "title": "High-Fidelity Compression of Seismic Velocity Models via SIREN Auto-Decoders",
+      "venue": "arXiv.org",
+      "year": 2026
+    },
+    {
+      "paperId": "3260b5f56ab47f443607488773a7ec17ec9bdf50",
+      "externalIds": {
+        "PubMedCentral": "12729721",
+        "DOI": "10.3390/bioengineering12121350",
+        "CorpusId": 283864814,
+        "PubMed": "41463647"
+      },
+      "title": "High-Fidelity CT Image Denoising with De-TransGAN: A Transformer-Augmented GAN Framework with Attention Mechanisms",
+      "venue": "Bioengineering",
+      "year": 2025
+    },
+    {
+      "paperId": "5e874e1bfe9ebe322b85a9ad7fac2953e9170803",
+      "externalIds": {
+        "DOI": "10.1190/geo2024-0472.1",
+        "CorpusId": 279463584
+      },
+      "title": "Deep learning-based denoising of pre-stack seismic angle gathers with application to time-lapse data",
+      "venue": "Geophysics",
+      "year": 2025
+    },
+    {
+      "paperId": "6303538c315e35af019ccdd3da84e0f8559e3f9e",
+      "externalIds": {
+        "DOI": "10.1109/CEI66465.2025.11398537",
+        "CorpusId": 286135662
+      },
+      "title": "Research on Frequency-Division Denoising Method for Seismic Data Based on Intelligent Adaptive Wavelet Transform",
+      "venue": "2025 5th International Conference on Computer Science, Electronic Information Engineering and Intelligent Control Technology (CEI)",
+      "year": 2025
+    },
+    {
+      "paperId": "6f447594d19fb51e1dbae11950690eadcc4923ff",
+      "externalIds": {
+        "ArXiv": "2511.16627",
+        "DOI": "10.1109/JBHI.2026.3732677",
+        "CorpusId": 283109966,
+        "PubMed": "42714992"
+      },
+      "title": "TFCDiff: Robust ECG Denoising via Time-Frequency Complementary Diffusion.",
+      "venue": "IEEE journal of biomedical and health informatics",
+      "year": 2025
+    },
+    {
+      "paperId": "f4a4863c372082c44d10e22c1cf630cf9f175b39",
+      "externalIds": {
+        "DOI": "10.1785/0120250143",
+        "CorpusId": 282929283
+      },
+      "title": "Denoising Seismograms in the Time Domain Using a Deep Learning Model",
+      "venue": "Bulletin of The Seismological Society of America (BSSA)",
+      "year": 2025
+    },
+    {
+      "paperId": "0bda56b86ea646e101b447abff35bb8293af74d5",
+      "externalIds": {
+        "DOI": "10.1109/STSIVA66383.2025.11156479",
+        "CorpusId": 281335306
+      },
+      "title": "Supervised Seismic Image Enhancement from Structurally Conditioned Synthetic Data",
+      "venue": "2025 XXV Symposium of Image, Signal Processing, and Artificial Vision (STSIVA)",
+      "year": 2025
+    },
+    {
+      "paperId": "5cc4aa994d91ebe48e76c74e39e4e4f89bb15a9e",
+      "externalIds": {
+        "PubMedCentral": "13350964",
+        "DOI": "10.1038/s41598-026-51886-0",
+        "CorpusId": 288160281,
+        "PubMed": "42115261"
+      },
+      "title": "Energy-efficient integer-only vs. floating-point FLBMF filters for low-power embedded image denoising",
+      "venue": "Scientific Reports",
+      "year": 2026
+    },
+    {
+      "paperId": "6d04d7f3b0800c0aaf417ad96c69c9883c9db79d",
+      "externalIds": {
+        "MAG": "3178502639",
+        "DOI": "10.1002/eqe.3508",
+        "CorpusId": 237801413
+      },
+      "title": "Seismic response evaluation of a five‐story buckling‐restrained braced frame using multi‐element pseudo‐dynamic hybrid simulations",
+      "venue": "Earthquake engineering & structural dynamics (Print)",
+      "year": 2021
+    },
+    {
+      "paperId": "7531db7f8dabc8fafa88a5be8530654d94c64910",
+      "externalIds": {
+        "MAG": "3139353985",
+        "DBLP": "journals/lgrs/LiFR22",
+        "DOI": "10.1109/LGRS.2021.3065110",
+        "CorpusId": 234343289
+      },
+      "title": "Processing Step-Based Adaptive Seismic Denoising Method of Transformation Domain Hybrid Technique",
+      "venue": "IEEE Geoscience and Remote Sensing Letters",
+      "year": 2022
+    },
+    {
+      "paperId": "f6f49b5d8969cc7cacb432545149821b0d978f75",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2504-17210",
+        "ArXiv": "2504.17210",
+        "DOI": "10.1109/SmartGridComm65349.2025.11204605",
+        "CorpusId": 278033566
+      },
+      "title": "Synthetic Power Flow Data Generation Using Physics-Informed Denoising Diffusion Probabilistic Models",
+      "venue": "IEEE International Conference on Smart Grid Communications",
+      "year": 2025
+    },
+    {
+      "paperId": "b27c447ce57bca987cc38706e066058a2702c649",
+      "externalIds": {
+        "DBLP": "conf/jurse/KhalifaKF25",
+        "DOI": "10.1109/JURSE60372.2025.11076017",
+        "CorpusId": 280153624
+      },
+      "title": "Urban Remote Sensing Image Super Resolution based on Denoising Diffusion Probabilistic Models and Generative Adversarial Networks",
+      "venue": "Joint Urban Remote Sensing Event",
+      "year": 2025
+    },
+    {
+      "paperId": "a76151c6c74a090ef1e895a2c5b690b6f0bef8fe",
+      "externalIds": {
+        "DBLP": "conf/bigdataconf/NiuRCS25",
+        "DOI": "10.1109/BigData66926.2025.11402216",
+        "CorpusId": 286328399
+      },
+      "title": "DPT-DDPM: A Denoising Diffusion Probabilistic Model for Tabular Data With Differential Privacy Enhancement",
+      "venue": "BigData Congress [Services Society]",
+      "year": 2025
+    },
+    {
+      "paperId": "6996b5925c0a98ec3c6778f60eb40f2435a7b6f5",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2508-12084",
+        "ArXiv": "2508.12084",
+        "DOI": "10.1109/ICCV51701.2025.01307",
+        "CorpusId": 280676905
+      },
+      "title": "Generic Event Boundary Detection via Denoising Diffusion",
+      "venue": "IEEE International Conference on Computer Vision",
+      "year": 2025
+    },
+    {
+      "paperId": "16229b98b5e77b636956c27428707f55020c7c22",
+      "externalIds": {
+        "DOI": "10.64252/n1p0cr73",
+        "CorpusId": 281273474
+      },
+      "title": "An Optimized SwinIR-based Deep Learning Model for Enhanced Image Super-Resolution and Denoising",
+      "venue": "International Journal of Environmental Science",
+      "year": 2025
+    },
+    {
+      "paperId": "2736fc8ac11ad5d388245a735ca114a2eb8db605",
+      "externalIds": {
+        "DOI": "10.1117/12.3058041",
+        "CorpusId": 275677442
+      },
+      "title": "A method for stochastic human action prediction based on denoising diffusion probability model",
+      "venue": "International Conference on Computer Vision and Image Processing",
+      "year": 2025
+    },
+    {
+      "paperId": "82f8cdc9ffe7af3598cd4e2567e06fc372950194",
+      "externalIds": {
+        "DOI": "10.1109/ICCCA66364.2025.11325169",
+        "CorpusId": 284885845
+      },
+      "title": "Augmenting Medical Imaging Datasets with Synthetic Data for Model Evaluation and Benchmarking",
+      "venue": "International Conference on Computing, Communication and Automation",
+      "year": 2025
+    },
+    {
+      "paperId": "b0d861387a538e848da97405ef22e41342f97fd7",
+      "externalIds": {
+        "DOI": "10.1088/1755-1315/1575/1/012006",
+        "CorpusId": 284015148
+      },
+      "title": "State-of-Practice Seismic Analysis of Tsankov Kamak Dam",
+      "venue": "IOP Conference Series: Earth and Environment",
+      "year": 2025
+    },
+    {
+      "paperId": "4943404f9396b08cfaad2f870e63bac654c006ff",
+      "externalIds": {
+        "ArXiv": "2604.10275",
+        "DBLP": "journals/corr/abs-2604-10275",
+        "DOI": "10.48550/arXiv.2604.10275",
+        "CorpusId": 287425369
+      },
+      "title": "FastSHADE: Fast Self-augmented Hierarchical Asymmetric Denoising for Efficient inference on mobile devices",
+      "venue": "arXiv.org",
+      "year": 2026
+    },
+    {
+      "paperId": "5eb2f44cdcbb989f23c53c9bdcb37a974ed6f819",
+      "externalIds": {
+        "DOI": "10.1109/ICCAD69956.2026.11643195",
+        "CorpusId": 291199938
+      },
+      "title": "Plug-and-Play Image Denoising with Classical Priors under a Consensus Equilibrium Framework",
+      "venue": "International Conference on Computer Aided Design",
+      "year": 2026
+    },
+    {
+      "paperId": "66902fbf339ca56ba96e352e95c0ecf9faa29840",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2407-03648",
+        "DOI": "10.48550/arXiv.2407.03648",
+        "CorpusId": 281956643
+      },
+      "title": "High Fidelity Text-Guided Music Generation and Editing via Single-Stage Flow Matching",
+      "venue": "arXiv.org",
+      "year": 2024
+    },
+    {
+      "paperId": "dbd27de2d6c1cb0a0fabfb6991725d6f6f7eb3eb",
+      "externalIds": {
+        "DOI": "10.64898/2026.01.19.700249",
+        "CorpusId": 284964627,
+        "PubMed": "41843506"
+      },
+      "title": "SPSID: A single-parameter shrinkage inverse-diffusion for denoising gene-regulatory networks",
+      "venue": "bioRxiv",
+      "year": 2026
+    },
+    {
+      "paperId": "7f3d486adb4ab3cd6ab7faef77e8656a234e641d",
+      "externalIds": {
+        "ArXiv": "2602.04886",
+        "DBLP": "journals/corr/abs-2602-04886",
+        "DOI": "10.48550/arXiv.2602.04886",
+        "CorpusId": 285304345
+      },
+      "title": "Denoising diffusion networks for normative modeling in neuroimaging",
+      "venue": "arXiv.org",
+      "year": 2026
+    },
+    {
+      "paperId": "f4aebc39d4bd06476122cd5fc9edc7086ed080c6",
+      "externalIds": {
+        "DOI": "10.1109/JBHI.2026.3727288",
+        "CorpusId": 291335621,
+        "PubMed": "42636122"
+      },
+      "title": "ECG-ARD: Autoregressive ECG Denoising With Dual-Domain Fusion and a Vector-Quantized Bottleneck.",
+      "venue": "IEEE journal of biomedical and health informatics",
+      "year": 2026
+    },
+    {
+      "paperId": "b468d99aba77829c93b20ecea82764066cf05fea",
+      "externalIds": {
+        "ArXiv": "2605.07439",
+        "DOI": "10.1145/3770855.3817504",
+        "CorpusId": 288147803
+      },
+      "title": "CA-DEL: An Open Multi-Target, Multi-Modal Benchmark for Learning from DNA-Encoded Library Screens",
+      "venue": "Proceedings of the 32nd ACM SIGKDD Conference on Knowledge Discovery and Data Mining V.2",
+      "year": 2026
+    },
+    {
+      "paperId": "d3274537703b57925a867ff3b62e97fd63e224ac",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2603-26811",
+        "ArXiv": "2603.26811",
+        "DOI": "10.48550/arXiv.2603.26811",
+        "CorpusId": 286961468
+      },
+      "title": "Implicit neural representations for larval zebrafish brain microscopy: a reproducible benchmark on the MapZebrain atlas",
+      "venue": "arXiv.org",
+      "year": 2026
+    },
+    {
+      "paperId": "7a44674bab25a595800d2ca425f8ccb791afa057",
+      "externalIds": {
+        "ArXiv": "2604.22305",
+        "CorpusId": 287773832
+      },
+      "title": "Finite element model updating of building structures under seismic excitation: A parallelized latent space-based Bayesian framework",
+      "venue": "",
+      "year": 2026
+    },
+    {
+      "paperId": "4e92c9201e7a9caa1d7a3faa9b024659a1afe143",
+      "externalIds": {
+        "PubMedCentral": "11888198",
+        "DOI": "10.1101/2025.02.21.639511",
+        "CorpusId": 276618385,
+        "PubMed": "40060678"
+      },
+      "title": "Synthetic Diffusion Tensor Imaging Maps Generated by 2D and 3D Probabilistic Diffusion Models: Evaluation and Applications",
+      "venue": "bioRxiv",
+      "year": 2025
+    },
+    {
+      "paperId": "3de4669936ebc12b4451874f659c62c1dd55b6d2",
+      "externalIds": {
+        "ArXiv": "2508.17011",
+        "DBLP": "journals/corr/abs-2508-17011",
+        "DOI": "10.48550/arXiv.2508.17011",
+        "CorpusId": 280711518
+      },
+      "title": "A Survey of Deep Learning-based Point Cloud Denoising",
+      "venue": "arXiv.org",
+      "year": 2025
+    },
+    {
+      "paperId": "ee56a274384329a3a1cd49bb763e8fd2c49fbe6e",
+      "externalIds": {
+        "DBLP": "journals/tbe/ZhaoLFWJH26",
+        "DOI": "10.1109/TBME.2025.3604527",
+        "CorpusId": 281090098,
+        "PubMed": "40892666"
+      },
+      "title": "Repaint High-Density Surface Electromyography Signal Using Denoising Diffusion Probabilistic Model",
+      "venue": "IEEE Transactions on Biomedical Engineering",
+      "year": 2025
+    },
+    {
+      "paperId": "e4ab615db2492f0beab705a0c505a994750f5ec6",
+      "externalIds": {
+        "DOI": "10.1109/AISTS66100.2025.11232714",
+        "CorpusId": 283097083
+      },
+      "title": "Generating High-Fidelity Synthetic ECG Signals Using Deep Autoencoder Architectures",
+      "venue": "2025 Artificial Intelligence and Smart Technologies for Sustainability Conference (AISTS)",
+      "year": 2025
+    },
+    {
+      "paperId": "8a1c34a13321af01e8ecfc6cbc54aebb4f66a3fa",
+      "externalIds": {
+        "DOI": "10.3390/math13243906",
+        "CorpusId": 283851073
+      },
+      "title": "Mean-Curvature-Regularized Deep Image Prior with Soft Attention for Image Denoising and Deblurring",
+      "venue": "Mathematics",
+      "year": 2025
+    },
+    {
+      "paperId": "1170c95899196b5a3c3bd73020695b6a0acd5f11",
+      "externalIds": {
+        "DBLP": "journals/tgrs/ParkSOA25",
+        "DOI": "10.1109/TGRS.2024.3510863",
+        "CorpusId": 275068217
+      },
+      "title": "Transformer-Based Seismic Image Enhancement: A Novel Approach for Improved Resolution",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2025
+    },
+    {
+      "paperId": "3a86964778604e67781c0651e53c457caf6f1458",
+      "externalIds": {
+        "DOI": "10.1016/j.ygeno.2025.111179",
+        "CorpusId": 284074304,
+        "PubMed": "41422986"
+      },
+      "title": "TOGAR: Token-gated generative refinement for high-fidelity spatial transcriptomics and robust spatial domain clustering.",
+      "venue": "Genomics",
+      "year": 2025
+    },
+    {
+      "paperId": "c8aaa67baf680aaf4e1d62622217bc0214b2c598",
+      "externalIds": {
+        "DBLP": "journals/imwut/ChenSZZZPXDDLYS25",
+        "DOI": "10.1145/3770701",
+        "CorpusId": 283459430
+      },
+      "title": "SelfDenoiser: Self-supervised Seismic Signal Denoiser for Continuous and Contactless Cardiac Monitoring",
+      "venue": "Proceedings of the ACM on Interactive Mobile Wearable and Ubiquitous Technologies",
+      "year": 2025
+    },
+    {
+      "paperId": "19a0694c1ea42b6142ace35599d330a3cc48563f",
+      "externalIds": {
+        "DOI": "10.2118/227269-ms",
+        "CorpusId": 281738717
+      },
+      "title": "Benchmarking Error-Bounded Compressors for Big Seismic Data",
+      "venue": "Middle East Oil, Gas and Geosciences Show (MEOS GEO)",
+      "year": 2025
+    },
+    {
+      "paperId": "45a7b3f20999e159dc00f2c16d0a45dac73b3ced",
+      "externalIds": {
+        "DOI": "10.3390/app16136635",
+        "CorpusId": 289893219
+      },
+      "title": "A Learning-Free Noise-Adaptive Framework for Feature-Preserving Point Cloud Denoising",
+      "venue": "Applied Sciences",
+      "year": 2026
+    },
+    {
+      "paperId": "3040e1d0d2f6f29fbf1b7ca757b59a27d1e46688",
+      "externalIds": {
+        "DOI": "10.1109/JSEN.2026.3684364",
+        "CorpusId": 287678602
+      },
+      "title": "Feature-Guided Reversible Network for Point Cloud Denoising",
+      "venue": "IEEE Sensors Journal",
+      "year": 2026
+    },
+    {
+      "paperId": "4b8b49856ece81be6f4a66363fba2e1e82aa5b23",
+      "externalIds": {
+        "DOI": "10.1007/s00034-026-03497-3",
+        "CorpusId": 285987658
+      },
+      "title": "IHRFNet: Integrating Residual and Hybrid Attention Blocks with Feature Extraction Network for Image Denoising",
+      "venue": "Circuits, systems, and signal processing",
+      "year": 2026
+    },
+    {
+      "paperId": "8a6a1180242d2d705f8186c06bac3479a0763e6b",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2407-04461",
+        "ArXiv": "2407.04461",
+        "DOI": "10.48550/arXiv.2407.04461",
+        "CorpusId": 271039472
+      },
+      "title": "VCD-Texture: Variance Alignment based 3D-2D Co-Denoising for Text-Guided Texturing",
+      "venue": "European Conference on Computer Vision",
+      "year": 2024
+    },
+    {
+      "paperId": "ea4933eee42590cf8d1662449cfeb642daed348c",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2607-03349",
+        "ArXiv": "2607.03349",
+        "DOI": "10.48550/arXiv.2607.03349",
+        "CorpusId": 289933404
+      },
+      "title": "PedestrianDiffusion: Multimodal Generative Denoising and Dense State Estimation for Inertial Navigation",
+      "venue": "arXiv.org",
+      "year": 2026
+    },
+    {
+      "paperId": "0f34c6e5fcf4abdfdf1eb6374d4ca6206b9eab0d",
+      "externalIds": {
+        "DOI": "10.1029/2026jh001403",
+        "CorpusId": 292212775
+      },
+      "title": "Earthquake Seismogram Denoising Across Time, Time‐Frequency, and Hybrid Domain Approaches",
+      "venue": "Journal of Geophysical Research",
+      "year": 2026
+    },
+    {
+      "paperId": "b971b4f727248817f055283510ec1f87ff5e9478",
+      "externalIds": {
+        "DOI": "10.5815/ijigsp.2026.03.11",
+        "CorpusId": 289129399
+      },
+      "title": "SWT-PnP-DnCNN: Medical Image Fusion UsingStationary Wavelet Transform and Plug-and-PlayDeep Denoising Model",
+      "venue": "International Journal of Image Graphics and Signal Processing",
+      "year": 2026
+    },
+    {
+      "paperId": "64eb40dd8de40d7c1e054aaf78eb0069479edbb6",
+      "externalIds": {
+        "DOI": "10.3390/electronics15061293",
+        "CorpusId": 286747319
+      },
+      "title": "A Taxonomy of Generative Models with a Focus on Diffusion Models and Denoising Techniques",
+      "venue": "Electronics",
+      "year": 2026
+    },
+    {
+      "paperId": "da178b130b2c52c4c4c56cf99a6fcb0ffff114e2",
+      "externalIds": {
+        "DOI": "10.1109/TASE.2026.3730792",
+        "CorpusId": 291789461
+      },
+      "title": "Multi-Source Data State Estimation of Power System Based on Denoising Diffusion Implicit Model With Data Augmentation",
+      "venue": "IEEE Transactions on Automation Science and Engineering",
+      "year": 2026
+    },
+    {
+      "paperId": "a4b7f3e1bdf026c35ae8df6efe73ffed8790182c",
+      "externalIds": {
+        "DOI": "10.1109/GAIIS69281.2026.11519217",
+        "CorpusId": 288425329
+      },
+      "title": "Robust Image Denoising: A Method Based on Multi-Scale Local Adaptive Hybrid Iterative Bilateral Filtering",
+      "venue": "2026 International Conference on Generative Artificial Intelligence and Information Security (GAIIS)",
+      "year": 2026
+    },
+    {
+      "paperId": "15a45fae055cecca95762caa1c2b6912ec745d3e",
+      "externalIds": {
+        "DOI": "10.1109/JOE.2025.3635984",
+        "CorpusId": 285162842
+      },
+      "title": "UIE-DDPM: Underwater Image Enhancement Based on the Integration of Physical Model and Conditional Denoising Diffusion Probabilistic Model",
+      "venue": "IEEE Journal of Oceanic Engineering",
+      "year": 2026
+    },
+    {
+      "paperId": "99a391396e8e1c9509270ef30726853a83c43142",
+      "externalIds": {
+        "DOI": "10.3390/rs18142299",
+        "CorpusId": 290077887
+      },
+      "title": "PanDiM: A Diffusion Mamba Network for High-Fidelity Pansharpening",
+      "venue": "Remote Sensing",
+      "year": 2026
+    },
+    {
+      "paperId": "c2a3972a6fbf57ecacf6dd4b40a5aadbfcf0f570",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2603-04340",
+        "ArXiv": "2603.04340",
+        "DOI": "10.48550/arXiv.2603.04340",
+        "CorpusId": 286238642
+      },
+      "title": "Balancing Fidelity, Utility, and Privacy in Synthetic Cardiac MRI Generation: A Comparative Study",
+      "venue": "arXiv.org",
+      "year": 2026
+    },
+    {
+      "paperId": "d54baeda8fff19df80119899aba42187db068f20",
+      "externalIds": {
+        "DBLP": "conf/cvpr/GautamPJTCHDVM25",
+        "DOI": "10.1109/CVPRW67362.2025.00133",
+        "CorpusId": 280016962
+      },
+      "title": "Pureformer: Transformer-Based Image Denoising",
+      "venue": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+      "year": 2025
+    },
+    {
+      "paperId": "6d85a628d6988212803b8c46fa2dfed23406d1fd",
+      "externalIds": {
+        "DOI": "10.3390/designs10020037",
+        "CorpusId": 286848899
+      },
+      "title": "LSTM-Based Fast Prediction of Seismic Response and Fragility for Bridge Pile-Group Foundations: A Data-Driven Design Approach",
+      "venue": "Designs",
+      "year": 2026
+    },
+    {
+      "paperId": "1e8ececb3464ab95e5ffbe7b395a3c4fcf823c05",
+      "externalIds": {
+        "MAG": "3046502119",
+        "DOI": "10.1093/gji/ggaa362",
+        "CorpusId": 224933158
+      },
+      "title": "A benchmark case study for seismic event relative location",
+      "venue": "Geophysical Journal International",
+      "year": 2020
+    },
+    {
+      "paperId": "fb756bf6a3db7230a5cc6eecb1d58ea932a417d4",
+      "externalIds": {
+        "DOI": "10.3390/app16136555",
+        "CorpusId": 289809605
+      },
+      "title": "High-Resolution Reconstruction of Seismic Data with Cycle-Consistent Adversarial Network",
+      "venue": "Applied Sciences",
+      "year": 2026
+    },
+    {
+      "paperId": "32d8c0513d70e71675cf51e856459964b44e6075",
+      "externalIds": {
+        "DOI": "10.3390/app15126697",
+        "CorpusId": 279503188
+      },
+      "title": "Multi-Level Feature Fusion Attention Generative Adversarial Network for Retinal Optical Coherence Tomography Image Denoising",
+      "venue": "Applied Sciences",
+      "year": 2025
+    },
+    {
+      "paperId": "648ba63d01937913d115b60916060f1920bcd8a3",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2308-13568",
+        "ArXiv": "2308.13568",
+        "DOI": "10.48550/arXiv.2308.13568",
+        "CorpusId": 261242766
+      },
+      "title": "Region-Disentangled Diffusion Model for High-Fidelity PPG-to-ECG Translation",
+      "venue": "AAAI Conference on Artificial Intelligence",
+      "year": 2023
+    },
+    {
+      "paperId": "5a82ba4b9cd5b993fc7e411e2fa9e3266b26d1b6",
+      "externalIds": {
+        "DBLP": "conf/visigrapp/KhanNG25",
+        "DOI": "10.5220/0013187300003912",
+        "CorpusId": 276790313
+      },
+      "title": "From Noise Estimation to Restoration: A Unified Diffusion and Bayesian Risk Approach for Unsupervised Denoising",
+      "venue": "VISIGRAPP : VISAPP",
+      "year": 2025
+    },
+    {
+      "paperId": "b1a4f9e676bb11c4a487193b27b96e4e3cb5df99",
+      "externalIds": {
+        "DOI": "10.14569/ijacsa.2025.0161257",
+        "CorpusId": 284478527
+      },
+      "title": "Adaptive Denoising of Partial Discharge Using Absolute Difference Optimization Versus Artificial Neural Networks",
+      "venue": "International Journal of Advanced Computer Science and Applications",
+      "year": 2025
+    },
+    {
+      "paperId": "a8ac59ff5353052d68a5f707b483ef5df70178cf",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2407-11040",
+        "ArXiv": "2407.11040",
+        "DOI": "10.48550/arXiv.2407.11040",
+        "CorpusId": 271218558
+      },
+      "title": "High-Quality and Full Bandwidth Seismic Signal Synthesis using Operational GANs",
+      "venue": "arXiv.org",
+      "year": 2024
+    },
+    {
+      "paperId": "a638201ca1691ad195c38b4755eaf8f4f491b93b",
+      "externalIds": {
+        "MAG": "3087473100",
+        "DOI": "10.5194/egusphere-egu2020-7504",
+        "CorpusId": 226041231
+      },
+      "title": "A Seismic Event Relative Location Benchmark Case Study",
+      "venue": "",
+      "year": 2020
+    },
+    {
+      "paperId": "b524dee16e6cf0c5c6e848d3a9b15f2d9f981f55",
+      "externalIds": {
+        "DBLP": "conf/cvpr/LiangTYZLSWZZZH25",
+        "ArXiv": "2506.01394",
+        "DOI": "10.1109/CVPRW67362.2025.00119",
+        "CorpusId": 279075723
+      },
+      "title": "NTIRE 2025 the 2nd Restore Any Image Model (RAIM) in the Wild Challenge",
+      "venue": "2025 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)",
+      "year": 2025
+    },
+    {
+      "paperId": "6ebfb4a18485f0dd74a7c599cc045bea9042a28e",
+      "externalIds": {
+        "ArXiv": "2510.02063",
+        "CorpusId": 281724188
+      },
+      "title": "MSRepaint: Multiple Sclerosis Repaint with Conditional Denoising Diffusion Implicit Model for Bidirectional Lesion Filling and Synthesis",
+      "venue": "",
+      "year": 2025
+    },
+    {
+      "paperId": "0d0c77100dcf071267a87ee7b7a0d81624f5f0d0",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2606-30003",
+        "ArXiv": "2606.30003",
+        "DOI": "10.48550/arXiv.2606.30003",
+        "CorpusId": 289684784
+      },
+      "title": "GeoEdit: Geometry-Aware Object Editing via Dual-Branch Denoising",
+      "venue": "arXiv.org",
+      "year": 2026
+    },
+    {
+      "paperId": "5dd3b3779a2195e9dec7ab799f42345ac85b3c4e",
+      "externalIds": {
+        "PubMedCentral": "13269660",
+        "DOI": "10.1002/acm2.70656",
+        "CorpusId": 289304625,
+        "PubMed": "42298808"
+      },
+      "title": "FMDNet: Spatial‐frequency feature routing for low‐dose CT denoising",
+      "venue": "Journal of Applied Clinical Medical Physics",
+      "year": 2026
+    },
+    {
+      "paperId": "d71aacfce8949a9086650254291a744ad1cc26c3",
+      "externalIds": {
+        "DBLP": "journals/apin/KomolafeZAKGSZS26",
+        "DOI": "10.1007/s10489-026-07192-3",
+        "CorpusId": 287033320
+      },
+      "title": "ED-SCMA: encoder-decoder with skip-connection and multi-scale attention module for low-dose CT denoising",
+      "venue": "Applied intelligence (Boston)",
+      "year": 2026
+    },
+    {
+      "paperId": "82b05ab24e1b2c2f19ef4f2e2cd74b61e0175f2e",
+      "externalIds": {
+        "DOI": "10.31127/tuje.1928056",
+        "CorpusId": 289947251
+      },
+      "title": "Hybrid Image Denoising via Sliced Ridgelet Transform and Attention-Guided Deep Learning for Medical and Industrial Applications",
+      "venue": "Turkish Journal of Engineering",
+      "year": 2026
+    },
+    {
+      "paperId": "0f85e131c2dfa8954cb144b9116dd2f82f635bc4",
+      "externalIds": {
+        "ArXiv": "2608.28174",
+        "CorpusId": 291470339
+      },
+      "title": "Manifold4D: Denoising on Point Cloud Rendered Manifolds for Video Re-shooting",
+      "venue": "",
+      "year": 2026
+    },
+    {
+      "paperId": "fba740682fdcf2e07ec5caef302972ccf81be900",
+      "externalIds": {
+        "DOI": "10.1002/ima.70396",
+        "CorpusId": 289559179
+      },
+      "title": "Hounsfield Unit Preservation in Low‐Dose Abdomen and Pelvic CT Denoising: An Enhanced UNIT Framework for Radiotherapy Planning",
+      "venue": "International journal of imaging systems and technology (Print)",
+      "year": 2026
+    },
+    {
+      "paperId": "33216ea9ea7cdc9c69405459d3973280aa1b6fe8",
+      "externalIds": {
+        "DBLP": "journals/cmpb/ZhangZCXJMMGL24",
+        "DOI": "10.1016/j.cmpb.2024.108206",
+        "CorpusId": 269567836,
+        "PubMed": "38723435"
+      },
+      "title": "Unsupervised low-dose CT denoising using bidirectional contrastive network",
+      "venue": "Comput. Methods Programs Biomed.",
+      "year": 2024
+    },
+    {
+      "paperId": "076d4a8e4ee5c68d81c3d7fedd10552dc185b063",
+      "externalIds": {
+        "ArXiv": "2303.08730",
+        "DBLP": "journals/pami/ZhangWZWJ25",
+        "DOI": "10.1109/TPAMI.2025.3570494",
+        "CorpusId": 265456435,
+        "PubMed": "40372855"
+      },
+      "title": "DiffusionAD: Norm-Guided One-Step Denoising Diffusion for Anomaly Detection",
+      "venue": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+      "year": 2023
+    },
+    {
+      "paperId": "f3509a4ea5123e5d1638b3e9e719e93bfc01e883",
+      "externalIds": {
+        "ArXiv": "2510.00313",
+        "DBLP": "journals/corr/abs-2510-00313",
+        "DOI": "10.1109/WASPAA66052.2025.11230962",
+        "CorpusId": 281705716
+      },
+      "title": "Post-Training Quantization for Audio Diffusion Transformers",
+      "venue": "IEEE Workshop on Applications of Signal Processing to Audio and Acoustics",
+      "year": 2025
+    },
+    {
+      "paperId": "03d19419602f7eb99a5466dd5c8b2bcc8d8c0c28",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2606-06219",
+        "ArXiv": "2606.06219",
+        "DOI": "10.48550/arXiv.2606.06219",
+        "CorpusId": 288976247
+      },
+      "title": "CLEAR: Cognition and Latent Evaluation for Adaptive Routing in End-to-End Autonomous Driving",
+      "venue": "arXiv.org",
+      "year": 2026
+    },
+    {
+      "paperId": "51ba9fc512d458064e4233c20a87b14f4410b277",
+      "externalIds": {
+        "DBLP": "journals/tgrs/SaadCSCZC22",
+        "DOI": "10.1109/TGRS.2022.3209932",
+        "CorpusId": 252551507
+      },
+      "title": "Unsupervised Deep Learning for Single-Channel Earthquake Data Denoising and Its Applications in Event Detection and Fully Automatic Location",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2022
+    },
+    {
+      "paperId": "c38e9e3a92a3a6cf26d66a6d380acff1c30a80b8",
+      "externalIds": {
+        "DBLP": "conf/fusion/SousaVMCBC25",
+        "DOI": "10.23919/FUSION65864.2025.11123921",
+        "CorpusId": 280921474
+      },
+      "title": "Data-Driven Diffusion-Based Super-Resolution for Improvement of Reduced-Order Model Predictions in Fluid Dynamics",
+      "venue": "Fusion",
+      "year": 2025
+    },
+    {
+      "paperId": "12b4f4da97e6f6457eaaf8a4f2213d554d1f85f3",
+      "externalIds": {
+        "DOI": "10.1117/12.3082055",
+        "CorpusId": 286297099
+      },
+      "title": "A Monte Carlo-based deep learning framework for accurate single-molecule spectroscopic imaging",
+      "venue": "BiOS",
+      "year": 2026
+    },
+    {
+      "paperId": "5d2a771776c8208f1a859fd4042485f97a09b985",
+      "externalIds": {
+        "DBLP": "journals/sivp/SuP26",
+        "DOI": "10.1007/s11760-026-05618-6",
+        "CorpusId": 290989355
+      },
+      "title": "Edge-dilution-aware physics-driven enhancement of underwater streak-tube LiDAR",
+      "venue": "Signal, Image and Video Processing",
+      "year": 2026
+    },
+    {
+      "paperId": "b6e5a291accbadb4027d763a5b2a9ff883d5a158",
+      "externalIds": {
+        "DOI": "10.1117/12.3094456",
+        "CorpusId": 286297313
+      },
+      "title": "DiffScene3D: sparse diffusion for high-fidelity indoor scene geometry generation",
+      "venue": "International Conference on Graphic and Image Processing",
+      "year": 2026
+    },
+    {
+      "paperId": "334cd0e8bb5c56dd923f53e1cd1ff09881e95ddf",
+      "externalIds": {
+        "ArXiv": "2508.08134",
+        "DBLP": "journals/corr/abs-2508-08134",
+        "DOI": "10.48550/arXiv.2508.08134",
+        "CorpusId": 280636060
+      },
+      "title": "Follow-Your-Shape: Shape-Aware Image Editing via Trajectory-Guided Region Control",
+      "venue": "arXiv.org",
+      "year": 2025
+    },
+    {
+      "paperId": "229966fd8589a0c44ab925de0f6e4bce4938ef4f",
+      "externalIds": {
+        "PubMedCentral": "12216037",
+        "DOI": "10.1038/s41598-025-06481-0",
+        "CorpusId": 279798614,
+        "PubMed": "40594927"
+      },
+      "title": "Hybrid deep learning architecture for scalable and high-quality image compression",
+      "venue": "Scientific Reports",
+      "year": 2025
+    },
+    {
+      "paperId": "0d9bccb1a08df584dd237a531cbbb302b7ea126c",
+      "externalIds": {
+        "DBLP": "journals/tgrs/CaoLSLWL24",
+        "DOI": "10.1109/TGRS.2024.3416353",
+        "CorpusId": 270606599
+      },
+      "title": "Dual-Attention-Based Wavelet Integrated CNN Constrained via Stochastic Structural Similarity for Seismic Data Reconstruction",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2024
+    },
+    {
+      "paperId": "130e344f8a9456c02e1e2fd586cd5a8c03c837ab",
+      "externalIds": {
+        "DBLP": "conf/interspeech/PeiSS25",
+        "DOI": "10.21437/interspeech.2025-19",
+        "CorpusId": 281244500
+      },
+      "title": "Optimized Real-time Speech Enhancement with Deep SSMs on Raw Audio",
+      "venue": "Interspeech",
+      "year": 2025
+    },
+    {
+      "paperId": "5eda2f2311582cc38df7f5d5e632bd005d518d3c",
+      "externalIds": {
+        "ArXiv": "2601.06391",
+        "DBLP": "journals/corr/abs-2601-06391",
+        "DOI": "10.48550/arXiv.2601.06391",
+        "CorpusId": 284648326
+      },
+      "title": "Object-WIPER : Training-Free Object and Associated Effect Removal in Videos",
+      "venue": "arXiv.org",
+      "year": 2026
+    },
+    {
+      "paperId": "24b3ce5289f45a6a8b1682b4aa63533f6c889370",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2601-10384",
+        "ArXiv": "2601.10384",
+        "DOI": "10.48550/arXiv.2601.10384",
+        "CorpusId": 284738304
+      },
+      "title": "RSA-Bench: Benchmarking Audio Large Models in Real-World Acoustic Scenarios",
+      "venue": "Annual Meeting of the Association for Computational Linguistics",
+      "year": 2026
+    },
+    {
+      "paperId": "dc36864a54b322af11e504f4866d3073ccb56643",
+      "externalIds": {
+        "DOI": "10.1002/eqe.4301",
+        "CorpusId": 275566691
+      },
+      "title": "Challenges and Lessons Learned From Pseudo‐Dynamic Hybrid Simulations on Ductile Steel Braced Frame Systems",
+      "venue": "Earthquake Engineering &amp; Structural Dynamics",
+      "year": 2025
+    },
+    {
+      "paperId": "952d6a7c25c4c1ae0f79570e6bf2be137cf0536a",
+      "externalIds": {
+        "DBLP": "journals/tgrs/CaoSWGTZ22",
+        "DOI": "10.1109/TGRS.2022.3225923",
+        "CorpusId": 254305703
+      },
+      "title": "Self-Supervised Multitask 3-D Partial Convolutional Neural Network for Random Noise Attenuation and Reconstruction in 3-D Seismic Data",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2022
+    },
+    {
+      "paperId": "c2b7180bc0336ff0dd99e641ff0a060f69c30de2",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2604-16841",
+        "ArXiv": "2604.16841",
+        "DOI": "10.48550/arXiv.2604.16841",
+        "CorpusId": 287618421
+      },
+      "title": "When Earth Foundation Models Meet Diffusion: An Application to Land Surface Temperature Super-Resolution",
+      "venue": "arXiv.org",
+      "year": 2026
+    },
+    {
+      "paperId": "e9b312e408c6a3ccaf88a8502bcfa1bc5e31aaa0",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2602-21402",
+        "ArXiv": "2602.21402",
+        "DOI": "10.48550/arXiv.2602.21402",
+        "CorpusId": 286010825
+      },
+      "title": "FlowFixer: Towards Detail-Preserving Subject-Driven Generation",
+      "venue": "arXiv.org",
+      "year": 2026
+    },
+    {
+      "paperId": "daacfdba943814519207d8b89383bc14581e9fb9",
+      "externalIds": {
+        "ArXiv": "2605.17311",
+        "DBLP": "journals/corr/abs-2605-17311",
+        "DOI": "10.48550/arXiv.2605.17311",
+        "CorpusId": 288655463
+      },
+      "title": "SpecSem-Net: Integrating Spectral and Semantic Features for Robust AI-generated Video Detection",
+      "venue": "arXiv.org",
+      "year": 2026
+    },
+    {
+      "paperId": "f605a68f682c72a5959fe7a6772a6f8b3db8630e",
+      "externalIds": {
+        "DOI": "10.1038/s40494-026-02327-8",
+        "CorpusId": 285074475
+      },
+      "title": "DCADif: decoupled conditional adaptive time-dynamic fusion diffusion inpainting of traditional Chinese mural paintings",
+      "venue": "npj Heritage Science",
+      "year": 2026
+    }
+  ]
+}

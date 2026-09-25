@@ -1,0 +1,88 @@
+{
+  "log_entries": [
+    {
+      "db": "crossref",
+      "track": "mechanism",
+      "query": "seismic AND denois* AND (fusion OR combination OR ensemble OR local similarity OR orthogonalization)",
+      "hits": 200,
+      "stored": 200,
+      "total_reported": 1740409,
+      "note": "协议原式（逐字）"
+    },
+    {
+      "db": "semantic_scholar",
+      "track": "mechanism",
+      "query": "seismic denoising fusion ensemble",
+      "hits": 100,
+      "stored": 100,
+      "total_reported": 222,
+      "note": "S2 降级检索式（S2 不支持 * 通配符；已记录偏离）"
+    },
+    {
+      "db": "crossref",
+      "track": "benchmark",
+      "query": "seismic AND denois* AND (benchmark OR quantitative comparison OR evaluation OR signal preservation OR fidelity)",
+      "hits": 200,
+      "stored": 200,
+      "total_reported": 4637279,
+      "note": "协议原式（逐字）"
+    },
+    {
+      "db": "semantic_scholar",
+      "track": "benchmark",
+      "query": "seismic denoising benchmark evaluation fidelity",
+      "hits": 100,
+      "stored": 100,
+      "total_reported": 225,
+      "note": "S2 降级检索式（S2 不支持 * 通配符；已记录偏离）"
+    },
+    {
+      "db": "semantic_scholar",
+      "track": "mechanism",
+      "query": "seismic denoising orthogonalization local similarity",
+      "hits": 50,
+      "stored": 50,
+      "total_reported": 69,
+      "note": "S2 降级检索式（补充词项）"
+    },
+    {
+      "db": "crossref",
+      "track": "mechanism_author_Chen",
+      "query": "seismic denoising Chen",
+      "hits": 50,
+      "stored": 50,
+      "total_reported": 4060858,
+      "note": "作者追踪子项"
+    },
+    {
+      "db": "semantic_scholar",
+      "track": "mechanism_author_Chen",
+      "query": "seismic denoising Chen",
+      "hits": 50,
+      "stored": 50,
+      "total_reported": 27578,
+      "note": "S2 降级检索式（作者追踪）"
+    },
+    {
+      "db": "crossref",
+      "track": "mechanism_author_Fomel",
+      "query": "seismic denoising Fomel",
+      "hits": 50,
+      "stored": 50,
+      "total_reported": 217749,
+      "note": "作者追踪子项"
+    },
+    {
+      "db": "semantic_scholar",
+      "track": "mechanism_author_Fomel",
+      "query": "seismic denoising Fomel",
+      "hits": 50,
+      "stored": 50,
+      "total_reported": 2332,
+      "note": "S2 降级检索式（作者追踪）"
+    }
+  ],
+  "failures": [],
+  "total_rows": 850,
+  "deduped": 782
+}

@@ -1,0 +1,546 @@
+{
+  "total": 69,
+  "offset": 0,
+  "next": 50,
+  "data": [
+    {
+      "paperId": "b0996208110ed408b61e6052cc35e4194d5f8143",
+      "externalIds": {
+        "MAG": "2021734622",
+        "DOI": "10.1190/GEO2014-0227.1",
+        "CorpusId": 120440599
+      },
+      "title": "Random noise attenuation using local signal-and-noise orthogonalization",
+      "venue": "",
+      "year": 2015
+    },
+    {
+      "paperId": "4ef587dfc946b32e36b136c6d5a0aceac97da647",
+      "externalIds": {
+        "ArXiv": "2408.13578",
+        "CorpusId": 271957319
+      },
+      "title": "Adaptive Graded Denoising of Seismic Data Based on Noise Estimation and Local Similarity",
+      "venue": "",
+      "year": 2024
+    },
+    {
+      "paperId": "ef2db922a65a75e9e721df72d371f59bc5febef8",
+      "externalIds": {
+        "DOI": "10.1190/geo2024-0365.1",
+        "CorpusId": 281474738
+      },
+      "title": "Local Similarity Integrated Self-learning Model and Its Application to Suppress Seismic Migration Artifacts",
+      "venue": "Geophysics",
+      "year": 2025
+    },
+    {
+      "paperId": "0e22681c0deb9e1513955abe1696d00e2cf5fcbe",
+      "externalIds": {
+        "DOI": "10.1190/geo2024-0055.1",
+        "CorpusId": 280821740
+      },
+      "title": "Improving fluid-induced time-lapse seismic monitoring using local orthogonalization",
+      "venue": "Geophysics",
+      "year": 2025
+    },
+    {
+      "paperId": "e526b784fa69e01ca0c981c8ad2f20580914a831",
+      "externalIds": {
+        "DBLP": "journals/esi/AnvariMMKMRM23",
+        "DOI": "10.1007/s12145-022-00908-2",
+        "CorpusId": 255092594
+      },
+      "title": "Denoising of multidimensional seismic data in the physical domain by a new non-local self similarity method",
+      "venue": "Earth Science Informatics",
+      "year": 2022
+    },
+    {
+      "paperId": "0c4dca42b7281e8de2ef02c0e5fe440482f60986",
+      "externalIds": {
+        "MAG": "2946785025",
+        "DOI": "10.1016/J.JAPPGEO.2019.04.018",
+        "CorpusId": 182608317
+      },
+      "title": "Seismic data denoising for complex structure using BM3D and local similarity",
+      "venue": "Journal of Applied Geophysics",
+      "year": 2018
+    },
+    {
+      "paperId": "5243cb6f3841f85da04a726aee9842d469712c68",
+      "externalIds": {
+        "DBLP": "journals/access/GaoLZGG23",
+        "DOI": "10.1109/ACCESS.2023.3272905",
+        "CorpusId": 258518379
+      },
+      "title": "Unsupervised Seismic Random Noise Suppression Based on Local Similarity and Replacement Strategy",
+      "venue": "IEEE Access",
+      "year": 2023
+    },
+    {
+      "paperId": "748832d787928207920ddb36ce200f11350ee7d6",
+      "externalIds": {
+        "PubMedCentral": "12317081",
+        "DOI": "10.1038/s41598-025-13857-9",
+        "CorpusId": 280413308,
+        "PubMed": "40750651"
+      },
+      "title": "Seismic data denoising based on attention dual dilated CNN",
+      "venue": "Scientific Reports",
+      "year": 2025
+    },
+    {
+      "paperId": "88825d32fdbe942b17126194f9c70e1438972786",
+      "externalIds": {
+        "DOI": "10.36922/jse026230102",
+        "CorpusId": 291887478
+      },
+      "title": "Non-local weighted structure tensor total variation model for seismic data denoising",
+      "venue": "Journal of Seismic Exploration",
+      "year": 2026
+    },
+    {
+      "paperId": "c690fe8b2c07363fef1834311a776fa833e885db",
+      "externalIds": {
+        "DBLP": "journals/tgrs/ZhangZDS24",
+        "DOI": "10.1109/TGRS.2024.3424502",
+        "CorpusId": 271101620
+      },
+      "title": "STUGAN: An Integrated Swin Transformer-Based Generative Adversarial Networks for Seismic Data Reconstruction and Denoising",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2024
+    },
+    {
+      "paperId": "063f2cedafcea3c82268e83c09df314b75374301",
+      "externalIds": {
+        "DOI": "10.1109/TGRS.2025.3646696",
+        "CorpusId": 284205330
+      },
+      "title": "Seismic Denoising Based on Convolutional Dictionary Learning With ADMM",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2026
+    },
+    {
+      "paperId": "cccb12590eb468022f56cef7b9bce1fea358d677",
+      "externalIds": {
+        "DOI": "10.1007/s11200-020-0133-y",
+        "CorpusId": 231921565
+      },
+      "title": "Post-stack seismic data interpolation using a fast non-local similarity matching algorithm",
+      "venue": "Studia Geophysica et Geodaetica",
+      "year": 2021
+    },
+    {
+      "paperId": "5156dbe32769487e115106efff43387c30dc0ea6",
+      "externalIds": {
+        "DOI": "10.1111/1365-2478.70046",
+        "CorpusId": 279993507
+      },
+      "title": "Random Noise Suppression of Prestack Seismic Data Using Non‐Local Means via Patch Ordering in the Dual‐Domain",
+      "venue": "Geophysical Prospecting",
+      "year": 2025
+    },
+    {
+      "paperId": "7e19bc9762c2c5f1597fc34aa756f62aef4f5206",
+      "externalIds": {
+        "DOI": "10.1007/s11200-022-0535-0",
+        "CorpusId": 260527707
+      },
+      "title": "Self-similarity convolution neural network for seismic noise suppression in desert environment",
+      "venue": "Studia Geophysica et Geodaetica",
+      "year": 2023
+    },
+    {
+      "paperId": "02078b9bd6a5bf98c691bf08d14d99a2cd2659de",
+      "externalIds": {
+        "DBLP": "journals/tgrs/ShekharTJKDMCE25",
+        "DOI": "10.1109/TGRS.2025.3540208",
+        "CorpusId": 276355327
+      },
+      "title": "Seismic Denoising Based on Dictionary Learning With Double Regularization for Random and Erratic Noise Attenuation",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2025
+    },
+    {
+      "paperId": "385708941238a2e2e96531344e16bf577c2f606a",
+      "externalIds": {
+        "DOI": "10.1190/geo2021-0785.1",
+        "CorpusId": 248651402
+      },
+      "title": "Erratic and random noise attenuation using adaptive local orthogonalization",
+      "venue": "Geophysics",
+      "year": 2022
+    },
+    {
+      "paperId": "9f845ebd22e58637d1c86c53a9ef7f2f4a86ec30",
+      "externalIds": {
+        "DBLP": "journals/tgrs/FengLLC22",
+        "DOI": "10.1109/TGRS.2021.3123509",
+        "CorpusId": 240097485
+      },
+      "title": "Multigranularity Feature Fusion Convolutional Neural Network for Seismic Data Denoising",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2022
+    },
+    {
+      "paperId": "e787aa6af5f2943719296d9193c7b389ca44e260",
+      "externalIds": {
+        "DBLP": "journals/tgrs/GengCFL22",
+        "DOI": "10.1109/TGRS.2022.3226404",
+        "CorpusId": 254213348
+      },
+      "title": "LOUD: Local Orthogonalization-Constrained Unsupervised Deep-Learning Denoiser",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2022
+    },
+    {
+      "paperId": "13aaa610b58e5bcfd5b16ba400cc23026e1b952a",
+      "externalIds": {
+        "DOI": "10.1190/geo2021-0385.1",
+        "CorpusId": 250011206
+      },
+      "title": "Preserving signal during random noise attenuation through migration enhancement and local orthogonalization",
+      "venue": "Geophysics",
+      "year": 2022
+    },
+    {
+      "paperId": "579ef1df223f1748e288082181a9398384d1315e",
+      "externalIds": {
+        "DOI": "10.1190/geo2022-0676.1",
+        "CorpusId": 265125397
+      },
+      "title": "Protecting the weak signals in distributed acoustic sensing data processing using local orthogonalization: the FORGE data example",
+      "venue": "Geophysics",
+      "year": 2023
+    },
+    {
+      "paperId": "41c301236bc082720e6bbe191cc6e88892a5837d",
+      "externalIds": {
+        "DBLP": "journals/tgrs/ChenCLDQLW24",
+        "DOI": "10.1109/TGRS.2024.3355972",
+        "CorpusId": 267136545
+      },
+      "title": "Efficient Seismic Data Denoising via Deep Learning With Improved MCA-SCUNet",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2024
+    },
+    {
+      "paperId": "0d9bccb1a08df584dd237a531cbbb302b7ea126c",
+      "externalIds": {
+        "DBLP": "journals/tgrs/CaoLSLWL24",
+        "DOI": "10.1109/TGRS.2024.3416353",
+        "CorpusId": 270606599
+      },
+      "title": "Dual-Attention-Based Wavelet Integrated CNN Constrained via Stochastic Structural Similarity for Seismic Data Reconstruction",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2024
+    },
+    {
+      "paperId": "1b7d5e7619cbdc03a087589397ebda923ff2bc47",
+      "externalIds": {
+        "DBLP": "journals/tgrs/WangHZW23a",
+        "DOI": "10.1109/TGRS.2023.3295355",
+        "CorpusId": 259920571
+      },
+      "title": "Random Noise Attenuation Using an Unsupervised Deep Neural Network Method Based on Local Orthogonalization and Ensemble Learning",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2023
+    },
+    {
+      "paperId": "4bf63b892ddde22ce1978a7b896b219b63c5db18",
+      "externalIds": {
+        "DBLP": "journals/lgrs/ZhangYWL25",
+        "DOI": "10.1109/LGRS.2025.3573122",
+        "CorpusId": 278875735
+      },
+      "title": "Seismic CRP Gather Coherent Noise Suppression via Neural Network Low-Rank Approximation",
+      "venue": "IEEE Geoscience and Remote Sensing Letters",
+      "year": 2025
+    },
+    {
+      "paperId": "b31ea6c06c6686b453ecb1013abe7b1685f09207",
+      "externalIds": {
+        "MAG": "2336996062",
+        "DOI": "10.1007/s11770-016-0545-1",
+        "CorpusId": 123724003
+      },
+      "title": "Improved random noise attenuation using f−x empirical mode decomposition and local similarity",
+      "venue": "Applied Geophysics",
+      "year": 2016
+    },
+    {
+      "paperId": "3d2f2b5d812d97c1154d8ffe903b1e629c6544c8",
+      "externalIds": {
+        "MAG": "3037790665",
+        "DOI": "10.1007/s00024-020-02534-9",
+        "CorpusId": 219977548
+      },
+      "title": "An Iterative Focal Denoising Strategy for Passive Seismic Data",
+      "venue": "Pure and Applied Geophysics",
+      "year": 2020
+    },
+    {
+      "paperId": "7a3c3a17dcfc3531cbfab6a09c964af787f2b54d",
+      "externalIds": {
+        "MAG": "2999020036",
+        "DOI": "10.3390/en13020372",
+        "CorpusId": 211027454
+      },
+      "title": "Seismic Data Denoising Based on Sparse and Low-Rank Regularization",
+      "venue": "",
+      "year": 2020
+    },
+    {
+      "paperId": "91a09279e7c46207a34275c7f403486d610bcbc0",
+      "externalIds": {
+        "DBLP": "journals/access/ShekharE26",
+        "DOI": "10.1109/ACCESS.2026.3672906",
+        "CorpusId": 286594226
+      },
+      "title": "Quantum-Accelerated Dictionary Learning Based on HHL and QSVT for Seismic Data Denoising",
+      "venue": "IEEE Access",
+      "year": 2026
+    },
+    {
+      "paperId": "f5be00da05b896a543671a1fe18cd14aafa6b3bb",
+      "externalIds": {
+        "DBLP": "journals/tgrs/LiuM19",
+        "MAG": "2894913449",
+        "DOI": "10.1109/TGRS.2018.2870087",
+        "CorpusId": 90263288
+      },
+      "title": "Structured Graph Dictionary Learning and Application on the Seismic Denoising",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2019
+    },
+    {
+      "paperId": "7c42dfa053ffc8f9288fd8d1a45ce3a1ffde09f3",
+      "externalIds": {
+        "DBLP": "journals/tgrs/LiangLM23",
+        "DOI": "10.1109/TGRS.2023.3268718",
+        "CorpusId": 258275059
+      },
+      "title": "Reinforcement Learning-Based Denoising Model for Seismic Random Noise Attenuation",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2023
+    },
+    {
+      "paperId": "2b67d50d7f4e52e82973a86d7d6abde6bcf118d4",
+      "externalIds": {
+        "MAG": "3170168031",
+        "ArXiv": "2411.05956",
+        "DOI": "10.1190/geo2019-0689.1",
+        "CorpusId": 236418095
+      },
+      "title": "Dictionary learning with convolutional structure for seismic data denoising and interpolation",
+      "venue": "Geophysics",
+      "year": 2021
+    },
+    {
+      "paperId": "35ab18abd14decd5440bdbab25352bf0840dbe29",
+      "externalIds": {
+        "DOI": "10.1109/CCAI57533.2023.10201253",
+        "CorpusId": 260511492
+      },
+      "title": "Research on Seismic Data Denoising Based on Dual Channel Residual Attention Network",
+      "venue": "2023 IEEE 3rd International Conference on Computer Communication and Artificial Intelligence (CCAI)",
+      "year": 2023
+    },
+    {
+      "paperId": "b5a3ed5679fe6ed70fbd31f7275a98ecc4f51a6d",
+      "externalIds": {
+        "DOI": "10.31649/vitce/1.2026.170",
+        "CorpusId": 288132519
+      },
+      "title": "Application of deep learning methods to image processing and enhancement: A case study on seismic data",
+      "venue": "Information Technology and Computer Engineering",
+      "year": 2026
+    },
+    {
+      "paperId": "4951f4be5a272215ae796f45b5b917810053131b",
+      "externalIds": {
+        "MAG": "2807801272",
+        "DBLP": "journals/lgrs/LiuLLC18",
+        "DOI": "10.1109/LGRS.2018.2841840",
+        "CorpusId": 52114991
+      },
+      "title": "Weighted Multisteps Adaptive Autoregression for Seismic Image Denoising",
+      "venue": "IEEE Geoscience and Remote Sensing Letters",
+      "year": 2018
+    },
+    {
+      "paperId": "e26bd8a56fba013a5068abfc0698d1dccea74bc2",
+      "externalIds": {
+        "MAG": "2316768687",
+        "DOI": "10.1190/SEGAM2015-5924954.1",
+        "CorpusId": 125027761
+      },
+      "title": "Amplitude Preservation in Multicomponent Processing using Local Similarity",
+      "venue": "",
+      "year": 2015
+    },
+    {
+      "paperId": "f2172aa69ae86b7762dd240ed1021d6d175cce97",
+      "externalIds": {
+        "MAG": "2318390763",
+        "DOI": "10.1190/SEGAM2014-0594.1",
+        "CorpusId": 130444927
+      },
+      "title": "Random noise attenuation using local similarity",
+      "venue": "",
+      "year": 2014
+    },
+    {
+      "paperId": "cc17f194657b23eb191672e5dd129a85d2654c1d",
+      "externalIds": {
+        "DBLP": "journals/remotesensing/BanjadeZCLDZA24",
+        "DOI": "10.3390/rs16214051",
+        "CorpusId": 273763975
+      },
+      "title": "Seismic Random Noise Attenuation Using DARE U-Net",
+      "venue": "Remote Sensing",
+      "year": 2024
+    },
+    {
+      "paperId": "f7a8ca3ca307f60475f0ff3aa23934dce6f3a557",
+      "externalIds": {
+        "MAG": "2792189717",
+        "DOI": "10.1007/s11770-018-0657-x",
+        "CorpusId": 125554000
+      },
+      "title": "Random noise suppression for seismic data using a non-local Bayes algorithm",
+      "venue": "Applied Geophysics",
+      "year": 2018
+    },
+    {
+      "paperId": "7bfcae3a655bc72360d1c921354e417a8a1975ce",
+      "externalIds": {
+        "DBLP": "journals/tgrs/HuangZCC22",
+        "MAG": "3167759309",
+        "DOI": "10.1109/TGRS.2021.3054839",
+        "CorpusId": 236697081
+      },
+      "title": "Accelerated Signal-and-Noise Orthogonalization",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2022
+    },
+    {
+      "paperId": "fb228241b881f95240a46d603b7fb5156787748e",
+      "externalIds": {
+        "MAG": "3090086054",
+        "DOI": "10.1111/1365-2478.13034",
+        "CorpusId": 224956118
+      },
+      "title": "Passive seismic data primary estimation and noise removal via focal‐denoising closed‐loop surface‐related multiple elimination based on 3D L1‐norm sparse inversion",
+      "venue": "Geophysical Prospecting",
+      "year": 2020
+    },
+    {
+      "paperId": "21b0f9158a2933f609ae2874d3ba8808fa0c1d1c",
+      "externalIds": {
+        "MAG": "3034282764",
+        "DBLP": "journals/tgrs/LiuCLC21",
+        "DOI": "10.1109/TGRS.2020.2996686",
+        "CorpusId": 225677606
+      },
+      "title": "Nonlocal Weighted Robust Principal Component Analysis for Seismic Noise Attenuation",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2020
+    },
+    {
+      "paperId": "50efcdc4dbfa9b23bc38d1f77d06455744b7075e",
+      "externalIds": {
+        "DOI": "10.36922/jse026070027",
+        "CorpusId": 290198050
+      },
+      "title": "A multi-scale feature attention convolutional neural network for seismic random noise suppression",
+      "venue": "Journal of Seismic Exploration",
+      "year": 2026
+    },
+    {
+      "paperId": "22fe0abfadf15a0d96cbcc8e64d58ae561aa90af",
+      "externalIds": {
+        "DBLP": "journals/access/EleslamboulyZBAM26",
+        "DOI": "10.1109/ACCESS.2026.3666569",
+        "CorpusId": 285889748
+      },
+      "title": "Transfer Learning With U-Swin Transformer for Adaptive Ground Roll Attenuation in Seismic Records From Sabkha Environments",
+      "venue": "IEEE Access",
+      "year": 2026
+    },
+    {
+      "paperId": "dc1944ca7515c5f9a9a5780807fc9e388afd1808",
+      "externalIds": {
+        "DOI": "10.1109/EICCT69950.2026.11564570",
+        "CorpusId": 289489971
+      },
+      "title": "Seismic Random Noise Suppression using Variational Mode Decomposition and Quantum Chaotic Fruit Fly Optimization",
+      "venue": "2026 5th International Conference on Electronics, Integrated Circuits and Communication Technology (EICCT)",
+      "year": 2026
+    },
+    {
+      "paperId": "80ed463ca33a7ea7e622ffc7c9d9fcd1b6b41efb",
+      "externalIds": {
+        "MAG": "2967626886",
+        "DOI": "10.1190/GEO2019-0063.1",
+        "CorpusId": 202195912
+      },
+      "title": "Denoising with weak signal preservation by group-sparsity transform learning",
+      "venue": "Geophysics",
+      "year": 2019
+    },
+    {
+      "paperId": "59587330bce3af724eb6dcfebbdc48f92ee84e20",
+      "externalIds": {
+        "DOI": "10.1007/s11600-021-00564-y",
+        "CorpusId": 233436436
+      },
+      "title": "Coherent noise attenuation for passive seismic data based on iterative two-dimensional model shrinkage",
+      "venue": "Acta Geophysica",
+      "year": 2021
+    },
+    {
+      "paperId": "518ef8538bdbd45cb5b99e449a3ab2513012bb1b",
+      "externalIds": {
+        "DOI": "10.1190/geo2022-0612.1",
+        "CorpusId": 261025972
+      },
+      "title": "Unsupervised seismic random noise attenuation by a Recursive Deep Image Prior",
+      "venue": "Geophysics",
+      "year": 2023
+    },
+    {
+      "paperId": "aebcfbb0c48de13beebe7e435be546dcaede023b",
+      "externalIds": {
+        "DBLP": "journals/tgrs/LiuLCLZW24",
+        "DOI": "10.1109/TGRS.2024.3371714",
+        "CorpusId": 268219500
+      },
+      "title": "Seismic Random Noise Suppression Based on Deep Image Prior and Total Variation",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2024
+    },
+    {
+      "paperId": "479937041ba3a891ed6b46d71c8f11338470f517",
+      "externalIds": {
+        "DOI": "10.1038/s41598-026-59772-5",
+        "CorpusId": 289850220,
+        "PubMed": "42399689"
+      },
+      "title": "Random noise attenuation using dual-module attention with multi-scale kernels.",
+      "venue": "Scientific Reports",
+      "year": 2026
+    },
+    {
+      "paperId": "09af57ab28273cf190a83673a8c42ec795997560",
+      "externalIds": {
+        "MAG": "2495708572",
+        "DOI": "10.1007/s13202-016-0272-4",
+        "CorpusId": 123946661
+      },
+      "title": "Noise suppression in the dual-tree complex wavelet domain for seismic signal",
+      "venue": "Journal of Petroleum Exploration and Production Technology",
+      "year": 2017
+    }
+  ]
+}

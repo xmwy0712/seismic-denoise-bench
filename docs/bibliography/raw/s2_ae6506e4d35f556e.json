@@ -1,0 +1,58 @@
+{
+  "total": 607851,
+  "offset": 0,
+  "next": 5,
+  "data": [
+    {
+      "paperId": "5115fd4ab1cd52dbd77265397201f366267ddb30",
+      "externalIds": {
+        "DOI": "10.1190/geo2024-0236.1",
+        "CorpusId": 275823844
+      },
+      "title": "Leveraging overfitting for good - Two-Step Deep Image Prior Model For Seismic Denoising",
+      "venue": "Geophysics",
+      "year": 2025
+    },
+    {
+      "paperId": "1bd769950ecd79833d054c3c0b8058818e6cfc8e",
+      "externalIds": {
+        "DOI": "10.3390/rs17061061",
+        "CorpusId": 277090913
+      },
+      "title": "Ground-Truth-Free 3D Seismic Denoising Based on Diffusion Models: Achieving Effective Constraints Through Embedded Self-Supervised Noise Modeling",
+      "venue": "Remote Sensing",
+      "year": 2025
+    },
+    {
+      "paperId": "02078b9bd6a5bf98c691bf08d14d99a2cd2659de",
+      "externalIds": {
+        "DBLP": "journals/tgrs/ShekharTJKDMCE25",
+        "DOI": "10.1109/TGRS.2025.3540208",
+        "CorpusId": 276355327
+      },
+      "title": "Seismic Denoising Based on Dictionary Learning With Double Regularization for Random and Erratic Noise Attenuation",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2025
+    },
+    {
+      "paperId": "1591b504d3f59e9e450d1389ac673bd554c1f2ca",
+      "externalIds": {
+        "DOI": "10.1029/2024jh000179",
+        "CorpusId": 270451568
+      },
+      "title": "Cold Diffusion Model for Seismic Denoising",
+      "venue": "Journal of Geophysical Research",
+      "year": 2024
+    },
+    {
+      "paperId": "87e876ab03999fe5a296a000be72f8a0a2b679cc",
+      "externalIds": {
+        "DOI": "10.1029/2025jh000646",
+        "CorpusId": 282445276
+      },
+      "title": "Seismic Denoising by Deep Learning From Natural Repeating Earthquakes",
+      "venue": "Journal of Geophysical Research",
+      "year": 2025
+    }
+  ]
+}

@@ -1,0 +1,1068 @@
+{
+  "total": 222,
+  "offset": 0,
+  "next": 100,
+  "data": [
+    {
+      "paperId": "ae10bcb95207f516f279a2738ff11c3b29472f4c",
+      "externalIds": {
+        "DBLP": "journals/dsp/ShiHZPW26",
+        "DOI": "10.1016/j.dsp.2026.105936",
+        "CorpusId": 284896426
+      },
+      "title": "Blind seismic denoising via ensemble iterative data refinement with adaptive spectral-spatial feature fusion",
+      "venue": "Digit. Signal Process.",
+      "year": 2026
+    },
+    {
+      "paperId": "b87ee2676f3a07ad8867d1d119bb97547ca8dc16",
+      "externalIds": {
+        "DBLP": "journals/lgrs/LiuYH24",
+        "DOI": "10.1109/LGRS.2024.3369727",
+        "CorpusId": 268182066
+      },
+      "title": "Seismic Data Denoising Based on DC-PCNN Image Fusion in NSCT Domain",
+      "venue": "IEEE Geoscience and Remote Sensing Letters",
+      "year": 2024
+    },
+    {
+      "paperId": "f947fddcbf87b376e6ff68ee7ff332c00a5fc0fd",
+      "externalIds": {
+        "DOI": "10.1145/3705391.3705404",
+        "CorpusId": 276686389
+      },
+      "title": "The Denoising of Seismic Signals Based on Joint Loss and Feature Fusion Network",
+      "venue": "Proceedings of the 2024 6th International Conference on Telecommunications and Communication Engineering",
+      "year": 2024
+    },
+    {
+      "paperId": "d2eeeb5029b35b9d92dbef1606d59f25a4005fd5",
+      "externalIds": {
+        "DOI": "10.1109/LGRS.2026.3676613",
+        "CorpusId": 286831750
+      },
+      "title": "Robust Seismic Denoising Framework: A GAN-Based Approach With Multiscale Feature Fusion and Signal Preservation",
+      "venue": "IEEE Geoscience and Remote Sensing Letters",
+      "year": 2026
+    },
+    {
+      "paperId": "da34d10db66aaf459c17c85c2589ea07c6312da8",
+      "externalIds": {
+        "PubMedCentral": "12358471",
+        "DOI": "10.3389/fmed.2025.1566870",
+        "CorpusId": 280600480,
+        "PubMed": "40832093"
+      },
+      "title": "Feature fusion ensemble classification approach for epileptic seizure prediction using electroencephalographic bio-signals",
+      "venue": "Frontiers in Medicine",
+      "year": 2025
+    },
+    {
+      "paperId": "9f845ebd22e58637d1c86c53a9ef7f2f4a86ec30",
+      "externalIds": {
+        "DBLP": "journals/tgrs/FengLLC22",
+        "DOI": "10.1109/TGRS.2021.3123509",
+        "CorpusId": 240097485
+      },
+      "title": "Multigranularity Feature Fusion Convolutional Neural Network for Seismic Data Denoising",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2022
+    },
+    {
+      "paperId": "8e4612e7f5a2c8c599b3bbb54f92ddcdffd5223f",
+      "externalIds": {
+        "DOI": "10.36922/jse025400081",
+        "CorpusId": 283614199
+      },
+      "title": "U-STDRNet: A unified model integrating swin transformer and residual dense network for seismic image super-resolution and denoising",
+      "venue": "Journal of Seismic Exploration",
+      "year": 2025
+    },
+    {
+      "paperId": "6303538c315e35af019ccdd3da84e0f8559e3f9e",
+      "externalIds": {
+        "DOI": "10.1109/CEI66465.2025.11398537",
+        "CorpusId": 286135662
+      },
+      "title": "Research on Frequency-Division Denoising Method for Seismic Data Based on Intelligent Adaptive Wavelet Transform",
+      "venue": "2025 5th International Conference on Computer Science, Electronic Information Engineering and Intelligent Control Technology (CEI)",
+      "year": 2025
+    },
+    {
+      "paperId": "61178c74392de89389fe33b8d46d51acb8edfefa",
+      "externalIds": {
+        "DOI": "10.1007/s11600-025-01721-3",
+        "CorpusId": 283478562
+      },
+      "title": "Weight fusion adversarial network based on the self-collaborative strategy for denoising DAS-VSP records",
+      "venue": "Acta Geophysica",
+      "year": 2025
+    },
+    {
+      "paperId": "c7f553c43479b5b5de4e3ef69dc390ca04066d1f",
+      "externalIds": {
+        "PubMedCentral": "11787383",
+        "DOI": "10.1038/s41598-025-87481-y",
+        "CorpusId": 276078683,
+        "PubMed": "39893229"
+      },
+      "title": "MFIEN: multi-scale feature interactive enhancement network for seismic data denoising in desert areas",
+      "venue": "Scientific Reports",
+      "year": 2025
+    },
+    {
+      "paperId": "c894f321dcda35c64d2ccff42f42f7a201e32453",
+      "externalIds": {
+        "DBLP": "conf/mm/ZhuangBZLDR25",
+        "DOI": "10.1145/3746027.3763759",
+        "CorpusId": 282396480
+      },
+      "title": "FAME: Fusion-Aware Multi-modal Ensemble for Social Media Popularity Prediction",
+      "venue": "ACM Multimedia",
+      "year": 2025
+    },
+    {
+      "paperId": "c6a185a7a968c4358ff09f479a11b05725dd97d2",
+      "externalIds": {
+        "DOI": "10.1109/GITCON65266.2025.11377248",
+        "CorpusId": 285553232
+      },
+      "title": "ThermoVision: A Deep Ensemble Architecture with Image Restoration and Multivariate Weather Fusion for Advanced Thermal Event Prediction",
+      "venue": "2025 Global Conference on Information Technology and Communication Networks (GITCON)",
+      "year": 2025
+    },
+    {
+      "paperId": "cab43c50557e80cf4114334123036e384758bb22",
+      "externalIds": {
+        "PubMedCentral": "11876321",
+        "DOI": "10.1038/s41598-025-92293-1",
+        "CorpusId": 276753064,
+        "PubMed": "40033075"
+      },
+      "title": "An intelligent framework for skin cancer detection and classification using fusion of Squeeze-Excitation-DenseNet with Metaheuristic-driven ensemble deep learning models",
+      "venue": "Scientific Reports",
+      "year": 2025
+    },
+    {
+      "paperId": "8f2386e88f3f5fc0339f482cf2be1e84f8979461",
+      "externalIds": {
+        "DBLP": "conf/eitce/YuXC24",
+        "DOI": "10.1145/3711129.3711377",
+        "CorpusId": 276520340
+      },
+      "title": "Rolling Bearing Fault Diagnosis Based on CEEMDAN-IWT Denoising and Multiscale Feature Fusion",
+      "venue": "EITCE",
+      "year": 2024
+    },
+    {
+      "paperId": "7f96b5c04653f10604746fe1e109d424d52b31a2",
+      "externalIds": {
+        "ArXiv": "2408.06963",
+        "CorpusId": 271859999
+      },
+      "title": "DCMSA: Multi-Head Self-Attention Mechanism Based on Deformable Convolution For Seismic Data Denoising",
+      "venue": "",
+      "year": 2024
+    },
+    {
+      "paperId": "1642e78a35045839702d03492e66b8424ef0be65",
+      "externalIds": {
+        "DOI": "10.1109/JSEN.2024.3353732",
+        "CorpusId": 267224831
+      },
+      "title": "Early Fault Detection via Multiple Feature Fusion and Ensemble Learning",
+      "venue": "IEEE Sensors Journal",
+      "year": 2024
+    },
+    {
+      "paperId": "5abe9a55030592048aef09e7c3e2eb326fa9f6f5",
+      "externalIds": {
+        "DOI": "10.1109/CAIT64506.2024.10963142",
+        "CorpusId": 277887748
+      },
+      "title": "Estimation of Mango Canopy Nitrogen Content in Complex Backgrounds Using UAV Hyperspectral Imaging: A Fusion Method of Adaptive Pixel Weighting and Ensemble Learning",
+      "venue": "2024 5th International Conference on Computers and Artificial Intelligence Technology (CAIT)",
+      "year": 2024
+    },
+    {
+      "paperId": "0b915c61331c4892ffce512af456a467053b0e1f",
+      "externalIds": {
+        "MAG": "2186316592",
+        "DOI": "10.1190/GEO2014-0423.1",
+        "CorpusId": 73625784
+      },
+      "title": "Microseismic and seismic denoising via ensemble empirical mode decomposition and adaptive thresholding",
+      "venue": "",
+      "year": 2015
+    },
+    {
+      "paperId": "5760dced8a9c0e811c37d8ce5d58b899057881a3",
+      "externalIds": {
+        "MAG": "2557652053",
+        "DOI": "10.1016/J.EGYPRO.2016.10.026",
+        "CorpusId": 114555799
+      },
+      "title": "A New Ensemble Empirical Mode Decomposition (EEMD) Denoising Method for Seismic Signals",
+      "venue": "",
+      "year": 2016
+    },
+    {
+      "paperId": "b0e69bb3b3a106693ba18d6e29b2c7aa0b390877",
+      "externalIds": {
+        "DOI": "10.1108/ijsi-12-2025-0315",
+        "CorpusId": 289742987
+      },
+      "title": "An optimised method for denoising wheel flat dynamic stress signals based on multi-sensor fusion and ICEEMDAN",
+      "venue": "International Journal of Structural Integrity",
+      "year": 2026
+    },
+    {
+      "paperId": "e723c8f88f2e978f32859918acb61f98705e0c8d",
+      "externalIds": {
+        "DOI": "10.1007/s11600-026-01799-3",
+        "CorpusId": 285052234
+      },
+      "title": "MSBE-UNet: A deep learning denoising method for effective seismic noise suppression",
+      "venue": "Acta Geophysica",
+      "year": 2026
+    },
+    {
+      "paperId": "55ad89ada93546fd5eb98b7f5e1653e9b8c23aaf",
+      "externalIds": {
+        "DOI": "10.1109/ICCCS69761.2026.11613386",
+        "CorpusId": 290650997
+      },
+      "title": "Hierarchical Spatiotemporal Feature Fusion for Robust Anomaly Detection in Distributed Acoustic Sensing with a VMD-WPD Heterogeneous Stacking Ensemble",
+      "venue": "International Conference on Communication, Computing & Security",
+      "year": 2026
+    },
+    {
+      "paperId": "e73dcc3082a8b6aa796fdda1aa4912955f133687",
+      "externalIds": {
+        "DOI": "10.1088/2631-8695/ae7bbf",
+        "CorpusId": 289183307
+      },
+      "title": "An SNR-stacking ensemble method for multi-model fusion noise reduction in GAFDEM signals",
+      "venue": "Engineering Research Express",
+      "year": 2026
+    },
+    {
+      "paperId": "41c301236bc082720e6bbe191cc6e88892a5837d",
+      "externalIds": {
+        "DBLP": "journals/tgrs/ChenCLDQLW24",
+        "DOI": "10.1109/TGRS.2024.3355972",
+        "CorpusId": 267136545
+      },
+      "title": "Efficient Seismic Data Denoising via Deep Learning With Improved MCA-SCUNet",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2024
+    },
+    {
+      "paperId": "af629691756d545e1c4dd326ce5779f0253a64f3",
+      "externalIds": {
+        "DOI": "10.7759/s44389-025-09506-x",
+        "CorpusId": 281499324
+      },
+      "title": "A Hybrid Ensemble of Denoising Autoencoders and Deep Learning Models for Fetal Image Analysis",
+      "venue": "Cureus Journal of Computer Science",
+      "year": 2025
+    },
+    {
+      "paperId": "7d6996c897c13d0650f6c6c52189c744bd11e6f7",
+      "externalIds": {
+        "DBLP": "conf/codit/ChelabiKC23",
+        "DOI": "10.1109/CoDIT58514.2023.10284131",
+        "CorpusId": 264483241
+      },
+      "title": "Multi-Level Fusion of Multi-Source Information Based Deep Learning and Ensemble Deep Learning Models",
+      "venue": "International Conference on Control, Decision and Information Technologies",
+      "year": 2023
+    },
+    {
+      "paperId": "4baf196b1da7d9f209a3b11f945f0f5df9c84f1a",
+      "externalIds": {
+        "DOI": "10.1088/1361-6501/adfc89",
+        "CorpusId": 280797204
+      },
+      "title": "Dual-branch DAS denoising strategy based on SNR-aware feature fusion",
+      "venue": "Measurement science and technology",
+      "year": 2025
+    },
+    {
+      "paperId": "b802d1d4a65594a1449ab9e45c22af187e707e24",
+      "externalIds": {
+        "DBLP": "journals/tgrs/LiuHLWLG24",
+        "DOI": "10.1109/TGRS.2024.3349687",
+        "CorpusId": 266833256
+      },
+      "title": "Seismic Attributes Aided Horizon Interpretation Using an Ensemble Dense Inception Transformer Network",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2024
+    },
+    {
+      "paperId": "92dd91ffeb4d4a2e3d5a45a5095ae332ad79ba6b",
+      "externalIds": {
+        "DBLP": "journals/lgrs/LiLTW22",
+        "MAG": "3148672024",
+        "DOI": "10.1109/LGRS.2021.3067645",
+        "CorpusId": 234166652
+      },
+      "title": "Desert Seismic Signal Denoising Based on Unsupervised Feature Learning and Time–Frequency Transform Technique",
+      "venue": "IEEE Geoscience and Remote Sensing Letters",
+      "year": 2022
+    },
+    {
+      "paperId": "00ee6b20fc3d50631b061ab3c13e9096f980c3c0",
+      "externalIds": {
+        "DBLP": "journals/sensors/PengGS21",
+        "PubMedCentral": "8400814",
+        "DOI": "10.3390/s21165271",
+        "CorpusId": 237264020,
+        "PubMed": "34450710"
+      },
+      "title": "EEMD and Multiscale PCA-Based Signal Denoising Method and Its Application to Seismic P-Phase Arrival Picking",
+      "venue": "Italian National Conference on Sensors",
+      "year": 2021
+    },
+    {
+      "paperId": "899f6c90864e83986c193d4625f7267a351a0a21",
+      "externalIds": {
+        "DOI": "10.1155/2022/1682874",
+        "CorpusId": 249685731
+      },
+      "title": "Fault Diagnosis Using Data Fusion with Ensemble Deep Learning Technique in IIoT",
+      "venue": "Mathematical Problems in Engineering",
+      "year": 2022
+    },
+    {
+      "paperId": "3429e903c77078f8183c59d7aeec451a1f3cd905",
+      "externalIds": {
+        "MAG": "2014026633",
+        "DOI": "10.3997/2214-4609.20140200",
+        "CorpusId": 140164661
+      },
+      "title": "The Multi-dimensional Complete Ensemble Empirical Mode Decomposition and Its Application in Seismic Denoising",
+      "venue": "",
+      "year": 2014
+    },
+    {
+      "paperId": "7e4ce0f53d60e33825131dee8753ab4d33ce65fe",
+      "externalIds": {
+        "DOI": "10.1029/2024JB029728",
+        "CorpusId": 276531393
+      },
+      "title": "Denoising Offshore Distributed Acoustic Sensing Using Masked Auto‐Encoders to Enhance Earthquake Detection",
+      "venue": "Journal of Geophysical Research - Solid Earth",
+      "year": 2025
+    },
+    {
+      "paperId": "1e6a2dce9a42174e1fcca57d70b4c56dbe062b30",
+      "externalIds": {
+        "DOI": "10.3389/feart.2021.681869",
+        "CorpusId": 235748314
+      },
+      "title": "Research on Deep Convolutional Neural Network Time-Frequency Domain Seismic Signal Denoising Combined With Residual Dense Blocks",
+      "venue": "Frontiers in Earth Science",
+      "year": 2021
+    },
+    {
+      "paperId": "3b38dc5e180ee612e9dfaa08cdd0fd76a34f9f9f",
+      "externalIds": {
+        "MAG": "3010088906",
+        "DOI": "10.1016/j.conengprac.2020.104358",
+        "CorpusId": 216425180
+      },
+      "title": "An improved ensemble fusion autoencoder model for fault diagnosis from imbalanced and incomplete data",
+      "venue": "",
+      "year": 2020
+    },
+    {
+      "paperId": "d3b615a9519d288628f7af539279ae767debc6dc",
+      "externalIds": {
+        "DOI": "10.3390/fractalfract9110679",
+        "CorpusId": 282354725
+      },
+      "title": "Automatic Picking Method for the First Arrival Time of Microseismic Signals Based on Fractal Theory and Feature Fusion",
+      "venue": "Fractal and Fractional",
+      "year": 2025
+    },
+    {
+      "paperId": "1d2f55c601291d507b1a93ba6cdba1fb3a372015",
+      "externalIds": {
+        "MAG": "3038724933",
+        "DOI": "10.1016/j.jappgeo.2020.104055",
+        "CorpusId": 225337933
+      },
+      "title": "Seismic exploration desert noise suppression based on complete ensemble empirical mode decomposition with adaptive noise",
+      "venue": "",
+      "year": 2020
+    },
+    {
+      "paperId": "ae76239f00d2432d54aa802c30b1753c07ea5581",
+      "externalIds": {
+        "MAG": "3035653987",
+        "DOI": "10.1080/08123985.2020.1777849",
+        "CorpusId": 225745400
+      },
+      "title": "Seismic data random noise reduction using a method based on improved complementary ensemble EMD and adaptive interval threshold",
+      "venue": "Exploration Geophysics",
+      "year": 2020
+    },
+    {
+      "paperId": "7c199a56c7385e4bfc6475ee91f0308279c2c10f",
+      "externalIds": {
+        "MAG": "2920996096",
+        "DOI": "10.1155/2019/4937595",
+        "CorpusId": 126647145
+      },
+      "title": "An EEMD-Based Denoising Method for Seismic Signal of High Arch Dam Combining Wavelet with Singular Spectrum Analysis",
+      "venue": "Shock and Vibration",
+      "year": 2019
+    },
+    {
+      "paperId": "63d2b8e82955e5147a53a00e0a770a7394d9012f",
+      "externalIds": {
+        "MAG": "3036884104",
+        "DOI": "10.1080/12269328.2020.1778543",
+        "CorpusId": 221055051
+      },
+      "title": "Smooth model of blasting seismic wave signal denoising based on two-stage denoising algorithm",
+      "venue": "Geosystem Engineering",
+      "year": 2020
+    },
+    {
+      "paperId": "32f5b8199f10037b19bc14a029050b886f5581af",
+      "externalIds": {
+        "DBLP": "journals/lgrs/ZhangLW22",
+        "DOI": "10.1109/lgrs.2022.3177231",
+        "CorpusId": 249031933
+      },
+      "title": "Seismic Random Noise Suppression Based on MIRNet With Dense Feature Fusion",
+      "venue": "IEEE Geoscience and Remote Sensing Letters",
+      "year": 2022
+    },
+    {
+      "paperId": "6ead50b36b70c867cae8d88690309ff37654f631",
+      "externalIds": {
+        "MAG": "2744000381",
+        "DOI": "10.1071/EG17004",
+        "CorpusId": 134350809
+      },
+      "title": "Seismic signal denoising using thresholded variational mode decomposition",
+      "venue": "Exploration Geophysics",
+      "year": 2017
+    },
+    {
+      "paperId": "aed2aa097c23e54ffa04106070644223be5d4185",
+      "externalIds": {
+        "DBLP": "journals/corr/abs-2507-09527",
+        "ArXiv": "2507.09527",
+        "DOI": "10.48550/arXiv.2507.09527",
+        "CorpusId": 280234773
+      },
+      "title": "EV-STLLM: Electric vehicle charging forecasting based on spatio-temporal large language models with multi-frequency and multi-scale information fusion",
+      "venue": "Expert systems with applications",
+      "year": 2025
+    },
+    {
+      "paperId": "894cc9f0510e311e9a1adf8e1c59573a40ed8016",
+      "externalIds": {
+        "MAG": "2111193165",
+        "DOI": "10.1190/IST092012-001.28",
+        "CorpusId": 123116233
+      },
+      "title": "Seismic data denoising based on the Complete Ensemble Empirical Mode Decomposition",
+      "venue": "",
+      "year": 2012
+    },
+    {
+      "paperId": "fc8780e6acbc8b15065ed23ebfdbcd00c4b3c635",
+      "externalIds": {
+        "DOI": "10.3390/buildings15101751",
+        "CorpusId": 278856482
+      },
+      "title": "From Signal to Safety: A Data-Driven Dual Denoising Model for Reliable Assessment of Blasting Vibration Impacts",
+      "venue": "Buildings",
+      "year": 2025
+    },
+    {
+      "paperId": "84d264d82fb9ce49905d6c38f2209e811a705c2a",
+      "externalIds": {
+        "DBLP": "conf/cibcb/MinhDTN25",
+        "ArXiv": "2510.16702",
+        "DOI": "10.1109/CIBCB66090.2025.11177084",
+        "CorpusId": 281708121
+      },
+      "title": "SDPA++: A General Framework for Self-Supervised Denoising with Patch Aggregation",
+      "venue": "IEEE Symposium on Computational Intelligence in Bioinformatics and Computational Biology",
+      "year": 2025
+    },
+    {
+      "paperId": "6e8f476d74b1d2c599429548ac7230bd82baf510",
+      "externalIds": {
+        "DOI": "10.1007/s10343-025-01267-w",
+        "CorpusId": 283698615
+      },
+      "title": "Optimized Root Net: a Hybrid Approach to Plant Roots Disease Detection for Hydroponics Using a Deep Learning Ensemble Model",
+      "venue": "Journal of Crop Health",
+      "year": 2025
+    },
+    {
+      "paperId": "e8871ab4ec6691422e19d8383b6f1fbd5491b4b3",
+      "externalIds": {
+        "DOI": "10.1190/geo2024-0891.1",
+        "CorpusId": 280462108
+      },
+      "title": "Unsupervised seismic random noise attention using 3D enhanced multi-scale features",
+      "venue": "Geophysics",
+      "year": 2025
+    },
+    {
+      "paperId": "d18c25c1ac6b0ef36a670581713814e091982859",
+      "externalIds": {
+        "MAG": "2323645946",
+        "DOI": "10.1190/SBGF2015-248",
+        "CorpusId": 111626008
+      },
+      "title": "Fast empirical seismic denoising",
+      "venue": "",
+      "year": 2015
+    },
+    {
+      "paperId": "f5d66903c27ebb5bb883bfe662d6aa03453c5c02",
+      "externalIds": {
+        "DBLP": "journals/tgrs/ZhangLZWL24",
+        "DOI": "10.1109/TGRS.2024.3510781",
+        "CorpusId": 274523721
+      },
+      "title": "Semi-Supervised DAS VSP Data Denoising Using Signal and Noise Distribution Difference",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2024
+    },
+    {
+      "paperId": "9aeb0c37ee727e8dec0b9012c46428ed585ebf8e",
+      "externalIds": {
+        "DBLP": "conf/icspcc/XiaLWSC22",
+        "DOI": "10.1109/ICSPCC55723.2022.9984626",
+        "CorpusId": 254999899
+      },
+      "title": "A denoising method of seismic data based on self-supervised learning",
+      "venue": "International Conference on Signal Processing, Communications and Computing",
+      "year": 2022
+    },
+    {
+      "paperId": "02045fa432d7868d6e3a92ba71dff41050dd19cd",
+      "externalIds": {
+        "DOI": "10.1109/SPCT68223.2025.11406838",
+        "CorpusId": 286135074
+      },
+      "title": "RAMDN-Based Denoising and Signal Reconstruction for DAS VSP Data",
+      "venue": "2025 International Conference on Signal Processing and Communication Technology (SPCT)",
+      "year": 2025
+    },
+    {
+      "paperId": "55ff5e5b0cc5b387f5b457dc601f30004fe59d95",
+      "externalIds": {
+        "MAG": "3135169846",
+        "DBLP": "journals/isci/HuZDXL21",
+        "DOI": "10.1016/J.INS.2021.02.040",
+        "CorpusId": 233927959
+      },
+      "title": "Adaptive denoising algorithm using peak statistics-based thresholding and novel adaptive complementary ensemble empirical mode decomposition",
+      "venue": "Information Sciences",
+      "year": 2021
+    },
+    {
+      "paperId": "f69fec852f8bfb99691e5db554f1286532b8efed",
+      "externalIds": {
+        "DOI": "10.1109/ICICSP62589.2024.10809097",
+        "CorpusId": 275174502
+      },
+      "title": "An Improved EMD Denoising Framework for Underwater Distributed Acoustic Sensing Signals by Exploring Permutation Entropy",
+      "venue": "2024 7th International Conference on Information Communication and Signal Processing (ICICSP)",
+      "year": 2024
+    },
+    {
+      "paperId": "79a88481ce89e2ee5ecd68e15a7de5534cf731ea",
+      "externalIds": {
+        "DOI": "10.5194/isprs-archives-xlix-b1-2026-217-2026",
+        "CorpusId": 290541740
+      },
+      "title": "Denoising microwave interferometry data for high-Rise buildings with CEEMDAN energy-Correlation dual Criteria",
+      "venue": "The International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences",
+      "year": 2026
+    },
+    {
+      "paperId": "d4f0cfa40378ce5e7ed78f2d646eee64b4e377ce",
+      "externalIds": {
+        "DOI": "10.1109/TIM.2026.3654724",
+        "CorpusId": 284830740
+      },
+      "title": "IBKA-CEEMDAN-SPMF Algorithm for Denoising Electromagnetic Radiation in Loaded Coal–Rock",
+      "venue": "IEEE Transactions on Instrumentation and Measurement",
+      "year": 2026
+    },
+    {
+      "paperId": "e7be7fe85328f6cfe841c48583cabb439c6592c3",
+      "externalIds": {
+        "DOI": "10.1109/PHM-Xian66756.2025.11427613",
+        "CorpusId": 286633301
+      },
+      "title": "RUL Prediction Of Rolling Bearings Based On Feature Fusion And Mixture Weibull Proportional Hazards Model",
+      "venue": "2025 Global Reliability and Prognostics and Health Management Conference (PHM-Xian)",
+      "year": 2025
+    },
+    {
+      "paperId": "75aa206e5d1ae6e97cc1940538a574b27550c80a",
+      "externalIds": {
+        "DOI": "10.36922/jse025440098",
+        "CorpusId": 286415740
+      },
+      "title": "Random noise suppression in node seismometer signals using improved complete ensemble empirical mode decomposition with adaptive noise and grey relational analysis",
+      "venue": "Journal of Seismic Exploration",
+      "year": 2026
+    },
+    {
+      "paperId": "3ccae3b47135ebf503dfb816bfd2ec76aed9dbb3",
+      "externalIds": {
+        "DOI": "10.1093/gji/ggaf444",
+        "CorpusId": 283093410
+      },
+      "title": "A Time-Space and Frequency-Wavenumber Dual-Domain Fusion Network for Coupling Noise Separation",
+      "venue": "Geophysical Journal International",
+      "year": 2025
+    },
+    {
+      "paperId": "e6dc981c3e9da9af1ed6eb9c4e765c926b1674cc",
+      "externalIds": {
+        "PubMedCentral": "12475397",
+        "DOI": "10.1038/s41598-025-18503-y",
+        "CorpusId": 281615746,
+        "PubMed": "41006674"
+      },
+      "title": "Improved first arrival picking of microseismic P-waves in coal mines using multi-denoising and adaptive characteristic functions",
+      "venue": "Scientific Reports",
+      "year": 2025
+    },
+    {
+      "paperId": "ede78f2f33772b70fcabeba567f93df7454f82d8",
+      "externalIds": {
+        "DOI": "10.1186/s40623-021-01411-6",
+        "CorpusId": 233247519
+      },
+      "title": "Noise classification for the unified earthquake catalog using ensemble learning: the enhanced image of seismic activity along the Japan Trench by the S-net seafloor network",
+      "venue": "Earth, Planets and Space",
+      "year": 2021
+    },
+    {
+      "paperId": "060d2fa93e58a83351ab1d8f07d95813d07eca1a",
+      "externalIds": {
+        "DBLP": "journals/access/WangSLM26",
+        "DOI": "10.1109/ACCESS.2026.3721347",
+        "CorpusId": 290916589
+      },
+      "title": "A Partially Validated Probabilistic Framework for Urban Seismic Damage Prediction With Scenario Ensembles and Digital Twins",
+      "venue": "IEEE Access",
+      "year": 2026
+    },
+    {
+      "paperId": "7dde61ae7090c3e54d38e5ba9a6c55f8af026434",
+      "externalIds": {
+        "PubMedCentral": "12775417",
+        "DOI": "10.1038/s41598-025-30059-5",
+        "CorpusId": 283931095,
+        "PubMed": "41408091"
+      },
+      "title": "Enhanced sensing performance through the integration of denoising autoencoder and ensembling techniques",
+      "venue": "Scientific Reports",
+      "year": 2025
+    },
+    {
+      "paperId": "cee9f072ec6267a38ad8e9cb30c1ae58004b73c6",
+      "externalIds": {
+        "DOI": "10.1109/MAIM68393.2025.11470196",
+        "CorpusId": 287483247
+      },
+      "title": "Minor-Leakage Identification of Ventilation Pipelines Based on Signal Denoising and Multiscale Feature-Preserving Network",
+      "venue": "2025 6th International Conference on Mechanical Automation and Intelligent Manufacturing (MAIM)",
+      "year": 2025
+    },
+    {
+      "paperId": "e0be63755efb9b0bd7212a9fdb2acd9bb8350a0d",
+      "externalIds": {
+        "DOI": "10.1109/ICERA72709.2026.11666713",
+        "CorpusId": 291620130
+      },
+      "title": "A Heterogeneous Computational Intelligence Framework for Kidney X-ray Classification Using Texture–Morphological–Spectral Feature Fusion and Attention-Augmented Learning",
+      "venue": "2026 5th International Conference on Electronics Representation and Algorithm (ICERA)",
+      "year": 2026
+    },
+    {
+      "paperId": "8923b5021086cfc0482e40921110621b5cda7637",
+      "externalIds": {
+        "DOI": "10.1109/AEEES69423.2026.11556665",
+        "CorpusId": 289330736
+      },
+      "title": "Precise Identification and Localization of Cable Fault Traveling Wave Heads Based on the Fusion of EEMD and TEO",
+      "venue": "2026 8th Asia Energy and Electrical Engineering Symposium (AEEES)",
+      "year": 2026
+    },
+    {
+      "paperId": "062b0d63aadc20159b0f6b8d47b235fd6175491a",
+      "externalIds": {
+        "DOI": "10.23919/CCC63176.2024.10662706",
+        "CorpusId": 272717292
+      },
+      "title": "Bearing Fault Diagnosis for Variable Operating Conditions Based on Deep Learning and Mutual Attention Feature Fusion",
+      "venue": "Cybersecurity and Cyberforensics Conference",
+      "year": 2024
+    },
+    {
+      "paperId": "b02b83212d9387bfbfdff51cf334397156425b48",
+      "externalIds": {
+        "DOI": "10.1007/s11600-026-01813-8",
+        "CorpusId": 285617515
+      },
+      "title": "SFA-PromptIR: a step-by-step feature fusion attentional network for DAS VSP background noise suppression",
+      "venue": "Acta Geophysica",
+      "year": 2026
+    },
+    {
+      "paperId": "5e3547dea5770e59557819a49c1d15a2a7f0164e",
+      "externalIds": {
+        "DOI": "10.1190/geo2023-0627.1",
+        "CorpusId": 271759813
+      },
+      "title": "Learnable Dual Attention Fusion Network (LDAFNet) For Borehole DAS Data Reconstruction.",
+      "venue": "Geophysics",
+      "year": 2024
+    },
+    {
+      "paperId": "e66785858fbd45c6895892c8efda03ad26425084",
+      "externalIds": {
+        "DOI": "10.1007/s13349-024-00891-w",
+        "CorpusId": 275307778
+      },
+      "title": "Computer vision-based video signal fusion using deep learning architectures",
+      "venue": "Journal of Civil Structural Health Monitoring",
+      "year": 2025
+    },
+    {
+      "paperId": "863283f50eb1827a337300eb9c7aff915cb7d60d",
+      "externalIds": {
+        "DOI": "10.46253/j.mr.v8i3.a5",
+        "CorpusId": 283379090
+      },
+      "title": "Ensemble Deep Learning Architecture for Speech Emotion Recognition",
+      "venue": "Multimedia Research",
+      "year": 2025
+    },
+    {
+      "paperId": "8ed1fb79221884d23e87072f908713a2a4f249ec",
+      "externalIds": {
+        "DOI": "10.64898/2025.12.05.692632",
+        "CorpusId": 283738250
+      },
+      "title": "Ensemble-Based Deep Learning for Breast Cancer Detection and Classification in Histopathological Images",
+      "venue": "bioRxiv",
+      "year": 2025
+    },
+    {
+      "paperId": "dfa5e42d8779096168adf2dffec0f917820d03c7",
+      "externalIds": {
+        "MAG": "2990776405",
+        "DBLP": "journals/access/LiXCYYH19",
+        "DOI": "10.1109/ACCESS.2019.2956780",
+        "CorpusId": 209323283
+      },
+      "title": "Adaptive Denoising Approach for High-Rate GNSS Seismic Waveform Preservation: Application to the 2010 EI Mayor-Cucapah Earthquake and 2012 Brawley Seismic Swarm",
+      "venue": "IEEE Access",
+      "year": 2019
+    },
+    {
+      "paperId": "1e70baff6bef2d66aa1fa01f59ed51f2d2c989d9",
+      "externalIds": {
+        "PubMedCentral": "12645041",
+        "DOI": "10.1038/s41598-025-25446-x",
+        "CorpusId": 283227965,
+        "PubMed": "41286159"
+      },
+      "title": "Multi-scale dual-path attention network for seismic background noise attenuation",
+      "venue": "Scientific Reports",
+      "year": 2025
+    },
+    {
+      "paperId": "2f69df0191db8e6cfaf76d88b0ee4bed044fef11",
+      "externalIds": {
+        "DOI": "10.1088/2631-8695/ae470e",
+        "CorpusId": 286225336
+      },
+      "title": "A matching pursuit variational mode decomposition method for microseismic signal denoising",
+      "venue": "Engineering Research Express",
+      "year": 2026
+    },
+    {
+      "paperId": "82888bddf8c713c28ea5be522621ab8afb713b71",
+      "externalIds": {
+        "DOI": "10.30574/gjeta.2024.20.1.0125",
+        "CorpusId": 271482155
+      },
+      "title": "Conceptual integration of seismic attributes and well log data for pore pressure prediction",
+      "venue": "Global Journal of Engineering and Technology Advances",
+      "year": 2024
+    },
+    {
+      "paperId": "631ffbe2cdd56176f06341898baccffa974e6364",
+      "externalIds": {
+        "DOI": "10.3390/app132212268",
+        "CorpusId": 265175583
+      },
+      "title": "Predicting the Remaining Time before Earthquake Occurrence Based on Mel Spectrogram Features Extraction and Ensemble Learning",
+      "venue": "Applied Sciences",
+      "year": 2023
+    },
+    {
+      "paperId": "1899396dca4598c8d487492f70df025a35cf6f78",
+      "externalIds": {
+        "DBLP": "journals/inffus/HuWZD24",
+        "DOI": "10.1016/j.inffus.2023.102012",
+        "CorpusId": 261671724
+      },
+      "title": "Multi-view Outlier Detection via Graphs Denoising",
+      "venue": "Information Fusion",
+      "year": 2023
+    },
+    {
+      "paperId": "677701a5f668d25705ce09ed355c891d5071f530",
+      "externalIds": {
+        "DBLP": "journals/tgrs/WangMDZD24",
+        "DOI": "10.1109/TGRS.2024.3398590",
+        "CorpusId": 269713323
+      },
+      "title": "EFGW-UNet: A Deep-Learning-Based Approach for Weak Signal Recovery in Seismic Data",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2024
+    },
+    {
+      "paperId": "c9d1381931d6a60bfce76af1d5d6fd84651b9c20",
+      "externalIds": {
+        "DOI": "10.1111/1365-2478.70147",
+        "CorpusId": 286397850
+      },
+      "title": "Seismic Random Noise Attenuation via Channel Attention‐Weighted Unsupervised Deep Learning",
+      "venue": "Geophysical Prospecting",
+      "year": 2026
+    },
+    {
+      "paperId": "1fd2e9d0825cce02f7c5bbc41ea034dabbdea945",
+      "externalIds": {
+        "PubMedCentral": "12972324",
+        "DOI": "10.1038/s41598-026-38672-8",
+        "CorpusId": 286374771,
+        "PubMed": "41796125"
+      },
+      "title": "Adaptive multi-feature fusion architecture with optimized learning for high-fidelity brain tumor classification in MRI",
+      "venue": "Scientific Reports",
+      "year": 2026
+    },
+    {
+      "paperId": "a0d31251353bcd665a619fa5b4f490769bb5640c",
+      "externalIds": {
+        "DOI": "10.1784/insi.2026.68.2.99",
+        "CorpusId": 285632455
+      },
+      "title": "Branch pipeline leakage detection method based on information fusion",
+      "venue": "Insight - Non-Destructive Testing and Condition Monitoring",
+      "year": 2026
+    },
+    {
+      "paperId": "edbfb793cbfedc4fbd8414679054d08dc096c1b0",
+      "externalIds": {
+        "DOI": "10.1007/s12206-026-0704-0",
+        "CorpusId": 290947181
+      },
+      "title": "Two-stage dual-domain clustering fusion model for serviceability assessment in flywheel bearings",
+      "venue": "Journal of Mechanical Science and Technology",
+      "year": 2026
+    },
+    {
+      "paperId": "b5310f851f462095cd9a3467a9f8e420f2d8934e",
+      "externalIds": {
+        "DOI": "10.1109/JSEN.2026.3672637",
+        "CorpusId": 286630523
+      },
+      "title": "Frequency-Adaptive Visual–Inertial Fusion for Wave-Compensation Platform Pose Estimation Under Broadband Ocean Wave Excitation",
+      "venue": "IEEE Sensors Journal",
+      "year": 2026
+    },
+    {
+      "paperId": "0d9bccb1a08df584dd237a531cbbb302b7ea126c",
+      "externalIds": {
+        "DBLP": "journals/tgrs/CaoLSLWL24",
+        "DOI": "10.1109/TGRS.2024.3416353",
+        "CorpusId": 270606599
+      },
+      "title": "Dual-Attention-Based Wavelet Integrated CNN Constrained via Stochastic Structural Similarity for Seismic Data Reconstruction",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2024
+    },
+    {
+      "paperId": "8ac2731ed45eda679f145269228e3e4ec276301f",
+      "externalIds": {
+        "DOI": "10.1007/s00170-026-18549-w",
+        "CorpusId": 289726462
+      },
+      "title": "A grinding wheel wear state prediction method based on adaptive-weighted decision-level fusion for industrial production",
+      "venue": "The International Journal of Advanced Manufacturing Technology",
+      "year": 2026
+    },
+    {
+      "paperId": "3a7a3a47020f02825588dfecf2b5720d4e59f816",
+      "externalIds": {
+        "DOI": "10.3390/rs17173031",
+        "CorpusId": 281071216
+      },
+      "title": "DATNet: Dynamic Adaptive Transformer Network for SAR Image Denoising",
+      "venue": "Remote Sensing",
+      "year": 2025
+    },
+    {
+      "paperId": "abe89460f3efb9d8a5d51b7dc05422a11f95e0e7",
+      "externalIds": {
+        "DOI": "10.1190/geo2022-0273.1",
+        "CorpusId": 253261029
+      },
+      "title": "Ensemble empirical mode decomposition and Stacking model for filtering the borehole DAS records",
+      "venue": "Geophysics",
+      "year": 2022
+    },
+    {
+      "paperId": "7b8981d9edfc3efefa075eb563eedc403ec7abe0",
+      "externalIds": {
+        "DOI": "10.32920/ryerson.14655834",
+        "CorpusId": 240842955
+      },
+      "title": "Computed tomography image denoising based on multi dose CT image fusion and extended sparse techniques",
+      "venue": "",
+      "year": null
+    },
+    {
+      "paperId": "7b15a061c47f7e969b7599d638e7b50c640edbc2",
+      "externalIds": {
+        "MAG": "2355991801",
+        "CorpusId": 112177686
+      },
+      "title": "Multi-sensor information fusion denoising method based on EEMD",
+      "venue": "",
+      "year": 2014
+    },
+    {
+      "paperId": "51847e4ed3866c220fb783acb339ceb37904ff66",
+      "externalIds": {
+        "DBLP": "journals/cssp/JhohuraHR15",
+        "MAG": "1991319899",
+        "DOI": "10.1007/s00034-014-9956-5",
+        "CorpusId": 285602
+      },
+      "title": "Bayesian Fusion of Ensemble of Multifocused Noisy Images",
+      "venue": "Circuits, systems, and signal processing",
+      "year": 2014
+    },
+    {
+      "paperId": "8c0aaa26c96f456329b94e726540d481da9a450d",
+      "externalIds": {
+        "MAG": "3089446434",
+        "DOI": "10.1007/s11431-020-1679-x",
+        "CorpusId": 224993834
+      },
+      "title": "Ensemble deep transfer learning driven by multisensor signals for the fault diagnosis of bevel-gear cross-operation conditions",
+      "venue": "Science China Technological Sciences",
+      "year": 2020
+    },
+    {
+      "paperId": "1b7d5e7619cbdc03a087589397ebda923ff2bc47",
+      "externalIds": {
+        "DBLP": "journals/tgrs/WangHZW23a",
+        "DOI": "10.1109/TGRS.2023.3295355",
+        "CorpusId": 259920571
+      },
+      "title": "Random Noise Attenuation Using an Unsupervised Deep Neural Network Method Based on Local Orthogonalization and Ensemble Learning",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2023
+    },
+    {
+      "paperId": "082dc84bdb47698540bd62d44a5e2e5a1cd5a548",
+      "externalIds": {
+        "DOI": "10.3390/app12115555",
+        "CorpusId": 249219662
+      },
+      "title": "Random Noise Suppression Method of Micro-Seismic Data Based on CEEMDAN-FE-TFPF",
+      "venue": "Applied Sciences",
+      "year": 2022
+    },
+    {
+      "paperId": "84df1331a348fe4263baab9ec736685f14c4b5bb",
+      "externalIds": {
+        "DBLP": "conf/apcc/GulAKK22",
+        "DOI": "10.1109/APCC55198.2022.9943610",
+        "CorpusId": 253554913
+      },
+      "title": "Improved Sensing Performance with Autoencoder and Ensemble Classifier",
+      "venue": "Asia-Pacific Conference on Communications",
+      "year": 2022
+    },
+    {
+      "paperId": "f9fe7f1173dc7efd2cd7ad20fe875828e9037f00",
+      "externalIds": {
+        "MAG": "2766284769",
+        "DBLP": "journals/tgrs/YuM18",
+        "DOI": "10.1109/TGRS.2017.2751642",
+        "CorpusId": 957776
+      },
+      "title": "Complex Variational Mode Decomposition for Slop-Preserving Denoising",
+      "venue": "IEEE Transactions on Geoscience and Remote Sensing",
+      "year": 2018
+    },
+    {
+      "paperId": "7ae550ec0c2fa947f6bf80586d18a063f4a1c398",
+      "externalIds": {
+        "DOI": "10.1093/jge/gxac042",
+        "CorpusId": 251193461
+      },
+      "title": "Seismic prediction and evaluation techniques for hot dry rock exploration and development",
+      "venue": "Journal of Geophysics and Engineering",
+      "year": 2022
+    },
+    {
+      "paperId": "e6e4246499368f8a7ca163ddc9c7ba1c37878349",
+      "externalIds": {
+        "DOI": "10.3390/jmse11071385",
+        "CorpusId": 259724770
+      },
+      "title": "Intelligent Fault Diagnosis of Variable-Condition Motors Using a Dual-Mode Fusion Attention Residual",
+      "venue": "Journal of Marine Science and Engineering",
+      "year": 2023
+    },
+    {
+      "paperId": "fdd14fab4c9c7a6314ea7361c9416993e00e966f",
+      "externalIds": {
+        "DBLP": "journals/mta/AshokL23",
+        "DOI": "10.1007/s11042-023-15543-2",
+        "CorpusId": 258627777
+      },
+      "title": "Absorption of echo signal for underwater acoustic signal target system using hybrid of ensemble empirical mode with machine learning techniques",
+      "venue": "Multimedia tools and applications",
+      "year": 2023
+    },
+    {
+      "paperId": "3dbddbe5995a7ef5e098155a468eaac36ffa121f",
+      "externalIds": {
+        "DOI": "10.2118/214392-ms",
+        "CorpusId": 259826252
+      },
+      "title": "A Comparative Analysis of Convolutional Neural Networks for Seismic Noise Attenuation",
+      "venue": "Day 3 Wed, June 07, 2023",
+      "year": 2023
+    }
+  ]
+}
