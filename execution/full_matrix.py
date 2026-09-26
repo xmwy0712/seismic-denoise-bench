@@ -153,6 +153,8 @@ def run_matrix(out_dir: Path, method_names: list[str], limit: int | None, dry_ru
     if limit is not None:
         cells = cells[:limit]
 
+    _prechecked: set[str] = set()
+
     # **预检（fail fast）**：在进入长循环前，每模型各构造一个观测。
     # Run 1 的教训：数据构造 bug 直到第 676 格（M2 首格）才暴露，白跑 200 s。
     for _e in entries:
@@ -167,7 +169,6 @@ def run_matrix(out_dir: Path, method_names: list[str], limit: int | None, dry_ru
     out_dir.mkdir(parents=True, exist_ok=True)
     rows: list[dict] = []
     failures: list[dict] = []
-    _prechecked: set[str] = set()
     done = 0
     report_every = max(1, total // 10)
     t_start = time.perf_counter()
