@@ -50,3 +50,8 @@ credentials*
 *.bak
 *.log
 .openclaw/
+
+# ---- P2.2 全矩阵产物（y_hat 本体不入库；指标与清单入库）----
+results/*.npy
+results/_scratch/**
+!results/.gitkeep

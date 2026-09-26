@@ -3212,3 +3212,134 @@ collected 162 items
 
 未开始任何训练；未实现融合；未运行全矩阵；未上云；`configs/frozen.yaml` **未改动**
 （哈希仍为 `1695C196…2944A3F`）；方法间无互读；无隐式随机源；未装新列出的包。
+
+---
+
+### 2026-09-26 | P2.2 部分交付 · **Commit 2 受阻（两项硬阻塞）** —— 如实报告，不擅自绕过
+
+**依据**：`P2.2-DL核验与云上全矩阵-2026-10-08.md`（SHA256 `9A399C37…390056`，4443 B）
++ `P2.1-Am1-…-2026-10-03.md`（SHA256 `5F011C3D…CCA2CD`，5986 B）
+
+#### 规则 13 四项核验 + 门禁四数
+
+① 隔离区存在 ✅ ② P1-A/B/C 逐件哈希一致 ✅ ③ MANIFEST **仅追加 2 行**（30228 B，v25）✅
+④ 两件均 5986 / 4443 B、无 BOM、CRLF=0、mtime 13:07:57 ✅
+**门禁 31/31/31/31**（任务单文件 31 = MANIFEST 任务单行 31 = 台账 ACTIVE 31）。
+**冻结件未变**：`frozen.yaml` 仍为 `1695C196…2944A3F` ✅
+
+#### 已完成：Commit 0 + Commit 1
+
+| commit | 内容 |
+| :--- | :--- |
+| `c0a2856` | 归档 Am1 + P2.2 两件，MANIFEST v25 |
+| `01966e4` | **裁定 H 三处落文** + **裁定 I 降级** + **DL 核验轮** |
+
+**裁定 H 落文**（三处齐备）：① `methods_registry.yaml` 顶部交叉引用说明
+（含"「局部相似度/正交化」族**正是本项目自身融合方法的机制族**，不进基准集是**正确的**——
+不能拿自己的贡献当 baseline；论文须明写"）；
+② `mechanism-table.md` 加注「8 族为检索覆盖分类，不等于基准方法集」；
+③ `fk_filter` 补 bibliographic note（Yilmaz 2001《Seismic Data Analysis》f-k 章节），**DOI 仍为 null**。
+
+**裁定 I 降级**：`training_protocol_draft.yaml` → `status: DOWNGRADED_PER_RULING_I`；
+预训练推理路径改以「**推理确定性 + 权重哈希 + 版本锁定**」三件代替训练协议；
+微调路径明确"另批训练协议"。
+
+**DL 核验轮**：`docs/methods_dl_verification.md` —— 逐候选四项核验，结论**建议不纳入**（见下）。
+
+#### ⛔ 硬阻塞 1 · DL 前置门未确认（**明文禁令**）
+
+任务单明写：「**签发方确认前，全矩阵不得启动**」。
+本执行方建议 **DL 槽位留空、方法数 = 5**，但**该结论尚未经签发方确认** ⇒
+**全矩阵不具备启动条件**。
+
+> **本执行方曾在会话中表示"启动完整全矩阵"，随即撤回** —— 该表述违反明文前置门，
+> **未实际启动**。如实记录。
+
+#### ⛔ 硬阻塞 2 · GCP 完全不可用（环境实测，非推测）
+
+| 检查项 | 实测 |
+| :--- | :--- |
+| `gcloud` / `gsutil` 在 PATH | ❌ 均不在 |
+| Cloud SDK 常见安装位置（3 处） | ❌ 均不存在 |
+| `%APPDATA%\gcloud\credentials.db` | ❌ 不存在 |
+| `application_default_credentials.json` | ❌ 不存在 |
+| `gcloud` 配置目录 | ❌ 不存在 |
+| 环境变量 `GOOGLE_APPLICATION_CREDENTIALS` / `GOOGLE_CLOUD_PROJECT` / `CLOUDSDK_CORE_PROJECT` / `GCP_SA_KEY` / `GOOGLE_API_KEY` | ❌ 全未设置 |
+| Python GCP SDK（`google.cloud.storage` / `googleapiclient` / `google.auth`） | ❌ 均未安装 |
+
+⇒ **无凭据、无工具链、无 SDK** ⇒ **无法部署、无法上传、无法运行云上矩阵**。
+**本执行方未注册任何平台账号、未创建项目、未开启计费**（红线：不得注册平台账号；凭据亦不可由我在聊天中收集）。
+
+#### 官方价目复核：**未能完成（如实报告）**
+
+任务单要求「按当时 GCP 官方价目重算」。已抓取 `cloud.google.com/compute/vm-instance-pricing`：
+**JS 渲染页面，正文未取到**（仅得标题）⇒ **官方价目未取得**。
+
+第三方聚合源（**非官方，须复核**）给出：e2-standard-2 / us-central1 on-demand **≈ $0.0670/hr**。
+已入 `budget-ledger.md` 并明确标注「**非官方来源，未与官方页核对**」。
+
+**⇒ 因此按任务单「先入 ledger 再启动实例」，本批不具备启动实例的条件**（官方价目未取得）。
+
+#### 已交付（不依赖云）：全矩阵运行器 + 本地验证
+
+**`execution/full_matrix.py`**（11904 B，SHA256 `4073A529A52EBBEEEE8D41AC832B9BBF76A943B8A1ED5FD62CF418EEE8501297`）
+
+- **不提供任何调参入口**：方法参数由 `methods_registry.yaml` 登记值覆盖默认值，命令行无参数开关；
+- 顺序确定性（config_matrix 轴序）；逐格登记 `config_id / seed / method / wall_time_ms / y_hat SHA256 / ΔSNR / Lsig / CNA / 事件级指标`；
+- `results/metrics.csv` + `results/manifest.json`（含失败清单）；**失败即记录并继续**，失败率 > 5% 置 `stop_flag`；
+- 每 1/10 进度打印一行（供 execution-log 抄录）。
+
+**本地验证结果**（`--limit 27 --dry-run`，M1 全部 27 配置 × 5 方法）：
+
+| 项 | 值 |
+| :--- | :--- |
+| cells_attempted / ok | **135 / 135** |
+| failures | **0**（failure_rate 0.0，stop_flag false） |
+| elapsed | 42.083 s |
+| y_hat SHA256 非空 | 135/135 |
+| ΔSNR 范围 | [−4.837, +7.259] dB |
+
+> **覆盖不足的如实说明**：`--limit 27` **只覆盖了 N1**（种子为内层循环 ⇒ 前 27 个观测全属 M1×N1）。
+> 故 **N2/N3 的 CNA 路径在本批未被本地验证触及**（表现在 `cna_db` 全为空）。
+> **该不足不掩盖**：完整验证须跑满 270 观测（受前置门约束，本批未跑）。
+
+#### 🔧 本地验证**当场抓出两个真实 bug**（这正是先本地验证的价值）
+
+| # | bug | 症状 | 修正 |
+| ---: | :--- | :--- | :--- |
+| 1 | **包重导出遮蔽子模块** | `from bench.metrics import lsig as LSIG` 取到的是**函数** `lsig`，非子模块 ⇒ `AttributeError: 'function' object has no attribute 'event_mask'` | 改为**显式子模块导入** `from bench.metrics.lsig import event_mask, lsig`（snr/cna/events 同） |
+| 2 | **N2 档位槽解读错误** | `build_matrix` 只产出 **42** 个配置（期望 **54**）：我把 N2 当作"无档位" | `frozen.yaml` item_01 明写「N2 的 level 槽位由 `param_slots.n2_v_app_m_s` 承担（L1/L2/L3 依次对应）」⇒ N2 亦有 3 档 ⇒ 修正后 **54**（N1/N2/N3 各 18） |
+
+> **bug 2 是本批最值得记的一条**：我此前在会话与日志中把 N2 描述为"**无档位概念**"，
+> 而**冻结件写的是"level 槽位由 v_app 承担"**。二者语义不同：
+> 前者会漏掉 12 个配置，后者才对。**冻结件是权威**，我按它改代码。
+
+#### 交付物哈希
+
+| 文件 | SHA256 |
+| :--- | :--- |
+| `execution/full_matrix.py` | `4073A529A52EBBEEEE8D41AC832B9BBF76A943B8A1ED5FD62CF418EEE8501297` |
+| `.gitignore`（新增 results 规则，**保留并合并**） | `3FDF9EED1539D7331817A42EF82CB5B5134B7984B9B988F877ADAAC8ABAD533D` |
+| `docs/methods_dl_verification.md` | `AAAD52F2C68360B981BA6E7F540988C832B618CEE34B259B5F82FB6AF29E4F0A` |
+| `docs/budget-ledger.md` | `32ED0A85773DC52C316F5218B588C6E5DF44F92408F39CFFCF97131A15790697` |
+
+**`results/` 策略**：`y_hat` 本体（`.npy`）**不入库**（体积），已加 `.gitignore` 规则；
+**指标表与清单索引入库**（缺件可依 SHA256 检出）。
+
+#### 测试结果（含 collected 数）
+
+```
+collected 162 items
+============================= 162 passed in 15.45s ==============================
+```
+
+#### 待用户/签发方决定（**本批止步于此处**）
+
+1. **DL 槽位**：纳入（需授权装 TensorFlow + 更新 `requirements.lock` = 冻结件变更）还是留空（方法数 5）？
+2. **GCP**：需提供 gcloud 工具链与凭据（**不得在聊天中传递凭据**；须走官方本机授权流程）后方可部署。
+
+#### 红线遵守
+
+**未启动全矩阵** ✅（前置门未过）；**未上云** ✅；**未注册任何平台账号** ✅；
+**未安装任何新包**（含 TensorFlow）✅；**未下载任何权重** ✅；**未改动 `frozen.yaml`** ✅；
+未实现融合 ✅；未在云上改代码（无云）✅；未 amend ✅。
