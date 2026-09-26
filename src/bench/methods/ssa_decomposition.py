@@ -29,7 +29,7 @@ from __future__ import annotations
 import numpy as np
 
 METHOD_NAME = "ssa_decomposition"
-FAMILY = "稀疏 / 低秩 / 矩阵分解"
+FAMILY = "模态分解（EMD/VMD/SSA）"
 DETERMINISTIC = True
 
 PARAMS_DEFAULT: dict = {
