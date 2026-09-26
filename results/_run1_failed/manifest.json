@@ -1,0 +1,840 @@
+{
+  "summary": {
+    "cells_attempted": 1350,
+    "cells_ok": 675,
+    "failures": 135,
+    "failure_rate": 0.1,
+    "stop_threshold": 0.05,
+    "stop_flag": true,
+    "methods": [
+      "fk_filter",
+      "fx_deconv",
+      "wavelet_threshold",
+      "ssa_decomposition",
+      "svd_lowrank"
+    ],
+    "methods_source": "bench.methods.METHODS (全集，无子集入口)",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "entries": 54,
+    "elapsed_s": 198.674,
+    "dry_run": false
+  },
+  "failures": [
+    {
+      "config_id": "M2_N1_L1_15Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L1_15Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L1_15Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L1_15Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L1_15Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L1_25Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L1_25Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L1_25Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L1_25Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L1_25Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L1_40Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L1_40Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L1_40Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L1_40Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L1_40Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L2_15Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L2_15Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L2_15Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L2_15Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L2_15Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L2_25Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L2_25Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L2_25Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L2_25Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L2_25Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L2_40Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L2_40Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L2_40Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L2_40Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L2_40Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L3_15Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L3_15Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L3_15Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L3_15Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L3_15Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L3_25Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L3_25Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L3_25Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L3_25Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L3_25Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L3_40Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L3_40Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L3_40Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L3_40Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N1_L3_40Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L1_15Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L1_15Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L1_15Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L1_15Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L1_15Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L1_25Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L1_25Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L1_25Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L1_25Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L1_25Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L1_40Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L1_40Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L1_40Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L1_40Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L1_40Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L2_15Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L2_15Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L2_15Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L2_15Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L2_15Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L2_25Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L2_25Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L2_25Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L2_25Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L2_25Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L2_40Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L2_40Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L2_40Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L2_40Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L2_40Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L3_15Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L3_15Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L3_15Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L3_15Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L3_15Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L3_25Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L3_25Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L3_25Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L3_25Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L3_25Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L3_40Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L3_40Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L3_40Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L3_40Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N2_L3_40Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L1_15Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L1_15Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L1_15Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L1_15Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L1_15Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L1_25Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L1_25Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L1_25Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L1_25Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L1_25Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L1_40Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L1_40Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L1_40Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L1_40Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L1_40Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L2_15Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L2_15Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L2_15Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L2_15Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L2_15Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L2_25Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L2_25Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L2_25Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L2_25Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L2_25Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L2_40Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L2_40Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L2_40Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L2_40Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L2_40Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L3_15Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L3_15Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L3_15Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L3_15Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L3_15Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L3_25Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L3_25Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L3_25Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L3_25Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L3_25Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L3_40Hz",
+      "seed": 101,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L3_40Hz",
+      "seed": 202,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L3_40Hz",
+      "seed": 303,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L3_40Hz",
+      "seed": 404,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    },
+    {
+      "config_id": "M2_N3_L3_40Hz",
+      "seed": 505,
+      "method": "<data>",
+      "error": "TypeError: bench.data.synthetic.reflectivity_structure() got multiple values for keyword argument 'n_traces'"
+    }
+  ]
+}

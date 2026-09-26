@@ -93,8 +93,12 @@ def make_observation(entry: dict, seed: int) -> tuple[np.ndarray, np.ndarray, np
         refl = S.reflectivity(int(mp["n_layers"]), rng, sparsity=float(mp["sparsity"]))
         clean = S.forward(refl, w, n_traces=ntr)[:ns, :]
     else:
+        # **尺寸键必须全部从登记参数中剔除**：M2 的 params 里同时含 `n_samples` 与
+        # `n_traces`，若只剔除其中一个，再显式传同名关键字即 `got multiple values`
+        # （Run 1 的 135 例失败即此因）。统一：登记参数只供**非尺寸**超参。
         mp = dict(entry["model"]["params"])
-        mp.pop("n_samples", None)
+        for k in ("n_samples", "n_traces"):
+            mp.pop(k, None)
         field = S.reflectivity_structure(rng=rng, n_samples=ns, n_traces=ntr, **mp)
         clean = S.forward_structure(field, w, trace_stride=1)[:ns, :]
 
@@ -149,10 +153,21 @@ def run_matrix(out_dir: Path, method_names: list[str], limit: int | None, dry_ru
     if limit is not None:
         cells = cells[:limit]
 
+    # **预检（fail fast）**：在进入长循环前，每模型各构造一个观测。
+    # Run 1 的教训：数据构造 bug 直到第 676 格（M2 首格）才暴露，白跑 200 s。
+    for _e in entries:
+        _mid = _e["model"]["id"]
+        if _mid in _prechecked:
+            continue
+        make_observation(_e, seeds[0])
+        _prechecked.add(_mid)
+    print(f"[preflight] 预检通过：模型 {sorted(_prechecked)} 均可构造观测", flush=True)
+
     total = len(cells) * len(method_names)
     out_dir.mkdir(parents=True, exist_ok=True)
     rows: list[dict] = []
     failures: list[dict] = []
+    _prechecked: set[str] = set()
     done = 0
     report_every = max(1, total // 10)
     t_start = time.perf_counter()
