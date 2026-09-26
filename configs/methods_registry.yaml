@@ -9,6 +9,19 @@
 # 纪律（任务单第一节第 2 条）：**登记与实现一一对应**。
 #   若实现必须偏离登记参数 → **先改登记、后改代码**，并在 execution-log 记录变更理由。
 
+# ------------------------------------------------------------
+# 交叉引用（**裁定 H**，2026-10-03）
+# ------------------------------------------------------------
+# **机制表 8 族为检索分类；协议 5 类为基准方法集。** 两者不是同一件事：
+#   · 机制表 8 族 = 为新颖性检索**覆盖文献**而设，广度大；
+#   · 协议 5 类   = 协议第 18 行逐字固定的"我们跑哪些方法"的权威清单。
+# 检索广度 > 基准广度是**设计意图**，不是遗漏。
+#
+# 「局部相似度 / 正交化 / 结构约束」与「物理 / PDE 约束」两族**无基准槽位**，
+# 属协议设计。**特别注明**：「局部相似度 / 正交化」族**正是本项目自身融合方法的机制族** ——
+# 它不进基准方法集是**正确的**（不能拿自己的贡献当 baseline）；
+# 论文中须明写："基准方法集不含正交化加权类方法，本研究的融合与之比较见 P3/P4"。
+
 meta:
   stage: P2.1-draft
   frozen: false
@@ -84,7 +97,9 @@ methods:
     implementation_note: '纯 numpy FFT + 逐点掩码；未见需移植的第三方实现'
     license: {spdx: MIT, holder: 'Zhang Tao (张涛)', note: '项目自有实现，随仓库 MIT'}
     runtime_deps: [numpy]
-    source: {paper_doi: null, code_repo: null, note: '**语料内未检出对应具名原始文献**（f-k 扇形/速度滤波）；方法在协议第 18 行作为**强制保留的相干噪声强基线**具名列出，实现依据为教科书级标准做法'}
+    source: {paper_doi: null, code_repo: null, note: '**语料内未检出对应具名原始文献**（f-k 扇形/速度滤波）；方法在协议第 18 行作为**强制保留的相干噪声强基线**具名列出，实现依据为教科书级标准做法',
+      bibliographic_note: 'Yilmaz, Ö. (2001). *Seismic Data Analysis: Processing, Inversion, and Interpretation of Seismic Data*, 2nd ed., SEG Investigations in Geophysics No. 10 —— f-k（frequency-wavenumber）滤波章节（扇形滤波/速度滤波）。',
+      bibliographic_note_purpose: '使 registry 每一行均有可引用的文献锚点（P2.1-Am1 第四节轻要求）；DOI 仍为 null（教科书无 DOI 意义上的论文标识），**不编造 DOI**。'}
     module: src/bench/methods/fk_filter.py
 
   - name: fx_deconv
