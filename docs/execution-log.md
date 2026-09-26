@@ -3343,3 +3343,154 @@ collected 162 items
 **未启动全矩阵** ✅（前置门未过）；**未上云** ✅；**未注册任何平台账号** ✅；
 **未安装任何新包**（含 TensorFlow）✅；**未下载任何权重** ✅；**未改动 `frozen.yaml`** ✅；
 未实现融合 ✅；未在云上改代码（无云）✅；未 amend ✅。
+
+---
+
+### 2026-09-27 | P2.2-Am1 · 裁定 J/K 落文 + R-CLI 收紧 + **本地全矩阵完整运行（270 × 5）**
+
+**依据**：`P2.2-Am1-DL留空与本地执行裁定-2026-09-30.md`
+（SHA256 `DD02E67BA075B38061301692457DD28BB0D4CBBF43C60923A5328613F1FDEF18`，**6528 B**）
+
+#### 规则 13 四项核验 + 门禁四数
+
+① 隔离区存在 ✅ ② P1-A/B/C 逐件哈希一致 ✅ ③ MANIFEST **仅追加 1 行**（31611 B，v26）✅
+④ 归档件 6528 B、无 BOM、CRLF=0、mtime 13:19:22 ✅
+**门禁 32/32/32/32**（任务单文件 32 = MANIFEST 任务单行 32 = 台账 ACTIVE 32）。
+
+#### 官方运行命令（**裁定 K 要求固定写入**）
+
+```
+python execution/full_matrix.py --out results
+```
+
+**无其他开关。** `--limit` / `--dry-run` 为**验证专用**；`--methods` **已废止**（传入即报错退出）。
+运行基线：`afffc32` 之后的 `22f94f1`；**工作树干净**（`git status` 空）；
+**`frozen.yaml` 哈希核对后使用**（`1695C1965D0F307E…2944A3F`，未变）。
+
+#### R-CLI 收紧（第四节）
+
+| 要求 | 落实 |
+| :--- | :--- |
+| `--methods` 移除或"传入子集即报错退出" | **已废止**：传入即 `SystemExit`（**非零码**），**即便传入全集亦报错**（墓碑式参数，不做"校验后放行"） |
+| 官方运行命令固定写入 execution-log | ✅ 见上 |
+| **守卫断言**：`metrics.csv` 行数 = 270 × 5，且 (config_id, seed, method) 与冻结矩阵**完全一致** | ✅ `tests/test_matrix_integrity.py` **13 项**（含 2 项反证） |
+| `--limit` / `--dry-run` 保留为验证专用 | ✅ 保留；官方运行禁用（行数断言天然拦住） |
+| `run_matrix` 恒以全集调用 | ✅ **源码级断言** `run_matrix(Path(a.out), list(METHODS), a.limit, a.dry_run)` |
+
+#### 裁定 J 落文（DL 槽位留空，方法数 = 5）
+
+`configs/methods_registry.yaml`：DL 条目 `status: EXCLUDED_PER_RULING_I`，
+附**四项核验**（① 许可 PASS / ② 权重来源 PARTIAL —— SHA256 未算原因已注明 /
+③ 域适配 **FAIL 跨域** / ④ 推理确定性 **NOT_MEASURED**）+ `exclusion_reasons` +
+`frozen_artifacts_untouched` + `paper_obligation`（**不得表述为"未考虑深度学习"**）。
+`training_protocol_draft.yaml` 保持 `DOWNGRADED_PER_RULING_I`。**冻结件未动**。
+
+#### 裁定 K 落文（改本地执行）
+
+`docs/budget-ledger.md`：**执行环境 = 本地，云费用 0.00 USD**；原 GCP 提案标注
+**"经裁定改本地执行（P2.2-Am1 裁定 K），赠金未使用"**；官方价目复核一行标注**现已不再需要**。
+
+#### 🔴 Run 1（失败，已如实保全）
+
+| 项 | 值 |
+| :--- | :--- |
+| 命令 | 官方命令（同下） |
+| 基线 | `8606838`，工作树干净 |
+| 结果 | attempted **1350** / ok **675** / **failed 135** / **failure_rate 0.1000** / **stop_flag TRUE** / 198.7 s |
+| 失败分布 | **全部为 M2**（27 配置 × 5 种子 = 135 观测），**均在数据构造阶段失败，无任何方法运行** |
+| 错误 | `TypeError: reflectivity_structure() got multiple values for keyword argument 'n_traces'` |
+| **根因（我的 bug）** | M2 的登记参数**同时含 `n_samples` 与 `n_traces`**；我只 pop 了前者，又显式传 `n_traces=ntr` ⇒ 同名关键字冲突 |
+| 保全 | `results/_run1_failed/{metrics.csv, manifest.json}`（**未覆盖**）；其 `.npy` 已清除以免与 Run 2 混淆 |
+
+> **失败纪律按规格工作**：失败被**逐格记录并继续**（非静默跳过、非重试到成功），
+> 失败率被计算并**触发停机标志**。
+>
+> **同类教训（本批第二次）**：与"N2 档位槽"同源 —— **我再次凭印象假定登记参数的结构**。
+> 修正：尺寸键 `n_samples` / `n_traces` **一并剔除**；并新增 **preflight 预检**
+> （进入长循环前每模型各构造一个观测，**fail fast**）。Run 1 白跑 200 s 与 675 格才暴露，
+> 预检本可立即拦住。
+
+#### 🟢 Run 2（成功，正式结果）
+
+| 项 | 值 |
+| :--- | :--- |
+| 命令 | `python execution/full_matrix.py --out results` |
+| 基线 | `22f94f1`，工作树干净 |
+| **cells** | attempted **1350** / ok **1350** / **failures 0** / failure_rate 0.0 / **stop_flag false** |
+| **耗时** | **403.953 s ≈ 6.73 min** |
+| methods | 全集 5 个（`methods_source: bench.methods.METHODS (全集，无子集入口)`） |
+| entries | 54 配置 × 5 种子 = 270 观测 |
+
+**完整性（守卫机械化核验，非人工声明）**
+
+| 核验 | 结果 |
+| :--- | :--- |
+| `metrics.csv` 行数 | **1350**（= 270 × 5）✅ |
+| (config_id, seed, method) 与冻结矩阵比对 | **缺行 0 / 多行 0** ✅ |
+| 重复格 | **0** ✅ |
+| `y_hat_sha256` 非空 | **1350 / 1350** ✅ |
+| y_hat 文件存在 + 抽验哈希一致 | ✅ |
+| 逐方法格数 | 每方法 **270** ✅ |
+| 逐模型格数 | M1 **675** / M2 **675** ✅ |
+| 逐噪声格数 | N1 **450** / N2 **450** / N3 **450** ✅ |
+| `cna_db` 非空 | **900**（N2 + N3；N1 为随机噪声，nc 全零 ⇒ 不适用）✅ |
+
+**ΔSNR 概览（**仅健全性检查，非 P2.3 统计**；宏平均与配对置换/Holm 属 P2.3）**
+
+| 方法 | M1 均值 (dB) | M2 均值 (dB) |
+| :--- | ---: | ---: |
+| `fk_filter` | 4.62 | 3.359 |
+| `fx_deconv` | 2.122 | 0.324 |
+| `wavelet_threshold` | 0.805 | 0.83 |
+| `ssa_decomposition` | -0.051 | 1.28 |
+| `svd_lowrank` | 7.007 | 1.966 |
+
+> **该表不构成任何方法优劣结论**：未做配置内配对、未做宏平均的正式口径、未做显著性校正。
+> 全部统计按冻结规则在 **P2.3** 进行。
+
+**运行期告警（如实记录）**：`pywt/_thresholding.py:22: RuntimeWarning: overflow encountered in divide`
+（`wavelet_threshold` 的软阈值内部，`1 - value/magnitude`）。
+**为警告非错误**，未影响输出（全 1350 格 `y_hat` 均有限、哈希齐备）。
+如实记录，**不在本批修改方法实现**（改已验收行为属禁止项）。
+
+#### results/ 交付与体积策略（如实）
+
+| 项 | 值 |
+| :--- | :--- |
+| `results/metrics.csv` | 334131 B（**入库**，逐格四指标 + 哈希 + 耗时） |
+| `results/manifest.json` | 567 B（**入库**，含 summary 与失败清单） |
+| `results/*.npy`（y_hat 本体） | **1350 个文件，约 337.7 MB** —— **已生成并保留在本地**，因体积**不入 git**（`.gitignore` 规则 `results/*.npy`） |
+| 缺件可检出性 | ✅ `metrics.csv` 的 `y_hat_file` + `y_hat_sha256` 两列**即哈希清单索引**，缺件/篡改均可检出 |
+
+> **如需发布 y_hat 本体**：按协议第七节走 **Zenodo 存档**（或打包上传），不入 git —— 理由是 337 MB
+> 二进制会永久膨胀仓库，且重跑即变；**可复现性由代码 commit + `requirements.lock` + `frozen.yaml`
+> 哈希 + 逐格 SHA256 清单保证**，与 y_hat 是否入库无关。
+
+#### 测试结果（含 collected 数）
+
+```
+collected 175 items
+============================= 175 passed in 18.17s ==============================
+```
+
+（**162 → 175**，新增 `test_matrix_integrity.py` **13 项**；其中 6 项在矩阵生成前会 skip，
+生成本批结果后**全部实跑通过**。）
+
+#### 交付物哈希
+
+| 文件 | SHA256 |
+| :--- | :--- |
+| `execution/full_matrix.py` | `383542A5225174FFD61CF48F56E4AF3253E2460F5502505335AAF7B8E5E5FE53` |
+| `configs/methods_registry.yaml` | `5DA2959BBE4C2C7BFB7667EF3E45A4AB876216991837690A2B391F58887DBC6F` |
+| `docs/budget-ledger.md` | `32ED0A85773DC52C316F5218B588C6E5DF44F92408F39CFFCF97131A15790697` |
+| `tests/test_matrix_integrity.py` | `640F8AA1F9BA4513725EA50B57B8738EA37A0001F4F534DE95FF2F50E59F27A3` |
+| `results/metrics.csv` | `CD7499874B4A166E6B2737152D3B0C045232911D5D388DD46262406B11443933` |
+| `results/manifest.json` | `32D8AB0042A29C97AD38284A0E80A31946EB6E835F0F0843DC7A01E1FF5AF1CC` |
+| `results/_run1_failed/metrics.csv`（失败保全） | `78659364809506DB2F33D61E0C4D0E2C3C6F4B0549C55ABB3B8716B13905CB8F` |
+
+#### 红线遵守
+
+**未实现融合** ✅；**未做任何调参** ✅（参数一律取登记表；运行器无调参入口）；
+**未改 `frozen.yaml`** ✅（哈希未变）；**失败纪律** ✅（记录并继续、失败率触发停机）；
+**进度留痕** ✅（每 1/10 一行，共 10 行）；**未在云上改代码**（无云）✅；
+**未装新包**（含 TensorFlow）✅；**未下载权重** ✅；未建 tag ✅；未 amend ✅。

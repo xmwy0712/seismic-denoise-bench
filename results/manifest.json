@@ -1,0 +1,29 @@
+{
+  "summary": {
+    "cells_attempted": 1350,
+    "cells_ok": 1350,
+    "failures": 0,
+    "failure_rate": 0.0,
+    "stop_threshold": 0.05,
+    "stop_flag": false,
+    "methods": [
+      "fk_filter",
+      "fx_deconv",
+      "wavelet_threshold",
+      "ssa_decomposition",
+      "svd_lowrank"
+    ],
+    "methods_source": "bench.methods.METHODS (全集，无子集入口)",
+    "seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "entries": 54,
+    "elapsed_s": 403.953,
+    "dry_run": false
+  },
+  "failures": []
+}
