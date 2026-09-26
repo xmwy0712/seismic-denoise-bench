@@ -14,6 +14,10 @@
 * **y_hat 本体**存 ``results/``（.npy），另写 ``manifest.csv``（SHA256 索引，缺件可检出）。
 * **失败即记录并继续**：不得静默跳过、不得重试到成功；失败率 > 5% 触发停机标志。
 * **不调参**：方法参数一律取 ``methods_registry.yaml`` 登记值；本运行器**不提供**任何调参入口。
+* **不选方法（R-CLI，P2.2-Am1 第四节）**：``--methods`` 已**废止**（传入即报错退出）；
+  方法集**恒为全集** ``METHODS``。官方运行命令**唯一**：
+  ``python execution/full_matrix.py --out results``。
+  理由：允许子集运行 = **选择性运行的后门**（只跑好看的方法 = 选择性报告），与禁止调参同类。
 * **进度留痕**：每完成 1/10 打印一行（供 execution-log 抄录）。
 """
 
@@ -217,7 +221,8 @@ def run_matrix(out_dir: Path, method_names: list[str], limit: int | None, dry_ru
         "cells_attempted": done, "cells_ok": len(rows), "failures": len(failures),
         "failure_rate": round(rate, 6), "stop_threshold": FAILURE_RATE_STOP,
         "stop_flag": rate > FAILURE_RATE_STOP,
-        "methods": method_names, "seeds": seeds, "entries": len(entries),
+        "methods": method_names, "methods_source": "bench.methods.METHODS (全集，无子集入口)",
+        "seeds": seeds, "entries": len(entries),
         "elapsed_s": round(time.perf_counter() - t_start, 3), "dry_run": dry_run,
     }
     if rows:
@@ -232,16 +237,28 @@ def run_matrix(out_dir: Path, method_names: list[str], limit: int | None, dry_ru
 
 
 def main(argv: list[str] | None = None) -> int:
-    ap = argparse.ArgumentParser(description="P2.2 全矩阵运行器（不提供调参入口）")
+    # **R-CLI（P2.2-Am1 第四节）：官方运行命令固定，无方法选择开关。**
+    # `--methods` 已**移除** —— 允许子集运行 = 选择性运行的后门（只跑好看的方法 = 选择性报告），
+    # 与"禁止调参"属同一类风险。**方法集恒为 METHDOS 全集。**
+    ap = argparse.ArgumentParser(
+        description="P2.2 全矩阵运行器（官方命令：python execution/full_matrix.py --out results）")
     ap.add_argument("--out", default="results")
-    ap.add_argument("--methods", nargs="*", default=list(METHODS))
-    ap.add_argument("--limit", type=int, default=None, help="仅前 N 个观测（验证用）")
-    ap.add_argument("--dry-run", action="store_true", help="不落 y_hat 文件")
+    ap.add_argument("--limit", type=int, default=None,
+                    help="【验证专用】仅前 N 个观测；官方运行禁用（守卫断言 metrics 行数即拦住）")
+    ap.add_argument("--dry-run", action="store_true",
+                    help="【验证专用】不落 y_hat 文件；官方运行禁用")
+    ap.add_argument("--methods", nargs="*",
+                    help="【已废止】传入即报错退出（保留此参数仅为给出明确报错，而非静默忽略）")
     a = ap.parse_args(argv)
-    bad = [m for m in a.methods if m not in METHODS]
-    if bad:
-        raise SystemExit(f"未登记的方法：{bad}")
-    s = run_matrix(Path(a.out), a.methods, a.limit, a.dry_run)
+
+    if a.methods is not None:
+        raise SystemExit(
+            "R-CLI 违规：`--methods` 已废止（P2.2-Am1 第四节）。\n"
+            "  理由：允许子集运行 = 选择性运行的后门，与禁止调参同类风险。\n"
+            "  官方运行命令：python execution/full_matrix.py --out results\n"
+            f"  方法集恒为全集：{list(METHODS)}")
+
+    s = run_matrix(Path(a.out), list(METHODS), a.limit, a.dry_run)
     print(json.dumps(s, ensure_ascii=False, indent=2))
     return 0
 

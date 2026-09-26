@@ -48,13 +48,37 @@ protocol_categories:
   - {category: 变换阈值, required: true, methods: [wavelet_threshold]}
   - {category: 分解, required: true, methods: [ssa_decomposition]}
   - {category: 低秩, required: true, methods: [svd_lowrank]}
-  - {category: 许可合格的预训练深度学习, required: false, methods: [], status: 'PENDING — 见 training_protocol_draft.yaml；批准前不得开始任何训练'}
+  - category: 许可合格的预训练深度学习
+    required: false
+    methods: []
+    status: EXCLUDED_PER_RULING_I
+    ruling: 'P2.2-Am1 裁定 J（2026-09-27）：按裁定 I 的预注册规则（③ 域适配不过 + ④ 未测）排除'
+    four_item_verification:
+      candidate: 'DeepDenoiser（AI4EPS）—— 逐项证据见 docs/methods_dl_verification.md'
+      item_1_license: 'PASS（代码与权重均 MIT，gh api 官方实测；LICENSE 1069 B，Copyright (c) 2021 Weiqiang Zhu）'
+      item_2_weight_provenance: >
+        PARTIAL（渠道 = 官方 GitHub 仓库，无第三方镜像；版本锁定 = 目录名 190614-104802；
+        4 个权重文件已实测列出。**SHA256 未计算** —— GitHub API 仅提供 git blob SHA-1，
+        与 SHA256 不可混用；未下载权重故未计算）
+      item_3_domain_fit: >
+        FAIL（跨域）：训练域 = **地震计 / 事件地震学**（Zhu / Mousavi / Beroza）；
+        本基准数据域 = **勘探反射**（可控源、道集、反射同相轴）。跨域应用须作局限声明。
+      item_4_inference_determinism: >
+        NOT_MEASURED：依赖 TensorFlow（其 requirements.txt / env.yml 要求），
+        **TensorFlow 不在冻结的 requirements.lock 中**；安装属 L2 且会**改变冻结环境**。
+    exclusion_reasons: ['③ 域适配不过（跨域：地震计域 vs 勘探反射域）', '④ 推理确定性未测（需新增 TF 依赖 + 改冻结环境）']
+    frozen_artifacts_untouched: '不装 TF、不改 requirements.lock、不打新 tag（裁定 J 第 4 条）'
+    paper_obligation: >
+      **论文义务**：深度学习类去噪在本基准中**缺位**，原因须如实写明 ——
+      许可虽合格，但**训练域为地震计 / 事件地震学**，与本基准的**勘探反射**域不同；
+      且纳入需**改冻结环境**。DeepDenoiser 等应作为**最近邻工作**在相关工作中讨论。
+      **不得表述为"未考虑深度学习"**。
 
 methods_count: 5
 methods_count_note: >
   协议要求 **4 至 6 种**；本批实现 **5 种**（滤波 2 + 变换阈值 1 + 分解 1 + 低秩 1），
   落在区间内，且**覆盖全部 4 个必须类别**、含**相干噪声强基线**（协议第 18 行义务）。
-  第 6 种（深度学习）**待许可核验与训练协议批准**，未纳入本批。
+  第 6 种（深度学习）**已按裁定 J 排除（EXCLUDED_PER_RULING_I）**，四项核验与论文义务见 protocol_categories 第 5 项。**方法数最终 = 5。**
 
 # ---------------------------------------------------------------- 具名出入（如实报告）
 category_vs_mechanism_table:
