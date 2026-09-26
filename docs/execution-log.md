@@ -2872,3 +2872,26 @@ collected 126 items
 **未运行任何去噪方法** ✅；**未实现融合** ✅；**未改动** `ricker.py` / `synthetic.py` /
 `snr.py` / `lsig.py` 已验收行为 ✅；`configs/` 原有文件**未改**（仅**新增** `frozen.yaml`）；
 **未装新列出的包** ✅；**未 amend** ✅；无 remote、未 push、未改系统配置 ✅。
+
+---
+
+### 2026-09-26 | P1.5 补充 · tag → commit 链接记录（**文档级，未改冻结内容**）
+
+| 项 | 值 |
+| :--- | :--- |
+| **冻结 commit** | `4d318c7` `4d318c71913cee8d7ed114394e8dc95b84083a2f` |
+| Commit 0（归档） | `80e3181` |
+| **annotated tag** | `config-frozen` → **`4d318c71913cee8d7ed114394e8dc95b84083a2f`**（与 HEAD 一致 ✅） |
+| `configs/frozen.yaml` | `1695C1965D0F307E5CA55ABDA1B2206D1058F67DE4827770382602F2F2944A3F`（30065 B） |
+| `docs/FROZEN-CHECKLIST.md` | `129A9E18312FEB355BD2DC44F94921F01B08CF438D29F79D596D8628D31BBBC2` |
+| `docs/quarantine-register.md` | `5223E6819F4003C1969BFEC38D9741B5F3FD7636DE074DB0776BAA3A089F16EE`（含常设规则 16） |
+| pytest | collected 126 / 126 passed（`run_tests.ps1` 独立复跑一致） |
+
+**说明（如实）**：本条仅为**记录 tag 指向 commit 的具体哈希**（任务单第 22 项要求的
+"tag 指向 commit" 之可核验落点）。**未改动** `configs/frozen.yaml`（哈希仍为 `1695C1965D0F307E…`）
+与 `docs/FROZEN-CHECKLIST.md`（仍为 `129A9E18312FEB35…`）；execution-log 按**只追加**纪律，
+其自身哈希不在 tag 附注覆盖范围内，故追加不影响 tag 的哈希绑定。
+
+**tag 附注的小瑕疵（如实自述）**：附注**末行**为占位符 "<见下方 tag 输出>"，未写入具体 commit 哈希。
+**权威链接以本条记录为准**。若签发方要求 tag 附注自含 commit 哈希，需**删除并重建 tag**
+（仅涉及 tag 对象，**不涉及任何 commit 改写**）。
