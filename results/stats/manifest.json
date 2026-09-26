@@ -1,0 +1,35 @@
+{
+  "preregistration_sha256": "174A25499ADB1525229C1F27BEEF4C221568EBA552ADF6B15B8831948FD682FD",
+  "metrics_csv_sha256": "CD7499874B4A166E6B2737152D3B0C045232911D5D388DD46262406B11443933",
+  "script_sha256": "586D82C39B0A537B6CE325CCA2052CCA63EA5048CE0B495D7D2C95778113C5C5",
+  "B_perm": 10000,
+  "B_boot": 10000,
+  "alpha": 0.05,
+  "seed_perm": 20261001,
+  "seed_boot": 20261002,
+  "n_pairs": 10,
+  "n_metrics": 5,
+  "n_strata_types": 6,
+  "n_stratum_keys": 18,
+  "pairwise_rows": 900,
+  "expected_rows": 900,
+  "elapsed_s": 25.023,
+  "outputs": {
+    "pairwise.csv": "FC0E68C5DD0DA584348AACB2EB95F6244C0C4317058989542C62C9CF50AE48EA",
+    "macro_average.csv": "1FE1950B76A5E0E403735E04E2585942E84A532EFBA168444A90A3EC6BA0CC6C",
+    "summary.md": "382269163907B46081498E5FECA5231CB3D536481CFA4E6FCE1E236CBAE7865B",
+    "fig_macro_average.png": "5902200CEEE48F09DF1624F4EE74C52B6533B513D0A9CD85B787969A5251FAAE",
+    "fig_strata_heatmap.png": "D62FB850261E3D01C662CD47F0F73FE39A02395531E381DF40DA3439422A963E",
+    "preregistration.md": "174A25499ADB1525229C1F27BEEF4C221568EBA552ADF6B15B8831948FD682FD"
+  },
+  "gate_check": {
+    "pairwise_rows": 900,
+    "expected_rows": 900,
+    "matches_formula": true,
+    "cna_rows": 180,
+    "cna_n1_all_na": true,
+    "stratum_keys": 18,
+    "n_significant_holm": 672,
+    "n_valid_tests": 870
+  }
+}

@@ -3494,3 +3494,140 @@ collected 175 items
 **未改 `frozen.yaml`** ✅（哈希未变）；**失败纪律** ✅（记录并继续、失败率触发停机）；
 **进度留痕** ✅（每 1/10 一行，共 10 行）；**未在云上改代码**（无云）✅；
 **未装新包**（含 TensorFlow）✅；**未下载权重** ✅；未建 tag ✅；未 amend ✅。
+
+---
+
+### 2026-09-26 | P2.3 · 统计分析（配对置换 + Holm + 分层自助 CI + 宏平均）
+
+**依据**：`P2.3-统计分析-2026-10-01.md`
+（SHA256 `54F7DDFDF4610A1ED46F5B0AB1F4CC5F4B01E7B0A2219A3220DBB037E786B70A`，**6133 B**）
+
+#### 规则 13 四项核验 + 门禁四数
+
+① 隔离区存在 ✅ ② P1-A/B/C 逐件哈希一致 ✅ ③ MANIFEST **仅追加 1 行**（33122 B，v27）✅
+④ 归档件 6133 B、无 BOM、CRLF=0、mtime 14:11:10 ✅
+**门禁 33/33/33/33**（任务单文件 33 = MANIFEST 任务单行 33 = 台账 ACTIVE 33）。
+
+#### R-M · 运行器矩阵来源（**本单前置必修**）
+
+**修正**：`full_matrix.build_matrix()` 改为**从 `configs/frozen.yaml` 构建** ——
+item_01（轴 / 种子）+ item_02/03（模型参数）+ item_04（档位）+ item_05（面波）。
+`run_matrix` 取冻结件；原草案来源实现保留为 `_legacy_build_matrix`（不再调用）。
+
+**⚠️ 诊断到的缺口（如实报告，未粉饰）**：`frozen.yaml` **不含**两个生成参数 ——
+**N1 的频带 `band_hz`（[5.0, 80.0]）** 与 **N2 的 `f_main_hz`（30.0）**。
+核实方法：全文件搜 `band` 命中**全为噪声名 `band_limited_random` 的子串**；
+`30.0` **零命中**。⇒ **字面意义上"矩阵 100% 只来自 frozen.yaml"在本单不可能达成**，
+因为本单**明文禁止改 frozen.yaml**（新增字段即冻结件变更，须新版本 + 新 tag + 书面说明）。
+
+**处置（把通道操作性地关死，而非靠自律）**：两参数从草案读取，
+但**草案的 SHA256 钉死在代码里**（`full_matrix.DRAFT_PIN_SHA256`）；
+草案一经改动，守卫**立即失败**。若签发方希望单一冻结来源，
+洁净修法是**新冻结版本 + 新 tag** 覆盖这两项。
+
+**验证 `metrics.csv` 仍有效**：新（冻结件来源）矩阵与 Run 2 的 as-run 矩阵
+**(config_id, seed) 集合完全相同**（各 270，对称差为空）⇒ **无需重跑**（与签发方判断一致）。
+
+**config_matrix.yaml 已降级**：顶部加横幅注明「**草案历史件**」，仅承担上述两参数来源，
+受哈希钉死保护。因横幅改变草案字节，**钉死值在同 commit 内同步更新**。
+
+**R-M 新守卫（4 项，含反证）**：① runner 矩阵 ≡ 冻结件轴笛卡尔积（**逐格**非抽样）；
+② `run_matrix` 读冻结件 + `build_matrix` 无参默认（**源码级**）；
+③ 钉死值 = 草案实测哈希；④ **反证**：篡改钉死值时 `_draft_generation_params` **fail fast**。
+
+#### pywt 已知警告入册
+
+`docs/metrics-spec.md` **§8 已知运行时警告**：
+`pywt/_thresholding.py:22 RuntimeWarning: overflow encountered in divide`（软阈值内部）。
+**警告非错误**、输出全有限 ⇒ **保持冻结行为不改**，论文附录可提。
+
+#### 统计预注册（**先落盘，后运行**）
+
+`results/stats/preregistration.md`（3785 B）在任何统计运行**之前**落盘，
+含：配对单位（同 `(config_id, seed)` 内 10 对）· 符号翻转置换 **B=10,000** 双侧 · α=0.05 ·
+**Holm**（族 = 每「指标 × 分层键」内 10 对）· 效应量 = 中位配对差 · **分层自助 95% CI B=10,000** ·
+**18 个分层键**（全局 1 + 模型 2 + 噪声 3 + 档位 3 + 主频 3 + 模型×噪声 6）· 5 指标
+（CNA 仅 N2/N3）· 宏平均（逐方法中位与均值 + CI）· **显式种子 20261001（置换）/ 20261002（自助）** ·
+**报告纪律**（只描述、不下"谁最好"判断、18 层全报、跑后不得调整）。
+
+#### 统计运行（`execution/stats.py`，9949 B）
+
+```
+耗时 25.02 s
+pairwise.csv 行数 = 900（= 10 对 × 5 指标 × 18 分层键）
+macro_average.csv 行数 = 25
+```
+
+**⚠️ 一次自我抓错（如实）**：首版脚本按 **6 个"分层类型"** 聚合，产出 **300 行** —
+与预注册公式（**900**）不符。**预注册的公式当场把它抓住**。修正为按 **18 个分层键**逐格出表后
+= **900 行**，与公式严格一致。
+> 教训：**预注册的产出规模公式本身就是一条守卫**。若当时"300 行也说得过去"就收下，
+> 交付的就是**掩盖了分层分辨率**的结果。
+
+#### 验收门自检
+
+| 项 | 结果 |
+| :--- | :--- |
+| pairwise 行数 = 公式 | **900 = 10×5×18** ✅ |
+| N1 的 CNA 全部 N/A | ✅（10/10 行全 `NA`；CNA 非空 **150** 行 = N2/N3） |
+| 随机种子已固定 | ✅ `20261001` / `20261002`（显式注入） |
+| R-M 守卫通过 | ✅ 17/17（含 4 项 R-M 专项） |
+| `pytest` 全绿 | ✅ **collected 179 / 179 passed** |
+| 输入 `metrics.csv` 未改 | ✅ 哈希 `CD749987…443933` 未变 |
+| `frozen.yaml` 未改 | ✅ 哈希 `1695C196…2944A3F` 未变 |
+
+#### 产出与哈希
+
+| 文件 | 字节 | SHA256 |
+| :--- | ---: | :--- |
+| `results/stats/preregistration.md` | 3785 | `174A25499ADB1525229C1F27BEEF4C221568EBA552ADF6B15B8831948FD682FD` |
+| `results/stats/pairwise.csv` | 147261 | `FC0E68C5DD0DA584348AACB2EB95F6244C0C4317058989542C62C9CF50AE48EA` |
+| `results/stats/macro_average.csv` | 3702 | `1FE1950B76A5E0E403735E04E2585942E84A532EFBA168444A90A3EC6BA0CC6C` |
+| `results/stats/summary.md` | 9626 | `382269163907B46081498E5FECA5231CB3D536481CFA4E6FCE1E236CBAE7865B` |
+| `results/stats/fig_macro_average.png` | 112900 | `5902200CEEE48F09DF1624F4EE74C52B6533B513D0A9CD85B787969A5251FAAE` |
+| `results/stats/fig_strata_heatmap.png` | 200124 | `D62FB850261E3D01C662CD47F0F73FE39A02395531E381DF40DA3439422A963E` |
+| `results/stats/manifest.json` | 1376 | `D7F81FAD0D93D61A804A143A3F00D2189A1FB581B1C7BE7EC1C44A33C3947234` |
+| `execution/stats.py` | 9949 | `586D82C39B0A537B6CE325CCA2052CCA63EA5048CE0B495D7D2C95778113C5C5` |
+| `execution/full_matrix.py`（R-M 后） | 18635 | `FE9F1FC305FB190F649680E6D26039049B6053DDF6FD8F2493DAA6B967CF90D2` |
+| `tests/test_matrix_integrity.py`（R-M 后） | 11094 | `84718FE8E4E3B1F59BD263DEAB85DE7279DD1AB8D852C95A92D8D15A79D60F54` |
+| `configs/config_matrix.yaml`（降级后） | 19791 | `F8A0741122A71346E862166136BF130CE8B61F2EB20523BADE9967F91FA49FF8` |
+| `docs/metrics-spec.md`（§8 后） | 19558 | `FB63E2112C2984578BAB38EAA427F6D3C8B5A15330C37BEE68B8A5004588EEF5` |
+
+#### 结果概览（**只描述，不作"谁最好"判断**）
+
+- Holm 校正后显著：**672 / 870** 个有效检验
+  （占 77.2%）。
+- 宏平均（中位，270 观测）——
+  **仅数值陈列，不含排序性结论**：
+
+| 指标 | 逐方法中位（按方法名字母序） |
+| :--- | :--- |
+| ΔSNR (dB) | `fk_filter`=0.932; `fx_deconv`=1.917e-10; `ssa_decomposition`=0.2101; `svd_lowrank`=0.9482; `wavelet_threshold`=0.04222 |
+| Lsig | `fk_filter`=0.009706; `fx_deconv`=0.02915; `ssa_decomposition`=0.04593; `svd_lowrank`=0.01122; `wavelet_threshold`=0.01513 |
+| CNA (dB) | `fk_filter`=14.69; `fx_deconv`=0.05713; `ssa_decomposition`=2.08; `svd_lowrank`=6.775; `wavelet_threshold`=0.01818 |
+| 事件到时中位 (ms) | `fk_filter`=0; `fx_deconv`=0; `ssa_decomposition`=2; `svd_lowrank`=0; `wavelet_threshold`=0 |
+| 事件能量中位 | `fk_filter`=0.0108; `fx_deconv`=0.039; `ssa_decomposition`=0.0714; `svd_lowrank`=0.0152; `wavelet_threshold`=0.01739 |
+
+> **报告纪律（预注册承诺，已遵守）**：① 只描述，**不含"谁最好"结论**（判断属 P3）；
+> ② **18 个分层键全部进表**（含不显著与反向），未选择性报告；
+> ③ 统计参数先落盘、运行后**未作任何调整**；④ 输入只读未改；⑤ **未实现融合**。
+
+#### 数据边界（如实）
+
+- 基于**合成数据**（M1/M2 × N1/N2/N3 × L1/L2/L3 × 15/25/40 Hz × 5 种子）；
+- **跨域泛化未测**（DL 槽位按裁定 J 留空）；
+- 分层自助 CI 为**分层内**重抽，**不做跨层推断**；
+- 本文件**不构成**野外适用性结论（野外评估属 P4）。
+
+#### 测试结果（含 collected 数）
+
+```
+collected 179 items
+============================= 179 passed in 17.85s ==============================
+```
+
+#### 红线遵守
+
+`results/metrics.csv` **未改**（只读输入）✅；**未看结果后改统计参数** ✅（预注册先落盘）✅；
+**未选择性报告分层** ✅（18 层全报）；**未实现融合** ✅（属 P3）；
+**未改 `frozen.yaml`** ✅；未跑去噪方法之外的新实验 ✅；未建 tag ✅；未 amend ✅。
