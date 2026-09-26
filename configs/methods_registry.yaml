@@ -1,0 +1,181 @@
+# =============================================================================
+# configs/methods_registry.yaml —— P2 方法注册表（**预注册稿**）
+# =============================================================================
+#
+# 依据：docs/task-sheets/P2.1-方法注册表与方法集实现-2026-10-02.md
+#        SHA256 前 8 位 = 5A8459B1（5988 B）
+# 冻结：**本文件为草案**，随 P2.2 冻结为 P2 增补件。冻结前可改；冻结后须新版本 + 新 tag + 书面说明。
+#
+# 纪律（任务单第一节第 2 条）：**登记与实现一一对应**。
+#   若实现必须偏离登记参数 → **先改登记、后改代码**，并在 execution-log 记录变更理由。
+
+meta:
+  stage: P2.1-draft
+  frozen: false
+  frozen_on: P2.2
+  protocol_source: {file: 'docs/protocol-v5.md', sha8: '67472625'}
+  mechanism_table_source: {file: 'docs/bibliography/mechanism-table.md', sha8: '04F46818'}
+  frozen_config_source: {file: 'configs/frozen.yaml', sha8: '1695C196'}
+  interface: 'run(noisy: np.ndarray, params: dict, rng: np.random.Generator) -> np.ndarray'
+
+# ---------------------------------------------------------------- 协议原文（逐字）
+protocol_method_clause:
+  quote: >
+    '复现4至6种跨类别代表性方法，覆盖滤波、变换阈值、分解、低秩和许可合格的预训练深度学习方法，
+    并强制保留至少一种针对相干噪声的强基线，如 f-k 滤波或 F-X 反褶积。'
+  location: 'docs/protocol-v5.md 第 18 行（二、研究设计）'
+  other_clauses:
+    - {location: '第 72 行（步骤4）', quote: '为4至6种方法建立统一输入输出接口；…第6周落后时仅删除一种非强基线方法，仍保留至少4种方法和相干噪声强基线。'}
+    - {location: '第 87 行（假设）', quote: '至少一种预训练深度学习基线具有可用代码、权重和与本项目开放方式兼容的许可；不满足许可条件的方法不得纳入。'}
+    - {location: '第 49 行（开放规范）', quote: '每种移植方法至少在一个作者示例或公开参考案例上完成定量比对：在相同参数下，输出归一化均方差不超过5%，或公开论文核心指标…'}
+
+# ---------------------------------------------------------------- 协议分类 → 实现映射
+protocol_categories:
+  - {category: 滤波, required: true, methods: [fk_filter, fx_deconv], note: '含协议强制保留的相干噪声强基线'}
+  - {category: 变换阈值, required: true, methods: [wavelet_threshold]}
+  - {category: 分解, required: true, methods: [ssa_decomposition]}
+  - {category: 低秩, required: true, methods: [svd_lowrank]}
+  - {category: 许可合格的预训练深度学习, required: false, methods: [], status: 'PENDING — 见 training_protocol_draft.yaml；批准前不得开始任何训练'}
+
+methods_count: 5
+methods_count_note: >
+  协议要求 **4 至 6 种**；本批实现 **5 种**（滤波 2 + 变换阈值 1 + 分解 1 + 低秩 1），
+  落在区间内，且**覆盖全部 4 个必须类别**、含**相干噪声强基线**（协议第 18 行义务）。
+  第 6 种（深度学习）**待许可核验与训练协议批准**，未纳入本批。
+
+# ---------------------------------------------------------------- 具名出入（如实报告）
+category_vs_mechanism_table:
+  protocol_categories: [滤波, 变换阈值, 分解, 低秩, 深度学习]
+  mechanism_table_families:
+    - 深度学习 / 神经网络
+    - 稀疏 / 低秩 / 矩阵分解
+    - '多尺度变换（小波/曲波/剪切波/contourlet）'
+    - '模态分解（EMD/VMD/SSA）'
+    - '中值/均值/预测滤波（经典）'
+    - 局部相似度 / 正交化 / 结构约束
+    - 物理/偏微分方程约束（扩散/反应扩散）
+    - 其他 / 未归类
+  discrepancy: >
+    **存在出入，如实报告**：机制表为 **8 族**（面向文献分类），协议为 **5 类**（面向方法实现）；
+    二者**并非一一对应**。协议 5 类中「滤波」可映射机制表「中值/均值/预测滤波（经典）」；
+    「变换阈值」映射「多尺度变换」；「分解」映射「模态分解」与「稀疏/低秩/矩阵分解」的一部分；
+    「低秩」映射「稀疏/低秩/矩阵分解」；「深度学习」映射「深度学习/神经网络」。
+    机制表的「局部相似度/正交化/结构约束」与「物理/偏微分方程约束」两族**在协议 5 类中无直接对应槽位**。
+  handling: >
+    **不自行增删方法**（任务单第一节第 3 条）。本批按**协议 5 类**实现，
+    机制表未对应族**不作为必选类别**；该出入**如实记录于此，待签发方裁定**。
+
+# ---------------------------------------------------------------- 逐方法登记
+methods:
+
+  - name: fk_filter
+    family_mechanism_table: '中值/均值/预测滤波（经典）'
+    protocol_category: 滤波
+    is_strong_baseline: true
+    key_params:
+      dt: {value: 0.002, unit: s, source: 'frozen.yaml item_02（dt_s）'}
+      dx: {value: 10.0, unit: m, source: 'frozen.yaml item_02（dx_m）'}
+      v_cut_m_s: {value: 800.0, unit: m/s, source: '**方法级默认**；协议未指定，登记为方法自身默认，随 P2.2 冻结'}
+      f_lo_hz: {value: 5.0, source: 'frozen.yaml item_05（频散 f_lo_hz）'}
+      f_hi_hz: {value: 80.0, source: 'frozen.yaml item_04（N1 频带上限）'}
+    applicable_noise: [linear_coherent, dispersive_surface_wave]
+    applicable_noise_note: '面向相干噪声的强基线；对带限随机噪声作用有限'
+    implementation: self_implemented
+    implementation_note: '纯 numpy FFT + 逐点掩码；未见需移植的第三方实现'
+    license: {spdx: MIT, holder: 'Zhang Tao (张涛)', note: '项目自有实现，随仓库 MIT'}
+    runtime_deps: [numpy]
+    source: {paper_doi: null, code_repo: null, note: '**语料内未检出对应具名原始文献**（f-k 扇形/速度滤波）；方法在协议第 18 行作为**强制保留的相干噪声强基线**具名列出，实现依据为教科书级标准做法'}
+    module: src/bench/methods/fk_filter.py
+
+  - name: fx_deconv
+    family_mechanism_table: '中值/均值/预测滤波（经典）'
+    protocol_category: 滤波
+    is_strong_baseline: true
+    key_params:
+      dt: {value: 0.002, unit: s, source: 'frozen.yaml item_02'}
+      order: {value: 4, source: '**方法级默认**；协议未指定'}
+      f_lo_hz: {value: 5.0, source: 'frozen.yaml item_05'}
+      f_hi_hz: {value: 80.0, source: 'frozen.yaml item_04'}
+      eps: {value: 1.0e-8, source: '**方法级默认**（岭正则，防病态）'}
+    applicable_noise: [linear_coherent, dispersive_surface_wave, band_limited_random]
+    applicable_noise_note: '协议列举的相干噪声强基线备选；对随机噪声亦有效（不可预测分量被削弱）'
+    implementation: self_implemented
+    implementation_note: '逐频率切片岭正则最小二乘 AR；厄米对称补齐保证实值输出'
+    license: {spdx: MIT, holder: 'Zhang Tao (张涛)', note: '项目自有实现，随仓库 MIT'}
+    runtime_deps: [numpy]
+    source: {paper_doi: '10.1190/1.1443920', code_repo: null, year: 1995, title: 'Lateral prediction for noise attenuation by t-x and f-x techniques', doi_provenance: '本仓 docs/bibliography/screening.csv（语料内，可审计）'}
+    module: src/bench/methods/fx_deconv.py
+
+  - name: wavelet_threshold
+    family_mechanism_table: '多尺度变换（小波/曲波/剪切波/contourlet）'
+    protocol_category: 变换阈值
+    is_strong_baseline: false
+    key_params:
+      wavelet: {value: db4, source: '**方法级默认**；协议未指定'}
+      level: {value: null, note: 'None = PyWavelets 依信号长度自动取最大层'}
+      mult: {value: 1.0, source: '通用阈值倍数（Donoho）；协议未指定'} 
+      mode: {value: soft, source: '软阈值'}
+    applicable_noise: [band_limited_random]
+    applicable_noise_note: '面向随机噪声的通用去噪；对强相干噪声作用有限'
+    implementation: official_library
+    implementation_note: '调用 PyWavelets 官方 API：wavedec2 / waverec2 / threshold（**已核官方 API**，见 execution-log）'
+    license: {spdx: MIT, note: 'PyWavelets 为 MIT；本项为库调用，不移植其源码'}
+    runtime_deps: [numpy, PyWavelets]
+    source: {paper_doi: '10.1190/1.1444290', code_repo: null, year: 1997, title: 'Ground-roll suppression using the wavelet transform', doi_provenance: '本仓 docs/bibliography/screening.csv（语料内，可审计）'}
+    module: src/bench/methods/wavelet_threshold.py
+
+  - name: ssa_decomposition
+    family_mechanism_table: '模态分解（EMD/VMD/SSA）'
+    protocol_category: 分解
+    is_strong_baseline: false
+    key_params:
+      window_len: {value: 64, source: '**方法级默认**（= 道数 64，嵌入维）；协议未指定'}
+      n_components: {value: 8, source: '**方法级默认**；协议未指定'}
+    applicable_noise: [band_limited_random]
+    applicable_noise_note: '逐道轨迹矩阵分解重建；对随机噪声有效，对强相干干扰作用有限'
+    implementation: self_implemented
+    implementation_note: 'numpy SVD + 对角平均（diagonal averaging）；逐道处理'
+    license: {spdx: MIT, holder: 'Zhang Tao (张涛)', note: '项目自有实现，随仓库 MIT'}
+    runtime_deps: [numpy]
+    source: {paper_doi: '10.1190/geo2015-0264.1', code_repo: null, year: 2016, title: 'Damped multichannel singular spectrum analysis for 3D random noise attenuation', doi_provenance: '本仓 docs/bibliography/screening.csv（语料内，可审计）'}
+    module: src/bench/methods/ssa_decomposition.py
+
+  - name: svd_lowrank
+    family_mechanism_table: '稀疏 / 低秩 / 矩阵分解'
+    protocol_category: 低秩
+    is_strong_baseline: false
+    key_params:
+      rank: {value: null, note: 'None = 由 energy_frac 自动定秩'}
+      energy_frac: {value: 0.95, source: '**方法级默认**；协议未指定'}
+    applicable_noise: [linear_coherent, dispersive_surface_wave]
+    applicable_noise_note: '相干能量在低秩子空间占比高；对随机噪声效果弱'
+    implementation: self_implemented
+    implementation_note: 'numpy 截断 SVD（full_matrices=False）'
+    license: {spdx: MIT, holder: 'Zhang Tao (张涛)', note: '项目自有实现，随仓库 MIT'}
+    runtime_deps: [numpy]
+    source: {paper_doi: '10.1109/tgrs.2017.2698342', code_repo: null, year: 2017, title: 'Empirical Low-Rank Approximation for Seismic Noise Attenuation', doi_provenance: '本仓 docs/bibliography/screening.csv（语料内，可审计）'}
+    module: src/bench/methods/svd_lowrank.py
+
+# ---------------------------------------------------------------- 参数策略（防「逐方法调参」）
+parameter_policy:
+  rule: >
+    **所有方法参数一律使用本表登记的默认值**，在 P2 全矩阵中**不做逐方法调参**。
+    这是多方法对比最常见的可信度缺口：逐方法调参即等于逐方法作弊。
+  unspecified_params: '协议未指定的参数（v_cut / order / wavelets / window_len / rank 等）登记为「方法级默认」，随 P2.2 一并冻结'
+  change_process: '若须改参数 → **先改本表、后改代码**，execution-log 记理由'
+
+# ---------------------------------------------------------------- 冒烟证据（每方法，冻结观测）
+smoke_evidence:
+  observation: '冻结观测：M1 / N1 / L1 / f_main=25 Hz / seed=101（54×5 中任一）'
+  grid: [512, 64]
+  criteria: ['y_hat 形状与输入一致', '全有限（无 NaN/Inf）', '同配置同种子两次运行逐字节相同', '运行时间入账']
+  results:
+    - {name: fk_filter, shape_ok: true, all_finite: true, byte_identical: true, ms: 1.5, delta_snr_db: 0.982}
+    - {name: fx_deconv, shape_ok: true, all_finite: true, byte_identical: true, ms: 3.6, delta_snr_db: 5.933}
+    - {name: wavelet_threshold, shape_ok: true, all_finite: true, byte_identical: true, ms: 4.6, delta_snr_db: 2.355}
+    - {name: ssa_decomposition, shape_ok: true, all_finite: true, byte_identical: true, ms: 288.4, delta_snr_db: 0.308}
+    - {name: svd_lowrank, shape_ok: true, all_finite: true, byte_identical: true, ms: 4.5, delta_snr_db: 3.974}
+  verdict: '5/5 四项全过'
+  delta_snr_note: >
+    **ΔSNR 仅作冒烟健全性检查，不是主实验结果**（主实验在 P2.2 全矩阵）。
+    单个观测上的数值不构成任何方法优劣结论。
