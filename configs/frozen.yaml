@@ -1,0 +1,474 @@
+# =============================================================================
+# configs/frozen.yaml —— P1 全量配置冻结（P1.5）
+# =============================================================================
+#
+# 依据：docs/task-sheets/P1.5-全量配置冻结-2026-10-04.md
+#        SHA256 前 8 位 = 61419E78（字节 7771，SHA256 61419E78BAFB5BBDC2833C4CD4ED4B9B5132559810189B15D9CC9C747013D488）
+#
+# 本文件是 P2（云上主实验）的**唯一配置权威**。冻结后任何修改都必须：
+#   新版本文件 + 新 tag + 书面说明（见 docs/FROZEN-CHECKLIST.md 末节）。
+# **缺一项即视为未冻结，P2 不得启动**。
+#
+# 每项的 `source` 字段给出**来源归档件名 + SHA256 前 8 位**。
+
+meta:
+  stage: P1.5
+  frozen: true
+  frozen_on: '2026-10-04'
+  authority: '本文件为P2唯一配置权威'
+  checklist: docs/FROZEN-CHECKLIST.md
+  item_count: 22
+
+# ---------------------------------------------------------------- 1 合成配置矩阵
+item_01_synthetic_matrix:
+  source: {file: 'docs/task-sheets/P1.1-合成数据生成器完整版-2026-09-30.md', sha8: 'A09EA0A8'}
+  also_from: [{file: 'docs/task-sheets/P1.2-Am3-验收通过与两处更正两项裁定-2026-10-01.md', sha8: '3A120A2E'}]
+  formula: '(2 models) x (3 noise types) x (3 levels) x (3 f_main) = 54 configs'
+  configs_total: 54
+  observations_formula: '54 configs x 5 seeds = 270 observations'
+  observations_total: 270
+  seeds: [101, 202, 303, 404, 505]
+  axes: {models: [M1, M2], noise_types: [N1, N2, N3], noise_levels: [L1, L2, L3], f_main_hz: [15.0, 25.0, 40.0]}
+  n2_level_slot_interpretation: >
+    N2（线性相干）不接受 amplitude_ratio（特例条款），其 level 槽位由 param_slots.n2_v_app_m_s
+    [800, 1500, 3000] 承担（L1/L2/L3 依次对应）。**本执行方解读**，依据 config_matrix 的
+    param_slots 与 N2 特例；如签发方另有口径，以签发方为准。
+
+# ---------------------------------------------------------------- 2 主模型参数
+item_02_model_m1:
+  source: {file: 'docs/task-sheets/P1.1-合成数据生成器完整版-2026-09-30.md', sha8: 'A09EA0A8'}
+  id: M1
+  name: layered-horizontal
+  params: {n_layers: 200, sparsity: 0.3}
+  dt_s: 0.002
+  dx_m: 10.0
+  n_samples: 512
+  n_traces: 64
+  f_main_hz_bands: [15.0, 25.0, 40.0]
+
+# ---------------------------------------------------------------- 3 第二模型参数
+item_03_model_m2:
+  source: {file: 'docs/task-sheets/P1.1-合成数据生成器完整版-2026-09-30.md', sha8: 'A09EA0A8'}
+  id: M2
+  name: structure-dip-curv-fault
+  params:
+    n_samples: 512
+    n_traces: 64
+    n_events: 6
+    dip_deg_range: [-18.0, 18.0]
+    curvature_range: [-0.35, 0.35]
+    fault_trace_fraction: 0.5
+    fault_throw_samples: 25.0
+    lateral_velocity_gradient: 0.0
+    sparsity: 0.55
+  non_horizontality_evidence: '结构张量倾角中位绝对值（P1.1 验收 f）：9.33 度 > 阈值'
+
+# ---------------------------------------------------------------- 4 噪声强度档位（双口径）
+item_04_noise_levels:
+  source: {file: 'docs/task-sheets/P1.2-Am3-验收通过与两处更正两项裁定-2026-10-01.md', sha8: '3A120A2E'}
+  also_from: [{file: 'docs/task-sheets/P1.1-Am1-频散物理合理性与报告口径-2026-09-30.md', sha8: 'F7E0BB32'}]
+  criterion_i_normative:
+    name: target_input_snr_db
+    role: '规范口径（normative）：对外报告与三态判定以此为准'
+    requirement: '每个观测的实测输入 SNR 必须逐个记录并报告'
+  criterion_ii_descriptive:
+    name: amplitude_ratio
+    role: '描述性口径（descriptive）：仅用于生成实现'
+    values: {L1: 0.3, L2: 0.6, L3: 1.0}
+  n2_special_clause: >
+    N2（线性相干）**口径 (ii) 不适用**：add_linear_coherent 的幅度由内部随机源给出
+    (uniform 0.5-1.5)，**不接受 amplitude_ratio 参数**；三档 SNR 完全相同（不构成档位）。
+
+  calibration_table_measured:
+    note: '**实测**标定表（本批按冻结尺寸逐观测实跑 270 观测）；规范口径为实测，不按名义假定'
+    grid: [512, 64]
+    rows:
+      - {model: M1, noise_id: N1, noise_name: band_limited_random, level: L1, amplitude_ratio: 0.3,
+         snr_median_db: 10.46, snr_min_db: 10.46, snr_max_db: 10.46, snr_analytic_db: 10.46, n_obs: 5}
+      - {model: M1, noise_id: N1, noise_name: band_limited_random, level: L2, amplitude_ratio: 0.6,
+         snr_median_db: 4.44, snr_min_db: 4.44, snr_max_db: 4.44, snr_analytic_db: 4.44, n_obs: 5}
+      - {model: M1, noise_id: N1, noise_name: band_limited_random, level: L3, amplitude_ratio: 1.0,
+         snr_median_db: 0.0, snr_min_db: 0.0, snr_max_db: 0.0, snr_analytic_db: 0.0, n_obs: 5}
+      - {model: M1, noise_id: N2, noise_name: linear_coherent, level: null, amplitude_ratio: null,
+         snr_median_db: 13.69, snr_min_db: 9.02, snr_max_db: 16.21, snr_analytic_db: null, n_obs: 5}
+      - {model: M1, noise_id: N3, noise_name: dispersive_surface_wave, level: L1, amplitude_ratio: 0.3,
+         snr_median_db: 10.46, snr_min_db: 10.46, snr_max_db: 10.46, snr_analytic_db: 10.46, n_obs: 5}
+      - {model: M1, noise_id: N3, noise_name: dispersive_surface_wave, level: L2, amplitude_ratio: 0.6,
+         snr_median_db: 4.44, snr_min_db: 4.44, snr_max_db: 4.44, snr_analytic_db: 4.44, n_obs: 5}
+      - {model: M1, noise_id: N3, noise_name: dispersive_surface_wave, level: L3, amplitude_ratio: 1.0,
+         snr_median_db: 0.0, snr_min_db: -0.0, snr_max_db: 0.0, snr_analytic_db: 0.0, n_obs: 5}
+      - {model: M2, noise_id: N1, noise_name: band_limited_random, level: L1, amplitude_ratio: 0.3,
+         snr_median_db: 10.46, snr_min_db: 10.46, snr_max_db: 10.46, snr_analytic_db: 10.46, n_obs: 5}
+      - {model: M2, noise_id: N1, noise_name: band_limited_random, level: L2, amplitude_ratio: 0.6,
+         snr_median_db: 4.44, snr_min_db: 4.44, snr_max_db: 4.44, snr_analytic_db: 4.44, n_obs: 5}
+      - {model: M2, noise_id: N1, noise_name: band_limited_random, level: L3, amplitude_ratio: 1.0,
+         snr_median_db: 0.0, snr_min_db: -0.0, snr_max_db: 0.0, snr_analytic_db: 0.0, n_obs: 5}
+      - {model: M2, noise_id: N2, noise_name: linear_coherent, level: null, amplitude_ratio: null,
+         snr_median_db: 9.07, snr_min_db: 6.48, snr_max_db: 18.79, snr_analytic_db: null, n_obs: 5}
+      - {model: M2, noise_id: N3, noise_name: dispersive_surface_wave, level: L1, amplitude_ratio: 0.3,
+         snr_median_db: 10.46, snr_min_db: 10.46, snr_max_db: 10.46, snr_analytic_db: 10.46, n_obs: 5}
+      - {model: M2, noise_id: N3, noise_name: dispersive_surface_wave, level: L2, amplitude_ratio: 0.6,
+         snr_median_db: 4.44, snr_min_db: 4.44, snr_max_db: 4.44, snr_analytic_db: 4.44, n_obs: 5}
+      - {model: M2, noise_id: N3, noise_name: dispersive_surface_wave, level: L3, amplitude_ratio: 1.0,
+         snr_median_db: -0.0, snr_min_db: -0.0, snr_max_db: 0.0, snr_analytic_db: 0.0, n_obs: 5}
+    findings:
+      - 'N1 与 N3 在 M1/M2 上映射完全一致（差 0.00 dB）——噪声按干净数据 RMS 归一化，SNR 由 ratio 唯一决定'
+      - 'N2 无档位概念（口径 ii 不适用）；M1 13.69 dB / M2 9.07 dB（中位），映射不统一，如实并列'
+      - '**更正记录**：本执行方首版实测脚本误再乘一次干净 RMS，得 M1/N1/L1 = 16.51 dB；经核对实现语义（amplitude 本身即「相对干净数据 RMS 的倍率」）后修正，复测 = 10.46 dB，与解析值一致。'
+
+# ---------------------------------------------------------------- 5 频散面波
+item_05_dispersive_surface_wave:
+  source: {file: 'docs/task-sheets/P1.1-Am1-频散物理合理性与报告口径-2026-09-30.md', sha8: 'F7E0BB32'}
+  model: {v_model: linear, v0: 500.0, c: 10.0, a: 250.0, b: 0.5}
+  a_b_values_source: 'tests/test_data_acceptance.py DISP_A=250.0 / DISP_B=0.5（P1.1 已验收实现值）'
+  frequency_band_hz: [5.0, 25.0]
+  n_components: 24
+  probe_freqs_hz: [5.0, 8.0, 12.0, 15.0, 18.0, 22.0, 25.0]
+  dispersion_v_band_mps: [100.0, 3000.0]
+  band_check: 'R15-a：解析 v(f) 在整个预注册频带上必须落在 dispersion_v_band_mps 内，越界即 fail'
+  v_law: 'linear: v(f) = v0 + c*f'
+
+# ---------------------------------------------------------------- 6 掩码与事件窗
+item_06_mask_and_event_window:
+  source: {file: 'docs/task-sheets/P0.3-Am1-nT裁定与外部写入处置-2026-09-25.md', sha8: '2DD96C71'}
+  also_from: [{file: 'docs/task-sheets/P0.3-Am3-代码同源判定与数值约定核定-2026-09-25.md', sha8: '5F2F160E'}, {file: 'docs/task-sheets/P1.3-Am1-面板选定验收与网格数字再核-2026-10-02.md', sha8: '87A4FA6A'}]
+  n_T_expr: '1/(f_main*dt)'
+  n_T_rule: 'half_up (math.floor(x + 0.5))'
+  n_T_rule_note: >
+    **取整口径澄清**：现行实现与全部测试均为 half-up（math.floor(x+0.5)）；
+    历史 execution-log 的 R4 注记写作「round（Python 内建 round 行为）」，该括号表述
+    **已被 half-up 取代**（40 Hz @ dt=2 ms：half-up = 13；Python round 会得 12）。
+    本条以**现行实现值**冻结，并禁止使用 round/floor(裸)/ceil/截断。
+  n_T_per_config:
+    - {f_main_hz: 15.0, n_T_expr: '1/(f_main*dt)', n_T_rule: half_up, n_T_int: 33,
+       boundary_min_distance_samples: 17}
+    - {f_main_hz: 25.0, n_T_expr: '1/(f_main*dt)', n_T_rule: half_up, n_T_int: 20,
+       boundary_min_distance_samples: 10}
+    - {f_main_hz: 40.0, n_T_expr: '1/(f_main*dt)', n_T_rule: half_up, n_T_int: 13,
+       boundary_min_distance_samples: 7}
+  event_mask_threshold:
+    rule: 'threshold = 0.5 * max|clean|（**相对系数预注册**；逐观测套用）'
+    rationale: >
+      绝对阈值会随模型/种子/主频的振幅标度漂移；以 max|clean| 的相对系数预注册，
+      既可复现又有物理含义（半高）；0.5 亦与既有验收测试使用的口径一致。
+    sensitivity_measured:
+      - {model: M1, frac_of_max: 0.3, mask_frac_undilated: 0.1348, mask_frac_dilated: 0.3652}
+      - {model: M1, frac_of_max: 0.4, mask_frac_undilated: 0.0762, mask_frac_dilated: 0.2285}
+      - {model: M1, frac_of_max: 0.5, mask_frac_undilated: 0.0430, mask_frac_dilated: 0.1465}
+      - {model: M1, frac_of_max: 0.6, mask_frac_undilated: 0.0234, mask_frac_dilated: 0.1133}
+      - {model: M1, frac_of_max: 0.7, mask_frac_undilated: 0.0117, mask_frac_dilated: 0.0566}
+      - {model: M2, frac_of_max: 0.3, mask_frac_undilated: 0.0359, mask_frac_dilated: 0.0836}
+      - {model: M2, frac_of_max: 0.4, mask_frac_undilated: 0.0250, mask_frac_dilated: 0.0779}
+      - {model: M2, frac_of_max: 0.5, mask_frac_undilated: 0.0125, mask_frac_dilated: 0.0496}
+      - {model: M2, frac_of_max: 0.6, mask_frac_undilated: 0.0111, mask_frac_dilated: 0.0482}
+      - {model: M2, frac_of_max: 0.7, mask_frac_undilated: 0.0096, mask_frac_dilated: 0.0467}
+    chosen_frac_of_max: 0.5
+  dilation_axis: '仅沿时间轴（axis=0）；**不作用于道方向**（axis=1 恒宽 1）'
+  anchor_rule: 'left = n_T // 2；right = n_T - 1 - left（显式写死，不依赖库默认锚点）'
+  event_distance_from_boundary: '>= ceil(n_T/2) 样点（C5 义务）'
+  c5_boundary_check_measured: {"M1": {"n_T": 20, "half_ceil": 10, "masked_rows": 22, "rows_violating": 0}, "M2": {"n_T": 20, "half_ceil": 10, "masked_rows": 27, "rows_violating": 0}}
+  fp_fallback_ladder:
+    rule: 'k_mad = 3.0 起，若事件窗 < 2 则按序试 2.5 -> 2.0 -> 1.5，取首个 >= 2 窗者；直至 1.5 仍 <2 则记 N/A'
+    per_panel_chosen: {FP1: 1.5, FP2: 3.0, FP3: 2.5}
+    per_panel_ladder: {FP1: [1, 1, 1, 2], FP2: [3], FP3: [0, 3]}
+    status: '事前声明（P1.3-Am1 裁定 F）；三面板均达 >= 2 窗，无需 N/A'
+
+# ---------------------------------------------------------------- 7 数值约定 C1-C6
+item_07_numeric_conventions_C1_C6:
+  source: {file: 'docs/task-sheets/P0.3-Am3-代码同源判定与数值约定核定-2026-09-25.md', sha8: '5F2F160E'}
+  C1_snr_db_perfect: '||y-s||_2 == 0 -> 返回 +inf 并置标志（不抛异常、不返回 NaN）'
+  C2_delta_snr_double_perfect: 'x == s 且 y == s -> 显式 return 0.0（主实验输入均含注入噪声，该分支不参与主结果）'
+  C3_flag_semantics: '标志仅反映输出去噪项，不得被 snr_db(s,x) 污染（不可变 SnrOutcome，取代模块级全局标志）'
+  C4_zero_size_array: '视作非法输入 -> raise ValueError（不得被误判为「完美去噪」）'
+  C5_mask_boundary: '数组端窗口按「越界即不贡献」截断，**不环绕**；贴边事件掩码支撑 < n_T'
+  C5_obligation: '事件窗选择须使事件距数组边界 >= ceil(n_T/2)'
+  C6_anchor: 'left = n_T//2、right = n_T-1-left，显式写死，不依赖库默认锚点'
+
+# ---------------------------------------------------------------- 8 CNA 建基规则
+item_08_cna_basis:
+  source: {file: 'docs/task-sheets/P1.2-Am2-CNA子空间张成阻断整改-2026-10-01.md', sha8: '3A0E0E8E'}
+  also_from: [{file: 'docs/task-sheets/P1.2-Am3-验收通过与两处更正两项裁定-2026-10-01.md', sha8: '3A120A2E'}]
+  construction: '分量基精确张成（**禁用抽样建基**）'
+  components:
+    linear_coherent: {function: 'bench.data.synthetic.linear_coherent_basis', dimension_per_param_set: 1, v_app_m_s: [800.0, 1500.0, 3000.0], f_main_hz: [15.0, 25.0, 40.0], plus_injection_point: true}
+    dispersive_surface_wave: {function: 'bench.data.synthetic.dispersion_component_basis', dimension_per_param_set: '2 * n_components', f_axis_rule: 'np.linspace(f_lo, f_hi, n_components)', v_model: linear, v0: 500.0, c: 10.0, n_components: 24}
+  rank_tol: 1.0e-8
+  rank_tol_semantics: '保留奇异值 >= rank_tol * sigma_max 的方向'
+  rank_tol_status: '确认（沿用既有实现值）'
+  sampling_basis_prohibited:
+    rule: '禁止以「抽 N 个随机实现」建基'
+    reasons:
+      - '需要 >= 48 个同一参数族的实现才能张成该家族（实测 k=48 与 k=60 均达 0.0000%，抽样在 k >= 家族维数时收敛）'
+      - '参数一变家族就变（v0/c/f_lo/f_hi/n_components 任一变化都需重新抽样）'
+      - '模板集合依赖任意种子选择，可复现性与参数显式性都差'
+  grid_rule: '凡回收/回放类测量，必须使用注册配置网格 (512, 64)'
+  grid_dependency_statement_corrected: >
+    「k=40 的回收误差随观测网格变化（本执行方实测 0.058%-43.4%；签发方实测 13.8%-34.2%）；
+    **≈0 只出现在 k >= 家族（压缩后）维数**」。
+    `min(n_samples, n_traces, 2*n_components)` 是**单个实现作为矩阵的秩上界**，**不是家族维数**；
+    家族维数由**多个独立实现展平后张成的子空间**决定，实测两网格**均为 48**（= 2*n_components）。
+  withdrawn_row_retracted: >
+    「256x16 上 k=40 回收误差中位 0.0561%」**已撤回**：该行 n_components = 24，
+    **其运行脚本未入库，成因无法确证**；可证事实仅为「不可在注册参数族下复现」
+    （签发方同网格同族得 13.8323%），以及两实验奇异值谱相差约 500 倍（抽样不等价）。
+  standing_rule_15: '证据性判定的四要件（见 docs/quarantine-register.md）'
+
+# ---------------------------------------------------------------- 9 野外面板
+item_09_field_panels:
+  source: {file: 'docs/task-sheets/P1.3-Am1-面板选定验收与网格数字再核-2026-10-02.md', sha8: '87A4FA6A'}
+  also_from: [{file: 'docs/task-sheets/P1.3-野外3面板选定-2026-10-02.md', sha8: '0EFEBA6B'}]
+  source_doi: '10.5281/zenodo.10407771'
+  panels:
+    - {id: FP1, region: NAN, traces: [2000, 4000], samples: [0, 1000], n_events: 1,
+       n_T: 40, dip_median_deg: 82.168, chosen_k_mad: 1.5,
+       coherent_energy_ratio: 0.3777, lateral_coherence: 0.1309,
+       preview: docs/figures/p1_field_panel_1.png}
+    - {id: FP2, region: MV, traces: [4000, 6000], samples: [1000, 2000], n_events: 3,
+       n_T: 40, dip_median_deg: 84.983, chosen_k_mad: 3.0,
+       coherent_energy_ratio: 0.3562, lateral_coherence: 0.1787,
+       preview: docs/figures/p1_field_panel_2.png}
+    - {id: FP3, region: MV, traces: [2000, 4000], samples: [1000, 2000], n_events: 0,
+       n_T: 40, dip_median_deg: 84.910, chosen_k_mad: 2.5,
+       coherent_energy_ratio: 0.3544, lateral_coherence: 0.2058,
+       preview: docs/figures/p1_field_panel_3.png}
+  selection_time_order: '在选择过程中**不得运行任何去噪方法**、不得参考任何去噪/滤波结果'
+  selection_script: 'src/bench/field/panel_selection.py（可参数化重放；--compare 退出码 0）'
+  coverage: '3 面板覆盖两测区（NAN 1 + MV 2）'
+
+# ---------------------------------------------------------------- 10 融合保守度 3 档
+item_10_fusion_conservativeness:
+  source: {file: 'docs/task-sheets/P1.3-野外3面板选定-2026-10-02.md', sha8: '0EFEBA6B'}
+  semantics: >
+    「保守度」控制融合权重对相干噪声鉴别分数的响应强度：越保守 = 越接近输入；
+    参数化为相干噪声权重抑制系数 gamma：修正后权重 w' = w * (1 - gamma * s)，s 为鉴别分数。
+  levels:
+    - {id: G_minus20, gamma: 0.4, note: '标称值 -20%'}
+    - {id: G_nom, gamma: 0.5, note: 标称值}
+    - {id: G_plus20, gamma: 0.6, note: '标称值 +20%'}
+  settings_count: '3 面板 x 3 档保守度 = 9 个预注册野外设置'
+  frozen_on: P1.5
+
+# ---------------------------------------------------------------- 11 野外权重与统计规则
+item_11_field_weights_and_stats:
+  source: {file: 'docs/protocol-v5.md', sha8: '67472625'}
+  also_from: [{file: 'README.md', sha8: 'B48DEFA1'}]
+  field_metrics_weights:
+    amplitude_preservation: 0.30    # 振幅保持
+    spectral_residual: 0.25         # 频谱残差
+    event_continuity: 0.25          # 同相轴连续性
+    blind_review: 0.20              # 盲评
+  composite: 'U = 0.30*振幅保持 + 0.25*频谱残差 + 0.25*同相轴连续性 + 0.20*盲评'
+  leaking_proxy: 'LP（独立泄漏代理），与融合局部相干度**不得共享代码与参数**'
+  statistics:
+    seed_aggregation: '配置内对种子求均值'
+    macro_average: '全配置**等权**宏平均（防配置含种子数影响权重）'
+    pairing: '同配置、同种子的配对差值'
+    primary_test: '双侧配对置换检验，显著性水平 0.05'
+    multiple_correction: 'Holm 校正（同一首要指标下对全部单法的比较）'
+    ci: '配置分层自助 95% 置信区间'
+
+# ---------------------------------------------------------------- 12 f-k 符号约定
+item_12_fk_sign_convention:
+  source: {file: 'docs/task-sheets/P0.4-Am2-独立性判据与fk符号纠错-2026-09-25.md', sha8: '456AF58B'}
+  transform_kernel: 'exp(-2*pi*i*(f*t + k*x))  （numpy.fft.fft2 的核）'
+  ridge: 'g(t,x) = W(t - x/v) -> G(f,k) = W_hat(f) * delta(k + f/v) -> 脊线 k = -f/v'
+  quadrant: 'f > 0 时脊位于 k < 0；回算须在 (f>0, k<0) 象限搜索，取 v = f/|k|'
+  warning: '**若改用 exp(-2*pi*i*(f*t - k*x)) 的约定，则符号相反（k = +f/v）**；复现者须先确认变换核符号'
+
+# ---------------------------------------------------------------- 13 证据等级（裁定 D）
+item_13_evidence_levels_ruling_D:
+  source: {file: 'docs/task-sheets/P1.2-Am3-验收通过与两处更正两项裁定-2026-10-01.md', sha8: '3A120A2E'}
+  core_event_evidence: '核心事件证据 = **真值窗指标**'
+  complex_matching: '复杂逐事件匹配**一律辅助**'
+  matching_report_condition: '报告匹配率须标注条件：无噪 1.0 / 含噪 0.731'
+
+# ---------------------------------------------------------------- 14 CNA 定位声明（R16-d）
+item_14_cna_positioning:
+  source: {file: 'docs/task-sheets/P1.2-Am2-CNA子空间张成阻断整改-2026-10-01.md', sha8: '3A0E0E8E'}
+  statement: 'CNA 为**注入基目标型**指标；子空间与注入参数同源；**不得推断对未见噪声的泛化**'
+
+# ---------------------------------------------------------------- 15 独立性与归属判据
+item_15_independence_and_attribution:
+  source: {file: 'docs/task-sheets/P0.4-Am2-独立性判据与fk符号纠错-2026-09-25.md', sha8: '456AF58B'}
+  also_from: [{file: 'docs/quarantine-register.md', sha8: '968E0B38'}]
+  attribution_classes: 'a/b/c 三类归属判据（见 quarantine-register）'
+  rule_15_four_requirements: '见 docs/quarantine-register.md 常设规则 15'
+  independence_criterion: '**逐串归属**（非整文件）；扫描限定 import 行（常设规则 14）'
+
+# ---------------------------------------------------------------- 16 环境依赖
+item_16_environment:
+  source: {file: 'docs/task-sheets/P0.1R+P0.2-联合任务单-2026-09-24.md', sha8: '4559F626'}
+  python: '3.12.10（要求 >= 3.11）'
+  venv: 'D:\projects\seismic-denoise-bench\.venv'
+  requirements_lock_file: requirements.lock
+  requirements_lock_sha256: 'C4E01097FDE09D979746A103F21C7A4EF5C20CCCA81F4AA6CF6D98F0B2AB7CC7'
+  requirements_lock_content: |
+    certifi==2026.7.22
+    cloudpickle==3.1.2
+    colorama==0.4.6
+    contourpy==1.4.0
+    cycler==0.12.1
+    fonttools==4.66.0
+    ImageIO==2.37.4
+    iniconfig==2.3.0
+    joblib==1.6.0
+    kiwisolver==1.5.1
+    lazy-loader==0.6
+    matplotlib==3.11.2
+    narwhals==2.26.0
+    networkx==3.7
+    numpy==2.5.3
+    packaging==26.3
+    pandas==3.0.6
+    pillow==12.3.0
+    pluggy==1.6.0
+    Pygments==2.21.0
+    pyparsing==3.3.3
+    pytest==9.1.1
+    python-dateutil==2.9.0.post0
+    PyWavelets==1.10.0
+    PyYAML==6.0.3
+    scikit-image==0.26.0
+    scikit-learn==1.9.1
+    scipy==1.18.1
+    segyio==1.9.14
+    six==1.17.0
+    threadpoolctl==3.7.0
+    tifffile==2026.9.20
+    tzdata==2026.4
+  key_versions: {numpy: 2.5.3, scipy: 1.18.1, segyio: 1.9.14, pytest: 9.1.1, PyYAML: 6.0.3}
+
+# ---------------------------------------------------------------- 17 数据与许可
+item_17_data_and_licenses:
+  source: {file: 'docs/task-sheets/P0.6-Am3-Zenodo野外数据路径-2026-09-25.md', sha8: '11F5EB99'}
+  also_from: [{file: 'docs/task-sheets/P0.LIC-预研-许可核验-2026-09-25.md', sha8: 'D9E57CAB'}]
+  field_data:
+    doi: '10.5281/zenodo.10407771'
+    license: CC BY 4.0
+    attribution_text: >
+      Dugan, B. (2023). Seismic and Hydrostratigraphic Characterization of the
+      Onshore-Offshore Freshwater Systems of Martha's Vineyard and Nantucket,
+      Massachusetts, USA: Field Survey Report [Data set]. Zenodo.
+      https://doi.org/10.5281/zenodo.10407771 - licensed under CC BY 4.0.
+    files: {MV: 'data/field/zenodo-mv/mv1001shots_subset8000.sgy', NAN: 'data/field/zenodo-mv/nan3001shots_subset8000.sgy'}
+    tracked_in_git: false
+  accepted_licenses: ['CC BY 4.0', 'CC BY 3.0', 'CC0 1.0', 'CC BY-SA 4.0', 'CC BY-SA 3.0']
+  excluded_licenses: ['CC BY-ND（全系）', 'NC（非商业，全系）']
+  segyio_lgpl3_boundary:
+    - '仅以库依赖形式使用，不修改、不再分发源码'
+    - '不静态链接、不内嵌其代码进本仓库自有源码'
+    - '仓库不以 segyio 源码为主体分发'
+    - '如未来需再分发，须附 LGPL-3.0 全文与相应声明'
+
+# ---------------------------------------------------------------- 18 检索边界声明
+item_18_search_boundary:
+  source: {file: 'docs/task-sheets/P1.4-Am1-竞争清单修订与两项披露-2026-09-27.md', sha8: '42A22F10'}
+  also_from: [{file: 'docs/task-sheets/P1.4-检索滚雪球与对比表-2026-10-03.md', sha8: 'E0C7C197'}]
+  bounded_snowball:
+    seeds: '<= 8 条/线（4 线 -> 32）'
+    backward: '<= 10 references / 种子'
+    forward: '<= 10 citations / 种子'
+    next_round_seeds: '<= 16'
+    rounds: 2
+    stop_criterion: '连续两轮无新直接竞争工作'
+    not_a_recall_proof: true
+  named_gap: >
+    Sandia 2023《Comparative Study of the Performance of Seismic Waveform Denoising Methods
+    Using Local and Near-Regional Data》不在语料中（实验室出版页，可能无 Crossref DOI /
+    未被检索源索引 -> 检索管道**结构性覆盖不到灰色文献**）。
+  screening_limitation: '相关性初筛**仅基于 title 字段**，未逐条读摘要，存在误判风险；滚雪球以引文关系部分弥补'
+  competition_definition:
+    direct_competition: 'D1 勘探反射地震域 且 D2 >=3 种去噪方法系统对比（作研究主体）且 D3 含互补性分析或融合机制'
+    adjacent_competition: '满足 D2 但不满足 D1 或 D3'
+    verdict: '直接竞争 0 篇（按上述定义）；边缘竞争 9 篇'
+    list_file: docs/bibliography/competitor-list.md
+  cut_off: '2026-10-04（此后不得新增文献）'
+
+# ---------------------------------------------------------------- 19 P2 判据修正记录
+item_19_p2_criterion_record:
+  source: {file: 'docs/task-sheets/P1.3-Am2-秩谱实测与判定规则-2026-10-02.md', sha8: '558F2FEF'}
+  original: 'outlier_trace_fraction < 0.05 -> 0/40 满足（0.0595-0.5165）；dead 40/40 满足 -> 均无区分力'
+  withdrawn_generation: '分位阈值（全候选逐道值 P5）**自证**，已撤回'
+  decoupled_scan: '绝对阈值 TAU=0.5 -> 异常道比例 0.9430-1.0000，**无可用工作点**'
+  final: '**P2（几何质量）不参与面板质量判据**（不追溯）'
+
+# ---------------------------------------------------------------- 20 P3 连带风险
+item_20_p3_connected_risk:
+  source: {file: 'docs/task-sheets/P1.5-全量配置冻结-2026-10-04.md', sha8: '61419E78'}
+  root_cause: >
+    P3 的 lateral_coherence 与 P2 **同根因**：同为**沿道轴的零延迟相关量**。
+    实测 top-3 取值 0.1309 / 0.1787 / 0.2058 —— **近零基线**（参考面板逐道值中位仅 0.0575）。
+  segy_evidence: 'SEG-Y 头段：8000 道，FieldRecord 唯一值 41、TraceNumber 唯一值 199、SortingCode 6；相邻道绝大多数为同炮内相邻接收道'
+  freeze_statement: '**冻结时如实记录其区分力有限**；P3 已冻结且签发方已验收，本批不改'
+  p4_requirement: >
+    P4 设计野外「同相轴连续性」指标时，**必须先验证该量在炮集数据上的可区分性**，
+    **不得继承同一缺陷**（即不得沿用未经验证的近零基线相关量）。
+
+# ---------------------------------------------------------------- 21 仓库身份
+item_21_repository_identity:
+  source: {file: 'docs/task-sheets/P0.1-建仓落盘-2026-09-23.md', sha8: '5D665B37'}
+  own_code_license: MIT
+  copyright: 'Zhang Tao (张涛)'
+  third_party: '第三方移植代码 / 权重 / 数据不适用 MIT，逐项登记于 docs/license-register.csv'
+  tag_system:
+    - {tag: protocol-frozen, object: '协议冻结', when: 'P0 末（已完成）'}
+    - {tag: config-frozen, object: '数据/指标/配置/野外 3 面板冻结', when: 'P1 末（本批）'}
+    - {tag: tri-state-locked, object: 'A/B/C 三态锁定', when: 'P4 末'}
+
+# ---------------------------------------------------------------- 22 时间与哈希
+item_22_time_and_hash:
+  source: {file: 'docs/task-sheets/P1.5-全量配置冻结-2026-10-04.md', sha8: '61419E78'}
+  frozen_at: '2026-09-26 10:56:56+08:00'
+  frozen_yaml_bytes: 29087
+  frozen_yaml_sha256: >-
+    '(自哈希在数学上不可内嵌于本文件——写入哈希即改变哈希。'
+    '故本文件的 SHA256 记录于 docs/FROZEN-CHECKLIST.md、docs/execution-log.md 与'
+    'git tag config-frozen 的附注三处，均可独立核验。)'
+  frozen_yaml_sha256_location: ['docs/FROZEN-CHECKLIST.md', 'docs/execution-log.md',
+                                'annotated tag config-frozen message']
+  tag: config-frozen
+  tag_type: annotated
+  tag_points_to_commit: '记录于 docs/FROZEN-CHECKLIST.md 与 docs/execution-log.md（tag 附注含本文件哈希）'
+  self_reference_note: >-
+    **工程说明（如实）**：任务单第 22 项要求「frozen.yaml 自身哈希 + tag 指向 commit」。
+    这两项在**同一文件内自指**不可能成立（哈希与 commit 均由文件内容决定）。
+    本批采用**可核验的外置记录**：哈希与 commit 写入 checklist / execution-log / tag 附注，
+    与本文件逐字节绑定。若签发方要求内嵌，需**新增一次 commit + 新 tag**（不可 amend）。
+
+# =============================================================================
+# 冻结前实测（成本重测，按冻结尺寸）
+# =============================================================================
+pre_freeze_measurements:
+  source: {file: 'docs/task-sheets/P1.5-全量配置冻结-2026-10-04.md', sha8: '61419E78'}
+  grid: [512, 64]
+  dt_s: 0.002
+  method: '预热后 15 次重复，取中位；tracemalloc 峰值内存'
+  per_model:
+    M1: {clean_ms_median: 0.266, obs_ms_median: 1.366, obs_ms_min: 1.206, obs_ms_max: 1.509,
+       peak_mb_median: 1.700, peak_mb_max: 1.700}
+    M2: {clean_ms_median: 13.966, obs_ms_median: 29.449, obs_ms_min: 16.397, obs_ms_max: 34.489,
+       peak_mb_median: 2.004, peak_mb_max: 2.004}
+  obs_per_model: 135
+  total_obs: 270
+  total_seconds: 4.160
+  peak_mb_bound: 2.004
+  concurrency: '顺序执行；总内存需求 = 单观测上界，而非 270 x'
+  comparison_with_prior_report:
+    prior: 'M1 8.6 ms / M2 21.3 ms / 合计 5.7 s（量级一致但数值未证）'
+    measured: 'M1 1.366 ms / M2 29.449 ms / 合计 4.160 s'
+    note: >
+      量级一致。M1 实测**快于**此前报告（此前值含首次库初始化与未预热开销），
+      M2 实测**慢于**此前报告（结构模型正演调用 forward_structure 的路径更长）。
+      **以本批实测为准**。
+
+determined_params:
+  source: {file: 'docs/task-sheets/P1.5-全量配置冻结-2026-10-04.md', sha8: '61419E78'}
+  event_mask_threshold_rule: "0.5 * max|clean|（相对系数预注册；逐观测套用）"
+  event_mask_frac_of_max: 0.5
+  cna_rank_tol: 1e-08
+  cna_rank_tol_status: "确认（沿用既有实现值）"
+  matcher_time_tol_ms: 40.0
+  matcher_trace_tol: 2
+  matcher_status: "沿用 P1.2-A2 先冻结值（确认沿用以保持跨阶段一致）"
+  n_T_rule_current_impl: "half_up: math.floor(1.0/(f_main*dt) + 0.5)"
+  n3_params: {"v_model": "linear", "v0": 500.0, "c": 10.0, "a": 250.0, "b": 0.5, "f_lo_hz": 5.0, "f_hi_hz": 25.0, "n_components": 24, "ab_source": "tests/test_data_acceptance.py DISP_A=250.0 / DISP_B=0.5（P1.1 已验收）"}
