@@ -14,6 +14,7 @@
 from __future__ import annotations
 
 import csv
+import hashlib
 import sys
 from pathlib import Path
 
@@ -81,10 +82,15 @@ def test_run_matrix_always_uses_full_method_set() -> None:
 
 
 # ══════════════════════════════════════ 2 冻结矩阵期望集合
+def _frozen() -> dict:
+    return yaml.safe_load((REPO / "configs" / "frozen.yaml").read_text(encoding="utf-8"))
+
+
 def _expected_cells() -> set[tuple[str, int, str]]:
-    cfg = yaml.safe_load((REPO / "configs" / "config_matrix.yaml").read_text(encoding="utf-8"))
-    entries = FM.build_matrix(cfg)
-    seeds = [int(s) for s in cfg["matrix"]["seeds"]]
+    """**R-M**：期望集从**冻结件**推导（矩阵唯一权威），不再读草案。"""
+    fz = _frozen()
+    entries = FM.build_matrix()                       # 无参 ⇒ 内部走 frozen.yaml
+    seeds = [int(s) for s in fz["item_01_synthetic_matrix"]["seeds"]]
     exp = set()
     for e in entries:
         cid = FM.config_id(e["model"]["id"], e["noise"]["id"],
@@ -96,12 +102,58 @@ def _expected_cells() -> set[tuple[str, int, str]]:
 
 
 def test_expected_matrix_shape_is_frozen_shape() -> None:
-    """冻结矩阵形状：54 配置 × 5 种子 × 5 方法 = 1350 格。"""
-    cfg = yaml.safe_load((REPO / "configs" / "config_matrix.yaml").read_text(encoding="utf-8"))
-    entries = FM.build_matrix(cfg)
+    """冻结矩阵形状：54 配置 × 5 种子 × 5 方法 = 1350 格（来源 = frozen.yaml）。"""
+    fz = _frozen()
+    entries = FM.build_matrix()
     assert len(entries) == 54, f"配置数须为 54，实测 {len(entries)}"
-    assert len(cfg["matrix"]["seeds"]) == 5
+    assert len(fz["item_01_synthetic_matrix"]["seeds"]) == 5
     assert len(_expected_cells()) == N_OBS * N_METHODS == 1350
+
+
+# ══════════════════════════════════════ R-M 专项守卫（矩阵来源 = frozen.yaml）
+def test_runner_matrix_comes_from_frozen_artifact() -> None:
+    """**R-M 核心**：runner 矩阵 ≡ 冻结件轴笛卡尔积（逐格比对，非抽样）。"""
+    fz = _frozen()
+    ax = fz["item_01_synthetic_matrix"]["axes"]
+    got = {FM.config_id(e["model"]["id"], e["noise"]["id"], e["level"]["id"], e["f_main"])
+           for e in FM.build_matrix()}
+    exp = {FM.config_id(m, n, l, f)
+           for m in ax["models"] for n in ax["noise_types"]
+           for l in ax["noise_levels"] for f in ax["f_main_hz"]}
+    assert got == exp, f"runner-only={sorted(got-exp)[:3]} frozen-only={sorted(exp-got)[:3]}"
+
+
+def test_runner_reads_frozen_not_draft_for_axes() -> None:
+    """**源码级守卫**：`run_matrix` 取冻结件；`build_matrix` 无参默认走冻结件。"""
+    src = (REPO / "execution" / "full_matrix.py").read_text(encoding="utf-8")
+    assert "cfg = _load_frozen()" in src, "run_matrix 必须从 _load_frozen() 取值"
+    assert 'REPO / "configs" / "config_matrix.yaml"' not in src.split("def _draft_generation_params")[0], \
+        "不得在 build_matrix 路径上读草案"
+    assert "def build_matrix(cfg: dict | None = None)" in src, "build_matrix 须可无参调用"
+
+
+def test_draft_hash_pin_is_active() -> None:
+    """**哈希钉死生效**：草案的当前 SHA256 必须等于代码中钉死的值。
+
+    一旦草案被改动（`git checkout` 旧版 / 手改 / 换文件），本守卫立即失败 ⇒
+    「改 draft 绕过 tag 跑不同矩阵」的通道被**操作性地关死**。
+    """
+    actual = hashlib.sha256((REPO / "configs" / "config_matrix.yaml").read_bytes()).hexdigest().upper()
+    assert FM.DRAFT_PIN_SHA256 == actual, (
+        f"草案哈希与钉死值不符：\n  钉死 {FM.DRAFT_PIN_SHA256}\n  实测 {actual}\n"
+        "  处置：先复核改动是否改变矩阵；若改变，须走新版本 + 新 tag + 书面说明。")
+
+
+def test_pin_rejects_tampered_draft_counterproof() -> None:
+    """**反证**：模拟草案被篡改（哈希不符）时，`_draft_generation_params` 必须 fail fast。"""
+    import configparser                                     # noqa: F401  (仅确保导入路径无副作用)
+    original = FM.DRAFT_PIN_SHA256
+    try:
+        FM.DRAFT_PIN_SHA256 = "0" * 64
+        with pytest.raises(RuntimeError, match="哈希与钉死值不符"):
+            FM._draft_generation_params()
+    finally:
+        FM.DRAFT_PIN_SHA256 = original
 
 
 # ══════════════════════════════════════ 3 完整性（缺行/多行即 fail）

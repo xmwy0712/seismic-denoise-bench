@@ -327,3 +327,27 @@ SEG-Y 头段实测（`mv1001shots_subset8000.sgy`）：总道数 8000；
 **本批不改**；该解释性风险须在 P1.5 与论文局限小节承接。
 
 **不追溯声明**：以上仅用于 P1.5 冻结规范与后续复现，**不得**用于推翻或重选已冻结的 top-3 面板。
+
+---
+
+## 8. 已知运行时警告（P2.2-Am1 记录，**保持冻结行为不改**）
+
+### 8.1 `pywt` 软阈值 overflow
+
+**现象**（P2.2 全矩阵运行期实测）：
+
+```
+pywt/_thresholding.py:22: RuntimeWarning: overflow encountered in divide
+    thresholded = (1 - value/magnitude)
+```
+
+| 项 | 结论 |
+| :--- | :--- |
+| 触发点 | `wavelet_threshold` 方法内部调用 `pywt.threshold(mode="soft")` 时 |
+| 性质 | **警告，非错误** |
+| 输出影响 | **无** —— P2.2 全矩阵 1350 格输出**全部有限**、`y_hat` 哈希齐备、指标可算 |
+| 处置 | **保持不改**（改已验收行为属禁止项）；本条目即为**已知项登记** |
+| 论文 | 可在附录提一句（第三方库的软阈值实现对极小模值触发除零溢出） |
+
+> 该条目与 `docs/methods_dl_verification.md` 的 `pywt.__version__` 过时字符串一并构成
+> **第三方库已知项清单**，供复现者对照。

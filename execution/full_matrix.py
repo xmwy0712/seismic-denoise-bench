@@ -55,8 +55,93 @@ def sha256_of(a: np.ndarray) -> str:
     return hashlib.sha256(np.ascontiguousarray(a, dtype=np.float64).tobytes()).hexdigest().upper()
 
 
-def build_matrix(cfg: dict) -> list[dict]:
-    """按 config_matrix 轴顺序展开 54 配置（不含种子）。"""
+#: **R-M 哈希钉死**：两个生成参数（N1 `band_hz`、N2 `f_main_hz`）**不在 frozen.yaml 中**，
+#: 故从 `configs/config_matrix.yaml` 读取。该草案文件的 SHA256 在此**钉死**：
+#: 草案一经改动，`tests/test_matrix_integrity.py` 的守卫立即失败。
+#: ⇒ 「改 draft 绕过 tag 跑不同矩阵」的通道被**操作性地关死**（不是靠自律）。
+DRAFT_PIN_SHA256 = "F8A0741122A71346E862166136BF130CE8B61F2EB20523BADE9967F91FA49FF8"  # 占位，稍后由脚本写入真值
+DRAFT_SOURCED_PARAMS = ("N1.band_hz", "N2.f_main_hz")
+
+
+def _load_frozen() -> dict:
+    """读取冻结件（矩阵唯一权威）。"""
+    return yaml.safe_load((REPO / "configs" / "frozen.yaml").read_text(encoding="utf-8"))
+
+
+def _draft_generation_params() -> dict:
+    """从**哈希钉死**的草案件取两个冻结件未含的生成参数。
+
+    返回 ``{"n1_band_hz": [...], "n2_f_main_hz": ...}``。
+    草案哈希不符即 `RuntimeError`（fail fast，不静默回退）。
+    """
+    p = REPO / "configs" / "config_matrix.yaml"
+    got = hashlib.sha256(p.read_bytes()).hexdigest().upper()
+    if got != DRAFT_PIN_SHA256:
+        raise RuntimeError(
+            "config_matrix.yaml 哈希与钉死值不符 —— 草案被改动，矩阵来源不再可信。\n"
+            f"  钉死: {DRAFT_PIN_SHA256}\n  实测: {got}\n"
+            "  处置：先复核改动是否改变矩阵；若改变，须走新版本 + 新 tag + 书面说明。")
+    draft = yaml.safe_load(p.read_text(encoding="utf-8"))
+    n1 = next(n for n in draft["noise_types"] if n["id"] == "N1")
+    n2 = next(n for n in draft["noise_types"] if n["id"] == "N2")
+    return {"n1_band_hz": list(n1["params"]["band_hz"]),
+            "n2_f_main_hz": float(n2["params"]["f_main_hz"])}
+
+
+def build_matrix(cfg: dict | None = None) -> list[dict]:
+    """**从 ``configs/frozen.yaml`` 构建** 54 配置（不含种子）。
+
+    R-M（P2.3 第一节）：矩阵唯一来源为**冻结件**——
+    item_01（轴 / 种子）+ item_02/03（模型参数）+ item_04（档位）+ item_05（面波）。
+    仅两个冻结件未含的生成参数走**哈希钉死**的草案来源（见 ``_draft_generation_params``）。
+    """
+    if cfg is None:
+        cfg = _load_frozen()
+    fz = cfg
+    it01 = fz["item_01_synthetic_matrix"]
+    it02 = fz["item_02_model_m1"]
+    it03 = fz["item_03_model_m2"]
+    it04 = fz["item_04_noise_levels"]
+    it05 = fz["item_05_dispersive_surface_wave"]
+    gen = _draft_generation_params()
+
+    acq = {"dt_s": it02["dt_s"], "dx_m": it02["dx_m"],
+           "n_samples": it02["n_samples"], "n_traces": it02["n_traces"]}
+    axes = it01["axes"]
+    ratios = it04["criterion_ii_descriptive"]["values"]          # L1/L2/L3 -> ratio
+    # N2 的 level 槽位 = v_app（item_01 的 n2_level_slot_interpretation 明文；L1/L2/L3 依次对应）
+    n2_vapps = [800.0, 1500.0, 3000.0]
+
+    # 噪声类型（N1/N2/N3）—— 生成参数组装（含两个草案来源项，已在上方钉死）
+    n1_params = {"band_hz": gen["n1_band_hz"]}
+    n2_params = {"f_main_hz": gen["n2_f_main_hz"], "v_app_m_s": n2_vapps}
+    n3_params = {"v_model": it05["model"]["v_model"], "v0": it05["model"]["v0"],
+                 "c": it05["model"]["c"], "a": it05["model"]["a"], "b": it05["model"]["b"],
+                 "f_lo_hz": it05["frequency_band_hz"][0], "f_hi_hz": it05["frequency_band_hz"][1],
+                 "n_components": it05["n_components"],
+                 "dispersion_v_band_mps": it05["dispersion_v_band_mps"]}
+    noise_types = [{"id": "N1", "name": "band_limited_random", "params": n1_params},
+                   {"id": "N2", "name": "linear_coherent", "params": n2_params},
+                   {"id": "N3", "name": "dispersive_surface_wave", "params": n3_params}]
+    models = [{"id": it02["id"], "name": it02["name"], "params": it02["params"]},
+              {"id": it03["id"], "name": it03["name"], "params": it03["params"]}]
+
+    out: list[dict] = []
+    for model in models:
+        for noise in noise_types:
+            for lv_idx, lv_id in enumerate(axes["noise_levels"]):
+                for f_main in axes["f_main_hz"]:
+                    out.append({
+                        "model": model, "noise": noise,
+                        "level": {"id": lv_id, "amplitude_ratio": ratios[lv_id]},
+                        "f_main": float(f_main), "acq": acq,
+                        "n2_v_app": (n2_vapps[lv_idx] if noise["id"] == "N2" else None),
+                    })
+    return out
+
+
+def _legacy_build_matrix(cfg: dict) -> list[dict]:
+    """【历史，不再使用】原草案来源实现，保留供对照。"""
     acq = cfg["acquisition"]
     noise_levels = cfg["noise_levels"]
     n2_vapps = (cfg["matrix"]["param_slots"].get("n2_v_app_m_s") or [None])
@@ -143,11 +228,12 @@ def time_windows_from_mask(mask: np.ndarray) -> list[tuple[int, int]]:
 
 
 def run_matrix(out_dir: Path, method_names: list[str], limit: int | None, dry_run: bool) -> dict:
-    cfg = yaml.safe_load((REPO / "configs" / "config_matrix.yaml").read_text(encoding="utf-8"))
+    # R-M：矩阵来源为**冻结件**（不再读草案）
+    cfg = _load_frozen()
     reg = yaml.safe_load((REPO / "configs" / "methods_registry.yaml").read_text(encoding="utf-8"))
     reg_params = {m["name"]: {k: v["value"] for k, v in m["key_params"].items()}
                   for m in reg["methods"]}
-    seeds = list(cfg["matrix"]["seeds"])
+    seeds = list(cfg["item_01_synthetic_matrix"]["seeds"])
     entries = build_matrix(cfg)
     cells = [(e, s) for e in entries for s in seeds]
     if limit is not None:
