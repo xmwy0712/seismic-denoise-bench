@@ -1,0 +1,38 @@
+{
+  "supplement_preregistration_sha256": "88D73A029EDC610AD9B690E5F232081B18AF99B97C7A49BBFAEE1F783479FD89",
+  "metrics_csv_sha256": "CD7499874B4A166E6B2737152D3B0C045232911D5D388DD46262406B11443933",
+  "fusion_metrics_sha256": "123B8E56893D1EE02094870D78BA42AEE1E580DA79CB234D00F2281FFF9426E2",
+  "B_perm": 10000,
+  "B_boot": 10000,
+  "alpha": 0.05,
+  "seed_perm": 20261010,
+  "seed_boot": 20261011,
+  "direction_discipline": "ΔSNR 越差=min；Lsig 越差=max（A-4 教训成文）",
+  "worst_single": {
+    "delta_snr_db": "fx_deconv",
+    "lsig": "ssa_decomposition"
+  },
+  "results": {
+    "delta_snr_db": {
+      "worst_method": "fx_deconv",
+      "n": 270,
+      "median_fusion_minus_worst": 0.05425747303881005,
+      "ci_lo": 0.04509325106600509,
+      "ci_hi": 0.16139866113819057,
+      "p_raw": 0.1346865313468653,
+      "p_holm": 0.1346865313468653
+    },
+    "lsig": {
+      "worst_method": "ssa_decomposition",
+      "n": 270,
+      "median_fusion_minus_worst": -0.01716730743287808,
+      "ci_lo": -0.025012165824134115,
+      "ci_hi": -0.013193977316604327,
+      "p_raw": 9.999000099990002e-05,
+      "p_holm": 0.00019998000199980003
+    }
+  },
+  "B5_delta_snr_not_beaten": true,
+  "B6_lsig_not_beaten": true,
+  "C2_both_beaten": false
+}

@@ -1,0 +1,3 @@
+comparison,worst_method,n,median_fusion_minus_worst,ci_lo,ci_hi,p_raw,p_holm
+delta_snr_db,fx_deconv,270,0.05425747304,0.04509325107,0.1613986611,0.1346865313,0.1346865313
+lsig,ssa_decomposition,270,-0.01716730743,-0.02501216582,-0.01319397732,9.9990001e-05,0.000199980002
