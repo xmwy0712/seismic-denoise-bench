@@ -1,0 +1,29 @@
+{
+  "summary": {
+    "cells_attempted": 1620,
+    "cells_ok": 1620,
+    "failures": 0,
+    "failure_rate": 0.0,
+    "stop_threshold": 0.05,
+    "stop_flag": false,
+    "expected_rows": 1620,
+    "pairs": {
+      "primary": [
+        "fx_deconv",
+        "wavelet_threshold"
+      ],
+      "secondary": [
+        "fx_deconv",
+        "svd_lowrank"
+      ]
+    },
+    "gammas": [
+      0.4,
+      0.5,
+      0.6
+    ],
+    "elapsed_s": 74.879,
+    "x_missing_any": false
+  },
+  "failures": []
+}

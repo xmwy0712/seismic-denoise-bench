@@ -1,0 +1,15 @@
+{
+  "stats_preregistration_sha256": "58E1B003E20632A3AFA54E569DED55D6C9276DEC5659F3D39C9A4FAF24626882",
+  "fusion_metrics_sha256": "123B8E56893D1EE02094870D78BA42AEE1E580DA79CB234D00F2281FFF9426E2",
+  "script_sha256": "FA7731F4D37889709406D3B232B521DE2123830450772FC21A3A9362C88AC0D4",
+  "B_perm": 10000,
+  "B_boot": 10000,
+  "alpha": 0.05,
+  "seed_perm": 20261010,
+  "seed_boot": 20261011,
+  "rows": 630,
+  "expected_rows": 630,
+  "n_significant_holm": 378,
+  "n_valid": 612,
+  "elapsed_s": 29.892
+}

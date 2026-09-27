@@ -55,3 +55,6 @@ credentials*
 results/*.npy
 results/_scratch/**
 !results/.gitkeep
+
+# ---- P3.2 融合产物（y_fused 本体不入库；指标与清单入库）----
+results/fusion/*.npy
