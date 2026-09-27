@@ -1,0 +1,114 @@
+# =====================================================================
+# configs/fusion-rules-draft.yaml —— P3.2 阶段 1 融合规则（**草案**）
+# =====================================================================
+# 冻结于 P3.2 阶段 2（**实现前**打 annotated tag `fusion-rules-frozen`）。
+# 硬约束：融合不得接触真值（签名禁 clean/s/mask；AST 守卫）。
+# 完整论证见 results/fusion/preregistration.md。
+# =====================================================================
+
+meta:
+  stage: P3.2-stage1-draft
+  frozen: false
+  frozen_on: P3.2 阶段 2（实现前打 tag fusion-rules-frozen）
+  source_task:
+    file: P3.2-融合规则预注册与实现-2026-10-10.md
+    sha256: 1D9A74FE346FECAB0374FC546D98A0862B2D59D123E1A0EEF41C41750EABC10B
+  preregistration:
+    file: results/fusion/preregistration.md
+    sha256: 8C6DB04F476C0742F73D23ABB6BE960B117D15E80FA6272724466941CD0CE2BB
+  frozen_artefact:
+    file: configs/frozen-v2.yaml
+    sha256: 1D4AF0389EDE2328015C09943536BD6B92A4DD17D159456E8866B0F498893471
+hard_constraint_no_ground_truth:
+  signature: fuse(y_i, y_j, params) -> np.ndarray
+  forbidden_params:
+  - clean
+  - s
+  - mask
+  - truth
+  allowed_in_params:
+  - x (含噪输入，非真值)
+  - 配置参数
+  - n_T
+  - 频带
+  ast_guard:
+    forbid_import:
+    - bench.methods
+    - bench.data.synthetic
+    require_counterproof: true
+pairs:
+  primary:
+  - fx_deconv
+  - wavelet_threshold
+  primary_basis: P3.1 预注册规则：M2 全局中位最高 0.5，无并列
+  secondary_control:
+  - fx_deconv
+  - svd_lowrank
+  secondary_basis: M2 第二 0.2，且为前二名中 M1 最高（0.575710）
+  multi_pair_shopping_forbidden: true
+w_definition:
+  role: 初始权重（局部保真度）
+  domain: STFT：窗长 = n_T、跳步 = n_T//2、Hann、OLA
+  quantity: 横向相干度 C_i（只用到方法 i 自身输出）
+  neighborhood: N(j) = {j-1, j, j+1} ∩ [0, n_traces-1]
+  formula: C_i = |Σ Y_i(j')·conj(Y_i(j'+1))| / (Σ|Y_i(j')|² · Σ|Y_i(j'+1)|²)^(1/2)
+  weight: w_i = C_i^p, p = 2
+  key_property: '**不含跨方法比较** ⇒ 两方法一致在数学上无法抬高 w（陷阱规避机制 ①）'
+  degenerate: 分母为 0 ⇒ w_i = 0
+s_definition:
+  role: 相干噪声鉴别置信度 ∈ [0,1]
+  subscores:
+    d_dip_linearity:
+      weight: 0.4
+      definition: 该窗 2D 谱能量峰 → v_app = f/|k|；d = clip((v_lo − v_app)/v_lo, 0, 1)，v_lo = 100.0 m/s
+      linearity_rule: 线性度 > 0.5 亦判为低速线性干扰
+    b_band:
+      weight: 0.3
+      definition: 方法误差在冻结频散带 [5.0, 25.0] Hz 内能量占比（需含噪输入 x，非真值）
+      degradation: 若 params 不含 x ⇒ b = 0 并在报告中披露（不得静默）
+    a_cross_method_consistency:
+      weight: 0.3
+      definition: 局部相似度高 ⇒ a 高（唯一用到另一方法的子分）
+      key_property: '**单独最大只贡献 0.3** ⇒ 一致性无法单独推高 s（机制 ③）'
+  formula: s_i = clip(0.4·d + 0.3·b + 0.3·a, 0, 1)
+  key_property: '**s 只做减权**（w'' = w(1−γs)）⇒ 一致性从不兑换信任（机制 ②）'
+combination:
+  formula: w_i' = w_i · (1 − gamma · s_i)
+  gamma_levels:
+  - 0.4
+  - 0.5
+  - 0.6
+  gamma_source: frozen item_10（未改）
+  report_all_levels: true
+reconstruction:
+  per_coefficient_normalization: nu_i = w_i' / (w_1' + w_2' + eps), eps = 1e-12
+  synthesis: 逆 STFT + Hann 重叠相加；逐样点除以窗函数累计和
+  degenerate_rule: w_1' + w_2' <= 0 ⇒ nu_1 = nu_2 = 0.5（等权，保守）
+failure_mode_answered:
+  trap: 两方法输出高度相似 ≠ 两者都正确（共线误差 ⇒ 局部一致性虚高）
+  evidence_in_this_project: 主配对 M1 = 0.093807（全 10 对最低）⇒ 误差近共线，高危
+  mechanisms:
+  - ① w 不含跨方法比较 ⇒ 一致无法抬高 w
+  - ② 跨方法一致性只入 s，而 s 只减权 ⇒ 一致从不兑换信任
+  - ③ s 中一致性子分仅占 0.3 ⇒ 无法单独推高 s
+  residual_risk_admitted: 两方法共同删除同一信号且剩余结构正常时，融合会保留该删除；Lsig 如实暴露；不声称解决
+stage2_spec:
+  runs:
+    primary: 270 x 3 = 810
+    secondary: '810'
+    total: 1620
+  stats:
+    test: paired sign-flip permutation, B=10000, two-sided
+    correction: Holm（族同 P2.3）
+    comparisons:
+    - vs method_i
+    - vs method_j
+    - vs best single method
+    all_gamma_levels_reported: true
+    primary_conclusion_binds_primary_pair: true
+  tag_before_implementation: fusion-rules-frozen
+authorized_exploratory:
+  question: M1 与 M2 谁更好地预测融合增益
+  label: post-hoc（P3.1 完成后才提出）
+  must_not_enter_main_conclusion: true
+  sample_size_warning: 仅 10 对，结论仅作探索性提示
