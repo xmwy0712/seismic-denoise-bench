@@ -1,0 +1,49 @@
+{
+  "panels": [
+    {
+      "panel": "FP1",
+      "region": "NAN",
+      "dip_guided_median": 0.06404494681444256,
+      "zero_lag_median": 0.05983470128865933,
+      "shuffled_traces_median": 0.004455615585800699
+    },
+    {
+      "panel": "FP2",
+      "region": "MV",
+      "dip_guided_median": 0.09670293478269307,
+      "zero_lag_median": 0.016348008177838904,
+      "shuffled_traces_median": 0.013602408689280083
+    },
+    {
+      "panel": "FP3",
+      "region": "MV",
+      "dip_guided_median": 0.14300022046631988,
+      "zero_lag_median": 0.04637594267267604,
+      "shuffled_traces_median": 0.012898162886970915
+    }
+  ],
+  "criteria": {
+    "Q1_dip_vs_zerolag": {
+      "gain": 0.050326992110017024,
+      "threshold": 0.1,
+      "pass": false
+    },
+    "Q2_panel_range": {
+      "range": 0.07895527365187732,
+      "threshold": 0.05,
+      "pass": true
+    },
+    "Q3_shuffle_drop": {
+      "drop": 0.08380477189572215,
+      "threshold": 0.1,
+      "pass": false
+    },
+    "verdict": "NOT_DISTINGUISHABLE",
+    "note": "倾角对齐（dip-guided）与 P3 的零延迟口径**不是同一量**；本验证即为 item_20 义务的履行：**先验证可区分性，再用于指标**。",
+    "median_summary": {
+      "dip_guided": 0.09670293478269307,
+      "zero_lag": 0.04637594267267604,
+      "shuffled": 0.012898162886970915
+    }
+  }
+}

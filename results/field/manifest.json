@@ -1,0 +1,28 @@
+{
+  "rows": 27,
+  "panels": [
+    "FP1",
+    "FP2",
+    "FP3"
+  ],
+  "variants": [
+    "original",
+    "fk_filter",
+    "fx_deconv",
+    "wavelet_threshold",
+    "ssa_decomposition",
+    "svd_lowrank",
+    "fusion_g0.4",
+    "fusion_g0.5",
+    "fusion_g0.6"
+  ],
+  "signal_band_hz": [
+    5.0,
+    25.0
+  ],
+  "dt_s": 0.001,
+  "blind_review": "PENDING（用户任务：两轮盲评、间隔≥7天；本脚本不计算）",
+  "continuity_verdict": "NOT_DISTINGUISHABLE",
+  "elapsed_s": 333.31,
+  "no_ground_truth": "四项指标全部无参考；未使用任何合成数据外推"
+}
