@@ -1,13 +1,16 @@
 # =====================================================================
-# configs/fusion-rules-draft.yaml —— P3.2 阶段 1 融合规则（**草案**）
+# configs/fusion-rules.yaml —— P3.2 融合规则（**权威件**）
 # =====================================================================
-# 冻结于 P3.2 阶段 2（**实现前**打 annotated tag `fusion-rules-frozen`）。
-# 硬约束：融合不得接触真值（签名禁 clean/s/mask；AST 守卫）。
+# 冻结：annotated tag `fusion-rules-frozen`（**实现前**打），P3.2-Am1 条件 3。
+# 依 P3.2-Am1 三项条件修订（2026-10-06）：
+#   条件 1 · 失效模式 #2「过平滑激励」入册（含探测手段与判据）
+#   条件 2 · 官方运行在 params 传 x（共享输入、非真值）；缺失须标注
+#   条件 3 · 本文件更名去 draft；tag 附注清单见 meta.condition_3_*。
 # 完整论证见 results/fusion/preregistration.md。
 # =====================================================================
 
 meta:
-  stage: P3.2-stage1-draft
+  stage: P3.2-stage1-confirmed
   frozen: false
   frozen_on: P3.2 阶段 2（实现前打 tag fusion-rules-frozen）
   source_task:
@@ -19,6 +22,27 @@ meta:
   frozen_artefact:
     file: configs/frozen-v2.yaml
     sha256: 1D4AF0389EDE2328015C09943536BD6B92A4DD17D159456E8866B0F498893471
+  authoritative_name: configs/fusion-rules.yaml（**权威件，不带 draft 字样**）
+  condition_1_failure_mode_2_smoothing:
+    mechanism: w_i = C_i^2 基于输出横向相干度 ⇒ 过平滑输出得分天然偏高 ⇒ w 向过平滑方法倾斜
+    direction: 与 §2.1 相反方向的偏置（共同错误 vs 过度平滑）
+    detection:
+      primary: Lsig（泄漏）
+      secondary: 事件级能量误差（真值窗口径，裁定 D）
+    criterion: 若融合 Lsig 相对单方法恶化而 ΔSNR 改善 ⇒ 该失效模式的实证，**必须如实报告**
+    mitigation: 不改设计；三档 gamma 即对冲（gamma 越大越保守）；**三档全部报告**
+    residual_risk: 若三档 gamma 一致表现 Lsig 恶化 + ΔSNR 改善 ⇒ 未对冲掉，须作设计局限陈述
+  condition_2_x_semantics:
+    declaration: '**官方运行在 params 中传入 x；x 为共享输入、非真值**'
+    legality: 所有方法共享同一含噪输入，传入不违反「融合不得接触真值」硬约束
+    x_source: 由冻结观测重放得到（与 P2.2 全矩阵同源，seed 决定）
+    degradation_rule: 任何一格 x 缺失 ⇒ b_i = 0，且 metrics.csv 对应行须标注（不得静默）
+  condition_3_tag_annotation_must_contain:
+  - configs/fusion-rules.yaml 的 SHA256
+  - results/fusion/preregistration.md 的 SHA256（条件 1 补节后的新哈希）
+  - 主配对与次优对照
+  - 三档 gamma（0.4 / 0.5 / 0.6）
+  - 条件 2 的 x 语义声明
 hard_constraint_no_ground_truth:
   signature: fuse(y_i, y_j, params) -> np.ndarray
   forbidden_params:
@@ -27,7 +51,7 @@ hard_constraint_no_ground_truth:
   - mask
   - truth
   allowed_in_params:
-  - x (含噪输入，非真值)
+  - x（含噪输入，**共享输入、非真值**；官方运行必传）
   - 配置参数
   - n_T
   - 频带
@@ -66,6 +90,7 @@ s_definition:
       weight: 0.3
       definition: 方法误差在冻结频散带 [5.0, 25.0] Hz 内能量占比（需含噪输入 x，非真值）
       degradation: 若 params 不含 x ⇒ b = 0 并在报告中披露（不得静默）
+      x_semantics: 官方运行传 x（共享输入、非真值）；x 缺失 ⇒ b=0 且 metrics.csv 对应行标注
     a_cross_method_consistency:
       weight: 0.3
       definition: 局部相似度高 ⇒ a 高（唯一用到另一方法的子分）
