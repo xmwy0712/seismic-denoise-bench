@@ -1,0 +1,123 @@
+{
+  "preregistration_sha256": "3B552DB95499C2ABF97DD0A38A86A41ED9969C65C4444CE14D3045EAC9C0D9CD",
+  "rule": "M2 global median max; tie -> M1; tie -> lexicographic",
+  "tie_resolution_path": [
+    "primary: max global M2 median"
+  ],
+  "chosen_pair": [
+    "fx_deconv",
+    "wavelet_threshold"
+  ],
+  "chosen_m2_global": 0.5,
+  "chosen_m1_global": 0.09380700212314858,
+  "ranking_by_m2_global": [
+    {
+      "pair": "fx_deconv|wavelet_threshold",
+      "M2": 0.5,
+      "M1": 0.09380700212314858
+    },
+    {
+      "pair": "fx_deconv|svd_lowrank",
+      "M2": 0.2,
+      "M1": 0.5757102392171617
+    },
+    {
+      "pair": "fk_filter|fx_deconv",
+      "M2": 0.0,
+      "M1": 0.7411845314230756
+    },
+    {
+      "pair": "fk_filter|wavelet_threshold",
+      "M2": 0.0,
+      "M1": 0.19490546533041891
+    },
+    {
+      "pair": "fk_filter|ssa_decomposition",
+      "M2": 0.0,
+      "M1": 0.5753598770590918
+    },
+    {
+      "pair": "fk_filter|svd_lowrank",
+      "M2": 0.0,
+      "M1": 0.5760856778569026
+    },
+    {
+      "pair": "fx_deconv|ssa_decomposition",
+      "M2": 0.0,
+      "M1": 0.42320312881910993
+    },
+    {
+      "pair": "wavelet_threshold|ssa_decomposition",
+      "M2": 0.0,
+      "M1": 0.2686505289431321
+    },
+    {
+      "pair": "wavelet_threshold|svd_lowrank",
+      "M2": 0.0,
+      "M1": 0.1574709733904735
+    },
+    {
+      "pair": "ssa_decomposition|svd_lowrank",
+      "M2": 0.0,
+      "M1": 0.40687921338173016
+    }
+  ],
+  "thresholds_tau_ij": {
+    "fk_filter|fx_deconv": 0.35167096062003195,
+    "fk_filter|wavelet_threshold": 0.22917114011972262,
+    "fk_filter|ssa_decomposition": 0.39834829769537006,
+    "fk_filter|svd_lowrank": 0.16533075082770204,
+    "fx_deconv|wavelet_threshold": 0.03946529906544755,
+    "fx_deconv|ssa_decomposition": 0.2932555975528969,
+    "fx_deconv|svd_lowrank": 0.11341641380665288,
+    "wavelet_threshold|ssa_decomposition": 0.2646600642690585,
+    "wavelet_threshold|svd_lowrank": 0.0885539597726807,
+    "ssa_decomposition|svd_lowrank": 0.27026388848670946
+  },
+  "robustness_model_x_noise": {
+    "chosen_is_top_in": "4/6",
+    "per_layer": {
+      "M1_N1": {
+        "top_pairs": [
+          "fx_deconv|wavelet_threshold"
+        ],
+        "value": 1.0
+      },
+      "M1_N2": {
+        "top_pairs": [
+          "ssa_decomposition|svd_lowrank"
+        ],
+        "value": 0.1111111111111111
+      },
+      "M1_N3": {
+        "top_pairs": [
+          "fk_filter|svd_lowrank"
+        ],
+        "value": 0.896551724137931
+      },
+      "M2_N1": {
+        "top_pairs": [
+          "fx_deconv|wavelet_threshold"
+        ],
+        "value": 0.75
+      },
+      "M2_N2": {
+        "top_pairs": [
+          "fx_deconv|wavelet_threshold"
+        ],
+        "value": 0.8888888888888888
+      },
+      "M2_N3": {
+        "top_pairs": [
+          "fx_deconv|wavelet_threshold"
+        ],
+        "value": 0.42857142857142855
+      }
+    },
+    "note": "分层仅作描述，**不改变选择**（预注册 5.2-4）"
+  },
+  "determinism": "no random component (deterministic by construction)",
+  "rows": 540,
+  "expected_rows": 540,
+  "stratum_keys": 18
+}
