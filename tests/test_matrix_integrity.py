@@ -83,6 +83,12 @@ def test_run_matrix_always_uses_full_method_set() -> None:
 
 # ══════════════════════════════════════ 2 冻结矩阵期望集合
 def _frozen() -> dict:
+    """**v2**：矩阵唯一权威（v1 全文 + item_04_supplement）。"""
+    return yaml.safe_load((REPO / "configs" / "frozen-v2.yaml").read_text(encoding="utf-8"))
+
+
+def _frozen_v1() -> dict:
+    """v1：保留不动的原冻结件（用于 v1 ⊂ v2 校验）。"""
     return yaml.safe_load((REPO / "configs" / "frozen.yaml").read_text(encoding="utf-8"))
 
 
@@ -123,20 +129,69 @@ def test_runner_matrix_comes_from_frozen_artifact() -> None:
     assert got == exp, f"runner-only={sorted(got-exp)[:3]} frozen-only={sorted(exp-got)[:3]}"
 
 
-def test_runner_reads_frozen_not_draft_for_axes() -> None:
-    """**源码级守卫**：`run_matrix` 取冻结件；`build_matrix` 无参默认走冻结件。"""
+def test_runner_reads_frozen_v2_for_axes() -> None:
+    """**源码级守卫**：`run_matrix` 与 `build_matrix` 的**取值**必须来自 frozen-v2。
+
+    注意断言口径（v2 后收严为"取值"而非"任何引用"）：
+    `config_matrix.yaml` 仍被 `_draft_pin_guard` **引用**（纵深防御，合法），
+    但**取值**函数 `_generation_params` 只读 frozen-v2 的 `item_04_supplement`。
+    """
     src = (REPO / "execution" / "full_matrix.py").read_text(encoding="utf-8")
     assert "cfg = _load_frozen()" in src, "run_matrix 必须从 _load_frozen() 取值"
-    assert 'REPO / "configs" / "config_matrix.yaml"' not in src.split("def _draft_generation_params")[0], \
-        "不得在 build_matrix 路径上读草案"
+    assert 'FROZEN_V2 = REPO / "configs" / "frozen-v2.yaml"' in src, "冻结源须为 frozen-v2"
     assert "def build_matrix(cfg: dict | None = None)" in src, "build_matrix 须可无参调用"
+
+    # 取值路径：`_generation_params` 的函数体**只**读 item_04_supplement，不得读草案
+    gen_body = src.split("def _generation_params(")[1].split("def ")[0]
+    assert "item_04_supplement" in gen_body, "_generation_params 须读 v2 的 item_04_supplement"
+    assert "config_matrix.yaml" not in gen_body, "_generation_params 不得读草案"
+    # 纵深防御：草案引用只应出现在 `_draft_pin_guard` 内
+    guard_body = src.split("def _draft_pin_guard(")[1].split("def _generation_params(")[0]
+    outside = src.replace(guard_body, "")
+    assert 'REPO / "configs" / "config_matrix.yaml"' not in outside, \
+        "草案引用只应存在于 _draft_pin_guard（纵深防御）内"
+
+
+def test_v2_is_v1_plus_supplement_only() -> None:
+    """**裁定 L 核心**：v2 = v1 全文 + `item_04_supplement`，**未改变任何已冻结值**。
+
+    这是「补登不重跑」的依据：as-run 参数与 v2 一致 ⇒ 1350 格结果无需重跑。
+    """
+    d1, d2 = _frozen_v1(), _frozen()
+    assert set(d1) - set(d2) == set(), "v2 不得缺少 v1 的任何键"
+    assert set(d2) - set(d1) == {"item_04_supplement"}, "v2 只应新增 item_04_supplement"
+    changed = [k for k in d1 if k in d2 and d1[k] != d2[k]]
+    assert not changed, f"v2 改动了 v1 的已冻结值：{changed}"
+
+
+def test_v2_supplement_matches_as_run_values() -> None:
+    """补登值 = Run 2 全矩阵实际所用值（N1 band [5,80]；N2 f_main 30.0）。"""
+    sup = _frozen()["item_04_supplement"]
+    assert list(sup["n1_band_limited_random"]["band_hz"]) == [5.0, 80.0]
+    assert float(sup["n2_linear_coherent"]["f_main_hz"]) == 30.0
+    assert sup["n1_band_limited_random"]["as_run_consistency"].startswith("✅")
+    assert sup["n2_linear_coherent"]["as_run_consistency"].startswith("✅")
+
+
+def test_runner_generation_params_come_from_v2() -> None:
+    """runner 的生成参数**取值**来自 v2 的 item_04_supplement（不再来自草案）。"""
+    got = FM._generation_params(_frozen())
+    assert got["n1_band_hz"] == [5.0, 80.0]
+    assert got["n2_f_main_hz"] == 30.0
+
+
+def test_v1_unchanged_at_pinned_hash() -> None:
+    """**v1 未动的机械证据**：v1 文件的 SHA256 = 裁定 L 记录值。"""
+    import hashlib as _h
+    actual = _h.sha256((REPO / "configs" / "frozen.yaml").read_bytes()).hexdigest().upper()
+    assert actual == "1695C1965D0F307E5CA55ABDA1B2206D1058F67DE4827770382602F2F2944A3F", (
+        f"v1 被改动：{actual}")
 
 
 def test_draft_hash_pin_is_active() -> None:
-    """**哈希钉死生效**：草案的当前 SHA256 必须等于代码中钉死的值。
+    """**纵深防御仍生效**：草案的当前 SHA256 必须等于代码中钉死的值。
 
-    一旦草案被改动（`git checkout` 旧版 / 手改 / 换文件），本守卫立即失败 ⇒
-    「改 draft 绕过 tag 跑不同矩阵」的通道被**操作性地关死**。
+    v2 后草案**已不是值来源**，本钉死仅防止有人回头从草案取值。
     """
     actual = hashlib.sha256((REPO / "configs" / "config_matrix.yaml").read_bytes()).hexdigest().upper()
     assert FM.DRAFT_PIN_SHA256 == actual, (

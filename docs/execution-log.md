@@ -3631,3 +3631,124 @@ collected 179 items
 `results/metrics.csv` **未改**（只读输入）✅；**未看结果后改统计参数** ✅（预注册先落盘）✅；
 **未选择性报告分层** ✅（18 层全报）；**未实现融合** ✅（属 P3）；
 **未改 `frozen.yaml`** ✅；未跑去噪方法之外的新实验 ✅；未建 tag ✅；未 amend ✅。
+
+---
+
+### 2026-09-27 | P2.3-Am1 · 冻结件补全 **config-frozen-v2**（裁定 L）
+
+**依据**：`P2.3-Am1-冻结件v2补登-2026-09-27.md`
+（SHA256 `7991C705AA6FB4B77F3C755C3944D15FF148AE3FDD4ADA75B947234B5E00AE7C`，**4627 B**）
+
+#### 规则 13 四项核验 + 门禁四数
+
+① 隔离区存在 ✅ ② P1-A/B/C 逐件哈希一致 ✅
+③ **MANIFEST 逐份比对：34 行全部 MATCH** ✅（含新增件 4627 B / `7991C705…00AE7C`）；
+`git diff` = **仅追加 1 行、无删除行** ✅
+④ 新归档件 4627 B、**无 BOM、CR=0（纯 LF）**、mtime 09-26 14:38 ✅
+**门禁 34/34/34/34**（任务单文件 34 = MANIFEST 任务单行 34 = 台账 ACTIVE 34）。
+**红线哈希复核**：`frozen.yaml` / `pairwise.csv` / `macro_average.csv` / `stats.py` **四项全部未变** ✅
+
+#### 缺口发现方式与补登值的一致性核对（裁定 L 第 2 条要求）
+
+**发现方式**：P2.3 的 **R-M 重构**（把矩阵来源从草案改为冻结件）时**逐字段排查**发现 ——
+`frozen.yaml` 中**不存在** N1 的 `band_hz` 与 N2 的 `f_main_hz`。核实口径：
+全文件搜 `band` 命中**全为噪声名 `band_limited_random` 的子串**，
+唯一带 `band_hz:` 的键是面波的 `frequency_band_hz`（[5.0, 25.0]）；`30.0` **零命中**。
+**签发方独立核验一致：缺口恰为此两项，别无遗漏。**
+
+**补登值与 as-run 值的一致性核对（逐字对齐）**：
+
+| 参数 | 补登值 | as-run（Run 2 全矩阵 1350 格实际所用） | 一致 |
+| :--- | :--- | :--- | :---: |
+| N1 `band_hz` | `[5.0, 80.0]` | `[5.0, 80.0]` | ✅ |
+| N2 `f_main_hz` | `30.0` | `30.0` | ✅ |
+
+- 双方均取自 `config_matrix.yaml` 的 `noise_types[].params`（N1 的 `band_hz`、N2 的 `f_main_hz`），
+  与 P1.1 生成代码**逐字对齐**；
+- **机械验证**：新建的 v2 矩阵与 Run 2 的 as-run 矩阵
+  `(config_id, seed)` 集合**完全相同**（各 270，**对称差为空**）⇒
+  按裁定 L 第 1 条，**全部 1350 格结果无需重跑** ✅
+
+#### v2 冻结动作（照 P1.5 冻结纪律）
+
+| 项 | 值 |
+| :--- | :--- |
+| **v1 文件** | `configs/frozen.yaml` **保留不动**（红线）—— `30065` B，`1695C1965D0F307E5CA55ABDA1B2206D1058F67DE4827770382602F2F2944A3F` |
+| **v2 文件（新增）** | `configs/frozen-v2.yaml` —— `33030` B，`1D4AF0389EDE2328015C09943536BD6B92A4DD17D159456E8866B0F498893471` |
+| v2 构成 | **v1 全文 + `item_04_supplement`**（补登两个生成参数） |
+| **已冻结值改动** | **无** —— 机械校验：v2 ⊇ v1 且 **与 v1 值不同的键 = 0** |
+| 字段语义 | N1 `band_hz` = `add_band_limited_noise` 的 band；N2 `f_main_hz` = `add_linear_coherent` 的子波主频（其幅度由内部 `rng.uniform(0.5,1.5)` 给出，**不接受** `amplitude_ratio`——见 item_04 的 n2_special_clause） |
+| 标注 | 「**补登：P1.1 实现已用值，v1 冻结时遗漏，值未变**」 |
+
+#### runner 读源变更 + 纵深防御降级
+
+- `full_matrix.build_matrix()` 的生成参数取值改为 `_generation_params()` ——
+  **只读 v2 的 `item_04_supplement`**（**单一权威冻结来源成立**）；
+- `FROZEN_V2 = REPO / "configs" / "frozen-v2.yaml"`；`_load_frozen()` 读 v2；
+- **`DRAFT_PIN_SHA256` 保留为纵深防御**（注释已改为「v2 后仅作双保险，不再是值来源」），
+  实现为 `_draft_pin_guard()`：草案一经改动仍**立即 fail fast**，
+  防止有人回头从草案取值；`_draft_generation_params()` 保留旧名（兼容既有反证测试），
+  语义改为「先跑纵深防御，再返回 v2 补登值」。
+
+#### 守卫更新（`tests/test_matrix_integrity.py`，13938 B，`CBA6DFDBA4067FD8E8B1CE919AD57E03EA7208E60C324B76E4BBF715046EE631`）
+
+| 新增/更新 | 断言 |
+| :--- | :--- |
+| **v2 = v1 + supplement（裁定 L 核心）** | v2 ⊇ v1；新增键**恰为** `item_04_supplement`；**与 v1 值不同的键 = 0** |
+| **补登值 = as-run 值** | `band_hz == [5.0, 80.0]`；`f_main_hz == 30.0`；两条 `as_run_consistency` 以 ✅ 开头 |
+| **取值来自 v2** | `_generation_params()` 返回 v2 补登值 |
+| **v1 未动（机械证据）** | `frozen.yaml` SHA256 = `1695C196…2944A3F` |
+| **断言口径收严**（替换过时断言） | 原断言禁"build_matrix 路径上**任何**草案引用"，v2 后草案引用只允许出现在 `_draft_pin_guard`（纵深防御）内；取值函数 `_generation_params` 体内**不得**出现 `config_matrix.yaml` |
+
+> **一次断言过时（如实）**：更新守卫后首跑 **1 failed** ——
+> 失败的正是那条**旧断言**（禁"任何草案引用"），而 v2 后草案引用位于纵深防御内、**属合法**。
+> 这是**断言随语义演进需要收严**，不是代码错。已改为**只禁"取值"、允许"防御性引用"**，
+> 并新增「引用只应存在于 `_draft_pin_guard` 内」的结构断言。
+
+#### ⚠️ 发现并处置一处状态偏移（如实报告）
+
+**现象**：`results/stats/manifest.json` 在 `git status` 中显示为 **M（已修改）**。
+
+**诊断**：`execution/stats.py` 的 `main()` 每次运行都会**重写** `manifest.json`，
+且只写**基础字段**（不含本执行方随后用 `summary_gen.py` 增强的 `outputs` 与 `gate_check`）。
+**签发方重跑 `stats.py`**（用于独立核验统计确定性）时触发了该副作用，
+覆盖了含完整性自检的增强版本。
+
+**处置**：`git checkout -- results/stats/manifest.json` **恢复至 HEAD**
+（属授权范围内：既不在裁定 L 的红线清单内，也不含任何统计结果本体）。
+**红线核验**：`pairwise.csv` / `macro_average.csv` / `stats.py` **哈希均未变** ✅
+
+**如实指出的复现性瑕疵**：`stats.py` 每次运行都改一个**受版本管理**的文件
+（`elapsed_s` 必然不同）⇒ **同一脚本重跑会使工作区变脏**。
+本批**未修**（裁定 L 明令 `stats.py` 不动）；
+建议后续版本把运行期字段写到**非受管**路径（如 `results/stats/_run/` 或忽略清单），
+使 `stats.py` 成为**幂等**脚本。**该建议仅记录，未擅自实施。**
+
+#### 验收（裁定 L 验收条件逐条）
+
+| 条件 | 结果 |
+| :--- | :--- |
+| `frozen-v2.yaml` 哈希 | `1D4AF0389EDE2328015C09943536BD6B92A4DD17D159456E8866B0F498893471`（33030 B） |
+| tag 指向 | **`config-frozen-v2`（附注）** → 本补登 commit（见 tag 输出与下方记录） |
+| runner 读源变更 | ✅ `_generation_params` 只读 v2 `item_04_supplement` |
+| 守卫全绿 | ✅ `test_matrix_integrity.py` **21/21** |
+| pytest 全文（含 collected） | ✅ **collected 183 / 183 passed**（179 → 183） |
+| 书面说明文本 | ✅ 本条（缺口发现方式 + as-run 一致性 + 状态偏移处置） |
+| **不重跑任何实验** | ✅ **未重跑**（v2 矩阵 ≡ as-run 矩阵，对称差为空） |
+
+#### 交付物哈希
+
+| 文件 | SHA256 |
+| :--- | :--- |
+| `configs/frozen-v2.yaml`（**新增**） | `1D4AF0389EDE2328015C09943536BD6B92A4DD17D159456E8866B0F498893471` |
+| `configs/frozen.yaml`（**v1 未动**） | `1695C1965D0F307E5CA55ABDA1B2206D1058F67DE4827770382602F2F2944A3F` |
+| `execution/full_matrix.py`（v2 切换后） | `72765C664A1C448B74D385EDE57C4C461F2F916CCE13F038C7AE876E0BEE9B7E` |
+| `tests/test_matrix_integrity.py`（v2 守卫后） | `CBA6DFDBA4067FD8E8B1CE919AD57E03EA7208E60C324B76E4BBF715046EE631` |
+| `docs/task-sheets/MANIFEST.md`（v28） | `ADA9CDA85ED3302C14A16428FB3256948E9CEEE2ECF59DAC2067B897409380F7` |
+| `docs/task-sheets/P2.3-Am1-冻结件v2补登-2026-09-27.md` | `7991C705AA6FB4B77F3C755C3944D15FF148AE3FDD4ADA75B947234B5E00AE7C` |
+
+#### 红线遵守
+
+**v1 文件不动** ✅（哈希未变）；**未重跑任何实验** ✅；**未实现融合** ✅；
+**未跑去噪新实验** ✅；**未 amend** ✅；**`stats.py` 与统计产物（pairwise/macro）未动** ✅
+（哈希 `FC0E68C5…` / `1FE1950B…` 保持）；未 push、无 remote ✅。

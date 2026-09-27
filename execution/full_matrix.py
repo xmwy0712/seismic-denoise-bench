@@ -55,37 +55,59 @@ def sha256_of(a: np.ndarray) -> str:
     return hashlib.sha256(np.ascontiguousarray(a, dtype=np.float64).tobytes()).hexdigest().upper()
 
 
-#: **R-M 哈希钉死**：两个生成参数（N1 `band_hz`、N2 `f_main_hz`）**不在 frozen.yaml 中**，
-#: 故从 `configs/config_matrix.yaml` 读取。该草案文件的 SHA256 在此**钉死**：
-#: 草案一经改动，`tests/test_matrix_integrity.py` 的守卫立即失败。
-#: ⇒ 「改 draft 绕过 tag 跑不同矩阵」的通道被**操作性地关死**（不是靠自律）。
-DRAFT_PIN_SHA256 = "F8A0741122A71346E862166136BF130CE8B61F2EB20523BADE9967F91FA49FF8"  # 占位，稍后由脚本写入真值
-DRAFT_SOURCED_PARAMS = ("N1.band_hz", "N2.f_main_hz")
+#: **纵深防御（v2 后仅作双保险，不再是值来源）**：两个生成参数曾从
+#: `configs/config_matrix.yaml`（草案）读取，故当时把草案 SHA256 钉死在此处。
+#: **P2.3-Am1 / 裁定 L 之后**，这两个参数已**补登进 `configs/frozen-v2.yaml`**
+#: （`item_04_supplement`）—— **单一权威冻结来源成立**。
+#: 本钉死保留为**纵深防御**：草案一经改动仍然立即失败，避免有人回头从草案取值。
+DRAFT_PIN_SHA256 = "F8A0741122A71346E862166136BF130CE8B61F2EB20523BADE9967F91FA49FF8"
+DRAFT_SOURCED_PARAMS_HISTORICAL = ("N1.band_hz", "N2.f_main_hz")   # 【历史来源，v2 后不再是值来源】
+
+#: **v2 起：生成参数的唯一权威来源**
+FROZEN_V2 = REPO / "configs" / "frozen-v2.yaml"
 
 
 def _load_frozen() -> dict:
-    """读取冻结件（矩阵唯一权威）。"""
-    return yaml.safe_load((REPO / "configs" / "frozen.yaml").read_text(encoding="utf-8"))
+    """读取冻结件 **v2**（矩阵唯一权威）。
+
+    v2 = v1 全文 + `item_04_supplement`（补登 N1 band_hz / N2 f_main_hz，
+    P2.3-Am1 裁定 L）。v1（`frozen.yaml`）原文件保留不动。
+    """
+    return yaml.safe_load(FROZEN_V2.read_text(encoding="utf-8"))
 
 
-def _draft_generation_params() -> dict:
-    """从**哈希钉死**的草案件取两个冻结件未含的生成参数。
+def _generation_params(cfg: dict) -> dict:
+    """从 **frozen-v2 的 `item_04_supplement`** 取两个生成参数（单一权威来源）。"""
+    sup = cfg["item_04_supplement"]
+    return {"n1_band_hz": list(sup["n1_band_limited_random"]["band_hz"]),
+            "n2_f_main_hz": float(sup["n2_linear_coherent"]["f_main_hz"])}
 
-    返回 ``{"n1_band_hz": [...], "n2_f_main_hz": ...}``。
-    草案哈希不符即 `RuntimeError`（fail fast，不静默回退）。
+
+def _draft_pin_guard() -> str:
+    """**纵深防御**：草案 `config_matrix.yaml` 的字节哈希必须等于钉死值。
+
+    v2 之后草案**不再是值来源**；本守卫保留以防止有人回头改草案取值。
+    草案一经改动即 `RuntimeError`（fail fast，不静默回退）。
     """
     p = REPO / "configs" / "config_matrix.yaml"
     got = hashlib.sha256(p.read_bytes()).hexdigest().upper()
     if got != DRAFT_PIN_SHA256:
         raise RuntimeError(
-            "config_matrix.yaml 哈希与钉死值不符 —— 草案被改动，矩阵来源不再可信。\n"
+            "config_matrix.yaml 哈希与钉死值不符 —— 草案被改动。\n"
             f"  钉死: {DRAFT_PIN_SHA256}\n  实测: {got}\n"
-            "  处置：先复核改动是否改变矩阵；若改变，须走新版本 + 新 tag + 书面说明。")
-    draft = yaml.safe_load(p.read_text(encoding="utf-8"))
-    n1 = next(n for n in draft["noise_types"] if n["id"] == "N1")
-    n2 = next(n for n in draft["noise_types"] if n["id"] == "N2")
-    return {"n1_band_hz": list(n1["params"]["band_hz"]),
-            "n2_f_main_hz": float(n2["params"]["f_main_hz"])}
+            "  注意：v2 后草案**已不是生成参数的权威来源**（权威为 frozen-v2.yaml 的 "
+            "item_04_supplement）；本守卫仅为纵深防御。")
+    return got
+
+
+def _draft_generation_params() -> dict:
+    """【历史名，保留以兼容既有反证测试】
+
+    v2 后语义：**先跑纵深防御（草案钉死）**，再返回 **frozen-v2** 的补登值。
+    值来源已从草案切换为冻结件；函数名保留是为了让既有反证测试仍能验证钉死生效。
+    """
+    _draft_pin_guard()
+    return _generation_params(_load_frozen())
 
 
 def build_matrix(cfg: dict | None = None) -> list[dict]:
@@ -93,7 +115,8 @@ def build_matrix(cfg: dict | None = None) -> list[dict]:
 
     R-M（P2.3 第一节）：矩阵唯一来源为**冻结件**——
     item_01（轴 / 种子）+ item_02/03（模型参数）+ item_04（档位）+ item_05（面波）。
-    仅两个冻结件未含的生成参数走**哈希钉死**的草案来源（见 ``_draft_generation_params``）。
+    生成参数（含补登的 N1 band_hz / N2 f_main_hz）全部取自 **v2 的 item_04_supplement**；
+    草案哈希钉死退化为**纵深防御**（见 ``_draft_pin_guard``）。
     """
     if cfg is None:
         cfg = _load_frozen()
