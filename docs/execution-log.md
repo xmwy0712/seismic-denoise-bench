@@ -4941,3 +4941,39 @@ P5.2 的译写对照将「post-hoc 标注（『事后探索性分析』表述）
 逐字给出定义式与秩处理方式，**不合并、不择优**。
 
 **产物**：`results/fusion10/stats/gain_definition_sensitivity.csv`（20 行 = 5 定义 × 4 度量）。
+
+---
+
+## 2026-09-30 · P5.4 / WS3 前置门：**发布前凭据扫描（通过）**
+
+**规则**：任何疑似凭据 ⇒ **停机，不得 push**；扫描**零回显**（不输出任何匹配字符）。
+
+**实现**：`execution/secret_scan.py` —— 13 类模式（GitHub token/PAT、AWS AKID、OpenAI key、
+Google API key、Slack、Telegram bot token、私钥块、URL 内嵌凭据、Bearer 字面量、
+赋值式密钥、`set/export` 密钥行、本项目已知密钥变量名），扫描 `git ls-files` 的**全部受管文件**。
+
+### 结果
+
+| 轮次 | 范围 | 受管文件 | 命中 | 判定 |
+| :--- | :--- | ---: | ---: | :--- |
+| 首轮 | 排除 `.venv/.git/data/docs/bibliography/raw` | 197 | 0 | CLEAN |
+| **补扫（修正覆盖缺口）** | **仅排除 `.venv/.git`** | **540** | **0** | **CLEAN** |
+
+**过程自纠（如实）**：首轮扫描沿用了代码扫描时期的排除规则，**把 `docs/bibliography/raw/`
+的 339 个受管文件跳过了** —— 那是 **`git ls-files` 实际跟踪**的文件，
+**凭据门漏扫了 63% 的受管文件**。发现后**修正排除规则并补扫**，全量 540 件仍为 0 命中。
+⇒ **排除规则必须按「是否受管」而非「是否像代码」来定。**
+
+### `.gitignore` 覆盖复核
+
+| 规则 | 状态 |
+| :--- | :--- |
+| `results/*.npy` · `results/fusion/*.npy` · `results/fusion10/*.npy` · `results/fusion_ablation/*.npy` · `results/field/*.npy` | 覆盖 ✓ |
+| `data/**`（野外原始数据） | 覆盖 ✓ |
+| `.venv` | 覆盖 ✓ |
+| `docs/bibliography/raw` | **未忽略——但这是正确的**：该目录 **339 个文件为刻意跟踪的语料证据**（`git ls-files` 可见），本就不应被忽略。脚本最初把它列为 MISS 系**字符串匹配式复核的误报**，经 `git ls-files` + `git check-ignore -v` **机制核验**澄清。 |
+
+### 结论
+
+**凭据门通过（540 件 0 命中）**，WS3 的 push 前置条件在该维度上**已满足**。
+`y_hat` / `y_fused` 大文件（≈3.5 GB）**未入 git** ✓；WS3 尚需决定其 Zenodo 范围或记为本地件。
