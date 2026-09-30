@@ -63,3 +63,5 @@ results/fusion/*.npy
 results/field/*.npy
 results/fusion10/*.npy
 results/fusion_ablation/*.npy
+# ---- P5.4 WS3 Zenodo archive payload (generated; manifests tracked) ----
+release-package/payload/

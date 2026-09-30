@@ -5043,3 +5043,64 @@ Google API key、Slack、Telegram bot token、私钥块、URL 内嵌凭据、Bea
 
 未 push、无 remote、未建 tag、未 amend；未改 `draft-v1..v4`、未改冻结件/任一既有 `metrics.csv`、
 未改 5 张图、未改融合实现与规则。
+
+---
+
+## 2026-09-30 · P5.4 / WS3：GitHub 发布 + Zenodo 归档包
+
+### ① GitHub（公开仓，已推送）
+
+| 项 | 值 |
+| :--- | :--- |
+| 仓库 | `https://github.com/xmwy0712/seismic-denoise-bench`（**public**） |
+| 分支 | `main` |
+| tag | 四个冻结 tag（`protocol-frozen` / `config-frozen` / `config-frozen-v2` / `fusion-rules-frozen`）+ 发布 tag `paper-draft-v1` |
+| Release | `https://github.com/xmwy0712/seismic-denoise-bench/releases/tag/paper-draft-v1` |
+| topics | benchmark · denoising · pre-registration · reproducibility · seismic |
+
+**网络**：直连 github.com **被重置**（`Recv failure: Connection was reset`），改用本机既定代理
+`socks5h://127.0.0.1:10808`（**逐命令 `-c` 传入，未写入持久配置**）后推送成功。
+
+**发布 tag 说明**：四个冻结 tag 语义专指配置/协议的冻结点，不以之为发布 tag；
+故另建 `paper-draft-v1` 指向本次发布快照，并在 Release 说明中写明。
+
+### ② 凭据门（**先于 push**）
+
+发布前凭据扫描已通过（全 540 受管文件 0 命中，见同日记录）；**扫描先于推送**。
+
+### ③ Zenodo 归档包（**已备好；无凭据，未铸 DOI**）
+
+| 项 | 值 |
+| :--- | :--- |
+| 包目录 | `release-package/` |
+| 包内文件 | **30** 件 / 5.36 MB |
+| 校验清单 | `release-package/MANIFEST.sha256`（包内逐文件 SHA256 + 字节数） |
+| 数组清单 | `release-package/ARRAYS.sha256`（**未随包上传**的 16473 个输出数组） |
+
+**凭据状态**：`ZENODO_TOKEN` / `ZENODO_ACCESS_TOKEN` / `ZENODO_API_TOKEN` / `ZENODO_SANDBOX_TOKEN` **均未配置**，
+用户级环境变量中亦无 Zenodo 项 ⇒ **按令未铸 DOI、未伪造**，状态为**待用户上传**。
+
+**输出数组范围决定（须披露）**：方法输出与融合输出数组共 **16473 个文件 / 4.37 GB**，
+**记为本地件、不随归档上传**。理由三条：① 可由冻结配置 + 种子 + 代码**确定性重放**；
+② 体积远大于其余材料之和；③ **逐文件 SHA256 已记入 `ARRAYS.sha256`**，不传输亦可核验重放一致性。
+
+### ④ 回填
+
+- 论文 `draft-v5.md` 的「数据与代码可用性」节：**GitHub URL 已回填**；Zenodo 条目标注为「归档包已备好，尚未分配 DOI」；
+- 附录 A 表 A.1：四项事后扩展产物由占位符改为**实测哈希前缀**；
+- 全文残留占位符 = **0**。
+
+### 交付物
+
+| 文件 | 字节 | SHA256 |
+| :--- | ---: | :--- |
+| `docs/paper/draft-v5.md`（更新） | 38015 | `A06D3B50BFEFF0896E2280C23F60C61B8F53BCC8B3FE55A41ED532763F0ED059` |
+| `docs/paper/format-compliance-v5.md`（新增） | 1988 | `8124DE902E9557EDECDAF3531909F3EE1AC952319E6E684BD0406A6B96134515` |
+| `release-package/README.md` | 1833 | `7A817E2AE520295E7E89F1E0C58F28C1F2EE28C6C1BED228C1029EE36AC92CB5` |
+| `release-package/MANIFEST.sha256` | 3270 | `C1A9CE6D7B4F187EE471EFF34345DE99D3A328295F638B7C67ACCB4103857879` |
+| `release-package/ARRAYS.sha256` | 2372535 | `20B2760B95E724EC434A72CB0D22F167BBDEDB87754AFCD0800481DAD7D7DAAA` |
+
+### 红线
+
+未 amend；未改既有产物（`draft-v1..v4`、冻结件、既有 `metrics.csv`、5 张图）；
+**推送前**已完成凭据扫描；代理仅逐命令传入；`release-package/payload/` 为生成物**不入库**。
