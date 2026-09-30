@@ -61,3 +61,5 @@ results/fusion/*.npy
 
 # ---- P4 野外产物（面板原始数据块的 .npy 不入库；指标与记录入库）----
 results/field/*.npy
+results/fusion10/*.npy
+results/fusion_ablation/*.npy

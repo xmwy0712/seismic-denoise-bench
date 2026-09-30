@@ -1,0 +1,65 @@
+{
+  "summary": {
+    "mode": "both",
+    "cells": 13500,
+    "rows": 13500,
+    "failures": 0,
+    "elapsed_s": 464.518,
+    "pairs": [
+      [
+        "fk_filter",
+        "fx_deconv"
+      ],
+      [
+        "fk_filter",
+        "wavelet_threshold"
+      ],
+      [
+        "fk_filter",
+        "ssa_decomposition"
+      ],
+      [
+        "fk_filter",
+        "svd_lowrank"
+      ],
+      [
+        "fx_deconv",
+        "wavelet_threshold"
+      ],
+      [
+        "fx_deconv",
+        "ssa_decomposition"
+      ],
+      [
+        "fx_deconv",
+        "svd_lowrank"
+      ],
+      [
+        "wavelet_threshold",
+        "ssa_decomposition"
+      ],
+      [
+        "wavelet_threshold",
+        "svd_lowrank"
+      ],
+      [
+        "ssa_decomposition",
+        "svd_lowrank"
+      ]
+    ],
+    "gammas": [
+      0.4,
+      0.5,
+      0.6
+    ],
+    "cross_check_cells": 1620,
+    "cross_check_mismatches": 0,
+    "cross_check_ok": true,
+    "cross_check_detail": [],
+    "expected_cells": {
+      "ten": 8100,
+      "ablation": 5400
+    }
+  },
+  "failures": []
+}

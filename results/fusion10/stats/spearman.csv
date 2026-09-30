@@ -1,0 +1,5 @@
+exploratory,metric,n,spearman_rho,p_two_sided,gain
+True,M1,10,0.8303030303030303,0.002940227023279506,median delta_snr_db @ gamma=0.5
+True,M1_signed,10,0.8303030303030303,0.002940227023279506,median delta_snr_db @ gamma=0.5
+True,M2,10,-0.5757575757575758,0.0815528147726024,median delta_snr_db @ gamma=0.5
+True,M3,10,0.6242424242424243,0.053717767217167325,median delta_snr_db @ gamma=0.5
