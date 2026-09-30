@@ -67,3 +67,18 @@
 
 > **说明**：判定元数据（状态 / 判定人 / 判定时间 / 计划日）来源为 P5.1 归档任务单原件，
 > 路径 `docs/task-sheets/P5.1-三态签收记录与论文B态修订-2026-09-29.md`。
+
+## v5 增补来源（P5.4 · WS2 新增表格与数值）
+
+> 覆盖 draft-v5 相对 draft-v4 **新增的全部数值**；v4 及更早的来源行全部保留不动。
+
+| 数字/量 | 值 | 来源产物 | SHA256 |
+| :--- | :--- | :--- | :--- |
+| v5 · 配置描述表（振幅比例与实测输入 SNR） | 0.30 / 0.60 / 1.00；10.46 / 4.44 / 0.00 dB；800 / 1500 / 3000 m/s | `configs/frozen-v2.yaml` + `docs/metrics-spec.md` | `FB63E2112C2984578BAB38EAA427F6D3…` |
+| v5 · 参数表（登记默认值） | 800.0 / 5.0 / 80.0 / 4 / 1e-08 / db4 / 1.0 / 64 / 8 / 0.95 | `configs/methods_registry.yaml` | `5DA2959BBE4C2C7BFB7667EF3E45A4AB…` |
+| v5 · 配对清单表（10 对 M1/M2 全局中位） | 0.741185 / 0.093807 / 0.575710 / 0.500000 / 0.200000 等 | `results/complementarity10/complementarity10.csv` | `507DEEBE81A36AD2EEF37EA2DBAEEED0…` |
+| v5 · 配对清单表（10 对融合 ΔSNR 中位） | 4.1515 / 0.0588 / 2.5295 等 | `results/fusion10/metrics.csv` | `E8147D0D4702F063D6DE21B20DEF6149…` |
+| v5 · 秩相关表（5 定义 × 4 度量） | +0.8303 / −0.3114 / +0.6727 / −0.0779 等 | `results/fusion10/stats/gain_definition_sensitivity.csv` | `812FBB051725E57D3B5807C5DF92426A…` |
+| v5 · CNA 与事件级表 | 14.6916 / 2.0804 / 6.7747 / 0.1101 / 2.8370 等 | `results/metrics.csv` + `results/fusion/metrics.csv` | `CD7499874B4A166E6B2737152D3B0C04…` |
+| v5 · 主配对池化阈值 | 0.0394653 | `results/complementarity10/run_manifest.json` | `080D2A2156F94B9B0C57740D05B24512…` |
+| v5 · 成员补表（单法 ΔSNR/Lsig） | 0.0000 / 0.0422 / 0.029151 / 0.015129 / 0.011218 | `results/metrics.csv` | `CD7499874B4A166E6B2737152D3B0C04…` |
