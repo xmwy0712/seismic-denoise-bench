@@ -82,3 +82,20 @@
 | v5 · CNA 与事件级表 | 14.6916 / 2.0804 / 6.7747 / 0.1101 / 2.8370 等 | `results/metrics.csv` + `results/fusion/metrics.csv` | `CD7499874B4A166E6B2737152D3B0C04…` |
 | v5 · 主配对池化阈值 | 0.0394653 | `results/complementarity10/run_manifest.json` | `080D2A2156F94B9B0C57740D05B24512…` |
 | v5 · 成员补表（单法 ΔSNR/Lsig） | 0.0000 / 0.0422 / 0.029151 / 0.015129 / 0.011218 | `results/metrics.csv` | `CD7499874B4A166E6B2737152D3B0C04…` |
+
+## v6 增补来源（P5.5 · 新分析）
+
+> 覆盖 draft-v6 相对 draft-v5 新增的数值；此前来源行全部保留不动。
+
+| 数字/量 | 值 | 来源产物 | SHA256 |
+| :--- | :--- | :--- | :--- |
+| v6 · 分工表（方法 × 噪声类型中位） | 0.8528 / 5.5231 / 2.4351 / 3.3458 / 0.8715；-0.1709 / -0.1028 / -0.0000 / 0.3020 / 4.4591；12.4354 / -0.0393 / 0.0422 / -0.0323 / 0.7927 | `results/metrics.csv` | `CD7499874B4A166E6B2737152D3B0C04…` |
+| v6 · 消融对照表（等权 / 纯 C² / 完整） | 4.1465 / 4.1465 / 4.1515 / 0.0050 / 0.0252 等 | `results/fusion_ablation/metrics.csv` + `results/fusion10/metrics.csv` | `1BDE916F4FF0C73B6B254F683E083BBB…` |
+| v6 · 种子外验证表 | 5.5231→5.5730 / 4.4591→2.0195 / 12.4354→12.1630；量级比 1.009 / 0.453 / 0.978 | `results/validation/metrics.csv` + `results/validation/validation_manifest.json` | `37B7042B296481C740621B51C6E4A5BF…` |
+| v6 · 样本外验证判据与规则 | N1→fx_deconv / N2→svd_lowrank / N3→fk_filter；判据 1 组内第一、判据 2 量级≥0.5× | `results/validation/preregistration.md` | `2C593C40286A544E7F4F01A82009275B…` |
+| v6 · 附录 B 各提交哈希 | afffc32 / ff60ac5 / 866989c / 37590f9 | git 历史（可 `git show <hash>` 核验） | `37590F908D25EADCD468FDD3546E9188…` |
+### v6 · 野外重跑（A1）
+
+| 数字/量 | 值 | 来源产物 | SHA256 |
+| :--- | :--- | :--- | :--- |
+| v6 · 野外三配对原始指标表 | -4.5336 / 0.19939 / 1.2099 / 0.6974 / +2.0835 / 0.71220 / 2.0143 / 0.2992 / -6.0569 / 0.44160 / 2.5260 / 0.2013 / -3.5899 / 0.13804 / -5.3283 / 0.13587 / -5.4667 / 0.47916 等 | `results/field2/field_pair_metrics.csv` | `E5882B408223A027E43A1FC2361DE869…` |

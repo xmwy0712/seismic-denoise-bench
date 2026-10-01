@@ -65,3 +65,5 @@ results/fusion10/*.npy
 results/fusion_ablation/*.npy
 # ---- P5.4 WS3 Zenodo archive payload (generated; manifests tracked) ----
 release-package/payload/
+# ---- P5.5 种子外验证（新种子 y_hat 不入库；指标与预注册件入库）----
+results/validation/*.npy

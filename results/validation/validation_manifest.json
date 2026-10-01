@@ -1,0 +1,105 @@
+{
+  "summary": {
+    "new_seeds": [
+      901,
+      902,
+      903,
+      904,
+      905
+    ],
+    "cells": 1350,
+    "rows": 1350,
+    "failures": 0,
+    "failure_rate": 0.0,
+    "stop_threshold": 0.05,
+    "stop_flag": false,
+    "elapsed_s": 442.698,
+    "preregistration_mtime": "2026-10-01 10:56:41",
+    "rule": {
+      "N1": "fx_deconv",
+      "N2": "svd_lowrank",
+      "N3": "fk_filter"
+    },
+    "per_noise": [
+      {
+        "noise": "N1",
+        "rule_method": "fx_deconv",
+        "orig_median": 5.523076272580058,
+        "new_median": 5.572955115413075,
+        "new_rank": 1,
+        "ratio_new_over_orig": 1.0090309893203262,
+        "orig_all": {
+          "fk_filter": 0.8528273366479766,
+          "fx_deconv": 5.523076272580058,
+          "wavelet_threshold": 2.435053516921475,
+          "ssa_decomposition": 3.345827193919376,
+          "svd_lowrank": 0.8715191124735311
+        },
+        "new_all": {
+          "fk_filter": 0.8890135235557466,
+          "fx_deconv": 5.572955115413075,
+          "wavelet_threshold": 2.429132614243308,
+          "ssa_decomposition": 3.0644040712735547,
+          "svd_lowrank": 0.8685366213979395
+        },
+        "criterion_1_rank1": true,
+        "criterion_2_magnitude": true,
+        "verdict": "PASS"
+      },
+      {
+        "noise": "N2",
+        "rule_method": "svd_lowrank",
+        "orig_median": 4.459132149588767,
+        "new_median": 2.01954609428034,
+        "new_rank": 1,
+        "ratio_new_over_orig": 0.45290115352750604,
+        "orig_all": {
+          "fk_filter": -0.17089398205291895,
+          "fx_deconv": -0.1028116174933249,
+          "wavelet_threshold": -1.7763568394002505e-15,
+          "ssa_decomposition": 0.301957439463153,
+          "svd_lowrank": 4.459132149588767
+        },
+        "new_all": {
+          "fk_filter": -0.004992502785904573,
+          "fx_deconv": -0.0012393454112533675,
+          "wavelet_threshold": -1.7763568394002505e-15,
+          "ssa_decomposition": 0.4245522447758755,
+          "svd_lowrank": 2.01954609428034
+        },
+        "criterion_1_rank1": true,
+        "criterion_2_magnitude": false,
+        "verdict": "FAIL"
+      },
+      {
+        "noise": "N3",
+        "rule_method": "fk_filter",
+        "orig_median": 12.435376450149624,
+        "new_median": 12.16302479311669,
+        "new_rank": 1,
+        "ratio_new_over_orig": 0.9780986399467098,
+        "orig_all": {
+          "fk_filter": 12.435376450149624,
+          "fx_deconv": -0.03931690542244436,
+          "wavelet_threshold": 0.042217938862860294,
+          "ssa_decomposition": -0.03233856437999316,
+          "svd_lowrank": 0.7927375993743393
+        },
+        "new_all": {
+          "fk_filter": 12.16302479311669,
+          "fx_deconv": -0.03920978210123364,
+          "wavelet_threshold": 0.04159584047183721,
+          "ssa_decomposition": -0.0633379123768929,
+          "svd_lowrank": 0.7959083786088312
+        },
+        "criterion_1_rank1": true,
+        "criterion_2_magnitude": true,
+        "verdict": "PASS"
+      }
+    ],
+    "pass_count": 2,
+    "overall": "样本外基本成立（>=2/3 PASS）",
+    "label": "post-hoc 假设 · 探索性 · 每组 n=90 · 配对非独立"
+  },
+  "failures": []
+}

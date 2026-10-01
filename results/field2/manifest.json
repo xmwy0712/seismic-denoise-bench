@@ -1,0 +1,36 @@
+{
+  "pairs": {
+    "primary_preregistered": [
+      "fx_deconv",
+      "wavelet_threshold"
+    ],
+    "control_preregistered": [
+      "fx_deconv",
+      "svd_lowrank"
+    ],
+    "posthoc_best": [
+      "fk_filter",
+      "fx_deconv"
+    ]
+  },
+  "gammas": [
+    0.4,
+    0.5,
+    0.6
+  ],
+  "panels": [
+    "FP1",
+    "FP2",
+    "FP3"
+  ],
+  "rows": 39,
+  "incremental": "写入 results/field2/，既有 results/field/ 未改动",
+  "metrics": [
+    "amp_dev_db",
+    "spectral_residual",
+    "continuity_gain",
+    "lp"
+  ],
+  "note": "无真值、四项无参考指标；延续既有不可区分判定（连续性不参与综合）；本表只列原始指标，不计算综合分（既有 u_scores_partial 的归一化口径未见文档，故不外推）",
+  "elapsed_s": 365.86
+}
