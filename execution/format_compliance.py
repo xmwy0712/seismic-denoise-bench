@@ -12,6 +12,11 @@
 因此"把图插到了前文"立刻能被抓到。
 
 退出码：全部门通过 0；任一 FAIL 非 0（可直接用作交付门禁）。
+
+`G-reader`（P5.7 起常驻，每版必跑）：读者形态门 —— 正文（附录 B 登记表除外）不得出现
+「留待 / 终稿决定 / 候选标题 / 标题说明 / 须记录 / 须报告 / 更正说明 / 本文早期版本 /
+本文初稿 / 初稿 v / 上一版 / 本版 / 治理 / change log / cover letter / 盲评」；
+结构门：第 1 行即标题、其下不得有引注块、首个二级标题为「摘要」、不得存在「## 0.」类小节。
 """
 
 from __future__ import annotations
@@ -119,6 +124,34 @@ def check(doc: Path) -> tuple[list[tuple[str, bool, str]], bool]:
     cited = sorted({int(m) for m in re.findall(r"\[(\d)\]", t)})
     listed = sorted({int(m) for m in re.findall(r"^\[(\d)\] ", t, re.M)})
     res.append(("G-cite-ref", cited == listed, f"正文 {cited} / 文献表 {listed}"))
+
+    # ── G-reader-terms：读者形态词表（正文；附录 B 登记表除外）
+    lines_all = t.split("\n")
+    try:
+        b_start = next(i for i, l in enumerate(lines_all) if l.startswith("## 附录 B"))
+    except StopIteration:
+        b_start = len(lines_all)
+    scan_lines = [l for i, l in enumerate(lines_all)
+                  if not (i >= b_start and l.startswith("|"))]
+    reader_words = ["留待", "终稿决定", "候选标题", "标题说明", "须记录", "须报告", "更正说明",
+                    "本文早期版本", "本文初稿", "初稿 v", "上一版", "本版", "治理",
+                    "change log", "cover letter", "盲评"]
+    rhits = [(w, i + 1) for i, l in enumerate(scan_lines) for w in reader_words if w in l]
+    res.append(("G-reader-terms", not rhits,
+                f"命中 = {rhits[:5] if rhits else '无'}（词表 {len(reader_words)} 项；附录 B 登记表已排除）"))
+
+    # ── G-reader-structure：第 1 行标题 / 无引注块 / 首个二级标题为摘要 / 无 ## 0.
+    l0 = lines_all[0]
+    title_ok = l0.startswith("# ")
+    h2 = [l for l in lines_all if l.startswith("## ")]
+    first_h2_ok = bool(h2) and h2[0].startswith("## 摘要")
+    no_zero = not any(l.startswith("## 0.") for l in lines_all)
+    pre = "\n".join(lines_all[:max(1, next((i for i, l in enumerate(lines_all)
+                                            if l.startswith("## ")), len(lines_all)))])
+    no_quote = not any(l.startswith(">") for l in pre.split("\n"))
+    struct_ok = title_ok and first_h2_ok and no_zero and no_quote
+    res.append(("G-reader-structure", struct_ok,
+                f"标题行={title_ok} 首个二级标题=摘要:{first_h2_ok} 无##0.:{no_zero} 标题块无引注:{no_quote}"))
 
     # ── G-encoding：无 BOM、纯 LF
     b = doc.read_bytes()
