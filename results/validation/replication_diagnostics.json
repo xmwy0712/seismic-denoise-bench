@@ -1,0 +1,85 @@
+{
+  "original_seeds": {
+    "n_obs": 270,
+    "hit_rate_global": 0.8925925925925926,
+    "shortfall_median_dB": 0.0,
+    "per_noise": {
+      "N1": {
+        "n": 90,
+        "hit_rate": 0.8222222222222222,
+        "sel_median": 5.523076272580058,
+        "oracle_median": 5.523076272580058,
+        "p75": 6.3269661519253155,
+        "p90": 7.011405582480754,
+        "seed_range_median": 0.28457152119295026
+      },
+      "N2": {
+        "n": 90,
+        "hit_rate": 0.8777777777777778,
+        "sel_median": 4.459132149588767,
+        "oracle_median": 4.459132149588767,
+        "p75": 19.763262718310138,
+        "p90": 28.89537374374764,
+        "seed_range_median": 9.405981452971716
+      },
+      "N3": {
+        "n": 90,
+        "hit_rate": 0.9777777777777777,
+        "sel_median": 12.435376450149624,
+        "oracle_median": 12.435376450149624,
+        "p75": 13.564538665784145,
+        "p90": 14.45239867596349,
+        "seed_range_median": 1.8702200353729435
+      }
+    },
+    "seed_range_median_all": 1.5306394007304602,
+    "shortfall_mean_all_dB": 0.2720413733930541,
+    "shortfall_mean_N2_dB": 0.2641429436535229
+  },
+  "new_seeds": {
+    "n_obs": 270,
+    "hit_rate_global": 0.8148148148148148,
+    "shortfall_median_dB": 0.0,
+    "per_noise": {
+      "N1": {
+        "n": 90,
+        "hit_rate": 0.8222222222222222,
+        "sel_median": 5.572955115413075,
+        "oracle_median": 5.572955115413075,
+        "p75": 6.285796086671588,
+        "p90": 6.9885966727222355,
+        "seed_range_median": 0.408881881887575
+      },
+      "N2": {
+        "n": 90,
+        "hit_rate": 0.6333333333333333,
+        "sel_median": 2.01954609428034,
+        "oracle_median": 2.448766898968806,
+        "p75": 4.586462128105375,
+        "p90": 21.751292782338144,
+        "seed_range_median": 13.522343062147389
+      },
+      "N3": {
+        "n": 90,
+        "hit_rate": 0.9888888888888889,
+        "sel_median": 12.16302479311669,
+        "oracle_median": 12.16302479311669,
+        "p75": 13.287202269408965,
+        "p90": 13.957229919794695,
+        "seed_range_median": 1.6582460330576074
+      }
+    },
+    "seed_range_median_all": 1.4328743918247078,
+    "shortfall_mean_all_dB": 0.279925852376459,
+    "shortfall_mean_N2_dB": 0.34600109278916047
+  },
+  "rule": {
+    "N1": "fx_deconv",
+    "N2": "svd_lowrank",
+    "N3": "fk_filter"
+  },
+  "source": {
+    "original": "results/metrics.csv",
+    "new": "results/validation/metrics.csv"
+  }
+}
