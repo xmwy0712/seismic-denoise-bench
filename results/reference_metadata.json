@@ -1,0 +1,94 @@
+{
+  "10.1190/1.1443920": {
+    "authors": [
+      "Abma, Ray",
+      "Claerbout, Jon"
+    ],
+    "title": "Lateral prediction for noise attenuation by t-x and f-x techniques",
+    "container": "Geophysics",
+    "volume": "60",
+    "issue": "6",
+    "page": "1887-1896",
+    "year": 1995
+  },
+  "10.1190/1.1444290": {
+    "authors": [
+      "Deighan, Andrew J.",
+      "Watts, Doyle R."
+    ],
+    "title": "Ground-roll suppression using the wavelet transform",
+    "container": "Geophysics",
+    "volume": "62",
+    "issue": "6",
+    "page": "1896-1903",
+    "year": 1997
+  },
+  "10.1190/geo2015-0264.1": {
+    "authors": [
+      "Huang, Weilin",
+      "Wang, Runqiu",
+      "Chen, Yangkang",
+      "Li, Huijian",
+      "Gan, Shuwei"
+    ],
+    "title": "Damped multichannel singular spectrum analysis for 3D random noise attenuation",
+    "container": "Geophysics",
+    "volume": "81",
+    "issue": "4",
+    "page": "V261-V270",
+    "year": 2016
+  },
+  "10.1109/tgrs.2017.2698342": {
+    "authors": [
+      "Chen, Yangkang",
+      "Zhou, Yatong",
+      "Chen, Wei",
+      "Zu, Shaohuan",
+      "Huang, Weilin",
+      "Zhang, Dong"
+    ],
+    "title": "Empirical Low-Rank Approximation for Seismic Noise Attenuation",
+    "container": "IEEE Transactions on Geoscience and Remote Sensing",
+    "volume": "55",
+    "issue": "8",
+    "page": "4696-4711",
+    "year": 2017
+  },
+  "10.1029/2026jh001403": {
+    "authors": [
+      "Dahmen, Nikolaj L."
+    ],
+    "title": "Earthquake Seismogram Denoising Across Time, Time‐Frequency, and Hybrid Domain Approaches",
+    "container": "Journal of Geophysical Research: Machine Learning and Computation",
+    "volume": "3",
+    "issue": "5",
+    "page": null,
+    "year": 2026
+  },
+  "10.2118/214392-ms": {
+    "authors": [
+      "Fogat, Mrigya",
+      "Roy, Samiran",
+      "Ferreira, Viviane",
+      "Singh, Satyan"
+    ],
+    "title": "A Comparative Analysis of Convolutional Neural Networks for Seismic Noise Attenuation",
+    "container": "SPE EuropEC - Europe Energy Conference featured at the 84th EAGE Annual Conference &amp; Exhibition",
+    "volume": null,
+    "issue": null,
+    "page": null,
+    "year": 2023
+  },
+  "10.1038/s41598-025-87481-y": {
+    "authors": [
+      "Zhong, Tie",
+      "Ye, Yuxin"
+    ],
+    "title": "MFIEN: multi-scale feature interactive enhancement network for seismic data denoising in desert areas",
+    "container": "Scientific Reports",
+    "volume": "15",
+    "issue": "1",
+    "page": null,
+    "year": 2025
+  }
+}
