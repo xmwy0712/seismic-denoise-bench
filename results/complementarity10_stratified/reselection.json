@@ -1,0 +1,233 @@
+{
+  "question": "全局池化 IQR 阈值是否制造了主配对居首的伪影？",
+  "rule": "M2 global median max; tie -> M1; tie -> lexicographic（与既有完全一致）",
+  "changed": "仅 M2 的 τ_ij 口径：全局池化 -> 逐噪声类型层内池化",
+  "thresholds_pooled": {
+    "fk_filter|fx_deconv": 0.35167096062003195,
+    "fk_filter|wavelet_threshold": 0.22917114011972262,
+    "fk_filter|ssa_decomposition": 0.39834829769537006,
+    "fk_filter|svd_lowrank": 0.16533075082770204,
+    "fx_deconv|wavelet_threshold": 0.03946529906544755,
+    "fx_deconv|ssa_decomposition": 0.2932555975528969,
+    "fx_deconv|svd_lowrank": 0.11341641380665288,
+    "wavelet_threshold|ssa_decomposition": 0.2646600642690585,
+    "wavelet_threshold|svd_lowrank": 0.0885539597726807,
+    "ssa_decomposition|svd_lowrank": 0.27026388848670946
+  },
+  "thresholds_stratified": {
+    "fk_filter|fx_deconv|N1": 0.22215315669833033,
+    "fk_filter|fx_deconv|N2": 0.135705485319342,
+    "fk_filter|fx_deconv|N3": 0.3509140298719378,
+    "fk_filter|wavelet_threshold|N1": 0.06021733108273903,
+    "fk_filter|wavelet_threshold|N2": 0.10525409034275311,
+    "fk_filter|wavelet_threshold|N3": 0.38283104585584515,
+    "fk_filter|ssa_decomposition|N1": 0.22924076046947467,
+    "fk_filter|ssa_decomposition|N2": 0.290022591387442,
+    "fk_filter|ssa_decomposition|N3": 0.44434717194685686,
+    "fk_filter|svd_lowrank|N1": 0.08097537354007546,
+    "fk_filter|svd_lowrank|N2": 0.0954378417390654,
+    "fk_filter|svd_lowrank|N3": 0.3957400616439951,
+    "fx_deconv|wavelet_threshold|N1": 0.21750300556840002,
+    "fx_deconv|wavelet_threshold|N2": 0.08509542327378401,
+    "fx_deconv|wavelet_threshold|N3": 0.017771184502160375,
+    "fx_deconv|ssa_decomposition|N1": 0.275533440035374,
+    "fx_deconv|ssa_decomposition|N2": 0.3338761415787567,
+    "fx_deconv|ssa_decomposition|N3": 0.21943914086861682,
+    "fx_deconv|svd_lowrank|N1": 0.2814201857741244,
+    "fx_deconv|svd_lowrank|N2": 0.1132945813533675,
+    "fx_deconv|svd_lowrank|N3": 0.0680304775134429,
+    "wavelet_threshold|ssa_decomposition|N1": 0.19329258842017857,
+    "wavelet_threshold|ssa_decomposition|N2": 0.2815781727192443,
+    "wavelet_threshold|ssa_decomposition|N3": 0.23639917189615633,
+    "wavelet_threshold|svd_lowrank|N1": 0.1156241675883576,
+    "wavelet_threshold|svd_lowrank|N2": 0.04644869058988851,
+    "wavelet_threshold|svd_lowrank|N3": 0.05876802734809848,
+    "ssa_decomposition|svd_lowrank|N1": 0.24265921714807145,
+    "ssa_decomposition|svd_lowrank|N2": 0.29490851045396915,
+    "ssa_decomposition|svd_lowrank|N3": 0.23712044839481344
+  },
+  "iqr": {
+    "fk_filter|fx_deconv|pooled": 0.2344473070800213,
+    "fk_filter|fx_deconv|N1": 0.14810210446555355,
+    "fk_filter|fx_deconv|N2": 0.09047032354622801,
+    "fk_filter|fx_deconv|N3": 0.2339426865812919,
+    "fk_filter|wavelet_threshold|pooled": 0.1527807600798151,
+    "fk_filter|wavelet_threshold|N1": 0.04014488738849269,
+    "fk_filter|wavelet_threshold|N2": 0.07016939356183541,
+    "fk_filter|wavelet_threshold|N3": 0.2552206972372301,
+    "fk_filter|ssa_decomposition|pooled": 0.2655655317969134,
+    "fk_filter|ssa_decomposition|N1": 0.15282717364631646,
+    "fk_filter|ssa_decomposition|N2": 0.1933483942582947,
+    "fk_filter|ssa_decomposition|N3": 0.29623144796457124,
+    "fk_filter|svd_lowrank|pooled": 0.11022050055180135,
+    "fk_filter|svd_lowrank|N1": 0.053983582360050304,
+    "fk_filter|svd_lowrank|N2": 0.0636252278260436,
+    "fk_filter|svd_lowrank|N3": 0.2638267077626634,
+    "fx_deconv|wavelet_threshold|pooled": 0.026310199376965035,
+    "fx_deconv|wavelet_threshold|N1": 0.14500200371226668,
+    "fx_deconv|wavelet_threshold|N2": 0.05673028218252268,
+    "fx_deconv|wavelet_threshold|N3": 0.011847456334773583,
+    "fx_deconv|ssa_decomposition|pooled": 0.19550373170193125,
+    "fx_deconv|ssa_decomposition|N1": 0.18368896002358268,
+    "fx_deconv|ssa_decomposition|N2": 0.22258409438583782,
+    "fx_deconv|ssa_decomposition|N3": 0.1462927605790779,
+    "fx_deconv|svd_lowrank|pooled": 0.07561094253776858,
+    "fx_deconv|svd_lowrank|N1": 0.1876134571827496,
+    "fx_deconv|svd_lowrank|N2": 0.075529720902245,
+    "fx_deconv|svd_lowrank|N3": 0.0453536516756286,
+    "wavelet_threshold|ssa_decomposition|pooled": 0.176440042846039,
+    "wavelet_threshold|ssa_decomposition|N1": 0.12886172561345238,
+    "wavelet_threshold|ssa_decomposition|N2": 0.18771878181282953,
+    "wavelet_threshold|ssa_decomposition|N3": 0.15759944793077088,
+    "wavelet_threshold|svd_lowrank|pooled": 0.05903597318178713,
+    "wavelet_threshold|svd_lowrank|N1": 0.0770827783922384,
+    "wavelet_threshold|svd_lowrank|N2": 0.030965793726592337,
+    "wavelet_threshold|svd_lowrank|N3": 0.03917868489873232,
+    "ssa_decomposition|svd_lowrank|pooled": 0.1801759256578063,
+    "ssa_decomposition|svd_lowrank|N1": 0.16177281143204764,
+    "ssa_decomposition|svd_lowrank|N2": 0.19660567363597944,
+    "ssa_decomposition|svd_lowrank|N3": 0.15808029892987563
+  },
+  "selection_pooled": {
+    "chosen_pair": [
+      "fx_deconv",
+      "wavelet_threshold"
+    ],
+    "chosen_m2_global": 0.5,
+    "chosen_m1_global": 0.09380700212314858,
+    "tie_resolution_path": [
+      "primary: max global M2 median"
+    ],
+    "ranking_by_m2_global": [
+      {
+        "pair": "fx_deconv|wavelet_threshold",
+        "M2": 0.5,
+        "M1": 0.09380700212314858
+      },
+      {
+        "pair": "fx_deconv|svd_lowrank",
+        "M2": 0.2,
+        "M1": 0.5757102392171617
+      },
+      {
+        "pair": "fk_filter|fx_deconv",
+        "M2": 0.0,
+        "M1": 0.7411845314230756
+      },
+      {
+        "pair": "fk_filter|wavelet_threshold",
+        "M2": 0.0,
+        "M1": 0.19490546533041891
+      },
+      {
+        "pair": "fk_filter|ssa_decomposition",
+        "M2": 0.0,
+        "M1": 0.5753598770590918
+      },
+      {
+        "pair": "fk_filter|svd_lowrank",
+        "M2": 0.0,
+        "M1": 0.5760856778569026
+      },
+      {
+        "pair": "fx_deconv|ssa_decomposition",
+        "M2": 0.0,
+        "M1": 0.42320312881910993
+      },
+      {
+        "pair": "wavelet_threshold|ssa_decomposition",
+        "M2": 0.0,
+        "M1": 0.2686505289431321
+      },
+      {
+        "pair": "wavelet_threshold|svd_lowrank",
+        "M2": 0.0,
+        "M1": 0.1574709733904735
+      },
+      {
+        "pair": "ssa_decomposition|svd_lowrank",
+        "M2": 0.0,
+        "M1": 0.40687921338173016
+      }
+    ]
+  },
+  "selection_stratified": {
+    "chosen_pair": [
+      "fx_deconv",
+      "svd_lowrank"
+    ],
+    "chosen_m2_global": 0.1111111111111111,
+    "chosen_m1_global": 0.5757102392171617,
+    "tie_resolution_path": [
+      "primary: max global M2 median"
+    ],
+    "ranking_by_m2_global": [
+      {
+        "pair": "fx_deconv|svd_lowrank",
+        "M2": 0.1111111111111111,
+        "M1": 0.5757102392171617
+      },
+      {
+        "pair": "fk_filter|wavelet_threshold",
+        "M2": 0.09523809523809523,
+        "M1": 0.19490546533041891
+      },
+      {
+        "pair": "fk_filter|fx_deconv",
+        "M2": 0.06896551724137931,
+        "M1": 0.7411845314230756
+      },
+      {
+        "pair": "fk_filter|ssa_decomposition",
+        "M2": 0.0,
+        "M1": 0.5753598770590918
+      },
+      {
+        "pair": "fk_filter|svd_lowrank",
+        "M2": 0.0,
+        "M1": 0.5760856778569026
+      },
+      {
+        "pair": "fx_deconv|wavelet_threshold",
+        "M2": 0.0,
+        "M1": 0.09380700212314858
+      },
+      {
+        "pair": "fx_deconv|ssa_decomposition",
+        "M2": 0.0,
+        "M1": 0.42320312881910993
+      },
+      {
+        "pair": "wavelet_threshold|ssa_decomposition",
+        "M2": 0.0,
+        "M1": 0.2686505289431321
+      },
+      {
+        "pair": "wavelet_threshold|svd_lowrank",
+        "M2": 0.0,
+        "M1": 0.1574709733904735
+      },
+      {
+        "pair": "ssa_decomposition|svd_lowrank",
+        "M2": 0.0,
+        "M1": 0.40687921338173016
+      }
+    ]
+  },
+  "primary_pair": [
+    "fx_deconv",
+    "wavelet_threshold"
+  ],
+  "primary_pair_still_top": false,
+  "verdict": "池化伪影坐实 —— 主配对不再居首",
+  "self_check": {
+    "mode_pooled_vs_existing": {
+      "checked": 720,
+      "mismatches": 0,
+      "cross_ok": true,
+      "detail": []
+    }
+  },
+  "rows": 720,
+  "note": "两个方向都接受；本结论只改阈值口径，其余口径完全不变"
+}
