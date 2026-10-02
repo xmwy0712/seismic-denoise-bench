@@ -108,3 +108,25 @@
 | v7 · §4.2 分层值更正 | 0.631579（model=M2 层）；零值层 = model=M1 / noise=N3 / M1_N2 / M1_N3 | `results/complementarity10/complementarity10.csv` | `507DEEBE81A36AD2EEF37EA2DBAEEED0…` |
 | v7 · §4.5 新种子复现与分位数 | 5.9840 / 6.7033；N2 分位 19.76 / 28.90（原）与 4.59 / 21.75（新） | `results/metrics.csv` + `results/validation/metrics.csv` | `37B7042B296481C740621B51C6E4A5BF…` |
 | v7 · M2 第二重伪影直接检验（窗口级） | 窗数 1110；阈值 0.217503；D>0 309、D<0 801；超阈 118（同号 87） | `results/complementarity/m2_second_artifact_test.csv` | `AD5D31EF58A72A4C51AD8C2BCE3E1BE1…` |
+
+
+### v8 增补来源（P5.8 · 审稿四轮整改）
+
+| 数字/量 | 值 | 来源产物 | SHA256 |
+| :--- | :--- | :--- | :--- |
+| v8 · 野外综合分 γ=0.5（统一口径） | FP1 −2.2652 / FP2 −1.1089 | `results/field/u_scores_partial.csv` | `F2238A2AF5179B7E192FC2013BE76067CAB87F6B5B58E8249462F8E59B24FC27` |
+| v8 · 野外三档完整范围 | FP1 −2.3201(γ=0.4) ~ −2.2100(γ=0.6)；FP2 −1.1362 ~ −1.0791 | `results/field/u_scores_partial.csv` | `F2238A2AF5179B7E192FC2013BE76067CAB87F6B5B58E8249462F8E59B24FC27` |
+| v8 · 野外全貌（劣于融合者） | FP1 F-K −15.2663、F-X −12.8650；FP2 F-K −10.8560、F-X −7.5786 | `results/field/u_scores_partial.csv` | `F2238A2AF5179B7E192FC2013BE76067CAB87F6B5B58E8249462F8E59B24FC27` |
+| v8 · 选法命中率与落后 oracle | 89.3% / 81.5%；平均落后 0.27 / 0.28 dB | `results/validation/replication_diagnostics.json` | `1B56E6F790BA8EDB4E0E6FF6A4B31ACEDD707EF92B560083B41AAA93398044FC` |
+| v8 · N2 命中率与分位 | 87.8% → 63.3%；75 分位 19.76 → 4.59；90 分位 28.90 → 21.75 | 同上 | `1B56E6F790BA8EDB4E0E6FF6A4B31ACEDD707EF92B560083B41AAA93398044FC` |
+| v8 · N2 组内种子极差中位 | 9.41 dB（原）→ 13.52 dB（新） | 同上 | `1B56E6F790BA8EDB4E0E6FF6A4B31ACEDD707EF92B560083B41AAA93398044FC` |
+| v8 · 平台值与秩选择（N2 低秩） | 平台 ≈ 34.625；k = 1（原 5/5）；新种子 1.80/3.33/34.62/5.75/34.63（k=18/12/1/7/1） | `results/metrics.csv` + `results/validation/metrics.csv` | `CD7499874B4A166E6B2737152D3B0C045232911D5D388DD46262406B11443933` |
+| v8 · 层内 IQR 阈值（逐噪声类型） | N1 0.2175030056 / N2 0.0850954233 / N3 0.0177711845 | `results/complementarity10_stratified/reselection.json` | `D5085A721B588D37A9E4A3DAE129BA4C12F7990A7B326A1C8398E7E0BD775686` |
+| v8 · 层内重选结果 | 主配对 M2 0.500000 → 0.000000；首位 fx_deconv\|svd_lowrank = 0.111111 | 同上 | `D5085A721B588D37A9E4A3DAE129BA4C12F7990A7B326A1C8398E7E0BD775686` |
+| v8 · §5.1 同号单元（18 配置口径） | 全负 7 / 全正 0 / 混合 11 | `results/complementarity/complementarity.csv` + `results/*.npy` | `AE0FF75F58F2E88D27F1751EF554BABE50783D0A7C5A1041792107A506C9B566` |
+| v8 · §4.3 成员对照（配置级 γ=0.5） | vs F-X +0.1658 [0.0468,0.3264] p=0.0003；vs 小波 +0.0267 [0.0172,0.1429] p=0.0008 | `results/fusion/stats/pairwise_config.csv` | `89E5FAC8D39742BE68CA4AF7BFD1DA436B74554028B07BAF64B03EC7C01219AD` |
+| v8 · 新种子逐方法中位 | fk_filter 0.9666 / svd_lowrank 0.8833 / ssa 0.1933 / wavelet 0.0416 / fx_deconv 0.0000 | `results/validation/metrics.csv` | `37B7042B296481C740621B51C6E4A5BFD0A69C3B9E9128A6B123986B95A72A51` |
+
+> **口径说明**：「野外综合分」一行的 −2.2652 / −1.1089 为 γ=0.5（全文统一口径）；
+> 既有的 −2.2100 / −1.0791 为 γ=0.6 档，仍如实保留于上表（系同一产物的另一档）。
+> 该综合分的**归一化口径未见于文档记录**，其去重敏感性经四次复算**不可复现**，已在正文如实披露。
