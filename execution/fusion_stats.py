@@ -87,6 +87,15 @@ def bci(d: np.ndarray, rng) -> tuple[float, float]:
     return (float(np.percentile(b, 2.5)), float(np.percentile(b, 97.5)))
 
 
+def config_level(vals_by_cell: dict[str, list[float]]) -> np.ndarray:
+    """**配置级聚合路径**（P5.6 新增）：每配置内先取中位（种子为**配置内重复**），
+    再进入置换/自助，**分析单元 = 配置**（n_configs = 54），而非 270 个观测。
+    与 §3.5「以配置为分析单元（n = 54），种子为配置内重复」的声明一致。
+    """
+    return np.asarray([float(np.median(v)) for _c, v in sorted(vals_by_cell.items())],
+                      dtype=np.float64)
+
+
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser(description="P3.2 融合统计（读 stats_preregistration.md 定死的参数）")
     ap.add_argument("--out", default="results/fusion/stats")
@@ -119,7 +128,11 @@ def main(argv=None) -> int:
 
     rng_p = np.random.default_rng(SEED_PERM)
     rng_b = np.random.default_rng(SEED_BOOT)
+    # **配置级独立 RNG 流**（P5.6）：与观测级互不干扰
+    rng_pc = np.random.default_rng(SEED_PERM + 100)
+    rng_bc = np.random.default_rng(SEED_BOOT + 100)
     rows: list[dict] = []
+    rows_c: list[dict] = []          # 配置级聚合结果（P5.6）
 
     for (role, gamma), grp in sorted(groups.items()):
         by_pair = {(r["config_id"], int(r["seed"])): r for r in grp}
@@ -141,8 +154,10 @@ def main(argv=None) -> int:
                                or (s == "noise" and cid.split("_")[1] == k)
                                or (s == "gamma" and gamma == k)]
                     recs, raw = [], []
+                    recs_c, raw_c = [], []          # 配置级（P5.6）
                     for comp in COMPARATORS:
                         diffs = []
+                        cfg: dict[str, list[float]] = {}
                         for cid, sd in sorted(members):
                             fr = by_pair.get((cid, sd))
                             if fr is None:
@@ -163,11 +178,17 @@ def main(argv=None) -> int:
                             if sv is None:
                                 continue
                             diffs.append(fv - sv)
+                            cfg.setdefault(cid, []).append(fv - sv)
+                        cv = config_level(cfg)
                         d = np.asarray(diffs, dtype=np.float64)
                         if d.size == 0:
                             recs.append({"comparator": comp, "n": 0, "median_diff": None,
                                          "ci_lo": None, "ci_hi": None, "p_raw": None, "p_holm": None})
                             raw.append(float("nan"))
+                            raw_c.append(float("nan"))
+                            recs_c.append({"comparator": comp, "n": 0, "median_diff": None,
+                                           "ci_lo": None, "ci_hi": None,
+                                           "p_raw": None, "p_holm": None})
                             continue
                         lo, hi = bci(d, rng_b)
                         p = perm(d, rng_p)
@@ -175,14 +196,36 @@ def main(argv=None) -> int:
                         recs.append({"comparator": comp, "n": int(d.size),
                                      "median_diff": float(np.median(d)),
                                      "ci_lo": lo, "ci_hi": hi, "p_raw": p, "p_holm": None})
+                        # ── 配置级（P5.6）：每配置 5 种子取中位 -> 54 个配置级差值
+                        if cv.size:
+                            loc, hic = bci(cv, rng_bc)
+                            pc = perm(cv, rng_pc)
+                            raw_c.append(pc)
+                            recs_c.append({"comparator": comp, "n": int(cv.size),
+                                           "median_diff": float(np.median(cv)),
+                                           "ci_lo": loc, "ci_hi": hic,
+                                           "p_raw": pc, "p_holm": None})
+                        else:
+                            raw_c.append(float("nan"))
+                            recs_c.append({"comparator": comp, "n": 0, "median_diff": None,
+                                           "ci_lo": None, "ci_hi": None,
+                                           "p_raw": None, "p_holm": None})
                     valid = [(i, p) for i, p in enumerate(raw) if not np.isnan(p)]
                     if valid:
                         for (i, _), pv in zip(valid, holm([p for _, p in valid])):
                             recs[i]["p_holm"] = pv
+                    valid_c = [(i, p) for i, p in enumerate(raw_c) if not np.isnan(p)]
+                    if valid_c:
+                        for (i, _), pv in zip(valid_c, holm([p for _, p in valid_c])):
+                            recs_c[i]["p_holm"] = pv
                     for rec in recs:
                         rows.append({"role": role, "gamma": gamma, "metric": label,
                                      "column": metric, "direction": direction,
                                      "stratum": s, "stratum_key": k, **rec})
+                    for rec in recs_c:
+                        rows_c.append({"role": role, "gamma": gamma, "metric": label,
+                                       "column": metric, "direction": direction,
+                                       "stratum": s, "stratum_key": k, **rec})
 
     # 期望行数（可推导）：每个 (role, gamma) 组内
     #   global(1) + model(2) + noise(3) + gamma(1) = **7 个分层键**
@@ -192,6 +235,9 @@ def main(argv=None) -> int:
     with (out / "pairwise.csv").open("w", encoding="utf-8", newline="") as fh:
         w = csv.DictWriter(fh, fieldnames=list(rows[0].keys()), lineterminator="\n")
         w.writeheader(); w.writerows(rows)
+    with (out / "pairwise_config.csv").open("w", encoding="utf-8", newline="") as fh:
+        w = csv.DictWriter(fh, fieldnames=list(rows_c[0].keys()), lineterminator="\n")
+        w.writeheader(); w.writerows(rows_c)
 
     sig = [r for r in rows if r["p_holm"] not in (None, "") and float(r["p_holm"]) < ALPHA]
     nvalid = [r for r in rows if r["p_holm"] not in (None, "")]
@@ -202,6 +248,9 @@ def main(argv=None) -> int:
         "B_perm": B_PERM, "B_boot": B_BOOT, "alpha": ALPHA,
         "seed_perm": SEED_PERM, "seed_boot": SEED_BOOT,
         "rows": len(rows), "expected_rows": expected,
+        "rows_config": len(rows_c),
+        "analysis_unit_config": "配置（每配置 5 种子取中位，n_configs = 54）",
+        "pairwise_config_file": "pairwise_config.csv",
         "n_significant_holm": len(sig), "n_valid": len(nvalid),
         "elapsed_s": round(time.perf_counter() - t0, 3),
     }

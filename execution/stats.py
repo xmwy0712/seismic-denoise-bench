@@ -111,6 +111,15 @@ def boot_ci(vals: np.ndarray, rng: np.random.Generator, stat: str = "median") ->
     return (float(np.percentile(boot, 2.5)), float(np.percentile(boot, 97.5)))
 
 
+def config_level(vals_by_cell: dict[str, list[float]]) -> np.ndarray:
+    """**配置级聚合路径**（P5.6 新增）：每配置内先取中位（种子为**配置内重复**），
+    再进入置换/自助，**分析单元 = 配置**（n_configs = 54），而非 270 个观测。
+    与 §3.5「以配置为分析单元（n = 54），种子为配置内重复」的声明一致。
+    """
+    return np.asarray([float(np.median(v)) for _c, v in sorted(vals_by_cell.items())],
+                      dtype=np.float64)
+
+
 def main() -> int:
     t0 = time.perf_counter()
     OUT.mkdir(parents=True, exist_ok=True)
@@ -140,8 +149,12 @@ def main() -> int:
 
     rng_p = np.random.default_rng(SEED_PERM)
     rng_b = np.random.default_rng(SEED_BOOT)
+    # **配置级独立 RNG 流**（P5.6）：与观测级互不干扰，保证既有观测级产物逐字节可复现
+    rng_pc = np.random.default_rng(SEED_PERM + 100)
+    rng_bc = np.random.default_rng(SEED_BOOT + 100)
 
     out_rows: list[dict] = []
+    out_rows_c: list[dict] = []           # 配置级聚合结果（P5.6）
     # **按「分层类型 × 分层键」逐格出表**：分层键总数 = 1+2+3+3+3+6 = 18
     # ⇒ 行数 = 10 对 × 5 指标 × 18 分层 = **900**（与预注册件公式一致）。
     # Holm 族 = 「本指标 × 本分层键」内的 10 个方法对。
@@ -149,10 +162,13 @@ def main() -> int:
         for s in STRATA:
             for skey, members in sorted(strat_members[s].items()):
                 recs: list[dict] = []
+                recs_c: list[dict] = []          # 配置级（P5.6）
                 raw: list[float] = []
+                raw_c: list[float] = []
                 m_sorted = sorted(members)
                 for (a, b) in pairs:
                     diffs: list[float] = []
+                    cfg: dict[str, list[float]] = {}          # 配置级聚合（P5.6）
                     for cid, seed in m_sorted:
                         ra = index.get((cid, seed, a))
                         rb = index.get((cid, seed, b))
@@ -162,6 +178,7 @@ def main() -> int:
                         if va is None or vb is None:
                             continue
                         diffs.append(va - vb)
+                        cfg.setdefault(cid, []).append(va - vb)
                     dv = np.asarray(diffs, dtype=np.float64)
                     n = int(dv.size)
                     if n == 0:
@@ -171,6 +188,12 @@ def main() -> int:
                                      "median_diff": None, "ci_lo": None, "ci_hi": None,
                                      "p_raw": None, "p_holm": None})
                         raw.append(float("nan"))
+                        raw_c.append(float("nan"))
+                        recs_c.append({"metric": label, "column": col, "direction": direction,
+                                       "stratum": s, "stratum_key": skey,
+                                       "method_a": a, "method_b": b, "n": 0,
+                                       "median_diff": None, "ci_lo": None, "ci_hi": None,
+                                       "p_raw": None, "p_holm": None})
                         continue
                     med = float(np.median(dv))
                     lo, hi = boot_ci(dv, rng_b, "median")
@@ -181,12 +204,36 @@ def main() -> int:
                                  "method_a": a, "method_b": b, "n": n,
                                  "median_diff": med, "ci_lo": lo, "ci_hi": hi,
                                  "p_raw": pv, "p_holm": None})
+                    # ── 配置级（P5.6）：每配置 5 种子取中位 -> 54 个配置级差值
+                    cv = config_level(cfg)
+                    if cv.size:
+                        raw_c.append(perm_test(cv, rng_pc))
+                        loc, hic = boot_ci(cv, rng_bc, "median")
+                        recs_c.append({"metric": label, "column": col, "direction": direction,
+                                       "stratum": s, "stratum_key": skey,
+                                       "method_a": a, "method_b": b, "n": int(cv.size),
+                                       "median_diff": float(np.median(cv)),
+                                       "ci_lo": loc, "ci_hi": hic,
+                                       "p_raw": raw_c[-1], "p_holm": None})
+                    else:
+                        raw_c.append(float("nan"))
+                        recs_c.append({"metric": label, "column": col, "direction": direction,
+                                       "stratum": s, "stratum_key": skey,
+                                       "method_a": a, "method_b": b, "n": 0,
+                                       "median_diff": None, "ci_lo": None, "ci_hi": None,
+                                       "p_raw": None, "p_holm": None})
                 valid = [(i, pv) for i, pv in enumerate(raw) if not np.isnan(pv)]
                 if valid:
                     adj = holm([pv for _, pv in valid])
                     for (i, _), pv in zip(valid, adj):
                         recs[i]["p_holm"] = pv
+                valid_c = [(i, pv) for i, pv in enumerate(raw_c) if not np.isnan(pv)]
+                if valid_c:
+                    adjc = holm([pv for _, pv in valid_c])
+                    for (i, _), pv in zip(valid_c, adjc):
+                        recs_c[i]["p_holm"] = pv
                 out_rows.extend(recs)
+                out_rows_c.extend(recs_c)
 
     # ── 写出 pairwise.csv
     pw = OUT / "pairwise.csv"
@@ -196,9 +243,16 @@ def main() -> int:
         w = csv.DictWriter(fh, fieldnames=cols, lineterminator="\n")
         w.writeheader()
         w.writerows(out_rows)
+    pw_c = OUT / "pairwise_config.csv"
+    with pw_c.open("w", encoding="utf-8", newline="") as fh:
+        w = csv.DictWriter(fh, fieldnames=cols, lineterminator="\n")
+        w.writeheader()
+        w.writerows(out_rows_c)
+
     n_stratum_keys = sum(len(v) for v in strat_members.values())
     expected = len(pairs) * len(METRIC_COLS) * n_stratum_keys
     assert len(out_rows) == expected, f"行数 {len(out_rows)} != {expected}"
+    assert len(out_rows_c) == expected, f"配置级行数 {len(out_rows_c)} != {expected}"
 
     # ── 宏平均（逐方法：中位与均值 + 自助 CI）
     macro: list[dict] = []
@@ -230,6 +284,9 @@ def main() -> int:
         "seed_perm": SEED_PERM, "seed_boot": SEED_BOOT,
         "n_pairs": len(pairs), "n_metrics": len(METRIC_COLS), "n_strata_types": len(STRATA), "n_stratum_keys": n_stratum_keys,
         "pairwise_rows": len(out_rows), "expected_rows": expected,
+        "pairwise_config_rows": len(out_rows_c),
+        "analysis_unit_config": "配置（每配置 5 种子取中位，n_configs = 54）",
+        "pairwise_config_file": "pairwise_config.csv",
         "elapsed_s": round(elapsed, 3),
     }, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"pairwise.csv 行数 = {len(out_rows)}（期望 {expected}）")

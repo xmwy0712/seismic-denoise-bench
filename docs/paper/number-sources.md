@@ -99,3 +99,12 @@
 | 数字/量 | 值 | 来源产物 | SHA256 |
 | :--- | :--- | :--- | :--- |
 | v6 · 野外三配对原始指标表 | -4.5336 / 0.19939 / 1.2099 / 0.6974 / +2.0835 / 0.71220 / 2.0143 / 0.2992 / -6.0569 / 0.44160 / 2.5260 / 0.2013 / -3.5899 / 0.13804 / -5.3283 / 0.13587 / -5.4667 / 0.47916 等 | `results/field2/field_pair_metrics.csv` | `E5882B408223A027E43A1FC2361DE869…` |
+
+### v7 增补来源（P5.6 · 配置级统计与更正）
+
+| 数字/量 | 值 | 来源产物 | SHA256 |
+| :--- | :--- | :--- | :--- |
+| v7 · §4.3 配置级统计（n=54） | +0.165827 / +0.046848 / +0.326409 / 0.000200 / -0.024528 / -0.032315 / -0.006982 | `results/fusion/stats/pairwise_config.csv` + `results/stats/unit_caliber_comparison.csv` | `43D8EACB6F8CD4973F9E146899C5C6E6…` |
+| v7 · §4.2 分层值更正 | 0.631579（model=M2 层）；零值层 = model=M1 / noise=N3 / M1_N2 / M1_N3 | `results/complementarity10/complementarity10.csv` | `507DEEBE81A36AD2EEF37EA2DBAEEED0…` |
+| v7 · §4.5 新种子复现与分位数 | 5.9840 / 6.7033；N2 分位 19.76 / 28.90（原）与 4.59 / 21.75（新） | `results/metrics.csv` + `results/validation/metrics.csv` | `37B7042B296481C740621B51C6E4A5BF…` |
+| v7 · M2 第二重伪影直接检验（窗口级） | 窗数 1110；阈值 0.217503；D>0 309、D<0 801；超阈 118（同号 87） | `results/complementarity/m2_second_artifact_test.csv` | `AD5D31EF58A72A4C51AD8C2BCE3E1BE1…` |

@@ -1,0 +1,2 @@
+scope,n_windows,n_obs,threshold,frac_positive,frac_negative,frac_zero,n_over_threshold,frac_over_positive,frac_over_negative,obs_all_positive,obs_all_negative
+N1_all_windows,1110,18,0.21750300556840002,0.27837837837837837,0.7216216216216216,0.0,118,0.2627118644067797,0.7372881355932204,3,9
