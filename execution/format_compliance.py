@@ -128,11 +128,12 @@ def check(doc: Path) -> tuple[list[tuple[str, bool, str]], bool]:
     # ── G-reader-terms：读者形态词表（正文；附录 B 登记表除外）
     lines_all = t.split("\n")
     try:
-        b_start = next(i for i, l in enumerate(lines_all) if l.startswith("## 附录 B"))
+        b_start = next(i for i, l in enumerate(lines_all)
+                       if l.startswith("## 附录 B") or l.startswith("## Appendix B"))
     except StopIteration:
         b_start = len(lines_all)
-    scan_lines = [l for i, l in enumerate(lines_all)
-                  if not (i >= b_start and l.startswith("|"))]
+    # 附录 B 整节排除（其内容本身就是修订登记；门自述范围 =「正文（附录 B 登记表除外）」）
+    scan_lines = lines_all[:b_start]
     reader_words = ["留待", "终稿决定", "候选标题", "标题说明", "须记录", "须报告", "更正说明",
                     "本文早期版本", "本文初稿", "初稿 v", "上一版", "本版", "治理",
                     "change log", "cover letter", "盲评",
@@ -147,7 +148,7 @@ def check(doc: Path) -> tuple[list[tuple[str, bool, str]], bool]:
     l0 = lines_all[0]
     title_ok = l0.startswith("# ")
     h2 = [l for l in lines_all if l.startswith("## ")]
-    first_h2_ok = bool(h2) and h2[0].startswith("## 摘要")
+    first_h2_ok = bool(h2) and (h2[0].startswith("## 摘要") or h2[0].startswith("## Abstract"))
     no_zero = not any(l.startswith("## 0.") for l in lines_all)
     pre = "\n".join(lines_all[:max(1, next((i for i, l in enumerate(lines_all)
                                             if l.startswith("## ")), len(lines_all)))])
