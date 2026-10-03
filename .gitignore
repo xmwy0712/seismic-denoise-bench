@@ -67,3 +67,6 @@ results/fusion_ablation/*.npy
 release-package/payload/
 # ---- P5.5 种子外验证（新种子 y_hat 不入库；指标与预注册件入库）----
 results/validation/*.npy
+
+# 论文 PDF 导出脚手架（本地渲染用，不入库）
+docs/paper/_render/
