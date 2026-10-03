@@ -5803,3 +5803,28 @@ N2 命中率 87.8/63.3 与 75/90 分位、N2 极差 9.41/13.52、平台 34.625 �
 * **v11 → v12 数字差集 = 无**（方法节移出的读数属**位置调整**，不是删除；数字集合经核验无损失）；
 * 格式门 **17 项 PASS（exit 0）**；数字门 PASS；表连续性 PASS；
 * 自检：`。；`=0 · `度量学`=0 · `三重`=0 · `如实`=0 · `本批`=0 · `治理`=0。
+
+---
+
+## 2026-10-03 · P5.12：按投稿形式补齐标准章节（draft-v13）
+
+### 交付物（实测）
+
+| 文件 | 字节 | SHA256 |
+| :--- | ---: | :--- |
+| `docs/paper/draft-v13.md`（新增） | 66417 | `997AB3E053B634E8CC935A4BEC2E621B72AA71C9038FE523F2EFCBE8A2EDA5AF` |
+| `docs/paper/format-compliance-v13.md`（新增） | 2842 | `F4DB9CCB3549FE2F4334FCE9AA15CF06E2537448106A17B128092528FE3ADA78` |
+
+### 处置
+
+1. **抬头**：补作者单位（南京大学地球科学与工程学院）与通讯作者 / 通讯邮箱；
+2. **Data Availability / Code Availability 拆分**：原单一「数据与代码可用性」节拆为两个独立节（英文节名，对应投稿表字段）；
+3. **新增三节**：Funding（无资助声明）、Declaration of Competing Interest（无利益冲突声明）、
+   CRediT authorship contribution statement（Zhang Tao 十一项贡献）—— 文本按投稿模板原文录入；
+4. **「致谢」→ Acknowledgements**，内容不变；
+5. **待定项（Code DOI / Data DOI / DOI 回填）不写入正文** —— 按指示留空，仅在投稿跟踪表中标记。
+
+### 数字与守卫
+
+* **v12 → v13 数字差集 = 无**；
+* 格式门 **17 项 PASS（exit 0）**；数字门 PASS；表连续性 PASS。
