@@ -5877,3 +5877,31 @@ S1 对 b3 起的暂停**随之作废**。**b3（§2 研究区与数据）已按�
 `docs/task-sheets/MANIFEST.md` **未随三份指令件更新**：现为 **56 行 / 59 文件**，
 差 **3** 份（即上述三件）。执行层**不擅自修改签发方登记册**，故此处上报，
 待签发方补登后即可恢复 `行数 == 文件数` 的不变量。
+
+---
+
+## 2026-10-03 · P5.11-S2：归档上传完成（Code DOI + Data DOI）
+
+### 两个 DOI
+
+| 项 | DOI | 方式 |
+| :--- | :--- | :--- |
+| **代码** | **`10.5281/zenodo.23116624`** | `.zenodo.json` 提交后建 GitHub Release `v1.0.0`，Zenodo 自动归档铸号 |
+| **数据** | **`10.5281/zenodo.23116640`** | Zenodo deposit `23116640`，上传 4 件后 Publish（`state=done`） |
+
+### 数据归档内容
+
+`release-package-v1.0.0.zip` **6,496,711 B**，SHA256 `E713C34493240881D914148A2313795778306DB6472500915D6F44F4F440FED8`，**123 条目**（层级完整保留）；
+另附 `README.md`（2413 B）、`MANIFEST.sha256`（17642 B）、`ARRAYS.sha256`（2436501 B，17,823 个数组校验值）。
+
+### ★ 过程中的一个关键约束（记下）
+
+**Zenodo bucket API 不接受含 `/` 的对象键**（子目录一律 `HTTP 404`），且 PUT 缺少
+`Content-Type: application/octet-stream` 会返回 `415`。因此**「保留目录层级」无法靠逐文件上传实现**
+—— 改为**单包 zip**（一次上传、层级原样保留），清单里再以「包内路径 ← 来源路径」记录映射。
+
+### 回填
+
+DOI 已回填 **中英两稿**（新增 `draft-v14` / `draft-en-v2`）的 Data Availability、Code Availability
+与附录 A，并登记进 `number-sources.md`。**`release-package/` 未改动** —— 它是在库副本，
+已发布的是 zip；其哈希已记录，保持仓库副本与已归档副本一致。
