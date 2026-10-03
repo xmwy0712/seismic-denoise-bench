@@ -1,0 +1,23 @@
+{
+  "title": "A Pre-Registered Benchmark and Complementarity Analysis of Seismic Denoising Methods: Diagnosing Selection Failure in Method Pairing",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "language": "eng",
+  "creators": [
+    {
+      "name": "Zhang, Tao",
+      "affiliation": "School of Earth Sciences and Engineering, Nanjing University"
+    }
+  ],
+  "keywords": [
+    "seismic denoising",
+    "pre-registered benchmark",
+    "method comparability",
+    "complementarity measures",
+    "time-frequency fusion",
+    "reproducibility"
+  ],
+  "description": "Code, frozen configurations, pre-registration documents, metric tables and statistical products for a pre-registered benchmark of seismic denoising methods. The study establishes the benchmark as a controlled bench for testing the hypothesis that complementarity drives fusion, and diagnoses why the pre-registered pair-selection rule failed: the candidate measure's zero inflation and pooled-threshold construction induce a reverse-selection trap, so that the pooled caliber selects the primary pair while a within-noise-type caliber selects the pre-registered robustness comparator and the primary pair scores zero. An ablation shows the fusion gain comes entirely from arithmetic averaging rather than from the adaptive weighting, and selection by noise type hits the per-observation best single method in 89.3% of observations in-sample and 81.5% on new seeds, though only partially satisfying the pre-registered out-of-sample criteria. The field panels serve as an exploratory external stress test and show that a single static pairing does not generalise across survey areas. Output arrays are not distributed because of their size; their per-file SHA256 checksums are provided in the release package as ARRAYS.sha256 (17823 files).",
+  "notes": "Companion release package (small files plus per-file checksums): release-package/ in this repository."
+}
