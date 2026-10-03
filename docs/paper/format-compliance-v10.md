@@ -1,6 +1,6 @@
 # 格式合规自检报告（P5.9-Am · draft-v10）
 
-> **对象**：`docs/paper/draft-v10.md`（63620 B，`FD450B49F2A8855161436095296EC95691C7A40DB33309E2FB1A444799159729`）
+> **对象**：`docs/paper/draft-v10.md`（63619 B，`BE27B1F6CF7BD9F5A8FE830B33F52458DEDE6E60AA19DAF254F27C37040678C1`）
 > **门禁**：`execution/format_compliance.py`（**17 项**，含本批新增 `G-table-continuity`）
 
 | 门 | 实测 | 判定 |
