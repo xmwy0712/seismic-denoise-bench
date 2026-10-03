@@ -569,3 +569,73 @@ The code written for this study is under the MIT licence, with copyright held by
 
 **Code repository**: https://github.com/xmwy0712/seismic-denoise-bench (public; contains all configurations, metric tables and statistical products, the manuscript and accompanying records. The output arrays are not distributed with the repository because of their size, and their per-file checksums are provided with the archive).
 
+## References
+
+[1] Abma, R., & Claerbout, J. (1995). Lateral prediction for noise attenuation by t-x and f-x techniques. *Geophysics*, 60(6), 1887-1896. https://doi.org/10.1190/1.1443920
+
+[2] Deighan, A. J., & Watts, D. R. (1997). Ground-roll suppression using the wavelet transform. *Geophysics*, 62(6), 1896-1903. https://doi.org/10.1190/1.1444290
+
+[3] Huang, W., Wang, R., Chen, Y., Li, H., & Gan, S. (2016). Damped multichannel singular spectrum analysis for 3D random noise attenuation. *Geophysics*, 81(4), V261-V270. https://doi.org/10.1190/geo2015-0264.1
+
+[4] Chen, Y., Zhou, Y., Chen, W., Zu, S., Huang, W., & Zhang, D. (2017). Empirical Low-Rank Approximation for Seismic Noise Attenuation. *IEEE Transactions on Geoscience and Remote Sensing*, 55(8), 4696-4711. https://doi.org/10.1109/TGRS.2017.2698342
+
+[5] Dahmen, N. L. (2026). Earthquake Seismogram Denoising Across Time, Time‐Frequency, and Hybrid Domain Approaches. *Journal of Geophysical Research: Machine Learning and Computation*, 3(5). https://doi.org/10.1029/2026jh001403
+
+[6] Fogat, M., Roy, S., Ferreira, V., & Singh, S. (2023). A Comparative Analysis of Convolutional Neural Networks for Seismic Noise Attenuation. *SPE EuropEC - Europe Energy Conference featured at the 84th EAGE Annual Conference & Exhibition*. https://doi.org/10.2118/214392-MS
+
+[7] Zhong, T., & Ye, Y. (2025). MFIEN: multi-scale feature interactive enhancement network for seismic data denoising in desert areas. *Scientific Reports*, 15(1). https://doi.org/10.1038/s41598-025-87481-y
+
+> Note: the seven entries above correspond one to one with the citations in the text, and their authors, volumes and pages are taken from the public Crossref records identified by the listed digital object identifiers; the machine-readable records are provided as supplementary material.
+
+---
+
+## Appendix A Deliverables and provenance
+
+The provenance cross-reference material for every numerical value in this paper is provided as supplementary material, with its entries and their checksums listed in the table below.
+
+**Table A.1** Supplementary material inventory
+
+| Material | Checksum (first 16 hex digits of SHA256) |
+| :--- | :--- |
+| Synthetic benchmark metrics | `CD7499874B4A166E` |
+| Fusion metrics | `123B8E56893D1EE0` |
+| Complementarity measures | `AE0FF75F58F2E88D` |
+| Field metrics | `1A40F98ED6817114` |
+| Supplementary comparison | `FAB770718583E5A2` |
+| Numerical provenance cross-reference | `5C429D775B068637` |
+| 10-pairing fusion metrics (post hoc extension) | `E8147D0D4702F063` |
+| Two-ablation fusion metrics (post hoc extension) | `1BDE916F4FF0C73B` |
+| Measure recomputation (including signed error orthogonality) | `507DEEBE81A36AD2` |
+| Gain-definition sensitivity comparison | `812FBB051725E57D` |
+
+**Table A.2** List of figures
+
+| Number | File | Content |
+| :--- | :--- | :--- |
+| Figure 1 | `fig1_field_panels.png` | Preview of the three raw field panels |
+| Figure 2 | `fig2_noise_specialization.png` | Median signal-to-noise ratio gain by noise type |
+| Figure 3 | `fig3_method_delta_snr_ci.png` | Per-method median ΔSNR with 95% confidence intervals |
+| Figure 4 | `fig4_complementarity_heatmap.png` | Stratum heat map of local complementarity |
+| Figure 5 | `fig5_m1_m2_matrices.png` | Global matrices of the two complementarity measures |
+| Figure 6 | `fig6_pair_gain_ranking.png` | Fusion gain of the ten method pairings (descending) |
+| Figure 7 | `fig7_fusion_vs_single_oracle.png` | Box plots of ΔSNR for fusion, single methods and the oracle |
+| Figure 8 | `fig8_out_of_sample_validation.png` | In-sample and out-of-sample median gains |
+
+---
+
+## Appendix B Deviation and revision register
+
+This table records the revisions and fixes made **after pre-registration**, so that readers can judge the boundary of each claim. Every entry can be verified independently from the commit hash.
+
+**Table B.1** Deviation and revision register
+
+| # | Item | Category | Commit | Date | Effect on conclusions |
+| ---: | :--- | :--- | :--- | :--- | :--- |
+| 1 | Data-construction defect in the M2 model on the first full-matrix run: not all size keys in the registered parameters were removed, causing 135 failures | fix | `afffc32` | 2026-09-26 | that run was voided and rerun; a fail-fast pre-check was added afterwards. The fix preceded all statistics and pair selection and **does not affect the main conclusions** |
+| 2 | Two generation parameters (N1 band, N2 main frequency) added to the frozen artifact, forming `config-frozen-v2` | addition | `ff60ac5` | 2026-09-27 | removes the risk of taking generation parameters from the draft and makes the frozen artifact the sole authoritative source; values and protocol unchanged |
+| 3 | The three conditions of the fusion rule settled and the draft wording removed from its name | addition | `866989c` | 2026-09-27 | completed **before** the fusion implementation; does not affect the pre-registered standing of the three $\gamma$ levels or of the pairing |
+
+> **Note**: none of the three entries changes the pre-registered standing of the primary pair (the pre-registration rule, the pairing set and the three $\gamma$ levels are unchanged). The fix in entry 1 preceded the statistical computation; entries 2 and 3 are additive supplements to the frozen artifact that do not alter any frozen conclusion. Other process records are registered in the repository change log.
+
+---
+
