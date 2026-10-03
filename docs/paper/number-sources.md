@@ -153,3 +153,17 @@
 | :--- | :--- | :--- | :--- |
 | v9 · 新增数字门核验口径 | 分层命中率容差 ±0.05 个百分点；自带反证必报 FAIL | `execution/number_gate.py` | `B0AD53FA2FB225E45526A0636D639E87EED6D68CFFB1C6257F8B302CFB4CAC30` |
 | v9 · G-reader 词表 | 26 项（P5.9 扩充 10 项：须写明/不夸大/删循环论证/表述升级/排查/本批之前/自本批起/此处更正/口径更正说明/修订史） | `execution/format_compliance.py` | `02F59AD599D036E07636D1FD27205AD27BB680075243ED4B5CD039CCF4099FDB` |
+
+
+### v10 增补来源（P5.10 · 叙事重构）
+
+| 数字/量 | 值 | 来源产物 | SHA256 |
+| :--- | :--- | :--- | :--- |
+| v10 · 最优固定单法（**纠截图**） | **0.9482** dB（`svd_lowrank` ΔSNR 中位 = 0.9482364203177616） | `results/stats/macro_average.csv` | `1FE1950B76A5E0E403735E04E2585942E84A532EFBA168444A90A3EC6BA0CC6C` |
+| v10 · 主配对 / 对照配对融合 | 0.0588 dB / 2.5295 dB | `results/fusion/metrics.csv` | `123B8E56893D1EE02094870D78BA42AEE1E580DA79CB234D00F2281FFF9426E2` |
+| v10 · 消融差上限 | ≤ 0.0252 dB | `results/fusion_ablation/metrics.csv` | `1BDE916F4FF0C73B6B254F683E083BBB5BD3B679553AD71B1F4C59F94F7B4063` |
+| v10 · 层内重选（反向选择陷阱） | 主配对 M2 0.500000 → 0.000000；首位 `fx_deconv\|svd_lowrank` 0.111111 | `results/complementarity10_stratified/reselection.json` | `D5085A721B588D37A9E4A3DAE129BA4C12F7990A7B326A1C8398E7E0BD775686` |
+
+> **截图数字更正登记**：参照截图把最优固定单法写作 0.9492，与产物实测 0.9482 不符；
+> 按「截图 = 框架与语气参照，不是数字来源」的规则，**全文一律采用 0.9482**。
+> v10 相对 v11 的数字差集：无（既有数字全部保留）。
