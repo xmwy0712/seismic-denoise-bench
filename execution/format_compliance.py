@@ -156,6 +156,34 @@ def check(doc: Path) -> tuple[list[tuple[str, bool, str]], bool]:
     res.append(("G-reader-structure", struct_ok,
                 f"标题行={title_ok} 首个二级标题=摘要:{first_h2_ok} 无##0.:{no_zero} 标题块无引注:{no_quote}"))
 
+    # ── G-table-continuity：表格块不得被空行或非表格行切断
+    tlines = t.split("\n")
+    runs, cur = [], []
+    for _i, _l in enumerate(tlines):
+        if _l.startswith("|"):
+            cur.append(_i)
+        else:
+            if cur:
+                runs.append(cur)
+                cur = []
+    if cur:
+        runs.append(cur)
+    split_at = []
+    for _a, _b in zip(runs, runs[1:]):
+        _ca = tlines[_a[0]].count("|")
+        _cb = tlines[_b[0]].count("|")
+        between = tlines[_a[-1] + 1:_b[0]]
+        has_anchor = any(x.startswith("#") or x.startswith("**表 ") or x.startswith("**图 ")
+                         for x in between)
+        if _ca == _cb and not has_anchor:
+            split_at.append((_a[-1] + 2, _b[0] + 1))
+    bad_sep = [_a[1] + 1 for _a in runs
+               if len(_a) >= 3 and not re.fullmatch(r"\|[\s:|-]+\|", tlines[_a[1]])]
+    tcont_ok = (not split_at) and (not bad_sep)
+    res.append(("G-table-continuity", tcont_ok,
+                f"表格块 = {len(runs)}；疑似断裂 = {split_at[:3] if split_at else '无'}；"
+                f"分隔行异常 = {bad_sep[:3] if bad_sep else '无'}"))
+
     # ── G-encoding：无 BOM、纯 LF
     b = doc.read_bytes()
     res.append(("G-encoding", (not b.startswith(b"\xef\xbb\xbf")) and b.count(bytes([13])) == 0,
