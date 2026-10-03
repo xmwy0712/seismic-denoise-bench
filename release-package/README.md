@@ -1,37 +1,45 @@
-# Zenodo 归档包（P5.4 · WS3）
+# Release package — pre-registered seismic denoising benchmark
 
-> **状态：待上传。** 本包已备好；本机**未配置 Zenodo 凭据**，故**未生成 DOI**（不伪造）。
+This archive accompanies the manuscript *A Pre-Registered Benchmark and Complementarity
+Analysis of Seismic Denoising Methods: Diagnosing Selection Failure in Method Pairing*
+(Chinese draft `draft-v13.md`, English draft `draft-en-v1.md`).
 
-## 1. 内容
+## Layout
 
-- `payload/configs/` —— 冻结配置四件（frozen.yaml / frozen-v2.yaml / fusion-rules.yaml / methods_registry.yaml）
-- `payload/preregistration/` —— 预注册件（互补性、融合、统计、补充比较）
-- `payload/results/` —— 全部指标与统计产物（CSV）
-- `payload/paper/` —— 论文初稿 `draft-v5.md`、数字溯源对照、参考文献、格式合规报告、5 张图
-- `payload/docs/` —— 野外数据署名与许可登记、判定输入汇编
-- `MANIFEST.sha256` —— 包内每个文件的 SHA256 与字节数
-- `ARRAYS.sha256` —— **未随包上传**的输出数组清单（逐文件 SHA256）
+```
+payload/                         contents, source hierarchy preserved
+  docs/paper/                    manuscript (both languages), compliance report,
+                                 numerical provenance table, glossary, figures (8)
+  configs/                       frozen configurations and the method registry
+  preregistration/               pre-registration documents (statistics, complementarity,
+                                 fusion, validation, stratified-threshold test)
+  results/                       metric tables, statistical products and diagnostics
+  execution/  src/  tests/        code
+MANIFEST.sha256                  SHA256 for every payload file, with its source path
+ARRAYS.sha256                    SHA256 for every output array (.npy), listed separately
+README.md                        this file
+```
 
-## 2. 关于输出数组（**记为本地件并披露**）
+## Conventions
 
-方法输出与融合输出数组共 **16473 个文件、4.37 GB**，**不随本包上传**。理由：
+* **Source path mapping.** The archive preserves the repository hierarchy rather than
+  flattening it, so that files with the same name but different provenance (for example
+  the several `metrics.csv` and `pairwise.csv` products) remain distinct and nothing is
+  overwritten. Each line of `MANIFEST.sha256` records the package path and, after the
+  arrow, the repository path it came from.
+* **Checksums are measured, never transcribed.** Every hash in both checksum files was
+  computed from the file bytes at packaging time, and the packaging step verifies that
+  each packaged file is byte-identical to its source before the archive is accepted.
+* **Output arrays.** The arrays are large (about 4.4 GB across 17823 files) and are not
+  distributed with the code repository; `ARRAYS.sha256` lists their checksums. A copy can
+  be requested using the checksums as the identity of each file.
 
-1. 它们可由冻结配置 + 随机种子 + 本仓库代码**确定性重放**（无随机成分的方法实现；融合亦为确定性构造）；
-2. 体积远大于其余全部材料之和；
-3. 其**逐文件 SHA256 已记入 `ARRAYS.sha256`**，因此即使不传输也可核验重放结果是否逐字节一致。
+## Licence
 
-若审阅需要具体数组，可按 `ARRAYS.sha256` 逐项重放比对。
+Code in this study is released under the MIT licence, copyright held by the author. The
+field data are redistributed under their original CC BY 4.0 licence and the attribution
+must be retained; the full citation is given in Section 2.2 of the manuscript.
 
-## 3. 复现入口
+## Contact
 
-- 测试：`run_tests.ps1`（本机权威）/ `run_tests.sh`
-- 各执行脚本头部 docstring 给出官方运行命令
-
-## 4. 许可与署名
-
-- 本研究自有代码：**MIT**
-- 野外数据：**CC BY 4.0**（上游署名见 `payload/docs/field-data-note.md`，再分发须保留）
-
-## 5. 上传后须回填
-
-- 本包上传至 Zenodo 后，把 DOI 回填至论文 `draft-v5.md` 第「数据与代码可用性」节与附录 A。
+Zhang Tao, School of Earth Sciences and Engineering, Nanjing University.

@@ -1,31 +1,120 @@
-SHA256	BYTES	PATH
-1695C1965D0F307E5CA55ABDA1B2206D1058F67DE4827770382602F2F2944A3F	30065	payload/configs/frozen.yaml
-1D4AF0389EDE2328015C09943536BD6B92A4DD17D159456E8866B0F498893471	33030	payload/configs/frozen-v2.yaml
-0C4D6BA3D2CA6C01E34D78A9550C4D0B66EDFCE4C493C2080ADA7FDFF378C780	6675	payload/configs/fusion-rules.yaml
-5DA2959BBE4C2C7BFB7667EF3E45A4AB876216991837690A2B391F58887DBC6F	15790	payload/configs/methods_registry.yaml
-3B552DB95499C2ABF97DD0A38A86A41ED9969C65C4444CE14D3045EAC9C0D9CD	9162	payload/preregistration/preregistration.md
-C0E2E006897A3904CAC698385B306406D616CF943C09B58A62E140733A96ADB7	13620	payload/preregistration/preregistration.md
-58E1B003E20632A3AFA54E569DED55D6C9276DEC5659F3D39C9A4FAF24626882	3700	payload/preregistration/stats_preregistration.md
-88D73A029EDC610AD9B690E5F232081B18AF99B97C7A49BBFAEE1F783479FD89	4209	payload/preregistration/supplement_preregistration.md
-A06D3B50BFEFF0896E2280C23F60C61B8F53BCC8B3FE55A41ED532763F0ED059	38015	payload/paper/draft-v5.md
-AF68A29A7585904C5EC6E1F9F43E5B4FFC7CF79ACFDD873D30C025EBD562A903	8462	payload/paper/number-sources.md
-2402FC130E6333E3AB92E89AAFAE4087CC8915D576C0214CE4E543FC8DDD030B	1742	payload/paper/references.md
-8124DE902E9557EDECDAF3531909F3EE1AC952319E6E684BD0406A6B96134515	1988	payload/paper/format-compliance-v5.md
-CD7499874B4A166E6B2737152D3B0C045232911D5D388DD46262406B11443933	334131	payload/results/metrics.csv
-123B8E56893D1EE02094870D78BA42AEE1E580DA79CB234D00F2281FFF9426E2	396058	payload/results/metrics.csv
-E8147D0D4702F063D6DE21B20DEF6149883E194DD3B9CB93A40370E7C5E63CCC	2141471	payload/results/metrics.csv
-1BDE916F4FF0C73B6B254F683E083BBB5BD3B679553AD71B1F4C59F94F7B4063	1465753	payload/results/metrics.csv
-AE0FF75F58F2E88D27F1751EF554BABE50783D0A7C5A1041792107A506C9B566	48307	payload/results/complementarity.csv
-507DEEBE81A36AD2EEF37EA2DBAEEED0F6185412EBD28C6699A465DB20245167	66319	payload/results/complementarity10.csv
-932E4C5332BA35574B5BF39461B45FD6CADD09B5230D0FCD4777359E6FE1EDB4	16363	payload/results/pairwise.csv
-A2C663D1881CC0BDA38A5C916AE13AC9375396432E523A8F2F8B2A28526EA201	389	payload/results/spearman.csv
-812FBB051725E57D3B5807C5DF92426A5B1BE9CA322F260B4FA89C4C67873C53	2684	payload/results/gain_definition_sensitivity.csv
-1A40F98ED681711494AC1CD1BB1390D8B05BD4FCC96E91C716EF54593510B5E0	2267	payload/results/field_metrics_v2.csv
-A23EF691BF4B259245390333BD93675A935C79107A93B266BB5D3756D6AF8EB3	3797	payload/docs/field-data-note.md
-2361893DB4535A12581D645653B3243B95CEC33AF5F067FF6D3EED50E2ABDBDC	27324	payload/docs/license-register.csv
-7505B1B3E2BB2DE03A03BC3F31CD355B838D58BEB14C64F5EA14C7166B430DDA	7109	payload/docs/three-state-inputs.md
-4E70BF70C5A4C968B32EE5590908C93D2348965258396C457BF54A4D35CF6FAE	3050623	payload/paper/figures/fig1_field_panels.png
-8269D52B762E378E3FF1E8BE1DFAB00E6901BFC80D07676E3D61005DFA53300E	81374	payload/paper/figures/fig2_method_delta_snr_ci.png
-E474FD0F68480EB8AFF9A7B211D235BB8A9FB1AE809F449BCC243E56D5BB21C3	151473	payload/paper/figures/fig3_complementarity_heatmap.png
-3865065D298769E70CA49C13DBE9CAFE8D1271EB8E0CA5E9FD756A68CC4035C9	182438	payload/paper/figures/fig4_m1_m2_matrices.png
-424C64736D620FCCF360DC130CAC07EE1DF0B41933687F64C0AF7536D88C6F16	96175	payload/paper/figures/fig5_fusion_vs_single_oracle.png
+997AB3E053B634E8CC935A4BEC2E621B72AA71C9038FE523F2EFCBE8A2EDA5AF  payload/docs/paper/draft-v13.md   <- docs/paper/draft-v13.md
+5D10A32517CC74900D4E7F95F1B568EF0ED19D258EDF360AE31284E5BC777208  payload/docs/paper/draft-en-v1.md   <- docs/paper/draft-en-v1.md
+F4DB9CCB3549FE2F4334FCE9AA15CF06E2537448106A17B128092528FE3ADA78  payload/docs/paper/format-compliance-v13.md   <- docs/paper/format-compliance-v13.md
+381AFE1CB874CE1F822D01851D8E8EAACEC5ADCF4F4C0014E59E389B33985DD6  payload/docs/paper/number-sources.md   <- docs/paper/number-sources.md
+3402E860BB2EDAE338C2357DE9BEB11AEA65C1D1B6D9DAA33AC79A64A5F4BB13  payload/docs/paper/references.md   <- docs/paper/references.md
+0BFE9CBEDF006C43328BD8248EFCCD447B973A7D4C18DA1330252EFAF252224F  payload/docs/paper/translation-glossary.md   <- docs/paper/translation-glossary.md
+4E70BF70C5A4C968B32EE5590908C93D2348965258396C457BF54A4D35CF6FAE  payload/docs/paper/figures/fig1_field_panels.png   <- docs/paper/figures/fig1_field_panels.png
+554C32E41082E38C4AAC65EA628E377C0AE32F5C5ED842FD471D3B75931A3976  payload/docs/paper/figures/fig2_noise_specialization.png   <- docs/paper/figures/fig2_noise_specialization.png
+8269D52B762E378E3FF1E8BE1DFAB00E6901BFC80D07676E3D61005DFA53300E  payload/docs/paper/figures/fig3_method_delta_snr_ci.png   <- docs/paper/figures/fig3_method_delta_snr_ci.png
+E474FD0F68480EB8AFF9A7B211D235BB8A9FB1AE809F449BCC243E56D5BB21C3  payload/docs/paper/figures/fig4_complementarity_heatmap.png   <- docs/paper/figures/fig4_complementarity_heatmap.png
+3865065D298769E70CA49C13DBE9CAFE8D1271EB8E0CA5E9FD756A68CC4035C9  payload/docs/paper/figures/fig5_m1_m2_matrices.png   <- docs/paper/figures/fig5_m1_m2_matrices.png
+2BBC8E32CBF45D135073D448C078ECCBCDC41A76127316B0832139724287CA81  payload/docs/paper/figures/fig6_pair_gain_ranking.png   <- docs/paper/figures/fig6_pair_gain_ranking.png
+424C64736D620FCCF360DC130CAC07EE1DF0B41933687F64C0AF7536D88C6F16  payload/docs/paper/figures/fig7_fusion_vs_single_oracle.png   <- docs/paper/figures/fig7_fusion_vs_single_oracle.png
+A90C4E7D5ACCBB7F8C0F7F52AD986D89521D6F243D6B57AD48F90ED757940459  payload/docs/paper/figures/fig8_out_of_sample_validation.png   <- docs/paper/figures/fig8_out_of_sample_validation.png
+1695C1965D0F307E5CA55ABDA1B2206D1058F67DE4827770382602F2F2944A3F  payload/configs/frozen.yaml   <- configs/frozen.yaml
+1D4AF0389EDE2328015C09943536BD6B92A4DD17D159456E8866B0F498893471  payload/configs/frozen-v2.yaml   <- configs/frozen-v2.yaml
+0C4D6BA3D2CA6C01E34D78A9550C4D0B66EDFCE4C493C2080ADA7FDFF378C780  payload/configs/fusion-rules.yaml   <- configs/fusion-rules.yaml
+5DA2959BBE4C2C7BFB7667EF3E45A4AB876216991837690A2B391F58887DBC6F  payload/configs/methods_registry.yaml   <- configs/methods_registry.yaml
+F8A0741122A71346E862166136BF130CE8B61F2EB20523BADE9967F91FA49FF8  payload/configs/config_matrix.yaml   <- configs/config_matrix.yaml
+174A25499ADB1525229C1F27BEEF4C221568EBA552ADF6B15B8831948FD682FD  payload/results/stats/preregistration.md   <- results/stats/preregistration.md
+88D73A029EDC610AD9B690E5F232081B18AF99B97C7A49BBFAEE1F783479FD89  payload/results/stats/supplement_preregistration.md   <- results/stats/supplement_preregistration.md
+3B552DB95499C2ABF97DD0A38A86A41ED9969C65C4444CE14D3045EAC9C0D9CD  payload/results/complementarity/preregistration.md   <- results/complementarity/preregistration.md
+C0E2E006897A3904CAC698385B306406D616CF943C09B58A62E140733A96ADB7  payload/results/fusion/preregistration.md   <- results/fusion/preregistration.md
+58E1B003E20632A3AFA54E569DED55D6C9276DEC5659F3D39C9A4FAF24626882  payload/results/fusion/stats_preregistration.md   <- results/fusion/stats_preregistration.md
+2C593C40286A544E7F4F01A82009275B99DC70EDAAE531D5EDF8E1B032D2BF76  payload/results/validation/preregistration.md   <- results/validation/preregistration.md
+7668279B9F7ED2367F5DACDAB70586773227C1177E73831B1F4B59E318FE1BEB  payload/results/complementarity10_stratified/preregistration.md   <- results/complementarity10_stratified/preregistration.md
+CD7499874B4A166E6B2737152D3B0C045232911D5D388DD46262406B11443933  payload/results/metrics.csv   <- results/metrics.csv
+1FE1950B76A5E0E403735E04E2585942E84A532EFBA168444A90A3EC6BA0CC6C  payload/results/stats/macro_average.csv   <- results/stats/macro_average.csv
+FC0E68C5DD0DA584348AACB2EB95F6244C0C4317058989542C62C9CF50AE48EA  payload/results/stats/pairwise.csv   <- results/stats/pairwise.csv
+42C1BA0BD7F3983DBF72031CFD52905B9E6953839C92F48D4561B75B7893A22A  payload/results/stats/pairwise_config.csv   <- results/stats/pairwise_config.csv
+FAB770718583E5A297AFB06538277FAEDB488465909CF2C9377D81894DED6883  payload/results/stats/supplement_vs_worst.csv   <- results/stats/supplement_vs_worst.csv
+43D8EACB6F8CD4973F9E146899C5C6E6F12F0BA91353C3972526D4DB2E25B431  payload/results/stats/unit_caliber_comparison.csv   <- results/stats/unit_caliber_comparison.csv
+382269163907B46081498E5FECA5231CB3D536481CFA4E6FCE1E236CBAE7865B  payload/results/stats/summary.md   <- results/stats/summary.md
+D7F81FAD0D93D61A804A143A3F00D2189A1FB581B1C7BE7EC1C44A33C3947234  payload/results/stats/manifest.json   <- results/stats/manifest.json
+345D127A8A21156F0DA74A225FFB865EC923F1EF137C02F7EC89ABC5C29341DA  payload/results/stats/supplement_manifest.json   <- results/stats/supplement_manifest.json
+AE0FF75F58F2E88D27F1751EF554BABE50783D0A7C5A1041792107A506C9B566  payload/results/complementarity/complementarity.csv   <- results/complementarity/complementarity.csv
+AD5D31EF58A72A4C51AD8C2BCE3E1BE10E1ABA11B948CE0D04484634CD8B4ED5  payload/results/complementarity/m2_second_artifact_test.csv   <- results/complementarity/m2_second_artifact_test.csv
+A1FF61C8418C92B9E27AB979B654414963FBCE90E5DE562B385A75A7935BDFD0  payload/results/complementarity/pair_selection.json   <- results/complementarity/pair_selection.json
+DF9648C024A0492B37D8C3266D3B94BDC3B7058FC0C25597CC44152121F52BBA  payload/results/complementarity/summary.md   <- results/complementarity/summary.md
+507DEEBE81A36AD2EEF37EA2DBAEEED0F6185412EBD28C6699A465DB20245167  payload/results/complementarity10/complementarity10.csv   <- results/complementarity10/complementarity10.csv
+080D2A2156F94B9B0C57740D05B24512515EA2CFC279BCB69D9F21B0B847369E  payload/results/complementarity10/run_manifest.json   <- results/complementarity10/run_manifest.json
+E5CD81EB26FDB47EC300DD7F97726639A5CD629025C06A1B02E8CB8EBE4EA933  payload/results/complementarity10_stratified/complementarity10_stratified.csv   <- results/complementarity10_stratified/complementarity10_stratified.csv
+D5085A721B588D37A9E4A3DAE129BA4C12F7990A7B326A1C8398E7E0BD775686  payload/results/complementarity10_stratified/reselection.json   <- results/complementarity10_stratified/reselection.json
+123B8E56893D1EE02094870D78BA42AEE1E580DA79CB234D00F2281FFF9426E2  payload/results/fusion/metrics.csv   <- results/fusion/metrics.csv
+7E9FF1D2EFF8A82702ABBC1F62FA77AB36389E9C68A384D808CE0F5E9FB3AC51  payload/results/fusion/stats/pairwise.csv   <- results/fusion/stats/pairwise.csv
+89E5FAC8D39742BE68CA4AF7BFD1DA436B74554028B07BAF64B03EC7C01219AD  payload/results/fusion/stats/pairwise_config.csv   <- results/fusion/stats/pairwise_config.csv
+8E33BF317E7385575E7DCF8C439155772AF30B69261DC656A1BC5703B9C1F53B  payload/results/fusion/stats/summary.md   <- results/fusion/stats/summary.md
+E8147D0D4702F063D6DE21B20DEF6149883E194DD3B9CB93A40370E7C5E63CCC  payload/results/fusion10/metrics.csv   <- results/fusion10/metrics.csv
+64E6E8F8639BC43B5B1C28823F8E364565697895ABB189578F02EB90F73A3B39  payload/results/fusion10/run_manifest.json   <- results/fusion10/run_manifest.json
+812FBB051725E57D3B5807C5DF92426A5B1BE9CA322F260B4FA89C4C67873C53  payload/results/fusion10/stats/gain_definition_sensitivity.csv   <- results/fusion10/stats/gain_definition_sensitivity.csv
+932E4C5332BA35574B5BF39461B45FD6CADD09B5230D0FCD4777359E6FE1EDB4  payload/results/fusion10/stats/pairwise.csv   <- results/fusion10/stats/pairwise.csv
+A2C663D1881CC0BDA38A5C916AE13AC9375396432E523A8F2F8B2A28526EA201  payload/results/fusion10/stats/spearman.csv   <- results/fusion10/stats/spearman.csv
+F02D642197ABA854F6C3E866F23F5D2AEAC13AFC6DCC4509693A2C97A0441F3F  payload/results/fusion10/stats/summary.json   <- results/fusion10/stats/summary.json
+1BDE916F4FF0C73B6B254F683E083BBB5BD3B679553AD71B1F4C59F94F7B4063  payload/results/fusion_ablation/metrics.csv   <- results/fusion_ablation/metrics.csv
+64E6E8F8639BC43B5B1C28823F8E364565697895ABB189578F02EB90F73A3B39  payload/results/fusion_ablation/run_manifest.json   <- results/fusion_ablation/run_manifest.json
+4A3AA4B6A4135BEE70FD06D7FAAACF2230DB6D7332BB1A38C2B3C3ED8C912B61  payload/results/field/field_metrics.csv   <- results/field/field_metrics.csv
+1A40F98ED681711494AC1CD1BB1390D8B05BD4FCC96E91C716EF54593510B5E0  payload/results/field/field_metrics_v2.csv   <- results/field/field_metrics_v2.csv
+68CA0DE35FB99C2DCEB207C33D0BCF09693DEC41FBE156A5BC8A843E23AC6C5C  payload/results/field/field_zscores.csv   <- results/field/field_zscores.csv
+F2238A2AF5179B7E192FC2013BE76067CAB87F6B5B58E8249462F8E59B24FC27  payload/results/field/u_scores_partial.csv   <- results/field/u_scores_partial.csv
+D618EDD892EBEDB28C32ABE4F519FCFBDF1FDF0F41F01C24264CF67472B67BC0  payload/results/field/continuity_verification.json   <- results/field/continuity_verification.json
+83AE868F3C011C1C6E1D06581BA56C272950AF1BFAB1410F9132E422E829234B  payload/results/field/manifest.json   <- results/field/manifest.json
+E5882B408223A027E43A1FC2361DE869094DC7A6EF74E24AF309A0531837D504  payload/results/field2/field_pair_metrics.csv   <- results/field2/field_pair_metrics.csv
+0FE4DE63F56840E7FCC3E33F65227B60123B5BBC1855AE7BEE145C6A3CA99E91  payload/results/field2/manifest.json   <- results/field2/manifest.json
+37B7042B296481C740621B51C6E4A5BFD0A69C3B9E9128A6B123986B95A72A51  payload/results/validation/metrics.csv   <- results/validation/metrics.csv
+1B56E6F790BA8EDB4E0E6FF6A4B31ACEDD707EF92B560083B41AAA93398044FC  payload/results/validation/replication_diagnostics.json   <- results/validation/replication_diagnostics.json
+0E9F5EEAAE0C8E8533B46872E01F6C91936A7B4DE0B4D215221CB45F07E082F6  payload/results/validation/validation_manifest.json   <- results/validation/validation_manifest.json
+32B72FB4BCAD5210B89FCED3A70B14B1AE5CB8124E73D853F41ADF202E775440  payload/results/reference_metadata.json   <- results/reference_metadata.json
+32D8AB0042A29C97AD38284A0E80A31946EB6E835F0F0843DC7A01E1FF5AF1CC  payload/results/manifest.json   <- results/manifest.json
+0162F52479F7D5E6AD5D05089E311BFB133CDAEB0EDF44690E22D288D00E1548  payload/execution/complementarity10.py   <- execution/complementarity10.py
+FEEE923A26D50CF11C2955A7BD7221CC2E8BF38918E868DE29C5266532A78850  payload/execution/complementarity10_stratified.py   <- execution/complementarity10_stratified.py
+B7332BAA692E6339C7E63B78F9A496A2B8D515897260B1B303066C7EC2577D74  payload/execution/field_eval.py   <- execution/field_eval.py
+37120FAB702558EE6FD90CE205D0B30CEF9D3D20C3755F24890206A0504BC5A6  payload/execution/field_pairs.py   <- execution/field_pairs.py
+FCC0ADE7015EB527DAD7197C652CED07457350344E4CC50928A8312BB70D7DE5  payload/execution/format_compliance.py   <- execution/format_compliance.py
+72765C664A1C448B74D385EDE57C4C461F2F916CCE13F038C7AE876E0BEE9B7E  payload/execution/full_matrix.py   <- execution/full_matrix.py
+B9D951A45E37D4BA924DD036A8C0DAE8F9FFAED40E09A5047E86787BF0BCE523  payload/execution/fusion10_matrix.py   <- execution/fusion10_matrix.py
+69BBA79083E4187F6DB881180EABA27445A9E6DC2C35E17CC3DE46130EC51B68  payload/execution/fusion10_stats.py   <- execution/fusion10_stats.py
+5E3E8273DC215D8D93F4DD10A7F881E4CAE746625E1E02E54B78E8C5DAF0E281  payload/execution/fusion_matrix.py   <- execution/fusion_matrix.py
+3F992008673310FE6BE6753E7F6E9478EE949D552C982FBA0AFEBE7DD987BB1A  payload/execution/fusion_stats.py   <- execution/fusion_stats.py
+FC084F37D3A9825BDB1C87C8FC63F83A0B6A46B51562AE762D1F391C683DFDA0  payload/execution/gain_definition_sensitivity.py   <- execution/gain_definition_sensitivity.py
+B0AD53FA2FB225E45526A0636D639E87EED6D68CFFB1C6257F8B302CFB4CAC30  payload/execution/number_gate.py   <- execution/number_gate.py
+3E3B8B14F23D735F330C0D18E60D249AC94F4566F6ECEE9458A10ED9314574C4  payload/execution/secret_scan.py   <- execution/secret_scan.py
+341CDA0BE2A1EAC44AC8A8E1F0CE3B6FA50195CAC1B837AF60A1DD08604887C1  payload/execution/seed_validation.py   <- execution/seed_validation.py
+4BED77CB522377E23499DBBD22142119640218F1F9FD74AACFE7ACBDF4797009  payload/execution/stats.py   <- execution/stats.py
+6A2105F57BF02996D3471CABFECCC9A5AD931BD1A4B37B1654B5D1A3CB68AF5E  payload/src/bench/__init__.py   <- src/bench/__init__.py
+3907C0EC19380B773FB5B161E5E1CDA67BB47E57C16C42113AEAA64CE3282F19  payload/src/bench/analysis/__init__.py   <- src/bench/analysis/__init__.py
+0F3934BE444A9BFD90AAF2D0FB2C8624B6C31868E964361513EDA09FE20B983E  payload/src/bench/analysis/complementarity.py   <- src/bench/analysis/complementarity.py
+964C6ECD128D07022B8A1EE4CBF102E9DF449C4DAF80115332690C7CB1BA3D20  payload/src/bench/data/__init__.py   <- src/bench/data/__init__.py
+0764A0526DEB7EC73D345D49B3732F7B01DA6E0740976E8762978906E2F008DE  payload/src/bench/data/ricker.py   <- src/bench/data/ricker.py
+49C35069F82FEF20C1E5E81BD8D7EEFE9A5B86E8703CA76C74D3060548A92DF2  payload/src/bench/data/synthetic.py   <- src/bench/data/synthetic.py
+64F83853510A570B930A8B0C6505D6ED0BF8EEE5BF1F6A806B67D0454966D07B  payload/src/bench/field/__init__.py   <- src/bench/field/__init__.py
+CD951FE22136E3A3DCCE14A6BFA5D9DF567F98580C06EDB8F24F71A2F3AD87F0  payload/src/bench/field/continuity.py   <- src/bench/field/continuity.py
+2428C099D24DBD8596A66C2CD60F3594E11BFF581501C9BFF5E3BFBEB1339FBE  payload/src/bench/field/panel_selection.py   <- src/bench/field/panel_selection.py
+AB52D40ED2E874DE431FBA0A6B33BE7CD4581D1E107A21BEB1DF6495D4965FCA  payload/src/bench/fusion/__init__.py   <- src/bench/fusion/__init__.py
+EE8927A1C61FFBCC5060EDB7D30943FD8B6D9F84E9000D35FDD51915B5392513  payload/src/bench/fusion/fusion.py   <- src/bench/fusion/fusion.py
+5C73250065153D2C292C3769C42AC26E52B6C3CD9A2E752E101193C1B9EC1BA3  payload/src/bench/methods/__init__.py   <- src/bench/methods/__init__.py
+C5689EDA7BFD3D471F0B0B56DA7A3CCB6CC143E15F510198B4DB06799424F0C7  payload/src/bench/methods/fk_filter.py   <- src/bench/methods/fk_filter.py
+00B9D3F3B85778DC62FD82476DF9A6295AB71E94DD48B8F1F08E4248625B7553  payload/src/bench/methods/fx_deconv.py   <- src/bench/methods/fx_deconv.py
+8C70D078D47AF3A3370ADF6AC2B3517F5D080A7BD1B587A0BA5C9308B0528EFE  payload/src/bench/methods/ssa_decomposition.py   <- src/bench/methods/ssa_decomposition.py
+A3A2D306362FE34EB2F6F6846B8153BBB38444C4CCC7D13852DDF38077E50464  payload/src/bench/methods/svd_lowrank.py   <- src/bench/methods/svd_lowrank.py
+D8E8E3B9A0CF6136CCF4D3E48539B8E7318831319D23570FBFCA7C3D4A0FFB7A  payload/src/bench/methods/wavelet_threshold.py   <- src/bench/methods/wavelet_threshold.py
+F2006A0A68E8C629F7D099B4B8632D96D2E0735C37555BB05AE965BF3002B5E9  payload/src/bench/metrics/__init__.py   <- src/bench/metrics/__init__.py
+784573B191E50A11D1288A202845CBD49790066BB40022A783FE821CBB6E0A13  payload/src/bench/metrics/cna.py   <- src/bench/metrics/cna.py
+EFB4867F417B7A48BDA973253C15E9FCD4FE273B75A49F2625F90D74C74D511E  payload/src/bench/metrics/events.py   <- src/bench/metrics/events.py
+B0917A9EAE0430FC4218DA72C8EC9ABE8F6F7920A8A9BEF583E86F2263FBBB32  payload/src/bench/metrics/lsig.py   <- src/bench/metrics/lsig.py
+A82960EAB999692304E54EB03D39702201F6A33D6946226FDAC77B77637A01B4  payload/src/bench/metrics/matching.py   <- src/bench/metrics/matching.py
+2FD48E5C9A55BB889C9EBABF9878EE30882453D8EA4154610EF0E9D13ECE62F2  payload/src/bench/metrics/snr.py   <- src/bench/metrics/snr.py
+67894C05D5C6D70CEFF90E3B5B19DF9573F1A48566EDB8F5C1BF4B682A5A5C91  payload/tests/ref_forward.py   <- tests/ref_forward.py
+45296858861034271325B64BAE8CF2564D1BD9CFB225098A806EA02630FFD37F  payload/tests/test_complementarity.py   <- tests/test_complementarity.py
+C5AB190B852B87325E27F892D9348B94776C7E798CF3F4D64016F55440BEBA40  payload/tests/test_data_acceptance.py   <- tests/test_data_acceptance.py
+FAF58BF352D16FF4AF294CFB2516169FE16E6F04A6C1EE5E007548CF401EDD11  payload/tests/test_field_continuity.py   <- tests/test_field_continuity.py
+C03E80F93DAEB3FF4E77236C4221B2183AC3C0D24A244606BA5B76AED94A7272  payload/tests/test_field_panel_selection.py   <- tests/test_field_panel_selection.py
+AE47DA5B33902C9AB778C3F4EBF95F1181E6BC3EC7391DBF751BDA0C06263033  payload/tests/test_fusion_independence.py   <- tests/test_fusion_independence.py
+CBA6DFDBA4067FD8E8B1CE919AD57E03EA7208E60C324B76E4BBF715046EE631  payload/tests/test_matrix_integrity.py   <- tests/test_matrix_integrity.py
+B2DCD467361741D9525F547E5909540DB31F35B306F382F0A3DD47370CF858A1  payload/tests/test_methods_independence.py   <- tests/test_methods_independence.py
+694398290DDB9E9603E4ECECBBE9894B751041EB64F4530064548598DEED6897  payload/tests/test_methods_registry_consistency.py   <- tests/test_methods_registry_consistency.py
+AD8DB80965B2C9F41DEDBD9DDA38EBEB8A5BDDC4B36D11E7901F6FEC96AC48D8  payload/tests/test_metrics_acceptance.py   <- tests/test_metrics_acceptance.py
+51AC82A09B253B00F921379C854F3C4F7F9CD9BD7950EF93A346D53B9A886B4C  payload/tests/test_metrics_p12.py   <- tests/test_metrics_p12.py
+BA030CBFA3B4D6629789D2FB4CE5153AD1FE1016AE831D936661855A928EAECC  payload/tests/test_naming_convention.py   <- tests/test_naming_convention.py
+2ACB775F757C7B3BE753727D9AAF0E88D200DC2BA012EC6E463781A12CF0B322  payload/tests/test_ricker.py   <- tests/test_ricker.py
+935F5C7252EC4187913D9694E404CA47362E5C872572207D67D22A243A1903A0  payload/tests/test_snr_sentinel.py   <- tests/test_snr_sentinel.py
