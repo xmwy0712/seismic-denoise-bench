@@ -35,3 +35,31 @@ These extensions are all post hoc and exploratory (pairs are not independent; ma
 Seismic denoising; pre-registered benchmark; method comparability; complementarity measures; time–frequency fusion; reproducibility
 
 ---
+## 1 Introduction
+
+### 1.1 The problem
+
+Seismic denoising spans a wide range of methods, covering filtering, transform-domain thresholding, decomposition, low-rank approximation and deep learning. Yet cross-method comparability has long been lacking: different studies report results on different data, against different metrics and under different tuning budgets, so a reader cannot judge whether one method is genuinely better than another. This difficulty is not an engineering detail but a structural problem of the evaluation system: when the criteria, the data splits and the tuning budget can all be adjusted after the fact, no method's advantage can be independently tested.
+
+### 1.2 What the existing literature does not settle
+
+Existing multi-method comparisons typically share two features. First, the method set and the evaluation metrics are fixed after the results are visible. Second, the comparison covers only a handful of methods and lacks any characterization of the **information relationship** between them. The former makes selection effects hard to rule out; the latter leaves the question of why several methods would be complementary without a quantifiable entry point. Reviews and benchmark-style work cover methods more completely, but they too rarely fix criteria and selection rules before the results.
+
+In adjacent directions, recent work has compared learned denoising methods in a controlled way across the time domain, the time–frequency domain and hybrid domains [5]; a comparative analysis of convolutional neural networks for seismic noise attenuation [6], and a multi-scale feature-interaction enhancement network for desert data [7], likewise report comparisons dominated by a single method. Together these show that multi-method comparison has reached a certain scale, while its method sets and evaluation metrics are still largely fixed after results are visible.
+
+### 1.3 Contributions
+
+This paper makes three contributions.
+
+First, **a pre-registered benchmark protocol**: criteria, configurations, random seeds and evaluation panels are frozen before any method output is observed, and the selection rule for the primary pair is fixed in advance, removing the interference of tuning and selective reporting with the conclusions. This protocol is the bench of this paper.
+
+Second, **a measure pathology case**: the candidate measure M2 (windowed local complementarity) is treated as a **pathological specimen**, and its two artifacts — **zero inflation** and the **pooled-threshold construction** — together with their interaction with **cross-layer pooling**, are diagnosed systematically. In the controlled setting this construction induces a **reverse-selection trap**: on the same data, a within-noise-type threshold selects a different pairing, namely the pre-registered robustness comparator, and the primary pair scores zero under that caliber. The diagnosis provides a reproducible instance of the gap between a high measure score and a measure that works.
+
+Third, **quantifying where the gain comes from, and the decision boundary**: an ablation replaces the fusion weights and suppression machinery wholesale with equal averaging, changing the ten-pair ΔSNR median by no more than 0.0252 dB; on that basis equations (8)–(10) are judged to be **mechanism redundancy and spurious complexity**, since the gain comes solely from arithmetic averaging. At the same time, the physical division of labour yields a **tested upper bound** for selection by type — 89.3% hits on the per-observation best single method in-sample and 81.5% on new seeds — alongside **partial out-of-sample validation** (5.9840 dB, ratio 0.453), which together delineate the applicable boundary between blind fusion and decision by class. The positive result of the second-best comparator pairing and the negative result of the primary pair are given side by side in the same section; see Section 4.3.
+
+### 1.4 Structure of the paper
+
+Section 2 describes the synthetic data generation and the source of the field data; Section 3 presents the five baseline methods, the evaluation metrics, the complementarity measures, the fusion method and the evaluation protocol; Section 4 reports the synthetic benchmark, the complementarity and the fusion results; Section 5 discusses what the measure disagreement means, the mechanism by which fusion did not benefit, and the applicable boundary; Section 6 concludes.
+
+---
+
