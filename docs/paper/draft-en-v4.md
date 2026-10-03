@@ -1,0 +1,656 @@
+# A Pre-Registered Negative-Result Case Study on Complementarity-Based Pairing of Seismic Denoising Methods
+
+**Zhang Tao**
+
+School of Earth Sciences and Engineering, Nanjing University, Nanjing, China
+
+**Corresponding author**: Zhang Tao (251830064@smail.nju.edu.cn)
+
+---
+
+## Abstract
+
+Multi-method fusion commonly chooses a pairing on the grounds that the methods are complementary, yet the complementarity measure itself is rarely examined. Under a pre-registered protocol — criteria, configurations, seeds and the primary-pair selection rule frozen before any output is observed — we test a pair-selection rule built on a windowed local complementarity measure (M2), using five classical denoising methods, 54 synthetic configurations (270 observations) and three field panels. The result is negative: the pair the rule selects has the lowest fusion gain of the ten (0.0588 dB). The diagnosis shows that M2 has a global median of zero for eight of the ten pairs (zero inflation), and that its high scores depend on a threshold construction pooled across noise types; switching to a within-layer caliber drops the primary pair's score to zero (the caliber dependency is unresolved). An ablation shows that replacing the weighting and suppression machinery with equal-weight averaging changes the ten-pair $\Delta$SNR median by no more than 0.0252 dB. In exploratory analyses, error orthogonality correlates positively with fusion gain under most gain definitions; selection by noise type hits the per-observation best single method in 81.5% of observations on new seeds, but the magnitude in the linear coherent layer depends on the seed. On the two computable field panels the three pairings order inconsistently. The conclusions are restricted to this data and the default parameter setting.
+
+## Keywords
+
+Seismic denoising; pre-registered evaluation protocol; method comparability; complementarity measures; time–frequency fusion; reproducibility
+
+## Highlights
+
+- Pre-registered protocol froze criteria, seeds and pair-selection rule in advance
+- A windowed complementarity metric (M2) was zero-inflated and picked the worst pair
+- Adaptive fusion weights added nothing measurable over equal-weight averaging
+- Noise-type-aware method choice is promising but exploratory and seed-sensitive
+
+---
+## 1 Introduction
+
+### 1.1 The problem
+
+Seismic denoising spans a wide range of methods, covering filtering, transform-domain thresholding, decomposition, low-rank approximation and deep learning. Yet cross-method comparability has long been lacking: different studies report results on different data, against different metrics and under different tuning budgets, so a reader cannot judge whether one method is genuinely better than another. This difficulty is not an engineering detail but a structural problem of the evaluation system: when the criteria, the data splits and the tuning budget can all be adjusted after the fact, no method's advantage can be independently tested.
+
+### 1.2 What the existing literature does not settle
+
+Existing multi-method comparisons typically share two features. First, the method set and the evaluation metrics are fixed after the results are visible. Second, the comparison covers only a handful of methods and lacks any characterization of the **information relationship** between them. The former makes selection effects hard to rule out; the latter leaves the question of why several methods would be complementary without a quantifiable entry point. Reviews and benchmark-style work cover methods more completely, but they too rarely fix criteria and selection rules before the results.
+
+In adjacent directions, recent work has compared learned denoising methods in a controlled way across the time domain, the time–frequency domain and hybrid domains [5]; a comparative analysis of convolutional neural networks for seismic noise attenuation [6], and a multi-scale feature-interaction enhancement network for desert data [7], likewise report comparisons dominated by a single method. Together these show that multi-method comparison has reached a certain scale, while its method sets and evaluation metrics are still largely fixed after results are visible. At a more general level, the relationship between diversity measures for ensembles and the benefit those ensembles actually deliver has long been discussed systematically, and the two are known not to be equivalent [8]; Nosek et al. [9] argue that fixing the criteria and the analysis plan before the data are observed is what separates hypothesis testing from post hoc narrative; and Woollam et al. [10] supply seismology with a reproducible benchmark toolchain, though the task it covers differs from the denoising pair-selection studied here.
+
+### 1.3 Contributions
+
+This paper makes three contributions.
+
+First, **a pre-registered evaluation protocol**: criteria, configurations, random seeds and evaluation panels are frozen before any method output is observed, and the selection rule for the primary pair is fixed in advance, removing the interference of tuning and selective reporting with the conclusions. This protocol is the controlled testing framework of this paper.
+
+Second, **a measure pathology case**: the candidate measure M2 (windowed local complementarity) is treated as a **pathological specimen**, and its two artifacts — **zero inflation** and the **pooled-threshold construction** — together with their interaction with **cross-layer pooling**, are diagnosed systematically. In the controlled setting this construction induces a **reverse-selection trap**: on the same data, a within-noise-type threshold selects a different pairing, namely the pre-registered robustness comparator, and the primary pair scores zero under that caliber. The diagnosis provides a reproducible instance of the gap between a high measure score and a measure that works.
+
+Third, **quantifying where the gain comes from, and the applicable boundary**: an ablation replaces the fusion weights and suppression machinery wholesale with equal averaging, changing the ten-pair ΔSNR median by no more than 0.0252 dB. On that basis we conclude that **on this data the weighting and suppression of equations (8)–(10) carry no measurable contribution relative to equal-weight averaging** (Table 9) — the gain comes solely from arithmetic averaging. At the same time, selection by type is given a **transactional upper bound** from the physical division of labour — 89.3% hits on the per-observation best single method in-sample and 81.5% on new seeds — alongside **partial out-of-sample validation** (5.9840 dB, ratio 0.453), which together delineate the applicable boundary for moving from blind fusion to decision by class. The positive result of the second-best comparator pairing and the negative result of the primary pair are given side by side in the same section; see Section 4.3.
+
+### 1.4 Structure of the paper
+
+Section 2 describes the synthetic data generation and the source of the field data; Section 3 presents the five baseline methods, the evaluation metrics, the complementarity measures, the fusion method and the evaluation protocol; Section 4 reports the synthetic benchmark, the complementarity and the fusion results; Section 5 discusses what the measure disagreement means, the mechanism by which fusion did not benefit, and the applicable boundary; Section 6 concludes.
+
+---
+
+## 2 Study area and data
+
+### 2.1 Synthetic data
+
+The synthetic data are driven by two velocity models: a horizontally layered model, and a model containing dipping, curved and faulted structure. The noise settings comprise three types: band-limited random noise, linear coherent interference, and dispersive surface waves. The parameter grid is 2 models × 3 noise types × 3 intensity levels × 3 main frequencies, with 5 independent random seeds per combination, giving 54 configurations and 270 observations. Noise intensity is reported externally in terms of the **measured input signal-to-noise ratio**; the amplitude ratio is used only to generate the realization. The values and the selection rationale for each dimension are given in the table below.
+
+**Table 1** Model, noise and level definitions for the synthetic configurations
+
+| Dimension | Values | Selection and notes |
+| :--- | :--- | :--- |
+| Velocity model | M1 horizontally layered; M2 with dipping, curved and faulted structure | Covers the two principal cases, layered and structural |
+| Noise type | N1 band-limited random; N2 linear coherent interference; N3 dispersive surface wave | N2 is coherent interference with a controllable apparent velocity, introducing a predictable linear event across traces |
+| Intensity level | L1 / L2 / L3 | N1 and N3 are generated at amplitude ratios 0.30 / 0.60 / 1.00, corresponding to measured input signal-to-noise ratios of 10.46 / 4.44 / 0.00 dB; N2 does not take an amplitude ratio, and its level is carried by the apparent-velocity slot, at 800 / 1500 / 3000 m/s |
+| Main frequency | 15 / 25 / 40 Hz | Covers the low to mid frequency band |
+| Random seeds | 5 independent seeds per combination | Separates between-observation variation from between-configuration differences |
+
+### 2.2 Field data
+
+The field data are taken from the public seismic surveys of the onshore–offshore freshwater systems of Martha's Vineyard and Nantucket, under a CC BY 4.0 licence; the citation is:
+
+> Dugan, B. (2023). *Seismic and Hydrostratigraphic Characterization of the Onshore-Offshore Freshwater Systems of Martha's Vineyard and Nantucket, Massachusetts, USA: Field Survey Report* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.10407771
+
+Three frozen panels from this dataset are used: FP1 (Nantucket survey area), and FP2 and FP3 (Martha's Vineyard survey area), covering two survey areas (Figure 1). The panels were chosen by ranking against a set of criteria frozen in advance, not on the basis of any denoising result. Under the **frozen threshold**, FP3 yields no event windows: this study **holds that threshold and does not relax it after the fact to backfill values**, and the way this boundary is recorded is described in Section 4.4.
+
+![Figure 1 Preview of the three raw field panels](figures/fig1_field_panels.png)
+**Figure 1** Preview of the three raw field panels. (a) FP1 (Nantucket survey area); (b) FP2 (Martha's Vineyard survey area); (c) FP3 (Martha's Vineyard survey area). The horizontal axis is trace number (dimensionless); the vertical axis is two-way travel time (ms); the colour scale is amplitude (dimensionless).
+
+---
+
+## 3 Methods
+
+### 3.1 Baseline methods
+
+Five deterministic denoising methods are selected, covering four required families of mechanism.
+
+**Filtering.** F-K filtering exploits apparent-velocity differences in the frequency–wavenumber domain to suppress linear interference and dispersive surface waves. F-X deconvolution estimates the **predictable component** on the same frequency–space gather using a lateral prediction operator: it retains coherent events that are predictable along the trace direction and suppresses the **unpredictable** part, namely random noise and interference that cannot be extrapolated laterally; the idea derives from lateral-prediction noise attenuation [1].
+
+**Transform-domain thresholding.** Wavelet thresholding separates signal from noise in the time–scale domain and is widely used to suppress coherent noise such as ground roll [2].
+
+**Decomposition.** Damped multichannel singular spectrum analysis arranges multichannel data into a trajectory matrix and performs a low-rank reconstruction, and is used for 3D random-noise suppression [3].
+
+**Low rank.** Empirical low-rank approximation constructs similar block matrices and imposes a low-rank constraint to attenuate noise [4].
+
+All five implementations are deterministic maps and admit no random component. A cross-domain pretrained deep network was not included in the method set, because it would require changing the frozen evaluation environment; this is an explicit limitation in method coverage.
+
+**Tuning policy.** All method parameters take the registry defaults, with no per-method tuning in this study. The reason is that per-method tuning would rest the comparison on each method's own optimum rather than on its default behaviour, which amounts to introducing a selection effect method by method. Parameters not fixed by the protocol are recorded as method-level defaults and frozen together with the configuration; if a change were needed, the registry would change first and the implementation second.
+
+**Table 2** Key parameters and provenance for the baseline methods
+
+| Method | Family | Key parameters (values) | Parameter provenance |
+| :--- | :--- | :--- | :--- |
+| F-K filtering | Filtering | apparent-velocity cut-off 800.0 m/s; band 5.0–80.0 Hz | the cut-off is a method-level default; the band comes from the frozen configuration |
+| F-X deconvolution | Filtering | prediction order 4; band 5.0–80.0 Hz; ridge 1e-08 | order and ridge are method-level defaults; the band comes from the frozen configuration |
+| Wavelet thresholding | Transform thresholding | wavelet db4; soft thresholding; threshold factor 1.0; levels automatic | all method-level defaults |
+| Decomposition (multichannel SSA) | Decomposition | embedding dimension 64; number of components 8 | method-level defaults |
+| Low rank (empirical low-rank approximation) | Low rank | rank automatic (energy fraction 0.95) | method-level defaults |
+
+### 3.2 Evaluation metrics
+
+**Signal-to-noise ratio gain.** With the clean record as $s$, the noisy input as $x$ and the method output as $y$, we define
+
+$$
+\Delta\mathrm{SNR} = 10\log_{10}\frac{\lVert x-s\rVert^{2}}{\lVert y-s\rVert^{2}} \qquad (1)
+$$
+
+in dB, where a higher value means more complete denoising. The metric describes error reduction in an overall energy sense.
+
+**Ground-truth event-window leakage.** Let $\mathcal{W}$ be the set of ground-truth event windows; the leakage metric is defined as the relative error energy of the output within the event windows:
+
+$$
+L_{\mathrm{sig}} = \frac{\sum_{w\in\mathcal{W}}\lVert (y-s)\rVert_{w}^{2}}{\sum_{w\in\mathcal{W}}\lVert s\rVert_{w}^{2}} \qquad (2)
+$$
+
+in dimensionless ratio, where a lower value means better fidelity to the effective signal. This metric runs opposite to the signal-to-noise ratio gain: the former rewards reduction of the total error energy, while the latter penalises error within the windows where the effective signal lies. In denoising evaluation the two do not always move together: an operator may suppress background energy (raising the signal-to-noise ratio gain) while damaging effective reflection events (worsening the leakage metric). A single metric is therefore not sufficient to judge denoising quality, and this paper reports the overall gain and the fidelity metric together and considers them jointly.
+
+**Coherent-noise attenuation.** Let $n_{c}$ be the known injected coherent noise and $P_{\mathcal{C}}$ the least-squares projection onto the subspace spanned by the injected-component basis; then
+
+$$
+\mathrm{CNA} = 10\log_{10}\frac{\lVert n_{c}\rVert^{2}}{\lVert P_{\mathcal{C}}(y-s)\rVert^{2}} \qquad (3)
+$$
+
+in dB, higher being better. Its scope must be stated explicitly: the projection subspace shares its origin with the injection parameters, so the metric measures suppression of **that injected component** and does not represent a universal assessment of arbitrary coherent noise.
+
+**Event-level metrics.** Taking the analytic-signal envelope of both output and ground truth, we locate the envelope peak within the ground-truth event window and define the arrival-time error as the difference between the two peak positions:
+
+$$
+\Delta t_{\mathrm{event}} = \left| t_{\mathrm{peak}}(y) - t_{\mathrm{peak}}(s) \right| \qquad (4)
+$$
+
+in ms; we also compute the normalised within-window energy error $\left| E_{y}-E_{s}\right|/E_{s}$, reporting its median and maximum.
+
+### 3.3 Complementarity measures
+
+**Error orthogonality.** Let $e_{i}$ and $e_{j}$ be the error vectors of two methods on the same observation. Taking an absolute value hides the **direction** of the error correlation — anti-correlated error pairs benefit from averaging, whereas positively correlated ones do not — so we also define the form without the absolute value, as an analytical supplement:
+
+$$
+O_{ij} = 1 - \frac{\left|\langle e_{i}, e_{j}\rangle\right|}{\lVert e_{i}\rVert\,\lVert e_{j}\rVert}, \qquad
+O^{\mathrm{s}}_{ij} = 1 - \frac{\langle e_{i}, e_{j}\rangle}{\lVert e_{i}\rVert\,\lVert e_{j}\rVert} \qquad (5)
+$$
+
+where $O^{\mathrm{s}}_{ij}$ has **range $[0,2]$**: a value of $0$ means the two errors are fully positively correlated (redundant), $1$ means uncorrelated, and $2$ means fully anti-correlated (complementary). Why anti-correlation helps can be read directly off the error-energy identity of equal-weight averaging: if $\bar{e} = (e_{i}+e_{j})/2$, then $\lVert \bar{e} \rVert^{2} = \tfrac{1}{2}\lVert e_{i} \rVert^{2} + \tfrac{1}{2}\lVert e_{j} \rVert^{2} - \tfrac{1}{4}\lVert e_{i} - e_{j} \rVert^{2}$ — that is, the further apart the two errors (the larger $\lVert e_{i}-e_{j} \rVert$, the stronger the anti-correlation), the smaller the error energy after averaging. This identity is the analytical ground for "complementarity favours averaging", and the starting point of the equal-averaging baseline of the next section.
+
+**Local complementarity.** For each window we compute the difference in within-window fidelity between the two methods and compare its magnitude against $1.5$ times the pooled interquartile range of that pair's differences:
+
+$$
+C_{ij} = \frac{\#\left\{ w : \left| D_{ij}(w) \right| > 1.5\,\mathrm{IQR}\!\left( D_{ij} \right) \right\}}{\#\left\{ w \right\}} \qquad (6)
+$$
+
+where $D_{ij}(w)$ is the difference in fidelity of the two methods on window $w$, and the $\mathrm{IQR}$ is pooled over the whole set of windows for that pair, so each pairing corresponds to a fixed threshold constant. The range is $[0,1]$.
+
+**Band complementarity.** Dividing the error spectrum into five bands and normalising to probability distributions $p$ and $q$, we define
+
+$$
+B_{ij} = \frac{1}{2}\sum_{k} p_{k}\,\log_{2}\frac{p_{k}}{m_{k}}
++ \frac{1}{2}\sum_{k} q_{k}\,\log_{2}\frac{q_{k}}{m_{k}}, \qquad
+m = \frac{p + q}{2} \qquad (7)
+$$
+
+that is, the base-2 Jensen–Shannon divergence between the two distributions, with range $[0,1]$. Both the pre-registration and the implementation use this form, and the measure does not enter pair selection.
+
+**Pair-selection rule.** The primary pair is the one with the highest global median of $C_{ij}$ in descending order; ties are broken by a predetermined order. The rule was written into the evaluation configuration and frozen before any fusion result was visible.
+
+**Table 3** Symbol table
+
+| Symbol | Meaning | Unit or range |
+| :--- | :--- | :--- |
+| $s$ | clean record (ground truth) | amplitude (dimensionless) |
+| $x$ | noisy input | amplitude (dimensionless) |
+| $y$, $y_{i}$, $y_{j}$ | output of a method or of the fusion | amplitude (dimensionless) |
+| $e_{i}$ | error of method $i$, $y_{i}-s$ | amplitude (dimensionless) |
+| $\mathcal{W}$ | set of ground-truth event windows | — |
+| $n_{c}$ | injected coherent-noise component | amplitude (dimensionless) |
+| $\Delta\mathrm{SNR}$ | signal-to-noise ratio gain, equation (1) | dB |
+| $L_{\mathrm{sig}}$ | ground-truth event-window leakage, equation (2) | dimensionless |
+| $\mathrm{CNA}$ | coherent-noise attenuation, equation (3) | dB |
+| $O_{ij}$, $O^{\mathrm{s}}_{ij}$ | error orthogonality (unsigned / signed), equation (5) | $[0,1]$ / $[0,2]$ |
+| $C_{ij}$ | local complementarity, equation (6) | $[0,1]$ |
+| $B_{ij}$ | band complementarity, equation (7) | $[0,1]$ |
+| $w_{i}$ | initial fusion weight, equation (8) | $[0,1]$ |
+| $s_{i}$ | fusion discriminative score, equation (9) | $[0,1]$ |
+| $\gamma$ | weight suppression coefficient, equation (10) | 0.4 / 0.5 / 0.6 |
+| $w_{i}'$ | suppressed weight | $[0,1]$ |
+| $\nu_{i}$ | per-coefficient normalised fusion weight | $[0,1]$, $\nu_i+\nu_j=1$ |
+| $d,\, b,\, a$ | the three sub-scores of the discriminative score $s$ (apparent velocity / bandwidth / amplitude) | $[0,1]$ |
+
+### 3.4 Fusion method
+
+Fusion proceeds coefficient by coefficient in the short-time Fourier domain. With the two method outputs $y_{i}$ and $y_{j}$, each output gives its own lateral coherence $C_{i}$ and $C_{j}$ (determined by that output alone), and the weights are
+
+$$
+w_{i} = C_{i}^{2}, \qquad w_{j} = C_{j}^{2} \qquad (8)
+$$
+
+A per-window discriminative score $s_{i}$ is then computed, formed from three weighted sub-scores: the apparent-velocity difference, the bandwidth difference and the amplitude difference:
+
+$$
+s_{i} = \mathrm{clip}\!\left( 0.4\,d + 0.3\,b + 0.3\,a,\; 0,\; 1 \right) \qquad (9)
+$$
+
+where $d$ is normalised by the apparent-velocity lower bound $v_{\mathrm{lo}} = 100.0$ m/s. The final weights are suppressed by
+
+$$
+w_{i}' = w_{i}\left( 1 - \gamma\, s_{i} \right), \qquad \gamma \in \{{0.4,\ 0.5,\ 0.6\}} \qquad (10)
+$$
+
+On reconstruction the weights are normalised per coefficient; when both weights are zero, the result degenerates to equal averaging. The formal parameters of the fusion function comprise only the two method outputs and the parameter table, never the ground truth, and this constraint is enforced by a syntax-level check.
+
+The design contains three mechanisms against the misjudgement that agreement implies correctness: first, the weights $w$ contain no cross-method comparison term; second, agreement enters only the discriminative score $s$, and $s$ is used only to **lower** weights; third, the agreement sub-score carries only 0.3 of $s$. Together they ensure that two methods agreeing cannot be exchanged mathematically for higher confidence.
+
+### 3.5 Evaluation protocol
+
+Criteria and thresholds are pre-registered before any evaluation run. The primary pair and the robustness comparator are both determined in advance by the rule of Section 3.3; all three $\gamma$ levels are reported, with no selective presentation. Statistical comparisons use the paired sign-flip permutation test with Holm multiple-comparison correction and bootstrap confidence intervals; the three levels mean that the larger $\gamma$, the stronger the weight suppression and the more conservative the result.
+
+**Unit of analysis (consistent with the implementation).** The 270 observations come from 54 configurations, each with five random seeds. Observations within a configuration share the velocity model, the noise type, the intensity level and the main frequency, so their errors are **not mutually independent**. Significance testing therefore always takes **the configuration as the unit of analysis** ($n = 54$), treating **seeds as within-configuration replicates**: the five seeds are first reduced to a median within each configuration, and the sign-flip permutation test and bootstrap intervals are then computed on the 54 configuration-level differences. The observation count $n = 270$ is used only for descriptive statistics and for displaying per-observation distributions, and **never for any significance statement**. The statistics scripts implement both calibers; this paper quotes the configuration-level results.
+
+Field evaluation uses four **reference-free raw indicators**: amplitude deviation, spectral residual, continuity gain and a leakage proxy. The **continuity gain** was judged **indistinguishable** by three pre-declared distinguishability criteria before it was computed (see below); **it therefore serves as evidence for no conclusion** and is listed only in the raw indicator table, while indicators that depend on event windows (continuity gain and the leakage proxy) are recorded as not computable on panels where no event window is detected. **No composite score is reported in this section**: the normalisation caliber of the existing composite score is not recorded in the documentation, and cannot be reproduced on recomputation.
+
+Before computation, the event-continuity indicator passed through three pre-declared distinguishability criteria: a dip-alignment gain over zero-lag greater than 0.1, a three-panel range greater than 0.05, and a trace-shuffle reduction greater than 0.1. The measured values are 0.0503, 0.0790 and 0.0838. **One of the three passes and two fail**: the directional criteria (dip alignment 0.0503, trace shuffle 0.0838) both fall short of 0.1, whereas the three-panel range of 0.0790 **exceeds** its 0.05 threshold. Under the pre-declared rule, two failures out of three means the indicator is judged indistinguishable, so it is removed from the composite score and the weights are renormalised to 0.4000, 0.3333 and 0.2667. No threshold was relaxed.
+
+The **asymmetry** of this test should be noted: what passes is the **cross-panel range** criterion (0.0790 against 0.05), while what fails are the two **directional** criteria (0.0503 and 0.0838 against 0.1). That is, on this data the indicator **can distinguish different panels**, yet is **not sufficient to distinguish dip alignment from trace shuffling**, two perturbations that ought to be detected. The conclusion should therefore be phrased as "indistinguishable on this dataset and under these thresholds" rather than "the indicator itself has no discriminative power"; and it must be acknowledged that although the two directional values fall short of the threshold, they lie at the same order of magnitude (0.05 and 0.08 against 0.1), so the robustness of this judgement is limited.
+
+---
+
+## 4 Results
+
+### 4.1 Synthetic benchmark
+
+Table 4 gives the median signal-to-noise ratio gain and leakage metric for the five methods over 270 observations. F-K filtering and the low-rank method are close on the gain, at 0.9320 dB and 0.9482 dB respectively; F-X deconvolution has a median gain of 0.0000 dB yet a leakage metric of 0.029151, an intermediate level; wavelet thresholding and the decomposition method have gains of 0.0422 dB and 0.2101 dB. The lowest leakage is F-K filtering (0.009706) and the highest is the decomposition method (0.045928).
+
+**Table 4** Macro-average medians of the five methods over 270 observations
+
+| Method | ΔSNR (dB) | Lsig (dimensionless) |
+| :--- | ---: | ---: |
+| F-K filtering | 0.9320 | 0.009706 |
+| F-X deconvolution | 0.0000 | 0.029151 |
+| Wavelet thresholding | 0.0422 | 0.015129 |
+| Decomposition (multichannel SSA) | 0.2101 | 0.045928 |
+| Low rank | 0.9482 | 0.011218 |
+
+**Division of labour by noise type.** The table above is a mixed median over all 270 observations and conceals a key difference between the methods: they are good at different noise types. Grouped by noise type (n = 90 per group), the highest within-group medians are F-X deconvolution on band-limited random noise (5.5231 dB), low rank on linear coherent interference (4.4591 dB), and F-K filtering on dispersive surface waves (12.4354 dB).
+
+**Table 5** Median signal-to-noise ratio gain by noise type (dB, n = 90 per group)
+
+| Noise type | F-K filtering | F-X deconvolution | Wavelet thresholding | Decomposition | Low rank | **Within-group best** |
+| :--- | ---: | ---: | ---: | ---: | ---: | :--- |
+| N1 band-limited random | 0.8528 | **5.5231** | 2.4351 | 3.3458 | 0.8715 | **F-X deconvolution** |
+| N2 linear coherent | −0.1709 | −0.1028 | −0.0000 | 0.3020 | **4.4591** | **low rank** |
+| N3 dispersive surface wave | **12.4354** | −0.0393 | 0.0422 | −0.0323 | 0.7927 | **F-K filtering** |
+
+**Dilution in the mixed median.** The same methods over all 270 observations give medians of 0.9482 dB (low rank), 0.9320 dB (F-K filtering), 0.2101 dB (decomposition), 0.0422 dB (wavelet thresholding) and 0.0000 dB (F-X deconvolution). F-X deconvolution reaches 5.5231 dB on band-limited random noise yet falls to 0.0000 dB in the mixed caliber — not because the method is ineffective, but because **mixing across noise types flattens its median with the types it is not good at**. The same holds for F-K filtering, which reaches 12.4354 dB on dispersive surface waves and only 0.9320 dB when mixed. This dilution effect is a prerequisite for reading the pairing results that follow.
+
+Figure 2 shows the same data as a grouped bar chart of within-group comparisons by noise type.
+
+![Figure 2 Median signal-to-noise ratio gain by noise type](figures/fig2_noise_specialization.png)
+**Figure 2** Median signal-to-noise ratio gain by noise type (grouped bars). The horizontal axis is the noise type; the vertical axis is the median ΔSNR (dB); each group has 90 observations; the value at the top of each bar is that of the best method in the group (dB).
+
+Figure 3 shows the medians and bootstrap 95% confidence intervals of the methods under the mixed caliber, where the differences between methods are far smaller in magnitude than the variation between observations.
+
+![Figure 3 Median ΔSNR and 95% confidence intervals](figures/fig3_method_delta_snr_ci.png)
+**Figure 3** Median ΔSNR with bootstrap 95% confidence intervals for the five methods over 270 observations. The horizontal axis is the method; the vertical axis is ΔSNR (dB); the error bars are the 95% confidence intervals; the annotated values are the medians (dB).
+
+### 4.2 Complementarity
+
+The complementarity measures produce 540 records across 10 method pairings, 3 measures and 18 stratum keys. Under the pre-registered rule, the pairing with the highest global median of the local complementarity measure is the primary pair, with a value of 0.500000 and no tie; the runner-up has a value of 0.200000.
+
+There is one disagreement between the three measures that needs to be stated explicitly. The local complementarity measure has a global median of 0.000 for 8 of the 10 pairings, a pronounced zero inflation; meanwhile the primary pair it selects has an error orthogonality of 0.093807, the lowest of all 10 pairings, corresponding to a normalized inner product of about 0.906 — that is, the two methods' errors are nearly collinear. The runner-up pairing of the local complementarity measure has an error orthogonality of 0.575710, clearly higher. Error orthogonality and the local complementarity measure therefore point to different pairings.
+
+Under the pre-registered rule, pair selection is bound to the local complementarity measure and is not changed. The disagreement itself is retained as a **finding at the level of the measure framework**: it shows that the two measures do not characterise complementarity equivalently, and that the difference has observable consequences in the fusion results (see Section 4.3).
+
+**Predictive power of the measures (post hoc, exploratory; n = 10, pairings not independent).** Extending the fusion runs to all 10 pairings makes it possible to test the rank correlation of each measure with the fusion gain. **M1 is positive**: error orthogonality correlates positively with the fusion gain under 4 of the 5 gain definitions, that is, it predicts a **degree of recovery toward the oracle**; **M1 does not predict beating the stronger member**: when the gain is defined as the difference between the fusion and the stronger of its two members, the correlation turns negative, which indicates that high orthogonality often means one member is already strong enough on its own; **M2 has no positive predictive power**: the local complementarity measure is negative under four of the five gain definitions and only $+0.0432$ (a **magnitude near zero**) under the relative-to-stronger-member definition, so the accurate statement is that it has **no positive predictive power under any of the five calibers (one near zero, four negative)**.
+
+**Gain definitions and calibers side by side (both calibers listed; neither merged nor preferred).** Rank correlation is sensitive to the gain definition, so both calibers are listed below:
+
+**Table 6** Rank correlation between the global measure values and the fusion gain (n = 10, post hoc exploratory)
+
+| Gain definition | Caliber | M1 | M1 (signed) | M2 | M3 |
+| :--- | :--- | ---: | ---: | ---: | ---: |
+| Definition A (used initially) | median of the fusion's own ΔSNR | +0.8303 | +0.8303 | −0.3114 | +0.6242 |
+| Definition B | median difference of the fusion relative to the best fixed single method | +0.4909 | +0.4909 | −0.5449 | +0.5030 |
+| Definition C | median difference of the fusion relative to the stronger of its two members | −0.7091 | −0.7091 | +0.0432 | −0.3455 |
+| Definition D (independent recomputation) | median difference of the fusion relative to the per-observation oracle | +0.6727 | +0.6727 | −0.0779 | +0.5030 |
+| Definition E | mean of the fusion's own ΔSNR | +0.7939 | +0.7939 | −0.1384 | +0.4545 |
+
+> Note: the rank correlations above uniformly use average ranks for ties. Definitions A and D differ both in the gain caliber and in the handling of ranks, and both calibers were checked against an independent recomputation. **The magnitude changes markedly with the definition while the direction is broadly stable**: M1 is positive under four of the five definitions and turns negative under the relative-to-stronger-member one; M2 is negative under four of the five and $+0.0432$ (a **magnitude near zero**) under the relative-to-stronger-member one. The accurate statement is therefore that M2 has no positive predictive power under any of the five calibers (one near zero, four negative), not that it is uniformly negative. This is direct evidence that with n = 10 and non-independent pairings the numbers should not be over-interpreted. All values are labelled post hoc and exploratory and do not enter the main conclusions.
+
+The values of the local complementarity measure are highly uneven across strata. For the primary pair, for instance, the strata with a value of **0.0000 are $\mathrm{model}=\mathrm{M1}$ (n = 135), $\mathrm{noise}=\mathrm{N3}$ (n = 90), and $\mathrm{M1\_N2}$ and $\mathrm{M1\_N3}$ (n = 45 each)**; the $\mathrm{model}=\mathrm{M2}$ stratum is **0.631579** (non-zero), and the horizontal-layered-model × band-limited-random-noise stratum is 1.0000. The global value is a median over 270 observations and the stratum values are medians over subsets, so the global median must lie between the medians of the two model strata (0 and 0.631579). The stratum sample sizes range from 45 to 135 — small-sample fractions whose evidential strength depends on the model and the noise type and cannot be extrapolated across strata. Figure 4 gives the stratum heat map of the local complementarity measure and Figure 5 the global matrices of the two measures.
+
+![Figure 4 Stratum heat map of local complementarity](figures/fig4_complementarity_heatmap.png)
+**Figure 4** Stratum heat map of the local complementarity measure for method pairings. The horizontal axis is the stratum key; the vertical axis is the method pairing; the colour scale is the local complementarity value (dimensionless, range 0–1).
+
+![Figure 5 Global matrices of the two complementarity measures](figures/fig5_m1_m2_matrices.png)
+**Figure 5** Global matrices of the two complementarity measures (medians over 270 observations). Left: error orthogonality; right: local complementarity. The colour scale runs 0–1 (dimensionless).
+
+### 4.3 Fusion and where it sits relative to the oracle
+
+The fusion results in this section come from two batches of runs: the two pre-registered pairings, giving 1620 grid cells (270 observations × 3 levels of $\gamma$ × 2 pairings); and, to test the generality of the measures, an extension of the fusion to all 10 pairings (8100 grid cells) plus two ablations (5400 grid cells), for a total of **13500 grid cells with zero failures**. The extended part is labelled post hoc and exploratory. The three $\gamma$ levels give results for the primary pair that agree to four decimal places, showing that this parameter produces no measurable difference on this data structure; the mechanism is discussed in Section 5.2.
+
+**Pairing list and rule transparency.** Five methods combined two at a time give 10 pairings, all listed below with no selective presentation. The primary pair and the robustness comparator are fixed by the pre-registered rule of Section 3.3, before the three $\gamma$ levels.
+
+**Table 7** The 10 method pairings, their complementarity measures and their pre-registered roles
+
+| # | Pairing | Local complementarity (global median) | Error orthogonality (global median) | Fusion ΔSNR median (dB) | Pre-registered role |
+| ---: | :--- | ---: | ---: | ---: | :--- |
+| 1 | F-K filtering × F-X deconvolution | 0.000000 | 0.741185 | 4.1515 | — |
+| 2 | F-K filtering × wavelet thresholding | 0.000000 | 0.194905 | 1.9431 | — |
+| 3 | F-K filtering × decomposition | 0.000000 | 0.575360 | 2.7600 | — |
+| 4 | F-K filtering × low rank | 0.000000 | 0.576086 | 3.2659 | — |
+| 5 | F-X deconvolution × wavelet thresholding | 0.500000 | 0.093807 | 0.0588 | **primary pair (pre-registered)** |
+| 6 | F-X deconvolution × decomposition | 0.000000 | 0.423203 | 0.4240 | — |
+| 7 | F-X deconvolution × low rank | 0.200000 | 0.575710 | 2.5295 | **robustness comparator (pre-registered)** |
+| 8 | Wavelet thresholding × decomposition | 0.000000 | 0.268651 | 0.5095 | — |
+| 9 | Wavelet thresholding × low rank | 0.000000 | 0.157471 | 1.8038 | — |
+| 10 | Decomposition × low rank | 0.000000 | 0.406879 | 2.0455 | — |
+
+> Note: the first four columns are global medians of the pre-registered measures; the **last column** comes from a post hoc extension (widening the fusion runs from the two pre-registered pairings to all 10) and is labelled exploratory, does not enter pair selection, and does not change the pre-registered conclusions.
+
+**Three facts readable from this list (post hoc exploratory).** First, **seven of the 10 pairings exceed the best fixed single method** (0.9482 dB), namely numbers 1, 2, 3, 4, 7, 9 and 10; those seven **are exactly the pairings containing F-K filtering or low rank**, while the three combinations containing neither (numbers 5, 6 and 8) all fall short. Second, **the primary pair selected by the pre-registered rule (number 5) is precisely the lowest-gain pairing of the 10** (0.0588 dB, with the other nine all at or above 0.42 dB). Third, from the division of labour in Section 4.1, F-K filtering is strong on dispersive surface waves and low rank on linear coherent interference, yet the two members of the primary pair are **strong on neither** — which explains why it comes last.
+
+Figure 6 orders the 10 pairings by fusion gain and marks the reference line of the best fixed single method.
+
+![Figure 6 Fusion gain of the ten method pairings (descending)](figures/fig6_pair_gain_ranking.png)
+**Figure 6** Fusion gain of the ten method pairings (descending bars). The horizontal axis is the median fusion ΔSNR (dB); the vertical axis is the pairing (its two members); the green dashed line is the reference of the best fixed single method at 0.9482 dB; red and orange mark the pre-registered primary pair and the robustness comparator respectively.
+
+**Where selection by noise type sits.** This rule was previously described by saying its median equals that of the per-type oracle, but the rule itself defines how the per-type oracle is taken, which is **a circular statement**, removed here. Two independently checkable quantities are used instead: the **hit rate** (the share of observations on which the rule's chosen method is exactly the per-observation best single method), **89.3%** in-sample and **81.5%** on new seeds; and the **mean shortfall against the per-observation oracle**, **0.27 dB** and **0.28 dB** (**means**, since the hit rate is high and the median shortfall is 0). **The reference on new seeds**: the best fixed single method is fk_filter at **0.967 dB**, while selection by noise type gives **5.984 dB**, about **6.2 times** as much. That is, the benefit of selection comes from **choosing the right method when the noise type is known**, not from any fixed single method being stronger.
+
+**Configuration-level comparison of the primary pair's fusion with its two members ($\gamma = 0.5$, $n = 54$).** The primary fusion is **+0.1658 dB** relative to F-X deconvolution (interval $[0.047, 0.326]$, adjusted $p = 0.0003$) and **+0.0267 dB** relative to wavelet thresholding (interval $[0.017, 0.143]$, adjusted $p = 0.0008$). That is, **significantly positive against both members, but the magnitude is only a few hundredths to a few tenths of a dB**.
+
+**Two notes on rule details.** First, the primary pair and the robustness comparator **admit** no selective substitution of any kind: the pairing set, the selection rule and the roles of the two pairs were all written into the configuration before any result was visible. Second, all three $\gamma$ levels (0.4, 0.5, 0.6) are reported: the larger $\gamma$, the stronger the suppression term $1-\gamma s$ and the more conservative the fusion.
+
+**Table 8** Median signal-to-noise ratio gain and leakage metric for the fusion, its two members and the fixed single methods ($\gamma = 0.5$)
+
+| Item | ΔSNR (dB) | Lsig (dimensionless) |
+| :--- | ---: | ---: |
+| Fusion (primary pair = F-X deconvolution × wavelet thresholding) | 0.0588 | 0.020640 |
+| 　member A: F-X deconvolution | 0.0000 | 0.029151 |
+| 　member B: wavelet thresholding | 0.0422 | 0.015129 |
+| Fusion (robustness comparator = F-X deconvolution × low rank) | 2.5295 | 0.018103 |
+| 　member A: F-X deconvolution | 0.0000 | 0.029151 |
+| 　member B: low rank | 0.9482 | 0.011218 |
+| Per-observation oracle (upper bound, not deployable) | 6.7033 | — |
+| Best fixed single method (low rank) | 0.9482 | 0.011218 |
+| Second-best fixed single method (F-K filtering) | 0.9320 | 0.009706 |
+
+**The primary fusion beats no fixed single method.** Its median signal-to-noise ratio gain of 0.0588 dB is below both the low-rank method's 0.9482 dB and F-K filtering's 0.9320 dB.
+
+**The robustness comparator beats all five fixed single methods.** Its median gain of 2.5295 dB exceeds every single method.
+
+**Comparison of the fusion with the worst single method (configuration level, $n = 54$).** Two definitions of the **worst single method** must first be stated; this paper adopts the former and lists the latter in the same table. **(i) Global worst** — the method that is worst in the macro-average median sense over all 270 observations (F-X deconvolution on ΔSNR, the decomposition method on Lsig), **fixed and not varying with the observation**. **(ii) Per-configuration worst** — the worst method within each configuration, **varying with the configuration**. On the gain side, the primary fusion against **(i) the global worst** (F-X deconvolution) has a **configuration-level median difference of +0.165827 dB**, with a bootstrap 95% interval of $[+0.046848,\,+0.326409]$ and a sign-flip permutation **adjusted $p = 0.000200$**; on the leakage side, the fusion against the worst single method (the decomposition method, taking the maximum) has a **configuration-level median difference of $-0.024528$**, interval $[-0.032315,\,-0.006982]$, **adjusted $p = 0.000200$**. **In both directions the adjusted $p$ is below 0.05 and the interval excludes zero, so the two agree.**
+
+This paper reports the above under the **configuration-level** caliber declared in Section 3.5; the confidence intervals and the test are given on the **same unit of analysis** and agree.
+
+One further note on the adjustment: the **Holm family** is the two comparisons {ΔSNR, Lsig} at that level (each of the three $\gamma$ levels forms its own family, with $m = 2$ within it); the $p$-values above are all **adjusted**. The worst single method is not the same method for the two metrics: since the two run in opposite directions, the gain side takes the minimum while the leakage side takes the maximum.
+
+**Ablation: the gain comes from averaging itself (post hoc exploratory).** To determine whether the weighting and suppression machinery of equations (8)–(10) contributes any gain, two ablations were run: **equal weighting** ($\nu_i = \nu_j = 0.5$) and **pure $C^{2}$ weighting** (dropping the suppression term $1-\gamma s$); neither depends on $\gamma$.
+
+**Table 9** Ablations against the full fusion (ΔSNR median, dB; all 10 pairings)
+
+| Pairing | Equal weighting | Pure $C^{2}$ weighting | Full fusion ($\gamma=0.5$) | $|$full $-$ equal$|$ |
+| :--- | ---: | ---: | ---: | ---: |
+| F-K filtering × F-X deconvolution | 4.1465 | 4.1465 | 4.1515 | 0.0050 |
+| F-X deconvolution × wavelet thresholding (primary) | 0.0588 | 0.0588 | 0.0588 | 0.0000 |
+| F-X deconvolution × low rank (robustness comparator) | 2.5307 | 2.5307 | 2.5295 | 0.0012 |
+| Wavelet thresholding × decomposition | 0.5095 | 0.5095 | 0.5095 | 0.0000 |
+| Decomposition × low rank | 2.0708 | 2.0706 | 2.0455 | 0.0252 |
+| (the remaining 5 pairings omitted; see supplementary material) | — | — | — | ≤ 0.0204 |
+
+> Across all 10 pairings the absolute difference between the ΔSNR medians of the full fusion and of equal weighting **does not exceed 0.0252 dB**. That is, once the weighting machinery is replaced wholesale by equal weighting, the result is almost unchanged. **This shows that the measurable gain of the fusion comes from averaging the two methods itself, while the weighting and suppression machinery introduced by equations (8)–(10) contributes nothing measurable on this data.** The conclusion agrees with the mechanistic account of the $\gamma$ failure in Section 5.2.
+
+**Coherent-noise attenuation and event-level metrics.** The table below lists the measured medians of three metrics directly, without a qualitative conclusion. The caliber must be stated: the coherent-noise attenuation metric (CNA) is computable only on configurations containing an identifiable coherent component, that is the linear coherent interference and dispersive surface wave types, 180 observations in all; band-limited random noise configurations have no coherent component and the metric is recorded as not applicable.
+
+**Table 10** Median coherent-noise attenuation and event-level metrics
+
+| Item | CNA (dB) | Event arrival-time error (ms) | Within-window normalised energy error | Computable observations |
+| :--- | ---: | ---: | ---: | ---: |
+| F-K filtering | 14.6916 | 0.00 | 0.010799 | 180 |
+| F-X deconvolution | 0.0571 | 0.00 | 0.038997 | 180 |
+| Wavelet thresholding | 0.0182 | 0.00 | 0.017392 | 180 |
+| Decomposition | 2.0804 | 2.00 | 0.071400 | 180 |
+| Low rank | 6.7747 | 0.00 | 0.015202 | 180 |
+| Fusion (primary) | 0.1101 | 0.00 | 0.035038 | 180 (identical at all three $\gamma$) |
+| Fusion (robustness comparator) | 2.8370 | 0.00 | 0.032294 | 180 (identical at all three $\gamma$) |
+
+> The fusion rows have an **effective count of 180 computable observations**: although three $\gamma$ levels were run (540 computations in total), the three agree to four decimal places, so the effective sample remains the 180 observations that contain a coherent component. The CNA projection subspace shares its origin with the injection parameters and measures suppression of that injected component, not a universal assessment of arbitrary coherent noise.
+
+**The per-observation oracle is an upper bound, not an attainable baseline.** The per-observation oracle takes, for each observation, the single method with the highest gain, and its macro-average median is 6.7033 dB. That value is necessarily at least the per-observation best of any fixed method, and its construction requires the ground truth, so it is not realisable in practice. It differs in kind from a fixed-pairing fusion: a fixed pairing is chosen once and applies to all observations, and is deployable; the oracle chooses method by method against the ground truth and is not. The gap between fusion and the oracle should therefore not be phrased as a failure of fusion, but as: fusion does not reach an unattainable upper bound, and the primary pair does not exceed the best fixed single method. Figure 7 shows the per-observation box plots side by side.
+
+![Figure 7 Per-observation ΔSNR distributions for fusion, single methods and the oracle](figures/fig7_fusion_vs_single_oracle.png)
+**Figure 7** Per-observation ΔSNR distributions (box plots). In order: the five fixed single methods, the primary fusion, the robustness comparator fusion and the per-observation oracle. The vertical axis is ΔSNR (dB); the box is the interquartile range, the horizontal line the median, and the whiskers the extremes within 1.5 times the interquartile range.
+
+### 4.4 Field data: an exploratory external stress test
+
+This section uses the field data as an **exploratory external stress test**: what it examines is whether a **single static pairing holds across survey areas**, not whether any method is validated. Only the four raw indicators are reported below (amplitude deviation, spectral residual, continuity gain, leakage proxy), and no composite score is reported: the normalisation caliber of the existing composite is not documented and its values could not be reproduced on recomputation, so they are not quoted.
+
+On the two computable panels, the three pairings (the pre-registered primary pair, the pre-registered robustness comparator, and the highest-gain pairing of the 10) **order inconsistently** on the four raw indicators: on FP1 the post hoc best pairing preserves amplitude clearly better ($+2.0835$ dB, against $-4.5336$ dB for the primary pair and $-10.3386$ dB for the comparator) but has a clearly worse spectral residual ($0.71220$ against about $0.20$); on FP2 the order reverses. **Conclusion: real formation heterogeneity confirms that a single static pairing does not generalise across survey areas.**
+
+FP3 is not computable, and its caliber is stated in one place as follows. The event windows are determined by the frozen threshold coefficient 3.0 (a multiple of the robust median absolute deviation), and under that threshold FP3 yields **0** event windows; the pre-declared fallback ladder would lower the threshold to 2.5, but the 3 event windows selected at that level **were not recorded into the frozen artifact** and are therefore not reproducible. FP3 is consequently recorded throughout as **not computable**: this is the outcome of **holding the pre-registered frozen threshold and refusing to relax it after the fact to backfill values**, not a gap in the data — and the panel therefore constitutes a **genuine boundary record**. Indicators that depend on event windows are likewise recorded as not computable on FP3 and do not enter the composite score.
+
+**Composite caliber (this paper does not quote its values).** The existing composite is a **partial score**: it counts only amplitude preservation (weight 0.4000) and spectral residual (0.3333), with the weights renormalised after removal; its values are sums of standardised relative positions **within the candidate set**, and because both numerator and denominator vary with the candidate set it is **not comparable across studies**; its normalisation caliber is not documented, and four recomputations **failed to reproduce** its values. This paper therefore **does not quote its values**, and the field conclusions rest only on the raw indicators in the table below.
+
+**The three pairings side by side (post hoc extension, no single conclusion pre-imposed).** To test whether the post hoc best pairing of the 10 is also better in the field, the four raw indicators were computed side by side for three pairings on the three panels: the pre-registered primary pair, the pre-registered robustness comparator, and the highest-gain pairing of the 10 (F-K filtering × F-X deconvolution). **No partial composite score is computed here** — the normalisation caliber of the existing composite is not documented, so no extrapolation is made; the table lists raw indicators only, for the reader to judge.
+
+**Table 11** Raw indicators of the three pairings on the field panels ($\gamma = 0.5$)
+
+| Panel | Pairing | Amplitude deviation (dB) | Spectral residual | Continuity gain | Leakage proxy LP |
+| :--- | :--- | ---: | ---: | ---: | ---: |
+| FP1 | primary pair (F-X deconvolution × wavelet thresholding) | −4.5336 | **0.19939** | 1.2099 | 0.6974 |
+| FP1 | robustness comparator (F-X deconvolution × low rank) | −10.3386 | 0.22491 | 1.2268 | 0.6584 |
+| FP1 | post hoc best (F-K filtering × F-X deconvolution) | **+2.0835** | 0.71220 | **2.0143** | **0.2992** |
+| FP2 | primary pair (F-X deconvolution × wavelet thresholding) | **−4.4461** | 0.11600 | 1.4830 | 0.3963 |
+| FP2 | robustness comparator (F-X deconvolution × low rank) | −4.9149 | **0.11585** | 1.4716 | 0.4044 |
+| FP2 | post hoc best (F-K filtering × F-X deconvolution) | −6.0569 | 0.44160 | **2.5260** | **0.2013** |
+| FP3 | primary pair (F-X deconvolution × wavelet thresholding) | −3.5899 | 0.13804 | not applicable | not applicable |
+| FP3 | robustness comparator (F-X deconvolution × low rank) | −5.3283 | 0.13587 | not applicable | not applicable |
+| FP3 | post hoc best (F-K filtering × F-X deconvolution) | −5.4667 | 0.47916 | not applicable | not applicable |
+
+> Amplitude deviation is better the closer to 0; the spectral residual, continuity gain and leakage proxy are dimensionless. This table is at $\gamma = 0.5$; the differences between the three $\gamma$ levels are small (see supplementary material). The same-batch values for the member single methods are also in the supplementary material.
+
+**Reading (side by side, no single conclusion)**: across the two panels the order does not agree. **On FP1**, the post hoc best pairing **preserves amplitude clearly better** ($+2.0835$ dB, against $-4.5336$ dB for the primary pair and $-10.3386$ dB for the comparator) and is also better on continuity gain and leakage proxy, but its **spectral residual is clearly worse** ($0.71220$ against about $0.20$). **On FP2 the order reverses**: the post hoc best pairing preserves amplitude worst ($-6.0569$ dB) yet is best on continuity gain and leakage proxy ($2.5260$ and $0.2013$), while its spectral residual is still the worst.
+
+The **field evidence therefore does not support a simple conclusion**: the post hoc best pairing is not better on every panel and every indicator. The disagreement between the two panels may be related to differences in noise composition (FP1 and FP2 come from different survey areas, with 1 and 3 event windows respectively), but with only two computable panels the sample is too small to determine the cause. All the values above are post hoc extensions, labelled **exploratory**.
+
+FP3 has no event windows, so its continuity gain and leakage proxy are not computable and only the amplitude deviation and spectral residual are readable; for the three pairings on FP3 both the amplitude deviation and the spectral residual are worse than one of their members, consistent with the mixed picture on the two computable panels.
+
+### 4.5 Replication on new seeds (post hoc exploratory)
+
+The division of labour in Section 4.1 suggests a repair path: choose the method by noise type. That path comes from observing the existing 270 observations and is therefore a **post hoc hypothesis**; to test whether it is merely an in-sample fit, this paper performed a **replication on new seeds** under a **pre-registered** protocol: the rule and the criteria were written down before the run, and the **same 54-configuration grid** was then rerun on **seeds never used before** (901–905), giving 54 configurations × 5 seeds × 5 methods = 1350 cells with zero failures. Its **evidential grade** must be stated: this is a **replication on the same grid with different seeds**, **not a generalisation across configurations**; and the grade of this validation is limited, since the temporal evidence of a validation-type pre-registration is a file timestamp, weaker than committing and tagging the pre-registration before the run.
+
+**Criteria (frozen before the validation)**: on the new seeds the method chosen by the rule must still have the highest within-group median for that noise type (criterion one), and its median must be at least 0.5 times the original value (criterion two); both must hold for a pass.
+
+**Table 12** Replication results on new seeds (n = 90 per group, dB)
+
+| Noise type | Rule method | In-sample median | New-seed median | **Hit rate (old → new)** | **75th percentile (old → new)** | New-seed within-group rank | Magnitude ratio (new/old) | Pass |
+| :--- | :--- | ---: | ---: | :--- | :--- | ---: | ---: | :--- |
+| N1 band-limited random | F-X deconvolution | 5.5231 | 5.5730 | 82.2% → 82.2% | 6.33 → 6.29 | **1** | 1.009 | ✅ |
+| N2 linear coherent | low rank | 4.4591 | 2.0195 | **87.8% → 63.3%** | **19.76 → 4.59** | **1** | 0.453 | ❌ (magnitude) |
+| N3 dispersive surface wave | F-K filtering | 12.4354 | 12.1630 | 97.8% → 98.9% | 13.56 → 13.29 | **1** | 0.978 | ✅ |
+
+> One further checkable observation: in the N2 layer the observations with a ΔSNR above 30 dB number 8 on the original seeds and 4 on the new seeds, that is 8.9% and 4.4% of the layer, and all of them fall in the $\mathrm{M1}$ model at the L2 level; the magnitude varies with the level (the maxima for that model's three levels are 23.14, 34.63 and 28.90 dB in turn) and is not a constant shared by the whole layer.
+
+> "Hit rate" is the share of observations, within that noise type, on which the method chosen by the rule is exactly the per-observation best single method; the "75th percentile" is the third quartile of the rule's chosen method's ΔSNR within that type; the 90th percentile for N2 is **28.90 dB** (original seeds) and **21.75 dB** (new seeds). **The N2 hit rate falls from 87.8% to 63.3%, the only substantial degradation among the three types.** Across the whole library the hit rate falls from 89.3% to 81.5%, and the mean shortfall against the per-observation oracle rises from 0.27 dB to 0.28 dB.
+
+**Results and interpretation.** The **direction** of the rule replicates fully out of sample: for all three noise types the method chosen by the rule **remains first within its group** on the new seeds, showing that the division of labour — which noise type calls for which method — is repeatable. But **the magnitude depends strongly on the seed**: in the linear coherent type the low-rank median drops from 4.4591 dB to 2.0195 dB (45.3% of the original), breaking criterion two; and the median within-configuration seed range rises from **9.41 dB to 13.52 dB** (the corresponding values for the other two types are only 1.53 and 1.43 dB, so the sensitivity is concentrated in the N2 layer). Under the pre-registered criteria two of the three types pass, and the rule overall is recorded as **substantially but not fully supported out of sample**.
+
+The correct reading of this result is: **the direction of the repair is credible, the magnitude of the repair is not**. This paper therefore offers it as an **exploratory** suggestion and states its limits explicitly: n = 90 per group, only 5 new seeds, configurations not mutually independent; and unless the seed sensitivity of the magnitude in the linear coherent type is resolved, the benefit of packaging selection by noise type as a product will fall short of the in-sample estimate.
+
+Figure 8 presents the median gains of the two seed sets side by side.
+
+![Figure 8 In-sample and out-of-sample median gains](figures/fig8_out_of_sample_validation.png)
+**Figure 8** In-sample and out-of-sample median gains of the rule's chosen methods (paired bars). The horizontal axis is the noise type; the vertical axis is the median ΔSNR (dB); each group has 90 observations; for the linear coherent type the new-seed median falls to 0.453 times the original, below the 0.5-times line of the pre-registered criterion.
+
+---
+
+## 5 Discussion
+
+### 5.1 What the measure disagreement means
+
+Error orthogonality and the local complementarity measure give inconsistent pairing preferences on the same data. This paper **does not reduce that disagreement to one measure failing**; instead it gives a **mechanistic** account of why the local complementarity measure selects the primary pair, and why that choice points opposite to the fusion gain.
+
+**First, zero inflation.** The local complementarity measure is defined as the share of windows whose fidelity difference exceeds 1.5 times the interquartile range of that pair. Of the 10 pairings, 8 have a global median of 0.000, a pronounced zero inflation.
+
+**The two thresholds are not the same quantity.** The threshold used at pair selection is a constant pooled **across all noise types** (for the primary pair $\tau = 0.0394653$, the smallest of the 10); whereas $0.217503$ is the threshold computed **within the band-limited random (N1) layer alone** (the within-layer interquartile range is $0.1450$ and the pooled one $0.0263$, and multiplying each by 1.5 gives the two values). The two differ by about a factor of 5.5 and **must not be conflated**.
+
+**Second, why the bottom pairing was selected.** Both members of the primary pair (F-X deconvolution × wavelet thresholding) are strong on band-limited random noise (first and third in Table 5 of Section 4.1) and neither is strong on dispersive surface waves or linear coherent interference. There is no source of complementarity in the other two types, which is why this pairing comes last of the 10 on fusion gain.
+
+**A direct test of the threshold caliber (run after pre-registration; post hoc caliber).** The pooled-threshold artifact above can be tested directly: change $\tau_{ij}$ from cross-type pooling to pooling **within each noise type**, leave everything else unchanged, and re-select the pairing by **the original rule**. The test was pre-registered, committed and tagged (`complementarity-stratified-prereg`) before it was run, and it **declared in advance that both directions would be accepted**; a self-check required the pooled mode to reproduce the existing 720 values (tol $10^{-12}$), which it did.
+
+**Result: the primary pair chosen under the pooled caliber does not survive.** Under the within-stratum caliber, the global M2 median of the primary pair $\mathrm{fx\_deconv} \times \mathrm{wavelet\_threshold}$ falls from **0.500000 to 0.000000**, and the top place goes to **$\mathrm{fx\_deconv} \times \mathrm{svd\_lowrank}$ (0.111111)**. In other words, the primary pair **scores zero** under the within-stratum caliber.
+
+**The result should be read as an unresolved caliber dependency, not as the within-stratum caliber being the correct answer.** Both calibers are post hoc choices: the pooled caliber selects the primary pair, the within-stratum caliber selects the **pre-registered robustness comparator**; the two are **reported together**, and this paper does not designate either as the correct caliber. What can be established is that **the primary pair's high score depends on the construction of cross-type pooling**.
+
+**Consequences downstream.** The test reran only the complementarity step and did not rerun the fusion. The downstream fusion and the main conclusions of Sections 4.3–4.5 **still rest on the original primary pair**, and a change of caliber would cascade into pair selection itself — **that cascade is unresolved**. The fusion result of the comparator pairing ($\mathrm{fx\_deconv} \times \mathrm{svd\_lowrank}$) is already available from the existing 10-pairing extension (8100 cells), with a ΔSNR median of **2.5295 dB**, higher than the primary pair's 0.0588 dB, but this paper **does not re-designate the primary pair on that basis** — a post hoc re-designation carries no pre-registered evidential force.
+
+The test is a post hoc caliber, with a sample of 10 pairings that are not mutually independent, and **does not constitute a causal conclusion**.
+
+### 5.2 Why the fusion did not benefit
+
+**The primary fusion** does not benefit in this setting. Three explanations **consistent with the existing evidence** are given below (all at the mechanistic level; no discriminative experiment was designed, so they are not causal conclusions): the division of labour across noise types, the measure artifacts, and the mechanism running idle. The conclusions of this section apply to **the primary fusion** only; the robustness comparator and the other pairings in the 10-pairing extension behave differently (Table 7 of Section 4.3).
+
+**First, the division of labour.** The methods' strengths divide by noise type (Table 5 of Section 4.1): F-K filtering dominates dispersive surface waves (12.4354 dB), low rank dominates linear coherent interference (4.4591 dB), and F-X deconvolution dominates band-limited random noise (5.5231 dB). Whether a fixed-pairing fusion benefits therefore depends on whether its two members can cover for each other on **the noise type the other is weak at**. The two members of the primary pair overlap most on band-limited random noise and both do poorly on the other two types, so there is no source of complementarity; the pre-registered robustness comparator (F-X deconvolution × low rank) covers both band-limited random and linear coherent, and is accordingly much better. The same division explains why the 7 pairings of the 10 that exceed the best fixed single method **are exactly those containing F-K filtering or low rank** (Section 4.3).
+
+**Second, the measure artifacts.** The selection of the primary pair is caused by the two artifacts of the local complementarity measure (Section 5.1): zero inflation and the pooled-threshold construction. Together they give the highest score to a pairing whose gain is at the bottom; and the stratified-threshold test further shows that the caliber dependency of that selection is unresolved.
+
+**Third, a dissection of the mechanism: redundancy.** The three $\gamma$ levels give results identical to four decimal places. The apparent-velocity sub-score $d$ is normalised by a lower bound of 100.0 m/s, whereas the actual apparent velocities are far above that, so $d$ is identically zero; the bandwidth sub-score $b$ is determined jointly by the two methods' bandwidths, which are approximately equal on this data; and the amplitude sub-score $a$ is symmetric by definition. Summed, the three make the two methods' discriminative scores approximately equal, $s_{i} \approx s_{j}$, so the suppression factor $1 - \gamma s$ approximately cancels in the per-coefficient normalisation. **The ablation confirms this further**: replacing the weighting and suppression machinery wholesale with equal averaging changes the 10-pairing ΔSNR median by no more than **0.0252 dB** (Table 9 of Section 4.3). The $\gamma$ therefore does not constitute an effective hedge against the "over-smoothing" failure mode: **the fusion's gain comes entirely from arithmetic averaging, while the adaptive weighting carries no measurable information on this data** — that is, **on this data the weighting and suppression of equations (8)–(10) carry no measurable contribution relative to equal-weight averaging** (Table 9), rather than being an ineffective implementation detail.
+
+It should be noted that the weight ratio is determined by the **square** in equation (8) ($w = C^{2}$); the normalisation only scales their sum to 1 and does not itself change the ratio.
+
+### 5.3 Applicable boundary
+
+The conclusions of this paper about fusion hold only under this paper's data (54 synthetic configurations, 270 observations and three frozen field panels), this pairing (selected by the pre-registered rule of the local complementarity measure) and this rule (the fusion weighting and suppression rule, including the three $\gamma$ levels). The positive result of the robustness comparator is subject to the same boundary.
+
+Changing the pairing or the fusion rule after the results are visible is a post hoc choice and carries no pre-registered evidential force.
+
+### 5.4 Limitations
+
+The conclusions of this paper are subject to the following constraints.
+
+**Scope of the evidence.** Every conclusion rests on 54 synthetic configurations, 270 observations and three frozen field panels; the noise types of the synthetic data are given by construction parameters, whereas in real data the noise composition is more complex and varies with time.
+
+**Sample size and independence.** The unit of analysis in both the pair selection and the measure's predictive power is 10 pairings, and the pairings are not independent (the same method appears in several pairings), so the related conclusions serve only as a source of questions and do not constitute independent findings. Only two field panels are computable, and the sample is too small to determine the cause of the disagreement between panels.
+
+**Exploratory status of the selection rule.** Selection by noise type passes two of the three types out of sample, and the magnitude in the linear coherent type is sensitive to the seed; its effectiveness presupposes that **the noise type is known**, whereas in real data the type usually has to be identified first, and identification error propagates directly into selection error. This path is an **exploratory** result and does not enter this paper's claims.
+
+**The measure caliber is undetermined.** The pooled threshold and the within-layer threshold of the local complementarity measure give different pairing preferences; this paper reports both and does not designate which is correct — **the caliber dependency is unresolved**.
+
+**Applicable boundary of the fusion.** The fusion conclusions hold only for the pairings and the rule family verified here; whether other pairings and rule families — especially families with different weighting and suppression machinery — are likewise gainless is not assessed.
+
+### 5.5 Implications for users
+
+**Do not treat a measure score as a basis for selection.** What this paper provides is a reproducible counter-example: in a controlled setting, the pairing that a measure scores highest is exactly the pairing with the lowest fusion gain. A selection rule should be calibrated against an **observable task objective** (here, the fusion gain), not against a measure's internal consistency.
+
+**Distinguish "a mechanism executed correctly" from "a mechanism that is effective".** The value of pre-registration is that it separates the two: pre-registration guarantees unbiased execution, but unbiased execution does not guarantee a correct choice. Users should read pre-registration as an **auditable procedure**, not as a **procedure that guarantees correctness**.
+
+**Decision by class beats blind fusion.** Where the noise type can be identified, choosing a single method by type has a clear order-of-magnitude advantage over fixed-pairing fusion; the bottleneck lies not in the choice itself but in the separate problem of **type identification**.
+
+**When reporting negative results, keep the boundaries.** This paper cites no value for a quantity that cannot be reproduced (the field composite score), uses an indistinguishable indicator (continuity gain) as evidence for nothing, and labels small-sample conclusions as exploratory. These choices cost some readability and buy auditability.
+
+---
+
+## 6 Conclusions
+
+The main results and contributions are as follows.
+
+First, **a pre-registered benchmark protocol**. This paper establishes a first pre-registered seismic denoising benchmark, restricted to this dataset, this rule set and a controlled setting: criteria, configurations, random seeds and evaluation panels are frozen before any method output is observed, and the selection rule for the primary pair is fixed in advance, removing the interference of tuning and selective reporting with the conclusions. It is the bench for every judgement in this paper.
+
+Second, **a measure pathology case**. Error orthogonality, local complementarity (M2) and band complementarity are all computed systematically on this data, and their disagreement is retained and explained. M2 is treated as a **pathological specimen**: its two artifacts — zero inflation and the pooled-threshold construction — together with their interaction with cross-layer pooling, induce a **reverse-selection trap** in the controlled setting. The diagnosis gives a reproducible instance of the gap between a high score and a measure that works. The difference in predictive power of error orthogonality on the fusion gain is a **post hoc exploratory observation** (n = 10, pairings not independent, magnitude varying with the gain definition) and **does not constitute an independent finding**; it serves only as a source of questions for further work.
+
+Third, **quantifying where the gain comes from, and the decision boundary**. An ablation replaces the fusion weights and suppression machinery wholesale with equal averaging, changing the 10-pairing ΔSNR median by no more than 0.0252 dB; on that basis the adaptive weighting is judged to be **mechanism redundancy and spurious complexity**, with the gain coming solely from arithmetic averaging. On that premise, the primary fusion has a ΔSNR median of 0.0588 dB (below the best fixed single method's 0.9482 dB) and the robustness comparator 2.5295 dB; selection by type on physical grounds hits the per-observation best single method in 89.3% of cases (81.5% on new seeds). The per-observation oracle's 6.7033 dB requires the ground truth and is only an upper bound.
+
+**Fourth, the main line of argument (three sentences).** **Sentence one**: the pre-registered machinery was executed in full, and its output was the lowest-gain pairing of the 10 — executing a mechanism correctly is not the same as the mechanism being effective. **Sentence two**: the reason the selection rule failed has been located — the **threshold caliber of pooling across noise types** manufactured an inflated local complementarity score, leaving the primary pair with a score of zero under the **within-noise-type** caliber (consistent with the stratified-threshold test; the caliber dependency is unresolved); the division of labour across noise types accounts for every winner and loser; and the ablation shows the gain comes from averaging itself rather than from the weighting and suppression machinery of equations (8)–(10). (All of these are post hoc exploratory mechanistic explanations; no discriminative experiment was designed, and **both threshold calibers are reported together with the caliber dependency unresolved**.) **Sentence three**: the repair path is selection by noise type, whose median is 6.7033 dB in-sample and 5.9840 dB in **the replication on new seeds**, with the rule's chosen method **remaining first within its group** for all three noise types, though the magnitude in the linear coherent type falls to 45.3% of the original.
+
+**Premise of the repair path (a limitation, at body level).** The effectiveness of selection by noise type depends on one premise: **that the noise type is known**. In this paper's synthetic setting the type is a construction parameter; in real data the type usually has to be identified first, and identification error propagates directly into selection error. The path should therefore be understood as **an upper-bound-style result conditional on the type being known**, whose engineering value depends on the separate problem of noise-type identification, which this paper does not assess.
+
+**A precise statement about the oracle.** The per-observation oracle (taking the best single method for each observation) has a median of 6.7033 dB, and its construction requires the ground truth, so it is **not deployable**. Two cases must be distinguished: **when the noise type is unknown**, neither any fixed pairing nor any fixed single method can reach that value, and the upper bound is unattainable; **when the noise type is known**, selection by type hits the per-observation best single method in **89.3%** (in-sample) and **81.5%** (new seeds) of observations, with a mean shortfall against the oracle of **0.27 dB** and **0.28 dB** (**means**: because the hit rate is high, the median shortfall is 0). That is, the level achieved here comes not from fusion but from **choosing the right method when the noise type is known** — and that premise is itself the main limitation of the path (see Sections 4.3, 4.5 and 5.3).
+
+**Fifth, an exploratory external stress test.** The field data are used as an **exploratory external stress test**: on the two computable panels the three pairings order inconsistently on the four raw indicators (Table 11 of Section 4.4), and the third panel is not computable because no event windows were detected. **Real formation heterogeneity confirms that a single static pairing does not generalise across survey areas.** This section reports no composite score: its normalisation caliber is not documented and could not be reproduced on recomputation.
+
+Taken together, the value of this paper lies not in asserting a technical advantage for any fusion method but in **showing how a strict pre-registered path can dismantle a popular assumption in seismic signal processing and produce an interpretable negative result**: **the unbiased benchmark protocol and the pathological diagnosis of a candidate measure are the core methodological contributions**; the ablation of mechanism redundancy and the out-of-sample test based on the physical division of labour define the effective boundary of denoising decisions. All the extensions above are labelled post hoc and exploratory and do not enter the pre-registered claims.
+
+Future work has four directions: first, extending the method set while keeping the pre-registration, in particular to include domain-adapted learned methods; second, improving the sub-score construction of the discriminative score so that the two methods' scores differ measurably, and thereby examining under what conditions agreement weighting is effective; third, extending the field fusion evaluation to all panels and all indicators; and fourth, introducing **noise-type coverage** as a candidate measure for selection by noise type — the rule's effectiveness currently depends on the premise that the type is known, and an assessable coverage metric is needed to characterise type boundaries and the cost of misclassification, and thereby to delimit the engineering scope of the path.
+
+---
+
+## Acknowledgements
+
+The author thanks the data providers for making the field data used in this study publicly available.
+
+## Funding
+
+This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.
+
+## Declaration of Competing Interest
+
+The author declares that there are no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+## CRediT authorship contribution statement
+
+**Zhang Tao**: Conceptualization, Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Visualization, Writing – original draft, Writing – review & editing.
+
+## Data Availability
+
+The generation configuration, random seeds and evaluation criteria for the synthetic data are frozen before evaluation and available for checking. The field data come from a public dataset under a CC BY 4.0 licence, with the full citation in Section 2.2; redistribution must retain that attribution. The numerical provenance cross-reference material is provided as supplementary material.
+
+The frozen configurations, pre-registration documents, criteria, metrics and statistical products, the manuscript and the per-file checksum list are all archived, **data archive DOI: 10.5281/zenodo.23116640** (<https://doi.org/10.5281/zenodo.23116640>), with the per-file checksums listed in Appendix A.
+
+## Code Availability
+
+The code written for this study is under the MIT licence, with copyright held by the author.
+
+**Code archive DOI: 10.5281/zenodo.23116624** (<https://doi.org/10.5281/zenodo.23116624>).
+
+**Code repository**: https://github.com/xmwy0712/seismic-denoise-bench (public; contains all configurations, metric tables and statistical products, the manuscript and accompanying records. The output arrays are not distributed with the repository because of their size, and their per-file checksums are provided with the archive).
+
+## References
+
+[1] Abma, R., & Claerbout, J. (1995). Lateral prediction for noise attenuation by t-x and f-x techniques. *Geophysics*, 60(6), 1887-1896. https://doi.org/10.1190/1.1443920
+
+[2] Deighan, A. J., & Watts, D. R. (1997). Ground-roll suppression using the wavelet transform. *Geophysics*, 62(6), 1896-1903. https://doi.org/10.1190/1.1444290
+
+[3] Huang, W., Wang, R., Chen, Y., Li, H., & Gan, S. (2016). Damped multichannel singular spectrum analysis for 3D random noise attenuation. *Geophysics*, 81(4), V261-V270. https://doi.org/10.1190/geo2015-0264.1
+
+[4] Chen, Y., Zhou, Y., Chen, W., Zu, S., Huang, W., & Zhang, D. (2017). Empirical Low-Rank Approximation for Seismic Noise Attenuation. *IEEE Transactions on Geoscience and Remote Sensing*, 55(8), 4696-4711. https://doi.org/10.1109/TGRS.2017.2698342
+
+[5] Dahmen, N. L. (2026). Earthquake Seismogram Denoising Across Time, Time‐Frequency, and Hybrid Domain Approaches. *Journal of Geophysical Research: Machine Learning and Computation*, 3(5). https://doi.org/10.1029/2026jh001403
+
+[6] Fogat, M., Roy, S., Ferreira, V., & Singh, S. (2023). A Comparative Analysis of Convolutional Neural Networks for Seismic Noise Attenuation. *SPE EuropEC - Europe Energy Conference featured at the 84th EAGE Annual Conference & Exhibition*. https://doi.org/10.2118/214392-MS
+
+[7] Zhong, T., & Ye, Y. (2025). MFIEN: multi-scale feature interactive enhancement network for seismic data denoising in desert areas. *Scientific Reports*, 15(1). https://doi.org/10.1038/s41598-025-87481-y
+
+> Note: the seven entries above correspond one to one with the citations in the text, and their authors, volumes and pages are taken from the public Crossref records identified by the listed digital object identifiers; the machine-readable records are provided as supplementary material.
+
+---
+
+## Appendix A Deliverables and provenance
+
+The provenance cross-reference material for every numerical value in this paper is provided as supplementary material, with its entries and their checksums listed in the table below. The code and configurations are archived at **10.5281/zenodo.23116624** and the data and configuration package at **10.5281/zenodo.23116640**; the archived package records per-file checksums in `MANIFEST.sha256` and preserves the repository hierarchy.
+
+**Table A.1** Supplementary material inventory
+
+| Material | Checksum (first 16 hex digits of SHA256) |
+| :--- | :--- |
+| Synthetic benchmark metrics | `CD7499874B4A166E` |
+| Fusion metrics | `123B8E56893D1EE0` |
+| Complementarity measures | `AE0FF75F58F2E88D` |
+| Field metrics | `1A40F98ED6817114` |
+| Supplementary comparison | `FAB770718583E5A2` |
+| Numerical provenance cross-reference | `5C429D775B068637` |
+| 10-pairing fusion metrics (post hoc extension) | `E8147D0D4702F063` |
+| Two-ablation fusion metrics (post hoc extension) | `1BDE916F4FF0C73B` |
+| Measure recomputation (including signed error orthogonality) | `507DEEBE81A36AD2` |
+| Gain-definition sensitivity comparison | `812FBB051725E57D` |
+
+**Table A.2** List of figures
+
+| Number | File | Content |
+| :--- | :--- | :--- |
+| Figure 1 | `fig1_field_panels.png` | Preview of the three raw field panels |
+| Figure 2 | `fig2_noise_specialization.png` | Median signal-to-noise ratio gain by noise type |
+| Figure 3 | `fig3_method_delta_snr_ci.png` | Per-method median ΔSNR with 95% confidence intervals |
+| Figure 4 | `fig4_complementarity_heatmap.png` | Stratum heat map of local complementarity |
+| Figure 5 | `fig5_m1_m2_matrices.png` | Global matrices of the two complementarity measures |
+| Figure 6 | `fig6_pair_gain_ranking.png` | Fusion gain of the ten method pairings (descending) |
+| Figure 7 | `fig7_fusion_vs_single_oracle.png` | Box plots of ΔSNR for fusion, single methods and the oracle |
+| Figure 8 | `fig8_out_of_sample_validation.png` | In-sample and out-of-sample median gains |
+
+---
+
+## Appendix B Deviation and revision register
+
+This table records the revisions and fixes made **after pre-registration**, so that readers can judge the boundary of each claim. Every entry can be verified independently from the commit hash.
+
+**Table B.1** Deviation and revision register
+
+| # | Item | Category | Commit | Date | Effect on conclusions |
+| ---: | :--- | :--- | :--- | :--- | :--- |
+| 1 | Data-construction defect in the M2 model on the first full-matrix run: not all size keys in the registered parameters were removed, causing 135 failures | fix | `afffc32` | 2026-09-26 | that run was voided and rerun; a fail-fast pre-check was added afterwards. The fix preceded all statistics and pair selection and **does not affect the main conclusions** |
+| 2 | Two generation parameters (N1 band, N2 main frequency) added to the frozen artifact, forming `config-frozen-v2` | addition | `ff60ac5` | 2026-09-27 | removes the risk of taking generation parameters from the draft and makes the frozen artifact the sole authoritative source; values and protocol unchanged |
+| 3 | The three conditions of the fusion rule settled and the draft wording removed from its name | addition | `866989c` | 2026-09-27 | completed **before** the fusion implementation; does not affect the pre-registered standing of the three $\gamma$ levels or of the pairing |
+
+> **Note**: none of the three entries changes the pre-registered standing of the primary pair (the pre-registration rule, the pairing set and the three $\gamma$ levels are unchanged). The fix in entry 1 preceded the statistical computation; entries 2 and 3 are additive supplements to the frozen artifact that do not alter any frozen conclusion. Other process records are registered in the repository change log.
+
+---
+

@@ -5974,3 +5974,38 @@ DOI 已回填 **中英两稿**（新增 `draft-v14` / `draft-en-v2`）的 Data A
 | :--- | ---: | :--- |
 | `docs/paper/draft-v16.md` | 70270 | `D5616EB65EB3FF96DD856ABB0F4654EE3C0A5413EEBA06229008F80F996001AE` |
 | `docs/paper/format-compliance-v16.md` | 2788 | `7745A3B4A86149D8A3FA7636B958DFAA920A6E6B92AF429D6223821189AF9F0D` |
+
+### P5.12 步骤 8（英文稿重定位）
+
+英文稿按中文 v16/v17 的重定位改动逐条镜像，分四批以定点替换 + 唯一性断言执行。
+
+* **Batch 1**：标题改为负结果案例研究定位；摘要整段重写（单段形态）；关键词「预注册基准」→「预注册评估协议」；
+  新增 **Highlights** 节（四条，照录）；§1.2 相关方向句 + 三篇**已核验**文献；§1.3 其一（首个→评估协议）与其三。
+* **Batch 2**：§3.3 补等权平均的误差能量恒等式；§3.5 野外指标口径改为与实际报告一致（四项无参考原始指标、
+  连续性增益不作为证据、不报告综合分）；§5.2 其三标题与结句；**新增 §5.4 局限性与 §5.5 对使用者的启示**。
+* **Batch 3**：§4.3 删除修订痕迹句；§4.4 口径段与结论句（「两个可计算面板排序不一致…样本量不足以下结论」）；
+  §4.5「修复路径」→「探索性建议」。
+* **Batch 4**：§6 各句；参考文献补 [8][9][10]；附录 B 追加两条登记，说明「三条」→「五条」。
+
+**交付门禁发现并修复 1 处**：英文 §1.3 早于表 1 引用了 `(Table 9)`（英文图/表标签此前不在机器门覆盖范围内），
+已在 `draft-en-v7` 中删去，与中文处理一致。**数字零变化。**
+
+**机器门加强**：`execution/format_compliance.py` 的图/表标签识别由仅中文扩展到 `Figure|Fig.` / `Table`
+（`G-fig-order`、`G-tab-order`、`G-embed-order`、`G-caption-order`、`G-embed-caption-pair`、`G-appendix-figmap`
+同时覆盖中英），正文切分同时认 `## 附录 B` 与 `## Appendix B`。
+**自证非空集**：加强前的 `draft-en-v6` 在该门上 `G-tab-order` **FAIL（exit 1）**；加强后 `draft-en-v7` **PASS（exit 0）**；
+中文 `draft-v17` 仍 **PASS**（无回归）。
+
+**同批修正中文稿**：`draft-v16` → `draft-v17` 修正 v16 替换中引入的 5 处（三处断句「属**…**」、附录 B 行序 5/4 颠倒、
+说明「四条」→「五条」）。**CN v16 → v17 数字差集：丢失 = 无、新增 = 无。**
+
+**门禁**：`draft-v17` 与 `draft-en-v7` 均 **17 项 PASS（exit 0）**；
+pytest **206 passed**。
+
+### 交付物
+
+| 文件 | 字节 | SHA256 |
+| :--- | ---: | :--- |
+| `docs/paper/draft-v17.md` | 70241 | `A8D992B330A01E42379F688D0989E37118E9CBDEA3DF22F89D0C7DD8E1E0D8B1` |
+| `docs/paper/draft-en-v7.md` | 88473 | `D47AB1CE67B5ED6D203814ECA4939E176339A13064B1C27D2448FDE14B9CFCD7` |
+| `execution/format_compliance.py` | 10265 | `0CB13B5C392635B18033CF21CA0E0DE771F0499A6CA1FAE29CC71E73EDA5813A` |
