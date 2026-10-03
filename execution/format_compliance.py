@@ -135,7 +135,10 @@ def check(doc: Path) -> tuple[list[tuple[str, bool, str]], bool]:
                   if not (i >= b_start and l.startswith("|"))]
     reader_words = ["留待", "终稿决定", "候选标题", "标题说明", "须记录", "须报告", "更正说明",
                     "本文早期版本", "本文初稿", "初稿 v", "上一版", "本版", "治理",
-                    "change log", "cover letter", "盲评"]
+                    "change log", "cover letter", "盲评",
+                    # P5.9 扩充：过程语言与自我指令式标签
+                    "须写明", "不夸大", "删循环论证", "表述升级", "排查",
+                    "本批之前", "自本批起", "此处更正", "口径更正说明", "修订史"]
     rhits = [(w, i + 1) for i, l in enumerate(scan_lines) for w in reader_words if w in l]
     res.append(("G-reader-terms", not rhits,
                 f"命中 = {rhits[:5] if rhits else '无'}（词表 {len(reader_words)} 项；附录 B 登记表已排除）"))
