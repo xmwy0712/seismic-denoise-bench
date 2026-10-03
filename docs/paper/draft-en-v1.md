@@ -412,3 +412,66 @@ One further note on the adjustment: the **Holm family** is the two comparisons {
 ![Figure 7 Per-observation ΔSNR distributions for fusion, single methods and the oracle](figures/fig7_fusion_vs_single_oracle.png)
 **Figure 7** Per-observation ΔSNR distributions (box plots). In order: the five fixed single methods, the primary fusion, the robustness comparator fusion and the per-observation oracle. The vertical axis is ΔSNR (dB); the box is the interquartile range, the horizontal line the median, and the whiskers the extremes within 1.5 times the interquartile range.
 
+### 4.4 Field data: an exploratory external stress test
+
+This section uses the field data as an **exploratory external stress test**: what it examines is whether a **single static pairing holds across survey areas**, not whether any method is validated. Only the four raw indicators are reported below (amplitude deviation, spectral residual, continuity gain, leakage proxy), and no composite score is reported: the normalisation caliber of the existing composite is not documented and its values could not be reproduced on recomputation, so they are not quoted.
+
+On the two computable panels, the three pairings (the pre-registered primary pair, the pre-registered robustness comparator, and the highest-gain pairing of the 10) **order inconsistently** on the four raw indicators: on FP1 the post hoc best pairing preserves amplitude clearly better ($+2.0835$ dB, against $-4.5336$ dB for the primary pair and $-10.3386$ dB for the comparator) but has a clearly worse spectral residual ($0.71220$ against about $0.20$); on FP2 the order reverses. **Conclusion: real formation heterogeneity confirms that a single static pairing does not generalise across survey areas.**
+
+FP3 is not computable, and its caliber is stated in one place as follows. The event windows are determined by the frozen threshold coefficient 3.0 (a multiple of the robust median absolute deviation), and under that threshold FP3 yields **0** event windows; the pre-declared fallback ladder would lower the threshold to 2.5, but the 3 event windows selected at that level **were not recorded into the frozen artifact** and are therefore not reproducible. FP3 is consequently recorded throughout as **not computable**: this is the outcome of **holding the pre-registered frozen threshold and refusing to relax it after the fact to backfill values**, not a gap in the data — and the panel therefore constitutes a **genuine boundary record**. Indicators that depend on event windows are likewise recorded as not computable on FP3 and do not enter the composite score.
+
+**Composite caliber (this paper does not quote its values).** The existing composite is a **partial score**: it counts only amplitude preservation (weight 0.4000) and spectral residual (0.3333), with the weights renormalised after removal; its values are sums of standardised relative positions **within the candidate set**, and because both numerator and denominator vary with the candidate set it is **not comparable across studies**; its normalisation caliber is not documented, and four recomputations **failed to reproduce** its values. This paper therefore **does not quote its values**, and the field conclusions rest only on the raw indicators in the table below.
+
+**The three pairings side by side (post hoc extension, no single conclusion pre-imposed).** To test whether the post hoc best pairing of the 10 is also better in the field, the four raw indicators were computed side by side for three pairings on the three panels: the pre-registered primary pair, the pre-registered robustness comparator, and the highest-gain pairing of the 10 (F-K filtering × F-X deconvolution). **No partial composite score is computed here** — the normalisation caliber of the existing composite is not documented, so no extrapolation is made; the table lists raw indicators only, for the reader to judge.
+
+**Table 11** Raw indicators of the three pairings on the field panels ($\gamma = 0.5$)
+
+| Panel | Pairing | Amplitude deviation (dB) | Spectral residual | Continuity gain | Leakage proxy LP |
+| :--- | :--- | ---: | ---: | ---: | ---: |
+| FP1 | primary pair (F-X deconvolution × wavelet thresholding) | −4.5336 | **0.19939** | 1.2099 | 0.6974 |
+| FP1 | robustness comparator (F-X deconvolution × low rank) | −10.3386 | 0.22491 | 1.2268 | 0.6584 |
+| FP1 | post hoc best (F-K filtering × F-X deconvolution) | **+2.0835** | 0.71220 | **2.0143** | **0.2992** |
+| FP2 | primary pair (F-X deconvolution × wavelet thresholding) | **−4.4461** | 0.11600 | 1.4830 | 0.3963 |
+| FP2 | robustness comparator (F-X deconvolution × low rank) | −4.9149 | **0.11585** | 1.4716 | 0.4044 |
+| FP2 | post hoc best (F-K filtering × F-X deconvolution) | −6.0569 | 0.44160 | **2.5260** | **0.2013** |
+| FP3 | primary pair (F-X deconvolution × wavelet thresholding) | −3.5899 | 0.13804 | not applicable | not applicable |
+| FP3 | robustness comparator (F-X deconvolution × low rank) | −5.3283 | 0.13587 | not applicable | not applicable |
+| FP3 | post hoc best (F-K filtering × F-X deconvolution) | −5.4667 | 0.47916 | not applicable | not applicable |
+
+> Amplitude deviation is better the closer to 0; the spectral residual, continuity gain and leakage proxy are dimensionless. This table is at $\gamma = 0.5$; the differences between the three $\gamma$ levels are small (see supplementary material). The same-batch values for the member single methods are also in the supplementary material.
+
+**Reading (side by side, no single conclusion)**: across the two panels the order does not agree. **On FP1**, the post hoc best pairing **preserves amplitude clearly better** ($+2.0835$ dB, against $-4.5336$ dB for the primary pair and $-10.3386$ dB for the comparator) and is also better on continuity gain and leakage proxy, but its **spectral residual is clearly worse** ($0.71220$ against about $0.20$). **On FP2 the order reverses**: the post hoc best pairing preserves amplitude worst ($-6.0569$ dB) yet is best on continuity gain and leakage proxy ($2.5260$ and $0.2013$), while its spectral residual is still the worst.
+
+The **field evidence therefore does not support a simple conclusion**: the post hoc best pairing is not better on every panel and every indicator. The disagreement between the two panels may be related to differences in noise composition (FP1 and FP2 come from different survey areas, with 1 and 3 event windows respectively), but with only two computable panels the sample is too small to determine the cause. All the values above are post hoc extensions, labelled **exploratory**.
+
+FP3 has no event windows, so its continuity gain and leakage proxy are not computable and only the amplitude deviation and spectral residual are readable; for the three pairings on FP3 both the amplitude deviation and the spectral residual are worse than one of their members, consistent with the mixed picture on the two computable panels.
+
+### 4.5 Replication on new seeds (post hoc exploratory)
+
+The division of labour in Section 4.1 suggests a repair path: choose the method by noise type. That path comes from observing the existing 270 observations and is therefore a **post hoc hypothesis**; to test whether it is merely an in-sample fit, this paper performed a **replication on new seeds** under a **pre-registered** protocol: the rule and the criteria were written down before the run, and the **same 54-configuration grid** was then rerun on **seeds never used before** (901–905), giving 54 configurations × 5 seeds × 5 methods = 1350 cells with zero failures. Its **evidential grade** must be stated: this is a **replication on the same grid with different seeds**, **not a generalisation across configurations**; and the grade of this validation is limited, since the temporal evidence of a validation-type pre-registration is a file timestamp, weaker than committing and tagging the pre-registration before the run.
+
+**Criteria (frozen before the validation)**: on the new seeds the method chosen by the rule must still have the highest within-group median for that noise type (criterion one), and its median must be at least 0.5 times the original value (criterion two); both must hold for a pass.
+
+**Table 12** Replication results on new seeds (n = 90 per group, dB)
+
+| Noise type | Rule method | In-sample median | New-seed median | **Hit rate (old → new)** | **75th percentile (old → new)** | New-seed within-group rank | Magnitude ratio (new/old) | Pass |
+| :--- | :--- | ---: | ---: | :--- | :--- | ---: | ---: | :--- |
+| N1 band-limited random | F-X deconvolution | 5.5231 | 5.5730 | 82.2% → 82.2% | 6.33 → 6.29 | **1** | 1.009 | ✅ |
+| N2 linear coherent | low rank | 4.4591 | 2.0195 | **87.8% → 63.3%** | **19.76 → 4.59** | **1** | 0.453 | ❌ (magnitude) |
+| N3 dispersive surface wave | F-K filtering | 12.4354 | 12.1630 | 97.8% → 98.9% | 13.56 → 13.29 | **1** | 0.978 | ✅ |
+
+> One further checkable observation: in the N2 layer the observations with a ΔSNR above 30 dB number 8 on the original seeds and 4 on the new seeds, that is 8.9% and 4.4% of the layer, and all of them fall in the $\mathrm{M1}$ model at the L2 level; the magnitude varies with the level (the maxima for that model's three levels are 23.14, 34.63 and 28.90 dB in turn) and is not a constant shared by the whole layer.
+
+> "Hit rate" is the share of observations, within that noise type, on which the method chosen by the rule is exactly the per-observation best single method; the "75th percentile" is the third quartile of the rule's chosen method's ΔSNR within that type; the 90th percentile for N2 is **28.90 dB** (original seeds) and **21.75 dB** (new seeds). **The N2 hit rate falls from 87.8% to 63.3%, the only substantial degradation among the three types.** Across the whole library the hit rate falls from 89.3% to 81.5%, and the mean shortfall against the per-observation oracle rises from 0.27 dB to 0.28 dB.
+
+**Results and interpretation.** The **direction** of the rule replicates fully out of sample: for all three noise types the method chosen by the rule **remains first within its group** on the new seeds, showing that the division of labour — which noise type calls for which method — is repeatable. But **the magnitude depends strongly on the seed**: in the linear coherent type the low-rank median drops from 4.4591 dB to 2.0195 dB (45.3% of the original), breaking criterion two; and the median within-configuration seed range rises from **9.41 dB to 13.52 dB** (the corresponding values for the other two types are only 1.53 and 1.43 dB, so the sensitivity is concentrated in the N2 layer). Under the pre-registered criteria two of the three types pass, and the rule overall is recorded as **substantially but not fully supported out of sample**.
+
+The correct reading of this result is: **the direction of the repair is credible, the magnitude of the repair is not**. This paper therefore offers it as an **exploratory** suggestion and states its limits explicitly: n = 90 per group, only 5 new seeds, configurations not mutually independent; and unless the seed sensitivity of the magnitude in the linear coherent type is resolved, the benefit of packaging selection by noise type as a product will fall short of the in-sample estimate.
+
+Figure 8 presents the median gains of the two seed sets side by side.
+
+![Figure 8 In-sample and out-of-sample median gains](figures/fig8_out_of_sample_validation.png)
+**Figure 8** In-sample and out-of-sample median gains of the rule's chosen methods (paired bars). The horizontal axis is the noise type; the vertical axis is the median ΔSNR (dB); each group has 90 observations; for the linear coherent type the new-seed median falls to 0.453 times the original, below the 0.5-times line of the pre-registered criterion.
+
+---
+
