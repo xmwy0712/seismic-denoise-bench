@@ -63,3 +63,32 @@ Section 2 describes the synthetic data generation and the source of the field da
 
 ---
 
+## 2 Study area and data
+
+### 2.1 Synthetic data
+
+The synthetic data are driven by two velocity models: a horizontally layered model, and a model containing dipping, curved and faulted structure. The noise settings comprise three types: band-limited random noise, linear coherent interference, and dispersive surface waves. The parameter grid is 2 models × 3 noise types × 3 intensity levels × 3 main frequencies, with 5 independent random seeds per combination, giving 54 configurations and 270 observations. Noise intensity is reported externally in terms of the **measured input signal-to-noise ratio**; the amplitude ratio is used only to generate the realization. The values and the selection rationale for each dimension are given in the table below.
+
+**Table 1** Model, noise and level definitions for the synthetic configurations
+
+| Dimension | Values | Selection and notes |
+| :--- | :--- | :--- |
+| Velocity model | M1 horizontally layered; M2 with dipping, curved and faulted structure | Covers the two principal cases, layered and structural |
+| Noise type | N1 band-limited random; N2 linear coherent interference; N3 dispersive surface wave | N2 is coherent interference with a controllable apparent velocity, introducing a predictable linear event across traces |
+| Intensity level | L1 / L2 / L3 | N1 and N3 are generated at amplitude ratios 0.30 / 0.60 / 1.00, corresponding to measured input signal-to-noise ratios of 10.46 / 4.44 / 0.00 dB; N2 does not take an amplitude ratio, and its level is carried by the apparent-velocity slot, at 800 / 1500 / 3000 m/s |
+| Main frequency | 15 / 25 / 40 Hz | Covers the low to mid frequency band |
+| Random seeds | 5 independent seeds per combination | Separates between-observation variation from between-configuration differences |
+
+### 2.2 Field data
+
+The field data are taken from the public seismic surveys of the onshore–offshore freshwater systems of Martha's Vineyard and Nantucket, under a CC BY 4.0 licence; the citation is:
+
+> Dugan, B. (2023). *Seismic and Hydrostratigraphic Characterization of the Onshore-Offshore Freshwater Systems of Martha's Vineyard and Nantucket, Massachusetts, USA: Field Survey Report* [Data set]. Zenodo. https://doi.org/10.5281/zenodo.10407771
+
+Three frozen panels from this dataset are used: FP1 (Nantucket survey area), and FP2 and FP3 (Martha's Vineyard survey area), covering two survey areas (Figure 1). The panels were chosen by ranking against a set of criteria frozen in advance, not on the basis of any denoising result. Under the **frozen threshold**, FP3 yields no event windows: this study **holds that threshold and does not relax it after the fact to backfill values**, and the way this boundary is recorded is described in Section 4.4.
+
+![Figure 1 Preview of the three raw field panels](figures/fig1_field_panels.png)
+**Figure 1** Preview of the three raw field panels. (a) FP1 (Nantucket survey area); (b) FP2 (Martha's Vineyard survey area); (c) FP3 (Martha's Vineyard survey area). The horizontal axis is trace number (dimensionless); the vertical axis is two-way travel time (ms); the colour scale is amplitude (dimensionless).
+
+---
+
