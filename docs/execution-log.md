@@ -5949,3 +5949,28 @@ DOI 已回填 **中英两稿**（新增 `draft-v14` / `draft-en-v2`）的 Data A
 | :--- | ---: | :--- |
 | `docs/paper/draft-v15.md` | 70623 | `C6B19AC8E4EC3FD7A2DAE6DBD4F3A9544CF13DE6BCC56735BDC95D640331F0C5` |
 | `docs/paper/format-compliance-v15.md` | 2463 | `539890A4C19C04FF0516F5425432B3B1D03F806878DC27B17BDA6B5E77608757` |
+
+### P5.11-S3 续（步骤 2、5、6、7 续）
+
+用户补回方案原文的**逐字替换表**与**文字草稿**后执行。
+
+* **步骤 5**：标题更名（中：地震去噪方法配对中互补性度量的失效：一项预注册负结果案例研究；英：A Pre-Registered
+  Negative-Result Case Study on Complementarity-Based Pairing of Seismic Denoising Methods）；
+  摘要按草稿整段替换；新增 Highlights 四条目。
+* **步骤 2**：逐条清理指向性表述（「假设未被支持」→「规则未能选出有益配对，互补性本身未被证伪」；
+  「首个」删除；「机制冗余与虚假复杂性」→「在本数据上相对等权平均无可测贡献（表 9）」；
+  「跨工区普适性」→「排序不一致，与缺乏跨面板稳定性相容，样本量不足以下结论」；
+  「修复路径」→「探索性建议」；决策边界句改为指向第 5.4 节）；「基准」→「评估协议」。
+* **步骤 5（文献）**：补入 3 篇**已核验**文献与相关工作段。**Krogh & Vedelsby 1995 按用户决定删除**（Crossref 无 DOI）。
+* **步骤 6**：v15 → v16 数字差集**丢失 = 无**；新增项均为新文献的卷期页与 DOI。
+* **步骤 7**：附录 B 追加 v15 → v16 登记。
+
+**门禁拦截 4 次**（`G-block-count` / `G-no-meta` / `G-tab-order` / 自查重词「协议协议」），
+**全部在提交前拦下并修正**，终态 **17 项 PASS（exit 0）**。
+
+### 交付物
+
+| 文件 | 字节 | SHA256 |
+| :--- | ---: | :--- |
+| `docs/paper/draft-v16.md` | 70270 | `D5616EB65EB3FF96DD856ABB0F4654EE3C0A5413EEBA06229008F80F996001AE` |
+| `docs/paper/format-compliance-v16.md` | 2788 | `7745A3B4A86149D8A3FA7636B958DFAA920A6E6B92AF429D6223821189AF9F0D` |
