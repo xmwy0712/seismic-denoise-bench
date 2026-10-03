@@ -475,3 +475,45 @@ Figure 8 presents the median gains of the two seed sets side by side.
 
 ---
 
+## 5 Discussion
+
+### 5.1 What the measure disagreement means
+
+Error orthogonality and the local complementarity measure give inconsistent pairing preferences on the same data. This paper **does not reduce that disagreement to one measure failing**; instead it gives a **mechanistic** account of why the local complementarity measure selects the primary pair, and why that choice points opposite to the fusion gain.
+
+**First, zero inflation.** The local complementarity measure is defined as the share of windows whose fidelity difference exceeds 1.5 times the interquartile range of that pair. Of the 10 pairings, 8 have a global median of 0.000, a pronounced zero inflation.
+
+**The two thresholds are not the same quantity.** The threshold used at pair selection is a constant pooled **across all noise types** (for the primary pair $\tau = 0.0394653$, the smallest of the 10); whereas $0.217503$ is the threshold computed **within the band-limited random (N1) layer alone** (the within-layer interquartile range is $0.1450$ and the pooled one $0.0263$, and multiplying each by 1.5 gives the two values). The two differ by about a factor of 5.5 and **must not be conflated**.
+
+**Second, why the bottom pairing was selected.** Both members of the primary pair (F-X deconvolution × wavelet thresholding) are strong on band-limited random noise (first and third in Table 5 of Section 4.1) and neither is strong on dispersive surface waves or linear coherent interference. There is no source of complementarity in the other two types, which is why this pairing comes last of the 10 on fusion gain.
+
+**A direct test of the threshold caliber (run after pre-registration; post hoc caliber).** The pooled-threshold artifact above can be tested directly: change $\tau_{ij}$ from cross-type pooling to pooling **within each noise type**, leave everything else unchanged, and re-select the pairing by **the original rule**. The test was pre-registered, committed and tagged (`complementarity-stratified-prereg`) before it was run, and it **declared in advance that both directions would be accepted**; a self-check required the pooled mode to reproduce the existing 720 values (tol $10^{-12}$), which it did.
+
+**Result: the primary pair chosen under the pooled caliber does not survive.** Under the within-stratum caliber, the global M2 median of the primary pair $\mathrm{fx\_deconv} \times \mathrm{wavelet\_threshold}$ falls from **0.500000 to 0.000000**, and the top place goes to **$\mathrm{fx\_deconv} \times \mathrm{svd\_lowrank}$ (0.111111)**. In other words, the primary pair **scores zero** under the within-stratum caliber.
+
+**The result should be read as an unresolved caliber dependency, not as the within-stratum caliber being the correct answer.** Both calibers are post hoc choices: the pooled caliber selects the primary pair, the within-stratum caliber selects the **pre-registered robustness comparator**; the two are **reported together**, and this paper does not designate either as the correct caliber. What can be established is that **the primary pair's high score depends on the construction of cross-type pooling**.
+
+**Consequences downstream.** The test reran only the complementarity step and did not rerun the fusion. The downstream fusion and the main conclusions of Sections 4.3–4.5 **still rest on the original primary pair**, and a change of caliber would cascade into pair selection itself — **that cascade is unresolved**. The fusion result of the comparator pairing ($\mathrm{fx\_deconv} \times \mathrm{svd\_lowrank}$) is already available from the existing 10-pairing extension (8100 cells), with a ΔSNR median of **2.5295 dB**, higher than the primary pair's 0.0588 dB, but this paper **does not re-designate the primary pair on that basis** — a post hoc re-designation carries no pre-registered evidential force.
+
+The test is a post hoc caliber, with a sample of 10 pairings that are not mutually independent, and **does not constitute a causal conclusion**.
+
+### 5.2 Why the fusion did not benefit
+
+**The primary fusion** does not benefit in this setting. Three explanations **consistent with the existing evidence** are given below (all at the mechanistic level; no discriminative experiment was designed, so they are not causal conclusions): the division of labour across noise types, the measure artifacts, and the mechanism running idle. The conclusions of this section apply to **the primary fusion** only; the robustness comparator and the other pairings in the 10-pairing extension behave differently (Table 7 of Section 4.3).
+
+**First, the division of labour.** The methods' strengths divide by noise type (Table 5 of Section 4.1): F-K filtering dominates dispersive surface waves (12.4354 dB), low rank dominates linear coherent interference (4.4591 dB), and F-X deconvolution dominates band-limited random noise (5.5231 dB). Whether a fixed-pairing fusion benefits therefore depends on whether its two members can cover for each other on **the noise type the other is weak at**. The two members of the primary pair overlap most on band-limited random noise and both do poorly on the other two types, so there is no source of complementarity; the pre-registered robustness comparator (F-X deconvolution × low rank) covers both band-limited random and linear coherent, and is accordingly much better. The same division explains why the 7 pairings of the 10 that exceed the best fixed single method **are exactly those containing F-K filtering or low rank** (Section 4.3).
+
+**Second, the measure artifacts.** The selection of the primary pair is caused by the two artifacts of the local complementarity measure (Section 5.1): zero inflation and the pooled-threshold construction. Together they give the highest score to a pairing whose gain is at the bottom; and the stratified-threshold test further shows that the caliber dependency of that selection is unresolved.
+
+**Third, a dissection of the mechanism: redundancy and spurious complexity.** The three $\gamma$ levels give results identical to four decimal places. The apparent-velocity sub-score $d$ is normalised by a lower bound of 100.0 m/s, whereas the actual apparent velocities are far above that, so $d$ is identically zero; the bandwidth sub-score $b$ is determined jointly by the two methods' bandwidths, which are approximately equal on this data; and the amplitude sub-score $a$ is symmetric by definition. Summed, the three make the two methods' discriminative scores approximately equal, $s_{i} \approx s_{j}$, so the suppression factor $1 - \gamma s$ approximately cancels in the per-coefficient normalisation. **The ablation confirms this further**: replacing the weighting and suppression machinery wholesale with equal averaging changes the 10-pairing ΔSNR median by no more than **0.0252 dB** (Table 9 of Section 4.3). The $\gamma$ therefore does not constitute an effective hedge against the "over-smoothing" failure mode: **the fusion's gain comes entirely from arithmetic averaging, while the adaptive weighting carries no measurable information on this data**, which makes it mechanism redundancy and spurious complexity rather than an ineffective implementation detail.
+
+It should be noted that the weight ratio is determined by the **square** in equation (8) ($w = C^{2}$); the normalisation only scales their sum to 1 and does not itself change the ratio.
+
+### 5.3 Applicable boundary
+
+The conclusions of this paper about fusion hold only under this paper's data (54 synthetic configurations, 270 observations and three frozen field panels), this pairing (selected by the pre-registered rule of the local complementarity measure) and this rule (the fusion weighting and suppression rule, including the three $\gamma$ levels). The positive result of the robustness comparator is subject to the same boundary.
+
+Changing the pairing or the fusion rule after the results are visible is a post hoc choice and carries no pre-registered evidential force.
+
+---
+
