@@ -34,10 +34,13 @@ META_WORDS = ["如实", "不得择优", "签发", "裁定", "不可下放", "并
               "主次关系", "用户", "盲评", "本单", "任务单", "归档件", "并列报告", "本阶段"]
 
 
+LABELS = {"图": r"(?:图|Figure|Fig\.?)", "表": r"(?:表|Table)"}
+
+
 def first_mention_order(text: str, kind: str) -> list[int]:
-    """按**首次出现**位置返回编号次序（kind ∈ {'图','表'}）。"""
+    """按**首次出现**位置返回编号次序（kind ∈ {'图','表'}；中英标签均识别）。"""
     seen, order = set(), []
-    for m in re.finditer(rf"{kind} (\d+)", text):
+    for m in re.finditer(rf"{LABELS[kind]} (\d+)", text):
         n = int(m.group(1))
         if n not in seen:
             seen.add(n)
@@ -47,7 +50,7 @@ def first_mention_order(text: str, kind: str) -> list[int]:
 
 def check(doc: Path) -> tuple[list[tuple[str, bool, str]], bool]:
     t = doc.read_text(encoding="utf-8")
-    body = t.split("## 附录 B")[0]
+    body = re.split(r"## (?:附录 B|Appendix B)", t)[0]
     res: list[tuple[str, bool, str]] = []
 
     # ── G-fig-order：图号顺序 == 首提顺序
@@ -61,12 +64,12 @@ def check(doc: Path) -> tuple[list[tuple[str, bool, str]], bool]:
                 f"首提顺序 = {to}；应 = 1..{len(to)}"))
 
     # ── G-embed-order：嵌入行顺序递增
-    eseq = [int(m.group(1)) for m in re.finditer(r"!\[图 (\d)", t)]
+    eseq = [int(m.group(1)) for m in re.finditer(r"!\[(?:图|Figure|Fig\.?) (\d)", t)]
     res.append(("G-embed-order", eseq == list(range(1, len(eseq) + 1)),
                 f"嵌入顺序 = {eseq}"))
 
     # ── G-caption-order：题注顺序递增
-    cseq = [int(m.group(1)) for m in re.finditer(r"\*\*图 (\d)\*\*", t)]
+    cseq = [int(m.group(1)) for m in re.finditer(r"\*\*(?:图|Figure|Fig\.?) (\d)\*\*", t)]
     res.append(("G-caption-order", cseq == list(range(1, len(cseq) + 1)),
                 f"题注顺序 = {cseq}"))
 
@@ -74,12 +77,12 @@ def check(doc: Path) -> tuple[list[tuple[str, bool, str]], bool]:
     lines = t.split("\n")
     pair_bad = []
     for i, ln in enumerate(lines):
-        m = re.match(r"!\[图 (\d)", ln)
+        m = re.match(r"!\[(?:图|Figure|Fig\.?) (\d)", ln)
         if not m:
             continue
         nxt = next((lines[j] for j in range(i + 1, min(i + 3, len(lines)))
-                    if lines[j].startswith("**图")), "")
-        m2 = re.match(r"\*\*图 (\d)\*\*", nxt)
+                    if re.match(r"\*\*(?:图|Figure|Fig\.?) ", lines[j])), "")
+        m2 = re.match(r"\*\*(?:图|Figure|Fig\.?) (\d)\*\*", nxt)
         if not m2 or m2.group(1) != m.group(1):
             pair_bad.append(i + 1)
     res.append(("G-embed-caption-pair", not pair_bad,
@@ -91,7 +94,7 @@ def check(doc: Path) -> tuple[list[tuple[str, bool, str]], bool]:
     res.append(("G-embed-exists", not miss, f"缺失 = {miss if miss else '无'}（共 {len(paths)} 条）"))
 
     # ── G-appendix-figmap：附录图目录编号与文件名一致
-    tabel = re.findall(r"^\|\s*图 (\d+)\s*\|\s*`([^`]+)`", t, re.M)
+    tabel = re.findall(r"^\|\s*(?:图|Figure)\s*(\d+)\s*\|\s*`([^`]+)`", t, re.M)
     map_bad = []
     for n, fn in tabel:
         m = re.match(r"fig(\d+)_", fn)
