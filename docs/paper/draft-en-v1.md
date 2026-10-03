@@ -246,3 +246,73 @@ The **asymmetry** of this test should be noted: what passes is the **cross-panel
 
 ---
 
+## 4 Results
+
+### 4.1 Synthetic benchmark
+
+Table 4 gives the median signal-to-noise ratio gain and leakage metric for the five methods over 270 observations. F-K filtering and the low-rank method are close on the gain, at 0.9320 dB and 0.9482 dB respectively; F-X deconvolution has a median gain of 0.0000 dB yet a leakage metric of 0.029151, an intermediate level; wavelet thresholding and the decomposition method have gains of 0.0422 dB and 0.2101 dB. The lowest leakage is F-K filtering (0.009706) and the highest is the decomposition method (0.045928).
+
+**Table 4** Macro-average medians of the five methods over 270 observations
+
+| Method | ΔSNR (dB) | Lsig (dimensionless) |
+| :--- | ---: | ---: |
+| F-K filtering | 0.9320 | 0.009706 |
+| F-X deconvolution | 0.0000 | 0.029151 |
+| Wavelet thresholding | 0.0422 | 0.015129 |
+| Decomposition (multichannel SSA) | 0.2101 | 0.045928 |
+| Low rank | 0.9482 | 0.011218 |
+
+**Division of labour by noise type.** The table above is a mixed median over all 270 observations and conceals a key difference between the methods: they are good at different noise types. Grouped by noise type (n = 90 per group), the highest within-group medians are F-X deconvolution on band-limited random noise (5.5231 dB), low rank on linear coherent interference (4.4591 dB), and F-K filtering on dispersive surface waves (12.4354 dB).
+
+**Table 5** Median signal-to-noise ratio gain by noise type (dB, n = 90 per group)
+
+| Noise type | F-K filtering | F-X deconvolution | Wavelet thresholding | Decomposition | Low rank | **Within-group best** |
+| :--- | ---: | ---: | ---: | ---: | ---: | :--- |
+| N1 band-limited random | 0.8528 | **5.5231** | 2.4351 | 3.3458 | 0.8715 | **F-X deconvolution** |
+| N2 linear coherent | −0.1709 | −0.1028 | −0.0000 | 0.3020 | **4.4591** | **low rank** |
+| N3 dispersive surface wave | **12.4354** | −0.0393 | 0.0422 | −0.0323 | 0.7927 | **F-K filtering** |
+
+**Dilution in the mixed median.** The same methods over all 270 observations give medians of 0.9482 dB (low rank), 0.9320 dB (F-K filtering), 0.2101 dB (decomposition), 0.0422 dB (wavelet thresholding) and 0.0000 dB (F-X deconvolution). F-X deconvolution reaches 5.5231 dB on band-limited random noise yet falls to 0.0000 dB in the mixed caliber — not because the method is ineffective, but because **mixing across noise types flattens its median with the types it is not good at**. The same holds for F-K filtering, which reaches 12.4354 dB on dispersive surface waves and only 0.9320 dB when mixed. This dilution effect is a prerequisite for reading the pairing results that follow.
+
+Figure 2 shows the same data as a grouped bar chart of within-group comparisons by noise type.
+
+![Figure 2 Median signal-to-noise ratio gain by noise type](figures/fig2_noise_specialization.png)
+**Figure 2** Median signal-to-noise ratio gain by noise type (grouped bars). The horizontal axis is the noise type; the vertical axis is the median ΔSNR (dB); each group has 90 observations; the value at the top of each bar is that of the best method in the group (dB).
+
+Figure 3 shows the medians and bootstrap 95% confidence intervals of the methods under the mixed caliber, where the differences between methods are far smaller in magnitude than the variation between observations.
+
+![Figure 3 Median ΔSNR and 95% confidence intervals](figures/fig3_method_delta_snr_ci.png)
+**Figure 3** Median ΔSNR with bootstrap 95% confidence intervals for the five methods over 270 observations. The horizontal axis is the method; the vertical axis is ΔSNR (dB); the error bars are the 95% confidence intervals; the annotated values are the medians (dB).
+
+### 4.2 Complementarity
+
+The complementarity measures produce 540 records across 10 method pairings, 3 measures and 18 stratum keys. Under the pre-registered rule, the pairing with the highest global median of the local complementarity measure is the primary pair, with a value of 0.500000 and no tie; the runner-up has a value of 0.200000.
+
+There is one disagreement between the three measures that needs to be stated explicitly. The local complementarity measure has a global median of 0.000 for 8 of the 10 pairings, a pronounced zero inflation; meanwhile the primary pair it selects has an error orthogonality of 0.093807, the lowest of all 10 pairings, corresponding to a normalized inner product of about 0.906 — that is, the two methods' errors are nearly collinear. The runner-up pairing of the local complementarity measure has an error orthogonality of 0.575710, clearly higher. Error orthogonality and the local complementarity measure therefore point to different pairings.
+
+Under the pre-registered rule, pair selection is bound to the local complementarity measure and is not changed. The disagreement itself is retained as a **finding at the level of the measure framework**: it shows that the two measures do not characterise complementarity equivalently, and that the difference has observable consequences in the fusion results (see Section 4.3).
+
+**Predictive power of the measures (post hoc, exploratory; n = 10, pairings not independent).** Extending the fusion runs to all 10 pairings makes it possible to test the rank correlation of each measure with the fusion gain. **M1 is positive**: error orthogonality correlates positively with the fusion gain under 4 of the 5 gain definitions, that is, it predicts a **degree of recovery toward the oracle**; **M1 does not predict beating the stronger member**: when the gain is defined as the difference between the fusion and the stronger of its two members, the correlation turns negative, which indicates that high orthogonality often means one member is already strong enough on its own; **M2 has no positive predictive power**: the local complementarity measure is negative under four of the five gain definitions and only $+0.0432$ (a **magnitude near zero**) under the relative-to-stronger-member definition, so the accurate statement is that it has **no positive predictive power under any of the five calibers (one near zero, four negative)**.
+
+**Gain definitions and calibers side by side (both calibers listed; neither merged nor preferred).** Rank correlation is sensitive to the gain definition, so both calibers are listed below:
+
+**Table 6** Rank correlation between the global measure values and the fusion gain (n = 10, post hoc exploratory)
+
+| Gain definition | Caliber | M1 | M1 (signed) | M2 | M3 |
+| :--- | :--- | ---: | ---: | ---: | ---: |
+| Definition A (used initially) | median of the fusion's own ΔSNR | +0.8303 | +0.8303 | −0.3114 | +0.6242 |
+| Definition B | median difference of the fusion relative to the best fixed single method | +0.4909 | +0.4909 | −0.5449 | +0.5030 |
+| Definition C | median difference of the fusion relative to the stronger of its two members | −0.7091 | −0.7091 | +0.0432 | −0.3455 |
+| Definition D (independent recomputation) | median difference of the fusion relative to the per-observation oracle | +0.6727 | +0.6727 | −0.0779 | +0.5030 |
+| Definition E | mean of the fusion's own ΔSNR | +0.7939 | +0.7939 | −0.1384 | +0.4545 |
+
+> Note: the rank correlations above uniformly use average ranks for ties. Definitions A and D differ both in the gain caliber and in the handling of ranks, and both calibers were checked against an independent recomputation. **The magnitude changes markedly with the definition while the direction is broadly stable**: M1 is positive under four of the five definitions and turns negative under the relative-to-stronger-member one; M2 is negative under four of the five and $+0.0432$ (a **magnitude near zero**) under the relative-to-stronger-member one. The accurate statement is therefore that M2 has no positive predictive power under any of the five calibers (one near zero, four negative), not that it is uniformly negative. This is direct evidence that with n = 10 and non-independent pairings the numbers should not be over-interpreted. All values are labelled post hoc and exploratory and do not enter the main conclusions.
+
+The values of the local complementarity measure are highly uneven across strata. For the primary pair, for instance, the strata with a value of **0.0000 are $\mathrm{model}=\mathrm{M1}$ (n = 135), $\mathrm{noise}=\mathrm{N3}$ (n = 90), and $\mathrm{M1\_N2}$ and $\mathrm{M1\_N3}$ (n = 45 each)**; the $\mathrm{model}=\mathrm{M2}$ stratum is **0.631579** (non-zero), and the horizontal-layered-model × band-limited-random-noise stratum is 1.0000. The global value is a median over 270 observations and the stratum values are medians over subsets, so the global median must lie between the medians of the two model strata (0 and 0.631579). The stratum sample sizes range from 45 to 135 — small-sample fractions whose evidential strength depends on the model and the noise type and cannot be extrapolated across strata. Figure 4 gives the stratum heat map of the local complementarity measure and Figure 5 the global matrices of the two measures.
+
+![Figure 4 Stratum heat map of local complementarity](figures/fig4_complementarity_heatmap.png)
+**Figure 4** Stratum heat map of the local complementarity measure for method pairings. The horizontal axis is the stratum key; the vertical axis is the method pairing; the colour scale is the local complementarity value (dimensionless, range 0–1).
+
+![Figure 5 Global matrices of the two complementarity measures](figures/fig5_m1_m2_matrices.png)
+**Figure 5** Global matrices of the two complementarity measures (medians over 270 observations). Left: error orthogonality; right: local complementarity. The colour scale runs 0–1 (dimensionless).
+
