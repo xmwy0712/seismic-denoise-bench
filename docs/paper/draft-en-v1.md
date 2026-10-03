@@ -316,3 +316,99 @@ The values of the local complementarity measure are highly uneven across strata.
 ![Figure 5 Global matrices of the two complementarity measures](figures/fig5_m1_m2_matrices.png)
 **Figure 5** Global matrices of the two complementarity measures (medians over 270 observations). Left: error orthogonality; right: local complementarity. The colour scale runs 0–1 (dimensionless).
 
+### 4.3 Fusion and where it sits relative to the oracle
+
+The fusion results in this section come from two batches of runs: the two pre-registered pairings, giving 1620 grid cells (270 observations × 3 levels of $\gamma$ × 2 pairings); and, to test the generality of the measures, an extension of the fusion to all 10 pairings (8100 grid cells) plus two ablations (5400 grid cells), for a total of **13500 grid cells with zero failures**. The extended part is labelled post hoc and exploratory. The three $\gamma$ levels give results for the primary pair that agree to four decimal places, showing that this parameter produces no measurable difference on this data structure; the mechanism is discussed in Section 5.2.
+
+**Pairing list and rule transparency.** Five methods combined two at a time give 10 pairings, all listed below with no selective presentation. The primary pair and the robustness comparator are fixed by the pre-registered rule of Section 3.3, before the three $\gamma$ levels.
+
+**Table 7** The 10 method pairings, their complementarity measures and their pre-registered roles
+
+| # | Pairing | Local complementarity (global median) | Error orthogonality (global median) | Fusion ΔSNR median (dB) | Pre-registered role |
+| ---: | :--- | ---: | ---: | ---: | :--- |
+| 1 | F-K filtering × F-X deconvolution | 0.000000 | 0.741185 | 4.1515 | — |
+| 2 | F-K filtering × wavelet thresholding | 0.000000 | 0.194905 | 1.9431 | — |
+| 3 | F-K filtering × decomposition | 0.000000 | 0.575360 | 2.7600 | — |
+| 4 | F-K filtering × low rank | 0.000000 | 0.576086 | 3.2659 | — |
+| 5 | F-X deconvolution × wavelet thresholding | 0.500000 | 0.093807 | 0.0588 | **primary pair (pre-registered)** |
+| 6 | F-X deconvolution × decomposition | 0.000000 | 0.423203 | 0.4240 | — |
+| 7 | F-X deconvolution × low rank | 0.200000 | 0.575710 | 2.5295 | **robustness comparator (pre-registered)** |
+| 8 | Wavelet thresholding × decomposition | 0.000000 | 0.268651 | 0.5095 | — |
+| 9 | Wavelet thresholding × low rank | 0.000000 | 0.157471 | 1.8038 | — |
+| 10 | Decomposition × low rank | 0.000000 | 0.406879 | 2.0455 | — |
+
+> Note: the first four columns are global medians of the pre-registered measures; the **last column** comes from a post hoc extension (widening the fusion runs from the two pre-registered pairings to all 10) and is labelled exploratory, does not enter pair selection, and does not change the pre-registered conclusions.
+
+**Three facts readable from this list (post hoc exploratory).** First, **seven of the 10 pairings exceed the best fixed single method** (0.9482 dB), namely numbers 1, 2, 3, 4, 7, 9 and 10; those seven **are exactly the pairings containing F-K filtering or low rank**, while the three combinations containing neither (numbers 5, 6 and 8) all fall short. Second, **the primary pair selected by the pre-registered rule (number 5) is precisely the lowest-gain pairing of the 10** (0.0588 dB, with the other nine all at or above 0.42 dB). Third, from the division of labour in Section 4.1, F-K filtering is strong on dispersive surface waves and low rank on linear coherent interference, yet the two members of the primary pair are **strong on neither** — which explains why it comes last.
+
+Figure 6 orders the 10 pairings by fusion gain and marks the reference line of the best fixed single method.
+
+![Figure 6 Fusion gain of the ten method pairings (descending)](figures/fig6_pair_gain_ranking.png)
+**Figure 6** Fusion gain of the ten method pairings (descending bars). The horizontal axis is the median fusion ΔSNR (dB); the vertical axis is the pairing (its two members); the green dashed line is the reference of the best fixed single method at 0.9482 dB; red and orange mark the pre-registered primary pair and the robustness comparator respectively.
+
+**Where selection by noise type sits.** This rule was previously described by saying its median equals that of the per-type oracle, but the rule itself defines how the per-type oracle is taken, which is **a circular statement**, removed here. Two independently checkable quantities are used instead: the **hit rate** (the share of observations on which the rule's chosen method is exactly the per-observation best single method), **89.3%** in-sample and **81.5%** on new seeds; and the **mean shortfall against the per-observation oracle**, **0.27 dB** and **0.28 dB** (**means**, since the hit rate is high and the median shortfall is zero). **The reference on new seeds**: the best fixed single method is fk_filter at **0.967 dB**, while selection by noise type gives **5.984 dB**, about **6.2 times** as much. That is, the benefit of selection comes from **choosing the right method when the noise type is known**, not from any fixed single method being stronger.
+
+**Configuration-level comparison of the primary pair's fusion with its two members ($\gamma = 0.5$, $n = 54$).** The primary fusion is **+0.1658 dB** relative to F-X deconvolution (interval $[0.047, 0.326]$, adjusted $p = 0.0003$) and **+0.0267 dB** relative to wavelet thresholding (interval $[0.017, 0.143]$, adjusted $p = 0.0008$). That is, **significantly positive against both members, but the magnitude is only a few hundredths to a few tenths of a dB**.
+
+**Two notes on rule details.** First, the primary pair and the robustness comparator **admit** no selective substitution of any kind: the pairing set, the selection rule and the roles of the two pairs were all written into the configuration before any result was visible. Second, all three $\gamma$ levels (0.4, 0.5, 0.6) are reported: the larger $\gamma$, the stronger the suppression term $1-\gamma s$ and the more conservative the fusion.
+
+**Table 8** Median signal-to-noise ratio gain and leakage metric for the fusion, its two members and the fixed single methods ($\gamma = 0.5$)
+
+| Item | ΔSNR (dB) | Lsig (dimensionless) |
+| :--- | ---: | ---: |
+| Fusion (primary pair = F-X deconvolution × wavelet thresholding) | 0.0588 | 0.020640 |
+| 　member A: F-X deconvolution | 0.0000 | 0.029151 |
+| 　member B: wavelet thresholding | 0.0422 | 0.015129 |
+| Fusion (robustness comparator = F-X deconvolution × low rank) | 2.5295 | 0.018103 |
+| 　member A: F-X deconvolution | 0.0000 | 0.029151 |
+| 　member B: low rank | 0.9482 | 0.011218 |
+| Per-observation oracle (upper bound, not deployable) | 6.7033 | — |
+| Best fixed single method (low rank) | 0.9482 | 0.011218 |
+| Second-best fixed single method (F-K filtering) | 0.9320 | 0.009706 |
+
+**The primary fusion beats no fixed single method.** Its median signal-to-noise ratio gain of 0.0588 dB is below both the low-rank method's 0.9482 dB and F-K filtering's 0.9320 dB.
+
+**The robustness comparator beats all five fixed single methods.** Its median gain of 2.5295 dB exceeds every single method.
+
+**Comparison of the fusion with the worst single method (configuration level, $n = 54$).** Two definitions of the **worst single method** must first be stated; this paper adopts the former and lists the latter in the same table. **(i) Global worst** — the method that is worst in the macro-average median sense over all 270 observations (F-X deconvolution on ΔSNR, the decomposition method on Lsig), **fixed and not varying with the observation**. **(ii) Per-configuration worst** — the worst method within each configuration, **varying with the configuration**. On the gain side, the primary fusion against **(i) the global worst** (F-X deconvolution) has a **configuration-level median difference of +0.165827 dB**, with a bootstrap 95% interval of $[+0.046848,\,+0.326409]$ and a sign-flip permutation **adjusted $p = 0.000200$**; on the leakage side, the fusion against the worst single method (the decomposition method, taking the maximum) has a **configuration-level median difference of $-0.024528$**, interval $[-0.032315,\,-0.006982]$, **adjusted $p = 0.000200$**. **In both directions the adjusted $p$ is below 0.05 and the interval excludes zero, so the two agree.**
+
+This paper reports the above under the **configuration-level** caliber declared in Section 3.5; the confidence intervals and the test are given on the **same unit of analysis** and agree.
+
+One further note on the adjustment: the **Holm family** is the two comparisons {ΔSNR, Lsig} at that level (each of the three $\gamma$ levels forms its own family, with $m = 2$ within it); the $p$-values above are all **adjusted**. The worst single method is not the same method for the two metrics: since the two run in opposite directions, the gain side takes the minimum while the leakage side takes the maximum.
+
+**Ablation: the gain comes from averaging itself (post hoc exploratory).** To determine whether the weighting and suppression machinery of equations (8)–(10) contributes any gain, two ablations were run: **equal weighting** ($\nu_i = \nu_j = 0.5$) and **pure $C^{2}$ weighting** (dropping the suppression term $1-\gamma s$); neither depends on $\gamma$.
+
+**Table 9** Ablations against the full fusion (ΔSNR median, dB; all 10 pairings)
+
+| Pairing | Equal weighting | Pure $C^{2}$ weighting | Full fusion ($\gamma=0.5$) | $|$full $-$ equal$|$ |
+| :--- | ---: | ---: | ---: | ---: |
+| F-K filtering × F-X deconvolution | 4.1465 | 4.1465 | 4.1515 | 0.0050 |
+| F-X deconvolution × wavelet thresholding (primary) | 0.0588 | 0.0588 | 0.0588 | 0.0000 |
+| F-X deconvolution × low rank (robustness comparator) | 2.5307 | 2.5307 | 2.5295 | 0.0012 |
+| Wavelet thresholding × decomposition | 0.5095 | 0.5095 | 0.5095 | 0.0000 |
+| Decomposition × low rank | 2.0708 | 2.0706 | 2.0455 | 0.0252 |
+| (the remaining 5 pairings omitted; see supplementary material) | — | — | — | ≤ 0.0204 |
+
+> Across all 10 pairings the absolute difference between the ΔSNR medians of the full fusion and of equal weighting **does not exceed 0.0252 dB**. That is, once the weighting machinery is replaced wholesale by equal weighting, the result is almost unchanged. **This shows that the measurable gain of the fusion comes from averaging the two methods itself, while the weighting and suppression machinery introduced by equations (8)–(10) contributes nothing measurable on this data.** The conclusion agrees with the mechanistic account of the $\gamma$ failure in Section 5.2.
+
+**Coherent-noise attenuation and event-level metrics.** The table below lists the measured medians of three metrics directly, without a qualitative conclusion. The caliber must be stated: the coherent-noise attenuation metric (CNA) is computable only on configurations containing an identifiable coherent component, that is the linear coherent interference and dispersive surface wave types, 180 observations in all; band-limited random noise configurations have no coherent component and the metric is recorded as not applicable.
+
+**Table 10** Median coherent-noise attenuation and event-level metrics
+
+| Item | CNA (dB) | Event arrival-time error (ms) | Within-window normalised energy error | Computable observations |
+| :--- | ---: | ---: | ---: | ---: |
+| F-K filtering | 14.6916 | 0.00 | 0.010799 | 180 |
+| F-X deconvolution | 0.0571 | 0.00 | 0.038997 | 180 |
+| Wavelet thresholding | 0.0182 | 0.00 | 0.017392 | 180 |
+| Decomposition | 2.0804 | 2.00 | 0.071400 | 180 |
+| Low rank | 6.7747 | 0.00 | 0.015202 | 180 |
+| Fusion (primary) | 0.1101 | 0.00 | 0.035038 | 180 (identical at all three $\gamma$) |
+| Fusion (robustness comparator) | 2.8370 | 0.00 | 0.032294 | 180 (identical at all three $\gamma$) |
+
+> The fusion rows have an **effective count of 180 computable observations**: although three $\gamma$ levels were run (540 computations in total), the three agree to four decimal places, so the effective sample remains the 180 observations that contain a coherent component. The CNA projection subspace shares its origin with the injection parameters and measures suppression of that injected component, not a universal assessment of arbitrary coherent noise.
+
+**The per-observation oracle is an upper bound, not an attainable baseline.** The per-observation oracle takes, for each observation, the single method with the highest gain, and its macro-average median is 6.7033 dB. That value is necessarily at least the per-observation best of any fixed method, and its construction requires the ground truth, so it is not realisable in practice. It differs in kind from a fixed-pairing fusion: a fixed pairing is chosen once and applies to all observations, and is deployable; the oracle chooses method by method against the ground truth and is not. The gap between fusion and the oracle should therefore not be phrased as a failure of fusion, but as: fusion does not reach an unattainable upper bound, and the primary pair does not exceed the best fixed single method. Figure 7 shows the per-observation box plots side by side.
+
+![Figure 7 Per-observation ΔSNR distributions for fusion, single methods and the oracle](figures/fig7_fusion_vs_single_oracle.png)
+**Figure 7** Per-observation ΔSNR distributions (box plots). In order: the five fixed single methods, the primary fusion, the robustness comparator fusion and the per-observation oracle. The vertical axis is ΔSNR (dB); the box is the interquartile range, the horizontal line the median, and the whiskers the extremes within 1.5 times the interquartile range.
+
