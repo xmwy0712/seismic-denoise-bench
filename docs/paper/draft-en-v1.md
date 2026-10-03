@@ -517,3 +517,55 @@ Changing the pairing or the fusion rule after the results are visible is a post 
 
 ---
 
+## 6 Conclusions
+
+The main results and contributions are as follows.
+
+First, **a pre-registered benchmark protocol**. This paper establishes a first pre-registered seismic denoising benchmark, restricted to this dataset, this rule set and a controlled setting: criteria, configurations, random seeds and evaluation panels are frozen before any method output is observed, and the selection rule for the primary pair is fixed in advance, removing the interference of tuning and selective reporting with the conclusions. It is the bench for every judgement in this paper.
+
+Second, **a measure pathology case**. Error orthogonality, local complementarity (M2) and band complementarity are all computed systematically on this data, and their disagreement is retained and explained. M2 is treated as a **pathological specimen**: its two artifacts — zero inflation and the pooled-threshold construction — together with their interaction with cross-layer pooling, induce a **reverse-selection trap** in the controlled setting. The diagnosis gives a reproducible instance of the gap between a high score and a measure that works. The difference in predictive power of error orthogonality on the fusion gain is a **post hoc exploratory observation** (n = 10, pairings not independent, magnitude varying with the gain definition) and **does not constitute an independent finding**; it serves only as a source of questions for further work.
+
+Third, **quantifying where the gain comes from, and the decision boundary**. An ablation replaces the fusion weights and suppression machinery wholesale with equal averaging, changing the 10-pairing ΔSNR median by no more than 0.0252 dB; on that basis the adaptive weighting is judged to be **mechanism redundancy and spurious complexity**, with the gain coming solely from arithmetic averaging. On that premise, the primary fusion has a ΔSNR median of 0.0588 dB (below the best fixed single method's 0.9482 dB) and the robustness comparator 2.5295 dB; selection by type on physical grounds hits the per-observation best single method in 89.3% of cases (81.5% on new seeds). The per-observation oracle's 6.7033 dB requires the ground truth and is only an upper bound.
+
+**Fourth, the main line of argument (three sentences).** **Sentence one**: the pre-registered machinery was executed in full, and its output was the lowest-gain pairing of the 10 — executing a mechanism correctly is not the same as the mechanism being effective. **Sentence two**: the reason the selection rule failed has been located — the **threshold caliber of pooling across noise types** manufactured an inflated local complementarity score, leaving the primary pair with a score of zero under the **within-noise-type** caliber (consistent with the stratified-threshold test; the caliber dependency is unresolved); the division of labour across noise types accounts for every winner and loser; and the ablation shows the gain comes from averaging itself rather than from the weighting and suppression machinery of equations (8)–(10). (All of these are post hoc exploratory mechanistic explanations; no discriminative experiment was designed, and **both threshold calibers are reported together with the caliber dependency unresolved**.) **Sentence three**: the repair path is selection by noise type, whose median is 6.7033 dB in-sample and 5.9840 dB in **the replication on new seeds**, with the rule's chosen method **remaining first within its group** for all three noise types, though the magnitude in the linear coherent type falls to 45.3% of the original.
+
+**Premise of the repair path (a limitation, at body level).** The effectiveness of selection by noise type depends on one premise: **that the noise type is known**. In this paper's synthetic setting the type is a construction parameter; in real data the type usually has to be identified first, and identification error propagates directly into selection error. The path should therefore be understood as **an upper-bound-style result conditional on the type being known**, whose engineering value depends on the separate problem of noise-type identification, which this paper does not assess.
+
+**A precise statement about the oracle.** The per-observation oracle (taking the best single method for each observation) has a median of 6.7033 dB, and its construction requires the ground truth, so it is **not deployable**. Two cases must be distinguished: **when the noise type is unknown**, neither any fixed pairing nor any fixed single method can reach that value, and the upper bound is unattainable; **when the noise type is known**, selection by type hits the per-observation best single method in **89.3%** (in-sample) and **81.5%** (new seeds) of observations, with a mean shortfall against the oracle of **0.27 dB** and **0.28 dB** (**means**: because the hit rate is high, the median shortfall is 0). That is, the level achieved here comes not from fusion but from **choosing the right method when the noise type is known** — and that premise is itself the main limitation of the path (see Sections 4.3, 4.5 and 5.3).
+
+**Fifth, an exploratory external stress test.** The field data are used as an **exploratory external stress test**: on the two computable panels the three pairings order inconsistently on the four raw indicators (Table 11 of Section 4.4), and the third panel is not computable because no event windows were detected. **Real formation heterogeneity confirms that a single static pairing does not generalise across survey areas.** This section reports no composite score: its normalisation caliber is not documented and could not be reproduced on recomputation.
+
+Taken together, the value of this paper lies not in asserting a technical advantage for any fusion method but in **showing how a strict pre-registered path can dismantle a popular assumption in seismic signal processing and produce an interpretable negative result**: **the unbiased benchmark protocol and the pathological diagnosis of a candidate measure are the core methodological contributions**; the ablation of mechanism redundancy and the out-of-sample test based on the physical division of labour define the effective boundary of denoising decisions. All the extensions above are labelled post hoc and exploratory and do not enter the pre-registered claims.
+
+Future work has four directions: first, extending the method set while keeping the pre-registration, in particular to include domain-adapted learned methods; second, improving the sub-score construction of the discriminative score so that the two methods' scores differ measurably, and thereby examining under what conditions agreement weighting is effective; third, extending the field fusion evaluation to all panels and all indicators; and fourth, introducing **noise-type coverage** as a candidate measure for selection by noise type — the rule's effectiveness currently depends on the premise that the type is known, and an assessable coverage metric is needed to characterise type boundaries and the cost of misclassification, and thereby to delimit the engineering scope of the path.
+
+---
+
+## Acknowledgements
+
+The author thanks the data providers for making the field data used in this study publicly available.
+
+## Funding
+
+This research did not receive any specific grant from funding agencies in the public, commercial, or not-for-profit sectors.
+
+## Declaration of Competing Interest
+
+The author declares that there are no known competing financial interests or personal relationships that could have appeared to influence the work reported in this paper.
+
+## CRediT authorship contribution statement
+
+**Zhang Tao**: Conceptualization, Methodology, Software, Validation, Formal analysis, Investigation, Data curation, Visualization, Writing – original draft, Writing – review & editing.
+
+## Data Availability
+
+The generation configuration, random seeds and evaluation criteria for the synthetic data are frozen before evaluation and available for checking. The field data come from a public dataset under a CC BY 4.0 licence, with the full citation in Section 2.2; redistribution must retain that attribution. The numerical provenance cross-reference material is provided as supplementary material.
+
+The frozen configurations, pre-registration documents, criteria, metrics and statistical products, the manuscript and the per-file checksum list are all provided with this paper, with the per-file checksums listed in Appendix A. Archival registration is not yet complete, so this paper does not cite an archive identifier; the public repository is authoritative.
+
+## Code Availability
+
+The code written for this study is under the MIT licence, with copyright held by the author.
+
+**Code repository**: https://github.com/xmwy0712/seismic-denoise-bench (public; contains all configurations, metric tables and statistical products, the manuscript and accompanying records. The output arrays are not distributed with the repository because of their size, and their per-file checksums are provided with the archive).
+
