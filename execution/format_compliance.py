@@ -124,8 +124,8 @@ def check(doc: Path) -> tuple[list[tuple[str, bool, str]], bool]:
     res.append(("G-no-meta", nmeta == 0, f"命中 = {nmeta}"))
 
     # ── G-cite-ref：引用 ↔ 文献表一一对应
-    cited = sorted({int(m) for m in re.findall(r"\[(\d)\]", t)})
-    listed = sorted({int(m) for m in re.findall(r"^\[(\d)\] ", t, re.M)})
+    cited = sorted({int(m) for m in re.findall(r"\[(\d+)\]", t)})
+    listed = sorted({int(m) for m in re.findall(r"^\[(\d+)\] ", t, re.M)})
     res.append(("G-cite-ref", cited == listed, f"正文 {cited} / 文献表 {listed}"))
 
     # ── G-reader-terms：读者形态词表（正文；附录 B 登记表除外）
@@ -190,6 +190,28 @@ def check(doc: Path) -> tuple[list[tuple[str, bool, str]], bool]:
 
     # ── G-encoding：无 BOM、纯 LF
     b = doc.read_bytes()
+    # ── G-math-balance：行内 $ 成对（$$ 块除外）
+    bad_math = []
+    for _ln, _l in enumerate(t.split("\n"), 1):
+        if _l.strip() == "$$":
+            continue
+        if _l.replace("$$", "").count("$") % 2 != 0:
+            bad_math.append(_ln)
+    res.append(("G-math-balance", not bad_math,
+                f"$ 不成对的行 = {bad_math[:5] if bad_math else '无'}"))
+
+    # ── G-key-symbols：关键句的符号必须在场（中/英任一即可）
+    NEED = [
+        ("§3.2 定义句含 s 与 x", ["以干净记录为 $s$、含噪输入为 $x$",
+                                 "the clean record as $s$, the noisy input as $x$"]),
+        ("§3.4 融合句含 y_i 与 y_j", ["设两方法输出为 $y_{i}$、$y_{j}$",
+                                     "the two method outputs $y_{i}$ and $y_{j}$"]),
+        ("表 2 截断单位 m/s", ["800.0 m/s"]),
+    ]
+    kmiss = [n for n, alts in NEED if not any(a in t for a in alts)]
+    res.append(("G-key-symbols", not kmiss,
+                f"缺失 = {kmiss if kmiss else '无'}（共 {len(NEED)} 项）"))
+
     res.append(("G-encoding", (not b.startswith(b"\xef\xbb\xbf")) and b.count(bytes([13])) == 0,
                 f"BOM={b[:3] == b'\xef\xbb\xbf'} CR={b.count(bytes([13]))}"))
 
