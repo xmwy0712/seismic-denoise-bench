@@ -58,8 +58,8 @@ seismic-denoise-bench/
 
 ## 3. 不可变性：Git tag 体系
 
-| tag | 冻结对象 | 计划时点 |
-| :--- | :--- | :--- |
+| tag | 冻结对象 |
+| :--- | :--- |
 | `protocol-frozen` | 协议冻结 |
 | `config-frozen` | 数据 / 指标 / 配置 / 野外面板冻结 |
 | `fusion-rules-frozen` | 融合规则冻结 |
