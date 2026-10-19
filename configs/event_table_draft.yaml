@@ -1,21 +1,10 @@
-# ============================================================
-# configs/event_table_draft.yaml
-#
-# 事件表（**草案** —— 正式冻结在 P1.5）
-# 编码约定：UTF-8 无 BOM，LF 换行
-#
-# 说明：本文件给出"事件表"的结构与候选取值，供 P1.5 冻结。
-#   事件窗来源**沿用已冻结的掩码规则**（沿时间轴膨胀 n_T、round-half-up），
-#   本草案不改动该规则。
-# ============================================================
-
 meta:
   stage: P1.2-draft
   frozen: false
   frozen_on: P1.5
   note: "事件表为草案；P1.2 不冻结、不建 tag"
 
-# 事件窗生成规则（**引用**已冻结规则，不重新定义）
+# 事件窗生成规则
 event_window_rule:
   source: "P0.3-Am1 裁定 1 + P0.3-Am3 C5/C6"
   detect: "|s| >= threshold（含等号）"
@@ -46,7 +35,7 @@ schema:
     type: int
     note: "该配置的 n_T（逐配置不同，见 config_matrix.yaml 的 n_T_records）"
 
-# 事件匹配容差（**A2：先冻结、后测量**；详见 docs/metrics-spec.md 第 3 节）
+# 事件匹配容差
 matching_tolerances:
   time_tol_ms: 40.0
   trace_tol: 2
@@ -58,7 +47,7 @@ matching_tolerances:
   declared_at: "2026-09-25"
   frozen_on: P1.5
 
-# 验证集噪声条件（L1：明确声明，避免论文越界表述）
+# 验证集噪声条件
 validation_noise_conditions:
   baseline_subsets: "无噪（检出由构造直接给定）"
   supplementary: "注册噪声档 L2（目标输入 SNR 0 dB、振幅比例 0.60）"
@@ -66,7 +55,7 @@ validation_noise_conditions:
     95% 门限的适用范围以**实测覆盖的条件**为准；若含噪条件下匹配率显著低于无噪条件，
     论文不得表述为"在噪声数据上仍可达 95%"。
 
-# 测试集子集（由构造定义真值，非"检测后标定"）
+# 测试集子集
 test_subsets:
   - id: isolated
     separation_ms: "> 200"
