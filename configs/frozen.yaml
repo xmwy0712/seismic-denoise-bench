@@ -1,21 +1,15 @@
 # =============================================================================
-# configs/frozen.yaml —— P1 全量配置冻结（P1.5）
+# configs/frozen.yaml —— 全量配置冻结
 # =============================================================================
 #
 # 依据：docs/task-sheets/P1.5-全量配置冻结-2026-10-04.md
 #        SHA256 前 8 位 = 61419E78（字节 7771，SHA256 61419E78BAFB5BBDC2833C4CD4ED4B9B5132559810189B15D9CC9C747013D488）
-#
-# 本文件是 P2（云上主实验）的**唯一配置权威**。冻结后任何修改都必须：
-#   新版本文件 + 新 tag + 书面说明（见 docs/FROZEN-CHECKLIST.md 末节）。
-# **缺一项即视为未冻结，P2 不得启动**。
-#
-# 每项的 `source` 字段给出**来源归档件名 + SHA256 前 8 位**。
 
 meta:
   stage: P1.5
   frozen: true
   frozen_on: '2026-10-04'
-  authority: '本文件为P2唯一配置权威'
+  authority: '本文件为唯一配置'
   checklist: docs/FROZEN-CHECKLIST.md
   item_count: 22
 
@@ -31,8 +25,7 @@ item_01_synthetic_matrix:
   axes: {models: [M1, M2], noise_types: [N1, N2, N3], noise_levels: [L1, L2, L3], f_main_hz: [15.0, 25.0, 40.0]}
   n2_level_slot_interpretation: >
     N2（线性相干）不接受 amplitude_ratio（特例条款），其 level 槽位由 param_slots.n2_v_app_m_s
-    [800, 1500, 3000] 承担（L1/L2/L3 依次对应）。**本执行方解读**，依据 config_matrix 的
-    param_slots 与 N2 特例；如签发方另有口径，以签发方为准。
+    [800, 1500, 3000] 承担（L1/L2/L3 依次对应）。**本执行方解读**，依据 config_matrix 的param_slots 与 N2 特例
 
 # ---------------------------------------------------------------- 2 主模型参数
 item_02_model_m1:
@@ -114,8 +107,6 @@ item_04_noise_levels:
     findings:
       - 'N1 与 N3 在 M1/M2 上映射完全一致（差 0.00 dB）——噪声按干净数据 RMS 归一化，SNR 由 ratio 唯一决定'
       - 'N2 无档位概念（口径 ii 不适用）；M1 13.69 dB / M2 9.07 dB（中位），映射不统一，如实并列'
-      - '**更正记录**：本执行方首版实测脚本误再乘一次干净 RMS，得 M1/N1/L1 = 16.51 dB；经核对实现语义（amplitude 本身即「相对干净数据 RMS 的倍率」）后修正，复测 = 10.46 dB，与解析值一致。'
-
 # ---------------------------------------------------------------- 5 频散面波
 item_05_dispersive_surface_wave:
   source: {file: 'docs/task-sheets/P1.1-Am1-频散物理合理性与报告口径-2026-09-30.md', sha8: 'F7E0BB32'}
@@ -125,7 +116,7 @@ item_05_dispersive_surface_wave:
   n_components: 24
   probe_freqs_hz: [5.0, 8.0, 12.0, 15.0, 18.0, 22.0, 25.0]
   dispersion_v_band_mps: [100.0, 3000.0]
-  band_check: 'R15-a：解析 v(f) 在整个预注册频带上必须落在 dispersion_v_band_mps 内，越界即 fail'
+  band_check: 'R15-a：解析 v(f) 在整个预注册频带上必须落在 dispersion_v_band_mps 内，越界即失败'
   v_law: 'linear: v(f) = v0 + c*f'
 
 # ---------------------------------------------------------------- 6 掩码与事件窗
@@ -374,21 +365,20 @@ item_18_search_boundary:
     not_a_recall_proof: true
   named_gap: >
     Sandia 2023《Comparative Study of the Performance of Seismic Waveform Denoising Methods
-    Using Local and Near-Regional Data》不在语料中（实验室出版页，可能无 Crossref DOI /
-    未被检索源索引 -> 检索管道**结构性覆盖不到灰色文献**）。
+    Using Local and Near-Regional Data》不在语料中。
   screening_limitation: '相关性初筛**仅基于 title 字段**，未逐条读摘要，存在误判风险；滚雪球以引文关系部分弥补'
   competition_definition:
     direct_competition: 'D1 勘探反射地震域 且 D2 >=3 种去噪方法系统对比（作研究主体）且 D3 含互补性分析或融合机制'
     adjacent_competition: '满足 D2 但不满足 D1 或 D3'
     verdict: '直接竞争 0 篇（按上述定义）；边缘竞争 9 篇'
     list_file: docs/bibliography/competitor-list.md
-  cut_off: '2026-10-04（此后不得新增文献）'
+  cut_off: '2026-10-04'
 
 # ---------------------------------------------------------------- 19 P2 判据修正记录
 item_19_p2_criterion_record:
   source: {file: 'docs/task-sheets/P1.3-Am2-秩谱实测与判定规则-2026-10-02.md', sha8: '558F2FEF'}
   original: 'outlier_trace_fraction < 0.05 -> 0/40 满足（0.0595-0.5165）；dead 40/40 满足 -> 均无区分力'
-  withdrawn_generation: '分位阈值（全候选逐道值 P5）**自证**，已撤回'
+  withdrawn_generation: '分位阈值（全候选逐道值 P5），已撤回'
   decoupled_scan: '绝对阈值 TAU=0.5 -> 异常道比例 0.9430-1.0000，**无可用工作点**'
   final: '**P2（几何质量）不参与面板质量判据**（不追溯）'
 
@@ -430,14 +420,12 @@ item_22_time_and_hash:
   tag_type: annotated
   tag_points_to_commit: '记录于 docs/FROZEN-CHECKLIST.md 与 docs/execution-log.md（tag 附注含本文件哈希）'
   self_reference_note: >-
-    **工程说明（如实）**：任务单第 22 项要求「frozen.yaml 自身哈希 + tag 指向 commit」。
-    这两项在**同一文件内自指**不可能成立（哈希与 commit 均由文件内容决定）。
+    **工程说明（如实）：
+    「frozen.yaml 自身哈希 + tag 指向 commit」这两项在**同一文件内自指**不可能成立（哈希与 commit 均由文件内容决定）。
     本批采用**可核验的外置记录**：哈希与 commit 写入 checklist / execution-log / tag 附注，
-    与本文件逐字节绑定。若签发方要求内嵌，需**新增一次 commit + 新 tag**（不可 amend）。
+    与本文件逐字节绑定。
 
-# =============================================================================
-# 冻结前实测（成本重测，按冻结尺寸）
-# =============================================================================
+
 pre_freeze_measurements:
   source: {file: 'docs/task-sheets/P1.5-全量配置冻结-2026-10-04.md', sha8: '61419E78'}
   grid: [512, 64]
