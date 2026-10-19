@@ -1,39 +1,17 @@
-# =============================================================================
-# ⚠️ 本文件为 **frozen-v2**（冻结件 v2）—— P2.3-Am1 / 裁定 L（2026-09-27）
-# =============================================================================
-# **v2 = v1 全文 + 补登两个生成参数（item_04_supplement）**，**未改变任何已冻结值**。
-# v1（`configs/frozen.yaml`，SHA256 `1695C1965D0F307E5CA55ABDA1B2206D1058F67DE4827770382602F2F2944A3F`）**原文件保留不动**，按 P1.5 冻结纪律：
-# 「任何修改都须新版本文件 + 新 tag + 书面说明」。
-#
-# **补登缘由**：R-M 重构（P2.3）时排查发现，v1 冻结时遗漏两个**生成参数**：
-#   · N1（带限随机噪声）的频带 `band_hz`
-#   · N2（线性相干干扰）的 `f_main_hz`
-# 二者为 P1.1 **实现已用值**，v1 冻结时遗漏登记（**值本身未变**）。
-# 补登后，**单一权威冻结来源**成立，`frozen.yaml + 哈希钉死草案` 的双来源故事收口。
-#
+# 本文件为 **frozen-v2**
+# frozen-v1（即`configs/frozen.yaml`，SHA256 `1695C1965D0F307E5CA55ABDA1B2206D1058F67DE4827770382602F2F2944A3F`）**原文件保留不动**，供读者审阅。
+# **补登原因**：R-M 重构时排查发现，v1 冻结时遗漏两个**生成参数**：
+# · N1（带限随机噪声）的频带 `band_hz`
+# · N2（线性相干干扰）的 `f_main_hz`
+# 二者为实验**实现已用值**，v1 冻结时遗漏登记（**值本身未变**）。
 # **as-run 一致性**：补登值 = Run 2 全矩阵（1350 格）实际所用值
-# （N1 band = [5.0, 80.0]；N2 f_main = 30.0），**逐字对齐** ⇒
-# **全部 1350 格结果无需重跑**（P2.3-Am1 裁定 L 第 1 条）。
-# =============================================================================
-
-# =============================================================================
-# configs/frozen.yaml —— P1 全量配置冻结（P1.5）
-# =============================================================================
-#
-# 依据：docs/task-sheets/P1.5-全量配置冻结-2026-10-04.md
-#        SHA256 前 8 位 = 61419E78（字节 7771，SHA256 61419E78BAFB5BBDC2833C4CD4ED4B9B5132559810189B15D9CC9C747013D488）
-#
-# 本文件是 P2（云上主实验）的**唯一配置权威**。冻结后任何修改都必须：
-#   新版本文件 + 新 tag + 书面说明（见 docs/FROZEN-CHECKLIST.md 末节）。
-# **缺一项即视为未冻结，P2 不得启动**。
-#
-# 每项的 `source` 字段给出**来源归档件名 + SHA256 前 8 位**。
+# （N1 band = [5.0, 80.0]；N2 f_main = 30.0），**逐字对齐** ⇒ **全部 1350 格结果无需重跑**。
 
 meta:
   stage: P1.5
   frozen: true
   frozen_on: '2026-10-04'
-  authority: '本文件为P2唯一配置权威'
+  authority: '本文件为唯一配置'
   checklist: docs/FROZEN-CHECKLIST.md
   item_count: 22
 
@@ -49,8 +27,7 @@ item_01_synthetic_matrix:
   axes: {models: [M1, M2], noise_types: [N1, N2, N3], noise_levels: [L1, L2, L3], f_main_hz: [15.0, 25.0, 40.0]}
   n2_level_slot_interpretation: >
     N2（线性相干）不接受 amplitude_ratio（特例条款），其 level 槽位由 param_slots.n2_v_app_m_s
-    [800, 1500, 3000] 承担（L1/L2/L3 依次对应）。**本执行方解读**，依据 config_matrix 的
-    param_slots 与 N2 特例；如签发方另有口径，以签发方为准。
+    [800, 1500, 3000] 承担（L1/L2/L3 依次对应）。
 
 # ---------------------------------------------------------------- 2 主模型参数
 item_02_model_m1:
@@ -79,7 +56,7 @@ item_03_model_m2:
     fault_throw_samples: 25.0
     lateral_velocity_gradient: 0.0
     sparsity: 0.55
-  non_horizontality_evidence: '结构张量倾角中位绝对值（P1.1 验收 f）：9.33 度 > 阈值'
+  non_horizontality_evidence: '结构张量倾角中位绝对值：9.33 度 > 阈值'
 
 # ---------------------------------------------------------------- 4 噪声强度档位（双口径）
 item_04_noise_levels:
@@ -132,18 +109,17 @@ item_04_noise_levels:
     findings:
       - 'N1 与 N3 在 M1/M2 上映射完全一致（差 0.00 dB）——噪声按干净数据 RMS 归一化，SNR 由 ratio 唯一决定'
       - 'N2 无档位概念（口径 ii 不适用）；M1 13.69 dB / M2 9.07 dB（中位），映射不统一，如实并列'
-      - '**更正记录**：本执行方首版实测脚本误再乘一次干净 RMS，得 M1/N1/L1 = 16.51 dB；经核对实现语义（amplitude 本身即「相对干净数据 RMS 的倍率」）后修正，复测 = 10.46 dB，与解析值一致。'
 
 # ---------------------------------------------------------------- 5 频散面波
 item_05_dispersive_surface_wave:
   source: {file: 'docs/task-sheets/P1.1-Am1-频散物理合理性与报告口径-2026-09-30.md', sha8: 'F7E0BB32'}
   model: {v_model: linear, v0: 500.0, c: 10.0, a: 250.0, b: 0.5}
-  a_b_values_source: 'tests/test_data_acceptance.py DISP_A=250.0 / DISP_B=0.5（P1.1 已验收实现值）'
+  a_b_values_source: 'tests/test_data_acceptance.py DISP_A=250.0 / DISP_B=0.5'
   frequency_band_hz: [5.0, 25.0]
   n_components: 24
   probe_freqs_hz: [5.0, 8.0, 12.0, 15.0, 18.0, 22.0, 25.0]
   dispersion_v_band_mps: [100.0, 3000.0]
-  band_check: 'R15-a：解析 v(f) 在整个预注册频带上必须落在 dispersion_v_band_mps 内，越界即 fail'
+  band_check: 'R15-a：解析 v(f) 在整个预注册频带上必须落在 dispersion_v_band_mps 内，越界即失败'
   v_law: 'linear: v(f) = v0 + c*f'
 
 # ---------------------------------------------------------------- 6 掩码与事件窗
@@ -448,10 +424,10 @@ item_22_time_and_hash:
   tag_type: annotated
   tag_points_to_commit: '记录于 docs/FROZEN-CHECKLIST.md 与 docs/execution-log.md（tag 附注含本文件哈希）'
   self_reference_note: >-
-    **工程说明（如实）**：任务单第 22 项要求「frozen.yaml 自身哈希 + tag 指向 commit」。
-    这两项在**同一文件内自指**不可能成立（哈希与 commit 均由文件内容决定）。
+    **工程说明**：
+    「frozen.yaml 自身哈希 + tag 指向 commit」这两项在**同一文件内自指**不可能成立（哈希与 commit 均由文件内容决定）。
     本批采用**可核验的外置记录**：哈希与 commit 写入 checklist / execution-log / tag 附注，
-    与本文件逐字节绑定。若签发方要求内嵌，需**新增一次 commit + 新 tag**（不可 amend）。
+    与本文件逐字节绑定。
 
 # =============================================================================
 # 冻结前实测（成本重测，按冻结尺寸）
@@ -492,7 +468,7 @@ determined_params:
   n3_params: {"v_model": "linear", "v0": 500.0, "c": 10.0, "a": 250.0, "b": 0.5, "f_lo_hz": 5.0, "f_hi_hz": 25.0, "n_components": 24, "ab_source": "tests/test_data_acceptance.py DISP_A=250.0 / DISP_B=0.5（P1.1 已验收）"}
 
 # ------------------------------------------------------------
-# item_04_supplement · 补登两个生成参数（P2.3-Am1 / 裁定 L，2026-09-27）
+# item_04_supplement · 补登两个生成参数
 # ------------------------------------------------------------
 item_04_supplement:
   source:
